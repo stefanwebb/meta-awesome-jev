@@ -101,7 +101,7 @@ The response contains one typed answer per question:
 }
 ```
 
-*(The numbers are illustrative. This is the shape Mercury Decide actually returns; Score levels come back as objects keyed by level index. Output tokens are counted but not billed.)* Your code then decides what to do with the answers:
+Your code then decides what to do with the answers:
 
 ```python
 a = response["answers"]
@@ -132,8 +132,6 @@ if a["wants_refund"]["noul"] > 0.9 and a["frustration"]["score"] >= 1.5:
 - **32,768-token context.**
 - About **0.42 s p50 latency** and up to ~14 decisions per second.
 - The same `/v1/systemone` question schema shown above.
-
-Tested 2026-10-01: both routes below returned answers in about 0.5 s with `"cost": 0`.
 
 **1. Get a free OpenRouter API key** at [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys).
 
