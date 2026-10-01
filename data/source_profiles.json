@@ -1,0 +1,638 @@
+{
+ "99hansling__awesome-jev": {
+  "one_liner": "Small Chinese-language curated list of Jev components for local agent harnesses (router, context, browser, verification, skills), emphasizing boundaries between official Jev and community projects.",
+  "languages": "Chinese",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "AbdelStark__awesome-typesafe-jev": {
+  "one_liner": "A careful, source-backed \"field guide\" to Jev. It has an official-resource index, a route comparison (direct/Cloudflare/Netlify/Vercel/OpenRouter), runnable starters, a \"before you trust a decision\" failure-mode table, and ~280 caveated community entries.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (field guide / tutorial hybrid)"
+ },
+ "Ai-trainee__awesome-jev": {
+  "one_liner": "Chinese-first collection of 68 X posts + 56 open-source projects about Jev, each \"Jev-scored\", with screenshots, packaged as an agent-loadable SKILL.md + references/index.json.",
+  "languages": "Chinese (README.md) and English (README_EN.md; post titles remain in Chinese)",
+  "type": "skills-collection",
+  "type_full": "skills-collection (curated X-post/use-case collection)"
+ },
+ "AiPersonacademy__Awesome-jev-use": {
+  "one_liner": "\"APA Awesome Jev\" — bilingual (EN/ZH) curated Jev list with a solid official-cookbook index, heavily interleaved with AIPersona Academy / JevProxy self-promotion.",
+  "languages": "English + Simplified Chinese (README_zh.md)",
+  "type": "curated-list",
+  "type_full": "curated-list (promotional)"
+ },
+ "Amal-David__awesome-jev": {
+  "one_liner": "Tight editorial awesome list (~70 reviewed Jev projects with demo gallery) backed by a ~2,270-row auto-discovered catalog and source-review notes.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (editorial README) + auto-generated-list (docs/CATALOG.md)"
+ },
+ "Anil-matcha__awesome-jev-by-typesafe": {
+  "one_liner": "Evidence-backed practical guide to Jev: quick facts, primitives, 31 use-case recipes, community implementations, benchmarks, safety checklist and runnable Python/TS starter code.",
+  "languages": "English",
+  "type": "tutorial/study-guide",
+  "type_full": "tutorial/study-guide (hybrid with curated-list)"
+ },
+ "AnotiaWang__awesome-jev": {
+  "one_liner": "Classic, well-structured awesome list (~220 entries) of Jev SDKs, apps, agent tools, open models and independent evaluations, with a full Simplified Chinese translation.",
+  "languages": "English + Simplified Chinese (README_zh.md, same link set)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "AppitStudio__awesome-jev": {
+  "one_liner": "Large, evidence-heavy community directory of Jev-powered apps and developer tools, plus runnable offline examples, a coding-agent guide skill, and article-derived implementation guides.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (with tutorial/study-guide and project/code components)"
+ },
+ "AstonyCat__jev-tab-grouper": {
+  "one_liner": "\"Tab Sorter\" is a Chrome MV3 extension that groups every open tab into named, colored groups. It sorts with Jev (fixed rules, ~1s) or with any OpenAI-compatible LLM (the LLM invents the groups).",
+  "languages": "English README (Chinese tagline and screenshots)",
+  "type": "project/code",
+  "type_full": "project/code (not a list)"
+ },
+ "Awesome-llms-labs__awesome-jev": {
+  "one_liner": "Explainer-style awesome list with specs, API reference, honest benchmark scorecard, limitations, use-case table, runnable examples, and a large set of third-party articles on Jev.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (with tutorial/study-guide components and example code)"
+ },
+ "BeatAPI__awesome-jev": {
+  "one_liner": "Source-reviewed catalogue of 228 Jev projects with 50+ stars each, including major-framework integrations, organised by type and six build-scenario guides; published by API reseller BeatAPI.",
+  "languages": "English, Simplified Chinese, Japanese",
+  "type": "curated-list",
+  "type_full": "curated-list (script-assisted; promotional)"
+ },
+ "CodeAlex52__awesome-jev-cn": {
+  "one_liner": "A Chinese-language Jev list focused on Chinese social media (X Chinese KOLs, Xiaohongshu, Bilibili), with a quickstart, short project reviews, a controversies section and an anti-scam note.",
+  "languages": "Chinese (primary), a little English",
+  "type": "curated-list",
+  "type_full": "curated-list (Chinese community / media-focused) + tutorial/study-guide"
+ },
+ "Eurekaleo__awesome-jev-survey": {
+  "one_liner": "Academic evidence survey (with LaTeX/PDF manuscript) of Jev and Jev-like typed decision models: 17 arXiv core studies, open implementations audit, seven synthesized findings.",
+  "languages": "English",
+  "type": "papers-list",
+  "type_full": "papers-list (survey paper + structured data)"
+ },
+ "Faizullah9181__jev-esketcher": {
+  "one_liner": "Generative painting app where Jev chooses paint materials/palettes for selected sketch regions; FastAPI + React, with mock and real Jev modes.",
+  "languages": "English",
+  "type": "project/code",
+  "type_full": "project/code (not a list)"
+ },
+ "Frank-ZY-Dou__awesome-jev": {
+  "one_liner": "Rigorously sourced index of ~25 Jev robotics, simulation, 3D/animation and control demos, with quoted claims, archived videos, and a reported-numbers table.",
+  "languages": "English",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection (niche: robotics / embodied / 3D)"
+ },
+ "FuturExplorator__awesome-jev-cases": {
+  "one_liner": "A bilingual (CN/EN), heavily governed case library of 27 source-verified Jev projects. Each case explains exactly what Jev decides and what code does, with pinned commits and SHA-256 evidence receipts.",
+  "languages": "Chinese, English (every case is bilingual)",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection"
+ },
+ "Gerry9000__awesome-jev": {
+  "one_liner": "Huge, media-heavy \"Awesome Jev & Fast Classifiers\" directory (awesomejev.org) with ~200 curated repos, 25 teardown dossiers, recipes, and a 6,000+ repo auto-scraped radar.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (plus auto-generated-list for RADAR.md)"
+ },
+ "JingHao-Leon__awesome-jev-apps": {
+  "one_liner": "Chinese-language, quality-first list of 122 Jev apps, SDKs, platform integrations, open replicas, tutorials and discussions, with specs, quickstart and FAQ.",
+  "languages": "Chinese (English summary line only)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "JohnDotOwl__awesome-jev": {
+  "one_liner": "Script-generated (GitHub search → projects.json → README) awesome list of 318 Jev projects in 10 categories, snapshot 2026-09-18.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list (semi-curated: descriptions/categories kept once edited)"
+ },
+ "Justmalhar__awesome-jev-apps": {
+  "one_liner": "100 runnable, standalone Streamlit/Python apps built on Jev's three primitives, across 10 domains, with a strict app spec and provider config for TypeSafe or OpenRouter.",
+  "languages": "English",
+  "type": "project/code",
+  "type_full": "project/code (not a list) — an app collection/cookbook with a catalog.json index"
+ },
+ "KennethAshley__awesome-jev": {
+  "one_liner": "Classic awesome-style list of 410 Jev projects, SDKs and write-ups across 19 categories with cross-cutting tags, generated from a JSON data file.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "KuzanJ__awesome-jev": {
+  "one_liner": "Rigorous, license-audited directory of Jev-related GitHub repositories (92 featured, 3,903 indexed), strongest on open decision models, local inference engines and evaluation projects.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (featured selection) + auto-generated-list (full catalog built from GitHub searches via scripts/render_catalog.py)"
+ },
+ "Li-Evan__awesome-jev": {
+  "one_liner": "The largest bilingual (EN/ZH) Jev gallery: 3,398 projects, posts, videos and docs organized by scenario, plus an excellent one-page cheatsheet distilled from official docs.",
+  "languages": "English + Simplified Chinese (full parallel translation, incl. cheatsheet and all sub-pages)",
+  "type": "curated-list",
+  "type_full": "curated-list (large, semi-automated collection with human-written descriptions; data in YAML → build.py renders README, scenario pages and a searchable GitHub Pages gallery)"
+ },
+ "MrJev__awesome-jev": {
+  "one_liner": "A selective, code-verified Jev project list: 419 entries, each checked to actually call Jev, plus 10+ stars. It includes hands-on security reviews (mrjev.com) and a dated SDK/platform changelog.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "MumuTW__awesome-jev": {
+  "one_liner": "Small, opinionated \"taste over breadth\" Jev list with editorial notes per entry, plus a clearly labeled Jev-like open-model section; available in five languages.",
+  "languages": "English, Traditional Chinese, Simplified Chinese, Japanese, Korean (readme.*.md translations)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "OmniJev__awesome-jev-gallery": {
+  "one_liner": "Research-oriented \"Awesome JEV\" list of papers, open reproductions, benchmarks with headline numbers, lineage/prior work, and the tools Jev is sold against; with a gallery site.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (research/benchmark-oriented; also has a site built from entries.json)"
+ },
+ "OmniJev__awesome-jev-papers": {
+  "one_liner": "Papers-only list: 29 arXiv papers on Jev from its first two weeks plus 22 foundational papers, each checked against arXiv, with abstracts cached in site/arxiv.json.",
+  "languages": "English",
+  "type": "papers-list",
+  "type_full": "papers-list"
+ },
+ "Omrigotlieb__awesome-jev": {
+  "one_liner": "Deduplicated, auto-audited union of ~9 other awesome-jev lists: 1,603 entries with twice-daily link/Jev-evidence checks and cross-list agreement counts.",
+  "languages": "English (some entry descriptions in Chinese/Japanese)",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list (merge + audit; README generated from entries.json by build_readme.py; discover.py runs GitHub search)"
+ },
+ "Oscar-dzy__Awesome-jev-papers": {
+  "one_liner": "Evidence-aware annotated bibliography of 35 Jev research items — 30 arXiv preprints (with exact v1 timestamps) plus key vendor and technical articles.",
+  "languages": "English",
+  "type": "papers-list",
+  "type_full": "papers-list"
+ },
+ "Pleo2__awesome-jev-agent-skills": {
+  "one_liner": "Five installable Codex/Claude Code agent skills (diff review, test coverage, failure triage, extraction review, QA evidence) that call Jev via a stdlib-only Python client.",
+  "languages": "English, Spanish (README.es.md)",
+  "type": "skills-collection",
+  "type_full": "skills-collection (project/code, not a link list)"
+ },
+ "Promethe-us__awesome-jev": {
+  "one_liner": "Rigorous, source-audited bilingual field guide to Jev: specs, gateway integration matrix, timeline, ~21 arXiv papers with author-reported numbers, evaluations, hands-on and robotics guides.",
+  "languages": "Chinese (README.md, docs/*.md) and English (README_EN.md, docs/*_EN.md); GitHub Pages web guide",
+  "type": "curated-list",
+  "type_full": "curated-list (with tutorial/study-guide and papers-list components)"
+ },
+ "Python-World__Awesome-jev": {
+  "one_liner": "Mostly empty skeleton \"awesome\" list with 9 Jev project links and placeholder sections; official links point to the wrong domain (typesafe.co).",
+  "languages": "English",
+  "type": "spam/low-quality",
+  "type_full": "spam/low-quality (skeleton list)"
+ },
+ "RadRebelSam__awesome-jev": {
+  "one_liner": "Daily-crawled, Jev-triaged directory of Jev repos (claims ~3,000 entries) with star counts, trending section, coverage checks against 14 rival directories, and a website.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "Sarim-MBZUAI__awesome-jev-security": {
+  "one_liner": "Focused papers list on the security, robustness and safety of Jev and RLCD/System One models: 11 arXiv papers with dates, authors and quantitative one-paragraph summaries.",
+  "languages": "English",
+  "type": "security/robustness",
+  "type_full": "security/robustness (papers-list)"
+ },
+ "SeeAPI__awesome-jev-use-cases": {
+  "one_liner": "Evidence-labelled casebook of 83 public Jev projects, each described by what Jev judges, what code does, reusable pattern and key limit; ships an agent Skill and a routing recipe.",
+  "languages": "English and Simplified Chinese (README.zh-CN.md, per-case .zh-CN files)",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection"
+ },
+ "THEROCKSSS__awesome-jev": {
+  "one_liner": "Daily auto-updated GitHub-metadata catalog of ~1,944 Jev/System One repos (merged from 21 awesome lists + GitHub search) with an interactive Pages site rendering each repo's README.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "Vishnurr2k01__awesome-jev": {
+  "one_liner": "Beginner-friendly curated awesome list with a long explainer (\"Jev is a smart if statement\"), quickstart, when-not-to-use table, official cookbooks/patterns index, articles and glossary.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (with strong tutorial front matter)"
+ },
+ "Yifan-Lan__awesome-jev-robustness": {
+  "one_liner": "Curated evidence map of 132 independent robustness and calibration tests of Jev (mostly jev-1.13.0), with a synthesized property-by-property findings table.",
+  "languages": "English",
+  "type": "security/robustness",
+  "type_full": "security/robustness (curated evidence list)"
+ },
+ "Zhao-Tian-yi__awesome-jev": {
+  "one_liner": "Research-grade, evidence-audited map of open Jev/System One reimplementations (architecture, readout, training/RL, weights), with taxonomy, evaluation protocol and papers.",
+  "languages": "English, Simplified Chinese, Japanese (parallel READMEs; data YAML carries en/zh/ja notes)",
+  "type": "papers-list / tutorial/study-guide hybrid — best described as a research landscape of open models",
+  "type_full": "papers-list / tutorial/study-guide hybrid — best described as a research landscape of open models (curated-list of implementations)"
+ },
+ "aitofy-dev__jev-awesome-skills": {
+  "one_liner": "npm package + CLI + eight agent skills (Claude Code, Codex, Cursor, Grok) that use Jev to decide proceed/ask/stop, route skills, guard commands, verify claims, triage, review, act.",
+  "languages": "English",
+  "type": "skills-collection",
+  "type_full": "skills-collection (project/code)"
+ },
+ "aliaihub__awesome-jev-usecases": {
+  "one_liner": "Evidence-labeled guide to building with Jev: 11 use-case pages, design method, patterns, failure modes, model selection, evaluation methodology, showcase of ~100+ launch-week projects, 9 Python examples.",
+  "languages": "English",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection (also tutorial/study-guide)"
+ },
+ "anandi1989__awesome-jev-usecases": {
+  "one_liner": "A use-case index of what people actually ship with Jev, grouped by decision shape (Workflow/Bulk/Realtime/Verify/Harness/Voice). Headline metrics are tagged self-reported or independent, and there is a ranked blog list.",
+  "languages": "English",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection"
+ },
+ "andyrewlee__awesome-system-one": {
+  "one_liner": "Tightly curated, category-level \"Awesome System One\" list covering Jev and competing hosted/open decision models, open implementations, agents, tools, SDKs, baselines, benchmarks, papers and foundations.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "ayyazzafar__needle-jev": {
+  "one_liner": "Not a list: a fork of Shubham Saboo's \"Needle\" semantic find-in-page app (Chrome extension + React app) that calls Jev directly with a TypeSafe key or via Vercel AI Gateway.",
+  "languages": "English",
+  "type": "project/code",
+  "type_full": "project/code (not a list)"
+ },
+ "bakiabaci__awesome-jev": {
+  "one_liner": "\"Definitive architecture guide\" and ecosystem radar for Jev, Laya and System One models. A narrative README plus a heuristically scored catalog of 7,414 repos.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (narrative README) + auto-generated-list (catalog/)"
+ },
+ "cagbal__awesome-jev": {
+  "one_liner": "Minimal reference list: 4 official TypeSafe repos and 10 community Jev projects, each with a one-sentence description and a strong liability disclaimer.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (trivial)"
+ },
+ "caohy1988__jev-guard-smoke": {
+  "one_liner": "Internal smoke-test notes and install scripts for running the jev-guard npm package (Jev-based coding-agent command guard) on one Codex seat, via an OpenRouter System One shim.",
+  "languages": "English",
+  "type": "project/code",
+  "type_full": "project/code (not a list) — security test log"
+ },
+ "charetterat__awesome-jev-essentials": {
+  "one_liner": "Opinionated, small (84-project) Jev list where every entry has a hand-written \"why this one\" reason, often quoting the project's own measured numbers and admitted limits.",
+  "languages": "English and Chinese (README.zh-CN.md)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "ckaraca__awesome-jev": {
+  "one_liner": "A clean, star-sorted awesome list of about 130 tools, integrations and experiments built on Jev. It is strong on official TypeSafe repos and on big-framework integrations.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "cobanov__awesome-jev": {
+  "one_liner": "Source-backed, commit-pinned curated list of ~155 Jev projects plus official/provider/framework resources, with dated research notes documenting evidence and corrections.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "daftAI2026__awesome-jev": {
+  "one_liner": "Auto-collected directory of ~2,188 Jev/System One GitHub projects (awesomejev.cc), admitted by Jev itself, plus a 213-item Chinese Jev news archive from AIHOT.",
+  "languages": "English (README/docs); news archive (data/news.json) mostly Chinese; site in EN/ZH/JA",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "dog-last__awesome-jev": {
+  "one_liner": "\"Awesome Jev Guide\": a decision-oriented guide to whether and how to use Jev. It has a mermaid decision tree, 4 cookbooks tested in CI against the live API, a cost formula, and curated tables of use cases, reproductions and independent evals.",
+  "languages": "English, Simplified Chinese (README.zh-CN.md, docs/zh/). There is also a VitePress web version.",
+  "type": "tutorial/study-guide",
+  "type_full": "tutorial/study-guide (plus curated-list)"
+ },
+ "evan87863__awesome-jev-examples": {
+  "one_liner": "Carefully sourced, use-case-organized index of 72 Jev resources (46 projects, 25 official docs/cookbooks, 1 engineering report), with per-entry review notes in four languages.",
+  "languages": "English (source), Simplified Chinese, Japanese, Spanish",
+  "type": "curated-list",
+  "type_full": "curated-list (use-case oriented)"
+ },
+ "everyinfra__jev-radar": {
+  "one_liner": "Bilingual \"field report & live monitor\" of the Jev ecosystem: a 265KB Chinese casebook of 220+ evidence-graded cases, a 698-entry registry, API access guide, briefing skill.",
+  "languages": "Chinese (primary: CASEBOOK, API guide) + English (README half)",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection (casebook + machine-readable registry; auto-scan every 3 hours)"
+ },
+ "fanly__Jev-awesome": {
+  "one_liner": "Small, Chinese-first, developer-focused Jev catalog of 14 curated entries. Each card explains what Jev owns in the project, what to read first, and what hasn't been verified. It comes with three Chinese guide essays and a heavily engineered collector pipeline.",
+  "languages": "Chinese (primary README and guides), English (short README.en.md)",
+  "type": "curated-list + tutorial/study-guide",
+  "type_full": "curated-list + tutorial/study-guide"
+ },
+ "fatwang2__awesome-jev": {
+  "one_liner": "Directory of 163 open-source Jev projects. Each submission is reviewed by Jev itself through a GitHub Action that checks the source for a real integration.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (Jev-reviewed submissions; README generated from entries/*.json)"
+ },
+ "fivetaku__awesome-jev-study": {
+  "one_liner": "Bilingual (Korean/English) annotated \"reading\" of kraayenjon/awesome-jev at commit 22570dcd: one page per list row, with fact-checks and LLM/script counterfactuals.",
+  "languages": "Korean and English (curriculum lectures Korean-only)",
+  "type": "tutorial/study-guide",
+  "type_full": "tutorial/study-guide"
+ },
+ "guozihang__awesome-jev-for-sequence-modeling": {
+  "one_liner": "A compact, explainer-style Jev awesome list with a specs table, SDK snippets, 4 arXiv papers, community benchmarks and an 11-item gotchas list. The repo name (\"sequence modeling\") does not fit the content.",
+  "languages": "English (README.md), Chinese (README_ZH.md)",
+  "type": "curated-list",
+  "type_full": "curated-list (explainer-heavy)"
+ },
+ "ham-zax__awesome-jev": {
+  "one_liner": "Strict, hand-curated awesome list (downstream of yibie/awesome-jev) organizing ~350 Jev projects, evaluations and write-ups by decision pattern and application domain.",
+  "languages": "English (entries link to some Chinese/Japanese X posts)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "hellogumbo__awesome-jev": {
+  "one_liner": "Large community directory (1,094 entries) of Jev projects, integrations and X/blog coverage, backing the awesomejev.com site with daily star refresh.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (semi-automated discovery plus PR/issue submissions)"
+ },
+ "heyjunpenn__awesome-jev": {
+  "one_liner": "Large, daily-updated catalog of 962 GitHub projects built with Jev, with evidence-labelling scheme, backed by the jevbest.com Astro/Cloudflare site.",
+  "languages": "English, plus full translations: Simplified Chinese, Japanese, Korean, Spanish, Portuguese (Brazil) (README.*.md)",
+  "type": "curated-list",
+  "type_full": "curated-list (large, semi-automated; also contains a project/code site with sponsor/Stripe backend)"
+ },
+ "jqueryscript__awesome-jev": {
+  "one_liner": "Conventional awesome-list of 308 Jev resources — SDKs, gateways, framework integrations, MCP/agent tools, open alternatives, benchmarks — with one-line descriptions, last verified 2026-09-30.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (generated README block from a resource store, but hand-described)"
+ },
+ "jtnkminimal__awesome-jev": {
+  "one_liner": "Verified and ranked list of 136 Jev projects plus 18 upstream integrations into major OSS projects, with a Top-25 ranked by stars blended with a Jev-scored \"interest\" rating.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (semi-automated, Jev-assisted verification)"
+ },
+ "karozi__awesome-jev-resources": {
+  "one_liner": "Small beginner-oriented Jev resource list for practitioners and PMs: two Substack explainers by the maintainer, official docs, one paper, and ~12 community projects.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (small)"
+ },
+ "kraayenjon__awesome-jev": {
+  "one_liner": "Comprehensive awesome list of Jev use cases, SDKs, official docs/cookbooks, benchmarks and open models, maintained by the madewithjev.com directory, with a \"builds with real numbers\" table.",
+  "languages": "English (one Spanish LinkedIn explainer linked)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "kydlikebtc__awesome-jev": {
+  "one_liner": "\"Jev Decision Atlas\": an evidence-tracked catalogue of ~1,210 public Jev resources indexed by decision pattern, with a cross-gateway compatibility matrix and negative results.",
+  "languages": "English + full Chinese (README.zh-CN.md, docs/*.zh-CN.md)",
+  "type": "curated-list",
+  "type_full": "curated-list (heavily tooled; README generated from catalog.json, also ships an MCP server, Claude Code plugin/skill, static site)"
+ },
+ "larkwins__awesome-jev": {
+  "one_liner": "Chinese/English hub of 51 Jev app projects in 12 categories plus 10 community lists, with GitHub star snapshots, repo screenshots and an HTML card gallery.",
+  "languages": "Chinese (README.md, primary) + English (README_EN.md)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "logicrw__awesome-jev-projects": {
+  "one_liner": "\"Awesome Jev — System-1 Agent Architecture Radar\": a large, auto-synced, 4-language catalog of 799 Jev projects. Each entry states **where Jev makes a decision**, with commit-pinned source evidence and a searchable web app.",
+  "languages": "English, Simplified Chinese, Japanese, Korean",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list (a radar with human source review; also a web app and an agent skill)"
+ },
+ "mabodx__awesome-jev": {
+  "one_liner": "Auto-generated merge of 31 community awesome-jev lists (1,299 projects) from the jevusers.com index, ranked by how many lists include each project.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "majiayu000__awesome-jev": {
+  "one_liner": "Careful, bilingual (EN/ZH) curated Jev list with website, ~410-entry catalog, official-docs map, gotchas, research notes, dated updates, arXiv papers, and a tested example.",
+  "languages": "English + Simplified Chinese (README_zh.md, most catalog/updates in Chinese)",
+  "type": "curated-list",
+  "type_full": "curated-list (with research notes + study guide)"
+ },
+ "mturac__awesome-jev-alternatives": {
+  "one_liner": "Carefully verified list of open, self-hostable alternatives and building blocks for System One-style decision models: engines, runtimes, zero-shot classifiers, calibration tools, datasets, papers.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (alternatives / papers)"
+ },
+ "mukishitsuu-png__awesome-jev-ja": {
+  "one_liner": "Japanese-language curated Jev list (~70 entries) with plain-language explanations, safety cautions, and original macOS computer-use latency measurements.",
+  "languages": "Japanese (short English summary)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "munibashami07-oss__awesome-jev": {
+  "one_liner": "Empty scaffold of an \"Awesome Jev\" repo: a README with a table of contents and placeholders; every linked file is empty.",
+  "languages": "English",
+  "type": "spam/low-quality",
+  "type_full": "spam/low-quality (empty scaffold)"
+ },
+ "notsointresting__awesome-jev-family": {
+  "one_liner": "An awesome list of Jev-*like* decision models: open replicas, local runtimes and ports, SDKs, calibration benchmarks and architecture discussions. It covers the models, not the apps that use them.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (focused on open alternatives)"
+ },
+ "onlyoasis__awesome-jev-cases": {
+  "one_liner": "Bilingual structured catalog of 43 Jev case studies (input → Jev decision → action → evidence limit), 81 GitHub projects, and 18 official TypeSafe cookbooks.",
+  "languages": "Chinese (README.md, CATALOG.md) and English (README.en.md); data JSON bilingual; mirrored at typesafe-jev.com",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection"
+ },
+ "onmyway133__awesome-jev": {
+  "one_liner": "Compact, clean awesome-list of ~115 open-source GitHub projects using Jev, with star badges and one-line descriptions across six categories.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "oxwen11__awesome-jev": {
+  "one_liner": "Terse showcase list of ~200 things people built with Jev, each line stating what Jev decides inside the project.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (showcase)"
+ },
+ "ozers__jevsome-projects": {
+  "one_liner": "Deliberately short list of 72 open-source projects that provably call Jev, each linked to the exact source line proving the call; daily-refreshed pipeline and site.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list (pipeline-generated, strict proof-of-call filter)"
+ },
+ "punk2898__awesome-jev-verified": {
+  "one_liner": "Code-verified auto-generated directory of 788 Jev repos (each linked to the exact line calling Jev) plus an original 2,390-question benchmark testing TypeSafe's marketing claims.",
+  "languages": "English and Simplified Chinese (README.zh-CN.md); full benchmark report in Chinese (external site)",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list (with original benchmark — also security/robustness-relevant)"
+ },
+ "rhc98__awesome-jev": {
+  "one_liner": "Fully Jev-curated directory: ~9,800 GitHub repos judged by one Jev call each (11 typed questions); README shows top 15 per category; site awesome-jev.xyz; published calibration report vs human gold set.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "robokrunch__awesome-jev": {
+  "one_liner": "Very large, heavily annotated curated Jev list (891 lines, ~400KB) by RoboKrunch; unusually strong Benchmarks section with numbers, sources and caveats.",
+  "languages": "English (some entry descriptions in Chinese; covers JP/KR/TR/PL/PT/FR/DE-language resources)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "rudy2steiner__awesome-jev-hub": {
+  "one_liner": "Small, English-first developer hub for Jev: four-path quick start (Playground, cURL, SDKs, agent skill) plus 30 curated resources across ten categories.",
+  "languages": "English (canonical) + Chinese quick-start (README_CN.md)",
+  "type": "curated-list",
+  "type_full": "curated-list (with tutorial quick start)"
+ },
+ "rupeshpoojary9__awesome-open-system-one": {
+  "one_liner": "Small curated list of the *open* System One ecosystem: open Jev-like models, independent benchmarks, calibration/abstention tooling, and constrained-decoding libraries.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "scienceaix__jev": {
+  "one_liner": "Long analytical report (\"The Awesome Jev Open-Source Ecosystem\") profiling about 12 leading Jev projects, open models and integrations, with a leaderboard, timeline, maturity matrix and recommendations (snapshot 2026-09-28).",
+  "languages": "English",
+  "type": "other",
+  "type_full": "other (ecosystem survey/analysis report; reads like an AI deep-research report)"
+ },
+ "sfmqrb__awesome-decision-models": {
+  "one_liner": "Clean, vendor-neutral \"Awesome Decision Models\" list covering Jev plus the open Laya/Kev/SemIf ecosystem: weights, runtimes, SDKs, integrations, research code, benchmarks, papers, articles.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "shirenchuang__awsomejev": {
+  "one_liner": "Chinese-language navigation table of 485 Jev-related GitHub repos in 10 categories, listing only name, link and primary language — no descriptions.",
+  "languages": "Chinese (Simplified) headings; entries are English repo names",
+  "type": "curated-list",
+  "type_full": "curated-list (bare link directory; likely semi-automated)"
+ },
+ "snowfungo__awesome-jev-projects": {
+  "one_liner": "Collection of 194 Jev demos sourced exclusively from X (Twitter) posts, each described by a truncated quote of the author's tweet; README in four languages.",
+  "languages": "English, Chinese (zh-CN), Korean (ko-KR), Japanese (ja-JP) — parallel READMEs",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection (social-media showcase)"
+ },
+ "sontakey__awesome-jev": {
+  "one_liner": "Small, evidence-badged catalog (128 entries) of public projects that actually use Jev, with action-taking projects first. Includes an audit of the official GitHub org and skill-gap analysis.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list (use-case collection with evidence badges)"
+ },
+ "stainlu__awesome-jev": {
+  "one_liner": "Daily auto-swept index of every public Jev repo (6,213 indexed, 2,307 \"active\" listed) topped by a short, hand-read Featured section with opinionated \"why click\" notes.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list (daily GitHub Action `scripts/discover.py`) with a small curated-list layer"
+ },
+ "supermanc417-alt__awesome-jev-hub": {
+  "one_liner": "A small bilingual hub of 51 Jev app projects in 12 categories, plus 10 community lists, with GitHub-API star snapshots, repo screenshots and a visual HTML \"collection\" page.",
+  "languages": "Chinese (README.md), English (README_EN.md)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "tanxarx__awesome-jev": {
+  "one_liner": "Curated Jev list (sourced from X threads) of open clones, integrations and — most valuably — ~60 annotated articles/threads summarizing independent tests, critiques and playbooks with numbers.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "thevibeworks__awesome-typesafe-jev": {
+  "one_liner": "Rigorously reviewed Jev list (1,093 projects, 35 editors' picks with strengths/weaknesses, 70 reads) plus the list's own first-hand latency and failure-mode measurements against jev-1.13.0.",
+  "languages": "English (some Japanese sources listed)",
+  "type": "curated-list",
+  "type_full": "curated-list (AI-reviewed against a rubric, human spot-checked) with original measurements (security/robustness-adjacent \"lab\")"
+ },
+ "v-modal__awesome-jev-tools": {
+  "one_liner": "Strict, pattern-organized curated list (~226 entries) of public projects and practices using Jev, categorized by decision type, with an explicit \"curation is not endorsement\" checklist.",
+  "languages": "English (links to some Chinese/Japanese posts)",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "v4fs__awesome-jev-security": {
+  "one_liner": "Not a list: two small Python scripts using the official TypeSafe SDK — a security-report triage example and a prompt-injection detector evaluated on a 5,000-row benchmark.",
+  "languages": "English (code)",
+  "type": "project/code",
+  "type_full": "project/code (not a list)"
+ },
+ "valentynkit__awesome-jev-typesafe": {
+  "one_liner": "Hand-curated, link-checked awesome list (406 entries) of Jev projects, official docs and independent evaluations. The same list is published as a searchable site, an agent skill and projects.json.",
+  "languages": "English source; generated zh-CN, ja, ko READMEs",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "vicfei__awesome-jev-prompts": {
+  "one_liner": "A library of 43 Jev question-design patterns and anti-patterns, \"question design is the prompt engineering of typed decisions\". Each entry has a template, threshold guidance, failure modes and sources.",
+  "languages": "English, Chinese (README.zh-CN.md)",
+  "type": "prompt-collection",
+  "type_full": "prompt-collection"
+ },
+ "walidboulanouar__awesome-jev-use-cases": {
+  "one_liner": "Use-case list of Jev demos (mostly X/Twitter videos) with engagement metrics, 150+ repos, official cookbook summaries, limits, reported cost/latency and unshipped ideas.",
+  "languages": "English",
+  "type": "use-case-collection",
+  "type_full": "use-case-collection"
+ },
+ "wh000wh000__awesome-jev-live": {
+  "one_liner": "Auto-rebuilt (every 2h), evidence-graded index of ~800 Jev/TypeSafe ecosystem entries in 20 languages, plus a Chinese \"knowledge\" log of verified official facts and independent evaluations.",
+  "languages": "English primary; generated editions in 20 languages (zh-CN, zh-TW, ja, ko, es, fr, de, pt-BR, ru, it, ar, hi, tr, vi, th, id, pl, nl, uk). data/knowledge.json is in Chinese.",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "whyashthakker__awesome-jev-use-cases": {
+  "one_liner": "Runnable Node app with 50 minimal visual use-case demos, each comparing Jev Choice/Score/Noul with OpenAI gpt-4o-mini Structured Outputs side by side.",
+  "languages": "English",
+  "type": "project/code",
+  "type_full": "project/code (not a list) — tutorial-style use-case collection"
+ },
+ "wuyoscar__jev-skill": {
+  "one_liner": "\"Awesome Jev Skills\": 5 installable coding-agent skills (Codex/Claude Code/OpenCode), a `jev-decide` CLI, 108 scenario templates and 66 curated projects. It also has unusually transparent small evals with every raw request and response kept.",
+  "languages": "English, Chinese (README.zh.md)",
+  "type": "skills-collection",
+  "type_full": "skills-collection (plus curated-list and evals)"
+ },
+ "yangzhou-chaofan__awesome-jev-prompt": {
+  "one_liner": "\"Prompt\" (state + question) pattern collection for Jev plus a star-ranked Top-30 showcase of early community builds, with a detailed source registry and a companion HTML gallery on neta.art.",
+  "languages": "English (source notes include some Chinese filenames)",
+  "type": "prompt-collection",
+  "type_full": "prompt-collection (with a use-case showcase and an unusually detailed sources/verification file)"
+ },
+ "yanng981__awesome-system-one": {
+  "one_liner": "Auto-synced comparison table of 25 \"System One\" decision models — hosted Jev, Liquid AI d1, and open Jev-compatible reproductions — with size, license and /v1/systemone compatibility.",
+  "languages": "English",
+  "type": "auto-generated-list",
+  "type_full": "auto-generated-list"
+ },
+ "yibie__awesome-jev": {
+  "one_liner": "Domain-categorized awesome list (~535 entries) of public Jev projects and practice signals, with strict inclusion rules and a Jev-powered tagging script.",
+  "languages": "English",
+  "type": "curated-list",
+  "type_full": "curated-list"
+ },
+ "youzizzz1028__Awesome-Jev": {
+  "one_liner": "Academic-style, evidence-labeled index connecting Jev to the research literature (calibration, selective prediction, constrained decoding, routing), with an original survey paper \"Decisions, Not Tokens\".",
+  "languages": "English (README, LaTeX survey); Chinese (README.zh-CN, survey_zh.md)",
+  "type": "papers-list",
+  "type_full": "papers-list (plus a small ecosystem index and an original survey)"
+ },
+ "yunhe-dev__awesomejev": {
+  "one_liner": "Source code for the awesomejev.dev directory website (a fork of the commercial Mkdirs Next.js/Sanity template) plus a design for a \"Jev-verified\" inclusion pipeline; not itself a list.",
+  "languages": "Chinese (primary, design docs/policy) and English (README intro)",
+  "type": "project/code",
+  "type_full": "project/code (not a list)"
+ },
+ "yzfly__awesome-jev-zh": {
+  "one_liner": "Chinese-language curated Jev list with hands-on measurements, access-channel comparison, gotcha list, local-deployment benchmarks, and a sober \"calm view\" of independent evals.",
+  "languages": "Chinese (Simplified); a few Japanese article links",
+  "type": "curated-list",
+  "type_full": "curated-list (with strong tutorial/study-guide content)"
+ }
+}

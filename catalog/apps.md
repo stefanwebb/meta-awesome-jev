@@ -1,0 +1,304 @@
+# Apps & Domain Applications
+
+> End-user apps: email, calendar, voice, smart home, health, legal, education, marketing, support.
+>
+> **281 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 17
+
+- [AboveColin/HA-Jev](https://github.com/abovecolin/ha-jev) `★68 · 📚56` — Ask your house a question, get a number back. Home Assistant integration for TypeSafe Jev: typed answers as sensors, four actions for automations, and a conversation agent for Assist.
+- [socai-io/jev-social](https://github.com/socai-io/jev-social) `★130 · 📚42` — Open-source, local-first social media research agent for Instagram, TikTok, and LinkedIn. Jev routes read-only steps; socai CLI captures cited browser evidence.
+- [AkashPriyadarshii/jev-seo](https://github.com/akashpriyadarshii/jev-seo) `★88 · 📚32` — Free Rust SEO and GEO toolkit powered by TypeSafe Jev: 58-rule audits, site crawls, AI citation checks, rank drift, CI gates, 15-tool MCP. Zero cost.
+- [kevinbadi/jev-voice](https://github.com/kevinbadi/jev-voice) `★106 · 📚25` — Talk to your Mac. Local whisper.cpp + one Jev (TypeSafe) call per command + macOS automation.
+- [skeptrunedev/jev-recruiter](https://github.com/skeptrunedev/jev-recruiter) `★51 · 📚19` — A Jev powered LinkedIn recruiting agent. Watch it browse relevant profiles, save links, and review evidence against your hiring brief.
+- [AgriciDaniel/jev-seo](https://github.com/agricidaniel/jev-seo) `★361 · 📚17` — Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports.
+- [Little-Planet-Labs/jev-playground](https://github.com/little-planet-labs/jev-playground) `★1 · 📚17` — A small Next.js app for experimenting with TypeSafe AI's Jev model (System One)
+- [OmniJev/OneJev](https://github.com/omnijev/onejev) `★64 · 📚16` — 🚀🚀 A multimodal System One decision model that gives calibrated answers to typed questions about screens, photos, video and text in one forward pass.
+- [mkotlikov/jev-grug](https://github.com/mkotlikov/jev-grug) `★4 · 📚16` — Helping JEV speak <3.
+- [Wizhill05/typesafe-image-diffusion](https://github.com/wizhill05/typesafe-image-diffusion) `★0 · 📚16` — Diffusion-style pixel art out of a general classifier (TypeSafe Jev): 256 parallel pixel questions + refinement passes
+- [gaborishka/jevtown](https://github.com/gaborishka/jevtown) `★12 · 📚14` — Jevtown: a social network where people write and 10,000 AI personas react
+- [chris-wozniczek/jev-voice-control](https://github.com/chris-wozniczek/jev-voice-control) `★5 · 📚14` — Control your Mac by voice. Speech → Jev (TypeSafe AI System One model) typed decisions → macOS actions. Menu-bar Swift app.
+- [FerryCorleone/crush-monitor](https://github.com/ferrycorleone/crush-monitor) `★264 · 📚13` — Crush 好感监控器：用 Jev 分析微信聊天的情绪、意图和回复表现。本机部署，使用自己的 API Key。
+- [FeiLiuEM/open-medical-jev](https://github.com/feiliuem/open-medical-jev) `★38 · 📚12` — High-performance, high-precision, locally-fast-deployed Jev-class medical decision service on national medical exams — four readings, one routed decision, zero training.
+- [epergaboni/jevseo](https://github.com/epergaboni/jevseo) `★5 · 📚11` — Typed SEO, AEO and GEO judgments powered by Jev, a System One decision model. Code owns the rules, the model owns the meaning.
+- [obetomuniz/auto-mode-for-paseo](https://github.com/obetomuniz/auto-mode-for-paseo) `★4 · 📚11` — Paseo plugin that routes each message to a persona on Codex, Claude, OpenCode, or any other installed provider.
+- [Latent Space](https://latent.space/p/ainews-jev-a-system-one-model-that) `📚11` — Jev, a System One model that only decides - Launch-day writeup on what a decision-only model changes for latency and cost.
+
+## Established (cited by 5–9 lists) — 27
+
+- [2951461586/Jev-Register-Tool](https://github.com/2951461586/jev-register-tool) `★30 · 📚9` — TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器
+- [useopencompany/opencompany](https://github.com/useopencompany/opencompany) `★11 · 📚9` — AI workspace with chat, durable tasks and workflows, connected integrations, Brain knowledge, and cloud coding sessions.
+- [adammichaelwood/jev-music-theory-1](https://github.com/adammichaelwood/jev-music-theory-1) `★2 · 📚8` — jev-music-theory-1 - Explores Jev on harmony exercises and music-theory questions, alongside a piano demo driven by chord choices.
+- [elie222/inbox-zero](https://github.com/elie222/inbox-zero) `★12,379 · 📚7` — The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
+- [YaoApp/yao](https://github.com/yaoapp/yao) `★8,067 · 📚7` — ✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.
+- [zhuyansen/jev-news-cold-start](https://github.com/zhuyansen/jev-news-cold-start) `★2 · 📚7` — Cross-domain check on MIND news: a zero-shot Jev headline prior is worth ~500 labelled articles, adds +0.069 ρ as features, and lifts a Thompson-sampling cold start by 25%.
+- [tusharck/jev-inbox-queue](https://github.com/tusharck/jev-inbox-queue) `★1 · 📚7` — Turn an inbox into a short action queue with Jev (TypeSafe System One)
+- [integralmarketingmx/jev-latam-lead-triage](https://github.com/integralmarketingmx/jev-latam-lead-triage) `★0 · 📚7` — Triage de leads de WhatsApp/CRM con Jev (TypeSafe AI): ruteo por confianza, plantilla n8n y benchmark en español. Sin dependencias. No afiliado.
+- [mahynotch/newsscore](https://github.com/mahynotch/newsscore) `★0 · 📚7` — One number per ticker from the week's news. Async Python library + CLI, pluggable scorer, Jev by default.
+- [TypeSafe AI's Jev Is Not an LLM - and That May Be the Point](https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point) `📚7` — Jev Is Not an LLM, and That May Be the Point - News analysis treating the refusal to generate text as the feature and following through on what it implies for inference spend.
+- [xhongc/jev-music-tag](https://github.com/xhongc/jev-music-tag) `★5 · 📚6` — 利用 jev 刮削音乐元数据,风格,语言.
+- [rohit9mehta/dwim](https://github.com/rohit9mehta/dwim) `★3 · 📚6` — Do what I mean: type what you want in plain words and it runs the right menu item in any Mac app. Powered by Jev (bring your own key).
+- [darthblanc/tictacjev](https://github.com/darthblanc/tictacjev) `★1 · 📚6` — A tic-tac-toe app where one player is Jev, TypeSafe AI's System One Model with live confidence scores and probabilities.
+- [zhuyansen/jev-support-pulse](https://github.com/zhuyansen/jev-support-pulse) `★1 · 📚6` — Does a Jev-labelled support-tweet stream spike before a brand admits an outage? At equal false alarms it catches 17 vs 10 incidents (volume), ~4h ahead; a good keyword list is almost as good.
+- [namayasai/backstage-jev-operations-support](https://github.com/namayasai/backstage-jev-operations-support) `★0 · 📚6` — Jev-powered operations decision support for Backstage: readiness checks, incident triage, change review, template and team recommendations, and catalog reranking.
+- [Refix](https://refix.ai) `📚6` — Growth: AI that helps your product grow faster on autopilot by running product experiments, SEO, content, and ads.
+- [Vonage-Community/demo-video-javascript-jev-starter](https://github.com/vonage-community/demo-video-javascript-jev-starter) `★0 · 📚6` — This application is intended to showcase to developers a possible use case of Vonage Video API and TypeSafe AI to create an AI support agent that quickly detects if a user is getting frustrated and start a video call with a Human agent.
+- [WesleySmits/spark-jev-email-triage](https://github.com/wesleysmits/spark-jev-email-triage) `★0 · 📚6` — Email triage app built around Spark CLI and TypeSafe Jev. Early development: TanStack Start, React and TypeScript
+- [flyryan/ai-news-aggregator](https://github.com/flyryan/ai-news-aggregator) `★31 · 📚5` — Multi-agent AI news pipeline powered by GLM-5.3-Flash and Jev
+- [mgarlabx/Jev-Enem](https://github.com/mgarlabx/jev-enem) `★4 · 📚5` — Jev for essay grading: real repo from the OEGlobal education thread (3★, created 2026-09-20).
+- [Ayushmaniar/jev-voice-computer-use](https://github.com/ayushmaniar/jev-voice-computer-use) `★3 · 📚5` — Jev voice-controlled computer use: hold a key, speak, and Jev operates your apps. Windows today; macOS, Linux and Android ports welcome.
+- [ChosenXu/newsletter-link-harvester](https://github.com/chosenxu/newsletter-link-harvester) `★3 · 📚5` — Agent Skill: harvest links from newsletter emails into Raindrop.io with the author editorial context attached - Gmail read-only, three-layer dedup, zero-context library compare
+- [funkadelic/ha-gutcheck](https://github.com/funkadelic/ha-gutcheck) `★2 · 📚5` — Home Assistant integration that makes small judgment calls about your install
+- [mintannn/THE-HUNDRED-EYES](https://github.com/mintannn/the-hundred-eyes) `★1 · 📚5` — 衆目 / THE HUNDRED EYES — Interactive media art with Jev Choice + Score: one post, 100 fictional perspectives, four amplified voices, then the whole audience.
+- [mrebbert/Jev-CustomerService-Demo](https://github.com/mrebbert/jev-customerservice-demo) `★0 · 📚5` — Ticket-Routing im Kundenservice mit dem Entscheidungsmodell Jev von typesafe.ai
+- [site](https://thursdai.news) `📚5`
+- [ZeroX-01/jev-atlas](https://github.com/zerox-01/jev-atlas) `★0 · 📚5` — Continuously updated public index of real TypeSafe JEV projects, videos, articles, and open-source demos.
+
+## Emerging (cited by 3–4 lists) — 39
+
+- [Anmol-Srv/jev-video-search](https://github.com/anmol-srv/jev-video-search) `📚4` — Semantic video scene search: embeddings retrieve, Jev decides. Measured on MSR-VTT — +9 pts R@1, and
+- [blackopsrepl/jev-team-calendar](https://github.com/blackopsrepl/jev-team-calendar) `📚4` — jev-team-calendar - Resume-discovered project teams, scheduled by SolverForge. ★ 0.
+- [botta0oss/News_Aggregator](https://github.com/botta0oss/news_aggregator) `📚4` — From news to probabilities: a news aggregator that estimates the events listed on Polymarket, compares the estimate with the price and says ...
+- [ego lite](https://lite.ego.app) `📚4`
+- [hosted app](https://jevpdf.fly.dev) `📚4` — Open jevpdf.fly.dev, click Try the sample report (a fictional four-page annual report), add a TypeSafe key when prompted, and ask one of the suggested questions. To run it yourself:
+- [igorkasyanchuk/voice_control](https://github.com/igorkasyanchuk/voice_control) `📚4` — Rails engine for voice and typed commands: define actions in a Ruby DSL and Jev picks the matching command or page control, with your own authorization and signed, replay-protected execution.
+- [kostysh/goblin-hr](https://github.com/kostysh/goblin-hr) `📚4` — Web demo that scores six fantasy applicants with four typed Jev questions and builds a three-member party with weights in TypeScript. no license · TypeScript
+- [MillionSend/millionsend](https://github.com/millionsend/millionsend) `📚4` — Open-source email platform on AWS SES. The hosted version scores outbound mail with Jev for content monitoring. ⭐ 170
+- [nabendu82/jev-reflex](https://github.com/nabendu82/jev-reflex) `📚4` — jev-reflex - nabendu82/jev-reflex - Multimodal Mac controller using Hand gestures and voice.
+- [Pimmetjeoss/tribe-crm-jev](https://github.com/pimmetjeoss/tribe-crm-jev) `📚4` — Lead-intake pilot for Tribe CRM where Jev judges unstructured lead messages and TypeScript handles lookups, thresholds, idempotency and dry-run write plans. no license · TypeScript
+- [seosangwon/jev-sr](https://github.com/seosangwon/jev-sr) `📚4` — jev-sr - jev-sr: TypeSafe Jev ecosystem repository. · TypeScript
+- [Triage across 1,500 emails](https://madewithjev.com/builds/inbox-triage-1500-emails) `📚4` — Batch inbox labels; throughput does not prove accuracy
+- [zyphr-labs/turnstile](https://github.com/zyphr-labs/turnstile) `📚4` — turnstile - Guardrails for AI agent actions. Deterministic policy, Jev semantic checks, and replayable decisions. · TypeScript
+- [网站](https://jevcli.vectorz.app) `📚4`
+- [网站](https://jevinik.up.railway.app) `📚4`
+- [AiPersonacademy/jev-sales-radar](https://github.com/aipersonacademy/jev-sales-radar) `📚3` — Live Sub-25ms Sales AI Teleprompter & Objection Anticipation Engine in Rust. Anticipates prospect subtext and…
+- [AiPersonacademy/Jev-Video-Hook-Studio](https://github.com/aipersonacademy/jev-video-hook-studio) `📚3` — Jev-Video-Hook-Studio - Terminal workbench & SQLite benchmark suite for 3s retention odds, LF8 & policy risk.
+- [ariigrangetto/emailClasJev](https://github.com/ariigrangetto/emailclasjev) `📚3` — Email classifier with typesafe-ai
+- [chenbaiyujason/jev-cut](https://github.com/chenbaiyujason/jev-cut) `📚3` — jev-cut — Music-driven anime editing with jev decision models, FreeCut, and reproducible media preparation. _(★0, TypeScript)_
+- [ColinDargent/tri-emails-jev](https://github.com/colindargent/tri-emails-jev) `📚3`
+- [danielyedaniel/jevme](https://github.com/danielyedaniel/jevme) `📚3` — jevme - Talk to your Mac and it does it — in any app, while you're still talking. Open-source voice agent that gets faster the more you use it. · Python
+- [Hardik500/dragon-voice-control](https://github.com/hardik500/dragon-voice-control) `📚3` — topic:jev created:2026-09-20..2026-09-21
+- [hatif03/try-typesafe-app](https://github.com/hatif03/try-typesafe-app) `📚3` — try-typesafe-app - try-typesafe-app: TypeSafe Jev ecosystem repository. · TypeScript
+- [hypnguyen1209/jev-paseo](https://github.com/hypnguyen1209/jev-paseo) `📚3` — model-agnostic typed-decision judge plugin for Paseo
+- [iamomiid/jev-inbox](https://github.com/iamomiid/jev-inbox) `📚3` — Chrome extension that puts unread Gmail first, critical on top, labeled by TypeSafe Jev.
+- [jamalla/jev-langgraph-ticket-app](https://github.com/jamalla/jev-langgraph-ticket-app) `📚3` — jev-langgraph-ticket-app - jev-langgraph-ticket-app: TypeSafe Jev ecosystem repository. · Python
+- [jinyoung/jev-omni-video-probe](https://github.com/jinyoung/jev-omni-video-probe) `📚3` — Run Jev-Omni's typed-decision classifier on video on Apple Silicon (MPS) — CLI, label-wording probe,
+- [JuneYaooo/jev-healthcare-lab](https://github.com/juneyaooo/jev-healthcare-lab) `📚3` — Reviewed 2026-09-25 (Europe/Sofia) at commit 8978023. AI-assisted README and LICENSE inspection; scenario suites not re-run.
+- [kirin765/jev-email-filter](https://github.com/kirin765/jev-email-filter) `📚3` — jev-email-filter - jev-email-filter: TypeSafe Jev ecosystem repository. · Python
+- [mikakostoev/jev-voice-control](https://github.com/mikakostoev/jev-voice-control) `📚3` — Always-listening voice control for macOS: on-device speech → TypeSafe Jev decisions model (via OpenR
+- [MykViacheslav/jev-qualification-app](https://github.com/mykviacheslav/jev-qualification-app) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [Nik-1019/nextwork-jev-inbox-autopilot](https://github.com/nik-1019/nextwork-jev-inbox-autopilot) `📚3` — Build an inbox autopilot in n8n that sorts Gmail with Jev and only acts when it's confident. NextWor
+- [ns2250225/voice-magic](https://github.com/ns2250225/voice-magic) `📚3` — topic:jev created:2026-09-20..2026-09-21
+- [photon-collider/jevs-kitchen](https://github.com/photon-collider/jevs-kitchen) `📚3` — jevs-kitchen - A test kitchen for questions code can't answer, exploring structured AI decisions with Jev. · TypeScript
+- [Product homepage](https://socai-io.github.io/jev-social) `📚3` — Live site · (Full Jev Social guide)(jev-social.md) · Source
+- [s2422114/jev_app](https://github.com/s2422114/jev_app) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [TomySpagnoletti/speed-reading-app](https://github.com/tomyspagnoletti/speed-reading-app) `📚3` — speed-reading-app - Read AI coding agent outputs in seconds. Jev, TypeSafe's decision model, highlights what needs your decision or action and dims the rest. Tauri + CodeMirror app for macOS. · TypeScript
+- [typesafeai.app](https://typesafeai.app) `📚3` — Independent directory of public Jev capabilities: each record states what Jev was shown doing, links to its public sources, and carries an evidence level (author-reported to editor-reproduced) and an Official or…
+- [withoneai/jev-email-classifier](https://github.com/withoneai/jev-email-classifier) `📚3` — Sort your Gmail inbox into categories you write in plain English. TypeSafe's Jev makes each call wit
+
+## Long tail (cited by 1–2 lists) — 198
+
+<details><summary>Show 198 long-tail entries</summary>
+
+- [AiPersonacademy/apa-scraping-suite](https://github.com/aipersonacademy/apa-scraping-suite) `📚2` — Zero-auth Reddit/social intelligence scraper & Voice-of-Customer scoring
+- [arshankhanifar/jevussy](https://github.com/arshankhanifar/jevussy) `📚2` — An endless piano, imagined by JEV. Debussy-inspired music that unfolds as you listen.
+- [AryanManojKumar/jev-Voice](https://github.com/aryanmanojkumar/jev-voice) `📚2` — a voice agent powered by jev classification to learn and explore new jev model
+- [aslesha96/jev-email-sorter](https://github.com/aslesha96/jev-email-sorter) `📚2` — Sorts emails into folders using Jev, TypeSafe AI's decision model
+- [audreyt/paseo-spacedock](https://github.com/audreyt/paseo-spacedock) `📚2` — paseo-spacedock - paseo-spacedock: TypeSafe Jev ecosystem repository. · TypeScript
+- [bhaskarpraveen/jev-healthcare-support-router](https://github.com/bhaskarpraveen/jev-healthcare-support-router) `📚2` — jev-healthcare-support-router - TypeScript demo using Jev as a decision layer for healthcare customer-support routing, urgency detection, and human escalation.…
+- [chaspy/jev-education](https://github.com/chaspy/jev-education) `📚2`
+- [Computational-social-science/JevRSI](https://github.com/computational-social-science/jevrsi) `📚2` — Reproducing the RSI-Jev self-improvement curve on a Qwen3-0.6B backbone.
+- [CumulativeWebInc/cwi-voice-command](https://github.com/cumulativewebinc/cwi-voice-command) `📚2` — Voice-driven UI command layer in the Jev style: speak mixer commands ("mute singer", "set reverb 25%
+- [damingerdai/typesafe-jev-app](https://github.com/damingerdai/typesafe-jev-app) `📚2` — typesafe-jev-app - typesafe-jev-app: TypeSafe Jev ecosystem repository. · Python
+- [darrenli6/jev-recruitment](https://github.com/darrenli6/jev-recruitment) `📚2` — Jev-powered resume screening tool built on Next.js. Define job requirements, upload resumes in bulk,
+- [developer943/sales-pipeline-revival-jev](https://github.com/developer943/sales-pipeline-revival-jev) `📚2` — Jev vs Gemini on 203 dead sales deals: an open test of AI pipeline triage, by…
+- [distil-labs/invoice-processing-pipeline](https://github.com/distil-labs/invoice-processing-pipeline) `📚2` — Accounts payable pipeline: Jev for inbox triage, fine-tuned small models (distil labs) for invoice decisions.…
+- [gaurav047/job-applications-tracker](https://github.com/gaurav047/job-applications-tracker) `📚2` — This app is aimed to track individual jobs applied automatically by a master resume.
+- [hoangnb24/paseo-supervision](https://github.com/hoangnb24/paseo-supervision) `📚2` — Paseo plugin for supervising Lead–Peer communication protocol drift with Jev
+- [Install PlotVeil](https://plotveil.app/install) `📚2`
+- [johnkidenda/freightlodge-voice-quote](https://github.com/johnkidenda/freightlodge-voice-quote) `📚2` — Freight Lodge voice-to-quote MVP (hold-to-talk + chat). Quote only — no book/pay. Automatically matched explicit Jev and TypeSafe/System One references.…
+- [kznohr/jev-playground](https://github.com/kznohr/jev-playground) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [live](https://jev-riscv-production.up.railway.app) `📚2`
+- [Lucky-Level/jev-voice](https://github.com/lucky-level/jev-voice) `📚2` — Portuguese voice control for Chrome: Chrome transcribes, Jev (TypeSafe via OpenRouter) decides, the extension acts. (0★, JavaScript, MIT, created 2026-09-29;…
+- [maxthelion/music-jev](https://github.com/maxthelion/music-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [moamenFathy/Jev_voice_computer_use](https://github.com/moamenfathy/jev_voice_computer_use) `📚2`
+- [Morimi-Kazuha/VideoMind](https://github.com/morimi-kazuha/videomind) `📚2`
+- [norisuke0131/todoapp](https://github.com/norisuke0131/todoapp) `📚2` — todoapp - todoapp: TypeSafe Jev ecosystem repository. · TypeScript
+- [obetomuniz/paseo-jev-route](https://github.com/obetomuniz/paseo-jev-route) `📚2` — Paseo daemon plugin that classifies a prompt with Jev into staff, review, cheap or lead lanes, then creates a workspace and launches the agent. MIT · TypeScript
+- [Omniaeye/omnia-news](https://github.com/omniaeye/omnia-news) `📚2` — Evaluate source content, filter noise and preserve the evidence behind every feed decision
+- [omsenjalia/weathergpt-app](https://github.com/omsenjalia/weathergpt-app) `📚2` — WeatherGPT mobile application for SIH 2026 Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [paragonvideomaking/paragon-JEV](https://github.com/paragonvideomaking/paragon-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [piyush97/piyushmehta.com](https://github.com/piyush97/piyushmehta.com) `📚2` — A modern, fast, and SEO-optimized personal website built with Astro, showcasing my work as a Senior Software …
+- [psychodissection-ship-it/aithyrion-director](https://github.com/psychodissection-ship-it/aithyrion-director) `📚2` — AI Music Video Director - Beat-synced full-motion MV generation pipeline with TypeSafe JEV SystemOne
+- [rivianpratama/JevPixelArt](https://github.com/rivianpratama/jevpixelart) `📚2` — Web app that draws pixel art by asking Jev one Score question per colour channel per pixel and painting the canvas as answers arrive. no license · JavaScript ·…
+- [secondfret/mailjay](https://github.com/secondfret/mailjay) `📚2` — Personal macOS inbox triage app powered by Gmail API and TypeSafe Jev
+- [site](https://jevseo.epergaboni.com) `📚2`
+- [site](https://magic-jev.mikecann.app) `📚2`
+- [site](https://plotveil.app) `📚2`
+- [site](https://akashpriyadarshii.github.io/jev-seo) `📚2`
+- [site](https://chris-wozniczek.github.io/jev-voice-control) `📚2`
+- [Soumya-prog-tech/laptop-voice-control](https://github.com/soumya-prog-tech/laptop-voice-control) `📚2` — laptop-voice-control - laptop-voice-control: TypeSafe Jev ecosystem repository. · Python
+- [srameshv/tonight-recs-app](https://github.com/srameshv/tonight-recs-app) `📚2` — tonight-recs-app - tonight-recs-app: TypeSafe Jev ecosystem repository. · Python
+- [strmuthu1234-cmd/JEV-Project-AI-token-loss-APP](https://github.com/strmuthu1234-cmd/jev-project-ai-token-loss-app) `📚2` — jevlang OR jev.ai in:name,description created:
+- [sumitrevolt/leadgenrationaivoiceagent](https://github.com/sumitrevolt/leadgenrationaivoiceagent) `📚2` — leadgenrationaivoiceagent — An experimental TypeSafe module in a marketing and voice platform chooses specialization labels for agent roles.
+- [surbhit20/jev-on-yt](https://github.com/surbhit20/jev-on-yt) `📚2` — Using jev to skip to relevant parts of the video
+- [tenfingerseddy/voicebind](https://github.com/tenfingerseddy/voicebind) `📚2` — Natural voice control, dictation and workspace bookmarks for Omarchy. Local Whisper with optional Jev interpr…
+- [The Rundown](https://therundown.ai/news/typesafe-jev-ai-decisions-software) `📚2` — Short launch summary.
+- [thisyearnofear/voisss](https://github.com/thisyearnofear/voisss) `📚2` — next-generation decentralized voice recording platform that transforms how we capture, organize, and share au…
+- [toshinoritakata/music-cocktail](https://github.com/toshinoritakata/music-cocktail) `📚2` — music-cocktail - Sound &amp; Sip: on-device music analysis and Jev-powered cocktail pairing · JavaScript
+- [vcjdeboer/jev-voice](https://github.com/vcjdeboer/jev-voice) `📚2` — Multi-dimensional writing voice profiler powered by Jev (TypeSafe AI)
+- [veermshah/jev-support-desk](https://github.com/veermshah/jev-support-desk) `📚2` — Developer-support queue tooling on TypeSafe.
+- [What Is Jev? The AI Model That Refuses to Write Text — Offgrid Studio](https://offgridstudio.app/blog/what-is-jev-typesafe-system-one-model) `📚2` — OffGrid Studio: "What Is Jev? The AI Model That Refuses to Write a Single Word" (2026-09-22) — Explainer reprinting TypeSafe's workflow evals (Jev 67.8%…
+- [wsmoak/jev-sales-calls](https://github.com/wsmoak/jev-sales-calls) `📚2` — Example: TypeSafe AI's Jev model reading sales call transcripts against a product capability library
+- [xuyungit/voicex](https://github.com/xuyungit/voicex) `📚2` — xuyungit/VoiceX: replacing the LLM scoring judge with TypeSafe (2026-09-20) — Same 60 scored outputs (16 ASR providers × 2 cases × 2 rounds) scored by a…
+- [zhoudian64/VoicePoke](https://github.com/zhoudian64/voicepoke) `📚2` — VoicePoke - VoicePoke: TypeSafe Jev ecosystem repository. · GDScript
+- [zohaibtanwir/jev-inbox-lab](https://github.com/zohaibtanwir/jev-inbox-lab) `📚2` — Local lab for exploring TypeSafe's Jev model on a frozen personal email corpus
+- [$40M stealth emergence (Business Wire)](https://businesswire.com/news/home/20260915525333/en/typesafe-ai-emerges-from-stealth-with-%2440m-in-funding-with-new-model-for-composable-ai) `📚1` — Funding announcement, September 2026.
+- [421news/txt](https://github.com/421news/txt) `📚1` — txt - Text-only pseudonymous forum whose moderation is a typed judgment per post. Spanish.
+- [a920604a/engineernews](https://github.com/a920604a/engineernews) `📚1`
+- [adriandevs06/jev-voice](https://github.com/adriandevs06/jev-voice) `📚1` — Windows voice agent where Jev is optional: when enabled, spoken text goes to Jev (via Vercel), which decides when a command can fire mid-sentence; bigger work…
+- [adrianforsenmusic/btc_lab](https://github.com/adrianforsenmusic/btc_lab) `📚1` — btc_lab — Paper-trading-labb för BTC med TypeSafe Jev — bara papper, ärliga mätningar _(★0, Python)_
+- [AIHOT's terms](https://aihot.news/terms) `📚1` — permit qualifying unsponsored, non-commercial open-source/public-interest use without applying, while treating public mirrors and bulk public redistribution…
+- [ak4631/jev-medical-example](https://github.com/ak4631/jev-medical-example) `📚1`
+- [AkashPriyadarshii/jev-seo\](https://github.com/akashpriyadarshii/jev-seo\) `📚1`
+- [alfdav/music-dl](https://github.com/alfdav/music-dl) `📚1` — CLI tool for downloading music from Tidal
+- [AndrewZuo01/whatsapp-jev-guard](https://github.com/andrewzuo01/whatsapp-jev-guard) `📚1` — Anti-scam whatsapp software project using gpt and jev
+- [APRESIA/email_Jev_Laya](https://github.com/apresia/email_jev_laya) `📚1` — Test LAYA et JEV sur les emails
+- [armandodollia/ha-jev-voice-pipeline](https://github.com/armandodollia/ha-jev-voice-pipeline) `📚1` — Home Assistant voice pipeline with a Jev-mode local LLM (llama.cpp) on a Windows gaming PC: model switching, GPU Whisper/Piper, Pebble watch support, ...
+- [Aryan-stark/jev-voice](https://github.com/aryan-stark/jev-voice) `📚1` — Voice-controlled macOS agent: local whisper.cpp + Jev classifier + local planner tier, with verified
+- [AskJev (Reverse Akinator)](https://askjev.app) `📚1` — askjev.app · AppDaily reverse Akinator game where you ask Jev yes-or-no questions to figure out the secret character; an unofficial demo.
+- [avgon/jev-seo-geo](https://github.com/avgon/jev-seo-geo) `📚1` — AI visibility toolkit. Measure and optimize how AI models see your brand. GEO (Generative Engine Optimization…
+- [beejsbj/voice-gate](https://github.com/beejsbj/voice-gate) `📚1` — Self-hosted Jev voice and text decision engine. HTTP, CLI and MCP integrations for your devices and assistant…
+- [bitsocialnet/5chan](https://github.com/bitsocialnet/5chan) `📚1` — chan Jev dev helpers · bitsocialnet · GitHub · ⭐ 132 repo · 2023-01-29Optional Node scripts for a peer-to-peer imageboard that use Jev for browser test…
+- [bitsocialnet/seedit](https://github.com/bitsocialnet/seedit) `📚1` — Seedit Jev helpers · bitsocialnet · GitHub · ⭐ 416 repo · 2023-08-25Optional Jev developer helpers in the Seedit reddit-alternative repo for browser…
+- [ByteIota: "TypeSafe Jev Launches: ChatGPT Pioneer's Non-LLM AI Model"](https://byteiota.com/typesafe-jev-launches-chatgpt-pioneers-non-llm-ai-model) `📚1`
+- [B站搬运](https://bilibili.com/video/bv1yrey6qehu) `📚1`
+- [chalk/supports-color](https://github.com/chalk/supports-color) `📚1`
+- [chyiiiiiiiiiiii/flutter-jev](https://github.com/chyiiiiiiiiiiii/flutter-jev) `📚1` — Driving a Flutter app with Jev, a model that picks from options and cannot write. Measured
+- [citegraph.app/live](https://citegraph.app/live) `📚1`
+- [DARK-art108/adk-healthcare-jev-pipeline](https://github.com/dark-art108/adk-healthcare-jev-pipeline) `📚1` — Multi-agent healthcare pipeline using Google ADK, stdio MCP tools, and TypeSafe Jev safety gates for
+- [DavidArmendariz/jev-bullish-bearish](https://github.com/davidarmendariz/jev-bullish-bearish) `📚1` — A sample app to predict if news are bearish or bullish for a specified stock
+- [dezigozi/jev_news](https://github.com/dezigozi/jev_news) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Diabolacal/eo-map-carbon](https://github.com/diabolacal/eo-map-carbon) `📚1` — / Dropgunner/Mental-Health-in-the-AI-Industry...
+- [DiffJury](https://diffjury.up.railway.app) `📚1` — X @raihankhan_rk
+- [dpshde/berean](https://github.com/dpshde/berean) `📚1` — Web app that takes a claim, beam-searches the Berean Standard Bible with Jev Choice/Noul, and answers yes or no with the best supporting verses. MIT ·…
+- [Dropgunner/Mental-Health-in-the-AI-Industry-The-Conversation-We-re-Not-Having](https://github.com/dropgunner/mental-health-in-the-ai-industry-the-conversation-we-re-not-having) `📚1`
+- [Dual-processing accounts of reasoning, judgment, and social cognition](https://pubmed.ncbi.nlm.nih.gov/18154502) `📚1` — Evans (2008). Review of dual-process theories. System 1 is a family of accounts, not one algorithm.
+- [earayu/jevnews](https://github.com/earayu/jevnews) `📚1`
+- [EddiGits/EddiDo---Todoist-App-with-Jev](https://github.com/eddigits/eddido---todoist-app-with-jev) `📚1` — Other related projects
+- [elvisun/newsjack](https://github.com/elvisun/newsjack) `📚1` — NewsJack · 1.3K stars — An open-source PR workflow that screens a live news feed for timely brand opportunities. Source
+- [emirfs/ai-news-hub](https://github.com/emirfs/ai-news-hub) `📚1`
+- [evanbrobertson/recipeapp](https://github.com/evanbrobertson/recipeapp) `📚1`
+- [ezxd1148/cyber-news](https://github.com/ezxd1148/cyber-news) `📚1` — cyber-news - cyber-news: TypeSafe Jev ecosystem repository. · Python
+- [FibonacciAi/sam-presence](https://github.com/fibonacciai/sam-presence) `📚1` — Sam — intelligence, in the moment. Realtime presence, live voice, and Jev-powered understanding.
+- [gatewen/modudock-news](https://github.com/gatewen/modudock-news) `📚1`
+- [GetStream/awesome-ai-news](https://github.com/getstream/awesome-ai-news) `📚1` — eep track of what has happened in AI this month. Discover the best AI/LLM resources and news for this month Automatically matched explicit Jev and…
+- [Gildra-Foundation/news](https://github.com/gildra-foundation/news) `📚1` — Telegram news bot for World of Warcraft that uses Jev to pre-filter RSS, Reddit and X items before an LLM fact-maps and writes the Russian post. no license ·…
+- [gpuwangge/newsdeepdive](https://github.com/gpuwangge/newsdeepdive) `📚1`
+- [GrowthR: "What Is Jev? TypeSafe's New AI Model"](https://growthr.com/resources/what-is-jev) `📚1` — Practitioner explainer with a trimmed POST /v1/systemone example; useful line that calibration is a claim about groups of predictions — "saying 0.8 means right…
+- [healthkey-ai/promop](https://github.com/healthkey-ai/promop) `📚1` — Django/PostgreSQL project with models for OMOP+oncology plus a flat denormalized table to support fast clinic…
+- [HermannAI/kev-jev-seo](https://github.com/hermannai/kev-jev-seo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [hosted dashboard](https://app.jevmod.us) `📚1` — Hosted app.jevmod.us; self-host Docker Compose or Cloudflare per docs.
+- [HR tool pile](https://dormytech.com/jev) `📚1` — Describe an HR problem in plain words; one Noul per tool asks whether it is one of the best answers, a separate Choice reads company size, and code applies…
+- [hylixinsights/Jev-biomedicine](https://github.com/hylixinsights/jev-biomedicine) `📚1` — Other related projects
+- [iApp OpenThai-SystemOne (v0.3, 2026-09-22)](https://iapp.co.th/docs/llm/openthai-systemone) `📚1` — code, weights) — Apache-2.0 Thai/English 0.8B System-One decision model from iApp/OpenThai: HTTP contract mirrors Jev's /v1/systemone (Jev SDK code points at…
+- [imloama/jev_news](https://github.com/imloama/jev_news) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [infosiragpt-ops/siragpt-app](https://github.com/infosiragpt-ops/siragpt-app) `📚1`
+- [IOsonoTAN/jev-support-ticket](https://github.com/iosonotan/jev-support-ticket) `📚1`
+- [IsaacM2020/evie](https://github.com/isaacm2020/evie) `📚1` — Evie: Isaac's voice-run operating system (Jev switchboard, menu bar app)
+- [j-east/JevonsCameraViewer](https://github.com/j-east/jevonscameraviewer) `📚1` — jevonscameraviewer — An app for viewing multiple video streams from USB cameras. Low cost real time eye tracking. You can rotate and mirror the images and also…
+- [Jaste](https://jaste.app) `📚1` — No license or detailed access terms were found on the homepage or in the ZIP; do not infer an open-source license or free ongoing service.
+- [jdubba1/icloud-google-calendar-sync](https://github.com/jdubba1/icloud-google-calendar-sync) `📚1`
+- [JeffNa1/social-anti-ragebait](https://github.com/jeffna1/social-anti-ragebait) `📚1` — Automatically detect, classify, and blur outrage-inducing posts and drama on X (Twitter), Threads, and Facebo…
+- [Jev City](https://01a0b7a9-5619-7ec6-a0d8-fb357ed42aa3.skydive.app) `📚1`
+- [Jev for SEO](https://madewithjev.com/jev-for-seo) `📚1` — / Jev for ads / Jev for marketing - The three verticals with the most published numbers.
+- [Jev Kitchen](https://jev-kitchen.vercel.app) `📚1` — Closed source · Free. Web demo: TypeSafe Jev judges which sticker ingredients belong to a named dish or cocktail (issue #399). Try app · (Project…
+- [Jev Puts AI Judgment Directly Inside Software — The Brief](https://thebrief.news/en/standard/article/21281/jev-puts-ai-judgment-directly-inside-software) `📚1`
+- [Jev 使用完整指南…](https://news.qiniu.com/archives/1789969178302) `📚1`
+- [jev-seo](https://mrjev.com/projects/akashpriyadarshii-jev-seo) `📚1` — We patched the line, then reverted and diffed
+- [jevai.org community app gallery](https://jevai.org/apps) `📚1` — Thirty-six community builds curated from social posts: browser agents, spreadsheet tooling, inbox search by intent, ad blocking with judgement, games and…
+- [JevCraft](https://jevcraft.vercel.app) `📚1` — egetheengineer · App · 2026-09-21Livestream of Jev playing VoxeLibre, a Minecraft-style game, unattended for five days, picking the next skill (chop, craft,…
+- [jevgpt/discord-live-voice-bot](https://github.com/jevgpt/discord-live-voice-bot) `📚1` — Discord voice bot with real-time speech: listens to a voice channel, talks back, plays its own music with ducking, and runs 53 server tools behind a…
+- [jevnewsdev/jev-news](https://github.com/jevnewsdev/jev-news) `📚1`
+- [justsml/ExploitHunter.app](https://github.com/justsml/exploithunter.app) `📚1` — ExploitHunter Jev decision specialist · justsml · GitHub · ⭐ 14 repo · 2026-05-21Offensive-security research harness that uses Jev as a bounded decision…
+- [kanta13jp1/my_web_app](https://github.com/kanta13jp1/my_web_app) `📚1`
+- [kjagsadvisors/opennotch](https://github.com/kjagsadvisors/opennotch) `📚1` — opennotch — Voice for your whole Mac, in the notch. Open-source dictation (Parakeet + Claude cleanup) and fast computer control (Jev). _(★0)_
+- [kurotaky/jev-music](https://github.com/kurotaky/jev-music) `📚1`
+- [LegalForecast-MTD](https://risetive.com/jev) `📚1`
+- [LeonardSEO/switchyard](https://github.com/leonardseo/switchyard) `📚1` — Switchyard · LeonardSEO · GitHub · ⭐ 6 · 2026-09-14Subscription-aware model router for Pi, Oh My Pi and OpenCode that has Jev classify each coding task's kind…
+- [Linear Method](https://linear.app/method) `📚1`
+- [live](https://naimono-lab.mocchalera.app) `📚1`
+- [live](https://adammichaelwood.com/jev-music-theory-1) `📚1`
+- [live](https://whichmodel.app.mintapis.com) `📚1`
+- [live](https://inematds.github.io/jev/app) `📚1`
+- [LLMの193倍速い“判断だけのAI”「Jev」、ChatGPTの共著研究者が開発](https://pc.watch.impress.co.jp/docs/news/2141599.html) `📚1`
+- [madhukambampati/annapurna-app](https://github.com/madhukambampati/annapurna-app) `📚1`
+- [MayDay-wpf/snow-app](https://github.com/mayday-wpf/snow-app) `📚1` — Snow App decision model · MayDay-wpf · GitHub · ⭐ 76 repo · 2026-06-10Developer desktop app with AI chat, terminal and SSH that uses Jev to filter search…
+- [megaterium/jevTD-email](https://github.com/megaterium/jevtd-email) `📚1` — Agent skill: inbox-zero email triage with GTD labels, judged by Jev and applied over IMAP
+- [miguelj060607/JEV-APP](https://github.com/miguelj060607/jev-app) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [mikegc-aws/jev-strands-video](https://github.com/mikegc-aws/jev-strands-video) `📚1`
+- [misuken-now/url-from](https://github.com/misuken-now/url-from) `📚1` — Type-safe URL generator with RFC3986 encoding support
+- [mjj2332/Quincy_Portal](https://github.com/mjj2332/quincy_portal) `📚1` — Photos review and delivery web app
+- [MkImage](https://mkimage.ai) `📚1` — Make Any Images Possible.
+- [MohtashamMurshid/jev-email](https://github.com/mohtashammurshid/jev-email) `📚1` — Terminal email priority classifier using Jev through OpenRouter
+- [neopmpmtj/voicediary-refactored-with-jev](https://github.com/neopmpmtj/voicediary-refactored-with-jev) `📚1` — Other related projects
+- [notfresh/big-news-at-2026](https://github.com/notfresh/big-news-at-2026) `📚1`
+- [OpenAPI schema](https://aihot.news/openapi-v1.json) `📚1`
+- [patrickhaahr/jevjack](https://github.com/patrickhaahr/jevjack) `📚1` — Bun server that deals blackjack and asks Jev for hit/stand/double/split per hand, with a probability-bar UI and a seeded A/B eval against basic strategy. MIT ·…
+- [piperendervt-glitch/jev-video-context-field](https://github.com/piperendervt-glitch/jev-video-context-field) `📚1`
+- [Product](https://quantdinger.com) `📚1` — homepage — also hosted app.
+- [public Mac release](https://jaste.app/jaste.zip) `📚1` — Public beta for Apple silicon, macOS 14 or later, via the Mac download. Windows and Linux are announced as coming soon.
+- [Resend](https://resend.com) `📚1` — Transactional email and newsletter delivery.
+- [resthubapp/resthub-backend](https://github.com/resthubapp/resthub-backend) `📚1`
+- [ripwords/photobook-generator](https://github.com/ripwords/photobook-generator) `📚1`
+- [roshanreddy118/ai-jev-inbox-sorter](https://github.com/roshanreddy118/ai-jev-inbox-sorter) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Ryden-kai/intelligent_customer](https://github.com/ryden-kai/intelligent_customer) `📚1` — Data search and document workflows
+- [samridhsri/soul-and-subversion](https://github.com/samridhsri/soul-and-subversion) `📚1` — Adversarial music intelligence platform auditing 3,200+ songs across 114 genres for artist
+- [SCBuergel/jev-netprofiler](https://github.com/scbuergel/jev-netprofiler) `📚1` — A network profiler usign Jev, educational proof of concept only!
+- [seethinajayadileep/jev-inbox](https://github.com/seethinajayadileep/jev-inbox) `📚1` — One Jev call sorts the inbox. Your code decides who gets it.
+- [shamala/typesafe-smart-inbox](https://github.com/shamala/typesafe-smart-inbox) `📚1`
+- [shipwithjev X index](https://shipwithjev.com/type/x-post) `📚1` — A bounded sweep of public web results, the five-page shipwithjev X index, related project directories, and linked primary repositories. The index reported 183…
+- [shubham10divakar/HealthJev](https://github.com/shubham10divakar/healthjev) `📚1`
+- [shubhamshinde245/jev-image-gen](https://github.com/shubhamshinde245/jev-image-gen) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [sitarelli/jev-ehr](https://github.com/sitarelli/jev-ehr) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [sixyao.app](https://sixyao.app) `📚1`
+- [socai-io/jev-social,89,JavaScript,MIT,2026-09-26,2026-09-26](https://github.com/socai-io/jev-social,89,javascript,mit,2026-09-26,2026-09-26) `📚1`
+- [Source 3](https://huggingface.co/akhilaaa3/jev-omni/blob/main/processor_config.json) `📚1` — audio_processor, image_processor, video_processor
+- [stella/stella](https://github.com/stella/stella) `📚1` — Open-source legal workspace
+- [SuperInstance/jev-diffusion](https://github.com/superinstance/jev-diffusion) `📚1` — Substrate-segmented image description via JEV + LLMs as GAN. No actual image generator nee
+- [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app) `📚1` — The best way to start a full-stack, typesafe Next.js app
+- [Takashi-Matsumura/jev-insight-app](https://github.com/takashi-matsumura/jev-insight-app) `📚1`
+- [technews](https://technews.tw/2026/09/18/typesafe-ai-introduces-system-one-models-and-jev) `📚1`
+- [The AI Insider: "TypeSafe AI emerges from stealth with $40M" (2026-09-17)](https://theaiinsider.tech/2026/09/17/typesafe-ai-emerges-from-stealth-with-40m-to-build-machine-native-ai-models) `📚1`
+- [The Information (via Techmeme): TypeSafe in talks to raise $1B+ at a $10B+ valuation (2026](https://varindia.com/news/typesafe-10b-jev-bet) `📚1` — Nine days after a $40M seed at a ~$200M valuation (DCVC-led), investors are reportedly offering to lead a round at $10B+; talks remain preliminary. The thesis…
+- [thekaushprasad/recruitflow](https://github.com/thekaushprasad/recruitflow) `📚1`
+- [theognis1002/jev-email-sorter](https://github.com/theognis1002/jev-email-sorter) `📚1` — Other related projects
+- [thomaszta/jev-hr-attrition](https://github.com/thomaszta/jev-hr-attrition) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ThursdAI (2026-09-17)](https://sub.thursdai.news/p/typesafes-jev-changes-everything) `📚1` — "A ChatGPT moment for decisions."
+- [tianping/ai-news-kb](https://github.com/tianping/ai-news-kb) `📚1`
+- [tientcheudonald237/jev-socially](https://github.com/tientcheudonald237/jev-socially) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [Tirth-1999/email-automation-jev](https://github.com/tirth-1999/email-automation-jev) `📚1` — Gmail ingestion and Jev-powered job email classification dashboard
+- [toobigbear/hello_jev](https://github.com/toobigbear/hello_jev) `📚1` — This demo builds a complete AI medical sepsis early warning link, feeds the patient's sign
+- [Top 100 Jev Showcase & Jev Prompts](https://neta.art/app/jev-prompt) `📚1` — ➡️ (Full ranked list of all 222 projects)(data/community.json) · interactive version with preview cards: Top 100 Jev Showcase
+- [Try app](https://thunder-monocle.env-ca.veilstreamapp.com) `📚1` — Try Jev Civilization · (Full Jev Civilization guide)(jev-civilization.md) · Source
+- [TypeSafe AI unveils Jev, up to 400× cheaper and 200× faster — DigestAI](https://digestai.news/story/typesafe-ai-unveils-jev-a-frontier-model-up-to-400-cheaper-and-200-faster) `📚1`
+- [vicaura.com](https://vicaura.com) `📚1` — Public web app at vicaura.com. Release stage and account requirements beyond the public Sign-in control were not fully verified.
+- [vincentlauriat/ClaudeMenu](https://github.com/vincentlauriat/claudemenu) `📚1` — macOS menu bar app for Claude usage — Anthropic's own 5h/7d gauge with pace projections, exact token counts f…
+- [viveknariya/email-jev-ai-setup](https://github.com/viveknariya/email-jev-ai-setup) `📚1` — jevlang OR jev.ai in:name,description created:
+- [voidning/jev-tldraw-voice](https://github.com/voidning/jev-tldraw-voice) `📚1`
+- [voidrco/voidr-app](https://github.com/voidrco/voidr-app) `📚1`
+- [Vonage-Community/demo-video-javascript-jev-starter,0,JavaScript,,2026-09-25,This](https://github.com/vonage-community/demo-video-javascript-jev-starter,0,javascript,,2026-09-25,this) `📚1`
+- [vrazraz/jev-voice-gate](https://github.com/vrazraz/jev-voice-gate) `📚1`
+- [weights](https://huggingface.co/iapp/openthai-systemone) `📚1`
+- [wodsmith/thewodapp](https://github.com/wodsmith/thewodapp) `📚1`
+- [wolvesdotink/owlat](https://github.com/wolvesdotink/owlat) `📚1` — Self-hosted, modular email platform: marketing campaigns, team inbox, personal mailbox, and an AI agent, gate…
+- [zach-hopkins/create-t3svelte-app](https://github.com/zach-hopkins/create-t3svelte-app) `📚1` — Quick T3 Stack with SvelteKit for rapid deployment of highly performant typesafe web apps.
+- [公司新闻稿](https://businesswire.com/news/home/20260915525333/en) `📚1` — TypeSafe AI was founded by Diogo Almeida, Erik Gafni, and Sasha Sheng; it announced a $40M seed round led by DCVC. Company press release
+- [前 OpenAI 研究员推出首款 System One 模型…](https://thepaper.cn/newsdetail_forward_34108537) `📚1`
+- [开源中国](https://oschina.net/news/502609/typesafe-ai-system-one-models-and-jev) `📚1`
+- [数字生命卡兹克：这个只会做选择题的 Jev（授权转载）](https://news.pedaily.cn/202609/569378.shtml) `📚1` — The author's own test using Jev to pre-screen AI news: a 100-question comparison and one article answered by multiple questions at once; results shown as…
+- [新华网](https://news.cn/tech/20260921/8f1c9bd6a9254e629383f1ac51e0d27d/c.html) `📚1` — APUS OpenJev open-source reimplementation
+
+</details>

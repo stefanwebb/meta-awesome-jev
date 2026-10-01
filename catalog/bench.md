@@ -1,0 +1,867 @@
+# Benchmarks, Evals & Calibration
+
+> Independent benchmarks, eval harnesses, calibration tools and head-to-head comparisons.
+>
+> **844 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 93
+
+- [ChetasLua/jevmeter](https://github.com/chetaslua/jevmeter) `★102 · 📚45` — Put a live Jev (TypeSafe) meter on any video: every sentence scored, rendered as a 16:9 edit
+- [iammrduncan/typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) `★39 · 📚43` — This is a LLM Gateway that mimics typesafe ai structured output. Like an imposter Jev.
+- [abhixhek/jevcal](https://github.com/abhixhek/jevcal) `★10 · 📚41` — Stop guessing confidence thresholds: calibrate, threshold, and drift-check typed decision models (TypeSafe Jev) against an LLM teacher.
+- [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench) `★189 · 📚40` — JevBench v1 - a benchmark for Jev-class typed decision models: smart, cheap, fast, reliable, open.
+- [GhalebDweikat/winnow](https://github.com/ghalebdweikat/winnow) `★99 · 📚39` — A calibrated context sieve for Claude Code: every tool result is judged by a System One model before it enters context.
+- [anessbelbati/jev-rerank-bench](https://github.com/anessbelbati/jev-rerank-bench) `★9 · 📚39` — Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap.
+- [vinilana/jev-eval-agent](https://github.com/vinilana/jev-eval-agent) `★106 · 📚37` — jev-eval-agent - Compares LLM tool selection with Jev routing in a personal-assistant harness containing 100 mocked tools.
+- [monteduro/killmyidea](https://github.com/monteduro/killmyidea) `★244 · 📚33` — Describe your startup idea. Jev decides: kill it, fix it or ship it.
+- [AbdelStark/jev-benchmarks](https://github.com/abdelstark/jev-benchmarks) `★21 · 📚33` — Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks.
+- [anisselbd/jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) `★7 · 📚32` — Jev (TypeSafe) vs Claude Haiku 4.5 on 2 000 phishing emails: accuracy, calibration, latency, cost. Reproducible benchmark.
+- [zhuyansen/jev-search-rerank-eval](https://github.com/zhuyansen/jev-search-rerank-eval) `★9 · 📚31` — Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval (9,831 pairs, 164 zh/en queries) over the Agent Skills Hub catalog, with the judge-circularity bias measured.
+- [Gaurav-Gosain/jev-sec-bench](https://github.com/gaurav-gosain/jev-sec-bench) `★3 · 📚31` — Blind security benchmarks for Jev, TypeSafe's System One model: prompt injection and vulnerable code detection, built on jev-go
+- [TokenTrim/jev-agent-failure-benchmark](https://github.com/tokentrim/jev-agent-failure-benchmark) `★3 · 📚31` — Benchmarking Jev (Typesafe.ai) against a strong LLM on the Who&When Pro agent-failure-attribution benchmark (text subset).
+- [ikermoel/open-alternative-jev](https://github.com/ikermoel/open-alternative-jev) `★56 · 📚29` — Open-source alternative to TypeSafe's Jev: a System One style model layer that gives typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with honest benchmarks
+- [lbotinelly/jev-little-airways](https://github.com/lbotinelly/jev-little-airways) `★6 · 📚29` — A show-and-tell capability study for Jev, TypeSafe's System One decision model.
+- [AbdelStark/typesafe-rs](https://github.com/abdelstark/typesafe-rs) `★1 · 📚27` — Latency-first Rust SDK for TypeSafe System One. .
+- [danielgshea/jev-as-a-judge](https://github.com/danielgshea/jev-as-a-judge) `★96 · 📚25` — Using Jev as an evaluator.
+- [scienthoon/jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration) `★6 · 📚25` — Independent calibration test of TypeSafe's Jev on a task it cannot have seen: 900 rule-generated support tickets (choice / score / boolean) plus 3 public benchmarks via Vercel AI Gateway. Raw responses, ECE with noise floor, temperature…
+- [FirasSX914/Janus](https://github.com/firassx914/janus) `★2 · 📚25` — Measure when to use Jev and other models on your data, then route accordingly.
+- [keltokhy/jsort](https://github.com/keltokhy/jsort) `★24 · 📚24` — sort by meaning: order lines along a plain-English dimension, from pairwise comparisons judged by TypeSafe's Jev model
+- [mahlernim/jev-korean-benchmark](https://github.com/mahlernim/jev-korean-benchmark) `★6 · 📚24` — Reproducible early-access evaluation of Jev on Korean understanding and medical text, with runtime and cost evidence
+- [wondertwins/jev-benchmark](https://github.com/wondertwins/jev-benchmark) `★6 · 📚24` — Benchmarks and a playground for TypeSafe's Jev (System One) model: chess, and who-is-the-player-talking-to for speech-to-text game NPCs
+- [mithalouni/system-one-open](https://github.com/mithalouni/system-one-open) `★38 · 📚23` — Open replica of TypeSafe's Jev: typed calibrated decisions in one forward pass, on Gemma 4 E2B / Gemma 3 270M (Modal)
+- [yodablocks/jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) `★0 · 📚22` — Does ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on graded product…
+- [jgridifier/jev-research-eval](https://github.com/jgridifier/jev-research-eval) `★2 · 📚21` — Reproducible Jev Ultrafast research-browser eval harness + field note (QC’d cases, suite runner, report generator). Not investment advice.
+- [erendikmenn/jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark) `★15 · 📚20` — Reproducible benchmark for measuring Jev reranking quality, latency, and cost in RAG
+- [y0usaf/jev-lm](https://github.com/y0usaf/jev-lm) `★6 · 📚20` — A word-level language model whose output layer is Jev: n-gram drafter, Noul chunk verification, bits-per-token eval
+- [hegargarcia/jev-playground](https://github.com/hegargarcia/jev-playground) `★1 · 📚20` — Jev Playground - Benchmarks Jev against Luna, Haiku, and Gemini at choosing validated legal moves in explicit-state games.
+- [TypeLLM/TypeLLM](https://github.com/typellm/typellm) `★898 · 📚19` — TypeLLM: LLMs with type-safe generation.
+- [akash-kamat/system-one-gemma](https://github.com/akash-kamat/system-one-gemma) `★6 · 📚19` — Open-source Jev-style System One decision model. Gemma 3 270M with a scoring head — fast, calibrated decisions in a single forward pass. No text generation. Inspired by TypeSafe.ai's Jev.
+- [adhyaay-karnwal/jev-chat](https://github.com/adhyaay-karnwal/jev-chat) `★4 · 📚19` — A chatbot from typed Jev decisions: hierarchical speculative decoding over System One probabilities.
+- [Every / Mike Taylor](https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds) `📚19` — Mini-Vibe Check: Jev judged everything I have written in 0.7 seconds — Every's Mike Taylor runs his whole archive through Jev
+- [nekuda-ai/WindTunnel](https://github.com/nekuda-ai/windtunnel) `★86 · 📚18` — A WebMCP benchmark, measures WebMCP against other browser-agent interfaces.
+- [Bewinxed/jevgpt](https://github.com/bewinxed/jevgpt) `★30 · 📚18` — A chatbot built on a model that cannot generate text (TypeSafe AI's Jev, driven autoregressively)
+- [caiovicentino/jev-shield](https://github.com/caiovicentino/jev-shield) `★3 · 📚18` — Semantic MCP firewall powered by Jev — screens every tool call, tool result, and tool description with calibrated System One verification. 94% block recall, 0 false positives, ~$0.00002/check.
+- [molis-ai/jev-workbench](https://github.com/molis-ai/jev-workbench) `★2 · 📚18` — Build versioned judgment functions on TypeSafe's Jev once, then call the same published version from your backend over HTTP and from coding agents over MCP. The vendor key stays on your machine.
+- [TypeSafeAI/clarity-judge](https://github.com/typesafeai/clarity-judge) `★2 · 📚18` — Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence.
+- [4esv/jev-eval](https://github.com/4esv/jev-eval) `★1 · 📚18` — Benchmark TypeSafe Jev against any OpenRouter model on your own data.
+- [ably-labs/jev-pong](https://github.com/ably-labs/jev-pong) `★1 · 📚18` — Pong where the ball moves one step per model decision. Jev vs LLMs via Vercel AI Gateway, every player and agent on an Ably channel.
+- [aniruddh-krovvidi/switchboard](https://github.com/aniruddh-krovvidi/switchboard) `★1 · 📚18` — Guardrail + model router for LLM gateways on TypeSafe's Jev (System One model), with an independent accuracy/calibration/latency evaluation. Stdlib Python.
+- [jourdanlabs/assay-001](https://github.com/jourdanlabs/assay-001) `★0 · 📚18` — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims. Split verdict, published in full.
+- [smkrv/jev-calibrate](https://github.com/smkrv/jev-calibrate) `★31 · 📚17` — Calibrate Jev questions against your own labels: tune criteria on labelled examples, confirm on a held-out set, get a verdict per question. Unofficial.
+- [KantaHayashiAI/jev-does-not-play-dice](https://github.com/kantahayashiai/jev-does-not-play-dice) `★3 · 📚17` — Experiments on Jev’s probability calibration, uncertainty reporting, and forecast probability preservation.
+- [HackSing/jev-report](https://github.com/hacksing/jev-report) `★1 · 📚17` — 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表
+- [zsavage8/padflow-jev-evals](https://github.com/zsavage8/padflow-jev-evals) `★1 · 📚17` — Typed-decision benchmark from PadFlow (land development SaaS): schemas, anonymized labeled rows, and a runner for confidence-calibrated models like TypeSafe Jev.
+- [shamazharikh/qwen-rlcd](https://github.com/shamazharikh/qwen-rlcd) `★4 · 📚16` — Jev-style calibrated decision model (Choice/Score/Noul) on Qwen3.5-0.8B
+- [rlaope/jeval](https://github.com/rlaope/jeval) `★21 · 📚15` — Measures what your Jev classifier's confidence is really worth, and sets the human hand-off line from what a mistake costs.
+- [aabolfazl/typesafe-local](https://github.com/aabolfazl/typesafe-local) `★8 · 📚15` — Inspired by TypeSafe Ai, Ask a local LLM typed questions, get calibrated probabilities instead of text. Structured output without generation or parsing. MLX / Apple Silicon.
+- [instax-dutta/sysone-bench](https://github.com/instax-dutta/sysone-bench) `★6 · 📚15` — First independent head-to-head benchmark of System One decision models (Laya vs Jev) on byte-identical inputs
+- [johnhughes3/LegalForecastBench](https://github.com/johnhughes3/legalforecastbench) `★6 · 📚15` — LegalForecast-MTD benchmark alpha and official evaluation workflows
+- [adtyavrdhn/pydantic-jev-examples](https://github.com/adtyavrdhn/pydantic-jev-examples) `★3 · 📚15` — Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each
+- [gaborishka/jev-wrapped](https://github.com/gaborishka/jev-wrapped) `★3 · 📚15` — Telegram channel X-ray: Jev judges a year of posts, you get a card. One Cloudflare Worker.
+- [XieChengYuan/jev-gomoku](https://github.com/xiechengyuan/jev-gomoku) `★3 · 📚15` — 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。.
+- [JacobLinCool/jev-paper-judge](https://github.com/jacoblincool/jev-paper-judge) `★1 · 📚15` — Feedback on your paper in seconds.
+- [jujumilk3/jev-calibration-audit](https://github.com/jujumilk3/jev-calibration-audit) `★0 · 📚15` — Independent API-only calibration audit of TypeSafe AI's Jev decision model
+- [Arpit-Khandelwal/jev-linkedin-slop-filter](https://github.com/arpit-khandelwal/jev-linkedin-slop-filter) `★5 · 📚14` — Slams a BAIT, CORP or BRAG stamp onto LinkedIn engagement-bait, judged live by Jev (TypeSafe System One).
+- [SoundBlaster/Jev4Mellea](https://github.com/soundblaster/jev4mellea) `★3 · 📚14` — Jev adapter for Mellea.
+- [themsquared/jev-benchmark](https://github.com/themsquared/jev-benchmark) `★1 · 📚14` — Reproducible benchmark for TypeSafe AI's Jev on agent tool-call risk classification: accuracy, latency, and whether the confidence score is worth routing on.
+- [xienda/dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) `★1 · 📚14` — Jev (TypeSafe System One decision model) for DeepSeek Harness: jev_decision, jev_overview, jev_guard_status and jev_verify, structured in-chat tool views, a full settings card, an auto-guard (deterministic + Jev risk/loop) and a /jev…
+- [Gaurav-Gosain/jev-alpha-bench](https://github.com/gaurav-gosain/jev-alpha-bench) `★0 · 📚14` — Does Jev predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate reading from recall.
+- [Gaurav-Gosain/jev-headline-bench](https://github.com/gaurav-gosain/jev-headline-bench) `★0 · 📚14` — Can Jev pick the winner of a real headline A/B test? 64.5% across 10,984 Upworthy randomized experiments, 74.7% when the difference was decisive.
+- [Hexdigest123/typesafe-comment](https://github.com/hexdigest123/typesafe-comment) `★0 · 📚14` — Small Python package that uses typesafe.ai to evaluate code comments on certain heuristics
+- [n-yokomachi/jev-dev](https://github.com/n-yokomachi/jev-dev) `★0 · 📚14` — 同じ発言を jev と LLM の両方に判定させ、感情の変動値のズレと応答速度を1画面で見比べるデモ（affectus + Vercel AI Gateway）
+- [Shogo-nfrealmusic/jev-eval](https://github.com/shogo-nfrealmusic/jev-eval) `★0 · 📚14` — jev-eval — Third-party evaluation: compares Jev, GPT-4o-mini, and Claude Sonnet 4.5 under the same conditions on one judgment task.
+- [zeredy879/minojev](https://github.com/zeredy879/minojev) `★25 · 📚13` — Decisions, not tokens: minojev reads calibrated, typed probability distributions straight from hidden states in one forward pass — zero output tokens, fully reproducible on a laptop CPU.
+- [4anti/jev-broadcast-lab](https://github.com/4anti/jev-broadcast-lab) `★2 · 📚13` — Testing Lab for Jev AI.
+- [Jevals/jevals-data](https://github.com/jevals/jevals-data) `★1 · 📚13` — Independent benchmark data for TypeSafe's Jev (System One model) vs LLMs: accuracy, calibration, cost. Boards + per-decision logs, CC-BY-4.0
+- [blas0/jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval) `★0 · 📚13` — A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
+- [blowxian/jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) `★0 · 📚13` — Measured: asking TypeSafe Jev N questions in one call bills the state once. 2,976 real requests, raw data, exact billing check.
+- [Menny1337/jev-lab](https://github.com/menny1337/jev-lab) `★0 · 📚13` — TypeScript experiments, evaluations, and latency benchmarks for TypeSafe's Jev model
+- [vclic/smoking-extraction-benchmark](https://github.com/vclic/smoking-extraction-benchmark) `★0 · 📚13` — Synthetic smoking-history extraction benchmark comparing TypeSafe Jev and OpenAI structured outputs, with reproducible accuracy, cost, and latency results.
+- [TrustifAI/typed_evals](https://github.com/trustifai/typed_evals) `★13 · 📚12` — Fast, typed, calibrated evaluations for LLM and agent outputs, powered by Jev — with simple, framework-agnostic Python APIs
+- [ickma2311/jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval) `★5 · 📚12` — Pre-registered independent eval of TypeSafe Jev against a nano-class LLM, a frontier LLM, and a supervised encoder (Banking77 + CLINC150 zero-shot)
+- [Jessie-QingYu/jev-in-the-wild](https://github.com/jessie-qingyu/jev-in-the-wild) `★5 · 📚12` — Real-world Jev use cases, open-source projects, benchmarks and criticism — what people actually build with TypeSafe AI's Jev, and where it fails. Machine-readable, updated daily.
+- [lzq-0529/jev-span](https://github.com/lzq-0529/jev-span) `★5 · 📚12` — Zero-shot named entity recognition on TypeSafe Jev. Define entity types in plain words — no training data, no GPU. 73.7 strict F1 across 12 Chinese/English NER benchmarks, with calibrated scores and auditable traces. 零样本命名实体识别。
+- [edgardcham/huncho](https://github.com/edgardcham/huncho) `★1 · 📚12` — Decisions as code on System One models: typed questions, thresholds with hysteresis, nested decisions, journal, calibration
+- [hifizz/jev-finance-benchmark](https://github.com/hifizz/jev-finance-benchmark) `★0 · 📚12` — typesafe.ai model jev finance benchmark.
+- [Jevals.com](https://jevals.com) `📚12` — Model evaluation: benchmarks Jev and six LLMs on Noul, Choice, and Score tasks over human-labeled datasets and publishes per-decision probabilities.
+- [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) `★20,296 · 📚11` — How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.
+- [SimpleJev/JevAny](https://github.com/SimpleJev/JevAny) `★18 · 📚11` — Open infrastructure for training, evaluating, and deploying System 1 decision models across language and multimodal backbones.
+- [BrendanH18/jev_fsd](https://github.com/brendanh18/jev_fsd) `★4 · 📚11` — A driving simulator on real OpenStreetMap streets where TypeSafe's Jev model drives the car, with a decision inspector and a benchmark.
+- [minorun365/jev-cloud-quiz](https://github.com/minorun365/jev-cloud-quiz) `★2 · 📚11` — 三大クラウドの機能名を、TypeSafe AI の System One モデル Jev が確率つきで判定するデモ
+- [nikkoxgonzales/jev-certify](https://github.com/nikkoxgonzales/jev-certify) `★1 · 📚11` — Finite-sample guarantees for Jev (TypeSafe's System One). Conformal risk control turns calibrated probabilities into certified routing thresholds; prediction-powered inference audits them. 2,412 decisions on CLINC150 for $0.23 — including…
+- [shibadogcap/kyotsu-ai-bench](https://github.com/shibadogcap/kyotsu-ai-bench) `★1 · 📚11` — AI benchmark on Japan's 2026 Common Test: Jev vs luna-none vs luna-low (static dashboard)
+- [BrendanH18/jev-lab](https://github.com/brendanh18/jev-lab) `★0 · 📚11` — Six small apps and a workbench that show what TypeSafe's Jev (System One) model can do
+- [marcosmartinez/jev-acento](https://github.com/marcosmartinez/jev-acento) `★0 · 📚11` — ¿Jev entiende tu acento? Pre-registered audit of TypeSafe AI's Jev on Spanish — accuracy, calibration and token cost — plus a CLI to run the same comparison on your own labelled data.
+- [onlyoneaman/jev-eval](https://github.com/onlyoneaman/jev-eval) `★0 · 📚11` — TypeSafe's Jev vs gpt-5.4-mini and gpt-5.6-luna on four public classification sets: cases, per-item answers, scoring, charts
+- [willkelly/jev-evaluation](https://github.com/willkelly/jev-evaluation) `★0 · 📚11` — An adversarial evaluation of TypeSafe's jev decision model: nine experiments and 28 predictions fixed before any data was collected. 123,805 requests, $12.69.
+- [UditAkhourii/quicksilver](https://github.com/uditakhourii/quicksilver) `★90 · 📚10` — Claude Code skill: hand bulk judgment calls to Jev. 86% fewer Claude tokens on a 12-task benchmark, up to 20x faster. One-line npx install.
+- [lawrence3699/jev-style](https://github.com/lawrence3699/jev-style) `★9 · 📚10` — Small, calibrated decision models on your own machine: systemone-compatible local server, 6 agent skills, Claude Code guard, MCP tools. Weights on Hugging Face.
+- [nibzard/decision-model-benchmark](https://github.com/nibzard/decision-model-benchmark) `★9 · 📚10` — Independent, reproducible benchmark: a decision model (jev), eight constrained LLMs, and deterministic baselines on typed decisions - accuracy, calibration, latency, cost, failure modes
+- [1104480426-hash/jev-wingman](https://github.com/1104480426-hash/jev-wingman) `★4 · 📚10` — 基于 Jev 的聊天决策辅助：读当前聊天窗口，只返回类型化判定与置信度，不生成回复。QQ / 飞书 / 抖音实测可用。· An on-device chat co-pilot built on Jev — typed verdicts instead of prose, no package allowlist.
+- [robipop22/Jev-is-odd](https://github.com/robipop22/jev-is-odd) `★1 · 📚10` — Ask Jev by TypeSafe AI whether a number is odd. TypeScript, real token usage, and latency benchmarks.
+
+## Established (cited by 5–9 lists) — 127
+
+- [cclank/jevclip](https://github.com/cclank/jevclip) `★39 · 📚9` — Jev-powered video highlights and cited summaries from subtitles and scripts
+- [shapsider/OmniJev](https://github.com/shapsider/omnijev) `★19 · 📚9` — OmniJev — multimodal finite-choice decision interface and MuJoCo embodied workbench: trajectory replays, decision probes, benchmark panels, 60s walkthrough.
+- [Emenowicz/jev-sap-commerce](https://github.com/emenowicz/jev-sap-commerce) `★9 · 📚9` — SAP Commerce extension using TypeSafe's Jev to moderate product reviews and suggest product categories and classification attribute values: dry runs on your own data first, an audit record per decision. Plus a Claude Code skill.
+- [bradAGI/ruling](https://github.com/bradagi/ruling) `★6 · 📚9` — Typed, calibrated decisions from a local model. No text generated.
+- [collapseindex/dinostomp](https://github.com/collapseindex/dinostomp) `★6 · 📚9` — A verification layer for AI evaluations. Checks the instrument, not just the score: data, scorer, runs, numbers, claims, and itself.
+- [Cairn-ink/cairn-jev-lab](https://github.com/cairn-ink/cairn-jev-lab) `★4 · 📚9` — Test what your AI should remember. An experimental, source-aware memory admission evaluator powered by Jev, with editable cases and inspectable results.
+- [chenmingtang830/jevarena](https://github.com/chenmingtang830/jevarena) `★4 · 📚9` — Open-source BYOK arena for Jev and other AI judges. Find failures, compare quality, cost, and latency.
+- [memovai/openevals](https://github.com/memovai/openevals) `★4 · 📚9` — Fast and cheap agent evals. jev as judge.
+- [ArmanJR/Jev-Persian-Benchmark](https://github.com/armanjr/jev-persian-benchmark) `★3 · 📚9` — A Quick Typesafe's Jev Evaluation on Persian.
+- [emreozyoruk/hush](https://github.com/emreozyoruk/hush) `★2 · 📚9` — Issue triage that stays quiet when it isn't sure. Calibrated labels, spam and duplicate detection — with abstention.
+- [getainode/jebadiah](https://github.com/getainode/jebadiah) `★2 · 📚9` — Jebadiah, an open System One decision model: trainer, data builders, evals and every run record
+- [jexp/watfile](https://github.com/jexp/watfile) `★2 · 📚9` — Text/PDF - File categorization and sorting with Typesafe AI Jev or local calibrated decision model
+- [micic-mihajlo/jev-tool-runner](https://github.com/micic-mihajlo/jev-tool-runner) `★2 · 📚9` — Jev selects developer tools; Codex handles code. MCP and Jev-first execution with measured benchmarks.
+- [baibizhe/jev-decision-benchmarks](https://github.com/baibizhe/jev-decision-benchmarks) `★1 · 📚9` — JEV decision benchmark results on MetaTool, When2Call, and BFCL V4, with bilingual tables and reproducible reports.
+- [ElshinQ/jevaluate](https://github.com/elshinq/jevaluate) `★1 · 📚9` — Jevaluate: evaluate before you trust. Field notes, runnable scripts and an agent skill for TypeSafe Jev: gated evals, a browser loop, a product walk with DeepSeek vision, a UI text judge and a first-click tree test. Co-authored with Claude…
+- [markfive-proto/typesafe-vs-deepseek](https://github.com/markfive-proto/typesafe-vs-deepseek) `★1 · 📚9` — TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison across invoice extraction, email classification, and reranking
+- [misaalya/snbt-jev-bench](https://github.com/misaalya/snbt-jev-bench) `★1 · 📚9` — Jev on Indonesia's SNBT 2025 university entrance test: 159 questions, seven subtests, audited answer keys.
+- [zbush/jev-context](https://github.com/zbush/jev-context) `★1 · 📚9` — Codex code-search plugin using Jev relevance filtering with auditable token metrics
+- [aieo-product/jev-gamebenchmark](https://github.com/aieo-product/jev-gamebenchmark) `★0 · 📚9` — Sandbox & benchmark: optimize how you ask Jev (TypeSafe System One) to play falling-block puzzle games, head-to-head against LLMs
+- [An early-access test of TypeSafe's Jev: calibrated judgments for half a cent](https://lindfors.no/blog/a-first-look-at-typesafes-jev) `📚9` — An early-access test of TypeSafe's Jev - Independent early-access trial measuring calibration and reporting cost per decision. #research #evaluation
+- [get-convex/convex-evals](https://github.com/get-convex/convex-evals) `★128 · 📚8` — Convex Decision Evals — Benchmark comparing Jev Choice answers with LLMs on four-option questions about Convex. _TypeScript; ★ 128._
+- [sumleo/RLCDAlignBench](https://github.com/sumleo/rlcdalignbench) `★21 · 📚8` — RLCDAlignBench: 44 alignment-failure detection benchmarks and code for 'Just Ask Jev' (RLCD zero-shot detector of AI alignment failures)
+- [Prophetlab/JevPokerBench](https://github.com/prophetlab/jevpokerbench) `★11 · 📚8` — ProphetLab's Texas Hold'em benchmark and playground for decision models: cash and SNG leaderboards, live replays, and bring-your-own-agent tables.
+- [dhruvmehra/jevbench](https://github.com/dhruvmehra/jevbench) `★8 · 📚8` — Benchmark TypeSafe JEV against LLMs, fine-tuned BERT, Laya and zero-shot NLI on text classification: accuracy, calibration, latency, throughput, cost
+- [Bentlybro/siftr](https://github.com/bentlybro/siftr) `★5 · 📚8` — Fast, cheap judgment for AI coding agents: semantic search, focused reads and list picking in ~2s. CLI + MCP server on TypeSafe Jev. Benchmarked on SWE-bench.
+- [brida-ai/reflexbench](https://github.com/brida-ai/reflexbench) `★5 · 📚8` — ReflexBench — open benchmark and evaluation harness for System One models and typed decision engines
+- [gitchw/LCT](https://github.com/gitchw/lct) `★5 · 📚8` — Jev-LCT: Open System-One Decision Engine with Free Calibrated Confidence from Recurrent Trajectories
+- [alxcrt/is-odd-jev](https://github.com/alxcrt/is-odd-jev) `★4 · 📚8` — Check whether a number is odd, using a System One model, with a calibrated probability. ★ 4 · endpoint · JavaScript
+- [Ramneet-Singh/jevopt](https://github.com/ramneet-singh/jevopt) `★4 · 📚8` — Making intelligent compiler optimisation decisions with Jev
+- [adambkovacs/candidate-experience-benchmark](https://github.com/adambkovacs/candidate-experience-benchmark) `★3 · 📚8` — Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt variants, costs, tokens, and reproducible evidence.
+- [YidiDev/jev-benchmark](https://github.com/yididev/jev-benchmark) `★3 · 📚8` — Rubric-Based Zero-Shot Classification Benchmark: Jev vs Claude Haiku 4.5 vs Claude Sonnet 5 vs OpenJev on rubric-conditioned classification, chained decision execution, and exam grading -- with full price tracking.
+- [mahmut-gundogdu/bes-kelime-jev](https://github.com/mahmut-gundogdu/bes-kelime-jev) `★2 · 📚8` — Ne yazarsanız yazın, beş kelimeden biriyle cevap veren sohbet botu. Kelimeyi TypeSafe AI'ın Jev evaluation modeli seçer.
+- [Manavarya09/verdict](https://github.com/manavarya09/verdict) `★2 · 📚8` — Small, fast, honest decision models. Open alternative to Jev: zero-shot, fit on your labels in seconds, calibrated with a coverage guarantee, Jev wire-compatible.
+- [apixly-ai/jev-filter](https://github.com/apixly-ai/jev-filter) `★1 · 📚8` — Semantic filtering for AI tool results. Native npm CLI, caller-controlled context, batching, and reproducible benchmarks.
+- [dsaad68/fuzzy-jev](https://github.com/dsaad68/fuzzy-jev) `★1 · 📚8` — Ask Jev typed questions about text and get calibrated probabilities back, then turn them into decisions with fuzzy rules (AND, OR, NOT, hedges, Mamdani outputs) and draw the rule base as SVG. A CLI and a Rust library (native and wasm32).
+- [TheWayWithin/jev-bench](https://github.com/thewaywithin/jev-bench) `★1 · 📚8` — Does the cited source actually say it? A 42-claim benchmark: Jev (TypeSafe System One) against GPT-5.4, Claude Sonnet 5 and Gemini 3.1 Pro.
+- [Can Jev Be a Better Agent Evaluator?](https://langchain.com/blog/jev-agent-evals-langsmith) `📚8` — Agent evaluation: LangChain compares Jev with LLM judges on accuracy, repeatability, latency, and cost for online agent evaluation.
+- [mintannn/jev-asks-until-sure](https://github.com/mintannn/jev-asks-until-sure) `★0 · 📚8` — A twenty-questions guesser that keeps asking until Jev's calibrated confidence crosses a threshold — or gives up and says so
+- [zilliztech/GPTCache](https://github.com/zilliztech/gptcache) `★8,206 · 📚7` — Semantic cache for LLMs. Fully integrated with LangChain and llama_index.  - GitHub - zilliztech/GPTCache: Semantic cache for LLMs. Fully integrated with LangChain and llama_index.
+- [silverstein/minutes](https://github.com/silverstein/minutes) `★1,519 · 📚7` — Open-source, local-first Granola/Otter alternative that Claude Code, Codex, Cursor, and any MCP client can query. Meetings, calls, and voice memos transcribed on-device into markdown you own.
+- [stas4000/jev-papers](https://github.com/stas4000/jev-papers) `★7 · 📚7` — 1,000 arXiv AI papers classified with one Jev decision each, checked against an LLM judge. Open rebuild, MIT.
+- [ziyacivan/jev-mail-filter](https://github.com/ziyacivan/jev-mail-filter) `★5 · 📚7` — Gmail filters written in plain English, judged by Jev (TypeSafe)
+- [ajanm007/jevrag](https://github.com/ajanm007/jevrag) `★4 · 📚7` — A pluggable decision substrate for RAG pipelines; explicit, calibrated state → Decision → confidence → action gates, with Jev as the first swappable backend.
+- [goya4140/jev-reward-model-evaluation](https://github.com/goya4140/jev-reward-model-evaluation) `★4 · 📚7` — Jev 1.13 reward-model evaluation across 8 benchmark tracks, with an interactive report and 54-row SOTA comparison
+- [AnthusAI/Jev-Calibration](https://github.com/anthusai/jev-calibration) `★3 · 📚7` — Does Jev's confidence mean what it says? Calibrating Jev (TypeSafe System One) with Platt scaling and isotonic regression.
+- [xz-dev/pi-jev-todo-audit](https://github.com/xz-dev/pi-jev-todo-audit) `★3 · 📚7` — Pi extension that audits rpiv-todo board drift every 10 agent loops using TypeSafe's jev model, injecting corrective nudges when the agent wanders off-task
+- [CodyQin/zh-decision-bench](https://github.com/codyqin/zh-decision-bench) `★2 · 📚7` — First Chinese-language calibration benchmark for Jev-class 'System One' decision models: dataset (CC BY 4.0), 5-model eval incl. Jev & NeoHorse, temperature refit, robustness tests
+- [duberblock/JEVals](https://github.com/duberblock/jevals) `★2 · 📚7` — Open-source playground for evaluating System One and JEV-compatible models with deterministic fidelity, semantic judging, and independent verification.
+- [lexmount/WebJev](https://github.com/lexmount/webjev) `★2 · 📚7` — Jev-like decision models specialized for browser use: given a live web page, they pick the next action in a single forward pass. Includes training, evaluation, and real-website task runs.
+- [scarif-labs/jev-software-decision-benchmark](https://github.com/scarif-labs/jev-software-decision-benchmark) `★2 · 📚7` — Reproducible benchmark evaluating JEV as a software decision primitive for dependency-update automation under distribution shift.
+- [creativoma/here-we-go-jev](https://github.com/creativoma/here-we-go-jev) `★1 · 📚7` — Local playground and test bench for TypeSafe's Jev System One model: typed questions, calibrated-probability answers, and side-by-side comparison with an LLM baseline.
+- [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) `★1 · 📚7` — Local evaluation workbench for TypeSafe Jev.
+- [Hanno-Labs/decision-bench](https://github.com/hanno-labs/decision-bench) `★1 · 📚7` — Open benchmark runtime for document-grounded decision models
+- [TimMikeladze/JevLang](https://github.com/timmikeladze/jevlang) `★1 · 📚7` — A policy engine for LLM decisions: declare routes, gates and actions once in TypeScript or Python, and every decision comes validated, explainable, replayable and audited.
+- [tomfrazier/slopmop](https://github.com/tomfrazier/slopmop) `★1 · 📚7` — Mop the slop out of your LinkedIn feed. Not an AI detector: a bad-writing detector. Chrome extension + Vercel server, powered by Jev from Typesafe AI. MIT.
+- [wenchenxi/jev-console](https://github.com/wenchenxi/jev-console) `★1 · 📚7` — Local console + CLI for TypeSafe's Jev (System One) model: send a state and typed questions, get calibrated probabilities back.
+- [4nt0ineB/typed-decision-bench](https://github.com/4nt0ineb/typed-decision-bench) `★0 · 📚7` — Bench of typed decision models: Jev vs OpenJev vs Laya, small local LLMs and cheap hosted LLMs on the same zero-shot classification tasks, in English and French.
+- [AHTOOOXA/jev-cyrillic-audit](https://github.com/ahtoooxa/jev-cyrillic-audit) `★0 · 📚7` — Does TypeSafe's Jev keep its accuracy and calibration on Russian? Independent RU vs EN audit (ECE, reliability diagrams, paired bootstrap) on parallel human-labelled data.
+- [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) `📚7` — Not official TypeSafe Jev weights, not a general desktop agent, and no performance result was reproduced here. Check the exact artifact's card, terms, runtime, and evaluation scope.
+- [dfranco-projects/jev-guardbench](https://github.com/dfranco-projects/jev-guardbench) `★0 · 📚7` — Can a System One model (TypeSafe Jev, open-source Kev) replace an LLM-as-judge in agent guardrail callbacks?
+- [mameli/jev-vs-luna](https://github.com/mameli/jev-vs-luna) `★0 · 📚7` — Reproducible Jev vs Luna review-classification benchmark with measured accuracy, latency, and costs.
+- [patryckalves/jev-no-enem](https://github.com/patryckalves/jev-no-enem) `★0 · 📚7` — Reproducible benchmark evaluating TypeSafe AI's Jev (System One paradigm) on Brazil's ENEM 2025 standardized exam. Evaluates typed decision-making, domain-specific accuracy, and RLCD uncertainty calibration against open LLM baselines with…
+- [rashedInt32/jev-lens](https://github.com/rashedint32/jev-lens) `★0 · 📚7` — Do I need to look at what Claude Code just did? A calibrated verdict per stop, judged by TypeSafe Jev. Pairs with jev-lens.nvim
+- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) `★87,628 · 📚6` — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+- [xerj-org/xerj](https://github.com/xerj-org/xerj) `★2,567 · 📚6` — XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent…
+- [taodav/jev_deep_rl](https://github.com/taodav/jev_deep_rl) `★8 · 📚6` — jev_deep_rl - Evaluates Jev as a fixed policy in Gymnasium and Atari environments, recording rewards against a seeded random baseline. #evaluation #game
+- [pdrpinto/jevtrim](https://github.com/pdrpinto/jevtrim) `★5 · 📚6` — Jev as a context judge, benchmarked: selection against retrieval and summarization on LoCoMo, four segmentations, matched token budgets, reproducible reports.
+- [umstek/zero-shot-ie-bench](https://github.com/umstek/zero-shot-ie-bench) `★4 · 📚6` — 38 zero-shot information-extraction & classification systems across 23 families — extractors, classifiers, cross-encoder rerankers and typed-decision engines, local + hosted (OpenRouter) — demos, accuracy/latency/cost benchmarks,…
+- [diorrego/toolgate-experiment](https://github.com/diorrego/toolgate-experiment) `★3 · 📚6` — Benchmarks of MCP tool selection accuracy and latency. V2 evaluates 143 Woku tools with GPT-6 Luna API calls and Jev; includes Go/Rust cores, one TypeScript SDK and reproducible reports.
+- [NicolasMontone/jev-evals](https://github.com/nicolasmontone/jev-evals) `★3 · 📚6` — Rubric-based eval harness cheap enough to run on every PR, powered by typesafe-ai/jev
+- [herakles-dev/typesafe-claude-kit](https://github.com/herakles-dev/typesafe-claude-kit) `★2 · 📚6` — Claude Code kit for TypeSafe (Jev): agents, skill, client, calibration tools
+- [alperenerol/jev-1.13-mini-benchmark](https://github.com/alperenerol/jev-1.13-mini-benchmark) `★1 · 📚6` — Mini benchmark of TypeSafe's jev-1.13 structured decision model (OpenRouter Decisions API) on labeled support-triage: noul/choice/score, consistency, cost, lessons learned
+- [AppChainAI/Jevatar](https://github.com/appchainai/jevatar) `★1 · 📚6` — An AI companion that replies only with facial expressions. Jev (TypeSafe System One) judges your message and picks 1 of 14 moods; blobatar morphs its face. React + Vite + Bun.
+- [denser-org/rerank-bench-jev](https://github.com/denser-org/rerank-bench-jev) `★1 · 📚6` — Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at denser.ai
+- [Fox-Islam/jev-bias-bench](https://github.com/fox-islam/jev-bias-bench) `★1 · 📚6` — A benchmark for Jev's biases, built from people who differ in one attribute at a time.
+- [GautamTalksDev/jevbench](https://github.com/gautamtalksdev/jevbench) `★1 · 📚6` — Preregistered, bias-corrected test of TypeSafe Jev's calibration under human disagreement (ChaosNLI, 100 labels per item)
+- [hamakyo/jev-mahjong-bench](https://github.com/hamakyo/jev-mahjong-bench) `★1 · 📚6` — Reproducible riichi mahjong benchmark for Jev, GPT, Mortal, and hybrid agents using MJAI and RiichiEnv.
+- [NAME0x0/Jevlet](https://github.com/name0x0/jevlet) `★1 · 📚6` — Jevlet: a small, calibrated System-One decision model (typed Noul/Choice/Score questions in, probabilities over live options out, no text generation) driving an always-on Windows command palette. Research reconstruction of TypeSafe's Jev…
+- [rogeriochaves/jev-experiments](https://github.com/rogeriochaves/jev-experiments) `★1 · 📚6` — Go benchmarks of Jev latency, throughput, limits and judge accuracy, plus toys that make Jev emit caveman text and grammar-constrained JavaScript via Choice. no license · Go
+- [thijmenkam/jev-benchmarks](https://github.com/thijmenkam/jev-benchmarks) `★1 · 📚6` — Harness comparing Jev with a reference LLM on four typed decision tasks, reporting accuracy, Brier, ECE, repeat agreement, latency and cost. no license · Python
+- [AIPI-mvoronovych/JEVBenchmark-Contradiction-Detection](https://github.com/aipi-mvoronovych/jevbenchmark-contradiction-detection) `★0 · 📚6` — Checking JEV's Contradiction detection (Model by TypeSafe.AI)
+- [ickas/battleship-vs-jev](https://github.com/ickas/battleship-vs-jev) `★0 · 📚6` — A 60-game benchmark of TypeSafe's Jev evaluation model playing Battleship. The model matches plain code; it does not beat it.
+- [meetr1912/jev-arena](https://github.com/meetr1912/jev-arena) `★0 · 📚6` — A calibration arena for TypeSafe Jev: reliability, Brier/ECE, and confidence-gated risk-coverage on analytically-known random worlds.
+- [meetr1912/jev-vickrey](https://github.com/meetr1912/jev-vickrey) `★0 · 📚6` — TypeSafe Jev bids in sealed-bid auctions: threshold fan-out reconstructs a calibrated value CDF, scored by regret and truthfulness.
+- [mleyvaz/jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse) `★0 · 📚6` — Jev (TypeSafe AI) y el colapso entre conflicto e ignorancia. 3 experimentos via Vercel AI Gateway. Nota de campo, destino NCML.
+- [moguone/jev-lab](https://github.com/moguone/jev-lab) `★0 · 📚6` — Small apps for evaluating TypeSafe AI's System One model (Jev). Unofficial.
+- [rajantripathi/fastgate-jev](https://github.com/rajantripathi/fastgate-jev) `★0 · 📚6` — Jev (TypeSafe AI) as a System One decision layer for a multilingual EN/UZ/RU RAG helpdesk, with an independent benchmark
+- [site](https://judge.jev.works) `📚6`
+- [taituo/jev](https://github.com/taituo/jev) `★0 · 📚6` — Audited LLM Wiki over RFCs 7519/7515/7516/6749/6750/8725 — Slice 1: reproducible sources, resolvable citations, frozen 40-claim audit fixture
+- [chunxiaoxx/nautilus-compass](https://github.com/chunxiaoxx/nautilus-compass) `★819 · 📚5` — Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts + drift detection + black-box memory (no LLM extraction).
+- [alexgreensh/eval-genius](https://github.com/alexgreensh/eval-genius) `★15 · 📚5` — Teach your agent to work with evals: WHEN you actually need an eval or benchmark, HOW to build one that holds up, and how to read what it tells you. Deterministic-first, tool-agnostic.
+- [theaiautomators/jev-arena](https://github.com/theaiautomators/jev-arena) `★10 · 📚5` — A local evaluation lab for decision models. Compare accuracy, speed and memory requirements through an interactive dashboard, inspectable test cases, workflow replays and shareable reports.
+- [org2AI/wald-4b](https://github.com/org2ai/wald-4b) `★5 · 📚5` — Wald-Q4B: open-weight 4B decision model. Calibrated probability for every option, Jev-compatible /v1/systemone API, self-hosted. Weights on Hugging Face.
+- [sarathi-aiml/jevsql](https://github.com/sarathi-aiml/jevsql) `★4 · 📚5` — Text-to-SQL where the model never writes SQL — typed, calibrated decisions (TypeSafe Jev) + code-assembled queries
+- [azterizm/jev-vs-sovereign-benchmark](https://github.com/azterizm/jev-vs-sovereign-benchmark) `★3 · 📚5` — Fake-law probe on UK legal RAG: 0% abstention where a specialised stack abstained 100%. jev-1.13.0
+- [lexingtonhibiki/judgekit](https://github.com/lexingtonhibiki/judgekit) `★3 · 📚5` — Runtime judgment engine for System One (judge) models — YAML tasks, classify/score/route/verify, provider-agnostic, cost-accuracy benchmark (判官工具箱)
+- [lianghsun/jev-tmmluplus-eval](https://github.com/lianghsun/jev-tmmluplus-eval) `★3 · 📚5` — Evaluate TypeSafe AI's Jev (System One Model) on TMMLU+ v1.1 — four-way choice via the API's own response schema, 100% parse rate by construction
+- [OmarMujahid/jev-decision-bench](https://github.com/omarmujahid/jev-decision-bench) `★3 · 📚5` — An independent benchmark of TypeSafe's Jev, a model that does not write text. You send it some content and a list of typed questions (yes/no, pick one option, rate on a scale) and ★ 2 · endpoint · Python
+- [LouisUltra/jev-deep-dive](https://github.com/louisultra/jev-deep-dive) `★2 · 📚5` — An evidence-graded deep dive into Jev (TypeSafe AI's System One model): interface, verification, reproduction comparison, and field guide. Bilingual (EN/中文), with runnable probe tools.
+- [Xy2002/poker-jev-test-bench](https://github.com/xy2002/poker-jev-test-bench) `★2 · 📚5` — Jev test bench — Texas Hold'em edition: live-fire testing of TypeSafe's Jev evaluation model through a React poker game (Vercel AI Gateway). MIT.
+- [xzx34/JevOut](https://github.com/xzx34/jevout) `★2 · 📚5` — Code for JevOut: Natural Context Can Flip Decision Models
+- [emretheus/jev-rag-benchmark](https://github.com/emretheus/jev-rag-benchmark) `★1 · 📚5` — Free English RAG benchmark for TypeSafe Jev 1.13 — frozen candidate pools, calibration, paired bootstrap CIs, $0 runs. Compared with OpenJev and NVIDIA cross-encoders.
+- [etsabary/jev-deterministic-benchmark](https://github.com/etsabary/jev-deterministic-benchmark) `★1 · 📚5` — 1,000-decision behavioral benchmark of Jev across 25 deterministic reasoning families.
+- [manjunathshiva/jev-frontier-bench](https://github.com/manjunathshiva/jev-frontier-bench) `★1 · 📚5` — TypeSafe Jev 1.13 vs Claude Fable 5.1, GPT-6 Astra, Kimi K3, MiniMax M3 and DeepSeek V4.1 Flash on 200 typed decisions: accuracy, calibration, agreement with 100 human annotators, latency and cost
+- [simonmesmith/jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment) `★1 · 📚5` — Reproducible evaluation of TypeSafe Jev on all 58,492 BBQ questions: accuracy, stereotype bias, uncertainty, cost and latency.
+- [sispehar/jev-for-splunk](https://github.com/sispehar/jev-for-splunk) `★1 · 📚5` — Splunk app: the \| jev search command asks TypeSafe Jev typed questions about your events and adds calibrated probabilities, choices and scores as fields, cached in the KV store.
+- [trycatchkamal/typesafe-jev-traffic-demo](https://github.com/trycatchkamal/typesafe-jev-traffic-demo) `★1 · 📚5` — typesafe-jev-traffic-demo - typesafe-jev-traffic-demo: TypeSafe Jev ecosystem repository. · Python
+- [zhuyansen/jev-issue-pulse](https://github.com/zhuyansen/jev-issue-pulse) `★1 · 📚5` — Can a Jev-labelled GitHub issue stream catch a broken release before the fix? No at daily cadence (null, n=7). Per issue, Jev matches triage labels far better than keywords or sentiment.
+- [asmirrr/DriftLab](https://github.com/asmirrr/driftlab) `★0 · 📚5` — Reproducible quantitative research CLI for testing momentum strategies and auditing research methodology with TypeSafe Jev.
+- [bugkiwi/turing-jail](https://github.com/bugkiwi/turing-jail) `★0 · 📚5` — Turing Jail - Let's get out!
+- [Convex Decision Evals](https://convex.dev/evals/decision) `📚5` — Convex-run leaderboard comparing Jev with structured-output LLMs on 108 four-option questions about the Convex platform; its open runner sends questions and shuffled options to OpenRouter, uses native Jev Choice, and…
+- [Correa-Gui/jev-benchmark-demo](https://github.com/correa-gui/jev-benchmark-demo) `★0 · 📚5` — Jev (TypeSafe AI) vs LLMs: benchmark + demo web ao vivo comparando latencia, custo e concordancia
+- [FlorianRiquelme/jev-kit](https://github.com/florianriquelme/jev-kit) `★0 · 📚5` — Typed client and benchmark harness for Jev, TypeSafe AI's System One decision model, through the Vercel AI Gateway. Measure accuracy, calibration and cost on your own data before you trust a threshold.
+- [JevBench](https://benchmarkheaven.com/jev-models) `📚5` — Benchmark + HN thread (126 points, 34 comments): a reproducible harness for comparing typed-decision models on the same questions.
+- [namenu/pi-jev-effort](https://github.com/namenu/pi-jev-effort) `★0 · 📚5` — Pi extension: per-prompt thinking level from a TypeSafe Jev judgement, capped by the quota you have left
+- [nickwinder/jev-judge](https://github.com/nickwinder/jev-judge) `★0 · 📚5` — Jev CLI for the jev-judge Claude/Codex skill. Wraps the official @typesafe-ai/sdk.
+- [nitro527/jev_project](https://github.com/nitro527/jev_project) `★0 · 📚5` — Jev-style decision engine over any OpenAI-compatible LLM using max_tokens=1 logprobs, wrapped as an MCP server with probe and benchmark scripts. no license · Python
+- [pavan142/jev-experiments](https://github.com/pavan142/jev-experiments) `★0 · 📚5` — jev-experiments - jev-experiments: TypeSafe Jev ecosystem repository. · TypeScript
+- [pozapas/jev-calibrated-narrative-coding](https://github.com/pozapas/jev-calibrated-narrative-coding) `★0 · 📚5` — Calibrated conversion of police crash narratives into probabilistic crash variables with a System One model. Pipeline, schema and aggregated results.
+- [Running-Dolphins/jev-bench](https://github.com/running-dolphins/jev-bench) `★0 · 📚5` — Measure accuracy and calibration of Jev (TypeSafe AI's decision model) on public datasets: 12 business-like tasks, 7 experiments, one Python file.
+- [site](https://lab-dados.github.io/jev-anotacao-sentencas) `📚5`
+- [site](https://ahn-lab.org/jev-korean-benchmark) `📚5`
+- [site](https://demensdeum.com) `📚5`
+- [site](https://genai-craft.com) `📚5`
+- [tjkimcloud/jev-site-auditor](https://github.com/tjkimcloud/jev-site-auditor) `★0 · 📚5` — Score every page on your site against your own brand/AEO rules, combining free regex checks with Jev (TypeSafe AI) semantic judgment calls. Point it at your own site with your own brand rules and OpenRouter key.
+- [uesgugikouhei-oss/jev-ja-eval](https://github.com/uesgugikouhei-oss/jev-ja-eval) `★0 · 📚5` — Evaluate Jev (TypeSafe AI) on Japanese customer-inquiry data: 150-item dataset + comparison script (Jev / LLM / rule-based)
+- [vrash/jeval](https://github.com/vrash/jeval) `★0 · 📚5` — jeval: open-source evaluations for AI outputs and agents, judged by Jev
+
+## Emerging (cited by 3–4 lists) — 134
+
+- [33Audits/jev-auto](https://github.com/33audits/jev-auto) `📚4` — jev-auto - 33Audits/jev-auto - Per-turn model routing for Claude Code. Cheapest tier that can do the job, no API key required, and it calibrates itself from what actually happened.
+- [adyoi/jev-system-one-playground](https://github.com/adyoi/jev-system-one-playground) `📚4` — Windows Forms playground for Jev System One — visualize and evaluate TypeSafe primitives (
+- [AgoraIO-Community/convoai-jev-vad](https://github.com/agoraio-community/convoai-jev-vad) `📚4` — Jev VAD: client-side turn detection for Agora Conversational AI — manual SoS/EoS and semantic barge-in judged by TypeSafe Jev
+- [arifulislamat/jev-benchmark](https://github.com/arifulislamat/jev-benchmark) `📚4` — Probe + write-up pinning down Jev's live API shape: scripts/probe.ts confirmed the response shape of typesafe/jev-1.13-20260917 over OpenRouter's decisions endpoint (live demo: arifulislamat.github.io/jev-benchmark).…
+- [Ascurse/typed-judge-kit](https://github.com/ascurse/typed-judge-kit) `📚4` — Typed questions to a model, verdict in code, thresholds from your labels Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [ash-project/ash_ai](https://github.com/ash-project/ash_ai) `📚4` — Maps Ash action arguments and return types to Jev evaluation requests through ReqLLM. ⭐ 189
+- [asp616848/better-jev-bench](https://github.com/asp616848/better-jev-bench) `📚4` — A wide, multi-domain, multi-modal decision/classification benchmark corpus, built in the Jev typed-d
+- [Charlie-Wang-03/jev-testbench](https://github.com/charlie-wang-03/jev-testbench) `📚4` — A lightweight, auditable Jev testbench built through Agentic Engineering, with frozen evidence, a pr
+- [Clementtang/jev-eval](https://github.com/clementtang/jev-eval) `📚4` — Stance test of TypeSafe Jev vs Claude on Taiwan sovereignty questions, in Traditional Chinese, Simpl
+- [cooper667/jev-browse](https://github.com/cooper667/jev-browse) `📚4` — jev-browse — Plain-English browser QA for Claude Code, judged by TypeSafe's Jev on Cloudflare Workers AI (auto-discovered, description not yet written)
+- [dashbi1/jev-sim](https://github.com/dashbi1/jev-sim) `📚4` — Jev-compatible /v1/systemone server reading typed decisions from LLM logits, benchmarked against Typ
+- [divyanshudhruv/oev](https://github.com/divyanshudhruv/oev) `📚4` — A 184M-parameter decision engine delivering calibrated distributions from one 22ms forward pass while matching models 2.3x its size.
+- [FailproofAI/jev-buildathon](https://github.com/failproofai/jev-buildathon) `📚4` — jev-buildathon — Jev Buildathon: four imperfect agents to steer with Jev evals and policies (auto-discovered, description not yet written) ❔
+- [gkastanis/d3code-calibration](https://github.com/gkastanis/d3code-calibration) `📚4` — Checking whether a model's probability means what it says: TypeSafe Jev and open-weights Laya agains
+- [havietkok-sys/BizzJev](https://github.com/havietkok-sys/bizzjev) `📚4` — Experiments with TypeSafe/Jev semantic gates and a Semantic Operations Lab demo.
+- [HCTDIP/jeveto](https://github.com/hctdip/jeveto) `📚4` — Jev ecosystem: calibrated decision model + veto gate. Reproducible AI decisions with CI-backed stability certificates
+- [hgavert/system-one-bench](https://github.com/hgavert/system-one-bench) `📚4` — Hands-on experiments with open-source System One (Jev-style) decision models on an Apple M
+- [Holovkat/jev-mark](https://github.com/holovkat/jev-mark) `📚4` — Benchmarking Local LLM's against the TypeSafe AI watermark for logic processing
+- [Iskandeur/system1-system2](https://github.com/iskandeur/system1-system2) `📚4` — Hybrid System 1 (TypeSafe Jev decisions) + System 2 (Claude Fable) demo with confidence-gated routing and cost/accuracy benchmarks.
+- [Jev-Engineering/jev-integration-evaluator](https://github.com/jev-engineering/jev-integration-evaluator) `📚4` — Evidence-driven JEV integration analysis and evaluation toolkit
+- [kamo-shika/jev-bench](https://github.com/kamo-shika/jev-bench) `📚4` — inferred / other — ⭐0
+- [kentaro/jev-fizzbuzz](https://github.com/kentaro/jev-fizzbuzz) `📚4` — FizzBuzz solved by asking Jev only divisibility questions, with logged accuracy from 2 to 30 digit numbers showing where divide-by-3 breaks. no license · HTML · live
+- [model-collapse/jev-bench](https://github.com/model-collapse/jev-bench) `📚4` — JevBench: an open, model-agnostic benchmark for typed decision models (Choice/Score/Noul)
+- [MoLeMo-Lab/mojev](https://github.com/molemo-lab/mojev) `📚4` — MoJev — Open model for typed, calibrated decisions in one forward pass. _Python; ★ 28._
+- [neozhu/jev-audit](https://github.com/neozhu/jev-audit) `📚4` — AI-powered contract comparison with Jev atomic evaluations—spot substantive changes, filter OCR nois
+- [objectgraph/jev-samegame-bench](https://github.com/objectgraph/jev-samegame-bench) `📚4` — (notable) - Benchmark of 21 ways to present a SameGame board to Jev across 40 boards, with all 76,795 requests and responses logged and bootstrap comparisons. MIT · TypeScript · live
+- [Okura66/kahn1](https://github.com/okura66/kahn1) `📚4` — High-throughput, sub-20ms System 1 decision engine on LLM logits. Zero text generation, calibrated probabilit…
+- [PPRAMANIK62/yc-jev-bench](https://github.com/ppramanik62/yc-jev-bench) `📚4` — Can Jev replace an LLM reranker? A benchmark of TypeSafe's Jev vs Claude Haiku and BGE on natural-language search over all 6,245 ...
+- [priorbench/jev](https://github.com/priorbench/jev) `📚4` — Independent, pre-registered evaluation of TypeSafe AI's Jev. 5,721 calls, 21 experiments, 50 predict
+- [shaifulshabuj/jev-test](https://github.com/shaifulshabuj/jev-test) `📚4` — Empirical benchmarks, task telemetry, and engineering thesis for Jev (TypeSafe AI) System One in autonomous agentic organizations
+- [shyamsridhar123/JudgeJev](https://github.com/shyamsridhar123/judgejev) `📚4` — A hands-on educational lab for DeepEval + Jev: inspect real recorded judgments, explore release gate
+- [sinkarusa/jevemu](https://github.com/sinkarusa/jevemu) `📚4` — Open emulator of TypeSafe's Jev API on open models, plus a paired benchmark of local and hosted models against Jev
+- [site](https://askjev.ai) `📚4` — askjev.ai — "Ask Jev anything. It won't answer. It will judge." Public wall by Wayne Sutton: Jev answers six typed questions (~100ms) per ask — yes/no/it depends, mood, topic, fits-the-wall — stored via Convex, everyone…
+- [site](https://harnessjudge.vercel.app) `📚4`
+- [site](https://myokoym.github.io/misereru-slide-jev) `📚4`
+- [stas4000/jev-geo-audit](https://github.com/stas4000/jev-geo-audit) `📚4` — public pages audited for AI citability with Jev decisions, checked against an LLM judge: agreement, cost and latency, measured
+- [sudo-sagar/jev-calibration](https://github.com/sudo-sagar/jev-calibration) `📚4` — Built an audit for independent evaluation harness for Jev. Here's the calibration plot from more than 190+ real examples.
+- [takafumikobayashi/jev-snap-lab](https://github.com/takafumikobayashi/jev-snap-lab) `📚4` — jev-snap-lab - Tiny inputs. Instant decisions. A small experimental playground for exploring fast, probabilistic decisions with Jev. · TypeScript
+- [tcsenpai/jevoracle](https://github.com/tcsenpai/jevoracle) `📚4` — jevoracle - Typed questions over your own state, not a chat. A front end for TypeSafe's System One API. · JavaScript
+- [theyashwanthsai/jevals](https://github.com/theyashwanthsai/jevals) `📚4` — jevals (theyashwanthsai) - Eval framework for LLMs and agents graded by a calibrated decision model, research preview. #evaluation
+- [Using TypeSafe's Jev for evals (Langfuse)](https://langfuse.com/blog/2026-09-18-using-typesafes-jev-for-evals) `📚4` — Using TypeSafe's Jev for evals - Langfuse, on Jev as an eval judge.
+- [VishiATChoudhary/toolJev](https://github.com/vishiatchoudhary/tooljev) `📚4` — Code Mode for MCP, where the sub-model is a calibrated decision model (Jev), not an LLM. Benchmarked on MCPToolBench++, LiveMCPBench, When2Call and ...
+- [xxlya/evaljev](https://github.com/xxlya/evaljev) `📚4` — Runtime assurance, replay, and auto-diagnostics for Jev/System-One decision workflows
+- [yasumorishima/jev-baseball](https://github.com/yasumorishima/jev-baseball) `📚4` — Testing TypeSafe Jev (a decision-only model) on MLB ABS pitch challenges: does it predict overturns better than zone distance?
+- [zkousama/jagged](https://github.com/zkousama/jagged) `📚4` — A pre-registered test of which parts of TypeSafe's advice for its Jev model change the answer.
+- [0xmdinc/jev-medical-bench](https://github.com/0xmdinc/jev-medical-bench) `📚3` — jev in:name created:2026-09-28..2026-09-30
+- [aimer1319-lgtm/jev-hft](https://github.com/aimer1319-lgtm/jev-hft) `📚3` — jev-hft - jev-hft: TypeSafe Jev ecosystem repository. · TypeScript
+- [alexnodeland/evalr](https://github.com/alexnodeland/evalr) `📚3` — Typed evaluation for agent systems: DSPy judges optimized with GEPA, TypeSafe Jev decision models, datasets and experiments in Langfuse.
+- [AlperKartkaya/FlightBench](https://github.com/alperkartkaya/flightbench) `📚3` — FlightBench is a fixed-wing landing simulator and benchmark for decision models and LLMs. Watch how Jev lands the plane where LLM models ...
+- [atmaneayoubdev/jev-mem](https://github.com/atmaneayoubdev/jev-mem) `📚3` — Decision-native long-term memory for AI agents: calibrated Jev judgments + a deterministic policy, benchmarked against similarity retrieval
+- [avnish-deobhakta/jev-clinical-calibration](https://github.com/avnish-deobhakta/jev-clinical-calibration) `📚3` — Pre-registered evaluation of Jev 1.13 vs Claude Opus 5 (reasoning off) and Opus 5.5 (reasoning on) on clinical diagnosis
+- [BowmanStephen/jev-stage-a-explainer](https://github.com/bowmanstephen/jev-stage-a-explainer) `📚3` — Jev Stage A explainer -- quiet Read-mode scorecard for the frozen 20-post calibration spike
+- [buddy/minesweeper](https://github.com/buddy/minesweeper) `📚3` — A Minesweeper benchmark for LLM agents. One identical board, up to nine models in parallel, one cloc
+- [carlaiau/judge-jev](https://github.com/carlaiau/judge-jev) `📚3` — judge-jev - Reproducible experiments evaluating Jev as an automated judge across benchmarks and tasks. · TypeScript
+- [cjgunase/jev-scifact-eval](https://github.com/cjgunase/jev-scifact-eval) `📚3` — inferred / evaluation — ⭐0
+- [colinmcnamara/jev-first-look](https://github.com/colinmcnamara/jev-first-look) `📚3` — Scripts and raw results for a first hands-on look at Jev, TypeSafe AI's System One decision model: c
+- [CondadosAI/jev-omni-eval](https://github.com/condadosai/jev-omni-eval) `📚3` — What Jev-Omni's decision head buys: three readouts of one Gemma 4 12 B forward pass on DecisionBench, BLINK and MMStar, with calibration
+- [corbitsdev/corbits-system-one](https://github.com/corbitsdev/corbits-system-one) `📚3` — Typed-decision evaluation client for System One (Jev-class) models
+- [desquaredp/jev-loop-benchmark](https://github.com/desquaredp/jev-loop-benchmark) `📚3` — Reproducible JEV-led coding-agent repair loop benchmark
+- [devchilll/jev-rubrics](https://github.com/devchilll/jev-rubrics) `📚3` — Calibrated decision models (Jev) as paper-reproduction rubric judges
+- [devnolife/jev-vs-tfidf-benchmark](https://github.com/devnolife/jev-vs-tfidf-benchmark) `📚3` — jev-vs-tfidf-benchmark - Does a System One model actually beat keyword matching? A reproducible benchmark on catching disguised duplicate thesis titles. 24 cases, real production baseline, raw data and charts included.…
+- [edoigtrd/Mirave](https://github.com/edoigtrd/mirave) `📚3` — Mirave - Mirave: TypeSafe Jev ecosystem repository. · Python
+- [eggmasonvalue/jev-takes-mauboussin](https://github.com/eggmasonvalue/jev-takes-mauboussin) `📚3` — Evaluating TypeSafe's Jev on Michael Mauboussin's 50-question decision calibration test
+- [EmilLindfors/jev-horingssvar-eval](https://github.com/emillindfors/jev-horingssvar-eval) `📚3` — jev-horingssvar-eval - Norwegian hearing documents: equal accuracy to DeepSeek V4.1 Flash at $0.22 vs $3.08 / 1k docs, 0.32 s vs 26 s median.
+- [FirasSX914/calibre](https://github.com/firassx914/calibre) `📚3` — measures calibration and confidence-based routing on Banking77, reporting 80.2% accuracy at $0.103 per 500 decisions. That is a useful independent signal on a public benchmark, and Banking77 is also the dataset where…
+- [gargpratyush/journey-evals](https://github.com/gargpratyush/journey-evals) `📚3` — Drive a real browser or a real LangGraph agent through one declared user journey, and report what actually ha…
+- [gbesse/jev-roast](https://github.com/gbesse/jev-roast) `📚3` — jev-roast - Score declared writing dimensions and cite only exact source spans for weak results. · JavaScript
+- [gooooloo/jev-eval](https://github.com/gooooloo/jev-eval) `📚3`
+- [hanselhansel/jev-opportunity-atlas](https://github.com/hanselhansel/jev-opportunity-atlas) `📚3` — Recurring problems in a year of Hacker News comments, classified with TypeSafe Jev. Accuracy, cost, and speed measured.
+- [haowenyang188-arch/dsh-jev-judge](https://github.com/haowenyang188-arch/dsh-jev-judge) `📚3` — dsh-jev-judge - TypeSafe Jev SystemOne structured-judgment plugin for DeepSeek Harness \(jev\_judge: noul/choice/score\) · JavaScript
+- [harsheetamorey/jev-evaluation](https://github.com/harsheetamorey/jev-evaluation) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [haxudev/jev-benchmark](https://github.com/haxudev/jev-benchmark) `📚3`
+- [jackchen13755/dsh-jev-lens](https://github.com/jackchen13755/dsh-jev-lens) `📚3` — Jev quality bench for DeepSeek Harness: shadow-accounted dangerous-command judging, injection screen
+- [jcbritton23/jev-mentalbench-study](https://github.com/jcbritton23/jev-mentalbench-study) `📚3` — Independent evaluation of TypeSafe Jev on MentalBench synthetic psychiatric cases.
+- [JEV-27B model card](https://huggingface.co/autotrust/jev-27b) `📚3` — .8 GB backbone; author-reported evaluation; limited choice count in current serving path. JEV-27B model card
+- [Jiadalee/jev-vs-llm-tb-amr](https://github.com/jiadalee/jev-vs-llm-tb-amr) `📚3` — Benchmark: a System One decision model (Jev) vs a generative LLM (Qwen3.8-27B) answering the same 27 TB drug-resistance questions per isolate — ...
+- [joaovaleri/jevkenpo](https://github.com/joaovaleri/jevkenpo) `📚3` — jevkenpo - Rock, paper, scissors. And literally anything else. An open-source game judged by Jev. · JavaScript
+- [JoeSlain/jev-gliclass-bench](https://github.com/joeslain/jev-gliclass-bench) `📚3` — Reproducible TypeSafe Jev vs Knowledgator GLiClass bake-off on LocalLLaMA/typed-decisions
+- [Joshirod/Acervo](https://github.com/joshirod/acervo) `📚3` — Desktop app that searches a local folder, ranks passages with Jev and reports when the answer is not there, with an optional OpenAI/Claude benchmark mode. MIT · TypeScript
+- [jumboly/cogp-jev-lens](https://github.com/jumboly/cogp-jev-lens) `📚3` — jevlang OR jev.ai in:name,description created:
+- [kimjooyoon/gooo-jev-runtime](https://github.com/kimjooyoon/gooo-jev-runtime) `📚3` — Go and .gooo runtime primitives for JEV calibration, provenance, and bounded self-improvement
+- [kishida/jev-bench](https://github.com/kishida/jev-bench) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [kokuren333/jev-jmle-benchmark](https://github.com/kokuren333/jev-jmle-benchmark) `📚3` — jev-jmle-benchmark - 9 years of Japanese Medical Licensing Exams (3,556 items): 88.58%; companion manuscript on medRxiv.
+- [kyr0/typed-decision-bench](https://github.com/kyr0/typed-decision-bench) `📚3` — Large typed decision model evaluation benchmark and novel calibration standard (calibration.json)
+- [lab.cairn.ink](https://lab.cairn.ink) `📚3` — Public recorded walkthrough: lab.cairn.ink (no key; visitors cannot submit live evaluations).
+- [lancedb/lancedb](https://github.com/lancedb/lancedb) `📚3` — LanceDB's built-in TypeSafe reranker, benchmarked against 19 reranker configurations across 5 datasets (HotpotQA Hit@1 63.5% to 72.9% with Jev).
+- [Laya 对比 Jev 基准测试](https://huggingface.co/datasets/luni/laya-jev-benchmark) `📚3` — laya-jev-benchmark - Head-to-head Laya vs Jev benchmark data.
+- [lballaty/Alt-JEV-LABs](https://github.com/lballaty/alt-jev-labs) `📚3` — Alt-JEV-LABs — test JEV and alternatives to compare and validate application of the concepts in specific domains _(★0)_
+- [leecoder/jev-evaluation](https://github.com/leecoder/jev-evaluation) `📚3` — Standalone TypeSafe Jev evaluations on 2026 Korean CSAT and SAT Practice Test #11
+- [lose4578/jev-robotics-eval](https://github.com/lose4578/jev-robotics-eval) `📚3` — Evaluate JEV robot control in MetaWorld and RoboTwin: discrete actions, hierarchical control, privil
+- [Madheshvivekanandan/jev-vs-cosine](https://github.com/madheshvivekanandan/jev-vs-cosine) `📚3` — Do you need TypeSafe's Jev, or is cosine similarity enough? A $0, reproducible benchmark on Banking77 intent routing.
+- [MahdiHedhli/foreman-jev-evaluation](https://github.com/mahdihedhli/foreman-jev-evaluation) `📚3` — JEV evaluation (FM-JEV-01): replay-only, advisory-only evaluation of Foreman-style supervision with
+- [Maher-Reven/calibrant](https://github.com/maher-reven/calibrant) `📚3` — calibrant - Does your model's confidence mean anything on your data? Calibration layer for typed probabilistic decisions — reliability, ECE, Brier, recalibration maps and cost-aware thresholds from decisions + outcomes.…
+- [Mairuis/jev-doudizhu](https://github.com/mairuis/jev-doudizhu) `📚3` — Play Dou Dizhu against two Jev AIs, with a shared card tracker and persistent leaderboard.
+- [marianoberton/agent-evals](https://github.com/marianoberton/agent-evals) `📚3` — Reviewed on 2026-09-23 at commit a703251 (agent-evals 0.1.0, MIT). AI-assisted review of README, LICENSE, Jev modules. No live TypeSafe spend.
+- [maybern-tripp-smith/fedjev-bench](https://github.com/maybern-tripp-smith/fedjev-bench) `📚3` — FOMC hawkishness: TypeSafe Jev pairwise Choice vs rate actions (+ Haiku 4.5 comparison). Pages in /docs.
+- [mbburabak/jev-safety-benchmark](https://github.com/mbburabak/jev-safety-benchmark) `📚3` — Benchmark harness evaluating TypeSafe's Jev model on six public safety benchmarks against Shieldstra
+- [Mishkun/judge-jev](https://github.com/mishkun/judge-jev) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [MohibShaikh/jev-skillbench](https://github.com/mohibshaikh/jev-skillbench) `📚3` — Benchmark of TypeSafe's Jev as a malicious agent-skill detector on MalSkillBench, with a verify-and-escalate cascade
+- [nadeem4/ai-experiments](https://github.com/nadeem4/ai-experiments) `📚3` — Measured experiments on decision models. Can an open-weight model re-rank search results? Does a tok
+- [omauser119/JaxModels](https://github.com/omauser119/jaxmodels) `📚3` — Jax-1-Abel: open-source typed decisions, C++ training/inference and local TypeSafe SDK gateway. Experimental distilled head, not RLCD.
+- [pobooo/jev-dice](https://github.com/pobooo/jev-dice) `📚3` — Does Jev play dice? Systematic bias in non-deterministic decisions
+- [redhatpanda/jev-regress-bench](https://github.com/redhatpanda/jev-regress-bench) `📚3` — Which of an agent's approved answers actually changed after a config edit? A reproducible bench: exact match vs embeddings vs a three-tier ...
+- [Reflex](https://kshetrajna12.github.io/reflex) `📚3`
+- [rheono/html-jev](https://github.com/rheono/html-jev) `📚3` — SO-meme HTML judge on TypeSafe Jev
+- [rishi-raj-jain/hn-thread-judge](https://github.com/rishi-raj-jain/hn-thread-judge) `📚3` — The most-discussed Hacker News threads, each read comment by comment by Jev and reduced to one verdi
+- [ryok/jev-calibration-lab](https://github.com/ryok/jev-calibration-lab) `📚3` — Measuring calibration of TypeSafe Jev (jev-1.13) via OpenRouter
+- [Saeedabdf/jev-screening-benchmark](https://github.com/saeedabdf/jev-screening-benchmark) `📚3` — Benchmark of TypeSafe Jev (System One decision model) for systematic review title/abstract screening
+- [Sagnnik/jev-like](https://github.com/sagnnik/jev-like) `📚3` — jev in:name created:2026-09-16..2026-09-17
+- [sah1l/jev-battleship](https://github.com/sah1l/jev-battleship) `📚3` — Battleship against Jev, a model that answers in probabilities instead of text. Web game pl
+- [seongyeon1/dlm-jev](https://github.com/seongyeon1/dlm-jev) `📚3` — Jev-style typed decision engine on a diffusion LM (DiffusionGemma + MLX)…
+- [shivpratapsinghpanwar/edgefront_JEV](https://github.com/shivpratapsinghpanwar/edgefront_jev) `📚3` — Do you need a hosted decision model, or does a small local model match it? Measure accuracy, latency, calibration and cost on ...
+- [site](https://goya4140.github.io/jev-reward-model-evaluation) `📚3`
+- [site](https://typear.ai) `📚3`
+- [smammadov1994/Signal98](https://github.com/smammadov1994/signal98) `📚3` — Error-tracking SDK plus a Windows 98-styled monitor that has Jev judge each event as urgent, user-facing or novel to page or suppress it. no license · JavaScript
+- [stperic/jev-medhallu-benchmark](https://github.com/stperic/jev-medhallu-benchmark) `📚3` — TypeSafe's Jev and four fast LLMs added to Stanford MedHELM's MedHallu results: harness, preregistered run plans and every run file.
+- [suenot/codex-jev-router-benchmarks](https://github.com/suenot/codex-jev-router-benchmarks) `📚3` — Reproducible benchmarks, reports, and traces for Codex Jev Router
+- [swairshah/JevDial](https://github.com/swairshah/jevdial) `📚3` — interface to investigate calibration of Jev and other System-1 Models.
+- [TakumiNoguchi2004/jev-noul-vs-choice](https://github.com/takuminoguchi2004/jev-noul-vs-choice) `📚3` — jev-noul-vs-choice - jev-noul-vs-choice: TypeSafe Jev ecosystem repository. · Python
+- [tanayvasishtha/jev-lab](https://github.com/tanayvasishtha/jev-lab) `📚3` — jev-lab - jev-lab: TypeSafe Jev ecosystem repository. · JavaScript
+- [themsquared/jev-calibration](https://github.com/themsquared/jev-calibration) `📚3` — Apache-2.0. TypeSafe usage may incur charges when live.
+- [ThomasRossi/fin-benchmark-jev](https://github.com/thomasrossi/fin-benchmark-jev) `📚3` — Benchmark TypeSafe Jev 1.13 vs Qwen 3.8 27 B on constrained-output financial tasks
+- [TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Inst](https://marktechpost.com/2026/09/19/typesafe-ai-releases-jev) `📚3` — Bryo AI: email triage — CTO Nikhil Mudholkar found Gemini slightly more accurate but 10–20× more expensive than Jev.
+- [ufx7/jev-testbench](https://github.com/ufx7/jev-testbench) `📚3` — jev-testbench - ufx7/jev-testbench - Black-box Jev test bench + a Claude/LLM-and-Jev collaboration measurement harness.
+- [underpass-ai/kmp](https://github.com/underpass-ai/kmp) `📚3` — MP (Kernel Memory Protocol) — temporal, multidimensional, auditable AI agent memory.
+- [venkateswarisudalai/jev-vs-llm](https://github.com/venkateswarisudalai/jev-vs-llm) `📚3` — inferred / other — ⭐0
+- [warsang/jev-web](https://github.com/warsang/jev-web) `📚3` — Run open-jev- and Laya-shaped typed-decision models in the browser: one state plus typed questions i
+- [WindTunnel](https://webmcp.com/benchmark) `📚3` — WebMCP × Jev bench — Jev picks WebMCP tools; Mercury fills args; 49/49 at ~112×–245× lower model cost vs GPT-6 Astra computer use; thread · WindTunnel
+- [wudilyy999/jev-langgraph](https://github.com/wudilyy999/jev-langgraph) `📚3` — JEV-native probabilistic decisions, human review, and auditable execution on LangGraph.
+- [xiaohuaxi/jev-study](https://github.com/xiaohuaxi/jev-study) `📚3` — Hands-on measurements of TypeSafe's Jev via OpenRouter: integration, Chinese-language behaviour, and game loo…
+- [xxkuboxx/jev-eval](https://github.com/xxkuboxx/jev-eval) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [ZF-Utokyo/Jev-Benchmark](https://github.com/zf-utokyo/jev-benchmark) `📚3` — Same score. Different decisions. — Cost, accuracy, and consistent correctness in contract
+- [网站](https://webofmike.com/jev-benchmark) `📚3`
+- [网站](https://jev-pr-judge.vercel.app) `📚3`
+
+## Long tail (cited by 1–2 lists) — 490
+
+<details><summary>Show 490 long-tail entries</summary>
+
+- [247arjun/JevPlayground](https://github.com/247arjun/jevplayground) `📚2` — A sandbox to evaluate Jev
+- [4OH4/jev-compare](https://github.com/4oh4/jev-compare) `📚2` — Evaluating Jev for zero-shot evaluation
+- [aakgna/jevcal](https://github.com/aakgna/jevcal) `📚2` — Typed decision schemas and calibration tracking (ECE, Brier, reliability diagrams) for LLM
+- [aarongunasingh/ask-twice](https://github.com/aarongunasingh/ask-twice) `📚2` — ask-twice - ask-twice: TypeSafe Jev ecosystem repository. · Python
+- [ackness/covel](https://github.com/ackness/covel) `📚2` — Covel Jev choice demo · ackness · GitHub · ⭐ 51 repo · 2026-03-24Optional plugin for an agentic AI RPG framework that shows the evaluation model's…
+- [agodoy21/enigma-jev](https://github.com/agodoy21/enigma-jev) `📚2` — Inspected src/jev/judge.ts and src/jev/client.ts: crib ranking and German-plaintext judgment via TypeSafe Jev. Live breaks not run on the review host.
+- [ai-dev-2024/JevLab](https://github.com/ai-dev-2024/jevlab) `📚2` — inferred / evaluation — ⭐0
+- [alanfong93/local-judge](https://github.com/alanfong93/local-judge) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [alexa/massive](https://github.com/alexa/massive) `📚2` — MASSIVE - Multilingual intent-and-slot dataset (about 1M utterances, 52 languages) for testing whether a fast decision layer generalizes. CC BY 4.0.
+- [AliZareh-CoE/JevRev](https://github.com/alizareh-coe/jevrev) `📚2` — Narrow a literature review with Jev: typed, calibrated relevance judgments over abstracts and paragraphs.
+- [alp82/goodwatch-monorepo](https://github.com/alp82/goodwatch-monorepo) `📚2` — goodwatch-monorepo — A film-and-TV attribute-scoring experiment inside GoodWatch comparing Jev question designs and batch sizes.
+- [Andymulb/jev_the_philosopher](https://github.com/andymulb/jev_the_philosopher) `📚2` — Measuring a decision model's moral judgements: constant latency regardless of difficulty, sensitivity to fram…
+- [aniruddha2004/flowrace](https://github.com/aniruddha2004/flowrace) `📚2` — A single-page dashboard that races two classification pipelines (pure LLM tool-calling vs. Jev structured evaluation + LLM reply) on the same support ...
+- [AnyEvalOrg/eval-jevbench](https://github.com/anyevalorg/eval-jevbench) `📚2` — JevBench (typed decision models) as an AnyEval-format inspect_ai eval
+- [atmaneayoubdev/evalcascade](https://github.com/atmaneayoubdev/evalcascade) `📚2` — Open-source adaptive evaluation for LLM, RAG and agentic systems. System One judges first, LLMs only when necessary.
+- [ATMnou/ReportJevBench](https://github.com/atmnou/reportjevbench) `📚2` — Other related projects
+- [Atulmishra22/jev-lite](https://github.com/atulmishra22/jev-lite) `📚2` — Production-grade System One decision engine inspired by TypeSafe AI.
+- [awch-D/Jev-Bench](https://github.com/awch-d/jev-bench) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [bakubay/typesafe-demos](https://github.com/bakubay/typesafe-demos) `📚2` — Demo projects showcasing the TypeSafe AI evaluation API — Google Sheets add-on, Next.js multi-agent chat, and pi coding session mood monitor
+- [BargLabs/jev-judge-calibration](https://github.com/barglabs/jev-judge-calibration) `📚2` — Preregistered calibration test of TypeSafe Jev 1.13 as a judge of agent completion reports (2026-09-20): protocol, errata, harness, corpus, result
+- [bgokden/assay](https://github.com/bgokden/assay) `📚2` — Calibrated typed decisions from one forward pass of a language model
+- [blacksinisterx/jev-bench](https://github.com/blacksinisterx/jev-bench) `📚2` — A lightweight benchmark answering a specific question: Jev is structurally a classifier; so when doe
+- [Bosun v3.1](https://huggingface.co/hanno-labs/bosun-v3.1-1.7b) `📚2` — Apache-2.0 Qwen3 model family with public 0.6B and 1.7B weights and shipped choice/score/noul inference; it is a separate Jev-style alternative, not hosted Jev.
+- [bourdainai/site-judge](https://github.com/bourdainai/site-judge) `📚2` — A CI check that reads your marketing site like a sceptical customer and flags every claim
+- [brandonrc/jev-bench](https://github.com/brandonrc/jev-bench) `📚2` — Jev vs Laya vs Claude Haiku on package-curation triage tasks: speed first, accuracy second
+- [BriyanPatel/script-judge](https://github.com/briyanpatel/script-judge) `📚2` — script-judge — Choice approve / revise / reject on a pasted script (does not rewrite it)
+- [bryansparks/armature](https://github.com/bryansparks/armature) `📚2` — examples/decision-typesafe (measured 2026-09-21, run e97b81dd432b) — Same 20 hand-labeled code-review statements answered by Jev and by a qwen3.6-27b LLM…
+- [bydeng01/scientific-decision-eval](https://github.com/bydeng01/scientific-decision-eval) `📚2` — Code and data for evaluating Jev, a System One model, on scientific decisions and how its choices af
+- [casperkwok/heihua-translator](https://github.com/casperkwok/heihua-translator) `📚2` — README: Jev typed judgments + confidence drive UI cards (≥0.85 / 0.55–0.85 / <0.55). Includes a 30-sentence evaluation corpus. README.
+- [Chronona/jev-llm-benchmark](https://github.com/chronona/jev-llm-benchmark) `📚2` — jev-llm-benchmark - jev-llm-benchmark: TypeSafe Jev ecosystem repository. · TypeScript
+- [cleverfakealias/jev-sandbox](https://github.com/cleverfakealias/jev-sandbox) `📚2` — jev in:name created:2026-09-16..2026-09-17
+- [Confident Where People Disagree](https://zenodo.org/records/22971492) `📚2` — "A preregistered, bias-corrected test of whether TypeSafe AI's Jev lowers its confidence when humans disagree, on ChaosNLI". On items where annotators split,…
+- [crman/Jev-AI-Output-Judge](https://github.com/crman/jev-ai-output-judge) `📚2` — Benchmarking Jev and LLMs for RAG answer evaluation and hallucination detection
+- [CYMCharming/system1bench](https://github.com/cymcharming/system1bench) `📚2` — System1Bench: Benchmarking Jev-Style Decision Models. Reproducible Laya baselines, typed decisions,
+- [dai-forge/jev-benchmark](https://github.com/dai-forge/jev-benchmark) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [dairui1/jev-lab](https://github.com/dairui1/jev-lab) `📚2` — jev-lab - dairui1/jev-lab - Experiments with TypeSafe's Jev: triage benchmark vs LLM, and a source study of jev-ultrafast vs Cline's jev-browser.
+- [Datadog's agent-eval example](https://datadoghq.com/blog/jev-evals-agent-observability) `📚2` — Datadog: "Using TypeSafe's Jev for evals in Datadog Agent Observability" — Datadog's engineering blog documents a full Jev-as-judge integration: one…
+- [DecisionBench](https://huggingface.co/datasets/akhilaaa3/decision-bench) `📚2` — scenarios and 293 questions per tier (medium is rules-based, hard is judgment calls), with a cost-per-decision axis baked in. What Jev-Omni reports on. Apache…
+- [dev1556/jev-reranker-benchmark](https://github.com/dev1556/jev-reranker-benchmark) `📚2`
+- [dililianxice/jev-robotic-arm-benchmark](https://github.com/dililianxice/jev-robotic-arm-benchmark) `📚2` — Jev 1.13 vs DeepSeek Flash (thinking disabled) vs a deterministic rule baseline on the same xArm7 simulation (MuJoCo; same observation representation, action…
+- [dnikolayev/typesafe-offload-bench](https://github.com/dnikolayev/typesafe-offload-bench) `📚2` — (notable) - Study of direct, relay and code-owned cascade workflows on 100 synthetic classification cases across six coding-agent models, with stated caveats.…
+- [Donnaclarkk981/typesafe-ai-benchmark](https://github.com/donnaclarkk981/typesafe-ai-benchmark) `📚2` — Benchmark LLM-native structured output against TypeSafe Jev across latency, cost, and judgment quality.
+- [drewling/zero](https://github.com/drewling/zero) `📚2` — macOS menu-bar app that runs each morning, has Jev judge which Gmail threads are still open loops and reversibly archives the rest via label swaps. AGPL-3.0 ·…
+- [edgelesssys/privatemode-decisions-benchmark](https://github.com/edgelesssys/privatemode-decisions-benchmark) `📚2` — privatemode-decisions-benchmark - Benchmarking Jev/Laya/GLM-5.3 Flash for System One-like tasks.
+- [endomorphosis/lift_coding](https://github.com/endomorphosis/lift_coding) `📚2` — Lean Refactor Arena TypeSafe NCA · endomorphosis · GitHub · ⭐ 6 repo · 2026-01-12Harness for the Lean Refactor Arena where Jev acts as a gate, not a generator:…
+- [epoz/eval_jev](https://github.com/epoz/eval_jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [erwins-enkel/shepherd](https://github.com/erwins-enkel/shepherd) `📚2` — Shepherd Jev judge · erwins-enkel · GitHub · ⭐ 20 repo · 2026-05-30Vendor-neutral Judge seam in Shepherd, self-hosted mission control for interactive Claude…
+- [explorer](https://convex-evals.netlify.app) `📚2`
+- [exs-brady/jev-eval-evidence](https://github.com/exs-brady/jev-eval-evidence) `📚2` — typed judgments, Jev vs 10 LLMs + keyword/regex floors, pre-registered with a blind cross-family replication
+- [f418me/jev-evaluations](https://github.com/f418me/jev-evaluations) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Faizullah9181/esketcher](https://github.com/faizullah9181/esketcher) `📚2` — esketcher - Generative painting canvas where Jev, TypeSafe's calibrated decision model, picks paint materials and colour palettes for 105 procedural sketches.…
+- [Fast Decisions Benchmark](https://huggingface.co/datasets/fastino/fast-decisions) `📚2` — Outperforms 4 B parameter decoder models including JevK5 (57.5%) and SemIf (56.4%), as well as encoder models like GLiFormer (49.0%) and Laya (46.6%) in the…
+- [finnhll/jev-eval](https://github.com/finnhll/jev-eval) `📚2` — Validation harness for Jev's Choice, Score and Noul primitives on OpenRouter's Decisions API — 282 r
+- [Franzferdinan51/SystemOne](https://github.com/franzferdinan51/systemone) `📚2` — SystemOne (Franzferdinan51) — No description provided by the repository (auto-discovered, description not yet written)
+- [ganotchvfx/jev-benchmarks](https://github.com/ganotchvfx/jev-benchmarks) `📚2` — Measured benchmarks of TypeSafe's Jev decision model vs LLMs: ticket triage, voice-agent decision la
+- [Gazer2020/jev-btzsc](https://github.com/gazer2020/jev-btzsc) `📚2` — jev-btzsc - jev-btzsc: TypeSafe Jev ecosystem repository. · Python
+- [gbesse/autonomy-meter](https://github.com/gbesse/autonomy-meter) `📚2` — Measure automation coverage and risk with chronological holdouts, confidence bounds and of
+- [gbesse/question-forge](https://github.com/gbesse/question-forge) `📚2` — Compare question formulations with held-out evaluation, bounded experiments and DecisionPa
+- [gbesse/semantic-watch](https://github.com/gbesse/semantic-watch) `📚2` — Monitor semantic conditions with exact-input caching, hysteresis and source/evaluator plug
+- [gutoportelaa/estudo-system-one](https://github.com/gutoportelaa/estudo-system-one) `📚2` — estudo-system-one - estudo-system-one: TypeSafe Jev ecosystem repository. · Python
+- [Hagetino/von-shadow](https://github.com/hagetino/von-shadow) `📚2` — Run an open Jev-style decision model (von) on your laptop next to Claude Code, in shadow mode. Local, with an honest eval ...
+- [hanzpo/dogfight-bench](https://github.com/hanzpo/dogfight-bench) `📚2`
+- [harshit-d3v/jev_project](https://github.com/harshit-d3v/jev_project) `📚2` — jev_project - harshit-d3v/jev_project - pr-scope and jevjudge.
+- [heiko-hotz/jev-evaluation](https://github.com/heiko-hotz/jev-evaluation) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [heswy/Jev-Benchmark](https://github.com/heswy/jev-benchmark) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [heyimMarc/jev-calibration-probe](https://github.com/heyimmarc/jev-calibration-probe) `📚2` — Measures whether the Jev model's noul probabilities are calibrated, on a task with known ground trut
+- [hihaluemen/-open-jev-qwen3.5-2b](https://github.com/hihaluemen/-open-jev-qwen3.5-2b) `📚2` — inferred / evaluation — ⭐0
+- [iamaamir/pi-bifrost](https://github.com/iamaamir/pi-bifrost) `📚2` — Jev benchmark v1 — Independent benchmark doc (inside the pi coding-agent repo): pinned jev-1.13.0 over TypeSafe's /v1/systemone, 48 synthetic dev prompts (16…
+- [iamdin/pi-jev-skill-bench](https://github.com/iamdin/pi-jev-skill-bench) `📚2` — Benchmark for Pi skill routing: BM25 vs TypeSafe Jev across roster sizes 50–500
+- [ideas-to-life/jev-cv-jd-evaluator](https://github.com/ideas-to-life/jev-cv-jd-evaluator) `📚2` — Other related projects
+- [ielab/llm-rankers](https://github.com/ielab/llm-rankers) `📚2` — Jev as a pointwise, pairwise, setwise and listwise reranker, from an IR research group. The closest thing to a controlled evaluation anyone has published.
+- [Illusion47586/judge](https://github.com/illusion47586/judge) `📚2` — Probabilistic judgment. Deterministic execution. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [integrallis/models](https://github.com/integrallis/models) `📚2` — Jev side-by-side (2026-09-21) — TypeSafe Jev vs a local open model (Granite 4.1 3B Q4_K_M + 82KB head, one 8-core AMD EPYC) on the same ten questions over one…
+- [jamesward/zio-evals](https://github.com/jamesward/zio-evals) `📚2` — zio-evals - zio-evals: TypeSafe Jev ecosystem repository. · Scala
+- [jan-barg/jev-traffic-control](https://github.com/jan-barg/jev-traffic-control) `📚2` — Can Jev beat conventional traffic control? NYC-informed SUMO benchmarks and interactive side-by-side replays.
+- [JasmineAIGC/jevkit](https://github.com/jasmineaigc/jevkit) `📚2` — Policy + evaluation framework for Jev / Kev (TypeSafe System One): typed probabilities in, auditable
+- [jburns24/jev-demo](https://github.com/jburns24/jev-demo) `📚2` — playing with jev-latest evaluation model
+- [jesyspa/jev-lean](https://github.com/jesyspa/jev-lean) `📚2` — A Lean proof-automation harness that uses Jev to select lemmas and tactics.
+- [Jev AI Limitations: What the 193x Benchmark Doesn't Measure — Silverthread Labs](https://silverthreadlabs.com/blog/jev-ai-benchmark-limitations) `📚2` — Silverthread Labs: "Jev AI Limitations: What the 193x Benchmark Doesn't Measure" — Claim audit (crawled 2026-09-25): TypeSafe's workflow evals have no ground…
+- [JevAdvBench/JevAdvBench](https://github.com/jevadvbench/jevadvbench) `📚2` — An adversarial Jev decision benchmark with typed questions, single-edit variants, a direct TypeSafe API evaluator and author-published results. Code and data…
+- [Jevals/Jevals](https://github.com/jevals/jevals) `📚2` — Jevals - Jevals \(jevals.com\): independent benchmark of TypeSafe's Jev vs LLMs
+- [joe325132514132636-svg/jev-100-benchmark](https://github.com/joe325132514132636-svg/jev-100-benchmark) `📚2` — Independent 100-question English benchmark of TypeSafe's Jev decision model (jev-1.13.0)
+- [JulesHuisman/jev-eval](https://github.com/juleshuisman/jev-eval) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [julianig72/JevESMO](https://github.com/julianig72/jevesmo) `📚2` — Apoyo a la decision clinica oncologica: guias ESMO (43 tumores) + Jev System One, con explicabilidad y evaluacion. Prototipo de investigacion.
+- [just-the-v/judge_rails](https://github.com/just-the-v/judge_rails) `📚2` — Semantic judgments from TypeSafe Jev as self-maintaining ActiveRecord attributes: typed Noul, Choice
+- [KKodiac/jev-csat-korean-2026](https://github.com/kkodiac/jev-csat-korean-2026) `📚2` — Evaluation and calibration
+- [koltyakov/varro](https://github.com/koltyakov/varro) `📚2` — 🤖 An OpenCode workbench for VS Code with project-aware AI chat and parallel agent sessions
+- [kuaitoukuai/jev-gaokao-eval](https://github.com/kuaitoukuai/jev-gaokao-eval) `📚2` — Evaluate Jev (TypeSafe System One decision model) on GAOKAO-Bench objective questions - accuracy, co
+- [kunko-ai-labs/judge-audit](https://github.com/kunko-ai-labs/judge-audit) `📚2` — judge-audit - Independent calibration audits for AI judges. The Moody's for AI judgment.
+- [Kwetng/tiny-llm2](https://github.com/kwetng/tiny-llm2) `📚2` — tiny-llm2 - tiny-llm2: TypeSafe Jev ecosystem repository. · HTML
+- [Kylejeong2/jev-judge](https://github.com/kylejeong2/jev-judge) `📚2`
+- [L1nding/jev](https://github.com/l1nding/jev) `📚2` — CAD semantic modeling experiments with Jev room-boundary evaluation
+- [laguagu/jev-rerank-bench](https://github.com/laguagu/jev-rerank-bench) `📚2` — Benchmarks of TypeSafe Jev on Finnish text: reranking, code search without an index, intent classifi
+- [langwatch/langwatch](https://github.com/langwatch/langwatch) `📚2` — LLM evaluation platform whose Instant Evals sends production traces to Jev for batched Noul, Score, and Choice judgments.
+- [leepokai/jev-chain-of-thought](https://github.com/leepokai/jev-chain-of-thought) `📚2` — inferred / evaluation — ⭐0
+- [lindagr78/openeval](https://github.com/lindagr78/openeval) `📚2` — Evaluate AI agents and LLMs with plain functions, isolated runs, and inspectable scores.
+- [linny006/agent-eval-harness](https://github.com/linny006/agent-eval-harness) `📚2` — Live, open-source benchmark for comparing AI coding agents on real GitHub issues Automatically matched explicit Jev and TypeSafe/System One references.…
+- [linny006/llm-eval-tracker](https://github.com/linny006/llm-eval-tracker) `📚2` — Live index of LLM evaluation tools and benchmarks, refreshed every 15 minutes from GitHub Automatically matched explicit Jev and TypeSafe/System One…
+- [lorenzofamiglini/calfram-bench](https://github.com/lorenzofamiglini/calfram-bench) `📚2` — calfram-bench - External CalFram calibration audit of TypeSafe Jev on 25 public benchmarks (code + paper). (Project…
+- [maiasalti/wait-which-model](https://github.com/maiasalti/wait-which-model) `📚2` — Model/release tracker repo (TypeScript) that added TypeSafe AI's Jev on 2026-09-24: structured data/companies.json, data/models.json, data/news.json with…
+- [maskedband1t/RLCD](https://github.com/maskedband1t/rlcd) `📚2` — Exploring Calibrated Decisions at the Human–Robot Boundary
+- [mekeren/system-one-benchmark](https://github.com/mekeren/system-one-benchmark) `📚2` — Ultra-low latency System One decision routing & 3-way benchmark arena (Rule Engine vs. Local SLM vs.
+- [Mindbreaker81/system-one-bench-public](https://github.com/mindbreaker81/system-one-bench-public) `📚2` — Banco de pruebas público de decisores System One (Jev frente a modelos abiertos): casos, g
+- [mohamedmenasy/job_posting_fit_scorer](https://github.com/mohamedmenasy/job_posting_fit_scorer) `📚2` — Local job-posting evaluator: Jev extracts typed signals from a posting and a deterministic scorer produces an explainable 0-100 fit score. MIT · Python
+- [MRKups/jev-usecase-1](https://github.com/mrkups/jev-usecase-1) `📚2` — IT helpdesk ticket generator and triage benchmark
+- [mshk/jev-translation-checker](https://github.com/mshk/jev-translation-checker) `📚2` — jev-translation-checker - Experimental PoC for Jev translation checking: bilingual benchmarks, prompt comparisons, re-verification, and MAGI voting. ·…
+- [Mu99Ti/Jevops](https://github.com/mu99ti/jevops) `📚2` — Open-source SRE log triage with Jev as the decision layer: prefilter → burst ranking → speculative fan-out → policy-in-code (page only on calibrated,…
+- [musman550/musfira-ai-made-the-horizontal-open-source-model-for-jev-with-rlcd-and](https://github.com/musman550/musfira-ai-made-the-horizontal-open-source-model-for-jev-with-rlcd-and) `📚2` — Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks
+- [nadheesh/jev-llm-judge](https://github.com/nadheesh/jev-llm-judge) `📚2` — jev-llm-judge - Can a decision model replace an LLM as an eval judge? Same rubrics, scored by Jev and by an LLM, side by side. · Python
+- [nedcut/gm-bench](https://github.com/nedcut/gm-bench) `📚2` — decision-lane analysis for typesafe/jev-1.13-20260917 (2026-09-24) — 29-seed private panel, 580 decisions via OpenRouter: mean score 229.0 (sd 41.145) vs…
+- [NikHeck/jev-benchmark](https://github.com/nikheck/jev-benchmark) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [nu-sync/effect-evaluation](https://github.com/nu-sync/effect-evaluation) `📚2` — Effect-native TypeScript client for System One exposed as a Layer-provided service with typed questions, answers and failures. MIT · TypeScript
+- [panios/jev-opensanctions-benchmark](https://github.com/panios/jev-opensanctions-benchmark) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Parth-Hariyani3001/Jev-Bench](https://github.com/parth-hariyani3001/jev-bench) `📚2` — React and FastAPI dashboard that judges LLM outputs with Jev for correctness, relevance, hallucination and safety, stores results in SQLite and runs CSV…
+- [patchy631/jev-as-judge](https://github.com/patchy631/jev-as-judge) `📚2` — Auditable evaluation pipeline for refund-support traces: deterministic checks first, then three Noul criteria plus a helpfulness Score in one Jev call, with…
+- [pavanjava/jev_and_laya_benchmarking](https://github.com/pavanjava/jev_and_laya_benchmarking) `📚2` — jev_and_laya_benchmarking - Scripts comparing Jev and Laya.
+- [PavelRavvich/jev-bench](https://github.com/pavelravvich/jev-bench) `📚2` — Independent benchmark of TypeSafe Jev (System One) vs cheap and frontier LLMs: accuracy, calibration
+- [Peeps52/jev-offcycle](https://github.com/peeps52/jev-offcycle) `📚2` — Filter internship and graduate listings by programme type — off-cycle, summer, placement, spring week — using TypeSafe Jev for typed, calibrated decisions. ...
+- [PerryLink/llm-jev-laya-bench](https://github.com/perrylink/llm-jev-laya-bench) `📚2` — Jev and Laya as judgment layers on a 77-class battery: 0.225 to 0.90; both fail tasks that need detecting an absence. n=1,100
+- [photuris/overseer-judge](https://github.com/photuris/overseer-judge) `📚2` — overseer-judge - Typed verdicts for overseer judgments \(pane state, task-file lint, review typing\) via TypeSafe's Jev · Go
+- [phuryn/experiments](https://github.com/phuryn/experiments) `📚2` — TypeSafe's invoice showcase hardened to 50 documents: ties Haiku 4.5 at 50 of 50, but a hidden house rule Jev was never told makes it wrong 19 of 24 times at…
+- [piratchai/jev-integration-report](https://github.com/piratchai/jev-integration-report) `📚2` — jev-integration-report - jev-integration-report: TypeSafe Jev ecosystem repository.
+- [piyushpawar54/system-one-bench](https://github.com/piyushpawar54/system-one-bench) `📚2` — Benchmark harness for System One decision models. Measures calibration, not just accuracy.
+- [prakash5284/jev-vs-llm-resume-jd-eval](https://github.com/prakash5284/jev-vs-llm-resume-jd-eval) `📚2` — Resume↔JD apply-gate cost eval: TypeSafe Jev vs Claude/Grok/GPT tiers (10 real JDs)
+- [ragelink/firehose-judge](https://github.com/ragelink/firehose-judge) `📚2` — Live typed judgment of the Bluesky firehose: Jev on Cloudflare Durable Objects, one call per post, uncertain calls routed to a human lane Automatically matched…
+- [randilt/jev-guardrail-benchmark](https://github.com/randilt/jev-guardrail-benchmark) `📚2` — Benchmark of the TypeSafe Jev content-safety guardrail in WSO2 AI Gateway against Azure Content Safety and an LLM judge
+- [rcpeken/jev-calibration](https://github.com/rcpeken/jev-calibration) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [renanlalier/jev-benchmark](https://github.com/renanlalier/jev-benchmark) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [rikinshah787/evalos](https://github.com/rikinshah787/evalos) `📚2` — Local-first JEV evals: turn Cursor and Claude Code agent failures into regression tests.
+- [rogueprocess13/jev-ops-experiment](https://github.com/rogueprocess13/jev-ops-experiment) `📚2` — Experimental benchmark: can Jev AI make bounded operational decisions from…
+- [rorshopping/jev-bench](https://github.com/rorshopping/jev-bench) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [RshaCuDeVidro/jev-recon](https://github.com/rshacudevidro/jev-recon) `📚2` — (notable) - Subdomain triage CLI that asks Jev seven typed questions per asset and ranks with weighted Python arithmetic; includes cache, mock server and…
+- [rubinagentagi-tech/jev-heart-risk-bench](https://github.com/rubinagentagi-tech/jev-heart-risk-bench) `📚2` — Benchmarking Jev (TypeSafe System One) on 5,000 real CDC survey respondents, with an interactive dem
+- [samyakjain0606/jev-is-here](https://github.com/samyakjain0606/jev-is-here) `📚2` — jev-is-here - flopcheck — paste a draft tweet, get 16 calibrated judgments from TypeSafe's Jev in one request · TypeScript
+- [segavvy/mnist-text-input-benchmark](https://github.com/segavvy/mnist-text-input-benchmark) `📚2`
+- [SENZO-NCEKANA/jev-triage-benchmark](https://github.com/senzo-ncekana/jev-triage-benchmark) `📚2` — Independent benchmark of TypeSafe's Jev against GPT-4.1-mini on 200 labelled enquiries.
+- [shivakrishna-k/jev-agent-routing-benchmark](https://github.com/shivakrishna-k/jev-agent-routing-benchmark) `📚2` — Evaluation and calibration
+- [shunmoridev/jev-jp-accounting-bench](https://github.com/shunmoridev/jev-jp-accounting-bench) `📚2` — jev-jp-accounting-bench - jev-jp-accounting-bench: TypeSafe Jev ecosystem repository. · Python
+- [simonmesmith/jev-probability-experiment](https://github.com/simonmesmith/jev-probability-experiment) `📚2` — Testing TypeSafe Jev against exact probabilities: 68 scenarios, Choice and Noul, numerical-answer co
+- [starhn87/jev-utils](https://github.com/starhn87/jev-utils) `📚2` — Response validation, observation and evaluation utilities for the official TypeSafe SDK.
+- [stern9/jev-bench](https://github.com/stern9/jev-bench) `📚2` — Benchmark TypeSafe's Jev (System One model) vs Claude on structured decisions: accuracy, latency, calibration, cost
+- [stratify-dev/stratify-judge](https://github.com/stratify-dev/stratify-judge) `📚2` — Judgment layer for Stratify: asks TypeSafe's Jev model what static analysis could not prove, and mov
+- [SuperInstance/jev-fusion](https://github.com/superinstance/jev-fusion) `📚2` — Testing four claims about fusing a discrete judge into a generative loop.
+- [SuperInstance/typesafe-quilts](https://github.com/superinstance/typesafe-quilts) `📚2` — observed / routing-guardrails — ⭐0
+- [Support-ticket benchmark (thoughts.jock.pl)](https://thoughts.jock.pl/p/jev-typesafe-system-one-model-benchmark-2026) `📚2` — support tickets: Choice confidence is bimodal while Score confidence clusters mid-range, so one threshold cannot serve both.
+- [Sy3058/jev-evaluate](https://github.com/sy3058/jev-evaluate) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [t-shiratori/t-shiratori-ai-model-evaluation-router](https://github.com/t-shiratori/t-shiratori-ai-model-evaluation-router) `📚2` — t-shiratori-ai-model-evaluation-router - t-shiratori-ai-model-evaluation-router: TypeSafe Jev ecosystem repository. · TypeScript
+- [tak-bro/local-jev-bench](https://github.com/tak-bro/local-jev-bench) `📚2` — Local Jev-style System One decision models on Apple Silicon Macs: AnyJev, Kev, Laya (Ollaya) and CLM benchmarked on English, Korean and BANKING77 ...
+- [takezou621/jev-claude](https://github.com/takezou621/jev-claude) `📚2` — jev-claude - Claude Code hooks backed by Jev (TypeSafe AI) — let a cheap evaluation-only model decide whether the work is actually done.
+- [Tenkei/jev-decision-bench](https://github.com/tenkei/jev-decision-bench) `📚2` — A reproducible, self-hosted benchmark for comparing JEV and LLM decision-making on your own datasets
+- [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/thinking,_fast_and_slow) `📚2` — The source TypeSafe cites for naming Jev after System 1, fast intuitive judgement with no deliberation.
+- [thomasschafer/jev-bench](https://github.com/thomasschafer/jev-bench) `📚2` — jev-bench - TypeSafe / Jev community project: thomasschafer/jev-bench. · Python
+- [ToufiqQureshi/anarkali](https://github.com/toufiqqureshi/anarkali) `📚2` — M typed decision engine: more accurate than Jev on typed-decisions, best-calibrated, Jev-compatible API, runs on CPU
+- [TypeAR-AI/TypeAR](https://github.com/typear-ai/typear) `📚2` — TypeAR (TypeAR-AI) — Type-safe one-decision-per-token decoding engine for autoregressive LLMs, inspired by Jev (site) (post)
+- [UgurcanAkkok/yks-bench](https://github.com/ugurcanakkok/yks-bench) `📚2` — Benchmarking decision models (TypeSafe Jev, Convai Laya) on the 2026 Turkish university entrance exa
+- [viko-max/jev-decision-bench](https://github.com/viko-max/jev-decision-bench) `📚2` — Jev vs DeepSeek closed-world decision benchmark: calibration, abstention, schema validity and cost vs question fan-out
+- [xisheng821-design/jev_decision_bench](https://github.com/xisheng821-design/jev_decision_bench) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [yarnaid/jev-benchmark](https://github.com/yarnaid/jev-benchmark) `📚2` — Benchmark of Jev model comparing to Anthropic and OpenAI models
+- [yfe404/jev-harness](https://github.com/yfe404/jev-harness) `📚2` — Auditable decision gates for Claude Code and Pi, with offline examples and compaction checks
+- [yonidavidson/subtext](https://github.com/yonidavidson/subtext) `📚2` — Message bus where subscriptions are English sentences and Jev answers one Noul per subscription per message; local web demo with a mock judge. MIT · TypeScript
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) `📚2` — JDK 17+, Maven. Live calibration needs TYPESAFE_API_KEY. jev-proof additionally needs yt-dlp.
+- [yubol-bobo/jev-as-a-judge](https://github.com/yubol-bobo/jev-as-a-judge) `📚2`
+- [yuhai-china/JEV-27B-DEMO](https://github.com/yuhai-china/jev-27b-demo) `📚2` — JEV-27B demos: one engine, two systems.
+- [YUUM321/jev-klondike-benchmark](https://github.com/yuum321/jev-klondike-benchmark) `📚2` — Reproducible Jev benchmark on Klondike Draw-1 with baselines, decision traces, latency metrics, and replay viewer
+- [zaesho/S1Rank](https://github.com/zaesho/s1rank) `📚2` — S1Rank: Can a System-One decision model (TypeSafe Jev) rerank? Benchmark, raw responses, and paper.
+- [zaini/unsee](https://github.com/zaini/unsee) `📚2` — Hide what you'd rather not see: a Chrome extension demo where natural-language rules are judged by TypeSafe's Jev ★ 1 · ai_sdk · HTML
+- [zhijianzhouml/CELEUS-JEV](https://github.com/zhijianzhouml/celeus-jev) `📚2` — CELEUS × Jev evaluation dashboard
+- [zhlei07/open-system-one](https://github.com/zhlei07/open-system-one) `📚2` — open-system-one - An independent, reproducible benchmark of TypeSafe's Jev against open, CPU-only alternatives — 10,000 decisions, all raw results published. ·…
+- [zty2004/jev-xiangqi-lab](https://github.com/zty2004/jev-xiangqi-lab) `📚2` — Self-trained Jev-style Xiangqi decision model with legal-move probabilities…
+- [我用 Jev 试的六件事](https://isaacflath.com/writing/six-things-i-tried-with-jev) `📚2` — Six things with Jev — Isaac Flath: fact-check scripts, rank news, find PDF text, check citations, group review notes, eval agent-failure traces; thread
+- [12ATHARAV/jev-langgraph-benchmark](https://github.com/12atharav/jev-langgraph-benchmark) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [30Signals/typesafe-bench](https://github.com/30signals/typesafe-bench) `📚1` — Benchmark of Jev against Azure AI Foundry deployments on BANKING77 and CLINC150 intent classification, reporting accuracy, cost and latency. no license · Python
+- [5c0r/omp-jev-tool](https://github.com/5c0r/omp-jev-tool) `📚1` — OMP-native Jev tool discovery through the configured Judge role
+- [75.8%](https://huggingface.co/qwen/qwen3.8-27b) `📚1` — simplejev-qwen38-27b: 75.8% macro accuracy at 1.6 decisions/s (0.61 s/item, ECE 0.121) per SimpleJev Qwen 3.8 27 B Benchmark. Requires 27 B parameters and…
+- [@DanRWilloughby "Sniff Test" (via doco.page)](https://doco.page/s/ctgdazsecx1tr3y8xma7pnnpdedjcpzs) `📚1` — Jev-as-judge AI-flavor linter raced against mainstream models on writing checks: Jev 78.8% accuracy / 182ms median / $0.013 per 1K checks vs Claude Haiku 4.5…
+- [aahf/JevBenchmark](https://huggingface.co/spaces/aahf/jevbenchmark) `📚1` — Static article comparing Jev, GPT-5.6 Sol and XGBoost on four synthetic ad outcomes; card reports similar quality at ~64x lower estimated API cost and 5.4x…
+- [Abhi001vj/system-one-open](https://github.com/abhi001vj/system-one-open) `📚1` — Open reimplementation of the System One interface on open-weights models: prefill state once, score answer tokens for all questions in one pass. no license ·…
+- [adamtopaz/jevhammer_benchmark](https://github.com/adamtopaz/jevhammer_benchmark) `📚1`
+- [adimyth/compass](https://github.com/adimyth/compass) `📚1` — A decision model: give it a document and a typed question, get calibrated probabilities fo
+- [ahastudio/til](https://github.com/ahastudio/til) `📚1` — Probing Jev's behaviour with repeated API calls — Independent Korean-language notes reporting that reversing the order of options shifted a probability enough…
+- [ahuja-sanchitt/JevBenchmarking](https://github.com/ahuja-sanchitt/jevbenchmarking) `📚1`
+- [alisonjieli-png/duecare-eval](https://github.com/alisonjieli-png/duecare-eval) `📚1` — Educational red-teaming eval of Jev on cross-border exploitation scenarios: 266/288 screening decisions correct, 576/576 explicit action-boundary decisions…
+- [Allison0802/wardrobe-ai](https://github.com/allison0802/wardrobe-ai) `📚1` — Local-first AI-assisted wardrobe with Gemini metadata, JEV purchase evaluation, and outfit
+- [alonsarias/adjudge](https://github.com/alonsarias/adjudge) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [amycardoso/jev-ptbr-bench](https://github.com/amycardoso/jev-ptbr-bench) `📚1`
+- [amyrmahdy/decima](https://github.com/amyrmahdy/decima) `📚1` — decima - Open, CPU-sized Jev-style \(System One\) decision model: situation + question + options → calibrated probabilities. 122M, ~20 ms on one CPU core, runs…
+- [andrea-tomassi/prima-ratio](https://github.com/andrea-tomassi/prima-ratio) `📚1` — prima-ratio — Local System One endpoint: typed decisions + chat from one stock model. SemIf-based, scenario-calibrated via model suffixes (auto-discovered,…
+- [andrea-tomassi/semif-server](https://github.com/andrea-tomassi/semif-server) `📚1` — semif-server — Local System One endpoint: typed decisions + chat from one stock model. SemIf-based, scenario-calibrated via model suffixes (auto-discovered,…
+- [Aniket388/JEV-vs-General-LLMs---Real-Time-Dino-Latency-Benchmark](https://github.com/aniket388/jev-vs-general-llms---real-time-dino-latency-benchmark) `📚1` — unique and mordern benchmark for faster ai decision
+- [AppliedMachineLearning-Lab/jev-benchmarking](https://github.com/appliedmachinelearning-lab/jev-benchmarking) `📚1` — jev-benchmarking — No description provided by the repository (auto-discovered, description not yet written)
+- [arifulislamat.github.io/jev-benchmark](https://arifulislamat.github.io/jev-benchmark) `📚1`
+- [assembledadam/typesafe-jev-benchmarking,0,Python,,2026-09-23](https://github.com/assembledadam/typesafe-jev-benchmarking,0,python,,2026-09-23) `📚1`
+- [Autometrixai/jev-clinic-triage-eval,0,Python,,2026-09-21](https://github.com/autometrixai/jev-clinic-triage-eval,0,python,,2026-09-21) `📚1`
+- [Bernardbyy/JevExperiment](https://github.com/bernardbyy/jevexperiment) `📚1` — Jev vs LLMs: benchmarking a decision model against small LLMs on accuracy, latency and cost.
+- [bilal-jussab2/calibration-audit](https://github.com/bilal-jussab2/calibration-audit) `📚1`
+- [BILLKISHORE/opensysone](https://github.com/billkishore/opensysone) `📚1` — Open System One model for Apple Silicon: typed decisions with calibrated probabilities from one forward pass.
+- [bitnovus/jev-spam-eval,3,Jupyter](https://github.com/bitnovus/jev-spam-eval,3,jupyter) `📚1`
+- [BJFXS/jev-compatible-evaluation-service](https://github.com/bjfxs/jev-compatible-evaluation-service) `📚1` — Other related projects
+- [BMPI · Jev 的边界](https://bmpi.dev/dev/jev-boundary) `📚1`
+- [bmsdave/jev-construction](https://github.com/bmsdave/jev-construction) `📚1` — Pre-check UK renovation/construction files against Building Regulations with Jev plus an LLM judge: triage only — every finding cites the clause (document +…
+- [braydenabo/fndds-matcher-jev](https://github.com/braydenabo/fndds-matcher-jev) `📚1` — Match food descriptions to USDA FNDDS codes using hybrid retrieval + TypeSafe.
+- [bulldozer2003/opencode-calibrated-access](https://github.com/bulldozer2003/opencode-calibrated-access) `📚1`
+- [butada/draft-jev-evaluator](https://github.com/butada/draft-jev-evaluator) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ByteIota: "Jev Is Not an LLM — and That's the Point"](https://byteiota.com/jev-is-not-an-llm-and-thats-the-point) `📚1` — Honest explainer with a real critique section: TypeSafe's own disclosure that its model-capabilities team designed the workflow evals (treat peak 193.6×/444.6×…
+- [calibration caveat](https://scikit-learn.org/stable/modules/calibration.html) `📚1`
+- [Calibration, decomposition and shadow evals (beri.net)](https://beri.net/article/typesafe-jev-typed-decision-model-calibration-decompo) `📚1` — Ties together the phishing decomposition study (62.6% as one question, 95.0% as five) and the 900-ticket OOD test (ECE 0.107, 4.4x the noise floor).
+- [CGnomazoid/Tripwire](https://github.com/cgnomazoid/tripwire) `📚1` — Local open-weight judge that gates agent tool calls by reading answer-token logits in one forward pass with temperature calibration, on MLX or PyTorch. MIT ·…
+- [chaewonkong/claude_evaluator](https://github.com/chaewonkong/claude_evaluator) `📚1` — Claude answer evaluator with Jev
+- [CHENTHIRTEEN/modernbert-rlcd-ablation](https://github.com/chenthirteen/modernbert-rlcd-ablation) `📚1` — Evaluation and calibration
+- [Cherry Creek News: "Jev evals measure agreement, not correctness"](https://thecherrycreeknews.com/typesafe-jev-system-one-model-claims-evals-independent-tests-cherry_creek) `📚1` — Methodology critique of TypeSafe's workflow evals (reference answer is the average of GPT-6 Astra and Fable 5.1), with footnotes on the Doom and Wikiracing…
+- [chukfinley/gavel](https://github.com/chukfinley/gavel) `📚1` — A decision model, not a language model: typed answers from runtime-defined options, calibrated, no text generation Automatically matched explicit Jev and…
+- [chumputys/adjudge](https://github.com/chumputys/adjudge) `📚1` — Chrome ad blocker without filter lists: batches unknown third-party hosts, sponsored blocks and popups for classification and caches verdicts as rules. no…
+- [Chunky83/jev-workbench](https://github.com/chunky83/jev-workbench) `📚1` — Jev Workbench: a C++ desktop workspace with Python diagnostics and structured TypeSafe evaluations
+- [cjtsolutions/richup-benchmark](https://github.com/cjtsolutions/richup-benchmark) `📚1` — A benchmark and harness for AI systems (LLMs and others) that evaluates business, planning, trading, etc. Automatically matched explicit Jev and…
+- [claudfuen/jev-sandbox](https://github.com/claudfuen/jev-sandbox) `📚1` — Top-down pixel village where every character decision is a live JEV evaluation
+- [clinc/oos-eval](https://github.com/clinc/oos-eval) `📚1` — CLINC150 / OOS-Eval - 150 in-scope intents plus explicit out-of-scope examples. Useful for routing, abstention, and confidence-threshold tests. CC BY 3.0.
+- [cloudflare/cloudflare-docs](https://github.com/cloudflare/cloudflare-docs) `📚1` — Cloudflare Jev model catalog - Cloudflare's model catalog entry for typesafe/jev, listing Jev for Noul, Choice and Score evaluation at $0.042 per million input…
+- [CLUEbenchmark/OCNLI](https://github.com/cluebenchmark/ocnli) `📚1` — Authors; CC-BY-NC2.0; heed upstream LCMC notices
+- [cocodedk/jev-bench](https://github.com/cocodedk/jev-bench) `📚1` — A configurable classifier workbench for repeatable latency and accuracy experiments
+- [CompleteDotTech/jev-fle030-benchmark](https://github.com/completedottech/jev-fle030-benchmark) `📚1` — Pinned Jev typed-action harness for FLE 0.3.0 lab-play benchmark
+- [conraddavisjr/ai-evals-cafe](https://github.com/conraddavisjr/ai-evals-cafe) `📚1` — Eval harness for multi-agent pipelines shown as a 3D cafe, with scoped MCP tools, scripted scenarios and a blinded judge that can run on Jev or an LLM. no…
+- [Correa-Gui/jev-benchmark-demo,0,Python,,2026-09-23](https://github.com/correa-gui/jev-benchmark-demo,0,python,,2026-09-23) `📚1`
+- [Creative AI News: "Six Open Jev Clones, Four Different Jev Scores" (2026-09-21)](https://creativeainews.com/articles/open-jev-clones-benchmark-disagreement-2026) `📚1` — Six open Jev reproductions shipped within 48h of launch (Laya, SemIf, Bespoke Nimble, Kev-0.5B, Jevlike, DiffusionGemmaJev) — but four independent evaluations…
+- [criguex/agent-eval-jev](https://github.com/criguex/agent-eval-jev) `📚1` — Evaluating a real tool-using AI agent with code checks, a calibrated Jev judge and an LLM judge, wir
+- [cuth/s1bench](https://bench.jakecuth.com) `📚1` — No evaluated open-weight candidate currently surpasses TypeSafe Jev in both accuracy and speed simultaneously on the S1Bench Leaderboard.
+- [d-date/jev-bench](https://github.com/d-date/jev-bench) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [daniel-bernardino747/zap-bench](https://github.com/daniel-bernardino747/zap-bench) `📚1` — zap-bench — Bot de WhatsApp para clínica: Claude e GPT contra Jev, medidos sobre as mesmas conversas _(★0, TypeScript)_
+- [Daniele Teti: "Jev, the AI that decides without writing: I put it to the test against GPT"](https://danieleteti.it/post/jev-typesafe-delphi-benchmark-en) `📚1` — business emails × up to 25 questions per email (grouped 3/10/25), six models via OpenRouter, balanced accuracy with 95% bootstrap CIs. Jev: 94.3 / 97.2 / 94.8…
+- [datopian/wayintoai](https://github.com/datopian/wayintoai) `📚1` — WayIntoAI: "Jev makes the case for AI inside ordinary software" (2026-09-18) — Analysis of the launch: treats 193.6×/444.6× as company-reported with…
+- [DeepEval TypeSafe integration](https://deepeval.com/integrations/models/typesafe-ai) `📚1` — Experimental DeepEval integration routes supported metric verdicts, scores, and classifier labels to Jev.
+- [delight0517/jev-evidence-kit](https://github.com/delight0517/jev-evidence-kit) `📚1` — Free offline paired AI output checker for local AI evaluation; compare expected answers an
+- [direwolfiy/JevPi](https://github.com/direwolfiy/jevpi) `📚1` — A Jev-first agent loop on Pi, with a slow LLM fallback, full tracing, and paired evaluatio
+- [draeder/jevex](https://github.com/draeder/jevex) `📚1` — A regex engine whose atoms are meanings instead of characters, judged by Jev.
+- [dshvimer/jev-eval](https://github.com/dshvimer/jev-eval) `📚1` — Classification benchmark: Jev vs Claude Sonnet 5 vs Claude Opus 5 on AG News
+- [dushyantkhosla/benchmarking-decision-models](https://github.com/dushyantkhosla/benchmarking-decision-models) `📚1` — Decision-model benchmark harness for JEV, Laya and KEV across five tracks — Jigsaw binary adjudication, BANKING77 reduced-choice + full-77, HelpSteer2 rubric…
+- [duu261/jev-tool-lint-eval](https://github.com/duu261/jev-tool-lint-eval) `📚1` — Can TypeSafe Jev catch agent claims that misreport tool output? Eval spike.
+- [dvraditya/Jev-Benchmark](https://github.com/dvraditya/jev-benchmark) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [ed-is-ai/featherbench2](https://github.com/ed-is-ai/featherbench2) `📚1` — Fork of ed-is-ai/featherbench — benchmarks for LLMs, decision models (Jev, Von, Laya) and agentic de
+- [EdwardHong0627/benchmark-jev](https://github.com/edwardhong0627/benchmark-jev) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [EFS-OpenSource/calibration-framework](https://github.com/efs-opensource/calibration-framework) `📚1` — net:cal - Python library for measuring miscalibration, including ECE, and for applying temperature scaling to classifier probabilities. It has no notion of…
+- [Eggwardhan/open-jev](https://github.com/eggwardhan/open-jev) `📚1` — An open-source decision layer for AI agents: typed choices, calibrated probabilities, benchmarks, replay, and…
+- [ejs-5/jev-benchmark,0,Python,,2026-09-23](https://github.com/ejs-5/jev-benchmark,0,python,,2026-09-23) `📚1`
+- [elberacasa/chimbometro](https://github.com/elberacasa/chimbometro) `📚1` — Remote tech jobs that actually accept people living in Venezuela, and a meter for absurd job offers. Built on Jev, with every AI call and its cost in the open.…
+- [Entagl: "TypeSafe Jev: 5x Faster, 25x Cheaper, 98.5% Correct"](https://entagl.com/blog/typesafe-jev-benchmark-ai-decision-models) `📚1` — Two-round independent evaluation (Sept 2026): 1,357 hand-labeled decisions across 13 tasks in 13 languages, then 402 real routing decisions replayed from two…
+- [erendikmenn/jev-llm-router-benchmark](https://github.com/erendikmenn/jev-llm-router-benchmark) `📚1` — jev-llm-router-benchmark — Benchmark-driven Jev router and judge for cost-aware, reliable LLM coding workflows (upstream description)
+- [EricKwong/call-scope](https://github.com/erickwong/call-scope) `📚1` — Windows Electron call companion that transcribes locally with Whisper and uses Jev to judge when a prepared question has been asked and answered. no license ·…
+- [ersinkoc/JevBenchmarkLab](https://github.com/ersinkoc/jevbenchmarklab) `📚1`
+- [esterhuizen/system-one-on-snapdragon](https://github.com/esterhuizen/system-one-on-snapdragon) `📚1` — Running open System One typed-decision models (Laya, Decider, imajev) on a Snapdragon X Elite NPU/GPU/CPU, with a Jev-compatible benchmark harness
+- [Evals example](https://pydantic.dev/articles/jev-evals) `📚1` — Official examples use Jev for custom evaluation and LLMJudge / GEval; the Gateway forwards native System One requests with a bring-your-own TypeSafe key
+- [Evan Vega: "TypeSafe Claims Its Model Is 193.6x Faster. Its Own Employee Measured 15.9% on](https://dailycaliforniapress.com/jev-typesafe-benchmark-checked-explainer-wave-daily_california) `📚1` — Review of Novel Cognition's analysis (which ships a published corrections log): every published end-to-end measurement lands between 1.16× and 6×, not 193.6×;…
+- [explainx.ai: "LangSmith Jev Evals: Score Every Production Trace" (2026-09-22)](https://explainx.ai/blog/langsmith-jev-production-trace-scoring-2026) `📚1` — LangChain made Jev a first-class judge inside LangSmith Evals (Evaluators tab → TypeSafe provider): attach typed Choice/Score/Noul questions to production…
+- [fabricioism/jev-expirements](https://github.com/fabricioism/jev-expirements) `📚1` — A repository for jev-expirements ★ 1 · model_id · TypeScript
+- [fatelei/yueli](https://github.com/fatelei/yueli) `📚1` — resume judgement use jev model
+- [FieldmouseWorks/redshirt](https://github.com/fieldmouseworks/redshirt) `📚1` — A shared, observable experiment runner with interchangeable environments, evaluators, and decision providers.
+- [flaviojfpereira/jev-judges-me](https://github.com/flaviojfpereira/jev-judges-me) `📚1` — score 14.6 · 0 stars
+- [flintfromthebasement/llm-routing-verification-bench](https://github.com/flintfromthebasement/llm-routing-verification-bench) `📚1` — Dependency-free Node benchmark of 23 cases for tier routing and draft verification that runs Jev via OpenRouter Decisions alongside chat models. MIT ·…
+- [fstandhartinger/model-market-comparison](https://github.com/fstandhartinger/model-market-comparison) `📚1` — Compare open-source & frontier LLM prices across providers (OpenRouter, AWS Bedrock, Azure Foundry, GitHub Copilot, Claude Code) with ArtificialAnalysis &…
+- [futurepresentlabs/pcbbench](https://github.com/futurepresentlabs/pcbbench) `📚1`
+- [GaNotchVFX/jev-benchmarks,0,Python,,2026-09-21](https://github.com/ganotchvfx/jev-benchmarks,0,python,,2026-09-21) `📚1`
+- [gecm0/jev-judge-mcp](https://github.com/gecm0/jev-judge-mcp) `📚1` — MCP server exposing TypeSafe's Jev as a judge tool: typed judgments with calibrated probabilities, for any MC…
+- [gev beats jev and takes images as input too](https://anyeval.com/eval/jevbench/versus) `📚1` — Benchmark: a head-to-head eval page where a rival model outperforms Jev on the same question set and additionally accepts images.
+- [ghchinoy/dgem](https://github.com/ghchinoy/dgem) `📚1` — DiffusionGemma template evaluation command-line tool Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Giamme/apple-silicon-systemone-benchmark](https://github.com/giamme/apple-silicon-systemone-benchmark) `📚1` — Open-source Apple Silicon benchmark for System One decision models
+- [giustino98/system-one-bench](https://github.com/giustino98/system-one-bench) `📚1`
+- [gongiskhan/jevellan](https://github.com/gongiskhan/jevellan) `📚1` — Conversations, stretches and judge-directed work across isolated coding runtimes.
+- [google/BIG-bench](https://github.com/google/big-bench) `📚1`
+- [gpleiss/temperature_scaling](https://github.com/gpleiss/temperature_scaling) `📚1` — Temperature scaling - Short reference implementation of the scalar temperature from Guo et al. The last push was July 2025, outside the one-year window, so…
+- [grafuls/huncho](https://github.com/grafuls/huncho) `📚1` — Portable Rust serving engine for System One decision models with calibrated probabilities.
+- [guidance-ai/jsonschemabench](https://github.com/guidance-ai/jsonschemabench) `📚1`
+- [Hanno-Labs/decision-bench-results](https://github.com/hanno-labs/decision-bench-results) `📚1` — Other related projects
+- [harshwasan/jev-retrieval-eval](https://github.com/harshwasan/jev-retrieval-eval) `📚1` — Reproducible retrieval evaluations comparing Jev and GPT as a second-stage document filter, with cost estimates.
+- [haxudev/jev-benchmark,0,Jupyter](https://github.com/haxudev/jev-benchmark,0,jupyter) `📚1`
+- [HCTDIP/jevaudit](https://github.com/hctdip/jevaudit) `📚1` — Universal calibration auditor for decision models: decide → three-fingerprint ledger (input/output/code hash) → Brier score vs the 0.25 always-0.5 baseline +…
+- [HermeticOrmus/jev-benchmark-loop](https://github.com/hermeticormus/jev-benchmark-loop) `📚1` — Benchmark the whole agent loop, not single model calls Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [HF mirror: lukaemon/bbh](https://huggingface.co/datasets/lukaemon/bbh) `📚1`
+- [hfl/ruozhiba_gpt4](https://huggingface.co/datasets/hfl/ruozhiba_gpt4) `📚1` — Apache-2.0 declared; synthetic answers. Identical questions across versions are not independent samples.
+- [HikaruEgashira/jev-algorithms](https://github.com/hikaruegashira/jev-algorithms) `📚1` — Runtime-agnostic algorithms built on TypeSafe's Jev structured-evaluation model
+- [horbel/fluff-meter](https://github.com/horbel/fluff-meter) `📚1` — Rates every LinkedIn post on a 0-100% Fluff Index and folds what you don't want to read. Chrome extension, powered by Jev.
+- [hqvdvn-cmd/astra-jev-benchmark](https://github.com/hqvdvn-cmd/astra-jev-benchmark) `📚1`
+- [hughwalker08/pokemon_red_benchmark](https://github.com/hughwalker08/pokemon_red_benchmark) `📚1`
+- [ian-cowley/Glacier.Clavier](https://github.com/ian-cowley/glacier.clavier) `📚1` — High-throughput native C# .NET 10 System-1 discrete decision &amp; policy engine. Sub-millisecond non-autoregressive decision primitives (Choice, Noul, Score)…
+- [ickas.dev](https://ickas.dev/writing/benchmarking-jev-battleship) `📚1` — More: ickas.dev · southbridge.ai · classmethod · mikulskibartosz.name
+- [Image JevBench](https://benchmarkheaven.com/image-jev-bench) `📚1` — Held-out image-decision suite: 684 items (228 public / 456 sealed) with frozen hashes and contamination tracking — it flagged Kev's Mind2Web training overlap…
+- [instructa/switchloom](https://github.com/instructa/switchloom) `📚1` — Switchloom · instructa · GitHub · ⭐ 1 · 2026-07-17Workflow prompt for persistent Codex tasks that assigns capabilities to different models with optional Jev…
+- [Introducing Jev-as-a-judge](https://deepeval.com/blog/introducing-jev-as-a-judge) `📚1` — DeepEval on building evals with Jev as the judge instead of a generative model.
+- [ishiyamaism/ai-decision-bench](https://github.com/ishiyamaism/ai-decision-bench) `📚1`
+- [ivo-toby/jev_one_off_benchmark](https://github.com/ivo-toby/jev_one_off_benchmark) `📚1`
+- [iwhalen/jev-pseudo-relevance](https://github.com/iwhalen/jev-pseudo-relevance) `📚1` — Pseudo-relevance-feedback experiment with Jev on TREC DL 2023 (qrels + queries from rahmanidashti/SyntheticTestCollections): run-guide README, main.py, pinned…
+- [JacopoBonanno/jev_benchmark](https://github.com/jacopobonanno/jev_benchmark) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jellydn/signal-gate](https://github.com/jellydn/signal-gate) `📚1` — Benchmark harness comparing Jev, deterministic rules and an LLM on 100 synthetic financial-anomaly scenarios for accuracy, latency, cost and calibration. no…
+- [Jev as a judge](https://madewithjev.com/jev-as-a-judge) `📚1` — Jev in place of an LLM judge: evals, rubrics, and what the confidence score is and is not.
+- [Jev Can't Be Calibrated](https://alexmolas.com/2026/09/23/jev-cant-be-calibrated.html) `📚1` — Blog + HN thread (59 points, 60 comments): a statistical argument that the calibration claim cannot hold, with the methods written out.
+- [jev-bench](https://huggingface.co/datasets/praveenrajus/jev-bench) `📚1` — human-labelled rows in 22 configs recast as System One questions, keeping human label distributions where they exist; 43 models scored on 22,773 test records.
+- [jev-sec/jev-sec.github.io](https://github.com/jev-sec/jev-sec.github.io) `📚1` — Jev IDS website: one flow. one request. one verdict.
+- [jevify-qwen3.5-2b](https://huggingface.co/praveenrajus/jevify-qwen3.5-2b) `📚1` — Praveenrajus · Hugging Face · 2026-09-21Jevify decision heads for Qwen3.5-2B that answer choice, score and noul questions about a state with calibrated…
+- [jevify-qwen3.5-4b](https://huggingface.co/praveenrajus/jevify-qwen3.5-4b) `📚1` — Praveenrajus · Hugging Face · 2026-09-21Jevify decision heads for Qwen3.5-4B that read a state, answer choice, score and noul questions and return calibrated…
+- [JevOne](https://huggingface.co/juspay/jev-one) `📚1` — juspay · Hugging Face · 2026-09-21Typed decision model on Qwen3.6-35B-A3B served through a TypeSafe-compatible /v1/systemone API, with single-token candidate…
+- [JevPokerBench Online](https://123.56.23.73/pokerbench) `📚1` — Optional hosted UI: JevPokerBench Online (operator-run; registration; BYOK for custom agents). Live inference sends hand/decision state to providers and can…
+- [Jev：只问一次 62.6%，拆成五问 95%](https://beri.net/article/typesafe-jev-typed-decision-model-calibration-decomposition-shadow-eval) `📚1` — Jev: 62.6% asked once, 95% split five ways · Rajesh Beri · Article · 2026-09-21Roundup of independent tests: Jev ran 12-27x cheaper than Claude Haiku 4.5 on a…
+- [jjd-lab.github.io](https://jjd-lab.github.io/jev-synthetic-survey) `📚1`
+- [jjlecocq-v/outbound-draft-gate](https://github.com/jjlecocq-v/outbound-draft-gate) `📚1` — Vercel-branded Outbound Draft Gate demo for LinkedIn walkthrough (Jev-style evaluate + AI
+- [joe325132514132636-svg/jev-100-benchmark,0,HTML,,2026-09-21,Independent](https://github.com/joe325132514132636-svg/jev-100-benchmark,0,html,,2026-09-21,independent) `📚1`
+- [joeywhelan/judged-feedback](https://github.com/joeywhelan/judged-feedback) `📚1` — Jev judges every review and return, Elasticsearch aggregates the judgments, and a leashed Claude Cod
+- [jongyunhur/jev-webagent-bench](https://github.com/jongyunhur/jev-webagent-bench) `📚1` — Evaluating System-One Action Selection in Long-Horizon Web Agents
+- [juanegido/jev-pr-judge,2,TypeScript,,2026-09-17](https://github.com/juanegido/jev-pr-judge,2,typescript,,2026-09-17) `📚1`
+- [jvbyrnes/conversational-guardrail-benchmark](https://github.com/jvbyrnes/conversational-guardrail-benchmark) `📚1` — Benchmarking how well models classify guardrail labels for conversations. Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [kaushr/system-one-model-benchmark](https://github.com/kaushr/system-one-model-benchmark) `📚1` — score 14.5 · 0 stars
+- [kero-zxk/jev-capability-eval](https://github.com/kero-zxk/jev-capability-eval) `📚1` — Reproducible Jev evaluations across Sudoku, Minesweeper, Who Is Undercover, CRT, conjuncti
+- [kev-suites](https://huggingface.co/datasets/jaredpalmer/kev-suites) `📚1` — Frozen evaluation suites from the Kev project.
+- [kfnlend/jev_lh](https://github.com/kfnlend/jev_lh) `📚1` — The purpose of this app is to evaluate the percentage of students of the city of Le Havre
+- [kgouthamk/jev-judge](https://github.com/kgouthamk/jev-judge) `📚1` — Jev-as-a-Judge: LLM evaluation workbench on BeatAPI's jev-1.13 decision model (Streamlit)
+- [kjagsadvisors/jev-bookkeeper](https://github.com/kjagsadvisors/jev-bookkeeper) `📚1` — Audit or categorize a year of bank / QuickBooks transactions in seconds with TypeSafe's Jev. CLI tool + Claude Code skill. MIT.
+- [korulang/koru](https://github.com/korulang/koru) `📚1` — oru invariants gate · korulang · GitHub · ⭐ 27 repo · 2025-12-28Pre-commit gate for the Koru event continuation language: deterministic checks run where…
+- [Kumzha/jev-benchmark](https://github.com/kumzha/jev-benchmark) `📚1` — Jev vs nine cheap models on price, speed and accuracy. Human-labelled data, reproducible harness.
+- [Kumzha/jev-benchmark,0,Python,,2026-09-20](https://github.com/kumzha/jev-benchmark,0,python,,2026-09-20) `📚1`
+- [KunalKatiyar/continuity-bench](https://github.com/kunalkatiyar/continuity-bench) `📚1` — A benchmark for detecting continuity errors in novel-length fiction, plus a Jev-based editing harness
+- [Kurumella/certa](https://github.com/kurumella/certa) `📚1` — Fast calibrated typed decisions on open-weight models - Jev-compatible System One
+- [LachlanLindsay/is-jev-calibrated](https://github.com/lachlanlindsay/is-jev-calibrated) `📚1`
+- [Langfuse integrations](https://langfuse.com/integrations) `📚1` — Shows a natural fit for high-frequency observability/evaluation decisions. Langfuse integrations
+- [largitdata: "Jev System One Model open-source benchmark"](https://largitdata.com/en/blog/jev-system-one-model-open-source-benchmark) `📚1` — multi-turn RAG routing — Gemma 4 31B vs Jev vs open alternatives; latency advantage for Jev. (independent)
+- [lawrence3699/jevstyle.com](https://github.com/lawrence3699/jevstyle.com) `📚1` — JevStyle — small, calibrated decision models (site source for jevstyle.com)
+- [lianghsun/jev-tmmluplus-eval,3,Python,,2026-09-23](https://github.com/lianghsun/jev-tmmluplus-eval,3,python,,2026-09-23) `📚1`
+- [little-g-ai/Sys1Cal-v1](https://github.com/little-g-ai/sys1cal-v1) `📚1` — Sys1Cal-v1 - A Benchmark for Calibration and Semantic Evaluation of System One Models · Python
+- [live](https://mithalouni--jev-serve-e2b-full-server-web.modal.run) `📚1`
+- [live](https://sarvam-jev.feynmanpi.com) `📚1`
+- [live](https://kentarokuribayashi.com/jev-fizzbuzz) `📚1`
+- [live](https://qte77.github.io/2026-09-12-wandb-agih-coreweave-hack) `📚1`
+- [live](https://vehas.github.io/thaiexam-jev-charts) `📚1`
+- [LooksJuicy Ruozhiba JSON](https://huggingface.co/datasets/looksjuicy/ruozhiba/resolve/2a39d86721e0109a7c598a25a1338e297c639d2f/ruozhiba_qa.json) `📚1`
+- [LooksJuicy/ruozhiba](https://huggingface.co/datasets/looksjuicy/ruozhiba) `📚1` — GPT-4 answers, obvious refusals filtered out; Apache-2.0 declared. Not human classification gold or representative abstention prevalence.
+- [lssiair/JevJudge](https://github.com/lssiair/jevjudge) `📚1` — Evaluate the Jev as a judge in RL learning.
+- [lyKaede/jev-bench-it](https://github.com/lykaede/jev-bench-it) `📚1`
+- [maci0/rebrew](https://github.com/maci0/rebrew) `📚1` — Compiler-in-the-loop decompilation workbench for binary-matching game reversing.
+- [Madniel/jev-benchmark](https://github.com/madniel/jev-benchmark) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [maisa-ai/djev](https://djev.dev) `📚1` — (TypeScript) -- Fast structured decision engine powered by Maisa. Evaluates text, JSON, and images into typed yes/no answers, options, and rubric scores.…
+- [mallahyari/system-one-benchmark](https://github.com/mallahyari/system-one-benchmark) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [manankumarthakkar/jev-field-report](https://github.com/manankumarthakkar/jev-field-report) `📚1` — Why eleven audits of the same model report 44.7% to 95.9% accuracy and ECE 0.023 to 0.793: whether an abstain option existed, which primitive, whether the task…
+- [Manj Chenna: "Jev AI, stripped down"](https://manjchenna.com/essays/jev-typesafe-system-one-model) `📚1` — Long-form honest analysis: probabilities are facts about your question, not the world; "zero hallucination" means zero out-of-schema answers, not correct…
+- [manojlds/classifier-bench,0,TypeScript,,2026-09-22](https://github.com/manojlds/classifier-bench,0,typescript,,2026-09-22) `📚1`
+- [masheddega/slop-eval](https://github.com/masheddega/slop-eval) `📚1` — Evaluate content for slop and guide revisions with 15 TypeSafe Jev scores. Not an AI-authorship dete
+- [matsonj/eval-connections](https://github.com/matsonj/eval-connections) `📚1` — Jev Connections solver · matsonj · GitHub · ⭐ 25 repo · 2025-07-31Experimental solver in an NYT Connections LLM eval that asks Jev whether word pairs and…
+- [Matthew O'Riordan's Pong latency showdown (via RuntimeWire)](https://runtimewire.com/article/diogo-almeida-typesafe-jev-40m-seed-pong) `📚1` — Four lanes, same game state, recorded 2026-09-17 via Vercel AI Gateway: Jev averaged 227ms/decision (p95 400ms); Gemini 3.8 Flash 3.2s, Claude Haiku 4.5 2.5s,…
+- [may3rr/jev-verifier-eval](https://github.com/may3rr/jev-verifier-eval) `📚1`
+- [mdigital/jev-evaluations](https://github.com/mdigital/jev-evaluations) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Meta AbstentionBench on HF](https://huggingface.co/datasets/facebook/abstentionbench) `📚1` — CC BY-NC 4.0, plus upstream restrictions. Old loader needs datasets <= 3.6.0 and remote code; inspect and fetch only the desired original source instead.
+- [MikeyBeez/calibration-table](https://github.com/mikeybeez/calibration-table) `📚1` — When your AI says it's sure: calibrating an open Jev-style classifier with a lookup table
+- [Mikhail/mini-jev-runs](https://huggingface.co/datasets/mikhail/mini-jev-runs) `📚1` — decision records with fp32 option-letter logits from frozen Qwen3-4B-Instruct-2507 on CLINC150; card reports 0.848 accuracy and scores that are not calibrated.…
+- [mikkel-rs/jev-typesafe-eval](https://github.com/mikkel-rs/jev-typesafe-eval) `📚1` — Does a $0.17-per-thousand router hold up? An independent function-calling test of TypeSafe's Jev model, reproducible from cached answers.
+- [misty-step/polymorph](https://github.com/misty-step/polymorph) `📚1` — Chrome extension: collapse posts that match rules you wrote in English. Jev is the judge.
+- [MLflow · Can Jev replace your LLM judge?](https://mlflow.org/blog/jev-llm-judge) `📚1` — . MLflow · Can Jev replace your LLM judge?（Yuki Watanabe，2026-09-22）
+- [MohibShaikh/jev-skillbench,2,Python,,2026-09-23](https://github.com/mohibshaikh/jev-skillbench,2,python,,2026-09-23) `📚1`
+- [moishinetzer/jevboard](https://github.com/moishinetzer/jevboard) `📚1` — "Paste your site. Pay $5. Jev decides what it's worth." A public leaderboard of businesses ranked by Jev as an AI judge: you give it nothing but a URL, Jev…
+- [Muvon/octomind](https://github.com/muvon/octomind) `📚1` — octomind evaluate · Muvon · GitHub · ⭐ 140 repo · 2025-06-01CLI-first AI coding agent runtime with an evaluate command that sends a JSON state and typed…
+- [mxylumos/gemini-jev-evaluation-service](https://github.com/mxylumos/gemini-jev-evaluation-service) `📚1` — Jev-compatible /v1/systemone evaluation service backed by Gemini (not TypeSafe weights — stated openly): 26-case labelled dataset (AG News + BoolQ with…
+- [nabendukarmakar/jev-vs-terra](https://github.com/nabendukarmakar/jev-vs-terra) `📚1` — Benchmark and evaluate Jev (System 1) against GPT-5.6 Terra across reasoning, coding, late
+- [natemoo-re/bias-bench](https://github.com/natemoo-re/bias-bench) `📚1`
+- [navindasg/jevembed](https://github.com/navindasg/jevembed) `📚1` — Jev as embedder vs Jev as reranker, on slim BEIR SciFact (100 queries, 1,500 docs, jev-1.13.0): 128 Noul probabilities as a document vector flops (0.514…
+- [nft-syou/jevcraft-bench](https://github.com/nft-syou/jevcraft-bench) `📚1` — Behavioural anti-cheat research bench for Minecraft (Paper): mining telemetry, typed LLM questions, and an offline benchmark against classic X-Ray heuristics.…
+- [nickwinder/jev-judge,0,JavaScript,,2026-09-21,Jev](https://github.com/nickwinder/jev-judge,0,javascript,,2026-09-21,jev) `📚1`
+- [NicolasMontone/jev-evals,3,TypeScript](https://github.com/nicolasmontone/jev-evals,3,typescript) `📚1`
+- [NIST Wilson intervals](https://itl.nist.gov/div898/handbook/prc/section2/prc241.htm) `📚1`
+- [NMTZ-z/system-one-benchmark-lab](https://github.com/nmtz-z/system-one-benchmark-lab) `📚1` — topic:system-one
+- [NoorElAlfi/jev-werewolf](https://github.com/noorelalfi/jev-werewolf) `📚1` — inferred / evaluation — ⭐0
+- [Nubet/jev-chess-benchmark](https://github.com/nubet/jev-chess-benchmark) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Nuung/jev-judge-test](https://github.com/nuung/jev-judge-test) `📚1` — Other related projects
+- [opedoussaut/lean-ai](https://github.com/opedoussaut/lean-ai) `📚1` — Side-by-side PoC of four architectures on synthetic industrial incidents, including Jev typed decisions with confidence-based escalation and calibration…
+- [open-system-one results explorer](https://huggingface.co/spaces/dylantom2012/open-system-one) `📚1` — dylantom2012 · App · 2026-09-21Interactive explorer for an independent benchmark of TypeSafe's Jev against open CPU-only stacks on 10,000 decisions.
+- [open-system-one-bench](https://huggingface.co/datasets/dylantom2012/open-system-one-bench) `📚1` — dylantom2012 · Hugging Face · ♥ 1 · 2026-09-21Per-item predictions for 10,000 classification and routing decisions from six stacks, including typesafe/jev and…
+- [OpenAI evaluation graders](https://developers.openai.com/api/docs/guides/graders) `📚1` — reference-based and score-based evaluation patterns.
+- [OpenRouter: Jev vs 4 LLMs on a 30-class task (via TipRanks)](https://tipranks.com/news/private-companies/benchmark-highlights-performance-edge-for-decision-model-on-openrouter) `📚1` — OpenRouter's own benchmark, 200 synthetic cases: Jev >5× faster than the next fastest model, matched top LLMs on accuracy, second cheapest behind Qwen3.8 Flash.
+- [OpenScribbler/semantic-style-lab](https://github.com/openscribbler/semantic-style-lab) `📚1` — Compile deterministic Vale candidates and narrow Jev judgments into localized documentation style audits.
+- [OrMizL/jev-skill-router-bench,0,Python,,2026-09-22](https://github.com/ormizl/jev-skill-router-bench,0,python,,2026-09-22) `📚1`
+- [Ormus-Solutions/karat-filter,0,TypeScript,,2026-09-20,Retrieve-then-judge](https://github.com/ormus-solutions/karat-filter,0,typescript,,2026-09-20,retrieve-then-judge) `📚1`
+- [Ormus-Solutions/quicksilver-judge,0,TypeScript,,2026-09-20](https://github.com/ormus-solutions/quicksilver-judge,0,typescript,,2026-09-20) `📚1`
+- [paddo.dev: "The Thirty-Cent Judge: TypeSafe's Jev on a Real Product-Matching Queue" (2026-](https://paddo.dev/blog/thirty-cent-judge) `📚1` — The author's own competitor-pricing product Pricogni: 9,081 uncertain product matches judged by Jev (two typed questions per pair) for $0.32 in 13 minutes; 50…
+- [paramiyer/jev-ml-exp](https://github.com/paramiyer/jev-ml-exp) `📚1` — Autonomous feature discovery for frozen LLM classifiers across ML benchmark datasets.
+- [pengbin2015/jev-experiment](https://github.com/pengbin2015/jev-experiment) `📚1` — Taxonomy-guided BANKING77 intent-classification experiments comparing Jev, small LMs and ML classifiers (taxonomy.yaml + prepared datasets + results/ artifacts…
+- [pngwn/open-jev](https://huggingface.co/spaces/pngwn/open-jev) `📚1` — Gradio demo of the pngwn Qwen3.5-4B scorer: prefill state once, score all question/option branches in parallel; card reports 0.740 accuracy, ECE 0.047 on 500…
+- [pozapas/system-one-models-survey](https://github.com/pozapas/system-one-models-survey) `📚1` — Census, evidence ledger, benchmark harness and results for the survey of System One (typed probabilistic decision) models
+- [Pranay Suyash (Medium): "Jev's 193.6× Faster, 444.6× Cheaper Claim: What TypeSafe's Workfl](https://pranaysuyash.medium.com/jevs-193-6-faster-444-6-cheaper-claim-what-typesafe-s-workflow-eval-actually-measures-68b8529e822b) `📚1` — Takes the headline multipliers apart: the benchmark decomposes the task before calling the model, so it tests a way of building software as much as a model.…
+- [prerak1603/jev-vs-claude-benchmark](https://github.com/prerak1603/jev-vs-claude-benchmark) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [preregistration](https://zenodo.org/records/22971413) `📚1`
+- [pritishyuvraj/jev-model-performance](https://github.com/pritishyuvraj/jev-model-performance) `📚1` — A repository to understand the Jev model tool calling accuracy
+- [priyanshu1976/jev-benchmark-project](https://github.com/priyanshu1976/jev-benchmark-project) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Product Compass Invoice Benchmark](https://productcompass.pm) `📚1` — TypeSafe Jev: 50/50 correct (100% accuracy) at $0.025 per 1,000 decisions in the Product Compass Invoice Benchmark.
+- [Project](https://jevadvbench.github.io/jevadvbench) `📚1`
+- [Public explorer](https://adambkovacs.github.io/candidate-experience-benchmark) `📚1` — and results/comparison/REPORT.md. No live re-run on the review host.
+- [puedesleerlo/jev-judge-experiment](https://github.com/puedesleerlo/jev-judge-experiment) `📚1` — Does the judge read the evidence? A small LLM-as-judge experiment with Jev: stability and counterfac
+- [qywu/ruozhiba_en](https://huggingface.co/datasets/qywu/ruozhiba_en) `📚1` — Qualitative English counterpart, not a controlled translation benchmark; no license declaration found.
+- [raghavnarain3/jev-gemini-decision-benchmark](https://github.com/raghavnarain3/jev-gemini-decision-benchmark) `📚1`
+- [rapidstartup/jevbench](https://github.com/rapidstartup/jevbench) `📚1` — JevBench public leaderboard site (jevbench.dev)
+- [RaulLazaro/dsh-jev](https://github.com/raullazaro/dsh-jev) `📚1` — Ask Jev (TypeSafe System One) typed questions from DeepSeek Harness: batch judgements with probabilities, con…
+- [ravinsingh15/jev-factory-gate](https://github.com/ravinsingh15/jev-factory-gate) `📚1` — Does a fast gate read the pending step? Jev vs an LLM judge on 48 invented cases.
+- [RDX-Rajat-Savdekar/jev-tools](https://github.com/rdx-rajat-savdekar/jev-tools) `📚1` — JevStream + JevBench + JevAudit voice command console
+- [reachjalil/system-one-bench](https://github.com/reachjalil/system-one-bench) `📚1` — System One Bench: Jev evidence, practical findings, negative results and reproducible deci
+- [real00/workbench](https://github.com/real00/workbench) `📚1`
+- [reetamdey-alt/jev-agent-eval,0,Python,,2026-09-22,Production-grade](https://github.com/reetamdey-alt/jev-agent-eval,0,python,,2026-09-22,production-grade) `📚1`
+- [reetamdey-alt/jev-agent-eval-clean,0,Python,,2026-09-22,evaluation](https://github.com/reetamdey-alt/jev-agent-eval-clean,0,python,,2026-09-22,evaluation) `📚1`
+- [Results JSON](https://benchmarkheaven.com/api/jevbench/v1.2) `📚1`
+- [ritza-co/asset-register-experiments-report](https://github.com/ritza-co/asset-register-experiments-report) `📚1` — (notable) - Reproducible experiments showing a trailing newline flips a TypeSafe Noul answer 10/10 times, plus a batched accuracy comparison against an LLM. no…
+- [RLCD explained: Reinforcement Learning for Calibrated Decisions](https://systemonemodels.org/guides/rlcd-explained) `📚1` — An independent write-up whose most useful finding is a negative one: there is no paper, no reward function, no dataset description and no reproducible…
+- [rmax-ai/ai-papers-routing-benchmark](https://github.com/rmax-ai/ai-papers-routing-benchmark) `📚1` — AI Papers Insights routing benchmark: JEV × model choice × selective PDF reading for paper
+- [RoboKrunch](https://robokrunch.com) `📚1` — Maintained by RoboKrunch — we benchmark Chinese edge-AI hardware and measure what AI actually costs in the physical world. Our Jev experiments live at…
+- [Rookie143/JevBench](https://github.com/rookie143/jevbench) `📚1` — Other related projects
+- [royhermit/dynamic-judge-network](https://github.com/royhermit/dynamic-judge-network) `📚1`
+- [rssr25/system-one-bench](https://github.com/rssr25/system-one-bench) `📚1`
+- [ruidpm/triage-bench](https://github.com/ruidpm/triage-bench) `📚1` — Live dashboard benchmarking a local System One decision model (Von) against Claude Haiku 4.5 and GPT-5.6 Luna on support-ticket triage
+- [run-llama/jev_vs_oss](https://github.com/run-llama/jev_vs_oss) `📚1` — jev vs. open alternatives - Document pipelines: compares Jev against open models and specialised tools on five chores — language detection, orientation,…
+- [s-0-a-r/typesafe-eval](https://github.com/s-0-a-r/typesafe-eval) `📚1` — Fast, typed multi-dimensional document evaluation CLI powered by TypeSafe System One (Jev).
+- [s-0-a-r/typesafe-eval,0,Python,,2026-09-26](https://github.com/s-0-a-r/typesafe-eval,0,python,,2026-09-26) `📚1`
+- [SamratDuttaOfficial/WaterSheep](https://github.com/samratduttaofficial/watersheep) `📚1` — WaterSheep — A decision model that returns calibrated answers to yes/no, choice, score and multi-label questions (auto-discovered, description not yet written)…
+- [Sandy134/Jev_against_LLM](https://github.com/sandy134/jev_against_llm) `📚1` — Jev (decision model) vs GPT-6 Sol: a 50-question support-ticket classification benchmark comparing accuracy, latency, and cost.
+- [sanjayarun07/orbit](https://github.com/sanjayarun07/orbit) `📚1` — docs/jev-routing-eval-2026-09-17.md — First measurement of Jev as a routing decision model: 74 labeled cases, same rules for both backends — Jev 1.13.0: 68/74…
+- [Sannrox/sekai-chisei](https://github.com/sannrox/sekai-chisei) `📚1` — Local-first Rust control plane for ontology-driven, governed agent operations: policy, budgets, audit, evalua…
+- [SaudMonsour/car-evaluation-classification](https://github.com/saudmonsour/car-evaluation-classification) `📚1` — Multi-class decision-model classification on the UCI Car Evaluation dataset comparing Rand
+- [Sellestial/hubspot-jev-benchmark](https://github.com/sellestial/hubspot-jev-benchmark) `📚1` — HubSpot's AI (smart properties) vs jev, head-to-head on real HubSpot contacts: cost, speed, blind-ju
+- [Sellestial/hubspot-jev-benchmark,0,Python,,2026-09-23](https://github.com/sellestial/hubspot-jev-benchmark,0,python,,2026-09-23) `📚1`
+- [sergio-8/jev-flash-router-bench](https://github.com/sergio-8/jev-flash-router-bench) `📚1` — Router benchmark: 16 hand-written coding-agent questions (8 simple, 8 multi-step) across four strategies — always Gemini Flash, always Gemini Pro, a heuristic…
+- [SHAKULMITTAL22/jev-resume](https://github.com/shakulmittal22/jev-resume) `📚1` — Folio: job-specific resume leaderboards with approved rubrics, evidence-backed AI evaluati
+- [shaun117/jev-record-matching](https://github.com/shaun117/jev-record-matching) `📚1` — "Matching records with Jev: how many candidates to put in one question, and what goes wrong" — an experiment with real findings: one multiple-choice question…
+- [shayanalibuilds/jev-model-routing-benchmark](https://github.com/shayanalibuilds/jev-model-routing-benchmark) `📚1`
+- [shi0275206485-dev/rlcd_experiment](https://github.com/shi0275206485-dev/rlcd_experiment) `📚1` — Evaluation and calibration
+- [shubham10divakar/EvalJev](https://github.com/shubham10divakar/evaljev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [siddicky/jev-gray-swan-arena-judges](https://github.com/siddicky/jev-gray-swan-arena-judges) `📚1`
+- [simojam93/jev-judge](https://github.com/simojam93/jev-judge) `📚1` — Calibrated judgments for social posts, powered by Jev: relevance, quality, spam, kinds of post, how
+- [SivletLabs/jev-eval](https://github.com/sivletlabs/jev-eval) `📚1` — Evaluation dataset and environment for Jev / System One typed decisions
+- [slavadubrov/sgr-judge-bench](https://github.com/slavadubrov/sgr-judge-bench) `📚1` — Reproducible one-call comparison of Jev decisions and structured-output LLM judges on TabFact.
+- [solariz3d/jev](https://github.com/solariz3d/jev) `📚1` — Jev for Claude Code: marks turns worth a second look, judged by a separate model through the Vercel
+- [spranab/yantrik-inference](https://github.com/spranab/yantrik-inference) `📚1` — (notable) - Open local server that reads many typed answers from one batched forward pass of an open-weights model, with benchmarks against JSON generation.…
+- [sshariqali/jev-abstentionbench](https://github.com/sshariqali/jev-abstentionbench) `📚1` — Meta's AbstentionBench: mean abstention F1 0.855, first among 20 published systems, via higher recall at similar precision. n=5,933 questions
+- [statsguysam/jev-classification-benchmark](https://github.com/statsguysam/jev-classification-benchmark) `📚1` — Reproducible Jev, LLM, LoRA and classical text classification benchmarks with public-dataset provenance and measured pilot results
+- [suenot/codex-jev-router-benchmarks,0,JavaScript,,2026-09-24](https://github.com/suenot/codex-jev-router-benchmarks,0,javascript,,2026-09-24) `📚1`
+- [SuperInstance/substrate-gan](https://github.com/superinstance/substrate-gan) `📚1` — JEV-as-judge GAN harness
+- [sureshbujji/jev-eval-lab](https://github.com/sureshbujji/jev-eval-lab) `📚1` — Eval harness for TypeSafe Jev decision models: golden-dataset evaluation, calibration metrics, and s
+- [sureshbujji/jev-eval-lab,0,Python,,2026-09-23](https://github.com/sureshbujji/jev-eval-lab,0,python,,2026-09-23) `📚1`
+- [suzgunmirac/BIG-Bench-Hard](https://github.com/suzgunmirac/big-bench-hard) `📚1` — Authors; (existing attribution)(../../../evals/THIRD_PARTY.md)
+- [syeimee/jev-benchmark](https://github.com/syeimee/jev-benchmark) `📚1`
+- [tamnd/kime-bench](https://github.com/tamnd/kime-bench) `📚1` — The benchmark harness for kime. Latency, throughput, energy, cost and accuracy against Laya, laya-ml
+- [The Unwind AI: "Get started with Jev for free" (2026-09-20)](https://theunwindai.com/p/get-started-with-jev-for-free) `📚1` — LocalJev: Jev-compatible API served on local models via oMLX, tested across 1,200 requests on five 4-bit models on an M5 Max (prompted JSON probability output,…
+- [theiskaa/hedos](https://github.com/theiskaa/hedos) `📚1` — hedos System One gateway · theiskaa · GitHub · ⭐ 14 repo · 2026-07-05Headless local model engine whose gateway exposes TypeSafe's POST /v1/systemone, so a…
+- [themsquared/jev-benchmark,1,Python,,2026-09-17](https://github.com/themsquared/jev-benchmark,1,python,,2026-09-17) `📚1`
+- [TheWayWithin/jev-bench,1,Python,,2026-09-20](https://github.com/thewaywithin/jev-bench,1,python,,2026-09-20) `📚1`
+- [thisisandreeeee/jev-benchmarks](https://github.com/thisisandreeeee/jev-benchmarks) `📚1` — Benchmark suite to compare Jev vs. supervised and zero-shot baselines
+- [thisisandreeeee/jev-benchmarks,0,Python,,2026-09-19,Benchmark](https://github.com/thisisandreeeee/jev-benchmarks,0,python,,2026-09-19,benchmark) `📚1`
+- [thunlp/FalseQA](https://github.com/thunlp/falseqa) `📚1` — Human-written questions, but reference prose and assumptions still need review. No explicit license found; do not bundle by assuming MIT.
+- [Tiny-Jev](https://huggingface.co/lostargon/tiny-jev) `📚1` — lostargon · Hugging Face · ♥ 3 · 2026-09-21Open 0.6B System One model on Qwen3-0.6B that answers typed questions with calibrated probabilities: 95.8% accuracy…
+- [TMMLU+ v1.1](https://huggingface.co/datasets/ikala/tmmluplus) `📚1`
+- [TokenTrim/jev-agent-failure-benchmark,3,Python,Benchmarking](https://github.com/tokentrim/jev-agent-failure-benchmark,3,python,benchmarking) `📚1`
+- [TokenTrim/jev-routing-experiment,3,Python,Benchmarking](https://github.com/tokentrim/jev-routing-experiment,3,python,benchmarking) `📚1`
+- [tonyarcher/webapp-workbench](https://github.com/tonyarcher/webapp-workbench) `📚1` — Sandbox of small web apps - personal tools and a portfolio
+- [TurabiOzturk/before-you-agree](https://github.com/turabiozturk/before-you-agree) `📚1` — Deterministic-first Chrome agreement analyzer showcasing eval engineering with JEV and pluggable System One classifiers.
+- [TuriAsim/Jev-Model-Evaluation](https://github.com/turiasim/jev-model-evaluation) `📚1` — This repository consists of scenario-based Jev model evaluation and comparative analysis with LLMs.
+- [tuwiliyt/decisionmodelbench](https://github.com/tuwiliyt/decisionmodelbench) `📚1`
+- [UlkuTuncerKucuktas/system-one-bench-tr](https://github.com/ulkutuncerkucuktas/system-one-bench-tr) `📚1` — Turkish decision tasks comparing System One models (TypeSafe Jev and open look-alikes) with ordinary LLMs on the same questions: every item is a System One…
+- [Varun Nuthalapati (Medium): "Jev Got Adopted Overnight. Now Come the Accuracy and Security](https://medium.com/@nuthalapativarun/jev-got-adopted-overnight-now-come-the-accuracy-and-security-questions-e0f20791f495) `📚1` — Independent anecdote roundup on week two: a Vercel engineer swapped Jev in for command-safety classification and got 5–18× faster with improved accuracy; a…
+- [vincentdnl/turboeval](https://github.com/vincentdnl/turboeval) `📚1` — LLM evaluation framework based on Jev
+- [vinilana/jev-eval-agent,105,HTML,,2026-09-17,2026-09-26](https://github.com/vinilana/jev-eval-agent,105,html,,2026-09-17,2026-09-26) `📚1`
+- [vinilana/jev-gateway-bench,4,JavaScript](https://github.com/vinilana/jev-gateway-bench,4,javascript) `📚1`
+- [wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation](https://github.com/wangcunxiang/semeval2020-task4-commonsense-validation-and-explanation) `📚1` — Human commonsense benchmark; CC BY-SA 4.0 in author README. A test has 1,000 rows; gold CSV is headerless. Join by id, not position.
+- [weave-io/weave](https://github.com/weave-io/weave) `📚1` — commit 623c9602, 2026-09-25) — The open-source eval platform weave switched its eval judge to TypeSafe Jev — pinned dated version typesafe/jev-1.13-20260917…
+- [weights](https://huggingface.co/lexmount/webjev-35b-a3b) `📚1`
+- [WestdeutscherRundfunkKoeln/calibrated-confidence-demo](https://github.com/westdeutscherrundfunkkoeln/calibrated-confidence-demo) `📚1` — Calibrated confidence demo - Demo that reads a score from the logprob distribution over score tokens in one chat call. It needs an API that returns logprobs,…
+- [who/otel-judge](https://github.com/who/otel-judge) `📚1`
+- [whyihaveyou/s1-bench](https://github.com/whyihaveyou/s1-bench) `📚1` — Early benchmark CLI for calibrated decision models with Jev and Kimi CLI adapters and two seed tasks covering calibration and robustness. MIT · Python
+- [willkelly/jev-evaluation,1,Python,,2026-09-20](https://github.com/willkelly/jev-evaluation,1,python,,2026-09-20) `📚1`
+- [WINEEL/jev-scheduling-evaluator](https://github.com/wineel/jev-scheduling-evaluator) `📚1` — Probabilistic soft-constraint evaluation for volunteer scheduling using TypeSafe Jev, with determini
+- [wiz.jock.pl/experiments/reflex](https://wiz.jock.pl/experiments/reflex) `📚1`
+- [WizdenOrg/wizden-moonlander](https://github.com/wizdenorg/wizden-moonlander) `📚1` — A lunar lander flown by typed-decision models (Laya, JEV). Run campaigns with random landing zones, compare models side by side, and test ...
+- [wondertwins/jev-benchmark,7,Python,,2026-09-16](https://github.com/wondertwins/jev-benchmark,7,python,,2026-09-16) `📚1`
+- [wufuju2023-cell/jev-alpha-proof-analysis](https://github.com/wufuju2023-cell/jev-alpha-proof-analysis) `📚1` — Jev (calibrated decision head) x AlphaProof value head: rigorous math analysis and transferable designs
+- [xiaobaicai66695/jev-agent-eval](https://github.com/xiaobaicai66695/jev-agent-eval) `📚1`
+- [xiezhr/jev-workbench](https://github.com/xiezhr/jev-workbench) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [XyraSinclair/llmsort](https://github.com/xyrasinclair/llmsort) `📚1` — Score a list by any fuzzy attribute with an LLM judge: pairwise ratio questions fitted into consistent scores…
+- [xz-dev/dsh-todo-audit](https://github.com/xz-dev/dsh-todo-audit) `📚1` — DSH port of rpiv-todo and pi-jev-todo-audit
+- [yanng981/system-one-benchmark](https://github.com/yanng981/system-one-benchmark) `📚1` — Accuracy, ECE and latency of six System One models through one /v1/systemone contract; Jev leads multilingual (0.872 non-English average) at ECE 0.020 to…
+- [YannQi/Reflex-4B](https://huggingface.co/yannqi/r-4b) `📚1` — Reflex-4b: 72.0% macro accuracy at 10 decisions/s per Reflex-4B Evaluation Report. Delivers 2--3x higher throughput than Jev with an acceptable 5.5% accuracy…
+- [YidiDev/jev-benchmark,3,Python,,2026-09-23](https://github.com/yididev/jev-benchmark,3,python,,2026-09-23) `📚1`
+- [yinlu01/jev-testbench](https://github.com/yinlu01/jev-testbench) `📚1`
+- [yinwenpeng/BenchmarkingZeroShot](https://github.com/yinwenpeng/benchmarkingzeroshot) `📚1`
+- [YoRzHe-HotaaRu/JEV-VS-SPAN01-BenchTest](https://github.com/yorzhe-hotaaru/jev-vs-span01-benchtest) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [YouTube: “Jev’s 444x Claim: What TypeSafe’s Own Benchmark Actually Says” (2026-09-24)](https://youtube.com/watch?v=sls21djw4ci) `📚1` — Claim audit with chaptered sources: the 444.6× figure is a self-run benchmark scored against the average of two other frontier models rather than ground truth…
+- [ysnrfd/JevX](https://github.com/ysnrfd/jevx) `📚1` — JevX: typed probabilistic decision layer over Hugging Face Transformers — choice/score/noul heads + post-hoc calibration + abstention flag on any Transformers…
+- [YUUM321/jev-klondike-benchmark,0,Python,,2026-09-24](https://github.com/yuum321/jev-klondike-benchmark,0,python,,2026-09-24) `📚1`
+- [ywchiu/jev_benchmark](https://github.com/ywchiu/jev_benchmark) `📚1`
+- [从零构建一个 Jev](https://huggingface.co/azharmo/build-jev-from-scratch) `📚1` — Build a Jev from scratch · azharmo · Hugging Face · ♥ 1 · 2026-09-20Toy 3.1M-parameter reconstruction of the System One interface with training, eval and…
+- [全天候科技 · 190 次财报任务实测](https://wallstreetcn.com/articles/3782218) `📚1` — . Confidence is relative preference among options, not P(correct) — It measures how peaked the distribution is over the options you offered. Remove the right…
+- [受限访问数据卡](https://huggingface.co/datasets/sumleo/rlcdalignbench) `📚1`
+- [硅星人 Pro · 实测 Jev…](https://woshipm.com/evaluating/6467191.html) `📚1`
+- [网易 2026-09-21 18:29](https://163.com/dy/article/l7ccipml0511i947.html) `📚1`
+- [集成公告](https://langchain.com/blog/jev-is-now-available-in-langsmith-evals) `📚1` — LangSmith announced Jev-as-a-judge support on September 21; its Gateway also supports Jev with your own TypeSafe key
+
+</details>

@@ -1,0 +1,285 @@
+# MCP Servers
+
+> Model Context Protocol servers that expose Jev Choice / Noul / Score to agents.
+>
+> **262 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 23
+
+- [jkudish/jev-mcp](https://github.com/jkudish/jev-mcp) `★469 · 📚66` — Fast, cheap, typed judgments from TypeSafe's Jev model, as MCP tools.
+- [itsmostafa/system-one-connector](https://github.com/itsmostafa/system-one-connector) `★337 · 📚61` — System One MCP connector to evaluate anything fast and cheap. Give your AI agent direct access to models like: Jev, D1, CLM and Laya
+- [blakestone-x/jev-mcp](https://github.com/blakestone-x/jev-mcp) `★25 · 📚42` — MCP server for TypeSafe Jev: typed classify, score, check, match and screen for any agent, with confidence on every answer
+- [burnigtm/jev-mcp](https://github.com/burnigtm/jev-mcp) `★61 · 📚29` — MCP server that puts TypeSafe Jev on the coding loop in Cursor, Codex, and any MCP client
+- [rashedInt32/jev-mcp](https://github.com/rashedint32/jev-mcp) `★7 · 📚24` — MCP server exposing TypeSafe Jev as typed, calibrated judgment tools: classify, score, check, batched ask. Ships as a Claude Code plugin.
+- [arunav25/jev-mcp](https://github.com/arunav25/jev-mcp) `★7 · 📚20` — Connect JEV to MCP clients and compare its judgments against general-purpose LLMs using shared datasets and measurable accuracy.
+- [BYK/jev-mcp](https://github.com/byk/jev-mcp) `★3 · 📚20` — An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities instead of generated text.
+- [utk2103/jev-studio](https://github.com/utk2103/jev-studio) `★16 · 📚19` — if you're experimenting with jev it will be easier from here
+- [kbhuw/jev-sift](https://github.com/kbhuw/jev-sift) `★47 · 📚18` — Classify first. Read selectively. A portable agent plugin and MCP tool for batch text classification.
+- [PyModel/jev-judge-mcp](https://github.com/pymodel/jev-judge-mcp) `★69 · 📚17` — Typed judgment tools for MCP agents. TypeSafe's Jev model as verify, screen, find, classify, rerank, decide, compare, extract, review, gate, and score: the model judges, policy decides auto, review, or escalate.
+- [jiawei686/jev-ultrafast-mcp](https://github.com/jiawei686/jev-ultrafast-mcp) `★18 · 📚17` — Hand a whole browser task off in one call: a decision model drives the page server-side, so a flow costs one call, not a turn per click. Ref-based element tables, code-checked assertions, zero-model macro replay, over the Chrome DevTools…
+- [dakdevs/decide-mcp](https://github.com/dakdevs/decide-mcp) `★0 · 📚17` — Configurable decision MCP server with AI SDK, Jev, percentage scores, and bias profile routing
+- [ndolinschi/toolgate](https://github.com/ndolinschi/toolgate) `★2 · 📚15` — Agent tool/MCP call gate — allow / ask_human / deny via TypeSafe Jev
+- [ndolinschi/mcpmatch](https://github.com/ndolinschi/mcpmatch) `★0 · 📚13` — Match user goals to MCP catalog (two-stage) via TypeSafe Jev
+- [timrogers/formanator](https://github.com/timrogers/formanator) `★100 · 📚12` — Submit Forma <https://joinforma.com> benefit claims from the command line and Model Context Protocol (MCP) clients, with support for AI-powered receipt analysis with an LLM or Jev
+- [ctmx/openrouter-jev-mcp](https://github.com/ctmx/openrouter-jev-mcp) `★2 · 📚12` — High-speed System One Jev AI decision gateway and MCP server powered by OpenRouter
+- [bestagentkits/typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) `★0 · 📚12` — MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools
+- [cbruyndoncx/AskJev-MCP](https://github.com/cbruyndoncx/askjev-mcp) `★0 · 📚12` — MCP server for TypeSafe's System One API (Jev): typed choice/noul/score judgments with calibrated probabilities and confidence
+- [abhishekashokvkumar/jev-mcp-dispatcher](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher) `★3 · 📚11` — Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right tool and extract…
+- [freepik-company/jev-mcp](https://github.com/freepik-company/jev-mcp) `★3 · 📚11` — MCP server for typed decisions with Jev / System One via OpenRouter or TypeSafe
+- [wangkuangkuang/jev-mcp-server](https://github.com/wangkuangkuang/jev-mcp-server) `★3 · 📚10` — MCP server for Jev (TypeSafe System One): the three official question types — choice, score, noul — plus batch classify. Calibrated probabilities, ~0.5s, <$0.001/call.
+- [codaaiteam/jev-mcp](https://github.com/codaaiteam/jev-mcp) `★2 · 📚10` — MCP server for Jev (TypeSafe AI's System One model) — give any agent typed, calibrated decisions: classify, score, check, gate risky tool calls. Try free: jevtypesafeai.com
+- [Obrais-cloud/typesafe-mcp](https://github.com/obrais-cloud/typesafe-mcp) `★1 · 📚10` — MCP server exposing TypeSafe (Jev/System One) to the fleet: judge, rerank, systemone
+
+## Established (cited by 5–9 lists) — 23
+
+- [Ashfaqbs/jev-mcp-spring](https://github.com/ashfaqbs/jev-mcp-spring) `★2 · 📚9` — Java/Spring Boot MCP server for TypeSafe Jev.
+- [rajasekharponakala/jev-mcp](https://github.com/rajasekharponakala/jev-mcp) `★2 · 📚9` — MCP server wrapping TypeSafe's Jev System One models — typed noul/choice/score judgments for AI agents
+- [pulseaiclub/phi](https://github.com/pulseaiclub/phi) `★523 · 📚8` — a coding agent, rpc plugin, sub-agents, hashline edits, and mcp
+- [daniel-farina/nitro](https://github.com/daniel-farina/nitro) `★5 · 📚8` — Grok Build with TypeSafe Jev routing tool selection once per turn: 22 to 40% cheaper on the same tasks
+- [anasbekheit/typesafe-jev-mcp](https://github.com/anasbekheit/typesafe-jev-mcp) `★3 · 📚8` — MCP server exposing TypeSafe's Jev model as a typed evaluate tool.
+- [Songokou1983/jev-mcp](https://github.com/songokou1983/jev-mcp) `★2 · 📚8` — Local MCP server exposing TypeSafe Jev (System One decision model) as native Claude Code / Codex tools
+- [minhgv/jev-mcp](https://github.com/minhgv/jev-mcp) `★1 · 📚8` — TypeSafe Jev MCP decision layer for coding agents and CI
+- [pedroknigge/mcp_jev](https://github.com/pedroknigge/mcp_jev) `★1 · 📚7` — Open MCP server to run TypeSafe Jev (System One) packs locally — Choice / Noul / Score for Cursor & agents
+- [fast-facts/jev-mcp](https://github.com/fast-facts/jev-mcp) `★0 · 📚7` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Xopher00/jevdevice](https://github.com/xopher00/jevdevice) `★0 · 📚7` — MCP server that lets an LLM agent control a real Android phone, using TypeSafe's Jev to pick real, runtime-discovered targets instead of hardcoded automation.
+- [revsmoke/promptrejectormcp](https://github.com/revsmoke/promptrejectormcp) `★2 · 📚6` — Open-source MCP and HTTPS screening for prompts, skills, and tool descriptions using TypeSafe AI Jev, deterministic checks, and configurable reasoning.
+- [chy4pro/jev-in-mcp](https://github.com/chy4pro/jev-in-mcp) `★1 · 📚6` — MCP relay that adds use_jev to every server: Jev picks the tool calls, the calling model writes the values Jev cannot choose, the relay executes. Built on jev-dev-kit.
+- [CodeIA-Academy/jev-mcp](https://github.com/codeia-academy/jev-mcp) `★1 · 📚6` — MCP local que expone Jev (TypeSafe) como herramienta para Claude Code, Codex, Hermes y cualquier agente: ask_jev y list_jev_models, sin dependencias
+- [ieee0824/jev-mcp](https://github.com/ieee0824/jev-mcp) `★1 · 📚6` — A Rust MCP server for TypeSafe AI Jev structured decisions
+- [MattiooFR/mcp-server-jev](https://github.com/mattioofr/mcp-server-jev) `★1 · 📚6` — Typed AI decisions for Codex, Claude and any MCP client, powered by TypeSafe Jev. Classify, score and evaluate with one generic tool.
+- [CodeCampusCo/jev-mcp](https://github.com/codecampusco/jev-mcp) `★0 · 📚6` — MCP server exposing one tool: ask Jev a typed question and get a short answer back.
+- [y9Finsi/jev-mcp](https://github.com/y9finsi/jev-mcp) `★2 · 📚5` — Universal Model Context Protocol (MCP) Server for TypeSafe Jev (System One) semantic code search and validation. ★ 2 · endpoint · JavaScript
+- [baize7815/jev-mcp-open-source](https://github.com/baize7815/jev-mcp-open-source) `★1 · 📚5` — Self-hosted Jev MCP on Cloudflare Workers with intent routing, retrieval reranking and batch judgments
+- [RudyJunyu/Jev-MCP](https://github.com/rudyjunyu/jev-mcp) `★1 · 📚5` — Jev MCP Hub is a small Go gateway that exposes TypeSafe's Jev model through the Model Context Protocol.  - GitHub - RudyJunyu/Jev-MCP: Jev MCP Hub is a small Go gateway that exposes TypeSafe's Jev model through the Model Context Protocol.
+- [AStheTECH/mewcp-jev](https://github.com/asthetech/mewcp-jev) `★0 · 📚5` — JEV MCP server by MewCP.
+- [keysersoft/jev-mcp-server](https://github.com/keysersoft/jev-mcp-server) `★0 · 📚5` — Jev MCP server: use TypeSafe Jev in Claude & ChatGPT. Yes/no, classification and scoring with probabilities, hosted or self-hosted.
+- [site](https://npmjs.com/package/jev-mcp) `📚5`
+- [TechyAditya/jev-browser-sidekick-mcp](https://github.com/techyaditya/jev-browser-sidekick-mcp) `★0 · 📚5` — MCP server that runs plain-language browser steps. Jev, a typed decision model, picks the control on each page instead of an LLM reading the DOM.
+
+## Emerging (cited by 3–4 lists) — 49
+
+- [Afloat16/jev-mcp](https://github.com/afloat16/jev-mcp) `📚4` — jev-mcp (Afloat16) — Unofficial conservative MCP server for TypeSafe AI Jev (auto-discovered, description not yet written)
+- [altregubov/jev-antigravity-mcp](https://github.com/altregubov/jev-antigravity-mcp) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [BilalUchiha/vibecheck-mcp](https://github.com/bilaluchiha/vibecheck-mcp) `📚4` — An MCP server that gives AI coding agents an external "done" criterion — judged by TypeSafe AI's Jev decision model. Agents submit ...
+- [Brainwires/jev-mcp](https://github.com/brainwires/jev-mcp) `📚4` — jev-mcp - Jev decision layer for agents: MCP server, embeddable DecisionModel library, and an escalate-only Claude Code plugin (TypeSafe AI's Jev).
+- [chungsubeen0/jevmcp](https://github.com/chungsubeen0/jevmcp) `📚4` — Unofficial MCP for Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [its-panzer/skilltree](https://github.com/its-panzer/skilltree) `📚4` — Local web app and MCP server that arranges agent skills as a tree and has Jev make a typed choice at each level to pick a path. MIT · JavaScript
+- [jangya/jev-in-action](https://github.com/jangya/jev-in-action) `📚4` — Four Express demos of Jev decisions: expense categorization, flight choice, appointment slot picking and routing a real MCP tool call. MIT · JavaScript · live
+- [jangya/jev-webmcp](https://github.com/jangya/jev-webmcp) `📚4` — Chrome side-panel agent that uses Jev to select and run tools exposed by WebMCP-enabled pages, with an optional helper model for argument values. MIT · TypeScript
+- [jfrader/jev-mcp](https://github.com/jfrader/jev-mcp) `📚4` — jev-mcp - Unofficial stdio MCP client for TypeSafe Jev. Bring your own API key. · Go
+- [kitoutou999/firefox-jev-mcp](https://github.com/kitoutou999/firefox-jev-mcp) `📚4` — firefox-jev-mcp - Claude plans; TypeSafe Jev picks Firefox clicks via MCP + WebExtension bridge. (Project guide)(community/projects/tools/firefox-jev-mcp.md).
+- [legostin/jev-mcp](https://github.com/legostin/jev-mcp) `📚4` — MCP server that lets Claude Code, Codex & AI agents drive a real Chrome browser with JEV (TypeSafe S
+- [MarkChu-git/typesafe-mcp](https://github.com/markchu-git/typesafe-mcp) `📚4` — typesafe-mcp - Research and scaffolding for a TypeSafe Jev MCP server · TypeScript
+- [masa-med-ai/typesafe-screening-mcp](https://github.com/masa-med-ai/typesafe-screening-mcp) `📚4` — MCP server: screen PubMed titles/abstracts against a query or clinical question with TypeSafe Jev ★ 2 · endpoint · Python
+- [MSalvalaggio/jev-reflex](https://github.com/msalvalaggio/jev-reflex) `📚4` — Claude thinks, Jev reacts: an MCP server that hands browser tasks from Claude to TypeSafe's Jev (~100 ms per decision).
+- [n8mirai/jev2mcp](https://github.com/n8mirai/jev2mcp) `📚4` — jev2mcp - A small intelligence layer for context-aware MCP, plugin, and tool selection. Built with Jev. · JavaScript
+- [nekowasabi/jev-routing-mcp](https://github.com/nekowasabi/jev-routing-mcp) `📚4` — jev in:name created:2026-09-16..2026-09-17
+- [Pinutss/jev-mcp-router](https://github.com/pinutss/jev-mcp-router) `📚4` — MCP tool selector that picks tools from a catalog under a token budget without running them; local heuristic by default, Jev as optional judge. MIT · Python
+- [Pioneer113/jev-chrome-mcp](https://github.com/pioneer113/jev-chrome-mcp) `📚4` — Reviewed 2026-09-24 (Europe/Sofia) at commit b12f917 (MIT). AI-assisted source review. No live TypeSafe spend.
+- [qinpei-dev/permit-mcp](https://github.com/qinpei-dev/permit-mcp) `📚4` — Stop AI agents from executing MCP tools unchecked — policy, approval, JEV decisions, and one-use execution permits.
+- [site](https://huggingface.co/datasets/ctaxnagomi/instruct_jev) `📚4`
+- [ThePFMind/jev-mcp](https://github.com/thepfmind/jev-mcp) `📚4` — jev-mcp - MCP server exposing TypeSafe AI's Jev decision model to Claude \(stdio, two tools: jev\_evaluate, jev\_route\) · Python
+- [tphakala/jev-mcp](https://github.com/tphakala/jev-mcp) `📚4` — jev-mcp - MCP server exposing TypeSafe's Jev typed-decision model over the TypeSafe API or OpenRouter · Go
+- [vineetagarwal54/jev-mcp-middleware](https://github.com/vineetagarwal54/jev-mcp-middleware) `📚4` — Semantic MCP middleware that intercepts AI-agent tool calls and combines deterministic policy with TypeSafe J…
+- [Adaozuishuai/FinJev](https://github.com/adaozuishuai/finjev) `📚3` — Financial research judgment MCP for Agents, powered by Jev.
+- [ai13io/jev-native-mcp](https://github.com/ai13io/jev-native-mcp) `📚3` — Review public code and documents with Jev in Codex and Claude Code: ranking, batch screening, claim
+- [amidabuddha/jev-decision-mcp](https://github.com/amidabuddha/jev-decision-mcp) `📚3` — jev-decision-mcp - Local MCP server for TypeSafe Jev typed decisions, with Codex integration · TypeScript
+- [angrysky56/jev-mcp](https://github.com/angrysky56/jev-mcp) `📚3` — jev-mcp - Jev agent workstation. · TypeScript
+- [charliepgarcia/jev-mcp](https://github.com/charliepgarcia/jev-mcp) `📚3` — jev-mcp - Lightweight MCP server exposing TypeSafe Jev decision tools via OpenRouter for Hermes Agent · Python
+- [confident-christmasfactor2015/jev-ultrafast-mcp](https://github.com/confident-christmasfactor2015/jev-ultrafast-mcp) `📚3` — Delegate browser operations to an ultra-fast MCP server, executing full page tasks in seconds with one tool call.
+- [cyrusasco/typesafe-mcp](https://github.com/cyrusasco/typesafe-mcp) `📚3` — TypeSafe System One dispatch pipeline as a ZCode plugin: typed subagent routing (Battery #1), determ
+- [darthzen/jev-mcp](https://github.com/darthzen/jev-mcp) `📚3` — jev-mcp - MCP server for TypeSafe Jev \(System One\): one typed evaluate tool over streamable HTTP · Python
+- [EdgeForgeLab/jev-kol-mcp](https://github.com/edgeforgelab/jev-kol-mcp) `📚3` — TypeScript MCP server that finds TikTok and YouTube micro-KOLs, tags their niche, scores campaign fi
+- [fuji-soho/jev-mcp-server](https://github.com/fuji-soho/jev-mcp-server) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [Fuwn/typesafe-mcp](https://github.com/fuwn/typesafe-mcp) `📚3` — typesafe-mcp - 🧠 MCP server for TypeSafe's Jev model · JavaScript
+- [geeklink.dev/subtitle-translator](https://geeklink.dev/subtitle-translator) `📚3`
+- [hangarbay/jev.mcp](https://github.com/hangarbay/jev.mcp) `📚3` — Go MCP server, shipped as a Docker image, exposing classify, score, check, ask and models tools backed by Jev. MIT · Go
+- [nicobailon/pi-mcp-adapter](https://github.com/nicobailon/pi-mcp-adapter) `📚3` — pi-mcp-adapter - Opt-in typed evaluation and semantic search over MCP tool results, behind a per-server data-egress allowlist.
+- [nik1tsyganov/jev-mcp](https://github.com/nik1tsyganov/jev-mcp) `📚3` — MCP stdio servers for TypeSafe Jev typed judgments and a separate local Laya-MLX decision model
+- [nirvana124/typesafe-mcp](https://github.com/nirvana124/typesafe-mcp) `📚3` — MCP for typesafe ai jev
+- [pyck-ai/jev-mcp](https://github.com/pyck-ai/jev-mcp) `📚3` — Jev's TypeSafe judgment model, exposed via OpenRouter, as MCP tools
+- [SAITS-Swiss-AI-Tech-Services/jev-mcp](https://github.com/saits-swiss-ai-tech-services/jev-mcp) `📚3` — MCP server that lets Claude Code and Claude Desktop drive the jev-ultrafast browser agent in your re
+- [site](https://pypi.org/project/jev-ultrafast-mcp) `📚3`
+- [site](https://huggingface.co/datasets/ctaxnagomi/dgui_hypermem-jev) `📚3`
+- [takezou621/jev-mcp](https://github.com/takezou621/jev-mcp) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [thedv91/jev-mcp](https://github.com/thedv91/jev-mcp) `📚3` — jev-mcp - jev-mcp: TypeSafe Jev ecosystem repository. · TypeScript
+- [VdustR/gomoku-arena](https://github.com/vdustr/gomoku-arena) `📚3` — A gomoku board any player can sit at — you, a search algorithm, a model, or an agent over MCP. Free-style and…
+- [y0usaf/typesafe-mcp](https://github.com/y0usaf/typesafe-mcp) `📚3` — One MCP evaluate(state, questions) tool that POSTs to the TypeSafe API. By Sami Ansari. Announced by @realy0usaf.
+- [网站](https://supercov.com) `📚3`
+- [网站](https://jevmod.dev) `📚3` — Python package jevmod 0.2.1 (CLI, FastAPI, bots, optional MCP); product site jevmod.dev.
+
+## Long tail (cited by 1–2 lists) — 167
+
+<details><summary>Show 167 long-tail entries</summary>
+
+- [aimcc-org/aimcc-jev-mcp](https://github.com/aimcc-org/aimcc-jev-mcp) `📚2` — jevlang OR jev.ai in:name,description created:
+- [alexzfe/jev-herdr](https://github.com/alexzfe/jev-herdr) `📚2` — Spawn Claude Code agents in Herdr with TypeSafe&#x27;s Jev choosing each agent&#x27;s…
+- [Alpha-Park/genpark-jev-typed-state-action-router-mcp](https://github.com/alpha-park/genpark-jev-typed-state-action-router-mcp) `📚2` — Native Model Context Protocol (MCP) server providing typed state-action schema arbitration, determin
+- [alphaparkinc/genpark-jev-typed-state-action-router-mcp](https://github.com/alphaparkinc/genpark-jev-typed-state-action-router-mcp) `📚2` — Native Model Context Protocol (MCP) server providing typed state-action schema arbitration, determin
+- [anuragfolio/figma-jev-console-mcp](https://github.com/anuragfolio/figma-jev-console-mcp) `📚2` — Live two-way bridge between a running web app and Figma. Push screens as auto-layout frames; Figma edits go back into the code, ...
+- [Arnav-Menon/jev-readonly-mcp](https://github.com/arnav-menon/jev-readonly-mcp) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [benballintyn/jev-mcp](https://github.com/benballintyn/jev-mcp) `📚2` — MCP server giving coding agents typed, calibrated judgments from TypeSafe's Jev model
+- [bestagentkits/cloud-harness-mcp](https://github.com/bestagentkits/cloud-harness-mcp) `📚2` — Remote coding harness exposed as a secure Streamable HTTP MCP server
+- [bhavikprit/instinct-ai](https://github.com/bhavikprit/instinct-ai) `📚2` — ⚡ Universal System-1 AI Runtime और Dual-Brain Gateway। agents के लिए Sub-15ms…
+- [bidurkhatri/jev-mcp-lab](https://github.com/bidurkhatri/jev-mcp-lab) `📚2`
+- [bothuany/jev-browser-mcp](https://github.com/bothuany/jev-browser-mcp) `📚2` — Reviewed 2026-09-25 (Europe/Sofia) at commit 5234a08. AI-assisted README and LICENSE inspection; live browse not run.
+- [calebl/ynab-mcp-server](https://github.com/calebl/ynab-mcp-server) `📚2` — Model Context Protocol for YNAB (you need a budget) Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [codechap/mcp-server-jev](https://github.com/codechap/mcp-server-jev) `📚2` — MCP server for TypeSafe Jev via OpenRouter — typed decisions (noul, choice, score), not chat
+- [david-buck/localjev-mcp](https://github.com/david-buck/localjev-mcp) `📚2` — localjev-mcp - localjev-mcp: TypeSafe Jev ecosystem repository. · JavaScript
+- [DavidSilvaProg/laboratorio-jev-fatec](https://github.com/davidsilvaprog/laboratorio-jev-fatec) `📚2` — Laboratório didático JEV: Choice, Noul e Score com comparação ao Claude Opus 5.5.
+- [Djancyp/oido-typesafeai-mcp](https://github.com/djancyp/oido-typesafeai-mcp) `📚2` — typesafe ai mcp for llms
+- [donaldrichard19-LVD/pattern-mcp](https://github.com/donaldrichard19-lvd/pattern-mcp) `📚2` — Pattern MCP · donaldrichard19-LVD · GitHub · ⭐ 8 · 2026-08-24MCP server that checks UI component libraries against product requirements before a coding agent…
+- [drycool/jev-mcp](https://github.com/drycool/jev-mcp) `📚2` — MCP server exposing the Jev router as agent tools: route a query, get the answer plus provenance. Go
+- [elyal2/jev-mcp](https://github.com/elyal2/jev-mcp) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [emlama/jev-mcp](https://github.com/emlama/jev-mcp) `📚2` — jev-mcp - A repository for jev-mcp · Python
+- [geronimo-deploy-cloud/typesafe-tpm-mcp](https://github.com/geronimo-deploy-cloud/typesafe-tpm-mcp) `📚2` — A TypeSafe AI MCP Server meant to help with decisioning typically handled by Technical Program Manag
+- [greenlittleapple/jev-spire-strategist](https://github.com/greenlittleapple/jev-spire-strategist) `📚2` — Slay the Spire 2 agent: TypeSafe Jev picks each move, a Claude Code session…
+- [haskallalk-eng/mindrails-supervisor](https://github.com/haskallalk-eng/mindrails-supervisor) `📚2` — Local MCP completion checks and repeat-loop detection for AI agents. Jev BYOK, determinist
+- [HermeticOrmus/jev-mcp-setup](https://github.com/hermeticormus/jev-mcp-setup) `📚2` — jev-mcp-setup - HermeticOrmus/jev-mcp-setup - Jev MCP setup.
+- [iamadi11/mcp-ui-poc](https://github.com/iamadi11/mcp-ui-poc) `📚2` — Chat studio that turns a message and API URL into an embeddable widget, with Jev making the layout decisions and an LLM used only at low confidence. MIT ·…
+- [jamiejefferson/Hatch](https://github.com/jamiejefferson/hatch) `📚2` — A stripped-down macOS browser that any MCP-capable agent can drive. Live pages sit as frames on a canvas. Automatically matched explicit Jev and…
+- [jevai.org community site](https://jevai.org) `📚2` — An unaffiliated community site with a playground, a preset decision API, an MCP server, downloadable skills and a gallery of community apps.
+- [jevbook/jevbook-mcp](https://github.com/jevbook/jevbook-mcp) `📚2` — Give your agent a jev. Hosted MCP server for Meta Muse, Claude, Cursor: fact-checking, ver
+- [kevinqpeng/jev-mcp](https://github.com/kevinqpeng/jev-mcp) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [klappy/ma8ic8all-jev](https://github.com/klappy/ma8ic8all-jev) `📚2` — 🎱✨ Ma8ic 8all — ask the ball, get a real answer. A playful Jev MCP service: shake for yes
+- [leesk212/JEV-MCP](https://github.com/leesk212/jev-mcp) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [mahawi1992/enzo-mcp](https://github.com/mahawi1992/enzo-mcp) `📚2` — Atomic reasoning MCP server for LLMs and Jev — turns big questions into independently fals
+- [marceloatoledo/JEV-MCP-REST](https://github.com/marceloatoledo/jev-mcp-rest) `📚2` — JEV-MCP-REST - JEV-MCP-REST: TypeSafe Jev ecosystem repository. · C#
+- [masaki-shinkawa/jev-mcp](https://github.com/masaki-shinkawa/jev-mcp) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [mlnima/jev-mcp](https://github.com/mlnima/jev-mcp) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [Mokusei-Hana/Jev-mcp](https://github.com/mokusei-hana/jev-mcp) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [moto-taka/vercel-jev-mcp](https://github.com/moto-taka/vercel-jev-mcp) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Omniaeye/omnia-mcp](https://github.com/omniaeye/omnia-mcp) `📚2` — JEV and local LAYA for MCP. Typed decisions, bounded inference and durable decision records.
+- [palladiumailab-collabmAILab/MCP-Jev](https://github.com/palladiumailab-collabmailab/mcp-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [panaalexandrucristian/jev-mcp-private](https://github.com/panaalexandrucristian/jev-mcp-private) `📚2` — Private mirror of jkudish/jev-mcp with Claude Code and OpenCode plugin packaging
+- [resumocast/jev-mcp](https://github.com/resumocast/jev-mcp) `📚2` — Community experimental MCP server and Pi adapter for bounded TypeSafe Jev judgments
+- [rtf6x/jev-mcp](https://github.com/rtf6x/jev-mcp) `📚2` — MCP server that gives coding agents a judge: twelve jev_ tools for typed…
+- [senoldogann/chatgpt-system](https://github.com/senoldogann/chatgpt-system) `📚2` — Secure local MCP authority gateway for controlled filesystem, Git, process, and future computer-use access fr…
+- [site](https://thruwire.ai) `📚2`
+- [site](https://24601.github.io/augustus) `📚2`
+- [site](https://numerous.com) `📚2`
+- [site](https://eugeniughelbur.github.io/jev-engineering) `📚2`
+- [site](https://jev.guru) `📚2`
+- [site](https://akashpriyadarshii.github.io/jev-scout) `📚2`
+- [site](https://jev-harness.tianyuchen99.chatgpt.site) `📚2`
+- [site](https://yardsort.sh) `📚2`
+- [site](https://crates.io/crates/typesafe-jev-mcp) `📚2`
+- [sjungwon03/jev-langgraph-example](https://github.com/sjungwon03/jev-langgraph-example) `📚2` — JEV: Proxmox MCP & LangGraph Autonomous Infrastructure Platform
+- [Smith2912/jev-context-mcp](https://github.com/smith2912/jev-context-mcp) `📚2` — Local MCP server for bounded Jev-assisted context, routing, and registered workflows
+- [SPFreedom/jef-mcp](https://github.com/spfreedom/jef-mcp) `📚2` — MCP server for Jef, a model that decides instead of generating. Hosted, no key. A parody of TypeSafe AI's Jev.
+- [synthet/jev-mcp](https://github.com/synthet/jev-mcp) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [thinkany-ai/autojev](https://github.com/thinkany-ai/autojev) `📚2` — autojev — The model router for AI agents (auto-discovered, description not yet written) ❔
+- [tijo95/jev-mcp](https://github.com/tijo95/jev-mcp) `📚2` — Local stdio MCP server for TypeSafe Jev — zero-dependency Python wrapper exposing 6 jev_ decision t
+- [tizerluo/deweb-mcp-playground](https://github.com/tizerluo/deweb-mcp-playground) `📚2` — deweb-mcp-playground - Off-chain playground for the unofficial DeWEB MCP + WebMCP draft. Not a mainnet client. · TypeScript
+- [tmbmartell/jev-mcp](https://github.com/tmbmartell/jev-mcp) `📚2`
+- [uninhibited-scholar/jev-universal](https://github.com/uninhibited-scholar/jev-universal) `📚2` — Jev structured decisions for Claude, ChatGPT, Kimi Code, ZCode and Codex via MCP
+- [victorperr/jev-mcp-elicitation-autopilot](https://github.com/victorperr/jev-mcp-elicitation-autopilot) `📚2` — Test MCP servers&#x27; human-in-the-loop flows in CI, using TypeSafe&#x27;s Jev as a…
+- [wahahaorg/jev-mcp](https://github.com/wahahaorg/jev-mcp) `📚2` — jev-mcp turns browser-use/jev-ultrafast into one local, session-aware MCP server for fast read-only product research. Jev selects an action and observed target…
+- [abhishekashokvkumar/jev-mcp-dispatcher,4,Python](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher,4,python) `📚1`
+- [aimcc-org/aimcc-jev-mcp,0,TypeScript,,2026-09-22,codex](https://github.com/aimcc-org/aimcc-jev-mcp,0,typescript,,2026-09-22,codex) `📚1`
+- [aimcc-org/codex-jev-mcp](https://github.com/aimcc-org/codex-jev-mcp) `📚1`
+- [anasbekheit/typesafe-jev-mcp,2,Rust,,2026-09-20,MCP](https://github.com/anasbekheit/typesafe-jev-mcp,2,rust,,2026-09-20,mcp) `📚1`
+- [angrysky56/jev-mcp,0,TypeScript,,2026-09-20,Jev](https://github.com/angrysky56/jev-mcp,0,typescript,,2026-09-20,jev) `📚1`
+- [aranlucas/ai-shopping-mcp](https://github.com/aranlucas/ai-shopping-mcp) `📚1` — roger MCP server
+- [arunav25/jev-mcp,8,JavaScript,Connect](https://github.com/arunav25/jev-mcp,8,javascript,connect) `📚1`
+- [Ashfaqbs/jev-mcp-spring,2,Java,,2026-09-20,Java](https://github.com/ashfaqbs/jev-mcp-spring,2,java,,2026-09-20,java) `📚1`
+- [baize7815/jev-mcp-open-source,1,TypeScript,,2026-09-22](https://github.com/baize7815/jev-mcp-open-source,1,typescript,,2026-09-22) `📚1`
+- [BeBetterCoder/jev-decision-mcp](https://github.com/bebettercoder/jev-decision-mcp) `📚1`
+- [BilalUchiha/vibecheck-mcp,0,TypeScript,,2026-09-22](https://github.com/bilaluchiha/vibecheck-mcp,0,typescript,,2026-09-22) `📚1`
+- [blakestone-x/jev-mcp@v0.2.1](https://github.com/blakestone-x/jev-mcp@v0.2.1) `📚1`
+- [blakestone-x/jev-mcp@v0.2.1\](https://github.com/blakestone-x/jev-mcp@v0.2.1\) `📚1`
+- [BYK/jev-mcp,3,TypeScript](https://github.com/byk/jev-mcp,3,typescript) `📚1`
+- [cbruyndoncx/AskJev-MCP,1,JavaScript,MCP](https://github.com/cbruyndoncx/askjev-mcp,1,javascript,mcp) `📚1`
+- [charliepgarcia/jev-mcp,1,Python,,2026-09-21,Lightweight](https://github.com/charliepgarcia/jev-mcp,1,python,,2026-09-21,lightweight) `📚1`
+- [Chrishow2/mcp-jev](https://github.com/chrishow2/mcp-jev) `📚1` — Minimal MCP wrapper for TypeSafe Jev. Structured yes/no, choice, and score decisions. Docker-ready.
+- [codaaiteam/jev-mcp,2,JavaScript](https://github.com/codaaiteam/jev-mcp,2,javascript) `📚1`
+- [CodeIA-Academy/jev-mcp,1,Python,,2026-09-20](https://github.com/codeia-academy/jev-mcp,1,python,,2026-09-20) `📚1`
+- [cyrusasco/typesafe-mcp,0,JavaScript,,2026-09-19](https://github.com/cyrusasco/typesafe-mcp,0,javascript,,2026-09-19) `📚1`
+- [danna-zhou/jev-mcp](https://github.com/danna-zhou/jev-mcp) `📚1` — MCP server that lets Claude Code call a Jev-compatible System One API (Jev or local Kev) for classif
+- [danna-zhou/jev-mcp,0,JavaScript,,2026-09-23,MCP](https://github.com/danna-zhou/jev-mcp,0,javascript,,2026-09-23,mcp) `📚1`
+- [darthzen/jev-mcp,0,Python,,2026-09-22,MCP](https://github.com/darthzen/jev-mcp,0,python,,2026-09-22,mcp) `📚1`
+- [docs](https://docs.orthogonal.com) `📚1` — Orthogonal docs / MCP / CLI: docs.orthogonal.com, skill.md
+- [drycool/jev-mcp,0,Go,,2026-09-22](https://github.com/drycool/jev-mcp,0,go,,2026-09-22) `📚1`
+- [echohello-dev/jev-mcp,0,TypeScript,,2026-09-21,Minimal](https://github.com/echohello-dev/jev-mcp,0,typescript,,2026-09-21,minimal) `📚1`
+- [emlama/jev-mcp,0,Python,,2026-09-21,A](https://github.com/emlama/jev-mcp,0,python,,2026-09-21,a) `📚1`
+- [ericmaddox/system1-mcp](https://github.com/ericmaddox/system1-mcp) `📚1`
+- [Forma](https://joinforma.com) `📚1` — CLI and MCP client for submitting Forma benefit claims—optionally letting TypeSafe Jev pick benefit and category when you supply amount, merchant, date, and…
+- [freepik-company/jev-mcp,3,Go,,2026-09-21,MCP](https://github.com/freepik-company/jev-mcp,3,go,,2026-09-21,mcp) `📚1`
+- [Gamedirection/JevAI-MCP](https://github.com/gamedirection/jevai-mcp) `📚1` — Simple JevAI MCP to help your AI save tokens.
+- [GrecAndrei/ida-pro-mcp](https://github.com/grecandrei/ida-pro-mcp) `📚1` — IDA Pro MCP Jev intelligence · GrecAndrei · GitHub · ⭐ 12 repo · 2025-12-15MCP server for IDA Pro reverse engineering with an opt-in Jev provider that scores…
+- [greenyamao/Antigravity-mcp-semantic-search-with-TypeSafeAi,2,Python,,2026-09-16](https://github.com/greenyamao/antigravity-mcp-semantic-search-with-typesafeai,2,python,,2026-09-16) `📚1`
+- [greghavens/jev-scope-control](https://github.com/greghavens/jev-scope-control) `📚1` — PreToolUse hook that asks Jev whether a tool call is within the scope the user…
+- [guillaumeduranton-lab/lemonde-mcp](https://github.com/guillaumeduranton-lab/lemonde-mcp) `📚1` — MCP server giving AI agents access to your own Le Monde subscription (+ Jev triage)
+- [hangarbay/jev.mcp,0,Go](https://github.com/hangarbay/jev.mcp,0,go) `📚1`
+- [hanshs474/jevx-mcp](https://github.com/hanshs474/jevx-mcp) `📚1` — MCP server for Jevx (jevx.org): run Jev AI typed decisions from any MCP client
+- [hanshs474/jevx-mcp,0,TypeScript,,2026-09-22,MCP](https://github.com/hanshs474/jevx-mcp,0,typescript,,2026-09-22,mcp) `📚1`
+- [harness/mcp-server](https://github.com/harness/mcp-server) `📚1` — Harness MCP failure triage · harness · GitHub · ⭐ 102 repo · 2025-05-14Official Harness.io MCP server whose harness_diagnose tool adds advisory…
+- [henrykey/jev-mcp](https://github.com/henrykey/jev-mcp) `📚1` — MCP service exposing TypeSafe Jev/System One bounded-decision primitives over remote HTTPS/MCP
+- [henrykey/jev-mcp,0,Python,,2026-09-23,MCP](https://github.com/henrykey/jev-mcp,0,python,,2026-09-23,mcp) `📚1`
+- [HolyWill90/Jev-Decides-MCP](https://github.com/holywill90/jev-decides-mcp) `📚1`
+- [hopletstudio/omp-jev-mcp-ranker](https://github.com/hopletstudio/omp-jev-mcp-ranker) `📚1`
+- [ieee0824/jev-mcp,1,Rust,,2026-09-20,A](https://github.com/ieee0824/jev-mcp,1,rust,,2026-09-20,a) `📚1`
+- [IrrealV/jev-helper](https://github.com/irrealv/jev-helper) `📚1` — Opt-in bounded Jev decisions for Pi through pi-mcp-adapter. Community MIT package with measured over
+- [itsmostafa/typesafe-mcp,312,Go,MIT,2026-09-25,2026-09-26](https://github.com/itsmostafa/typesafe-mcp,312,go,mit,2026-09-25,2026-09-26) `📚1`
+- [Jev and MCP](https://madewithjev.com/jev-mcp) `📚1` — The MCP servers that let Claude Code, Cursor and Codex ask for a typed judgment while they work.
+- [jevcore-mcp](https://npmjs.com/package/jevcore-mcp) `📚1`
+- [JEvents/JEvents](https://github.com/jevents/jevents) `📚1` — jevents — Main JEvents Repository for core component, modules and plugins _(★19, PHP)_
+- [jfrader/jev-mcp,0,Go,,2026-09-21,Unofficial](https://github.com/jfrader/jev-mcp,0,go,,2026-09-21,unofficial) `📚1`
+- [jiawei686/jev-legal-clause-mcp](https://github.com/jiawei686/jev-legal-clause-mcp) `📚1`
+- [jiawei686/jev-legal-clause-mcp,1,TypeScript,,2026-09-21,合同条款风险点标注](https://github.com/jiawei686/jev-legal-clause-mcp,1,typescript,,2026-09-21,合同条款风险点标注) `📚1`
+- [jkudish/jev-mcp,384,JavaScript,MIT,2026-09-26,2026-09-26](https://github.com/jkudish/jev-mcp,384,javascript,mit,2026-09-26,2026-09-26) `📚1`
+- [kitoutou999/firefox-jev-mcp,1,JavaScript,,2026-09-23](https://github.com/kitoutou999/firefox-jev-mcp,1,javascript,,2026-09-23) `📚1`
+- [legostin/jev-mcp,1,TypeScript,,2026-09-23](https://github.com/legostin/jev-mcp,1,typescript,,2026-09-23) `📚1`
+- [live](https://jev.zacca.dev/mcp) `📚1`
+- [live](https://mcp-ui-poc.vercel.app) `📚1`
+- [MadaBurns/bv-mcp](https://github.com/madaburns/bv-mcp) `📚1`
+- [marcAllari/jev-mcp-router](https://github.com/marcallari/jev-mcp-router) `📚1`
+- [MarkChu-git/typesafe-mcp,1,TypeScript,,2026-09-21,Research](https://github.com/markchu-git/typesafe-mcp,1,typescript,,2026-09-21,research) `📚1`
+- [MattiooFR/mcp-server-jev,1,JavaScript,,2026-09-20](https://github.com/mattioofr/mcp-server-jev,1,javascript,,2026-09-20) `📚1`
+- [maxkimambo/jev-mcp](https://github.com/maxkimambo/jev-mcp) `📚1` — Let TypeSafe Jev read files, logs and search results so your coding agent reads only the answer. For
+- [maxkimambo/jev-mcp,0,JavaScript,,2026-09-25](https://github.com/maxkimambo/jev-mcp,0,javascript,,2026-09-25) `📚1`
+- [MCP](https://mcp.orthogonal.com) `📚1`
+- [mcp-com-ai/hapi-trip-demo](https://github.com/mcp-com-ai/hapi-trip-demo) `📚1` — Contract-driven MCP trip-booking demo, Jev/TypeSafe helps when the user's intent is clear but the wording is ambiguous
+- [minhgv/jev-mcp,0,TypeScript,TypeSafe](https://github.com/minhgv/jev-mcp,0,typescript,typesafe) `📚1`
+- [minholi/chatwoot-mcp](https://github.com/minholi/chatwoot-mcp) `📚1`
+- [myon-bioinformatics/mcp-toolcall-lab](https://github.com/myon-bioinformatics/mcp-toolcall-lab) `📚1`
+- [NekomyaDev/nudge](https://github.com/nekomyadev/nudge) `📚1` — A typed, replayable, budget-aware programming language for LLM agents.
+- [nik1tsyganov/jev-mcp,0,JavaScript,,2026-09-25,MCP](https://github.com/nik1tsyganov/jev-mcp,0,javascript,,2026-09-25,mcp) `📚1`
+- [olivdx/jev-mcp](https://github.com/olivdx/jev-mcp) `📚1` — Jev-powered decision layer for coding agents.
+- [olivdx/jev-mcp,0,Python,,2026-09-21](https://github.com/olivdx/jev-mcp,0,python,,2026-09-21) `📚1`
+- [OpenSWE/jev-browser-use-mcp](https://github.com/openswe/jev-browser-use-mcp) `📚1`
+- [Pioneer113/cursor-jev-mcp](https://github.com/pioneer113/cursor-jev-mcp) `📚1` — Cursor MCP that runs the jev-browser-use click loop in Google Chrome. Russian: README.ru.md
+- [pisitkul/jev-mcp-opencode](https://github.com/pisitkul/jev-mcp-opencode) `📚1`
+- [Project1Dev/Jev-MCP](https://github.com/project1dev/jev-mcp) `📚1` — MCP server + Claude Code hooks that route an AI coding agent.
+- [PyModel/typesafe-mcp](https://github.com/pymodel/typesafe-mcp) `📚1` — typesafe-mcp - , MCP adapter that exposes Jev decisions as tools.
+- [rajasekharponakala/jev-mcp,2,Python,,2026-09-21](https://github.com/rajasekharponakala/jev-mcp,2,python,,2026-09-21) `📚1`
+- [rashedInt32/jev-mcp,8,TypeScript](https://github.com/rashedint32/jev-mcp,8,typescript) `📚1`
+- [resumocast/jev-mcp,0,Go,,2026-09-20,Community](https://github.com/resumocast/jev-mcp,0,go,,2026-09-20,community) `📚1`
+- [rilfi/token-optimizer-jev-mcp-experimental](https://github.com/rilfi/token-optimizer-jev-mcp-experimental) `📚1`
+- [RudyJunyu/Jev-MCP,1,Go,,2026-09-17,Jev](https://github.com/rudyjunyu/jev-mcp,1,go,,2026-09-17,jev) `📚1`
+- [ryacub/jev-android-mcp](https://github.com/ryacub/jev-android-mcp) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [SAITS-Swiss-AI-Tech-Services/jev-mcp,0,Python,,2026-09-21](https://github.com/saits-swiss-ai-tech-services/jev-mcp,0,python,,2026-09-21) `📚1`
+- [Songokou1983/jev-mcp,2,Python,,2026-09-22,Local](https://github.com/songokou1983/jev-mcp,2,python,,2026-09-22,local) `📚1`
+- [sunchojack/jev-mcp](https://github.com/sunchojack/jev-mcp) `📚1`
+- [System 1 MCP](https://pypi.org/project/system1-mcp) `📚1` — MCP server that exposes Jev-powered guard, judge, verify, and score tools for AI agents.
+- [systemonemodels/noulxp](https://github.com/systemonemodels/noulxp) `📚1` — NoulXP (formerly OpenDXP): the open standard for System One models.
+- [templetongroup/radiant](https://github.com/templetongroup/radiant) `📚1` — Radiant decisions · templetongroup · GitHub · ⭐ 106 repo · 2026-08-19Local Mac coding harness that uses Jev via OpenRouter to pick which MCP servers a message…
+- [ThePFMind/jev-mcp,0,Python,,2026-09-21](https://github.com/thepfmind/jev-mcp,0,python,,2026-09-21) `📚1`
+- [tmbmartell/jev-mcp,0,Python,,2026-09-24](https://github.com/tmbmartell/jev-mcp,0,python,,2026-09-24) `📚1`
+- [tmoody1973/public-radio-assignment-desk](https://github.com/tmoody1973/public-radio-assignment-desk) `📚1` — An MIT-licensed public-radio assignment desk using NPR CDS MCP and TypeSafe Jev for editorial discov
+- [TomasThrawat/typesafe-mcp-key](https://github.com/tomasthrawat/typesafe-mcp-key) `📚1` — HTTP MCP server for TypeSafe AI System One, designed for adding as a custom MCP.
+- [tphakala/jev-mcp,1,Go,,2026-09-21,MCP](https://github.com/tphakala/jev-mcp,1,go,,2026-09-21,mcp) `📚1`
+- [Trilokx/omni-scraper-mcp](https://github.com/trilokx/omni-scraper-mcp) `📚1` — Central MCP facade for Last30Days, ScrapeCreators, Bright Data, Apify and OpenRouter TypeSafe Jev
+- [Vento741/jev-search-mcp](https://github.com/vento741/jev-search-mcp) `📚1` — MCP server: "find by meaning what keywords miss" — semantic search as an MCP tool for agents. (0★, Python, MIT, created 2026-09-30; real non-fork verified via…
+- [VinaSundar-Nat/Krypton.Carevo.JMR.MCP](https://github.com/vinasundar-nat/krypton.carevo.jmr.mcp) `📚1` — MCP server with tooling for JMR - LIX , JEV and Database tooling
+- [vineetagarwal54/jev-mcp-middleware,0,TypeScript,,2026-09-21,Semantic](https://github.com/vineetagarwal54/jev-mcp-middleware,0,typescript,,2026-09-21,semantic) `📚1`
+- [wangkuangkuang/jev-mcp-server,3,Python,,2026-09-22](https://github.com/wangkuangkuang/jev-mcp-server,3,python,,2026-09-22) `📚1`
+- [weidacn/jev-ai-mcp](https://github.com/weidacn/jev-ai-mcp) `📚1` — MCP server for Jev AI (jev-ai.pro): classification, scoring, yes/no checks, action assessment, batch
+- [whshang/herdr-mcp](https://github.com/whshang/herdr-mcp) `📚1` — herdr-mcp · whshang · GitHub · ⭐ 9 · 2026-08-20MCP/OAuth edge that lets ChatGPT and other web planners run code, Git and tests on local machines through Herdr,…
+- [wolverin0/scholar-mcp](https://github.com/wolverin0/scholar-mcp) `📚1` — Scientific Literature Semantic Compiler & FastMCP Server powered by arXiv, OpenAlex, DuckD
+- [Xytronix/Hyindex](https://github.com/xytronix/hyindex) `📚1` — Headless Hytale modding knowledge indexer and MCP server Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [yogeshvar/open-jev-mcp,0,Python,,2026-09-22,Route](https://github.com/yogeshvar/open-jev-mcp,0,python,,2026-09-22,route) `📚1`
+
+</details>

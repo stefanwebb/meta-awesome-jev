@@ -1,0 +1,339 @@
+# Context, Memory & Compaction
+
+> Context compaction, memory control, reranking, RAG passage filtering and caching.
+>
+> **316 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 34
+
+- [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) `★7,250 · 📚71` — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
+- [tamaratran/jev-pruner](https://github.com/tamaratran/jev-pruner) `★153 · 📚35` — Claude Code plugin: trim long Bash output with TypeSafe Jev before the model sees it
+- [joelhooks/pi-fast-jev-compaction](https://github.com/joelhooks/pi-fast-jev-compaction) `★13 · 📚27` — Pi extension: verbatim context compaction with TypeSafe Jev decisions
+- [leonaaardob/fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction) `★9 · 📚26` — Codex plugin: verbatim Jev-guided context restoration around session compaction. Port of tamaratran/fast-jev-compaction to Codex lifecycle hooks.
+- [hev/reranker](https://github.com/hev/reranker) `★14 · 📚25` — Use Jev (TypeSafe's System One model) as a calibrated reranker: one call, up to 30 documents, a probability per document. Apache-2.0.
+- [jerryfane/omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) `★9 · 📚23` — Verbatim Jev-scored context reduction for omp, over TypeSafe or OpenRouter
+- [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory) `★767 · 📚22` — Memory for AI agents that learns what is wrong and stops repeating it. Mark a memory wrong and it stops coming back; newer facts replace old ones. Local SQLite store and MCP server, persistent across sessions; hippo init wires it into…
+- [hotchpotch/jev-reranker](https://github.com/hotchpotch/jev-reranker) `★36 · 📚21` — Jev-powered relevance filtering and reranking for RAG in Python.
+- [Nyarlathoteppppp/pi-jev-context](https://github.com/nyarlathoteppppp/pi-jev-context) `★7 · 📚21` — Model performance first. Token savings second. A Pi extension with freshness-aware read dedupe, Jev log filtering, and searchable verbatim recall. Keeps existing message history intact.
+- [shinpr/jev-reranker](https://github.com/shinpr/jev-reranker) `★4 · 📚20` — Rerank, filter, and compress JSON search results with TypeSafe AI's Jev.
+- [hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache) `★76 · 📚17` — A decision cache for TypeSafe Jev-class models — memoize decisions so repeats are free, deterministic, and shareable. One 2 MB binary.
+- [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) `★2,445 · 📚16` — Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc.
+- [keltokhy/jselect](https://github.com/keltokhy/jselect) `★3 · 📚16` — Useful evidence for your AI, within a token budget. A fast, source-linked context selector for files, records, and agents.
+- [kunchenguid/compact-adviser](https://github.com/kunchenguid/compact-adviser) `★189 · 📚15` — "Work appears completed or recorded. Run /compact to save tokens."
+- [nourhelmi/pi-jev-compaction](https://github.com/nourhelmi/pi-jev-compaction) `★4 · 📚15` — Automatic Jev context clearing for Pi. Keep the conversation, prune stale tool output, retrieve originals without rerunning commands.
+- [Waxmell114514/jev-compaction](https://github.com/waxmell114514/jev-compaction) `★4 · 📚14` — A context compactor that can only score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline.
+- [yangyu666/dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune) `★4 · 📚14` — Jev-judged context compaction for DeepSeek Harness: semantic tool-result pruning + deterministic receipt compaction
+- [QuentinDanblon/pi-fast-jev-compaction](https://github.com/quentindanblon/pi-fast-jev-compaction) `★3 · 📚14` — Verbatim context pruning for the pi coding agent, scored by TypeSafe Jev: stale tool calls and results are dropped or truncated, everything kept stays verbatim.
+- [KamilPostrozny/pi-fast-jev-compaction](https://github.com/kamilpostrozny/pi-fast-jev-compaction) `★2 · 📚14` — Fast JEV compaction extension for pi.
+- [kevinpita/pi-jev-context](https://github.com/kevinpita/pi-jev-context) `★2 · 📚14` — Reversible context pruning for Pi, powered by TypeSafe Jev. Keep useful context without deleting session history.
+- [fatelei/jev-compact](https://github.com/fatelei/jev-compact) `★9 · 📚13` — Jev-scored context compaction for OpenAI Codex CLI — scores every tool call before compaction and restores critical tool outputs verbatim after it
+- [aifabrice/jev-rag](https://github.com/aifabrice/jev-rag) `★6 · 📚13` — Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid retrieval, taxonomy, passage gate, and line search.
+- [romeromarcelo/jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) `★3 · 📚13` — Semantic code and document search CLI — BM25 recall + TypeSafe Jev calibrated precision
+- [ibrahemid/jevprune](https://github.com/ibrahemid/jevprune) `★2 · 📚13` — Filter command output for coding agents using a task description.
+- [picaye/jev-compaction](https://github.com/picaye/jev-compaction) `★3 · 📚12` — Context compaction for Hermes sessions that never summarises: every tool call is scored by TypeSafe's Jev model, stale calls are dropped, everything kept stays verbatim.
+- [AustinAWay/Working-Memory-Jev](https://github.com/austinaway/working-memory-jev) `★77 · 📚11` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [carlaiau/jev-reranking](https://github.com/carlaiau/jev-reranking) `★10 · 📚11` — Search engine experimentation on the TREC collections. Currently focused on zero-shot reranking implementations with typesafe.ai's JEV model
+- [pCwOrM/werr](https://github.com/pcworm/werr) `★4 · 📚11` — Zero-memory System-1 decision engine & TypeSafe Jev wire-compatible runtime powered by Mandelbrot wave dynamics (The Zero-VRAM Gauntlet).
+- [Wang-auspicious/pi-jev-compaction](https://github.com/wang-auspicious/pi-jev-compaction) `★1 · 📚11` — Jev-powered context compaction for Pi. Keep critical instructions and tool history, prune the noise, and fall back gracefully.
+- [ilkerulusoy/pi-jev-compact](https://github.com/ilkerulusoy/pi-jev-compact) `★0 · 📚11` — pi-jev-compact — A Pi context-pruning extension targeting tool history by default, with optional assistant-prose pruning.
+- [lucasmartins-ai/lcc](https://github.com/lucasmartins-ai/lcc) `★9 · 📚10` — Local Context Compiler (lcc): clean, dedupe and compact prompt context before it reaches the model, then report every block dropped, the cache tokens a pass invalidates and when pruning pays off. Runs offline with a local 1K decision…
+- [chenrui333/jev-docs](https://github.com/chenrui333/jev-docs) `★5 · 📚10` — Community-maintained history of Jev / TypeSafe System One APIs, SDKs, agent guidance, and engineering best practices.
+- [wjw66/deepseek-harness-jev-pre-compaction](https://github.com/wjw66/deepseek-harness-jev-pre-compaction) `★5 · 📚10` — A pre-compaction advisor for DeepSeek Harness. Runs before the standard `compaction-basic` backend, using TypeSafe JEV to safely prune low-value tool results from model context. Original session events stay in the append-only log; only the…
+- [willfish/pi-observational-memory-jev](https://github.com/willfish/pi-observational-memory-jev) `★1 · 📚10` — Jev decides what to keep. Compaction never rewrites the transcript.
+
+## Established (cited by 5–9 lists) — 32
+
+- [EmreKaplaner/rag-jev](https://github.com/emrekaplaner/rag-jev) `★6 · 📚9` — Make room for useful evidence. Inspectable context selection for RAG, with Jev reranking and open benchmark studies.
+- [zilliztech/vector-graph-rag](https://github.com/zilliztech/vector-graph-rag) `★253 · 📚8` — Graph RAG with pure vector search, achieving SOTA performance in multi-hop reasoning scenarios.
+- [christian-taillon/opencode-jev-compactor](https://github.com/christian-taillon/opencode-jev-compactor) `★7 · 📚8` — Jev powered OpenCode compaction.
+- [kolawong/fast-compaction-dsh](https://github.com/kolawong/fast-compaction-dsh) `★3 · 📚8` — Verdict-based context compaction for DeepSeek Harness — replaces lossy LLM summaries with fast keep/truncate/drop decisions from jev-latest; everything kept stays verbatim. Port of tamaratran/fast-jev-compaction.
+- [SqaaSSL/openclaw-jev-compaction](https://github.com/sqaassl/openclaw-jev-compaction) `★1 · 📚8` — Verbatim context compaction for OpenClaw: a context engine powered by TypeSafe's Jev. Drops stale tool calls and results, never summarizes.
+- [hoshinodis/opencode-context-pruner](https://github.com/hoshinodis/opencode-context-pruner) `★4 · 📚7` — Continuous verbatim context pruning for OpenCode, powered by TypeSafe Jev. Port of fast-jev-compaction adapted to OpenCode's context hook.
+- [edwardyen724-g/jev-compactor](https://github.com/edwardyen724-g/jev-compactor) `★2 · 📚7` — Context compaction and safety gating for AI agents via TypeSafe Jev: keeps messages verbatim, no summarization. OpenAI, Anthropic, LangChain, CLI, MCP.
+- [duketopceo/jev-compact](https://github.com/duketopceo/jev-compact) `★0 · 📚7` — Context compaction for agent harnesses: a decision model scores transcript spans and tombstones the ones that stop mattering. Includes an MCP restore server.
+- [Nixz0824/rag-jev](https://github.com/nixz0824/rag-jev) `★0 · 📚7` — 国服《英雄联盟》版本更新公告的本地 RAG 问答：数字只来自公告，Jev（TypeSafe System One）负责候选重排与回答自检
+- [Obrais-cloud/ticket-rerank](https://github.com/obrais-cloud/ticket-rerank) `★0 · 📚7` — FastAPI service that reranks support tickets by urgency using TypeSafe (Jev / System One)
+- [JLegends/opencode-jev-compaction](https://github.com/jlegends/opencode-jev-compaction) `★1 · 📚6` — opencode plugins that replace lossy compaction with Jev decisions: score every tool call and result, drop or truncate the stale ones, keep everything else verbatim.
+- [radqnico/opencode-jev-compaction](https://github.com/radqnico/opencode-jev-compaction) `★1 · 📚6` — OpenCode plugin that compacts with Jev instead of summarizing: drops stale tool calls/results, keeps the rest word for word.
+- [breaker364/jev-rag-gate](https://github.com/breaker364/jev-rag-gate) `★0 · 📚6` — Semantic gating for RAG retrieval candidates (relevance, premise contradiction, prompt injection) using the TypeSafe Jev System One model
+- [Jev in Search: Three Practical Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html) `📚6` — Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration
+- [lainollll/lm-studio-typesafe-chat](https://github.com/lainollll/lm-studio-typesafe-chat) `★0 · 📚6` — Tkinter chat and live visual narration with LM Studio, TypeSafe Jev, and Chatterbox TTS
+- [sudeshkar/jev-corrective-rag](https://github.com/sudeshkar/jev-corrective-rag) `★0 · 📚6` — Corrective RAG where every decision gate is a typed System One model call instead of an LLM judge. 7x fewer LLM calls, 4x lower p50 latency.
+- [kentcdodds/kody](https://github.com/kentcdodds/kody) `★706 · 📚5` — 🐨 Your assistant's home — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers.
+- [nylon-memory/NylonME](https://github.com/nylon-memory/nylonme) `★46 · 📚5` — A Memory Engine for AI Agents,Working  with Jev can bring higher decision accuracy . Nylon models a memory as a woven body of multiple strands of "threads" (facts/emotions/timing/relationships/beliefs/frequencies), with weighted edges…
+- [komorra/Eugeniusz](https://github.com/komorra/eugeniusz) `★10 · 📚5` — Local, typed AI decisions for C, C++, C#, Python, Unity and Unreal Engine.
+- [hemanth/tool-prune](https://github.com/hemanth/tool-prune) `★7 · 📚5` — Calibrated tool selection and schema pruning for AI agents. Zero dependencies.
+- [019ec6e2/pi-jev-compact](https://github.com/019ec6e2/pi-jev-compact) `★1 · 📚5` — Verbatim context compaction for pi, powered by the TypeSafe Jev model. ★ 1 · endpoint · TypeScript
+- [bojansandhaus/jev-lcm-dsh-compaction](https://github.com/bojansandhaus/jev-lcm-dsh-compaction) `★0 · 📚5` — Calibrated Jev ranking before lossless context condensation
+- [cyrusasco/JevCompact](https://github.com/cyrusasco/jevcompact) `★0 · 📚5` — Lossless LLM session compaction for Claude Code, Codex and ZCode — Jev keep/drop decisions plus a Chinese-optimized lossless policy. No paraphrasing, no hallucinated summaries; 9/9 HANDOVER-FREE on a private benchmark.
+- [dev-willbird1936/pi-compact-jev](https://github.com/dev-willbird1936/pi-compact-jev) `★0 · 📚5` — Verbatim Jev context compaction for Pi Coding Agent
+- [felixfisher/pi-jev-compaction](https://github.com/felixfisher/pi-jev-compaction) `★0 · 📚5` — Experimental Pi extension using TypeSafe Jev for auditable tool-history compaction
+- [gbesse/jev-rerank-server](https://github.com/gbesse/jev-rerank-server) `★0 · 📚5` — Drop-in rerank API served by Jev: speaks the Cohere, Jina and Voyage rerank protocols, so any RAG stack switches by changing a URL.
+- [joslynSmall/fast-jev-compaction-pi](https://github.com/joslynsmall/fast-jev-compaction-pi) `★0 · 📚5` — Pi 的 Jev 引导工具证据上下文压缩扩展.
+- [jpwinans/herdr-jev-auto-compaction](https://github.com/jpwinans/herdr-jev-auto-compaction) `★0 · 📚5` — Auto-compact Claude Code or Codex sessions when a task finishes, not when context fills up. Jev judges task completion; Herdr types /compact.
+- [kanishka-namdeo/jev-rag](https://github.com/kanishka-namdeo/jev-rag) `★0 · 📚5` — Local-first hybrid RAG: traditional vs Jev-style (System One) pipelines over your own documents — with a built-in benchmark lab (6 scenarios, 48 questions, independent LLM judge). Hybrid won +8.4pp correctness at identical cost.
+- [LilDojd/jevons](https://github.com/lildojd/jevons) `★0 · 📚5` — A bounded Pi execution supervisor powered by TypeSafe Jev: decisions, recovery, review and verification.
+- [lookfwd/jev-fact-checker](https://github.com/lookfwd/jev-fact-checker) `★0 · 📚5` — Uses Typesafe AI Jev to Provide A Tweet Fact Checker
+- [tpellet/jevify](https://github.com/tpellet/jevify) `★0 · 📚5` — grep for meaning: find the error in a 10,000-line log, a commit by description, the command for a task. A Unix CLI, no key needed. Powered by Jev from TypeSafe AI.
+
+## Emerging (cited by 3–4 lists) — 74
+
+- [0x7067/pi-jev](https://github.com/0x7067/pi-jev) `📚4` — pi package: Jev-powered verbatim compaction. First feature of a TypeSafe-first control plane for the pi coding agent.
+- [CMaintz/jev-rerank](https://github.com/cmaintz/jev-rerank) `📚4` — Jev-powered relevance filtering and reranking for RAG. Score, sort, and filter retrieved passages with one batched call. Drop-in reranker at a fraction ...
+- [CompleteTech-LLC-AI-Research/jev-prune-kit](https://github.com/completetech-llc-ai-research/jev-prune-kit) `📚4` — Capability-aware context-pruning installer, bounded Jev assessment engine, and experimenta
+- [devleo10/nightwatch](https://github.com/devleo10/nightwatch) `📚4` — Decides what to do with a failed BullMQ job. Rules answer the errors they know, TypeSafe Jev answers
+- [DihRJ/claude-code-jev-compaction](https://github.com/dihrj/claude-code-jev-compaction) `📚4` — Reduza tokens de entrada no Claude Code com compactação de contexto por relevância (LiteLLM + TypeSafe Jev). …
+- [dizk/jev-lens](https://github.com/dizk/jev-lens) `📚4` — jev picks what a coding agent gets to see of large tool results: core library, pi extension and Claude Code p…
+- [dpaluy/pi-jev-compact](https://github.com/dpaluy/pi-jev-compact) `📚4` — pi-jev-compact - Smart Compact for Harnesses using Jev model · TypeScript
+- [dttfrancesco/lossless-rewrite](https://github.com/dttfrancesco/lossless-rewrite) `📚4` — AI text rewriting and document summarization with Jev checks for missing ideas and automat
+- [edoproch/compact-jev](https://github.com/edoproch/compact-jev) `📚4` — /compact-jev: Jev-guided verbatim compaction for Claude Code through Vercel AI Gateway, separate from /compact.
+- [fellowship-dev/jev-second-brain](https://github.com/fellowship-dev/jev-second-brain) `📚4` — jev-second-brain - Local-first Markdown memory alignment and source-linked search with optional Jev judgments · Python
+- [gabazureus/jev-ragcheck](https://github.com/gabazureus/jev-ragcheck) `📚4` — RAG evaluation with typed decisions: sentence-level hallucination verdicts with offsets and citation
+- [gbesse/jev-trace](https://github.com/gbesse/jev-trace) `📚4` — jev-trace - jev-trace: TypeSafe Jev ecosystem repository. · JavaScript
+- [glebmish/jev-watchdog](https://github.com/glebmish/jev-watchdog) `📚4` — Event-driven trajectory watchdog for coding agents: per-event LLM judgments (Jev, Claude, GPT) accumulated in…
+- [imsukhe/jev](https://github.com/imsukhe/jev) `📚4` — A wrapper that gets more value out of TypeSafe's JEV model: transcript compaction, cost-control mode
+- [JayDoubleu/cc-mod-jev](https://github.com/jaydoubleu/cc-mod-jev) `📚4` — Claude Code mod: Jev-scored context pruning through OpenRouter. Verbatim compaction, an optional gat
+- [jaygajera17/JevPulse](https://github.com/jaygajera17/jevpulse) `📚4` — Jev-powered consensus engine which Evaluates every YouTube comment individually to measure true audience agreement.
+- [joaovaleri/jev-shortlist](https://github.com/joaovaleri/jev-shortlist) `📚4` — A cached Jev prior for active learning: reusable rank fusion, matched ASReview controls, and a no-ke
+- [kaiyes/fast-jev-compaction-laya](https://github.com/kaiyes/fast-jev-compaction-laya) `📚4` — fast-jev-compaction-laya - Local, key-free context compaction for opencode using the open-weight Laya models on Apple Silicon to decide what to keep, truncate, or drop. #context-management #open-alternative
+- [KikeVen/zerikai_memory](https://github.com/kikeven/zerikai_memory) `📚4` — Zerikai Memory - Local code-memory MCP with TypeSafe Jev semantic judgment over retrieved snippets. (Project guide)(community/projects/tools/zerikai-memory.md).
+- [leonininder/remember-me](https://github.com/leonininder/remember-me) `📚4` — Agent memory that decides what to hydrate — local topology recall + TypeSafe Jev gates (not another dump-ever…
+- [MaxIvanyshen/pi-jev-context-filter](https://github.com/maxivanyshen/pi-jev-context-filter) `📚4` — tool result filter with TypeSafe Jev to keep main agent context smaller
+- [NicolasMontone/jev-memory](https://github.com/nicolasmontone/jev-memory) `📚4` — jev-memory (NicolasMontone) - Jev-backed long-term memory layer with write, retrieve, and evict for the Vercel AI SDK. #memory #sdk
+- [NodarDavituri/fast-compact](https://github.com/nodardavituri/fast-compact) `📚4` — /fc for Claude Code: shrink old tool output in about a second — Jev keeps what's still needed, every
+- [Oqura-ai/deepdoc](https://github.com/oqura-ai/deepdoc) `📚4` — deepdoc — Deep research tool for local knowledge base (auto-discovered, description not yet written)
+- [Qingbolan/Jev2SemOpt](https://github.com/qingbolan/jev2semopt) `📚4` — Typed semantic operators for pandas, powered by local LLM2Jev runtimes or the official Jev API. Filt
+- [quinnjr/opencode-jev-compaction](https://github.com/quinnjr/opencode-jev-compaction) `📚4` — Jev-powered context compaction plugin for opencode: prune stale tool calls and results before every request, keep the rest verbatim.
+- [Reamd7/omp-fast-jev-compaction](https://github.com/reamd7/omp-fast-jev-compaction) `📚4` — Verbatim context compaction for Oh My Pi (omp) using TypeSafe Jev decisions — port of joelhooks/pi-f
+- [sunnynanavati/jev-bookshelf](https://github.com/sunnynanavati/jev-bookshelf) `📚4` — Visual semantic book search powered by TypeSafe AI's Jev
+- [tsekino62/jev-sales-call](https://github.com/tsekino62/jev-sales-call) `📚4` — Other related projects
+- [UpHash-Network/mini-jev](https://github.com/uphash-network/mini-jev) `📚4` — LogitTrail (formerly Mini Jev): inspectable local typed decisions, candidate probabilities, and reproducible evaluation.
+- [aboisvert/jevvy](https://github.com/aboisvert/jevvy) `📚3` — jevvy - Use jev model to augment csv files with inferred classification, scoring, or probability scores · Scala
+- [adagora/try_pixelRAG_optional_BM25_hybrid_JEV](https://github.com/adagora/try_pixelrag_optional_bm25_hybrid_jev) `📚3` — Visual PDF retrieval layer over PixelRAG with Jev modes for query expansion, chunk and page reranking, and an answerability score. no license · Python
+- [akash-kamat/jev-craft](https://github.com/akash-kamat/jev-craft) `📚3` — A Minecraft survival bot that thinks with Jev — TypeSafe's System One AI model
+- [alviso/jev-precheck](https://github.com/alviso/jev-precheck) `📚3` — A second signature on every write an AI agent makes into a system of record. MCP proxy: fetch the records, derive in code, Jev judges. 98.6% recall, 0 false holds on 288 cases.
+- [amany9000/jev-agent-memory](https://github.com/amany9000/jev-agent-memory) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [andwaller/jev-movie-rerank-demo](https://github.com/andwaller/jev-movie-rerank-demo) `📚3` — jev-movie-rerank-demo - andwaller/jev-movie-rerank-demo - No description provided.
+- [Ansh-Sonkusare/jev-compaction-harnesses](https://github.com/ansh-sonkusare/jev-compaction-harnesses) `📚3` — fast-jev-compaction for pi and opencode: prune stale tool calls with TypeSafe's Jev instead of summarizing context.
+- [aryanchauhanoffical/no-hallucination](https://github.com/aryanchauhanoffical/no-hallucination) `📚3` — Three measured experiments on RAG hallucination: quote-checking, TypeSafe's Jev, and IBM's STAIR. 85
+- [augustoolucas/fast-opencode-compaction](https://github.com/augustoolucas/fast-opencode-compaction) `📚3` — opencode V2 adapter for fast-jev-compaction: prunes stale tool calls and results from the outgoing r
+- [ccdepsilon/jev-browser-memory-assistant](https://github.com/ccdepsilon/jev-browser-memory-assistant) `📚3` — inferred / apps-demos — ⭐1
+- [chensirui2008/fast-jev-compaction](https://github.com/chensirui2008/fast-jev-compaction) `📚3` — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are… ★ 2
+- [DDnim/jev-rag-bench](https://github.com/ddnim/jev-rag-bench) `📚3` — Jev as the judging layer of a RAG pipeline: rerank + answerability gate on TypeSafe docs
+- [Deepusleepy/jeff](https://github.com/deepusleepy/jeff) `📚3` — A chatbot that cannot write: TypeSafe Jev ranks a checked-in bank of replies.
+- [Dowwie/validator](https://github.com/dowwie/validator) `📚3` — Validator: a Rust CLI for evaluating classifiers and TypeSafe Jev workflows: single/multi-label metr
+- [fsmiamoto/pi-jev-prune](https://github.com/fsmiamoto/pi-jev-prune) `📚3` — Experimental pi extension: Jev-driven, cache-aware, recoverable pruning of stale tool results
+- [Gaoridang/jev-day0-fast-compaction](https://github.com/gaoridang/jev-day0-fast-compaction) `📚3` — Day 0 Jev Daily Pipeline demo: viewable fast-jev-compaction pattern (TypeSafe Jev), public Vercel UR
+- [gbesse/jev-premiere-markers](https://github.com/gbesse/jev-premiere-markers) `📚3` — jev-premiere-markers - Turn typed Jev review findings into exact, undoable Premiere timeline markers. · JavaScript
+- [hamzaahmadaslam/schema-truth](https://github.com/hamzaahmadaslam/schema-truth) `📚3` — Checks whether the values in a page's JSON-LD (prices, ratings, reviews, authors, dates, FAQ answers
+- [HAR5HA-7663/jev-compact](https://github.com/har5ha-7663/jev-compact) `📚3` — jev-compact - Prune-not-summarise context compaction for Claude Code, guided by Jev \(TypeSafe System One\) · TypeScript
+- [Hosted playground](https://jevql.fly.dev/playground) `📚3` — with example queries over a sample dataset.
+- [innercartography/jev-space-invaders](https://github.com/innercartography/jev-space-invaders) `📚3` — Memory helps. Until the world changes. JEV flies Space Invaders (~101 ms/decision), then governs a Tenki swarm with Mitosis memory. UFA JEV ...
+- [j-ctang/claude-code-jev-prune](https://github.com/j-ctang/claude-code-jev-prune) `📚3` — Jev Prune for Claude Code: lossless context pruning, compaction and filtering
+- [kabishou-lab/keepdrop](https://github.com/kabishou-lab/keepdrop) `📚3` — Jev-compatible System One on the LLM you already pay for. Verbatim keep/drop compaction. No waitlist.
+- [Kandarp-Joshi-007/firstlight](https://github.com/kandarp-joshi-007/firstlight) `📚3` — Early warning for Irish brand impersonation, read from public Certificate Transparency logs. Built on Jev (TypeSafe AI) - a decision-only model returning ...
+- [KrzysztofStaron/jev-experiments](https://github.com/krzysztofstaron/jev-experiments) `📚3` — TypeSafe Jev experiments via Vercel AI Gateway: pixel B&W/gray images + long-context relevance filter bench
+- [liou666/senseek](https://github.com/liou666/senseek) `📚3` — Senseek — Semantic Page Search browser extension. Find what you mean. Powerd by Jev
+- [lostviolinist/crowdcut-jev-hedra](https://github.com/lostviolinist/crowdcut-jev-hedra) `📚3` — crowdcut-jev-hedra — Audience-directed live story powered by Jev and Hedra. Watch at crowdcut.lol (auto-discovered, description not yet written)
+- [martinopiaggi/summarize](https://github.com/martinopiaggi/summarize) `📚3` — O pré-filtro Jev opcional pontua os segmentos de transcrição antes que o material selecionado seja enviado ao resumidor.
+- [nandansrikrishna/jev-go](https://github.com/nandansrikrishna/jev-go) `📚3` — Standalone Go CLI and MCP server for TypeSafe Jev: typed judgments, JSONL evaluation, and resumable
+- [PAI-CUHK/SLEEPJEV](https://github.com/pai-cuhk/sleepjev) `📚3` — JEV-inspired typed runtime decisions over long-horizon PSG: reusable overnight encoding, sparse retr
+- [Pinutss/jev-memory-selector](https://github.com/pinutss/jev-memory-selector) `📚3` — Filter that trims an agent's retrieved memories to a token budget, offered as Python API, HTTP and MCP; local heuristic by default, Jev as optional judge. MIT · Python
+- [RamaAditya49/compactio](https://github.com/ramaaditya49/compactio) `📚3` — compactio - System 1 for your coding agent: cut token use by deciding, not generating. · TypeScript
+- [rnjsxodyd90/jev-relay](https://github.com/rnjsxodyd90/jev-relay) `📚3` — jev-relay - A typed Jev decision gate, local-voice interpreter workbench, and reproducible Jev vs Qwen research.
+- [roguefort-dev/TrashCompact](https://github.com/roguefort-dev/trashcompact) `📚3` — TrashCompact - Deterministic transcript cleanup and compaction support using TypeSafe's Jev. · JavaScript
+- [rohanarun/computer-use-cache](https://github.com/rohanarun/computer-use-cache) `📚3` — computer-use-cache — Jev judges whether a cached computer-use workflow is semantically reusable for the current request. _JavaScript; ★ 42._
+- [Sauhard74/mem-jev](https://github.com/sauhard74/mem-jev) `📚3` — mem-jev - Deterministic procedural memory for agents · Go
+- [Saumya-patel-31/Thalamus](https://github.com/saumya-patel-31/thalamus) `📚3` — A semantic interrupt controller: calibrated semantic channels sampled over a live conversation at 5H
+- [ssd1051/hearmemory](https://github.com/ssd1051/hearmemory) `📚3` — HearMemory - Shared multi-agent coding memory: TypeSafe Jev checks claims against recorded evidence before the next agent trusts them. (Project guide)(community/projects/tools/hearmemory.md).
+- [uspraveen/Jev-Reranker](https://github.com/uspraveen/jev-reranker) `📚3` — Jev-Reranker - uspraveen/Jev-Reranker - A System-1 model based memory retrieval reranked using caliberated decision space instead of embeddings.
+- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) `📚3` — Hindsight · TypeSafe Rerank · 25.3K stars — An agent-memory system with a TypeSafe reranker that can prune irrelevant recall candidates. Source
+- [waxmell114514.github.io/jev-compaction](https://waxmell114514.github.io/jev-compaction) `📚3` — Project site: waxmell114514.github.io/jev-compaction
+- [YoshibaTakumu/everything-jev](https://github.com/yoshibatakumu/everything-jev) `📚3` — Typed Jev decisions, 22 executable recipes, and integration guides for automation harnesses. TypeScr
+- [youdotcom-oss/risk-analysis-server](https://github.com/youdotcom-oss/risk-analysis-server) `📚3` — An autonomous risk-monitoring MCP server. Define a risk profile — a topic, the geographic locations
+- [Zafer-Liu/jev-demo-rag](https://github.com/zafer-liu/jev-demo-rag) `📚3` — RAG quality gate adapted for TypeSafe Jev - relevance filtering + document injection detection, fan
+
+## Long tail (cited by 1–2 lists) — 176
+
+<details><summary>Show 176 long-tail entries</summary>
+
+- [13-pieces-teen/Jev-Cache](https://github.com/13-pieces-teen/jev-cache) `📚2`
+- [404priyanshu/wikirace](https://github.com/404priyanshu/wikirace) `📚2` — Live head-to-head Wikipedia race: GPT-5.6 Sol vs TypeSafe Jev, same start, same links, same rules.
+- [911218sky/dsh-jev-compaction](https://github.com/911218sky/dsh-jev-compaction) `📚2` — Jev-style semantic tool-result pruning for DeepSeek Harness (FLock openai backend default)
+- [anessbelbati.com/lab/jev-reranking](https://anessbelbati.com/lab/jev-reranking) `📚2` — Evidence viewer: anessbelbati.com/lab/jev-reranking
+- [Anmol-Srv/sigil](https://github.com/anmol-srv/sigil) `📚2` — Sigil Jev rerank · Anmol-Srv · GitHub · ⭐ 10 repo · 2026-03-13Local-first memory for coding agents, shared over MCP, that uses Jev to decide which retrieved…
+- [Bitcoindefi/Open-Stellar](https://github.com/bitcoindefi/open-stellar) `📚2` — Agent Arena — gamified orchestration for API-connected AI agents, wallets, Stellar, Solana, CosmosPay, x402, JEV, and multichain payment rails.
+- [bkarak/jev-mac](https://github.com/bkarak/jev-mac) `📚2` — Typed-decision engine (choice / score / noul) on Apple foundation models, after the laya-mlx architecture
+- [chasemc67/Jevis](https://github.com/chasemc67/jevis) `📚2` — Jev-filtered always-on speech input harness (mic → STT → Jev → text feed) ★ 1 · ai_sdk · TypeScript
+- [chayan-bit/jev-harness](https://github.com/chayan-bit/jev-harness) `📚2` — Attach bounded, auditable Jev advisory, shadow judgments, and threshold calibration to any agent harness, with no new authority.
+- [chinmay29/evidence-scope](https://github.com/chinmay29/evidence-scope) `📚2` — Version-aware evidence decisions for RAG assistants using Jev, with inspectable routing, bounded rec
+- [cosmin-novac/memry](https://github.com/cosmin-novac/memry) `📚2` — European memory system for AI agents with focus on compression and weighted information
+- [cvsgireesh/retry-ledger](https://github.com/cvsgireesh/retry-ledger) `📚2` — Inspect failures, retries, and skipped jobs behind a green GitHub Actions run. Local evidence report
+- [DanBennettUK/hermes-jev-compaction](https://github.com/danbennettuk/hermes-jev-compaction) `📚2` — Jev-style verbatim context compaction plugin for Hermes Agent
+- [davidzna/better-cheaper-llm](https://github.com/davidzna/better-cheaper-llm) `📚2` — Use Jev instead of an LLM for RAG decisions: relevance grading, query routing, hallucination checks
+- [deadczarvc/jev-factkeep-compaction](https://github.com/deadczarvc/jev-factkeep-compaction) `📚2` — jev-factkeep-compaction - Fact-keeping Jev compaction for Claude Code: a maintained fork of tamaratran/fast-jev-compaction where dropped tool calls keep their…
+- [dev-willbird1936/pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact) `📚2` — pi-jev-compact - dev-willbird1936/pi-jev-compact - Verbatim Jev context compaction for Pi Coding Agent.
+- [Dhaiwat10/pi-jev](https://github.com/dhaiwat10/pi-jev) `📚2` — Pi extension for Jev-guided context selection Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dhruv15598/RAG-Financebench-Jev](https://github.com/dhruv15598/rag-financebench-jev) `📚2` — A demo of how Jev can be used for intermediate evidence and answer checks in a RAG pipeline
+- [dip-proto/zlaya](https://github.com/dip-proto/zlaya) `📚2` — zlaya — A fast and compact CPU-only inference engine for Laya in Zig (auto-discovered, description not yet written) ❔
+- [dpaluy/jev-compact](https://github.com/dpaluy/jev-compact) `📚2` — Smart Compact for Harnesses using Jev model Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dtjohnson83/rag-gate](https://github.com/dtjohnson83/rag-gate) `📚2` — Small HTTP API that scores already-retrieved RAG chunks for relevance and prompt injection with Jev and returns kept and dropped lists. MIT · TypeScript
+- [dwamianm/prism](https://github.com/dwamianm/prism) `📚2` — Portable Relational Memory Engine — local-first memory substrate for LLM-powered systems Automatically matched explicit Jev and TypeSafe/System One references.…
+- [FreedomIntelligence/Tiermem](https://github.com/freedomintelligence/tiermem) `📚2` — A integração Jev roteia consultas de memória do agente entre notas compactas de Markdown e histórico bruto pesquisável.
+- [gbesse/jev-pairs](https://github.com/gbesse/jev-pairs) `📚2` — Deduplicate, cluster, link and find contradictions with measurable blocking and a deterministic casc
+- [gnol-123/JEV-RAG](https://github.com/gnol-123/jev-rag) `📚2` — Other related projects
+- [grzegorznowak/noul](https://github.com/grzegorznowak/noul) `📚2` — A Jev-shaped decision API on Voyage (or any compatible embeddings+rerank API), plus a provenance aud
+- [Guilherme-devcode/jev-rag-studio](https://github.com/guilherme-devcode/jev-rag-studio) `📚2` — Chat analítico com RAG + TypeSafe Jev: intencão, filtros e rerank em uma única chamada. Node.js puro
+- [gzawadzki/baza-wiedzy-ai-engineering](https://github.com/gzawadzki/baza-wiedzy-ai-engineering) `📚2` — AI Engineering knowledge base & Obsidian automated extractor (TypeSafe Jev + DeepSeek)
+- [hamzaahmadaslam/chunk-standalone](https://github.com/hamzaahmadaslam/chunk-standalone) `📚2` — chunk-standalone - Finds RAG chunks that cannot be understood on their own and suggests keep, merge or split, using TypeSafe's Jev model. · JavaScript
+- [Huifu1018/Jev-Compaction](https://github.com/huifu1018/jev-compaction) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [Ideny42/jev-keyboard](https://github.com/ideny42/jev-keyboard) `📚2` — Jev-powered candidate reranking for Rime on macOS, with Windows support planned.
+- [igalbo/jev-signal](https://github.com/igalbo/jev-signal) `📚2` — A Jev-powered reader tool for writing signals, not AI authorship detection.
+- [Jaffe2718/s1cap](https://github.com/jaffe2718/s1cap) `📚2` — System-1 decision models (Jev/Laya/Kev-class) as the governance layer for an LLM agent context lifec
+- [jevforge/jev-resource-rightsizer](https://github.com/jevforge/jev-resource-rightsizer) `📚2` — Recommend scale-down, keep, scale-up, or review from resource metrics with typed Jev decisions. Neve
+- [Jul1en-Lin/pi-jev-compaction](https://github.com/jul1en-lin/pi-jev-compaction) `📚2`
+- [kashyaprparmar/jev-rankkit](https://github.com/kashyaprparmar/jev-rankkit) `📚2` — jev-rankkit - Universal, type-safe reranking for Python objects, search, RAG, and agents.
+- [Klikwork/feedlens](https://github.com/klikwork/feedlens) `📚2` — Personal LinkedIn feed labels and ad dimming powered by TypeSafe JEV. Bring your own API key. MIT li
+- [lst97-oss/last-lst97-dev-web](https://github.com/lst97-oss/last-lst97-dev-web) `📚2` — last-lst97-dev-web — Simple personal profolio plus chat assistance with RAG and Jev _(★0, TypeScript)_
+- [Max-sm-yc/Jev-RAG](https://github.com/max-sm-yc/jev-rag) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [michael-elkabetz/jev-playground](https://github.com/michael-elkabetz/jev-playground) `📚2` — A playground for Jev by TypeSafe AI. Try a prompt, change the criteria, and see what Jev decides.
+- [mizchi/jev-persona-memory](https://github.com/mizchi/jev-persona-memory) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [MusicStudioNYC/lossless-compact](https://github.com/musicstudionyc/lossless-compact) `📚2` — lossless-compact - Verbatim, reversible, provenance-tracked context compaction for Claude Code \(fork of tamaratran/fast-jev-compaction\) · TypeScript
+- [octalide/sift](https://github.com/octalide/sift) `📚2` — Typed judgement calls for Claude Code: verbatim compaction, tool output pruning, repo watching, and grading packs Automatically matched explicit Jev and…
+- [Omniaeye/omnia-chronicle](https://github.com/omniaeye/omnia-chronicle) `📚2` — Temporal evidence memory. Reconstruct historical context and trace decisions affected by c
+- [overbit/fast-jev-compaction-opencode](https://github.com/overbit/fast-jev-compaction-opencode) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [pcparts001/pi-jev-compaction-lite](https://github.com/pcparts001/pi-jev-compaction-lite) `📚2` — pi-jev-compaction-lite - pi-jev-compaction-lite: TypeSafe Jev ecosystem repository. · JavaScript
+- [peekuh/jev-vs-rerankers](https://github.com/peekuh/jev-vs-rerankers) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [PhiDung-hub/jev-context-compaction](https://github.com/phidung-hub/jev-context-compaction) `📚2` — Jev-guided transcript compaction for Claude Code. Rust rewrite of tamaratran/fast-jev-compaction.
+- [Pizzawookiee/jev-tree-memory](https://github.com/pizzawookiee/jev-tree-memory) `📚2` — TypeSafe’s Jev AI + an n-ary memory tree = efficient agentic memory routing and retrieval.
+- [pruthvirajg/jev-integrate](https://github.com/pruthvirajg/jev-integrate) `📚2` — Jev decides; Claude, Grok, or any LLM only writes. TypeSafe Jev integration for routing, compaction,
+- [Raudaschl/rag-fusion](https://github.com/raudaschl/rag-fusion) `📚2` — RAG-Fusion Jev experiments — Uses Jev to judge document relevance, weight query rewrites, and decide when a search needs query expansion. By Adrian Raudaschl.
+- [rdxtremeity-1/jev-reranking](https://github.com/rdxtremeity-1/jev-reranking) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [schacon/jev-tests](https://github.com/schacon/jev-tests) `📚2` — macOS demos comparing typed decision models: FluidUse (laya, CUA-S1-FORMS), Jev, Kev and Claude
+- [SheaCrow/jev-rag](https://github.com/sheacrow/jev-rag) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [sohryuu101/fast-jev-compaction](https://github.com/sohryuu101/fast-jev-compaction) `📚2` — fast-jev-compaction - Verbatim, Jev-guided context compaction for Claude Code \(fork with local additions\) · TypeScript
+- [SuperInstance/jev-garden](https://github.com/superinstance/jev-garden) `📚2` — The living JEV training system — grows from quilt judgments, idle-compiles its ExoJ into weave artifacts for the next inferencing
+- [towzai/dsh-memory-jev](https://github.com/towzai/dsh-memory-jev) `📚2` — Memory plugin for DeepSeek Harness: every memory read/write is a typed judgement by TypeSafe Jev (ch
+- [tvdavies/pi-fast-compaction](https://github.com/tvdavies/pi-fast-compaction) `📚2` — Fast compaction for Pi: Jev-scored verbatim eviction of stale tool history, with LLM summarisation of the evicted transcript as the fallback. ★ 2 · endpoint ·…
+- [vava-nessa/pi-jev-compaction](https://github.com/vava-nessa/pi-jev-compaction) `📚2` — Pi extension that replaces summarizing compaction by having Jev score each old tool call and deleting dead ones while keeping the rest verbatim. MIT ·…
+- [vvedantb/vmem](https://github.com/vvedantb/vmem) `📚2` — Universal Memory Layer/Context Engine for LLMs
+- [Yum-wu/dsh-jev-preset](https://github.com/yum-wu/dsh-jev-preset) `📚2` — JEV (Judgment-Execution-Verification) Adaptive Cross-Verification Preset for DeepSeek Harness
+- [zendeveloper7/context-evidence-keeper](https://github.com/zendeveloper7/context-evidence-keeper) `📚2` — Preserve exact task evidence across Codex context compaction with optional TypeSafe Jev scoring.
+- [zereight/pi-jev-compaction](https://github.com/zereight/pi-jev-compaction) `📚2` — Fork of npm pi-jev-compaction@1.0.0 (each1024). Adds OpenRouter Jev transport for Pi Coding Agent.
+- [0-Mqix/structured](https://github.com/0-mqix/structured) `📚1` — Library for serialization of javascript objects from and to c like packed structs as an Uint8Array.
+- [1105623876/qwenpaw-jev-memory-gate](https://github.com/1105623876/qwenpaw-jev-memory-gate) `📚1`
+- [54k41/darkforest-swordholder](https://github.com/54k41/darkforest-swordholder) `📚1` — Chatbot web em um único arquivo HTML com roteamento de modelos via Jev (modos Pro e Lite) e RAG vetorial com …
+- [abenojardev/laravel-jev-memory-ai](https://github.com/abenojardev/laravel-jev-memory-ai) `📚1` — Jev Memory for Laravel is a context and memory layer for AI applications, providing persis
+- [ajstrick81/fast-jev-compaction](https://github.com/ajstrick81/fast-jev-compaction) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [aksika/abmind](https://github.com/aksika/abmind) `📚1` — abmind System One judgments · aksika · GitHub · ⭐ 20 repo · 2026-04-13Pluggable System One judgment provider in abmind, a persistent memory and RAG engine for…
+- [amany9000/jev-agent-memory,0,Python,,2026-09-26,Jev](https://github.com/amany9000/jev-agent-memory,0,python,,2026-09-26,jev) `📚1`
+- [Amidwestnoob/being-compacted](https://github.com/amidwestnoob/being-compacted) `📚1` — Lossless tool-row context compact. No summarizer. No Jev.
+- [Aryan-Garg-dev/webtools-cache](https://github.com/aryan-garg-dev/webtools-cache) `📚1` — A universal caching solution with a global storage adapter, Fetch/Axios wrappers, decorato
+- [AustinAWay/Equation-From-Jev-Research](https://github.com/austinaway/equation-from-jev-research) `📚1` — Exploratory equations for reproducing Jev-based app scores, with collected data, failed attempts, an
+- [BingChanCN/omp-jev-toolkit](https://github.com/bingchancn/omp-jev-toolkit) `📚1` — Jev (TypeSafe System One) judgments for omp: verbatim context compaction, a tool-result block sieve
+- [BlastZZZZ/jev-anything](https://github.com/blastzzzz/jev-anything) `📚1` — Lightweight 0.6B decision models for browser agents, RAG retrieval and evidence assessment, game pol
+- [bloodfel/modular-rag-mcp](https://github.com/bloodfel/modular-rag-mcp) `📚1` — Pluggable, observable RAG MCP server — hybrid retrieval (BM25+dense+RRF), BEIR-benchmarked rerankers
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) `📚1` — DeerFlow Jev Context Pruning - Optional DeerFlow extension that uses Jev to shorten old read-only tool results before summarization.
+- [chanokfortyzz/AffectControl](https://github.com/chanokfortyzz/affectcontrol) `📚1` — Framework-neutral affective/System-One control harness for long-horizon agents
+- [chaqchase/jev-cache](https://github.com/chaqchase/jev-cache) `📚1` — Verified response caching for LLM applications (exp)
+- [chhoumann/jev-nudge](https://github.com/chhoumann/jev-nudge) `📚1` — Jev-powered Codex Stop hook that nudges unfinished authorized work forward.
+- [ckyong826/supplier-flow-rag](https://github.com/ckyong826/supplier-flow-rag) `📚1`
+- [Code-Wizard-Wilson/slop-finder](https://github.com/code-wizard-wilson/slop-finder) `📚1` — Local AI-slop style detector for X, LinkedIn and Reddit powered by Laya-MLX.
+- [Cohere reranking](https://docs.cohere.com/docs/rerank) `📚1` — query-to-candidate relevance ranking after retrieval.
+- [craigsdennis/jevychase-playground](https://github.com/craigsdennis/jevychase-playground) `📚1` — A vacation-themed educational playground for TypeSafe Jev, built with TypeScript, Hono, and Cloudfla
+- [danieluszta/jev-company-problem-scoring](https://github.com/danieluszta/jev-company-problem-scoring) `📚1` — Agent handoff: score companies against a clear problem using relevant evidence and compact shared-st
+- [Darthwares/jev-style](https://github.com/darthwares/jev-style) `📚1` — jev-style — the design system, shared components, patterns and Next.js template behind dotmap.ai, je
+- [dgyun-ai/openclaw-fast-jev-compaction](https://github.com/dgyun-ai/openclaw-fast-jev-compaction) `📚1`
+- [Dymyt-ry/tool-output-pruning-lab](https://github.com/dymyt-ry/tool-output-pruning-lab) `📚1` — Can a model pick which lines of a Claude Code tool output the agent will need later? Six selectors (
+- [eddydong/JevTest](https://github.com/eddydong/jevtest) `📚1` — Labeled replacement bench for TypeSafe Jev: classifiers, first-response routing, and agent context a
+- [epsilon3/Qwen-2.5-1B-RLCD-Fast](https://huggingface.co/epsilon3/qwen-2.5-1b-rlcd-fast) `📚1` — Tree-attention variant of harshatheg's inference code on unchanged Qwen2.5-1.5B-Instruct; card reports up to 2.37x faster field decode and 98% less extra…
+- [Fatpandac/pi-fast-jev-compaction](https://github.com/fatpandac/pi-fast-jev-compaction) `📚1` — pi-fast-jev-compaction - Fatpandac/pi-fast-jev-compaction - pi extension that replaces the default compaction with fast-jev-compaction.
+- [full write-up](https://davidariasfinance.com/research/is-jev-efficient-for-rag) `📚1`
+- [GaoDalie/JEV-RAG-A-More-Efficient-Solution-for-RAG-Systems-](https://github.com/gaodalie/jev-rag-a-more-efficient-solution-for-rag-systems-) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [gbesse/decision-migrate](https://github.com/gbesse/decision-migrate) `📚1` — Reviewable Dify classifier migrations to Jev, with preserved branches and baseline comparisons
+- [gbesse/jev-rappel-pro](https://github.com/gbesse/jev-rappel-pro) `📚1` — Screen product catalogs against French RappelConso recalls with exact GTIN matching and reviewable s
+- [golemcloud/rib](https://github.com/golemcloud/rib) `📚1` — A type-safe expression language to interact with web-assembly components
+- [Green-Needle-Tech/agent-memory-optimization](https://github.com/green-needle-tech/agent-memory-optimization) `📚1` — Hermes Agent skill: research-grounded maintenance for three-layer agent memory (local L1, Hindsight L2, LLM-wiki L3) Automatically matched explicit Jev and…
+- [hamzaahmadaslam/cache-boundary](https://github.com/hamzaahmadaslam/cache-boundary) `📚1` — Decides route by route whether a full-page cache may serve one anonymous visitor's copy of a page to
+- [HAR5HA-7663/jev-compact,0,TypeScript,,2026-09-23](https://github.com/har5ha-7663/jev-compact,0,typescript,,2026-09-23) `📚1`
+- [HyeranPark99/tiny-rag-jev](https://github.com/hyeranpark99/tiny-rag-jev) `📚1` — A small RAG web app that visualizes every step of the retrieval-augmented generation pipeline
+- [icf1re/jev-rime-rerank](https://github.com/icf1re/jev-rime-rerank) `📚1`
+- [intqwq/jev-tokenize](https://github.com/intqwq/jev-tokenize) `📚1` — Selection-only text generation and terminal chat for Jev, with context replay and an offline vocabul
+- [JamieJustTang/jev-rag-retrieval](https://github.com/jamiejusttang/jev-rag-retrieval) `📚1` — Two-stage session and passage retrieval with optional Jev reranking
+- [janampatel/multi-agent-rag-lit-review](https://github.com/janampatel/multi-agent-rag-lit-review) `📚1`
+- [joa/code-compact-jev](https://github.com/joa/code-compact-jev) `📚1`
+- [jpwinans/claude-herdr-jev-compaction](https://github.com/jpwinans/claude-herdr-jev-compaction) `📚1`
+- [jrmcauliffe00/jev-memory](https://github.com/jrmcauliffe00/jev-memory) `📚1` — Jev-gated memory writes for the Strands harness
+- [jtwolfe/vikett](https://github.com/jtwolfe/vikett) `📚1` — Closed-door control protocol: authored pages, live prune, typed take, walk. Parallel to Gl
+- [JunbiaoXue/Tuantuan](https://github.com/junbiaoxue/tuantuan) `📚1`
+- [Kevin-Zhouu/jevclaw](https://github.com/kevin-zhouu/jevclaw) `📚1` — OpenClaw, powered by Jev. Jev-powered memory decisions with your existing LLM as fallback. Built wit
+- [Lalith-mourya/JEV-RAG](https://github.com/lalith-mourya/jev-rag) `📚1` — Implementing the jev model in the rag architecture as the evaluator
+- [laodengcode/jev-decisionshift](https://github.com/laodengcode/jev-decisionshift) `📚1` — Find Vercel AI SDK calls that may be candidates for Jev.
+- [lcpmarvel/semantic-compact](https://github.com/lcpmarvel/semantic-compact) `📚1`
+- [leiyikang-tech/jev-cache-rules](https://github.com/leiyikang-tech/jev-cache-rules) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [limboo-ai/limboo](https://github.com/limboo-ai/limboo) `📚1` — An Orchestrate multiple coding agent desktop app
+- [live](https://hemanth.github.io/tool-prune) `📚1`
+- [lizhuojunx86/llm-memory-audit](https://github.com/lizhuojunx86/llm-memory-audit) `📚1` — LLM Memory Audit: Jev earnings test — Pre-registered test of whether jev-1.13-20260917 remembers how 12,533 US earnings announcements turned out, comparing…
+- [lrqiisrom/dsh-jev-memory](https://github.com/lrqiisrom/dsh-jev-memory) `📚1` — Other related projects
+- [lukemorales/query-key-factory](https://github.com/lukemorales/query-key-factory) `📚1` — A library for creating typesafe standardized query keys, useful for cache management in @tanstack/qu
+- [m0hamedb3ngab5ia/fast-jev-compaction](https://github.com/m0hamedb3ngab5ia/fast-jev-compaction) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [magnushi/kb-jev-test-app](https://github.com/magnushi/kb-jev-test-app) `📚1` — nowledge Base Lab — turn a topic or a few URLs into a real Sanity Knowledge Base, watch Jev filter
+- [marciosferreira/jev-vs-rerankers](https://github.com/marciosferreira/jev-vs-rerankers) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [MaxIvanyshen/pi-jev-compaction](https://github.com/maxivanyshen/pi-jev-compaction) `📚1` — better context compaction with TypeSafe Jev judging what to keep
+- [mk20mm/jev-compaction](https://github.com/mk20mm/jev-compaction) `📚1`
+- [More search and reranking builds on madewithjev.com](https://madewithjev.com/categories/search) `📚1`
+- [muratmirgun/compact-engine](https://github.com/muratmirgun/compact-engine) `📚1`
+- [narumiruna/chrome-bookmark-reranking](https://github.com/narumiruna/chrome-bookmark-reranking) `📚1` — AI slop Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [oggabogg/jevbeddings](https://github.com/oggabogg/jevbeddings) `📚1` — JEV-only semantic retrieval experiment on BANKING77, with complete saved data and offline
+- [Ontos-AI/knowhere](https://github.com/ontos-ai/knowhere) `📚1` — nowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG.
+- [openwhat007/jev-rerank](https://github.com/openwhat007/jev-rerank) `📚1` — Relevance re-ranking for query/candidate lists, powered by TypeSafe's Jev Noul primitive.
+- [openwhat007/jev-rerank,1,Python,,2026-09-26](https://github.com/openwhat007/jev-rerank,1,python,,2026-09-26) `📚1`
+- [OrMizL/jev-compaction-bench](https://github.com/ormizl/jev-compaction-bench) `📚1` — Measure what context compaction deletes, how confident the model was, and whether the agent can still finish …
+- [pCwOrM/werr,4,Python,,2026-09-18,Zero-memory](https://github.com/pcworm/werr,4,python,,2026-09-18,zero-memory) `📚1`
+- [pCwOrM/wevv](https://github.com/pcworm/wevv) `📚1` — A 0-byte memory alternative to LLMs. Ultra-fast, type-safe System-1 decision engine powered by Mandelbrot wave dynamics and quadrant subdivision. Automatically…
+- [pi-jev-compaction](https://npmjs.com/package/pi-jev-compaction) `📚1` — each1024 · Package · ⬇ 690 · 2026-09-18Pi coding-agent extension that replaces LLM-summary compaction with Jev keep, drop or truncate decisions on tool calls…
+- [pniessen/jev-test](https://github.com/pniessen/jev-test) `📚1` — Does a model with no training data beat a trained spam classifier? Measured benchmark of TypeSafe Je
+- [PtPrashantTripathi/wasp-lib](https://github.com/ptprashanttripathi/wasp-lib) `📚1` — WASP (Web Assembly Safe Pointers) - a lightweight TypeScript library for type-safe interaction with
+- [RazanKai/pi-askjev](https://github.com/razankai/pi-askjev) `📚1` — Manual, evidence-first TypeSafe/Jev decision tools for Pi
+- [research report](https://gerryburde.com/articles/my-name-is-jev-summarizing-dozens-of-real-world-use-cases.html) `📚1` — Full Empirical Paper & Methodology: My Name Is Jev: Real-World Use Cases & Benchmarks (GerryBurde.com)
+- [Rivil1/pi-jev-compaction](https://github.com/rivil1/pi-jev-compaction) `📚1` — Pi extension that replaces the built-in LLM compaction summary with TypeSafe Jev's per-tool-call sco
+- [ross-jill-ws/pi-fast-jev-compaction](https://github.com/ross-jill-ws/pi-fast-jev-compaction) `📚1` — Fast, verbatim, jev-guided compaction for pi
+- [Sahilll15/jobfit](https://github.com/sahilll15/jobfit) `📚1` — Check your CV against a job posting, one requirement at a time. Built on TypeSafe Jev.
+- [Shijiuwei/fast-jev-compaction-mirror-304](https://github.com/shijiuwei/fast-jev-compaction-mirror-304) `📚1` — High availability mirror and network topology specifications for tamaratran/fast-jev-compaction
+- [ShiYu0318/JevRAG](https://github.com/shiyu0318/jevrag) `📚1` — JevRAG — Jev + RAG Experimental Research (auto-discovered, description not yet written)
+- [shubham10divakar/CacheJev](https://github.com/shubham10divakar/cachejev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/DedupJev](https://github.com/shubham10divakar/dedupjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/nano-jev](https://github.com/shubham10divakar/nano-jev) `📚1`
+- [shubham10divakar/RerankJev](https://github.com/shubham10divakar/rerankjev) `📚1` — Jev-family model/tooling repo: RerankJev
+- [shubham10divakar/RetrieveJev](https://github.com/shubham10divakar/retrievejev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [ssd1051/hearmemory@e5eaabe05d8b5a9c77f830f14fdf77951931d666](https://github.com/ssd1051/hearmemory@e5eaabe05d8b5a9c77f830f14fdf77951931d666) `📚1`
+- [stas4000/astra-jev](https://github.com/stas4000/astra-jev) `📚1` — Adaptive GPT-6 reasoning effort with Jev, bounded holds, and append-only cache-aware Respo
+- [Steerable Reranking: How JEV Solves RAG](https://youtube.com/watch?v=uhgh8cng0qs) `📚1` — Prompt Engineering puts Jev in the reranking step of a RAG pipeline, with a Colab notebook.
+- [sunmont/enterprise-jev-rag](https://github.com/sunmont/enterprise-jev-rag) `📚1` — "Enterprise-grade System 1 (Jev) / System 2 (Pi) RAG pipeline with vector chunking & DeepSeek Harness (DSH)
+- [SuperInstance/jev-turbovec](https://github.com/superinstance/jev-turbovec) `📚1` — JEV-Diffusion + TurboQuant substrate memory. Find similar past diffusions.
+- [Swoorup/wgsl-bindgen](https://github.com/swoorup/wgsl-bindgen) `📚1` — Generate typesafe Rust bindings for wgsl shaders in wgpu
+- [szilanor/stream](https://github.com/szilanor/stream) `📚1` — Typesafe API for processing iterable data in TypeScript and JavaScript.
+- [szocpaul/jev-compaction-prime](https://github.com/szocpaul/jev-compaction-prime) `📚1` — Verbatim, decision-based context compaction for Prime Agent — instead of summaries, stale tool calls are scor…
+- [taherakolawala/jev-as-rag](https://github.com/taherakolawala/jev-as-rag) `📚1` — experimenting with the viability of using jev-like models to replace RAG.
+- [tamaratran/fast-jev-compaction,6951,TypeScript,MIT,2026-09-18,2026-09-26](https://github.com/tamaratran/fast-jev-compaction,6951,typescript,mit,2026-09-18,2026-09-26) `📚1`
+- [tamaratran/jev-pruner,151,TypeScript,MIT,2026-09-23,2026-09-26](https://github.com/tamaratran/jev-pruner,151,typescript,mit,2026-09-23,2026-09-26) `📚1`
+- [tavily-ai/tavily-jev-public](https://github.com/tavily-ai/tavily-jev-public) `📚1` — A local competitor-monitoring tutorial using Tavily search and jev classification.
+- [tcfialho/jev-compact](https://github.com/tcfialho/jev-compact) `📚1`
+- [Thesilentprogramer/Jev-RAG](https://github.com/thesilentprogramer/jev-rag) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [thezem/jev-rag](https://github.com/thezem/jev-rag) `📚1` — Local vectorless retrieval for Node.js over thezem/jev-one: imports source text, splits docs into attributable passages in an inspectable JSON file, and lets…
+- [tienef/flickering-sign](https://github.com/tienef/flickering-sign) `📚1` — An autonomous brain from Laya (System 1) and an LLM (System 2): drives, neuromodulators, sleep, and
+- [TranBaVinhSon/jev-agent-compaction,0](https://github.com/tranbavinhson/jev-agent-compaction,0) `📚1`
+- [TranBaVinhSon/jev-harness](https://github.com/tranbavinhson/jev-harness) `📚1` — A repository for jev-harness
+- [wahyuzero/code-oracle](https://github.com/wahyuzero/code-oracle) `📚1` — Sub-50ms Neuro-Symbolic Verification Oracle for AI Coding Agents
+- [WAR10CK222/jev-as-reranker](https://github.com/war10ck222/jev-as-reranker) `📚1` — Reranker for search results and recommendations over a local jev-compatible sidecar (jeff)
+- [Yeadon8888/jev-hypit-commerce](https://github.com/yeadon8888/jev-hypit-commerce) `📚1` — Open-source product-to-creator matching: BM25 / Qdrant retrieval, Jev decisions, human review and du
+- [yoonshilee/pi-sieve](https://github.com/yoonshilee/pi-sieve) `📚1` — On-demand retrieval with Jev relevance selection for Pi agents.
+- [yosit/dot-pi](https://github.com/yosit/dot-pi) `📚1` — Pi coding-agent extensions: Claude-Code-style statusline, plus TypeSafe Jev guardrails — auto thinki
+- [yottayoshida/lossless-compaction](https://github.com/yottayoshida/lossless-compaction) `📚1` — lossless-compaction — Jev-guided context compaction for coding agents that moves old tool output to local files instead of deleting it. _(★0)_
+- [zakariaimtiaz/Aetheria](https://github.com/zakariaimtiaz/aetheria) `📚1` — Aetheria is an intelligent RAG bot transforming unstructured enterprise data into instant action. Powered by high-performance vector retrieval, LLM synthesis,…
+- [zayne-labs/callapi](https://github.com/zayne-labs/callapi) `📚1` — A lightweight fetching library packed with essential features - retries, interceptors, request dedup
+- [网站中的同一项目 / Same project on JevForAgents](https://jevforagents.com/builds/instant-context-compaction-tamara-tran) `📚1`
+
+</details>

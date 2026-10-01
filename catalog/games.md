@@ -1,0 +1,838 @@
+# Games, Robotics & Simulation
+
+> Game-playing agents, emulators, robotics, drones and simulations.
+>
+> **815 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 83
+
+- [RomanSlack/jev-drone](https://github.com/romanslack/jev-drone) `★228 · 📚66` — Camera-only autonomous drone in MuJoCo with a small judgment model (TypeSafe Jev) in the loop at 2.5Hz
+- [fhshaik/typesafe-mario](https://github.com/fhshaik/typesafe-mario) `★422 · 📚64` — A TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state.
+- [phyous/tsai-sc](https://github.com/phyous/tsai-sc) `★27 · 📚45` — TypeSafe Jev controls original StarCraft shareware through keyboard and mouse with recorded action probabilities.
+- [dabit3/jev-experiments](https://github.com/dabit3/jev-experiments) `★397 · 📚38` — Jev experiments — A collection of latency-focused demo apps that use Jev through the official JavaScript SDK. By Nader Dabit.
+- [valentynkit/jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) `★9 · 📚38` — Pokemon Red on PyBoy: code owns the route and the arithmetic, Jev picks at branches in about 100 ms, calibration measured instead of assumed
+- [standardagents/jevpilot](https://github.com/standardagents/jevpilot) `★204 · 📚32` — A playable Three.js driving simulator with Jev-powered autopilot
+- [sorrycc/typesafe-snake](https://github.com/sorrycc/typesafe-snake) `★23 · 📚32` — Snake auto-played by TypeSafe's Jev model: one System One choice per tick, legal moves and facts generated in code
+- [FBddcz/embodied-jev](https://github.com/fbddcz/embodied-jev) `★249 · 📚30` — EmbodiedJev: MuJoCo robot decision workbench with MiniCPM5-2B, Jev and compatible model APIs
+- [emrickgarrett/OneVOneJev](https://github.com/emrickgarrett/onevonejev) `★40 · 📚30` — 1v1 Jev quickscope arena — Three.js + TypeSafe System One
+- [phyous/tsai-civ2](https://github.com/phyous/tsai-civ2) `★2 · 📚29` — TypeSafe Jev plays original Civilization II in a browser, with live action probabilities. Experimental full-game harness.
+- [Yinsongxu/LLM2Jev](https://github.com/yinsongxu/llm2jev) `★377 · 📚28` — Turn local language models into Jev-style structured decision models. Get results from text and images with prefill alone—no token-by-token decoding required.
+- [rokbenko/quackd](https://github.com/rokbenko/quackd) `★244 · 📚28` — One CLI for all your robots. Connect them, command them, and let them work together, each with an LLM for a brain (Claude, OpenAI, Gemini, Grok, or local via Ollama or vLLM), VLAs for arms and decision LLMs (Jev, Laya, Kev). Drives…
+- [EliaAlberti/jev-rules](https://github.com/eliaalberti/jev-rules) `★62 · 📚27` — Jev picks which of your rules apply to each prompt, so Claude only sees the ones that matter.
+- [lukaske/jev-doom-agent](https://github.com/lukaske/jev-doom-agent) `★29 · 📚27` — A browser-native Doom agent experiment with structured spatial state, composable AI controls, live decision telemetry, and a Chocolate Doom WebAssembly runtime.
+- [TypeSafeAI/typesafe-playground](https://github.com/typesafeai/typesafe-playground) `★21 · 📚27` — Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
+- [TarunTomar122/jev-askable-arm](https://github.com/taruntomar122/jev-askable-arm) `★11 · 📚27` — Zero-shot English goals on a sim Franka. Jev chains hardcoded primitives.
+- [AbdelStark/heist-one](https://github.com/abdelstark/heist-one) `★8 · 📚27` — Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world.
+- [phureewat29/jev-got](https://github.com/phureewat29/jev-got) `★2 · 📚27` — Jev (TypeSafe AI) PoC through Game of Thrones.
+- [siroccomask/snake-jev](https://github.com/siroccomask/snake-jev) `★2 · 📚27` — Snake controlled by parallel Jev assessments, with one API call per game tick.
+- [kylemclaren/jevpdf](https://github.com/kylemclaren/jevpdf) `★4 · 📚25` — Ask a PDF in your own words and watch the matching lines light up. React + pdf.js + TypeSafe Jev.
+- [GenieRobot/typesafe-ai-rails](https://github.com/genierobot/typesafe-ai-rails) `★3 · 📚25` — typesafe-ai-rails — Community Rails integration for TypeSafe AI's System One API, built on the community typesafe-sdk Ruby gem\.
+- [gaborishka/jev-canvas](https://github.com/gaborishka/jev-canvas) `★12 · 📚21` — Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word.
+- [milanboers/jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) `★6 · 📚21` — Playing Pokemon Red using TypeSafe Jev.
+- [komikat/jev-bfs](https://github.com/komikat/jev-bfs) `★1 · 📚21` — Wikipedia link races with direct Jev ranking and a live terminal display.
+- [lykycy123/RoboJEV](https://github.com/lykycy123/robojev) `★51 · 📚20` — Two-stage JEV control of a Franka Panda in MuJoCo.
+- [arielweinberger/jev-autopilot](https://github.com/arielweinberger/jev-autopilot) `★11 · 📚19` — This demo uses Jev from TypeSafe AI to autonomously fly a drone in a random city from point A to point B, avoiding obstacles along the way. A trip costs $0.01.
+- [joshlarsen/jev-t-rex-runner](https://github.com/joshlarsen/jev-t-rex-runner) `★7 · 📚19` — Chrome dino game played by Typesafe AI Jev model.
+- [Icohen007/jev-play-ping-pong](https://github.com/icohen007/jev-play-ping-pong) `★2 · 📚19` — Jev plays browser table tennis in real time: structured telemetry, typed decisions, ordinary Chrome inputs, and auditable evidence.
+- [rmalde/minecraft-agent](https://github.com/rmalde/minecraft-agent) `★568 · 📚18` — Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verification.
+- [TholeG/typesafe-chess](https://github.com/tholeg/typesafe-chess) `★8 · 📚18` — Chess where both players are TypeSafe's Jev model: every move is a typed Choice decision
+- [raihankhan-rk/jevarena](https://github.com/raihankhan-rk/jevarena) `★2 · 📚18` — JevArena — two Jev agents duel in click-only browser games (Browser Use + TypeSafe Jev)
+- [jammaru/jev-lab](https://github.com/jammaru/jev-lab) `★7 · 📚17` — 100 AI NPCs live in a tiny town. Jev chooses the next action; the world writes the story.
+- [ellistev/typesafe-minecraft-demo](https://github.com/ellistev/typesafe-minecraft-demo) `★2 · 📚17` — A Minecraft Java player controlled by TypeSafe AI, with live decisions, Canadian flag building, and a side-by-side dashboard.
+- [iammusham/jev-snake](https://github.com/iammusham/jev-snake) `★1 · 📚17` — An experimental Snake environment where the game engine owns deterministic rules and TypeSafe AI's Jev makes the movement decision from structured state on every tick.
+- [kxzk/typesafe-jev-drone-demo](https://github.com/kxzk/typesafe-jev-drone-demo) `★1 · 📚17` — Three.js drone simulator with a Python backend and live TypeSafe Jev navigation
+- [ashaazami/river-run-typesafe](https://github.com/ashaazami/river-run-typesafe) `★0 · 📚17` — River shooter game in Python, inspired by Atari's River Raid, played by a TypeSafe AI pilot
+- [TypeSafe AI debuts model for machines that plays Doom](https://theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711) `📚17` — . The Register: "TypeSafe AI debuts model for machines that plays Doom": Thomas Claburn. The best independent news coverage.
+- [spoonnotfound/soupbase](https://github.com/spoonnotfound/soupbase) `★7 · 📚16` — Jev x 海龟汤.
+- [nickthompson480/typesafe-ai-playground](https://github.com/nickthompson480/typesafe-ai-playground) `★3 · 📚16` — Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
+- [KyleKreuter/jev2048](https://github.com/kylekreuter/jev2048) `★1 · 📚16` — Let Jev (TypeSafeAI) solve 2048.
+- [rchovatiya88/cyber-breach-jev](https://github.com/rchovatiya88/cyber-breach-jev) `★0 · 📚16` — Cyber-Breach: The Jev Protocol - A tactical cyberpunk arena combat game powered by TypeSafe AI Jev System One decision model
+- [shantanugoel/mario-jev](https://github.com/shantanugoel/mario-jev) `★14 · 📚15` — Python prototype that plays NES Super Mario Bros. from structured RAM observations, with Jev answering focused movement and jump questions.
+- [choxos/jevchess](https://github.com/choxos/jevchess) `★6 · 📚15` — Jev, TypeSafe's System One model, plays chess against any OpenRouter LLM, Stockfish and you. One-page web app with live moves, Jev's move probabilities, saved games and win rates.
+- [hemanth/jev-chess](https://github.com/hemanth/jev-chess) `★2 · 📚15` — Chess moves, evaluations, persona opponents, and game classification with TypeSafe AI System One
+- [trungdq88/jev-tetris](https://github.com/trungdq88/jev-tetris) `★16 · 📚14` — Jev play Tetris in real-time against other AI models
+- [anxkhn/JevPlaysPokemon](https://github.com/anxkhn/jevplayspokemon) `★7 · 📚14` — Jev plays Generation 3 Pokémon via Showdown and a real FireRed ROM.
+- [atarikcaliskan/jevball](https://github.com/atarikcaliskan/jevball) `★3 · 📚14` — 22 Jev models, one ball: a 3D football match where every player is its own Jev (TypeSafe AI System One) decision. Watch, or take over the number 9.
+- [Yasserbhb/Agent-JEV-Tetris](https://github.com/yasserbhb/agent-jev-tetris) `★2 · 📚14` — using the new model JEV to play the game tetris .
+- [shantanugoel/jev-games](https://github.com/shantanugoel/jev-games) `★1 · 📚14` — Visual Jev lab for multiple games and emulator platforms
+- [MachineLearning-Nerd/jev-tetris](https://github.com/machinelearning-nerd/jev-tetris) `★0 · 📚14` — A visual TypeSafe demo where Jev chooses verified Tetris placements.
+- [ndolinschi/jevplay](https://github.com/ndolinschi/jevplay) `★0 · 📚14` — TypeSafe Jev playground — custom Choice/Score/Noul builder with live distributions
+- [TheGali/terrarium](https://github.com/thegali/terrarium) `★0 · 📚14` — A sandbox where a TypeSafe System One model presses the controls of a small creature. Code runs the world.
+- [openroboto-ai/jev-robot-control](https://github.com/openroboto-ai/jev-robot-control) `★53 · 📚13` — Jev vs GPT-6 Astra vs GPT-4.1 mini: direct Cartesian control of an xArm7 in MuJoCo. ★ 11 · model_id · Python
+- [bytelabs-oss/clash-jev](https://github.com/bytelabs-oss/clash-jev) `★35 · 📚13` — A Clash Royale bot with no trained policy: Jev (TypeSafe System One) makes every decision from the live game state
+- [Skyvern-AI/jevscape](https://github.com/skyvern-ai/jevscape) `★11 · 📚13` — RuneBench harness for TypeSafe's Jev: bounded action catalog, tick-mode controller and a live dashboard
+- [FazalAAli/jev-robotics-demo](https://github.com/fazalaali/jev-robotics-demo) `★5 · 📚13` — Jev (TypeSafe System One) vs Claude Opus 5 driving a simulated robot arm in MuJoCo
+- [robokrunch/jev-physical-ai](https://github.com/robokrunch/jev-physical-ai) `★3 · 📚13` — Putting TypeSafe's Jev to work on robots, fleets, and edge hardware — real measured numbers, honestly caveated.
+- [Dimesio/typesafe-chess](https://github.com/dimesio/typesafe-chess) `★2 · 📚13` — FUn little experiment with Typesafe AI Jev Model playing chess against stockfish :)
+- [tubone24/jev-practice-speed](https://github.com/tubone24/jev-practice-speed) `★1 · 📚13` — A WebGL demo where you play the card game Speed against a CPU whose brain is TypeSafe AI's Jev. The whole point of the app is to measure and show Jev's decision speed and decision accuracy in real time.
+- [AliceRoselia/Typesafe_chess_eval](https://github.com/aliceroselia/typesafe_chess_eval) `★0 · 📚13` — An evaluation of typesafe AI chess. As it turns out, the AI isn't doing really well even though chess is not a particularly open-ended game. Still, it's only a prototype and this probably wasn't optimzied for games.
+- [narulaskaran/jev-data-questions](https://github.com/narulaskaran/jev-data-questions) `★0 · 📚13` — Jev Gamecast — Jev Gamecast: replay-first React app that asks Jev typed questions about live sports data. _TypeScript; ★ 0._
+- [safzanpirani/pong-jev](https://github.com/safzanpirani/pong-jev) `★0 · 📚13` — TypeSafe's Jev plays Atari Pong. One typed Choice question per frame, no coordinates sent to the model.
+- [TypeSafe Typewriter](https://typesafe-demo.val.run) `📚13` — TypeSafe Typewriter - Live Val Town demo: 16 typed judgments update as you type.
+- [christianmat/jev-pokemon](https://github.com/christianmat/jev-pokemon) `★113 · 📚12` — Jev, an AI decision model, plays Pokémon Red. It beat the game in 37h 40m.
+- [dperezcabrera/ai-chess-lab](https://github.com/dperezcabrera/ai-chess-lab) `★3 · 📚12` — Chess against Jev, TypeSafe AI's System One model, through OpenRouter. Built with the pico framework.
+- [Jev Pac-Man](https://jev-pacman.ephraimduncan.com) `📚12` — . Jev Pac-Man — Not useful, but the clearest explanation of the model that exists: watch it decide, with probabilities, at every junction.
+- [Jev Tetris](https://jev-omega.vercel.app) `📚12` — Jev Tetris - Jev picks rotation and column from holes, stack height, and bumpiness.
+- [jev 同士に五目並べで対戦させた](https://zenn.dev/mizchi/articles/jev-plays-gomoku) `📚12` — Japanese; Jev against Jev at gomoku, with source and timing logs.
+- [malDuffin/typesafe-3d-chess](https://github.com/malduffin/typesafe-3d-chess) `★0 · 📚12` — 3D chess powered by TypeSafe AI (Jev). AI vs AI by default, or play either side. Multiple difficulty levels.
+- [memorysaver/jev-atari-lab](https://github.com/memorysaver/jev-atari-lab) `★0 · 📚12` — Challenge Atari with Jev: structured decisions, value questions, and replayable experiments
+- [onionminionops-beep/pdoom-protocol](https://github.com/onionminionops-beep/pdoom-protocol) `★0 · 📚12` — USER + JEV: P(DOOM) PROTOCOL — co-op platform shooter where TypeSafe Jev plays alongside you
+- [sc2musa/Jev_Star](https://github.com/sc2musa/jev_star) `★46 · 📚11` — JEV-Star - Real-time StarCraft II macro control in five configurations plus unit micromanagement, with a paper and recorded games.
+- [enoyola/jev-grand-prix](https://github.com/enoyola/jev-grand-prix) `★7 · 📚11` — An F1 racing game where TypeSafe's Jev picks the racing line and the pedals, and learns each corner's limit between laps
+- [hosseintoussi/jev-flappy-bird](https://github.com/hosseintoussi/jev-flappy-bird) `★4 · 📚11` — A live demo of TypeSafe's Jev model playing Flappy Bird, one flap-or-wait decision at a time.
+- [Amrit-Nigam/jev-royal](https://github.com/amrit-nigam/jev-royal) `★3 · 📚11` — jev-royal - Games & simulations (8): jev-plays-pokemon-red, jev-royal, beat-jev, f1, jev-atari-lab, jev-plays-pokemon, JevArena, naimono-lab.
+- [erhanmeydan/jev2048](https://github.com/erhanmeydan/jev2048) `★2 · 📚11` — TypeSafe'in Jev karar modeli gerçek bir online 2048 sitesinde oynuyor — hamle başına tek API çağrısı, tek anahtar.
+- [kspviswa/chakravyuha-jev](https://github.com/kspviswa/chakravyuha-jev) `★1 · 📚11` — Chakravyuha — a polar ring-maze where every move is a Jev (TypeSafe System One) decision. A fun experiment: the model picks each move, the walk grades it green or red, and the history page asks whether its confidence score can be trusted.…
+- [wquguru/dasheng](https://github.com/wquguru/dasheng) `★144 · 📚10` — 大声读 — R2T2 流式 ASR 听，Jev 逐词判，英文朗读评分.
+- [aurorainfra/grev](https://github.com/aurorainfra/grev) `★54 · 📚10` — Thinking coreutils.
+- [thelau/jev-tetris](https://github.com/thelau/jev-tetris) `★2 · 📚10` — A Tetris that a judgment model plays. The code finds every way the piece can land and writes each one as a sentence; JEV reads them and points at one. The board glows with its whole distribution before the piece falls.
+- [denikuchero/jev-chess-lab](https://github.com/denikuchero/jev-chess-lab) `★0 · 📚10` — Jev chess experiments: independent decisions vs tactical and Stockfish assistance, with full traces and video replays
+- [Hardel-DW/jev.mods](https://github.com/hardel-dw/jev.mods) `★0 · 📚10` — jev.mods — Minecraft mod where Jev tries to finish the game from scratch without a scripted route. _Java; ★ 0._
+- [Jev Room](https://jev-room.moe136231.chatgpt.site) `📚10` — Jev Room - One sentence → six room settings. Jev chooses, the app renders.
+
+## Established (cited by 5–9 lists) — 100
+
+- [NevaMind-AI/JevTown](https://github.com/nevamind-ai/jevtown) `★41 · 📚9` — jev based AI town simulation.
+- [AmoghCreator/doom-jev](https://github.com/amoghcreator/doom-jev) `★6 · 📚9` — doom-jev - A ViZDoom Agent that uses Jev to choose movement, targets and firing from structured game state.
+- [AMMIROSOH/jev-2048-selenium](https://github.com/ammirosoh/jev-2048-selenium) `★3 · 📚9` — Selenium 2048 player powered by expectimax search and TypeSafe Jev, with portrait FFmpeg recording.
+- [mansicer/jev-plays](https://github.com/mansicer/jev-plays) `★3 · 📚9` — A System One model (jev) plays Craftax; an LLM sets the goals
+- [jaibhasin/jev-flappy-bird](https://github.com/jaibhasin/jev-flappy-bird) `★2 · 📚9` — Jev and GPT-6 Luna race through the Flappy Bird Game
+- [MartinPuli/f1](https://github.com/martinpuli/f1) `★1 · 📚9` — JEV Prix: five AI drivers, unknown procedural circuits, Formula-inspired racing, BYOK Jev and saved replays.
+- [Jev is the fish at the poker table](https://backnotprop.com/blog/jev-poker) `📚9` — Blog: plays poker with Jev and uses the table to probe where a fast decision model helps and where it does not.
+- [zbloss/jev-plays-pokemon](https://github.com/zbloss/jev-plays-pokemon) `★0 · 📚9` — Like Claude Plays Pokemon, but with Jev.
+- [vinibrsl/gut](https://github.com/vinibrsl/gut) `★16 · 📚8` — Use LLM judgment in regular Elixir control flow.
+- [teknium1/hermes-and-jev-play-minecraft](https://github.com/teknium1/hermes-and-jev-play-minecraft) `★10 · 📚8` — Hermes Agent plans, Jev (TypeSafe) picks bounded actions, Mineflayer executes: Minecraft with no screenshots or keypresses from a model. Includes the reproduction of rmalde/minecraft-agent's Ender Dragon run.
+- [leftspace89/JevBird](https://github.com/leftspace89/jevbird) `★8 · 📚8` — Pygame Flappy Bird where Jev picks one of several simulated flight paths per pipe, with chosen and rejected paths drawn on screen. MIT · Python
+- [reinhard-z/vision-jev](https://github.com/reinhard-z/vision-jev) `★5 · 📚8` — Browser driving game that captions dropped road images locally, then uses Jev Choice answers to drive the car while code owns physics and timing.
+- [lavallee/mk-jev-fly-brain](https://github.com/lavallee/mk-jev-fly-brain) `★2 · 📚8` — A maleCNS fly-brain connectome fights a language model in mk.js — spiking simulation, dopamine learning, and the controls that say what each side contributes
+- [4esv/jev-mario](https://github.com/4esv/jev-mario) `★1 · 📚8` — TypeSafe Jev plays Super Mario Bros.
+- [Resadan-dev/jev-zork](https://github.com/resadan-dev/jev-zork) `★1 · 📚8` — Jev (TypeSafe System One) plays Zork I: one Choice per move over Jericho's valid actions, with its confidence on display. French dashboard.
+- [zebedelu/sudoku-vs-jev](https://github.com/zebedelu/sudoku-vs-jev) `★1 · 📚8` — A terminal Sudoku game where TypeSafe's Jev model plays the game, built to probe its decision-making move by move
+- [ARCJ137442/jev-life](https://github.com/arcj137442/jev-life) `★0 · 📚8` — The Chess of Life × Jev — an experimental game: write a new ruleset, then watch a decision model play it. \| 生命棋 × Jev：实验性游戏设计——写一套新规则，然后看 Jev 怎么玩
+- [cwdx/chess-with-jev](https://github.com/cwdx/chess-with-jev) `★0 · 📚8` — Chess with Jev: every legal move's facts worked out in code, Jev's move as one typed Choice. The Jev client (MIT) and chess engine (GPL-3.0) behind chriswijnia.com/lab/chess.
+- [jdhornsby/typesafe-jev](https://github.com/jdhornsby/typesafe-jev) `★0 · 📚8` — Python CLI that has Jev play chess against Stockfish under seven board encodings and reports per-move confidence for each. no license · Python
+- [QuicqDev/Jev-vs-ML](https://github.com/quicqdev/jev-vs-ml) `★17 · 📚7` — Jev-vs-ML.
+- [IAnMove/jev-game-agent](https://github.com/ianmove/jev-game-agent) `★4 · 📚7` — Experimental Jev game agent: RAM, emulator lookahead, checkpoint search and verified recordings. Bring your own ROM and BizHawk.
+- [newuser7171/jev-gamepilot](https://github.com/newuser7171/jev-gamepilot) `★4 · 📚7` — jev-gamepilot — No description provided by the repository (auto-discovered, description not yet written)
+- [vtrivedy/jev-plays-games](https://github.com/vtrivedy/jev-plays-games) `★3 · 📚7` — Chess, Connect Four, and a decision model. Play Jev or watch Jev play itself.
+- [Devonance/DoomSat](https://github.com/devonance/doomsat) `★2 · 📚7` — F´ flight software → CCSDS/Yamcs → Open MCT, with jev (System One) and Claude Sonnet 5 (System Two) driving Doom over that real mission stack.
+- [tanayvasishtha/Slither-Me-Jev](https://github.com/tanayvasishtha/slither-me-jev) `★2 · 📚7` — 8 AI snakes, 1 human, 1 arena. Every snake is driven live by TypeSafe's Jev, making all decisions in real time
+- [kw2828/OpenJev](https://github.com/kw2828/openjev) `★1 · 📚7` — Browser decision playground and reproducible experiments on memory, uncertainty, and Doom control
+- [lalitsonawane/jev-snake](https://github.com/lalitsonawane/jev-snake) `★1 · 📚7` — Snake autoplay powered by TypeSafe Jev (System One)
+- [marcelomar21/demo-tetris-jev](https://github.com/marcelomar21/demo-tetris-jev) `★1 · 📚7` — Tetris arcade jogado pelo Jev da TypeSafe AI, com decisões em JSON, antecipação de jogadas e custo por partida.
+- [amycardoso/jev-palette](https://github.com/amycardoso/jev-palette) `★0 · 📚7` — Semantic command palette (Ctrl+K) ranked by intent with TypeSafe Jev — one Choice call, the probability distribution IS the ranking
+- [asfarsadewa/werewolf](https://github.com/asfarsadewa/werewolf) `★0 · 📚7` — Werewolf against seven villagers whose suspicions are calibrated probabilities from TypeSafe Jev
+- [Jev Does Not Play Dice](https://kantahayashiai.github.io/posts/jev-does-not-play-dice) `📚7` — % probability, 19% accuracy on a hidden fair die roll - Independent calibration check on fair dice, coins and spinners, where the true probability is known exactly, and on synthetic forecast documents; Jev selects face…
+- [kentaro/jev-shogi](https://github.com/kentaro/jev-shogi) `★0 · 📚7` — 判定特化モデル Jev に将棋を指させる実験（ロリポップ！AIゲートウェイ経由）.
+- [mocchalera/naimono-lab](https://github.com/mocchalera/naimono-lab) `★0 · 📚7` — この世にないことばで遊ぶ、家族のためのJev言葉ゲーム.
+- [rolki-png/JevArena](https://github.com/rolki-png/jevarena) `★0 · 📚7` — Two Jev agents duel at Snake via Vercel AI Gateway.
+- [Shifty-Eye-Games/foreman-jev](https://github.com/shifty-eye-games/foreman-jev) `★0 · 📚7` — Experimental Jev supervisor for Codex workers via Vercel AI Gateway, with deterministic acceptance checks and read-only Azure PR review evidence.
+- [Eniip/jev-game-tools](https://github.com/eniip/jev-game-tools) `★14 · 📚6` — Experiments in driving real-time games with TypeSafe Jev: a fast ★ 11 · sdk · Python
+- [transitive-bullshit/doom-or-bloom](https://github.com/transitive-bullshit/doom-or-bloom) `★6 · 📚6` — Doom or Bloom: map your AI worldview and compare it to others.
+- [Embodied-AI-System/Qwen3.5-OneForward](https://github.com/embodied-ai-system/qwen3.5-oneforward) `★4 · 📚6` — Jev-style typed decisions from Qwen3.5-2B logits — one forward pass, zero decoding, zero fine-tuning.
+- [Bring-AI/jev-rl](https://github.com/bring-ai/jev-rl) `★3 · 📚6` — JEV Reinforcement Learning: four classic games trained with JEV-powered rewards, reproducible experiments and checkpoint replays.
+- [stbenjam/jevagotchi](https://github.com/stbenjam/jevagotchi) `★3 · 📚6` — A tiny virtual pet cared for by TypeSafe Jev through OpenRouter
+- [CarlosCaoLopez/HACKSPAIN-2026](https://github.com/carloscaolopez/hackspain-2026) `★2 · 📚6` — Taiafox filters a hundred incoming messages down to the three that matter, coordinates responders by voice, and re-plans in under a second when the fire turns.
+- [southleft/component-charades](https://github.com/southleft/component-charades) `★2 · 📚6` — A Taboo-style parlour game for design systems, refereed by Jev (TypeSafe System One model)
+- [beingcognitive/jev-go](https://github.com/beingcognitive/jev-go) `★1 · 📚6` — Can you beat Jev at Gomoku, Go or chess? Play TypeSafe's System One decision model on Cloudflare Pages, with every API call shown, a hall of fame and replays.
+- [hazlema/jev-connect4](https://github.com/hazlema/jev-connect4) `★1 · 📚6` — Connect 4, Jev vs. Human or Jev vs. Jev.
+- [igrejaborabora/lus222-jev-challenge](https://github.com/igrejaborabora/lus222-jev-challenge) `★1 · 📚6` — SAAM · JEV Decision Demo — drone FPV, três pilotos, Vercel AI Gateway
+- [j341nono/jev-prompt-optimization](https://github.com/j341nono/jev-prompt-optimization) `★1 · 📚6` — automatically optimizing the instructions and decision criteria of TypeSafe Jev Choice from labeled data
+- [mhoenes/sortroom](https://github.com/mhoenes/sortroom) `★1 · 📚6` — Self-hosted IMAP mail sorter: a classification model (any TypeSafe API service, e.g. Jev) files new mail into your folders, stars what needs action and tracks expiring offers. Docker image with a web admin UI.
+- [tirukovelamanoj/jev-plays-doom](https://github.com/tirukovelamanoj/jev-plays-doom) `★1 · 📚6` — A System One model driving the game through structured state, no pixels.
+- [Vankleben/jev-arm-lab](https://github.com/vankleben/jev-arm-lab) `★1 · 📚6` — Typed-judgment model (TypeSafe Jev) driving task-level decisions on a simulated xArm7: reliability measurements, failure map, sensor-freshness gate
+- [1 Million Emojis](https://chriswijnia.com/lab/emoji) `📚6` — A shared 1000 × 1000 emoji canvas, live for everyone; after each stroke Jev picks a square next to it and its emoji as one Choice (source)
+- [fooSynaptic/jev-any-llm](https://github.com/foosynaptic/jev-any-llm) `★0 · 📚6` — Wrap any instruct LLM into Jev-mode prediction — and make those decisions SUPER fast.
+- [Jev Chess](https://jevchess.com) `📚6` — One shared board, the internet vs Jev; every legal move is one Choice question, probabilities shade the pieces, live calibration panel scores every move.
+- [joaoh82/coffee-under-fire](https://github.com/joaoh82/coffee-under-fire) `★0 · 📚6` — Coffee Under Fire: a free browser shooter with NPC tactics powered by TypeSafe AI’s Jev model. Play at https://coffee.yardsort.sh/
+- [keepwonder/jev-hub](https://github.com/keepwonder/jev-hub) `★0 · 📚6` — Jev / TypeSafe AI 中文跟踪与文档聚合站.
+- [metrox-eth/moss-jev](https://github.com/metrox-eth/moss-jev) `★0 · 📚6` — MOSS × Jev: a recorded-run 3D demo of the litter-picking rover choosing targets with TypeSafe's Jev decision model.
+- [site](https://indispensable-lingonberry-hot.julius.site) `📚6`
+- [site](https://jev.phureewat.com) `📚6`
+- [site](https://killmyidea.stemonte.io) `📚6` — no license · TypeScript · live
+- [tatsuya-tech77/umigame-jev](https://github.com/tatsuya-tech77/umigame-jev) `★0 · 📚6` — Sea Turtle Soup (lateral-thinking yes/no riddles) where the game master is Jev, a decision-only AI that returns probabilities instead of text. Humans vs Claude & GPT.
+- [zebedelu/chess-vs-jev](https://github.com/zebedelu/chess-vs-jev) `★0 · 📚6` — A pygame chess game with Jev as the AI opponent. Play Human vs Human, Human vs Jev, or watch Jev vs Jev.
+- [tinnel123666888/OmniJev](https://github.com/tinnel123666888/omnijev) `★125 · 📚5` — OmniJev - Omni-modal decision model from Beijing Zhongguancun Academy and CASIA: typed questions about images, video, screens and robot scenes, with weights on Hugging Face.
+- [CharlesFeng0314/JEV_sees](https://github.com/charlesfeng0314/jev_sees) `★22 · 📚5` — Eyes are All JEV Needs - real time visual devisions from RGB, video and RGB-D cameras.
+- [amigos-robot/amigos-jev](https://github.com/amigos-robot/amigos-jev) `★6 · 📚5` — a free multi-modal jev API for everyone.
+- [smartaces/jev-plays-streetfighter-2](https://github.com/smartaces/jev-plays-streetfighter-2) `★6 · 📚5` — jev-plays-streetfighter-2 - Lets Jev play Ryu in Street Fighter II on a Genesis emulator from structured RAM observations, with a local dashboard of what it sees and chooses. #game
+- [npipeline/NPipeline](https://github.com/npipeline/npipeline) `★5 · 📚5` — High-performance, streaming data pipelines for .NET
+- [olivier-motium/jev-doom](https://github.com/olivier-motium/jev-doom) `★2 · 📚5` — Watch Jev play Freedoom in a local dashboard. TypeSafe direct and Vercel AI Gateway, inspectable decisions, and bounded spending.
+- [alexmeckes/jev-the-spire](https://github.com/alexmeckes/jev-the-spire) `★1 · 📚5` — Watch TypeSafe Jev play Slay the Spire 2, with a local decision dashboard and offline evaluations.
+- [carlaiau/can-jev-play](https://github.com/carlaiau/can-jev-play) `★1 · 📚5` — Can Jev infer whether a bet is worthwhile from its payout table, and do recent wins or losses sway that choice
+- [Eliot5566/jev-arena](https://github.com/eliot5566/jev-arena) `★1 · 📚5` — Write a fighter in plain English. Jev pilots it in real time. PR-driven ladder, swappable brains.
+- [Hldwsd/minesweeper-jev](https://github.com/hldwsd/minesweeper-jev) `★1 · 📚5` — Minesweeper where deterministic logic does the provable work and TypeSafe Jev is consulted only when the board forces a guess.
+- [shantanugoel/tetris-ai](https://github.com/shantanugoel/tetris-ai) `★1 · 📚5` — Browser Tetris with a first-class AI API: play it with a built-in planning agent, TypeSafe's Jev decision model, or any OpenAI-compatible chat model
+- [Zafer-Liu/jev-xiangqi](https://github.com/zafer-liu/jev-xiangqi) `★1 · 📚5` — Play Chinese Chess (Xiangqi) against Jev - TypeSafe System One decision model as the AI. Score fan-out over legal moves.
+- [4esv/jev-joust](https://github.com/4esv/jev-joust) `★0 · 📚5` — Two TypeSafe Jevs duel in NES Joust.
+- [blakeandrewwood/jev-goal-reflex](https://github.com/blakeandrewwood/jev-goal-reflex) `★0 · 📚5` — Steer a 3D box with plain-language goals: an LLM (System 2) plans each instruction, TypeSafe Jev (System 1) makes every move, turn and jump decision in real time. Three.js + TypeScript.
+- [chahero/tetris-jev](https://github.com/chahero/tetris-jev) `★0 · 📚5` — Watch TypeSafe Jev play Tetris. Live API vs offline heuristic, with recorded demos and reproducible runs.
+- [gregjonesio/jev-nfl](https://github.com/gregjonesio/jev-nfl) `★0 · 📚5` — Before every NFL snap, a decision-only AI model (TypeSafe Jev) calls run or pass and go/punt/kick on fourth down, graded live against the coach.
+- [HomenShum/jev-swap](https://github.com/homenshum/jev-swap) `★0 · 📚5` — Claude Code skill: swap System 2 LLM pipeline components for System 1 TypeSafe Jev decisions via investigation, live three-arm eval, fallback, and an independent judge
+- [Jev Arcade](https://jev-arcade.vercel.app/duel) `📚5` — jev-arcade · AppTwo browser games against a live Jev opponent: a Krunker-style 1v1 arena duel and a neon survival challenge.
+- [Jev Chess (loomens)](https://chess-jev.loomens.com) `📚5` — chess-jev (post) - 3D chess where Jev plays both sides, or you jump in.
+- [Jev Plays](https://jevboardgames.everpaper.app) `📚5` — everpaper · AppTic-tac-toe and Connect Four against Jev, where the model picks each move and the code enforces the rules.
+- [jev-fit](https://jev-fit.com) `📚5` — Developer tooling: sends a software idea through a fixed Jev rubric that chooses plain code, Jev, or a reasoning LLM, returning “not sure” when confidence is low.
+- [jkalend/jev-realms](https://github.com/jkalend/jev-realms) `★0 · 📚5` — Terminal ASCII RPG where every NPC thinks with Jev (TypeSafe AI System One) — design draft
+- [joshbla/jev-plays-2048](https://github.com/joshbla/jev-plays-2048) `★0 · 📚5` — A visible 2048 experiment powered by TypeSafe.
+- [knowlet/agentworld-web-simulator](https://github.com/knowlet/agentworld-web-simulator) `★0 · 📚5` — An entire internet — search, pages & links — hallucinated on the fly by the System One Model.
+- [manhua-man/jev-pilot-reflex](https://github.com/manhua-man/jev-pilot-reflex) `★0 · 📚5` — Three.js Autonomous Driving Reflex & AI Safety Brake Simulator powered by TypeSafe Jev System 1/2 Dual-Brain Architecture
+- [meetr1912/jev-sonar](https://github.com/meetr1912/jev-sonar) `★0 · 📚5` — TypeSafe Jev plays Battleship: one ~100-question typed fan-out per turn returns a calibrated hit-probability heatmap that is also the move policy.
+- [mizuamedesu/SuperTuxKart-Jev](https://github.com/mizuamedesu/supertuxkart-jev) `★0 · 📚5` — SuperTuxKart-Jev - SuperTuxKart fork with a local controller that lets Jev drive the kart. ★ 0.
+- [monotykamary/jev-fabric](https://github.com/monotykamary/jev-fabric) `★0 · 📚5` — Native process orchestration with typed, explicit Jev decisions. One Bend executable owns your processes, keeps bounded logs, and asks Jev only when told. Agent skill + curl install.
+- [muratcanberber/JEV-TheFishGame](https://github.com/muratcanberber/jev-thefishgame) `★0 · 📚5` — 🐠 A multiplayer fish game where every AI decision is a TypeSafe Jev (System One) call — flee, hunt, roam, with live confidence bars. Node + WebSocket + Three.js.
+- [OuchengLiu/Jev-Game-Theory-Arena](https://github.com/ouchengliu/jev-game-theory-arena) `★0 · 📚5` — Play poker, liar's dice, prisoner's dilemma and more against Jev, TypeSafe's System One model. It reads the situation and returns a probability for each legal move: a live mixed strategy. Bilingual EN/中文, runs in the browser. Educational,…
+- [planstack-ai/jev-tetris-benchmark](https://github.com/planstack-ai/jev-tetris-benchmark) `★0 · 📚5` — Reproducible Tetris decision benchmark comparing TypeSafe Jev with Claude Haiku
+- [Sayangenri/jev-adventure-game](https://github.com/sayangenri/jev-adventure-game) `★0 · 📚5` — A visual AI powered text adventure where every outcome is decided by Jev TypeSafe's structured decision model.
+- [site](https://xiechengyuan.github.io/jev-gomoku) `📚5` — Demo material: Author recorded-game replay. Original author material, linked only; not SeeAPI test results.
+- [site](https://gate.fade.tools) `📚5`
+- [site](https://rubikjev.solo.engineer) `📚5`
+- [site](https://vnmoorthy.github.io/siege) `📚5`
+- [site](https://jev-gamecast.vercel.app) `📚5`
+- [site](https://jevplay.vercel.app) `📚5`
+- [site](https://kikoncuo.github.io/jevfire) `📚5`
+- [SongMarco/jev-jstris](https://github.com/songmarco/jev-jstris) `★0 · 📚5` — Jev chooses Tetris placements; a local controller plays Jstris through keyboard input.
+
+## Emerging (cited by 3–4 lists) — 162
+
+- [0mis/astra-jev-new-vegas](https://github.com/0mis/astra-jev-new-vegas) `📚4` — An experimental Astra + Typesafe Jev Fallout: New Vegas project: read-only game observations, typed
+- [ASV-Labs/ask-jev-series](https://github.com/asv-labs/ask-jev-series) `📚4` — Ask for the night you want. TypeSafe Jev weighs every flagship series on Netflix, Prime, Disney+, Ma
+- [azalio/doomLaya](https://github.com/azalio/doomlaya) `📚4` — Laya and Jev play FreeDoom with model-owned decisions, reproducible training, and latency/cost telemetry.
+- [bchaney/jev_speedway](https://github.com/bchaney/jev_speedway) `📚4` — Uses jev to control race cars on a virtual track Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [bebe0307mz/jevs-kitchen-chaos](https://github.com/bebe0307mz/jevs-kitchen-chaos) `📚4` — D Overcooked-style AI benchmark: four chefs driven per-decision by the Jev decision model or fronti
+- [caiovicentino/eikos-arena](https://github.com/caiovicentino/eikos-arena) `📚4` — Eikos-27B vs Jev: live paper trading on Hyperliquid. Real prices, simulated money, rules hashed before the start.
+- [CATS-Lab/JEV-Drive](https://github.com/cats-lab/jev-drive) `📚4` — Structured-state driving with the official TypeSafe JEV API and AlpaSim.
+- [CeciliaW888/jev-town](https://github.com/ceciliaw888/jev-town) `📚4` — A 3D town where 50 AI citizens each decide how to react to your broadcast, in parallel, in under a second - p…
+- [cedrecs/jev-yarn](https://github.com/cedrecs/jev-yarn) `📚4` — Y.A.R.N. inspired party game - everyone writes the next line in the story! TypeSafe's Jev (AI) judges your su…
+- [chahero/driving-jev](https://github.com/chahero/driving-jev) `📚4` — Watch TypeSafe Jev make highway driving decisions. Includes live API and offline gameplay previews.
+- [CharryLee0426/jev-test](https://github.com/charrylee0426/jev-test) `📚4` — Testing TypeSafe's Jev model on real-time browser games (flappybird.io, play.tetris.com)
+- [codaaiteam/jev-pacman](https://github.com/codaaiteam/jev-pacman) `📚4` — You drive Pac-Man; Jev — TypeSafe AI's decision model — drives the ghosts hunting you, one real typed decision per turn. Single-file, ...
+- [dagfinndybvig/Fight](https://github.com/dagfinndybvig/fight) `📚4` — Fight — An arcade style fighting game controllable by Jev (auto-discovered, description not yet written)
+- [Davidcreador/pi-dcp](https://github.com/davidcreador/pi-dcp) `📚4` — The experimental Jev path scores completed context payloads so users can review and approve what remains available to the agent.
+- [Ege-BULUT/jev-play-games](https://github.com/ege-bulut/jev-play-games) `📚4` — jev-play-games - Watch TypeSafe's Jev model play browser games live, with the odds of every move on screen. · TypeScript
+- [ella0333/jev-slot-machine](https://github.com/ella0333/jev-slot-machine) `📚4` — jev-slot-machine - Jev plays a slot machine until the money runs out. The local version of jevslots.live. · JavaScript
+- [ericmartinezr/are-you-smarter-than-jev](https://github.com/ericmartinezr/are-you-smarter-than-jev) `📚4` — A small app to test Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [filippos95/cybercab-jev](https://github.com/filippos95/cybercab-jev) `📚4` — cybercab-jev - filippos95/cybercab-jev - Three.js robotaxi game where TypeSafe's Jev model makes the driving decisions.
+- [fortemate/dicechess-bot-jev](https://github.com/fortemate/dicechess-bot-jev) `📚4` — Experimental Dice Chess webhook bot powered by TypeSafe Jev, with adaptive legal-turn selection and no heuristic pre-ranking.
+- [Game Plan](https://game-plan.adriaansendennis.workers.dev/play) `📚4` — Small game that tests how Jev handles unknown input (post)
+- [gamesonrblx/JevML](https://github.com/gamesonrblx/jevml) `📚4` — JevML - Reusable machine-learning primitives for Jev, including PCA, MCMC, text diffusion, neural cellular automata, and a task harness that picks the right tool. #research
+- [gaunasahoo/Jev-Model-Direct-Approach](https://github.com/gaunasahoo/jev-model-direct-approach) `📚4` — Jev Model Direct Approach-Reinforcement Learning for Calibrated Decisions (RLCD).
+- [gkvoelkl/rust-bevy-jev-ants](https://github.com/gkvoelkl/rust-bevy-jev-ants) `📚4` — An ant colony where every ant asks Game: TypeSafe Jev what to do next — you are the queen, and your only ...
+- [golergka/jev-plays-starcraft-2](https://github.com/golergka/jev-plays-starcraft-2) `📚4` — An experiment in fast, probabilistic decisions. Jev chooses actions; Python handles ★ 1 · model_id · Python
+- [greenlittleapple/jev-game-lab](https://github.com/greenlittleapple/jev-game-lab) `📚4` — Slay the Spire 2 agent: TypeSafe Jev picks each move, a Claude Code session plans the run as strategist
+- [HamsterPark/Jev-Huarongdao](https://github.com/hamsterpark/jev-huarongdao) `📚4` — Watch Jev AI play the classic Huarong Dao sliding puzzle
+- [harlanljones/sabr-jev](https://github.com/harlanljones/sabr-jev) `📚4` — Season stats lie by omission. Sabr-Jev grades Batter\
+- [Haslab-dev/pandu-jev](https://github.com/haslab-dev/pandu-jev) `📚4` — Pandu, is mini Jev model, inspired by Jev. Tiny policy models for fast, local, uncertainty-aware decisions in closed-loop AI environments.
+- [HsiangNianian/GlyphWeave](https://github.com/hsiangnianian/glyphweave) `📚4` — GlyphWeave - Infinite-canvas ASCII roguelike tilemap editor with multi-layer editing, preset rooms, and real-time map generation via Jev or DeepSeek. #game
+- [JackZH26/Jev-Live](https://github.com/jackzh26/jev-live) `📚4` — Open-source Windows studio for Steam games: local AI host, editable avatars/chat, manual or JEV-assisted play…
+- [jevchess.xera.ac](https://jevchess.xera.ac) `📚4` — Hosted demo — site-lent keys with daily caps, or bring your own TypeSafe/OpenRouter keys.
+- [jevtown.ivanhabor.com](https://jevtown.ivanhabor.com) `📚4` — Jevtown — Town of 10,000 computed personas that reads a post, listing, product, or headline: one opening request scores the text against about 60 audience attributes, 83 for a listing or a product, plus seven moderation…
+- [JiaQiSJTU/CanITrustU-Jev](https://github.com/jiaqisjtu/canitrustu-jev) `📚4` — CanITrustU-Jev — No description provided by the repository (auto-discovered, description not yet written)
+- [makiisthenes/JevAIExperimentation](https://github.com/makiisthenes/jevaiexperimentation) `📚4` — Learning about Jev, Typesafes flagship structured decision model.
+- [Manta-Boardgame/jev-chat](https://github.com/manta-boardgame/jev-chat) `📚4` — Ask questions about your documents and get answers with probabilities. Windows & Android app for Jev
+- [mariobgsp/trading-jev](https://github.com/mariobgsp/trading-jev) `📚4` — Momentum screen for the IDX gorengan band. A model decides the entry; a journal scores whether it was right.
+- [matthewman/jev-snake](https://github.com/matthewman/jev-snake) `📚4` — jev-snake - matthewman/jev-snake - Jev plays Snake, with recorded games, replay, and experiments.
+- [n0nuser/battlesnake-jev](https://github.com/n0nuser/battlesnake-jev) `📚4` — A Battlesnake in Go where deterministic code owns tactics and a TypeSafe Jev classifier gets the judgment cal…
+- [pedroarruda07/jev-plays-tetris](https://github.com/pedroarruda07/jev-plays-tetris) `📚4` — jev-plays-tetris - Automating Tetris with Jev \(TypeSafe AI\) · TypeScript
+- [phuhao00/jev-behavior-tree](https://github.com/phuhao00/jev-behavior-tree) `📚4` — Game intuition service that uses typesafe-ai/jev instead of a behavior tree.
+- [pokertools-arena/pokertools-arena.github.io](https://github.com/pokertools-arena/pokertools-arena.github.io) `📚4` — A browser-first AI poker benchmark. Seat Jev and OpenAI-compatible models at the same no-limit Texas Hold'em …
+- [qualiteg/jev-typesafe-demo](https://github.com/qualiteg/jev-typesafe-demo) `📚4` — Sample code for the Qualiteg Blog article: Jev (TypeSafe AI) hands-on, 244 API calls measured from Python
+- [sabamen88/poker-theory-knowledge-base](https://github.com/sabamen88/poker-theory-knowledge-base) `📚4` — Comprehensive poker game theory knowledge base, instruction-tuning dataset, and TypeSafe AI (Jev) ev
+- [scavin/Jev-2048](https://github.com/scavin/jev-2048) `📚4` — Jev-2048 - Jev-2048: TypeSafe Jev ecosystem repository. · Python
+- [shaunie2fly/jev-8-ball-oracle](https://github.com/shaunie2fly/jev-8-ball-oracle) `📚4` — jev-8-ball-oracle - The Jev System 1 Oracle — Victorian steampunk Magic 8-Ball powered by TypeSafe AI's Jev model · HTML
+- [shubhangi013/prompt-oscilloscope](https://github.com/shubhangi013/prompt-oscilloscope) `📚4` — prompt-oscilloscope - Analyze prompts with TypeSafe Jev before GitHub Copilot · TypeScript
+- [site](https://beatjev2it.jlamberts86.workers.dev) `📚4`
+- [site](https://devfolioco.github.io/t-rex-runner-game) `📚4`
+- [tatsuo48/jev-poc](https://github.com/tatsuo48/jev-poc) `📚4` — Games robotics and simulations
+- [tripodxu/board-games](https://github.com/tripodxu/board-games) `📚4`
+- [Tsagaanbayr1/jev-tetris](https://github.com/tsagaanbayr1/jev-tetris) `📚4` — Real-time Tetris versus Jev, a TypeSafe decision model — spins, garbage, B2B chains, and decisions prefetched…
+- [TypeSafe Jev played chess](https://dev.to/maximsaplin/typesafe-jev-played-chess-and-landed-next-to-reasoning-models-28ga) `📚4` — TypeSafe Jev played chess (and landed next to reasoning models) - Maxim Saplin constrains chess to legal-move Choices.
+- [usail-hkust/JevLight](https://github.com/usail-hkust/jevlight) `📚4` — JevLight — Jev-powered traffic signal control on CityFlow with structured phase and green-time decisions.
+- [vamsi243/JEVChess](https://github.com/vamsi243/jevchess) `📚4` — JEVChess is an elegant, minimal chess platform designed around the chess.com aesthetic, It delivers
+- [VBS2004/jev-plays-super-mario-bros](https://github.com/vbs2004/jev-plays-super-mario-bros) `📚4` — AI agent that plays Super Mario Bros with TypeSafe Jev - a typed decision model reading NES RAM inst
+- [viraatdas/league-of-jev](https://github.com/viraatdas/league-of-jev) `📚4` — league-of-jev — play league of legends with jev (auto-discovered, description not yet written)
+- [vishxrad/clashroyale-jev](https://github.com/vishxrad/clashroyale-jev) `📚4` — Jev plays Clash Royale with Qwen battlefield vision, local OpenCV HUD recognition, and a live decision dashboard.
+- [yldm-tech/loom](https://github.com/yldm-tech/loom) `📚4` — Generate a landing page from one sentence: an LLM writes the copy, Jev makes the judgement calls, code owns t…
+- [YueBit/robodiag-harness](https://github.com/yuebit/robodiag-harness) `📚4` — Agente de diagnóstico de IA para robôs ROS 2 — baseado em evidências, chamada de ferramentas e com proteção de segurança.
+- [ajmeese7/jev-chess](https://github.com/ajmeese7/jev-chess) `📚3` — jev-chess - Using Jev as a chess engine · TypeScript
+- [AkiraWinds/jev-game](https://github.com/akirawinds/jev-game) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [amazedsaint/jevduck](https://github.com/amazedsaint/jevduck) `📚3` — A research simulator for Jev decisions over Microduck robots in shared MuJoCo physics.
+- [aoprisan/tavern-brawl](https://github.com/aoprisan/tavern-brawl) `📚3` — tavern-brawl - tavern-brawl: TypeSafe Jev ecosystem repository. · Rust
+- [ArturSkowronski/kNES](https://github.com/arturskowronski/knes) `📚3` — NES — Gaming: drives Super Mario Bros. and Final Fantasy through a local Jev-compatible interface that chooses only from the goals valid on each turn.
+- [asfarsadewa/orders](https://github.com/asfarsadewa/orders) `📚3` — A command game where the enemy is what people think you meant. Orders in your own words, measured by
+- [Baba88611/detroit-ai-player](https://github.com/baba88611/detroit-ai-player) `📚3` — Jev uses one typed Choice question to select each narrative action from the options available at a Detroit: Become Human decision node.
+- [bogusweb/ship-game-with-jev](https://github.com/bogusweb/ship-game-with-jev) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [BrunoMS0/Blind-Spot](https://github.com/brunoms0/blind-spot) `📚3` — Turn-based tactical pixel art game: a nighttime museum heist where Jev (TypeSafe AI) controls the gu
+- [CankatSarac/jev-arcade](https://github.com/cankatsarac/jev-arcade) `📚3` — Can a System One model play arcade games? TypeSafe's Jev plays Tetris, Snake and 2048 — benchmarked
+- [Chess with Jev](https://chriswijnia.com/experiments/chess) `📚3` — Chess and Chess960 in the browser: code works out each legal move's facts and Jev picks one per turn as a single Choice, with its candidates drawn as arrows (source)
+- [chy4pro/jev-realtime-sdk](https://github.com/chy4pro/jev-realtime-sdk) `📚3` — Continuous actions driven by TypeSafe Jev: a code-owned inner tick, a Jev-owned decision tick, and t
+- [codaaiteam/jev-companion-arena](https://github.com/codaaiteam/jev-companion-arena) `📚3` — Fight beside a Jev-controlled AI teammate that decides its own move (attack/defend/follow/retreat) e
+- [codaaiteam/jev-semantic-racer](https://github.com/codaaiteam/jev-semantic-racer) `📚3` — Type words that fit a clue; Jev scores each and your car races ahead. Single-file, no build. Play fr
+- [codaaiteam/jev-wikiracer](https://github.com/codaaiteam/jev-wikiracer) `📚3` — You vs Jev: race across Wikipedia by clicking links; Jev picks the closest of dozens each hop, one r
+- [CodingAbdullah/jev-agent-chess](https://github.com/codingabdullah/jev-agent-chess) `📚3` — Utilizes Jev (System One model) for chess gameplay.
+- [colisys/agid](https://github.com/colisys/agid) `📚3`
+- [dagfinndybvig/Chess](https://github.com/dagfinndybvig/chess) `📚3` — A simple chess game where White is played by Jev, TypeSafe AI System One decision model
+- [damienen/slop-alarm](https://github.com/damienen/slop-alarm) `📚3` — slop-alarm - Free, bring-your-own-key Chrome extension that estimates whether text was written by AI, using TypeSafe's Jev decision model. No server. · TypeScript
+- [dbssman/jev-snake](https://github.com/dbssman/jev-snake) `📚3` — Snake auto-played by TypeSafe's Jev System One model: one typed decision call per tick, code owns le
+- [ddbatista/jev-lab](https://github.com/ddbatista/jev-lab) `📚3` — LLM-as-judge calibration for agent tool-call gating -- measured, not asserted: n=20 hostile/benign, AUROC 0.973, error-direction analysis.
+- [Didixdan/jev-games-poc](https://github.com/didixdan/jev-games-poc) `📚3` — Many games resolved using Typesafe AI SystemOne model
+- [dngames/JevChess](https://github.com/dngames/jevchess) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) `📚3` — Outlines - Structured generation that constrains a model to a grammar, regex, or JSON schema, so invalid output is impossible.
+- [DragosTana/JEV-FC](https://github.com/dragostana/jev-fc) `📚3` — Learning resources and directories
+- [elyashium/atlas-replay-lab](https://github.com/elyashium/atlas-replay-lab) `📚3` — capability-aware quality ladder, a privacy-safe trace recorder, deterministic replay, and with an all new Jev…
+- [EnesYilmazcode/FlyJevPong](https://github.com/enesyilmazcode/flyjevpong) `📚3` — A simulated fruit fly brain and TypeSafe AI's Jev play Pong against each other
+- [gbesse/jev-bluffcall](https://github.com/gbesse/jev-bluffcall) `📚3` — jev-bluffcall - Host a local two-truths-and-a-lie party game where Jev is a finite-choice guest. · JavaScript
+- [gbesse/jev-meetingpulse](https://github.com/gbesse/jev-meetingpulse) `📚3` — jev-meetingpulse - Watch a growing text transcript and update declared meeting signals with exact quoted lines. · JavaScript
+- [gbesse/jev-unreal-statetree](https://github.com/gbesse/jev-unreal-statetree) `📚3`
+- [gbesse/unity-jev-behavior](https://github.com/gbesse/unity-jev-behavior) `📚3` — Guarded asynchronous decision nodes for Unity Behavior, using a server-side DecisionPacks gateway.
+- [GiladR1979/jev-dino](https://github.com/giladr1979/jev-dino) `📚3` — jev-dino - JEV action selection at 10 Hz meets original Chromium Dino physics. 13,724 points, 1080p60 recording, and auditable evidence.
+- [HamsterPark/Jev-Xiangqi](https://github.com/hamsterpark/jev-xiangqi) `📚3` — Play Chinese chess against Jev AI in the browser
+- [harlanljones/jev-experiments](https://github.com/harlanljones/jev-experiments) `📚3` — jev-experiments - jev-experiments: TypeSafe Jev ecosystem repository. · JavaScript
+- [harlanljones/jev-roster-shapes](https://github.com/harlanljones/jev-roster-shapes) `📚3` — Interactive workspace for comparing baseball roster acquisitions — positional coverage, playing-time transfer…
+- [HengyuLi-Ozaki-lab/kite_population_simulator](https://github.com/hengyuli-ozaki-lab/kite_population_simulator) `📚3` — ITE: population experiments on a typed behavioral kernel (Jev) with sparse flagship-LLM calibration and propagated human-model discrepancy
+- [Himanshutadse114/honeytrap](https://github.com/himanshutadse114/honeytrap) `📚3` — Honeytrap: a multiplayer social-engineering trap game. Jev (TypeSafe AI) plays the attacker - pickin
+- [Hu-xiao-max/jev_robot](https://github.com/hu-xiao-max/jev_robot) `📚3` — Jev Robot - Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a Jev-style typed-choice interface while the target moves, with deterministic checks allowed to reject a choice…
+- [hussainanjar/play-with-jev](https://github.com/hussainanjar/play-with-jev) `📚3` — One arcade: Heist, Chess, and Minesweeper with TypeSafe Jev through Vercel AI Gateway.
+- [imom39a/jev-playground](https://github.com/imom39a/jev-playground) `📚3` — jev-playground - imom39a/jev-playground - Local JEV experiments: route decisions, Minesweeper solvers, and drone simulation.
+- [IzumiSatoshi/vox-arcana](https://github.com/izumisatoshi/vox-arcana) `📚3` — Voice-cast magic arena game. Speak or type incantations, powered by Jev, with local interpretation options.
+- [izzuddin8803/jev-showdown](https://github.com/izzuddin8803/jev-showdown) `📚3` — jev-showdown - Jev plays Pokemon Showdown: 40 battles, 940 decisions, reproducible results, and an annotated replay. · Python
+- [jamescazzetta/five-lines](https://github.com/jamescazzetta/five-lines) `📚3` — five-lines - Use Jev to review a PR diff against the ten rules of Five Lines of Code · Rust
+- [jjjjuuudde/jev-ad-blocker](https://github.com/jjjjuuudde/jev-ad-blocker) `📚3` — Chrome extension that describes rendered page elements to Jev in batches and hides the ones it is confident are ads, with popup review and cost display. MIT · JavaScript
+- [joaovaleri/ruleworld](https://github.com/joaovaleri/ruleworld) `📚3` — ruleworld - Write a rule. Change the physics. A Portuguese open-source game powered by TypeSafe Jev. · TypeScript
+- [JoelLewis/game-coach](https://github.com/joellewis/game-coach) `📚3` — Browser chess coach on Cloudflare: Stockfish owns truth, Jev owns judgment
+- [JonusNattapong/jev-my-bro](https://github.com/jonusnattapong/jev-my-bro) `📚3`
+- [kairugakuo2/jev-arena](https://github.com/kairugakuo2/jev-arena) `📚3` — Small local projects built on Vercel's Jev model: a real-time AI fighting game and a live hotter/colder codin…
+- [KenWuqianghao/jev-fighting-games](https://github.com/kenwuqianghao/jev-fighting-games) `📚3` — Jev (TypeSafe AI) plays FOOTSIES and Street Fighter III: 3rd Strike in real time from live game state
+- [KeWang0622/jev-board-game](https://github.com/kewang0622/jev-board-game) `📚3` — Belief as a primitive: instrumenting social-deduction games (Undercover, Werewolf, Avalon) with TypeSafe's ca…
+- [kinfi4/jev-fast-jumping-slow](https://github.com/kinfi4/jev-fast-jumping-slow) `📚3` — jev-fast-jumping-slow - Add Jev platformer: System 1 model plays a pygame game · Python
+- [KouyamaCreate/jevtetris](https://github.com/kouyamacreate/jevtetris) `📚3` — jevtetris - jevtetris: TypeSafe Jev ecosystem repository. · TypeScript
+- [KrzysztofStaron/jev-games](https://github.com/krzysztofstaron/jev-games) `📚3` — TypeSafe Jev plays Guideline Tetris through Vercel AI Gateway.
+- [Kundhan73/jev-poker-tutor](https://github.com/kundhan73/jev-poker-tutor) `📚3` — No-Limit Hold'em tutor where TypeSafe AI's Jev reads opponents and recommends moves. Solo vs bots or multiplayer rooms on Cloudflare.
+- [lancejohnson/pi-jev-thinking](https://github.com/lancejohnson/pi-jev-thinking) `📚3` — pi extension: TypeSafe Jev picks the thinking level for each prompt
+- [MarcosSete/jev-doom](https://github.com/marcossete/jev-doom) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [MartianInGreen/NoYouDoNot](https://github.com/martianingreen/noyoudonot) `📚3` — NoYouDoNot - Tools for stopping doom scrolling and engaging more productively on the web using TypeSafeAI's Jev Model · JavaScript
+- [masonweb3/liuyao](https://github.com/masonweb3/liuyao) `📚3` — Other related projects
+- [matejgordon/ha-jev-conversation](https://github.com/matejgordon/ha-jev-conversation) `📚3` — Czech Home Assistant Assist agent on TypeSafe Jev: typed decisions in ~300 ms, confirmations for loc
+- [matiasbinagora/tetris-jev](https://github.com/matiasbinagora/tetris-jev) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [memeshee/nansen-league](https://github.com/memeshee/nansen-league) `📚3` — A Telegram game where you draft proven smart-money wallets into weekly rounds settled on live Nansen PnL — pl…
+- [moedesux/tic-tac-toe-jev](https://github.com/moedesux/tic-tac-toe-jev) `📚3`
+- [MohGanji/tweet-watercolour](https://github.com/mohganji/tweet-watercolour) `📚3` — Paints every tweet with a watercolour wash mixed from the mood of its words — Bitframes palette, coloured by TypeSafe AI's Jev
+- [nft-syou/jev-poker](https://github.com/nft-syou/jev-poker) `📚3` — No-Limit Texas Hold'em where the CPU players think with TypeSafe Jev. Bring your own API key.
+- [nicksonthc/jev-lamplight-house](https://github.com/nicksonthc/jev-lamplight-house) `📚3` — A cottage in React Three Fiber whose eleven working parts are judged, as you flip them, by typesafe-ai/jev — an evaluation model ...
+- [nikhil1raghav/jev-playground](https://github.com/nikhil1raghav/jev-playground) `📚3` — Toy projects testing Jev (TypeSafe System One): snake autopilot, Todoist sorter, HN re-ranker, Dange
+- [Ode98/guessing-game-v2](https://github.com/ode98/guessing-game-v2) `📚3` — guessing-game-v2 - guessing-game-v2: TypeSafe Jev ecosystem repository. · TypeScript
+- [omribenami/jev-operated-drone](https://github.com/omribenami/jev-operated-drone) `📚3` — Autonomous Tello search drone: jev decides where and when to navigate
+- [opaielsheikh/zero-shot-vision-robotics](https://github.com/opaielsheikh/zero-shot-vision-robotics) `📚3` — Zero-shot vision-driven tabletop robotics simulation with PyBullet and multimodal Vision-Language Models. ★ 0
+- [oqzl/JevSamples](https://github.com/oqzl/jevsamples) `📚3` — Cloudflare Worker agent-world simulation asking Jev five questions per agent per turn, plus a leak-controlled JRA horse-racing backtest. no license · JavaScript
+- [OsirianLegacy/JevSimulation](https://github.com/osirianlegacy/jevsimulation) `📚3` — Building a Simulated world using Typesafe Ai's Jev to run entity choices, C++ 20, JSON for Jev Interactions, Clay for TUI, and ...
+- [ozaki-taisuke/jev-kano](https://github.com/ozaki-taisuke/jev-kano) `📚3` — Other related projects
+- [pedrocivita/tocket](https://github.com/pedrocivita/tocket) `📚3` — Jev escolhe a próxima etapa a partir de opções limitadas e registra essa escolha no caderno de projeto compartilhado do Tocket.
+- [pomykalakyle/jev-youtube-filter](https://github.com/pomykalakyle/jev-youtube-filter) `📚3` — jev-youtube-filter - Semantic YouTube recommendation filtering powered by Jev · JavaScript
+- [pranay-tecnomi/jev-2048](https://github.com/pranay-tecnomi/jev-2048) `📚3` — Watch the Jev decision model (typesafe.ai) play 2048 live in your terminal
+- [pulkitxm/jev-chess-agent](https://github.com/pulkitxm/jev-chess-agent) `📚3` — A chess bot opponent player with typed move selection and browser controls
+- [rishi-raj-jain/flappy-jev](https://github.com/rishi-raj-jain/flappy-jev) `📚3` — Flappy Bird where you race Jev, TypeSafe's System One decision model, flying its own bird in real time. Built with Next.js and ...
+- [rmakiyama/raincheck](https://github.com/rmakiyama/raincheck) `📚3` — Every bookmark is a rain check. Find the ones worth redeeming today.
+- [RobotKitAI/piper-astra-jev](https://github.com/robotkitai/piper-astra-jev) `📚3` — piper-astra-jev - LLM-driven demo runs on a real AgileX PiPER arm using Astra, Jev with DINO, and Jev with SAM3. #robotics
+- [robwent/jev-tic-tac-toe](https://github.com/robwent/jev-tic-tac-toe) `📚3` — Noughts and crosses against TypeSafe's Jev model, with every move checked against a perfect solver.
+- [ryokobachan/slither-jev](https://github.com/ryokobachan/slither-jev) `📚3` — Experimental TypeSafe Jev controller for slither.io via Vercel AI Gateway
+- [serpent7776/JevWantstoBeaMillionaire](https://github.com/serpent7776/jevwantstobeamillionaire) `📚3` — Jev (or other agent) plays Who Wants to Be a Millionaire (and you can play along)
+- [shima78/jev-chess](https://github.com/shima78/jev-chess) `📚3` — jev-chess - Watch TypeSafe's Jev play chess against itself, or play against it. FastAPI + python-chess. · HTML
+- [ShivaniKumar1/Jev-Chess](https://github.com/shivanikumar1/jev-chess) `📚3` — Jev Plays Chess Using DigitalOcean /v1/systemone Endpoint.
+- [site](https://itisshikhar.github.io/gg-friggin-ez) `📚3`
+- [site](https://dimweaker.github.io/jev-libero) `📚3`
+- [site](https://jev-tetris.vercel.app) `📚3`
+- [site](https://jevball.online) `📚3`
+- [site](https://h3manth.com/fun/jev-chess) `📚3`
+- [SpriteFusion real-time level generation](https://spritefusion.com/blog/generating-game-level-in-real-time-with-jev) `📚3` — Sprite Fusion realtime levels — game state in; Jev Choices for next terrain slice (type/width/gap/height); code places blocks (~319–375ms, ~$0.00057/request)
+- [studee/jev-games](https://github.com/studee/jev-games) `📚3` — TypeSafe Jev arcade ★ 1 · endpoint · TypeScript
+- [studioigor/jev-rts](https://github.com/studioigor/jev-rts) `📚3` — jev-rts - Real-time strategy experiment where the model makes the decisions for an entire army across two factions, built for a YouTube series. #game
+- [sungatetop/Jev-robot](https://github.com/sungatetop/jev-robot) `📚3` — System One\Two Driven Robot demo
+- [Sunwood-ai-labs/jevdash](https://github.com/sunwood-ai-labs/jevdash) `📚3` — % clean-room, copyright-free 2D platformer benchmarking TypeSafe Jev AI in real-time control (60
+- [tbrought/honeytongue](https://github.com/tbrought/honeytongue) `📚3` — Honeytongue - NPC persuasion engine: TypeSafe Jev judges whether player dialogue convinced a character. (Project guide)(community/projects/tools/honeytongue.md).
+- [the-data-sherpa/project_blackout](https://github.com/the-data-sherpa/project_blackout) `📚3` — Local cybersecurity lab that simulates attacks on a synthetic company and replays how Jev's compromise probability and severity change as telemetry arrives. no license · TypeScript
+- [thumay9700/jev-plays](https://github.com/thumay9700/jev-plays) `📚3` — jev-plays - Autonomous game agent powered by TypeSafe AI's Jev \(System One decision engine\)
+- [TimurHaryo/jev-toolkit](https://github.com/timurharyo/jev-toolkit) `📚3` — Jev (TypeSafe AI) decisions in Claude Code hooks plus a benchmark harness. Zero-dependency Node.
+- [Tomdachs/jev-replay-lab](https://github.com/tomdachs/jev-replay-lab) `📚3` — jev-replay-lab - Local Jev evaluation workbench: datasets, typed questions, threshold simulation and run comparison · TypeScript
+- [tylervick/jevplays](https://github.com/tylervick/jevplays) `📚3`
+- [ximing/jev-snake-game](https://github.com/ximing/jev-snake-game) `📚3`
+- [zhentong98/jev-tetris](https://github.com/zhentong98/jev-tetris) `📚3` — jev-tetris - jev-tetris: TypeSafe Jev ecosystem repository. · JavaScript
+- [网站](https://denikuchero.github.io/jev-chess-lab) `📚3`
+
+## Long tail (cited by 1–2 lists) — 470
+
+<details><summary>Show 470 long-tail entries</summary>
+
+- [190ibrahim/jev-graphify](https://github.com/190ibrahim/jev-graphify) `📚2` — Name, classify and search graphify communities with TypeSafe Jev
+- [2389-research/jev-plays-pokemon](https://github.com/2389-research/jev-plays-pokemon) `📚2`
+- [25sh0363-code/JEV-plays-snake-](https://github.com/25sh0363-code/jev-plays-snake-) `📚2` — Games robotics and simulations
+- [aalekhpatel07/chess-system-one](https://github.com/aalekhpatel07/chess-system-one) `📚2` — A simple frontend to play chess against a System One Decision Model like Jev or Von, or Laya
+- [Adamya05/jev-echo](https://github.com/adamya05/jev-echo) `📚2` — Echo: an 87 KB copy of Jev for Snake. About 800× faster; with search, 5× the score.
+- [ahmadswalih/jev-chess-test](https://github.com/ahmadswalih/jev-chess-test) `📚2` — jev-chess-test - jev-chess-test: TypeSafe Jev ecosystem repository. · TypeScript
+- [AINews: 6 Clones of Jev in 2 days](https://latent.space/p/ainews-here-are-6-clones-of-jev-in) `📚2` — Here are 6 Clones of Jev in 2 days - Latent Space roundup of the first open clones.
+- [AKKI0511/living-matter](https://github.com/akki0511/living-matter) `📚2` — living-matter — An atmospheric 3D browser game where living matter builds paths around your movement. Play in preview mode or connect Jev for real-time AI…
+- [alexandreroman/jong](https://github.com/alexandreroman/jong) `📚2` — Pong in the browser against TypeSafe AI's Jev model
+- [alMohimanul/jev-play](https://github.com/almohimanul/jev-play) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [alpha-harper-franklin/jev-wam](https://github.com/alpha-harper-franklin/jev-wam) `📚2` — Jev + WAM: structured decisions for World Action Models and world-model planning. Design stage.
+- [amandm/mario-play](https://github.com/amandm/mario-play) `📚2` — An original platformer and from-scratch PPO framework, with Jev-assisted learning experiments, Colab
+- [Analytics206/JEV-Arcade](https://github.com/analytics206/jev-arcade) `📚2` — JEV-Arcade - Fifteen live AI games: TypeSafe Jev vs. Claude, GPT, OpenRouter and Ollama models.
+- [anduriroshan/jev-doom-game](https://github.com/anduriroshan/jev-doom-game) `📚2`
+- [antigravitysoham-eng/esg-disclosure-desk](https://github.com/antigravitysoham-eng/esg-disclosure-desk) `📚2` — A framework-agnostic Jev decision layer for ESG reporting — reads every claim in a sustainability re
+- [atharvabaodhankar/jev-vs-the-clock](https://github.com/atharvabaodhankar/jev-vs-the-clock) `📚2` — High-stakes real-time AI defusal arena pitting TypeSafe Jev (System 1 Reflex @ ~350ms) against AWS B
+- [atrl/pokemon-jev-readable](https://github.com/atrl/pokemon-jev-readable) `📚2` — Games robotics and simulations
+- [betulsimsek/jev-decomposition-tr](https://github.com/betulsimsek/jev-decomposition-tr) `📚2` — Does splitting a typed-decision question help? Jev vs Laya vs a local decoder, English and Turkish
+- [BlackJaxDev/XRENGINE](https://github.com/blackjaxdev/xrengine) `📚2` — This is my custom open-source C# game engine designed from the ground-up for maximum possible performance ren…
+- [BrickerP/jev-plays-pokemon-red](https://github.com/brickerp/jev-plays-pokemon-red) `📚2` — jev-plays-pokemon-red - Pokemon Red played by Jev, a model that only outputs probabilities. Based on valentynkit/jev-plays-pokemon-red \(MIT\). · Python
+- [CameronEzraJones/mille-bornes-jev-bot](https://github.com/cameronezrajones/mille-bornes-jev-bot) `📚2` — A Mille Bornes game application that uses Jev bots
+- [Can you beat Jev? (SIDE OUT)](https://antics.gg/can-you-beat-jev) `📚2` — antics.gg · AppLive experiment where you play SIDE OUT, a multiplayer Pong-style arena game, against Jev as it plays in a real browser in real time.
+- [Ch1nZ/sts2-ai-coach](https://github.com/ch1nz/sts2-ai-coach) `📚2` — AI coach for Slay the Spire 2 on Steam. Live in-game action recommendations powered by Typesafe Jev
+- [ChiyuSONG/inside-jev](https://github.com/chiyusong/inside-jev) `📚2`
+- [chocochu/keeclub](https://github.com/chocochu/keeclub) `📚2` — Web app for Jungle and Aeroplane Chess with invite rooms and offline same-device play, where AI seats are driven by a configured TypeSafe key. no license ·…
+- [City replay lab](https://rinnecoder.github.io/jev-behavior-study/city_demo) `📚2` — Demo material: City replay lab · Unassisted Snake runs
+- [CN-AlbertWu96/DoomJev](https://github.com/cn-albertwu96/doomjev) `📚2`
+- [codaaiteam/jev-arcade](https://github.com/codaaiteam/jev-arcade) `📚2` — Open-source single-file browser games where you play against Jev — TypeSafe AI's decision model driv
+- [coderhh/jev-snake](https://github.com/coderhh/jev-snake) `📚2` — Pixel-themed Snake where Jev (TypeSafe System One) races Claude Fable 5.1 (Azure AI Foundry) — with
+- [cwdx/jevvie](https://github.com/cwdx/jevvie) `📚2` — "Jevvie": the code behind the corner-of-page companion at chriswijnia.com/lab/jevvie — a page exposes its actions as WebMCP tools, a visitor's request becomes…
+- [DanMcInerney/robots-world](https://github.com/danmcinerney/robots-world) `📚2` — Multi-robot and drone control testbed comparing Jev control arrangements with Claude and Codex pilots over MAVLink, with recorded flight matrices. no license ·…
+- [DarkFalc0n/play-with-jev](https://github.com/darkfalc0n/play-with-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [darrenli6/jev-snake](https://github.com/darrenli6/jev-snake) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [ddrdushy/Mario-And-Jev](https://github.com/ddrdushy/mario-and-jev) `📚2` — Mario-And-Jev - Mario-And-Jev: TypeSafe Jev ecosystem repository. · C++
+- [deadpackets/swiperepublic](https://github.com/deadpackets/swiperepublic) `📚2` — Reigns-style card game with Luna and Jev.
+- [DeadPackets/UnitedStatesOfJev](https://github.com/deadpackets/unitedstatesofjev) `📚2` — Just a silly political simulator.
+- [DevItaliya22/jev-chess](https://github.com/devitaliya22/jev-chess) `📚2` — Jev (TypeSafe AI's System One model) playing chess against itself, graded by Stockfish
+- [dnellis74/doctrine](https://github.com/dnellis74/doctrine) `📚2`
+- [dperezcabrera/system-one-poker](https://github.com/dperezcabrera/system-one-poker) `📚2` — system-one-poker - How good is Jev AI at Texas Hold'em? TypeSafe AI's System One model plays poker through Vercel AI Gateway or OpenRouter, measured against…
+- [dyronrh/open-jev-play-dino-runner](https://github.com/dyronrh/open-jev-play-dino-runner) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Ege-BULUT/jevcraft](https://github.com/ege-bulut/jevcraft) `📚2` — TypeSafe's Jev plays VoxeLibre, a free block-world game, around the clock; recordings on Hugging Face.
+- [ethanhinson/jevdoom](https://github.com/ethanhinson/jevdoom) `📚2` — Jev (TypeSafe System One) plays Doom
+- [fagun98/Jev-vs-LLM](https://github.com/fagun98/jev-vs-llm) `📚2` — A three-page game that compares Jev and GPT-5-nano on the same classification task. You pick three categories, type an item, and both ...
+- [Faiziahmad/jev-projects](https://github.com/faiziahmad/jev-projects) `📚2` — projects built with TypeSafe Jev — dev tools and games Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [fangligamedev/deskfront-jevlab](https://github.com/fangligamedev/deskfront-jevlab) `📚2`
+- [freeman-jiang/jev-snake](https://github.com/freeman-jiang/jev-snake) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [frostist/jev-interrogator](https://github.com/frostist/jev-interrogator) `📚2` — A "fun" Godot game that relies on Jev and a local ollama instance to play a text based game on getti
+- [fruitflyworld/fruit-fly-world](https://github.com/fruitflyworld/fruit-fly-world) `📚2` — Don't exam the model. Starve it. A fruit-fly survival game with a slot for a brain — hands, genes, 24 neurons…
+- [gamebox/typesafe-ai-go](https://github.com/gamebox/typesafe-ai-go) `📚2` — A simple SDK for integrating Typesafe AI's Jev into your Go projects
+- [GauravAtavale/Chess_JEV_vs_Laya](https://github.com/gauravatavale/chess_jev_vs_laya) `📚2` — Chess with JEV vs Laya
+- [gbesse/bevy-jev](https://github.com/gbesse/bevy-jev) `📚2` — Non-blocking, provenance-checked Jev decisions for Bevy ECS.
+- [gbesse/worldkit](https://github.com/gbesse/worldkit) `📚2` — A bounded NPC decision runtime with behavior packs, deterministic game rules and optional Jev decisi
+- [giladgd/semantic-golfer](https://github.com/giladgd/semantic-golfer) `📚2` — How little can you write and still get everything right? Play text golfing with node-llama-cpp's Jev
+- [gmaldo/jevplaystruco](https://github.com/gmaldo/jevplaystruco) `📚2` — Jev inference model plays Truco
+- [goldengnu/jeveassets](https://github.com/goldengnu/jeveassets) `📚2` — jeveassets — jEveAssets is an out-of-game asset manager for Eve-Online, written in Java _(★196, Java)_
+- [GunaTeja777/typesafe-mario-ai](https://github.com/gunateja777/typesafe-mario-ai) `📚2` — Real-time Super Mario game autonomously controlled by TypeSafe AI's "Jev" System One Decision Archit
+- [gyozameronpanofficial/human-exe-jev](https://github.com/gyozameronpanofficial/human-exe-jev) `📚2` — human-exe-jev - HUMAN.exe — Jev-powered psychological checkpoint game · JavaScript
+- [harveybc/m5phet](https://github.com/harveybc/m5phet) `📚2` — Inspired by Jev and Laya, designed to go beyond classification: forecasting, representations, reinfo
+- [How Doomers Launched TypeSafe AI and Jev on X — Case Study](https://doomers.ai/work/typesafe-ai-case-study) `📚2` — Doomers: "How Doomers Launched TypeSafe AI and Jev on X" (2026-09-21) — Launch-agency case study with third-party launch metrics: the Jev launch post reached…
+- [iapp-technology/openthai-systemone-doom](https://github.com/iapp-technology/openthai-systemone-doom) `📚2`
+- [iluoxw/jev-vs-llm-snake](https://github.com/iluoxw/jev-vs-llm-snake) `📚2` — Side-by-side snake game where Jev and an OpenAI-compatible LLM share seed, tick rate and facts, comparing score, timeouts, latency and cost. no license ·…
+- [ImFeH2/jev-arcade](https://github.com/imfeh2/jev-arcade) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [inhabitants/laya-snake-cuda](https://github.com/inhabitants/laya-snake-cuda) `📚2` — The laya-mlx Snake demo on PyTorch (NVIDIA or CPU), plus a mode to disturb the snake and watch it re
+- [itsKarad/jev-poker](https://github.com/itskarad/jev-poker) `📚2`
+- [JacobEGarcia/jev-robot-arm](https://github.com/jacobegarcia/jev-robot-arm) `📚2` — "A live two-call policy simulation for carrying a block with a robot arm." (description only; the README is empty).
+- [javiercancela/ConvGame](https://github.com/javiercancela/convgame) `📚2` — ConvGame - The Last Crossing: a terminal conversation game where Jev decides and Bonsai speaks. · Python
+- [Jes1326/AI_Survuval_Game_JEV](https://github.com/jes1326/ai_survuval_game_jev) `📚2` — jevlang OR jev.ai in:name,description created:
+- [Jev Chat](https://jev-chat.gigabitmillion-games.workers.dev) `📚2` — gigabitmillion-games · AppJapanese chat game where you talk to a tiny resident whose expression, the weather and the room change according to how Jev reads the…
+- [Jev plays chess](https://madewithjev.com/builds/jev-plays-chess) `📚2` — Legal moves as a Choice, compared with reasoning models
+- [Jev plays Doom](https://madewithjev.com/builds/jev-plays-doom) `📚2` — Game loop asking Jev what to do ~10 times a second
+- [jev-drone](https://madewithjev.com/builds/jev-drone) `📚2` — Tactical judgment loop flying on hardware
+- [jev-pong (online)](https://jev-pong.ably.dev) `📚2` — Jev versus GPT-5.6 / Claude Haiku in Pong
+- [JiangZehua/Game-Jev](https://github.com/jiangzehua/game-jev) `📚2`
+- [JLarky/jev-chess](https://github.com/jlarky/jev-chess) `📚2` — Browser chess game against Jev where one Choice over the legal UCI moves picks each move and chess.js enforces the rules. no license · TypeScript · live
+- [joonan-lab/byeori](https://github.com/joonan-lab/byeori) `📚2` — Sistema de conhecimento científico que usa Jev para indicar questões de conhecimento reutilizáveis para revisão humana.
+- [junyeong-nero/jev-doom](https://github.com/junyeong-nero/jev-doom) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [KarlTaylorKnight/unstable-government](https://github.com/karltaylorknight/unstable-government) `📚2` — An independent reconstruction of Sunil Pai’s Jev + Claude town-simulator concept.
+- [Keitark/jev-gamebook-demo](https://github.com/keitark/jev-gamebook-demo) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [KEN513507/Jev-doom-ai-research](https://github.com/ken513507/jev-doom-ai-research) `📚2` — jevlang OR jev.ai in:name,description created:
+- [kevinwindisch/trex-jev-bot](https://github.com/kevinwindisch/trex-jev-bot) `📚2` — A bot that plays the Chrome T-Rex Runner to 1000 points using TypeSafe AI's Jev API for obstacle classification
+- [kortexa-ai/mappity](https://github.com/kortexa-ai/mappity) `📚2` — Ask the map anything. Every place answers with a probability. OpenStreetMap + Mapillary + TypeSafe J
+- [KRLW890/jevil-simulator](https://github.com/krlw890/jevil-simulator) `📚2` — jevil-simulator — A simulator for the Jevil bossfight in Deltarune. _(★18, JavaScript)_
+- [kspviswa/chakravyuha-oss](https://github.com/kspviswa/chakravyuha-oss) `📚2` — Chakravyuha (OSS) — the polar ring-maze where every move is a Laya decision. Same experiment as chakravyuha-j…
+- [kuchris/laya-snake-cuda](https://github.com/kuchris/laya-snake-cuda) `📚2` — Local real-time Snake decisions with Laya, PyTorch and CUDA — live FastAPI/WebSocket dashboard, no t
+- [kyh/vibedgames](https://github.com/kyh/vibedgames) `📚2` — vibedgames model playtester · kyh · GitHub · ⭐ 57 repo · 2020-01-26Game studio toolkit for coding agents whose vg playtest run drives a game character with…
+- [liu-x27/spire-jev](https://github.com/liu-x27/spire-jev) `📚2` — A bot that plays Slay the Spire 2 in the real game, Ironclad, whole runs: a combat simulator and search for each ...
+- [liujitcn/jev-game](https://github.com/liujitcn/jev-game) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [liujunsemail-blip/JevTetris](https://github.com/liujunsemail-blip/jevtetris) `📚2` — Games robotics and simulations
+- [live](https://jevpilot.standardagents.ai) `📚2`
+- [loktar00/llm-lan-party](https://github.com/loktar00/llm-lan-party) `📚2` — A language model plays Unreal Tournament 99 on real Windows 98 hardware by answering small typed questions, s…
+- [lvtd-llc/games](https://github.com/lvtd-llc/games) `📚2` — Small web games, independently built. Astro catalogue at games.lvtd.dev.
+- [M-Yanagishawa/jev-speed](https://github.com/m-yanagishawa/jev-speed) `📚2` — Real-time Speed card game on Cloudflare Workers where Jev plays as two VOICEVOX characters, with per-move probability and latency logs. no license · TypeScript…
+- [manuvikash/jev-chess](https://github.com/manuvikash/jev-chess) `📚2` — Python server where Jev plays chess against an OpenAI model, streaming moves over SSE with latency, eval and per-game JSONL records. no license · Python
+- [marcelocantos/jevons](https://github.com/marcelocantos/jevons) `📚2` — Personal AI assistant: a coordinator session that decides whether to answer directly or delegate to worker coding agents, with a voice-first UI and iOS…
+- [MaryNfs/pacman-ai-race](https://github.com/marynfs/pacman-ai-race) `📚2` — Other related projects
+- [maxim-saplin/llm_chess](https://github.com/maxim-saplin/llm_chess) `📚2`
+- [MayankBansal12/game-theory-with-jev](https://github.com/mayankbansal12/game-theory-with-jev) `📚2` — game-theory-with-jev - MayankBansal12/game-theory-with-jev - jev plays into the prisoner’s dilemma: 40 matches against 8 opponents.
+- [melonash/pleaseno](https://github.com/melonash/pleaseno) `📚2` — Daily persuasion game where Jev scores seven emotional levers in each free-text attempt and picks the character's authored reply. no license · TypeScript · live
+- [mercatorproj/myjev](https://github.com/mercatorproj/myjev) `📚2` — Adapt language models to Jev-style structured questions.
+- [metaholf/ai-jev-minigame](https://github.com/metaholf/ai-jev-minigame) `📚2` — jevlang OR jev.ai in:name,description created:
+- [mikespins/doom-jev](https://github.com/mikespins/doom-jev) `📚2` — Jev (TypeSafe AI) plays Doom live: ViZDoom + real-time Jev decisions + retro UI
+- [minanayernia/Jev_vs_Laya_decision_games](https://github.com/minanayernia/jev_vs_laya_decision_games) `📚2` — inferred / research-models — ⭐0
+- [mojomast/velvetrp](https://github.com/mojomast/velvetrp) `📚2` — Local-first AI roleplay and campaign RPG where the model proposes and the server owns what became true. Automatically matched explicit Jev and TypeSafe/System…
+- [MONISMALIK1/ai-dungeon-game](https://github.com/monismalik1/ai-dungeon-game) `📚2` — Terminal text-adventure driven entirely by TypeSafe AI's Jev decision model - typed choice/score/noul answers, not generated prose
+- [MoonTory/jev-snake](https://github.com/moontory/jev-snake) `📚2` — TypeSafe's Jev model plays Snake live in the browser, with a headless eval and a self-improvement lo
+- [More games and real-time builds on madewithjev.com](https://madewithjev.com/categories/games-and-real-time) `📚2` — (More games and real-time builds on madewithjev.com)(projects/347-more-games-and-real-time-builds-on-madewit.md) — README.md:347 — → More games and real-time…
+- [More robotics and devices on madewithjev.com](https://madewithjev.com/categories/robotics-and-devices) `📚2` — (More robotics and devices on madewithjev.com)(projects/322-more-robotics-and-devices-on-madewithjev-c.md) — README.md:322 — → More robotics and devices on…
+- [mousoom/jev-plays-tetris](https://github.com/mousoom/jev-plays-tetris) `📚2` — An AI (TypeSafe's Jev) plays official Tetris live, level 1 to 30 — pixels in, keypresses out
+- [MrChessT/JevState-](https://github.com/mrchesst/jevstate-) `📚2` — Games robotics and simulations
+- [mrubens/jevcraft](https://github.com/mrubens/jevcraft) `📚2` — jevcraft — Jev-powered Minecraft bot (auto-discovered, description not yet written)
+- [muhammadaq1/before-the-fall-jev](https://github.com/muhammadaq1/before-the-fall-jev) `📚2` — A cinematic 2D rescue game powered by TypeSafe Jev. Six people, 35 seconds, and live AI decisions un
+- [nalantishantha/Jev_Snake_Game](https://github.com/nalantishantha/jev_snake_game) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [NayanKatariya/sorta](https://github.com/nayankatariya/sorta) `📚2` — sorta — Gmail triage in plain words: Jev sorts your inbox into your own categories and sweeps junk in one click. _(★0, TypeScript)_
+- [NesanSelvan/pacman-jev](https://github.com/nesanselvan/pacman-jev) `📚2` — Pacman where each Jev call is one game tick: eight typed questions pick the direction and fill a live read-out panel. no license · TypeScript
+- [ngocquang/jev-tetris-fork](https://github.com/ngocquang/jev-tetris-fork) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [nickorsk2017/horse-racing-ai-jev](https://github.com/nickorsk2017/horse-racing-ai-jev) `📚2` — Horse racing simulator with real-time AI prediction. The TypeSafe Jev model is used to predict race
+- [nikext/chess-lab](https://github.com/nikext/chess-lab) `📚2` — Local chess study tool: Stockfish 19 WASM for search, TypeSafe AI's Jev as a no-search intuition layer
+- [nikkoxgonzales/elmridge-ai-town](https://github.com/nikkoxgonzales/elmridge-ai-town) `📚2` — three.js AI town simulation: day/night economy, jobs, citizens — MCP server for AI control + TypeSafe Jev (System One) decision layer on ...
+- [notsointresting/jev-plays-chess](https://github.com/notsointresting/jev-plays-chess) `📚2` — Play chess against Jev, TypeSafe's decision model. Every legal move is one option of a single typed
+- [ojas-mohbansi/system1-gamebot](https://github.com/ojas-mohbansi/system1-gamebot) `📚2` — A universal, sub-100ms FOSS gaming bot framework powered by OpenCV for lightning-fast visual telemetry and Jev System 1 AI for non-autoregressive decision ...
+- [pcc-labs/tetris](https://github.com/pcc-labs/tetris) `📚2` — Jev decision labels in the viewer and a jev-latest benchmark arm. #21 open ★ 1
+- [pinebit/jev-tetris](https://github.com/pinebit/jev-tetris) `📚2` — Tetris that plays itself: TypeSafe's Jev model picks every placement with one typed Choice call, with live probabilities, latency, and cost.
+- [piyush-c-crest/jev-game](https://github.com/piyush-c-crest/jev-game) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Postman-Devrel/JevPong](https://github.com/postman-devrel/jevpong) `📚2` — JevPong - This is a ping pong game where you compete against jev · TypeScript
+- [Profreshor/jev-find](https://github.com/profreshor/jev-find) `📚2` — Find code, log lines, diff hunks, or records by what they do, in about a second
+- [ProjectsArea/jev-ai-example-xox-game](https://github.com/projectsarea/jev-ai-example-xox-game) `📚2` — jevlang OR jev.ai in:name,description created:
+- [pwang724/wc3env](https://github.com/pwang724/wc3env) `📚2` — wc3env - Gym-style environment for real Warcraft III: deterministic stepping, fog-filtered observations and native commands, for driving decision models…
+- [raboija/pacmanlocaljev](https://github.com/raboija/pacmanlocaljev) `📚2` — Local Laya 322M typed decisions in a Pac-Man-inspired Windows app. NVIDIA CUDA, live probabilities,
+- [RAHULREDDYYSR/jev-snake](https://github.com/rahulreddyysr/jev-snake) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [RoboticsNetworkTrieste/JevNav](https://github.com/roboticsnetworktrieste/jevnav) `📚2` — Experiment over using Jev-Like Model for controlling navigation of simulated robot
+- [Rohan0603/jev-tic-tac-toe](https://github.com/rohan0603/jev-tic-tac-toe) `📚2` — React Tic-Tac-Toe powered by TypeSafe Jev System One decisions.
+- [Rosequan/jev-robotics-radar](https://github.com/rosequan/jev-robotics-radar) `📚2` — Curated robotics-company tracker, scored on 4 lenses by TypeSafe's Jev model from public website tex
+- [Roshan-Kumar-Sharma/the-confidence-game](https://github.com/roshan-kumar-sharma/the-confidence-game) `📚2` — the-confidence-game - the-confidence-game: TypeSafe Jev ecosystem repository. · TypeScript
+- [RubenVP2/jev-game](https://github.com/rubenvp2/jev-game) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [rudrasingh500/jev_minecraft](https://github.com/rudrasingh500/jev_minecraft) `📚2` — Mineflayer bot that picks Minecraft survival actions from a legal-action menu via Jev toward beating the Ender Dragon, with viewer, memory and run logs. no…
+- [russellballestrini/opencompletion](https://github.com/russellballestrini/opencompletion) `📚2` — Playground For All Language Models! Multi user! Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [SamFaulkner62223/neon-snake-ai-journal](https://github.com/samfaulkner62223/neon-snake-ai-journal) `📚2` — Week 6 AI Journal prototype: a polished Snake game with a local controller and a TypeSafe AI Jev integration hook.
+- [selmakcby/jev-kiyafet-bul](https://github.com/selmakcby/jev-kiyafet-bul) `📚2` — Jev (TypeSafe) ile doğal dille kıyafet arama: karar Jev'de, sıralama kodda
+- [sharosoo/jev-omok](https://github.com/sharosoo/jev-omok) `📚2` — D WebGL gomoku where a deterministic engine handles forced tactics and Jev picks non-forced moves and commentary via a Cloudflare Worker. no license ·…
+- [site](https://bytelabs-oss.github.io/clash-jev) `📚2`
+- [site](https://coffee.yardsort.sh) `📚2`
+- [site](https://jev-drone.vercel.app) `📚2`
+- [site](https://jev-snake-theta.vercel.app) `📚2`
+- [site](https://lykycy123.github.io/robojev) `📚2`
+- [site](https://canjevplay.com) `📚2`
+- [sliday/jev-chess-algo](https://github.com/sliday/jev-chess-algo) `📚2`
+- [smalltownrobotics/proxima-1024](https://github.com/smalltownrobotics/proxima-1024) `📚2` — Generation-ship command sim in Python with a 3D browser UI where Jev models how 1,024 fictional crew respond to the player's decisions. MIT · Python
+- [SqmL1/Jev-Plays-Vholume](https://github.com/sqml1/jev-plays-vholume) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [stbenjam/jev-boarding](https://github.com/stbenjam/jev-boarding) `📚2` — Compare airplane boarding strategies with a Jev dispatcher using boarding scans and seat o
+- [suhailpatel49/x-and-o-vs-jev](https://github.com/suhailpatel49/x-and-o-vs-jev) `📚2` — Play tic-tac-toe against TypeSafe Jev using typed System One decisions.
+- [sunwood-ai-labs/jev-flight-combat](https://github.com/sunwood-ai-labs/jev-flight-combat) `📚2` — SKYWARD: a 3D browser flight lab with a playable demo, bilingual docs, and live Jev control via Verc
+- [Talk to JEV](https://jev-grug-chat.mkotlikov.chatgpt.site) `📚2`
+- [technomad641/play-with-jev](https://github.com/technomad641/play-with-jev) `📚2`
+- [TheClosedLoopCompany/connect-4-ai](https://github.com/theclosedloopcompany/connect-4-ai) `📚2` — connect-4-ai — Can you beat AI in Connect Four? Play GPT-6, Jev, or a perfect solver (auto-discovered, description not yet written)
+- [tomcat7707/jev-tetris-player](https://github.com/tomcat7707/jev-tetris-player) `📚2` — Autonomous Tetris Player powered by TypeSafe JEV System 1 AI
+- [tomviner/mind-your-tone](https://github.com/tomviner/mind-your-tone) `📚2` — A live tone-target game scored by TypeSafe Jev.
+- [tostechbr/partway](https://github.com/tostechbr/partway) `📚2` — Voice control for macOS that acts partway through your sentence, built on Jev (TypeSafe)
+- [Tracing Jev calls with Langfuse](https://langfuse.com/integrations/model-providers/typesafe) `📚2` — The only platform with dedicated Jev observability: an OpenInference instrumentor that traces every decision call over OpenTelemetry.
+- [TranBaVinhSon/jev-snake](https://github.com/tranbavinhson/jev-snake) `📚2` — jev-snake - Head-to-head Snake benchmark racing Jev against frontier LLMs from OpenRouter — same board seed, same 40-second clock, entirely in the browser. ·…
+- [tuneyuki/jev-mart-demo](https://github.com/tuneyuki/jev-mart-demo) `📚2` — inferred / apps-demos — ⭐0
+- [uehaj/jev-conway-lifegame](https://github.com/uehaj/jev-conway-lifegame) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [VaibhavBhandari2999/jev-plays-snake](https://github.com/vaibhavbhandari2999/jev-plays-snake) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [vittoriobrehautduran/decisionmakertest](https://github.com/vittoriobrehautduran/decisionmakertest) `📚2` — Side-by-side speed/quality bench for TypeSafe Jev and Laya
+- [wang-junjian/tetris-jev](https://github.com/wang-junjian/tetris-jev) `📚2` — jevlang OR jev.ai in:name,description created:
+- [wbarakat/jev-bomb](https://github.com/wbarakat/jev-bomb) `📚2` — Pygame bomb-defusal game where Jev reads written rulebooks and picks one action per decision across wires, button, password and maze modules. no license ·…
+- [wbarakat/jev-snake](https://github.com/wbarakat/jev-snake) `📚2` — Snake played in real time by Jev choosing among three moves plus a danger score, with a live belief panel and heuristic fallback. no license · Python
+- [webdevcody/jevs-fly](https://github.com/webdevcody/jevs-fly) `📚2` — jevs-fly - Three.js FPV garden game where Jev chooses the fly's heading and dive about five times per second. #game
+- [whichxjy/jev-playground](https://github.com/whichxjy/jev-playground) `📚2` — A local playground for watching TypeSafe AI’s Jev model make autonomous decisions in small games
+- [Wikiracing](https://madewithjev.com/builds/wikiracing) `📚2` — Pick one link out of thousands until you arrive
+- [WXH666-bit/jev-tetris-lab](https://github.com/wxh666-bit/jev-tetris-lab) `📚2` — AI-driven Tetris decision playground with a cosmic UI, provider management, and Jev integration
+- [yangyuan-zhen/antsim-jev](https://github.com/yangyuan-zhen/antsim-jev) `📚2` — Games robotics and simulations
+- [yeger00/jev-chess](https://github.com/yeger00/jev-chess) `📚2` — Chrome extension plus Node service that plays chess.com bot games by asking Jev to choose among chess.js legal moves, with decision logs. no license ·…
+- [ymarux/tetris-jev](https://github.com/ymarux/tetris-jev) `📚2`
+- [yukitomoda/umigame-jev](https://github.com/yukitomoda/umigame-jev) `📚2` — umigame-jev - yukitomoda/umigame-jev - No description provided.
+- [YYK2007/jev-flappy](https://github.com/yyk2007/jev-flappy) `📚2` — Jev makes every flap-or-coast decision in a live game, exposing probabilities, latency, tokens, and
+- [Zboubkiller/jev-plays-sts2](https://github.com/zboubkiller/jev-plays-sts2) `📚2` — inferred / other — ⭐0
+- [zixiang0623/Jev-Minecraft](https://github.com/zixiang0623/jev-minecraft) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [zyh3699/jev-embodied](https://github.com/zyh3699/jev-embodied) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [网站](https://query.farm/vgi) `📚2`
+- [0xagentlabs/jev-game-arena](https://github.com/0xagentlabs/jev-game-arena) `📚1`
+- [7373Lacym/jev-chess](https://github.com/7373lacym/jev-chess) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [aaddrick/dethroned-ai](https://github.com/aaddrick/dethroned-ai) `📚1` — A card game where an AI decision model plays the king and you try to get him off the thron
+- [aboufama/pokemon-ultragreen-emerald](https://github.com/aboufama/pokemon-ultragreen-emerald) `📚1`
+- [adamkaegi/jev-flappy-bird](https://github.com/adamkaegi/jev-flappy-bird) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [AI model "Jev" to make machines decide faster](https://heise.de/en/news/ai-model-jev-to-make-machines-decide-faster-11457071.html) `📚1` — Focuses on the missing explainability — the model returns no reasoning in language — and on every published benchmark coming from the vendor.
+- [AILHC/EasyGameFrameworkOpen](https://github.com/ailhc/easygameframeworkopen) `📚1`
+- [ajeebtech/chess-will-jev](https://github.com/ajeebtech/chess-will-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [akhil-gautam/jev-snake](https://github.com/akhil-gautam/jev-snake) `📚1` — Games robotics and simulations
+- [Akhila14/jev-traffic-simulator](https://github.com/akhila14/jev-traffic-simulator) `📚1` — score 10.2 · 0 stars
+- [alexander-kapr/load-gatling-demo](https://github.com/alexander-kapr/load-gatling-demo) `📚1` — An example of load simulation with the Gatling performance testing tool.
+- [alikendir0/jev-pilot](https://github.com/alikendir0/jev-pilot) `📚1` — A simulated drone flown through an obstacle course by Jev, TypeSafe's System One decision model
+- [alongL/jevTetris](https://github.com/alongl/jevtetris) `📚1`
+- [alvations/elipokemon](https://github.com/alvations/elipokemon) `📚1`
+- [amar8737/jev-robot](https://github.com/amar8737/jev-robot) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [AmirTahaMim/LayaSnakeGame](https://github.com/amirtahamim/layasnakegame) `📚1` — A desktop Pygame Snake game with HUMAN, LAYA AI, and a separate greedy BASELINE. The board is 20 x 2
+- [ammaraziz/jev](https://github.com/ammaraziz/jev) `📚1` — jev analysis pipelines for ncbi ingestion, nextclade dataset creation and phylo analysis
+- [Anahadd/jev-minecraft](https://github.com/anahadd/jev-minecraft) `📚1` — A Minecraft bot that uses TypeSafe's Jev model to pick every action on its way to a diamond
+- [andreteow/jev-sky-islands](https://github.com/andreteow/jev-sky-islands) `📚1` — Sky Island Hatchlings — hatch a creature and talk your way across 10 floating islands. Powered by Ty
+- [Andrflor/jev-test-robot](https://github.com/andrflor/jev-test-robot) `📚1`
+- [ankit-realfast/snake-jev](https://github.com/ankit-realfast/snake-jev) `📚1` — Snake played by TypeSafe's Jev decision model, coached by Claude
+- [ankit-realfast/snake-jev,0,Python,,2026-09-23](https://github.com/ankit-realfast/snake-jev,0,python,,2026-09-23) `📚1`
+- [antigravitysoham-eng/enhance-cx-with-jev](https://github.com/antigravitysoham-eng/enhance-cx-with-jev) `📚1` — A Jev decision layer for Customer Success — 22 typed decisions per inbound message, 14 per account,
+- [antonpictures/ANTON-SIFTA](https://github.com/antonpictures/anton-sifta) `📚1` — #SIFTA Swarm Robotics: Crypto Stigmergic Organism
+- [Apple HIG](https://developer.apple.com/design/human-interface-guidelines) `📚1`
+- [ApurvaChoudhary45/Subway-JEV](https://github.com/apurvachoudhary45/subway-jev) `📚1` — Small Three.js endless runner: three lanes, jump/slide/collect coins, and a spoken destination changes the world — Jev picks among six built-in worlds from the…
+- [Arcgent/linkedin-icp-sorter](https://github.com/arcgent/linkedin-icp-sorter) `📚1` — Sort your LinkedIn connections into Warm / Maybe warm / Cold / Not relevant with TypeSafe Jev. Runs
+- [argval/pokemon-red-jev](https://github.com/argval/pokemon-red-jev) `📚1` — Pokémon Red: LLM short-goal planner + Jev action loop (PyBoy)
+- [arshzip/jev-games](https://github.com/arshzip/jev-games) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [arthurkatcher/jev-realm-of-iron](https://github.com/arthurkatcher/jev-realm-of-iron) `📚1` — TypeSafe Jev plays Realm of Iron, a custom Warcraft II-style browser RTS written from scratch. Two p
+- [aslamdoctor/react-chess-game-using-jev](https://github.com/aslamdoctor/react-chess-game-using-jev) `📚1` — React chess game with TypeSafe Jev AI advisor
+- [atakesho/umigame-soup](https://github.com/atakesho/umigame-soup) `📚1` — AI umigame soup: Jev (TypeSafe AI) answers yes/no puzzle questions. Vercel Python function + static HTML
+- [azumag/soviet_now](https://github.com/azumag/soviet_now) `📚1` — Soviet Game Auto Play with AI
+- [badroneai/eventlive-sa](https://github.com/badroneai/eventlive-sa) `📚1`
+- [banjtheman/jev-vampire-survivors](https://github.com/banjtheman/jev-vampire-survivors) `📚1` — Local Vampire Survivors bridge and TypeSafe Jev agent with recorded gameplay, action probabilities,
+- [banksoalgere/jev_drone](https://github.com/banksoalgere/jev_drone) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [BattlesnakeOfficial/arena](https://github.com/battlesnakeofficial/arena) `📚1` — Battlesnake Tournaments
+- [bcivitcioglu/jev-chess](https://github.com/bcivitcioglu/jev-chess) `📚1` — Two AI models play chess. One picks from the legal moves and cannot play an illegal one; the other w
+- [Beating the Ender Dragon in Minecraft](https://madewithjev.com/builds/minecraft-ender-dragon) `📚1` — Jev and Astra play a full Minecraft run to the end
+- [bethamil/tetris-jev](https://github.com/bethamil/tetris-jev) `📚1`
+- [betty2310/jev-bird](https://github.com/betty2310/jev-bird) `📚1` — A tiny bird, real AI decisions, and gravity that won't wait. Play yourself or let TypeSafe Jev fly.
+- [bing-hai/jev-game](https://github.com/bing-hai/jev-game) `📚1`
+- [blancaile/minecraft-ai](https://github.com/blancaile/minecraft-ai) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [brightprogrammer/MisraStdC](https://github.com/brightprogrammer/misrastdc) `📚1` — Generic and TypeSafe Programming In C
+- [bryjalab/2023_Vyhlidalova_JEV](https://github.com/bryjalab/2023_vyhlidalova_jev) `📚1` — Protein composition of extracellular vesicles from malignant ascites defines the key compo
+- [BSC-137/jev_poker](https://github.com/bsc-137/jev_poker) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [builtbyrishabh/jev-plays-emerald](https://github.com/builtbyrishabh/jev-plays-emerald) `📚1` — Watch Jev choose a starter and play Pokemon Emerald live, with deterministic emulator control.
+- [cabra-lat/fps-basegame](https://github.com/cabra-lat/fps-basegame) `📚1`
+- [carson-sweet/jev-plays-brogue](https://github.com/carson-sweet/jev-plays-brogue) `📚1` — jev-plays-brogue - carson-sweet/jev-plays-brogue - TypeSafe's Jev model plays the roguelike Brogue live -- a hand-built expert system for System-2 reasoning,…
+- [cdeguet/jev-tetris](https://github.com/cdeguet/jev-tetris) `📚1` — Simplified Tetris game using Jev AI model
+- [cesar-gamez/Jev-Explore](https://github.com/cesar-gamez/jev-explore) `📚1` — Jev use case explortion. Don't know what this will be yet.
+- [cesaregarza/moon-council](https://github.com/cesaregarza/moon-council) `📚1` — A local Werewolf simulation lab with isolated LLM players and Jev decisions
+- [ChenZihua-cn/spinJev](https://github.com/chenzihua-cn/spinjev) `📚1` — SpinJEV: a jev-style spinal cord for embodied agents
+- [chiubaca/lets-play-big-two](https://github.com/chiubaca/lets-play-big-two) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [christiancabp/space-assault](https://github.com/christiancabp/space-assault) `📚1` — space shooter game with three.js Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Ciellllllllll/JEV_MINECRAFT](https://github.com/ciellllllllll/jev_minecraft) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [cmk404/UGRP-Multi-Robot-Collaboration-Project](https://github.com/cmk404/ugrp-multi-robot-collaboration-project) `📚1` — Private source for ugrp
+- [CodingAbdullah/jev-agent-chess,0,TypeScript,,2026-09-24,Utilizes](https://github.com/codingabdullah/jev-agent-chess,0,typescript,,2026-09-24,utilizes) `📚1`
+- [coreyja/battlesnake-rs](https://github.com/coreyja/battlesnake-rs) `📚1` — Judicious Jev · coreyja · GitHub · ⭐ 11 repo · 2021-02-20Battlesnake bot that picks each move with a TypeSafe Choice question, falling back to a local strategy…
+- [Cornell-Physical-Intelligence/wiki](https://github.com/cornell-physical-intelligence/wiki) `📚1` — CUPI Wiki — internal knowledge base of Cornell Physical Intelligence (CUPI), a Cornell University student robotics organization. Automatically matched explicit…
+- [CPPAlien/playwithjev](https://github.com/cppalien/playwithjev) `📚1` — A playable chess game against Jev with live typed inputs and probabilities.
+- [craigm26/duckbatch](https://github.com/craigm26/duckbatch) `📚1` — Batched, judged, efficiency-first RL for Pollen's Microduck: many small attempts on one 4 GB GPU, pruned by a pre-registered kill order, with ...
+- [cryptojones/osapplytrack](https://github.com/cryptojones/osapplytrack) `📚1`
+- [cwjokaka/laya-snake](https://github.com/cwjokaka/laya-snake) `📚1`
+- [cympfh/jev-trial](https://github.com/cympfh/jev-trial) `📚1` — Small Python probes of Jev on a syllogism, a text-only Doom tick and self-play tic-tac-toe, with recorded probabilities and notes on where it fails. no license…
+- [dagfinndybvig/Go](https://github.com/dagfinndybvig/go) `📚1` — A Jev driven Go game
+- [daichangxin/gen-package-defines-plugin](https://github.com/daichangxin/gen-package-defines-plugin) `📚1`
+- [darjss/catan-game](https://github.com/darjss/catan-game) `📚1`
+- [dawid00714/GameBot](https://github.com/dawid00714/gamebot) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [dcode9/d-games](https://github.com/dcode9/d-games) `📚1`
+- [Dencyuman/terrarium](https://github.com/dencyuman/terrarium) `📚1` — Browser society simulation where each resident's action per tick is chosen by Jev from feasible actions while a generative LLM deliberates in the background.…
+- [devsangho/jev-robotics-example](https://github.com/devsangho/jev-robotics-example) `📚1`
+- [Dimesio/typesafe-chess,2,JavaScript,FUn](https://github.com/dimesio/typesafe-chess,2,javascript,fun) `📚1`
+- [dinkarjuyal/jev-gepa](https://github.com/dinkarjuyal/jev-gepa) `📚1` — Wiring a fast local NLI judge (Jev) into GEPA's reflective prompt optimization loop
+- [dj-thank/jve-driven](https://github.com/dj-thank/jve-driven) `📚1` — Driving simulation lab that rebuilds Tokyo streets from PLATEAU and OSM open data and tests Jev driving decisions in shadow or live mode. no license · Python
+- [DKeAlvaro/batallas-gallos](https://github.com/dkealvaro/batallas-gallos) `📚1` — Corpus de batallas de gallos en español: transcripciones de YouTube y visor web
+- [dobroslavradosavljevic/awesome-minecraft-hostings](https://github.com/dobroslavradosavljevic/awesome-minecraft-hostings) `📚1` — A curated list of awesome Minecraft server hosting providers, services, and resources
+- [dperezcabrera/ai-chess-battle](https://github.com/dperezcabrera/ai-chess-battle) `📚1` — ai-chess-battle — Frontier LLMs, a System One model and a human play a Swiss chess tournament, released one round at a time (auto-discovered, description not…
+- [dperezcabrera/jev-chess](https://github.com/dperezcabrera/jev-chess) `📚1` — Chess against Jev, TypeSafe AI's System One model, through OpenRouter. Built with the pico framework.
+- [drantunes/template-competitor-monitor-jev](https://github.com/drantunes/template-competitor-monitor-jev) `📚1` — Other related projects
+- [drilonademaj-ci/jev-snake](https://github.com/drilonademaj-ci/jev-snake) `📚1` — A Snake game that TypeSafe's Jev model plays, with live latency and cost on screen.
+- [drive.mrza.ch](https://drive.mrza.ch) `📚1`
+- [dytarasov/jevchess](https://github.com/dytarasov/jevchess) `📚1` — Chess against Jev, a decision model. Play it or watch it face Stockfish
+- [dyzdyz010/ex_mmo_cluster](https://github.com/dyzdyz010/ex_mmo_cluster) `📚1` — Genesis Initiative NPC Jev scheduler · dyzdyz010 · GitHub · ⭐ 18 repo · 2021-02-26NPC scheduler in the Genesis Initiative voxel MMO server where Jev picks each…
+- [ehab-ayman-gharib/border-protocol](https://github.com/ehab-ayman-gharib/border-protocol) `📚1` — Atmospheric border inspection game with Next.js, generated pixel art, and live Jev semantic assessments throu…
+- [enderzcx/dsh-spire-jev](https://github.com/enderzcx/dsh-spire-jev) `📚1` — DeepSeek Harness plugin exposing nine native tools so the agent can play Slay the Spire 2 through the spire-jev controller. MIT · JavaScript
+- [esoyuince/vector-atc](https://github.com/esoyuince/vector-atc) `📚1` — Air traffic control simulation on Cloudflare Workers with 100 synthetic aircraft steered by Jev decisions, incident reports and recorded replay. MIT ·…
+- [ewitulsk/JevCraft](https://github.com/ewitulsk/jevcraft) `📚1` — NeoForge 1.21.1 Minecraft mod where Jev picks targets for a local-player takeover mode and for persistent companions commanded via /jev goal. MIT · Java
+- [fangzipei/let-jev-play-pokemon](https://github.com/fangzipei/let-jev-play-pokemon) `📚1` — Play pokemonshowdown automatically by jev
+- [FazalAAli/jev-robotics-demo,5,Python,,2026-09-19,Jev](https://github.com/fazalaali/jev-robotics-demo,5,python,,2026-09-19,jev) `📚1`
+- [fchange/tetris_for_laya](https://github.com/fchange/tetris_for_laya) `📚1` — A Rich terminal Tetris environment for local Laya MLX play on Apple Silicon.
+- [felipe-cosse/chess-jev](https://github.com/felipe-cosse/chess-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [fhshaik/typesafe-mario,402,Python,,2026-09-16,2026-09-26](https://github.com/fhshaik/typesafe-mario,402,python,,2026-09-16,2026-09-26) `📚1`
+- [fine5351/game-assistant](https://github.com/fine5351/game-assistant) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [FoundationExperiments/jevpoker](https://github.com/foundationexperiments/jevpoker) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [francoperez03/el-tucu](https://github.com/francoperez03/el-tucu) `📚1` — El Tucu: robot con ESP32, órdenes por voz (Whisper + Jev) y agente en BNB
+- [fuad-daoud/relay](https://github.com/fuad-daoud/relay) `📚1` — Automates the plan/report handoff between planner and builder AI coding agent panes running under herdr Automatically matched explicit Jev and TypeSafe/System…
+- [GameFrameX/GameFrameX](https://github.com/gameframex/gameframex) `📚1` — An open-source toolbox that takes a game all the way "from idea → built → live" — Unity/Godot/Cocos/
+- [Gennadiyev/STS2MCP](https://github.com/gennadiyev/sts2mcp) `📚1`
+- [gitmoot/workspace-janitor](https://github.com/gitmoot/workspace-janitor) `📚1` — Safe, Jev-assisted workspace hygiene for developer and AI-agent machines
+- [GitNimay/jev-plays-tetris](https://github.com/gitnimay/jev-plays-tetris) `📚1` — Solo Tetris where TypeSafe's Jev decision model picks every move live through the Vercel AI Gateway.
+- [GitNimay/jev-plays-tetris,1,JavaScript,,2026-09-22,Solo](https://github.com/gitnimay/jev-plays-tetris,1,javascript,,2026-09-22,solo) `📚1`
+- [gopalanj/chess-jev](https://github.com/gopalanj/chess-jev) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [gradiuscypher/spacebrains](https://github.com/gradiuscypher/spacebrains) `📚1` — Autonomous SpaceTraders.io player where OpenRouter LLMs write long-horizon plans and Jev makes per-ship tactical Choice/Noul decisions, with a web UI. MIT ·…
+- [haideraqeeb-intellifai/jev-sla-h3](https://github.com/haideraqeeb-intellifai/jev-sla-h3) `📚1` — Jev-guided SLA H3 experiment code, archived generation evidence, and distinct 20/50-step configurati
+- [HarleyBartles/sheg](https://github.com/harleybartles/sheg) `📚1` — Use a system one model to run polls on simulated users
+- [heisenberg23911/CardGame](https://github.com/heisenberg23911/cardgame) `📚1` — 🃏 Create a turn-based card game with AI opponents using Love2D, featuring a modular design
+- [hejuntt1014/mario-jev-lab](https://github.com/hejuntt1014/mario-jev-lab) `📚1` — Playable Mario with a real-time text-only Jev AI controller, Phaser rendering, bilingual d
+- [HenriAlaharju/jev-game](https://github.com/henrialaharju/jev-game) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [hiper2d/werewolf-ai-party-game](https://github.com/hiper2d/werewolf-ai-party-game) `📚1`
+- [HQarroum/laymbda](https://github.com/hqarroum/laymbda) `📚1` — ⚡ Laya engine on AWS Lambda, backed by Lambda SnapStart.
+- [hs094/Jev-Plays-Chess](https://github.com/hs094/jev-plays-chess) `📚1` — A browser chess lab where you play White against Jev 1.13 Free, with locally saved games and transparent move decisions. Automatically matched explicit Jev and…
+- [IgorWarzocha/jev-plays-balatro](https://github.com/igorwarzocha/jev-plays-balatro) `📚1` — (notable) - Balatro mod and controller where Jev plans the run and picks every move from structured state; documents the best run falling short at ante 8. no…
+- [intjpatternrecogn-spec/jev-robotics](https://github.com/intjpatternrecogn-spec/jev-robotics) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [ismaelcamara072005-cmd/JEV](https://github.com/ismaelcamara072005-cmd/jev) `📚1` — Pour créé un environnement d'entraide pour les jeunes Guinéens créé par cécé
+- [JackBeerman/swarm](https://github.com/jackbeerman/swarm) `📚1` — Research: what a fast, cheap classification model (TypeSafe's Jev) is good for inside a real decisio
+- [jagadeeswara-reddy-p/play-jev-tictactoe](https://github.com/jagadeeswara-reddy-p/play-jev-tictactoe) `📚1`
+- [jakecronin/jevcraft](https://github.com/jakecronin/jevcraft) `📚1` — A local Minecraft companion powered by Jev, with step mode, bounded actions, and replayable decisions.
+- [jcs130/minecraft-ai-friend](https://github.com/jcs130/minecraft-ai-friend) `📚1`
+- [jedld/natural_20.py](https://github.com/jedld/natural_20.py) `📚1` — natural_20 Jev NPC battle AI · jedld · GitHub · ⭐ 7 repo · 2024-02-13Jev provider for NPC combat in natural_20, a D&amp;D 5e game engine for AI research, that…
+- [jemsbhai/pollard-jev](https://github.com/jemsbhai/pollard-jev) `📚1` — Typed, governed offline robotics and IoT decisions with Pollard
+- [Jev Plays Pokémon](https://jev-plays-pokemon.standardagents.ai) `📚1`
+- [Jev Plays Pokémon Red](https://jev-pokemon.vercel.app) `📚1`
+- [Jev 玩贪吃蛇](https://jevplayssnake.lovable.app) `📚1` — Jev plays Snake · Carol Monroe · App · ♥ 2Snake game where Jev picks the direction at every crossing and shows how sure it is; you can overrule it with an…
+- [jev-chess](https://npmjs.com/package/jev-chess) `📚1` — score 11 · 0 stars
+- [Jev-mice](https://mice.jev.carsonsweet.com) `📚1` — Simulation: a mouse colony whose behaviour runs through Jev decisions on top of a deterministic engine.
+- [jev-tetris-battle.vercel.app](https://jev-tetris-battle.vercel.app) `📚1`
+- [Jevvie](https://chriswijnia.com/lab/jevvie) `📚1` — Page companion: the page offers its actions as WebMCP tools, and one Jev Choice picks the action a visitor's request means (with a Choice per argument asked…
+- [JGalego/jev-plays](https://github.com/jgalego/jev-plays) `📚1` — 🎮 Jev plays GBA & Atari games — one button press at a time 🤖🕹️
+- [jgodmere808/tetris-with-jev](https://github.com/jgodmere808/tetris-with-jev) `📚1` — A tetris game written in C and automated with JEV
+- [jhao/snake-AI](https://github.com/jhao/snake-ai) `📚1` — Use Jev and Laya AI for snake game.
+- [jhonsu01/chess-war](https://github.com/jhonsu01/chess-war) `📚1` — Laya (local) vs Jev (TypeSafe API) playing pixel-art chess through identical typed questions. Live viewer + replays in 10 languages.
+- [JLarky/chess-jev-web](https://github.com/jlarky/chess-jev-web) `📚1` — Web chess against Jev with a legal-moves mode and a chaos mode where it picks any piece and any square. no license · TypeScript · live
+- [JoeSun-421/robotic_agent_use_jev](https://github.com/joesun-421/robotic_agent_use_jev) `📚1` — A UR5e arm use jev and qwen to gain an ability like neural reflexes
+- [JohGirard/doom-ai-overlord](https://github.com/johgirard/doom-ai-overlord) `📚1` — Doom played autonomously by the Laya System-1 decision model (open Jev alternative) via ViZDoom
+- [Jua12n/jev-dungeon-runner](https://github.com/jua12n/jev-dungeon-runner) `📚1` — Browser game demonstrating AI as a typed decision layer, with deterministic Phaser rules and a guide
+- [juanmartinzzz/jevidence](https://github.com/juanmartinzzz/jevidence) `📚1` — A pocket justice game to test Jev's ability to put bad actors on trial
+- [jyothepro/jev-games](https://github.com/jyothepro/jev-games) `📚1`
+- [KennethAshley/cant](https://github.com/kennethashley/cant) `📚1` — Connect your existing AI agents across harnesses and machines. Encrypted Nostr DMs, Jev co
+- [killop/anything_about_game](https://github.com/killop/anything_about_game) `📚1`
+- [King4s/jev-game-engine](https://github.com/king4s/jev-game-engine) `📚1` — Observable Rust AI game engine with latency-aware Jev goals, local execution, and a native UI. Minec
+- [KnlnKS/F-00](https://github.com/knlnks/f-00) `📚1` — Harness that lets Jev play live Gen 9 random battles on Pokemon Showdown, picking from legal actions with damage-calc evidence and a spectator UI. no license ·…
+- [knowlet/jev-agentworld-web-simulator,0,TypeScript](https://github.com/knowlet/jev-agentworld-web-simulator,0,typescript) `📚1`
+- [krishx64/jev-chess-player](https://github.com/krishx64/jev-chess-player) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [krisvandecruys/JevRPS](https://github.com/krisvandecruys/jevrps) `📚1` — Rock Paper Scissors against TypeSafe Jev in a terminal UI
+- [ktrack723/wargame](https://github.com/ktrack723/wargame) `📚1`
+- [kunalkushwaha/jevkart](https://github.com/kunalkushwaha/jevkart) `📚1` — Terminal car game in Go where every steering decision is a Jev call, making API latency visible; includes a headless latency bench. no license · Go
+- [Laya 玩 Doom](https://medium.com/@christian.graham_49279/laya-a-free-local-alternative-to-jev-and-it-can-even-play-doom-ish-42e2292e541e) `📚1` — Laya plays Doom · Christian Graham · Article · 2026-09-18Tests Laya, an open 421M-parameter Jev alternative, by having it play Doom locally, adding a dedicated…
+- [lecerveauretourner-cmyk/JEV](https://github.com/lecerveauretourner-cmyk/jev) `📚1` — JEV EST UNE ORGANISATION VISANT LA FORMATION DES JEUNES GUINÉEN
+- [LiJiaHua1024/ModlessChatTrans](https://github.com/lijiahua1024/modlesschattrans) `📚1` — ModlessChatTrans message classifier · LiJiaHua1024 · GitHub · ⭐ 9 repo · 2024-06-20Real-time Minecraft chat translator that reads the game log without mods and…
+- [liuyanghejerry/open-pokered](https://github.com/liuyanghejerry/open-pokered) `📚1` — open-pokered Jev autonomous playthrough · liuyanghejerry · GitHub · ⭐ 6 repo · 2026-08-09Two-layer Jev agent that plays the Rust reimplementation of Pokemon…
+- [live](https://jev-nethack-live.poppybyte.chatgpt.site) `📚1`
+- [live](https://werewolf.asfarlab.fun) `📚1`
+- [live](https://atc.alaz.tr) `📚1`
+- [live](https://chess-jev-web.vercel.app) `📚1`
+- [live](https://jev-chess-one.vercel.app) `📚1`
+- [live](https://jev-speed.mun0412.workers.dev) `📚1`
+- [live](https://omok.sharosoo.com) `📚1`
+- [live](https://jev-flight-school.yusufkusibati.chatgpt.site) `📚1`
+- [live](https://objectgraph.com/blog/jev-plays-samegame) `📚1`
+- [live demo](https://jevs-kitchen-chaos.vercel.app) `📚1`
+- [lmilojevicc/pi-zentui](https://github.com/lmilojevicc/pi-zentui) `📚1` — Modular UI components for Pi — customizable editors, messages, progress displays, and statuslines.
+- [longyinzaitian/WxLayaGame](https://github.com/longyinzaitian/wxlayagame) `📚1` — laya mini wechat game demo
+- [lqwlove/luckey52-jev-game](https://github.com/lqwlove/luckey52-jev-game) `📚1`
+- [luisacsfreitas (Towards AI): “Jev Doesn’t Write, It Decides: Games Today, Company Data wit](https://pub.towardsai.net/jev-doesnt-write-it-decides-games-today-company-data-with-care-computer-vision-next-21178d277475) `📚1` — min analysis: games are the natural home (bounded choices, engine-owned rules, latency-critical) — cites community numbers: jev-benchmark (jev-1.13.0) F1 0.96…
+- [lukeramsden/system-one](https://github.com/lukeramsden/system-one) `📚1` — Typed decisions from System-1 models (Jev, Cloudflare AI Gateway, Laya) with Promise and Effect-nati
+- [LumaDock: "What is Jev? The AI model with no text output that plays Doom"](https://lumadock.com/blog/what-is-jev-typesafe) `📚1` — Long explainer with the full workflow-eval table (Jev 67.8% at $0.0004/0.4s vs GPT-5.6 Terra 67.9% at $0.0304/10.1s; security-incidents row: Jev 61.7% at…
+- [lvk901/jevSweeper](https://github.com/lvk901/jevsweeper) `📚1` — Jev (TypeSafe System One) plays Minesweeper, scored against an exact probability oracle. Its judgmen
+- [lzdFeiFei/jev-games](https://github.com/lzdfeifei/jev-games) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [m8g1y5-art/Jev-Gripper](https://github.com/m8g1y5-art/jev-gripper) `📚1` — Jev-powered robot gripper: a vision-language model gives pixels, geometry gives millimetres, and Jev
+- [Machinarium](https://amanita-design.net/games/machinarium.html) `📚1`
+- [mahajanparth/JEV_SMARTROBOTCONTROL](https://github.com/mahajanparth/jev_smartrobotcontrol) `📚1` — ROS 2 TurtleBot3 house simulation with Jev-driven localization recovery, Nav2 supervision, and a liv
+- [Makankn/laya-plays-google-snake](https://github.com/makankn/laya-plays-google-snake) `📚1` — Real Google Snake controlled from pixels and arrow keys, not a clone. Laya chooses moves; vision tra
+- [Mani212005/GameTester](https://github.com/mani212005/gametester) `📚1` — Interactive 3D Game Physics & Collision Simulator built with Three.js, Cannon-es, and Playwright automated vi…
+- [marioquer/jev-mdr](https://github.com/marioquer/jev-mdr) `📚1` — A Macrodata Refinement terminal you can actually work at, with a real classification model
+- [MateusRogien/jev-focus](https://github.com/mateusrogien/jev-focus) `📚1` — eep YouTube for focus music and learning while it hides everything else.
+- [MattiTynka/JEV-RTS](https://github.com/mattitynka/jev-rts) `📚1` — Web ported unity game by @studioigor driven by prompts and JEV classifier
+- [maxjevon/violated-princess-enhancement-kit](https://github.com/maxjevon/violated-princess-enhancement-kit) `📚1` — Violated Princess Cheats and Hacks Unlocked Gameplay Tips and Modded Features 🚀👑
+- [MayankBansal12/jev-plays-pinball](https://github.com/mayankbansal12/jev-plays-pinball) `📚1` — jev-plays-pinball - MayankBansal12/jev-plays-pinball - watch jev play real-time pinball.
+- [meetr1912/jev-poker](https://github.com/meetr1912/jev-poker) `📚1`
+- [memgrafter/gliner2-doom](https://github.com/memgrafter/gliner2-doom) `📚1` — Doom with GLiNER2. Dropped all but the embedder, I plan to change the embedder before retraining. Automatically matched explicit Jev and TypeSafe/System One…
+- [mikiona/Minecraft-JefPlay](https://github.com/mikiona/minecraft-jefplay) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [mirror (RobotWorld)](https://robot.agientry.com/en/robotvideos/twitter-openroboto-2101310974359941332) `📚1` — RobotWorld: mirror of the MuJoCo comparison post with a one-line summary of the thread.
+- [mizzsugar/stackchan_like_jev_game](https://github.com/mizzsugar/stackchan_like_jev_game) `📚1`
+- [MonforteGG/jev-plays-super-mario-land](https://github.com/monfortegg/jev-plays-super-mario-land) `📚1`
+- [MONISMALIK1/ai-dungeon-game,0,Python,,2026-09-22](https://github.com/monismalik1/ai-dungeon-game,0,python,,2026-09-22) `📚1`
+- [MudassarZia/jev-factorio](https://github.com/mudassarzia/jev-factorio) `📚1` — Experimental Jev-controlled Factorio bot. Preserves the original action-selection approach and its u
+- [N0K0/jev_chess](https://github.com/n0k0/jev_chess) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [n0nuser/battlesnake-jev,0,Go,,2026-09-19](https://github.com/n0nuser/battlesnake-jev,0,go,,2026-09-19) `📚1`
+- [NatBrian/pokemon-showdown-jev-agent,0,JavaScript,,2026-09-22](https://github.com/natbrian/pokemon-showdown-jev-agent,0,javascript,,2026-09-22) `📚1`
+- [nautahakk/rules-are-lava](https://github.com/nautahakk/rules-are-lava) `📚1` — A daily survival writing game judged by Jev.
+- [neavemj/JEV_assembly_pipe](https://github.com/neavemj/jev_assembly_pipe) `📚1` — Snakemake pipeline to assemble JEV genomes from primer tiling data
+- [Nesbesss/khatib-chess](https://github.com/nesbesss/khatib-chess) `📚1`
+- [nft-syou/luna-occulta-poker](https://github.com/nft-syou/luna-occulta-poker) `📚1`
+- [nickyqqq/laya-tetris](https://github.com/nickyqqq/laya-tetris) `📚1` — Watch local Laya AI play Tetris with a live decision dashboard, candidate probabilities, board metri
+- [nicolasdao/tattle](https://github.com/nicolasdao/tattle) `📚1` — Open-source Mac app that transcribes live conversations (your mic + the call your Mac plays), maps them on a timeline, and fact-checks ...
+- [nkkmd/bao-la-kiswahili-game](https://github.com/nkkmd/bao-la-kiswahili-game) `📚1`
+- [noelserdna/colonias-felinas](https://github.com/noelserdna/colonias-felinas) `📚1` — PWA para que los ayuntamientos formen, acrediten y coordinen a las personas cuidadoras de colonias felinas: temario, examen con corrección por IA ...
+- [npow/jev-hanabi](https://github.com/npow/jev-hanabi) `📚1` — Reproducible JEV benchmark for cooperative Hanabi: Sherlock self-play, structured action scoring, po
+- [oiupoyt/JevPlays](https://github.com/oiupoyt/jevplays) `📚1`
+- [omribenami/Jev-operated-tello-drone](https://github.com/omribenami/jev-operated-tello-drone) `📚1`
+- [OppaAI/Aiko-chan](https://github.com/oppaai/aiko-chan) `📚1` — Aiko-chan Jev shogi · OppaAI · GitHub · ⭐ 49 repo · 2026-05-28Local AI companion with a VRM avatar that plays shogi with Jev, choosing among candidate moves…
+- [orama254/rangaza-sentiment-simulator](https://github.com/orama254/rangaza-sentiment-simulator) `📚1`
+- [oxyplay/signal-to-action](https://github.com/oxyplay/signal-to-action) `📚1` — Evaluating Jev as a Decision Layer for Prometheus Alerts
+- [pahndev/Type-Safe-Maze-Demo-](https://github.com/pahndev/type-safe-maze-demo-) `📚1` — Dependency-free Node app where Jev picks each move through a random maze from discovered cells only, with a per-move diagnostics panel and BFS comparison. no…
+- [pholgy/little-cab](https://github.com/pholgy/little-cab) `📚1` — Local 2D taxi simulation where Jev via OpenRouter picks passengers, routes and driving commands during a timed shift, logging decisions, latency and API spend.…
+- [phuhao00/jev-behavior-tree,0,HTML,Game](https://github.com/phuhao00/jev-behavior-tree,0,html,game) `📚1`
+- [piersonmarks/gamebot](https://github.com/piersonmarks/gamebot) `📚1`
+- [poisson-labs/jev-replay](https://github.com/poisson-labs/jev-replay) `📚1` — Measures whether TypeSafe's Jev decision model flips actions on identical replays near shipped thres
+- [poisson-labs/jev-replay,0,Python,,2026-09-23](https://github.com/poisson-labs/jev-replay,0,python,,2026-09-23) `📚1`
+- [premithk/jev-games](https://github.com/premithk/jev-games) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [professorpalmer/marionette](https://github.com/professorpalmer/marionette) `📚1` — Marionette Jev turn judgment · professorpalmer · GitHub · ⭐ 22 repo · 2026-07-03Opt-in Jev turn judgment in Marionette, a desktop AI coding harness built on…
+- [project page (MOSS × JEV)](https://showrobotics.ai/moss-jev) `📚1`
+- [prolix-oc/Lumiverse-SimTracker](https://github.com/prolix-oc/lumiverse-simtracker) `📚1` — SimTracker Jev path · prolix-oc · GitHub · ⭐ 11 repo · 2026-03-08Roleplay tracker extension for Lumiverse that uses Jev to skip needless tracker updates, flip…
+- [prs98/Financial-Hedging-using-simulation](https://github.com/prs98/financial-hedging-using-simulation) `📚1` — A decision model build using probability and stochastic process knowledge to mitigate the
+- [qforge-dev/torque](https://github.com/qforge-dev/torque) `📚1` — Torque is a Declarative, typesafe DSL for building synthetic LLM datasets — compose conversations li
+- [R055LE/jev-plays-pokemon](https://github.com/r055le/jev-plays-pokemon) `📚1`
+- [raghavpillai/jev-drone](https://github.com/raghavpillai/jev-drone) `📚1` — Jev-controlled indoor drone navigation and room search in PX4 and Gazebo, with recorded 3D demos.
+- [ramb5144/laya-robot-arm](https://github.com/ramb5144/laya-robot-arm) `📚1` — Sensor-grounded Laya control for a MuJoCo 3D pick-and-place robot arm
+- [recommends 1280 by 640 pixels for best display and a file under 1 MB](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) `📚1` — A social preview should show the list name and two or three concrete categories, not a wall of logos or a fast-changing count. GitHub recommends 1280 by 640…
+- [RehmanaliMomin/TetrisGame_Laya](https://github.com/rehmanalimomin/tetrisgame_laya) `📚1` — Tetris where a Laya decision model places every piece: two typed choice questions per piece, no sear
+- [Riti0208/jevbug](https://github.com/riti0208/jevbug) `📚1` — Artificial-life simulation where Jev decides for 2D creatures, measuring whether meaningless signals become informative versus no-communication controls. no…
+- [river](https://beingcognitive.github.io/jev-songwriter/demos/demo-river.html) `📚1` — Hosted replays: river and siblings linked from the README (HTTP reachability not re-checked this pass beyond prior discovery).
+- [robault/skilldoom](https://github.com/robault/skilldoom) `📚1`
+- [RobotWorld: "Jev and System One Models: Frontier Intelligence as a Function Call" (2026-09](https://robotworld.top/en/articles/typesafe-jev-system-one) `📚1` — Deep read collecting the launch essay, official docs, workflow evals, the OpenJev reproduction and day-one community discussion: how to ask well, how…
+- [roby-avo/impulse](https://github.com/roby-avo/impulse) `📚1` — Let your creativity loose. A physics playground for AI decision-making: play against models, watch L
+- [RomanSlack/jev-drone,198,Python,MIT,2026-09-24,2026-09-26](https://github.com/romanslack/jev-drone,198,python,mit,2026-09-24,2026-09-26) `📚1`
+- [rorz/rorz.io](https://github.com/rorz/rorz.io) `📚1` — Magic-Jev-Ball · rorz · GitHub · ⭐ 5 repo · 2026-07-10Jev-backed Magic 8 Ball toy built with React, Vite and Cloudflare Workers, hosted as a small app in the…
+- [RuntimeWire writeup](https://runtimewire.com/article/typesafe-jev-minecraft-24ms-demo) `📚1` — @haoailab — Minecraft combat demo (2026-09-27): claims ~24ms per decision and up to 40 decisions/second, running DJev on an NVIDIA B200 GPU. Caveats: the lab's…
+- [sanjayyb7/beethoven-showcase](https://github.com/sanjayyb7/beethoven-showcase) `📚1` — Beethoven: drop a painting on a score and a live AI band plays it, conducted by Jev
+- [sanlega/JEVjam](https://github.com/sanlega/jevjam) `📚1` — "JEVjam": an AI band that listens to what you play and accompanies live over MIDI (Spanish README) — Jev is the "musical ear" that decides each musician's role…
+- [Satpal777/jev-games](https://github.com/satpal777/jev-games) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [seanthomasevans/typesafe-nes](https://github.com/seanthomasevans/typesafe-nes) `📚1` — Jev (TypeSafe's decision model) plays Super Mario Bros, Contra, and Mega Man through stabl
+- [selmakcby/jev-minecraft-bot](https://github.com/selmakcby/jev-minecraft-bot) `📚1` — Minecraft botunun refleks katmanı Jev: plan kodda, karar Jev'de
+- [sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA](https://github.com/sepiablue-ai/comfyui-minimax-h3-w4a4-vsa) `📚1` — Repository: sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA (branch exp/jev-adaptive-vsa).
+- [Serendeep/rl-by-subtraction](https://github.com/serendeep/rl-by-subtraction) `📚1` — Toy RLHF, RLVR and RLCD implementations sharing one tiny environment. numpy only.
+- [shantanugoel/tetris-ai,1,JavaScript](https://github.com/shantanugoel/tetris-ai,1,javascript) `📚1`
+- [SherlockGy/play-jev](https://github.com/sherlockgy/play-jev) `📚1`
+- [ShiftSad/mage](https://github.com/shiftsad/mage) `📚1` — JevAI for XMage - Magic: The Gathering bots using Jev alone or alongside XMage search.
+- [shmuelleider-droid/jev-snake](https://github.com/shmuelleider-droid/jev-snake) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shoemoney/jev-the-spire2](https://github.com/shoemoney/jev-the-spire2) `📚1` — An agent plays Slay the Spire 2. Single-call factored decisions via TypeSafe Jev: 15x faster and 259
+- [shubh24/jev-football](https://github.com/shubh24/jev-football) `📚1` — ELEVEN: a Three.js football game with JEV team control, penalty mode, and decision inspect
+- [Shurikal/Parsewell](https://github.com/shurikal/parsewell) `📚1` — Free-text adventure game where a single batched Jev call interprets each move and code enforces item
+- [sliday/jev-chess](https://github.com/sliday/jev-chess) `📚1`
+- [Slityak/rajzolj-mircinek](https://github.com/slityak/rajzolj-mircinek) `📚1` — Draw it before the cat gets it: a browser/PWA drawing game judged by the Jev decision model on Cloud
+- [SLuke115/shadow-ninja](https://github.com/sluke115/shadow-ninja) `📚1`
+- [Smartitect/2048](https://github.com/smartitect/2048) `📚1` — Python 2048 engine with console, pygame and browser UIs where a Jev player picks among legal moves from engine-simulated outcomes of each direction. MIT ·…
+- [soonhakahn/jev-checkpoint-game](https://github.com/soonhakahn/jev-checkpoint-game) `📚1`
+- [sophiamyang/fireworks-jev-reward-rl](https://github.com/sophiamyang/fireworks-jev-reward-rl) `📚1`
+- [SrPio/jev-role-game](https://github.com/srpio/jev-role-game) `📚1`
+- [stephenheron/claude-and-jev-play-pokemon](https://github.com/stephenheron/claude-and-jev-play-pokemon) `📚1`
+- [StevanusPangau/jev-snake](https://github.com/stevanuspangau/jev-snake) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [stopry/H5GAMEWIDTHAPI](https://github.com/stopry/h5gamewidthapi) `📚1`
+- [SUMO traffic signals](https://sumo.dlr.de/docs/simulation/traffic_lights.html) `📚1` — phase selection and signal simulation motivate the traffic illustration, not a real-world Jev controller.
+- [sunyifeng11111/typesafe-tetris](https://github.com/sunyifeng11111/typesafe-tetris) `📚1` — An autonomous Tetris experiment played by JEV through TypeSafe System One.
+- [SuperInstance/jev-gan](https://github.com/superinstance/jev-gan) `📚1` — The substrate GAN — JEV decides, JEPA predicts, multi-LLM plays producer/critic in a fully-observabl
+- [surbhit20/jev-plays-snake](https://github.com/surbhit20/jev-plays-snake) `📚1` — A snake game played by Jev, TypeSafe's System One classifier
+- [sxlanes/bleed](https://github.com/sxlanes/bleed) `📚1`
+- [sypei/jev-crowd](https://github.com/sypei/jev-crowd) `📚1` — jev-based philosophical probing visualized by human crowd
+- [szupzj18/flick](https://github.com/szupzj18/flick) `📚1` — A fast iOS simulator agent with a dynamic, indexed action space. Powered by TypeSafe Jev & Facebook
+- [techadnank9/traceclaw](https://github.com/techadnank9/traceclaw) `📚1` — Hackathon browser game about filing house rules after a failed bakery shift, with Jev as a second judge answering three typed questions per rule. MIT ·…
+- [ThanabordeeN/drone-city-simulator](https://github.com/thanabordeen/drone-city-simulator) `📚1` — Browser 3D drone simulator with an automation API and an AI control tab where Jev scores pitch, strafe, yaw and vertical at 5 Hz via OpenRouter. no license ·…
+- [THIAGONOMA/jev-gate](https://github.com/thiagonoma/jev-gate) `📚1` — Um juiz de 400 ms entre o agente e o shell. POC do AI Tinkerers SP: julgamento semântico é
+- [tidys/CocosCreatorForDeskApp](https://github.com/tidys/cocoscreatorfordeskapp) `📚1`
+- [tktserapio/jev-games](https://github.com/tktserapio/jev-games) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [tobenot/Basic-Web-Game-Backend](https://github.com/tobenot/basic-web-game-backend) `📚1` — 🚀 Modern TypeScript backend for web games with Fastify, tRPC & Prisma. Features magic link auth, typ
+- [tomviner/tone-your-mind](https://github.com/tomviner/tone-your-mind) `📚1` — A live target-tone game written by IBM Granite and scored by TypeSafe Jev.
+- [toreleon/JevGames](https://github.com/toreleon/jevgames) `📚1` — Pluggable decision-model training and benchmarking framework
+- [tpiros/escape-from-mos-eisley](https://github.com/tpiros/escape-from-mos-eisley) `📚1` — Free-text gamebook where Gemini authors JSON books and Jev judges each typed action with one batch of questions that the engine turns into rules. no license ·…
+- [truevis/classifier,0,Python,,2026-09-18,Bare-bones](https://github.com/truevis/classifier,0,python,,2026-09-18,bare-bones) `📚1`
+- [Try app](https://doom-or-bloom.com) `📚1` — Access: try www.doom-or-bloom.com or clone the MIT source. No app purchase fee for the described path; TypeSafe usage is separate. Source inspected; live…
+- [ueagohbbcd/jev-simulator](https://github.com/ueagohbbcd/jev-simulator) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [Unassisted Snake runs](https://rinnecoder.github.io/jev-behavior-study/snake_demo/web/unassisted.html) `📚1`
+- [utkarshg20-org/jevolution](https://github.com/utkarshg20-org/jevolution) `📚1` — An interactive ecosystem simulation with AI-controlled animals.
+- [Vaibhaav-Tiwari/fly-doom-jev](https://github.com/vaibhaav-tiwari/fly-doom-jev) `📚1`
+- [Watermelon-Xci/JoyStickModule](https://github.com/watermelon-xci/joystickmodule) `📚1` — Simple JoyStick Module in LayaAir Game Engine.
+- [Waxmell114514/jev-fps](https://github.com/waxmell114514/jev-fps) `📚1` — Browser aim trainer where Jev answers target Choice, engage Noul and tempo Score every 90 ms and code handles the aiming; simulator fallback without a key. no…
+- [Wickypolineni/gemma-jev](https://github.com/wickypolineni/gemma-jev) `📚1` — Generation-free typed decisions read from Gemma 4's logits, on llama.cpp. Then it plays Doom.
+- [WilsomLi/LayaGame](https://github.com/wilsomli/layagame) `📚1`
+- [xuminghai1/tetris-ai](https://github.com/xuminghai1/tetris-ai) `📚1`
+- [xygamer179-boop/Veylon-RLCD-Small-Conditional-Model](https://github.com/xygamer179-boop/veylon-rlcd-small-conditional-model) `📚1` — Games robotics and simulations
+- [ybelatar/pokemon_jev](https://github.com/ybelatar/pokemon_jev) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [yeeeengyu/jevChess](https://github.com/yeeeengyu/jevchess) `📚1` — orean-language chess experiment (Express + EJS + vanilla JS): the human plays White, the JEV Choice API picks Black's move from the legal moves for each turn.…
+- [YingchaoX/game-jev](https://github.com/yingchaox/game-jev) `📚1` — Local MLX-powered game playground with live model decision inspection
+- [ZJU4EmbodiedAI/JevVLA](https://github.com/zju4embodiedai/jevvla) `📚1` — inferred / other — ⭐0
+- [zola-nerd/systemone-mc](https://github.com/zola-nerd/systemone-mc) `📚1` — Client-only Fabric mod for Minecraft 1.21.1: keyword goals (protect, follow, build, idle, survive) on your own client, moves by holding normal movement keys…
+- [ZWkang/jev-snake](https://github.com/zwkang/jev-snake) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [zxrneu/laya-snake](https://github.com/zxrneu/laya-snake) `📚1` — 🐍 Autonomous Snake AI powered by Laya (non-autoregressive decision model on ModernBERT-large) with B
+- [收录页](https://madewithjev.com/builds/jev-plays-tetris) `📚1`
+- [收录页](https://madewithjev.com/builds/realtime-game-levels) `📚1`
+- [收录页内嵌](https://madewithjev.com/builds/jev-plays-mario) `📚1`
+
+</details>

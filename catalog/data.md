@@ -1,0 +1,1497 @@
+# Data, Databases & Documents
+
+> Classification, labeling, extraction, search, SQL/Postgres/graph integrations and document triage.
+>
+> **1,474 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 112
+
+- [superagents-lab/jev-search](https://github.com/superagents-lab/jev-search) `★495 · 📚64` — Search the web with TypeSafe's Jev: source selection, query understanding and relevance ranking. Built with Search1API.
+- [realZachi/pg-jev](https://github.com/realzachi/pg-jev) `★386 · 📚59` — Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev.
+- [jexp/neo4jev](https://github.com/jexp/neo4jev) `★153 · 📚52` — Typesafe.ai System One Model Jev navigating a Neo4j graph by using a classifier over neighbouring relationships
+- [AkashPriyadarshii/jev-curate](https://github.com/akashpriyadarshii/jev-curate) `★92 · 📚45` — High-throughput synthetic and pretraining dataset sifter for TypeSafe Jev. Rust streaming core, Parquet and JSONL I/O, typed Choice/Score/Noul judgments, speculative fan-out, 24.0 rows/sec measured.   - GitHub -…
+- [kylemclaren/jevql](https://github.com/kylemclaren/jevql) `★14 · 📚43` — Semantic SQL for Postgres, powered by Jev.
+- [uehaj/sys1grep](https://github.com/uehaj/sys1grep) `★144 · 📚36` — grep by meaning, across languages. TypeSafe Jev scores every line against a meaning; combine meanings with AND/OR/NOT. 意味で探す grep。日本語で英語を、英語で日本語を検索できる
+- [logan-markewich/jeff](https://github.com/logan-markewich/jeff) `★274 · 📚35` — A self-hosted drop-in replacement for TypeSafe's jev, powered by GliFormer.
+- [giuliosmall/pg_typesafe](https://github.com/giuliosmall/pg_typesafe) `★87 · 📚34` — Pre-alpha PostgreSQL extension for TypeSafe AI (Jev) categorical classification
+- [reachjalil/jevlogs](https://github.com/reachjalil/jevlogs) `★16 · 📚33` — Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis.
+- [nokia-applied-research/AnyJev](https://github.com/nokia-applied-research/anyjev) `★986 · 📚32` — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)
+- [keltokhy/jgrep](https://github.com/keltokhy/jgrep) `★131 · 📚32` — grep, but the pattern is a description. Filters lines by meaning with TypeSafe's Jev decision model: ~200 ms and a thousandth of a cent per line.
+- [kyu1204/jgrep](https://github.com/kyu1204/jgrep) `★58 · 📚32` — grep for what code does, not what it's called. Semantic code search powered by TypeSafe Jev.
+- [jerryjliu/docjev](https://github.com/jerryjliu/docjev) `★487 · 📚31` — A very fast document classifier/splitter using Jev  - GitHub - jerryjliu/docjev: A very fast document classifier/splitter using Jev
+- [docxology/daf-jev](https://github.com/docxology/daf-jev) `★6 · 📚27` — daf-jev: composable Python toolkit for TypeSafe's Jev (System One) decision API — question builders, confidence gates, evaluator, calibration, CLI, MCP server, agent skill
+- [kylemclaren/jevsearch](https://github.com/kylemclaren/jevsearch) `★8 · 📚25` — Site search that understands the question. Ranked by TypeSafe's Jev model.
+- [carldaws/hunch](https://github.com/carldaws/hunch) `★16 · 📚24` — Probabilistic control flow for Ruby and Rails - powered by TypeSafe's Jev
+- [dzhng/jevgrep](https://github.com/dzhng/jevgrep) `★1,902 · 📚23` — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.
+- [libingzheren/Jev-Mem](https://github.com/libingzheren/jev-mem) `★136 · 📚23` — Jev-Mem: System-One Controlled Agentic Memory.
+- [EugeneBoondock/jevsql](https://github.com/eugeneboondock/jevsql) `★5 · 📚22` — SQL with natural-language predicates, powered by TypeSafe's Jev. Filter, rank, classify and score rows by meaning — batched, cached and cost-guarded.
+- [goodrahstar/jev-column-race](https://github.com/goodrahstar/jev-column-race) `★23 · 📚21` — Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1× faster and 7× cheaper
+- [\`Jev Judge vs Dimension Scores\`：分解不总是更好（含日语多语证据）](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction) `📚21` — Jev: one judge call, or twelve dimension scores? - Independent measurement on three classification tasks, with token costs and false-positive rates.
+- [inanna-malick/jev-dsl](https://github.com/inanna-malick/jev-dsl) `★7 · 📚20` — Agent-first Haskell DSL for TypeSafe's Jev judgment model: typed packets, inferred types, answers under the same labels
+- [Charlyhno-eng/jev-document-classification](https://github.com/charlyhno-eng/jev-document-classification) `★6 · 📚20` — JEV Document Classification enables the rapid and cost-effective classification of text-based documents using AI, leveraging TypeSafe's "System One" model.
+- [colliber/duckdb-jev](https://github.com/colliber/duckdb-jev) `★27 · 📚19` — DuckDB extension: typed Jev answers as real SQL types
+- [buberlo/dsh-jev](https://github.com/buberlo/dsh-jev) `★24 · 📚19` — Jev-powered decision layer for DeepSeek Harness.
+- [parth-kp/jev-mail-classifier](https://github.com/parth-kp/jev-mail-classifier) `★19 · 📚19` — Classify your inbox with Jev (TypeSafe's System One model) — tag, move, flag, and notify, all config-driven.
+- [prasanthj/duckdb-jev](https://github.com/prasanthj/duckdb-jev) `★7 · 📚19` — High-throughput, robust native DuckDB extension for batched and streaming TypeSafe/Jev classification, scoring, and semantic predicates from SQL.
+- [sriganesh/jevibe-check](https://github.com/sriganesh/jevibe-check) `★2 · 📚19` — A live tone labeler for Bluesky posts and drafts, using TypeSafe's Jev API.
+- [jev-chat/jev-chat-windows](https://github.com/jev-chat/jev-chat-windows) `★705 · 📚18` — JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动
+- [can1357/jegrep](https://github.com/can1357/jegrep) `★100 · 📚18` — Semantic grep: find code by describing what you're looking for, powered by Jev.
+- [samdotmak/jev-recall](https://github.com/samdotmak/jev-recall) `★37 · 📚18` — Retrieve by relevance, not resemblance: filter an AI assistant's memories with TypeSafe's Jev
+- [ktaletsk/jevframe](https://github.com/ktaletsk/jevframe) `★20 · 📚18` — Semantic AI for pandas and Polars: classify text, analyze sentiment, and score DataFrame rows with natural-language questions and full probabilities using TypeSafe Jev.
+- [zilliztech/memsearch](https://github.com/zilliztech/memsearch) `★2,686 · 📚17` — A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.
+- [nassim-arifette/jevgrep](https://github.com/nassim-arifette/jevgrep) `★91 · 📚17` — Jev-powered semantic code search for coding agents — find behavior across repositories via CLI or MCP, with exact source excerpts and line numbers.
+- [jon-devlapaz/jev-me](https://github.com/jon-devlapaz/jev-me) `★13 · 📚17` — Grill-me with Jev optional each turn.
+- [mgaitan/sqlite-jev](https://github.com/mgaitan/sqlite-jev) `★4 · 📚17` — Batched natural-language judgments for SQLite, powered by TypeSafe Jev
+- [hellogumbo/should-ai-kill-us-all](https://github.com/hellogumbo/should-ai-kill-us-all) `★3 · 📚17` — We ask Jev, TypeSafe AI's System One model, whether AI should kill us all. Every ten minutes. Using the actual headlines.
+- [noetion/dsh-jev](https://github.com/noetion/dsh-jev) `★3 · 📚17` — DSH bundle that registers jev_ask for TypeSafe Jev noul, choice, and score answers.
+- [NullPo-jp/PocketJev](https://github.com/nullpo-jp/pocketjev) `★1 · 📚17` — On-device iPhone visual decision tool using MLX and Qwen3-VL direct option logits.
+- [DataCamp](https://datacamp.com/blog/system-one-models-jev) `📚17` — Jev: TypeSafe's System One model - Longer explainer on the model class, the typed question format and where it fits.
+- [hqman/JevScout](https://github.com/hqman/jevscout) `★39 · 📚16` — JevScout - Coding-agent skill that drives Chrome over CDP to look for jobs on company sites, with Jev scoring pages and links.
+- [sgoedecke/system-one](https://github.com/sgoedecke/system-one) `★34 · 📚16` — Batched single-token choice inference for open language models, compatible with TypeSafe
+- [karanb192/jev-architect](https://github.com/karanb192/jev-architect) `★7 · 📚16` — Find, design, and evaluate TypeSafe Jev decision loops.
+- [Kelbie/hunch](https://github.com/kelbie/hunch) `★4 · 📚16` — Semantic code review with Jev, plain-English rules and Agent Skills.
+- [maayanlevy/mysql-ailike](https://github.com/maayanlevy/mysql-ailike) `★4 · 📚16` — Natural-language row filtering for MySQL, powered by TypeSafe Jev.
+- [Query-farm/vgi-typesafe](https://github.com/query-farm/vgi-typesafe) `★4 · 📚16` — A VGI worker exposing TypeSafe System One questions (choice, noul, score) to DuckDB/SQL as LATERAL-joinable table functions
+- [greenyamao/Antigravity-mcp-semantic-search-with-TypeSafeAi](https://github.com/greenyamao/antigravity-mcp-semantic-search-with-typesafeai) `★1 · 📚16` — Fast semantic code search & diff sanity auditor for AI coding assistants (Antigravity, Cursor, Claude Code) powered by TypeSafe System One.
+- [dnakhoa/jev-deferred-crispification](https://github.com/dnakhoa/jev-deferred-crispification) `★0 · 📚16` — Position paper: the Hidden-Markov and fuzzy primitives missing from TypeSafe AI's Jev and System-One decision models. Two lemmas, one principle (Deferred Crispification), one architecture (BSF-S1).
+- [okinaaudio/live-jev](https://github.com/okinaaudio/live-jev) `★43 · 📚15` — Control Ableton Live with one short sentence (Japanese / English). Summon with ⌘⇧Space, type or dictate, done.
+- [madeye/pi-jev](https://github.com/madeye/pi-jev) `★15 · 📚15` — Jev-assisted file retrieval and request caching for faster Pi workflows
+- [khmuhtadin/n8n-nodes-jev-classification](https://github.com/khmuhtadin/n8n-nodes-jev-classification) `★5 · 📚15` — n8n community node for Jev by TypeSafe AI: classify, score and check text with calibrated probabilities. Parallel requests and multi-item batching.
+- [glud123/jev-assist](https://github.com/glud123/jev-assist) `★4 · 📚15` — Don't burn your model's context on a search flood — pipe it in and read above the cut line: one calibrated number per candidate, ~30 rows whether the pool is 40 or 4,000. It doesn't search; it decides what each hit is.
+- [mattn/sqlite3-jev](https://github.com/mattn/sqlite3-jev) `★3 · 📚15` — SQLite extension that calls TypeSafe Jev (or tensai serve) from SQL
+- [0xnairb/research_desk](https://github.com/0xnairb/research_desk) `★2 · 📚15` — TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers
+- [allebee/jevgrep](https://github.com/allebee/jevgrep) `★1 · 📚15` — CLI that filters logs and text by meaning using plain-English yes/no questions and Jev probabilities.
+- [jyatesdotdev/jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) `★1 · 📚15` — Jev decides whether a batch of logs is worth acting on. Typed questions, confidence gates, nothing executed.
+- [brandonbryant12/transcript-scorecard](https://github.com/brandonbryant12/transcript-scorecard) `★0 · 📚15` — ACME live support-call scoring demo with TypeSafe AI, Effect, SQLite, React, Vite, and Turborepo
+- [STRML/omp-jevens-classifier](https://github.com/strml/omp-jevens-classifier) `★0 · 📚15` — Jev-powered model-judged permission gate for OMP (TypeSafe System One)
+- [Nancy-Chauhan/hearth-jev-rental-search](https://github.com/nancy-chauhan/hearth-jev-rental-search) `★9 · 📚14` — Autonomous multi-source rental search powered by TypeSafe Jev
+- [larguesa/jev-search](https://github.com/larguesa/jev-search) `★6 · 📚14` — Experimental semantic line search with TypeSafe Jev via OpenRouter. Python CLI with no runtime dependencies.
+- [jev-sec/jev-ids](https://github.com/jev-sec/jev-ids) `★5 · 📚14` — Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.
+- [YehuiTang0316/jev-nlgrep](https://github.com/yehuitang0316/jev-nlgrep) `★4 · 📚14` — Search code and text by meaning with natural-language grep, powered by Jev.
+- [shimo4228/jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) `★3 · 📚14` — Daily research monitor for standing questions: deterministic Python owns the loop, TypeSafe Jev screens sources per question, Qwen writes the notes (pilot)
+- [mattneel/typesafe.zig](https://github.com/mattneel/typesafe.zig) `★1 · 📚14` — An idiomatic Zig client for the TypeSafe AI API.
+- [sypherin/jev-trace-classifier](https://github.com/sypherin/jev-trace-classifier) `★0 · 📚14` — Application of TypeSafe Jev (noul judgment primitive) on the collusion.wiki corpus: agent vs human page authorship, head-to-head vs local Qwen3.8-Flash-Next
+- [dorkitude/webctl](https://github.com/dorkitude/webctl) `★149 · 📚13` — Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.
+- [iapp-technology/openthai-systemone](https://github.com/iapp-technology/openthai-systemone) `★65 · 📚13` — OpenThai-SystemOne: open Thai + English System One decision model (0.8B, 256-way slot head, Apache-2.0)
+- [sabeel111/OpenSourceJev](https://github.com/sabeel111/opensourcejev) `★38 · 📚13` — Turning an LLM model into a Jev like System. .
+- [Peu77/JevFind](https://github.com/peu77/jevfind) `★5 · 📚13` — Fast semantic code search powered by Jev. Find the relevant files, line ranges, and snippets
+- [DeepBlueDynamics/typesafe-arena](https://github.com/deepbluedynamics/typesafe-arena) `★3 · 📚13` — A playground for TypeSafeAI's Jev Model.
+- [unownone/jevsume](https://github.com/unownone/jevsume) `★3 · 📚13` — ATS-friendly resume review powered by Jev (TypeSafe System One). The frontend extracts resume text the way a parser would, then a Cloudflare Worker runs typed JEV questions and composes a JevScore.
+- [dharun-cohere/jev-carryforward](https://github.com/dharun-cohere/jev-carryforward) `★2 · 📚13` — What your last session knew, scored against what this one is doing. MCP server: a per-project ledger written as things happen, recalled per task with TypeSafe's Jev evaluation model via Vercel AI Gateway.
+- [logicrw/ask-jev](https://github.com/logicrw/ask-jev) `★1 · 📚13` — Ultra-fast, fail-open advisory decisions and verbatim extractive reading view for AI coding agents and CLI pipelines
+- [ojusave/beat-jev](https://github.com/ojusave/beat-jev) `★1 · 📚13` — A penalty shootout powered by Render Workflows, TypeSafe Jev, and Render Postgres. Python and TypeScript examples.
+- [cpaczek/s1s](https://github.com/cpaczek/s1s) `★0 · 📚13` — System One Search: navigate and trace code with TypeSafe judgments and repository evidence
+- [yonatangross/orchestkit](https://github.com/yonatangross/orchestkit) `★286 · 📚12` — The Complete AI Development Toolkit for Claude Code. 106 skills, 36 agents, 171 hooks. Install `ork` for stable (v9.x), or `ork-alpha` for the v10 line, which ships daily.
+- [cablehead/jev.nu](https://github.com/cablehead/jev.nu) `★8 · 📚12` — Nushell module for the TypeSafe System One API: typed decisions with calibrated probabilities
+- [1jehuang/jev-pr-labeler](https://github.com/1jehuang/jev-pr-labeler) `★4 · 📚12` — Semantic GitHub PR labels using Jev's typed decisions, with conceptual scope instead of line counts
+- [lirantal/discoprint](https://github.com/lirantal/discoprint) `★3 · 📚12` — Classify an artist's discography by theme, mood, and lyrical complexity with Jev (TypeSafe AI), and view it as a colorful terminal dashboard
+- [komikat/psearch](https://github.com/komikat/psearch) `★1 · 📚12` — Parallel web search for terminals and agents, with local Chromium and Jev-guided exploration.
+- [llt22/jev-lab](https://github.com/llt22/jev-lab) `★1 · 📚12` — Hands-on research lab for TypeSafe's Jev (System One model): reproducible benchmarks of Noul/Choice/Score primitives, confidence gating, fan-out latency, agent control — plus a living audit of the Jev ecosystem.
+- [skcache/jevtrafficsim](https://github.com/skcache/jevtrafficsim) `★1 · 📚12` — TypeSafe AI's first model Jev takes on an entire city's traffic
+- [Z761293629/pi-jev-helm](https://github.com/z761293629/pi-jev-helm) `★1 · 📚12` — Pi extension that uses Jev task classification (via OpenRouter) to route each run to explicitly configured models with fail-open policy. Public Preview.
+- [cardotrejos/jev-user-jury](https://github.com/cardotrejos/jev-user-jury) `★0 · 📚12` — Typesafe/Jev public X demo.
+- [vehas/thaiexam-jev-charts](https://github.com/vehas/thaiexam-jev-charts) `★0 · 📚12` — Charts: TypeSafe Jev evaluated on Thai standardized exams vs 110 other models
+- [WebGrga/jev-board-lab](https://github.com/webgrga/jev-board-lab) `★0 · 📚12` — Interactive explorer and Jev question workspace for Jev Board datasets.
+- [wd041216-bit/zero-api-key-web-search](https://github.com/wd041216-bit/zero-api-key-web-search) `★17 · 📚11` — Jev-powered search infrastructure for AI agents: zero API keys, MCP-ready, LLM-context aware, with local neural evidence verification.
+- [romiluz13/jevmory](https://github.com/romiluz13/jevmory) `★11 · 📚11` — Coding-agent memory where every fact is a verbatim quote graded by TypeSafe Jev's calibrated confidence. Local-first, SQLite receipts, zero dependencies.
+- [ra2web/jev-helper](https://github.com/ra2web/jev-helper) `★5 · 📚11` — A helper which use JEV to play ra2web(WannaFire Version)(王二火大)
+- [fajarhide/askgrep](https://github.com/fajarhide/askgrep) `★4 · 📚11` — grep for the questions you cannot write as a pattern. Reads every function instead of sampling a few. Powered by Jev, TypeSafe AI's System One model.
+- [dchristopoulos/jev-aita](https://github.com/dchristopoulos/jev-aita) `★3 · 📚11` — Benchmark of TypeSafe's Jev against Sonnet 5, GPT-5 nano and local LLMs on 770 Reddit AITA verdicts: Brier scores, latency and cost
+- [abhishekmamdapure/jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction) `★2 · 📚11` — Parsing the PDF and extracting the relevant information
+- [theSekyi/jevusecases](https://github.com/thesekyi/jevusecases) `★2 · 📚11` — What people are actually shipping with Jev — real builds, tracked as they ship.
+- [cardotrejos/jev-should-i-apply](https://github.com/cardotrejos/jev-should-i-apply) `★1 · 📚11` — Typesafe/Jev public X demo.
+- [cardotrejos/jev-ad-preflight](https://github.com/cardotrejos/jev-ad-preflight) `★0 · 📚11` — Typesafe/Jev public X demo.
+- [myokoym/misereru-slide-jev](https://github.com/myokoym/misereru-slide-jev) `★0 · 📚11` — misereru-slide-jev (site) - Ongoing Japanese research deck on Jev and System One models, maintained as Markdown slides.
+- [zilliztech/deep-searcher](https://github.com/zilliztech/deep-searcher) `★8,292 · 📚10` — Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.
+- [mmastrac/djev-spark](https://github.com/mmastrac/djev-spark) `★221 · 📚10` — DiffusionGemma NVFP4 structured decisions on a DGX Spark: container recipe
+- [BoundaryML/feelings](https://github.com/boundaryml/feelings) `★22 · 📚10` — .feels() on anything — the AI if statement as a real, typed method. Jev + BAML.
+- [simonw/llm-typesafe](https://github.com/simonw/llm-typesafe) `★17 · 📚10` — LLM plugin for accessing Jev and other TypeSafe AI models
+- [dani1005/book-aurora](https://github.com/dani1005/book-aurora) `★6 · 📚10` — Jev reads a whole novel in seconds. Every passage becomes a row of colour.
+- [LamplighterPaul/jev-piano](https://github.com/lamplighterpaul/jev-piano) `★6 · 📚10` — Jev cannot generate a single note. Given a piano and the right questions, it improvises anyway.
+- [felpsdev/jev-classifier](https://github.com/felpsdev/jev-classifier) `★4 · 📚10` — Local tool-routing classifier for coding agents, with a gateway, MCP integrations, and decision logs.
+- [jiayylu/jev-as-quant](https://github.com/jiayylu/jev-as-quant) `★4 · 📚10` — Typed System-1 decisions (Laya/Jev) as the judgment layer of a quant research stack, with Claude as System 2. Requirements → design → code → experiments.
+- [smithclay/dbt_jev](https://github.com/smithclay/dbt_jev) `★3 · 📚10` — use jev in dbt.
+- [ItBayMax/typesafe-ai-jev-example](https://github.com/itbaymax/typesafe-ai-jev-example) `★2 · 📚10` — Hands-on demos for TypeSafe's Jev (System One) model: six runnable examples and four field notes. Runs offline with no API key; samples/ holds real measured output from jev-1.13.0.
+- [g0runmezadam/what-is-jev](https://github.com/g0runmezadam/what-is-jev) `★1 · 📚10` — Independent, source-linked research on TypeSafe AI's Jev (System One), with 947 rubric-scored public repositories, recurring patterns, datasets, and bilingual documentation.
+- [JYeswak/jev_playground](https://github.com/jyeswak/jev_playground) `★1 · 📚10` — Measure what Jev can actually do before you build on it. Graded findings, ruled-out candidates, and recipes with stop-conditions. 0 promotions — on purpose.
+- [makefinks/jev-feed-filter](https://github.com/makefinks/jev-feed-filter) `★1 · 📚10` — Smart, dynamic AI filtering for X and YouTube feeds using Jev
+- [sunyasheng/JevDeepResearch](https://github.com/sunyasheng/jevdeepresearch) `★1 · 📚10` — GPT drives research. Jev finds evidence in parallel.
+- [Shifros/Search-Function-Test](https://github.com/shifros/search-function-test) `★0 · 📚10` — A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to question anything and find related…
+- [Testing Jev on public and private data: classifier or filter?](https://amankumar.ai/blogs/jev-measured) `📚10` — Testing Jev on Public and Private Data: Classifier or Filter?📅 2026-09-18 · Independent technical evaluation · Tier B · Aman Kumar
+
+## Established (cited by 5–9 lists) — 176
+
+- [mrmps/classifier-dev](https://github.com/mrmps/classifier-dev) `★423 · 📚9` — Zero-shot text classification over plain HTTP — no API key, no account. One Cloudflare Worker, a CLI, and an MCP server. https://classifier.dev
+- [PostHog/jeeves](https://github.com/posthog/jeeves) `★336 · 📚9` — Jeeves – Reasoning improves Jev-like decision models
+- [PsiACE/dohnuts](https://github.com/psiace/dohnuts) `★34 · 📚9` — Dohnuts builds small multimodal models for direct decisions. -> System One model
+- [chenmingtang830/jevgraph](https://github.com/chenmingtang830/jevgraph) `★31 · 📚9` — Evidence-backed knowledge graph construction with typed Jev relation decisions
+- [arjun988/Kev](https://github.com/arjun988/kev) `★18 · 📚9` — Open-source System One decision engine. Typed choice / score / noul with calibrated probabilities. Self-host with Ollama or any OpenAI-compatible model. Apache-2.0.
+- [wojciechwiesner/jit-context](https://github.com/wojciechwiesner/jit-context) `★8 · 📚9` — Architectural Moat: JIT-JEV Context OS — Epistemic runtime & JEV System 1 context gate for AI agents (L0 SQLite WAL <3ms, Epistemic Invariants I1–I10, CERN Zenodo DOI: 10.5281/zenodo.22649542)
+- [ponyo877/jev-telop-live](https://github.com/ponyo877/jev-telop-live) `★5 · 📚9` — jev-telop-live - Talk to your camera and Japanese variety-show captions and manga effects appear automatically, with Jev matching effects to what you say. #voice
+- [a-Fig/jev-score](https://github.com/a-fig/jev-score) `★3 · 📚9` — Local-first document evaluation workspaces powered by Jev
+- [2389-research/typesafe-go](https://github.com/2389-research/typesafe-go) `★2 · 📚9` — A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library.
+- [AgenticAPP-Web/Jev-Research-Index](https://github.com/agenticapp-web/jev-research-index) `★2 · 📚9` — Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to Jev, the TypeSafe AI System One typed probabilistic decision model.
+- [hide-G/magi-system-on-jev](https://github.com/hide-g/magi-system-on-jev) `★1 · 📚9` — MAGI system (Neon Genesis Evangelion) recreated with Jev, TypeSafe AI's System One model. 3 sages deliberate your question.
+- [sherajdev/jev-research](https://github.com/sherajdev/jev-research) `★1 · 📚9` — Practical guide to using TypeSafe Jev with Herdr and Claude, Codex, Hermes, and browser agents.
+- [yutkat/github-star-organizer-jev](https://github.com/yutkat/github-star-organizer-jev) `★1 · 📚9` — Python tool that classifies GitHub stars into existing GitHub Lists using TypeSafe Jev
+- [wmcbtech30/ground-zero](https://github.com/wmcbtech30/ground-zero) `★0 · 📚9` — Eval framework library to evaluate AI hallucinations, correctness, and instruction following, powered by Jev AI.
+- [Futureppo/typesafe_register](https://github.com/futureppo/typesafe_register) `★133 · 📚8` — typesafe.ai注册机，极致优化，无限jev.
+- [jlowin/vibecheck](https://github.com/jlowin/vibecheck) `★39 · 📚8` — ✨✅ The easiest decisions your code will ever make.
+- [dagfinndybvig/Jev_Ontology](https://github.com/dagfinndybvig/jev_ontology) `★10 · 📚8` — Trying to combine Jev with ontology.
+- [limboinf/semantic-live-caption](https://github.com/limboinf/semantic-live-caption) `★10 · 📚8` — 听写纸 · Real-time speech captions with live semantic annotation (key points / emotion / intent) — Confucius4-R2T2 + TypeSafe Jev + DeepSeek
+- [hamidfarmani/jev-resume-match](https://github.com/hamidfarmani/jev-resume-match) `★5 · 📚8` — Score how well a resume matches a job description using Jev (TypeSafe AI). Next.js app that returns typed, explainable match scores instead of generated text.
+- [imrishit98/jev.aitools.fyi](https://github.com/imrishit98/jev.aitools.fyi) `★2 · 📚8` — Jev is all the rage right now and this directory lists all things Jev! Docs, SDKs, and the full tool map one click away.
+- [leepokai/llm-prompt-techniques-on-jev](https://github.com/leepokai/llm-prompt-techniques-on-jev) `★2 · 📚8` — Chain-of-thought and self-refinement for TypeSafe's Jev: feed its typed answers back as state and ask again. Benchmarks vs TypeSafe's own cookbook numbers.
+- [metask-ai/metask-jev](https://github.com/metask-ai/metask-jev) `★2 · 📚8` — Metask-Jev: calibrated typed-decision models (Jev-class). Single forward pass, candidate-logit readout. metask-jev-4b beats Bespoke Nimble-9B and Jev on JevBench.
+- [newuser7171/antivirus](https://github.com/newuser7171/antivirus) `★2 · 📚8` — Static file scanner that extracts entropy, strings and PE/ELF/Office/PDF features and asks Jev for threat verdicts and severity. no license · Python
+- [sebastianbennis/jev-system-one-reference](https://github.com/sebastianbennis/jev-system-one-reference) `★2 · 📚8` — Independent Jev / System One reference with API examples, implementation guidance and reusable prompts for engineers and coding assistants.
+- [initrd/himalaya-jev-mail-classify](https://github.com/initrd/himalaya-jev-mail-classify) `★1 · 📚8` — Label and prioritise Gmail with a language model. Reads mail through himalaya, classifies each thread with Jev (TypeSafe) over OpenRouter, and applies Gmail labels and colours. Dry run by default, idempotent, no state file.
+- [integrate-your-mind/jev-nethack](https://github.com/integrate-your-mind/jev-nethack) `★1 · 📚8` — Jev x NetHack: bounded runner, research code, and completed recording releases
+- [LeddoEngano/jev-eyes](https://github.com/leddoengano/jev-eyes) `★1 · 📚8` — Give Jev eyes — honest, local image perception for TypeSafe's text-only System One model. OCR + spatial layout → Jev state. CLI, MCP server, agent skill.
+- [naveenreddy61/jev-experiments](https://github.com/naveenreddy61/jev-experiments) `★1 · 📚8` — experiments with system one model jev.
+- [Nolane-x/JEV-language](https://github.com/nolane-x/jev-language) `★1 · 📚8` — Give your Jev language, i'm not finish now.
+- [RavenValentin/TypeSafe.Jev](https://github.com/ravenvalentin/typesafe.jev) `★1 · 📚8` — Typed AI decisions for .NET: ask Jev (TypeSafe AI System One) yes/no, choice and score questions and get a C# enum with calibrated probabilities back.
+- [Adilmp/does-jev-confidence-mean-anything](https://github.com/adilmp/does-jev-confidence-mean-anything) `★0 · 📚8` — A calibration audit of TypeSafe's Jev: does a decision model's stated confidence mean what it claims? 8,000 judgments against human annotations, $0.05.
+- [donttrustme.ai](https://donttrustme.ai/assay-001.html) `📚8` — Calibration study: pre-registers a Jev calibration and type-safety check on Banking77 and CLINC150, then publishes the split verdict, run logs, and a separate write-up.
+- [kiarina/labs](https://github.com/kiarina/labs) `★0 · 📚8` — Small, independent projects for experiments, research, and investigations.
+- [kierandotai/jev-scout](https://github.com/kierandotai/jev-scout) `★0 · 📚8` — Jev-scored observable web research for MCP agents — every query, result, and fetched page judged for relevance and credibility, with budgets, SSRF-guarded fetching, and a live dashboard
+- [mhmdkzr/jev](https://github.com/mhmdkzr/jev) `★0 · 📚8` — An unofficial Go client for TypeSafe's System One Jev model
+- [kerryrm/systemANE](https://github.com/kerryrm/systemane) `★14 · 📚7` — Using Apple's Neural Engine as a fast and free local "System One" Decision Engine (macOS 27) - "Honey, we have Jev at home"
+- [alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev) `★5 · 📚7` — Convert LLM prompts to Jev prompts.
+- [glamboyosa/docket](https://github.com/glamboyosa/docket) `★5 · 📚7` — A Go TUI that uses Jev to classify documents, assess sensitivity and urgency, and determine whether action is required.
+- [savka777/jev-search](https://github.com/savka777/jev-search) `★5 · 📚7` — Fast deep research for the pi coding agent: reads up to 100 pages in full per round, Jev keeps only the passages that answer your questions.
+- [deep-diver/mini-jev](https://github.com/deep-diver/mini-jev) `★4 · 📚7` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [sd109/typesafe-go](https://github.com/sd109/typesafe-go) `★3 · 📚7` — A collection of typesafe.ai API utilities.
+- [sgaabdu4/capture](https://github.com/sgaabdu4/capture) `★3 · 📚7` — Private Mac voice diary: local Parakeet transcription, Jev sorting, Notion library
+- [Readyaddy/open_system_one](https://github.com/readyaddy/open_system_one) `★2 · 📚7` — Creating system one model just like jev. with different experimentation
+- [thenewpotato/privacy-facts](https://github.com/thenewpotato/privacy-facts) `★2 · 📚7` — A nutrition label for privacy policies. Plain-language answers, confidence scores, and source excerpts powered by Jev.
+- [zhengge6/jev-crush](https://github.com/zhengge6/jev-crush) `★2 · 📚7` — jev-crush：把一段双人聊天读成情绪、意图和好感信号。贴进微信记录，标签标在气泡上。Jev 判断，MIT。
+- [codaaiteam/jev-typesafe-ai](https://github.com/codaaiteam/jev-typesafe-ai) `★1 · 📚7` — Unofficial developer notes & examples for Jev, TypeSafe AI's System One model. Try it free: jevtypesafeai.com
+- [JGalego/Jevs-Garage](https://github.com/jgalego/jevs-garage) `★1 · 📚7` — A garage full of tiny experiments for building critical systems with System One & Jev 🔧🧠⚡
+- [rolottr/x-jev-classifier](https://github.com/rolottr/x-jev-classifier) `★1 · 📚7` — Chrome extension that stamps every X post with a type badge — alpha, shitpost, AI slop, bait — judged by Jev from Typesafe
+- [takumi-golf/jev-fill-pdf](https://github.com/takumi-golf/jev-fill-pdf) `★1 · 📚7` — Fill Japanese PDF forms (申請書・届出書) in one click with Jev by TypeSafe AI. Labels go to Jev, your values never leave the browser. OCR for image-only forms, works with 国税庁 forms. Built on pdf-lib / pdf.js / tesseract.js via Vercel AI Gateway.
+- [ximhear/jev-kr-name-age](https://github.com/ximhear/jev-kr-name-age) `★1 · 📚7` — 이름으로 나이대를 맞히는 React 웹 (TypeSafe Jev).
+- [aarora79/jev-samples](https://github.com/aarora79/jev-samples) `★0 · 📚7` — Runnable samples for Jev, TypeSafe AI's System One model. Send state and questions carrying their own answer options, then branch on the typed value that comes back.
+- [BTK audit studies](https://boringtoolskit.com/blog/seo-audit-cost-2026) `📚7` — Technical SEO audit cost study from Boring Tools Kit where Jev ranks striking-distance fixes and content gaps by calibrated probability.
+- [Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked) `📚7` — Community teardown of Jev's probable architecture; the write-up kev's open models are built from.
+- [nak1b/jev-experiments](https://github.com/nak1b/jev-experiments) `★0 · 📚7` — Small experiments with Jev by TypeSafe.
+- [ozzy2438/apply-os](https://github.com/ozzy2438/apply-os) `★0 · 📚7` — Apply OS — Personal career decision engine powered by TypeSafe AI (Jev). Ranks job postings, drafts applications, and automates the pipeline with typed, calibrated decisions. Agency-ready build spec included.
+- [site](https://reachjalil.github.io/jev-tree) `📚7` — npm package jev-tree 0.1.0 (library + CLI); explainer at reachjalil.github.io/jev-tree.
+- [taeold/djev-run](https://github.com/taeold/djev-run) `★574 · 📚6` — djev-run - Serves DiffusionGemma-Jev behind a compatible API on Cloud Run, with a small game demo on top.
+- [robbyczgw-cla/hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) `★416 · 📚6` — Give your Hermes agent the web as real sources, never a made-up answer — multi-provider search and extraction with an optional local, key-free DonSeTch option.
+- [quantskills/QuantStudio](https://github.com/quantskills/quantstudio) `★66 · 📚6` — 本地 AI 研究与办公工作台 · 技能、专家、专家团、数据与成果 \| A local AI workspace for research and everyday work
+- [sqliteai/blink](https://github.com/sqliteai/blink) `★19 · 📚6` — An open-source, high-performance System One Model for one-pass typed decisions, with an embeddable C runtime and WebAssembly support.
+- [jeffonelson/jev-bigquery-cloudrun](https://github.com/jeffonelson/jev-bigquery-cloudrun) `★9 · 📚6` — Classify support tickets in BigQuery with Jev and Cloud Run
+- [narphorium/nl-logic-interpreter](https://github.com/narphorium/nl-logic-interpreter) `★8 · 📚6` — A step-through logic interpreter for natural-language facts and rules, unified with Jev
+- [AIsa-team/worth-replying](https://github.com/aisa-team/worth-replying) `★7 · 📚6` — Worth Replying by AIsa.
+- [eminetto/typesafe-poc](https://github.com/eminetto/typesafe-poc) `★6 · 📚6` — Prova de Conceito do Jev, modelo da typesafe.ai.
+- [fatelei/semble-jev](https://github.com/fatelei/semble-jev) `★6 · 📚6` — A code search CLI for coding agents. Semble retrieves source snippets locally, Jev evaluates their relevance, and the CLI returns selected original source with locations for further reading.
+- [harrymunro/beadsort](https://github.com/harrymunro/beadsort) `★6 · 📚6` — The intelligence layer for beads: typed, calibrated labels for your backlog
+- [hgqimo/JevRanker](https://github.com/hgqimo/jevranker) `★5 · 📚6` — Jev decision models as a fast reranker for RAG: one forward pass scores k candidates, zero decoded tokens. Plugged into BlitzRank's tournament graph and Reranker-Guided Search - 22x faster per match than a generative istwise LLM at 2.9x…
+- [Kungie/gut](https://github.com/kungie/gut) `★5 · 📚6` — Judgment calls as one line of Python, built for TypeSafe AI's Jev and running on any small model: likely / classify / rate → YES, NO or UNSURE. Also local NLI, local LLMs, Ollama, vLLM, OpenAI.
+- [minhnghia2k3/jev-k8s-awareness](https://github.com/minhnghia2k3/jev-k8s-awareness) `★4 · 📚6` — k8s awareness with jev.
+- [qzqdz/jevtree](https://github.com/qzqdz/jevtree) `★4 · 📚6` — LLM-authored decision SOP generator for Jev System One model
+- [selcukusta/jev-mailroom](https://github.com/selcukusta/jev-mailroom) `★4 · 📚6` — Email triage PoC: reads a mailbox over IMAP and classifies each message by what it is and what it's about, using TypeSafe System One (Jev) — 11 questions in a single call, decided in Python.
+- [CompleteTech-LLC-AI-Research/jev-311-heatmap](https://github.com/completetech-llc-ai-research/jev-311-heatmap) `★3 · 📚6` — NYC 311 complaint heatmaps with TypeSafe JEV: reproducible pipeline, live research results, and interactive geographic visualizations.
+- [yzxoi/RSI-Jev-Slay-the-Spire-2](https://github.com/yzxoi/rsi-jev-slay-the-spire-2) `★3 · 📚6` — RSI-Jev-Slay-the-Spire-2 — (auto-discovered, description not yet written)
+- [zhouzihao11/jev-dllm](https://github.com/zhouzihao11/jev-dllm) `★3 · 📚6` — Shared Yes/No decision adaptation with diffusion language models
+- [Devonance/rover-claude-jev-demo](https://github.com/devonance/rover-claude-jev-demo) `★2 · 📚6` — Just a weekend project with Claude as system two, and Jev as system One.  - GitHub - Devonance/rover-claude-jev-demo: Just a weekend project with Claude as system two, and Jev as system One.
+- [Kunyanli230/jev-clean](https://github.com/kunyanli230/jev-clean) `★2 · 📚6` — decision-first data cleaning system powered by Jev
+- [MM-sheng/jevspeak](https://github.com/mm-sheng/jevspeak) `★2 · 📚6` — Jev can't generate text. So I made it talk anyway. A conversational interface built from probabilistic decisions and a deterministic language compiler — no generative LLM.
+- [PAI-CUHK/MEDJEV](https://github.com/pai-cuhk/medjev) `★2 · 📚6` — Independent JEV-inspired System One-style typed decision research for clinical evidence, biomedical NLP, calibrated probabilities, and sleep signals
+- [silky-x0/Postmark](https://github.com/silky-x0/postmark) `★2 · 📚6` — A working Demo that acts as classifier to classify linkedin post which inside uses jev by Typesafe.ai
+- [thiagoadril/typesafe-docs](https://github.com/thiagoadril/typesafe-docs) `★2 · 📚6` — System One Models & Jev documentation. typesafe.ai documentation extracted in .md format for LLMs. Used to train LLMs.
+- [yanglei070-ux/bili-hardcore-jev](https://github.com/yanglei070-ux/bili-hardcore-jev) `★2 · 📚6` — 用 JEV（TypeSafe System One 判断模型）自动完成 B 站「硬核会员试炼」的单文件 Python 脚本：手机只扫码登录一次，100 题在电脑上自动答完，零第三方依赖。
+- [yoanbernabeu/demo-symfony-typesafe](https://github.com/yoanbernabeu/demo-symfony-typesafe) `★2 · 📚6` — Démo : trier des demandes de support avec Jev (TypeSafe) et Symfony AI. Messenger, Live Components, Turbo, kit shadcn de UX Toolkit.
+- [zeke/jev](https://github.com/zeke/jev) `★2 · 📚6` — Research notes and an interactive Cloudflare Worker demo for Jev, TypeSafe AI's structured decision model
+- [gabazureus/jevextract](https://github.com/gabazureus/jevextract) `★1 · 📚6` — Grounded information extraction that cannot hallucinate: code proposes spans, Jev decides. An open-source alternative to LangExtract, with a bilingual benchmark and paper.
+- [kachar/jev-tool-search](https://github.com/kachar/jev-tool-search) `★1 · 📚6` — Tool search for LLM agents: BM25 vs embeddings vs rerankers vs Jev on 525 real MCP tools, plus an experimental Jev search engine
+- [mrmt/elevator-three](https://github.com/mrmt/elevator-three) `★1 · 📚6` — Jev に判断を任せる自動生成のエレクトロの楽器.
+- [mttrbrts/jev-folio-recursive-classifier](https://github.com/mttrbrts/jev-folio-recursive-classifier) `★1 · 📚6` — Recursive FOLIO document classification with TypeSafe Jev
+- [neo4j-field/jev-graphrag](https://github.com/neo4j-field/jev-graphrag) `★1 · 📚6` — Small demos + use-case backlog: TypeSafe AI's Jev as a calibrated decision layer for GraphRAG pipelines on Neo4j.
+- [osrim/readwise-jev-classifier](https://github.com/osrim/readwise-jev-classifier) `★1 · 📚6` — Proof of concept: auto-tagging and triage of Readwise Reader articles using TypeSafe AI's Jev
+- [royalpinto007/jev-msw](https://github.com/royalpinto007/jev-msw) `★1 · 📚6` — Mock Jev API decisions with MSW for deterministic tests without real API calls or credits.
+- [softpudding/jev-frontier-100](https://github.com/softpudding/jev-frontier-100) `★1 · 📚6` — 100 original tasks comparing Jev with Qwen3.5 0.8B, 2B and 4B across three reasoning budgets; reproducible results and token logprobs.
+- [thehumanworks/jevgrep](https://github.com/thehumanworks/jevgrep) `★1 · 📚6` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [alex-sun-kuo/jev-consumer-research](https://github.com/alex-sun-kuo/jev-consumer-research) `★0 · 📚6` — Consumer research explorations using TypeSafe's Jev
+- [Codiv](https://codiv.ai) `📚6`
+- [dirnbauer/typo3-webcon-jev](https://github.com/dirnbauer/typo3-webcon-jev) `★0 · 📚6` — Typed decisions from TypeSafe AI's Jev model inside TYPO3: a decision editor and playground in the backend, powermail_cond operators, and submission routing
+- [fscm44xyz/jevtrace](https://github.com/fscm44xyz/jevtrace) `★0 · 📚6` — One DevTool for any Jev-powered application. Inspect every state, question, probability, decision and action. Replay decisions locally.
+- [harshpuri84/slopcheck-jev](https://github.com/harshpuri84/slopcheck-jev) `★0 · 📚6` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [ishantanu/jevtraces](https://github.com/ishantanu/jevtraces) `★0 · 📚6` — jevtraces - jevtraces: TypeSafe Jev ecosystem repository. · Go
+- [Jev Classifier](https://jevclassifier.vercel.app) `📚6` — Local Telegram channel JSON analyzer for intent, quality, sentiment, and speaker tone (post)
+- [KalyanM45/GitHub-Issue-Classification-Using-Jev](https://github.com/kalyanm45/github-issue-classification-using-jev) `★0 · 📚6` — This repository contains a GitHub issue classifier built on Jev, TypeSafe AI's System One model. It labels every new issue with typed values and calibrated confidence in milliseconds, labelling what it is sure about and escalating what it…
+- [matu79go/jev-hanko](https://github.com/matu79go/jev-hanko) `★0 · 📚6` — Measuring TypeSafe AI's Jev on 41-clause contract review (CUAD, 20,500 decisions) against fast, cheap LLMs — latency, cost and F1
+- [Netlify AI Gateway](https://netlify.com/changelog/typesafe-jev-ai-gateway) `📚6` — Zero-configuration access from Netlify Functions through @typesafe-ai/sdk, with credentials and billing handled by Netlify.
+- [site](https://shouldaikillusall.com) `📚6`
+- [site](https://pgjev.com) `📚6`
+- [TechCrunch](https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers) `📚6` — A new kind of AI model from a ChatGPT inventor - Launch coverage and context on TypeSafe AI's seed round and early adopters.
+- [TyrellD1/typesafe-ai_smoke-test](https://github.com/tyrelld1/typesafe-ai_smoke-test) `★0 · 📚6` — Smoke test: route prompts to a work or life database with TypeSafe AI (Jev), 30-case eval
+- [zephel01/Jev-sample](https://github.com/zephel01/jev-sample) `★0 · 📚6` — Jev-sample - The same decision asked as one 4-option Choice vs four precondition Nouls, with raw logs of 2,320 requests.
+- [TauricResearch/TradingAgents](https://github.com/tauricresearch/tradingagents) `★109,373 · 📚5` — TradingAgents: Multi-Agents LLM Financial Trading Framework
+- [volcengine/OpenViking](https://github.com/volcengine/openviking) `★39,055 · 📚5` — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
+- [Reisenbug/TerraBlind](https://github.com/reisenbug/terrablind) `★74 · 📚5` — A Terraria tModLoader mod where an AI fights the bosses: a model answers one question every 200ms, code turns it into keystrokes. Also a full code-only pipeline from fresh world to Wall of Flesh
+- [kieranklaassen/truffler](https://github.com/kieranklaassen/truffler) `★50 · 📚5` — Sniff out the right record: Jev-powered search for Rails with index-time labels, query understanding, and streamed reranking on top of your own keyword and embedding search
+- [goodrahstar/pdf-race](https://github.com/goodrahstar/pdf-race) `★13 · 📚5` — Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against arXiv's own metadata
+- [inteligenciamilgrau/jevstudio](https://github.com/inteligenciamilgrau/jevstudio) `★9 · 📚5` — Jev Studio para criar programas usando Jev da TypeSafe
+- [MoeclubM/PlayJev](https://github.com/moeclubm/playjev) `★9 · 📚5` — Better Jev playground.
+- [stilesja/jev-ivr](https://github.com/stilesja/jev-ivr) `★6 · 📚5` — Building an IVR using Jev as classifier.
+- [jerryxff26-alt/session-top](https://github.com/jerryxff26-alt/session-top) `★4 · 📚5` — Session Top — htop for AI coding sessions, making usage, quota, and token consumption observable and explainable.
+- [symfony/ai-type-safe-platform](https://github.com/symfony/ai-type-safe-platform) `★4 · 📚5` — TypeSafe platform bridge for Symfony AI.
+- [bokuweb/omg](https://github.com/bokuweb/omg) `★3 · 📚5` — A System One style decision model runtime in Rust.  - GitHub - bokuweb/omg: A System One style decision model runtime in Rust.
+- [carlaiau/read-with-jev](https://github.com/carlaiau/read-with-jev) `★3 · 📚5` — A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the reading experience
+- [dglazkov/jev2ui](https://github.com/dglazkov/jev2ui) `★3 · 📚5` — Jev + A2UI = ?
+- [uhhfeef/jev-lm](https://github.com/uhhfeef/jev-lm) `★3 · 📚5` — A character-level language model built on Jev, a System One classifier
+- [alee792/robojev](https://github.com/alee792/robojev) `★2 · 📚5` — Natural-language control of a WidowX AI arm with Jev typed judgments (Doom-style loop)
+- [ekkyarmandi/jev-upwork-job-classification](https://github.com/ekkyarmandi/jev-upwork-job-classification) `★2 · 📚5` — Upwork job classification example.
+- [eyenpi/actionreflex](https://github.com/eyenpi/actionreflex) `★2 · 📚5` — A pre-execution gate for AI agent actions, powered by TypeSafe's Jev (System One) model.
+- [g0runmezadam/jev-architecture-research](https://github.com/g0runmezadam/jev-architecture-research) `★2 · 📚5` — Black-box reverse engineering research archive for the Jev decision model
+- [recodelabs/duckdb-jev](https://github.com/recodelabs/duckdb-jev) `★2 · 📚5` — Natural-language WHERE clauses for DuckDB, powered by TypeSafe's Jev
+- [tashfeenahmed/jev-deepresearch](https://github.com/tashfeenahmed/jev-deepresearch) `★2 · 📚5` — Deep research crawl where Jev (a System One model) makes every per-page decision and an LLM only plans and writes
+- [amr05008/jev-sandbox](https://github.com/amr05008/jev-sandbox) `★1 · 📚5` — Test bench for TypeSafe's Jev.
+- [aoprisan/jev-demo](https://github.com/aoprisan/jev-demo) `★1 · 📚5` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [ArielBubis/Jevflix](https://github.com/arielbubis/jevflix) `★1 · 📚5` — Jev picks, you watch. A hybrid movie recommender: fast semantic + keyword search narrows 4,800 films to a shortlist, then TypeSafe Jev reads your constraints and picks the one film that fits - with a confidence score that decides whether…
+- [etnt/unsafe-c-finder](https://github.com/etnt/unsafe-c-finder) `★1 · 📚5` — Classify C/C++ snippets via TypeSafe Jev through OpenRouter.
+- [HisuiKoh/jev-vtuber-ime-core](https://github.com/hisuikoh/jev-vtuber-ime-core) `★1 · 📚5` — 読み→VTuber表記を Web検索の根拠 + Jev で解決。辞書データなし。.
+- [ibnuh/Flow.Launcher.Plugin.JevFileSearch](https://github.com/ibnuh/flow.launcher.plugin.jevfilesearch) `★1 · 📚5` — Flow Launcher predictive file search with Jev intent reranking. Type natural language like 'the pdf I just downloaded' and get the right file.
+- [kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search) `★1 · 📚5` — Recursive semantic file search using TypeSafe Jev and fzf
+- [keltokhy/jcol](https://github.com/keltokhy/jcol) `★1 · 📚5` — Apply natural-language codebooks to tables: a CLI and Python API with resumable annotation, exports, and label evaluation.
+- [khaledsAlshibani/jev-ci-classifier](https://github.com/khaledsalshibani/jev-ci-classifier) `★1 · 📚5` — CI example using Jev to classify failed PR checks and return structured decisions with probabilities.
+- [litshing/jevcore](https://github.com/litshing/jevcore) `★1 · 📚5` — JEV core — the judgement primitive and harness for TypeSafe System One (Jev). Closed-set, fail-open, stdlib-only.
+- [maxlibin/jev-toto](https://github.com/maxlibin/jev-toto) `★1 · 📚5` — Ask TypeSafe's Jev model how your Singapore TOTO numbers look against recent draws
+- [milanterhes/ai-column-jev](https://github.com/milanterhes/ai-column-jev) `★1 · 📚5` — Web app that adds Jev-judged yes/no, category or score columns to an uploaded CSV, with low-confidence row review and export. no license · TypeScript
+- [qiaohaojie/Jev-MongoDB](https://github.com/qiaohaojie/jev-mongodb) `★1 · 📚5` — Real-time FMCG customer care triage: MongoDB Change Streams + TypeSafe Jev
+- [samoweb3/jev-x-posts](https://github.com/samoweb3/jev-x-posts) `★1 · 📚5` — Sortable 48-hour X post report for Jev, TypeSafe AI and Diogo Almeida, with Jev sentiment labels
+- [sanity-labs/vellum](https://github.com/sanity-labs/vellum) `★1 · 📚5` — Markdown to Sanity documents, with a classifier instead of an LLM. Jev decides, code copies. Experimental.
+- [123Satyajeet123/jev-wide](https://github.com/123satyajeet123/jev-wide) `★0 · 📚5` — Rank or pick from more candidates than Jev can see in one call. The documented limit is 255 options; the real one is ~32,768 tokens. Naive chunk-merging throws away 83% of reranking's value -- measured on BEIR scifact, with controls.
+- [abhishekmishragithub/semantic-microscope](https://github.com/abhishekmishragithub/semantic-microscope) `★0 · 📚5` — Label every sentence of a document with calibrated probabilities from Jev, rendered as a heatmap
+- [affirmitv/bitrate-advisor](https://github.com/affirmitv/bitrate-advisor) `★0 · 📚5` — Live-stream encoder settings from telemetry and history: TypeSafe's Jev decision model inside a deterministic safety envelope. Deno, Node, edge runtimes.
+- [alibowbow/jev](https://github.com/alibowbow/jev) `★0 · 📚5` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [az9713/jev-projects](https://github.com/az9713/jev-projects) `★0 · 📚5` — Small demos of Jev (TypeSafe) through the Vercel AI Gateway: wiki race, town of agents, bullet chess, and more
+- [BFLabsAI/bf-jev-deep-research](https://github.com/bflabsai/bf-jev-deep-research) `★0 · 📚5` — Agent Skill + estudo verbatim sobre a Jev (TypeSafe AI System One Model): choice/score/noul, RLCD, patterns, SDKs.
+- [co1smos/jev-demo](https://github.com/co1smos/jev-demo) `★0 · 📚5` — Historical paper-trading simulator for evaluating TypeSafe AI JEV decisions
+- [danieluszta/jev-classification-guide](https://github.com/danieluszta/jev-classification-guide) `★0 · 📚5` — Classify companies and job titles with Jev (TypeSafe AI) — calibrated probabilities at $0.042 per million input tokens, output free
+- [df-yamashitamasashi/jev_blog](https://github.com/df-yamashitamasashi/jev_blog) `★0 · 📚5` — TypeSafe AI Jev 実践ユースケース・サンプルコード集.
+- [gbesse/jev-hemicycle](https://github.com/gbesse/jev-hemicycle) `★0 · 📚5` — Suit les documents parlementaires qui affectent matériellement un sujet déclaré.
+- [gradient30/typesafe-handbook](https://github.com/gradient30/typesafe-handbook) `★0 · 📚5` — TypeSafe AI 官方文档中文手册（明/暗/彩三套风格，官网同步日志，GitHub Pages）
+- [ismailakdag/typesafe-jev](https://github.com/ismailakdag/typesafe-jev) `★0 · 📚5` — sahibinden ilanlarini tarayicida yakalayip TypeSafe (Jev) ile eleyen yerel arac — emlak ve vasita icin ayri soru setleri, karar akisi gosterimi
+- [JevResearch/Jev-Research](https://github.com/jevresearch/jev-research) `★0 · 📚5` — Performance and architectural analysis of the new "Jev" model by TypeSafe AI.
+- [kabeza/JEV_ebaysearch](https://github.com/kabeza/jev_ebaysearch) `★0 · 📚5` — jev in:name created:2026-09-18..2026-09-19
+- [kanterbury/soup-of-jev](https://github.com/kanterbury/soup-of-jev) `★0 · 📚5` — Jev（TypeSafe AI）で水平思考クイズの質問を判定するアプリ.
+- [kijung4290/maeum-on-attendance-care](https://github.com/kijung4290/maeum-on-attendance-care) `★0 · 📚5` — 어르신 프로그램 출석 위험 모니터링 대시보드 · TypeSafe AI JEV 연동.
+- [kinoko34077/jev-audit](https://github.com/kinoko34077/jev-audit) `★0 · 📚5` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [LiLittleCat/jev-playlist-classify](https://github.com/lilittlecat/jev-playlist-classify) `★0 · 📚5` — Classify large playlists by song language with TypeSafe AI's latest Jev model.
+- [MANISH007700/tidy](https://github.com/manish007700/tidy) `★0 · 📚5` — A self-organizing Downloads folder. Jev (TypeSafe AI) files each download into the folder you described in plain English; unsure files stay put; every move is logged and undoable.
+- [mori-ikuri/jev-divination-lab](https://github.com/mori-ikuri/jev-divination-lab) `★0 · 📚5` — Researching shared-axis comparison of independent divination readings with Jev / TypeSafe AI.
+- [MoRohn/meridian-demo](https://github.com/morohn/meridian-demo) `★0 · 📚5` — Meridian \| AI context-intake and contraction risk & compliance micro-app with live TypeSafe AI vs OpenAI evaluation
+- [ndolinschi/jev-wave](https://github.com/ndolinschi/jev-wave) `★0 · 📚5` — TypeSafe Jev research + 5 product specs.
+- [pakkio/jev-pakkio](https://github.com/pakkio/jev-pakkio) `★0 · 📚5` — jev-pakkio - jev-pakkio: TypeSafe Jev ecosystem repository. · Python
+- [Project weights](https://huggingface.co/heman10x/rlcd-modernbert-151m) `📚5` — heman10x/rlcd-modernbert-151m - 151M GLiClass ModernBERT-base classifier with CE+Brier loss, temperature scaling, an abstain slot; card reports 95.0% top-1 and 3.35% ECE on 1,000 Banking77-based cases. heman10x · 2026-09-17
+- [rachit-srivastava-devx/jev-classification-benchmark](https://github.com/rachit-srivastava-devx/jev-classification-benchmark) `★0 · 📚5` — Benchmarking TypeSafe Jev against 15 chat-model configurations on support-ticket classification: latency, tokens, cost, accuracy.
+- [robzolkos/omarchy-issue-classifier](https://github.com/robzolkos/omarchy-issue-classifier) `★0 · 📚5` — Classify the Omarchy issue backlog with Jev, TypeSafe's System One model. Ten typed questions per issue in one request, for a hundredth of a cent each.
+- [site](https://docs.rs/typesafe-ai-rs) `📚5`
+- [site](https://hackersintheloop.org) `📚5`
+- [sueszli/qwen27b-jev](https://github.com/sueszli/qwen27b-jev) `★0 · 📚5` — logits to multiple-choice questions for Qwen3.8-27B
+- [uv](https://docs.astral.sh/uv) `📚5` — Python ≥ 3.12, uv; TYPESAFE_API_KEY (launcher may source ~/.config/sieve/env). Optional BRAVE_API_KEY for jev_search.
+- [vishesh-baghel/typesafe](https://github.com/vishesh-baghel/typesafe) `★0 · 📚5` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [wafaa-alhayek/masroufi](https://github.com/wafaa-alhayek/masroufi) `★0 · 📚5` — Expense tracking for Gaza households, built around bank statement exports and their note field. Uses Jev (TypeSafe System One) for typed, confidence-aware transaction categorisation.
+- [wwwyo/jev-playground](https://github.com/wwwyo/jev-playground) `★0 · 📚5` — Playground for TypeSafe AI's Jev: typed judgments (noul / choice / score) with probabilities
+- [yamadashy/jev-labeler-action](https://github.com/yamadashy/jev-labeler-action) `★0 · 📚5` — Zero-config AI issue labeling with TypeSafe's Jev. No generated text. Unofficial.
+
+## Emerging (cited by 3–4 lists) — 289
+
+- [acifani/actual-jev](https://github.com/acifani/actual-jev) `📚4` — actual-jev - Categorize Actual transactions with Jev · TypeScript
+- [ajmeese7/hdd-analyzer](https://github.com/ajmeese7/hdd-analyzer) `📚4` — hdd-analyzer - Use Jev to quickly search your old hard drives and identify anything of value. · Python
+- [akash-kamat/jev-llm](https://github.com/akash-kamat/jev-llm) `📚4` — An LLM built without a language model — using TypeSafe Jev's non-generative AI for contextual response select…
+- [AliAkbariAlashti/hands-on-jev](https://github.com/aliakbarialashti/hands-on-jev) `📚4` — hands-on-jev - very first hands on jev, foundation models by typesafe · TypeScript
+- [arnab621/typesafe-jev-plugin](https://github.com/arnab621/typesafe-jev-plugin) `📚4` — A plugin that lets you build reusable solution signatures for any classification or scoring problem, then run CSV, Excel, or text file ...
+- [auschoi96/jev-pi-token-reduction](https://github.com/auschoi96/jev-pi-token-reduction) `📚4` — Pi extension that uses TypeSafe's Jev to trim retrieved tool output before the model sees it (~15% lower cost on read-heavy work)
+- [bitomule/jevi](https://github.com/bitomule/jevi) `📚4` — jevi - Ask typed questions about a text and branch on the answer. A shell front end for TypeSafe's Jev.
+- [Btheriot83/jev-academy](https://github.com/btheriot83/jev-academy) `📚4` — Public Jev / TypeSafe academy — zero-to-hero walkthrough for Brandon Theriot
+- [carlaiau/readwithjev](https://github.com/carlaiau/readwithjev) `📚4` — A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the r…
+- [cdubiel08/jev-ercot](https://github.com/cdubiel08/jev-ercot) `📚4` — Pipeline modules under web/src/pipeline/ and classify scripts; README describes batched System One questions over EFL text.
+- [colbyford/jev-binder-classification](https://github.com/colbyford/jev-binder-classification) `📚4` — Zero-Shot Classification of Protein Binders with Jev
+- [derinworks/penr-oz-jev-syslog-analyzer](https://github.com/derinworks/penr-oz-jev-syslog-analyzer) `📚4` — An asyncio daemon that tails journald or syslog and asks Jev, for each event, which subsystem it bel
+- [Dipeshtripathi13/jevmatch](https://github.com/dipeshtripathi13/jevmatch) `📚4` — jevmatch - Human-in-the-loop resume and job-description matching powered by TypeSafe Jev · Python
+- [dmx.to](https://dmx.to) `📚4` — X client with Jev smart rules that filter the timeline by usefulness, type, and topic (post)
+- [ehmpathy/rhachet-brains-typesafeai](https://github.com/ehmpathy/rhachet-brains-typesafeai) `📚4` — rhachet-brains-typesafeai - ehmpathy/rhachet-brains-typesafeai - rhachet brain.atom adapter for typesafe.ai classifier models.
+- [Emlembow/jev-graph-search](https://github.com/emlembow/jev-graph-search) `📚4` — Jev-assisted retrieval and evidence-preserving inspection for local Markdown, Obsidian vaults, and Logseq Markdown graphs.
+- [erickardus/jev-lab](https://github.com/erickardus/jev-lab) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [erik-dunteman/ChatJev](https://github.com/erik-dunteman/chatjev) `📚4` — Turning the Jev classifier model into an autoregressive next token predictor ★ 1 · sdk · Python
+- [farukkavlak/vocabboost](https://github.com/farukkavlak/vocabboost) `📚4` — Look up a word from the subtitles and see what it means in that line, without leaving the video.
+- [favoyang/jevfast-public](https://github.com/favoyang/jevfast-public) `📚4` — Public project submissions for jevfast.com. Issues only; website source is maintained separately.
+- [ferxalbs/aether-hold](https://github.com/ferxalbs/aether-hold) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [gbesse/jev-banc-francais](https://github.com/gbesse/jev-banc-francais) `📚4` — jev-banc-francais - Evaluate typed AI decisions on labeled French-language cases. · JavaScript
+- [gbesse/jev-datagouv-join](https://github.com/gbesse/jev-datagouv-join) `📚4` — jev-datagouv-join - Resolve ambiguous joins between French public datasets with auditable candidates. · JavaScript
+- [gbesse/jev-extract](https://github.com/gbesse/jev-extract) `📚4` — Turn documents into typed records with bounded, auditable Jev questions and deterministic aggregation.
+- [gbesse/jev-fingerprint](https://github.com/gbesse/jev-fingerprint) `📚4` — jev-fingerprint - jev-fingerprint: TypeSafe Jev ecosystem repository. · JavaScript
+- [gbesse/jev-label](https://github.com/gbesse/jev-label) `📚4` — jev-label - jev-label: TypeSafe Jev ecosystem repository. · Python
+- [gbesse/jev-legifrance-impact](https://github.com/gbesse/jev-legifrance-impact) `📚4` — jev-legifrance-impact - Detect which changed legal provisions may affect a declared business activity. · JavaScript
+- [gbesse/jev-marches](https://github.com/gbesse/jev-marches) `📚4` — jev-marches - Triage French public procurement notices for a company capability profile. · JavaScript
+- [gbesse/jev-marianne](https://github.com/gbesse/jev-marianne) `📚4` — jev-marianne - Version political commitments and detect how sourced promises change over time. · JavaScript
+- [gbesse/jev-openfisca-intake](https://github.com/gbesse/jev-openfisca-intake) `📚4` — jev-openfisca-intake - Turn a French-language situation into confirmed inputs for an OpenFisca simulation. · JavaScript
+- [gbesse/jev-regwatch](https://github.com/gbesse/jev-regwatch) `📚4` — jev-regwatch - jev-regwatch: TypeSafe Jev ecosystem repository. · JavaScript
+- [GY19A/jev-stage](https://github.com/gy19a/jev-stage) `📚4` — Watch a structured-decision model think - a 3D avatar driven by Jev, one forward pass per reaction,
+- [havlan/jev-go](https://github.com/havlan/jev-go) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [hifizz/jev-readability](https://github.com/hifizz/jev-readability) `📚4` — jev-readability - jev-readability: TypeSafe Jev ecosystem repository. · JavaScript
+- [hongdroid94/fab-evidence-gate](https://github.com/hongdroid94/fab-evidence-gate) `📚4` — Evidence-aware semiconductor alert triage research demo with TypeSafe Jev, policy guards, and reproducible evaluation
+- [hosted product](https://usenotra.com) `📚4` — Web · hosted product requires an account; self-hosting requires database, authentication, and provider setup. Pricing information was inspected; account access and billing were not tested.
+- [illumi-ai/sentimento-em-tempo-real](https://github.com/illumi-ai/sentimento-em-tempo-real) `📚4` — Emoção da fala em tempo real: transcrição ao vivo com Gemini 3.5 Transcribe Live e seis emoções avaliadas pelo Jev (TypeSafe) a cada 0,5 s. Projeto aberto da illumi.
+- [iomiras/sponsor-skipper](https://github.com/iomiras/sponsor-skipper) `📚4` — Chrome MV3 extension that classifies YouTube caption segments with Jev ahead of playback and skips or offers to skip sponsor reads. no license · JavaScript
+- [IoTone/jevracket](https://github.com/iotone/jevracket) `📚4` — jevracket - A jev client for the live typesafe.ai api, written for a racket language runtime · Racket
+- [ItzSupra13/jev-is-not-odd](https://github.com/itzsupra13/jev-is-not-odd) `📚4` — A probabilistic, AI-powered utility to determine if a number is not odd (or not even) using TypeSafe's Jev model and the Vercel ...
+- [Jabbslad/pi-jev-tools](https://github.com/jabbslad/pi-jev-tools) `📚4` — TypeSafe ranking, classification, retrieval and structured-decision tools for Pi coding agents
+- [JacobLinCool/jev-ai-detector](https://github.com/jacoblincool/jev-ai-detector) `📚4` — jev-ai-detector - A small AI-text taste detector for Traditional Chinese \(zh-TW\) and English, built on Jev. · TypeScript
+- [jamubc/opencode-langsearch](https://github.com/jamubc/opencode-langsearch) `📚4` — Unofficial OpenCode v2 plugin: LangSearch web search provider, optionally gated by Jev (TypeSafe AI) to cut tokens and filter noisy/injected results before ...
+- [jh1373/jev-search](https://github.com/jh1373/jev-search) `📚4` — Search your Obsidian vault locally and offline with no API key, then rerank the top results with Jev only aft…
+- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) `📚4` — Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model d
+- [Jorgediamanto/jev-playground](https://github.com/jorgediamanto/jev-playground) `📚4` — jev-playground - Demos que enseñan en qué se diferencia Jev \(el modelo System One de TypeSafe AI\) de un LLM normal · Python
+- [jose-troche/live-rubric](https://github.com/jose-troche/live-rubric) `📚4` — A writing editor that re-scores 15 typed rubric dimensions on every typing pause — one Jev System One call pe…
+- [JulianLee1117/jev-moneyprinter](https://github.com/julianlee1117/jev-moneyprinter) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [just-be-dev/jev-sat](https://github.com/just-be-dev/jev-sat) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Karthick-Ramachandran/jevfilter](https://github.com/karthick-ramachandran/jevfilter) `📚4` — jevfilter - Turn a user's search sentence into filters your API already accepts, powered by Jev · TypeScript
+- [KaushikKC/JevScope](https://github.com/kaushikkc/jevscope) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [kingsword09/jev-dati](https://github.com/kingsword09/jev-dati) `📚4` — Other related projects
+- [kt3k/jevmaze](https://github.com/kt3k/jevmaze) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Laaaaksh/jev-playground](https://github.com/laaaaksh/jev-playground) `📚4` — jev-playground - Unofficial bring-your-own-key playground for TypeSafe's Jev model · JavaScript
+- [Lagnajit09/sgrep](https://github.com/lagnajit09/sgrep) `📚4` — sgrep - Semantic grep for codebases: chunk files and ask TypeSafe Jev which chunks match a plain-English query (includes offline mock). (Project guide)(community/projects/tools/sgrep.md).
+- [Li-Evan/jev-handbook](https://github.com/li-evan/jev-handbook) `📚4`
+- [louispaulet/jev-playground](https://github.com/louispaulet/jev-playground) `📚4` — Testing the brand new JEV model
+- [luiginotmario/postgres-Jev](https://github.com/luiginotmario/postgres-jev) `📚4` — Natural-language PostgreSQL predicates with TypeSafe Jev. A simple search playground with randomly generated databases.
+- [luisrapalino/jev-smart-bets](https://github.com/luisrapalino/jev-smart-bets) `📚4` — jev-smart-bets - Asistente y framework de apuestas deportivas open-source con Next.js e IA \(Jev\) · TypeScript
+- [mahan-ym/cleaner](https://github.com/mahan-ym/cleaner) `📚4` — cleaner - An experiment with JEV from typesafe.ai to clean up my useless data.
+- [marianimatteo-lexroom/poly-jev](https://github.com/marianimatteo-lexroom/poly-jev) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [markmdev/hundred-faces](https://github.com/markmdev/hundred-faces) `📚4` — A wall of a hundred invented people who react while you type, on TypeSafe AI's Jev
+- [mavericksxx/typesafe-jev-history-globe](https://github.com/mavericksxx/typesafe-jev-history-globe) `📚4` — typesafe-jev-history-globe - typesafe-jev-history-globe: TypeSafe Jev ecosystem repository. · TypeScript
+- [MayberryDT/chartroom](https://github.com/mayberrydt/chartroom) `📚4` — chartroom - A local second brain built on GBrain, with TypeSafe Jev for search ranking and page connections. · TypeScript
+- [meaningfree/jev-work](https://github.com/meaningfree/jev-work) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [nabendu82/jev-demo](https://github.com/nabendu82/jev-demo) `📚4` — Demo for new jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [noperator/siftrank](https://github.com/noperator/siftrank) `📚4` — Jev compares items against a ranking prompt across repeated batches so SiftRank can produce a converged relevance order.
+- [patricktrainer/duckdb-semantic-profile](https://github.com/patricktrainer/duckdb-semantic-profile) `📚4` — what is this? Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [phureewat29/jev-moviebox](https://github.com/phureewat29/jev-moviebox) `📚4` — Movie recommendation engine with Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [pinecone-io/using-typesafe-and-pinecone](https://github.com/pinecone-io/using-typesafe-and-pinecone) `📚4` — Worked out examples of applying TypeSafe AI Decision (Jev) models with Pinecone.
+- [pjrpjr/qingliu](https://github.com/pjrpjr/qingliu) `📚4`
+- [Pk13055/jev-playgroud](https://github.com/pk13055/jev-playgroud) `📚4` — Experiments with Jev (Typesafe AI) Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [ponyo877/jev-realtime-brain-scanner](https://github.com/ponyo877/jev-realtime-brain-scanner) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Pragyan330/WHAT-s-Up-jev](https://github.com/pragyan330/what-s-up-jev) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [prasanthj/duckdb-dual-cognition](https://github.com/prasanthj/duckdb-dual-cognition) `📚4` — Native DuckDB extension composing fast System One judgments with selective System Two reasoning, pro
+- [Rassl/usejev](https://github.com/rassl/usejev) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Replacing an agentic classification loop with Jev](https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html) `📚4` — Blog: swaps an agent's classification loop for a single Jev call and reports the loop running 7x faster.
+- [sambhav/jev-explained](https://github.com/sambhav/jev-explained) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [SampleBias/Jev_Onco_Statistical_Hierarchy](https://github.com/samplebias/jev_onco_statistical_hierarchy) `📚4` — Jev_Onco_Statistical_Hierarchy — Rust CLI and TUI for Jev-based cancer of unknown primary research (auto-discovered, description not yet written)
+- [sandra-arato/icon-matcher](https://github.com/sandra-arato/icon-matcher) `📚4` — Match a UI section title to a Hugeicons icon using TypeSafe.ai's Choice primitive — no lexical/keyword search.
+- [seanockert/movie-finder](https://github.com/seanockert/movie-finder) `📚4` — movie-finder - Find movies that match your query using Jev model · JavaScript
+- [shima78/cv-job-fit-scorer](https://github.com/shima78/cv-job-fit-scorer) `📚4` — JEV CV scorer / TypeSafe.ai
+- [sidmanale643/atlas-jev](https://github.com/sidmanale643/atlas-jev) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [silvariasereneblossom/jeverifier](https://github.com/silvariasereneblossom/jeverifier) `📚4` — JeVerifier: cheap Jev (TypeSafe) checks that keep code maintainable and docs consistent, plus context retrieval — modest token savings
+- [sio-funmatsu/fmjev](https://github.com/sio-funmatsu/fmjev) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [site](https://search-function-test.vercel.app) `📚4`
+- [site](https://jev.works) `📚4`
+- [site](https://haplab.com) `📚4`
+- [site](https://verify.papertrellis.com) `📚4`
+- [site](https://loki.computer) `📚4`
+- [site](https://typesafe-vs-deepseek.vercel.app) `📚4`
+- [softinio/verdict4s](https://github.com/softinio/verdict4s) `📚4` — A Scala 3 client for TypeSafe AI's Jev, a decision model that answers typed questions about your program state with choices, scores ...
+- [spivi/cloudforge-jev](https://github.com/spivi/cloudforge-jev) `📚4` — Sidecar: grade a cloudforge student writeup with TypeSafe Jev. Not part of the OSS product.
+- [sub-surface/jev](https://github.com/sub-surface/jev) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [SupratikB23/JevCanvas](https://github.com/supratikb23/jevcanvas) `📚4` — Jev-driven interfaces with on-demand diffusion visuals and constrained rendering.
+- [Taufique-Ansari/dunjev](https://github.com/taufique-ansari/dunjev) `📚4` — Three-act Phaser side-scrolling brawler where enemies query Jev for attack, dodge, block or retreat, with a live probability panel. no license · TypeScript · live
+- [thevibeworks/jevgate](https://github.com/thevibeworks/jevgate) `📚4` — Which shell commands may your coding agent run without asking? An allowlist proves what it can; Jev,
+- [thrashr888/clue](https://github.com/thrashr888/clue) `📚4` — Rust CLI that normalizes JSON/JSONL from gh, bd, Cider or SQLite, ranks records against a query with TypeSafe, and assembles byte-budgeted context bundles. MIT · Rust
+- [trufyrelabs/tru-jev-harness](https://github.com/trufyrelabs/tru-jev-harness) `📚4` — tru-jev-harness - tru-jev-harness: TypeSafe Jev ecosystem repository. · TypeScript
+- [vicpon/signals](https://github.com/vicpon/signals) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [viniciusfinger/jev-intent-classification](https://github.com/viniciusfinger/jev-intent-classification) `📚4` — jev-intent-classification — JEV intent classification using Python
+- [XieChengYuan/jev-playground](https://github.com/xiechengyuan/jev-playground) `📚4` — Discover real Jev use cases. A source-linked catalog with MCP classification, semantic deduplication
+- [xucian/fbyte-jev-vs-claude](https://github.com/xucian/fbyte-jev-vs-claude) `📚4` — Benchmark scripts comparing Jev via OpenRouter with Claude Opus and Sonnet on five 20-case classification tasks, with an HTML report. no license · HTML
+- [xucian/talktojev](https://github.com/xucian/talktojev) `📚4` — Generation is Classification: a chatbot with no language model in it. Every word is chosen by a classifier. Code for the paper ...
+- [ygivenx/jev-try](https://github.com/ygivenx/jev-try) `📚4` — jev-try - ygivenx/jev-try - Reads a clinical note and nudges for the orders it commits to but the chart does not carry out. Built on TypeSafe jev typed judgments.
+- [网站](https://tatuck.github.io/jev-boe-demo) `📚4`
+- [网站](https://jevql.fly.dev) `📚4`
+- [01x-in/trialscout](https://github.com/01x-in/trialscout) `📚3` — TrialScout (trialscout.cc) reads a patient's plain-language profile, checks it against every eligibility criterion of recruiting solid-tumour oncology trials on ClinicalTrials.gov using TypeSafe ...
+- [1009rishit/JEV-resume-shortlister](https://github.com/1009rishit/jev-resume-shortlister) `📚3` — AI powered resume screeening tool using typesafe-sdk(JEV) to verify candidate resumes againt job description and classify them as Shortlisted, Unclear, or Not ...
+- [2389-research/judgement](https://github.com/2389-research/judgement) `📚3` — A Go CLI for TypeSafe Jev judgments, with JSON input/output and optional caching
+- [6Mikao9/more-options-for-jev](https://github.com/6mikao9/more-options-for-jev) `📚3` — Jev officially supports only a fixed set of 255 options, which caused us some trouble when
+- [\`classifier.dev\`：建在 Jev 上的免费零样本分类服务（含 agent skill）](https://classifier.dev) `📚3` — classifier.dev (repo) — hosted zero-shot labels via Jev (fast=Jev; smart=unsure → reasoning model)
+- [acoyfellow/nightglass](https://github.com/acoyfellow/nightglass) `📚3` — Owned, deterministic classifier for checking whether agent claims are supported by evidence, with optional Jev comparison through Cloudflare AI Gateway. ★ 1 · endpoint · JavaScript
+- [Adityakhalkar/JevNQL](https://github.com/adityakhalkar/jevnql) `📚3` — JevNQL - Compiles natural-language data questions into query plans that mix deterministic operators with Jev-evaluated semantic predicates. #sql
+- [Aether-254/jev-default-open](https://github.com/aether-254/jev-default-open) `📚3` — Default shared workspace for Jev hackathon development
+- [akeldgord/JevDeck](https://github.com/akeldgord/jevdeck) `📚3` — inferred / media-discussions — ⭐0
+- [aklsh/jevort](https://github.com/aklsh/jevort) `📚3` — jevort - Pi extension that selects model-compatible reasoning effort with TypeSafe Jev · TypeScript
+- [AlesSystems/jev-lab](https://github.com/alessystems/jev-lab) `📚3` — Research and reliable, practical demos for TypeSafe AI's Jev model.
+- [ali-abassi/pi-jev](https://github.com/ali-abassi/pi-jev) `📚3` — Jev advisor for the pi coding agent: loop detection + goal-alignment steers
+- [Alpha-Harper-Franklin/jev-multimodal](https://github.com/alpha-harper-franklin/jev-multimodal) `📚3` — Jev + Multimodal: shared visual decisions, evidence adapters, source audits and reproducible public
+- [ant4g0nist/joxide](https://github.com/ant4g0nist/joxide) `📚3` — joxide - Jump to projects by description, powered by zoxide and TypeSafe’s Jev · TypeScript
+- [AnthonyDavidAdams/jev-search](https://github.com/anthonydavidadams/jev-search) `📚3` — jev_search/client.py and rank/score modules send option lists to the Decisions API; crawl/extract stay local.
+- [armansra-hub/stanley](https://github.com/armansra-hub/stanley) `📚3` — Territory intelligence for a NetSuite AE: Jev (TypeSafe) interprets company evidence and guides research; Claude powers chat and cited account stories. Next.js ...
+- [aviletek/jev-flow-harness](https://github.com/aviletek/jev-flow-harness) `📚3` — AI-assisted catalog review. Source inspected (README, LICENSE). Live Studio/Jev not run. Distinct from jev-flow-harness.
+- [benomahony/nouls](https://github.com/benomahony/nouls) `📚3` — Semantic linter and language server that splits files into functions with tree-sitter and asks Jev yes/no rule questions per function. no license · Python · live
+- [bhavikprit/reflex-ai](https://github.com/bhavikprit/reflex-ai) `📚3` — unverified / agent-tooling — ⭐3
+- [binbandit/jev-demo](https://github.com/binbandit/jev-demo) `📚3` — jev-demo - A concise TypeScript and Bun demo of TypeSafe Jev with live OpenAI comparisons. · TypeScript
+- [caio0452/jev_search](https://github.com/caio0452/jev_search) `📚3` — jev_search - Experimental file search that ranks candidates by keyword and checks passages with Jev.
+- [Calq-dev/ask-jev](https://github.com/calq-dev/ask-jev) `📚3` — Ask Jev a question about a file instead of reading it into the agent's context.
+- [capybara-brain346/jevtrieval](https://github.com/capybara-brain346/jevtrieval) `📚3` — Jevtrieval is a retrieval-augmented generation demo. It retrieves documents from Qdrant, scores their relevan…
+- [cfu288/jev-vs-ml-classifiers](https://github.com/cfu288/jev-vs-ml-classifiers) `📚3` — How well does the latest JEV model do against classical ML classifier models, and some other transformer based models that have been ...
+- [chcknnbn/jev-webui](https://github.com/chcknnbn/jev-webui) `📚3` — Local-first WebUI for TypeSafe Jev: batch document evaluation, typed questions, formulas, and CSV ex
+- [chiragrohit/jev-extension](https://github.com/chiragrohit/jev-extension) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [choxos/JevVsLLM](https://github.com/choxos/jevvsllm) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Cloudgeni-ai/genigrep](https://github.com/cloudgeni-ai/genigrep) `📚3` — Ask a question about a codebase, get back only the source that answers it. Jev-ranked code search for coding agents.
+- [coco-research/jev-use](https://github.com/coco-research/jev-use) `📚3` — Voice-driven control layer for macOS. Jev is the fallback, not the router. Rust core, Tauri shell.
+- [CompleteTech-LLC-AI-Research/jev-context-fabric](https://github.com/completetech-llc-ai-research/jev-context-fabric) `📚3` — Local-first, source-backed memory layer for coding agents, with a zero-dependency installe
+- [Constantine1916/jev-nasdaq-predictor](https://github.com/constantine1916/jev-nasdaq-predictor) `📚3` — Daily Nasdaq direction prediction with TypeSafe Jev
+- [cristiancolon/jev-hft](https://github.com/cristiancolon/jev-hft) `📚3` — Research pipeline testing whether TypeSafe's Jev (via Vercel AI Gateway) can judge news and market data fast …
+- [Cyvid7-Darus10/docfriction](https://github.com/cyvid7-darus10/docfriction) `📚3` — docfriction - Automated friction logs for online documentation, scored section by section with TypeSafe Jev · Python
+- [dangquan1402/jev-extract](https://github.com/dangquan1402/jev-extract) `📚3` — Paragraph information extraction using TypeSafe AI Jev — closed-set extractive spans via Choice over candidate sentences.
+- [danielgshea/jev-graph](https://github.com/danielgshea/jev-graph) `📚3` — LangGraph analyst agent where Jev classifies requests, approves tool calls, scores search results and grades the final answer. no license · Python
+- [derwells/sieve](https://github.com/derwells/sieve) `📚3` — Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search
+- [dgabriel/cosmic-jev](https://github.com/dgabriel/cosmic-jev) `📚3` — Should I do this? A deadpan verdict from real planetary positions, interpreted by Jev.
+- [dingdinglz/semantic-find-userscript](https://github.com/dingdinglz/semantic-find-userscript) `📚3` — Semantic Find userscript — Uses Jev to find passages and navigation labels on the current webpage that match a natural-language search. By @dingdinglz.
+- [dizk/pi-jev-lens](https://github.com/dizk/pi-jev-lens) `📚3` — pi extension that compresses large tool results before they reach the model: jev picks the view, full text stays recallable Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [dmitrysobolev/jev-spring-boot-bookstore](https://github.com/dmitrysobolev/jev-spring-boot-bookstore) `📚3` — jev-spring-boot-bookstore - Spring Boot 4 bookstore API using TypeSafe Jev typed judgments via jev-spring-boot-starter · Java
+- [emilesilvis/jev-experiment](https://github.com/emilesilvis/jev-experiment) `📚3` — Reproducible Jev and GPT-4o mini classification experiments, findings, and explanatory report.
+- [epiphany-dynamics/port-cleanup](https://github.com/epiphany-dynamics/port-cleanup) `📚3` — A Jev-powered native macOS utility for evidence-backed, human-confirmed cleanup of stale listening p
+- [FelineStateMachine/typesafe-go](https://github.com/felinestatemachine/typesafe-go) `📚3` — Pure Go 1.27 SDK for TypeSafe AI: typed decisions, context-aware retries, and zero dependencies.
+- [formigacamuflada/jev-computer-use](https://github.com/formigacamuflada/jev-computer-use) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [GabrielCoelhoCruz/jev-scanr](https://github.com/gabrielcoelhocruz/jev-scanr) `📚3` — A refactoring queue for TypeScript and JavaScript projects, judged by the Jev…
+- [gbesse/jev-columns](https://github.com/gbesse/jev-columns) `📚3` — Maintain versioned semantic decisions as indexed PostgreSQL columns with a reclaimable work queue.
+- [gbesse/jev-crowdsim](https://github.com/gbesse/jev-crowdsim) `📚3` — jev-crowdsim - Run a declared factorial audience grid through typed Jev reactions and expose disagreement. · JavaScript
+- [gbesse/jev-duelarena](https://github.com/gbesse/jev-duelarena) `📚3` — jev-duelarena - Run visible criterion-by-criterion text duels and honestly progressive elimination brackets with Jev. · JavaScript
+- [gbesse/jev-judgmentwall](https://github.com/gbesse/jev-judgmentwall) `📚3` — jev-judgmentwall - Watch declared Jev criteria resolve in honest request-arrival order and export the verdict wall. · JavaScript
+- [gbesse/jev-tar](https://github.com/gbesse/jev-tar) `📚3` — jev-tar - jev-tar: TypeSafe Jev ecosystem repository. · Python
+- [gexiuzhen-sketch/jev-chinese-console](https://github.com/gexiuzhen-sketch/jev-chinese-console) `📚3`
+- [gowtam04/jev-prototypes](https://github.com/gowtam04/jev-prototypes) `📚3` — Practice lab for TypeSafe Jev prototypes Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [GreptimeTeam/greptimedb](https://github.com/greptimeteam/greptimedb) `📚3` — GreptimeDB · JEV SQL · 6.7K stars — GreptimeDB adds an experimental SQL predicate backed by JEV judgments. Source
+- [HikaruEgashira/jev-kitchen](https://github.com/hikaruegashira/jev-kitchen) `📚3`
+- [Hosted demo](https://jevsearch.fly.dev) `📚3` — that searches the TypeSafe documentation (109 pages).
+- [inematds/jev-open](https://github.com/inematds/jev-open) `📚3` — Especialista classificador local open-source (pesquisa/educacão)
+- [isavita/grid-duel-lab](https://github.com/isavita/grid-duel-lab) `📚3` — grid-duel-lab - grid-duel-lab: TypeSafe Jev ecosystem repository. · JavaScript
+- [jalpp/OpenRecurSearch](https://github.com/jalpp/openrecursearch) `📚3` — A real open AI agent + jev web interface that searches the web and creates research reports
+- [javaAndScriptDeveloper/jev-how-to](https://github.com/javaandscriptdeveloper/jev-how-to) `📚3` — jev-how-to - How to use Jev from Java: typed AI decisions. A runnable Jev example. · Java
+- [jevaidev/jev-project-classifier](https://github.com/jevaidev/jev-project-classifier) `📚3` — Classify and tag Jev projects, System One models, and real-world use cases with Jev. GitHub Stars ra
+- [JevForge/jev-flaky-detective](https://github.com/jevforge/jev-flaky-detective) `📚3` — Classify failing tests as regression, flaky, environment, or unknown. Jev decides; results are never
+- [jevtail/jevtail](https://github.com/jevtail/jevtail) `📚3` — Nothing to read: a message only when your app is actually broken, with what kind of problem it is. Log and al…
+- [jiangyan/jev-demo](https://github.com/jiangyan/jev-demo) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [jiayao/jev-grep](https://github.com/jiayao/jev-grep) `📚3` — grep by meaning. A grep that asks Jev whether each line is what you're looking for.
+- [jodan-alberts/sokit](https://github.com/jodan-alberts/sokit) `📚3` — Stdlib-only Python agent harness around System One models adding a tool registry, data providers, confidence gates, memory and a labelled-eval loop. MIT · Python
+- [joemaddalone/jev-transcript-analyzer-demo](https://github.com/joemaddalone/jev-transcript-analyzer-demo) `📚3` — This tool analyzes YouTube video transcripts using three primitive question types from TypeSafe's Jev model: ★ 1 · endpoint · TypeScript
+- [jonkthomas/jev-shadow](https://github.com/jonkthomas/jev-shadow) `📚3` — jev-shadow - Test whether TypeSafe Jev answers your questions correctly before you let it decide anything. · JavaScript
+- [JosephHardy91/jev_efficiency](https://github.com/josephhardy91/jev_efficiency) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [jsherman999/jev_local_web_seatch-](https://github.com/jsherman999/jev_local_web_seatch-) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [juanegido/jev-startup-validator](https://github.com/juanegido/jev-startup-validator) `📚3` — Startup Idea Validator powered by Jev (TypeSafe AI)
+- [juangchuank-ops/jev2api](https://github.com/juangchuank-ops/jev2api) `📚3`
+- [kellystuard/jev-gmail-classifier](https://github.com/kellystuard/jev-gmail-classifier) `📚3` — Google Apps Script that classifies Gmail messages with Jev, TypeSafe's decision-only AI model.
+- [Kingy AI](https://kingy.ai/blog/typesafe-jev-review-the-ai-model-that-doesnt-generate-text) `📚3` — . Kingy AI: "Jev review: the AI model that doesn't generate text": The skeptical counterweight.
+- [kmooney/jamsesh](https://github.com/kmooney/jamsesh) `📚3` — Midi Jambox with Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [kzkhykw/jev-auto-ime](https://github.com/kzkhykw/jev-auto-ime) `📚3`
+- [leomfu/gmail-classifier](https://github.com/leomfu/gmail-classifier) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 223856f. AI-assisted README + src/classify.py inspection. No live Gmail or TypeSafe spend.
+- [levi-qiao/SemaLoom](https://github.com/levi-qiao/semaloom) `📚3` — Ontology-driven business layer for serious AI Q&A over existing data sources, with deterministic semantics, e…
+- [LiamSherline/jev-lead-scorer](https://github.com/liamsherline/jev-lead-scorer) `📚3` — Score sales leads with typed AI decisions (Jev) instead of vibes. Fit score, outreach angle, skip fl
+- [lichin1/jev-application](https://github.com/lichin1/jev-application) `📚3` — jev-application - SInce Jev model is popular, let's try some interesting. · Python
+- [linksawakening/jev-harness](https://github.com/linksawakening/jev-harness) `📚3` — Self-hosted project harness: code owns the loop, TypeSafe Jev owns the judgments, the LLM owns the content.
+- [llmer/jev-goldwrong](https://github.com/llmer/jev-goldwrong) `📚3` — Hunting label errors in popular text-classification datasets with TypeSafe Jev
+- [luanewb/jevai](https://github.com/luanewb/jevai) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Lucas-Grilli/filtro-notizie-jev](https://github.com/lucas-grilli/filtro-notizie-jev) `📚3` — filtro-notizie-jev - Filtro notizie da RSS: regex per il sicuro fuori tema, Jev \(TypeSafe\) per giudicare il resto. Il motore di Poltronave, configurabile per ogni tema. · Python
+- [LukasMosser/jevthon](https://github.com/lukasmosser/jevthon) `📚3` — Experiments with typesafe.ai Jev
+- [marc2332/findme](https://github.com/marc2332/findme) `📚3` — jev + fs = findme Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [metademicteam/Jeedle](https://github.com/metademicteam/jeedle) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [mgd34msu/vibecheck-jev](https://github.com/mgd34msu/vibecheck-jev) `📚3` — A work ledger for coding agents that verifies what they report. Plans, tasks, claims and handoffs live in SQLite, and a Jev-compatible ...
+- [Michaelvasandani/J-Mail](https://github.com/michaelvasandani/j-mail) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [miikkij/aimeat-protocol](https://github.com/miikkij/aimeat-protocol) `📚3` — The Linux of AI - an open, federated, self-hosted AI operating system. Humans, AI agents, and local LLMs shar…
+- [milokuo/tagtrim](https://github.com/milokuo/tagtrim) `📚3` — Tag every line of a command's output, then trim by tag, so your coding agent reads the signal, not the noise. Design stage.
+- [minhquan23102000/inventio](https://github.com/minhquan23102000/inventio) `📚3` — Local retrieval without embeddings. Every answer comes back as the original passage with i
+- [misaalya/jev-traversal](https://github.com/misaalya/jev-traversal) `📚3` — Terminal semantic code search where Jev walks folder to file to function and returns the matching location with a probability. no license · TypeScript
+- [moelahmady/shunt-jev](https://github.com/moelahmady/shunt-jev) `📚3` — inferred / agent-tooling — ⭐0
+- [mohojojo/docseek](https://github.com/mohojojo/docseek) `📚3` — Goal-driven document discovery: give it a website and a goal in plain language, get back the documents with relevance verdicts.
+- [MorrisZJ/AnyJev](https://github.com/morriszj/anyjev) `📚3` — inferred / research-models — ⭐1
+- [mosserii/micmic](https://github.com/mosserii/micmic) `📚3` — Talk to your Mac. It does the thing. A voice assistant for macOS that acts instead of searching.
+- [Muhammad-Zain01/jev-real-usecases](https://github.com/muhammad-zain01/jev-real-usecases) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [NaluKicks-808/vault-search-bench](https://github.com/nalukicks-808/vault-search-bench) `📚3` — Test search over any Obsidian vault with zero labelling: the vault's own links are the answer key. Plain rank…
+- [NesanSelvan/resume-ranker-jev](https://github.com/nesanselvan/resume-ranker-jev) `📚3` — resume-ranker-jev - resume-ranker-jev: TypeSafe Jev ecosystem repository. · TypeScript
+- [nexscope-ai/jev-amazon-keyword-checker](https://github.com/nexscope-ai/jev-amazon-keyword-checker) `📚3` — Find Amazon keyword ideas with Nexscope and evaluate their relevance to listing text with Jev.
+- [nhchoi98/demo_trend_searcher](https://github.com/nhchoi98/demo_trend_searcher) `📚3` — demo\_trend\_searcher - demo trend seracher using jev · TypeScript
+- [nighthawk6389/jev-playground](https://github.com/nighthawk6389/jev-playground) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [noripto/pigeonhole](https://github.com/noripto/pigeonhole) `📚3` — Classify notes with Jev and file them into folders by attribute. ★ 1 · endpoint · TypeScript
+- [NourEldinShobier/web-search](https://github.com/noureldinshobier/web-search) `📚3` — Fast, token-efficient web research for AI agents: a Bun CLI that searches the web, news, Reddit, Hacker News,…
+- [oh-ashen-one/jev-lab](https://github.com/oh-ashen-one/jev-lab) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [omerfeyzioglu/JevOps](https://github.com/omerfeyzioglu/jevops) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [OrbitMaker/jev-engine](https://github.com/orbitmaker/jev-engine) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [parthsidpara/obsidian-auto-tagger-jev](https://github.com/parthsidpara/obsidian-auto-tagger-jev) `📚3` — Use TypeSafe's Jev model to auto-tag the current Obsidian note, picking from the tags you already us
+- [pathcosmos/typesafeai-jev-case-manual](https://github.com/pathcosmos/typesafeai-jev-case-manual) `📚3` — Reference, patterns, and adoption manual for applying TypeSafe Jev across projects (for coding agents)
+- [paulobrien/jev-excel](https://github.com/paulobrien/jev-excel) `📚3` — jev-excel - jev-excel: TypeSafe Jev ecosystem repository. · JavaScript
+- [peternguyen777/ai-icon-generator](https://github.com/peternguyen777/ai-icon-generator) `📚3` — WoofAI is an AI-powered micro-SaaS application allowing users to generate, share and download pet ic
+- [Peterrallojay/sqlite-utils-jev](https://github.com/peterrallojay/sqlite-utils-jev) `📚3` — Classify SQLite text with JEV. Save results locally, resume interrupted jobs, and track API spending.
+- [pnthn-ai/polar_llama](https://github.com/pnthn-ai/polar_llama) `📚3` — polar\_llama — A Polars library for parallel provider inference that also calls Jev per row as Noul, Choice, and Score questions, or as one typed contract over a document.
+- [PostHog/lmjtfy](https://github.com/posthog/lmjtfy) `📚3` — lmjtfy - Let Me Jev That For You — ask Jev a yes or no question. Cloudflare Workers + D1 + TypeSafe. · TypeScript
+- [prateekmedia/ly](https://github.com/prateekmedia/ly) `📚3` — Manipulate images via chat, uses Jev like model to classify prompt ★ 2 · primitives · JavaScript
+- [PrefectHQ/fastmcp](https://github.com/prefecthq/fastmcp) `📚3` — FastMCP jev_search transform — Two-stage MCP tool search: a wide Choice coarse-ranks the whole catalogue, then a shortlist gets full descriptions plus one Noul each to decide whether it does the job at all.
+- [PSPDFKit-labs/docsignals](https://github.com/pspdfkit-labs/docsignals) `📚3` — docsignals - Ask typed questions of your documents. Get structured signals for agentic workflows, with the page each answer came from. · TypeScript
+- [qsliu2017/pg_jevplanner](https://github.com/qsliu2017/pg_jevplanner) `📚3` — topic:jev created:2026-09-22..2026-09-23
+- [rafaemush/resolve](https://github.com/rafaemush/resolve) `📚3` — Automated resolution infrastructure API for long-tail prediction markets (Cloudflare Workers + Supabase + TypeSafe Jev)
+- [RastislavDujava/jev-classification-prompting](https://github.com/rastislavdujava/jev-classification-prompting) `📚3` — jev-classification-prompting - Reproducible experiments on prompting criteria in TypeSafe's Jev — how much of a classifier's behaviour is yours to define · Python
+- [Raunaksplanet/jev-research-sept-2026](https://github.com/raunaksplanet/jev-research-sept-2026) `📚3` — Research notes and writeup on Jev, the TypeSafe AI System One decision model (Sept 2026)
+- [rishi-raj-jain/pg-redact](https://github.com/rishi-raj-jain/pg-redact) `📚3` — Next.js and Neon Postgres demo where Jev labels PII spans in support messages and a redact() SQL function masks them by viewer role. no license · TypeScript · live
+- [robertogallea/laravel-judgment](https://github.com/robertogallea/laravel-judgment) `📚3` — Judgment as a first-class Laravel primitive: probabilistic assessments with deterministic decisions, powered by Jev.
+- [ruffood/jev-reality-check](https://github.com/ruffood/jev-reality-check) `📚3`
+- [rwjdk/jev-dotnet](https://github.com/rwjdk/jev-dotnet) `📚3` — An opinionated and convention-based .NET implementation of the Jev Classification AI by TypeSafeAI
+- [sandrotaje/pi-jev-concise](https://github.com/sandrotaje/pi-jev-concise) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [scottjoyner/my-jev](https://github.com/scottjoyner/my-jev) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Search the site](https://awesomejev.vercel.app) `📚3`
+- [shalevamin/jevii](https://github.com/shalevamin/jevii) `📚3` — unverified / agent-tooling — ⭐4
+- [shauryajain07/ghost-user](https://github.com/shauryajain07/ghost-user) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [sijiaoh/jevgrep](https://github.com/sijiaoh/jevgrep) `📚3` — topic:jev created:2026-09-16..2026-09-19
+- [SilentBless/omp-classifier](https://github.com/silentbless/omp-classifier) `📚3` — omp-classifier - 🎯 Typed decisions for Oh My Pi — Jev or your own compatible HTTP classifier. Choice, Noul &amp; Score. · TypeScript
+- [site](https://dxtmc35dbmyei.cloudfront.net) `📚3`
+- [site](https://nolane-x.github.io/jev-language) `📚3`
+- [site](https://collapseindex.org) `📚3`
+- [site](https://jevcache.sh) `📚3`
+- [site](https://famelos.com/jev/auto-classifier-certification) `📚3`
+- [site](https://perchscan.com) `📚3`
+- [site](https://evoke.build) `📚3`
+- [site](https://eve.dev) `📚3`
+- [site](https://replynodes.com/jev-web-analyzer) `📚3`
+- [site](https://huggingface.co/alibiserikbay/jevk5) `📚3`
+- [site](https://modelsystem.one) `📚3`
+- [site](https://pypi.org/project/watfile) `📚3` — watfile - CLI that classifies documents into folders with Jev or local Laya models.
+- [site](https://mizzlelover.github.io/jev-hub) `📚3`
+- [SkywalkerDarren/feed-lens](https://github.com/skywalkerdarren/feed-lens) `📚3` — Feed Lens — Social media: annotates Weibo, Threads, and X posts in a Chrome extension using Jev judgments against user-defined topic and expression labels.
+- [Stephane-Dedu/jev-tactics](https://github.com/stephane-dedu/jev-tactics) `📚3` — Perception par vision et decision tactique confiee a Jev (TypeSafe AI) sur un combat isometrique au tour par tour. Recherche.
+- [STRML/omp-classifier](https://github.com/strml/omp-classifier) `📚3` — OMP plugin that sends unvetted bash commands and process-spawning eval payloads to Jev and prompts on unsafe or unsure verdicts, failing closed. MIT · TypeScript
+- [superradcompany/multiverse-of-madness](https://github.com/superradcompany/multiverse-of-madness) `📚3` — Jev and Microsandbox explore alternate game futures with a reusable TypeScript learning harness ★ 2 · sdk · TypeScript
+- [svsaraf/tswitch](https://github.com/svsaraf/tswitch) `📚3` — Typesafe switch, score, and bool primitives for Python, powered by
+- [takeshy/obsidian-llm-hub](https://github.com/takeshy/obsidian-llm-hub) `📚3` — Obsidian plugin for AI chat, workflow automation, and semantic search — supports Gemini, OpenAI, OpenRouter, Grok, Ollama, and CLI backends
+- [TheChyeahhh/tarnlight](https://github.com/thechyeahhh/tarnlight) `📚3` — A flight recorder for Jev decisions: a free Windows app that records, shows and lets you grade the answers your apps get ...
+- [TheOnlyArtz/JevIsraeliElections](https://github.com/theonlyartz/jevisraelielections) `📚3` — JevIsraeliElections - יועצת בחירת מפלגה. Hebrew/RTL React app ranking the 14 Knesset-26 lists against your ideology. ★ 1.
+- [TheOnlyArtz/TheOnlyArtz.github.io](https://github.com/theonlyartz/theonlyartz.github.io) `📚3` — ג'ב — יועצת בחירת מפלגה. Hebrew/RTL React app ranking the 14 Knesset-26 lists against your ideology.
+- [ThePikey/AOS_GLM_language](https://github.com/thepikey/aos_glm_language) `📚3` — Sovereign 0-VRAM &amp; 0-LLM Deterministic Reality Engine &amp; TypeSafe Jev Replacement with VSA Hypervectors, Golay G\_24 QEC, Clifford Cℓ(8,0) Bivector Wedge Gates, Poincare Geodesics, and Cellular Sheaf Cohomology
+- [TokyoHunter/jev-animal-finder](https://github.com/tokyohunter/jev-animal-finder) `📚3` — Floating animal emoji finder with a search bar in the middle. Search in plain English usin
+- [tomascupr/reelql](https://github.com/tomascupr/reelql) `📚3` — reelql — Give your agent eyes: any video link in, one typed JSON out. A Claude skill + API (auto-discovered, description not yet written)
+- [uibuckets/jev-starter](https://github.com/uibuckets/jev-starter) `📚3` — jev-starter - Minimal Python starter for TypeSafe Jev typed decisions — UIbuckets · Python
+- [vansh-attri/Jev_findshorts](https://github.com/vansh-attri/jev_findshorts) `📚3`
+- [vedang/pi-progress-bar](https://github.com/vedang/pi-progress-bar) `📚3` — A progress bar to see if work is being done well. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [VihaanAgarwal/jev-diff](https://github.com/vihaanagarwal/jev-diff) `📚3` — jev-diff - Compare saved Jev decisions before changing a model, question, or threshold. Offline CLI, zero runtime dependencies. · Python
+- [vikramlingam/excelpilot](https://github.com/vikramlingam/excelpilot) `📚3` — ExcelPilot: Live cross-platform Excel AI agent with Qwen 3.8 and Jev decision model
+- [vincentlauriat/MailClassification.jev](https://github.com/vincentlauriat/mailclassification.jev) `📚3` — Semantic classification of Outlook, Gmail and IMAP mailboxes with Jev (TypeSafe) — one category per
+- [vishalgwu/jev-review-classifier](https://github.com/vishalgwu/jev-review-classifier) `📚3` — Multi-attribute e-commerce review classifier built with Jev (TypeSafe AI) — one review in, five typed judgments out in a single API call.
+- [wangw0922/jev-mail](https://github.com/wangw0922/jev-mail) `📚3` — inferred / other — ⭐0
+- [waygatetech/jev-go](https://github.com/waygatetech/jev-go) `📚3` — An unofficial Go SDK for TypeSafe AI's Jev model
+- [webNeat/llama-jev](https://github.com/webneat/llama-jev) `📚3` — Reproducing jev classifier API on top of llama.cpp
+- [wr0x00/jev_mcp](https://github.com/wr0x00/jev_mcp) `📚3` — inferred / agent-tooling — ⭐0
+- [xm1233/weekend-dinner-jev](https://github.com/xm1233/weekend-dinner-jev) `📚3` — Weekend restaurant picker: Amap POI search + TypeSafe Jev scoring (FastAPI web UI).
+- [XMoyas/web_attack_detection_jev](https://github.com/xmoyas/web_attack_detection_jev) `📚3`
+- [Yaro60/jev-research](https://github.com/yaro60/jev-research) `📚3` — Jev-driven research engine for coding agents: query understanding, RRF reranking, shadow next-best-s
+- [Yashilot/Jev-HA](https://github.com/yashilot/jev-ha) `📚3` — Smart-home assistant pipeline where Jev handles routing, extraction and classification and a local Ollama LLM only answers questions. no license · Python
+- [YEDASAVG/Stratum](https://github.com/yedasavg/stratum) `📚3` — AI-powered Log Intelligence System - Semantic search, anomaly detection, and root cause analysis for logs using RAG techniques. Built with Rust, Axum, ...
+- [YiLight0/paperfocus](https://github.com/yilight0/paperfocus) `📚3` — paperfocus - Question-guided evidence highlighting for research papers, powered by Jev. · JavaScript
+- [yn01/jev-stormboard](https://github.com/yn01/jev-stormboard) `📚3` — inferred / other — ⭐0
+- [yodablocks/duckdb-jev](https://github.com/yodablocks/duckdb-jev) `📚3` — Semantic ORDER BY for DuckDB, backed by TypeSafe AI's Jev model. Ships with independent calibration numbers.
+- [You could have built Jev](https://sgnt.ai/p/jev) `📚3` — Idea for reading single-token probabilities; claims about Jev internals are the author's speculation
+- [yshraj/jev-traffic-race](https://github.com/yshraj/jev-traffic-race) `📚3` — jev-traffic-race - Live demo showing why loop-speed classification matters: Jev vs LLMs on the same events, same clock, honest scorecard. · TypeScript
+- [yslinear/cartpole-jev](https://github.com/yslinear/cartpole-jev) `📚3` — A tug-of-war over one shared actuator — you and TypeSafe's Jev push the same CartPole and the forces add. Phy…
+- [zaidmukaddam/cascade-search](https://github.com/zaidmukaddam/cascade-search) `📚3` — (notable) - Search-query parser where a 27K-parameter in-browser model tags each word with confidence and only low-confidence spans are escalated to Jev. MIT · TypeScript · live
+- [zhengge6/haogan](https://github.com/zhengge6/haogan) `📚3`
+- [zushicat/classifier2jevschema](https://github.com/zushicat/classifier2jevschema) `📚3` — Use a local classifier engine through the typesafe.ai Jev API schema — FastAPI drop-in proxy.
+
+## Long tail (cited by 1–2 lists) — 897
+
+<details><summary>Show 897 long-tail entries</summary>
+
+- [02Raj/jev-spring-boot-starter](https://github.com/02raj/jev-spring-boot-starter) `📚2` — Spring Boot starter for TypeSafe AI's Jev — typed Choice/Score/Noul decisions in your Spring MVC app, no text parsing required.
+- [0xcato-dev/jev-research-desk](https://github.com/0xcato-dev/jev-research-desk) `📚2` — a research team that runs while you sleep. jev decides every fork, the LLM only reads and writes. live dashboard, one html ...
+- [0xtrou/yggdrasight](https://github.com/0xtrou/yggdrasight) `📚2` — Crypto research terminal whose multi-agent classification and synthesis layers run as typed Jev judgments over discovery output. no license · TypeScript · live
+- [1432647/sillytavern-jev-sentence-check](https://github.com/1432647/sillytavern-jev-sentence-check) `📚2` — inferred / other — ⭐0
+- [1deat0r/Jev-Grep](https://github.com/1deat0r/jev-grep) `📚2` — inferred / agent-tooling — ⭐0
+- [1npo/jev-gmail-labeler](https://github.com/1npo/jev-gmail-labeler) `📚2` — A tool that uses Jev and the GMail API to organize your emails with labels.
+- [2023Anita/jev-gpt-arena](https://github.com/2023anita/jev-gpt-arena) `📚2` — Jev × GPT asynchronous AI Tetris arena with independent clocks, live score comparison, architecture
+- [4piu/liametahi](https://github.com/4piu/liametahi) `📚2` — Mailbox cleanup CLI with AI — trash/move/label/route mail using Jev or chat model
+- [a-dev/quizbun](https://github.com/a-dev/quizbun) `📚2` — Quizbun is a static, explanation-first quiz catalog built around the Quiz Object Standard
+- [AC40/autolsp](https://github.com/ac40/autolsp) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [acorn181/semantic-bookmark](https://github.com/acorn181/semantic-bookmark) `📚2` — Organize bookmarks with your own semantic rules using Jev. ★ 1 · endpoint · TypeScript
+- [adamtopaz/jevhammer](https://github.com/adamtopaz/jevhammer) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [admud/jev-experiments](https://github.com/admud/jev-experiments) `📚2` — Sanitized synthetic experiments with Jev (TypeSafe)
+- [ahmedalkhair64bit/sql-server-query-al](https://github.com/ahmedalkhair64bit/sql-server-query-al) `📚2` — AI-powered SQL Server plan analysis, query optimization, and Jev-ranked action plans.
+- [AI-PM-Wiki/aipm-annotation-server](https://github.com/ai-pm-wiki/aipm-annotation-server) `📚2`
+- [aj604/jev-chain](https://github.com/aj604/jev-chain) `📚2` — jev-jev-jev-jev
+- [Akashdb5/jev-sql-guard](https://github.com/akashdb5/jev-sql-guard) `📚2` — inferred / community-sdk — ⭐0
+- [alfonsograziano/jev-alphabetical-prior](https://github.com/alfonsograziano/jev-alphabetical-prior) `📚2` — inferred / other — ⭐0
+- [amarpetla/jev-harness-poc](https://github.com/amarpetla/jev-harness-poc) `📚2` — Agent tools and workflow control
+- [Amine-LG/IntentSQL](https://github.com/amine-lg/intentsql) `📚2` — IntentSQL - Natural-language SQL: turns a question about a SQLite database into a sequence of small Jev decisions instead of one generated query, released as…
+- [an-author-1/gisbey-lab](https://github.com/an-author-1/gisbey-lab) `📚2` — Gibsey Lab explores Field Intelligence through QDPI: a laboratory for context assembly, literary navigation, …
+- [andreylukin/jev-bcp](https://github.com/andreylukin/jev-bcp) `📚2` — BrowseComp-Plus with a cheap LLM and Jev (TypeSafe's non-generative classifier): agent pipeline, the jevlog l…
+- [AnilDeshpande/jev-youtube-demo](https://github.com/anildeshpande/jev-youtube-demo) `📚2` — Jev (TypeSafe) vs GPT-4o-mini: classifying YouTube comments with a Judgement Model -- demo for CT-YT-2026-043
+- [antoniofaical/digital-twin-classifier-jev](https://github.com/antoniofaical/digital-twin-classifier-jev) `📚2`
+- [archi-max/jev-civ6](https://github.com/archi-max/jev-civ6) `📚2` — observed / agent-tooling — ⭐0
+- [artemnovitckii/apollo-jev-lead-classifier](https://github.com/artemnovitckii/apollo-jev-lead-classifier) `📚2` — Connect saved Apollo contacts or CSVs to JEV, qualify leads and prepare company-specific o
+- [ashutosh7i/ignite-room-hack](https://github.com/ashutosh7i/ignite-room-hack) `📚2` — A universal user-context layer for platform operators using Jev and gemini on openrouter
+- [assadiandre/jev-search](https://github.com/assadiandre/jev-search) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) `📚2` — GPT Researcher - Research agent that uses TypeSafe Jev to score scraped passages before context reaches its language model.
+- [asv-labs/the-claw](https://github.com/asv-labs/the-claw) `📚2` — THE CLAW. Ask for the night you want. TypeSafe Jev weighs every prize in the pit.
+- [atakhadiviom/jev-context-engine](https://github.com/atakhadiviom/jev-context-engine) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [AustinDKB/grass-optimizer](https://github.com/austindkb/grass-optimizer) `📚2` — Daily SK lawn watering and winter shutdown schedule — hydrology in code, Jev for growth/rain/freeze judgments.
+- [auxon/bsv-os](https://github.com/auxon/bsv-os) `📚2` — BSV OS — Omarchy remix with a system BRC-100 wallet daemon Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [badlogic/pi-mono](https://github.com/badlogic/pi-mono) `📚2` — Pi agent; TypeSafe API key (or gateway preset) for live judgments. Without a key, non-read-only calls are blocked.
+- [Battleplus/jev_research](https://github.com/battleplus/jev_research) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Beckettsapere824/Jev-ic](https://github.com/beckettsapere824/jev-ic) `📚2` — inferred / apps-demos — ⭐0
+- [BellWoodpp/Jev-AI](https://github.com/bellwoodpp/jev-ai) `📚2`
+- [benson/inflection](https://github.com/benson/inflection) `📚2` — Explore how small wording changes shift Jev's probability distributions
+- [Bentlybro/jevgrep](https://github.com/bentlybro/jevgrep) `📚2` — siftr · Bentlybro · GitHub · ⭐ 2 · 2026-09-19CLI and MCP server giving coding agents four read-only Jev tools for semantic search, focused reads, test-file…
+- [brandononchain/verdict](https://github.com/brandononchain/verdict) `📚2` — Perplexity-style open-source UI for TypeSafe Jev: search → evidence state → typed decisions
+- [Brycetlm/JevClean](https://github.com/brycetlm/jevclean) `📚2` — eep the context that matters. A local Codex conversation organizer powered by Jev, with v
+- [buildwithgagan/zynn-explorer](https://github.com/buildwithgagan/zynn-explorer) `📚2` — Zynn Explorer: browse any Postgres database and query it in plain English, powered by TypeSafe Jev
+- [byalex33/changelog.earth](https://github.com/byalex33/changelog.earth) `📚2` — When enabled, Jev performs bounded editorial and title checks on stories selected for an Earth changelog edition.
+- [catlog22/pi-maestro-flow](https://github.com/catlog22/pi-maestro-flow) `📚2` — Maestro workflow tools as Pi extensions — pi-teammate + pi-maestro-agent
+- [cernst11/graphql-classifier](https://github.com/cernst11/graphql-classifier) `📚2` — Scan a GraphQL schema and flag PII, auth gaps, N+1 risk, and naming/doc issues using TypeSafe's Jev model
+- [chsko/jev-search](https://github.com/chsko/jev-search) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [CondadosAI/jev-omni-inspection](https://github.com/condadosai/jev-omni-inspection) `📚2` — How many good parts does PatchCore need to beat a VLM that has seen none? Jev-Omni and Gemma 4 12B zero-shot vs ...
+- [ConDigitalExpert/mbf5-ifc-graph-viewer](https://github.com/condigitalexpert/mbf5-ifc-graph-viewer) `📚2` — Premium OpenUSD BIM viewer linked to an IFC knowledge graph Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [Conway-Research/automaton](https://github.com/conway-research/automaton) `📚2` — The article points to Conway Automaton for the finite-compute idea. Its README describes balance-based service tiers and a shutdown state; it is not the Jev…
+- [corlin/JevUserStory](https://github.com/corlin/jevuserstory) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [cx18121/jev-search](https://github.com/cx18121/jev-search) `📚2` — jev-search - experimental intent ranked fff code search using jev · TypeScript
+- [Dancan254/jev-demo](https://github.com/dancan254/jev-demo) `📚2` — Simple Spring Boot demo for TypeSafe AI Jev
+- [Daniel-Goatman/CleverClipboard](https://github.com/daniel-goatman/cleverclipboard) `📚2` — macOS clipboard history and context-aware Smart Paste powered by TypeSafe Jev.
+- [danstoyell/jevnalysis](https://github.com/danstoyell/jevnalysis) `📚2` — Playing around with Typesafe's Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [davext/classifier-wiki-race](https://github.com/davext/classifier-wiki-race) `📚2` — Watch TypeSafe's Jev classifier race across Wikipedia in real time — no LLM in the loop. B
+- [david-j-lustig/jev-fantasy-football-manager](https://github.com/david-j-lustig/jev-fantasy-football-manager) `📚2` — Experimenting with using Jev to manage my fantasy football team
+- [demstalferez/laboratorio-jev](https://github.com/demstalferez/laboratorio-jev) `📚2` — Laboratorio Quorax: probamos Jev (TypeSafe AI) frente a otros modelos en decisiones del sector públi
+- [dmakam/jev-search-intent-classifier](https://github.com/dmakam/jev-search-intent-classifier) `📚2` — Sort search queries by intent and product with Jev (TypeSafe AI's System One model), gated on confidence.
+- [dolevhayut/resurface](https://github.com/dolevhayut/resurface) `📚2` — observed / agent-tooling — ⭐0
+- [Donnaclarkk981/donnaclarkk981.github.io](https://github.com/donnaclarkk981/donnaclarkk981.github.io) `📚2` — Compare LLM-native structured output vs. TypeSafe Jev on latency, cost, and judgment quality.
+- [doroper98/Jev_Pendulum](https://github.com/doroper98/jev_pendulum) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [DreamBlooms/ifReflex.cpp](https://github.com/dreamblooms/ifreflex.cpp) `📚2` — ifReflex.cpp — Any LLM. Structured decisions. Any LLM can serve as the SystemOne decision model (auto-discovered, description not yet written)
+- [Ducstii/pi-advisor](https://github.com/ducstii/pi-advisor) `📚2` — pi coding-agent extension adding a jev_advise tool that batches choice, score and yes/no questions and flags near-ties for the user. MIT · TypeScript
+- [early-signal-tech/jev-duckdb-analytics-cli](https://github.com/early-signal-tech/jev-duckdb-analytics-cli) `📚2` — A CLI tool using Jev's Python SDK to read from DuckDB and answer questions
+- [edteamlat/EDcheck](https://github.com/edteamlat/edcheck) `📚2` — Semantic validation for Zod schemas, powered by TypeSafe Jev. Validate meaning, not just structure.
+- [EkagraAgarwal/Steve](https://github.com/ekagraagarwal/steve) `📚2` — Steve Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [emerson-buoy/jev-ticket-classifier](https://github.com/emerson-buoy/jev-ticket-classifier) `📚2` — jev-ticket-classifier - A JEV POC · TypeScript
+- [esinecan/jevmulator](https://github.com/esinecan/jevmulator) `📚2` — Local daemon serving the pinned TypeSafe Jev wire surface, backed by a configurable OpenAI-compatible model.
+- [faizahmd2/pinproc](https://github.com/faizahmd2/pinproc) `📚2` — Read-only Linux machine diagnostics using bounded system evidence and AI-assisted analysis
+- [fblissjr/typesafe-experiments](https://github.com/fblissjr/typesafe-experiments) `📚2` — typesafe-experiments - fblissjr/typesafe-experiments - tinkering and experiments with jev and typesafe ai.
+- [feikukuai/qwen3.8_jev](https://github.com/feikukuai/qwen3.8_jev) `📚2` — logit_biaslogprobqwen3.8
+- [ferced/pipette](https://github.com/ferced/pipette) `📚2` — Today's science, one drop at a time. A free daily feed of new research papers from arXiv, bioRxiv, medRxiv and 58 journals, ...
+- [fr3akX/systemone-mail-filter](https://github.com/fr3akx/systemone-mail-filter) `📚2` — After-queue Postfix spam classification with TypeSafe Jev, subject tagging, and recipient-scoped filtering.
+- [francesco0242/matchcn](https://github.com/francesco0242/matchcn) `📚2` — matchcn - Semantic index across shadcn-format registries: components are tagged once across six dimensions and committed, and your brief is classified at query…
+- [g-h-miles/beatbox](https://github.com/g-h-miles/beatbox) `📚2` — Browser beatbox-to-MIDI instrument that classifies drum hits with a local acoustic model plus Jev on acoustic measurements, with reported F1 scores. MIT ·…
+- [gbesse/flink-jev](https://github.com/gbesse/flink-jev) `📚2` — flink-jev - Flink SQL ML\_PREDICT provider for TypeSafe Jev semantic decisions · Java
+- [gbesse/intentbus](https://github.com/gbesse/intentbus) `📚2` — Turn Jev judgments into versioned business events with uncertainty, durable state and an outbox.
+- [gbesse/jev-jurisprudence-shift](https://github.com/gbesse/jev-jurisprudence-shift) `📚2` — Compare French court holdings and surface reviewable changes in jurisprudential direction.
+- [gbesse/mariadb-jev](https://github.com/gbesse/mariadb-jev) `📚2` — Semantic SQL predicates for MariaDB powered by TypeSafe Jev
+- [gbesse/pinot-jev](https://github.com/gbesse/pinot-jev) `📚2` — pinot-jev - Semantic SQL predicates for Apache Pinot powered by TypeSafe Jev · Java
+- [gbesse/typed-locale-invariants](https://github.com/gbesse/typed-locale-invariants) `📚2` — Finds typed decisions that flip across FR/EN/ES variants and option orders.
+- [gedremsisep-lgtm/jev-empreendimentos](https://github.com/gedremsisep-lgtm/jev-empreendimentos) `📚2` — Sistema de gestão da JeV Empreendimentos — obras, imóveis, veículos, chácara, produtos e m
+- [generallymatthew/factlabel](https://github.com/generallymatthew/factlabel) `📚2` — factlabel - A nutrition label for AI-written content: audits what AI agents say about data, blocks what doesn't hold up, and shows readers why. Powered by Jev.…
+- [ghiffarsabda/easynest_v2](https://github.com/ghiffarsabda/easynest_v2) `📚2` — Industrial 2D irregular nesting engine with Superposition concurrency and TypeSafe Jev System One AI intellig…
+- [Godefroy/micdrop](https://github.com/godefroy/micdrop) `📚2` — Classifier-only (no full voice stack): npm install @micdrop/typesafe and use TypesafeClassifier / classify() as in the package README.
+- [gtwatts/pi-jev-typesafe](https://github.com/gtwatts/pi-jev-typesafe) `📚2` — inferred / media-discussions — ⭐0
+- [gyu-don/jev-othello](https://github.com/gyu-don/jev-othello) `📚2` — Other related projects
+- [h1bomb/bluff](https://github.com/h1bomb/bluff) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [hachiko85/jev-ja-lab](https://github.com/hachiko85/jev-ja-lab) `📚2` — Other related projects
+- [hajime-goshima/jev-lab](https://github.com/hajime-goshima/jev-lab) `📚2` — Other related projects
+- [hehuihuang/jev-orange-book](https://github.com/hehuihuang/jev-orange-book) `📚2`
+- [heranliu/AlphaResearchOS](https://github.com/heranliu/alpharesearchos) `📚2` — Agentic quant research workbench with CSV imports, local Codex, predictive models, independent reviews, optional Jev checks, and reproducible strategy…
+- [HiroakiIchimaru/ad-sentinel](https://github.com/hiroakiichimaru/ad-sentinel) `📚2`
+- [hiroyannnn/yuru-kit](https://github.com/hiroyannnn/yuru-kit) `📚2` — Shared plumbing for yuru-poll and yuru-come: live chat readers (Twitch, YouTube, stdin), a TypeSafe
+- [hkurma/smart-labeler](https://github.com/hkurma/smart-labeler) `📚2` — GitHub Action that labels new issues and PRs with your repo's existing labels, using TypeSafe's Jev model.
+- [igormorais123/JEV](https://github.com/igormorais123/jev) `📚2` — Testes experimentais com o modelo de classificacão JEV
+- [imendezval/JevResearch](https://github.com/imendezval/jevresearch) `📚2` — A modular AutoML framework that uses Jev as a fast decision controller for experiment sele
+- [ImXforever/typesafe-jev-1.13](https://github.com/imxforever/typesafe-jev-1.13) `📚2` — observed / media-discussions — ⭐0
+- [individual11/jev-feedbin-filter](https://github.com/individual11/jev-feedbin-filter) `📚2` — jev-feedbin-filter - Using jev to filter out articles from RSS feed that clog it up. · TypeScript
+- [Iron-LYK/OmniJev](https://github.com/iron-lyk/omnijev) `📚2` — inferred / apps-demos — ⭐3
+- [jackboykin/quarry](https://github.com/jackboykin/quarry) `📚2` — Let agents read web sources themselves, with Exa and Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [jackojacko05/jev-keiba-calling](https://github.com/jackojacko05/jev-keiba-calling) `📚2` — Compare direct LLM horse-race commentary with Jev-assisted structured decisions.
+- [JaelChen/obsidian-jev-archiver](https://github.com/jaelchen/obsidian-jev-archiver) `📚2` — Sort Obsidian inbox notes into folders with TypeSafe Jev; LLM steps in only when Jev is unsure
+- [Jaluus/JevPertus](https://github.com/jaluus/jevpertus) `📚2` — inferred / other — ⭐5
+- [jamesward/jev-llm-c4](https://github.com/jamesward/jev-llm-c4) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jaredwerba/xword](https://github.com/jaredwerba/xword) `📚2` — Crossword agent: Tavily grounds, Jev ranks, Token Factory writes leftovers
+- [jayozer/jevzero](https://github.com/jayozer/jevzero) `📚2` — Inspected jevzero/classifier.py: one POST per message with Choice (category/priority), Score (importance), and Noul signals; labels proposed only after review.…
+- [Jibril-Frej/jev-at-home](https://github.com/jibril-frej/jev-at-home) `📚2` — jev-at-home — We have Jev at home: typed-decision models (Jev/Jeeves API) that run on a plain CPU (auto-discovered, description not yet written)
+- [jimmyhealer/jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer) `📚2` — inferred / agent-tooling — ⭐0
+- [Johnkecops/General-Viral-Gene-Annotator](https://github.com/johnkecops/general-viral-gene-annotator) `📚2` — General Viral Gene Annotator, using two tiered AI-architecture
+- [jorgegarcelan/midterms-pulse-2026](https://github.com/jorgegarcelan/midterms-pulse-2026) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jssantogit/Orchestra](https://github.com/jssantogit/orchestra) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [JuanJoseLL/web-actimax](https://github.com/juanjosell/web-actimax) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [junichikatsu/jev-receipt-classifier](https://github.com/junichikatsu/jev-receipt-classifier) `📚2` — Other related projects
+- [jxzxl07/JevBar](https://github.com/jxzxl07/jevbar) `📚2` — inferred / agent-tooling — ⭐1
+- [kevinarce/exonotes](https://github.com/kevinarce/exonotes) `📚2` — Do astronomers' notes carry disposition signal beyond numeric catalogues? Pre-registered study on TESS Object…
+- [kimjooyoon/gooo-jev-lab](https://github.com/kimjooyoon/gooo-jev-lab) `📚2` — Experimental Go and .gooo JEV decision-evidence lab with fail-closed provenance boundaries
+- [kirodotdev/kirocrew](https://github.com/kirodotdev/kirocrew) `📚2` — A persistent workspace for development work that self-improves and continues beyond one session.
+- [kkannan18/jev-invaders](https://github.com/kkannan18/jev-invaders) `📚2` — Public repository for my entry into the Jev-Invaders contest on 9/28/26
+- [Knowledgator/GLiClass](https://github.com/knowledgator/gliclass) `📚2` — GLiClass - Zero-shot sequence classifier that scores every label in one forward pass. It is a label scorer, not a choice, score, and yes/no server, and the…
+- [koladev32/jev-classify](https://github.com/koladev32/jev-classify) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [kraayenjon/jev-linkedin-saved-classifier](https://github.com/kraayenjon/jev-linkedin-saved-classifier) `📚2` — Read your LinkedIn saved posts into a filterable board, classified by Jev.
+- [krushideep/Worldtour](https://github.com/krushideep/worldtour) `📚2` — An interesting idea to test Jev's capabilities to travers to all the capitals of the world in a shortest dist…
+- [ktsu2i/jevgate](https://github.com/ktsu2i/jevgate) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [kurogedelic/open-jev-classifier](https://github.com/kurogedelic/open-jev-classifier) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [kylemclaren/jev-search](https://github.com/kylemclaren/jev-search) `📚2` — jev-search by kylemclaren - A shadcn/ui registry block: keyword hits on the first keystroke, re-ranked by Jev a moment later, and keyword order stands if the…
+- [kylemclaren/starsearch](https://github.com/kylemclaren/starsearch) `📚2` — Natural-language search over anyone's GitHub stars, re-ranked by TypeSafe Jev
+- [kyu-softmatter/autofocus-jev](https://github.com/kyu-softmatter/autofocus-jev) `📚2` — Jev-powered microscope autofocus experiments using pymmcore and deterministic image features.
+- [kyu1204/jgrep-action](https://github.com/kyu1204/jgrep-action) `📚2` — Gate PRs on rules written in English and pick the tests a diff can break, with jgrep on TypeSafe Jev
+- [LamplighterPaul/jev-colour](https://github.com/lamplighterpaul/jev-colour) `📚2` — Type a word, and Jev weighs it against sixteen fixed colours - the Bitframes palette, borr
+- [lawrence3699/jev-style-demo](https://github.com/lawrence3699/jev-style-demo) `📚2` — GitHub mirror of the chaoliangUNSW/jev-style-demo Hugging Face Space
+- [LeandroSantosP/email-classifier](https://github.com/leandrosantosp/email-classifier) `📚2` — email-classifier - email-classifier: TypeSafe Jev ecosystem repository. · TypeScript
+- [lee-lou2/jev-tree](https://github.com/lee-lou2/jev-tree) `📚2` — Hierarchical knowledge service: a model carries context down a taxonomy tree to search and ingest Q&A. One Ru…
+- [Leongwind/jev-boss](https://github.com/leongwind/jev-boss) `📚2`
+- [letnull19A/jev-classifire](https://github.com/letnull19a/jev-classifire) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [licensedsaucer9-web/jev-opportunities](https://github.com/licensedsaucer9-web/jev-opportunities) `📚2` — inferred / research-models — ⭐0
+- [liodali/jev-cmdline-classifier](https://github.com/liodali/jev-cmdline-classifier) `📚2` — client.py POSTs Choice questions to (jev-latest). A fail-closed local layer applies hard-deny rules and redacts secrets before any state is sent; allow never…
+- [liuup/jev-research](https://github.com/liuup/jev-research) `📚2` — 📊 The third-party research implementation of jev.
+- [liuwei997/jev-like-model-playground](https://github.com/liuwei997/jev-like-model-playground) `📚2` — Template code for running lightweight System 1 (fast, intuitive) models locally on Apple Silicon Mac
+- [lmangani/vgi-autodev](https://github.com/lmangani/vgi-autodev) `📚2` — VGI worker exposing Dev-0.4b typed decisions to DuckDB
+- [logan-anderson/jev-as-a-llm](https://github.com/logan-anderson/jev-as-a-llm) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [lucassarcanjo/jev-doc-classification](https://github.com/lucassarcanjo/jev-doc-classification) `📚2` — Classify financial PDFs with TypeSafe Jev via OpenRouter, with a probability per document type.
+- [lukevs/jev-at-home](https://github.com/lukevs/jev-at-home) `📚2` — Jev-shaped inference on an open LLM: one shared-prefix prefill, batched question suffixes, softmax over single-token labels (Qwen3-4B). no license · Python
+- [luomo66ccff/reflexmesh](https://github.com/luomo66ccff/reflexmesh) `📚2` — Decision runtime that records Jev-style tool-call judgments from Codex MCP, Claude Code hooks and DeepSeek Harness into SQLite for replay. MIT · JavaScript
+- [LuXZ1z/Jev-Living-Melody](https://github.com/luxz1z/jev-living-melody) `📚2`
+- [Lyn-Linyanhe/jev-chat-windows](https://github.com/lyn-linyanhe/jev-chat-windows) `📚2` — jev-chat-windows - Windows OCR WeChat companion: local history, contact profiles, style card, and one-call reply drafts. Never auto-sends. · Python
+- [Mahad-007/jev-why](https://github.com/mahad-007/jev-why) `📚2` — Causal attribution and calibration for TypeSafe Jev decisions. Jev tells you what it decided; jev-wh
+- [majiayu000/anosomejev](https://github.com/majiayu000/anosomejev) `📚2`
+- [majoralok/InboxClassifierJev](https://github.com/majoralok/inboxclassifierjev) `📚2` — Self-hosted Gmail organizer powered by TypeSafe Jev and LangChain
+- [malmriv/jev-exception-handler](https://github.com/malmriv/jev-exception-handler) `📚2` — CloudFoundry app that helps you decide whether an exception is transient or persistent using TypeSafe's Jev.
+- [manikanta9176/jev-dino-runner](https://github.com/manikanta9176/jev-dino-runner) `📚2` — Dinosaur runner played by the TypeSafe Jev SDK
+- [manyeya/modisa-jev](https://github.com/manyeya/modisa-jev) `📚2` — inferred / agent-tooling — ⭐0
+- [MatthewFeroz/docshound-jev](https://github.com/matthewferoz/docshound-jev) `📚2` — Cross-repository issue/PR triage using Jev classification and evidence review inside LangGraph.
+- [maustin10/OpenSystem1-classifier](https://github.com/maustin10/opensystem1-classifier) `📚2` — Smoke test comparing Jev 1.13.0 with a local ModernBERT zero-shot NLI classifier on multiple-choice classification and BFCL tool routing. no license · Python
+- [meetr1912/jev-counterspeech](https://github.com/meetr1912/jev-counterspeech) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [mejiasd3v/pg-jev](https://github.com/mejiasd3v/pg-jev) `📚2` — Typed Jev decisions inside PostgreSQL
+- [methodology](https://jevals.com/methodology) `📚2`
+- [mikelninh/COMMONS](https://github.com/mikelninh/commons) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Milothik/TraceDocs](https://github.com/milothik/tracedocs) `📚2` — TraceDocs — Jev evidence discovery and verifiable traces for structured documents and AI agents (auto-discovered, description not yet written)
+- [MinJung-Go/Jev-Go](https://github.com/minjung-go/jev-go) `📚2` — inferred / research-models — ⭐0
+- [misaalya/jev-search](https://github.com/misaalya/jev-search) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [mmedasani1315/JEV-WebSiteClassifer](https://github.com/mmedasani1315/jev-websiteclassifer) `📚2` — JEV-WebSiteClassifer - JEV-WebSiteClassifer: TypeSafe Jev ecosystem repository. · C#
+- [mohamedkuch/jev-dor](https://github.com/mohamedkuch/jev-dor) `📚2` — inferred / other — ⭐1
+- [More research and data builds on madewithjev.com](https://madewithjev.com/categories/research-and-data) `📚2` — (More research and data builds on madewithjev.com)(projects/268-more-research-and-data-builds-on-madewithj.md) — README.md:268 — → More research and data…
+- [Motherduck prompt_jev()](https://motherduck.com/blog/motherduck-supports-jev) `📚2` — MotherDuck: Prompt_jev() — Jev decisions inside MotherDuck SQL (HN).
+- [mwmw7/typesafe-jev-handson](https://github.com/mwmw7/typesafe-jev-handson) `📚2` — Other related projects
+- [nautahakk/jev-pubmed-discovery](https://github.com/nautahakk/jev-pubmed-discovery) `📚2` — score 10.2 · 1 stars
+- [nemke82/jev-ops](https://github.com/nemke82/jev-ops) `📚2` — Extensible AI-powered diagnostics for DevOps & SRE — analyze logs and infrastructure signa
+- [noahsabaj/ww3watch](https://github.com/noahsabaj/ww3watch) `📚2` — Tracking World War III Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [nonfake/job-classifier-search](https://github.com/nonfake/job-classifier-search) `📚2` — Job search in Denmark: aggregates vacancies from jobnet.dk and jobindex.dk, filters them against a p
+- [nospace](https://levmiseri.com/nospace) `📚2`
+- [notque/jevs-sprint-planning](https://github.com/notque/jevs-sprint-planning) `📚2` — ~~jevs-sprint-planning~~ — carried by 1 list(s)
+- [OGZamasu/silicon-optimizer](https://github.com/ogzamasu/silicon-optimizer) `📚2` — Free Mac app for running AI on your own computer. It checks what your Mac can handle before you download anything, picks the best model for you, and chats with…
+- [ozanedge/jev-playground](https://github.com/ozanedge/jev-playground) `📚2` — observed / apps-demos — ⭐0
+- [paritosh100/Jev-vs-LLM](https://github.com/paritosh100/jev-vs-llm) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [phunterlau/Jev-plus-reasoning](https://github.com/phunterlau/jev-plus-reasoning) `📚2` — inferred / other — ⭐0
+- [PierrunoYT/JevFlow](https://github.com/pierrunoyt/jevflow) `📚2` — inferred / apps-demos — ⭐0
+- [pkcoulon/jev-for-flutter](https://github.com/pkcoulon/jev-for-flutter) `📚2` — inferred / agent-tooling — ⭐0
+- [pksw4u/jev-research-agent](https://github.com/pksw4u/jev-research-agent) `📚2` — Jev Powered Research Harness
+- [pr0ta9/jev-digest](https://github.com/pr0ta9/jev-digest) `📚2` — Give AI agents relevant passages from web pages and local documents, with original wording and sources intact. Powered by Jev.
+- [prasadkopanati/jev-classifier](https://github.com/prasadkopanati/jev-classifier) `📚2` — observed / evaluation — ⭐0
+- [prodBirdy/painpoints](https://github.com/prodbirdy/painpoints) `📚2` — Rust CLI, MCP server and native viewer that has Jev score every source file on six architecture pain dimensions and writes a ranked report for coding agents.…
+- [rafaeelricco/job-kit-ai](https://github.com/rafaeelricco/job-kit-ai) `📚2` — Your job search, made simpler. AI agent skills to scout jobs, tailor resumes, submit applications, and track replies. Automatically matched explicit Jev and…
+- [razibit/jev-playground](https://github.com/razibit/jev-playground) `📚2`
+- [ringozzt/jev-research](https://github.com/ringozzt/jev-research) `📚2` — Data search and document workflows
+- [rishiv7/jev-thread-search](https://github.com/rishiv7/jev-thread-search) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Robincodes-Sandbox/laravel-jev-classifier](https://github.com/robincodes-sandbox/laravel-jev-classifier) `📚2` — inferred / community-sdk — ⭐0
+- [rohit23ahuja/hello-world-jev](https://github.com/rohit23ahuja/hello-world-jev) `📚2` — Hello world example of typesafe ai's model in java
+- [rurasua/dashboard-jev](https://github.com/rurasua/dashboard-jev) `📚2` — dashboard especial para mejorar probabilidad de eventos geologicos con certeza
+- [S-O-A-TECH/Jev-search-Kor](https://github.com/s-o-a-tech/jev-search-kor) `📚2`
+- [sa-ha/jev-playground](https://github.com/sa-ha/jev-playground) `📚2` — Japanese-language Jev scenario playground: YAML-declared scenarios (input, questions, expected answers) sent to Jev, logging answers, probabilities,…
+- [saivivekvenna/jevy-graph](https://github.com/saivivekvenna/jevy-graph) `📚2` — Fast, source-grounded text-to-RDF knowledge graph compiler using deterministic candidate generation and Jev v…
+- [Salmandabbakuti/typesafe-jev-demo](https://github.com/salmandabbakuti/typesafe-jev-demo) `📚2` — TypeSafe Jev Demo
+- [samTime101/Jev-emoji-reactor](https://github.com/samtime101/jev-emoji-reactor) `📚2` — integrated latest decision making model jev to classify emoji reading the semantics of text
+- [scbrown/camayoc](https://github.com/scbrown/camayoc) `📚2` — 🪢 The knot-keeper — bootstrap ontology, knowledge ingress, and knowledge packs for the quipu stack
+- [selinhazir/jev-llm-recommendations](https://github.com/selinhazir/jev-llm-recommendations) `📚2` — Jev (TypeSafe) pre-filtering + LLM trip planning demo: label a venue catalog once, filter with code, send only a shortlist to the ...
+- [sethsaler/jevgram](https://github.com/sethsaler/jevgram) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Sharkelot/classify-goblin](https://github.com/sharkelot/classify-goblin) `📚2` — classify-goblin - Local typed decisions with rules, Laya, DistilBERT, and Qwen backends, plus deterministic Hermes and artifact guards. · Python
+- [SharmaTushar1/jev-search](https://github.com/sharmatushar1/jev-search) `📚2` — search words with similar meaning on a web page
+- [Shawny-W/JEV](https://github.com/shawny-w/jev) `📚2`
+- [Sheltercosmo/JevSDSQL](https://github.com/sheltercosmo/jevsdsql) `📚2` — jevsdsql — A self-developing SQL database with JEV based semantic operators and natural language queries. _(★12, Python)_
+- [shivprime94/dealscout](https://github.com/shivprime94/dealscout) `📚2` — dealscout - Jev-powered deal search engine with a chat frontend — semantic matching + offer eligibility by TypeSafe's Jev, all the money in plain code. ·…
+- [shotintoeternity/jev](https://github.com/shotintoeternity/jev) `📚2` — inferred / other — ⭐0
+- [shuhansun/jev-oas-sentinel-demo](https://github.com/shuhansun/jev-oas-sentinel-demo) `📚2` — End-to-end consumer demo for the JEV OAS Sentinel GitHub Action
+- [simodepth96/cannibalization_classifier_jev](https://github.com/simodepth96/cannibalization_classifier_jev) `📚2`
+- [site](https://symfony.com/packages/ai-type-safe-platform) `📚2`
+- [site](https://chat2jev.myai.family) `📚2`
+- [site](https://jevtypesafeai.com) `📚2`
+- [site](https://118.196.50.229/jev) `📚2`
+- [site](https://jev-hooks-demo.microchipgnu.workers.dev/docs) `📚2`
+- [site](https://jev-ids.github.io) `📚2`
+- [site](https://jev-information-extraction-fibby-prod-telegram.up.railway.app) `📚2`
+- [site](https://jev-speed.tubone24.workers.dev) `📚2`
+- [site](https://jevmoji.cheeaun.workers.dev) `📚2`
+- [site](https://readwithjev.com) `📚2`
+- [site](https://pcworm.github.io/werr) `📚2`
+- [site](https://pypi.org/project/jevgrep-cli) `📚2`
+- [site](https://dohnuts.ai) `📚2`
+- [site](https://pypi.org/project/jev-logtriage) `📚2`
+- [site](https://nuget.org/packages/jev.net) `📚2`
+- [site](https://spring-ai-community.github.io/spring-ai-typesafe) `📚2`
+- [site](https://asynq-io.github.io/system-one) `📚2`
+- [site](https://donaldmurillo.github.io/system-one-playground) `📚2`
+- [site](https://tinystruct.org) `📚2`
+- [site](https://nuget.org/packages/typesafe.jev) `📚2`
+- [site](https://tryagi.github.io/typesafeai) `📚2`
+- [site](https://dtunai.blog/blog/introducing-cu-jev) `📚2`
+- [site](https://jev-architect.karanbansal.in) `📚2`
+- [site](https://apixly-ai.github.io/jev-filter) `📚2`
+- [site](https://anessbelbati.com/blog/i-gave-jev-a-rerankers-job) `📚2`
+- [site](https://agenticapp-web.github.io/jev-research-index) `📚2`
+- [site](https://folio.kz3.dev/p/jevalyzer) `📚2`
+- [site](https://pai-cuhk.github.io/medjev) `📚2`
+- [site](https://zeredy879.github.io/minojev) `📚2`
+- [site](https://ollaya.cobanov.dev) `📚2`
+- [site](https://huggingface.co/spaces/ikermoel/open-alternative-jev) `📚2`
+- [site](https://brida.ai/blog/reflexbench-v1-system-one-models) `📚2`
+- [site](https://denser.ai) `📚2`
+- [site](https://iamaamir.github.io/system-one) `📚2`
+- [site](https://mpuig.github.io/system-one) `📚2`
+- [site](https://huggingface.co/ankitai/tinyjev-0.6b) `📚2`
+- [site](https://jev.com.tr) `📚2`
+- [site](https://ycsearch.purbayan.me) `📚2`
+- [site](https://onmyway133.com) `📚2`
+- [site](https://ayautomate.com/jev-builds) `📚2`
+- [sora-33/jev-mail-sorter](https://github.com/sora-33/jev-mail-sorter) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [southbridge.ai](https://southbridge.ai/blog/jev-entity-resolution) `📚2` — Southbridge.AI: "Using system-one models inside high-throughput data pipelines" (2026-09-20) — Practitioner case study: entity resolution over Ohio…
+- [srijiths/JEV-Search](https://github.com/srijiths/jev-search) `📚2` — Realtime Search using JEV
+- [SuperInstance/quilt-jev-toolkit](https://github.com/superinstance/quilt-jev-toolkit) `📚2` — JEV (TypeSafe) canon oracle toolkit for Quilt
+- [swamp-club/swamp-extensions](https://github.com/swamp-club/swamp-extensions) `📚2` — This repo is a mirror of Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [SwarneshJ/Jev-Customer-Review-Classifier](https://github.com/swarneshj/jev-customer-review-classifier) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [swipswaps/jev-workspace](https://github.com/swipswaps/jev-workspace) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [swrobuts/jev-Classifier](https://github.com/swrobuts/jev-classifier) `📚2` — inferred / other — ⭐0
+- [syndicalt/winnow](https://github.com/syndicalt/winnow) `📚2` — Browser SQL studio over four fixture tables where an English WHERE condition is scored per row by Jev for filter, rank, classify and score modes. no license ·…
+- [sypherin/quorum](https://github.com/sypherin/quorum) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Takamasa045/ctxfilter-jev](https://github.com/takamasa045/ctxfilter-jev) `📚2` — Opt-in local ctxfilter extraction and bounded Jev MCP relevance judgments
+- [TenzinDhonyoe/bev](https://github.com/tenzindhonyoe/bev) `📚2` — Bev: the slowest classifier in the world, at Jev prices. npx bev-ai ★ 2 · endpoint · TypeScript
+- [tinzbo/Jev-Realtime-talk](https://github.com/tinzbo/jev-realtime-talk) `📚2` — Other related projects
+- [Toby-Faucher/oarfish](https://github.com/toby-faucher/oarfish) `📚2` — Log-driven alarms for homelabs, with a judgment model where the guesswork used to be. Rust + Drain + Jev + As…
+- [tomsen02/jev-bombergirl](https://github.com/tomsen02/jev-bombergirl) `📚2` — inferred / apps-demos — ⭐0
+- [toufu-cell/jev_mine](https://github.com/toufu-cell/jev_mine) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [trivektor/english-2-sql](https://github.com/trivektor/english-2-sql) `📚2` — english-2-sql - english-2-sql: TypeSafe Jev ecosystem repository. · JavaScript
+- [truevis/classifier](https://github.com/truevis/classifier) `📚2` — Bare-bones OpenRouter + TypeSafe Jev classifier: route legal prompts to Texas statute databases
+- [tsu-ld/chamuy0](https://github.com/tsu-ld/chamuy0) `📚2` — Feed slop classifier using Jev. LinkedIn only for now.
+- [TYC-000/jev-dashboard](https://github.com/tyc-000/jev-dashboard) `📚2` — Jev API usage dashboard — built with Streamlit
+- [TypeSafe Jev on LiteLLM](https://docs.litellm.ai/blog/typesafe_jev) `📚2` — the article dated 20 September 2026 announces "v1.103.0-rc"; "LiteLLM proxies that endpoint with logging and cost tracking." "Clients only need a LiteLLM…
+- [uh-joan/jev-warning-letter-classifier](https://github.com/uh-joan/jev-warning-letter-classifier) `📚2`
+- [urchade/GLiNER](https://github.com/urchade/gliner) `📚2` — GLiNER - Lightweight zero-shot structured extraction: you name the entity types at inference time. Often the comparison point in Jev classification benches.
+- [UtpalJayNadiger/find](https://github.com/utpaljaynadiger/find) `📚2` — find - Natural-language search over your network, powered by Jev. · TypeScript
+- [vafaei-ar/jev-scientific-development](https://github.com/vafaei-ar/jev-scientific-development) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [venkataramareddy123-tech/Project-Dorito](https://github.com/venkataramareddy123-tech/project-dorito) `📚2` — Earnings Call Parser & Behavioral Intelligence Pipeline powered by TypeSafe AI.
+- [via Zyte's Jev writeup](https://zyte.com/blog/jev-the-model-that-cannot-write-a-word-and-where-it-fits-in-web-scraping-does-it) `📚2` — OpenJev — reads next-token logits directly from a frozen Qwen3.5-4B instead of autoregressive decode; drew 714 HN points three days after launch (via Zyte's…
+- [vlasvar/jev-research](https://github.com/vlasvar/jev-research) `📚2` — inferred / agent-tooling — ⭐0
+- [Wachu2005/jev-alchemy](https://github.com/wachu2005/jev-alchemy) `📚2` — jev-alchemy — A living falling-sand world with zero hand-written rules: every material, reaction and creature behaviour is decided live by Jev…
+- [waderylan/jev-mlb](https://github.com/waderylan/jev-mlb) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [We Tested Jev on 791 Labeled Decisions Against Four LLMs](https://ayautomate.com/blog/jev-vs-llm-benchmark) `📚2` — Independent OpenRouter run on 8-way and 77-way Banking77 routing plus prompt-injection detection: Jev matches the small models, trails GPT-5.6 Terra by about 5…
+- [webstercharly/jev-authorship-check](https://github.com/webstercharly/jev-authorship-check) `📚2` — A small Jev experiment for classifying text as human, AI-generated, or uncertain
+- [whosydd/pi-web-toolkit](https://github.com/whosydd/pi-web-toolkit) `📚2` — Single pi extension: Context7 library docs + Exa web search + Sourcegraph code search
+- [wieslawsoltes/XamoraStudio](https://github.com/wieslawsoltes/xamorastudio) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [xfgong/dsh-jev-loop](https://github.com/xfgong/dsh-jev-loop) `📚2` — inferred / agent-tooling — ⭐0
+- [xjfyt/jev-cpu-demo](https://github.com/xjfyt/jev-cpu-demo) `📚2` — inferred / agent-tooling — ⭐0
+- [xpressabhi/job-search-skills](https://github.com/xpressabhi/job-search-skills) `📚2` — Job searching made automatic. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [yanjn1388/jev-bayes](https://github.com/yanjn1388/jev-bayes) `📚2` — inferred / other — ⭐0
+- [yonidavidson/qa-duel](https://github.com/yonidavidson/qa-duel) `📚2` — Black-box QA of saucedemo.com, judged three ways: TypeSafe Jev, GPT-5.6 with screenshots, and a conf
+- [yottayoshida/jevfuzz](https://github.com/yottayoshida/jevfuzz) `📚2` — Renames question IDs and reorders options and JSON keys: six confirmed decision changes in 100 mutations over 10 states. jev-latest · n=100 mutations
+- [yuan-phd/jev-rlcd-research](https://github.com/yuan-phd/jev-rlcd-research) `📚2`
+- [YukunHe304/whatitdid](https://github.com/yukunhe304/whatitdid) `📚2` — See what an AI agent actually did, not just its score. Labels every step of a CLI agent's
+- [zahariivanov87/jev-classifier](https://github.com/zahariivanov87/jev-classifier) `📚2` — Simple demo of TypeSafe AI - JEV
+- [zaydmulani09/jevgrep](https://github.com/zaydmulani09/jevgrep) `📚2` — Instant semantic code search: local ripgrep shortlist, meaning-ranked by TypeSafe Jev via OpenRouter. ★ 1 · model_id · Python
+- [zean00/rewire](https://github.com/zean00/rewire) `📚2` — Combine Decide (Jev inspired classification) , Think and Generate within Single Model
+- [ZhenningLang/jev-cases](https://github.com/zhenninglang/jev-cases) `📚2` — inferred / other — ⭐0
+- [zilin6666LYNSUN/polli-jev](https://github.com/zilin6666lynsun/polli-jev) `📚2` — inferred / other — ⭐1
+- [zzzzzec/jevsort](https://github.com/zzzzzec/jevsort) `📚2` — Jev-powered integer sorting experiment: serial selection versus parallel rank prediction. ★ 1 · endpoint · HTML
+- [我们在搜索重排和分类上测试了 Jev](https://parallel.ai/blog/testing-jev) `📚2` — We tested Jev on search reranking and classification · Vlad Shulman (Parallel) · Article · 2026-09-18Search API company tests Jev zero-shot on reranking, topic…
+- [站内搜索](https://xiaohongshu.com/search_result) `📚2` — We visited the Jev search page. It returned a search page title but no readable note results; that does not prove the search had no matches. Detail pages…
+- [网站](https://verhex.github.io/xerify) `📚2`
+- [网站](https://postgres-jev.vercel.app) `📚2`
+- [网站](https://jeiel85.github.io/jevscope) `📚2`
+- [0x80/typed-firestore](https://github.com/0x80/typed-firestore) `📚1` — Uniform typed Firestore libraries for backend, React and React Native
+- [0xdesign/design-gate](https://github.com/0xdesign/design-gate) `📚1` — CLI approval loop for coding agents that renders the app, runs measured design checks plus Jev design questions and returns a ranked fix list. MIT · TypeScript
+- [0xSarnavo/leakdown-docs](https://github.com/0xsarnavo/leakdown-docs) `📚1` — Leakdown CLI documentation (docs.leakdown.ai) Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [121212165/obsidian-jev-decision-log](https://github.com/121212165/obsidian-jev-decision-log) `📚1`
+- [2389-research/typesafe-go,2,Go,,2026-09-17](https://github.com/2389-research/typesafe-go,2,go,,2026-09-17) `📚1`
+- [2rami/jevgrep](https://github.com/2rami/jevgrep) `📚1`
+- [900 images in 40 seconds](https://madewithjev.com/builds/ocr-image-classifier) `📚1` — OCR output classified one image at a time
+- [9592 Solutions: "Is Jev actually good? We tested TypeSafe's classifier on 3,080 bank suppo](https://youtube.com/watch?v=mwgatggbw-c) `📚1` — The team behind the M37 app runs Jev against hosted LLMs, two local classifiers and one open-weight model on the Banking77 test set, with the acceptance cutoff…
+- [95pctai/jev-search-eval-report](https://github.com/95pctai/jev-search-eval-report) `📚1` — Short report: can fast classifiers grade section relevance as reliably as an LLM?
+- [Aayan-DEV/aayans-yc-indexor](https://github.com/aayan-dev/aayans-yc-indexor) `📚1` — YC Indexor · 54 stars — A search app that re-tags YC companies with Jev before ranking results. Source
+- [abhi1729/jev-gmail-labeler](https://github.com/abhi1729/jev-gmail-labeler) `📚1` — inferred / other — ⭐0
+- [Abhieu/excelpilot](https://github.com/abhieu/excelpilot) `📚1` — AI-assisted Excel operations engine: structured planning, JEV decision support, deterministic policy
+- [abhiraj444/JevStudio](https://github.com/abhiraj444/jevstudio) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [adamholter/jev-movie-finder](https://github.com/adamholter/jev-movie-finder) `📚1` — Find movies from vague memories with Jev and a deep local catalog
+- [adamtopaz/jevpilot](https://github.com/adamtopaz/jevpilot) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [adiel-hub/Jtools](https://github.com/adiel-hub/jtools) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [adnanalicic/jev-document-classifier](https://github.com/adnanalicic/jev-document-classifier) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [adnanlah/scopus-smart-search](https://github.com/adnanlah/scopus-smart-search) `📚1` — Smart Scopus search with Jev
+- [adnanrules/jevjob](https://github.com/adnanrules/jevjob) `📚1` — Rank job postings against your resume, one typed classification per requirement
+- [adra2n/obsidian-classify](https://github.com/adra2n/obsidian-classify) `📚1`
+- [AESMatias/Extracta](https://github.com/aesmatias/extracta) `📚1` — Extracta — Async document processing pipeline using FastAPI, Celery, Redis, and LLMs (OpenAI/Jev) with strict memory constraints (auto-discovered, description…
+- [agneym/emoji-search](https://github.com/agneym/emoji-search) `📚1` — Semantic emoji search - keyword + embedding recall, reranked by TypeSafe Jev. Built with TanStack St
+- [ai-suifeng/jev-job-web](https://github.com/ai-suifeng/jev-job-web) `📚1`
+- [AidinZaeim/jev-fuzz](https://github.com/aidinzaeim/jev-fuzz) `📚1` — jev-fuzz: AI-assisted web fuzzer written in Go. Uses the Jev System-1 model for real-time semantic e
+- [AIMacGyver/estack-demo](https://github.com/aimacgyver/estack-demo) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Aimer779/buckshot-roulette](https://github.com/aimer779/buckshot-roulette) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [AIPersona Academy Community](https://whop.com/aipersonaacademy) `📚1` — The official APA community for AI agent developers, persona builders, and System One researchers.
+- [Ajaykvishwakarma/jev-usecases](https://github.com/ajaykvishwakarma/jev-usecases) `📚1` — This repo will contain the applications of JEV model. Software needs System 1 thinking, but we keep
+- [ajzbc/workers-typesafe-db-example](https://github.com/ajzbc/workers-typesafe-db-example) `📚1` — An example Cloudflare Worker API with a typesafe database
+- [AkhilBod/Tidy](https://github.com/akhilbod/tidy) `📚1` — Rules + Jev classification that keep a Mac organized. Reversible, privacy-conscious, never deletes.
+- [akshatbatra/flashbob](https://github.com/akshatbatra/flashbob) `📚1` — Jev-based MCP for context retrieval for IBM Bob Coding Assistant
+- [AkshayReddyGujjula/NightWatch](https://github.com/akshayreddygujjula/nightwatch) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [AlexFives/nlgrep](https://github.com/alexfives/nlgrep) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [alexhawat/jev-catalog-gate](https://github.com/alexhawat/jev-catalog-gate) `📚1` — Pre-LLM catalog gate: TypeSafe/Jev scores tools & skills; keep only high-probability items
+- [Algolia 的按时间检索接口](https://hn.algolia.com/api/v1/search_by_date) `📚1` — Hacker News: We rechecked the Algolia time-ordered endpoint. The September 26 Just Ask Jev item only points at an arXiv original already catalogued and adds no…
+- [Alifdaal/classroom-pulse](https://github.com/alifdaal/classroom-pulse) `📚1` — Live misconception radar for classrooms: students answer on their phones, TypeSafe Jev flags what th
+- [AltSlate-Labs/jev-dag](https://github.com/altslate-labs/jev-dag) `📚1` — Resolve a DAG of enumerated decisions with a fast judgment oracle (Jev). Selection over sampling; sl
+- [amkob868/tagging-agent](https://github.com/amkob868/tagging-agent) `📚1` — AI support-inbox tagging agent: AWS Lambda + Step Functions, Help Scout, Jev/Claude classi
+- [andresmarpz/nza](https://github.com/andresmarpz/nza) `📚1` — Next.js Zod Actions - typesafe, validated server actions.
+- [AnOversizedMooseWithSocks/leCore](https://github.com/anoversizedmoosewithsocks/lecore) `📚1` — leCore holographic System One · AnOversizedMooseWithSocks · GitHub · ⭐ 11 repo · 2026-06-08Native implementation of Jev's state-plus-typed-questions contract…
+- [Anthus](https://anth.us/blog/can-you-trust-jev-confidence) `📚1` — Can you trust Jev's confidence? (Anthus) - By question type on 8,801 examples: Noul stated 79.0% vs 72.3% actual, Choice 91.4% vs 76.1%; the 50 to 95% band was…
+- [antoniofaical/startup-theme-adherence-classifier-jev](https://github.com/antoniofaical/startup-theme-adherence-classifier-jev) `📚1`
+- [AnubhabBanerjee/Qwen-jev](https://github.com/anubhabbanerjee/qwen-jev) `📚1` — Turns a small open-source Qwen LLM into a fast, single-pass classifier — swap the word-gue
+- [Apex36: "What Is TypeSafe Jev? The ChatGPT Co-Creator's Silent AI"](https://apex36tech.com/blog/what-is-typesafe-jev-the-chatgpt-co-creators-silent-ai) `📚1` — Honest architecture + economics audit: quotes DataCamp's structured-output error rates (Jev 0% vs Terra 0.58%, Opus 5 5.73%, Haiku 4.5 45.5%); notes LangChain…
+- [Aphrosidiac/Shoal](https://github.com/aphrosidiac/shoal) `📚1` — A swarm of concurrent actors that finds where software runs aground Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [Apostlerus/jev](https://github.com/apostlerus/jev) `📚1`
+- [appier-research/structure-gen](https://github.com/appier-research/structure-gen) `📚1`
+- [arkamfahry/typeid-pg](https://github.com/arkamfahry/typeid-pg) `📚1` — A pure plgsql TypeId generation implementation for PostgreSQL.
+- [arturaz/doobie-typesafe](https://github.com/arturaz/doobie-typesafe) `📚1` — A wrapper for doobie that allows you to write queries in a typesafe way.
+- [AshutoshKY/laya-document-classifier](https://github.com/ashutoshky/laya-document-classifier) `📚1` — Local, zero-shot document classification built on Laya — FastAPI UI, 50+ document types, runs fully
+- [AshvinAA/Project-Nemesis](https://github.com/ashvinaa/project-nemesis) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [ast-grep](https://ast-grep.github.io) `📚1` — Natural-language semantic linter: ast-grep selects subjects locally; each rule’s one-sentence question is answered by TypeSafe Jev (Noul) with calibrated…
+- [atharvb7/serpapi-hackthon](https://github.com/atharvb7/serpapi-hackthon) `📚1` — ProofGate is a decision engine for live web search that uses SerpApi to discover candidates, an LLM to semantically select the best match, and Jev to verify it…
+- [Auto-optimizing Jev: half the errors, 1/7 the cost](https://kiln.tech/blog/auto_optimizing_jev_with_autoresearch) `📚1` — Text classification: asks Jev a Choice over the readings of a Chinese polyphonic character while the model stays fixed and only the harness around it is…
+- [avfirsov/fancy-collections](https://github.com/avfirsov/fancy-collections) `📚1` — A small library easing most common operations on collections, 100% type safe
+- [ayautomate: "Jev by TypeSafe AI Explained: The New 'System One' Model (2026)"](https://ayautomate.com/blog/jev-typesafe-system-one-model) `📚1` — Explainer cataloging early community builds: @ephraimduncan's Jev-as-model-router (routing decision as a typed Choice instead of a chat completion) and…
+- [azuradara/illumake](https://github.com/azuradara/illumake) `📚1` — A (mostly) typesafe Laravel container resolver.
+- [baluwashere/JMScore](https://github.com/baluwashere/jmscore) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [baptisteArno/prisma-database-sync](https://github.com/baptistearno/prisma-database-sync) `📚1` — A typesafe databases sync tool powered by prisma
+- [barisgit/nextjs-nestjs-expo-template](https://github.com/barisgit/nextjs-nestjs-expo-template) `📚1` — Start quick with backend, web and mobile in NestJS, Nex
+- [beamnxw/minelog](https://github.com/beamnxw/minelog) `📚1` — MineLog harness - GPT-6 Astra plans, Jev decides, one Minecraft body. Backend behind minelog.xyz
+- [BeatAPI](https://beatapi.io) `📚1` — Curated by BeatAPI. Independent community catalogue; not affiliated with TypeSafe.
+- [beef331/micros](https://github.com/beef331/micros) `📚1` — typesafe-ish macro library
+- [beefyhalo/hb](https://github.com/beefyhalo/hb) `📚1` — A TypeSafe Jev command bar over a NixOS homelab
+- [belastrittmatter/Framely](https://github.com/belastrittmatter/framely) `📚1` — Framely: The open-source, lightweight, multi-tenant drag-and-drop website editor for modern web appl
+- [benjamincanac/nuxi](https://github.com/benjamincanac/nuxi) `📚1` — An Eve agent that triages GitHub issues. It labels and comments, and leaves anything irreversible to the maintainers. Automatically matched explicit Jev and…
+- [Bewinxed/pg-typesafe-triggers](https://github.com/bewinxed/pg-typesafe-triggers) `📚1` — Declarative, Typesafe triggers for Prisma Postgres
+- [Bewinxed/river.ts](https://github.com/bewinxed/river.ts) `📚1` — Easy, Composable, and type-safe Server-Sent Events (SSE) & Websocket Messages
+- [bikeshedder/tusker](https://github.com/bikeshedder/tusker) `📚1` — PostgreSQL schema diffing, migration running, and type-safe queries.
+- [Blakeem/logit-classifier](https://github.com/blakeem/logit-classifier) `📚1` — Local zero-shot classifier for text and images. Declares options, returns a calibrated probability f
+- [Blakeem/logit-classifier,0,Python,,2026-09-22](https://github.com/blakeem/logit-classifier,0,python,,2026-09-22) `📚1`
+- [bobhuff0/ramey-memo-opus55-jev](https://github.com/bobhuff0/ramey-memo-opus55-jev) `📚1` — Re-analysis of the 1947 Roswell Ramey memo scans with Claude Opus 5.5 and TypeSafe Jev: image analys
+- [bokuweb/grande](https://github.com/bokuweb/grande) `📚1` — A System One style decision model runtime in Rust. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [bonsai/research-jev](https://github.com/bonsai/research-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [brandonmcconnell/brandonmcconnell](https://github.com/brandonmcconnell/brandonmcconnell) `📚1` — Welcome to the repo for my GitHub profile. Feel free to fork, and if you want to support me, please visit me on BuyMeACoffee @ Automatically matched explicit…
+- [bryanherger/vertica-jevai-sentiment-analysis](https://github.com/bryanherger/vertica-jevai-sentiment-analysis) `📚1` — Demo of Jev AI sentiment analysis as a SQL extension (Python scalar function) in Vertica database.
+- [bryanweaver/mewscast](https://github.com/bryanweaver/mewscast) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [bskimball/pi](https://github.com/bskimball/pi) `📚1` — Pi Jev extension · bskimball · GitHub · ⭐ 17 repo · 2026-07-26Extension in a personal Pi coding-agent configuration that gives the agent advisory Choice, Score…
+- [Bthornton1994/Manipulation-score](https://github.com/bthornton1994/manipulation-score) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [bubio/xm8m](https://github.com/bubio/xm8m) `📚1` — XM8M acceptance advisor · bubio · GitHub · ⭐ 25 repo · 2023-02-20Acceptance ledger for the XM8M PC-8801 emulator where Jev classifies an operator's test report…
+- [bugraskl/n8n-gmail-ai-labeler](https://github.com/bugraskl/n8n-gmail-ai-labeler) `📚1` — n8n-gmail-ai-labeler — Label Gmail with a decision model, not a chatbot: n8n workflow, one typed Jev decision per email, no broken JSON (auto-discovered,…
+- [buildinternet/uploads](https://github.com/buildinternet/uploads) `📚1` — uploads.sh file classifier · buildinternet · GitHub · ⭐ 19 repo · 2026-07-06Experimental classifier in uploads.sh, a file host for coding agents' pull-request…
+- [Bulusi-S/Repository-name-JevWeChatTweak](https://github.com/bulusi-s/repository-name-jevwechattweak) `📚1` — Repository-name-JevWeChatTweak — Repository name: JevWeChatTweak _(★0, Logos)_
+- [B站搜 Jev 模型](https://search.bilibili.com/all) `📚1`
+- [caniko/chaosbox](https://github.com/caniko/chaosbox) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [chansoo-kr/Roblox-Supabase](https://github.com/chansoo-kr/roblox-supabase) `📚1` — A type-safe PostgREST client for Supabase, designed for Roblox servers using roblox-ts
+- [ChatGPT pioneer launches Jev model for programmatic logic](https://artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic) `📚1`
+- [ChenXu233/YaoXiang](https://github.com/chenxu233/yaoxiang) `📚1`
+- [ChienIKao/jev-hearthstone](https://github.com/chienikao/jev-hearthstone) `📚1` — Local Hearthstone log reader, Laya advisor, and experimental Windows input controller
+- [chorust/duckjeu](https://github.com/chorust/duckjeu) `📚1` — duckjeu — JEV-powered judgment for DuckDB.
+- [ciscoheat/typesafe-i18n-with-sveltekit](https://github.com/ciscoheat/typesafe-i18n-with-sveltekit) `📚1` — SvelteKit and typesafe-i18n for modern multi-language sites.
+- [clawSean/jevpilot](https://github.com/clawsean/jevpilot) `📚1` — Adaptive mobile QA explorer using deterministic Maestro control and bounded Jev decisions
+- [cleiton1231/jev-loop](https://github.com/cleiton1231/jev-loop) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [cleitoncampano/tipesafe](https://github.com/cleitoncampano/tipesafe) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Cleobury/jev-harness](https://github.com/cleobury/jev-harness) `📚1` — inferred / apps-demos — ⭐0
+- [cohki0305/xhakasu](https://github.com/cohki0305/xhakasu) `📚1`
+- [coltonspears/JevClassifier](https://github.com/coltonspears/jevclassifier) `📚1` — Visual Jev task complexity classifier and GPT-6 model routing demo with live OpenRouter an
+- [coltonspears/JevClassifier,0,TypeScript,,2026-09-25,Visual](https://github.com/coltonspears/jevclassifier,0,typescript,,2026-09-25,visual) `📚1`
+- [CompleteTech-LLC-AI-Research/jev-sentinel](https://github.com/completetech-llc-ai-research/jev-sentinel) `📚1` — JEV Sentinel multi-harness reference implementation
+- [coopdloop/high-volume-classifications](https://github.com/coopdloop/high-volume-classifications) `📚1` — Per-event classifier with JEV, a System 1 decision model
+- [corkletter/jev_agej](https://github.com/corkletter/jev_agej) `📚1` — Sometimes we need to pause our hurried steps, quietly appreciate the beauty in life, and d
+- [Cribl's telemetry investigation](https://cribl.io/blog/what-typesafes-jev-means-for-telemetry) `📚1` — reported more than 92% agreement with its committee of LLM judges for agent-response evaluation at about 1% of that committee's cost. In a different task,…
+- [crlngn/jev-experiments](https://github.com/crlngn/jev-experiments) `📚1` — A place for small experiments using new models or technologies
+- [csitfun/LogiQA2.0](https://github.com/csitfun/logiqa2.0) `📚1` — Authors; CC-BY-NC-SA4.0
+- [Czyl9323/JevMimic](https://github.com/czyl9323/jevmimic) `📚1` — A lightweight, open-source LLM implementation of Jev-style decisions using single-pass token logits
+- [dabit3/intern](https://github.com/dabit3/intern) `📚1`
+- [dabit3/launcher](https://github.com/dabit3/launcher) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [dagmawibabi/jevclassifier](https://github.com/dagmawibabi/jevclassifier) `📚1` — SvelteKit app that classifies Telegram Desktop JSON exports with custom questions and cost meters, plus a chat that picks words from a dictionary. no license ·…
+- [daily.dev](https://daily.dev) `📚1` — and its documentation: preserve the feed and use small discovery controls alongside tags and themes.
+- [damianricobelli/stepperize](https://github.com/damianricobelli/stepperize) `📚1` — The type-safe way to build multi-step experiences in React.
+- [dangdang-tech/ai-event-research-data](https://github.com/dangdang-tech/ai-event-research-data) `📚1` — AI event records with source links, JEV judgments and reproducible directional evalu
+- [danielnguyen241/ego-jev](https://github.com/danielnguyen241/ego-jev) `📚1` — inferred / agent-tooling — ⭐0
+- [danielscoffee/AssertLens](https://github.com/danielscoffee/assertlens) `📚1` — Why to use LLM for quality gate? If you can use System-1 models. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [danielscoffee/qg-jev](https://github.com/danielscoffee/qg-jev) `📚1` — Why to use LLM for quality gate? If you can use System-1 models. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [danielwanwx/research-engine](https://github.com/danielwanwx/research-engine) `📚1`
+- [danvega/hello-jev-spring](https://github.com/danvega/hello-jev-spring) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [darcangeloo/zerotok](https://github.com/darcangeloo/zerotok) `📚1` — Typed decisions from a local LLM in one forward pass. Reads the logits of the allowed options instea
+- [davext/classifier-wiki-race,0,JavaScript,,2026-09-17](https://github.com/davext/classifier-wiki-race,0,javascript,,2026-09-17) `📚1`
+- [DavidIfebueme/lifejs](https://github.com/davidifebueme/lifejs) `📚1` — Life.js is the first-ever fullstack framework to build agentic web applications. Open-source, minima
+- [dcr6174/cuttings](https://github.com/dcr6174/cuttings) `📚1` — Saved searches that catch up automatically, with visible exact checks and optional semantic evaluation. Automatically matched explicit Jev and TypeSafe/System…
+- [dd-henry/poc-jev](https://github.com/dd-henry/poc-jev) `📚1` — Java Spring PoC: CI/CD logs triaged through Jev — generate_logs.py fabricates sample logs (125 CI/CD log records), send_logs_to_jev.py feeds them to…
+- [decs/ruls](https://github.com/decs/ruls) `📚1` — 📏 Typesafe rules engine with JSON encoding.
+- [dev-afzalansari/sprinkled-react](https://github.com/dev-afzalansari/sprinkled-react) `📚1` — A library to bind vanilla-extract/sprinkles with react components
+- [develatter/notos-intelligence-go](https://github.com/develatter/notos-intelligence-go) `📚1` — Standalone Go implementation of the Notos Intelligence vertical Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [digitalnivuk97-ctrl/safenet](https://github.com/digitalnivuk97-ctrl/safenet) `📚1` — Go terminal LAN monitor that scores devices with local rules, then blends in Jev threat verdicts and logs latency and agreement for comparison. GPL-3.0 · Go
+- [Dinesh-Damodharan/jev-ai-classifier](https://github.com/dinesh-damodharan/jev-ai-classifier) `📚1` — jevlang OR jev.ai in:name,description created:
+- [DinithKumudika/ai-email-classifier](https://github.com/dinithkumudika/ai-email-classifier) `📚1` — Email Classifier based on System One AI Models
+- [dmayo3/mocksafe](https://github.com/dmayo3/mocksafe) `📚1` — Type-safe mocking for Python.
+- [dnellis74/arena-raid](https://github.com/dnellis74/arena-raid) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [documentation](https://docs.usenotra.com/overview) `📚1`
+- [documentation](https://docs.daily.dev) `📚1`
+- [donvito/jev-dev](https://github.com/donvito/jev-dev) `📚1` — observed / apps-demos — ⭐0
+- [Drix10/hypothesis-arena](https://github.com/drix10/hypothesis-arena) `📚1` — Autonomous AI Hedge Fund - Part of Canopy Founders. Inc Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [dustinlacewell/jevilish](https://github.com/dustinlacewell/jevilish) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [DZakh/rescript-json-schema](https://github.com/dzakh/rescript-json-schema) `📚1` — 📄 Typesafe JSON schema for ReScript
+- [echelong/evolve](https://github.com/echelong/evolve) `📚1` — Autonomous evolutionary trading-agent research lab for Solana. Built by Cobalt. Automatically matched explicit Jev and TypeSafe/System One references. Category…
+- [eggdev/basketball](https://github.com/eggdev/basketball) `📚1` — Fantasy Basketball Auction Draft assistant Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [elialm94/driva](https://github.com/elialm94/driva) `📚1` — Driva: AI-native business-in-a-box för svenska småföretag Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [Eliran-Turgeman/repear](https://github.com/eliran-turgeman/repear) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [emilwagman/jev-file-search](https://github.com/emilwagman/jev-file-search) `📚1` — Search file contents with Jev. Preview first, read deeper only when needed. Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [EndsOfTheEarth/QueryLite](https://github.com/endsoftheearth/querylite) `📚1` — A typesafe .net database sql query library
+- [EngoDev/pi-switchyard](https://github.com/engodev/pi-switchyard) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Enucatl/docker-paperless-ai](https://github.com/enucatl/docker-paperless-ai) `📚1` — A platform that combines agentic RAG, multimodal OCR and metadata extraction pipelines, self-hosted models, vector search, to automate AI over Paperless-ngx…
+- [Eran-BA/Jev_from_GLiNER2](https://github.com/eran-ba/jev_from_gliner2) `📚1` — Architecture and implementation specification for a GLiNER2-based decision service with a Jev-compatible interface for Choice, Score, and Noul. Automatically…
+- [esengine/BehaviourTree-ai](https://github.com/esengine/behaviourtree-ai) `📚1`
+- [ethan-rng/hack-the-north-2026](https://github.com/ethan-rng/hack-the-north-2026) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [evertdespiegeleer/zhttp](https://github.com/evertdespiegeleer/zhttp) `📚1` — A minimal, typesafe HTTP library with Zod validation 🧑‍💻
+- [exon-research/SafeJev](https://github.com/exon-research/safejev) `📚1` — Question-conditioned activation monitoring for model safety: reads a target model's residual-stream activations and scores natural-language yes/no monitoring…
+- [explainx.ai: "6 Jev Clones in 2 Days" (updated 2026-09-21)](https://explainx.ai/blog/six-jev-clones-two-days-2026) `📚1` — Six independent open-source re-implementations within 48h of launch (Laya, Bespoke Nimble, Jevlike, Kev, OpenJev, DiffusionGemmaJev) via Latent.Space's…
+- [fable22/research-library](https://github.com/fable22/research-library) `📚1`
+- [fabriciocarraro/smallville-247](https://github.com/fabriciocarraro/smallville-247) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [facebookresearch/fastText](https://github.com/facebookresearch/fasttext) `📚1` — fastText - Classic non-generative text classification library. Upstream archived in 2024.
+- [FailproofAI/jev-policies](https://github.com/failproofai/jev-policies) `📚1` — Policies for FailproofAI's two-tier hook evaluator: 38 deterministic policies as a hard floor, plus
+- [faizahmd2/vm-native-diagnos](https://github.com/faizahmd2/vm-native-diagnos) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [fakoli/anvil](https://github.com/fakoli/anvil) `📚1` — Anvil Jev annotations · fakoli · GitHub · ⭐ 8 repo · 2026-06-18Local-first project state layer for multi-agent coding work with optional Jev annotations on…
+- [falabellamichael/SignalR.E.A.C.H](https://github.com/falabellamichael/signalr.e.a.c.h) `📚1` — REACH — RAG Endpoint & AI Chat Host. A SimpleRAG plugin (installable via GitHub URL) + hosted OpenAI-compatib…
+- [Farama HighwayEnv intersection](https://highway-env.farama.org/environments/intersection) `📚1` — a primary reference for small driving decision environments. Our SVG does not implement HighwayEnv physics.
+- [faresGr/jev-classifier-benchmark](https://github.com/faresgr/jev-classifier-benchmark) `📚1` — Reproducible Python comparison of Jev with classical text classifiers, including XGBoost, calibrated SVM, and logistic regression.
+- [favyorg/di](https://github.com/favyorg/di) `📚1` — Type Safe dependency injection
+- [Filsommer/nextjs-fastapi-typesafe-starter](https://github.com/filsommer/nextjs-fastapi-typesafe-starter) `📚1` — This is a hybrid Next.js + Python app that uses Next.js as the frontend and FastAPI as the API backe
+- [FiringJ/splendor-server](https://github.com/firingj/splendor-server) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [forcir/object-deep-merge](https://github.com/forcir/object-deep-merge) `📚1` — Strongly-typed deep and recursive object merging with support for all value types.
+- [fornhere/jev-dersleri](https://github.com/fornhere/jev-dersleri) `📚1` — Jev'i ajanlarla ve context toplamada kullanirken cikardigimiz dersler, ajan politikasi ve istek sabl
+- [Fox-Islam/jev-svg-recognition](https://github.com/fox-islam/jev-svg-recognition) `📚1` — Research task on weighting Jev's responses to classify svgs
+- [Fractional (research.fractional.company): "Jev Tested: 2–5x Faster and 5–50x Cheaper, Not](https://research.fractional.company/articles/jev-typed-decision-models) `📚1` — Research article (crawled 2026-09-25) dissecting the headline multipliers with cited sources: TypeSafe's own launch notes admit the workflow evals "were made…
+- [From Bag-of-Words to Jev（Sebastian Raschka）](https://magazine.sebastianraschka.com/p/classifier-history-and-jev) `📚1`
+- [fuad-daoud/relevo](https://github.com/fuad-daoud/relevo) `📚1`
+- [furukawa1020/hosininaruhito](https://github.com/furukawa1020/hosininaruhito) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [g0runmezadam/jev-architecture-research,2,Python,,2026-09-22,Black-box](https://github.com/g0runmezadam/jev-architecture-research,2,python,,2026-09-22,black-box) `📚1`
+- [g0runmezadam/jev-architecture-research}](https://github.com/g0runmezadam/jev-architecture-research}) `📚1`
+- [gbesse/druid-jev-enrichment](https://github.com/gbesse/druid-jev-enrichment) `📚1` — Jev semantic enrichment before Apache Druid ingestion
+- [gbesse/jev-avant-boamp](https://github.com/gbesse/jev-avant-boamp) `📚1` — Detect reviewable procurement signals in French local deliberations before a matching BOAMP notice a
+- [gbesse/jev-bocc-impact](https://github.com/gbesse/jev-bocc-impact) `📚1` — Map French collective-agreement changes to reviewable payroll and HR impacts, filtered by exact IDCC
+- [gbesse/jev-cada-desk](https://github.com/gbesse/jev-cada-desk) `📚1` — Triage French public-document requests against sourced CADA precedents with mandatory human review.
+- [gbesse/jev-dvf-comparable](https://github.com/gbesse/jev-dvf-comparable) `📚1` — Qualifie la comparabilité de mutations DVF pour documenter une estimation…
+- [gbesse/jev-fonds-vert-analogue](https://github.com/gbesse/jev-fonds-vert-analogue) `📚1` — Repère des projets Fonds vert analogues sans transformer une similarité en…
+- [gbesse/jev-obs-cues](https://github.com/gbesse/jev-obs-cues) `📚1` — Preview-first, finite Jev scene cues for OBS Studio.
+- [gbesse/mautic-jev-intent](https://github.com/gbesse/mautic-jev-intent) `📚1` — Jev intent classification for Mautic form submissions
+- [gbesse/meilisearch-jev](https://github.com/gbesse/meilisearch-jev) `📚1` — Community TypeSafe Jev semantic decision integration for meilisearch
+- [gbesse/meilisearch-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/meilisearch-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/saleor-jev-catalog-review](https://github.com/gbesse/saleor-jev-catalog-review) `📚1` — Jev decision review for Saleor product webhooks
+- [generalpawz/zotero-researcher](https://github.com/generalpawz/zotero-researcher) `📚1`
+- [geoffwellman/celestial](https://github.com/geoffwellman/celestial) `📚1` — An AI software factory: coordinate coding agents, follow work on an isometric factory floor, and stay in control. Automatically matched explicit Jev and…
+- [GeorgiMY/Vite-Electron-Template](https://github.com/georgimy/vite-electron-template) `📚1` — Electron template using Vite, React v19, Typescript, TailWindCSS v4 and ShadCN. Includes hot reloadi
+- [git-pratap-shrey/gmail-classifier](https://github.com/git-pratap-shrey/gmail-classifier) `📚1` — classifies gmail using the system one model jev.
+- [gitcommitshow/jev-classifies-bots](https://github.com/gitcommitshow/jev-classifies-bots) `📚1` — A jev intelligence layer for event stream to classify the app traffic into human vs ai_agent vs seo_
+- [GitHub's README precedence documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) `📚1` — The editorial homepage is generated at .github/README.md; GitHub prioritizes that location over the root README. The existing root README remains the…
+- [giuliosmall/pg_typesafe,87,C,MIT,2026-09-24,2026-09-26](https://github.com/giuliosmall/pg_typesafe,87,c,mit,2026-09-24,2026-09-26) `📚1`
+- [godie/just-another-job-application-tracker](https://github.com/godie/just-another-job-application-tracker) `📚1` — Job application tracker that uses Jev server-side for email classification, email-to-application matching, fit scoring and CSV header mapping. MIT · TypeScript…
+- [godokyang/orbit](https://github.com/godokyang/orbit) `📚1`
+- [godspede/jev-auto-classifier](https://github.com/godspede/jev-auto-classifier) `📚1` — Retired: Jev support lives in godspede/construct-auto-classifier.
+- [goldmansachs/jdmn](https://github.com/goldmansachs/jdmn) `📚1` — A Java implementation of DMN
+- [Google AI search guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) `📚1`
+- [Google JavaScript SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics) `📚1` — The static site generates reciprocal language links, unique canonical URLs, real per-project pages, an accurate sitemap and a source-linked llms.txt from the…
+- [gruggiero/typesafe4s](https://github.com/gruggiero/typesafe4s) `📚1` — A type safe Typesafe Scala 3 SDk Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Gumbo](https://hellogumbo.com) `📚1` — (CC0 1.0)(LICENSE). Maintained by Gumbo.
+- [Haamseongho/jev_classifier](https://github.com/haamseongho/jev_classifier) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [hamzaahmadaslam/stale-claims](https://github.com/hamzaahmadaslam/stale-claims) `📚1` — Finds claims that are true only for a while (versions, prices, dates, statistics, status, people and
+- [haowen-ai/career-journal](https://github.com/haowen-ai/career-journal) `📚1`
+- [haowenchen0811/career-journal](https://github.com/haowenchen0811/career-journal) `📚1` — Local-first, evidence-driven job search operations for Codex and OpenAI-compatible workflows Automatically matched explicit Jev and TypeSafe/System One…
+- [HarshaMatta/WordRoots](https://github.com/harshamatta/wordroots) `📚1` — Finding etymology of words with jev
+- [harshpuri84/typed-gate](https://github.com/harshpuri84/typed-gate) `📚1` — Read the probability instead of taking the argmax. A gate for System One models like Jev.
+- [harukishimo/ewo_order](https://github.com/harukishimo/ewo_order) `📚1` — Japanese painting-commission app on Next.js and Supabase where Jev extracts size, style and urgency from chat and code prices and queues the order. no license…
+- [heliowap/jev-classifier](https://github.com/heliowap/jev-classifier) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [HermeticOrmus/jev-anti-jobs](https://github.com/hermeticormus/jev-anti-jobs) `📚1` — eep Jev out of math, writing, and irreversible execution Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [HermeticOrmus/jev-primitives](https://github.com/hermeticormus/jev-primitives) `📚1` — Jev primitives: Choice / Score / Noul explainers + examples Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [HermeticOrmus/jev-rank-wide-read-narrow](https://github.com/hermeticormus/jev-rank-wide-read-narrow) `📚1` — Jev rank-wide-read-narrow: shortlist then spend compute Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [heybmtn/domainminer](https://github.com/heybmtn/domainminer) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [heyman333/jev-model-classifier](https://github.com/heyman333/jev-model-classifier) `📚1`
+- [HiDeoo/zod-matter](https://github.com/hideoo/zod-matter) `📚1` — Typesafe front matter
+- [hjl1045/jev-equivalent-research](https://github.com/hjl1045/jev-equivalent-research) `📚1` — Synthetic auto-claims classification evaluation of Jev, Laya, and GPT-5.6 Luna
+- [hjqcan/CognitiveHub](https://github.com/hjqcan/cognitivehub) `📚1`
+- [hl/jen](https://github.com/hl/jen) `📚1` — Go CLI that checks a git diff or files against a plan document with typed Jev questions in one request and can gate on a verdict. no license · Go
+- [hnaderi/scala-k8s](https://github.com/hnaderi/scala-k8s) `📚1` — ubernetes client, data models and typesafe manifest generation for scala, scalajs, and scala native
+- [HotPotatoC/sture](https://github.com/hotpotatoc/sture) `📚1` — 🧱 Sture is a collection of data structures based on Go 1.18+ Generics (Stack, Queue, Linked List, et
+- [hraness/wordcell](https://github.com/hraness/wordcell) `📚1` — A knowledge base for coding agents, built from Markdown, backlinks, semantic search, and Git context.
+- [Hugging Face](https://huggingface.co/flock-io/this-that-model-1.0) `📚1`
+- [huggingface/setfit](https://github.com/huggingface/setfit) `📚1` — SetFit - Prompt-free few-shot text classification on Sentence Transformers. Strong when labels are fixed at train time.
+- [Hugongra/HackSpainTeam](https://github.com/hugongra/hackspainteam) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [hunghg255/next-i18next-typesafe](https://github.com/hunghg255/next-i18next-typesafe) `📚1` — next-i18next typesafe
+- [hunghg255/next-i18next-typesafe-demo](https://github.com/hunghg255/next-i18next-typesafe-demo) `📚1` — Nextjs i18n Typesafe
+- [i18next/i18next-resources-for-ts](https://github.com/i18next/i18next-resources-for-ts) `📚1` — This package helps to transform resources to be used in a typesafe i18next project.
+- [idboussadel/jevFlow](https://github.com/idboussadel/jevflow) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [ieltxua/omarchy-director](https://github.com/ieltxua/omarchy-director) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Ihebdhouibi/JEV-Basics](https://github.com/ihebdhouibi/jev-basics) `📚1` — Discovering-JEV
+- [ilijaNL/pg-tbus](https://github.com/ilijanl/pg-tbus) `📚1` — End-to-end typesafe tasks and integration events on postgres made easy.
+- [Indian Express: "Meet Jev" (2026-09-21)](https://indianexpress.com/article/technology/artificial-intelligence/meet-jev-new-ai-model-from-chatgpt-inventor-10887591) `📚1` — General-availability announcement: waitlist dropped, access starts at $5 in credits (~120M tokens); Vercel, Cloudflare, LangChain and Langfuse have added Jev…
+- [Installer documentation](https://skills.sh/docs/cli) `📚1` — (Skill source)(../skills/awesome-jev/SKILL.md) · Installer documentation
+- [invoker privileges](https://postgresql.org/docs/17/sql-createfunction.html) `📚1` — Database permissions still need deliberate setup. Functions use PostgreSQL's default invoker privileges, but upstream does not restrict default function…
+- [Is Jev as Accurate as Frontier Models at Classification?](https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification) `📚1` — OpenRouter runs all 3,080 Banking77 test utterances through Jev 1.13 and Claude Opus 5: 81.0% vs 84.4% accuracy, 175 ms vs 2,266 ms median, about $0.11 vs…
+- [IshmamR/mongster](https://github.com/ishmamr/mongster) `📚1` — Type-safe MongoDB ODM and Schema validator for TypeScript with hooks, typed populate, transactions,
+- [ishuagrawal/Cmd-F](https://github.com/ishuagrawal/cmd-f) `📚1` — A universal search in your browser that finds the relevant passage, page, or control on the site you’re viewing in a fraction of a second Automatically matched…
+- [ismail007623/Jev-Customer-classification-system](https://github.com/ismail007623/jev-customer-classification-system) `📚1`
+- [ItsBen321/obsidian-jev-classifier](https://github.com/itsben321/obsidian-jev-classifier) `📚1` — Reviewed 2026-09-30 (Europe/Sofia) at commit 532d3b5. AI-assisted README and license inspection; install/live paths not executed.
+- [iurysza/logview](https://github.com/iurysza/logview) `📚1` — eyboard-driven Android log viewer with live capture, recording, and replay Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [IvanAmamiya/jev-like-qwen-classifier](https://github.com/ivanamamiya/jev-like-qwen-classifier) `📚1`
+- [ivanhofer/exceptionally](https://github.com/ivanhofer/exceptionally) `📚1` — A fully type-safe and lightweight way of using exceptions instead of throwing errors
+- [ivanhofer/typesafe-i18n-demo-svelte](https://github.com/ivanhofer/typesafe-i18n-demo-svelte) `📚1` — A small project demonstrating a typesafe-i18n integration with Svelte
+- [j-asefa/jfind](https://github.com/j-asefa/jfind) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jackojacko05/compare-jev-bigquery-ai-functions](https://github.com/jackojacko05/compare-jev-bigquery-ai-functions) `📚1` — Compare Jev and Gemini for BigQuery-orchestrated classification with reproducible SQL and notebook
+- [JackZ0526/ParisTour](https://github.com/jackz0526/paristour) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jarvispact/typesafe-intl](https://github.com/jarvispact/typesafe-intl) `📚1` — typesafe interpolations for icu message format based translations
+- [jasongwartz/inspect-typesafe](https://github.com/jasongwartz/inspect-typesafe) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jawauntb/brainweight](https://github.com/jawauntb/brainweight) `📚1` — How many fly minds you stack and loop before a human-scale thought. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [jaykang-heo/jev-axi](https://github.com/jaykang-heo/jev-axi) `📚1` — Agent-ergonomic CLI for TypeSafe Jev: typed judgments (choice, noul, score) for agents
+- [jbtronics/settings-bundle](https://github.com/jbtronics/settings-bundle) `📚1` — A bundle to easily create typesafe, user-configurable settings for symfony applications
+- [jcardama/bird-jev](https://github.com/jcardama/bird-jev) `📚1` — Private maintenance fork of Bird for reading and searching X; JEV integration planned
+- [Jev Logs](https://jevlogs.com) `📚1` — Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis.
+- [Jev vs. classical ML](https://quicqdev.github.io/jev-vs-ml) `📚1` — Early experiment lead; page could not be read during the last audit, so its numerical claims are not repeated
+- [Jev vs. XGBoost and BERT](https://explainx.ai/blog/jev-vs-xgboost-bert-classifiers-2026) `📚1` — Qualitative discussion; article says it did not run a matched-condition three-way benchmark
+- [Jev × NASA Kepler](https://gist.github.com/ipaulsmith/e5c3ae3a492a455435d5bfc161404312) `📚1` — Independent retrospective test of Jev 1.13 on 8,054 historical Kepler Objects of Interest with NASA Exoplanet Archive dispositions hidden during prediction;…
+- [jevai.org community showcase cases](https://jevai.org/cases) `📚1` — Nine worked community scenarios: intent routing, invoice classification, news filtering, product tagging, moderation, claim verification, CSV validation and…
+- [jevalenciap/iptodomain](https://github.com/jevalenciap/iptodomain) `📚1` — This tool extract domains from IP address based in the information saved in virustotal.
+- [jevinskie/jev-lldb-helpers](https://github.com/jevinskie/jev-lldb-helpers) `📚1` — Various LLDB Python helpers
+- [jevinskie/jevxpctrace](https://github.com/jevinskie/jevxpctrace) `📚1` — Hopefully an insightful XPC tracer that helps vulerability research by tracing server and client cal
+- [JevTracks](https://jevtracks.com) `📚1` — Community project directory (spotted 2026-09-22 via @sidneycur): lists 869 Jev builds pulled from X and GitHub, tagged by category. Caveat emptor: captions are…
+- [jiayao/evidence-chat](https://github.com/jiayao/evidence-chat) `📚1`
+- [jiayao/podcast-chat](https://github.com/jiayao/podcast-chat) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Jibbarth/Jibbarth](https://github.com/jibbarth/jibbarth) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jln13x/form](https://github.com/jln13x/form) `📚1`
+- [jnorgren/an-email-classifier](https://github.com/jnorgren/an-email-classifier) `📚1` — A small CLI that uses the TypeSafe API (Jev model) to evaluate emails
+- [joacotornello/jev-prompt-enhancer](https://github.com/joacotornello/jev-prompt-enhancer) `📚1` — inferred / agent-tooling — ⭐1
+- [joaoantoniocoelho/tech-digest](https://github.com/joaoantoniocoelho/tech-digest) `📚1` — A self-hosted personal technology news filter powered by local AI Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [joce-unity/pixeljev](https://github.com/joce-unity/pixeljev) `📚1`
+- [JohnJKerr/football-predictor](https://github.com/johnjkerr/football-predictor) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [johnymontana/extraction-knowledge-graph-experiments](https://github.com/johnymontana/extraction-knowledge-graph-experiments) `📚1` — nowledge-graph extraction notebooks, several using Jev for assertion gating, relation selection per entity pair and contradiction detection. no license ·…
+- [JonasThowsen/nixploy-watch](https://github.com/jonasthowsen/nixploy-watch) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [JoseEchave/obsidian-jev-lens](https://github.com/joseechave/obsidian-jev-lens) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [josevelaz/jitters](https://github.com/josevelaz/jitters) `📚1` — Prompt-in / MP4-out demo videos Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [JoseVelazcoH/system-one-sql-agent](https://github.com/josevelazcoh/system-one-sql-agent) `📚1` — system-one-sql-agent — Text-to-SQL agent that routes questions with a System One model before an LLM writes the SQL (auto-discovered, description not yet…
+- [jostoz/sweetlips](https://github.com/jostoz/sweetlips) `📚1` — Edge voice pipeline: mic -> FireRedVAD -> Confucius4-R2T2 (streaming ASR) -> Jev System1 -> Kokoro TTS -> alt…
+- [Jozzpoly/ReflexBrain-Lab](https://github.com/jozzpoly/reflexbrain-lab) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [JuanCavallin/HTN-2026](https://github.com/juancavallin/htn-2026) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [judoaseeta/duckdb-jev](https://github.com/judoaseeta/duckdb-jev) `📚1` — Ask your DuckDB tables questions in plain language. A DuckDB port of pg-jev, powered by TypeSafe's Jev.
+- [jvandenaardweg/sort-by-property](https://github.com/jvandenaardweg/sort-by-property) `📚1` — Type-safe array sorting method with support for deeply nested properties and Typescript autocompleti
+- [jzone3/nice-chat](https://github.com/jzone3/nice-chat) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [K1erans/jrep](https://github.com/k1erans/jrep) `📚1` — A grep inspired tool using Jev with the aim of increasing model efficiency
+- [kairin/stay-up](https://github.com/kairin/stay-up) `📚1` — Lightweight Windows keep-awake helper and consolidated PowerToys research
+- [kalhorim/JiraService](https://github.com/kalhorim/jiraservice) `📚1` — Added extra features for Atlassian.SDK
+- [kalyandechiraju/resume-fit](https://github.com/kalyandechiraju/resume-fit) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [kavehmz/seems-lang](https://github.com/kavehmz/seems-lang) `📚1` — Seems: Python, plus judgment. A superset of Python where a condition can be plain English, answered
+- [kedi-lang/homepage](https://github.com/kedi-lang/homepage) `📚1` — Home of lovely cats Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Keep a Changelog](https://keepachangelog.com/zh-cn/1.1.0) `📚1`
+- [KeithHanson/jev-email-classifier](https://github.com/keithhanson/jev-email-classifier) `📚1` — Classify and label automated Gmail inbox messages with Jev.
+- [kellystuard/jav-gmail-classifier](https://github.com/kellystuard/jav-gmail-classifier) `📚1`
+- [keltokhy/jgrep,104,Python](https://github.com/keltokhy/jgrep,104,python) `📚1`
+- [kenlkehl/clinical-djev](https://github.com/kenlkehl/clinical-djev) `📚1` — Local Jev-style extraction from long clinical text using native seeded diffusion reads in vLLM: exposes POST /v1/systemone with noul/choice/score, reading…
+- [kikko-land/boono](https://github.com/kikko-land/boono) `📚1` — An advanced SQL builder, specially tailored for SQLite
+- [kiwicom/navigation-compose-typed](https://github.com/kiwicom/navigation-compose-typed) `📚1` — Type-safe arguments for Jetpack Navigation Compose using Kotlinx.Serialization
+- [kizuflux/tally](https://github.com/kizuflux/tally) `📚1` — Twitch chat classification prototype powered by Jev. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [kknd4eva/jevdotnet](https://github.com/kknd4eva/jevdotnet) `📚1` — An example repository using the TypeSafe Jev model to do sentiment analysis
+- [kknd4eva/jevdotnet-empty-backup](https://github.com/kknd4eva/jevdotnet-empty-backup) `📚1` — An example repository using the TypeSafe Jev model to do sentiment analysis
+- [koderhack/readproof](https://github.com/koderhack/readproof) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [koosbcom/jev-delegate](https://github.com/koosbcom/jev-delegate) `📚1` — Codex skill and MCP tools for Jev-backed workspace search ranking and fixed-label classification. Br
+- [koroteeww/telegram-jev-classifier](https://github.com/koroteeww/telegram-jev-classifier) `📚1` — using JEV ai to classify telegram charts to track commercial clients
+- [koroteeww/telegram-jev-classifier,0,Python,,2026-09-23,using](https://github.com/koroteeww/telegram-jev-classifier,0,python,,2026-09-23,using) `📚1`
+- [kpflynn82/gametagger](https://github.com/kpflynn82/gametagger) `📚1` — AI powered game tagging system Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Kripta-Studios/jev-receipt-country-classifier](https://github.com/kripta-studios/jev-receipt-country-classifier) `📚1` — Experimental receipt country classification with Typesafe Jev and OCR, evaluated on multilingual tex
+- [kuleshov-group/mdlm](https://github.com/kuleshov-group/mdlm) `📚1` — MDLM - Masked diffusion language model (NeurIPS 2024): parallel, non-autoregressive generation. The open research line nearest to Jev's parallel-sampler claims.
+- [kylemclaren/jevsearch,7,TypeScript,Site](https://github.com/kylemclaren/jevsearch,7,typescript,site) `📚1`
+- [kyu1204/jgrep,36,TypeScript,,2026-09-19](https://github.com/kyu1204/jgrep,36,typescript,,2026-09-19) `📚1`
+- [lacemou/handraw-style-galaxy-jev](https://github.com/lacemou/handraw-style-galaxy-jev) `📚1` — Explore, search, filter, and compare 260+ hand-drawn styles in an interactive 3D galaxy.
+- [lafkpages/echo-ai](https://github.com/lafkpages/echo-ai) `📚1` — Adds an in-chat AI that responds to player messages. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [lakehq/sail](https://github.com/lakehq/sail) `📚1` — The Rust Spark-replacement query engine; v0.7.2 adds built-in async Jev SQL functions (jev_noul, jev_choice, jev_score) that return typed answers per row.
+- [LakshyaChaudhry/jev-label-desk](https://github.com/lakshyachaudhry/jev-label-desk) `📚1` — jev-label-desk - LakshyaChaudhry/jev-label-desk - weekend project using Jev to automate trace / data labeling for a provided labeling taxonomy.
+- [LamplighterPaul/jezz-quarter](https://github.com/lamplighterpaul/jezz-quarter) `📚1` — Four Jevs inventing harmony. No chart, no prompt. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [larguesa/jev-search@v0.2.0](https://github.com/larguesa/jev-search@v0.2.0) `📚1`
+- [laurentfabre/databricks-jev-pdf-lab](https://github.com/laurentfabre/databricks-jev-pdf-lab) `📚1` — Precision PDF extraction research: Databricks + Jev, synthetic tests, selective parsing, measured tradeoffs a…
+- [leo6g/jeverything](https://github.com/leo6g/jeverything) `📚1` — JEverything (Java Edition) - Desktop Quick File Search, Cross-Platform Support, Rich Features, Smooth Operation. Ultra-Fast File Search, Supports Advanced Se…
+- [leomorpho/goship](https://github.com/leomorpho/goship) `📚1` — Opinionated Go + HTMX framework for shipping production apps fast ⛵️
+- [leon2035/gomoku-jev](https://github.com/leon2035/gomoku-jev) `📚1`
+- [Leonezz/quire](https://github.com/leonezz/quire) `📚1` — Quire — a calm reading surface for everything you subscribe to: blogs, newsletters, papers and PDFs, with hig…
+- [Let's Data Science: "Research Flags Lookalike Jev Storefronts After TypeSafe Launch" (2026](https://letsdatascience.com/news/research-flags-lookalike-jev-storefronts-after-typesafe-laun-bf77c0d5) `📚1` — Eye Security research: lookalike storefronts appeared days after launch (two domains registered 2026-09-18), reselling Jev API access at ~6–11.5× TypeSafe's…
+- [Lev](https://huggingface.co/interfaze-ai/lev) `📚1` — Open alternative: a 4B LoRA on a Qwen backbone published as a System One decision model and tagged for calibrated decisions, classification, routing and…
+- [lifelonglearnerAdam/ocr-edr-extend](https://github.com/lifelonglearneradam/ocr-edr-extend) `📚1` — OCR-EDR formula/table extension: Agentic RL, Jev judge, OmniDocBench, Qwen small models
+- [live](https://websearchplus.xyz) `📚1`
+- [live](https://shiro-0x.github.io/hersona) `📚1`
+- [live](https://benomahony.github.io/nouls) `📚1`
+- [live](https://leanest.pages.dev) `📚1`
+- [live](https://sashaskind.github.io/beyondgreen) `📚1`
+- [live](https://xpressabhi.github.io/job-search-skills) `📚1`
+- [live](https://jevlogs.workspaceagent.workers.dev) `📚1` — MIT · TypeScript · live
+- [LiveKit turn handling](https://docs.livekit.io/agents/logic/turns) `📚1` — interruptions, backchannels and endpointing; the local example demonstrates only the text-semantic part.
+- [logan-han/hearth](https://github.com/logan-han/hearth) `📚1`
+- [logan-markewich/jeff,251,Python,MIT,2026-09-20,2026-09-26](https://github.com/logan-markewich/jeff,251,python,mit,2026-09-20,2026-09-26) `📚1`
+- [LoganGeffen/jev-agent-desk](https://github.com/logangeffen/jev-agent-desk) `📚1` — Local web interface for talking to Codex and Claude conversations running in tmux: type or dictate into one message box, navigate conversations, read replies,…
+- [lostcol0ny/lwc-hoa-qa](https://github.com/lostcol0ny/lwc-hoa-qa) `📚1` — Q&A over Lakewood Creek HOA documents with cited answers (Jev retrieval + LLM answer + citation verification)
+- [Love-Neko/Rime-Capsule-AI](https://github.com/love-neko/rime-capsule-ai) `📚1`
+- [Lukisong82/buy-it-or-leave-it](https://github.com/lukisong82/buy-it-or-leave-it) `📚1` — A personal judgment app for more thoughtful purchases, powered by TypeSafe Jev.
+- [LZY2606/ZY10084](https://github.com/lzy2606/zy10084) `📚1` — Pair-wise GSB task ZY10084 Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [macaron-css/macaron](https://github.com/macaron-css/macaron) `📚1` — Compiler-augmented typesafe CSS-in-JS with zero runtime, colocation, maximum safety and productivity
+- [madsjulia/BIGUQ.jl](https://github.com/madsjulia/biguq.jl) `📚1` — Bayesian Information Gap Decision Theory
+- [maff/camunda-connector-typesafe-jev](https://github.com/maff/camunda-connector-typesafe-jev) `📚1` — A Camunda connector to bring TypeSafe's Jev model into your Camunda 8 processes.
+- [magnus919/SlopSearX](https://github.com/magnus919/slopsearx) `📚1` — Cloud-native, stateless, AI-agent-first meta search engine. Drop-in SearXNG replacement built for the GroktoC…
+- [Mahadev1729/E_Commerce_Attribute_Classification_JEV](https://github.com/mahadev1729/e_commerce_attribute_classification_jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [mandubian/quiet-space](https://github.com/mandubian/quiet-space) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [MANUJMEHROTRA/jev-experimentation](https://github.com/manujmehrotra/jev-experimentation) `📚1` — jev-experimentation
+- [marcelocruzrpa/jev-computer-use](https://github.com/marcelocruzrpa/jev-computer-use) `📚1`
+- [marcjaner/claudios-prosper-ai](https://github.com/marcjaner/claudios-prosper-ai) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Mathrubhumi English: "Jev AI Model Explained: Why Developers Choose Decision-Making AI" (2](https://english.mathrubhumi.com/technology/jev-ai-model-explained-decision-making-ai-fajsf1e6) `📚1` — Mainstream-India explainer: three primitives, RLCD training, $0.042/M input with free output, and the no-waitlist GA move on 2026-09-21.
+- [mattn/tensai](https://github.com/mattn/tensai) `📚1` — tensai System One endpoint · mattn · GitHub · ⭐ 106 repo · 2026-08-19Tiny pure-Go neural-network framework that serves Jev-shaped System One requests from any…
+- [matura-lol/datasets](https://github.com/matura-lol/datasets) `📚1` — datasets made up of polish exam papers, answers and miscallenious sources used on matura.lol websites Automatically matched explicit Jev and TypeSafe/System…
+- [matwate/super-research](https://github.com/matwate/super-research) `📚1` — Data search and document workflows
+- [maxanstey-meridian/rivet](https://github.com/maxanstey-meridian/rivet) `📚1` — Your C# is the contract. Roslyn-derived OpenAPI 3.1 from ASP.NET endpoints or contract-first definit
+- [meddle-connect/jev-fault-diagnosis-poc](https://github.com/meddle-connect/jev-fault-diagnosis-poc) `📚1` — Fault Diagnosis PoC replays real compressor telemetry through an emulated Modbus device, spots suspi
+- [Meierschlumpf/mantine-manager](https://github.com/meierschlumpf/mantine-manager) `📚1` — Improved modal manager for mantine
+- [metrox-eth/moss](https://github.com/metrox-eth/moss) `📚1` — MOSS: a small, mostly 3D-printed litter-picking rover. Cleaner streets, one maker at a time. Automatically matched explicit Jev and TypeSafe/System One…
+- [mewtyunjay/bev](https://github.com/mewtyunjay/bev) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [mheers/rethymno-emergency-pharmacy](https://github.com/mheers/rethymno-emergency-pharmacy) `📚1` — A local, CPU-only OCR pipeline that turns the weekly Rethymno pharmacy duty schedule (published as a JPEG image on into validated, deterministic JSON…
+- [minglelabs/MingleCraft](https://github.com/minglelabs/minglecraft) `📚1`
+- [mizchi/ast-grep-jev](https://github.com/mizchi/ast-grep-jev) `📚1`
+- [Mkdirs documentation](https://docs.mkdirs.com) `📚1` — Documentation — Read installation, configuration, and deployment guides.
+- [mkosir/trpc-fe-boilerplate-next](https://github.com/mkosir/trpc-fe-boilerplate-next) `📚1` — ⚒️ Minimal tRPC frontend Nextjs boilerplate for separate BE-FE repositories. Easily consume fully ty
+- [mkosir/trpc-fe-boilerplate-vite](https://github.com/mkosir/trpc-fe-boilerplate-vite) `📚1` — ⚒️ Minimal tRPC frontend Vite boilerplate for separate BE-FE repositories. Easily consume fully type
+- [mmvergara/supadart](https://github.com/mmvergara/supadart) `📚1` — Typesafe queries in Supabase Flutter! Generate Flutter / Dart 🎯 classes from your Supabase schema.
+- [monarch-orm/monarch](https://github.com/monarch-orm/monarch) `📚1` — Monarch ORM: A type-safe Object Document Mapper (ODM) for MongoDB
+- [monkeyteamvip/jev-brain](https://github.com/monkeyteamvip/jev-brain) `📚1` — inferred / other — ⭐0
+- [MoritzLaurer/zeroshot-classifier](https://github.com/moritzlaurer/zeroshot-classifier) `📚1` — Zeroshot classifiers - Training notebooks for NLI models that score each label as an entailment hypothesis. Cost grows with the label count, the last push was…
+- [mrjev.com/changelog](https://mrjev.com/changelog) `📚1` — Dated timeline with sources: mrjev.com/changelog.
+- [mrkpatchaa/github-star-classifier-jev](https://github.com/mrkpatchaa/github-star-classifier-jev) `📚1` — Classify your GitHub stars into GitHub Lists with TypeSafe Jev, and review stars worth dropping
+- [mroxso/lajev](https://github.com/mroxso/lajev) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [MSalah73/cookiebox](https://github.com/msalah73/cookiebox) `📚1` — A type safe cookie management crate for the Actix Web framework.
+- [mtavkhelidze/fuda](https://github.com/mtavkhelidze/fuda) `📚1`
+- [muehlemann-popp/uid-resolver-poc](https://github.com/muehlemann-popp/uid-resolver-poc) `📚1` — PoC: Claude agent + Firecrawl that maps misspelled Swiss company names to their UID (CHE number), with confidence score and rationale. Automatically matched…
+- [mwoodward-rh/request-pre-processing-playground](https://github.com/mwoodward-rh/request-pre-processing-playground) `📚1` — A small playground to test LLM request pre-processing with Google Langextract and high-speed classification using the Jev model architecture. The playground…
+- [mwwhg/question-time](https://github.com/mwwhg/question-time) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [navneetlal/fast-typed-classifier](https://github.com/navneetlal/fast-typed-classifier) `📚1` — gRPC microservice for typed-decision classification with Laya
+- [negretemdev/radextract](https://github.com/negretemdev/radextract) `📚1`
+- [nekketsuuu/feed-concierge](https://github.com/nekketsuuu/feed-concierge) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [netologist/turbo-jev](https://github.com/netologist/turbo-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [neuroflash: "Jev AI Model Explained: What It Means for Market Research" (2026-09-25)](https://neuroflash.com/blog/ai-news/jev-ai-model) `📚1` — Explainer that separates Jev fact from marketing (flags 40–200× speed figures as unverified, no published paper yet); the market-research angle: calibrated…
+- [next-safe-action/next-safe-action](https://github.com/next-safe-action/next-safe-action) `📚1` — Type safe and validated Server Actions in your Next.js project.
+- [nextechnologies-my/mortar](https://github.com/nextechnologies-my/mortar) `📚1`
+- [nguyenyou/scalawind](https://github.com/nguyenyou/scalawind) `📚1` — Scalawind - Zero-Runtime Typesafe TailwindCSS in Scala
+- [nicnocquee/dataqueue](https://github.com/nicnocquee/dataqueue) `📚1` — A typesafe postgres/redis-backed job queue for Node.js/TypeScript projects in long running or server
+- [nilp0inter/jev-research](https://github.com/nilp0inter/jev-research) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [nischal55/jevee-frontend](https://github.com/nischal55/jevee-frontend) `📚1`
+- [notvasub/people-search-with-jev](https://github.com/notvasub/people-search-with-jev) `📚1` — Jev-guided routing for public professional people search: experiment evidence and implementation blu
+- [nshkrdotcom/plexus](https://github.com/nshkrdotcom/plexus) `📚1` — High-concurrency Elixir actor runtime for large-scale semantic graphs, search swarms, and
+- [nunzinopizza/everything_email_jev_classification](https://github.com/nunzinopizza/everything_email_jev_classification) `📚1` — everything_email_jev_classification — A read-only email classifier that uses Jev to categorize messages, assess urgency, and flag emails requiring human review…
+- [nuxt-one/nuxt-one](https://github.com/nuxt-one/nuxt-one) `📚1`
+- [Obliquenessamblygonite304/tax-doc-classifier](https://github.com/obliquenessamblygonite304/tax-doc-classifier) `📚1` — Classify 261 IRS forms and 7 page types per page with Jev's decision model — 34× cheaper and 6× faster than LLM ...
+- [ocportal-dev/oc-permissions-classifier](https://github.com/ocportal-dev/oc-permissions-classifier) `📚1` — OpenCode v2 plugin that sends permission requests resolving to ask to an LLM or Jev reviewer, fails closed on errors and writes an audit log. MIT · TypeScript
+- [oeo/narrow-inference](https://github.com/oeo/narrow-inference) `📚1` — Proof-of-concept decisions API over local or BYOK LLMs that reads single-token label logprobs, errors on incomplete coverage and logs latency and cost. no…
+- [og2701/HMS-Victory](https://github.com/og2701/hms-victory) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [ohnotnow/blether](https://github.com/ohnotnow/blether) `📚1` — \(WIP\) Give Claude a voice Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [oki-abrian/installgate](https://github.com/oki-abrian/installgate) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [olandodeflexy/upgrade-lens](https://github.com/olandodeflexy/upgrade-lens) `📚1` — A local TypeScript demo comparing Zod upgrades with TypeSafe Jev assessments.
+- [omarkhairy21/cron-toolkit-ts](https://github.com/omarkhairy21/cron-toolkit-ts) `📚1` — Type safe human readable cron expressions
+- [omribenami/Omarchy-AI](https://github.com/omribenami/omarchy-ai) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [omsimos/paymongo.js](https://github.com/omsimos/paymongo.js) `📚1` — 🍃 An end-to-end typesafe library for PayMongo.
+- [openapistack/docs](https://github.com/openapistack/docs) `📚1` — Full stack typesafe API-first development with OpenAPI.
+- [OpenScribbler/syllago-docs](https://github.com/openscribbler/syllago-docs) `📚1` — syllago-docs - Documentation site for Syllago—the package manager for AI coding tool content.
+- [orcawhisperer/aegiscortex](https://github.com/orcawhisperer/aegiscortex) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [ornab74/naza-jev-research](https://github.com/ornab74/naza-jev-research) `📚1`
+- [osrim/readwise-jev-classifier,1,TypeScript,,2026-09-21,Proof](https://github.com/osrim/readwise-jev-classifier,1,typescript,,2026-09-21,proof) `📚1`
+- [otfonua/comms-check](https://github.com/otfonua/comms-check) `📚1` — Command-line reviewer for technical writing: reader fit, AI-writing signs, and audience literacy, ju
+- [P4A-Policies-for-Agents/EU-AI-Act-Use-Case-Risk-Tagging](https://github.com/p4a-policies-for-agents/eu-ai-act-use-case-risk-tagging) `📚1` — Inbound Omni/Flex Gateway policy: tags LLM use-cases by EU AI Act risk tier with a typed J
+- [pablofd/hackspain](https://github.com/pablofd/hackspain) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [pahu2353/hack-the-north](https://github.com/pahu2353/hack-the-north) `📚1` — very serious work Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [paluigi-moltis/jev-classifier](https://github.com/paluigi-moltis/jev-classifier) `📚1` — Text classification GUI powered by TypeSafe Jev via Vercel AI Gateway
+- [paluigi-moltis/jev-classifier,0,Python,,2026-09-20,Text](https://github.com/paluigi-moltis/jev-classifier,0,python,,2026-09-20,text) `📚1`
+- [pawelmamcarz/procuracost](https://github.com/pawelmamcarz/procuracost) `📚1` — Procurement cost calculator & path optimizer — academic research tool. Pipe vs. Field model, Random Forest pa…
+- [pdf-race.vercel.app](https://pdf-race.vercel.app) `📚1` — AI-assisted catalog review; no affiliation. Listing is not endorsement. Offline verify scripts for data/lanes-mock/run/quality/replay/CV/claims passed;…
+- [pearlfranz20/lowlightlowresocr](https://github.com/pearlfranz20/lowlightlowresocr) `📚1` — Neuro inspired architecture for improving OCR in low light or low resolution settings. Automatically matched explicit Jev and TypeSafe/System One references.…
+- [pedrocr83/toolhint](https://github.com/pedrocr83/toolhint) `📚1` — Local Laya classifier that suggests the skills, connectors and tools relevant to each Claude Code pr
+- [peejaywk/jev-classifier-demo](https://github.com/peejaywk/jev-classifier-demo) `📚1` — Small readable Python classification demo around TypeSafe Jev: documented as portfolio evidence and as the routing layer for VoiceDrop, classifying…
+- [pgmac/pgmac](https://github.com/pgmac/pgmac) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [PhiBao/wemadeit](https://github.com/phibao/wemadeit) `📚1` — Conditional group pots on Monad Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [philmui/system1](https://github.com/philmui/system1) `📚1` — observed / other — ⭐1
+- [pozapas/jev-gold-labeling](https://github.com/pozapas/jev-gold-labeling) `📚1` — Blind human labelling app for the Jev crash-narrative calibration reference set (private: contains redacted C…
+- [pranav252005/linkedinclassifier](https://github.com/pranav252005/linkedinclassifier) `📚1`
+- [prestonjarnagin/jev-playground](https://github.com/prestonjarnagin/jev-playground) `📚1` — Playground for TypeSafe's Jev model on Cloudflare Workers AI
+- [prof-ramos/sneub](https://github.com/prof-ramos/sneub) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Pukujan/jev-classifier](https://github.com/pukujan/jev-classifier) `📚1` — Mostly-deterministic JEV-based classifier for epistemic/bitemporal summarization of AI-research tran
+- [Pukujan/jev-classifier,0,Python,,2026-09-26](https://github.com/pukujan/jev-classifier,0,python,,2026-09-26) `📚1`
+- [pyrpc/pyrpc](https://github.com/pyrpc/pyrpc) `📚1` — E2E Type-safety between Python backends and TypeScript frontends, framework-agnostic
+- [QCMaxcer/SRTMood](https://github.com/qcmaxcer/srtmood) `📚1`
+- [qlj215/Jev-projects](https://github.com/qlj215/jev-projects) `📚1`
+- [qt-ami3/Jev.AI](https://github.com/qt-ami3/jev.ai) `📚1` — Making the job search a little bit easier with automated job search tools and ai suggestio
+- [Quietcatalpa/reckon](https://github.com/quietcatalpa/reckon) `📚1`
+- [QwenLM/Qwen](https://github.com/qwenlm/qwen) `📚1`
+- [rafaeelricco/job-kit](https://github.com/rafaeelricco/job-kit) `📚1` — Agent skills for your job search. Find openings, tailor resumes, submit applications, and track replies. Automatically matched explicit Jev and TypeSafe/System…
+- [rahulparimal/RAGSearchJev](https://github.com/rahulparimal/ragsearchjev) `📚1` — Data search and document workflows
+- [RahulPPrabhu/Ticket-Classifier](https://github.com/rahulpprabhu/ticket-classifier) `📚1` — Instant Ticket Classification using JEV from Typesense AI
+- [rakeshlanjewar/jev-email-classifier](https://github.com/rakeshlanjewar/jev-email-classifier) `📚1` — Bulk Gmail cleanup pipeline: two-tier email classification (free heuristics + TypeSafe Jev System On
+- [ramazanpolat/skillz](https://github.com/ramazanpolat/skillz) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [raminaskerov/brownie](https://github.com/raminaskerov/brownie) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Raycast's design update](https://raycast.com/blog/a-fresh-look-and-feel) `📚1` — eep search central and secondary actions compact. The Header keeps its existing six mobile controls; the new action shares the Hero toolbar.
+- [rchasman/flower-maker](https://github.com/rchasman/flower-maker) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [rdimascio/ellie](https://github.com/rdimascio/ellie) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [reachjalil/jev-luna-pagerduty-trigger](https://huggingface.co/datasets/reachjalil/jev-luna-pagerduty-trigger) `📚1` — synthetic checkout/payments log lines with page/no-page gold labels plus Jev and GPT-5.6 Luna runs; card reports Jev v3 at p>=0.50 with 1.000 recall and…
+- [Read](https://mrjev.com/projects/wfzyx-von) `📚1` — The published weights lost their classification head, so the default install answered at random. Restored by the author the same day.
+- [remvze-org/pieper](https://github.com/remvze-org/pieper) `📚1` — 🥧 A tiny, typesafe, asynchronous pipeline for functional programming in TypeScript.
+- [remvze-org/zevadb](https://github.com/remvze-org/zevadb) `📚1` — 📦 A typesafe JSON file database with Zod schema validation.
+- [rfoerthe/fast-cat](https://github.com/rfoerthe/fast-cat) `📚1` — observed / apps-demos — ⭐0
+- [RhysSullivan/typelytics](https://github.com/rhyssullivan/typelytics) `📚1` — Typesafe analytics from query to render
+- [riesvile/nospace](https://github.com/riesvile/nospace) `📚1` — nospace - Experimental word-spacing interface where Jev chooses splits and a separate model handles spelling.
+- [ririumu/jev-demo](https://github.com/ririumu/jev-demo) `📚1` — Local playground for TypeSafe Jev: typed decisions, not chat.
+- [rishi-raj-jain/date-with-jev](https://github.com/rishi-raj-jain/date-with-jev) `📚1` — Anonymous, share-card-first dating-chat evaluator: upload a screenshot, ask Jev for the read, and ge
+- [rkwai/story-quest](https://github.com/rkwai/story-quest) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Roasbeef/jevelin](https://github.com/roasbeef/jevelin) `📚1` — Typed Jev decisions for Gleam, with caller-owned transport
+- [robbyczgw-cla/web-search-plus-mcp](https://github.com/robbyczgw-cla/web-search-plus-mcp) `📚1` — Give your agent the web as real sources, never made-up answers — an MCP server with 15 search and 9 extract providers plus an optional local, key-free DonSeTch…
+- [rockjoel/rockjoel](https://github.com/rockjoel/rockjoel) `📚1` — Profile README Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [roj4s/jev-resume-scoring-report-site](https://github.com/roj4s/jev-resume-scoring-report-site) `📚1` — Public deployment of the Jev resume-scoring analysis
+- [rolottr/x-jev-classifier,1,JavaScript,,2026-09-18](https://github.com/rolottr/x-jev-classifier,1,javascript,,2026-09-18) `📚1`
+- [rosestolatoti/g1-de-ideias](https://github.com/rosestolatoti/g1-de-ideias) `📚1` — G1 DE IDEIAS — globo.com de ideias com JEV + OCR (Fábio Rosestolato). Portal estático 24/7: Tesserac
+- [row-security bypass rules](https://postgresql.org/docs/17/ddl-rowsecurity.html) `📚1`
+- [rreinold/jev-serve](https://github.com/rreinold/jev-serve) `📚1` — Single logit inference runtime for all LLM models
+- [RTXarjun/JEV-DB](https://github.com/rtxarjun/jev-db) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [ryota-nakazawa/ontology_jev_research](https://github.com/ryota-nakazawa/ontology_jev_research) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [sam-goodwin/typesafe-dynamodb](https://github.com/sam-goodwin/typesafe-dynamodb) `📚1` — TypeSafe type definitions for the AWS DynamoDB API
+- [samber/do](https://github.com/samber/do) `📚1` — ⚙️ A dependency injection toolkit based on Go 1.18+ Generics.
+- [SamuelNittala/swiggy-jev-poc](https://github.com/samuelnittala/swiggy-jev-poc) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [sashimikun/sql-jev](https://github.com/sashimikun/sql-jev) `📚1` — TypeScript library adding cached jev() predicates, scores and choices to SQL queries on SQLite, Turso/libSQL and Cloudflare D1, with deploy commands. no…
+- [sawa-it/jev-expense-classifier](https://github.com/sawa-it/jev-expense-classifier) `📚1`
+- [sayantan94/jev-search-cli](https://github.com/sayantan94/jev-search-cli) `📚1` — Internet search and page reading for coding agents, with TypeSafe Jev ranking
+- [scarranca/emailclassifier](https://github.com/scarranca/emailclassifier) `📚1`
+- [schmug/contextbuddy](https://github.com/schmug/contextbuddy) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [scio-labs/use-inkathon](https://github.com/scio-labs/use-inkathon) `📚1` — Typesafe React hooks and utility functions that simplify the process of working with Substrate-based
+- [seeden/kysely-orm](https://github.com/seeden/kysely-orm) `📚1` — TypeSafe ORM for Kysely library
+- [seeton/jev-pocs](https://github.com/seeton/jev-pocs) `📚1` — Jev API proofs of concept: HighwayEnv driving, real-time party battles, and shogi with tactical anno
+- [Semgrep](https://semgrep.dev) `📚1` — Use it to filter ticket dumps, mixed-language logs, or corpora by whether a proposition holds for each line (“customer asks for a refund”), including…
+- [shaduf-labs/jev-catalog](https://github.com/shaduf-labs/jev-catalog) `📚1` — Jev use cases, open-source alternatives, real products and current access prices.
+- [sharziki/groundcheck](https://github.com/sharziki/groundcheck) `📚1` — (notable) - Python library that checks whether a RAG answer is supported by its source using Jev, with AUC, latency and cost measured on 1,600 labeled…
+- [Shraiyash/inbox_classification](https://github.com/shraiyash/inbox_classification) `📚1` — Reusable TypeSafe Jev template for classifying and tagging incoming email.
+- [shubham10divakar/AnnotateJev](https://github.com/shubham10divakar/annotatejev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/LabelJev](https://github.com/shubham10divakar/labeljev) `📚1` — Jev-family model/tooling repo: LabelJev
+- [shubham10divakar/LogJev](https://github.com/shubham10divakar/logjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [singhpratech/sqljev](https://github.com/singhpratech/sqljev) `📚1` — Ask your SQL rows questions in plain English. jev() for SQL Server, PostgreSQL, MySQL, Snowflake, Da
+- [skundu42/kev](https://github.com/skundu42/kev) `📚1` — A 400 M-parameter encoder only System One model for decision-making and classification.
+- [slandau3/pi-fast-jev](https://github.com/slandau3/pi-fast-jev) `📚1` — Pi extension that asks Jev two noul questions per aged tool call and keeps, truncates or drops it from context, caching verdicts in the session file. no…
+- [smgonthebeat/jev-overseas-progress](https://github.com/smgonthebeat/jev-overseas-progress) `📚1` — inferred / other — ⭐0
+- [snakajima/bus20](https://github.com/snakajima/bus20) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Snapchat/ts-inject](https://github.com/snapchat/ts-inject) `📚1` — Typesafe dependency injection framework for TypeScript projects, providing easy-to-use, maintainable
+- [snellingio/system-one](https://github.com/snellingio/system-one) `📚1` — Proof-of-concept HTTP service on MLX that returns Choice, Score and Noul probabilities by reading a local model's logits at a fixed answer position. MIT ·…
+- [Snowflyt/graphql-intuitive-request](https://github.com/snowflyt/graphql-intuitive-request) `📚1` — Intuitive and (more importantly) TS-friendly GraphQL client for queries, mutations and subscriptions
+- [Snowflyt/tinyeffect](https://github.com/snowflyt/tinyeffect) `📚1` — A tiny TypeScript library for handling side effects in a unified way using algebraic effects, offeri
+- [Snowflyt/troza](https://github.com/snowflyt/troza) `📚1` — Intuitive state management for React and Vanilla, easier than ever.
+- [software-factory-vibe-city/jev-heuristic-research](https://github.com/software-factory-vibe-city/jev-heuristic-research) `📚1` — Data search and document workflows
+- [software-mansion/TypeGPU](https://github.com/software-mansion/typegpu) `📚1` — A modular and open-ended toolkit for WebGPU, with advanced type inference and the ability to write s
+- [SorenHolstHansen/SurrealX](https://github.com/sorenholsthansen/surrealx) `📚1` — Typesafe SurrealDB client
+- [sorgloomer/ts-typesafe-decorators](https://github.com/sorgloomer/ts-typesafe-decorators) `📚1` — Typesafe decorator type declarations and typesafe ioc helpers
+- [spacegiyou/slate-elect](https://github.com/spacegiyou/slate-elect) `📚1` — The model files a slate. It does not get a will. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) `📚1` — For durable search visibility, write distinctive comparisons and earn relevant editorial references. Do not buy dofollow placements, trade links at scale,…
+- [specta-rs/specta](https://github.com/specta-rs/specta) `📚1` — Easily export your Rust types to other languages
+- [specta-rs/tauri-specta](https://github.com/specta-rs/tauri-specta) `📚1` — Completely typesafe Tauri commands
+- [spliit.cloud](https://spliit.cloud) `📚1`
+- [SqaaSSL/aeat-doc-classifier](https://github.com/sqaassl/aeat-doc-classifier) `📚1` — Spanish AEAT document classification and reviewable PGC account suggestions powered by Jev. MIT.
+- [sqg-dev/sqg](https://github.com/sqg-dev/sqg) `📚1` — Generate typesafe code from SQL queries, DuckDB, SQlite, Postgres. ⭐️ Star to support our work!
+- [sqlex/sqlex](https://github.com/sqlex/sqlex) `📚1`
+- [SREGym-Lite's Jev experiment](https://sregym.com/blog/jev-sregym-lite) `📚1` — paired Jev with a coding agent on ten Kubernetes problems, five attempts per condition: 20/50 passes without Jev and 24/50 with it. Two problem types…
+- [Srijan-D/T3-stack-TypeSafeTodoPlatform](https://github.com/srijan-d/t3-stack-typesafetodoplatform) `📚1` — NextJS + Prisma + Typescript + Postgresql + NextAuth T3 stack TodoList with end to end typ
+- [srirsatt/jev-uicheck-fast](https://github.com/srirsatt/jev-uicheck-fast) `📚1` — inferred / apps-demos — ⭐0
+- [Stanjwb/gmail-sorter](https://github.com/stanjwb/gmail-sorter) `📚1` — Sorts Gmail into labels using typed judgments from TypeSafe Jev. No dependencies, dry-run by default
+- [stefanmaric/retryyy](https://github.com/stefanmaric/retryyy) `📚1` — A better way to retry async operations in TypeScript/JavaScript.
+- [Stepami/visitor-net](https://github.com/stepami/visitor-net) `📚1` — First-ever acyclic generic extensible typesafe implementation of Visitor pattern for .NET without an
+- [STRML/omp-jevens-classifier,1,TypeScript,,2026-09-16,Jev-powered](https://github.com/strml/omp-jevens-classifier,1,typescript,,2026-09-16,jev-powered) `📚1`
+- [studioigor/jev-rts-assets](https://github.com/studioigor/jev-rts-assets) `📚1`
+- [subframe7536/typesafe-electron-ipc](https://github.com/subframe7536/typesafe-electron-ipc) `📚1` — typesafe ipc utils for electron
+- [suchen-sci/gfn](https://github.com/suchen-sci/gfn) `📚1` — A lightweight Golang generics library that provides Map, Reduce and more...
+- [SudhansuuRanjan/typesafe_xlabeller](https://github.com/sudhansuuranjan/typesafe_xlabeller) `📚1` — Browser extension plus Cloudflare Worker that labels X timeline posts as ragebait, spam, hidden ad and more, batching 20 posts into one Jev call. no license ·…
+- [suenot/jev-trading-bots-research](https://github.com/suenot/jev-trading-bots-research) `📚1` — Pinned Jev trading bot catalog, warehouse backtests, and reproducible research scripts
+- [superagents-lab/jev-search,469,TypeScript,MIT,2026-09-20,2026-09-26](https://github.com/superagents-lab/jev-search,469,typescript,mit,2026-09-20,2026-09-26) `📚1`
+- [surinkim/jev-alert-demo](https://github.com/surinkim/jev-alert-demo) `📚1` — Jev-style LLM alert judgment demo: pick one option and read logprobs with Ollama
+- [SvirepyiBambr/pollinations-jev-jury](https://github.com/svirepyibambr/pollinations-jev-jury) `📚1` — inferred / other — ⭐0
+- [syedabbasshaheer-art/AI-on-Github](https://github.com/syedabbasshaheer-art/ai-on-github) `📚1` — A category-anchored catalogue of 1,442 shipped projects — what each one is for, what it is
+- [syndicalt/docjev](https://github.com/syndicalt/docjev) `📚1` — TypeScript sidecar that filters, ranks, classifies and scores JSON documents from a document DB with Jev, caching judgments per condition. no license ·…
+- [sypherin/jev-trace-classifier,1,Python](https://github.com/sypherin/jev-trace-classifier,1,python) `📚1`
+- [SystemSolution21/Jev_TypeSafe_AI](https://github.com/systemsolution21/jev_typesafe_ai) `📚1` — inferred / other — ⭐0
+- [TakashiYoshinaga/Jev-vs-VectorSearch](https://github.com/takashiyoshinaga/jev-vs-vectorsearch) `📚1`
+- [tangwut/jev-alternative](https://github.com/tangwut/jev-alternative) `📚1` — inferred / apps-demos — ⭐0
+- [tanimoto1996/mrs-setlist](https://github.com/tanimoto1996/mrs-setlist) `📚1`
+- [TechGenDM/Jev-DocEval](https://github.com/techgendm/jev-doceval) `📚1` — A hybrid CLI and SPA dashboard leveraging the TypeSafe System One (Jev) API to perform quantitative,
+- [Telegram @logicrw](https://t.me/logicrw) `📚1` — (logicrw.chen@gmail.com)(mailto:logicrw.chen@gmail.com) · Telegram @logicrw · X @0xLogicrw
+- [TetraspaceW/little-village](https://github.com/tetraspacew/little-village) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Tev1 0.8B](https://madewithjev.com/builds/tev1-local-classifier) `📚1` — Together AI's open Jev-style classifier
+- [The Ultimate Classification Model?](https://daily.dev/posts/jev---the-ultimate-classification-model--adcdu4y6u) `📚1`
+- [the-key-software/quran_api.dart](https://github.com/the-key-software/quran_api.dart) `📚1` — Implementation of the Quran API based on the official documentation
+- [TheDevMinerTV/typed-at-rest](https://github.com/thedevminertv/typed-at-rest) `📚1` — Simple typesafe HTTP handlers and clients backed by @effect/schema
+- [thomasjjj/system_one_classifications_human_rights](https://github.com/thomasjjj/system_one_classifications_human_rights) `📚1` — An exploration into System One classification (e.g. Jev) for social media labelling
+- [tiendc/gofn](https://github.com/tiendc/gofn) `📚1` — High performance utility functions using Generics
+- [TimeBudhil/ResearchAssistantTool](https://github.com/timebudhil/researchassistanttool) `📚1` — Chat app for background research on a new academic topic: a team of agents plans the research, searches arXiv and OpenAlex, scores every paper with TypeSafe's…
+- [timjonez/jev-gate](https://github.com/timjonez/jev-gate) `📚1` — Allow Herdr command prompts with TypeSafe Jev.
+- [TinyKitten/KittanRadar](https://github.com/tinykitten/kittanradar) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [tmigone/slopometer](https://github.com/tmigone/slopometer) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Tomatio13/typesafe-usage](https://github.com/tomatio13/typesafe-usage) `📚1` — TypeSafe (Jev) usage reporting Agent Skill — request counts, token usage, and estimated costs from t
+- [tomerw56/jev_log_cli](https://github.com/tomerw56/jev_log_cli) `📚1` — jev like api demo -what it is and what it isn't
+- [tonbiattack/jev-sql-danger-checker](https://github.com/tonbiattack/jev-sql-danger-checker) `📚1`
+- [TonyP-MR/typesafe-curation-engine-prototype](https://github.com/tonyp-mr/typesafe-curation-engine-prototype) `📚1` — Read-only TypeSafe Jev feasibility test rig for comparing structured Curation Engine classification decisions with existing LLM audit results. Automatically…
+- [topic documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) `📚1` — GitHub's topic documentation describes discovery through topic pages and search. Keep the existing relevant topics and add awesome-list. Additional accurate…
+- [tos.watch](https://tos.watch) `📚1` — Access: public site tos.watch; self-host the Apache-2.0 source. Classification needs a TypeSafe key; Worker path needs Cloudflare credentials. No app purchase…
+- [traffic documentation](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository) `📚1` — GitHub's traffic documentation describes a rolling 14-day view of visitors, clones, referrers, and popular content. Use the owner's Insights > Traffic view…
+- [trajev/restaurant-mysql-project](https://github.com/trajev/restaurant-mysql-project) `📚1` — A MySQL-based Restaurant Management database with schema, sample data, and 30 real-world SQL exercises. Designed for practicing complex queries and managing …
+- [TreeCityWes/jev_x1](https://github.com/treecitywes/jev_x1) `📚1` — x1.xyz transaction classifier
+- [Trehinos/any_of](https://github.com/trehinos/any_of) `📚1` — A general optional sum of product type which can be Neither, Left, Right or Both.
+- [treycausey/semantic-find](https://github.com/treycausey/semantic-find) `📚1` — Local evidence search with optional Jev semantic ranking
+- [truehannan/computer-jev](https://github.com/truehannan/computer-jev) `📚1` — inferred / agent-tooling — ⭐1
+- [tunahansahin897/what-is-jev](https://github.com/tunahansahin897/what-is-jev) `📚1` — what-is-jev - A sourced, critical research file on TypeSafe's Jev (System One) model, plus a rubric-scored map of 780 public repositories. English / Türkçe.
+- [twilson63/lfg](https://github.com/twilson63/lfg) `📚1` — A bounded research, planning, implementation, validation, and review workflow skill for coding agents. Automatically matched explicit Jev and TypeSafe/System…
+- [Tyrenn/helice](https://github.com/tyrenn/helice) `📚1` — Yet another typesafe postgresql query builder 🛩️
+- [UnbelievableT/topxai-docs](https://github.com/unbelievablet/topxai-docs) `📚1` — TopxAI documentation: one OpenAI- and Anthropic-compatible API for Claude, GPT, Grok, GLM, Kimi and Jev at fi…
+- [ungerts/jev](https://github.com/ungerts/jev) `📚1` — Checks whether Jev independently chooses the option documented in a MADR architectural decision reco
+- [upstash/jstack](https://github.com/upstash/jstack) `📚1` — Build seriously fast, lightweight and end-to-end typesafe Next.js apps
+- [ustoppble/openjarvisbr](https://github.com/ustoppble/openjarvisbr) `📚1` — OpenJarvisBR — assistente de voz open source em Rust com Gemini Live Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [uudam42/JevPilot](https://github.com/uudam42/jevpilot) `📚1` — inferred / agent-tooling — ⭐1
+- [uzair223/casey](https://github.com/uzair223/casey) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [uzak0209/AI-Research](https://github.com/uzak0209/ai-research) `📚1`
+- [Vahor/typed-es](https://github.com/vahor/typed-es) `📚1` — Automatically add output types to your Elasticsearch queries.
+- [vaibhavgupta5/Jev-Email-Classifier](https://github.com/vaibhavgupta5/jev-email-classifier) `📚1`
+- [varunlohade/jevgrep](https://github.com/varunlohade/jevgrep) `📚1` — Search code by meaning: ask 'where do we retry failed payments?', get file:line in ~1s. Built on TypeSafe's jev.
+- [Vel-Labs/velGraphing](https://github.com/vel-labs/velgraphing) `📚1`
+- [Vercel command-safety checks](https://omegatechnologysolutionsgroupinc.com/blog/typesafe-ais-jev-model-chooses-actions-not-words-ca35b3) `📚1` — Vercel engineer Pranit Sharma: 5–18× faster than ChatGPT Luna 5.6, improved classification accuracy
+- [vertexcover-io/who-is-hiring](https://github.com/vertexcover-io/who-is-hiring) `📚1` — Filterable board of HN Who is hiring posts, each labeled by 16 Jev Choice questions and rebuilt by a GitHub Action every 6 hours. no license · Python · live
+- [Vexa-ai/jev-transcript](https://github.com/vexa-ai/jev-transcript) `📚1` — Live Vexa transcript annotations with Jev: signals, entities and word significance
+- [vhpctnyd5x-lab/localai-16gb](https://github.com/vhpctnyd5x-lab/localai-16gb) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [vikramlingam/excelpilot,0,Python,,2026-09-20,ExcelPilot](https://github.com/vikramlingam/excelpilot,0,python,,2026-09-20,excelpilot) `📚1`
+- [vilicvane/typesafe-mongo](https://github.com/vilicvane/typesafe-mongo) `📚1` — TypeSafe utilities for official MongoDB Node.js driver
+- [virajlokhande0912/smart_search_using_jev](https://github.com/virajlokhande0912/smart_search_using_jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [vishalpalepu/ActionItemExtractor](https://github.com/vishalpalepu/actionitemextractor) `📚1` — Extract action items, team decisions, and blockers from raw meeting notes in ~seconds/minutes using
+- [vishalsachdev/harvest-classifier](https://github.com/vishalsachdev/harvest-classifier) `📚1`
+- [vonhatcuong/vn-legal-ref-extractor](https://github.com/vonhatcuong/vn-legal-ref-extractor) `📚1` — Trích xuất văn bản pháp luật Việt Nam được dẫn chiếu, dùng regex + TypeSafe Jev
+- [voxmenthe/code-search-jev](https://github.com/voxmenthe/code-search-jev) `📚1`
+- [WALLE-AI/jev_replica](https://github.com/walle-ai/jev_replica) `📚1`
+- [WAR10CK222/jev-classifier](https://github.com/war10ck222/jev-classifier) `📚1` — Classifier / router for support tickets over a local jev-compatible sidecar (jeff)
+- [washingtonserip/micro-saas-boilerplate](https://github.com/washingtonserip/micro-saas-boilerplate) `📚1` — Production-ready monorepo starter with End-to-end typesafe API
+- [watthem/tos-watch](https://github.com/watthem/tos-watch) `📚1` — Upstream README: Jev classifies material changes in Terms of Service / privacy diffs in the alert pipeline.
+- [Waxmell114514/x-feeder](https://github.com/waxmell114514/x-feeder) `📚1` — CLI that gathers Reddit, HN, news and RSS posts on an issue, has Jev classify stance per document, and reports per-source-tier consensus and divergence alerts.…
+- [web3w/promosift-extension](https://github.com/web3w/promosift-extension) `📚1` — PromoSift: open-source X promotion detector powered by the Jev decision model. Label or fold ads X does not identify.
+- [webdevcody/jev-demos](https://github.com/webdevcody/jev-demos) `📚1` — Jev demos, labelled by Jev for creativity, wow factor and utility
+- [webNeat/wari](https://github.com/webneat/wari) `📚1` — A type-safe way to create and handle errors.
+- [Website guide](https://jevlogs.com/guide) `📚1` — CLI, receiver configuration, redaction, and troubleshooting. There is no hosted log-analysis service to connect to.
+- [WeiS49/message-tone-checker](https://github.com/weis49/message-tone-checker) `📚1` — A bilingual pre-send message checker with communication goals, tone analysis, and A/B comparisons, p
+- [whatisjev.com (also available in Chinese)](https://whatisjev.com/zh/getting-started) `📚1` — Community-maintained knowledge site
+- [whichskills.dev](https://whichskills.dev) `📚1` — Public census methodology notes for whichskills.dev in scripts/build_site.py (author-reported costs).
+- [wobsoriano/trpc-nuxt](https://github.com/wobsoriano/trpc-nuxt) `📚1` — End-to-end typesafe APIs in Nuxt applications.
+- [xavierloeraflores/jev-github-labeler](https://github.com/xavierloeraflores/jev-github-labeler) `📚1` — Automatically label GitHub issues and pull requests with Jev. Self-hosted Next.js API with GitHub Actions workflows and custom label support.
+- [xavierloeraflores/jev-issue-classifier](https://github.com/xavierloeraflores/jev-issue-classifier) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [xinye1017/obsidian-smart-tagger](https://github.com/xinye1017/obsidian-smart-tagger) `📚1`
+- [xiutian-cui/jueding](https://github.com/xiutian-cui/jueding) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [xmili233/Logra](https://github.com/xmili233/logra) `📚1` — Next.js platform where a local agent drafts forms and workflow graphs and published flows use Jev via OpenRouter for semantic branching. MIT · TypeScript
+- [xnuonux/Jev-Researcher](https://github.com/xnuonux/jev-researcher) `📚1` — Host-led research toolkit: Exa discovery, Jev triage, and provenance-preserving evidence packets for
+- [xxvw/jgrep](https://github.com/xxvw/jgrep) `📚1`
+- [yangfch3/LayaFireWorks](https://github.com/yangfch3/layafireworks) `📚1`
+- [yangfch3/LayaSlideWidget](https://github.com/yangfch3/layaslidewidget) `📚1`
+- [yefoi/Litigmeter](https://github.com/yefoi/litigmeter) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [YoshinariYamanaka/PostgreSql-client](https://github.com/yoshinariyamanaka/postgresql-client) `📚1` — topic:typesafe created:2022-01-01..2022-12-31
+- [YTAL](https://ytal.io/blog/typesafe-jev-entity-resolution-production-replay) `📚1` — Production-log replay of entity resolution: the model stage was ~96% cheaper, but the system cost rose 4.1% once uncertain cases fell back. Not adopted; the…
+- [Yuchi-Wang02/jev-scope-challenge](https://github.com/yuchi-wang02/jev-scope-challenge) `📚1` — inferred / research-models — ⭐0
+- [yuvalraviv1/highlight](https://github.com/yuvalraviv1/highlight) `📚1` — Sentence heatmaps and paragraph main ideas, scored by TypeSafe's Jev model. Bring your own API key.
+- [zackradisic/tyfsm](https://github.com/zackradisic/tyfsm) `📚1` — wip) simple and typesafe finite automata based state management library. Inspired by zustand and xs
+- [zahariivanov87/jev-classifier,0,Python,,2026-09-24,Simple](https://github.com/zahariivanov87/jev-classifier,0,python,,2026-09-24,simple) `📚1`
+- [zedalaye/aegis](https://github.com/zedalaye/aegis) `📚1` — The architect harness Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [zerocoolailabs/jevscan-chainmonitor](https://github.com/zerocoolailabs/jevscan-chainmonitor) `📚1` — Research transaction monitor with curated historical hack-detection results and explicit safety boundaries
+- [zhuyansen/jev-zeroshot-vs-bert](https://github.com/zhuyansen/jev-zeroshot-vs-bert) `📚1` — Zero-shot text classification: TypeSafe Jev vs BERT-family zero-shot (NLI, embeddings) on 6 public t
+- [Zilpione/typesafe-jev-dotnet](https://github.com/zilpione/typesafe-jev-dotnet) `📚1` — TypeSafe.Jev .NET Wrapper - independent .NET client for Jev
+- [zoroperona/mxd-jev](https://github.com/zoroperona/mxd-jev) `📚1` — Windows MapleStory visual control prototype with optional Jev decisions
+- [官网](https://omnijev.net) `📚1`
+- [更新记录](https://docs.composio.dev/reference/changelog) `📚1`
+
+</details>

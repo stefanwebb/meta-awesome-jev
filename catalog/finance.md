@@ -1,0 +1,321 @@
+# Finance, Trading & Commerce
+
+> Trading bots, prediction markets, tax/invoice processing and e-commerce.
+>
+> **298 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 21
+
+- [jarrodwatts/jev-trader](https://github.com/jarrodwatts/jev-trader) `★2,708 · 📚71` — One AI trade decision every Monad block. Jev on Kuru MON-USDC.
+- [kyotofin/tax-doc-classifier](https://github.com/kyotofin/tax-doc-classifier) `★483 · 📚41` — Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.
+- [aowang-ai/jev-trade](https://github.com/aowang-ai/jev-trade) `★171 · 📚38` — Live Jev trader on Hyperliquid.
+- [OpenByteInc/QuantDinger](https://github.com/openbyteinc/quantdinger) `★12,344 · 📚29` — Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with…
+- [zadescoxp/Jev-Trades](https://github.com/zadescoxp/jev-trades) `★38 · 📚27` — Trading bot with the all new TypeSafe AI's first system one model named as Jev
+- [sosopop/jev_stock](https://github.com/sosopop/jev_stock) `★14 · 📚25` — An experimental JEV-powered framework for forecasting short-term stock price direction from structured market data.
+- [brainstormity/Jev-X-Sentiment-Analysis](https://github.com/brainstormity/jev-x-sentiment-analysis) `★173 · 📚23` — Jev X Sentiment Analysis - Crypto market intelligence terminal that combines X sentiment, market data, and Jev decisions.
+- [unicodeveloper/jevocks](https://github.com/unicodeveloper/jevocks) `★19 · 📚23` — Everyday Stocks Status with Jev.
+- [rorshopping/jev-on-a-laptop](https://github.com/rorshopping/jev-on-a-laptop) `★24 · 📚22` — Unofficial study: Jev-style parallel typed decisions on stock 1.5B-8B models on an Apple Silicon laptop. Benchmarks, research notes, and a Hugging Face Space demo.
+- [justinhe16/trade-jev](https://github.com/justinhe16/trade-jev) `★11 · 📚18` — Backtest Jev (TypeSafe) as a BUY/SELL/HOLD trader on NQ L10 order-book data
+- [WebGrga/btc-jev-signal](https://github.com/webgrga/btc-jev-signal) `★4 · 📚18` — Experimental multi-horizon BTC signal generator using TypeSafe Jev probabilities and Binance market data.
+- [rthomas24/jev-realtime-trading](https://github.com/rthomas24/jev-realtime-trading) `★6 · 📚14` — Desktop app for paper-trading stocks and crypto on live prices, with TypeSafe's Jev making the calls and your stops, targets and limits enforced in code. Windows and macOS; never touches real money.
+- [Eric-Zhou-0302/jev-A-share-trader](https://github.com/eric-zhou-0302/jev-a-share-trader) `★2 · 📚12` — A Jev-powered technical analysis workspace for China A-shares, supporting AKShare/Tushare, market scans, and Buy/Hold/Sell assessments with time horizons and traceable evidence.
+- [Spykoninho/trading-bot-jev](https://github.com/spykoninho/trading-bot-jev) `★1 · 📚12` — Crypto trading bot on Binance testnet using TypeSafe (Jev) to judge news
+- [JordiParraCrespo/typesafe-ai-trading-showcase](https://github.com/jordiparracrespo/typesafe-ai-trading-showcase) `★0 · 📚12` — Provavelmente: preços ao vivo BTC, ETH e XRP com uma demonstração compartilhada TypeSafe de compra ou espera. Não há troca.
+- [imikerussell/beebots](https://github.com/imikerussell/beebots) `★185 · 📚11` — Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.
+- [thodoh1/FinancialPredictionJev](https://github.com/thodoh1/financialpredictionjev) `★0 · 📚11` — Using Jev to test how well it predicts financial markets(just like most llms as of september 2026, it doesnt do that good)
+- [dealerdefi/Jevmind](https://github.com/dealerdefi/jevmind) `★183 · 📚10` — Jevmind - Jevmind: TypeSafe Jev ecosystem repository. · Python
+- [arimanyus/warrenduffer](https://github.com/arimanyus/warrenduffer) `★93 · 📚10` — AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal dashboard.
+- [frankda/jev-poly-crypto-demo](https://github.com/frankda/jev-poly-crypto-demo) `★38 · 📚10` — jev-poly-crypto-demo — Crypto decision dashboard that uses Jev to classify market state and risk. _TypeScript; ★ 37._
+- [jev-trader.vercel.app](https://jev-trader.vercel.app) `📚10` — (Jev Trader)(projects/305-jev-trader.md) — README.md:305 — One buy/sell decision per Monad block on Kuru's MON-USDC book. Live demo: jev-trader.vercel.app.
+
+## Established (cited by 5–9 lists) — 38
+
+- [Waxmell114514/jev-trade](https://github.com/waxmell114514/jev-trade) `★1 · 📚9` — jev-trade - A simulated crypto trading loop that sends BTC and ETH market features to Jev and models execution costs and latency.
+- [IslamBaraka90/jev-typesafe-real-financial-use-cases](https://github.com/islambaraka90/jev-typesafe-real-financial-use-cases) `★0 · 📚9` — Fifty real-world financial use cases for TypeSafe's Jev model: typed, structured LLM answers over ledgers, fraud, portfolios, trades and filings, each graded against data where the right answer is known.
+- [renatosousa/jev-trader](https://github.com/renatosousa/jev-trader) `★0 · 📚9` — jev-trader - Applications (7): jev.nvim, github-star-organizer-jev, jev, JevSysUno, jev-trader, newsscore, trading-bot-jev.
+- [zzsong1023/jev-market-reflex](https://github.com/zzsong1023/jev-market-reflex) `★3 · 📚8` — Fast typed AI decisions on live crypto markets using TypeSafe AI Jev.
+- [EthanAlgoX/AIStock](https://github.com/ethanalgox/aistock) `★339 · 📚7` — One person can become their own super-analyst. Try it online: https://myaistock.top
+- [markusbug/jevymarket](https://github.com/markusbug/jevymarket) `★12 · 📚7` — Polymarket trading bot driven by Jev (TypeSafe AI) via OpenRouter
+- [maxlibin/moomoo-jev-trader](https://github.com/maxlibin/moomoo-jev-trader) `★6 · 📚7` — Live Moomoo trading dashboard with TypeSafe Jev market reviews
+- [michaelpersonal/jev-trade-cc](https://github.com/michaelpersonal/jev-trade-cc) `★4 · 📚7` — Jev Can Trade Stocks — a point-in-time O'Neil momentum backtest where TypeSafe's System One model picks the entries and judges the exits
+- [BrunooMoniz/polymarket-btc-5m-agent](https://github.com/brunoomoniz/polymarket-btc-5m-agent) `★2 · 📚7` — Agente de trading para o mercado BTC Up/Down de 5 minutos da Polymarket: modelo em código, Jev (TypeSafe System One) como portão, ordens maker, calibração e shadows em paper
+- [kt3k/jevchat](https://github.com/kt3k/jevchat) `★1 · 📚7` — jevchat - A chat-style Jev demo whose answers are selected from predefined or custom options rather than generated prose.
+- [VGabriel45/polymarket-btc5m-jev-trading](https://github.com/vgabriel45/polymarket-btc5m-jev-trading) `★36 · 📚6` — 5m BTC Up/Down Polymarket trading agent using Typesafe Jev as the decision layer & TUI
+- [buberlo/jev-trader](https://github.com/buberlo/jev-trader) `★35 · 📚6` — 24/7 market-making system around Jev (TypeSafe System One) decisions: deterministic state, calibrated judgments, hard risk vetoes.
+- [SaratAngajalaoffl/jeeva](https://github.com/saratangajalaoffl/jeeva) `★14 · 📚6` — Modular trading framework for Mid-Frequency Trading
+- [EthanAlgoX/jev-trading](https://github.com/ethanalgox/jev-trading) `★3 · 📚6` — jev-trading - jev-trading: TypeSafe Jev ecosystem repository. · TypeScript
+- [xuboboo/ashare-trader](https://github.com/xuboboo/ashare-trader) `★3 · 📚6` — 基于 Jev 的 A 股 T+1 决策台：盘前预选 + 交易时段全程决策 + 本地概率模型 + 严格成本回测 + QMT 桥接（默认不下单）。1 万本金影子盘记录中；策略未证实正期望（README 有全部数据）。
+- [MojoAI-King/jev-paper-trader](https://github.com/mojoai-king/jev-paper-trader) `★1 · 📚6` — Paper trading real Polymarket and Kalshi markets with a fake $100k: can Jev + Claude research beat the market?
+- [adilmoujahid/jev-banking77-demo](https://github.com/adilmoujahid/jev-banking77-demo) `★0 · 📚6` — A single-page Next.js app that classifies PolyAI BANKING77 customer support queries with Jev, TypeSafe AI's System One model, and streams the results into the UI one ticket at a time.
+- [jev-trade.com](https://jev-trade.com) `📚6`
+- [kangshifu1/jev-skills-market](https://github.com/kangshifu1/jev-skills-market) `★0 · 📚6` — Community Jev skill market and assistant for automation testing, finance research and voice workflows. Computer Use is an independent repository.
+- [Octalab-Inc/jqv](https://github.com/octalab-inc/jqv) `★0 · 📚6` — Decision API on stock Qwen3: shared-state prefill, isolated question branches, direct choice-token readout, temperature-calibrated probabilities (Jev-style), TypeSafe-compatible /v1/systemone
+- [site](https://jevtrades.zadescoxp.com) `📚6`
+- [someka-vrc/obsidian-note-filer](https://github.com/someka-vrc/obsidian-note-filer) `★0 · 📚6` — Categorize notes with Typesafe AI Jev and move them into folders that follow a standard taxonomy.
+- [ldbumble/taskuary](https://github.com/ldbumble/taskuary) `★130 · 📚5` — Automate your job: local-first AI task hub. Email, Teams, Slack & reports -> one timeline -> AI triage -> your coding agents (Claude Code, Codex, Gemini) do the work, you approve.
+- [erboland/jev-fund](https://github.com/erboland/jev-fund) `★5 · 📚5` — Open-source paper hedge fund. Jev decides. Public tape of holdings, buys, and losses.
+- [svmanth/jmarket](https://github.com/svmanth/jmarket) `★4 · 📚5` — Polymarket tells you what the crowd thinks. This tells you what Jev thinks.
+- [aarzhaev/jevtok-ts](https://github.com/aarzhaev/jevtok-ts) `★2 · 📚5` — Offline Jev token counting and request accounting for Node.js and Next.js. MIT TypeScript port of LabGuy94/jevtok.
+- [0xZee/jev-stock-decision-maker](https://github.com/0xzee/jev-stock-decision-maker) `★1 · 📚5` — JEV Decision is a live demo that turns market data into structured decisions. It pulls real-time prices, valuation ratios and sector context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction, financial health…
+- [Siim/jev-claim-vs-measured](https://github.com/siim/jev-claim-vs-measured) `★1 · 📚5` — I tested the 'AI model for HFT' hype: TypeSafe Jev on 298,549 intraday trades. 48.4% hit rate, worse than a coin flip before fees. Every model response shipped, so anyone can verify without an API key.
+- [swang666/polymarket-jev](https://github.com/swang666/polymarket-jev) `★1 · 📚5` — Polymarket resolution-lag scanner built on TypeSafe's Jev model. Finds markets where a published fact already satisfies the written resolution rules but the price has not caught up. Alert-only.
+- [djascorp/jev-trade](https://github.com/djascorp/jev-trade) `★0 · 📚5` — Trading project using JEV by TypeSafe AI.
+- [Hari31416/typesafe-demo-finance-tracking-app](https://github.com/hari31416/typesafe-demo-finance-tracking-app) `★0 · 📚5` — A demo of personal finance tracker powered by TypeSafe AI's Jev model
+- [itsadrianxv/jev-quant](https://github.com/itsadrianxv/jev-quant) `★0 · 📚5` — C++ trading system leveraging TypeSafe Jev, connected to SimNow and Binance for paper trading
+- [klren0312/jev-trade](https://github.com/klren0312/jev-trade) `★0 · 📚5` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [site](https://typesafe-ai-trading-showcase.vercel.app) `📚5`
+- [waterme7on/jev-paper-trader](https://github.com/waterme7on/jev-paper-trader) `★0 · 📚5` — 用 typesafe-ai/jev 做决策引擎的 BTC/ETH 纸面交易台（每 5 秒评估，含买卖点与决策历史）
+- [yasdelayu/jev-crypto-scout](https://github.com/yasdelayu/jev-crypto-scout) `★0 · 📚5` — Crypto screening: quant signals in code (CoinGecko), news judgment via Jev (TypeSafe System One) — sentiment/catalyst/confirmed, not a trading bot
+- [yo4e/JevPip](https://github.com/yo4e/jevpip) `★0 · 📚5` — GMOのFX/BTC市場データに対応したローカル市場研究ターミナル。ライブチャート、ペーパートレード、バックテスト、安全監督、TypeSafe Jev連携。安全機構を整えたうえで実売買対応予定。
+- [Zeaulo/bit-jev](https://github.com/zeaulo/bit-jev) `★0 · 📚5` — Kev-style structured decisions on BitNet with a native I2_S CPU path (source preview)
+
+## Emerging (cited by 3–4 lists) — 42
+
+- [abhixhek/feedwall](https://github.com/abhixhek/feedwall) `📚4` — Your feed, your rules, in plain English. A browser extension that filters X, YouTube, Reddit, LinkedIn and Ha…
+- [davidalmeida90/jev-for-finance](https://github.com/davidalmeida90/jev-for-finance) `📚4` — Jev applied to financial research. Jev RAG vs agentic RAG on 10-Ks from Apple, Microsoft, Nvidia and Amazon: 50/50 right with one ...
+- [dje96/demo-grocery-web](https://github.com/dje96/demo-grocery-web) `📚4` — demo-grocery-web - Basket — Snowplow grocery ecommerce demo with TypeSafe Jev purchase-intent classification · TypeScript
+- [effective-shipping/slop-fold](https://github.com/effective-shipping/slop-fold) `📚4` — slop-fold - Browser extension that folds AI-ish LinkedIn posts, judged by Jev from TypeSafe AI · TypeScript
+- [ericflo/pairsort](https://github.com/ericflo/pairsort) `📚4` — pairsort: rank anything with AI judges — many small pairwise questions, coupled into one calibrated ranking (PKPD / Bradley–Terry) on Jev-style judges
+- [j7708git/jev-tradingview-signal](https://github.com/j7708git/jev-tradingview-signal) `📚4`
+- [loopgridio/loopgrid-jev](https://github.com/loopgridio/loopgrid-jev) `📚4` — LoopGrid for Jev - Signed, tamper-evident evidence for live TypeSafe AI Jev decisions through Vercel AI Gateway.
+- [Nachom3/jevTrader](https://github.com/nachom3/jevtrader) `📚4` — jevTrader — A High Frecuncy Trader made in Rust using Jev as a decision maker.
+- [ORiONx888/JevSentinel](https://github.com/orionx888/jevsentinel) `📚4` — Real-time token risk intelligence and early-warning protection engine for crypto alert systems. Built around JEV with behavioral, wallet, market, liquidity, and security ...
+- [Shashank-H/jev-trader](https://github.com/shashank-h/jev-trader) `📚4` — jev-trader - Shashank-H/jev-trader - An automated trader using SystemOne model - TypesafeAI Jev.
+- [sprah/jev-monid-poc](https://github.com/sprah/jev-monid-poc) `📚4` — Proof-of-concept combining TypeSafe AI's Jev with Monid's pay-per-call API marketplace
+- [swap-mitra/jev-techstack-classifier](https://github.com/swap-mitra/jev-techstack-classifier) `📚4` — Describe a software project in plain English and get a probability-ranked tech stack (frontend, back
+- [adarshvermaa/trading_bot](https://github.com/adarshvermaa/trading_bot) `📚3` — Engineered with a confluence-driven architecture combining ICT / Smart Money Concepts, a TradingView
+- [adebmbng/jev-trade-prediction](https://github.com/adebmbng/jev-trade-prediction) `📚3` — Mobile-first BTC/ETH dashboard with live Binance candles and indicators where Jev gives a long/short/wait or exit/wait call; places no orders. no license · TypeScript
+- [automaticdai/jev-semantic-cost-map](https://github.com/automaticdai/jev-semantic-cost-map) `📚3` — jev-semantic-cost-map - jev-semantic-cost-map: TypeSafe Jev ecosystem repository. · Python
+- [Chetax/jev-ecommerce-reviews](https://github.com/chetax/jev-ecommerce-reviews) `📚3` — E-commerce review classification with TypeSafe's Jev: Google Sheets → typed decisions (topic, sentim
+- [commonweavelabs-crypto/tierllama](https://github.com/commonweavelabs-crypto/tierllama) `📚3` — Jev-powered model router - measured 77.8% token-cost savings on real workloads. Local-first, cloud w
+- [dafsic/jev-xmr](https://github.com/dafsic/jev-xmr) `📚3` — xmr hyperliquid trading agent Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dominusDeus/jev-trader-fork](https://github.com/dominusdeus/jev-trader-fork) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [ec812/typesafe-playground](https://github.com/ec812/typesafe-playground) `📚3` — Next.js playground for building custom Choice/Score/Noul questions plus a stock-news signal analyzer, with results saved to local SQLite. no license · TypeScript
+- [gbesse/jev-contract-graph](https://github.com/gbesse/jev-contract-graph) `📚3` — jev-contract-graph - Conditional payoff proofs for prediction-market contracts with optional Jev semantic review. · JavaScript
+- [hungryboygeorge/kblam](https://github.com/hungryboygeorge/kblam) `📚3` — blam: the knowledge base for LLM-assisted mereology. it's a flat-file research/knowledge storage system with enforced organization (using heuristics, semantic similarity, and Jev ...
+- [inkwell-finance/jev-switchyard](https://github.com/inkwell-finance/jev-switchyard) `📚3` — Fork of NVIDIA NeMo Switchyard testing Jev as the routing classifier between Kimi K2.7 Code and Claude Opus 4.7, with a 20-task comparison runner. Apache-2.0 · Python
+- [JienWeng/jev-trader](https://github.com/jienweng/jev-trader) `📚3` — jev-trader — _(★0, Python)_
+- [jwallio/jev-trader](https://github.com/jwallio/jev-trader) `📚3` — jev-trader - jwallio/jev-trader - One AI trade decision every Monad block. Jev on Kuru MON-USDC.
+- [KiishiAD/jev-loan-identity-benchmark](https://github.com/kiishiad/jev-loan-identity-benchmark) `📚3` — Typos, OCR corruption and confusable names in loan matching: 100% precision, 97.5% recall held out. jev-1.13.0
+- [kitapplegate/commander-oracle](https://github.com/kitapplegate/commander-oracle) `📚3` — commander-oracle - Buy/Hold/Sell outlook for new Magic: The Gathering cards, driven by Commander demand. Price history + EDHREC + TypeSafe Jev judgments. · Python
+- [maxchichar/zooma-onchain-bot](https://github.com/maxchichar/zooma-onchain-bot) `📚3` — a ZERO-DOLLAR on-chain intelligence and trading platform using JEV by TypeSafe AI as a core reasonin
+- [mrjev.com](https://mrjev.com/projects) `📚3` — Browse and filter this list, and read guides on getting started and pricing, at mrjev.com.
+- [nevzataksoy/jev-trader-bybit](https://github.com/nevzataksoy/jev-trader-bybit) `📚3` — jev-trader-bybit - jev-trader-bybit: TypeSafe Jev ecosystem repository. · TypeScript
+- [Omniaeye/omnia-trading](https://github.com/omniaeye/omnia-trading) `📚3` — Assess market, holder, liquidity and risk observations with configurable rules and traceable results.
+- [original0211/jev-perp-paper-trader](https://github.com/original0211/jev-perp-paper-trader) `📚3` — Paper-trading dashboard for crypto perpetuals routed through Jev (TypeSafe System One model), inspir
+- [rtorcato/jev-stocks](https://github.com/rtorcato/jev-stocks) `📚3` — jev-stocks - jev-stocks: TypeSafe Jev ecosystem repository. · TypeScript
+- [simonmesmith/jev-banking77-experiment](https://github.com/simonmesmith/jev-banking77-experiment) `📚3` — Reproducible BANKING77 classification eval: Jev 92.40% accuracy vs 93.66% for a fine-tuned BERT (−1.26 pt), US$0.44 total test cost (created 2026-09-18).
+- [Solizardking/clawd-jev-trading-machine](https://github.com/solizardking/clawd-jev-trading-machine) `📚3` — clawd-JEV-trading machine: JEV-on-Solana paper trader. TypeSafe jev-latest brain, dynamic action spa
+- [tameernoor/aotn-jev-invoices](https://github.com/tameernoor/aotn-jev-invoices) `📚3` — Jev judges invoices, code decides. Companion code for the article "The classifier you don't have to train".
+- [theman001/JEV_Coin](https://github.com/theman001/jev_coin) `📚3` — JEV_Coin — Jev AI (TypeSafe System One) crypto scalping long/short paper-trading bot with web monitor (Docker/ARM64/OMV) _(★0, Python)_
+- [theosunny/jev_stock](https://github.com/theosunny/jev_stock) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [thesyedammar/tracky](https://github.com/thesyedammar/tracky) `📚3` — Ctrl+F that finds by meaning - highlights the sentence you meant, with receipts. Extension
+- [WangYu0611/jevymarket-direct](https://github.com/wangyu0611/jevymarket-direct) `📚3` — jevymarket-direct - jevymarket-direct: TypeSafe Jev ecosystem repository. · Python
+- [web3w/jev-trader](https://github.com/web3w/jev-trader) `📚3` — Multilingual Jev trading dashboard with real-time Kuru and Hyperliquid market data, simulated tradin
+- [zd87pl/jevtrader](https://github.com/zd87pl/jevtrader) `📚3` — Local-first SEC 8-K research lab: score filings point-in-time with Jev, OpenAI or local LLMs, and la
+
+## Long tail (cited by 1–2 lists) — 197
+
+<details><summary>Show 197 long-tail entries</summary>
+
+- [actions-marketplace-validations/DhanushNehru_jev-sec-audit](https://github.com/actions-marketplace-validations/dhanushnehru_jev-sec-audit) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [actions-marketplace-validations/guilhem_jev-ci-selector](https://github.com/actions-marketplace-validations/guilhem_jev-ci-selector) `📚2`
+- [actions-marketplace-validations/holasoymalva_jev-test-impact](https://github.com/actions-marketplace-validations/holasoymalva_jev-test-impact) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [actions-marketplace-validations/JevForge_jev-model-navigator](https://github.com/actions-marketplace-validations/jevforge_jev-model-navigator) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [andre-morise/jev-bot](https://github.com/andre-morise/jev-bot) `📚2` — JEV-powered market decision bot for stocks, crypto and memes. State in, a typed BUY/SELL/HOLD/AVOID out, paper by default.
+- [andrelandgraf/rate-my-pricing](https://github.com/andrelandgraf/rate-my-pricing) `📚2` — Web app that scores pricing pages for clarity via an LLM agent on Neon Functions, with a fail-open Jev QA gate before a rating is listed. no license ·…
+- [AtticusG3/okx-jev-desk](https://github.com/atticusg3/okx-jev-desk) `📚2` — Multi-bot crypto trading desk. Jev (TypeSafe System One) as the brain, TypeScript as the body, Next.
+- [badmike/jevmarket](https://github.com/badmike/jevmarket) `📚2` — A Polymarket trading bot priced by Jev
+- [brunocfalcao/astra-jev](https://github.com/brunocfalcao/astra-jev) `📚2` — Adaptive Astra reasoning effort with Jev. Stock Codex, visible decisions.
+- [burak-alp/jevai_trade_bot](https://github.com/burak-alp/jevai_trade_bot) `📚2` — jevai_trade_bot — _(★0, Python)_
+- [carlosbasto/joule-studio-jev-invoice-triage](https://github.com/carlosbasto/joule-studio-jev-invoice-triage) `📚2` — Example SAP Joule Studio 2.0 agent using JEV to evaluate and control consequential supplier invoice release actions.
+- [CharlieChenyuZhang/jev-trading](https://github.com/charliechenyuzhang/jev-trading) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [CryptoCT01/jev-pulse](https://github.com/cryptoct01/jev-pulse) `📚2` — Jev Pulse paper desk. Gross run, then a 0.06% taker with a 50% rebate.
+- [dgu0323/xcrystal](https://github.com/dgu0323/xcrystal) `📚2` — Chrome extension + local Laya server scoring crypto relevance, scope, direct
+- [dholzric/jevmarket](https://github.com/dholzric/jevmarket) `📚2`
+- [dimitrisdais/language-aware-decisions-for-banking](https://github.com/dimitrisdais/language-aware-decisions-for-banking) `📚2` — Adapting a language aware decision model for banking through fine tuning, evaluation and comparison with classical machine learning.
+- [dobsZY/crypto-trading-assistant](https://github.com/dobszy/crypto-trading-assistant) `📚2` — işisel kripto & hisse yatırım araştırma asistanı: backtest, walk-forward, istatistiksel anlamlılık, paper trading, TypeSafe Jev entegrasyonu. Yatırım tavsiyesi…
+- [ffarhxnn/jev-trader-next](https://github.com/ffarhxnn/jev-trader-next) `📚2` — A paper-only Jev trading dashboard for Monad Kuru MON/USDC, with an offline demo and simulated quotes.
+- [foundationfivepro-gif/jev-trading-agent](https://github.com/foundationfivepro-gif/jev-trading-agent) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Gamma-Software/jev-signals-lab](https://github.com/gamma-software/jev-signals-lab) `📚2` — Paper-only Jev trading-signals research POC: one market snapshot → 12 independent Jev questions → in-code rule engine (created 2026-09-19).
+- [gbesse/jev-exposure-radar](https://github.com/gbesse/jev-exposure-radar) `📚2` — Trace DeFi incident exposure through sourced portfolio dependencies with optional Jev classification
+- [gignac-cha/jevcrypto](https://github.com/gignac-cha/jevcrypto) `📚2` — jevcrypto — Generate prompt-influenced UUID strings with Jev through TypeSafe or OpenRouter. _(★0, TypeScript)_
+- [hwillysim/trading-bot](https://github.com/hwillysim/trading-bot) `📚2` — JEV and cheap LLM trading bot interface.
+- [jai2010/jev-meets-the-market](https://github.com/jai2010/jev-meets-the-market) `📚2` — What happens when Jev meets the market? An experiment in AI-driven investment decisions.
+- [jev-trader](https://madewithjev.com/builds/jev-trader) `📚2` — Buy/sell decided inside a 300 ms Monad block, on Kuru's order book
+- [Jev-trading/Jev-trading](https://github.com/jev-trading/jev-trading) `📚2` — Jev-trading is a desktop application that combines the ultra-fast neural network model Jev (by TypeS
+- [jevAgentDev/jev-polymarket-trading](https://github.com/jevagentdev/jev-polymarket-trading) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [jpoloni/jev-trader](https://github.com/jpoloni/jev-trader) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [justbiar/vizardpad](https://github.com/justbiar/vizardpad) `📚2` — vizardpad — Scenario launchpad for MonadBFT: break Category Labs' real monad-bft consensus in your browser, with DeFi what-ifs, AI agents (Jev) and MON / x402…
+- [justSteve/jev](https://github.com/juststeve/jev) `📚2` — jev-loop: paper-trading loop scaffold (Alpaca + Jev decision battery)
+- [kimjooyoon/gooo-jev](https://github.com/kimjooyoon/gooo-jev) `📚2` — Provider-neutral typed decision receipts for Go and .gooo execution plans
+- [lastone3939/typesafe-financial-crime-ja](https://github.com/lastone3939/typesafe-financial-crime-ja) `📚2` — TypeSafe AI financial crime use case — unofficial Japanese summary
+- [lsesmpmido/stock-signal-bot](https://github.com/lsesmpmido/stock-signal-bot) `📚2` — stock-signal-bot - stock-signal-bot: TypeSafe Jev ecosystem repository. · Python
+- [mednabouli/jev-ai-polymarket-copy-trading](https://github.com/mednabouli/jev-ai-polymarket-copy-trading) `📚2` — Automated Polymarket copy trading bot with MCP servers, Telegram alerts, and profitable wallet tracking. Zero…
+- [miqui/crypto-buying-agent-jev](https://github.com/miqui/crypto-buying-agent-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [musman550/musfira-ai-jev-isnt-new-tech-its-marketing-targets-people-who-think-ai](https://github.com/musman550/musfira-ai-jev-isnt-new-tech-its-marketing-targets-people-who-think-ai) `📚2` — Jev isn't new tech
+- [Muzych/jev-x-tags](https://github.com/muzych/jev-x-tags) `📚2` — Tag X/Twitter accounts with TypeSafe Jev and hide posts by tag (Chrome MV3 / WXT).
+- [nighthawk6389/Jev-credit-agreement-parser](https://github.com/nighthawk6389/jev-credit-agreement-parser) `📚2`
+- [Nixter77/Jev-trader](https://github.com/nixter77/jev-trader) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) `📚2`
+- [pininkara/Jev-Trades](https://github.com/pininkara/jev-trades) `📚2`
+- [RadxRk/insurance-claims](https://github.com/radxrk/insurance-claims) `📚2` — insurance-claims - Jev + Claude prototype: FNOL claim triage and cost-aware Claude model routing · Python
+- [raphaelcangucu/jev-solana-trader](https://github.com/raphaelcangucu/jev-solana-trader) `📚2` — Self-rewriting Solana trade-test bot (von/System One decision loop + Jupiter + public experiment log)
+- [rthomas24/jev-realtime](https://github.com/rthomas24/jev-realtime) `📚2`
+- [russellromney/jevons](https://github.com/russellromney/jevons) `📚2` — Dry-run MON trading research bot that uses Jev as a market-state sensor while deterministic code picks strategy, checks costs and emits paper orders. no…
+- [RyoyaYahagi/Trader-Jev](https://github.com/ryoyayahagi/trader-jev) `📚2`
+- [sdras/shopping-cart-webmcp](https://github.com/sdras/shopping-cart-webmcp) `📚2`
+- [Sohammhatre10/jev-stock-selection-base](https://github.com/sohammhatre10/jev-stock-selection-base) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [sumithshridhar/ghost-ops-jev-buildathon](https://github.com/sumithshridhar/ghost-ops-jev-buildathon) `📚2` — Team Ghost Ops, Jev Buildathon: guard rules that mak the Ledger finance agent unable to lose money,
+- [TencentEdgeOne/jev-holdem](https://github.com/tencentedgeone/jev-holdem) `📚2` — Heads-up no-limit Texas hold'em against TypeSafe Jev. The local engine deals and settles; Jev answer
+- [tune-77/tune_lease_55](https://github.com/tune-77/tune_lease_55) `📚2` — SHION — an AI that turns on-the-ground "something feels off" into reusable judgment assets for lease-financin…
+- [TypeSafe AI emerges from stealth with $40M](https://finance.yahoo.com/technology/ai/articles/typesafe-ai-emerges-stealth-40m-190000776.html) `📚2` — TypeSafe AI Emerges From Stealth With $40M in Funding
+- [UditJain2622004/Jev-Trading](https://github.com/uditjain2622004/jev-trading) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [velesxbt/argus](https://github.com/velesxbt/argus) `📚2` — Argus - a hedge fund in code. Autonomous quant research desk: 9 agents scan crypto markets 24/7, GPT
+- [vishrutJha/trading-jev](https://github.com/vishrutjha/trading-jev) `📚2` — Trading algo with ICICI Breeze and Jev decision making engine
+- [yans75/smartrade](https://github.com/yans75/smartrade) `📚2` — smartrade - smartrade: TypeSafe Jev ecosystem repository. · TypeScript
+- [yebrwe/jev-trade](https://github.com/yebrwe/jev-trade) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [A second-hand shopping agent](https://madewithjev.com/builds/second-hand-shopping-agent) `📚1` — Listing matched to a shopper, per item, in a loop
+- [a3165458/ai-trading](https://github.com/a3165458/ai-trading) `📚1` — JEV/this-that decision loop for Lighter.xyz BTC and ETH perps with a BUY/SELL web blotter
+- [Aaron-Nim4/jev-trader](https://github.com/aaron-nim4/jev-trader) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [achenachena/jev-trader](https://github.com/achenachena/jev-trader) `📚1` — Design and research plan for a reproducible Jev × Polymarket paper-trading system. No live
+- [actions-marketplace-validations/dtduc-git_jevassert](https://github.com/actions-marketplace-validations/dtduc-git_jevassert) `📚1`
+- [actions-marketplace-validations/dtduc-git_jevnav](https://github.com/actions-marketplace-validations/dtduc-git_jevnav) `📚1`
+- [actions-marketplace-validations/JevForge_jev-ci-pathfinder](https://github.com/actions-marketplace-validations/jevforge_jev-ci-pathfinder) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [actions-marketplace-validations/MakonnenMak_jev-smart-retry](https://github.com/actions-marketplace-validations/makonnenmak_jev-smart-retry) `📚1`
+- [actions-marketplace-validations/NemanjaManic_ci-gatekeeper-bot-jev](https://github.com/actions-marketplace-validations/nemanjamanic_ci-gatekeeper-bot-jev) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [actions-marketplace-validations/ranjithtimesmart_agent-lighthouse](https://github.com/actions-marketplace-validations/ranjithtimesmart_agent-lighthouse) `📚1` — score 11.3 · 0 stars
+- [actions-marketplace-validations/stefafafan_setup-jev](https://github.com/actions-marketplace-validations/stefafafan_setup-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [actions-marketplace-validations/Tech-Byte-Frontier_jevgate-action](https://github.com/actions-marketplace-validations/tech-byte-frontier_jevgate-action) `📚1`
+- [Aimlessss/rust-jev-typesafe-trade-decision-engine](https://github.com/aimlessss/rust-jev-typesafe-trade-decision-engine) `📚1`
+- [ajbarryiii/receipts](https://github.com/ajbarryiii/receipts) `📚1`
+- [akaiHuang/btc-dual-ai-trader](https://github.com/akaihuang/btc-dual-ai-trader) `📚1` — Dual-AI crypto trading system: one model for strategy/analysis and another for low-latency execution.
+- [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) `📚1` — Use the contribution types that describe the actual work. Commit both .all-contributorsrc and README.md. Do not credit a project author solely because their…
+- [aminrezaei-img/Market-Platform-DSPy-vs-Jev](https://github.com/aminrezaei-img/market-platform-dspy-vs-jev) `📚1` — Reliability and evaluation harness for financial agent workflows: agent harness + evaluation harness
+- [Ang-dot/bnb-agent-studio-jev-trading-terminal](https://github.com/ang-dot/bnb-agent-studio-jev-trading-terminal) `📚1` — JEV Trading Terminal — BNB Chain launch monitoring, paper trading, and Living Brain memory
+- [antonBy77/moex-wall-trader](https://github.com/antonby77/moex-wall-trader) `📚1` — MOEX walls & icebergs: gRPC-streaming collector, first-touch rejection + breakout backtest
+- [antonellof/laya-trader](https://github.com/antonellof/laya-trader) `📚1` — Paper trading with Laya MLX on crypto (Binance) and S&P 500 stocks (Yahoo Finance): live dashboard,
+- [Basketful live demo](https://shopping-webmcp-demo.netlify.app) `📚1` — Upstream walkthrough against the Basketful live demo or local shopping-cart-webmcp (npm run dev) — not executed on the review host.
+- [beto11-gif/jev-trading-backend](https://github.com/beto11-gif/jev-trading-backend) `📚1`
+- [brenoajs/polygraph-polymarket](https://github.com/brenoajs/polygraph-polymarket) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [brycemurad0/JevTrader](https://github.com/brycemurad0/jevtrader) `📚1` — JevTrader (brycemurad0) — using Jev to execute trading strategies (auto-discovered, description not yet written)
+- [buberlo/jev-trader,25,Python,,2026-09-19](https://github.com/buberlo/jev-trader,25,python,,2026-09-19) `📚1`
+- [cayman2142/social-credit,0,JavaScript,,2026-09-25,The](https://github.com/cayman2142/social-credit,0,javascript,,2026-09-25,the) `📚1`
+- [chahero/trade-jev](https://github.com/chahero/trade-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [cklose2000/tokenledger-reference](https://github.com/cklose2000/tokenledger-reference) `📚1` — One activity stream, every reported number reproducible. Synthetic reference for AI businesses that meter tokens and seats: versioned definitions, receipts,…
+- [codefionn/llmleaf](https://github.com/codefionn/llmleaf) `📚1` — A fast llm proxy
+- [codeSudee/Jev-Claude-Opus-5.5-AI-Trading-Bot](https://github.com/codesudee/jev-claude-opus-5.5-ai-trading-bot) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Copsychus123/jev-Trade-d2r](https://github.com/copsychus123/jev-trade-d2r) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Crypto Briefing: "Jev gains popularity as a faster, cheaper alternative to major AI models](https://cryptobriefing.com/jev-ai-model-faster-cheaper-alternative) `📚1` — Launch recap framed honestly: Vercel-measured 5–18× faster than OpenAI models on classification, 10–20× cheaper than Gemini on email triage; median latency…
+- [Crypto Briefing: “TypeSafe opens Jev AI to public after rapid adoption forces waitlist rem](https://cryptobriefing.com/typesafe-jev-ai-public-access) `📚1` — Waitlist dropped Sept 20 with $5 in free credit ($0.042/M input, output free; 70–500ms latency); founders and the $40M DCVC-led seed round recapped. Full page…
+- [daniel-nagy/transporter](https://github.com/daniel-nagy/transporter) `📚1` — Typesafe distributed computing in TypeScript.
+- [danikstifloanpaarnatl/jevspec](https://github.com/danikstifloanpaarnatl/jevspec) `📚1` — JevSpec (ex-JevTree): training-free, auditable typed decision specs for budgeted feature acquisition — ID3-style decision tree over quantile-binned training…
+- [dealerdefi/jev](https://github.com/dealerdefi/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Desdaemon/typed-htmx](https://github.com/desdaemon/typed-htmx) `📚1` — Definitions for htmx attributes
+- [devsoniclk/jev-crypto-decisions](https://github.com/devsoniclk/jev-crypto-decisions) `📚1` — Jev-powered crypto signal classifier + paper trader using TypeSafe System One model
+- [devsoniclk/jev-polymarket](https://github.com/devsoniclk/jev-polymarket) `📚1` — Jev-powered Polymarket prediction market bot with LLM researcher
+- [devsoniclk/jev-polymarket-executor](https://github.com/devsoniclk/jev-polymarket-executor) `📚1` — Jev Polymarket executor - signal aggregation + CLOB execution + paper trading
+- [DL-Software/godel-trading-jev](https://github.com/dl-software/godel-trading-jev) `📚1` — Trading example using Godel New API and Jev
+- [dnevado/jev-trader](https://github.com/dnevado/jev-trader) `📚1` — inferred / apps-demos — ⭐0
+- [drillan: "Jev finance & trading projects" survey (2026-09-20)](https://gist.github.com/drillan/6916b16e8ea31a8ec36c8f59d6483150) `📚1` — Curated survey of Jev finance repos (jev_stock, jev-signals-lab, the 50-use-case Jev Lab, BANKING77 experiment + demo, tax-doc-classifier) — empty/placeholder…
+- [EliotAndres/jev-hackathon](https://github.com/eliotandres/jev-hackathon) `📚1` — Gustave: a voice shopping assistant for any Shopify store, ranked live by Jev
+- [EliSebastian/jev-trade](https://github.com/elisebastian/jev-trade) `📚1`
+- [Errr0rr404/jev-trader](https://github.com/errr0rr404/jev-trader) `📚1` — Local CLI and web desk. Robinhood Agentic MCP is the tape. TypeSafe Jev votes. Simulate by default.
+- [eSupun-real/trading-with-jev](https://github.com/esupun-real/trading-with-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [fbivinay/btc-paper-trader](https://github.com/fbivinay/btc-paper-trader) `📚1` — AI-powered autonomous BTC paper trading: LSTM prediction, walk-forward validation, Jev str
+- [Fermionic-Lyu/gold-butterfly](https://github.com/fermionic-lyu/gold-butterfly) `📚1` — A sandbox for monitoring options markets with AI strategy analysis and LLM paper-trading agents. Automatically matched explicit Jev and TypeSafe/System One…
+- [fsiddiqi/defi-jev](https://github.com/fsiddiqi/defi-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [fuadqemberov/crypto-jev](https://github.com/fuadqemberov/crypto-jev) `📚1` — Finance and trading experiments
+- [fuadqemberov/crypto-scalper-rust](https://github.com/fuadqemberov/crypto-scalper-rust) `📚1`
+- [Gads1208/northwind-market-jev](https://github.com/gads1208/northwind-market-jev) `📚1`
+- [gbesse/jev-crypto-lab](https://github.com/gbesse/jev-crypto-lab) `📚1` — Read-only research prototypes for prediction-market contract logic, resolution scenarios and crypto
+- [gonun13/tradai](https://github.com/gonun13/tradai) `📚1` — Agentic stock porfolio and tracker recomendation system with deterministic support.
+- [gordonjun2/crypto-trading-analysis](https://github.com/gordonjun2/crypto-trading-analysis) `📚1`
+- [gorefilip20/forex-and-memecoin-trading-](https://github.com/gorefilip20/forex-and-memecoin-trading-) `📚1`
+- [guzus/jev-nyotti](https://github.com/guzus/jev-nyotti) `📚1`
+- [hamgua/alpha-trading-bot-okx](https://github.com/hamgua/alpha-trading-bot-okx) `📚1`
+- [hongsoonil02-maker/okx_auto_trading](https://github.com/hongsoonil02-maker/okx_auto_trading) `📚1`
+- [https://jevpricing.com/fan-out/](https://jevpricing.com/fan-out) `📚1` — Use to verify fan-out billing behavior or estimate multi-question savings. See also
+- [inara13/marketplace-aml-triage-engine](https://github.com/inara13/marketplace-aml-triage-engine) `📚1` — End to end AML transaction monitoring for a synthetic resale marketplace, using Jev for fa
+- [ISHANTARE/Stock-analysis-decision-model](https://github.com/ishantare/stock-analysis-decision-model) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jarrodwatts/jev-trader,2461,TypeScript,MIT,2026-09-17,2026-09-26](https://github.com/jarrodwatts/jev-trader,2461,typescript,mit,2026-09-17,2026-09-26) `📚1`
+- [jev-ai/jev-pricing](https://github.com/jev-ai/jev-pricing) `📚1` — jevlang OR jev.ai in:name,description created:
+- [jevasesoriafinanciera-source/jev-asesoria-financiera](https://github.com/jevasesoriafinanciera-source/jev-asesoria-financiera) `📚1` — jev in:name created:2026-09-01..2026-09-15
+- [jpanasuk-netizen/jaspers-trade-bot](https://github.com/jpanasuk-netizen/jaspers-trade-bot) `📚1`
+- [keyshotrenders/jev-news-trading-terminal](https://github.com/keyshotrenders/jev-news-trading-terminal) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [Khelendrameena/jev_based_trading_bot](https://github.com/khelendrameena/jev_based_trading_bot) `📚1` — "JEV AI Crypto Scalping Engine": a high-frequency crypto scalping simulator — real-time technical indicators, order-book depth and sentiment feed a…
+- [kimminki10/cocotrade](https://github.com/kimminki10/cocotrade) `📚1` — Crypto backtesting engine plus a live, public track record of Jev's forecasts — next-bar-open fills with fees/slippage and no look-ahead; Jev strategy code…
+- [KlasMvW/typesafe_coordinate_systems](https://github.com/klasmvw/typesafe_coordinate_systems) `📚1` — TS (Typesafe coordinate Systems) is a C++ header only library that allows the user to define a tree
+- [krustyc/monthly-invoice](https://github.com/krustyc/monthly-invoice) `📚1`
+- [Latitude 官方定价](https://latitude.so/pricing) `📚1`
+- [lee851104/jev_trader](https://github.com/lee851104/jev_trader) `📚1`
+- [leotavares26/octavus-dual-brain](https://github.com/leotavares26/octavus-dual-brain) `📚1` — System 1 (TypeSafe Jev) + System 2 (Octavus Platform) Dual-Brain Agent Architecture
+- [Li-Chuangqi/x-jev-filter](https://github.com/li-chuangqi/x-jev-filter) `📚1`
+- [live](https://huggingface.co/spaces/rorshopping/parallel-constrained-decisions) `📚1` — no license · Python · live
+- [live](https://jev-trader-production.up.railway.app) `📚1`
+- [Lucasarkh/orch](https://github.com/lucasarkh/orch) `📚1` — orch — Orquestrador de agentes Claude no terminal: o Jev (TypeSafe) escolhe o modelo mais barato capaz, verifica o resultado e escala quando preciso. _(★0, Go)_
+- [lucasmartins-ai/jev-laya-trader](https://github.com/lucasmartins-ai/jev-laya-trader) `📚1` — Finance and trading experiments
+- [lue-di/JevTrade](https://github.com/lue-di/jevtrade) `📚1`
+- [makeorbreakshop/djr3x_voice](https://github.com/makeorbreakshop/djr3x_voice) `📚1`
+- [mAliAytekin/banking77](https://github.com/maliaytekin/banking77) `📚1` — Zero-shot evaluation of Jev AI and DeepSeek V4 Pro on Banking77: intent classification acc
+- [mamorubaseball/jev-stock-predictor](https://github.com/mamorubaseball/jev-stock-predictor) `📚1`
+- [mapzt-2412/jev-trader](https://github.com/mapzt-2412/jev-trader) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [martial/jev-roads](https://github.com/martial/jev-roads) `📚1` — Enjoy the French driving experience: a taxi ride through a real town, with a driver who ta
+- [matchstick-trading/jev-regime-gate](https://github.com/matchstick-trading/jev-regime-gate) `📚1` — Jev-powered regime gate for trading strategy backtests. Research experiment, not investment advice.
+- [mattiaz9/store-fn](https://github.com/mattiaz9/store-fn) `📚1` — Define your products in TypeScript and keep them in sync with your Polar store.
+- [n8n community head-to-head: Jev vs GPT-5.6 Luna on invoices (2026-09-30)](https://facebook.com/groups/n8ncommunitybangladesh/permalink/1806499110359259) `📚1` — synthetic invoices routed through n8n to OpenAI GPT-5.6 Luna and to TypeSafe Jev (Approve/Review/Hold): OpenAI 100% (50/50) vs Jev 94% (47/50); $0.162 vs…
+- [nbt4/rentalcore](https://github.com/nbt4/rentalcore) `📚1` — RentalCore — Full event rental management: jobs, devices, OCR invoice processing, M365 sync, DIN-5008 invoicing. Go + React.
+- [offlinechen/jev-trader-public](https://github.com/offlinechen/jev-trader-public) `📚1` — "Jev Trader": research pipeline testing whether Jev's probability estimates carry useful information about 15-minute USDT perpetual price paths — honest…
+- [opaielsheikh/jev-polymarket-arb](https://github.com/opaielsheikh/jev-polymarket-arb) `📚1`
+- [ostad2fan/jev-trader-farsi](https://github.com/ostad2fan/jev-trader-farsi) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [pepedesigner/Sandbase-jev-trader](https://github.com/pepedesigner/sandbase-jev-trader) `📚1`
+- [pgarvie/jev-trade](https://github.com/pgarvie/jev-trade) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [pmkrafts/shopper-gaze-mart-jev](https://github.com/pmkrafts/shopper-gaze-mart-jev) `📚1`
+- [PrateekReddy116/jev-laya-trader](https://github.com/prateekreddy116/jev-laya-trader) `📚1` — Finance and trading experiments
+- [Pricing](https://usenotra.com/pricing) `📚1` — The official pricing page, inspected 2026-09-19, lists paid hosted plans and an enterprise contact option. Trial terms were not verified. Self-hosted source…
+- [pricing](https://docs.orthogonal.com/concepts/pricing) `📚1` — Natural-language search on the public site needed no signup during review. Running a matched endpoint uses Orthogonal’s pay-per-call gateway; Orthogonal…
+- [pricing](https://refix.ai/pricing) `📚1` — . Review proposed changes before approving anything that ships, and check the pricing page for current credit and plan limits.
+- [prx0r/content](https://github.com/prx0r/content) `📚1` — content-sensor: deterministic content factory over graph signals (HyperFrames + Jev + receipts) Automatically matched explicit Jev and TypeSafe/System One…
+- [qiudingkai-crypto/jevai](https://github.com/qiudingkai-crypto/jevai) `📚1`
+- [r4topunk/jev-trading-study](https://github.com/r4topunk/jev-trading-study) `📚1` — Pre-registered test of the Jev AI decision model as a crypto trader on Base: 40,228 decisions, worse
+- [raulvazquez7/personal-finance-agent](https://github.com/raulvazquez7/personal-finance-agent) `📚1` — Local-first personal finance assistant: bank imports, rules → jev → human categorization cascade, dashboards, and an LLM agent over a semantic layer.
+- [reachjalil/jev-tree-choice-cap](https://huggingface.co/datasets/reachjalil/jev-tree-choice-cap) `📚1` — synthetic tickets over a 320-leaf incident taxonomy testing Jev's 255-option Choice cap; card reports authored tree walk 180/180 vs 90/180 when truncating to…
+- [Read](https://mrjev.com/projects/kyotofin-tax-doc-classifier) `📚1` — Right on every IRS page we tried, but result.form still names a form for a page that is not a federal form at all; gate on gated.
+- [Rishabh9306/jev-eth-trader](https://github.com/rishabh9306/jev-eth-trader) `📚1`
+- [Rishi Sharma (Generative AI): "TypeSafe Says Jev Is 444x Cheaper Than an LLM. The Real Num](https://generativeai.pub/jev-is-444x-cheaper-than-an-llm-does-cheaper-mean-better-7951391351c9) `📚1` — min critical read of the launch post, pricing page and the docs' own nine-failure-modes list: most of the headline multiplier "doesn't make it out the other…
+- [Rmanjini/jev-signals](https://github.com/rmanjini/jev-signals) `📚1` — Typed, confidence-gated trading signals on TypeSafe's Jev model. Reads a market event, returns a cal
+- [safzanpirani/juna](https://github.com/safzanpirani/juna) `📚1` — A lean Pi coding agent profile that keeps context small, with TypeSafe Jev pruning tool output
+- [salmanbawazeer/trading](https://github.com/salmanbawazeer/trading) `📚1`
+- [sandbaseai/jev-trader](https://github.com/sandbaseai/jev-trader) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [shubham10divakar/FinanceJev](https://github.com/shubham10divakar/financejev) `📚1`
+- [siva-sub/mandate-1](https://github.com/siva-sub/mandate-1) `📚1` — SAFR-inspired agentic finance research: semantic action checks, deterministic authority, a
+- [sjev/trading-with-python](https://github.com/sjev/trading-with-python) `📚1` — Code that is (re)usable in in daily tasks involving development of quantitative trading strategies.
+- [Skyvern 官方定价](https://skyvern.com/pricing) `📚1`
+- [snafu4/jev-loop](https://github.com/snafu4/jev-loop) `📚1` — Paper-trading loop for Alpaca driven by a Jev decision battery (Claude Code skill)
+- [sokapil/jev-vs-llm-banking-demo](https://github.com/sokapil/jev-vs-llm-banking-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Solizardking/jev-trader-solana](https://github.com/solizardking/jev-trader-solana) `📚1` — Dry-run multi-venue JEV trader on Solana: Jupiter + DFlow spot best-price routing, Imperial perps at
+- [suiramdev/freenary](https://github.com/suiramdev/freenary) `📚1` — Open-source, AI-powered personal finance and wealth-management platform: aggregates banking, investments, ass…
+- [SuperInstance/jev-receipts](https://github.com/superinstance/jev-receipts) `📚1` — JEV booking layer — receipts for the duke-lab instrument. Hash-chained, deterministic, cro
+- [SuperQode release note](https://docs.superqode.dev/advanced/release-2.4.0) `📚1`
+- [swastik2012/crypto-bot](https://github.com/swastik2012/crypto-bot) `📚1`
+- [systemonemodels.org: \"Jev AI by TypeSafe: specs, pricing, API limits and versions\"](https://systemonemodels.org/models/jev) `📚1` — Independent spec/audit page: consolidated 1.13 facts (64K total context / 32K state budget, 250K tok/s + 1,200 req/min rate limits), per-version jaggedness…
+- [theneao/ai-finance-daily](https://github.com/theneao/ai-finance-daily) `📚1`
+- [traderjaeil-lgtm/JEV-Scalping](https://github.com/traderjaeil-lgtm/jev-scalping) `📚1`
+- [tradingbotswapmeet/JEV-Trader](https://github.com/tradingbotswapmeet/jev-trader) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [twentyhq/twenty](https://github.com/twentyhq/twenty) `📚1` — Twenty CRM's workflow builder adds a step that classifies a record into user-defined categories with a probability each, powered by Jev.
+- [TypeSafe AI draws $10bn interest](https://ft.com/content/456884ea-2558-4648-8036-a77b73733430) `📚1` — News (Financial Times, via Traders Union): reports that TypeSafe is attracting funding approaches that could value it at $10bn or more, a week after Jev left…
+- [VGabriel45/polymarket-btc5m-jev-trading,31,TypeScript,,2026-09-21,5m](https://github.com/vgabriel45/polymarket-btc5m-jev-trading,31,typescript,,2026-09-21,5m) `📚1`
+- [Vibha-Ramprakash/jev-marketing-playbook](https://github.com/vibha-ramprakash/jev-marketing-playbook) `📚1` — copy-paste Jev prompts for marketers + 2 free tools
+- [wapioapi77-pixel/wapio-jev-ecommerce-router](https://github.com/wapioapi77-pixel/wapio-jev-ecommerce-router) `📚1` — WhatsApp e-commerce triage and returns classifier built with n8n, the Wapio WhatsApp API, and Jev: autonomous triage engine for Shopify/WooCommerce brands.…
+- [wikigsroom/Jev-martingale-mesh](https://github.com/wikigsroom/jev-martingale-mesh) `📚1` — Jev-martingale-mesh — martingale mesh trading limited by Jev _(★0, HTML)_
+- [xenopia/jev_shopping_network](https://github.com/xenopia/jev_shopping_network) `📚1` — A 90s home-shopping TV for eBay, where every knob is a question for Jev
+- [xiiisepehr/jev-trade](https://github.com/xiiisepehr/jev-trade) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Yarub/jev-trader](https://github.com/yarub/jev-trader) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ysfwrld/insuranceaudittask](https://github.com/ysfwrld/insuranceaudittask) `📚1`
+- [zadescoxp/Jev-Trades\r](https://github.com/zadescoxp/jev-trades\r) `📚1`
+- [zytong523-bot/stock-lite](https://github.com/zytong523-bot/stock-lite) `📚1` — topic:typesafe created:2026-09-01..2026-09-30
+- [zzsong1023/jev-market-reflex,3,TypeScript,Fast](https://github.com/zzsong1023/jev-market-reflex,3,typescript,fast) `📚1`
+
+</details>

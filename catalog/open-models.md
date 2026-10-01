@@ -1,0 +1,1141 @@
+# Open Replications, Local Inference & Jev-like Models
+
+> Open-weight re-implementations, distillations, local servers (vLLM, SGLang, MLX, llama.cpp) and Jev-style decision heads.
+>
+> **1,118 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 77
+
+- [TianyuCodings/NanoJev](https://github.com/tianyucodings/nanojev) `★2,453 · 📚60` — A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
+- [jaredpalmer/kev](https://github.com/jaredpalmer/kev) `★8,057 · 📚57` — Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own
+- [vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike) `★1,335 · 📚57` — jevlike !GitHub stars — Training library for models that score a changing list of text options in a single forward pass.
+- [razorback16/openjev](https://github.com/razorback16/openjev) `★548 · 📚49` — Open, Jev-compatible System One decision server on DiffusionGemma
+- [ekzhang/openjev-sglang](https://github.com/ekzhang/openjev-sglang) `★335 · 📚48` — Jev-compatible API endpoint based on open models (prefill-only)
+- [bnsd55/jevmlx](https://github.com/bnsd55/jevmlx) `★68 · 📚42` — Jev-style parallel constrained decisions for any MLX model on Apple Silicon. Typed, schema-valid JSON in one forward pass.
+- [hr98w/jev-visual](https://github.com/hr98w/jev-visual) `★303 · 📚39` — An educational Jev-like visual inference experiment on Apple Silicon: shared context, direct candidate scoring, and local visual demos.
+- [NandhaKishorM/laya](https://github.com/nandhakishorm/laya) `★29,237 · 📚38` — Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.
+- [OmniJev/PlayJev](https://github.com/omnijev/playjev) `★45 · 📚33` — 🚀🚀 A 0.8B JEV-like multimodal model playing GUI games directly from raw pixels.
+- [zhengxuyu/litjev](https://github.com/zhengxuyu/litjev) `★45 · 📚33` — Turn any off-the-shelf LLM into a Jev -like decision layer
+- [Heman10x-NGU/openJev-verdict-2.0](https://github.com/heman10x-ngu/openjev-verdict-2.0) `★293 · 📚32` — Calibrated 151M Non-Autoregressive Decision Engine beating TypeSafe Jev & Laya on LocalLLaMA/typed-decisions (77.10% acc, 0.0636 Brier, 0.0144 ECE)
+- [kshetrajna12/reflex](https://github.com/kshetrajna12/reflex) `★159 · 📚31` — A small open decision model: state + typed questions -> calibrated probabilities. A Jev / System One re-creation on Qwen3.5.
+- [daseinlabs/open-jev](https://github.com/daseinlabs/open-jev) `★120 · 📚31` — Open Jev implementation with custom finetuning.
+- [zhihz/openjev](https://github.com/zhihz/openjev) `★34 · 📚28` — Local bilingual probability decisions from context, questions, and candidate answers. Independent research preview inspired by TypeSafe Jev.
+- [Heman10x-NGU/Verdict-open-jev](https://github.com/heman10x-ngu/verdict-open-jev) `★109 · 📚27` — Non-autoregressive decision engine on ModernBERT (151M) with calibrated uncertainty (RLCD), TypeSafe AI Jev benchmark audit, and in-browser WebGPU playground
+- [Zaious/jev-capability-atlas](https://github.com/zaious/jev-capability-atlas) `★26 · 📚27` — Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語 repo。
+- [Nyarlathoteppppp/pi-heed](https://github.com/nyarlathoteppppp/pi-heed) `★10 · 📚27` — Runtime constraints for the pi coding agent: checks every side-effecting tool call against what you said, before it runs. Powered by TypeSafe Jev.
+- [kikoncuo/jevfire](https://github.com/kikoncuo/jevfire) `★71 · 📚26` — JEV-inspired parallel decisions for CUDA LLMs. One context, many decisions. vLLM API, game-agent examples, and reproducible benchmarks.
+- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) `★1,032 · 📚24` — Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.
+- [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) `★6,654 · 📚23` — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
+- [zwliJay/jev-forge](https://github.com/zwlijay/jev-forge) `★98 · 📚22` — An open training and inference stack for Jev-style decision models.  Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference.
+- [bladedevoff/stuntd](https://github.com/bladedevoff/stuntd) `★42 · 📚22` — Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev and OpenAI compatible.
+- [bespokelabsai/nimble](https://github.com/bespokelabsai/nimble) `★1,981 · 📚21` — Local typed decisions, contrastive data curation, and model evaluation.
+- [receptron/laya](https://github.com/receptron/laya) `★661 · 📚20` — Run Laya, the open-source Jev-compatible System-1 decision model, from Node.js / TypeScript via ONNX Runtime
+- [PromptEngineer48/laya-vs-jev-arena](https://github.com/promptengineer48/laya-vs-jev-arena) `★29 · 📚20` — Laya (open source, local) vs TypeSafe Jev (API): two AI models race in Snake and fight in a Mortal-Kombat-style arena. Every move is a real model decision.
+- [myc0576/SmartMoney-Cub](https://github.com/myc0576/smartmoney-cub) `★26 · 📚20` — Read-only trading journal and review harness: Jev typed judgments, agent integration, and a reproducible finance benchmark. No orders, no advice.
+- [olanotolu/jevbetter](https://github.com/olanotolu/jevbetter) `★15 · 📚20` — A stronger one-pass scorer over a variable list of text options. Hashed n-gram encoder, rival-aware attention, gated head, temperature scaling — with a head-to-head benchmark vs the jevlike starter design.
+- [Zefan-Cai/Open-Jev](https://github.com/zefan-cai/open-jev) `★377 · 📚19` — Open-Jev (Zefan-Cai) — No description provided by the repository (auto-discovered, description not yet written)
+- [JoshuaSP/open-jev](https://github.com/joshuasp/open-jev) `★41 · 📚19` — Typed JSON inference with DiffusionGemma, with Every and Jev benchmark results
+- [genai-craft/openvons](https://github.com/genai-craft/openvons) `★13 · 📚19` — openvons (open-Jev): 有限選択肢に確率で答える判断層 — テキスト / 画像 / 日本語音声コマンド
+- [samuelfaj/distill](https://github.com/samuelfaj/distill) `★691 · 📚18` — Get FAR MORE done with FAR FEWER tokens 🔥.
+- [RenaGao/jev-dataops](https://github.com/renagao/jev-dataops) `★60 · 📚18` — An open-source JEV-powered workbench for streaming data selection, quality evaluation, automatic LoRA training and held-out model evaluation.
+- [rupeshpoojary9/poorjev](https://github.com/rupeshpoojary9/poorjev) `★10 · 📚18` — Open-source, local Jev alternative: a System One decision layer with provably calibrated confidence (ECE 0.170→0.071). Typed decisions, runs offline, no API key, no waitlist.
+- [SamuelSacco/jev-exploration](https://github.com/samuelsacco/jev-exploration) `★3 · 📚18` — Jev (TypeSafe) exploratory thread: claim audit, live demos, and runnable code
+- [1Panel-dev/laya-server](https://github.com/1panel-dev/laya-server) `★82 · 📚17` — A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format.
+- [fidecastro/jevify](https://github.com/fidecastro/jevify) `★50 · 📚17` — Supersimple way to serve LLMs as a Jev-like endpoint
+- [xingwudao/OpenJev](https://github.com/xingwudao/openjev) `★5 · 📚17` — OpenJev: an independent Jev-inspired System One decision API based on TypeSafe.ai concepts. Choice, score and noul primitives, local mock server, Python and TypeScript SDKs. Real inference planned; not affiliated with TypeSafe AI.
+- [Liuziyu77/Valen](https://github.com/liuziyu77/valen) `★571 · 📚16` — Train a Jev-like multimodal model by yourself. System One Model, now with vision.
+- [zhangcy122/OpenJev](https://github.com/zhangcy122/openjev) `★36 · 📚16` — Self-evolving cognitive decision engine & TypeSafe Jev alternative. Deliberative decision flywheel ('explore first, crystallize later' System 2→1) with 100% option-order invariance. Typed probabilistic API (Choice, Noul, Score) for Open…
+- [zhangxaochen/dsh-jev](https://github.com/zhangxaochen/dsh-jev) `★9 · 📚16` — Jev (System One decision model) plugin suite for DeepSeek Harness (dsh)
+- [us/jev-local](https://github.com/us/jev-local) `★7 · 📚16` — Local Jev-compatible evaluation server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist
+- [SiliconLabAI/OpenJev](https://github.com/siliconlabai/openjev) `★158 · 📚15` — OpenSource Jev.
+- [abhishek085/open-spark-jev](https://github.com/abhishek085/open-spark-jev) `★21 · 📚15` — Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.
+- [ChenneyZhuang/laya-browser-agent](https://github.com/chenneyzhuang/laya-browser-agent) `★16 · 📚15` — Local, open-source Jev alternative: browser agent decisions with Laya (System One model) on your own machine. No cloud, no API key. Playwright/CDP, MCP-friendly.
+- [yzfly/edgejev](https://github.com/yzfly/edgejev) `★15 · 📚15` — 离线可用的本地类型化决策：4 核 CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no torch at runtime. 支持 laya / kev / PlayJev
+- [mmastrac/djev](https://github.com/mmastrac/djev) `★110 · 📚14` — Jev-style structured decisions on DiffusionGemma: the example server from vLLM PR 57250
+- [virajbhartiya/laya-vs-jev](https://github.com/virajbhartiya/laya-vs-jev) `★109 · 📚14` — Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording
+- [bodepudimuneendra-netizen/laya-jev-GraphRAG](https://github.com/bodepudimuneendra-netizen/laya-jev-graphrag) `★47 · 📚14` — A database-agnostic Agentic GraphRAG framework using swappable System One models (local Laya / cloud Jev). A plug-and-play intelligence layer featuring a complete 4-phase pipeline, continuous evaluation and custom A* traversal for any…
+- [leesk212/JEV-CPU](https://github.com/leesk212/jev-cpu) `★18 · 📚14` — Run SemIf (Jev-style semantic-if decisions) on a CPU — no GPU. Reads typed option probabilities straight from an open model in one forward pass, plus a web UI.
+- [yijunyu/jev-rs](https://github.com/yijunyu/jev-rs) `★16 · 📚14` — System One judgments (noul/choice/score) from any LLM in one prefill — a Rust, Jev-compatible /v1/systemone engine
+- [grmkris/robo-harness](https://github.com/grmkris/robo-harness) `★4 · 📚14` — SO-101 robot-arm agent workbench: Bun/Effect coordinator, React workbench, Python LeRobot motor owner
+- [Argos1111/jev_local](https://github.com/argos1111/jev_local) `★37 · 📚13` — Replicating Jev with a local LLM.
+- [GPT-AGI/OpenJev](https://github.com/gpt-agi/openjev) `★14 · 📚13` — Opensource Jev.
+- [Mintzs/jevify](https://github.com/mintzs/jevify) `★5 · 📚13` — An optimized inference engine to turn LLMs into Jev-like machines: optimized for quick, lightweight, and accurate decision-making, classification, and scoring
+- [liao96312/jev-arena-nanojev](https://github.com/liao96312/jev-arena-nanojev) `★4 · 📚13` — 完全本地的 NanoJev 网格决策游戏实验场，支持中文 Pygame、多关卡与 GTX 1660S 训练
+- [fritzprix/systemone-lite](https://github.com/fritzprix/systemone-lite) `★3 · 📚13` — Toy local System One–style decision API (Jev-shaped). Not affiliated with TypeSafe.
+- [tryaksh/jev-pick-and-place-study](https://github.com/tryaksh/jev-pick-and-place-study) `★1 · 📚13` — A small reproducible MuJoCo pilot comparing Jev, Claude Haiku, and reactive rules for pick-and-place.
+- [kyegomez/open-jev](https://github.com/kyegomez/open-jev) `★54 · 📚12` — an open-source, from-first-principles reconstruction of the ideas behind TypeSafe AI's Jev, written in pytorch
+- [tomerglick57/Jevstiller](https://github.com/tomerglick57/jevstiller) `★48 · 📚12` — Distill a repeated Jev classification task into a local model, on the fly — same answers, your hardware.
+- [dtunai/cu-Jev](https://github.com/dtunai/cu-jev) `★4 · 📚12` — cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks.
+- [Parallel Constrained Decoding (Qwen2.5-1B-RLCD)](https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding) `📚12` — Open research: RLCD-trained Qwen2.5-1B demo exploring open-source parallel constrained decoding as an alternative to Jev
+- [TypeSafeのJevを正しく驚く、それってLLMでできませんか？](https://zenn.dev/nwn/articles/824026c76116e0) `📚12` — Japanese) Reproduces the JSON-vs-logit shortcut on Gemma and compares Jev with LLMs on the public Mario harness.
+- [WallerChen/jev-measured](https://github.com/wallerchen/jev-measured) `★0 · 📚12` — Measured cost, latency and raw output from the live Jev API (TypeSafe AI System One model) across 8 use cases — reproducible
+- [mode-io/vllm-jev](https://github.com/mode-io/vllm-jev) `★156 · 📚11` — Native vLLM serving for Jev decision models.
+- [yibie/laya-jev-lab](https://github.com/yibie/laya-jev-lab) `★11 · 📚11` — Independent measurements of typed-decision models: Jev (TypeSafe API) vs Laya (open weights), and a local-first cascade that matches Jev's accuracy at 1.8x the speed
+- [siliconkernel/vllm-jev-decison](https://github.com/siliconkernel/vllm-jev-decison) `★10 · 📚11` — Classification-only typed decisions for vLLM: finite-schema candidate scoring, probabilities, and abstention. No generative fallback.
+- [chaitin/Decis](https://github.com/chaitin/decis) `★7 · 📚11` — Self-hosted, Jev-compatible decision-model API — one /v1/systemone endpoint, open weights (Laya, kev), one Docker image per engine.
+- [Hangzhi/diffusion-jev-sglang](https://github.com/hangzhi/diffusion-jev-sglang) `★4 · 📚11` — A Jev-like decision engine powered by DiffusionGemma and SGLang. Jev with eyes.  - GitHub - Hangzhi/diffusion-jev-sglang: A Jev-like decision engine powered by DiffusionGemma and SGLang. Jev with eyes.
+- [alperiox/audio-jevlike](https://github.com/alperiox/audio-jevlike) `★1 · 📚11` — Prosodia: an audio-native Jev-shaped decision model — typed calibrated decisions from speech, no ASR
+- [zefir1990/openjev-experiments](https://github.com/zefir1990/openjev-experiments) `★1 · 📚11` — Openjev experiments.
+- [ipenywis/laya-ultrafast](https://github.com/ipenywis/laya-ultrafast) `★234 · 📚10` — Same as jev-ultrafast but using Laya.
+- [rawwerks/one-system](https://github.com/rawwerks/one-system) `★8 · 📚10` — Use local and hosted classifiers aka decision models aka Jev-like models, all through a single TypeSafe API
+- [caijinchun/nanojev-arena](https://github.com/caijinchun/nanojev-arena) `★7 · 📚10` — NanoJev Snake Arena: 1v4 human-vs-AI battleship + 100-agent swarm simulator. Local demo of Jev System-One model (open-source mini replica).
+- [scienthoon/luce](https://github.com/scienthoon/luce) `★7 · 📚10` — Luce: a recipe for calibrated decision models — a sentence about your task in, a small model that answers typed questions with honest probabilities out (init → synth → train → eval → serve)
+- [islee23520/omo-jevlike-router](https://github.com/islee23520/omo-jevlike-router) `★3 · 📚10` — Jev-style one-pass skill router for OmO: shrink the skill catalog in your system prompt with one forward pass (frozen Qwen2.5-0.5B + jevlike head, fail-open extension)
+- [lookski/openjev](https://github.com/lookski/openjev) `★3 · 📚10` — Open decision engine: type-safe answers with raw softmax probabilities from a local LLM or any OpenAI-compatible API (OpenAI/OpenRouter/DeepSeek/vLLM...). Jev-style System One, offline or cloud.
+- [FeiLiuEM/tetrajev](https://github.com/feiliuem/tetrajev) `★1 · 📚10` — High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed decision, zero training.
+
+## Established (cited by 5–9 lists) — 123
+
+- [Contrastive-LM/CLM](https://github.com/contrastive-lm/clm) `★2,609 · 📚9` — CLM - CLM serves an independent contrastive System One model through a Jev-compatible API for typed decisions.
+- [mohit67890/imajev](https://github.com/mohit67890/imajev) `★167 · 📚9` — Open Jev-style typed-decision model that also takes images: photo + app state + typed questions in, calibrated probabilities out, locally.
+- [HITsz-TMG/JevEmbed](https://github.com/hitsz-tmg/jevembed) `★60 · 📚9` — Meet JevEmbed — turn embeddings into decisions. Choose, score, and judge with your choice of embedding model.
+- [wiatrM/jevtpp](https://github.com/wiatrm/jevtpp) `★5 · 📚9` — Jev-like decisions. Strong C++ types.
+- [david-cermak/jevlike-esp32](https://github.com/david-cermak/jevlike-esp32) `★3 · 📚9` — Jevlike edge router on ESP32.
+- [DECRUX9812/openjev](https://github.com/decrux9812/openjev) `★3 · 📚9` — Open, local, zero-cost reimplementation of the Jev decision layer for job postings
+- [rongxinzy/LightJev](https://github.com/rongxinzy/lightjev) `★2 · 📚9` — Train lightweight language backbones for typed decisions and candidate probabilities. CE/Brier training, evaluation, and an offline end-to-end demo.
+- [ReallyArtificial/stuntdouble](https://github.com/reallyartificial/stuntdouble) `★1 · 📚9` — Drop-in /v1/systemone proxy that shadows Jev with local decision models (Kev, Laya) and reports whether you can swap
+- [hectorlcastro09/jev-torneo-animales](https://github.com/hectorlcastro09/jev-torneo-animales) `★0 · 📚9` — Winner-stays-on animal tournament refereed by Jev (TypeSafe System One): a local game to feel how fast typed decisions are. UI in Spanish.
+- [HF](https://huggingface.co/convaiinnovations/laya) `📚9` — Laya: Apache-2.0 open alternative, 3 checkpoints, runs on a free Colab T4 (~30 ms vs ~302 ms, 0.590 vs 0.974 accuracy)
+- [togethercomputer/tev1](https://github.com/togethercomputer/tev1) `★183 · 📚8` — Open-weight, Jev-inspired decision model finetuned on top of Qwen3.5 4B
+- [Abhinavexists/lev](https://github.com/abhinavexists/lev) `★43 · 📚8` — An open System One decision model.
+- [0xBakeer/arbiter](https://github.com/0xbakeer/arbiter) `★33 · 📚8` — Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API and coding-agent integrations
+- [stephanj/parallelConstraintDecoding](https://github.com/stephanj/parallelconstraintdecoding) `★15 · 📚8` — Parallel Constraint Decoding using Java and Llama.cpp compared to Python 🔥
+- [ali-master/usejev](https://github.com/ali-master/usejev) `★10 · 📚8` — Run Laya locally with Bun: native ONNX inference, a TypeSafe-compatible API, and a bilingual decision playground.
+- [ziozzang/hearim](https://github.com/ziozzang/hearim) `★5 · 📚8` — hearim (헤아림) — Jev-compatible multi-backend System One gateway in Go
+- [jev-skills/openjev-multimodal](https://github.com/jev-skills/openjev-multimodal) `★3 · 📚8` — Local multimodal decisions on your Mac. Jev-compatible typed probabilities with Qwen, llama.cpp and Metal.
+- [andrewsilber/JevsBistro](https://github.com/andrewsilber/jevsbistro) `★2 · 📚8` — 3D restaurant service simulator for benchmarking low-latency decision models
+- [DECRUX9812/openjev-lm](https://github.com/decrux9812/openjev-lm) `★1 · 📚8` — open-Jev LM arm: Qwen2.5-0.5B + LoRA reproducing a hosted decision model's judgment at 92.9% on hand-labelled gold - trained overnight on a 6-vCPU CPU-only host, $0/call. Paper, corpora, harnesses, receipts.
+- [vbcherepanov/jev-symfony-bundle](https://github.com/vbcherepanov/jev-symfony-bundle) `★1 · 📚8` — Unofficial Symfony bundle for TypeSafe AI's Jev: typed client, validator constraints, Messenger, Workflow guards and profiler panel
+- [zerodegress/jevinf](https://github.com/zerodegress/jevinf) `★1 · 📚8` — Jev-like model inference engine + Jev-compatible API
+- [TrainLCD/Functions](https://github.com/trainlcd/functions) `★0 · 📚8` — 👷 Cloudflare Workers for the TrainLCD mobile app.
+- [KaLM-Embedding/KaLM-Jev](https://github.com/kalm-embedding/kalm-jev) `★37 · 📚7` — Meet KaLM-Jev — your local, Jev-style judgment engine, available in Nano, Small, and Large.
+- [akivet/Mica-v0.1-4B](https://github.com/akivet/mica-v0.1-4b) `★29 · 📚7` — Open 4B English/Korean decision model with Jev-compatible Choice, Score, and Noul probabilities plus BF16 and GGUF weights.
+- [afshinm/laya-mps](https://github.com/afshinm/laya-mps) `★21 · 📚7` — Run Jev-style typed decisions locally on your Mac with low RAM usage and fast responses
+- [yohanargentina-oss/Foq](https://github.com/yohanargentina-oss/foq) `★9 · 📚7` — ⚡ Foq — the FREE, local, open-source alternative to Jev. Typed System 1 decisions in ~25 ms — no waitlist, no cloud, no per-token cost. foq.fr
+- [khimaros/verdict](https://github.com/khimaros/verdict) `★8 · 📚7` — turn any llama-server into a jev system one endpoint
+- [tic-top/llm2jev](https://github.com/tic-top/llm2jev) `★7 · 📚7` — Any chat model, any engine (SGLang, vLLM, transformers) as a Jev-compatible probability decision service: one prefill, one label token
+- [jagsan-cyber/reflex-gate](https://github.com/jagsan-cyber/reflex-gate) `★6 · 📚7` — Local Jev / System One–compatible gateway — not TypeSafe’s Jev. Fast, privacy-first, offline.
+- [Adkid-Zephyr/work-with-jev](https://github.com/adkid-zephyr/work-with-jev) `★4 · 📚7` — 用 Jev 把飞书工作消息分成四类：紧急、待办、值得看、暂时略过。A minimal, local-first message classifier with extensible workspace adapters.
+- [Saik0s/diffusiongemma-jev-macos](https://github.com/saik0s/diffusiongemma-jev-macos) `★3 · 📚7` — Local JEV-style decisions with DiffusionGemma on Apple Silicon, with benchmarks and coding-agent examples.
+- [finetuningsingh/intelliprompter](https://github.com/finetuningsingh/intelliprompter) `★2 · 📚7` — A teleprompter of talking points that checks each one off as you cover it, using TypeSafe's Jev Score questions
+- [sathariels/jevcheck](https://github.com/sathariels/jevcheck) `★2 · 📚7` — Behavioral contracts for TypeSafe Jev — pin production expectations, eval model upgrades, catch flips and confidence regressions.
+- [mheers/typesafeai-systemone-jev-go](https://github.com/mheers/typesafeai-systemone-jev-go) `★1 · 📚7` — Typed Go client for the TypeSafe System One API (Jev): structured questions and answers your code can act on. Community SDK, MIT.
+- [LamplighterPaul/forma-system1-experiment](https://github.com/lamplighterpaul/forma-system1-experiment) `★0 · 📚7` — Experimental design harness: a small decision model (Jev) picks the design in about a second, a traditional LLM (Luna) only writes the words. With and without it.
+- [deepopen-com/deepopen](https://github.com/deepopen-com/deepopen) `★1,623 · 📚6` — 非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine.  - GitHub - deepopen-com/deepopen: 非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine.
+- [Jwuthri/SelfJev](https://github.com/jwuthri/selfjev) `★58 · 📚6` — Open decisions model with Jev's API: typed answers (yes/no, choice, score, multi) with probabilities from forward passes, no generation. Qwen3.5-4B + LoRA, one GPU.
+- [IamBusy/OpenJev-Vision](https://github.com/iambusy/openjev-vision) `★40 · 📚6` — Open visual probability research: encode an image once, answer multiple structured questions. Public data, trained weights, reproducible baselines and failure cases.
+- [FLock-io/this-that-model](https://github.com/flock-io/this-that-model) `★38 · 📚6` — this-that-model - A 1.9B typed-decision model with an arXiv paper behind it: one forward pass, no decoding loop, and a /v1/systemone endpoint.
+- [marcreichel/laya-php](https://github.com/marcreichel/laya-php) `★20 · 📚6` — Classify text in PHP without an LLM bill: typed decisions in 100+ languages, self-hosted. Laravel-ready SDK for Laya, a Jev AI alternative.
+- [anthony-maio/eve-rlcd](https://github.com/anthony-maio/eve-rlcd) `★10 · 📚6` — code.
+- [jiangxiluning/Visual-Jev](https://github.com/jiangxiluning/visual-jev) `★9 · 📚6` — Visual-JEV - Multimodal models: Jev-style model built on Qwen3.5-4B that takes images directly, without first converting them to text.
+- [NicolaiLassen/open-bonsai-jev](https://github.com/nicolailassen/open-bonsai-jev) `★7 · 📚6` — openjev's mechanism, Bonsai's weights: typed decisions read straight from one forward pass of a 1.75-bit 27B model. Credit to TheoLeeCJ (SemIf/OpenJev) and PrismML.
+- [allenporter/home-assistant-laya](https://github.com/allenporter/home-assistant-laya) `★6 · 📚6` — Conversation agent based on Laya, a multilingual, non-autoregressive System 1 decision model.
+- [David-Lolly/Jev-Compatible](https://github.com/david-lolly/jev-compatible) `★6 · 📚6` — Turn your existing SGLang / vLLM deployment into a Jev-compatible decision service. No training. No model changes. 把你现有的 SGLang / vLLM 部署变成一个兼容 Jev 的决策服务。无需任何修改。无需训练。无需更改模型。
+- [exfly/laya-jev-compatible-server](https://github.com/exfly/laya-jev-compatible-server) `★6 · 📚6` — A TypeSafe Jev-compatible HTTP server (POST /v1/systemone)
+- [hemanth/hfjev](https://github.com/hemanth/hfjev) `★3 · 📚6` — Classify Hugging Face datasets across typed semantic dimensions with TypeSafe Jev System One.
+- [uspraveen/Jevify](https://github.com/uspraveen/jevify) `★3 · 📚6` — Turn Any Open-LLM into a System-one Jev model.
+- [cnrai/openpave-jev](https://github.com/cnrai/openpave-jev) `★2 · 📚6` — PAVE skill for non-autoregressive decision models (Jev / Laya / TypeSafe): typed Choice, Score and Noul answers with calibrated probabilities
+- [darwintechlab/claude-jev](https://github.com/darwintechlab/claude-jev) `★2 · 📚6` — Jev System One for Claude Code — typed Choice/Noul/Score via live TypeSafe API (mirror of opencode-openjev, live-only MCP)
+- [antlobach/clojev](https://github.com/antlobach/clojev) `★1 · 📚6` — Unofficial portable Clojure SDK for TypeSafe System One
+- [DansiDanutz/fake-real-jev](https://github.com/dansidanutz/fake-real-jev) `★1 · 📚6` — Built with Jev: how Fake / Real (fake-real.live) uses TypeSafe Jev to check claims against cited evidence.
+- [fabricioctelles/modelsystem](https://github.com/fabricioctelles/modelsystem) `★1 · 📚6` — Curated catalog of System One / Decision Models — contributions for modelsystem.one
+- [Kunyanli230/Jevometry](https://github.com/kunyanli230/jevometry) `★1 · 📚6` — an Information-Geometric Analysis Toolkit for any System-one (Jev, Jevlike) agent systems
+- [solhosty/last-train-jev](https://github.com/solhosty/last-train-jev) `★1 · 📚6` — A small detective escape room built with TypeSafe Jev, React, and Express.
+- [turenlabs/lisa](https://github.com/turenlabs/lisa) `★1 · 📚6` — LISA: Leak, Injection & Simplicity Auditor. GitHub Action that uses TypeSafe Jev (a system one model) to flag secrets, security vulnerabilities, and unneeded complexity in pull requests
+- [0xnairb/jevpot](https://github.com/0xnairb/jevpot) `★0 · 📚6` — AI-powered jackpot number predictor and intelligence oracle built with TypeSafe System One (Jev)
+- [aamanlamba/jev-explore](https://github.com/aamanlamba/jev-explore) `★0 · 📚6` — An example repository for exploring Jev - the System One model
+- [BradMyrick/Jev-Rug-Checker](https://github.com/bradmyrick/jev-rug-checker) `★0 · 📚6` — a multi-chain EVM token screener built on Jev by @TypeSafe AI
+- [david1gp/jev](https://github.com/david1gp/jev) `★0 · 📚6` — Result-based TypeSafe System One client library and jev command-line interface.
+- [jolehuit/jev-downloads-sorter](https://github.com/jolehuit/jev-downloads-sorter) `★0 · 📚6` — A ~/Downloads folder that sorts itself: one Jev decision per file, launchd WatchPaths, no daemon
+- [laya.tools](https://laya.tools) `📚6` — Projects built on Laya, the open Jev alternative, by platform and use case, plus a Laya vs Jev comparison
+- [nadeem4/jev-demo](https://github.com/nadeem4/jev-demo) `★0 · 📚6` — Decision Arena: TypeSafe's Jev vs open-source Laya playing highway-env, Snake and Blackjack with zero training, plus benchmarks and a Claude Code watchdog
+- [nardinmarcus/pi-jev-typesafe](https://github.com/nardinmarcus/pi-jev-typesafe) `★0 · 📚6` — TypeSafe Jev (System One judgments) for Pi: zero-dependency jev_ask tool with question linting, model discovery, and budget caps
+- [SadiqOnGithub/jev-lab](https://github.com/sadiqongithub/jev-lab) `★0 · 📚6` — Live tests for TypeSafe Jev (System One) via OpenRouter's Decisions API
+- [shivanathd/jev-playground](https://github.com/shivanathd/jev-playground) `★0 · 📚6` — BYOK playground for TypeSafe Jev (System One): Choice, Score, Noul examples for production gates.
+- [shunta-furukawa/jev-tick-lab](https://github.com/shunta-furukawa/jev-tick-lab) `★0 · 📚6` — A forward-only experiment: Jev (TypeSafe System One) making one-second trading judgments on bitbank, logged for calibration analysis.
+- [Talya1412/jev-harness](https://github.com/talya1412/jev-harness) `★0 · 📚6` — TypeSafe Jev (System One) integrations for OMP, MCP, Claude Code, and Pi — fail-open decision routing, gating, and verbatim compaction.
+- [lyuyiqi/open-jev-fast](https://github.com/lyuyiqi/open-jev-fast) `★88 · 📚5` — Faster inference backend for Open-Jev-27B: fused CUDA kernels, prefix tree, CUDA Graphs (B300, bf16)
+- [jlt-commons/lev](https://github.com/jlt-commons/lev) `★26 · 📚5` — Jolt implementation of Laya non-autoregressive System 1 decision engine
+- [NotXf1le/choosekit](https://github.com/notxf1le/choosekit) `★23 · 📚5` — Typed choices and probability distributions from text and images with llama.cpp, Ollama, and OpenRouter
+- [dannote/jev_nx](https://github.com/dannote/jev_nx) `★8 · 📚5` — Open decision models as a Jev backend, running in-process on Nx
+- [darwintechlab/openjev](https://github.com/darwintechlab/openjev) `★7 · 📚5` — OpenJev: An Opencode plugin that replaces text-generation decisions with Jev (TypeSafe System One).
+- [aleskxyz/kev-onnx](https://github.com/aleskxyz/kev-onnx) `★6 · 📚5` — Self-hosted, TypeSafe-compatible /v1/systemone API server for the KEV decision model - CPU-only ONNX inference via FastAPI, no GPU required.
+- [arnabgho/rlcd-lite](https://github.com/arnabgho/rlcd-lite) `★6 · 📚5` — Simplified RL for Calibrated Decisions: parallel constrained JSON decoding + GRPO with proper-scoring-rule rewards + calibration eval (Jev/RLCD reconstruction)
+- [Bring-AI/JevNext](https://github.com/bring-ai/jevnext) `★5 · 📚5` — JevNext · More than Choice — A simple algorithm that equips any Jev-like model with numerical control.
+- [tamnd/kime](https://github.com/tamnd/kime) `★5 · 📚5` — Typed decisions over text in milliseconds. A Rust inference engine and server that answers choice, score and yes or no questions with calibrated probabilities, compatible with Jev and Laya. The bar is 10x faster on every benchmark at equal…
+- [harrymunro/jev-laya-benchmark](https://github.com/harrymunro/jev-laya-benchmark) `★4 · 📚5` — Speed and accuracy benchmark: TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks
+- [keta1930/what-the-jev](https://github.com/keta1930/what-the-jev) `★3 · 📚5` — What can Jev actually do? Reproducible experiments and research reports exploring its capabilities and limits.
+- [r4ai/laya-web](https://github.com/r4ai/laya-web) `★3 · 📚5` — Laya typed decisions in the browser with ONNX Runtime WebGPU and Wasm
+- [VakeDomen/DIY-Jev](https://github.com/vakedomen/diy-jev) `★3 · 📚5` — DIY-Jev — No description provided by the repository (auto-discovered, description not yet written)
+- [Barneyjm/circuit](https://github.com/barneyjm/circuit) `★2 · 📚5` — Open-weights System One models (text, images, audio) and the harness that trains and measures them: LoRA plus a pointer readout head, code-labeled data, calibration on the scoreboard.
+- [Joe-rq/ReJev](https://github.com/joe-rq/rejev) `★2 · 📚5` — Jev-style decision-model training reproduction on MiniCPM5-2B (stage 1: single-letter Choice classification)
+- [pjt3591oo/laya-server](https://github.com/pjt3591oo/laya-server) `★2 · 📚5` — typesafe ai > systemone > jev.
+- [stiermid/laya-serve](https://github.com/stiermid/laya-serve) `★2 · 📚5` — Jev-compatible HTTP server for Laya System One decision models
+- [thomasbrueggemann/jeffrey](https://github.com/thomasbrueggemann/jeffrey) `★2 · 📚5` — A coding agent CLI where Jev (TypeSafe System One) or Laya decide what to do next and a configurable LLM does the work.
+- [wizicer/jev_info_site](https://github.com/wizicer/jev_info_site) `★2 · 📚5` — Community index of tools, models, and real-world use cases built on Jev.
+- [zaferayan/laya-vs-jev](https://github.com/zaferayan/laya-vs-jev) `★2 · 📚5` — Laya multilingual (MLX on Apple silicon) vs TypeSafe Jev: 900 cases, 3 tasks, 6 languages
+- [Ashadeepa/typesafe-jev-model-use-cases](https://github.com/ashadeepa/typesafe-jev-model-use-cases) `★1 · 📚5` — Runnable demos of TypeSafe's System One model (Jev) — parallel Noul judgments and a Choice-based citation/claim checker
+- [h1code2/jev-x-blocker](https://github.com/h1code2/jev-x-blocker) `★1 · 📚5` — jev-x-blocker - jev-x-blocker: TypeSafe Jev ecosystem repository. · JavaScript
+- [hfnissum-byte/Hunkpick](https://github.com/hfnissum-byte/hunkpick) `★1 · 📚5` — Resolve git merge conflicts by enumeration and judgment: code enumerates every valid resolution, a TypeSafe System One model picks, code gates the pick.
+- [mpuig/system-one](https://github.com/mpuig/system-one) `★1 · 📚5` — An open-source System One decision model — Kahneman's term for the fast, automatic judgment faculty. Calibrated choice/score/noul probabilities in one forward pass on small fine-tuned open models. Local on Apple Silicon (MLX),…
+- [nvkudva/laya-server](https://github.com/nvkudva/laya-server) `★1 · 📚5` — Run the Laya System One decision model locally behind TypeSafe's Jev wire API, with a demo page
+- [Placidoe/jev-rsi-lab](https://github.com/placidoe/jev-rsi-lab) `★1 · 📚5` — Reproducible, policy-gated Memory-RSI experiments on public and synthetic data
+- [sedthh/xjevboost](https://github.com/sedthh/xjevboost) `★1 · 📚5` — Add as much tabular data as you want to Jev models using adaptive ensembles that learn to query only the rows and columns needed.
+- [TOSUKUi/jev-bridge](https://github.com/tosukui/jev-bridge) `★1 · 📚5` — Jev-style /v1/systemone API in front of any OpenAI-compatible LLM server (one-token logprob scoring, MIT)
+- [turenlabs/jast](https://github.com/turenlabs/jast) `★1 · 📚5` — JAST is an experimental SAST (static application security testing) desktop app that uses TypeSafe AI's Jev System One model.
+- [angelgalvisc/snake-arena-jev-vs-llms](https://github.com/angelgalvisc/snake-arena-jev-vs-llms) `★0 · 📚5` — How many decisions can a model make in a minute, and what do they cost? Jev, a System One decision model, raced against six LLMs on the same Snake boards.
+- [api-evangelist/typesafe-ai](https://github.com/api-evangelist/typesafe-ai) `★0 · 📚5` — TypeSafe AI is a San Francisco AI lab building System One models — a class of model trained to return typed, calibrated decisions for software instead of generated text. Its flagship and first System One model, Jev, is served by a single…
+- [Arohtea/jev-readout](https://github.com/arohtea/jev-readout) `★0 · 📚5` — 把一段内容交给 TypeSafe AI 的 Jev 模型，得到带概率分布的结构化判断.
+- [ashafizullah/jev-linkedin](https://github.com/ashafizullah/jev-linkedin) `★0 · 📚5` — Chrome extension that scores how well a LinkedIn job matches your CV — and estimates your odds of passing screening — using the Jev decision model. Bilingual (ID/EN).
+- [brian-w-zhang/askjev](https://github.com/brian-w-zhang/askjev) `★0 · 📚5` — Everyone asks what Jev is; I asked how it's doing, then a million other things. A curious portrait of TypeSafe's Jev: every question a star, 192 weird experiments, zero benchmarks.
+- [capitaharlock/jev-clone](https://github.com/capitaharlock/jev-clone) `★0 · 📚5` — Open-source Jev clone: a local System One decision model for fast, calibrated, typed decisions with dynamic options, shared-state inference and zero autoregressive decoding. Runs on Apple Silicon and CUDA.
+- [damienen/jev-as-llm](https://github.com/damienen/jev-as-llm) `★0 · 📚5` — TypeSafe's Jev, a judgment model that was never trained to write, made to chat one word at a time. Browser-only, bring your own OpenRouter key.
+- [eortizs/jev-json-builder](https://github.com/eortizs/jev-json-builder) `★0 · 📚5` — Typed JSON payloads from natural language via TypeSafe Jev — Express middleware, no generative LLM, no MCP middleware
+- [goodboybeau/system-one-playground](https://github.com/goodboybeau/system-one-playground) `★0 · 📚5` — Run the new wave of decision models (Laya, Decider, Kev, Jev) side by side on your Mac. Structured input in, calibrated probabilities out, with honest accuracy, calibration, latency and memory numbers.
+- [hiroyannnn/yuru-poll](https://github.com/hiroyannnn/yuru-poll) `★0 · 📚5` — Loose polling: free-text comments become fractional votes via TypeSafe Jev (System One)
+- [hulryung/jev-testbed](https://github.com/hulryung/jev-testbed) `★0 · 📚5` — Jev (TypeSafe System One) 테스트베드 — 클라우드 API와 로컬 셀프호스팅(jeff/GLiFormer) 양쪽 실행 예제 및 실측 결과
+- [imserhatdemir/jevspace](https://github.com/imserhatdemir/jevspace) `★0 · 📚5` — A DarkOrbit-style space game piloted by Jev — TypeSafe's System One model. Three.js world, deterministic engine, Jev picks the targets.
+- [jonatasperaza/jev-voice-windows](https://github.com/jonatasperaza/jev-voice-windows) `★0 · 📚5` — Controle o Windows por voz: transcricao local (faster-whisper GPU) + decisoes tipadas do Jev (TypeSafe AI)
+- [lucast4049/openjev](https://github.com/lucast4049/openjev) `★0 · 📚5` — Run fast, calibrated, typed decisions on open System One models with a Jev-compatible API.
+- [manali-co/yapp](https://github.com/manali-co/yapp) `★0 · 📚5` — Hold a key, talk, and your Mac acts while you're still talking. Local Whisper + TypeSafe Jev, by Manali.
+- [Oaklight/krino](https://github.com/oaklight/krino) `★0 · 📚5` — Krino (κρίνω) — probing, analysis, and replication toolkit for JEV-class decision models
+- [patelvishwa112/jev-system-one-rlcd](https://github.com/patelvishwa112/jev-system-one-rlcd) `★0 · 📚5` — Jev System One AI & RLCD Reproduction Engine: Sub-70ms Calibrated Decisions with SmolLM-135M and 0 Output Tokens
+- [SebasPinto/moviejev](https://github.com/sebaspinto/moviejev) `★0 · 📚5` — LLM movie recommender using Jev (TypeSafe AI) as a calibrated reranker, with an offline eval against an LLM judge
+- [simonsez9510/jev-cite-check](https://github.com/simonsez9510/jev-cite-check) `★0 · 📚5` — AI가 조례에 대해 답한 문장이 인용한 조문에 실제로 근거하는지 Jev(TypeSafe AI)로 판정하는 게이트 실험 — 120쌍 실측, 지방자치혁신연구원
+- [slatinwine/jevy](https://github.com/slatinwine/jevy) `★0 · 📚5` — Jev-style typed-decision model distilled from official Jev. 118M, EN+CN, trains on a 4GB GPU in 10 minutes.
+- [umgbhalla/jevx](https://github.com/umgbhalla/jevx) `★0 · 📚5` — Jev (TypeSafe System One) research: API notes, benchmarks, community experiments, agent-loop patterns
+- [vamsikrishna2421/jev-usecases](https://github.com/vamsikrishna2421/jev-usecases) `★0 · 📚5` — Jev (TypeSafe AI's System One decision model) use-case catalog: real-world builds, cost math, design patterns, and a reality check on vendor claims.
+- [WiredMind2/jev](https://github.com/wiredmind2/jev) `★0 · 📚5` — Independent research notes toward an open Jev-like decision model: public facts, API contract, training and eval plan.
+- [wsmontes/michelin-jev-search](https://github.com/wsmontes/michelin-jev-search) `★0 · 📚5` — Busca de restaurantes Michelin com o Jev (TypeSafe AI): 6.802 restaurantes, amostragem por rodadas e mapa mundial
+- [Zeb88/jev-approach-control](https://github.com/zeb88/jev-approach-control) `★0 · 📚5` — Small air traffic control sim for a single runway (27). Give radio calls in plain English, or hand the frequency to Jev, TypeSafe's decision model, and watch it sequence, space and land the traffic.
+- [网站](https://openjev.com) `📚5` — MIT · Python · live
+
+## Emerging (cited by 3–4 lists) — 260
+
+- [0xSarnavo/potpie-doc-parser](https://github.com/0xsarnavo/potpie-doc-parser) `📚4` — Extractive docs search over the Potpie docs: BM25 shortlist then one Jev call picks the answering block verbatim or reports it is not covered. no license · Python
+- [2nd1st/Jevsus](https://github.com/2nd1st/jevsus) `📚4` — What Jev answers when the only options are true and false. 3,539 statements put to TypeSafe's System One mode…
+- [abe75ch/tiltmeter](https://github.com/abe75ch/tiltmeter) `📚4` — Proxy substituível e cliente Pydantic AI que registra probabilidades do Jev e alerta sobre mudança de versão, drift, concentração no limiar e perda de precisão estimada.
+- [adarc8/how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev) `📚4` — how-sure-is-jev - adarc8/how-sure-is-jev - How sure is Jev? Turn TypeSafe Jev probability outputs into one honest number, with graphs.
+- [aishwary-dongre/jev-xray](https://github.com/aishwary-dongre/jev-xray) `📚4` — Decision forensics for System One models. Jev returns a calibrated probability and cannot explain it
+- [alitrack/jev-clone](https://github.com/alitrack/jev-clone) `📚4` — Local, contract-compatible System One decision server (typed questions -> calibrated probabilities, zero gene…
+- [andrest04/jev-lab](https://github.com/andrest04/jev-lab) `📚4` — A local Node lab for TypeSafe's Jev (System One): typed questions in, probabilities out. The API key never leaves your machine.
+- [AndrewPrifer/jimothy](https://github.com/andrewprifer/jimothy) `📚4` — Train small, insanely fast local classifiers from Jev-compatible examples. Run locally in your browser or Node.js.
+- [asp616848/better-jev-for-all](https://github.com/asp616848/better-jev-for-all) `📚4` — Open, self-hostable, faster System One decision model -- API-compatible alternative to TypeSafe's Jev
+- [AviroopPaul/jev-playground](https://github.com/avirooppaul/jev-playground) `📚4` — A playground for TypeSafe AI's Jev (System One model), built around five real production workflows:
+- [ayali/node-red-contrib-jev](https://github.com/ayali/node-red-contrib-jev) `📚4` — node-red-contrib-jev - Typesafe.AI Jev integration · HTML
+- [bigdra50/a-tour-of-jev](https://github.com/bigdra50/a-tour-of-jev) `📚4` — A hands-on, A Tour of Go-style tutorial for TypeSafe AI's Jev, in Japanese. Runs locally in your browser.
+- [bulldozer2003/typesafe-ai](https://github.com/bulldozer2003/typesafe-ai) `📚4` — typesafe-ai - TypeSafe AI: structured AI judgments as programming primitives · JavaScript
+- [caiovicentino/eikos](https://github.com/caiovicentino/eikos) `📚4` — Eikos — Open decision models for finance with a Jev-compatible typed API and evaluation runners. _Python; ★ 16._
+- [davafons/focus-jev](https://github.com/davafons/focus-jev) `📚4` — focus-jev - A focused Chromium extension that uses JEV to keep browsing aligned with one session goal. · JavaScript
+- [DDnim/jev-vs-laya](https://github.com/ddnim/jev-vs-laya) `📚4` — Jev vs Laya: SQL review benchmark for System-1 decision models
+- [DeccansoftAITeam/jev-model](https://github.com/deccansoftaiteam/jev-model) `📚4` — jev-model - Jev decision model: TypeScript examples, HR Suite web app and webinar lessons · TypeScript
+- [Deepender25/chess-with-jev-](https://github.com/deepender25/chess-with-jev-) `📚4` — An empirical experiment fusing TypeSafe AI's non-autoregressive Jev model (System 1) with a high-per
+- [devjothish/laya-forge](https://github.com/devjothish/laya-forge) `📚4` — Fine-tune, calibrate and gate Laya (open-weights System One decision model) on your own decisions, then guard production agents with it
+- [dfinke/jev-experiments](https://github.com/dfinke/jev-experiments) `📚4` — jev-experiments - AI as a PowerShell decision primitive: describe what you need, let Jev rank the right file. · PowerShell
+- [Dililianxice/jev-inner-speech-bci](https://github.com/dililianxice/jev-inner-speech-bci) `📚4` — A reproducible benchmark connecting Jev semantic priors with intracortical inner-speech BCI decoding
+- [edgelabs-ai/jev48](https://github.com/edgelabs-ai/jev48) `📚4` — Open, auditable reproduction of TypeSafe Jev: a 2B probabilistic decision model benchmarked across six public…
+- [EnesDemir143/jev-laya-benchmark](https://github.com/enesdemir143/jev-laya-benchmark) `📚4` — enesdemir143/jev-laya-benchmark -- Local benchmark comparing TypeSafe Jev and Laya-MLX for structured issue classification
+- [FuturePresentLabs/ooda](https://github.com/futurepresentlabs/ooda) `📚4` — Rust client + type system for typed, calibrated decision models (Jev/Laya-compatible System One APIs
+- [getainode/ainode](https://github.com/getainode/ainode) `📚4` — Turn any NVIDIA GPU into a local AI platform. Inference + fine-tuning in your browser. One command to start, …
+- [getmissionctrl/hs-jev](https://github.com/getmissionctrl/hs-jev) `📚4` — Haskell client for TypeSafe's System One (Jev) decision API -- typed, batched Choice/Score/Noul over http-client
+- [GitHub30/OpenJev](https://github.com/github30/openjev) `📚4` — Open-weight System One model (Jev-compatible): calibrated noul / choice / score decisions in one forward pass, no text generation.
+- [gopalanj/jevons](https://github.com/gopalanj/jevons) `📚4` — Local System One for typed decisions. Scores noul, choice, and score from option logits — never free JSON. Ty…
+- [hamr-hub/z-jev](https://github.com/hamr-hub/z-jev) `📚4` — Z-Jev: Jev-style non-autoregressive decision head (Choice/Score/Noul) on the open GLM-5 architecture
+- [HCTDIP/jev-calib](https://github.com/hctdip/jev-calib) `📚4` — jev-calib - Calibration certificates for decision models - machine-verifiable stability evidence (sha256 self-digest, CI-issued).
+- [hrtaym1114-github/x-jev-gate](https://github.com/hrtaym1114-github/x-jev-gate) `📚4` — X draft gate powered by TypeSafe Jev (System One): hard secret checks + Noul scores before you publish.
+- [Hugging Face Jev Reproductions Tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker) `📚4` — Additional discovery resources include the Hugging Face Jev Reproductions Tracker and primary project links surfaced by web searches.
+- [idlivada/JevGPT](https://github.com/idlivada/jevgpt) `📚4` — A ChatGPT-style chat that generates replies one word at a time with TypeSafe's Jev System One model
+- [izam-mohammed/decisionsmith](https://github.com/izam-mohammed/decisionsmith) `📚4` — decisionsmith - Use and fine-tune System One models \(Jev, Laya\) on your data, with an LLM as the teacher. · Python
+- [JacquesGariepy/Essentiel-Jev](https://github.com/jacquesgariepy/essentiel-jev) `📚4` — AI-assisted email, calendar, tasks and documents: TypeSafe Jev gives typed, probability-backed judgm
+- [jaswanthsanjay88/rev](https://github.com/jaswanthsanjay88/rev) `📚4` — Fast, prefill-only decision model. Typed questions in, calibrated probabilities out, single forward pass with…
+- [javimp2003/laya-guardrails](https://github.com/javimp2003/laya-guardrails) `📚4` — Guardrails de input, tool call y output para agentes de IA con un modelo System One tipo Jev (laya-p
+- [jinlio/mjbrain](https://github.com/jinlio/mjbrain) `📚4` — inferred / other — ⭐4
+- [jkf87/jev-rlcd-replication](https://github.com/jkf87/jev-rlcd-replication) `📚4`
+- [joshpocock/jev-vs-laya-inbox-test](https://github.com/joshpocock/jev-vs-laya-inbox-test) `📚4` — Test TypeSafe's Jev vs the free open-source Laya on your own inbox. Label, run, fine-tune, score. Works with Claude Code or Codex ...
+- [kleosr/jevsor](https://github.com/kleosr/jevsor) `📚4` — Python engine exposing Jev-style Choice, Score and Noul evaluation over caller-provided models such as Ollama or OpenAI-compatible endpoints. MIT · Python
+- [koki-develop/fizzbuzz-jev](https://github.com/koki-develop/fizzbuzz-jev) `📚4` — fizzbuzz-jev - koki-develop/fizzbuzz-jev - FizzBuzz powered by Jev, TypeSafe AI's System One model.
+- [KonghaYao/laya-jev](https://github.com/konghayao/laya-jev) `📚4` — laya-jev - laya-jev: TypeSafe Jev ecosystem repository. · TypeScript
+- [leepokai/jev-adrank](https://github.com/leepokai/jev-adrank) `📚4` — jev-adrank - Real-time ad ranking and creative review on a typed evaluation model — one call prices a whole auction, no trained CTR model, no logged clicks. · JavaScript
+- [ljwwwiop/JEV-mini](https://github.com/ljwwwiop/jev-mini) `📚4` — JEV-mini es un proyecto de aprendizaje mínimo para entrenar un modelo rápido de…
+- [loserharsh/jev-by-harsh](https://github.com/loserharsh/jev-by-harsh) `📚4` — jev-by-harsh - What is JEV? A simple explanation of its architecture, reasoning, and how it works. · Python
+- [mani-aiml/jev-demos](https://github.com/mani-aiml/jev-demos) `📚4` — Demos with Jev, TypeSafe's System One model, one folder per demo. Code behind the videos on The Agentic Enterprise.
+- [marcemarin/typesafe-laravel](https://github.com/marcemarin/typesafe-laravel) `📚4` — Unofficial PHP/Laravel SDK for TypeSafe AI's decision model (Jev): typed choice, score and yes/no qu
+- [markylaredo/openjev-mcp](https://github.com/markylaredo/openjev-mcp) `📚4` — MCP server exposing TypeSafe's Jev through the public OpenJEV API. Send one shared context and sever
+- [mgd34msu/goodvibes-jev](https://github.com/mgd34msu/goodvibes-jev) `📚4` — The Goodvibes platform with Jev integrated into the decision model for guardrails, safety, etc.
+- [mizorewww/laya-coreml](https://github.com/mizorewww/laya-coreml) `📚4` — Laya CoreML · 1.5K stars — A local Laya typed-decision runtime for Apple Silicon and Core ML. Source
+- [MohitSV/jev-calibration-audit](https://github.com/mohitsv/jev-calibration-audit) `📚4` — Exact-target audit of the probabilities returned by calibration-trained decision models (TypeSafe Je
+- [nischal94/emoji-sift](https://github.com/nischal94/emoji-sift) `📚4` — Type a description, watch matching emoji fly out of the pile. Built with TypeSafe AI's Jev via Vercel AI Gateway.
+- [nomideusz/laya-railway](https://github.com/nomideusz/laya-railway) `📚4` — Laya open-weights decision model behind a TypeSafe/Jev-compatible API, as a Railway template
+- [open-factoryai/myJEV](https://github.com/open-factoryai/myjev) `📚4` — Turn any state into structured, calibrated decisions. Open-source System One playground: typed quest
+- [our0boros/AnyLM2Jev](https://github.com/our0boros/anylm2jev) `📚4` — AnyLM2Jev - Reproducing the Jev decision interface · Python
+- [overfit-lab/OpenJev](https://github.com/overfit-lab/openjev) `📚4` — jev in:name created:2026-09-18..2026-09-19
+- [peach-zhang/typesafe-go](https://github.com/peach-zhang/typesafe-go) `📚4`
+- [PromtEngineer/jev-harness](https://github.com/promtengineer/jev-harness) `📚4` — A Pi agent harness built around TypeSafe's Jev (System One model): router, context picker, gate, ver
+- [quaeast/vllm2jev](https://github.com/quaeast/vllm2jev) `📚4` — Jev-compatible adapter for vLLM: use any vLLM-served LLM for Choice, Score, and Noul decisions via l
+- [Qwen-2.5-1B-RLCD](https://huggingface.co/harshatheg/qwen-2.5-1b-rlcd) `📚4` — Qwen2.5-1.5B fine-tune plus parallel constrained decoding; all schema fields scored in one broadcast prefill, 5.6x to 7x faster on Apple Silicon.
+- [rmwahid/jev-cordhub](https://github.com/rmwahid/jev-cordhub) `📚4` — Ask a private Discord channel's pile of GitHub bookmarks in plain language. Jev judges what each rep
+- [samat2003/mini-Jev](https://github.com/samat2003/mini-jev) `📚4`
+- [satiricalguru/Hinge-Jev](https://github.com/satiricalguru/hinge-jev) `📚4` — 🎯 A Jev-powered decision engine and visual studio that prices uncertainty and asks the question that matters.
+- [shamspias/laya-bangla](https://github.com/shamspias/laya-bangla) `📚4` — A Bangla-focused adaptation of Laya for typed decisions, classification, and routing.
+- [soummyaanon/jev-vs-laya](https://github.com/soummyaanon/jev-vs-laya) `📚4` — ⚔️ Open-source battleground for AI classifiers: TypeSafe Jev vs Laya on byte-identical inputs. Live
+- [stephotee/survey-qc-with-jev](https://github.com/stephotee/survey-qc-with-jev) `📚4` — Survey respondent quality control with deterministic rules plus semantic judgments from TypeSafe's J
+- [sxinyuhoo/jev-mine-sweeping](https://github.com/sxinyuhoo/jev-mine-sweeping) `📚4` — inferred / apps-demos — ⭐1
+- [talmago/fast_gliner](https://github.com/talmago/fast_gliner) `📚4` — fast_gliner — Python bindings to Inference engine for GLiNER models written in Rust (auto-discovered, description not yet written) ❔
+- [tapsin/jev-local](https://github.com/tapsin/jev-local) `📚4` — JEV-Local: System-1 decision engine for local LLMs. Mimics TypefAI JEV: structured choices only, no
+- [TejaPriyan/Sureband](https://github.com/tejapriyan/sureband) `📚4` — Distribution-free coverage guarantees for System One decision models like Jev and Laya
+- [tetsuya-dev-jp/jev-pacman](https://github.com/tetsuya-dev-jp/jev-pacman) `📚4` — Jev (TypeSafe System One) plays Pac-Man in real time: structured state in, one legal direction out.
+- [TonyP-MR/jev-curation-engine](https://github.com/tonyp-mr/jev-curation-engine) `📚4` — Read-only TypeSafe Jev feasibility test rig for comparing structured Curation Engine classification decisions…
+- [triggeredcode/jev-compiler](https://github.com/triggeredcode/jev-compiler) `📚4` — jev-compiler - Compile decision policies into inspectable, measurable TypeSafe Jev programs. · Python
+- [TriusAI/Kapteeni](https://github.com/triusai/kapteeni) `📚4` — apteeni - A Jev-compatible System One decision model · Python
+- [TullyStewart/clj-jev](https://github.com/tullystewart/clj-jev) `📚4` — Thin clojure wrapper for Jev, TypeSafe AI's classification model
+- [umianta/jev-vllm](https://github.com/umianta/jev-vllm) `📚4` — jev-vllm - jev-vllm: TypeSafe Jev ecosystem repository. · Python
+- [using76/TypeEvacSafe](https://github.com/using76/typeevacsafe) `📚4`
+- [vardhantech123/All-About-JEV](https://github.com/vardhantech123/all-about-jev) `📚4` — Jev is actually not a traditional LLM, it doesn’t generate text. It’s what the TypeSafe AI team calls a System One model: ...
+- [vcjdeboer/jev-reliability](https://github.com/vcjdeboer/jev-reliability) `📚4` — Is this Jev question safe to build on? A swamp extension that measures repeatability, framing sensit
+- [vishalyadav28/resume-jev-match](https://github.com/vishalyadav28/resume-jev-match) `📚4` — resume-jev-match - Resume-to-job-description fit classification using TypeSafe AI's Jev model via LangChain · Python
+- [vtavakkoli/simple-jev](https://github.com/vtavakkoli/simple-jev) `📚4` — simple-jev - Turn any open model into a classifier/jev endpoint · Jupyter Notebook
+- [ycs77/jev-girlfriend-analysis](https://github.com/ycs77/jev-girlfriend-analysis) `📚4` — Other related projects
+- [yixuexiaoao/astrbot_plugin_typesafe_autoreply](https://github.com/yixuexiaoao/astrbot_plugin_typesafe_autoreply) `📚4`
+- [yorshstudent-a11y/jevlike](https://github.com/yorshstudent-a11y/jevlike) `📚4` — jevlike — Train a compact model to pick one option from a changing list in a single pass, no autoregressive generation needed. _(★0, Python)_
+- [youshinh/md-memo](https://github.com/youshinh/md-memo) `📚4` — A zero-latency, local-first Markdown scratchpad with offline AI (Ollama/vLLM) and autonomous IME control. Bui…
+- [ZJemYoung/jev-chat-windows-laya](https://github.com/zjemyoung/jev-chat-windows-laya) `📚4` — jev-chat-windows-laya — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details.
+- [zozo123/gemma-to-jev](https://github.com/zozo123/gemma-to-jev) `📚4` — Gemma 3 4B as a Jev-style System One decision function: one forward pass, choice logits, softmax. Native Rust + Candle. No generate().
+- [0xStoneyStark/roomtone](https://github.com/0xstoneystark/roomtone) `📚3` — ASCII music visualiser art-directed by TypeSafe's Jev: the room's sound becomes words, Jev picks the
+- [1816586742-stack/jev-craft](https://github.com/1816586742-stack/jev-craft) `📚3`
+- [1aifanatic/uipath-maestroflow-jev](https://github.com/1aifanatic/uipath-maestroflow-jev) `📚3` — UiPath Maestro Flow x TypeSafe Jev - a card dispute triage bench comparing a calibrated typed-decisi
+- [abe17124/jev-laya-chess-bench](https://github.com/abe17124/jev-laya-chess-bench) `📚3` — Chess head-to-head bench: TypeSafe Jev vs Laya (System One legal-move decisions)
+- [AceIke/mini-Jev](https://github.com/aceike/mini-jev) `📚3` — mini-Jev (AceIke) — No description provided by the repository (auto-discovered, description not yet written)
+- [adams100111/typesafe-php](https://github.com/adams100111/typesafe-php) `📚3` — Unofficial PHP client for TypeSafe's System One API (Jev) — typed noul, choice and score judgements.
+- [agarwalpranav0711/jev-ai-testing](https://github.com/agarwalpranav0711/jev-ai-testing) `📚3` — Real-time message tone analyzer and autonomous maze navigation game powered by TypeSafe AI's Jev System One model & Cloudflare Workers.
+- [ailiheizi/codejev](https://github.com/ailiheizi/codejev) `📚3` — Selection-only: host enumerates candidates, a tiny mod
+- [AISidesKicks/selectia](https://github.com/aisideskicks/selectia) `📚3` — Selectia - A family of System One-style models fine-tuned from LFM 2.5, designed for one-pass typed
+- [ajbmachon/jev-navigator](https://github.com/ajbmachon/jev-navigator) `📚3` — Find code with small, typed Jev judgments: a code index, closed yes/no and pick questions, and a best-first search where code owns ...
+- [Akeel-Majeed/JEValuate](https://github.com/akeel-majeed/jevaluate) `📚3` — JEValuate - Auto-marking maths scripts with Jev \(TypeSafe System One\): 2,054 scripts, 96.6% agreement with human markers · TypeScript
+- [alekseitylindus/s1gate](https://github.com/alekseitylindus/s1gate) `📚3` — s1gate - Native System One inference gateway for HTTP and MCP. · Rust
+- [amali-s/story-arc](https://github.com/amali-s/story-arc) `📚3` — story-arc - Visualize a character's journey through a story using TypeSafe System One · Python
+- [Amine-LG/jev-creature-forge](https://github.com/amine-lg/jev-creature-forge) `📚3` — Typed semantic creature compilation with Jev: natural language → inspectable genome → deterministic
+- [apiplant/laya-rs](https://github.com/apiplant/laya-rs) `📚3` — Rust-herimplementatie van Laya, een niet-autoregressieve engine voor getypeerde…
+- [ashwin-aggarwal/Detective-Jev](https://github.com/ashwin-aggarwal/detective-jev) `📚3` — Watching a new and viral classifier , Jev, solve a murder mystery: JEV reads detective novels chunk by chunk and outputs calibrated ...
+- [BeiZi6/jev-introduction](https://github.com/beizi6/jev-introduction) `📚3` — inferred / other — ⭐0
+- [bhushankinge/jev-laya-classification-bench](https://github.com/bhushankinge/jev-laya-classification-bench) `📚3` — Typed-decision models (Jev API, Laya 421M) vs Qwen3.5-35B on 12,000 real U.S. federal IT solicitatio
+- [biobitworks/jev-space-invaders](https://github.com/biobitworks/jev-space-invaders) `📚3` — UFA JEV Bake-Off 2026: reproducible Space Invaders agent vs LLM baseline
+- [Bnymn1306/jev-github-quality-gate](https://github.com/bnymn1306/jev-github-quality-gate) `📚3` — jev-github-quality-gate - A Jev-powered quality gate for GitHub issues, pull requests, and commits. · TypeScript
+- [Bravim-Ketan-Purohit/jev-city](https://github.com/bravim-ketan-purohit/jev-city) `📚3` — A traffic city where every car is driven by TypeSafe's Jev model, benchmarked against a rule-based d
+- [cbroker1/jev-un-squadron](https://github.com/cbroker1/jev-un-squadron) `📚3` — jev-un-squadron - A TypeSafe Jev decision model flying U.N. Squadron \(SNES, 1991\) from raw WRAM via BizHawk + Lua + Python · Python
+- [Ceciile/jev-use-cases-typefast](https://github.com/ceciile/jev-use-cases-typefast) `📚3` — typesafe.ai JEV decision model quick demo
+- [chemany/jeva](https://github.com/chemany/jeva) `📚3` — A 2B browser-agent decision model. Speaks the TypeSafe System One protocol, so jev-ultrafast is repo
+- [ChenneyZhuang/laya-computer-use](https://github.com/chenneyzhuang/laya-computer-use) `📚3` — Local computer use on macOS with Laya decisions — read any window's Accessibility tree, let a local
+- [chensterman/talos](https://github.com/chensterman/talos) `📚3` — A Minecraft agent with no LLM in the loop: code owns the plan, TypeSafe's Jev decision model supplie
+- [cl-victor1/jev-ecosystem-survey](https://github.com/cl-victor1/jev-ecosystem-survey) `📚3` — Survey of the open-source ecosystem around TypeSafe Jev: use-case classification of 16,128 GitHub re
+- [CoderInPajamas/JEV-MLX](https://github.com/coderinpajamas/jev-mlx) `📚3` — JEV-inspired local decisions for Apple Silicon, powered by MLX.
+- [cogcloud-ai/cog-typesafe](https://github.com/cogcloud-ai/cog-typesafe) `📚3` — TypeSafe's Jev System One model as a system-one/decisions provider Cog: typed, calibrated decisions through explicit versioned bindings.
+- [com-kotobalabs/open-jev-deberta-v3-large](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large) `📚3` — open reproduction on DeBERTa-v3-large (self-hostable)
+- [csabag/ryotide](https://github.com/csabag/ryotide) `📚3` — RYOTIDE — Roll Your Own Typed Inference Decision Engine: Jev-style typed decisions from a single forward pass of a local LLM (MLX ...
+- [cyysky/local-intern-jev-ultrafast](https://github.com/cyysky/local-intern-jev-ultrafast) `📚3` — internlm/Intern-Decision-4B with v1/systemone api and jev-ultrafast integration.
+- [daniel-dia/jev-estados-brasileiros](https://github.com/daniel-dia/jev-estados-brasileiros) `📚3` — jev-estados-brasileiros - Digite um tema e o mapa do Brasil acende nos estados que combinam — classificado pelo Jev · Vue
+- [dashidhy/GemmaJev](https://github.com/dashidhy/gemmajev) `📚3` — A simplified functionality reproduction of Jev-style decisions with Gemma 4. Native multi-modal abil
+- [dbssman/jev-connect-four](https://github.com/dbssman/jev-connect-four) `📚3` — Connect Four played by TypeSafe's Jev System One model: one typed Choice per move, with Jev vs Jev p
+- [dbssman/jev-minesweeper](https://github.com/dbssman/jev-minesweeper) `📚3` — Minesweeper played by TypeSafe's Jev System One model: one P(mine) per hidden cell per move, code ow
+- [ddlaws0n/jevportfolio](https://github.com/ddlaws0n/jevportfolio) `📚3` — synthetic SaaS accounts, 6,000 constrained judgments from TypeSafe's Jev, and ordina
+- [deepnoodle-ai/typesafe](https://github.com/deepnoodle-ai/typesafe) `📚3` — Go SDK for TypeSafe AI System One models such as Jev, plus a lab for patterns that use them at scale
+- [DejaAI2/JevNext](https://github.com/dejaai2/jevnext) `📚3` — Decision model on a Qwen3-0.6B backbone with LoRA: fused decision endpoint (/v1/systemone) + OpenAI
+- [denis-pplx/autojev](https://github.com/denis-pplx/autojev) `📚3` — autojev - Full-weight Qwen decision model with training code and a playground.
+- [diluteoxygen/JevPalette](https://github.com/diluteoxygen/jevpalette) `📚3` — JevPalette - TypeSafe JEV Color Guesser with Closed Beta Gate &amp; Vercel deployment · JavaScript
+- [Donatasramanauskas007/open-jev](https://github.com/donatasramanauskas007/open-jev) `📚3` — Score options in one pass with Gemma 3 4 B on MLX or PyTorch, no decoding, for fast, efficient choice ranking.
+- [draganm/go-jev](https://github.com/draganm/go-jev) `📚3` — go-jev - Go client for the TypeSafe System One \(Jev\) API · Go
+- [E1Byte/wechat-jev-android](https://github.com/e1byte/wechat-jev-android) `📚3`
+- [early-effect/hexis](https://github.com/early-effect/hexis) `📚3` — ZIO / Scala 3 SDK for TypeSafe System One (Jev)
+- [Ejokey/lightjev](https://github.com/ejokey/lightjev) `📚3` — lightjev - Read pages with Lightpanda, decide where to go with Jev — a self-steering crawler for tiny budgets · Python
+- [EmilianoVeron/jev-cms](https://github.com/emilianoveron/jev-cms) `📚3` — On-demand Jev (TypeSafe System One) question catalog for CMS-style content — classify, gate, and jud
+- [filipemotta/jev-ops-harness](https://github.com/filipemotta/jev-ops-harness) `📚3` — Companion repo for 'Jev for Cloud and SRE Work': a small Python harness showing where a decision model fits between your code ...
+- [FogMoe/necro](https://github.com/fogmoe/necro) `📚3` — Abandoned Qwen3.5-0.8B LoRA fine-tuning experiments for Jev-like typed judgments, with datasets, adapters, ev…
+- [franckverrot/lev](https://github.com/franckverrot/lev) `📚3` — lev - Jev-style decision model based on LFM2.5-350M · Python
+- [gbesse/jev-lab](https://github.com/gbesse/jev-lab) `📚3` — jev-lab - 59 open-source projects exploring typed AI decisions with Jev
+- [GodModeAI2025/JevCoreML](https://github.com/godmodeai2025/jevcoreml) `📚3` — Native Entscheidungsmaschine für macOS: kev-0.6b und laya als Core ML in Swift, ohne Python zur Laufzeit, ohn…
+- [hakkisagdic/neo-vs-morpheus](https://github.com/hakkisagdic/neo-vs-morpheus) `📚3` — Ultima Online duel bot driven by System One decision models (Laya local, Jev cloud), with a live duel monitor
+- [hari007sh/jev](https://github.com/hari007sh/jev) `📚3` — jev - hari007sh/jev - Local System One model: typed decisions plus a voice computer-use agent.
+- [hc-nolan/IOCArena](https://github.com/hc-nolan/iocarena) `📚3` — Self-hosted console to compare System One decision models (Jev, Von, Laya) against each other using VirusTotal API data.
+- [heldernoid/decida](https://github.com/heldernoid/decida) `📚3` — system one server and test bench for typed decisions
+- [henriquekieckbusch/henriquekieckbusch-module-jev](https://github.com/henriquekieckbusch/henriquekieckbusch-module-jev) `📚3` — AI-powered decisions for Magento 2: Jev analyzes orders, customers, products, reviews and abandoned
+- [henryzhangpku/jevelin](https://github.com/henryzhangpku/jevelin) `📚3` — Fast, low-cost real-time agents: take small decisions off the critical path with a System One classifier (Jev). Live demo in your browser.
+- [hfmsio/jev-wiki-watch](https://github.com/hfmsio/jev-wiki-watch) `📚3` — Live Wikipedia vandalism watch judged by Jev, TypeSafe AI's typed-decision model. Two files, no packages.
+- [HikaruEgashira/pi-prompt-enhancer](https://github.com/hikaruegashira/pi-prompt-enhancer) `📚3` — pi-prompt-enhancer - pi extension that rates every prompt with TypeSafe's jev decision model and injects the missing pieces as hints. · TypeScript
+- [HopLee6/Qwev](https://github.com/hoplee6/qwev) `📚3` — Qwev: A Training-Free, Qwen-Based Jev
+- [imteche/localjev](https://github.com/imteche/localjev) `📚3` — Self-hosted System One decision engine (TypeSafe Jev's Choice/Score/Noul contract) running locally o
+- [InterfazeAI/lev](https://github.com/interfazeai/lev) `📚3` — Qwen3.5-4B LoRA decision model with parallel typed questions, a compatible API, training code, and a comparison harness.
+- [Inverx/JevRE](https://github.com/inverx/jevre) `📚3` — Jev-powered decision layer for Android reverse engineering. Recommends the next investigation step f
+- [Jithin-jith/Jev-AI-Model](https://github.com/jithin-jith/jev-ai-model) `📚3` — jithin-jith/jev-ai-model -- Hands-on repository for Jev, the groundbreaking "System One" model created by
+- [jpvajda/jev-demo](https://github.com/jpvajda/jev-demo) `📚3` — jev-demo - a demo of Typesafe's Jev a System One Model for structured decsion making · TypeScript
+- [jumboly/jev-map-sandbox](https://github.com/jumboly/jev-map-sandbox) `📚3` — Other related projects
+- [Juniebentonitic2834/NanoJev](https://github.com/juniebentonitic2834/nanojev) `📚3` — juniebentonitic2834/nanojev -- Build a 0.6 B parallel decision model that turns states into probability distributions--no output-token decoding needed.
+- [Knight-Ops/burn-jev](https://github.com/knight-ops/burn-jev) `📚3` — Burn implementation of a simple System One model.
+- [KotalaKishanReddy/laya-plus](https://github.com/kotalakishanreddy/laya-plus) `📚3` — Stock Laya + 32k context kit — Jev-scale state, zero weight changes, Apache-2.0 (unofficial fork)
+- [lafollett-labs/typesafe-jev-dojo](https://github.com/lafollett-labs/typesafe-jev-dojo) `📚3` — A live, graphical dojo for TypeSafe's Jev (System One) typed decision model — routing, a Tetris-play
+- [LakoreAI/sev](https://github.com/lakoreai/sev) `📚3` — Reproduction and analysis of RLCD: Laya's RL term is a noise-smoothed cross-entropy gradient, CE-onl
+- [lawrence3699/Jev-Style-0.8B-Decision-v3-GGUF](https://github.com/lawrence3699/jev-style-0.8b-decision-v3-gguf) `📚3` — Jev-Style-0.8B-Decision-v3-GGUF - GitHub mirror of the chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF Hugging Face model.
+- [Laya (ConvAI Innovations)](https://laya.convaiinnovations.com) `📚3` — Laya - A 421M non-autoregressive System One decision engine with RLCD-trained calibrated probabilities and multilingual support.
+- [lazyoft/jev-explorer](https://github.com/lazyoft/jev-explorer) `📚3` — Goal-driven browser exploration with Jev, compact evidence, and persistent supervisor handoff over MCP.
+- [lbildzinkas/jobfit-jev](https://github.com/lbildzinkas/jobfit-jev) `📚3` — Brave/Chromium extension that assesses your CV against the open LinkedIn job using Jev typed decisions
+- [LearningByDoingNow/laya-case](https://github.com/learningbydoingnow/laya-case) `📚3` — Trained models and training recipes
+- [leighefford/jev-kit](https://github.com/leighefford/jev-kit) `📚3` — A growing kit of Jev-powered tools for Claude, ChatGPT, your browser and your terminal, starting with Laugh Track.
+- [lgraubner/jev-lang](https://github.com/lgraubner/jev-lang) `📚3` — A small web app that identifies the predominant language in a text sample via Jev from
+- [LingyeNBird/codesafe](https://github.com/lingyenbird/codesafe) `📚3` — Fast per-file safety/bug triage via TypeSafe System One API
+- [lldois/dsh-jev](https://github.com/lldois/dsh-jev) `📚3` — TypeSafe Jev System One semantic tool routing and typed decisions for DeepSeek Harness (DSH)
+- [loongWoong/jev-zen](https://github.com/loongwoong/jev-zen) `📚3` — Jev-inspired validation and local reimplementation of Laya, an open-weight System-1 typed decision model.
+- [lucasjinreal/Crane](https://github.com/lucasjinreal/crane) `📚3` — A Pure Rust based LLM, VLM, VLA, TTS, OCR Inference Engine, powering by Candle & Rust. Alternate to
+- [LuticaCANARD/L2S1](https://github.com/luticacanard/l2s1) `📚3` — L2S1 — jev-like adaptor for llama.cpp interface (auto-discovered, description not yet written) ❔
+- [MaeTor/laya-detector](https://github.com/maetor/laya-detector) `📚3` — Evidence-consistency checker for interviews and testimony. Transcribes voice in 99 languages on-devi
+- [maplezzk/pi-extensions](https://github.com/maplezzk/pi-extensions) `📚3` — Extensions for pi coding agent (i18n, distill, tool-supervisor)
+- [marcbara/jev-preflop-poker](https://github.com/marcbara/jev-preflop-poker) `📚3` — Is Jev (TypeSafe System One model) a decent preflop poker player? Reproducible benchmark vs 4 refere
+- [mastwet/dsh-fast-jev-compaction](https://github.com/mastwet/dsh-fast-jev-compaction) `📚3`
+- [matu79go/reflex-1](https://github.com/matu79go/reflex-1) `📚3` — Reflex-1: frontier-LLM accuracy at Jev speed. A 4B open decision model (instant classification + latent reasoning).
+- [maxtrezzi/jev4s](https://github.com/maxtrezzi/jev4s) `📚3` — Typed Scala client for Jev (TypeSafe AI). Unofficial.
+- [midhunkrishna-ops/terrajev](https://github.com/midhunkrishna-ops/terrajev) `📚3` — terraform-jev: AI-powered Terraform plan analysis using TypeSafe's System One model Automatically cl
+- [mikepapadim/jitllm-jev-demo](https://github.com/mikepapadim/jitllm-jev-demo) `📚3` — jitllm-jev-demo - System One + System Two on one GPU in pure Java: Jev-style decisions with jitLLM + TornadoVM · Java
+- [mjdileep/OpenJev](https://github.com/mjdileep/openjev) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [Moty/LocalSafeKidsEngine-Open](https://github.com/moty/localsafekidsengine-open) `📚3` — Open-source hybrid kids traffic analysis PoC combining Apple Silicon M4 local SLMs with TypeSafe.AI (Jev)
+- [mpnikhil/dev-0.4b](https://github.com/mpnikhil/dev-0.4b) `📚3` — dev-0.4b - 0.4B bidirectional decision model on ModernBERT-large.
+- [Mr-DS-ML-85/SyFox](https://github.com/mr-ds-ml-85/syfox) `📚3` — The Open System One decision engine
+- [MrHydeDev/ouijev](https://github.com/mrhydedev/ouijev) `📚3` — A pixel-art Ouija board possessed by Jev, an AI model that can't write: it only picks, so it answers
+- [MuleSoft-Forge/mule4-typesafe-connector](https://github.com/mulesoft-forge/mule4-typesafe-connector) `📚3` — Mule 4 connector for TypeSafe's System One API (Jev decision models): typed yes/no, choice and score
+- [munod/tachyone](https://github.com/munod/tachyone) `📚3` — Local-first, multilingual System One decision engine — ultra-fast, non-autoregressive, calibrated. Speaks the Jev /v1/systemone protocol.
+- [n4ze3m/hmm](https://github.com/n4ze3m/hmm) `📚3` — Open source JEV
+- [NakliTechie/llamacpp-jev](https://github.com/naklitechie/llamacpp-jev) `📚3`
+- [navzar81-dev/TALK---A-Decision-Making-Model-Leveraging-Laya-and-Jev-](https://github.com/navzar81-dev/talk---a-decision-making-model-leveraging-laya-and-jev-) `📚3` — Talk — The instant voice-first AI decision maker. Sub-50ms calibrated verdicts powered by Laya (Syst
+- [neko233-com/laya-go](https://github.com/neko233-com/laya-go) `📚3` — unverified / community-sdk — ⭐3
+- [NenXMaster-AB/attck-mapper-jev](https://github.com/nenxmaster-ab/attck-mapper-jev) `📚3` — attck-mapper-jev - Library for System One usage using Jev for Cyber threat intel · Python
+- [nishioka-shinji/jev-edgar](https://github.com/nishioka-shinji/jev-edgar) `📚3` — Does Jev, a System One model returning calibrated probabilities, say anything useful about an earnings release before the market prices it?
+- [noelserdna/cartas-ciberseguridad-jev](https://github.com/noelserdna/cartas-ciberseguridad-jev) `📚3` — Puntuar currículums de ciberseguridad con JEV, el modelo System One de TypeSafe, sobre Cloudflare Wo
+- [novvoo/nanojev](https://github.com/novvoo/nanojev) `📚3` — nanojev - (single-file) - A single-file, MIT-licensed educational implementation with a small serving UI and HTTP API.
+- [olivere/systemone](https://github.com/olivere/systemone) `📚3` — systemone - Small, standard-library-only Go library for typed decisions with Jev and other System One models. · Go
+- [omkarghugarkar007/system-one-model-finetuning](https://github.com/omkarghugarkar007/system-one-model-finetuning) `📚3` — Fine-tune small models that return calibrated probabilities instead of text. A measured recipe for S
+- [oneryalcin/hunch](https://github.com/oneryalcin/hunch) `📚3` — dbt for judgments: declarative, tested, versioned semantic decisions powered by System One models like Jev
+- [open weights](https://huggingface.co/anthonym21/qwen3-0.6b-rlcd-decision) `📚3` — This row is a paper, a local model, or an open artifact sitting next to the claim. The list says: Jev-inspired 0.6B decision model trained with reinforcement learning from right/wrong feedback only (reward: outcome…
+- [pakkio/openjev](https://github.com/pakkio/openjev) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [pambrose/laya-server](https://github.com/pambrose/laya-server) `📚3` — laya-server - A proof of concept implementation of TypeSafe's Jev API, backed by local Laya checkpoints. · Python
+- [Papajamesleonardfarmer1833/jevmlx](https://github.com/papajamesleonardfarmer1833/jevmlx) `📚3` — Batch-score structured JSON decisions from logits in one Apple Silicon forward pass, no text generation.
+- [PeriodBLUE/jev-project-atlas](https://github.com/periodblue/jev-project-atlas) `📚3`
+- [PerryLink/laya-mcp](https://github.com/perrylink/laya-mcp) `📚3` — MCP server for Laya typed decisions (noul / choice / score): warm model sidecar, token-budget preflight, pers…
+- [prakash7474/JevShield](https://github.com/prakash7474/jevshield) `📚3` — Hardened TypeScript SDK & Desktop IDE for TypeSafe AI’s Jev decision engine—adding state determinism
+- [quangliz/dan](https://github.com/quangliz/dan) `📚3` — system one model serving engine
+- [r33drichards/laya-vision](https://github.com/r33drichards/laya-vision) `📚3` — laya-vision - Image inputs for Laya on a SmolVLM-256M backbone.
+- [RealHacker/jeveval](https://github.com/realhacker/jeveval) `📚3` — jeveval — Code to test Jev model against LLMs on a few benchmarks (auto-discovered, description not yet written)
+- [relliex/self_jev](https://github.com/relliex/self_jev) `📚3` — Share a very simple idea for building your own jev model
+- [RichardoMrMu/jev-mini](https://github.com/richardomrmu/jev-mini) `📚3` — Put Jev's three headline claims on trial on your own GPU. One command, a 0.5B local model: measures constrain…
+- [rohitdevade/topiclens-for-youtube](https://github.com/rohitdevade/topiclens-for-youtube) `📚3` — topiclens-for-youtube - A smart, continuous topic filter for YouTube powered by Jev. · TypeScript
+- [romrom-20/Training-Jev](https://github.com/romrom-20/training-jev) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [ronisaguey-ux/Laya-jev-mcp](https://github.com/ronisaguey-ux/laya-jev-mcp) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [ruslanlap/jev-gate](https://github.com/ruslanlap/jev-gate) `📚3` — Typed decision model judge for GitHub PRs — sub-second, ~$0.0001 per triage (TypeSafe Jev via OpenRo
+- [Rybens92/typed-gguf](https://github.com/rybens92/typed-gguf) `📚3` — Local alternative to Jev: typed decisions (choice/score/yes-no) with real probability distributions,
+- [saibala2905/itr2-evidence-reasoning-jev](https://github.com/saibala2905/itr2-evidence-reasoning-jev) `📚3` — Exploring JEV/System One primitives for evidence-aware ITR-2 validation, discrepancy diagnosis, and ambiguous tax-document reasoning.
+- [sametcn99/my-stars-atlas](https://github.com/sametcn99/my-stars-atlas) `📚3` — A generated catalog of starred GitHub repositories, grouped into stable categories.
+- [SanjayaJena1207/jevdemo](https://github.com/sanjayajena1207/jevdemo) `📚3` — System One Model - Jev
+- [seawolf2357/darwin-27b-jev](https://github.com/seawolf2357/darwin-27b-jev) `📚3` — Darwin-27B-JEV: fast typed-decision path + Darwin-27B-RSI reasoning path (Decision Index engine)
+- [shanehull/go-jev](https://github.com/shanehull/go-jev) `📚3` — go-jev - A Go library for Jev System One. · Go
+- [Shearerbeard/jev-driver](https://github.com/shearerbeard/jev-driver) `📚3` — Typed Rust driver for TypeSafe AI's Jev (System One) decision model
+- [Shiawaseu/katai](https://github.com/shiawaseu/katai) `📚3` — atai is an ultra-fast, non-autoregressive AI browser agent powered by local System-1 decision model
+- [shyamsridhar123/LAYA-RLCD](https://github.com/shyamsridhar123/laya-rlcd) `📚3` — 🎮 Play. Learn. Respawn. Turn LAYA & ModernBERT Decoder into tactical AI pilots in Cinder Station, an
+- [si618/explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai) `📚3` — TypeSafe System One (Jev) evaluated on synthetic FHIR clinical scenarios, with Claude as System Two
+- [sileod/tasksource](https://github.com/sileod/tasksource) `📚3` — Tasksource recasts hundreds of classification datasets into Jev-compatible typed questions, answers, and procedural training examples.
+- [site](https://finetuningsingh.github.io/intelliprompter) `📚3`
+- [site](https://heman10x-ngu.github.io/openjev-verdict-2.0) `📚3`
+- [sksq96/jevgram](https://github.com/sksq96/jevgram) `📚3` — Can Jev (TypeSafe System One) do what Pangram does? 7,139 texts from RAID, HC3 and MAGE, one typed question e…
+- [slatejack/jev-desktop](https://github.com/slatejack/jev-desktop) `📚3`
+- [snevadalabs/jev-kmp](https://github.com/snevadalabs/jev-kmp) `📚3` — otlin Multiplatform SDK for the TypeSafe / Jev System One API -- typed questions with calibrated probabilities instead of generated text.
+- [sparrowpanton/jev-hearth](https://github.com/sparrowpanton/jev-hearth) `📚3` — A hearth for Jev, a non-speaking model that communicates the way non-speaking people do: we built an
+- [sshh12/nanojev](https://github.com/sshh12/nanojev) `📚3` — A hypothetical reconstruction of Jev, TypeSafe's closed "System One" decision model, in the spirit o
+- [stefanoCassola/jev-governor](https://github.com/stefanocassola/jev-governor) `📚3` — In-loop control of under-relaxation in OpenFOAM (SIMPLE and PIMPLE), with rules or the Jev judgment
+- [sting8k/qwen-jev-like](https://github.com/sting8k/qwen-jev-like) `📚3` — Turn Qwen-series models into jev-like typed-decision engines
+- [sunyifeng11111/typesafe-minesweeper](https://github.com/sunyifeng11111/typesafe-minesweeper) `📚3` — typesafe-minesweeper - Autonomous Minesweeper powered by TypeSafe System One and local constraint inference · TypeScript
+- [taku-me/chakuho](https://github.com/taku-me/chakuho) `📚3` — Jev-compatible System One decision endpoint over a local LLM (1-token logprob decisions)
+- [TakuyaAbe/jev-vj](https://github.com/takuyaabe/jev-vj) `📚3` — Jev VJ: audio-reactive visuals where three TypeSafe Jev units deliberate the show (MAGI style). Clou
+- [tc3oliver/laya-apple](https://github.com/tc3oliver/laya-apple) `📚3` — Correctness-validated heterogeneous Laya runtime for Apple Silicon (MLX GPU + Apple Neural Engine)
+- [themaker00001/JevFlash](https://github.com/themaker00001/jevflash) `📚3` — MPS-adapted replication of NanoJev's non-generative decision-model architecture; Qwen3-0.6B vs 1.7B backbone comparison
+- [tiendvlp/jevai](https://github.com/tiendvlp/jevai) `📚3` — jevai - Typed messages and an async Rust client for the TypeSafe System One \(Jev\) API · Rust
+- [timsamart/jev-graph-walk](https://github.com/timsamart/jev-graph-walk) `📚3` — jev-graph-walk - Context-carrying graph retrieval with Jev: branching walks, reproducible ablations, and a visual replay. · Python
+- [TokenRhythm/NeoHorse](https://github.com/tokenrhythm/neohorse) `📚3` — NeoHorse-Jev — Open 4B decision model with prefill-only Choice, Noul, and Score inference over text or one image, plus native, vLLM, and SGLang runtimes. _Python; ★ 1,289._
+- [tomek7667/cbjev](https://github.com/tomek7667/cbjev) `📚3` — Typed decisions (choice/score/noul) from one encoder pass - faster, better-calibrated successor to L
+- [tozetsu/hev](https://github.com/tozetsu/hev) `📚3` — Android client for TypeSafe Jev System One — structured choice with probabilities and confidence.
+- [Trecto34/openjev-fighting-ring](https://github.com/trecto34/openjev-fighting-ring) `📚3` — openjev-fighting-ring - puts Diffusion/RLCD/Block-Causal/NLI approaches in one arena.
+- [u007/minicpm5-jev](https://github.com/u007/minicpm5-jev) `📚3` — MiniCPM5-2 B-8bit as a Jev-compatible typed-decision service on Apple Silicon (llm2jev + MLX), with reproducible JevBench results
+- [Viratvishnu13/SystemOne-ONNX](https://github.com/viratvishnu13/systemone-onnx) `📚3` — Small (~22M param) local alternative to Jev/Laya-style System 1 decision models: confidence-weighted
+- [Vishakha93/jev-job-ranker](https://github.com/vishakha93/jev-job-ranker) `📚3` — Prototype to try jev for job ranking using synthetic jobs
+- [vllm-project/vllm](https://github.com/vllm-project/vllm) `📚3` — #57250 - A vLLM patch exposing Google's DiffusionGemma (26B MoE, 3.8B active) behind a Jev-compatible /v1/systemone endpoint, using parallel denoising instead of autoregressive generation and adding image input, which Jev lacks.
+- [wdlctc/jev-recommend](https://github.com/wdlctc/jev-recommend) `📚3` — Jev-style typed decision models as recommenders: pointwise vs isolated-mask vs listwise LLM scoring
+- [xavierforge/jev_experiments](https://github.com/xavierforge/jev_experiments) `📚3` — jev\_experiments - Experiments with TypeSafe's Jev System One model · JavaScript
+- [xergioalex/jev-lab](https://github.com/xergioalex/jev-lab) `📚3` — A hands-on lab for Jev, TypeSafe's System One model — AI decision trees, guardrails and routing with
+- [yodakeisuke/fpna-jev-master-matching](https://github.com/yodakeisuke/fpna-jev-master-matching) `📚3` — inferred / other — ⭐0
+- [youkiti/titan-sr-jev-replication](https://github.com/youkiti/titan-sr-jev-replication) `📚3` — inferred / agent-tooling — ⭐0
+- [yuting-ai/minicpm5-2b-jev](https://github.com/yuting-ai/minicpm5-2b-jev) `📚3` — MiniCPM5-2B-Jev: High-Speed System 1 Decision Model (/v1/systemone, Jev-Compatible), #1 &lt;=2B Model on JevBench
+- [yuvrajrox/laya-jev-eval](https://github.com/yuvrajrox/laya-jev-eval) `📚3` — Head-to-head evaluation of Laya (open weights) and TypeSafe Jev on email intent classification
+- [YV17labs/TokenShooter](https://github.com/yv17labs/tokenshooter) `📚3` — A Jev-like System One model in your browser: a small language model plays a first-person shooter on your GPU, one token per ...
+- [zsj-a11y/jev-in-jev](https://github.com/zsj-a11y/jev-in-jev) `📚3` — jev-in-jev - JEV in JEV: an AI task router that uses Jev to decide whether a task needs Jev. · Python
+- [zzhdbw/laya-Ascend](https://github.com/zzhdbw/laya-ascend) `📚3` — laya-Ascend !stars - Local runtime: Ascend NPU fork of the Laya checkpoints that answers the same Choice, Score and Noul questions on Huawei 910B hardware — 37–47 ms median for a four-question request, 33.8x–70.9x…
+- [网站](https://ekzhang--openjev-sglang-openjev.us-west.modal.direct) `📚3`
+
+## Long tail (cited by 1–2 lists) — 658
+
+<details><summary>Show 658 long-tail entries</summary>
+
+- [020909/KyrosLabs-Kepler-1](https://github.com/020909/kyroslabs-kepler-1) `📚2` — epler 1.2 from Kyros Labs — our most powerful open local System One decision model. Free Apache weights.
+- [14-TR/jev-empirical](https://github.com/14-tr/jev-empirical) `📚2` — Jev empirical studies and hybrid Incident Room app:
+- [189-sketch/jev-laya-cube-arena](https://github.com/189-sketch/jev-laya-cube-arena) `📚2` — Web dashboard comparing Jev (TypeSafe cloud API) vs Laya (local model) on Rubik's cube next-move decisions.
+- [2commits/typesafe-systemone](https://github.com/2commits/typesafe-systemone) `📚2` — Unofficial async Rust client for the TypeSafe System One API (Jev)
+- [47thtechcorner/RayCodes_Mica_4B](https://github.com/47thtechcorner/raycodes_mica_4b) `📚2` — Open Source Jev is HERE: Mica 4B Makes 47ms Decisions With Zero Tokens! Real-time spatial intelligence Pac-Man evasion duel vs Laya AI ...
+- [adelvillar1/sys1](https://github.com/adelvillar1/sys1) `📚2` — Reusable System One decision-model abstraction: Jev, GLiNER-2.5-Decide, local GLiNER2, ModernBERT be
+- [adiun/jev-clinical-trial-prototype](https://github.com/adiun/jev-clinical-trial-prototype) `📚2` — Testing out Jev / System One model for a health use case
+- [agnuxo1/universal-cognitive-architecture-jev-v2](https://github.com/agnuxo1/universal-cognitive-architecture-jev-v2) `📚2` — Executable cognitive architecture: validated graph context, deterministic cache, bounded JEV routing
+- [agrogov/jev-system-one-study](https://github.com/agrogov/jev-system-one-study) `📚2` — Black-box study of about 8,300 requests, replayed identically against Laya and SemIf to separate Jev's variance from task noise. jev-1.13.0 · n=8,300 requests
+- [aisideskicks/yesmom-selectia-dev](https://github.com/aisideskicks/yesmom-selectia-dev) `📚2` — Web for Selectia - A family of System One-style models fine-tuned from LFM 2.5, designed for one-pas
+- [alexkarpandrus/tickettrain](https://github.com/alexkarpandrus/tickettrain) `📚2` — Provider-neutral ticket tool (ttt) linking change requests to tracker issues
+- [alexw1111/laya-cuda](https://github.com/alexw1111/laya-cuda) `📚2` — A lightweight CUDA inference library for Laya
+- [AlexWortega/openjev](https://huggingface.co/alexwortega/openjev) `📚2` — First open weights; Qwen3.5-4B as a 3-class NLI cross-encoder, zero-shot Doom
+- [Algorythm-Canada/OpenJevSwift](https://github.com/algorythm-canada/openjevswift) `📚2` — Native Swift implementation of OpenJev: Jev-compatible System One typed…
+- [amansahani/jev-laya-openai-comparison](https://github.com/amansahani/jev-laya-openai-comparison) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Amine-LG/decision-lab](https://github.com/amine-lg/decision-lab) `📚2` — Decision Lab: visual System One playground for building decisions, comparing Jev, OpenJEV, Laya, and
+- [AnandaRimal/jev-masterclass](https://github.com/anandarimal/jev-masterclass) `📚2` — Exploring JEV by TypeSafe AI — a System One Model designed for fast, structured decision-making with
+- [andreasgoethals/JEVPFN](https://github.com/andreasgoethals/jevpfn) `📚2` — JEVPFN — Label-free Jev text features for TabPFN: MulTaBench research and reproducible exploration. _(★1)_
+- [AntonioGr7/Jeff](https://github.com/antoniogr7/jeff) `📚2` — Local System one Model inspired by Jev
+- [anyforge/ruhui](https://github.com/anyforge/ruhui) `📚2` — Multilingual, non-autoregressive System 1 decision model.
+- [aohana182/hunch8](https://github.com/aohana182/hunch8) `📚2` — hunch8 — Magic 8-ball Android app powered by TypeSafe's Jev decision model on OpenRouter (auto-discovered, description not yet written)
+- [arashari/youtube-judol-userscript-jev](https://github.com/arashari/youtube-judol-userscript-jev) `📚2` — Tampermonkey userscript that flags Indonesian online-gambling (judol) spam comments on YouTube using
+- [arthrp/libre-jevlike-rs](https://github.com/arthrp/libre-jevlike-rs) `📚2` — topic:system-one
+- [atharvamaik/dwev](https://github.com/atharvamaik/dwev) `📚2` — A local Jev-compatible decision engine powered by a 1.16 GB quantized 8B model.
+- [autohandai/weka-samples](https://github.com/autohandai/weka-samples) `📚2` — Runnable Weka decision-model examples for software delivery, data quality, and research workflows.
+- [baltzparra/jev-study](https://github.com/baltzparra/jev-study) `📚2` — Estudo sobre Jev, o System One Model da TypeSafe AI: o que é, casos reais, onde é relevante
+- [binaryisok/jevrun-linux](https://github.com/binaryisok/jevrun-linux) `📚2` — jevrun: Linux desktop agent driven by TypeSafe Jev — type a task, Jev drives the computer
+- [binbandit/local-laya](https://github.com/binbandit/local-laya) `📚2` — local-laya - local-laya: TypeSafe Jev ecosystem repository. · TypeScript
+- [BoltDoggy/typesafe-docs-zh](https://github.com/boltdoggy/typesafe-docs-zh) `📚2` — Other related projects
+- [Braedennn/OpenJev](https://github.com/braedennn/openjev) `📚2` — A generic agent harness that routes every step through a Jev decision, pluggable with any LLM.
+- [bunkerlab-net/laya-shim](https://github.com/bunkerlab-net/laya-shim) `📚2` — A thin shim for Laya/Laya-MLX
+- [burgerwdev/what-is-jev](https://github.com/burgerwdev/what-is-jev) `📚2` — Jev notes: fourteen decisions I ran through it ★ 1 · model_id · Python
+- [cayman2142/social-credit](https://github.com/cayman2142/social-credit) `📚2` — The Party watches you work. A joke productivity monitor and a real field test of Jev (TypeSafe Syste
+- [Charan-2004/Flying-Jev](https://github.com/charan-2004/flying-jev) `📚2` — Realistic 100-Fly Drosophila Sword Colosseum powered by 139 k Biological Connectome Dynamics & TypeSafe JEV System One AI
+- [chenyangcun/NanoJev](https://github.com/chenyangcun/nanojev) `📚2` — NanoJev - A minimal nanoGPT-style replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
+- [chrishan17/wuziqi](https://github.com/chrishan17/wuziqi) `📚2`
+- [clawdbot58-pixel/sentinel](https://github.com/clawdbot58-pixel/sentinel) `📚2` — Open self-hosted System One decision API (Jev wire-compatible) + agent skill — 87.9% JevBench, beats Jev on accuracy and score
+- [codenamev/ruby-laya](https://github.com/codenamev/ruby-laya) `📚2` — ruby-laya - ruby-laya: TypeSafe Jev ecosystem repository. · Ruby
+- [CodeWithMoin/system-one-reexamined](https://github.com/codewithmoin/system-one-reexamined) `📚2` — Are 'System One' decision models (Laya, Jev) a new capability? Benchmarked against NLI zero-shot and
+- [composio-community/jev-orchestrator](https://github.com/composio-community/jev-orchestrator) `📚2` — No description provided.
+- [corasan/arjev](https://github.com/corasan/arjev) `📚2` — Argent + Jev ★ 1 · model_id · Rust
+- [cyu60/floodgate](https://github.com/cyu60/floodgate) `📚2` — Floodgate — Own Your Intelligence Hackathon (YC HQ, Sep 27 2026): an open Jev trained on River AI that decides what flows ...
+- [damanimehul/RLCR](https://github.com/damanimehul/rlcr) `📚2`
+- [Davipar/djev-dev](https://github.com/davipar/djev-dev) `📚2` — djev - DiffusionGemma plus vLLM: an inference method rather than new weights, with native image inputs and a hosted API. Ranked 3rd on JevBench v1.2, just…
+- [dexmac221/doomgemma](https://github.com/dexmac221/doomgemma) `📚2` — Tests of the Laya System One decision model (doomLaya) vs Gemma 4 E2B / Gemma 3 270M fine-tuned with
+- [diegoamrg4123/testes-laya-modelos-jev-like](https://github.com/diegoamrg4123/testes-laya-modelos-jev-like) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [diluteoxygen/jevname](https://github.com/diluteoxygen/jevname) `📚2` — Deterministic generational wave, linguistic origin, and gender distribution for names using TypeSafe
+- [djhoomin/local-system-one](https://github.com/djhoomin/local-system-one) `📚2` — Local stand-ins for TypeSafe Jev's System One interface: typed calibrated decisions from small models, with a…
+- [donliggett/julius](https://github.com/donliggett/julius) `📚2` — An open standard for asking decision models typed questions (yes/no, choice, score) and getting back
+- [DontHash/laya-nepali](https://github.com/donthash/laya-nepali) `📚2` — Jev for Nepal: High-Speed System 1 Decision Model for Nepali Conversational Commerce (&lt;30ms, Devanagari & NepGlish)
+- [Egbertjing/vllm-jev](https://github.com/egbertjing/vllm-jev) `📚2` — vLLM Jev - Native vLLM serving for Jev-style Choice/Noul/Score checkpoints over HTTP. (Project guide)(community/projects/tools/vllm-jev.md).
+- [ejhshen/OpenJev](https://github.com/ejhshen/openjev) `📚2` — LLM backbone + option-set decision head, non-autoregressive
+- [ekzhang/openjev-sglang（⭐**123**）](https://github.com/ekzhang/openjev-sglang（⭐**123**）) `📚2`
+- [ericmjl/seems-laya](https://github.com/ericmjl/seems-laya) `📚2` — Seems: Python, plus judgment, answered locally by Laya. A variant of kavehmz/seems-lang with the ope
+- [esterhuizen/laya-packet-analyser](https://github.com/esterhuizen/laya-packet-analyser) `📚2` — lpa/laya.py talks to a loopback System One endpoint; detectors decode flows and raise candidates. Dashboard defaults to
+- [Evan26Ma/qq-jev-hud](https://github.com/evan26ma/qq-jev-hud) `📚2`
+- [Ewen2015/i-shoot-rock](https://github.com/ewen2015/i-shoot-rock) `📚2` — i-shoot-rock - jev-based rock paper scissors, to test jev pre-trained model. · Python
+- [exoticknight/dsh-system1](https://github.com/exoticknight/dsh-system1) `📚2` — System One foundation and Cordis plugin for DeepSeek Harness \
+- [fancyboi999/ockev](https://github.com/fancyboi999/ockev) `📚2` — Ship the result, not the conversation. 35ms discriminative decision engine for AI agent deliverables
+- [fathiyul/system-one-exploration](https://github.com/fathiyul/system-one-exploration) `📚2` — Exploration of System One models like Jev
+- [foreverwonder/jev-disk-mvp](https://github.com/foreverwonder/jev-disk-mvp) `📚2`
+- [form-filling dataset](https://huggingface.co/datasets/cua-ai/cua-s1-forms) `📚2`
+- [franknoh/OpenJev](https://github.com/franknoh/openjev) `📚2`
+- [Gabriel382/BioJev](https://github.com/gabriel382/biojev) `📚2` — BioJev is a biomedical decision-model benchmark and adaptation framework built on OpenJev,
+- [galactic717/vybir](https://github.com/galactic717/vybir) `📚2` — Local AI that decides - and knows when it doesn't. Laya typed decisions on any PC (Windows/Linux/mac
+- [ghiffarsabda/easynest_v3](https://github.com/ghiffarsabda/easynest_v3) `📚2` — Industrial 2D irregular nesting engine with Superposition concurrency and TypeSafe Jev System One AI
+- [Hanno-Labs/jev-compatible-server](https://github.com/hanno-labs/jev-compatible-server) `📚2`
+- [hanzhi227/local-jev](https://github.com/hanzhi227/local-jev) `📚2` — A local decision server with runnable examples and benchmarks. A local jev.
+- [harshavarma02/system1-jev-laya-agent](https://github.com/harshavarma02/system1-jev-laya-agent) `📚2` — Autonomous System 1 Speedcuber Agent powered by TypeSafe Jev & Laya ModernBERT-421M. Real-time 3D sp
+- [hayriyigit/JimmyJenk](https://github.com/hayriyigit/jimmyjenk) `📚2` — JimmyJenk: a local harness for Jev-style System-One decisions (Noul / Choice / Score) from any LLM's
+- [hcl-z/pi-jev-gate](https://github.com/hcl-z/pi-jev-gate) `📚2` — Check agent file changes against your project's written constraints, using TypeSafe AI's Jev decision model
+- [Hejk/jev-feed-guard](https://github.com/hejk/jev-feed-guard) `📚2` — Chrome extension that uses TypeSafe AI's Jev (System One) to filter ads and uninteresting content ou
+- [hrodic/laya-docker](https://github.com/hrodic/laya-docker) `📚2` — laya-docker — Dockerized Laya System One decision model _(★1)_
+- [Hugging Face blog: "Jev ai vs djev vs Laya vs OpenJev vs SemIf: Which Decision Model Shoul](https://huggingface.co/blog/sora-2/jev-ai-vs-djev-vs-laya-vs-openjev-vs-semif-which-d) `📚2` — Jev vs djev vs Laya vs OpenJev vs SemIf - Comparison of open decision models.
+- [hulryung-uo/anima3](https://github.com/hulryung-uo/anima3) `📚2` — Anima v3 — a thin System-One brain (Qwen logprob + Laya triage + LLM) driving anima-client; economy, combat, and skill progression on ServUO Automatically…
+- [hwfengcs/any2jev](https://github.com/hwfengcs/any2jev) `📚2` — Self-hosted Jev-compatible decision server: fine-tunes Qwen3-0.6B (LoRA r=16, one epoch, single RTX 2060 SUPER 8GB) and serves the same POST /v1/systemone…
+- [i-madhav/jevxlaya-mlx](https://github.com/i-madhav/jevxlaya-mlx) `📚2` — Ticket-triage duel: 30 hand-labeled tickets run through a real TriageAgent (Google ADK), results.json committed, python -m benchmark.run_benchmark reproduces…
+- [iamdgarcia/openJev](https://github.com/iamdgarcia/openjev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [iamlemec/llama.cpp](https://github.com/iamlemec/llama.cpp) `📚2` — Classification tool in a llama.cpp fork. classify branch, tools/classify ★ 4
+- [inhabitants/laya-invaders](https://github.com/inhabitants/laya-invaders) `📚2` — Space Invaders flipped: Laya picks the target from facts, a one-line rule is the baseline
+- [italoalmeida0/laya-system-one](https://github.com/italoalmeida0/laya-system-one) `📚2` — Self-contained, ultra-fast System 1 decision engine with WebGPU/WASM acceleration, 100% wire-compatible with TypeSafe Jev (/v1/systemone).
+- [jackasser/jev-hub](https://github.com/jackasser/jev-hub) `📚2`
+- [JacobEGarcia/jev-explained](https://github.com/jacobegarcia/jev-explained) `📚2` — Jev, honestly - an autoplaying animated explainer: decision models, calibration, and the JevBench race
+- [jamescorbett/mlx-vlm](https://github.com/jamescorbett/mlx-vlm) `📚2` — System One decoding for vision language models on MLX. mlx_vlm/systemone ★ 8
+- [jeonck/clinic-checklist](https://github.com/jeonck/clinic-checklist) `📚2`
+- [JeronimoRepetto/local-issue-classifier](https://github.com/jeronimorepetto/local-issue-classifier) `📚2` — Local-first web app that pulls a GitHub repo's issues and README, then asks Jev (TypeSafe AI's decision model) to rate each issue ...
+- [JJRPF/antigravity-auto-mode](https://github.com/jjrpf/antigravity-auto-mode) `📚2` — Claude Code Auto Mode emulation for Google Antigravity (AGY) powered by TypeSafe AI System One
+- [joelakaufmann-lgtm/nrs-navigator](https://github.com/joelakaufmann-lgtm/nrs-navigator) `📚2` — Local Nevada statute search and a reproducible evaluation of Jev-assisted ranking against keyword se
+- [JTankariya/langgraph-jev-router](https://github.com/jtankariya/langgraph-jev-router) `📚2` — A native LangGraph conditional edge that replaces slow generative LLMs with TypeSafe AI's determinis
+- [juanAndresArriaga/system-one-jev-demo](https://github.com/juanandresarriaga/system-one-jev-demo) `📚2` — Tiny demo of TypeSafe System One / Jev: unstructured state in → typed probabilistic decisions out (n
+- [Jumbo-Juice/local-system-one](https://github.com/jumbo-juice/local-system-one) `📚2` — Jev-inspired System One-style local LLM decision engine proof of concept
+- [kaiserama/im-in-danger](https://github.com/kaiserama/im-in-danger) `📚2` — Stranger danger for AI agents: detect prompt injection in content your agent fetches, before it read
+- [KartavyaDesai/curiosity-digest](https://github.com/kartavyadesai/curiosity-digest) `📚2` — A daily news-digest about the topic I love and admire! My approach to delegate agents some work. + I
+- [katya4oyu/jev-systemone-local](https://github.com/katya4oyu/jev-systemone-local) `📚2` — Local System One-compatible decision server for Laya backends
+- [kausthubhk/constraint-witness-jev](https://github.com/kausthubhk/constraint-witness-jev) `📚2`
+- [kavehmz/mina-terrarium](https://github.com/kavehmz/mina-terrarium) `📚2` — Mina, an artificial person who feels time pass. TypeSafe Jev (System One) watches her body and sense
+- [killkli/open-jev-laya](https://github.com/killkli/open-jev-laya) `📚2` — open-jev-laya - Browser-only Laya multilingual demos on Transformers.js.
+- [kiuckhuang/laya-jev](https://github.com/kiuckhuang/laya-jev) `📚2`
+- [KoshiBebop/fastsem-jev](https://github.com/koshibebop/fastsem-jev) `📚2` — Training-free token compression for Qwen3.5-4B typed decisions, with bilingual docs and full-workload accuracy/latency results.
+- [lab-emi/ChipLaya](https://github.com/lab-emi/chiplaya) `📚2` — ChipLaya: a typed decision model for analog circuit design (Laya fine-tuned for amplifier topology decisions).
+- [lateos-ai/reflex](https://github.com/lateos-ai/reflex) `📚2` — Reflex - GGUF-native Rust and CUDA engine built for cold-start latency, with a system1 command that scores your candidates from a local model.
+- [lawrence3699/Jev-Style-0.8B-Decision-v3-MLX](https://github.com/lawrence3699/jev-style-0.8b-decision-v3-mlx) `📚2` — GitHub mirror of the chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX Hugging Face model
+- [lawrence3699/jev-style-v3](https://github.com/lawrence3699/jev-style-v3) `📚2` — GitHub mirror of the chaoliangUNSW/jev-style-v3 Hugging Face Space
+- [left-try/jev-governor](https://github.com/left-try/jev-governor) `📚2` — Lightweight local supervision and governance for AI coding agents, using deterministic checkpoints and sparse Jev evaluations.
+- [leovoon/jev-trainer](https://github.com/leovoon/jev-trainer) `📚2` — Have you Jev'd? — practice the dock manager's rule: menu · glance · branch → fast_lane / decompose / office.
+- [lesterppo/laya-agents](https://github.com/lesterppo/laya-agents) `📚2` — Laya System 1 decision engine as native tools for Hermes Agent and Muse: fast, local, non-autoregres
+- [LHLLHL-hailong/jev_enhance_harness](https://github.com/lhllhl-hailong/jev_enhance_harness) `📚2`
+- [LiteVar/system-one](https://github.com/litevar/system-one) `📚2` — An open-source, local, cross-platform runtime for System One models, providing a Jev-compatible API.
+- [llrhino/jev-ui](https://github.com/llrhino/jev-ui) `📚2` — Other related projects
+- [lnuxe/typesafe-docs-zh](https://github.com/lnuxe/typesafe-docs-zh) `📚2` — Other related projects
+- [luckberonne/mini-jev](https://github.com/luckberonne/mini-jev) `📚2` — Clasificador de comandos de shell de una sola pasada (solo lectura / reversible / destructivo), inspirado en Jev
+- [luminousyyh/laya-decide](https://github.com/luminousyyh/laya-decide) `📚2` — A DeepSeek Harness skill that gates file and command actions on a local LAYA System-1 decision model
+- [lutyjj/jev-openvino-npu-server](https://github.com/lutyjj/jev-openvino-npu-server) `📚2` — Jev-style models OpenVINO NPU server
+- [maful/jev](https://github.com/maful/jev) `📚2` — Send typed questions to TypeSafe System One and receive typed Ruby response objects.
+- [manyamkarthik/laya-issue-triage](https://github.com/manyamkarthik/laya-issue-triage) `📚2` — Fine-tuned Laya model that triages GitHub issues in a single CPU forward pass — training data, held
+- [MarchLiu/deltajev](https://github.com/marchliu/deltajev) `📚2` — Semantic-if typed decisions from Qwen3.8-27B (Gated DeltaNet hybrid) — does linear attention make decision-native inference cheaper? Not affiliated with…
+- [matura-lol/Jev-categorise](https://github.com/matura-lol/jev-categorise) `📚2` — Jev based exam paper categorisation used on matura.lol Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [Maverick-Ansh/intentions_emergent](https://github.com/maverick-ansh/intentions_emergent) `📚2` — Latent reasoning for user-intent decomposition: does more continuous-space compute produce better goal extraction? With JEV (TypeSafe System One) as the…
+- [meijustory123/OpenJev-Kit](https://github.com/meijustory123/openjev-kit) `📚2`
+- [metalagman/layajev](https://github.com/metalagman/layajev) `📚2` — Local Laya inference server with a Jev-compatible API subset
+- [michaljach/jet](https://github.com/michaljach/jet) `📚2` — Train and serve a small, typed, calibrated decision model (choice / score / noul) on Apple Silicon
+- [mohdyaser/Jev-multimodal](https://github.com/mohdyaser/jev-multimodal) `📚2` — A multimodal Jev-like model based on Gemma 4 E4B aimed for compute on edge
+- [mohitmail85/jev-playground](https://github.com/mohitmail85/jev-playground) `📚2` — Side-by-side comparison of Jev (BeatAPI's free jev-1.13 decision model) vs Gemini structured output,
+- [Mombrane/gitev](https://github.com/mombrane/gitev) `📚2` — Git-backed long-term memory for AI agents, with a decision model (Jev) as the judgment layer
+- [mouadse/jev-vs-laya](https://github.com/mouadse/jev-vs-laya) `📚2` — Can an at-home model match Jev? TypeSafe Jev vs self-hosted Laya on Moroccan Darija sentiment, with reproduci…
+- [musubi-labs/musubi-jev](https://github.com/musubi-labs/musubi-jev) `📚2` — tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own
+- [muthuishere/jevd](https://github.com/muthuishere/jevd) `📚2` — Inference server for the openjev NLI cross-encoder. One command, downloads on first run, CPU and GPU.
+- [muthuishere/openjevx](https://github.com/muthuishere/openjevx) `📚2` — Open-weight Jev-compatible System One decision model, fine-tuned from Laya with RLCD
+- [NachiketKandari/jev-laya-explore](https://github.com/nachiketkandari/jev-laya-explore) `📚2` — Other related projects
+- [narceliosousa-coder/jev-architecture-3d](https://github.com/narceliosousa-coder/jev-architecture-3d) `📚2` — Cena 3D interativa da arquitetura do modelo Jev (TypeSafe AI, System One Model)
+- [NathanHB/open-jev](https://github.com/nathanhb/open-jev) `📚2` — Four minimal decision models (System One style): typed questions in, calibrated option probabilities out, no text generation.
+- [notsointresting/sift](https://github.com/notsointresting/sift) `📚2` — Triage the noise, flag the rest. Free, browser-based, BYOP batch triage/moderation powered by Pollin
+- [nubenetes/jevops](https://github.com/nubenetes/jevops) `📚2` — JevOps: Decision Models for Cloud-Native Infrastructure, OpenShift 4.20+ (Air-Gapped & Cloud), AKS, EKS, GKE
+- [omniaeye/laya-jev](https://github.com/omniaeye/laya-jev) `📚2` — JEV/LAYA project entry. See omnia-laya for the decision engine and documentation.
+- [ooo-hq/fez](https://github.com/ooo-hq/fez) `📚2` — A small decision model improved through a Bittensor training competition.
+- [opper-ai/jev-vs-kev](https://github.com/opper-ai/jev-vs-kev) `📚2` — Jev vs Kev 4B on the same System One endpoint: benchmark code, a post-cutoff test set and results
+- [oskarscot/typesafe4j](https://github.com/oskarscot/typesafe4j) `📚2` — Modern and lightweight Java SDK for the TypeSafe AI Jev models
+- [pantos12/mailverdict](https://github.com/pantos12/mailverdict) `📚2` — Forward an email, get a calibrated phishing verdict. Jev (TypeSafe System One) decides, an LLM expla
+- [patkusch/assay](https://github.com/patkusch/assay) `📚2` — Fast, local, typed decisions with calibrated confidence. An open take on the System One / Jev idea.
+- [pavankristipati/jev-field-notes](https://github.com/pavankristipati/jev-field-notes) `📚2` — Hands-on lab testing Jev, a System One classification model: cost, latency, and rate limits from one evening of calls
+- [PavitarSinghArneja/one-dollar-tahoe](https://github.com/pavitarsingharneja/one-dollar-tahoe) `📚2` — Reproducing the real $1 Chevy Tahoe chatbot exploit and testing 6 AI defenses (incl. TypeSafe's real
+- [pawelmamcarz/linkedin-ai-slop](https://github.com/pawelmamcarz/linkedin-ai-slop) `📚2` — LinkedIn feed AI-slop detector using TypeSafe Jev API
+- [Perferic/openjev-mcp](https://github.com/perferic/openjev-mcp) `📚2` — Open-source Jev-compatible MCP server for typed decisions (Choice/Score/Noul): local GLiNER backend
+- [pngwn/system-one-qwen3.5-4b-scorer-v2b](https://huggingface.co/pngwn/system-one-qwen3.5-4b-scorer-v2b) `📚2` — v2 retrain of the pngwn Qwen3.5-4B-Base LoRA scorer on 45,932 questions for 2 epochs; card reports 0.803 val accuracy and ECE 0.022 (val split only, n=5,087).…
+- [PolyAI-LDN/task-specific-datasets](https://github.com/polyai-ldn/task-specific-datasets) `📚2` — Banking77 - 77 fine-grained banking intents over 13k queries. Single-domain counterpart to CLINC150, and the benchmark Janus reports wins on. CC BY 4.0.
+- [PostHog/jeeves](https://huggingface.co/posthog/jeeves) `📚2` — Jeeves-9B: an Apache-2.0 Jev-like decision model on Qwen3.5-9B with a pointer head that writes a reasoning chain per question before returning calibrated…
+- [Pradeeptalari14/tp-typesafe-jev](https://github.com/pradeeptalari14/tp-typesafe-jev) `📚2` — Developer Studio repository for TypeSafe Jev: System 1 AI Studio. Category: ai.
+- [PragmaTwice/jeva.cpp](https://github.com/pragmatwice/jeva.cpp) `📚2` — jeva.cpp - a llama.cpp fork with a JEV-compatible decision API for all LLMs supported by llama.cpp.
+- [pravinrajah14/jev-exploration](https://github.com/pravinrajah14/jev-exploration) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [professortavares/jev_laya_studies](https://github.com/professortavares/jev_laya_studies) `📚2` — Estudos sobre os modelos Jev e Laya
+- [PromptEngineer48/my-jev](https://github.com/promptengineer48/my-jev) `📚2` — Build your own Jev-like System One classifier: fine-tune Qwen3.5-4B with Unsloth on RunPod, serve wi
+- [pullely-samuel/jev-intro](https://github.com/pullely-samuel/jev-intro) `📚2` — Intro slides on TypeSafe AI's Jev / System One decision models
+- [Quintui/json-renderer](https://github.com/quintui/json-renderer) `📚2` — Generative UI two ways: json-render with an LLM vs Jev (TypeSafe System One), via the AI SDK and OpenRouter
+- [raaulc/jev-projects](https://github.com/raaulc/jev-projects) `📚2` — Small projects built with Jev (TypeSafe AI's typed-decision model)
+- [RazerLight67/JevDemo](https://github.com/razerlight67/jevdemo) `📚2` — Demo of Jev model
+- [rcarmo/go-pherence](https://github.com/rcarmo/go-pherence) `📚2` — Jev-like model in a pure-Go tensor framework. model/jevlike ★ 17
+- [reoring/fern](https://github.com/reoring/fern) `📚2` — B Jev-compatible decision model distilled from DeepSeek V4 Flash
+- [Reza2kn/Bev](https://github.com/reza2kn/bev) `📚2` — Local Jevfire-style candidate scoring with ternary models and a System One API; probabilities are candidate-relative.
+- [Romay777/laya-telegram-mod](https://github.com/romay777/laya-telegram-mod) `📚2` — Self-hosted AI moderation bot for Telegram groups. Catches spam, ads and insults with the open Laya model running locally on CPU, or ...
+- [Royhu1/jev-poker-trainer](https://github.com/royhu1/jev-poker-trainer) `📚2` — inferred / agent-tooling — ⭐0
+- [rsalas6/testing-jev](https://github.com/rsalas6/testing-jev) `📚2` — Experiments with Jev, TypeSafe AI's first System One model
+- [ruralbytest/demojev](https://github.com/ruralbytest/demojev) `📚2` — Demos of Jev (System One) by TypeSafe AI: message routing, confidence traffic light, multilingual Tamil
+- [ruyianry/jevgym](https://github.com/ruyianry/jevgym) `📚2` — JevGym is an open-source platform designed to benchmark and facilitate better probabilistic estimati
+- [rythmn1111/doom-war](https://github.com/rythmn1111/doom-war) `📚2` — Two System One models fight a real Doom deathmatch. Laya (322M, open weights, local MLX) vs Jev (Typ
+- [S1LV3RJ1NX/openjev](https://github.com/s1lv3rj1nx/openjev) `📚2` — Open System One models: typed decisions with calibrated probabilities, trainable on your own data. No text generation.
+- [sagochiko/jev-lateral-thinking-quiz](https://github.com/sagochiko/jev-lateral-thinking-quiz) `📚2`
+- [sallout/laya-coreml-vs-jev-benchmark](https://github.com/sallout/laya-coreml-vs-jev-benchmark) `📚2` — Reproducible Laya-CoreML vs Jev benchmark for zero-shot intent classification on Banking77, ArBankin
+- [sathwikkuncham/laya-snake-arena](https://github.com/sathwikkuncham/laya-snake-arena) `📚2` — Configurable Snake decision arena for local Laya, TypeSafe JEV, and custom providers. Live compariso
+- [scd13150/jev-field-notes](https://github.com/scd13150/jev-field-notes) `📚2` — Fighting game, TTS and SVG geometry probes plus an 8,000-call boundary study. jev-1.13.0 · n=8,000 calls
+- [scd13150/st-mind-compass](https://github.com/scd13150/st-mind-compass) `📚2`
+- [sfmqrb/gutcheck](https://github.com/sfmqrb/gutcheck) `📚2` — gutcheck - grep for meaning: a single-binary CLI that runs Laya locally, with a live explorer, named questions and a log cache.
+- [sfriedowitz/toy-jev](https://github.com/sfriedowitz/toy-jev) `📚2` — Toy implementation of a Jev-like model.
+- [Sharkelot/jev-laya-free](https://github.com/sharkelot/jev-laya-free) `📚2` — Free local Jev-compatible typed decisions backed by rules or Laya, with a TypeSafe SDK-compatible Python surf…
+- [site](https://stiermid.github.io/laya-serve) `📚2`
+- [site](https://jev-skills.github.io/openjev-multimodal) `📚2`
+- [SleepinWei/Jev-LongSeq](https://github.com/sleepinwei/jev-longseq) `📚2` — Evidence-grounded hierarchical browser agent and reproducible evaluation harness.
+- [sleepy0x13/jevia-harness](https://github.com/sleepy0x13/jevia-harness) `📚2`
+- [smallnest/laya-jev-api](https://github.com/smallnest/laya-jev-api) `📚2` — jev-compatible api for laya
+- [smit153/PageLens](https://github.com/smit153/pagelens) `📚2` — Semantic search for webpages using TypeSafe AI's Jev typed decision model. Find relevant passages ev
+- [snakerzr/OpenJev](https://github.com/snakerzr/openjev) `📚2` — Open-source self-hosted implementation of System One Decisions API (zero-generation fast classification engin…
+- [soloa715/valorant-mc](https://github.com/soloa715/valorant-mc) `📚2`
+- [somacosf/jev-minesweeper-harness](https://github.com/somacosf/jev-minesweeper-harness) `📚2` — Jev System One tester: Minesweeper as a typed decision world, plus a generic I/O harness for any sta
+- [Sourav19o7/jev-examples](https://github.com/sourav19o7/jev-examples) `📚2` — Experiments with TypeSafe Jev — a Gmail organiser built on typed System One decisions
+- [sriannamalai/Jev.UI](https://github.com/sriannamalai/jev.ui) `📚2` — Easy to use User Interface for System One's Jev Model interaction.
+- [srknkrbb/jev-ecc](https://github.com/srknkrbb/jev-ecc) `📚2` — Jev (TypeSafe AI System One) decision layer for ECC / Claude Code: risk gate, triage & routing, review triage, OTel/Grafana flow
+- [st1ne/jev-gem-scan](https://github.com/st1ne/jev-gem-scan) `📚2` — Educational demo: score simulated token launches GEM/RUG via a mocked TypeSafe Jev decision model. S
+- [SteFletcher/openjev](https://github.com/stefletcher/openjev) `📚2` — OpenJev fork: System One decisions from an open model, plus a Jev vs LLMs explainer on GitHub Pages
+- [suffro/decport](https://github.com/suffro/decport) `📚2` — (RESEARCH ARTIFACT REPO) Reproducible research on cross-backbone probabilistic decision tr
+- [superinstance/ai-writings](https://github.com/superinstance/ai-writings) `📚2` — Creative writing, essays, and philosophical explorations from the Exocortex project
+- [SuperInstance/jeviter](https://github.com/superinstance/jeviter) `📚2` — JEV (Joint Embedding Validator) UI — promote/REVIEW/DISCUSS/REJECT oracle for canon-vs-speculation.
+- [Swastikbhat-lab/jev-sentinel](https://github.com/swastikbhat-lab/jev-sentinel) `📚2` — Sub-15ms context-window observability, deterministic decision gating, runtime self-healing, and continuous self-improving for AI agents using TypeSafe AI's Jev.
+- [syntaxerror64/open-jev](https://github.com/syntaxerror64/open-jev) `📚2` — An open-source effort to rebuild the principles behind TypeSafe AI’s Jev using PyTorch.
+- [system-one-qwen3.5-4b-scorer](https://huggingface.co/pngwn/system-one-qwen3.5-4b-scorer) `📚2` — Qwen3.5-4B base trained as a Score-style rubric rater.
+- [talex-touch/flint](https://github.com/talex-touch/flint) `📚2` — An on-device decision model for selection and preference scenarios: the training recipe, the evaluat
+- [tamkimd/tamev](https://github.com/tamkimd/tamev) `📚2` — tamev - Open-source multi-device Jev-like decision models you can train and run yourself: 5.33 ms on one CPU thread. Apache-2.0. · Python
+- [Taylor-eOS/jev-deberta](https://github.com/taylor-eos/jev-deberta) `📚2` — Script for typed-decision model.
+- [tenuo-ai/tenuo](https://github.com/tenuo-ai/tenuo) `📚2` — Task-scoped authorization for AI agents. Cryptographic warrants constrain tools and arguments, prevent privil…
+- [theanandprasad/slop-detector](https://github.com/theanandprasad/slop-detector) `📚2` — Chrome extension that labels templated, engagement-farming posts on LinkedIn and X using TypeSafe's Jev decision model via OpenRouter
+- [thesyedyahya/llev](https://github.com/thesyedyahya/llev) `📚2` — Open-source Jev alternative: self-hosted System One decision engine. Typed answers (choice / score /
+- [thomasgauthier/jev.cpp](https://github.com/thomasgauthier/jev.cpp) `📚2` — System One inference in C/C++
+- [Trystan-SA/laya-candle](https://github.com/trystan-sa/laya-candle) `📚2` — unverified / routing-guardrails — ⭐3
+- [ubermenchh/nanohunch](https://github.com/ubermenchh/nanohunch) `📚2` — Minimal System One model: state + typed questions in, calibrated probabilities out. One forward pass
+- [v3moreno/ask-jev](https://github.com/v3moreno/ask-jev) `📚2` — Agent skill + CLI for Jev, TypeSafe AI's hosted System One decision model — remote counterpart to ask-laya
+- [vagmi/jevlite](https://github.com/vagmi/jevlite) `📚2` — jevlite - vagmi/jevlite - An attemt to recreate jev model on top of gemma.
+- [vasanthsreeram/myNameisJevToo](https://github.com/vasanthsreeram/mynameisjevtoo) `📚2` — Convert any causal LM into a Jev-style typed decision model — no training, no new weights. Measured honestly against JevBench, negative results ...
+- [vicksiyi/qwen-2.5-1b-rlcd](https://github.com/vicksiyi/qwen-2.5-1b-rlcd) `📚2` — Local MLX decision probability demo derived from harshatheg/Qwen-2.5-1 B-RLCD on Hugging Face
+- [victorbvieira/system-one-lab](https://github.com/victorbvieira/system-one-lab) `📚2` — Benchmarking System One models against LLMs for typed decisions in Python. Jev vs. LLM on routing, urgency tr…
+- [viralkachhadiya/jevkit](https://github.com/viralkachhadiya/jevkit) `📚2` — Typed Rust for TypeSafe AI's Jev: define questions as enums with macros, ask them with a built-in client, get typed answers with ...
+- [wdobry/laya-playground](https://github.com/wdobry/laya-playground) `📚2` — A website, two games, a benchmark and an agent skill for Laya, the open-source decision model. Runs
+- [wdonega/rest-laya](https://github.com/wdonega/rest-laya) `📚2` — Dockerized REST service, jev-compatible, that serves the Laya model (convaiinnovations/laya) for use from non-Python apps.
+- [wikigsroom/Jev-Wiki-Book](https://github.com/wikigsroom/jev-wiki-book) `📚2` — A local wikillm base on nano-jev
+- [wisalkhanmv/jevllm](https://github.com/wisalkhanmv/jevllm) `📚2` — jevllm - Jev as an LLM \(cz why not\) · Python
+- [wmsing/agent-firewall-laya](https://github.com/wmsing/agent-firewall-laya) `📚2` — Local Laya HTTP semantic scorer sidecar for agent-firewall (POST /eval)
+- [wnoronha/jeb](https://github.com/wnoronha/jeb) `📚2` — CLI tool to query TypeSafe AI's System One API (Jev model). Designed for scripts, shell pipelines, and agent tool calls where you ...
+- [wnzn/semif-go](https://github.com/wnzn/semif-go) `📚2` — System One-style decision scoring over llama.cpp with multimodal input
+- [wuhao19831214/classroom-signal-console](https://github.com/wuhao19831214/classroom-signal-console) `📚2` — Local-first classroom signals with two-pass Chinese ASR, structured TypeSafe Jev judgments, and audi
+- [xshubhamg/battle-arena](https://github.com/xshubhamg/battle-arena) `📚2` — Monochrome 1v1 battle arena for anime, comics, and shows — judged by Jev (TypeSafe AI System One).
+- [yalindogusahin/jev-pandas](https://github.com/yalindogusahin/jev-pandas) `📚2` — Explore pandas dataframes with natural-language filtering, classification, and scoring through Jev-c
+- [yoheinakajima/glance](https://github.com/yoheinakajima/glance) `📚2` — Glance - Asks a frozen open vision-language model typed questions about an image and reads the answer out of one forward pass, with a calibration harness…
+- [yoneyy/typesafe-go](https://github.com/yoneyy/typesafe-go) `📚2` — A general-purpose Go SDK for TypeSafe AI, including Jev models and the System One API.
+- [yunhai-dev/laya2typesafeapi](https://github.com/yunhai-dev/laya2typesafeapi) `📚2` — Self-hosted multilingual Laya decision model exposed through a TypeSafe-compatible API.
+- [YuyaForest/JEV-Gemini-Nikkei-Japan-Sentiment](https://github.com/yuyaforest/jev-gemini-nikkei-japan-sentiment) `📚2` — Finance and trading experiments
+- [zotoio/jev-feature-demo](https://github.com/zotoio/jev-feature-demo) `📚2` — Typesafe Jev (System One) feature demo — fixture-first CLI + JevClient; Jev proposes, code promotes.
+- [zuhair-01/laya-windows](https://github.com/zuhair-01/laya-windows) `📚2` — Windows port of Laya typed-decision AI (ONNX Runtime + DirectML) — Core ML/Apple Neural Engine alter
+- [zulfifazhar/system-one](https://github.com/zulfifazhar/system-one) `📚2` — System One Model API for Laya compatible with TypeSafe Jev
+- [0x440-1me/laya-unity](https://github.com/0x440-1me/laya-unity) `📚1` — Unity-native SDK for Laya and System One decision models — Choice, Noul, Score, local Laya, and Type
+- [10086ggqq/laya-t-rex-runner](https://github.com/10086ggqq/laya-t-rex-runner) `📚1` — Typed decisions (choice / score / noul) drive a 7.5k-parameter System 1 that plays Chrome's T-Rex ru
+- [123skywalker/Neriv](https://github.com/123skywalker/neriv) `📚1` — An open Jev-like System-One model and serving stack for fast typed probabilistic decisions.
+- [1c5edc17](https://huggingface.co/convaiinnovations/laya/tree/1c5edc17a7acd8701df6fc341c0d179f1c62c982) `📚1`
+- [1ove9/yaf-goai-semifinal](https://github.com/1ove9/yaf-goai-semifinal) `📚1` — Auditable antenna exploration environment for GOAI 2026 Track 3, with preregistration, solver-gated validatio…
+- [1Panel-dev/laya-server,72,TypeScript,,2026-09-23](https://github.com/1panel-dev/laya-server,72,typescript,,2026-09-23) `📚1`
+- [350 M parameter](https://huggingface.co/franckverrot/lev-350m) `📚1`
+- [47thtechcorner/RayCodes_LayaAI](https://github.com/47thtechcorner/raycodes_layaai) `📚1` — Laya 0.4B: The Free Jev Killer That Answers in 32ms! Sub-35ms open-weight System 1 decision model ru
+- [50bbx/laya-needle](https://github.com/50bbx/laya-needle) `📚1` — Find webpage passages by meaning, with Laya running locally. A port of Needle from hosted Jev to a l
+- [567-labs/instructor](https://github.com/567-labs/instructor) `📚1` — Instructor - Structured outputs from LLMs via typed schemas, with validation and retries; a common baseline for typed decisions today.
+- [abcdmku/Laya-vs-Jev](https://github.com/abcdmku/laya-vs-jev) `📚1` — score 14.4 · 0 stars
+- [abhimanyupandian/laya-js](https://github.com/abhimanyupandian/laya-js) `📚1` — Run Laya in the browser (WebGPU/WASM) or Node.js with ONNX Runtime. Typed choice, score and yes/no d
+- [abhishekgahlot2/openjev-server](https://github.com/abhishekgahlot2/openjev-server) `📚1` — A decision API over any open model: one forward pass per question, a probability for every
+- [adhishthite/laya-agent](https://github.com/adhishthite/laya-agent) `📚1` — Dual-Process AI Agent combining Gemini 3.5 Flash-Lite (System 2) and ConvAI Laya / TypeSafe Jev (Sys
+- [advillalba/jev-system-one-demo](https://github.com/advillalba/jev-system-one-demo) `📚1` — Shell command risk assessment with Jev (TypeSafe System One) via OpenRouter
+- [Adzic/system-one-playground](https://github.com/adzic/system-one-playground) `📚1` — System One Playground: a Jev-inspired decision playground (Choice, Score, Noul) running NLI entirely
+- [agentculture/jev-factory](https://github.com/agentculture/jev-factory) `📚1` — Jev factory: turns nvsh's Tool-Jev fine-tune process into a reusable pipeline for building jev-like
+- [AI Weekly: "Convai ships Laya" (2026-09-19)](https://aiweekly.co/alerts/convai-ships-laya-a-421m-modernbert-decision-model-apache-20) `📚1` — Model-card honesty rundown: zero-shot 0.362 vs 0.318 random baseline and 0.461 majority-class; refitting one temperature per question type moves mean ECE 0.466…
+- [ai-2-m/laya](https://github.com/ai-2-m/laya) `📚1` — Copy of NandhaKishorM/laya, a multilingual RLCD System 1 decision engine
+- [ai-ecoverse/kev.js](https://github.com/ai-ecoverse/kev.js) `📚1` — ev decision models in the browser: WebGPU/WASM via onnxruntime-web, TypeSafe System One API
+- [AI-Unleashed/jev-showcase](https://github.com/ai-unleashed/jev-showcase) `📚1` — Interactive showcase of TypeSafe's Jev System One model (choice / score / noul) via OpenRouter — zer
+- [Aj1905/jev-voice-browser](https://github.com/aj1905/jev-voice-browser) `📚1`
+- [alexander-voronkov/laya-web-poc](https://github.com/alexander-voronkov/laya-web-poc) `📚1`
+- [AlexLeow99/laya-triage](https://github.com/alexleow99/laya-triage) `📚1` — Local, offline triage console built on the Laya decision model — classify text, score it, and flag w
+- [ali-rehman-ML/modern-bert-jev](https://github.com/ali-rehman-ml/modern-bert-jev) `📚1` — Pick the best option from a list, with percentages you can trust. ModernBERT + LoRA, calib
+- [alilibx/laya-vs-jev](https://github.com/alilibx/laya-vs-jev) `📚1` — Benchmark and live race: open-weight Laya (incl. Arabic fine-tunes) vs TypeSafe Jev, on real labelle
+- [alina-yur/jev-graalvm](https://github.com/alina-yur/jev-graalvm) `📚1`
+- [allay-team/openjev](https://github.com/allay-team/openjev) `📚1`
+- [almodover/laya-demo](https://github.com/almodover/laya-demo) `📚1` — Analyse any text or ebook on 82 calibrated dimensions (genre, mood, themes, style) with the Laya mod
+- [alongL/openJev](https://github.com/alongl/openjev) `📚1`
+- [alpaslan-exe/hd5-antigravity-jev](https://github.com/alpaslan-exe/hd5-antigravity-jev) `📚1` — Hack Dearborn 5 workshop — build with Google Antigravity and Laya, an open System One model running
+- [ameeetgaikwad/laya-vs-jev-traffic](https://github.com/ameeetgaikwad/laya-vs-jev-traffic) `📚1` — Laya (local, on-device MLX) vs Jev (cloud API) controlling identical cities in a real-time AI traffi
+- [amycardoso/batuta](https://github.com/amycardoso/batuta) `📚1` — Generative art conducted by TypeSafe Jev: a mood phrase becomes typed art direction, and an obedienc
+- [andragon3110/laya-mcp](https://github.com/andragon3110/laya-mcp) `📚1` — MCP server exposing Laya's typed-decision tools to coding agents. Optional, self-hosted, 7x faster than Jev.
+- [AnswerDotAI/ModernBERT](https://github.com/answerdotai/modernbert) `📚1` — ModernBERT - Modernized BERT encoder under most fast classifiers, including Laya's English checkpoint. The non-generative baseline Jev's cost and speed usually…
+- [anthonyli/laya-pilot](https://github.com/anthonyli/laya-pilot) `📚1` — Generate replayable Excel test cases from live browser pages, or run existing Excel cases, using Pla
+- [antonellof/laya-vs-dijkstra](https://github.com/antonellof/laya-vs-dijkstra) `📚1` — Laya MLX typed decisions vs Dijkstra on seeded weighted mazes, side-by-side replay on Apple Silicon
+- [antoniofulg/jev-parser](https://github.com/antoniofulg/jev-parser) `📚1` — Experimental bounded semantic verbalizer for Jev judgments: SRR, protected values, compact-model training, an…
+- [anupa-perera/f1-jev-simulation](https://github.com/anupa-perera/f1-jev-simulation) `📚1` — Reproducible F1 forecasting harness comparing TypeSafe Jev with OpenAI models on identical pre-race
+- [apneduniya/flora](https://github.com/apneduniya/flora) `📚1` — Restyle any website by describing it. Jev chooses, code builds. Chrome/Brave extension powered by TypeSafe AI's Jev.
+- [applex250/jev-skill-laya,0,Python,,2026-09-21,Fork](https://github.com/applex250/jev-skill-laya,0,python,,2026-09-21,fork) `📚1`
+- [arbazsiddiqui/kev-browser-use](https://github.com/arbazsiddiqui/kev-browser-use) `📚1` — A tiny 0.6B Jev-like model fine-tuned from Kev for browser use: 32.2% step success on Mind2Web, runs
+- [arshadakl/laya-local](https://github.com/arshadakl/laya-local) `📚1` — A local-first Malayalam/English assistant for Windows that turns voice or text commands into safe, s
+- [artificial-intelligence-works/laya-jev](https://github.com/artificial-intelligence-works/laya-jev) `📚1`
+- [aryanbhujade/laya-mlx-voice-browser](https://github.com/aryanbhujade/laya-mlx-voice-browser) `📚1` — Voice-control Safari and Chromium browsers on Apple silicon with a local Laya decision model that ch
+- [aryanthegamedev3465-collab/tiny-decision](https://github.com/aryanthegamedev3465-collab/tiny-decision) `📚1` — ? Tiny Decision - A Local Harness & Deployment Platform for System One Models. In-process GGUF/ONNX
+- [AshutoshKY/sayso](https://github.com/ashutoshky/sayso) `📚1` — Speak to Mac. On-box Laya picks the app. No cloud LLM.
+- [assembledadam/typesafe-jev-benchmarking](https://github.com/assembledadam/typesafe-jev-benchmarking) `📚1` — Test System One models (Jev, EigenJev, Kev) on your own inbox
+- [aungthuhein2005/laya-burmese](https://github.com/aungthuhein2005/laya-burmese) `📚1` — Zero-shot, calibration, and fine-tuning study of Laya on Burmese SIB-200 topic classification
+- [balevine/jev-demo](https://github.com/balevine/jev-demo) `📚1` — Demo app for labeling threads in your Gmail inbox using the Jev model
+- [bananadonn/laya-or-jev-pong](https://github.com/bananadonn/laya-or-jev-pong) `📚1`
+- [basavaraj1997/Jev-AI-vs-Laya-AI](https://github.com/basavaraj1997/jev-ai-vs-laya-ai) `📚1` — score 13.3 · 0 stars
+- [bbldCVer/chinese-jev-pages](https://github.com/bbldcver/chinese-jev-pages) `📚1` — Chinese-JEV browser inference on GitHub Pages
+- [BEKO2210/statim](https://github.com/beko2210/statim) `📚1` — Native C++20 engine for System-1 decision models — Laya/Jev-compatible, no Python, bit-exact parity
+- [belentani7/system-one-unified](https://github.com/belentani7/system-one-unified) `📚1` — System One — motor de decisiones tipado, determinista y offline (POST /v1/systemone)
+- [beyonddream/jev-in-25.py](https://github.com/beyonddream/jev-in-25.py) `📚1` — repo to reproduce
+- [bhaktofmahakal/onemetric-ai-assessment](https://github.com/bhaktofmahakal/onemetric-ai-assessment) `📚1` — Deterministic RevOps Evaluator with TypeSafe System One & Bounded Agent Runtime
+- [bhushankinge/laya-cuda-bench](https://github.com/bhushankinge/laya-cuda-bench) `📚1` — How many decisions/s can one NVIDIA GPU serve under a p99 SLO, and what does a million cost? Reprodu
+- [bigqiao/NanoJev-MLX](https://github.com/bigqiao/nanojev-mlx) `📚1`
+- [bmw8080/laya-decision-api](https://github.com/bmw8080/laya-decision-api) `📚1`
+- [bonzi-1.7b-v1-jev](https://huggingface.co/nicolaimtlassen/bonzi-1.7b-v1-jev) `📚1` — NicolaiMTLassen · Hugging Face · ♥ 1 · 2026-09-20Recipe and measurements (no weights) for running Bonsai 1.7B GGUF as a Jev-style typed decision function that…
+- [bonzi-27b-v1-jev](https://huggingface.co/nicolaimtlassen/bonzi-27b-v1-jev) `📚1` — NicolaiMTLassen · Hugging Face · 2026-09-20Recipe and measurements (no weights) for running Bonsai 1 27B GGUF as a Jev-style typed decision function that…
+- [bonzi-27b-v2-jev](https://huggingface.co/nicolaimtlassen/bonzi-27b-v2-jev) `📚1` — NicolaiMTLassen · Hugging Face · ♥ 1 · 2026-09-20Recipe and measurements (no weights) for running Ternary Bonsai 2 27B GGUF as a Jev-style typed decision…
+- [bonzi-4b-v1-jev](https://huggingface.co/nicolaimtlassen/bonzi-4b-v1-jev) `📚1` — NicolaiMTLassen · Hugging Face · 2026-09-20Recipe and measurements (no weights) for running Bonsai 1 4B GGUF as a Jev-style typed decision function that…
+- [bonzi-8b-ternary-v1-jev](https://huggingface.co/nicolaimtlassen/bonzi-8b-ternary-v1-jev) `📚1` — NicolaiMTLassen · Hugging Face · 2026-09-20Recipe and measurements (no weights) for running Ternary Bonsai 1 8B GGUF as a Jev-style typed decision function…
+- [bonzi-8b-v1-jev](https://huggingface.co/nicolaimtlassen/bonzi-8b-v1-jev) `📚1` — NicolaiMTLassen · Hugging Face · 2026-09-20Recipe and measurements (no weights) for running Bonsai 1 8B GGUF as a Jev-style typed decision function that…
+- [Boom-Vitt/laya-chatgpt-flow](https://github.com/boom-vitt/laya-chatgpt-flow) `📚1` — Thai-first ChatGPT + local Laya 421M workflow for Google Flow. Watch two real videos with transparen
+- [BuildHub-Global/OpenJEV](https://github.com/buildhub-global/openjev) `📚1` — Vendor-neutral execution routing and verification framework for AI agents…
+- [Caho1/Jev](https://github.com/caho1/jev) `📚1` — Jev and Laya experiments: browser use, fine-tuning, datasets, evaluations and dashboard. Model weigh
+- [caiovicentino1/Eikos-27B](https://huggingface.co/caiovicentino1/eikos-27b) `📚1` — An open 27B Jev-like decision model with a 4B sibling and quantized builds, evaluated against Jev and Laya on JevBench (official runs requested).
+- [Card](https://huggingface.co/datasets/m-a-p/coig-cqia/tree/8b55868c6168adf86c30e7ca0f782cca1c514297) `📚1` — open answers →20 adapted MC
+- [catonooka/gemma-jev](https://github.com/catonooka/gemma-jev) `📚1` — Local Gemma 4 E4B Jev alternative: ~33ms typed decisions on llama.cpp driving a visible Chrome web c
+- [centillex-labs/laya-goish](https://github.com/centillex-labs/laya-goish) `📚1` — laya-goish - Laya GGUF inference and HTTP server.
+- [chepyle/jev-test,0,Python,,2026-09-22,Reproducible](https://github.com/chepyle/jev-test,0,python,,2026-09-22,reproducible) `📚1`
+- [chneau/docker-laya](https://github.com/chneau/docker-laya) `📚1` — Dockerized FastAPI service for Laya typed-decision predictions: multi-checkpoint routing, API-key/Ba
+- [ChristopherKotthoff/jif-js](https://github.com/christopherkotthoff/jif-js) `📚1` — The if statement, finally powered by AI. Every branch is decided by TypeSafe's Jev model.
+- [ChristopherKotthoff/jif-py](https://github.com/christopherkotthoff/jif-py) `📚1` — The if statement, finally powered by AI. Every branch is decided by TypeSafe's Jev model.
+- [citizenll/Proton-Laya](https://github.com/citizenll/proton-laya) `📚1`
+- [clarencechien/jevlike](https://github.com/clarencechien/jevlike) `📚1` — Local inference and compatible servers
+- [clawdreyhepburn/identity-jev](https://github.com/clawdreyhepburn/identity-jev) `📚1` — Type an identity concept in plain language; a fine-tuned Laya decision model pulls the matching stan
+- [cloudwallker/chong-laya](https://github.com/cloudwallker/chong-laya) `📚1` — Local Laya shopping-decision lab: inspect buy/wait/skip choices, uncalibrated probabilities, and raw
+- [clydechen0228/SmartMom](https://github.com/clydechen0228/smartmom) `📚1` — SmartMom: a smart-factory MOM platform on Laya — quality inspection, planning (APS), edge AI and Lay
+- [codesoda/openjev-rs](https://github.com/codesoda/openjev-rs) `📚1`
+- [Coditan/system-one-axi](https://github.com/coditan/system-one-axi) `📚1` — Unofficial AXI-style CLI for TypeSafe System One models, including Jev.
+- [Cognition-Forge/jev-vs-laya](https://github.com/cognition-forge/jev-vs-laya) `📚1` — Comparisons of Jev vs Laya variants
+- [Collanteslu/laya-jev-tester](https://github.com/collanteslu/laya-jev-tester) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [condeadriankeith/SystemOneEngine](https://github.com/condeadriankeith/systemoneengine) `📚1` — High-performance, calibrated non-autoregressive decision engine (<4ms CPU) powering dual-process age
+- [convaiinnovations/laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual) `📚1` — Laya checkpoint for 100+ languages with up to 8k context.
+- [convaiinnovations/laya-typed-decisions](https://huggingface.co/convaiinnovations/laya-typed-decisions) `📚1` — Laya fine-tuned on the typed-decisions benchmark.
+- [coreywoo27/Jev-Empowered-Qwen-mlx](https://github.com/coreywoo27/jev-empowered-qwen-mlx) `📚1` — Jev (laya-mlx typed decisions) guided long-context compression for faster Qwen3.8 prefill on Apple Silicon MLX
+- [CoryHawkless/laya-jev-homeautomation](https://github.com/coryhawkless/laya-jev-homeautomation) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [CrazyGoudanli/jev-vs-deepseek-demo](https://github.com/crazygoudanli/jev-vs-deepseek-demo) `📚1`
+- [CrimsonLuckyLabs/kev](https://github.com/crimsonluckylabs/kev) `📚1` — Local reimplementation of the Noul/Choice/Score interface that scores option tokens from a 4-bit Qwen2.5 on MLX, with an offline mock backend and tests. MIT ·…
+- [cruuz/2k-football-mod-tools](https://github.com/cruuz/2k-football-mod-tools) `📚1` — Scorebug replication workbench · cruuz · GitHub · ⭐ 8 repo · 2026-07-23Diagnostic workbench in a mod editor for classic 2K football games that has Jev classify…
+- [CryptoJones/jev-testbed](https://github.com/cryptojones/jev-testbed) `📚1` — Jev (TypeSafe System One) vs a heuristic scorer for book-candidate selection — harness, 500-book tes
+- [ctsstc/typesafe-ai-cube-rule](https://github.com/ctsstc/typesafe-ai-cube-rule) `📚1` — Type any food and TypeSafe's Jev model rules which Cube Rule shape it is. An unofficial fan app for
+- [cv/laya-plays-smb3](https://github.com/cv/laya-plays-smb3) `📚1` — World 1-1 cleared with unmodified Laya on DGX Spark. Model-driven jumping, replay-verified frames, a
+- [cwjokaka/laya-plane](https://github.com/cwjokaka/laya-plane) `📚1`
+- [cyberspace-cs/jev-train](https://github.com/cyberspace-cs/jev-train) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [dailyoozoo/jev-demo](https://github.com/dailyoozoo/jev-demo) `📚1` — Decision Flood — Jev System One live decision board. One call, three typed decisions, a confidence g
+- [damiankrzystolik/jev_like_with_ollama](https://github.com/damiankrzystolik/jev_like_with_ollama) `📚1` — Polish tutorial repo: using Ollama v0.35.0+ with a native /v1/systemone endpoint for fast, typed decisions — walks the TypeSafe Jev API against a locally…
+- [dante01yoon/laya-jev-arena](https://github.com/dante01yoon/laya-jev-arena) `📚1`
+- [darwintechlab/claude-openjev](https://github.com/darwintechlab/claude-openjev) `📚1` — OpenJev: An Claude plugin that replaces text-generation decisions with Jev (TypeSafe System One).
+- [darwintechlab/openjev,3,JavaScript,,2026-09-24,OpenJev](https://github.com/darwintechlab/openjev,3,javascript,,2026-09-24,openjev) `📚1`
+- [DavidHatley/system-one-mini-data](https://huggingface.co/datasets/davidhatley/system-one-mini-data) `📚1` — deterministic synthetic software-diagnosis summaries with five fixed labels, used to train DavidHatley/system-one-mini; card says not a Jev or RLCD…
+- [day253/microjev](https://github.com/day253/microjev) `📚1` — GPT-2 124M with Jev-style typed probabilistic decisions on Apple Silicon (MLX), plus a pure-Python teaching m…
+- [DeBERTa-v3-large ONNX](https://huggingface.co/onnx-community/open-jev-deberta-v3-large-onnx) `📚1` — ; default 512-token total context and 256-token state budget.
+- [debojitroy/frontdoor](https://github.com/debojitroy/frontdoor) `📚1` — A local Laya screening workbench: live message variants, human review, model specialization, and rep
+- [deedeetype/jev-model-arbitrage](https://github.com/deedeetype/jev-model-arbitrage) `📚1` — Live Jev model arbitrage tester — routes prompts across Anthropic + Ollama-Cloud fleet by size and task type, real Artificial Analysis benchmarks ...
+- [Denghaoyuan123/UniIntervene](https://github.com/denghaoyuan123/uniintervene) `📚1` — Scope control: Many more posts mention automation, robotics, papers, and “open reproductions.” A lead without traceable source code, paper, or author material…
+- [dev.to: "Jev vs Laya: The Same AI Idea, One Closed and One Open" (2026-09-22)](https://dev.to/jamilxt/jev-vs-laya-the-same-ai-idea-one-closed-and-one-open-3c6e) `📚1` — Honest benchmark reading guide: Laya's fine-tuned 0.766 vs Jev's 0.727 comparison is specialization, not superiority; realistic independent gains for…
+- [developerkaushalkishor/jev-fieldnotes](https://github.com/developerkaushalkishor/jev-fieldnotes) `📚1` — Jev Fieldnotes — an independent educational guide to Jev AI, decision models, use cases, slides and
+- [DiBianoR/jev_local](https://github.com/dibianor/jev_local) `📚1` — local jev equivalent designed for llama.cpp and qwen 3.8 27B
+- [diluteoxygen/JevMood](https://github.com/diluteoxygen/jevmood) `📚1` — Intelligent procedural ambient soundscape generator powered by TypeSafe JEV System One
+- [dimpu47/Reflex](https://github.com/dimpu47/reflex) `📚1` — Intelligent Observability and Remediation Proxy (integrates with Jev and Laya models) 🚀✨
+- [dliu99/openfront-jev](https://github.com/dliu99/openfront-jev) `📚1` — A harness for System One models/Jev to play openfront.io
+- [dmn-tck/tck](https://github.com/dmn-tck/tck) `📚1` — Decision Model and Notation Technology Compatibility Kit
+- [dockndevai/laya-guard](https://github.com/dockndevai/laya-guard) `📚1`
+- [dockndevai/mcp-laya](https://github.com/dockndevai/mcp-laya) `📚1`
+- [DwainYu/laya-multilingual-playground](https://github.com/dwainyu/laya-multilingual-playground) `📚1` — A hands-on playground for running Laya Multilingual Decision Models locally with ModelScope on WSL2
+- [dylanbstorey/laya-doom](https://github.com/dylanbstorey/laya-doom) `📚1` — An open-weights System 1 decision model (LAYA, 421M) playing Doom in a real-time control loop on App
+- [eddraz/sagaz-cli](https://github.com/eddraz/sagaz-cli) `📚1`
+- [Eloiselatourdepise/qwen-rlcd-demo](https://huggingface.co/spaces/eloiselatourdepise/qwen-rlcd-demo) `📚1` — Static in-browser (WebGPU/WASM) side-by-side demo of harshatheg/Qwen-2.5-1B-RLCD parallel constrained decoding vs autoregressive JSON generation; card gives no…
+- [emmanuelnurit/laya-seo](https://github.com/emmanuelnurit/laya-seo) `📚1` — MyOrg internal fork of jev-seo (MIT, AkashPriyadarshii) with a Laya (Apache-2.0, NandhaKishorM) local scoring bridge -- SEO/GEO audit CLI, no paid backend. ...
+- [emVisible/Clearance](https://github.com/emvisible/clearance) `📚1` — Minimal review gateway for backoffices — powered by Laya. Submit → gate → auto-approve / auto-reject
+- [Eren-Oztk/jev-system-one](https://github.com/eren-oztk/jev-system-one) `📚1` — System One / Jev karar katmani: tipli kararlar, kalibre olasiliklar, esik yonetimi (Jev + LLM fallba
+- [ericmzl/seems-laya](https://github.com/ericmzl/seems-laya) `📚1`
+- [finetuningsingh/jev-extract](https://github.com/finetuningsingh/jev-extract) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [finetuningsingh/jev-router](https://github.com/finetuningsingh/jev-router) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [finetuningsingh/jev-triage](https://github.com/finetuningsingh/jev-triage) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [FnSGit/laya-service](https://github.com/fnsgit/laya-service) `📚1`
+- [Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/foodoo1/qwen3-14b-rlcd-decision-lora) `📚1` — QLoRA on Qwen3-14B with loss on the single decision token, 4,152 synthetic fraud-triage cases; card reports 98.8% vs 85.2% base on 200 held-out synthetic…
+- [foxl-ai/bobcat](https://github.com/foxl-ai/bobcat) `📚1` — Bobcat: a typed-decision model. State in, Choice / Noul / Score out, with a probability for every an
+- [FrancyJGLisboa/laya-kit](https://github.com/francyjglisboa/laya-kit) `📚1` — Typed judgements from a classifier that runs on your machine: choice, noul and score, a confidence y
+- [Gadget Pilipinas: "TypeSafe Jev: System One Model, answered by Laya" (2026-09-20)](https://gadgetpilipinas.net/2026/09/typesafe-jev-system-one-model-laya) `📚1` — Laya's prior-art dispute (March 2025 papers, arXiv:2503.23303) plus an independent 78-case test: Jev 0.974 vs Laya 0.590, Laya fastest at 30ms/case vs ~302ms…
+- [gbesse/jev-minimis-watch](https://github.com/gbesse/jev-minimis-watch) `📚1` — Prépare la revue des cumuls d.
+- [gbesse/jev-rne-material-change](https://github.com/gbesse/jev-rne-material-change) `📚1` — Distingue les changements matériels des mises à jour administratives dans un…
+- [Georgy-hook/rimworld-autopilot](https://github.com/georgy-hook/rimworld-autopilot) `📚1` — Experimental autonomous RimWorld colony management powered locally by the open-weight Laya decision
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) `📚1`
+- [Google card](https://huggingface.co/datasets/google/boolq/tree/35b264d03638db9f4ce671b711558bf7ff0f80d5) `📚1`
+- [Gowtham-R-2002/gyra](https://github.com/gowtham-r-2002/gyra) `📚1` — A fast second opinion for coding agents: 421M decision model (Laya fine-tune) for destructive comman
+- [Guide](https://laya-ai.com/models) `📚1`
+- [gxinxing/jev-call](https://github.com/gxinxing/jev-call) `📚1` — Reusable Jev System One CLI and Agent Skill
+- [h004888/openJev-bro](https://github.com/h004888/openjev-bro) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [hakantapanyigit/jevascript](https://github.com/hakantapanyigit/jevascript) `📚1` — Semantic values for deterministic TypeScript: is, score and choose as ordinary values, backed by a d
+- [Hand-In/openjev-multimodal](https://github.com/hand-in/openjev-multimodal) `📚1` — Local multimodal decisions on your Mac. Jev-compatible typed probabilities with Qwen, llama.cpp and Metal.
+- [HARISRUJAN/RLCD](https://github.com/harisrujan/rlcd) `📚1` — Reproducible Jev structured-decision routing experiment
+- [HarryReidx/jev-laya-tetris](https://github.com/harryreidx/jev-laya-tetris) `📚1` — ⚡ JEV vs LAYA · Next-Gen AI Tetris Duel Benchmark Platform (TypeSafe Jev vs Local GPU ModernBERT) wi
+- [hawkyre/typesafe](https://github.com/hawkyre/typesafe) `📚1` — Elixir client for the TypeSafe System One API
+- [hazlema/jev-patterns](https://github.com/hazlema/jev-patterns) `📚1` — Extracting repeating patterns from noisy sequences with Jev (TypeSafe System One) — code proposes, m
+- [he-jev/laya](https://github.com/he-jev/laya) `📚1` — open source jev by laya
+- [HiGal/parallel-constrained-decoding](https://github.com/higal/parallel-constrained-decoding) `📚1`
+- [hotchpotch/bekko-system-one](https://github.com/hotchpotch/bekko-system-one) `📚1` — Small System One decision models (17M–400M) for Yes/No, Choice, Score, and…
+- [huggingface.co/togethercomputer/tev1-4b-experimental](https://huggingface.co/togethercomputer/tev1-4b-experimental) `📚1` — Fine-tuned LLM, answers with one option letter
+- [ignit-fury/laya-local](https://github.com/ignit-fury/laya-local) `📚1` — Run Laya AI decision model locally on your machine
+- [imaddde867/laya-eval](https://github.com/imaddde867/laya-eval) `📚1` — Phase 1: Laya vs. jevmlx vs. hosted Jev agreement eval on TypeSafe public cases
+- [ingon1026/jev-anomaly](https://github.com/ingon1026/jev-anomaly) `📚1` — Training-free image anomaly detection with Jev-Omni 12B (Q4 GGUF on one local GPU via llama.cpp, Gradio UI): image + state + question + (Normal, Anomalous)…
+- [ishaanlabs/laya-support-ticket-triage](https://github.com/ishaanlabs/laya-support-ticket-triage) `📚1`
+- [islee23520/omo-jevlike-router,3,Python](https://github.com/islee23520/omo-jevlike-router,3,python) `📚1`
+- [italoalmeida0/laya-system-one,0,JavaScript,,2026-09-23](https://github.com/italoalmeida0/laya-system-one,0,javascript,,2026-09-23) `📚1`
+- [itsamejoshab/jev-explorer](https://github.com/itsamejoshab/jev-explorer) `📚1` — Terminal UI for trying Jev / TypeSafe System One questions one at a time.
+- [ivanviragine/jev-vs-llms](https://github.com/ivanviragine/jev-vs-llms) `📚1` — Same loaded questions to TypeSafe's Jev, GPT-5.6, Claude and open Jev-style models (Kev, Laya), in E
+- [IWANABETHATGUY-reproduction/rolldown-triager](https://github.com/iwanabethatguy-reproduction/rolldown-triager) `📚1`
+- [j75689/laya_demo_test](https://github.com/j75689/laya_demo_test) `📚1` — Research demo: the Laya decision engine playing snake. Python vs Rust runners, ONNX Runtime and Core
+- [jamadeo/jev-demo](https://github.com/jamadeo/jev-demo) `📚1` — a basic demo of decision models with GDK
+- [jamakzai12/jevbatch](https://github.com/jamakzai12/jevbatch) `📚1` — Score CSV/JSONL rows with TypeSafe Jev — YAML policies, calibrated confidence, auto/review/escalate
+- [JayanGupta/Laya-System-1-Model](https://github.com/jayangupta/laya-system-1-model) `📚1` — Lightweight, non-autoregressive System 1 decision model showcase for instant text classification, ca
+- [jbpayton/jevless](https://github.com/jbpayton/jevless) `📚1` — Jev-style typed decisions (Choice / Noul / Score) from any model whose API exposes logprobs, plus a
+- [jcezardasilva/jev-n-laya](https://github.com/jcezardasilva/jev-n-laya) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jeffhuen/omp-typesafe](https://github.com/jeffhuen/omp-typesafe) `📚1` — OMP wrapper skill for TypeSafe System One judgments: eval judge() runtime contract, anti-flattery di
+- [Jev alternatives](https://laya-ai.com/jev-alternatives) `📚1` — Replacing Jev without changing client code: pick a model that serves POST /v1/systemone. See Jev alternatives.
+- [Jev Distill Corpus v3](https://huggingface.co/datasets/sargedev/jev-distill-corpus-v3) `📚1` — SargeDev · Hugging Face · ♥ 2 · 2026-09-21Typed-decision corpus of 740,957 rows in the System One noul/choice/score schema, largely synthetic scenarios across…
+- [jev-0.5b](https://huggingface.co/jaswanthsanjay88/jev-0.5b) `📚1` — jaswanthsanjay88 · Hugging Face · ⬇ 22 · 2026-09-19Prefill-only Jev-style decision model on Qwen2.5-0.5B: a LoRA adapter plus pointer readout head with…
+- [jev-gemma-4-E2B-it-choice-64](https://huggingface.co/ohtaman/jev-gemma-4-e2b-it-choice-64) `📚1` — ohtaman · Hugging Face · 2026-09-22Browser-oriented ONNX artifact of Gemma 4 E2B with its output projection restricted to 64 fixed answer tokens, turning it…
+- [jev-qwen3.5-4b-legal-lora](https://huggingface.co/nebulaw1/jev-qwen3.5-4b-legal-lora) `📚1` — Nebulaw1 · Hugging Face · ⬇ 1 · 2026-09-20QLoRA adapter on Qwen3.5-4B-Base for finite-choice Chinese legal judgments that scores candidate letters in one…
+- [Jev-Style-Qwen3.5-2B-Decision (GGUF)](https://huggingface.co/chaoliangunsw/jev-style-qwen3.5-2b-decision-gguf) `📚1` — chaoliangUNSW · Hugging Face · ♥ 4 · 2026-09-21GGUF builds of a Jev-style Qwen3.5-2B decision model for LM Studio and llama.cpp that reads calibrated option…
+- [jev-typed-decisions-causal-0.6b](https://huggingface.co/abidlabs/jev-typed-decisions-causal-0.6b) `📚1` — abidlabs · Hugging Face · 2026-09-21LoRA adapters on Qwen3-0.6B-Base trained with the arm-B cached causal typed scorer recipe from pngwn's typed-decisions…
+- [Jev-Vision](https://huggingface.co/seanliu/jev-vision) `📚1` — SeanLiu · Hugging Face · 2026-09-21Open-weight vision decision model (LoRA plus typed heads on Qwen3-VL-8B) that answers typed questions about screenshots and…
+- [jev_omni.py](https://huggingface.co/akhilaaa3/jev-omni/blob/c127654e586e05b2e9b75b3aaef075ddcf57a286/jev_omni.py) `📚1` — downloads the card’s merged text backbone plus Google’s google/gemma-4-12B-it multimodal components, swaps in the fine-tuned decoder, and attaches a…
+- [jevify-gemma4-26b-a4b](https://huggingface.co/kushalpatil/jevify-gemma4-26b-a4b) `📚1` — kushalpatil · Hugging Face · ♥ 1 · 2026-09-20Gemma 4 26B-A4B fine-tuned (LoRA, merged) to give honest probabilities on typed questions; the model behind…
+- [jevify-gemma4-e4b](https://huggingface.co/kushalpatil/jevify-gemma4-e4b) `📚1` — kushalpatil · Hugging Face · ⬇ 85 · 2026-09-20Gemma 4 E4B fine-tuned (LoRA, merged) to give honest probabilities on typed questions, served by jevify as a…
+- [jevify-qwen3-vl-2b (Tier 0)](https://huggingface.co/praveenrajus/jevify-qwen3-vl-2b) `📚1` — Praveenrajus · Hugging Face · 2026-09-21Training-free Jevify recipe that uses Qwen3-VL-2B to answer typed questions about images, reading every allowed answer…
+- [jevify-qwen3-vl-2b-t2](https://huggingface.co/praveenrajus/jevify-qwen3-vl-2b-t2) `📚1` — Praveenrajus · Hugging Face · 2026-09-22Tier 2 Jevify vision model: Qwen3-VL-2B with a rank-16 decoder LoRA trained on the restricted answer readout with…
+- [jevify-qwen3.5-4b-t2](https://huggingface.co/praveenrajus/jevify-qwen3.5-4b-t2) `📚1` — Praveenrajus · Hugging Face · 2026-09-22Tier 2 Jevify model for Qwen3.5-4B that adds a LoRA adapter on top of the decision heads to return calibrated choice,…
+- [jevons-lfm25-1.2b-systemone](https://huggingface.co/gopalanj/jevons-lfm25-1.2b-systemone) `📚1` — gopalanj · Hugging Face · 2026-09-20Seed LoRA on LFM2.5-1.2B for jevons, a local System One server that scores allowed outcomes from logits and assembles…
+- [jevstyle.com](https://jevstyle.com) `📚1` — Fine-tuned LLM, one-token decision (GGUF)
+- [JhouCode/laya-fit-check](https://github.com/jhoucode/laya-fit-check) `📚1` — Check whether the Laya zero-shot classifier fits your data: reproduce the published number, then com
+- [johnhenry/laya-js](https://github.com/johnhenry/laya-js) `📚1` — Laya typed decisions in JavaScript on native MLX and WebGPU — a family of reusable packages (ModernB
+- [jokull/ensk](https://github.com/jokull/ensk) `📚1` — Fast English–Icelandic dictionary on Cloudflare Workers: D1 full-text, Vectorize semantic recall and
+- [joshuaswarren/mlx-omarchy](https://github.com/joshuaswarren/mlx-omarchy) `📚1` — mlx-omarchy Laya serving · joshuaswarren · GitHub · ⭐ 64 repo · 2026-08-31MLX GPU backend for Apple Silicon Linux that ports and serves the open Laya…
+- [Josuesp1620/system-one-web-ai](https://github.com/josuesp1620/system-one-web-ai) `📚1` — Cómo decide una IA sin escribir: Laya (modelo System One) medido en CPU con 540 mensajes de atención
+- [JRodrigoTech/reflex-system-one](https://github.com/jrodrigotech/reflex-system-one) `📚1` — One-click System One local inference API server
+- [kaheichan95/openjev](https://github.com/kaheichan95/openjev) `📚1` — LLM freeform classification and regression Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [kashyaprparmar/100-days-of-jev-and-laya](https://github.com/kashyaprparmar/100-days-of-jev-and-laya) `📚1` — days of practical Jev and Laya projects: typed decisions, local inference, backend-neutral AI, a
+- [KasperXMS/jevlike-exps](https://github.com/kasperxms/jevlike-exps) `📚1` — Minimal Jev-like decision model experiments
+- [kazu5150/jev-train](https://github.com/kazu5150/jev-train) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [kerthans/jue](https://github.com/kerthans/jue) `📚1` — Open decision models, built in China and developed in the open.
+- [kerwin2046/jev-intuition](https://github.com/kerwin2046/jev-intuition) `📚1` — INTUITION — System One flight instruments for agent routing, context, and gates
+- [knishika62/laya-mlx-demo](https://github.com/knishika62/laya-mlx-demo) `📚1`
+- [konaito/jev-fetch](https://github.com/konaito/jev-fetch) `📚1` — Ultra-fast, cost-effective intelligent web scraping powered by JEV (System One)
+- [Kush614/MLforge](https://github.com/kush614/mlforge) `📚1` — Hackathon ML loop that trains, evaluates, diagnoses from Weave traces and uses TypeSafe to pick one typed corrective move per round. no license · Python
+- [kvnloo/z0int](https://github.com/kvnloo/z0int) `📚1` — OpenJev runtime for Jev-style typed decisions on local hardware with logit readout and trainable scorers, plus a personalization roadmap. MIT · Python · live
+- [Kwwwww74/OpenJev](https://github.com/kwwwww74/openjev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [LakoreAI/PhoLaya](https://github.com/lakoreai/pholaya) `📚1` — Vietnamese typed-decision model (choice / score / noul) fine-tuned from Laya-multilingual. One forwa
+- [LarryLi93/jevcopy](https://github.com/larryli93/jevcopy) `📚1` — Using the Valen model developed by Fudan University, replicate the effect of the Jev model
+- [lawrence3699/jev-style-2b](https://github.com/lawrence3699/jev-style-2b) `📚1` — GitHub mirror of the chaoliangUNSW/jev-style-2b Hugging Face Space
+- [lawrence3699/Jev-Style-2B-Decision-v3-GGUF](https://github.com/lawrence3699/jev-style-2b-decision-v3-gguf) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-2B-Decision-v3-GGUF Hugging Face model
+- [lawrence3699/Jev-Style-2B-Decision-v3-MLX](https://github.com/lawrence3699/jev-style-2b-decision-v3-mlx) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-2B-Decision-v3-MLX Hugging Face model
+- [lawrence3699/Jev-Style-Qwen3.5-2B-Decision-GGUF](https://github.com/lawrence3699/jev-style-qwen3.5-2b-decision-gguf) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF Hugging Face model
+- [lawrence3699/Jev-Style-Qwen3.5-2B-Decision-MLX-bf16](https://github.com/lawrence3699/jev-style-qwen3.5-2b-decision-mlx-bf16) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-MLX-bf16 Hugging Face model
+- [lawrence3699/Jev-Style-Qwen3.5-2B-Decision-v2-GGUF](https://github.com/lawrence3699/jev-style-qwen3.5-2b-decision-v2-gguf) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-GGUF Hugging Face model
+- [lawrence3699/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16](https://github.com/lawrence3699/jev-style-qwen3.5-2b-decision-v2-mlx-bf16) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16 Hugging Face model
+- [Laya demo Space](https://huggingface.co/spaces/convaiinnovations/laya-demo) `📚1` — Try Laya in the browser.
+- [Laya docs](https://nandhakishorm.github.io/laya) `📚1` — Guides for hooks, schema-driven decisions, Docker and LangChain.
+- [laya on PyPI](https://pypi.org/project/laya) `📚1` — pip install laya, with optional server, MCP, LangChain and ONNX extras.
+- [Laya vs Jev vs Kev comparison](https://agentplugins-2v1.pages.dev/laya-vs-jev) `📚1`
+- [laya-ai.com/submit](https://laya-ai.com/submit) `📚1` — now a System One model that is missing, or a fact that changed? (Open an issue)(../../issues/new) with a link to the project's own page, or submit it at…
+- [layasugar/laya-template](https://github.com/layasugar/laya-template) `📚1`
+- [lcbkmm/laya-thalamus](https://github.com/lcbkmm/laya-thalamus) `📚1` — A System1 decision orchestrator for AI agents.
+- [leehanchung/SMILE-factory](https://github.com/leehanchung/smile-factory) `📚1` — RE Jev research project · leehanchung · GitHub · ⭐ 106 repo · 2023-05-07Research handoff for building a Jev-like decision model, covering design criteria,…
+- [leo1394/oh-my-laya](https://github.com/leo1394/oh-my-laya) `📚1` — Native Laya-MLX integration for squad agents in Codex, Claude Code, DeepSeek Harness, and Pi—install
+- [li-ming1/laya-zig](https://github.com/li-ming1/laya-zig) `📚1` — A from-scratch, dependency-free Zig CPU runtime for the Laya System-1 decision model: tokenizer + mm
+- [liao96312/NanoJev](https://github.com/liao96312/nanojev) `📚1`
+- [lib-x/jev-bridge](https://github.com/lib-x/jev-bridge) `📚1` — Bridge a generic OpenAI-compatible inference API into a Jev-style decision scoring service
+- [LiNan1984/typesafe-curl](https://github.com/linan1984/typesafe-curl) `📚1` — Claude Code skill: verified curl reference for the TypeSafe System One API (Jev) — noul, choice, sco
+- [linksawakening/ask-jev](https://github.com/linksawakening/ask-jev) `📚1` — Jev-gated LLM conversation loop: typed start/end gate judgments that manage quality and retries arou
+- [liushiliushi/JevTuner](https://github.com/liushiliushi/jevtuner) `📚1` — JevTuner - Trains language models to emit calibrated probability distributions for closed-set decision tasks directly from token logits. #research…
+- [live](https://nanojev.tianyuchen99.chatgpt.site) `📚1`
+- [live-web training data](https://huggingface.co/datasets/lexmount/webjev) `📚1`
+- [lkarlslund/laya.cpp](https://github.com/lkarlslund/laya.cpp) `📚1` — laya.cpp - C++ inference for Laya with CUDA, Vulkan, Core ML and CPU backends.
+- [local-system-one-student](https://huggingface.co/mannedood/local-system-one-student) `📚1` — Mannedood · Hugging Face · 2026-09-18A 149M ModernBERT encoder distilled from local LLMs that reproduces Jev's interface for one fixed schema, a coding agent's…
+- [lokiwizard/my_jev](https://github.com/lokiwizard/my_jev) `📚1` — Open-Jev based text decision model (bilingual EN/CN README): Qwen3.5-2B backbone + LoRA (rank 8, alpha 16) + single scalar score head, supporting Choice, Score…
+- [lucaslenglet/JevPlayground](https://github.com/lucaslenglet/jevplayground) `📚1` — A local playground for a Jev model (a "System One" model: it does not generate prose, it returns a t
+- [lytang63/OmniMed-Jev](https://github.com/lytang63/omnimed-jev) `📚1` — Code for "OmniMed-Jev: Calibrating LVLM Confidence for Trustworthy Medical Multimodal Decisions via
+- [ma2saka/jevmock01](https://github.com/ma2saka/jevmock01) `📚1`
+- [majidansari786/Jev-Laya-Use-Cases-](https://github.com/majidansari786/jev-laya-use-cases-) `📚1` — Practical examples and patterns for using Laya for classification, routing, scoring, structured deci
+- [MaksymilianWojcik/valora-by-jev](https://github.com/maksymilianwojcik/valora-by-jev) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [mamahoos/shayeban](https://github.com/mamahoos/shayeban) `📚1` — 🛡️ Shayeban — Real-time rumor & hoax checker for Persian Telegram groups, powered by Laya. Verifies
+- [marcosnovaesq/laya-playground](https://github.com/marcosnovaesq/laya-playground) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [marcosoliveeira1/laya-api](https://github.com/marcosoliveeira1/laya-api) `📚1`
+- [mateolafalce/system-one-model](https://github.com/mateolafalce/system-one-model) `📚1` — (Python, ⭐ 1) -- Open-weights System One architecture and fine-tuning pipeline on Hugging Face.
+- [materna-se/declab](https://github.com/materna-se/declab) `📚1` — 📊 Web-based decision model laboratory powered by jDEC and Vue.js
+- [Maxwell00000086/laya-agent-kit](https://github.com/maxwell00000086/laya-agent-kit) `📚1` — Local Laya decision tools for Codex, Claude Code, Cursor and ChatGPT via MCP. One-command setup for
+- [mcmcmcmmmc/laya-codex-router](https://github.com/mcmcmcmmmc/laya-codex-router) `📚1`
+- [MelloB1989/laya-runpod](https://github.com/mellob1989/laya-runpod) `📚1` — Self-hosted Laya (NandhaKishorM/laya) decision engine on RunPod serverless
+- [mer.vin: "Laya: The 33ms Open-Source Decision Model Beating Jev" (2026-09-21)](https://mer.vin/news/laya-the-33ms-open-source-decision-model-beating-jev) `📚1` — Practical Laya deep dive: Router(preload=True) is the one production detail that matters — lazy loading rebuilds the checkpoint on every language switch (7.4s…
+- [michelbrigante46-art/Twitter-keyword-shield](https://github.com/michelbrigante46-art/twitter-keyword-shield) `📚1` — A high-performance content filtering userscript for X (Twitter), combining instant local rules with
+- [MiguelFAraujo/laya-ecosystem](https://github.com/miguelfaraujo/laya-ecosystem) `📚1` — Production utilities, supervisors, lossless context compactors, and fast UI deciders for the Laya / Jev System-1 decision engine.
+- [migztheanalyst/migz-ai-orchestra](https://github.com/migztheanalyst/migz-ai-orchestra) `📚1` — Local-first, evidence-driven multi-agent orchestration for safe, reproducible AI software delivery. Automatically matched explicit Jev and TypeSafe/System One…
+- [mikesmullin/openjev](https://github.com/mikesmullin/openjev) `📚1` — Local reproduction of AlexWortega/openjev (Qwen3.5-4B NLI cross-encoder playing Doom), plus real-time headed play and a browser front-end
+- [MiladBahariQaragoz/HighwayEnv-But-Jev-is-Driving](https://github.com/miladbahariqaragoz/highwayenv-but-jev-is-driving) `📚1` — A highway-env car driven by TypeSafe System One judgements: one request picks the manoeuvre, five a
+- [minicom365/laya-multilingual-dml](https://github.com/minicom365/laya-multilingual-dml) `📚1`
+- [miniongk/laya-mcp-mimo-desktop](https://github.com/miniongk/laya-mcp-mimo-desktop) `📚1` — Bridge Laya typed-decision engine (choice/score/noul) into MiMo Desktop via local stdio MCP + skill
+- [MIT-RLX/rlx-models](https://github.com/mit-rlx/rlx-models) `📚1` — rlx-kev · MIT-RLX · GitHub · ⭐ 34 repo · 2026-05-22Rust port of Kev, a small Jev-like System One decision model with a Qwen3.5 backbone, merged LoRA and…
+- [MIt9/building-with-laya-skill](https://github.com/mit9/building-with-laya-skill) `📚1` — Agent skill for writing programs with Laya and laya-cli — local typed decisions (Choice/Score/Noul),
+- [MIt9/building-with-laya-skill,1,JavaScript,,2026-09-23](https://github.com/mit9/building-with-laya-skill,1,javascript,,2026-09-23) `📚1`
+- [mlc-ai/xgrammar](https://github.com/mlc-ai/xgrammar) `📚1` — XGrammar - Fast, flexible structured-generation engine for constraining LLM outputs to a grammar with low overhead.
+- [mobarmg/jev-schema-scorer-deberta-v3-large](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large) `📚1` — DeBERTa-v3-large scalar scorer over (state, question+candidate) pairs, trained on 7,650 synthetic questions in 30 domains; card reports 0.889 choice acc, 0.940…
+- [mode-io/vllm-jev,49,Python,,2026-09-24,Native](https://github.com/mode-io/vllm-jev,49,python,,2026-09-24,native) `📚1`
+- [moghthalkushal/jev-laya](https://github.com/moghthalkushal/jev-laya) `📚1` — Jev Vs Laya - how they fit in modern CPG EcoSystem
+- [monatis/ggmlc](https://github.com/monatis/ggmlc) `📚1` — ggmlc Laya engine · monatis · GitHub · ⭐ 46 repo · 2026-08-22Example in the ggmlc neural-network compiler that compiles the open Jev alternative Laya into a…
+- [MonikaSinghal-22/jev-gated-crawler](https://github.com/monikasinghal-22/jev-gated-crawler) `📚1` — Web crawler that uses Jev (Tyepsafe AI) as an intelligent gatekeeperto evaluate, classify, and score
+- [mottopanikeiku/typesafe_llm](https://github.com/mottopanikeiku/typesafe_llm) `📚1` — Experimental autoregressive text generation using TypeSafe System One Choice evaluations
+- [Mr-PU/train-jev-model](https://github.com/mr-pu/train-jev-model) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [MstyAI/laya-onnx](https://github.com/mstyai/laya-onnx) `📚1` — Run Laya typed decision models locally with ONNX Runtime and Go.
+- [mugenkyou/JEV-VS-ML](https://github.com/mugenkyou/jev-vs-ml) `📚1` — An independent, reproducible empirical benchmark comparing Jev 1.13.0 (a semantic classification LLM API) aga…
+- [nafisazizir/hev](https://github.com/nafisazizir/hev) `📚1` — Small Qwen-based decision model exploring isolated options and option-order-invariant readouts.
+- [NandaKishorM/laya](https://github.com/nandakishorm/laya) `📚1`
+- [navopw/laya-onnx](https://github.com/navopw/laya-onnx) `📚1`
+- [nihal-gazi/jev-draft](https://github.com/nihal-gazi/jev-draft) `📚1` — JEV Draft - Choice Selector AI powered by all-MiniLM-L6-v2
+- [noahbclarkson/laya-server](https://github.com/noahbclarkson/laya-server) `📚1` — Run Laya behind the TypeSafe System One API: a local, drop-in endpoint for Jev clients. Docker (CPU,
+- [noamgat/lm-format-enforcer](https://github.com/noamgat/lm-format-enforcer) `📚1` — LM Format Enforcer - Enforces JSON schema or regex on LLM output during generation.
+- [nullsilver-labs/alpha-sys-1](https://github.com/nullsilver-labs/alpha-sys-1) `📚1` — An open, multimodal, Jev-compatible System One model; in other terms, a small calibrated scorer mode
+- [numinousmuses/vidjev](https://github.com/numinousmuses/vidjev) `📚1` — MIT. Independent open-model path—not TypeSafe-hosted Jev.
+- [obrs09/NS_Jev](https://github.com/obrs09/ns_jev) `📚1` — build Jev like model with modified llama.cpp and compare with other jev
+- [odin-labs-ai/odin-rnd](https://github.com/odin-labs-ai/odin-rnd) `📚1` — Odin R&D: Jev vs open-weight Laya - Model evaluation: runs the same 48 hand-written choice/score/noul rows through Jev's hosted /api/v1/systemone and a pinned…
+- [ohmygaugh-crypto/laya-jev](https://github.com/ohmygaugh-crypto/laya-jev) `📚1`
+- [ollama/ollama](https://github.com/ollama/ollama) `📚1` — Ollama v0.35 adds decision-model support through a Jev-style /v1/systemone endpoint, with Nimble and Tev1 available to pull locally.
+- [onatm/gev](https://github.com/onatm/gev) `📚1` — tiny Jev-like family of decision models built on top of Gemma3 you can train and run on your own. Inspired by Kev.
+- [open-jev demo](https://huggingface.co/spaces/nico-martin/open-jev-demo) `📚1` — nico-martin · App · ♥ 3 · 2026-09-21Browser demo of the open-jev npm package running typed decisions locally with Kev and open-jev ONNX models through…
+- [open-system-one demo](https://huggingface.co/spaces/dylantom2012/open-system-one-demo) `📚1` — dylantom2012 · App · 2026-09-21Demo comparing a 0.1 ms trained decision head with a zero-shot cross-encoder, from an independent benchmark of Jev against open…
+- [Ormus-Solutions/liquid-gold](https://github.com/ormus-solutions/liquid-gold) `📚1` — Ormus liquid-gold index — catchy open-source Jev System One kits (aurum-gate, quicksilver-judge, gol
+- [osamabinIaggin/laya-micro](https://github.com/osamabiniaggin/laya-micro) `📚1` — Shrink Convai's Laya typed-decision model to run on single-board computers: BPE-merge-closed vocabul
+- [pahndev/JevLikeDiffusionGemma](https://github.com/pahndev/jevlikediffusiongemma) `📚1`
+- [pareshbhangale/docweave](https://github.com/pareshbhangale/docweave) `📚1` — AI-Supervised PDF-to-Markdown engine with intelligent ambiguity routing and in-flight table QA. Pair
+- [patriceckhart/zot-jev](https://github.com/patriceckhart/zot-jev) `📚1` — A zot extension that wires Jev (TypeSafe System One) into the agent loop.
+- [patricktrainer/profiler](https://github.com/patricktrainer/profiler) `📚1` — what is this? Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Paulo83-dev/ARTIGO---PSICOMETRIA---JEV-CC-](https://github.com/paulo83-dev/artigo---psicometria---jev-cc-) `📚1` — Esperimentos para o Artigo de Psicometria com modelod de previsão JEV (Modelo System one)
+- [Pawnnwap/jev](https://github.com/pawnnwap/jev) `📚1` — "jpt-4b as a Jev-like decision service (llama.cpp)": local open implementation of the /v1/systemone wire format — given a state and typed questions, returns a…
+- [pcbrom/laya-jev](https://github.com/pcbrom/laya-jev) `📚1`
+- [Peeps52/lawrence](https://github.com/peeps52/lawrence) `📚1` — An always-listening butler for macOS. Local whisper.cpp transcription, one Jev decision, then it acts — or asks first when the action is ...
+- [PerryLink/dsh-laya](https://github.com/perrylink/dsh-laya) `📚1` — Laya decision engine as a first-class Cordis service and model-visible tools for DeepSeek Harness.
+- [pgarvie/laya](https://github.com/pgarvie/laya) `📚1`
+- [phenx-inc/jev-vs-small-llms](https://github.com/phenx-inc/jev-vs-small-llms) `📚1` — Reproducible comparison of Jev with untouched and fine-tuned small language models
+- [Pidbid/laya-deploy](https://github.com/pidbid/laya-deploy) `📚1` — Deploy the Laya System 1 decision engine as a local judgment backend for omp (oh-my-pi): TypeSafe-co
+- [piffie/laya-snapdragon](https://github.com/piffie/laya-snapdragon) `📚1` — Laya typed decisions on the Snapdragon X NPU (Windows on ARM) via ONNX Runtime + QNN — ~5x faster th
+- [PixelML/club-170hx](https://github.com/pixelml/club-170hx) `📚1` — Qwen3.8 as Jev-compatible endpoint · PixelML · GitHub · ⭐ 57 repo · 2026-08-30Benchmark recipe serving a stock Qwen3.8-27B W4A16 checkpoint as a no-train…
+- [piyush-infocusp/openjev](https://github.com/piyush-infocusp/openjev) `📚1`
+- [pmagnomuller/conduit](https://github.com/pmagnomuller/conduit) `📚1` — Loopback gateway for Claude Code or OpenCode: automatic Anthropic → GLM → DeepSeek failover, breaker
+- [pngwn/system-one-demo](https://huggingface.co/spaces/pngwn/system-one-demo) `📚1` — Gradio demo of the pngwn Qwen3.5-4B-Base LoRA scorer next to Qwen3.5-4B instruct; card reports 0.705 test accuracy, ECE 0.046 and ~112 ms per query at 16…
+- [poad/laya-ts-example](https://github.com/poad/laya-ts-example) `📚1`
+- [Project weights](https://huggingface.co/c-tianyu/nanojev) `📚1`
+- [PromptEngineer48/laya-vs-jev-arena,30,JavaScript,,2026-09-21](https://github.com/promptengineer48/laya-vs-jev-arena,30,javascript,,2026-09-21) `📚1`
+- [ps1x/LayaAssitant](https://github.com/ps1x/layaassitant) `📚1` — HomeAssistant assistant based on Laya system 1 model
+- [pythongiant/laya-drift](https://github.com/pythongiant/laya-drift) `📚1` — laya-drift - OpenCode plugin that monitors agent drift with Laya.
+- [qalarc/gut-finetuned](https://github.com/qalarc/gut-finetuned) `📚1` — GUT — Guided Unconscious Thinking: distill your systems' recurring decisions into a local decision engine. RLCD fine-tuning + calibration gate + local ...
+- [Qwen3-0.6B-based Kev ONNX](https://huggingface.co/onnx-community/kev-0.6b-onnx) `📚1` — ; configured limit of 8,192 tokens per state-plus-question branch.
+- [Qwen3-4B-based Kev ONNX](https://huggingface.co/onnx-community/kev-4b-onnx) `📚1` — ; same branch limit, substantially larger weights and memory needs.
+- [qxZap/laya-scraper](https://github.com/qxzap/laya-scraper) `📚1` — Give it a homepage, it finds where the site keeps its publications. laya-powered crawler with Cloudf
+- [ra-yavuz/local-jev](https://github.com/ra-yavuz/local-jev) `📚1` — A local Jev-style decision API for typed yes, choice, and score questions.
+- [raahelpie/hn-for-me](https://github.com/raahelpie/hn-for-me) `📚1` — Its current README defaults to Codiv OpenJev and offers TypeSafe as a separate provider. The demo's active provider and the server implementation were not…
+- [RafaelJaime/laya-experiments](https://github.com/rafaeljaime/laya-experiments) `📚1` — Notebooks (ES) que miden el modelo de decisión Laya: cómo funciona, diagnósticos para saber si sus n
+- [rainmana/rustybrain](https://github.com/rainmana/rustybrain) `📚1` — Tinybrain Rust-rewrite with first-class support and use of Jev-like models
+- [Rajrel/jev-typesafe-usecases](https://github.com/rajrel/jev-typesafe-usecases) `📚1` — Jupyter notebooks teaching Jev (TypeSafe System One) with a realistic SQLite sample shop — clone,
+- [rathan-bk/jev-ai-project](https://github.com/rathan-bk/jev-ai-project) `📚1` — Alert triage with Jev (TypeSafe System One): proof of concept and benchmark against a rules-only bas
+- [razorback16/openjev,445,Python,Apache-2.0,2026-09-25,2026-09-26](https://github.com/razorback16/openjev,445,python,apache-2.0,2026-09-25,2026-09-26) `📚1`
+- [rbrus/laya-as-judge](https://github.com/rbrus/laya-as-judge) `📚1` — laya-as-judge — JEV's alike open-source alternative Laya-MLX used as a "LLM-as-a-judge" (auto-discovered, description not yet written) ❔
+- [reachmeviz — Laya vs. Jev, tested](https://viswakumar.com/blog/laya_system_one_model) `📚1` — Hands-on comparison finding Laya's out-of-the-box zero-shot classification near-random despite matching Jev's published numbers on trained domains, concluding…
+- [redwolf2019/laya-rs](https://github.com/redwolf2019/laya-rs) `📚1` — Pure Rust runtime + HTTP server for Laya System-1 models，Linux / CPU-first / multilingual / ONNX Runtime
+- [refaldyrk/typesafeai-go](https://github.com/refaldyrk/typesafeai-go) `📚1` — An unofficial, dependency-free Go (Golang) SDK for the TypeSafe System One API
+- [Remek/basal-1.0-4.5B](https://huggingface.co/remek/basal-1.0-4.5b) `📚1` — A Polish/English typed-decision model on Bielik-4.5B, inspired by Jev and returning a calibrated probability per allowed answer in one forward pass; the…
+- [rkinas/basal](https://github.com/rkinas/basal) `📚1`
+- [rnunley/jev-v-laya](https://github.com/rnunley/jev-v-laya) `📚1`
+- [robertovoyk-ctrl/jev-adaptive-effort](https://github.com/robertovoyk-ctrl/jev-adaptive-effort) `📚1` — Jev (TypeSafe System One) picks Claude's reasoning effort per step: coding agent + music-taste analy
+- [RodolfoBonis/jev-vs-laya-dino](https://github.com/rodolfobonis/jev-vs-laya-dino) `📚1` — POC: dois System One Models (Jev vs Laya) jogando o jogo real do dinossauro do Chrome, com comparaca
+- [rodonguyen/bert-finetune-jev-replica](https://github.com/rodonguyen/bert-finetune-jev-replica) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [rosdebbu/laya---jev](https://github.com/rosdebbu/laya---jev) `📚1`
+- [ryancole/jev-dotnet](https://github.com/ryancole/jev-dotnet) `📚1` — .NET client for Jev, TypeSafe's System One model. Send state and typed questions, get calibrated str
+- [saifullahshafin/rcil-question-intelligence](https://github.com/saifullahshafin/rcil-question-intelligence) `📚1` — RCIL: The Question Intelligence Layer for System One (TypeSafe Jev). Cuts agent costs by 95% and eli
+- [Sajjat4/Trchx](https://github.com/sajjat4/trchx) `📚1` — Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per sp
+- [sallout/laya-classifier-finetuning](https://github.com/sallout/laya-classifier-finetuning) `📚1` — Fine-tune Laya on custom intent and text classification datasets, with reproducible training, evalua
+- [sallout/laya-coreml-vs-jev-benchmark,0,Python,,2026-09-24](https://github.com/sallout/laya-coreml-vs-jev-benchmark,0,python,,2026-09-24) `📚1`
+- [samC3/nanoJev](https://github.com/samc3/nanojev) `📚1` — Other related projects
+- [samiul000/laya-cpp](https://github.com/samiul000/laya-cpp) `📚1` — Native C++ inference engine for Laya (open-source Jev-compatible decision model), optimized for low
+- [sandeeppanem/livesignal](https://github.com/sandeeppanem/livesignal) `📚1` — Real-time creator intelligence powered by direct TypeSafe Jev decisions and measurable full-corpus e
+- [sankarachari/jev](https://github.com/sankarachari/jev) `📚1` — a new System One model which is most effiecient in token usage and faster response.
+- [SargeDev/jev-distill-corpus](https://huggingface.co/datasets/sargedev/jev-distill-corpus) `📚1` — query-passage rows with 0-7 graded relevance from a typed-judgment (Choice) API and a 32B teacher; card reports 91.0% binary agreement, Pearson r=0.897.…
+- [satiricalguru/Civic-Signal-Laya](https://github.com/satiricalguru/civic-signal-laya) `📚1` — 🏛️ Multilingual public-service decision intelligence and review workbench powered by Laya
+- [scriptbyai.com: "The Ultimate Jev Resource List 2026" (2026-09-20)](https://scriptbyai.com/jev-resource-list) `📚1` — Competing resource catalogue: open System-One implementations (choosekit, Decider, Jeff, LitJev, LocalJev, NanoJev, jevmlx, OpenDecision, openjev-sglang, Jev…
+- [SDCalvo/gev](https://github.com/sdcalvo/gev) `📚1` — Gev: a System One decision model on Gemma 4 E4B, trained on a Mac
+- [selected-depression195/SDXL-LoRA-Factory](https://github.com/selected-depression195/sdxl-lora-factory) `📚1` — Train SDXL LoRA models using a simplified interface with bundled sd-scripts for stable and
+- [senna-lang/jev-repro](https://github.com/senna-lang/jev-repro) `📚1` — Jev-Style Multi-Question Inference: A Minimal Reproduction
+- [sf-stav/mcp_typesafe](https://github.com/sf-stav/mcp_typesafe) `📚1` — Use TypeSafe's System One models (Jev) inside any agent
+- [sgaunet/laya-server](https://github.com/sgaunet/laya-server) `📚1` — Multi-arch (amd64/arm64) Docker image of NandhaKishorM/laya, built from upstream with CPU torch and
+- [Shanghai-Digital-Brain-Laboratory/BDM-DB1](https://github.com/shanghai-digital-brain-laboratory/bdm-db1) `📚1` — A large-scale multi-modal pre-trained model
+- [shehbaz0101/spectrace](https://github.com/shehbaz0101/spectrace) `📚1` — Reproducible bake-off: speculative decoding &amp; serving tricks on real multi-step agent traces — latency, accept rate, cost per successful task.…
+- [shentonyan/love-arena-v2](https://github.com/shentonyan/love-arena-v2) `📚1` — Love-Language Arena — Experimental local reproduction of the Choice, Score, and Noul pattern on Ollama logprobs, with order-reversed and negated re-asks to…
+- [Shijiuwei/SemIf-OpenJev-mirror-583](https://github.com/shijiuwei/semif-openjev-mirror-583) `📚1` — High availability mirror and network topology specifications for TheoLeeCJ/SemIf-OpenJev
+- [ShishirPatil/gorilla](https://github.com/shishirpatil/gorilla) `📚1` — Authors; Apache2.0; name-only adaptation
+- [Shivp1413/OpenJEV](https://github.com/shivp1413/openjev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ShizhanQiao/jev-train](https://github.com/shizhanqiao/jev-train) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [shmcsensei/easy-jev-fine-tune](https://github.com/shmcsensei/easy-jev-fine-tune) `📚1` — Simple "JEV" Model - Fine Tuning
+- [shreyansh26/Qwen-2.5-1B-RLCD](https://huggingface.co/shreyansh26/qwen-2.5-1b-rlcd) `📚1` — PyTorch server code, no fine-tuned weights: batched and FlexAttention tree scoring of enum/boolean fields on Qwen2.5-1.5B-Instruct; card gives no benchmark…
+- [shwetankg07/laya-playground](https://github.com/shwetankg07/laya-playground) `📚1` — Three browser games that grade Laya, the open-source System-1 decision model, against exact ground t
+- [siaumau/urJev](https://github.com/siaumau/urjev) `📚1` — Local structured decision engine with Qwen3, vLLM, and Intel XPU optimization
+- [SiliconLabAI/OpenJev-Cactus](https://github.com/siliconlabai/openjev-cactus) `📚1` — High Performance OpenAI and System One Compatible CPU Edge Device Service
+- [skhanzad/RILL](https://github.com/skhanzad/rill) `📚1` — Trained models and training recipes
+- [slamer59/jev-laya-form-builder](https://github.com/slamer59/jev-laya-form-builder) `📚1` — Form builder where a System 1 model (TypeSafe Jev or local Laya) picks the best shadcn input for each field
+- [Snehan2k2/jev-irctc](https://github.com/snehan2k2/jev-irctc) `📚1` — DOM-native browser agent tested live against IRCTC train search
+- [solvingSteve/Gevva0](https://github.com/solvingsteve/gevva0) `📚1` — "Calibrated Local Decision Gateway": Jev-like decision engine on Gemma 4 via llama.cpp/CUDA — direct token logit scoring, cyclic debiasing, Platt temperature…
+- [SongTonyLi/harness-drift-detector](https://github.com/songtonyli/harness-drift-detector) `📚1` — Fast drift hotspotting for coding-agent harness transcripts, scored with TypeSafe System One judgmen
+- [soray42/cot-distillation-jev](https://github.com/soray42/cot-distillation-jev) `📚1`
+- [soumyacodes007/jev-compatible-model-training](https://github.com/soumyacodes007/jev-compatible-model-training) `📚1` — "Jef": train a small decision model on any Hugging Face classification dataset — give it state, one focused question, and a fixed list of options, it returns…
+- [sszxt/rlcd](https://github.com/sszxt/rlcd) `📚1` — Trained models and training recipes
+- [stemirkhan/jev-laya-benchmarks](https://github.com/stemirkhan/jev-laya-benchmarks) `📚1` — Jev and Laya versus specialized rerankers: reproducible BEIR quality, latency and throughput experiment
+- [stephanj/pcdServer](https://github.com/stephanj/pcdserver) `📚1` — Native Parallel Constrained Decoder Server for Apple and Linux
+- [StevenJPx2/jev-distill](https://github.com/stevenjpx2/jev-distill) `📚1` — Distill Jev typed decisions into small portable task-specific classifiers (TypeScript CLI)
+- [suarify/jev-kev-laya-selfhost](https://github.com/suarify/jev-kev-laya-selfhost) `📚1` — opensource alternative to jev
+- [suenot/jev-bots-bench](https://github.com/suenot/jev-bots-bench) `📚1` — Reproducible Jev decision-engine trading benchmark and public results dashboard
+- [sumitvairagar/jev-spring-boot-starter](https://github.com/sumitvairagar/jev-spring-boot-starter) `📚1` — Spring Boot auto-configuration and Spring AI advisor for TypeSafe Jev
+- [SupersonicLabs/Julia-1](https://huggingface.co/supersoniclabs/julia-1) `📚1` — A 144M-parameter Apache-2.0 decision model on mmBERT-small; runs on CPU, scores 73.15% on Jev's own Typed Decisions benchmark, with a WebGPU ONNX build for…
+- [sustyuxiao/laya-server](https://github.com/sustyuxiao/laya-server) `📚1`
+- [System One (distilled)](https://huggingface.co/shreyanbr/system-one-distilled) `📚1` — shreyanbr · Hugging Face · ⬇ 25 · 2026-09-19A 70.8M DeBERTa-v3-xsmall cross-encoder for the Jev /v1/systemone schema, trained on Claude Haiku 4.5's answers to…
+- [System One (gold)](https://huggingface.co/shreyanbr/system-one-gold) `📚1` — shreyanbr · Hugging Face · ⬇ 16 · 2026-09-19A 70.8M DeBERTa-v3-xsmall cross-encoder for the Jev /v1/systemone schema trained on each dataset's own labels, the…
+- [System One (phase2 student)](https://huggingface.co/lafalce/system-one-model) `📚1` — lafalce · Hugging Face · 2026-09-19Local decision model from ModernBERT-base with LoRA and a two-layer scoring head that takes JSON or text state and answers…
+- [System One models comparison](https://laya-ai.com/system-one-models) `📚1` — The list is generated from the System One models comparison on laya-ai.com and refreshed automatically.
+- [System One vs Laya vs DeepSeek](https://huggingface.co/spaces/henrybit/jev-vs-deepseek) `📚1` — henrybit · App · 2026-09-22Chinese-language Space comparing three decision paths on the same state and typed questions: pngwn's open System One scorer, Laya,…
+- [System One 训练数据对](https://huggingface.co/datasets/shreyanbr/system-one-training-pairs) `📚1` — System One training pairs · shreyanbr · Hugging Face · ⬇ 93 · 2026-09-19Training bundle for a DeBERTa System One cross-encoder: gold premise-hypothesis pairs,…
+- [system-one-270m](https://huggingface.co/kaivoss/system-one-270m) `📚1` — kaivoss · Hugging Face · 2026-09-21Open System One reproduction on Gemma 3 270M that takes state plus a typed question with caller-supplied options and returns…
+- [system-one-270m-data](https://huggingface.co/datasets/kaivoss/system-one-270m-data) `📚1` — kaivoss · Hugging Face · 2026-09-21Synthetic set of 25,002 typed decisions with soft target distributions over caller-supplied options, rendered as lettered…
+- [taiheqi718-art/laya-cpu-benchmark](https://github.com/taiheqi718-art/laya-cpu-benchmark) `📚1` — Laya's published 32.8 ms is a Tesla T4 number. On CPU it's 0.3–2 s. Reproducible, drift-controlled s
+- [Takuakira/jev-laya-case-study](https://github.com/takuakira/jev-laya-case-study) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Tepes99/openjev-lite](https://github.com/tepes99/openjev-lite) `📚1` — My take on the latest hype with comparisons to cheaper traditional options for this kind of task. Quick poc vibed with my local ai rig
+- [The Register](https://theregister.com/ai-and-ml/2026/09/29/open-source-tool-distills-jev-so-you-can-run-it-locally/5299856) `📚1` — "Open source tool distills Jev so you can run it locally" (2026-09-29) — Brandon Vigliarolo on jevstiller: distill repeated Jev classification into a local…
+- [ThiagoLira/aula-jev](https://github.com/thiagolira/aula-jev) `📚1` — Portuguese eval ladder ("aula" = lesson): a ladder of increasingly hostile fake web shops (DuckMart) driven by browser-use/jev-ultrafast — planner is Gemini…
+- [ThreeLightStudio/jev-laya-local-daemon](https://github.com/threelightstudio/jev-laya-local-daemon) `📚1` — Other related projects
+- [Timiku/v1-decisions-vllm](https://github.com/timiku/v1-decisions-vllm) `📚1` — Reviewed 2026-09-30 (Europe/Sofia) at commit 23fbc04. AI-assisted README and license inspection; install/live paths not executed.
+- [tin-xai/multimodal-jev-grounding](https://github.com/tin-xai/multimodal-jev-grounding) `📚1`
+- [tjameswilliams/laya-r-mlx](https://github.com/tjameswilliams/laya-r-mlx) `📚1` — Rust inference engine for Laya decision models on Apple silicon (MLX, candle/Metal, C ABI, Swift, ru
+- [TobyNoSkillSon/Verdict](https://github.com/tobynoskillson/verdict) `📚1` — A local System One server for your Mac: open decision models on MLX, compatible with the System One
+- [TokenRhythm/NeoHorse-Jev-4B](https://huggingface.co/tokenrhythm/neohorse-jev-4b) `📚1` — An Apache-2.0 4B open decision model that turns app states into structured decisions with probabilities, also published on ModelScope.
+- [tomerab1/vampire-survivor](https://github.com/tomerab1/vampire-survivor) `📚1` — Vampire-Survivors-style zombie horde game in Rust/Bevy (native + WASM); the horde is directed by Jev
+- [tswawa/WechatVibe](https://github.com/tswawa/wechatvibe) `📚1`
+- [tux22/clasificacion-tipada](https://github.com/tux22/clasificacion-tipada) `📚1` — Jev contra Laya y LLM locales: clasificación con probabilidades calibradas, scripts para replicar
+- [uchiha-vivek/Jev-Mathematical-Analysis](https://github.com/uchiha-vivek/jev-mathematical-analysis) `📚1` — Understanding the Mathematics prerequisites to understand TypeSafe AI's System one Model
+- [Unsloth Desktop v0.1.900-beta: local decision models](https://unsloth.ai/docs/models/decision-laya) `📚1` — Unsloth's official docs: the Desktop app (v0.1.900-beta, Mac/Windows/Linux) runs Laya locally and exposes it through a TypeSafe-compatible Jev API, so existing…
+- [unslothai/unsloth](https://github.com/unslothai/unsloth) `📚1` — Unsloth Desktop v0.1.900 can run and serve decision models such as Laya locally behind a Jev-compatible API.
+- [valdepeace/jev-labs](https://github.com/valdepeace/jev-labs) `📚1` — Arnes TypeScript para comparar motores de decision tipada (Jev, Kev, Laya) y publicar los resultados
+- [Vazool/jev-escape-room](https://github.com/vazool/jev-escape-room) `📚1` — An experiment using Jev System One as a probabilistic semantic layer within a deterministic Python g
+- [vianaR25/jev-vs-ml](https://github.com/vianar25/jev-vs-ml) `📚1` — Three Kaggle datasets against trained ML; repeat queries shift Jev's probability by up to 0.13. jev-1.13.0
+- [vigneshmj1997/OpenJev](https://github.com/vigneshmj1997/openjev) `📚1` — Open Source version of the Jev, Contains training pipeline ect of the model
+- [vindahi/Medical-OpenJev](https://github.com/vindahi/medical-openjev) `📚1`
+- [vinnylarouge/jevlike,1307,Python,MIT,2026-09-16,2026-09-26](https://github.com/vinnylarouge/jevlike,1307,python,mit,2026-09-16,2026-09-26) `📚1`
+- [vishalmysore/layaForWeb](https://github.com/vishalmysore/layaforweb) `📚1` — layaForWeb - Laya running in the browser.
+- [vizakan10/jev-vs-laya](https://github.com/vizakan10/jev-vs-laya) `📚1`
+- [vk-alto-none/laya-vs-dgpl-arena](https://github.com/vk-alto-none/laya-vs-dgpl-arena) `📚1` — AI vs AI Decision Arena: Laya vs DGPL System-1 & Jev (Attribution to PromptEngineer48)
+- [voyagerforge-dev/loci](https://github.com/voyagerforge-dev/loci) `📚1` — FOSS dynamic slotting engine with evidence-aware optimization, rules, constraints, and optional Jev judgment
+- [wearshoes/laya-console](https://github.com/wearshoes/laya-console) `📚1` — TypeSafe-inspired console for Wearglass Laya decision API (API keys, playground, usage)
+- [webNeat/llama-jev,0,TypeScript,,2026-09-19,Reproducing](https://github.com/webneat/llama-jev,0,typescript,,2026-09-19,reproducing) `📚1`
+- [wnzn/carabao.rs](https://github.com/wnzn/carabao.rs) `📚1` — Rust System One decisions on GGUF and llama.cpp
+- [Worthify-AI/worthify-open-jev](https://github.com/worthify-ai/worthify-open-jev) `📚1` — Worthify OpenJev: reproducible Gemma option-logit LoRA recipes for classification and evid
+- [wuwenbo0626/AutoJev](https://github.com/wuwenbo0626/autojev) `📚1` — Automated Jev-style decision model training based on Laya
+- [wuzhiping/jev-laya](https://github.com/wuzhiping/jev-laya) `📚1`
+- [wweir/weigh](https://github.com/wweir/weigh) `📚1` — Exact per-slot logprobs from vLLM, SGLang or any OpenAI-compatible server: typed decisions with provenance instead of generation. Independent; not affiliated…
+- [xiaol/Gut-RWKV-Jev-laya](https://github.com/xiaol/gut-rwkv-jev-laya) `📚1` — Other related projects
+- [yangshun2005/laya-cn](https://github.com/yangshun2005/laya-cn) `📚1`
+- [yashkhou/jev-media-bridge](https://github.com/yashkhou/jev-media-bridge) `📚1` — Local-first image and video evidence bridge for TypeSafe Jev / System One
+- [youngsuen19860205/LLM2Jev](https://github.com/youngsuen19860205/llm2jev) `📚1`
+- [youniszhang/jev-local](https://github.com/youniszhang/jev-local) `📚1`
+- [youniszhang/jev-local-console](https://github.com/youniszhang/jev-local-console) `📚1`
+- [zamax14/Laya-Finetune](https://github.com/zamax14/laya-finetune) `📚1` — Fine-tune Laya, the open System One decision model, for any typed-decision task: synthetic data, RLCD, calibration and long context.
+- [zerodegress/laya-rust](https://github.com/zerodegress/laya-rust) `📚1` — Inference engine for laya, written by rust.
+- [zhangcy122/OpenJev,33,Python,,2026-09-20](https://github.com/zhangcy122/openjev,33,python,,2026-09-20) `📚1`
+- [zhangyunting123/von-laya-jev-paint-compare](https://github.com/zhangyunting123/von-laya-jev-paint-compare) `📚1` — Public test repository for side-by-side VON, LAYA, and JEV painting comparison
+- [ZimmyGao/openjev-rlcd](https://github.com/zimmygao/openjev-rlcd) `📚1`
+- [zjarlin/qa-intent](https://github.com/zjarlin/qa-intent) `📚1`
+- [ZLHAOOO/laya-mlx-zh](https://github.com/zlhaooo/laya-mlx-zh) `📚1`
+- [zm2231/julia-mlx](https://github.com/zm2231/julia-mlx) `📚1` — Julia-1 decision model on Apple silicon with MLX, at parity with the reference runtime
+- [zoedsy/openJEV](https://github.com/zoedsy/openjev) `📚1` — Self-hosted typed AI decisions with a local playground, pinned GPU recipe, and reproducibl
+- [ZorQelis-AI/verqen](https://github.com/zorqelis-ai/verqen) `📚1` — VerQen: an open decision model. State in, decision out, in about 5 ms. Weights, training p
+- [zsytssk/react-laya](https://github.com/zsytssk/react-laya) `📚1` — use react write laya
+- [zulimazuli/Jev-playground](https://github.com/zulimazuli/jev-playground) `📚1` — Small Vite + TypeScript playground for the Jev decision model on OpenRouter
+- [网站](https://kw2828.github.io/openjev) `📚1`
+
+</details>

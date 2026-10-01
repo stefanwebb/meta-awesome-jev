@@ -1,0 +1,1196 @@
+# Agents & Decision Workflows
+
+> Agents and workflows that use Jev as the fast decision step.
+>
+> **1,173 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 142
+
+- [y0usaf/pi-jev](https://github.com/y0usaf/pi-jev) `★150 · 📚54` — TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev_ask for typed, calibrated answers
+- [Mapika/decider](https://github.com/mapika/decider) `★993 · 📚45` — A family of System One-style models fine-tuned from Qwen3.5, designed for one-pass typed decisions with calibrated probabilities.
+- [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align) `★300 · 📚42` — Build calibrated AI Functions from human feedback using Jev and GEPA.
+- [tacticocc/Jevbridge](https://github.com/tacticocc/jevbridge) `★45 · 📚40` — ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode.
+- [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) `★7,181 · 📚37` — 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。
+- [kitze/skillbox](https://github.com/kitze/skillbox) `★255 · 📚37` — Self-hosted, versioned skills library for AI agents. MCP, scoped clients, and optional Jev recommendations.
+- [sharziki/semdecide](https://github.com/sharziki/semdecide) `★75 · 📚37` — Typed semantic decisions for Unix pipelines and CI, powered by TypeSafe AI Jev.
+- [WiktorB2004/llama-index-jev](https://github.com/wiktorb2004/llama-index-jev) `★8 · 📚33` — LlamaIndex reranker + router powered by TypeSafe Jev - typed scores/choices, cheaper than LLM-as-judge.
+- [qkal/Canny](https://github.com/qkal/canny) `★106 · 📚32` — Stops AI coding agents from claiming work is done without evidence. Deterministic hooks decide, TypeSafe's Jev advises. Append-only ledger, zero runtime dependencies.
+- [TheoOliveira/pi-jev](https://github.com/theooliveira/pi-jev) `★57 · 📚32` — Semantic tool routing and typed System One decisions for the Pi coding agent using TypeSafe Jev
+- [Kevthetech143/super-jev](https://github.com/kevthetech143/super-jev) `★13 · 📚32` — A small, extensible decision-to-action harness for TypeSafe Jev
+- [24601/Augustus](https://github.com/24601/augustus) `★10 · 📚31` — Agent skills for designing, training, evaluating and improving application-specific decision systems. Primitive/model selection, data assembly, export/reload and bounded hill climbing. TypeSafe Jev is the default hosted exemplar;…
+- [altryne/jevify](https://github.com/altryne/jevify) `★36 · 📚30` — An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
+- [notque/vexjoy-agent](https://github.com/notque/vexjoy-agent) `★425 · 📚29` — VexJoy AI Agent with Jev Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.
+- [r-ms/mini-jev](https://github.com/r-ms/mini-jev) `★57 · 📚29` — mini-Jev: what a Jev-style typed-decision interface looks like on a frozen Qwen3-4B — read the option letter's logits instead of generating JSON. Preregistered experiment, results, teaching bench.
+- [AbdelStark/bicameral](https://github.com/abdelstark/bicameral) `★8 · 📚29` — Hybrid coding harness: System 2 writes, System 1 (Jev) runs reflexes.
+- [GiesN/typesafe-jev-workflow](https://github.com/giesn/typesafe-jev-workflow) `★11 · 📚28` — Jev email intent workflow — LangGraph demo that classifies mocked emails as invoice or general with Jev. By @GiesN.
+- [AkashPriyadarshii/jev-scout](https://github.com/akashpriyadarshii/jev-scout) `★5 · 📚28` — Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring
+- [Bodila51/grok-bot-jev](https://github.com/bodila51/grok-bot-jev) `★89 · 📚27` — Connect TypeSafe Jev to Grok Bot as a cheap decision layer - usage gates, skill template, examples
+- [HyunjunJeon/jev-judgment](https://github.com/hyunjunjeon/jev-judgment) `★6 · 📚27` — Agent Skill: send closed coding-agent judgments to TypeSafe Jev
+- [AkashPriyadarshii/jev-superpowers](https://github.com/akashpriyadarshii/jev-superpowers) `★33 · 📚26` — Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions
+- [HyunjunJeon/pi-quiet-ask](https://github.com/hyunjunjeon/pi-quiet-ask) `★11 · 📚26` — TypeSafe Jev as the pi coding agent's quiet decision layer
+- [replynodes/jev-web-analyzer](https://github.com/replynodes/jev-web-analyzer) `★5 · 📚26` — See what Jev thinks about your SaaS website — powered by ReplyNodes web context and Vercel AI Gateway.
+- [agent-labs-dev/fastbrowse](https://github.com/agent-labs-dev/fastbrowse) `★112 · 📚25` — A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.
+- [Rizzo-AI-Academy/rizzo-flow](https://github.com/rizzo-ai-academy/rizzo-flow) `★770 · 📚24` — The open, local take on Jev: typed decisions from an LLM, without generating a single token
+- [Devin-AXIS/jev-dsh-decision](https://github.com/devin-axis/jev-dsh-decision) `★338 · 📚24` — Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex Harness。
+- [MarissaFamularo/citation-verifier](https://github.com/marissafamularo/citation-verifier) `★10 · 📚24` — Check whether each cited paper supports the sentence citing it. Claude proves the quote, TypeSafe's Jev scores it, a human decides.
+- [noplan-inc/limpet](https://github.com/noplan-inc/limpet) `★5 · 📚24` — A Stop hook that stops your coding agent from stopping too early. Plain-language rules, judged by jev.
+- [legacybridge-tech/pi-typesafe-jev](https://github.com/legacybridge-tech/pi-typesafe-jev) `★3 · 📚24` — A pi extension that exposes TypeSafe (Jev, System One) judgments as five pi tools, so a model can make narrow semantic judgments while your code and your users keep control of thresholds, weights, and actions.
+- [santos-sanz/jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) `★2 · 📚24` — Low-latency audio censorship POC using Jev typed decisions and ffmpeg.
+- [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab) `★19 · 📚23` — Real-time drone swarm autonomy simulation using Jev for fast System 1 reflex decisions and collision avoidance, with optional System 2 reasoning for strategic guidance
+- [TianyuCodings/JevHarness](https://github.com/tianyucodings/jevharness) `★414 · 📚21` — LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.
+- [deepanwadhwa/OpenDecision](https://github.com/deepanwadhwa/opendecision) `★57 · 📚21` — OpenDecision is an open-source semantic decision engine like typesafe's jev.
+- [chopratejas/invalidate](https://github.com/chopratejas/invalidate) `★22 · 📚21` — The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev.
+- [agent-chaperone/agent-chaperone](https://github.com/agent-chaperone/agent-chaperone) `★21 · 📚21` — Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools.
+- [lhemerly/mcts-agent](https://github.com/lhemerly/mcts-agent) `★7 · 📚20` — Discriminative Monte Carlo Tree Search using System One and Harnesses
+- [scale-venture-partners/riff](https://github.com/scale-venture-partners/riff) `★6 · 📚20` — A small, fast prose linter: ruff-style rule codes for writing, backed by TypeSafe's Jev model
+- [3clyp50/a0-typesafe-ai](https://github.com/3clyp50/a0-typesafe-ai) `★5 · 📚20` — TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.
+- [brnyxx/jev-ra](https://github.com/brnyxx/jev-ra) `★4 · 📚20` — Browser use for coding agents, 3-5x faster than browser-use. MCP server + CLI; TypeSafe Jev decides every step in ~300 ms.
+- [JanOstrowka/typesafe-assist](https://github.com/janostrowka/typesafe-assist) `★3 · 📚20` — Home Assistant Assist conversation agent powered by TypeSafe's Jev (System One) model
+- [reticlehq/reticle](https://github.com/reticlehq/reticle) `★1,017 · 📚19` — AI agents can generate code, but still struggle to understand what they build. Reticle brings Jev-style machine-native runtime perception to web & desktop applications.
+- [intikhab49/open-jev-typed-decision-engine](https://github.com/intikhab49/open-jev-typed-decision-engine) `★44 · 📚19` — Open reproduction of TypeSafe Jev: a 150M typed decision engine (noul/choice/score in one non-autoregressive pass, calibrated confidence). 0.697 vs Jev's 0.727, 2.5x better calibrated, 4x faster, free. Trains on a Colab T4 in 30 min.
+- [doeixd/discern](https://github.com/doeixd/discern) `★15 · 📚19` — Craft Type-Safe Uncertainty-aware semantic pattern matching, control flow, and smart procedures for Effect DecisionModel and Jev
+- [iefnaf/pi-jev](https://github.com/iefnaf/pi-jev) `★9 · 📚19` — Pi extension suite powered by Jev: selective context compaction and model routing
+- [siddicky/omp-typesafe](https://github.com/siddicky/omp-typesafe) `★1 · 📚19` — TypeSafe AI (Jev) adversarial reviewer and typesafe_ask tool for the omp coding agent
+- [malevrigns/agent-jev](https://github.com/malevrigns/agent-jev) `★330 · 📚18` — AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token…
+- [zjunlp/JevLoop](https://github.com/zjunlp/jevloop) `★21 · 📚18` — The agent loop where decisions don't cost a large language model call. Zero deps, runs offline, no API key needed.
+- [kaustav1996/reflex](https://github.com/kaustav1996/reflex) `★5 · 📚18` — A coding agent and personal assistant with System One reflexes (TypeSafe Jev) on top of the Pi coding agent
+- [tonyzdev/pijev](https://github.com/tonyzdev/pijev) `★5 · 📚18` — PiJev: a terminal coding agent with Jev in the loop — Jev ranks the repository's files before the first call, picks skills and triages failures; your coding model writes the code. Built on Pi.
+- [simota/tenbin](https://github.com/simota/tenbin) `★4 · 📚18` — MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code
+- [aaddrick/building-with-typesafe-jev](https://github.com/aaddrick/building-with-typesafe-jev) `★126 · 📚17` — Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior art from 150+ community projects.
+- [Shanghua-Gao/RSI-Jev](https://github.com/shanghua-gao/rsi-jev) `★37 · 📚17` — Typed-decision models (noul / choice / score) trained by a self-improving loop of AI agents — checkpoints, the code that produced them, and every version that failed.
+- [HorusJiang/dsh-jev-tools](https://github.com/horusjiang/dsh-jev-tools) `★11 · 📚17` — Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.
+- [shitianfang/wakegate](https://github.com/shitianfang/wakegate) `★3 · 📚17` — Ask Jev whether a sleeping agent's wakeup is worth a full LLM turn before you resume it. A fail-open wake gate for long-running agents on Workers, Durable Objects and Node.
+- [ReallyArtificial/jev-by-example](https://github.com/reallyartificial/jev-by-example) `★2 · 📚17` — Ten runnable Jev examples for agent decisions: memory conflicts, tool-result checks, recovery, context selection, and handoffs. JavaScript, zero dependencies.
+- [RiskAverseTech/toolgate](https://github.com/riskaversetech/toolgate) `★2 · 📚17` — Open auto mode for AI agents — a calibrated tool-call firewall powered by TypeSafe Jev. Ships as a Claude Code hook
+- [TanayPadar/gpt-vs-jev](https://github.com/tanaypadar/gpt-vs-jev) `★1 · 📚17` — Compare GPT generated language with JEV structured Noul decisions on the same input.
+- [twilwa/pi-typesafe](https://github.com/twilwa/pi-typesafe) `★0 · 📚17` — Pi coding-agent extension built on the TypeSafe AI System One API (Jev)
+- [ismaelsoilet/jev-harness](https://github.com/ismaelsoilet/jev-harness) `★10 · 📚16` — Zero-dependency System One decision harness: 5 semantic gates saving frontier AI agent tokens on trivial errors & doom loops. Python + TypeScript + Rust. MCP-compatible.
+- [kotoba-lang/typed-decisions](https://github.com/kotoba-lang/typed-decisions) `★7 · 📚16` — Jev-shaped typed-decision model (state + Choice/Score/Noul questions -> calibrated probabilities, one pass) on ModernBERT / DeBERTa / LLaDA-MoE, with measured latency, accuracy, calibration and training cost
+- [omni-/ask-jev](https://github.com/omni-/ask-jev) `★1 · 📚16` — Utilizing Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions.
+- [tylerjharden/harden-jev-decides](https://github.com/tylerjharden/harden-jev-decides) `★1 · 📚16` — JEV picks which stream idea becomes the live MVP. TypeSafe System One decision board.
+- [opaielsheikh/ps2-ai-agent](https://github.com/opaielsheikh/ps2-ai-agent) `★0 · 📚16` — Autonomous PlayStation 2 AI Agent with real-time visual telemetry HUD powered by TypeSafe Jev System One
+- [jev-chat/jev-chat-jarvis-mac](https://github.com/jev-chat/jev-chat-jarvis-mac) `★447 · 📚15` — 聊天悬浮窗助手（macOS）：屏幕感知 + 本地小模型判断意图与风险，按话术生成回复候选。纯只读。.
+- [PerryLink/jevcore](https://github.com/perrylink/jevcore) `★83 · 📚15` — TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments instead of prose, offline by default.
+- [IAmUnbounded/save-token-jev-clean](https://github.com/iamunbounded/save-token-jev-clean) `★79 · 📚15` — Save Token JEV Clean · 66 stars — A context cleaner that asks JEV which history to retain, truncate, or drop. Source
+- [ankit-aglawe/tinyjev](https://github.com/ankit-aglawe/tinyjev) `★26 · 📚15` — A tiny jev-like model that answers Choice, Score and Noul questions in one forward pass and returns calibrated probabilities. MLX or PyTorch, fully offline, System One compatible.
+- [CheshiAI/Cheshi](https://github.com/cheshiai/cheshi) `★18 · 📚15` — Jev-powered conversation memory: find past sessions and revisit decisions with original sources. A macOS workspace for OpenAI Codex. Manage AI conversations and agents, explore code with CodeGraph, and work with Git, Ghostty terminals, and…
+- [HexyeDEV/JevPR](https://github.com/hexyedev/jevpr) `★10 · 📚15` — PR Risk review, automated by Jev.
+- [sumleo/prompt2jev](https://github.com/sumleo/prompt2jev) `★6 · 📚15` — Agent skill and CLI that turn natural language, an LLM prompt, or the code that runs one into a TypeSafe Jev decision: typed state, Choice/Score/Noul questions, and a runnable script
+- [caiovicentino/jev-align](https://github.com/caiovicentino/jev-align) `★5 · 📚15` — Calibrated alignment verifier for LLM responses and agent plans — powered by Jev
+- [ddfeyes/jev-mode](https://github.com/ddfeyes/jev-mode) `★3 · 📚15` — I kept watching coding agents burn context on decisions that aren't hard - triage 400 tickets, tag 600 files, route to one of six teams. jev-mode moves those verdicts to a typed-judgment model. I A/B'd it: 78% fewer tokens, 16x less…
+- [AshutoshVJTI/progressgate](https://github.com/ashutoshvjti/progressgate) `★0 · 📚15` — Detect semantic stagnation in AI agent loops.
+- [zsoXi/agent-handoff-gate](https://github.com/zsoxi/agent-handoff-gate) `★0 · 📚15` — An experimental protocol for evidence-aware agent handoffs, bounded worker continuation, and TypeSafe/Jev-assisted review, with reproducible evaluation.
+- [different-ai/openwork](https://github.com/different-ai/openwork) `★23,796 · 📚14` — The open-source alternative to Claude Cowork (powered by opencode)
+- [ThinkFlowLab/system1-agents](https://github.com/thinkflowlab/system1-agents) `★135 · 📚14` — System 1 decision models (Jev, Laya, Cua-S1) as brain for agents: Browser use, computer use, games and robotics
+- [6Mikao9/jev-native-agent-with-extended-options](https://github.com/6mikao9/jev-native-agent-with-extended-options) `★22 · 📚14` — Research design for a Jev-native agent system:enable more options than jev provided with virtulization and paging, tool integration, external helper logits Top-k proposals with Jev-controlled fallback ,decision-aware hierarchical memory,…
+- [0x7067/claude-jev](https://github.com/0x7067/claude-jev) `★18 · 📚14` — Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing
+- [agencyenterprise/jev-recipes](https://github.com/agencyenterprise/jev-recipes) `★13 · 📚14` — 248 small Jev decisions for JavaScript and TypeScript: route, rerank, gate, grade, compare, and label text for agents, RAG, support, code review, and music. Each returns a typed result with explicit uncertainty. Plug into Vercel AI SDK or…
+- [parkavenue9639/jevloop](https://github.com/parkavenue9639/jevloop) `★6 · 📚14` — A Jev-driven general-purpose agent harness for faster, lower-cost execution, with built-in side-by-side experiments against LLM-only agents.
+- [Shashank-H/pi-jev-context-curator](https://github.com/shashank-h/pi-jev-context-curator) `★5 · 📚14` — A Jev based context curator for pi.
+- [lgy1027/jevshield](https://github.com/lgy1027/jevshield) `★4 · 📚14` — Sub-100ms security gate for AI agent tool calls, powered by TypeSafe's Jev (System-1) decision model. Single-request Choice/Noul/Score evaluation, dual-factor blocking matrix, calibrated-confidence routing, fail-closed parsing, zero-config…
+- [rainbowpuffpuff/jev-builder-loop](https://github.com/rainbowpuffpuff/jev-builder-loop) `★3 · 📚14` — Grok skill: Jev as a judgment sensor in a builder-agent loop (priors × probabilities → next act)
+- [typakon4/jev-layer](https://github.com/typakon4/jev-layer) `★3 · 📚14` — Portable System-1 decision layer for agent harnesses with host-owned routing, receipts, replay, and fail-open integrations.
+- [wotai-dev/typesafe-jev-tools](https://github.com/wotai-dev/typesafe-jev-tools) `★1 · 📚14` — A Claude Code hook that asks whether the decision you are writing needs a model at all. Includes a measured 149-row comparison of TypeSafe Jev against Claude Haiku 4.5.
+- [alexshpunt/pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman) `★0 · 📚14` — Send Pi agents back to work when they stop before the job is done.
+- [marcus/frost](https://github.com/marcus/frost) `★0 · 📚14` — A flexible and configurable CLI model router using TypeSafe Jev.
+- [Ripwords/agent-gate-loop](https://github.com/ripwords/agent-gate-loop) `★0 · 📚14` — Reusable GitHub Action: agent fix loop gated by checks, an AI reviewer, and TypeSafe Jev
+- [irfndi/prism-liquidity-agent](https://github.com/irfndi/prism-liquidity-agent) `★118 · 📚13` — Autonomous LP trading agent - auto-rebalancing with backtested strategies - Currently support Meteora DLMM
+- [yushen100/wechat-jev-assistant](https://github.com/yushen100/wechat-jev-assistant) `★18 · 📚13` — Windows 微信对话分析助手：本地读取、脱敏、TypeSafe Jev 判断与加密历史.
+- [mattt/AnyDecisionModel](https://github.com/mattt/anydecisionmodel) `★12 · 📚13` — A Swift package for typed decisions from language models (probabilities, choices, and scores), with support for local MLX models and the TypeSafe Jev API.
+- [imMamdouhaboammar/fable-jev](https://github.com/immamdouhaboammar/fable-jev) `★9 · 📚13` — ⚡ Sub-100ms cognitive reflexes for autonomous coding agents. Powered by TypeSafe AI's Jev & get-fable.
+- [jvsteiner/jevex](https://github.com/jvsteiner/jevex) `★3 · 📚13` — jevex - An Agent experiment where Jev directs a tool loop, a chat model fills arguments and prose, and MCP tools execute.
+- [kyrylosyzonenko/jev-browse](https://github.com/kyrylosyzonenko/jev-browse) `★3 · 📚13` — Drives a real browser with Jev making every decision and Vercel's agent-browser performing every action, with a benchmark.
+- [nanami-0713/dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide) `★3 · 📚13` — DSH plugin: register TypeSafe Jev (System One decision model) as an agent tool — jev_decide returns calibrated probabilities (noul/choice/score) for routing/triage/guardrail judgments, no text generation. 把 TypeSafe Jev 决策模型注册为 DSH agent 工具
+- [VladyslavHontar/clear-head](https://github.com/vladyslavhontar/clear-head) `★2 · 📚13` — Claude Code Stop hook that checks an AI assistant's claims against what it actually read this session, using TypeSafe's Jev as the judge
+- [Dearest/plotveil](https://github.com/dearest/plotveil) `★1 · 📚13` — A quiet spoiler blocker for YouTube comments. One typed Jev (TypeSafe System One) Noul decision per comment; covered while checked, still covered if the check fails.
+- [vnmoorthy/siege](https://github.com/vnmoorthy/siege) `★1 · 📚13` — SIEGE: 200 people vs one agent. A typed action gate (TypeSafe System One) that learns from every breach, evaluated by W&B Weave, hardened by a defender loop. Built at CoreWeave Hacks: Agent Loops 2026.
+- [juancamiloqhz/roverlab](https://github.com/juancamiloqhz/roverlab) `★0 · 📚13` — A 3D planetary rover sandbox for experimenting with autonomous decisions using TypeSafe AI.
+- [ndolinschi/harnessjudge](https://github.com/ndolinschi/harnessjudge) `★0 · 📚13` — Judge agent steps — ok / retry / escalate / stop via TypeSafe Jev
+- [ndolinschi/spendbrake](https://github.com/ndolinschi/spendbrake) `★0 · 📚13` — Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev
+- [nican2018/shade-arena-jev-monitor](https://github.com/nican2018/shade-arena-jev-monitor) `★0 · 📚13` — Evaluating TypeSafe's Jev as a fast monitor and action gate for agent sabotage in SHADE-Arena, compared with Gemini 2.5 Flash/Pro.
+- [yuyang2230/jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill) `★0 · 📚13` — Free typed judgments for AI agents: offload classify/screen/score/verify to Jev (TypeSafe System One) via OpenCode Zen. Claude Code / ZCode skill. 给AI代理省token的免费决策分流技能
+- [smithersai/smithers](https://github.com/smithersai/smithers) `★424 · 📚12` — Smithers is an agentic workflow framework for defining workflows in simple TypeScript configuration files and executing them quickly, durably, and reliably
+- [emnlmn/snap](https://github.com/emnlmn/snap) `★22 · 📚12` — Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai.
+- [runta-dev/jot](https://github.com/runta-dev/jot) `★20 · 📚12` — The first general-purpose System One agent for Jev
+- [PanAchy/jevvy](https://github.com/panachy/jevvy) `★19 · 📚12` — Jev-powered plugins for coding agents.
+- [Aimark-dai/jev-chat-windows-deepseek-jev](https://github.com/aimark-dai/jev-chat-windows-deepseek-jev) `★10 · 📚12` — DeepSeek + TypeSafe JEV 微信回复助手：Windows 正式版、Apple Silicon macOS 预览版；本地 OCR 与人工可控回复
+- [bojansandhaus/jev-decisions-hermes](https://github.com/bojansandhaus/jev-decisions-hermes) `★3 · 📚12` — Jev Decisions Plugin for Hermes (and other AI Agents): tool risk reviews, human approval recommendations, evidence checks, a local decision journal, local decision supervision, and learned corrections.
+- [luxus/ha-conversation-jev](https://github.com/luxus/ha-conversation-jev) `★3 · 📚12` — Home Assistant custom component: Conversation agent with Jev fast-path + Grok fallback
+- [AnshChoudhary/typesafe-ai-firewall](https://github.com/anshchoudhary/typesafe-ai-firewall) `★2 · 📚12` — Shadow-mode validation harness for a pre-execution firewall on AI agent tool calls (TypeSafe/Jev). Real run, findings in report.md.
+- [harrymunro/decision-first](https://github.com/harrymunro/decision-first) `★2 · 📚12` — Agent skill that spots bounded-judgment steps, tries a typed decision model (TypeSafe's Jev) first, and documents every attempt
+- [ARCJ137442/jev-switch](https://github.com/arcj137442/jev-switch) `★1 · 📚12` — A fast, local-first gateway for aggregating and routing TypeSafe Jev model endpoints \| 一款快速、本地优先的网关，用于聚合与路由 TypeSafe Jev 模型入口
+- [grishahq/decisionbridge](https://github.com/grishahq/decisionbridge) `★1 · 📚12` — A Jev-inspired decision interface for existing LLMs. Explicit choices, scores, calibration, and review thresholds.
+- [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) `★63,812 · 📚11` — An AI Hedge Fund Team.
+- [bastani-inc/atomic](https://github.com/bastani-inc/atomic) `★841 · 📚11` — The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions. Primitives for verifiable software factories.
+- [kyle-pena-nlp/jevchat](https://github.com/kyle-pena-nlp/jevchat) `★95 · 📚11` — Turns Jev into a chatbot.
+- [csskrtao/jev-to-answer](https://github.com/csskrtao/jev-to-answer) `★20 · 📚11` — 答案之书jev.
+- [NiazMorshed2007/jcr](https://github.com/niazmorshed2007/jcr) `★19 · 📚11` — A Jev-powered resolver for agent harnesses to find deterministic commands and their context in a nested capability tree.
+- [ZephyrDeng/ego-jev](https://github.com/zephyrdeng/ego-jev) `★11 · 📚11` — ego lite skill — each DOM step decided in ~0.4s, no LLM turn
+- [jimmyliao/jev-storyboard-lab](https://github.com/jimmyliao/jev-storyboard-lab) `★3 · 📚11` — Google ADK vs Microsoft Agent Framework for structured-output agents, with TypeSafe Jev as a vendor-neutral QC gate
+- [ctaxnagomi/dgui-hypermem](https://github.com/ctaxnagomi/dgui-hypermem) `★2 · 📚11` — DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.
+- [lazniak/jevskill](https://github.com/lazniak/jevskill) `★2 · 📚11` — Teach your coding agent to stop burning context. Jev (System One) via OpenRouter or TypeSafe: 325ms, 0.000013 USD per decision. A/B tested 99.3% fewer input tokens with accuracy up. Ships a reversible reduce and a ledger that learns when…
+- [nexibeo/jev-organize](https://github.com/nexibeo/jev-organize) `★2 · 📚11` — Throw in a pile of company files and get them classified and organized by department, type, sensitivity, date, counterparty and PII, with an index for AI agents. Powered by TypeSafe's Jev on OpenRouter (17¢ per 1,000 files).…
+- [Tom-R-Main/Footwork](https://github.com/tom-r-main/footwork) `★2 · 📚11` — A verified browser agent: a cheap Jev guard (evidence-checked completions, a destructive gate) in front of any LLM browser driver, with Jev taking the mechanical steps in dual mode. Built on browser-use; every number pre-registered and…
+- [walidboulanouar/jev-agent-kit](https://github.com/walidboulanouar/jev-agent-kit) `★2 · 📚11` — jevkit: fast typed decisions for agents. CLI and MCP tools (route, triage, guard, grep, rank, compact, judge) on TypeSafe Jev. Zero dependencies.
+- [Thneoly/r2r-jev](https://github.com/thneoly/r2r-jev) `★1 · 📚11` — Persistent governance for AI agents — turn Jev judgments into replayable relation state with R2R.
+- [cwdx/1-million-emojis](https://github.com/cwdx/1-million-emojis) `★0 · 📚11` — 1 Million Emojis: a shared 1,000 × 1,000 emoji canvas where humans paint and Jev paints alongside them. The canvas, palette and Jev's painter (MIT) behind chriswijnia.com/lab/emoji.
+- [AgentiLoop/Agent](https://github.com/agentiloop/agent) `★640 · 📚10` — Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService shell…
+- [yibie/jev-engineering-zh](https://github.com/yibie/jev-engineering-zh) `★128 · 📚10` — 《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图.
+- [wuxie888/jev-yaba-wechat](https://github.com/wuxie888/jev-yaba-wechat) `★24 · 📚10` — 微信里的话不知道怎么接？macOS 悬浮聊天助手：识别消息意图与沟通风险，GPT 生成多种话术，Jev 评估候选，一键填入微信。话我帮你想，发送你来定。
+- [AbdelStark/lejudge-jev-jepa](https://github.com/abdelstark/lejudge-jev-jepa) `★10 · 📚10` — Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM.
+- [poiuyjie/jev_project_context](https://github.com/poiuyjie/jev_project_context) `★9 · 📚10` — Evidence-first long-term experiment memory skill for AI coding agents, with optional Jev decision-model layers
+- [bl888m/jev-bot](https://github.com/bl888m/jev-bot) `★8 · 📚10` — JEV-powered market decision bot for stocks, crypto and memes. State in, BUY/SELL/HOLD/AVOID out, paper by default
+- [danielnc/jev-browse](https://github.com/danielnc/jev-browse) `★8 · 📚10` — Fast, cheap browser sub-tasks for Claude and other agents: TypeSafe Jev decisions on top of browser-harness
+- [kinde-starter-kits/jev-agent-authorization](https://github.com/kinde-starter-kits/jev-agent-authorization) `★5 · 📚10` — Jev agent authorization for MCP tool calls: Kinde identity and permissions plus Jev's typed, calibrated decisions, checked server-side before every call runs
+- [carlosedm10/agi-jev-containment](https://github.com/carlosedm10/agi-jev-containment) `★4 · 📚10` — AGI JEV Detection — local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel), escalate-only L1–L5 containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026.
+- [clouatre-labs/decisions-judge-mcp](https://github.com/clouatre-labs/decisions-judge-mcp) `★4 · 📚10` — Typed decisions for AI agents as an MCP tool: yes/no probability (noul), choice, and score in one fast request. Backed by the TypeSafe System One model.
+- [abhishekswe/agent-fastpath](https://github.com/abhishekswe/agent-fastpath) `★3 · 📚10` — Jev MCP server: a decision layer for coding agents, built on TypeSafe Jev (System One model). Ship gates, risk checks, file triage that keeps files out of context, and a safe headless browser, with calibrated confidence. For Claude Code,…
+- [jbt95/jev-toolkit](https://github.com/jbt95/jev-toolkit) `★1 · 📚10` — MCP-first toolkit for TypeSafe/Jev — the System One decision model. One stdio server (jev mcp) serves any MCP-capable harness, backed by one local event log and Prometheus impact metrics you can scrape into your own Grafana.
+- [formulahendry/jev-acp](https://github.com/formulahendry/jev-acp) `★0 · 📚10` — Use Jev typed decisions from any ACP (Agent Client Protocol) client or IDE
+- [furedea/reflex-state](https://github.com/furedea/reflex-state) `★0 · 📚10` — Jev-powered execution state for Pi coding agents. Track changes, checks, and blockers outside the main LLM, with evidence-backed updates and replay. Inspired by SKILL.state.
+
+## Established (cited by 5–9 lists) — 140
+
+- [Asymptote-Labs/agent-beacon](https://github.com/asymptote-labs/agent-beacon) `★1,719 · 📚9` — The cross-harness, self-improving memory layer for AI agents.
+- [cookiespiggy/agentic-rl](https://github.com/cookiespiggy/agentic-rl) `★115 · 📚9` — Agentic RL 中文零基础教程（33 章）：从概念到 GRPO 实战，含 TRL 最小可跑示例；26–33 章附一套可运行的三方判别模型实证工程（encoder vs LLM-LoRA vs 规则基线）。第 25 章讲清 Jev / TypeSafe System One 与 RL 的能力边界 \| Chinese Agentic RL tutorial (33 chapters) + a reproducible discriminative-model…
+- [rokcso/bluenoise](https://github.com/rokcso/bluenoise) `★92 · 📚9` — Blur or hide noisy replies, posts & ads on X (Twitter), and clean up its interface with local, reversible keyword/account rules — no X API, no data collection, no account changes. 用本地可逆的关键词/账号规则模糊或隐藏 X（推特）上的嘈杂回复、帖子和广告，并整理界面——不调用 X…
+- [dzhng/duet-agent](https://github.com/dzhng/duet-agent) `★45 · 📚9` — An opinionated full-stack agent harness with native memories, long running tasks, and multi-agent relay
+- [Chuf-H/jev-tree](https://github.com/chuf-h/jev-tree) `★42 · 📚9` — Jev-native probability tree and graph runtime for verifiable multi-step decision making.
+- [philipbrembeck/pi-advisor](https://github.com/philipbrembeck/pi-advisor) `★30 · 📚9` — Fully customizable Advisor and Executor flow plugin for the Pi Coding Agent
+- [Micha0827/snapjudge](https://github.com/micha0827/snapjudge) `★14 · 📚9` — Typed decisions (choice / score / yes-no) from local Qwen models on Apple Silicon. Probabilities come straight from the logits, no text generation. TypeSafe-compatible HTTP API, runs on MLX.
+- [kubet/azdaja](https://github.com/kubet/azdaja) `★13 · 📚9` — Minimal harness-agnostic recursive language model layer — one binary, Python + llm()
+- [nssmd/jev-bot](https://github.com/nssmd/jev-bot) `★6 · 📚9` — Self-hosted Jev decision workbench and Feishu bot: automatic choices, probabilities, and experimental word/character writing.
+- [trietphan/jev-claw](https://github.com/trietphan/jev-claw) `★4 · 📚9` — Typed model routing for OpenClaw agents, powered by TypeSafe Jev
+- [lmvdz/rpg-jev](https://github.com/lmvdz/rpg-jev) `★3 · 📚9` — A living-world RPG whose NPCs are decided by TypeSafe's Jev judge model; code owns rules, numbers and state.
+- [E-FL/typesafe-as-a-judge](https://github.com/e-fl/typesafe-as-a-judge) `★2 · 📚9` — Unofficial community MCP plugin for Codex and Claude Code using TypeSafe Jev for bounded routing, ranking, extraction, verification, and escalation
+- [jevplays-games/jev-factorio-agent](https://github.com/jevplays-games/jev-factorio-agent) `★2 · 📚9` — Jev picks what, code owns how - a System One Factorio agent driven by TypeSafe's Jev on FLE
+- [Larkspur-Wang/Jev_steer_or_queue](https://github.com/larkspur-wang/jev_steer_or_queue) `★2 · 📚9` — Let TypeSafe Jev decide whether a message you send mid-turn should steer, queue, or interrupt your coding agent. Claude Code plugin; Codex CLI in testing.
+- [onlyjq04/jev-agent-hooks](https://github.com/onlyjq04/jev-agent-hooks) `★2 · 📚9` — TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model routing
+- [zkjoie/jevbus](https://github.com/zkjoie/jevbus) `★2 · 📚9` — A streaming event bus whose routing, subscription and consumption are decided by a probabilistic judge. The reference judge is TypeSafe AI's Jev (System One) model: send it a payload and a set of typed questions, get back calibrated…
+- [chrishan17/claude-jev-mod](https://github.com/chrishan17/claude-jev-mod) `★1 · 📚9` — Typed decisions in Claude Code: adds $.jev over TypeSafe's Jev, through OpenRouter, Vercel AI Gateway, Cloudflare Workers AI, LiteLLM or the TypeSafe API.
+- [kurihada/pi-jev-permit](https://github.com/kurihada/pi-jev-permit) `★1 · 📚9` — A Jev (TypeSafe System One) permission gate for the Pi coding agent: judges every bash / write / edit call before it runs
+- [PenglongHuang/jev-demo](https://github.com/penglonghuang/jev-demo) `★1 · 📚9` — TypeSafe Jev（System One 决策模型）零依赖网页体验台：浏览器操作 / 意图识别 / Agent 上下文裁剪三大预设场景，发送状态与类型化问题，拿到带校准概率的结构化答案
+- [X0EF/jev_projects](https://github.com/x0ef/jev_projects) `★1 · 📚9` — list of projects that use typesafe's jev.
+- [clankagent/pi-jev](https://github.com/clankagent/pi-jev) `★0 · 📚9` — Jev-powered semantic process conditions and skill suggestions for Pi
+- [EdytaKucharska/ticket-quest](https://github.com/edytakucharska/ticket-quest) `★0 · 📚9` — Playful ticket triage that shows how TypeSafe Jev's typed, probability-backed decisions compare with prompting an LLM. Cost of Delay ranking, certainty-gated routing, bring-your-own-key LLM race.
+- [Typed decisions, not chat](https://warmersun.com/jev) `📚9` — Independent technical walkthrough that distinguishes TypeSafe's published claims from what the public evidence establishes
+- [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) `★33,877 · 📚8` — ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
+- [CTNicholas/jev-workflow-builder](https://github.com/ctnicholas/jev-workflow-builder) `★149 · 📚8` — jev-workflow-builder · 148 stars — A visual multiplayer builder for workflows that call Jev and text models. Source
+- [KranzL/Jevflake](https://github.com/kranzl/jevflake) `★18 · 📚8` — Ask TypeSafe's Jev decision model questions about your data from inside Snowflake. dbt package plus a Terraform module.
+- [Mawfyy/jevflow](https://github.com/mawfyy/jevflow) `★11 · 📚8` — Probabilistic AI decisions as composable backend primitives — typed judgments (noul/score/choice), deterministic thresholds, and explainable workflows. Powered by TypeSafe's Jev, provider-agnostic.
+- [DreamBlooms/dohnuts.cpp](https://github.com/dreamblooms/dohnuts.cpp) `★10 · 📚8` — The same decisions, on CPU. System One model that can run on your Personal Computer.
+- [stas4000/jev-clerk](https://github.com/stas4000/jev-clerk) `★7 · 📚8` — A desktop bookkeeping clerk: Jev decides every step, Fable 5.1 rewrites its playbook every ten invoices
+- [RyanKung/rotom](https://github.com/ryankung/rotom) `★6 · 📚8` — Local OpenAI- and Anthropic-compatible API gateway backed by Codex OAuth.
+- [tyleree/jevbot](https://github.com/tyleree/jevbot) `★4 · 📚8` — Options trading bot (backtest + Alpaca paper only) with TypeSafe Jev as the decision core
+- [iikareem/skillfeed](https://github.com/iikareem/skillfeed) `★2 · 📚8` — A tech reading feed ranked to your skills — powered by TypeSafe Jev
+- [Kadihx/jev-x-kit](https://github.com/kadihx/jev-x-kit) `★2 · 📚8` — Offline $0 decision layer for coding agents: Choice/Score/Noul primitives, BELKI confidence gatekeeper, ultra-planning, red-teaming, research and RLVR self-improvement -- as an MCP server + CLI + Claude Code skill.
+- [qualixar/jev-decision-layer](https://github.com/qualixar/jev-decision-layer) `★2 · 📚8` — Open-source AI agent decision layer for Codex, Claude Code, Hermes, Antigravity and VS Code. TypeSafe Jev MCP routing, 38 recipes, local gates and receipts; optional Laya-MLX on Apple Silicon.
+- [russfranky/jev-crawlers](https://github.com/russfranky/jev-crawlers) `★1 · 📚8` — Jev learns your repo's decision norms, then adversarially judges past decisions against them. Unix-style primitives (seed, expand, judge, verify, report, norms) with per-node typed judgments from typesafe-ai/jev.
+- [ThiagaoBR/typesafe_agent_gates](https://github.com/thiagaobr/typesafe_agent_gates) `★1 · 📚8` — LangChain / Deep Agents middleware that uses TypeSafe's System One model (Jev) for typed judgments in unattended coding agents: a shell-command gate (database, production, destructive, secrets), issue triage and routing by severity and…
+- [gorock007/jev-atlas](https://github.com/gorock007/jev-atlas) `★0 · 📚8` — An independent, evidence-first field guide to Jev (TypeSafe AI's System One model) — for people and for coding agents. Not affiliated with TypeSafe AI.
+- [mcgalleg/grokbot-jev-jobs](https://github.com/mcgalleg/grokbot-jev-jobs) `★0 · 📚8` — Scores public job postings against my resume using TypeSafe's jev via the Vercel AI Gateway. Daily Vercel cron.
+- [wjdjdakf17/jev-study](https://github.com/wjdjdakf17/jev-study) `★0 · 📚8` — Jev(TypeSafe AI System One Model) 스터디 — 타입화된 결정·RLCD·confidence-gated routing을 한국어 노트와 TypeScript 목업으로 정리
+- [hardness1020/learn-agent-architecture](https://github.com/hardness1020/learn-agent-architecture) `★1,025 · 📚7` — Learn AI agents from scratch.
+- [hawkymisc/typed-decision-bert](https://github.com/hawkymisc/typed-decision-bert) `★32 · 📚7` — Unofficial PoC: a BERT-style encoder decision engine behind a typed-decision (noul / choice / score) HTTP API. Not affiliated with TypeSafe.
+- [hellozenstrategist-lab/eutrya](https://github.com/hellozenstrategist-lab/eutrya) `★14 · 📚7` — Jev-native AI security harness for autonomous research, multi-agent swarms, persistent hunt boards, and long-running agent workflows. CLI-first, open source, and built for authorized security research.
+- [QCJLchina/Jev-chat-assistant](https://github.com/qcjlchina/jev-chat-assistant) `★8 · 📚7` — Jev辅助判断的对话聊天助手.
+- [Astro-Han/jev-harness](https://github.com/astro-han/jev-harness) `★5 · 📚7` — A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control
+- [jkudish/jev-agent-tools](https://github.com/jkudish/jev-agent-tools) `★4 · 📚7` — Jev transport/provider layer: multi-provider transport layer that supports fail-closed validation. Used by jkudish/jev-browser and jkudish/jev-mcp.
+- [matthew004-web/heyreach-jev-bot](https://github.com/matthew004-web/heyreach-jev-bot) `★4 · 📚7` — Signal-based LinkedIn outbound scoring for HeyReach, running on Jev (TypeSafe System One).
+- [Bodila51/Jev-chooses-a-LLM](https://github.com/bodila51/jev-chooses-a-llm) `★3 · 📚7` — Jev Router for Cursor - TypeSafe Jev picks COST/BALANCED/INTELLIGENCE, Cursor executes
+- [jevbook/jevscan](https://github.com/jevbook/jevscan) `★3 · 📚7` — Typed onchain verdicts for EVM tokens: ape / watch /avoid with calibrated probabilities. CLI + library +MCP server. Robinhood Chain first.
+- [JonesSteven/jev_civilization](https://github.com/jonessteven/jev_civilization) `★3 · 📚7` — Autonomous tribes decided by the Jev model while you shape the environment — a Next.js civilization simulation demo (MIT)
+- [LXBWOW/dsh-context-curator](https://github.com/lxbwow/dsh-context-curator) `★2 · 📚7` — DSH-native context compaction that keeps text verbatim: scores every tool call and result with Jev, drops only the stale ones, and falls back to DSH native summary when unsure.
+- [aegsrl7/jevmap](https://github.com/aegsrl7/jevmap) `★1 · 📚7` — Map a codebase into units and let Jev (TypeSafe AI) hand an AI coding agent the ten files that matter for a task
+- [Barneyjm/decision-circuits](https://github.com/barneyjm/decision-circuits) `★1 · 📚7` — Decision circuits: typed questions to a System One model, calibrated probabilities back, gates in code. Zero-dependency Python SDK with LangChain, OpenAI Agents, and Claude Agent SDK integrations.
+- [bojansandhaus/jev-home-assistant-sentinel](https://github.com/bojansandhaus/jev-home-assistant-sentinel) `★1 · 📚7` — A safety boundary for AI-assisted Home Assistant decisions, with explicit policy checks and deterministic state verification.
+- [G0-0000/pi-subagent-jev](https://github.com/g0-0000/pi-subagent-jev) `★1 · 📚7` — A pi package that gates subagent dispatches through a JEV System One decision model, plus general-purpose tools to query that model.
+- [gopaljigaur/decide](https://github.com/gopaljigaur/decide) `★1 · 📚7` — One client for every decision model: Choice, Score and Noul over Jev, OpenRouter, laya, MLX, CrossEncoders and LLM fallback
+- [stoopid-computers/jev-bot](https://github.com/stoopid-computers/jev-bot) `★1 · 📚7` — Computer Use Agent developed with Jev.
+- [Mentioum/judgement](https://github.com/mentioum/judgement) `★0 · 📚7` — Agent-friendly Go library and JSON-first CLI for TypeSafe AI's Jev and System One API
+- [ohmyjiro/jev-judge](https://github.com/ohmyjiro/jev-judge) `★0 · 📚7` — Codex-first CLI for bounded Jev judgments without echoing input state
+- [taifoon-io/jev](https://github.com/taifoon-io/jev) `★0 · 📚7` — Grade an AI agent's job with TypeSafe's Jev: did it do the work as the task laid it out? Facts first, Jev on your own key, a receipt, and optional on-chain records.
+- [Wany-i/jev-decision-layer](https://github.com/wany-i/jev-decision-layer) `★0 · 📚7` — 把决策模型（typesafe/jev-1.13，经 OpenRouter 的 decisions 端点调用）封装成业务决策工具：注册表驱动，带置信度门控与硬约束。非官方项目。
+- [comet-ml/opik](https://github.com/comet-ml/opik) `★22,311 · 📚6` — Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+- [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) `★1,440 · 📚6` — The open-source, multi-agent alternative to Claude Tag.  @ any agent, wherever work happens, they work alongside your team, learning as they go.
+- [donvito/ai-backends](https://github.com/donvito/ai-backends) `★146 · 📚6` — API server runtime for common AI use cases — supports multiple models and providers. Run locally with Ollama or LM Studio, or in the cloud via OpenRouter, OpenAI, Anthropic, or Google.
+- [ItIsCuthNotCup/MetaCog](https://github.com/itiscuthnotcup/metacog) `★25 · 📚6` — Metacognition for any agent. Drastically improves accuracy with almost no increase in cost.  - GitHub - ItIsCuthNotCup/MetaCog: Metacognition for any agent. Drastically improves accuracy with almost no increase in cost.
+- [lyramakesmusic/jevbot](https://github.com/lyramakesmusic/jevbot) `★19 · 📚6` — discord bot for jev that lets it talk.
+- [Prescott-Data/jarviscore-framework](https://github.com/prescott-data/jarviscore-framework) `★15 · 📚6` — JarvisCore is a runtime where AI agents operate as a fleet of equal peers. Agents discover one another by capability, execute tasks from a shared ledger, and authenticate to every external service through a zero-trust broker, never with…
+- [manjunathshiva/opendecider](https://github.com/manjunathshiva/opendecider) `★13 · 📚6` — Open, calibrated System 1 decision models: typed choice / score / yes-no answers with a probability for every option. 400M to 80B; CPU, NVIDIA, Apple Silicon, LM Studio, Ollama and vLLM.
+- [ethan-ab/xscout-jev](https://github.com/ethan-ab/xscout-jev) `★10 · 📚6` — Watch X for the news that matters to you, judged by Jev, and get alerted in Slack. Set up by an AI agent.
+- [ziqi-jin/agent-to-trust](https://github.com/ziqi-jin/agent-to-trust) `★9 · 📚6` — Don't trust an Agent. Test it. Open-source lab for agent credit — exams → evidence → explainable, recomputable scores. Built for the day agents hire and pay each other. A2A-native.
+- [Yaxin9Luo/spending-effort-with-jev](https://github.com/yaxin9luo/spending-effort-with-jev) `★6 · 📚6` — Jev-powered /effort advisor for Claude Code: tells you when to switch effort, per prompt
+- [sumanmichael/jevlang](https://github.com/sumanmichael/jevlang) `★5 · 📚6` — The simplest way to write decision workflows in Python. Python with a smart if.
+- [adigulalkari/Jev_GC](https://github.com/adigulalkari/jev_gc) `★4 · 📚6` — Real-time context garbage collection for LLM agents. Watches the OpenTelemetry spans your agent already emits and decides, mid-run, what stays in the next prompt — and can give back what it evicted.
+- [gazelle93/decision-models-under-pressure](https://github.com/gazelle93/decision-models-under-pressure) `★4 · 📚6` — Seven decision models, measured as the candidate list grows, the option order changes, and the wrong answers stop being obvious.
+- [0xshikhar/jev-fuse](https://github.com/0xshikhar/jev-fuse) `★3 · 📚6` — A governed execution layer between typed-decision models (TypeSafe Jev) and agent/AI tooling like Claude Code, MCP, and AI SDKs, turning probabilistic decisions into deterministic, policy-controlled, and auditable actions.
+- [liuhongrui087-art/jev-routed-agent](https://github.com/liuhongrui087-art/jev-routed-agent) `★3 · 📚6` — Multi-step reasoning agent built on LangChain v1 + Jev + Flask + Ollama, with tool calling and local RAG Q&A.
+- [oluies/jev-vs-spacy](https://github.com/oluies/jev-vs-spacy) `★3 · 📚6` — spaCy vs TypeSafe Jev on English spam, support routing and Swedish routing, evaluated in Braintrust
+- [1aifanatic/jev-uipath-coded-agent](https://github.com/1aifanatic/jev-uipath-coded-agent) `★2 · 📚6` — FINS demo: a UiPath coded agent for AML alert triage where every decision is made by TypeSafe's Jev model (Noul/Score/Choice) instead of an LLM
+- [Agents365-ai/adecider](https://github.com/agents365-ai/adecider) `★2 · 📚6` — Typed System One decisions for any coding agent: one call, many typed questions, calibrated probabilities instead of prose, pluggable backends (local Laya, TypeSafe Jev, any OpenAI-compatible)
+- [allenporter/home-assistant-typesafe](https://github.com/allenporter/home-assistant-typesafe) `★2 · 📚6` — Home Assistant conversation integration powered by the Jev / TypeSafe AI API for fast, structured intent routing and device control
+- [ikashana/jev-dingtalk](https://github.com/ikashana/jev-dingtalk) `★2 · 📚6` — 钉钉信息 Jev 分拣器（jev-dingtalk）：把钉钉邮件与聊天分拣成 Now / Today / Queue / Ignore 清单——谁在等回复、谁需要人看一眼。dws 取数、Jev 分类、报告本地渲染，可直接作为 Agent 技能使用。\| DingTalk mail & chat triage with Jev.
+- [jzhg6/jev-embodied-media-agent](https://github.com/jzhg6/jev-embodied-media-agent) `★2 · 📚6` — Jev-based local-first gesture and gaze media-control agent with guarded page-close intent.
+- [MartinesEmanuel/athena-jev](https://github.com/martinesemanuel/athena-jev) `★2 · 📚6` — ATHENA gives coding agents reflexes - an open-source cognitive control layer powered by TypeSafe Jev.
+- [Shakibuzzaman3104/claude-jev-funnel](https://github.com/shakibuzzaman3104/claude-jev-funnel) `★2 · 📚6` — Claude Code plugin + zero-dependency CLI for TypeSafe's Jev: judge items in bulk with calibrated yes/no, pick-one and rubric answers; handle the confident ends in code, review only the uncertain band.
+- [zlZayn/AI-decision-maker](https://github.com/zlzayn/ai-decision-maker) `★2 · 📚6` — AI 只判断数据每列是什么类型，输出一个字符。支持两种引擎：生成式 LLM 与概率引擎 Jev，实测清洗与分类结论一致。
+- [Alpha-Harper-Franklin/jev-drive](https://github.com/alpha-harper-franklin/jev-drive) `★1 · 📚6` — Jev + autonomous driving: structured decisions, multimodal baselines, recovery research, and measured API diagnostics.
+- [choxos/LetJevDecide](https://github.com/choxos/letjevdecide) `★1 · 📚6` — Ask a yes or no question. Let Jev, or a fair coin, decide.
+- [dengyie/decidex](https://github.com/dengyie/decidex) `★1 · 📚6` — Industrial-grade Decision Foundation Layer for System One Game-Playing Models (Jev / NanoJev)
+- [finetuningsingh/jev-chatbot](https://github.com/finetuningsingh/jev-chatbot) `★1 · 📚6` — Experiment: using TypeSafe Jev as a chatbot by choosing replies one letter or word at a time
+- [paulobueno164/jev-mcts](https://github.com/paulobueno164/jev-mcts) `★1 · 📚6` — Busca em arvore (MCTS/PUCT) com avaliacao tipada do TypeSafe Jev e portao humano obrigatorio. A arvore supoe, a sonda mede: marco so e concedido por codigo de saida verde.
+- [SuperInstance/jev-quilt](https://github.com/superinstance/jev-quilt) `★1 · 📚6` — JEV for quilt as understood output: cellular-first decision substrate — typed cells, hook-and-drop deltas, bookkeeper WAL, last-mile projection decoupled
+- [taigrr/gojev](https://github.com/taigrr/gojev) `★1 · 📚6` — Go harness for Jev/Kev decision models: TypeSafe, Vercel AI Gateway, and in-process Kev via llama.cpp
+- [andreaserradev-gbj/jev-access-day](https://github.com/andreaserradev-gbj/jev-access-day) `★0 · 📚6` — A learning scaffold for TypeSafe AI's System One models: eval harness plus a measured, plain-language comparison of the Jev decision model vs an LLM stand-in on 24 real operational decisions. All numbers reproducible from committed run…
+- [bpmforbusiness/jev-agent-harness](https://github.com/bpmforbusiness/jev-agent-harness) `★0 · 📚6` — Jev (TypeSafe AI System One) agent harness guide + video manual — from the LangChain 'Building a Harness with Jev' post. Learn Jev Noul/Choice/Score questions, Model Router, and AutoMode guardrails with LangChain.
+- [ghubnab99/jev-enterprise-decision-fabric](https://github.com/ghubnab99/jev-enterprise-decision-fabric) `★0 · 📚6` — Architecture for running many semantic decisions through one validated path, with a labelled 111-case benchmark comparing TypeSafe Jev against a Claude baseline, and a dashboard for inspecting any single decision. Experimental, not…
+- [Jev: System One models explained](https://theneuron.ai/explainer-articles/typesafe-jev-system-one-models-explained) `📚6` — TypeSafe JEV Explained: AI Decisions Without a Chatbot
+- [m-mizutani/semgate](https://github.com/m-mizutani/semgate) `★0 · 📚6` — Semantic request filtering and routing for Go HTTP, powered by TypeSafe AI.
+- [oppih/approval-judge-bridge](https://github.com/oppih/approval-judge-bridge) `★0 · 📚6` — OpenAI-compatible judge endpoint for agent approval gates: typed judgements (Jev), any OpenAI-compatible model, or a rule file — fail-closed, calibrated, with a replay battery
+- [sebastianbugal/jev](https://github.com/sebastianbugal/jev) `★0 · 📚6` — TypeSafe's Jev decision model in Claude Code. Ask in plain language, get a typed answer with a calibrated probability.
+- [stillroom/agent-workflow-lab](https://github.com/stillroom/agent-workflow-lab) `★0 · 📚6` — Typed state, explicit transitions, one narrow model judgment, and a human approval gate — a rebuildable agent workflow using and testing Jev.
+- [Effect-TS/effect](https://github.com/effect-ts/effect) `★16,262 · 📚5` — Build production-ready applications in TypeScript.
+- [vellum-ai/vellum-assistant](https://github.com/vellum-ai/vellum-assistant) `★1,368 · 📚5` — An AI Assistant that’s easy to setup, does your work 24/7, knows your preferences and gets better over time.
+- [glowbom/glowbom-oss](https://github.com/glowbom/glowbom-oss) `★164 · 📚5` — Build software like writing a book.
+- [Michaelliv/runline](https://github.com/michaelliv/runline) `★164 · 📚5` — ⚡ Code mode for agents.
+- [assistant-ui/jevia](https://github.com/assistant-ui/jevia) `★10 · 📚5` — outcome-aware & adaptive model routing for coding agents with deterministic cache powered by Jev
+- [apolinario/decision-index](https://github.com/apolinario/decision-index) `★8 · 📚5` — Decision Index: reproduce the Jev decision-model benchmark suite locally or as one HF Job
+- [fabianboth/jevpipe](https://github.com/fabianboth/jevpipe) `★6 · 📚5` — Pipe anything into Jev, get typed decisions out. A Unix filter that lets agents offload bulk judgments to a System One model.
+- [JustineDevs/meta-architect](https://github.com/justinedevs/meta-architect) `★5 · 📚5` — Meta-Architect (MA) is a workflow layer that adds architecture, evidence, and release-gate discipline on top of Codex, MCP, and other 55+ AI coding agents — without replacing them.
+- [abhishek085/JevControl](https://github.com/abhishek085/jevcontrol) `★4 · 📚5` — Find out whether a smaller model could handle some of your AI agent’s routine choices.
+- [axiomarchitecture/axiom-agent-runtime](https://github.com/axiomarchitecture/axiom-agent-runtime) `★2 · 📚5` — Reference prototype exploring agentic commerce: TypeSafe/Jev → Axiom → Argent → Silverscript on Kaspa.
+- [Gitmaxd/agent-seek](https://github.com/gitmaxd/agent-seek) `★2 · 📚5` — Agent Seek — precision web recall for agents. You.com discover + TypeSafe Jev ranking. MCP + REST. Live demo: https://agentseek.dev
+- [promptgtm-shared/clay-jev-people-ranker](https://github.com/promptgtm-shared/clay-jev-people-ranker) `★2 · 📚5` — Agent Skill and Python workflow for Clay lead scoring, B2B prospect qualification, and people-search ranking with TypeSafe JEV.
+- [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) `★1 · 📚5` — DeepSeek Harness WSL plugin: TypeSafe Jev / OpenRouter System One (jev_ask / check / rank)
+- [albri/nxk](https://github.com/albri/nxk) `★1 · 📚5` — Your agent can't ask people what they think. nxk gives it a crowd to ask.
+- [alsoleg89/decide](https://github.com/alsoleg89/decide) `★1 · 📚5` — Bulk decisions for AI agents. Jev classifies files and logs; your agent reviews exceptions. Reproducible cost and quality benchmarks.
+- [beingcognitive/jev-songwriter](https://github.com/beingcognitive/jev-songwriter) `★1 · 📚5` — A decision model that cannot write a single note writes songs. Code computes, Jev judges, and every call is replayable.
+- [CeamKrier/semantic-firewall](https://github.com/ceamkrier/semantic-firewall) `★1 · 📚5` — Semantic firewall for LLM agents: tool calls gated by TypeSafe Jev (System One decision model via OpenRouter) + deterministic policy. PoC with corpus, stability eval, baseline, results.
+- [Coding-Dev-Tools/jev-decision](https://github.com/coding-dev-tools/jev-decision) `★1 · 📚5` — Zero-dependency System 1 decision engine, calibrated guardrails, and token optimization client for Jev (TypeSafe AI)
+- [dabaicai001/jeves-desk](https://github.com/dabaicai001/jeves-desk) `★1 · 📚5` — 通用客服平台:ChatKit UI + Jev 决策 + Qwen 生成 + RAG 知识库 + 插件化 Tools + MCP 数据面,换行业只改 YAML 不改代码
+- [dhirajpatra/agent-harness-with-jev-llm](https://github.com/dhirajpatra/agent-harness-with-jev-llm) `★1 · 📚5` — A small multi-agent harness built around the pattern from LangChain's post: use a fast, non-generative "System One" classifier (TypeSafe AI's Jev) for structured in-loop decisions -- routing and risky-tool-call gating -- and reserve a real…
+- [j1s4nn/jevXagent](https://github.com/j1s4nn/jevxagent) `★1 · 📚5` — When Jev meets LLM — Transparent proxy that makes AI coding agents 3× faster and 80% cheaper. Cut response times from 2.4s to 890ms with Line J architecture.
+- [jasonduncan/semantic-operators](https://github.com/jasonduncan/semantic-operators) `★1 · 📚5` — An abstraction for System One models, currently supporting TypeSafe's Jev and Laya. Typed questions, probabilities, and "don't know" instead of a guess, from Python, the command line, or MCP
+- [jimmyhealer/jevex](https://github.com/jimmyhealer/jevex) `★1 · 📚5` — One MCP tool that returns the files a coding agent should read.
+- [KNambiarDJsc/second-thought](https://github.com/knambiardjsc/second-thought) `★1 · 📚5` — Learning infrastructure for typed probabilistic decisions from System One models (Laya, and typed-decision providers you bring yourself).
+- [L1vsun/JEV-Trading-BOT](https://github.com/l1vsun/jev-trading-bot) `★1 · 📚5` — An order-flow trading bot whose decisions are made by Jev
+- [minhquan23102000/agent-kit](https://github.com/minhquan23102000/agent-kit) `★1 · 📚5` — Agent make dozens of silent judgments a turn: is this done, is this correct, do I have enough to decide, which way now. Made inside your own text stream, those judgments are uncalibrated and biased toward finishing, you tend to certify…
+- [Romain-Jochum/typesafe-jev-decision-studio](https://github.com/romain-jochum/typesafe-jev-decision-studio) `★1 · 📚5` — Fast, calibrated System One decision platform powered by TypeSafe Jev via OpenRouter. Sub-second logprob scoring, transfer curves, zero hallucinations.
+- [ZIJIAN004/jev-switchboard](https://github.com/zijian004/jev-switchboard) `★1 · 📚5` — A JEV-gated semantic communication layer for parallel coding agents.
+- [BarakChamo/jev-kit](https://github.com/barakchamo/jev-kit) `★0 · 📚5` — Get coding agents to write Jev questions that work the first time: rules measured on 57 labelled suites.
+- [cedarmuse-creator/jev-decision-maker-at-meteora](https://github.com/cedarmuse-creator/jev-decision-maker-at-meteora) `★0 · 📚5` — Decision Maker at Meteora - a decision agent for Meteora DLMM liquidity on Solana. Named after Jev, TypeSafe AI's System One model (https://console.typesafe.ai/home), which answers its typed Noul and Score questions. Ranks the live pool…
+- [choas/jev-service-desk-demo](https://github.com/choas/jev-service-desk-demo) `★0 · 📚5` — Customer service bot that never generates text: Jev (TypeSafe AI) makes typed decisions with probabilities, plain Python does the rest. Chat UI, example data, Docker.
+- [cloudbtl/JevRAG](https://github.com/cloudbtl/jevrag) `★0 · 📚5` — Option-ready retrieval for decision models on the CloudBTL landing layer
+- [gbesse/jev-lifecycle](https://github.com/gbesse/jev-lifecycle) `★0 · 📚5` — Five production tools for the lifecycle of Jev and compatible typed decision models.
+- [jlov7/jev-decision-lab](https://github.com/jlov7/jev-decision-lab) `★0 · 📚5` — A local lab for seeing what TypeSafe's Jev judgment model does on realistic business cases: typed answers, probabilities, policy in code, receipts.
+- [lucianoon/backoffice-agents](https://github.com/lucianoon/backoffice-agents) `★0 · 📚5` — Piloto de agentes de backoffice: LLM gera e raciocina, Jev (TypeSafe AI) decide, roteia e verifica
+- [MersivMedia/jermes](https://github.com/mersivmedia/jermes) `★0 · 📚5` — Jev decision layer for Hermes Agent.
+- [mkgraiitr/investment-scanner-agent-jev](https://github.com/mkgraiitr/investment-scanner-agent-jev) `★0 · 📚5` — Educational example to learn Jev concepts (TypeSafe.ai) with an AI Agent.
+- [parzivale/jev-bot](https://github.com/parzivale/jev-bot) `★0 · 📚5` — Discord bot that scores how likely a statement is to be true, using TypeSafe's jev model
+- [peakevergreen/jevidence](https://github.com/peakevergreen/jevidence) `★0 · 📚5` — Let Jev judge. Let your code decide. Python issue-routing sandbox with labeled replay, an offline demo, and Kev support.
+- [ravi3594444/jev-agent1](https://github.com/ravi3594444/jev-agent1) `★0 · 📚5` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Yappy](https://yappy.biz/jev) `📚5` — Computer use: selects one accessibility-tree operation and target per step with Jev, executing only validated high-confidence choices and escalating uncertain or ineffective actions to a full LLM agent.
+
+## Emerging (cited by 3–4 lists) — 208
+
+- [0x4rch/doorman](https://github.com/0x4rch/doorman) `📚4` — Bot and pitch detection for risky forms with one typed question to Jev. Zero dependencies,
+- [0xagentlabs/jev-five](https://github.com/0xagentlabs/jev-five) `📚4` — jev-five - TypeSafe Jev System One powered Gomoku arena · TypeScript
+- [0xagentlabs/jev-xiangqi](https://github.com/0xagentlabs/jev-xiangqi) `📚4` — jev-xiangqi - Jev System One powered Chinese chess arena · TypeScript
+- [a742987/JevLens](https://github.com/a742987/jevlens) `📚4` — Jev decision visualisation and debugging panel for coding agents. MCP server + local web timeline, confidence alerts and trace export.
+- [ab2webco/orca-jev-advisor](https://github.com/ab2webco/orca-jev-advisor) `📚4` — Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way otherwise.
+- [abdullahaamuda-code/jev-decide](https://github.com/abdullahaamuda-code/jev-decide) `📚4` — System One decision layer for browser automation: offload page-state judgments to TypeSafe Jev — ele
+- [AdamPippert/granite-decisions](https://github.com/adampippert/granite-decisions) `📚4` — GraniteJev... Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) `📚4` — AgentScope - AgentScope exposes TypeSafe Jev as a classifier model for structured decisions in agent workflows.
+- [AiPersonacademy/apa-agent-harness](https://github.com/aipersonacademy/apa-agent-harness) `📚4` — Production Agent Decision Harness for TypeSafe Jev & System One models — confidence-gated policy rou
+- [AiPersonacademy/apa-persona-engine](https://github.com/aipersonacademy/apa-persona-engine) `📚4` — Autonomous AI Persona Runtime & State-Machine powered by TypeSafe Jev System One decision intelligence
+- [Anson-gzy/jev-paste](https://github.com/anson-gzy/jev-paste) `📚4` — Contextual, inline clipboard decomposition for macOS — Tab-to-paste with full history and time-decay ranking. Powered by TypeSafe JEF.
+- [apetcu/oh-my-jev](https://github.com/apetcu/oh-my-jev) `📚4` — Jev-powered tool-call gate, model router and latency telemetry for the oh-my-pi coding agent
+- [Astro-Han/decision-head-rlcd](https://github.com/astro-han/decision-head-rlcd) `📚4` — Where does a decision model's generalisation come from? RLCD on Qwen3.5-4B, held-out sets grouped by training-data coverage, JevBench and three external suites.
+- [autonomous-ai/openharness](https://github.com/autonomous-ai/openharness) `📚4` — (Full Jev Sheets guide)(jev-sheets.md) · Source · Product homepage
+- [bensyverson/goodall](https://github.com/bensyverson/goodall) `📚4` — goodall — An optional TypeSafe package in a Go Agent library, using Jev as a tool or routing judge alongside chat models.
+- [Bigthap/canvas-quiz-ai-solver](https://github.com/bigthap/canvas-quiz-ai-solver) `📚4` — High-performance Canvas LMS quiz assistant & scraper designed for TypeSafe AI System One decision primitives
+- [BingelsWorth/JudgeJev](https://github.com/bingelsworth/judgejev) `📚4` — DeepThink meets llm as judge. Use heavy prefill caching to run the same request in parallel and let Jev give …
+- [blacksinisterx/jev-langgraph](https://github.com/blacksinisterx/jev-langgraph) `📚4` — A real LangGraph agent where Jev, not an LLM, decides what to do next at every branch point: continue (think one more ...
+- [BrayanperezBalladares/jev-agent-routing-lab](https://github.com/brayanperezballadares/jev-agent-routing-lab) `📚4` — Experimental evaluation of Jev as a semantic decision router for software-engineering agents, includ
+- [Bring-AI/jev-numeric](https://github.com/bring-ai/jev-numeric) `📚4` — JevNext · More than Choice — A simple algorithm that equips any Jev-like model with numerical control.
+- [buildaistack/jev-agent-harness](https://github.com/buildaistack/jev-agent-harness) `📚4` — A Java Spring Boot agent harness powered by JEV and LLM intelligence.
+- [ChristianTracy/jev-terrarium-dinosaurs](https://github.com/christiantracy/jev-terrarium-dinosaurs) `📚4` — Autonomous dinosaur ecosystem where code runs the physics and TypeSafe's Jev decides each creature's intent f…
+- [CloakHQ/CloakBrowser-Agent](https://github.com/cloakhq/cloakbrowser-agent) `📚4` — Jev-powered stealth browser agent. TypeSafe Jev decides each step in ~0.3 s, CloakBrowser carries it out like a human. MCP server, CLI ...
+- [danieljvdm/effect-agent](https://github.com/danieljvdm/effect-agent) `📚4` — effect-agent — An Effect Agent TypeSafe decision provider for typed question sets and optional model selection.
+- [dg-coreylweathers/jev-voice-agent](https://github.com/dg-coreylweathers/jev-voice-agent) `📚4` — jev-voice-agent - A realtime voice agent with no LLM in the loop: Deepgram Flux ends the turn, TypeSafe's Jev picks the reply, Deepgram Flux TTS speaks it. · TypeScript
+- [fastino/GLiNER2.5-Decide](https://huggingface.co/fastino/gliner2.5-decide) `📚4` — Fastino Labs' 340M-parameter Apache-2.0 encoder decision model; scored 60.1% on their own Fast Decisions benchmark, ahead of Laya (46.6%) and a Jev-based baseline (57.5%).
+- [FBddcz/agentic-jev](https://github.com/fbddcz/agentic-jev) `📚4`
+- [fraserxu/node-decision-model](https://github.com/fraserxu/node-decision-model) `📚4` — Node client for decision models such as Typesafe Jev ★ 1 · endpoint · TypeScript
+- [frederico-kluser/jev-agent-skill](https://github.com/frederico-kluser/jev-agent-skill) `📚4` — Decisões tipadas em milissegundos com o Jev (System One da TypeSafe) via OpenRouter — state + pergun
+- [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) `📚4` — Jev assigns a calibrated relevance score to each of the top 20 locally recalled files and reranks the search results.
+- [glennwiz/jev-discord-bot](https://github.com/glennwiz/jev-discord-bot) `📚4` — jev-discord-bot — Discord bot for TypeSafe's Jev (System One): /jev choice, score and noul _(★0, Rust)_
+- [grayslawson/ha-switchboard](https://github.com/grayslawson/ha-switchboard) `📚4` — Portable Jev-backed decision and control layer for Home Assistant
+- [hemanth/jevish](https://github.com/hemanth/jevish) `📚4` — jevish — Every mode auto-curries when called with only the patterns:
+- [hewenyu/jev-card-agent](https://github.com/hewenyu/jev-card-agent) `📚4` — jev-card-agent - Auto paly with jev.
+- [hoaphm/jev-decision-maker](https://github.com/hoaphm/jev-decision-maker) `📚4` — jev-decision-maker - omp plugin: JEV \(TypeSafe System One\) picks the next coding step from agent-supplied candidates · TypeScript
+- [Hoyant-Su/JevSpawn](https://github.com/hoyant-su/jevspawn) `📚4` — JevSpawn - Let a small model decide when to spawn another agent. ★ 1.
+- [jly-engineer/claude-jev](https://github.com/jly-engineer/claude-jev) `📚4` — claude-jev - claude-jev: TypeSafe Jev ecosystem repository. · JavaScript
+- [joshuaeroman/plasmallm](https://github.com/joshuaeroman/plasmallm) `📚4` — plasmallm — A Jev Decisions adapter in a KDE Plasma assistant widget for displaying structured judgments.
+- [justinramos101/ask-jev](https://github.com/justinramos101/ask-jev) `📚4` — An agent skill for structured decisions with Jev: choose options, score candidates, check claims, and rank files.
+- [jyje/pilot-typesafeai-jev](https://github.com/jyje/pilot-typesafeai-jev) `📚4` — 👩‍🔬 Pilot of the decision model 'jev' from
+- [kallurayaankit/jev-flight-agent](https://github.com/kallurayaankit/jev-flight-agent) `📚4` — Browser-use agent that finds flights with Jev (TypeSafe AI). First project with TypeSafe — Jev picks, code acts.
+- [kdcadmin/jev-decision-kit](https://github.com/kdcadmin/jev-decision-kit) `📚4`
+- [kiler398/jev-demo](https://github.com/kiler398/jev-demo) `📚4` — jev-demo — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details.
+- [LBDavid98/jevidence](https://github.com/lbdavid98/jevidence) `📚4` — jevidence - Measure an agent or a prompt with a panel of typed questions, judged by Jev · TypeScript
+- [LocoLoboZ/jev-seatbelts](https://github.com/locoloboz/jev-seatbelts) `📚4` — jev-seatbelts - Seven Claude Code hooks that catch expensive agent mistakes; TypeSafe Jev on judgment tiers. (Project guide)(community/projects/tools/jev-seatbelts.md).
+- [louteixeira/JevJudge](https://github.com/louteixeira/jevjudge) `📚4` — Small experiment comparing a System One model with a conventional LLM
+- [nandansrikrishna/jev-agent-tool](https://github.com/nandansrikrishna/jev-agent-tool) `📚4` — jev-agent-tool - BYOK CLI, Python API, and local MCP server for typed judgments with TypeSafe Jev.
+- [nanoDBA/jev-agent-kit](https://github.com/nanodba/jev-agent-kit) `📚4` — Give your coding agent a second opinion on risky tool calls: TypeSafe's Jev as an evidence layer for Claude Code, Codex, and Hermes Agent.
+- [NatBrian/pokemon-showdown-jev-agent](https://github.com/natbrian/pokemon-showdown-jev-agent) `📚4` — Autonomous Pokemon Showdown battle agent powered by Jev AI (System One Model by TypeSafe AI), with a
+- [ngallodev-software/agent-workflow-typesafe-ai](https://github.com/ngallodev-software/agent-workflow-typesafe-ai) `📚4` — jev typesafe-ai implementation to enhance pure deterministic decisions and other modeling
+- [nikotaronosuke/jev-voice-decision](https://github.com/nikotaronosuke/jev-voice-decision) `📚4` — jev-voice-decision - nikotaronosuke/jev-voice-decision - Japanese speech → local STT → Jev typed decisions → deterministic actions.
+- [OpenAgentsInc/openagents](https://github.com/openagentsinc/openagents) `📚4` — Monorepo &amp; docs Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [openconstruct/askjev](https://github.com/openconstruct/askjev) `📚4` — (Full AskJev (openconstruct) guide)(openconstruct-askjev.md) · Source
+- [ozzy2438/personal-decision-inbox](https://github.com/ozzy2438/personal-decision-inbox) `📚4` — Agency-ready build prompt for a Personal Decision Inbox powered by TypeSafe AI (Jev). Full end-to-en
+- [Paca-AI/paca](https://github.com/paca-ai/paca) `📚4` — Aplicativo de gestão de projetos que usa Jev para rotear agentes, preencher tarefas, escolher responsáveis e avaliar condições.
+- [pjmenon45/Jev-IOT](https://github.com/pjmenon45/jev-iot) `📚4` — In a 10-million smart meter deployment, using generative LLMs (like GPT-4 or Claude) is ec
+- [Programalyst/realtime-vision-decision-agent](https://github.com/programalyst/realtime-vision-decision-agent) `📚4` — realtime-vision-decision-agent — Combining YOLO and Jev models to play a mobile game (auto-discovered, description not yet written) ❔
+- [RavioliCodes/jev-support-agents](https://github.com/raviolicodes/jev-support-agents) `📚4` — Multi-agent customer support API where the LLMs write the text and a typed decision model makes the
+- [rezoch340/jev-chat-JARVIS-windows](https://github.com/rezoch340/jev-chat-jarvis-windows) `📚4` — jev-chat-JARVIS-windows - Windows WeChat reply assistant that OCRs the other side's messages from a screenshot, has Jev judge intent, and offers three candidate replies to fill in, with sending always manual. #productivity
+- [royosherove/graphlin](https://github.com/royosherove/graphlin) `📚4` — Live architecture and activity diagrams for coding agents using JEV.
+- [sameerkhan24/decidekit](https://github.com/sameerkhan24/decidekit) `📚4` — Typed, confidence-aware AI decisions for TypeScript and Python with Jev, OpenRouter, safe fallbacks,
+- [SanHsien/jev-chat-jarvis](https://github.com/sanhsien/jev-chat-jarvis) `📚4` — inferred / apps-demos — ⭐1
+- [satiricalguru/Fast-Jev-Agents](https://github.com/satiricalguru/fast-jev-agents) `📚4` — Fast-Jev-Agents - High-performance verbatim context compaction for coding agents \(Claude, Codex, Antigravity, Gemini, OpenCode\) · TypeScript
+- [silex-ai-lab/jev-realtime-observability](https://github.com/silex-ai-lab/jev-realtime-observability) `📚4` — Real-time agent observability with a Jev-protocol judge. Default model is the open-source Kev, not TypeSafe's Jev. Sandbox tools, measured latency, open-data eval.
+- [silkyland/use-jev](https://github.com/silkyland/use-jev) `📚4` — MCP server + CLI exposing TypeSafe's Jev judgment model as typed noul/choice/score tools — with a typed escalation contract, an action gate, ...
+- [site](https://agentchaperone.dev) `📚4` — Site guides and measured results: agentchaperone.dev.
+- [site](https://pi.dev/packages/pi-agent-foreman) `📚4`
+- [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) `📚4` — SiYuan TypeSafe Decision Tool - Knowledge management system with an agent decision tool backed by TypeSafe System One.
+- [szafar-7101/reclaim](https://github.com/szafar-7101/reclaim) `📚4` — Confidence-gated disk space recovery for macOS developers. Five-agent pipeline using TypeSafe AI's J
+- [taisan11/jev-agent](https://github.com/taisan11/jev-agent) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [TheEleventhAvatar/triage-bot](https://github.com/theeleventhavatar/triage-bot) `📚4` — . Real-time support triage + response bot Jev routes the ticket to a specialist agent (general / account / billing / technical) and decides whether a human should take it instead , all as typed data, no text to parse.…
+- [Tokol/DecisionServiceJev](https://github.com/tokol/decisionservicejev) `📚4` — Reusable UiPath decision-support service powered by TypeSafe AI Jev, providing typed Choice, Score,
+- [tttaliesin/jev-context](https://github.com/tttaliesin/jev-context) `📚4` — Local judgment and evidence-preserving context coordination for Codex
+- [VeridicalTech/Edward](https://github.com/veridicaltech/edward) `📚4` — The supervisor for coding agents that run when nobody's watching — deterministic guardrails + local semantic scorer + resumable interventions, every decision ...
+- [wojciechwiesner/jit-context-os](https://github.com/wojciechwiesner/jit-context-os) `📚4` — JIT-JEV Context OS for Agent Zero — Epistemic runtime, JEV System 1 decision gate, 3-tier memory cas
+- [x96x64/ctxjev](https://github.com/x96x64/ctxjev) `📚4` — ctxjev - Score AI agent context for relevance with Jev, and prune what's no longer useful. · TypeScript
+- [yAntPower/jev-decision-lab](https://github.com/yantpower/jev-decision-lab) `📚4` — jev-decision-lab - A self-hosted, bilingual playground for Jev’s Choice, Noul, and Score judgments. · JavaScript
+- [yctimlin/JevScout](https://github.com/yctimlin/jevscout) `📚4` — Jev decides what reaches your coding agent: verbatim, recoverable context for…
+- [yousudip/lizard-agent](https://github.com/yousudip/lizard-agent) `📚4` — A browser agent with no LLM in the loop — deterministic code plus Jev, a System One model. ~118ms per decision, typed and auditable.
+- [zachlandes/decision-gate](https://github.com/zachlandes/decision-gate) `📚4` — decision-gate - Rate and spend limits for code that calls Jev and other decision models.
+- [zandy700/Jev-Assistant](https://github.com/zandy700/jev-assistant) `📚4` — Jev Chat Assistant: reads WhatsApp, Snapchat, Instagram, and Messages and suggests replies. Never sends.
+- [ztanruan/JevPlane](https://github.com/ztanruan/jevplane) `📚4` — An audited decision control plane for Gemini agents. Use Jev to route models, preflight pr
+- [0M4R0/jev-discord-bot](https://github.com/0m4r0/jev-discord-bot) `📚3` — jev-discord-bot - jev-discord-bot: TypeSafe Jev ecosystem repository. · Python
+- [0xm0w/ship-checklist](https://github.com/0xm0w/ship-checklist) `📚3` — The final check pass for shipping web apps: mechanical gates + AI-judged quality scoring + is-agentic measure…
+- [a-chris/pi-ask-jeff](https://github.com/a-chris/pi-ask-jeff) `📚3` — An advisor called Jeff for pi: calibrated decisions via ask_jeff, backed by the Jev-compatible System One API (OpenRouter / TypeSafe / jev-agent)
+- [ac-kurniawan/jev-controller](https://github.com/ac-kurniawan/jev-controller) `📚3` — Jev Controller is a fail-open advisory workflow controller for the OMP (oh-my-pi) coding agent. Afte
+- [actuallyrizzn/decision-systems-bakeoff](https://github.com/actuallyrizzn/decision-systems-bakeoff) `📚3` — decision-systems-bakeoff — Reproduce Flybrain · Jev · Laya decision bakeoff on locked public rows (auto-discovered, description not yet written) ❔
+- [alexhawat/judge-jev](https://github.com/alexhawat/judge-jev) `📚3` — Jev-native LLM output judge kit (skill + agents + core)
+- [alinademi/jev-decision](https://github.com/alinademi/jev-decision) `📚3` — jev-decision - jev-decision: TypeSafe Jev ecosystem repository. · TypeScript
+- [Alpha-Harper-Franklin/jev-vla](https://github.com/alpha-harper-franklin/jev-vla) `📚3` — Jev + VLA: structured decisions, failure detection, and recovery for vision-language-action robot po
+- [altregubov/jev-antigravity-decider](https://github.com/altregubov/jev-antigravity-decider) `📚3` — jev-antigravity-decider - TypeSafe / Jev community project: altregubov/jev-antigravity-decider. · Python
+- [AndreuVM/praxeon](https://github.com/andreuvm/praxeon) `📚3` — jev-reasoning-navigator — JEV Reasoning Navigator: Cognitive supervision, loop prevention, and anti-hallucination engine for autonomous LLM agents using
+- [anusornc/jev-decision-engine](https://github.com/anusornc/jev-decision-engine) `📚3` — Ultra-fast System 1 AI structured decision engine & type-safe DSL for AI agents, supporting Jev AI and OpenThai-SystemOne.
+- [Anxiety471/idle-mmo-bot](https://github.com/anxiety471/idle-mmo-bot) `📚3` — Deterministic Idle MMO browser automation with Jev hooks for non-deterministic decisions
+- [ardada2468/typedecide](https://github.com/ardada2468/typedecide) `📚3` — Open-source implementation of the typed-decision pattern popularised by TypeSafe's Jev: re
+- [baldaworks/callee](https://github.com/baldaworks/callee) `📚3` — Markdown-defined provider-backed agents and deterministic workflows for ACP runtimes.
+- [bbarrosdavi/hermes-jev-decision](https://github.com/bbarrosdavi/hermes-jev-decision) `📚3` — TypeSafe Jev decision layer beside the Hermes Agent loop. Hooks, not tools.
+- [bonc-ai/expense-assistant](https://github.com/bonc-ai/expense-assistant) `📚3`
+- [BrettReifs/decision-kit](https://github.com/brettreifs/decision-kit) `📚3` — Agentic UI demonstrations for rapid, context-aware decisions with TypeSafe AI Jev, LLMs, and the Git
+- [brunogpj/jarvis-ai-os](https://github.com/brunogpj/jarvis-ai-os) `📚3` — Jarvis — assistente de IA pessoal em Google Apps Script: agente ReAct (Gemini), RAG no Drive, voz no Android e julgamentos tipados ...
+- [chayan-bit/Jev-Frame](https://github.com/chayan-bit/jev-frame) `📚3` — Typed, auditable Jev decisions for Python agents, with an optional shared runtime, offline previews, and calibration.
+- [chicogong/turnpilot](https://github.com/chicogong/turnpilot) `📚3` — Provider-neutral voice turn-taking decisions and causal evaluation for real-time agents
+- [choiyounggi/jev-gate](https://github.com/choiyounggi/jev-gate) `📚3` — Local Jev-compatible decision model as a Claude Code assistant — Bash risk gate, Stop evidence gate, decide MCP tool, measured eval harness. ...
+- [Clawbuilders/cloudflare-web-qa-jev-agent](https://github.com/clawbuilders/cloudflare-web-qa-jev-agent) `📚3` — Crawls a site with Cloudflare Browser Rendering, triages with typesafe/jev, confirms with vision, files deduped GitHub Issues
+- [Clawbuilders/web-qa-jev-agent](https://github.com/clawbuilders/web-qa-jev-agent) `📚3` — Crawls a site with Cloudflare Browser Rendering, triages with typesafe/jev, confirms with vision, files deduped GitHub Issues Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [croll83/jarvis](https://github.com/croll83/jarvis) `📚3` — Voice and Telegram smart-home assistant that routes each command with one Jev call for intent, action, entity and injection, falling back to local Qwen. MIT · Python
+- [cyberspace-cs/jev-agent-routing](https://github.com/cyberspace-cs/jev-agent-routing) `📚3` — DIY Jev fast decision layer for Agent - 10x faster, 10x cheaper
+- [DecapodLabs/decapod](https://github.com/decapodlabs/decapod) `📚3` — During assurance evaluation, Jev estimates how likely a proposed agent trajectory is to satisfy its bounded objective.
+- [dheerajponnaganti/Jev-Agentic](https://github.com/dheerajponnaganti/jev-agentic) `📚3` — Jev-Agentic - Jev-Agentic: TypeSafe Jev ecosystem repository. · Python
+- [dishambha/jev-train-station-assistant](https://github.com/dishambha/jev-train-station-assistant) `📚3` — A simple Python train station assistant built with Jev that uses natural-language input and Noul con
+- [ekizito96/Turn](https://github.com/ekizito96/turn) `📚3` — Os programas Turn chamam Jev para decisões Choice, Score e Noul e roteiam a execução a partir das respostas tipadas.
+- [elcronos/jev-vs-open-decision-models](https://github.com/elcronos/jev-vs-open-decision-models) `📚3` — Zero-shot benchmark of TypeSafe Jev 1.13 (decision model) vs open-weight non-generative models Prism
+- [elixirautomation/system-one-decision-lab](https://github.com/elixirautomation/system-one-decision-lab) `📚3` — Compare System One decision models (Laya & Jev) on the same evidence: one contract, per-engine confi
+- [enderzcx/spire-jev](https://github.com/enderzcx/spire-jev) `📚3` — spire-jev - Slay the Spire 2 agent controller: planner models, Jev fast decisions, and verified multi-card turn execution.
+- [fatsopanda-v3/jev-linkedin-slop](https://github.com/fatsopanda-v3/jev-linkedin-slop) `📚3` — jev-linkedin-slop - Chrome extension that rings AI slop in your LinkedIn feed, judged by typesafe/jev-1.13 — a structured decision model · JavaScript
+- [fernandoviac/judged](https://github.com/fernandoviac/judged) `📚3` — Interactive terminal interface for asking Jev yes/no, choice and score questions about a context, runnable via npx, bunx or deno. no license · TypeScript
+- [fly88oj/jebii](https://github.com/fly88oj/jebii) `📚3` — jebii - Live2D character chat — Jev decides the emotion, SoulLink performs it. · JavaScript
+- [Foxtailsss-Andy/Anna-Agent](https://github.com/foxtailsss-andy/anna-agent) `📚3` — Anna utiliza Jev como una capa de juicio rápido para recomendaciones y abstenciones de agentes empresariales locales.
+- [FrancyJGLisboa/decision-system-forge](https://github.com/francyjglisboa/decision-system-forge) `📚3` — Compile documents, code, SOPs, and resolved cases into evidence-backed JEV judgments, legal actions,
+- [frederico-kluser/jev-playground](https://github.com/frederico-kluser/jev-playground) `📚3` — Playground for the Jev (TypeSafe System One) decision model via OpenRouter…
+- [fuleinist/laya_mcp](https://github.com/fuleinist/laya_mcp) `📚3` — MCP server exposing the Laya System-1 decision engine (Jev) as agent tools
+- [GabrielBigardi/TibiaJevBot](https://github.com/gabrielbigardi/tibiajevbot) `📚3` — An autonomous game-playing decision engine for Tibia (Open Tibia / OTServ) powered by TypeSafe AI's Jev System One model.
+- [gbesse/decision-hub](https://github.com/gbesse/decision-hub) `📚3` — Hosted Jev policy workspaces with tenant isolation, finite evaluations and revocable aggregate reports
+- [gbesse/decision-workbench](https://github.com/gbesse/decision-workbench) `📚3` — Decision studio for Jev: civic watch, evidence-backed scoring, human review and export.
+- [gbesse/decisionpacks](https://github.com/gbesse/decisionpacks) `📚3` — decisionpacks - Versioned Jev decision contracts with typed validation, deterministic policies and historical replay. · JavaScript
+- [gbesse/django-jev-decisions](https://github.com/gbesse/django-jev-decisions) `📚3` — Django model decision queue, admin history and stale-state checks for Jev.
+- [gbesse/jev-decisionops](https://github.com/gbesse/jev-decisionops) `📚3` — jev-decisionops - Production evaluation and gateway tooling for Jev and System One-compatible decision models · TypeScript
+- [gbesse/jev-workflow](https://github.com/gbesse/jev-workflow) `📚3` — jev-workflow - Decision contracts, adversarial testing, tracing, stability, and privacy controls for TypeSafe Jev · TypeScript
+- [gbesse/node-red-contrib-jev-decisions](https://github.com/gbesse/node-red-contrib-jev-decisions) `📚3` — Native Node-RED nodes for versioned Jev decisions, review routing and provenance.
+- [gbesse/temporal-jev-decisions](https://github.com/gbesse/temporal-jev-decisions) `📚3` — Bounded Jev Activities and deterministic Workflow examples for Temporal.
+- [Grivn/mnemon-memory-agent](https://github.com/grivn/mnemon-memory-agent) `📚3` — Long-term memory for AI agents on Jev. Keep raw records, judge them with a fast System 1 model and answer from under ...
+- [HermeticOrmus/jev-grok-bot](https://github.com/hermeticormus/jev-grok-bot) `📚3` — jev-grok-bot - HermeticOrmus/jev-grok-bot - Jev + Grok Bot wiring (extends ormus-jev hub).
+- [House-of-Imaginations/rsdecider-inference](https://github.com/house-of-imaginations/rsdecider-inference) `📚3` — rsdecider - Inference Layer for Laya (TypeSafe's Jev but without paying API bills)
+- [iamjonatha/decisionkit-dotnet](https://github.com/iamjonatha/decisionkit-dotnet) `📚3` — DependencyInjection — ASP.NET Core minimal API, AddJevProvider, failures mapped to ProblemDetails. Needs a key.
+- [iAziz786/omp-jev-decision](https://github.com/iaziz786/omp-jev-decision) `📚3` — omp extension: a read-tier decision tool backed by TypeSafe System One (Jev) -- typed choice/noul/score questions over any state, answered with probabilities and token cost
+- [iDiagoValeta/jev-decision-gate](https://github.com/idiagovaleta/jev-decision-gate) `📚3` — LLM-based permission gate for OpenCode agents: Jev auto-approves routine tool calls and fails open to a human…
+- [Jev Decision Index](https://huggingface.co/spaces/multimodalart/jev-decision-index) `📚3` — Leaderboard that runs Jev and 70 open reproductions on the same suite of 43 benchmarks, about 120,000 decisions per model, chance-corrected so 0 means guessing; a separate kit reruns every entrant.
+- [jev-ai/jev-agent-skill](https://github.com/jev-ai/jev-agent-skill) `📚3` — Jev AI agent skill for typed decisions
+- [jev-jarvis/jev-jarvis](https://github.com/jev-jarvis/jev-jarvis) `📚3` — jev-jarvis - Read-only macOS floating window that watches WeChat, judges message intent and risk with a local small model, and drafts reply candidates without injecting into WeChat. #productivity
+- [jon-devlapaz/jev-decisions](https://github.com/jon-devlapaz/jev-decisions) `📚3` — Agent skill that runs architecture decisions through one Jev call with Cynefin, reversibility, quality-attribute and premortem lenses, ending in an ADR. MIT
+- [jonathanhecl/jev-chat-agent](https://github.com/jonathanhecl/jev-chat-agent) `📚3` — Twitch bot that classifies messages in real time using Jev-Style-2B-Decision-v3 and logs the result.
+- [July24/pier](https://github.com/july24/pier) `📚3` — pier Jev decision layer · July24 · GitHub · ⭐ 6 repo · 2026-08-22Optional Jev decision layer in pier, a Pi coding-agent extension with a todo loop and interactive subagents in herdr terminal panes, used for a diagnostic…
+- [jun-shiromizu/mastra-jev](https://github.com/jun-shiromizu/mastra-jev) `📚3` — Reference patterns for using Jev inside Mastra agents, tools, workflows, memory, guardrails and evals, with a mock mode for tests. no license · TypeScript
+- [keremt-dev/jev.decide](https://github.com/keremt-dev/jev.decide) `📚3` — jev.decide - keremt-dev/jev.decide - No description provided.
+- [knowlet/Decision-Theoretic-Mixture-of-Agents](https://github.com/knowlet/decision-theoretic-mixture-of-agents) `📚3` — Reproducible study comparing mixture-of-agents selector strategies, including a 192-question OpenJev head-to-head, with paper and verification bundle. no license · Python
+- [ksenxx/kiss_ai](https://github.com/ksenxx/kiss_ai) `📚3` — Agent framework whose optional Jev task classifier decides whether a request needs development work, with an LLM fallback. ⭐ 554
+- [lawrence3699/Jev-Style-0.8B-Decision-v3](https://github.com/lawrence3699/jev-style-0.8b-decision-v3) `📚3` — GitHub mirror of the chaoliangUNSW/Jev-Style-0.8 B-Decision-v3 Hugging Face model
+- [marcoss/jev-assistant](https://github.com/marcoss/jev-assistant) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [matrixorigin/Astra](https://github.com/matrixorigin/astra) `📚3` — Astra — Astra uses native Jev judgments to inspect agent context and choose evidence-backed runtime actions. _Rust; ★ 32._
+- [michaeljabbour/amplifier-bundle-fast-decisions](https://github.com/michaeljabbour/amplifier-bundle-fast-decisions) `📚3` — Fast-decision layer for Amplifier: telemetry hook, read-only workspace tool, and an opt-in shadow/active decision orchestrator (Jev-backed, fail-closed)
+- [MichelKerkmeester/skilled-agent-harness_spec-driven-loops](https://github.com/michelkerkmeester/skilled-agent-harness_spec-driven-loops) `📚3` — El transporte cli-jev enruta las solicitudes de juicio escrito desde el arnés de habilidades a las interfaces Jev CLI y MCP.
+- [mionax/decisionops](https://github.com/mionax/decisionops) `📚3` — decisionops - Jev thinks. Your code acts. The open-source lab for Choice, Score &amp; Noul decisions. · CSS
+- [mogottsch/openfront-agent](https://github.com/mogottsch/openfront-agent) `📚3` — A local OpenFront agent using TypeSafe Jev for bounded gameplay decisions.
+- [morler/pi-jev-core](https://github.com/morler/pi-jev-core) `📚3` — Minimal Jev judgment core for Pi and other TypeScript apps: noul/choice/score…
+- [MrBrooks-code/jev-decide](https://github.com/mrbrooks-code/jev-decide) `📚3` — A self-contained agent skill for bounded decisions with TypeSafe Jev
+- [mwijanarko1/pi-jev-agent](https://github.com/mwijanarko1/pi-jev-agent) `📚3` — Pi extension that has Jev choose the next tool before each model step so the main model sees only that tool's schema. MIT · TypeScript
+- [nathan1313/issue-triage-bot](https://github.com/nathan1313/issue-triage-bot) `📚3` — GitHub Actions bot that auto-triages incoming issues using TypeSafe AI's Jev decision model. Classif
+- [newbie1668/jev-hs-assistant](https://github.com/newbie1668/jev-hs-assistant) `📚3` — jev-hs-assistant - HS code assistant MVP — localhost demo for customs HS6 suggestions · TypeScript
+- [ngocvychu38-web/cube-lab](https://github.com/ngocvychu38-web/cube-lab) `📚3` — Interactive 3D Rubik’s Cube with Jev AI seven-step solving, live animations and recorded turning sounds.
+- [ntlm1686/Your-language-model-is-already-a-decision-model](https://github.com/ntlm1686/your-language-model-is-already-a-decision-model) `📚3` — We compared unfinetuned Qwen with Jev on decision accuracy, calibration, and latency, and found comparable accuracy and lower average calibration error without ...
+- [obekt/jev-agentic-ops](https://github.com/obekt/jev-agentic-ops) `📚3` — Python patterns for a Jev decision layer beside a reasoning model: stdlib client, pre-publish content gate, brief priors and an A/B harness vs an LLM. no license · Python
+- [open-orcha/orcha](https://github.com/open-orcha/orcha) `📚3` — Spike: Jev as a judgement layer to cut model cost — Issue: proposes moving agent judgment into Jev to reduce model cost inside a multi-agent orchestration platform.
+- [opencx-labs/zevals](https://github.com/opencx-labs/zevals) `📚3` — Jev judges yes-or-no assertions about an agent transcript, and the test passes when its probability reaches the configured threshold.
+- [pblittle/fish-career](https://github.com/pblittle/fish-career) `📚3` — An MCP server and CLI that rank postings against your profile, explain every score, and measure the ranking against your own judgment.
+- [PengyiZhang/jev-vlm-decisions](https://github.com/pengyizhang/jev-vlm-decisions) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [PICDEV-collap/binance-jev-prediction-bot](https://github.com/picdev-collap/binance-jev-prediction-bot) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [Project weights](https://huggingface.co/mapika/decider-2b) `📚3` — Mapika/decider-2b - An Apache-2.0 2B-parameter Jev-style decision model on Qwen3.5, with a vision variant and a GGUF quantization; over 130k combined downloads on Hugging Face.
+- [psyb0t/decidealot](https://github.com/psyb0t/decidealot) `📚3` — Your hardware. Local decision models. Turn messy state into typed choices, scores, and yes
+- [qybaihe/mu](https://github.com/qybaihe/mu) `📚3` — Coding-agent workspace where Jev or a local Laya judge gates bounded decisions such as context retention, approvals, routing, drift, and inter-agent sharing.
+- [RadRebelSam/jev-decision-lab](https://github.com/radrebelsam/jev-decision-lab) `📚3` — A transparent Next.js benchmark comparing function-only personalization with a function + Jev hybrid.
+- [rajeshponna/camunda-jev-ai-decision-connector](https://github.com/rajeshponna/camunda-jev-ai-decision-connector) `📚3` — Camunda 8 connector for Jev by TypeSafe AI: fast, typed AI decisions in BPMN.
+- [Randy0609/agent-jev-harness](https://github.com/randy0609/agent-jev-harness) `📚3` — inferred / agent-tooling — ⭐0
+- [RaulLazaro/dsh-jev-plugin](https://github.com/raullazaro/dsh-jev-plugin) `📚3` — Ask Jev (TypeSafe System One) typed questions from DeepSeek Harness: batch judgements with probabilities, configured per user in Settings.
+- [rottenpen/agent-stardew](https://github.com/rottenpen/agent-stardew) `📚3`
+- [rukshan99/jev-fast-judgements](https://github.com/rukshan99/jev-fast-judgements) `📚3` — Agent Skill that offloads bulk yes/no, pick-one-option and rating judgments to TypeSafe's Jev so Cla
+- [saahmadnejad/cline-option-scorer](https://github.com/saahmadnejad/cline-option-scorer) `📚3` — Calibrated Jev 1.13 percentages for Cline ask_question options — PreToolUse/PostToolUse hooks, a Cline plugin, a universal MCP server and a CLI.
+- [saembit/jeff-bot](https://github.com/saembit/jeff-bot) `📚3` — jeff, a Discord bot that is nothing but Jev decisions from TypeSafe, built with botbox
+- [seanmphelps-ai/jev-ux-eve](https://github.com/seanmphelps-ai/jev-ux-eve) `📚3` — JEV-UX decision layer console + Eve agent harness on Vercel
+- [Shalimov04/open-jev](https://github.com/shalimov04/open-jev) `📚3` — Distil a prompt into a small, fast, calibrated classifier. Typed decisions (choice/score/noul) with calibrate…
+- [shivam-raval96/multiagent-jev-monitor](https://github.com/shivam-raval96/multiagent-jev-monitor) `📚3` — Local chatbot that streams an LLM reply while Jev scores the growing text on six hazard Noul questions every 900 ms and colours segments by category. no license · JavaScript
+- [simstudioai/sim](https://github.com/simstudioai/sim) `📚3` — Sim TypeSafe Jev Provider - Workflow builder with Jev evaluation models for structured agent decisions.
+- [SnackTerminator/small-decision-model-cross-domain-degradation](https://github.com/snackterminator/small-decision-model-cross-domain-degradation) `📚3` — Jev-class small decision models (System One, 395M-596M): controlled evaluation of two open-source im
+- [snjrusmn/jev-humanizer](https://github.com/snjrusmn/jev-humanizer) `📚3` — jev-humanizer — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details.
+- [SophiaSama/Manufacturing-Assistant-Agent-Framework](https://github.com/sophiasama/manufacturing-assistant-agent-framework) `📚3` — A framework for generic RAG in enterprise environment
+- [SoundBlaster/SwiftDecision](https://github.com/soundblaster/swiftdecision) `📚3` — Typed decisions for Swift apps and agents by Jev and other Systems One models
+- [stolinski/gpui-agent](https://github.com/stolinski/gpui-agent) `📚3` — Jev-driven native GPUI testing: Rust accessibility bridge, bounded goal runners, and one-call pi integration.
+- [stratonext/software-factory](https://github.com/stratonext/software-factory) `📚3` — software-factory - Runs several coding agents locally with Jev as judge and orchestrator.
+- [SunnyBagal/Conductor_Jev_Agent](https://github.com/sunnybagal/conductor_jev_agent) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [TAIPANBOX/typryx](https://github.com/taipanbox/typryx) `📚3` — Typed answers with a probability for agent stacks: a choice, a score or a yes/no from a ve
+- [TannerMidd/SpecPi](https://github.com/tannermidd/specpi) `📚3` — SpecPi — A Pi configuration and extension bundle with an optional Jev advisor for capabilities and workflow checks.
+- [tedliou/decision-model-playground](https://github.com/tedliou/decision-model-playground) `📚3` — A local playground for comparing Laya and Jev decision models with article recommendations. ★ 1 · endpoint · Python
+- [temporal-community/temporal-agent-harness](https://github.com/temporal-community/temporal-agent-harness) `📚3` — Temporal tic-tac-toe agent · temporal-community · GitHub · ⭐ 58 repo · 2026-06-18Game agent with no LLM, where a Choice picks the square, Nouls spot threats, and a Score rates the position.
+- [ThinkInAIXYZ/deepchat](https://github.com/thinkinaixyz/deepchat) `📚3` — 🐬DeepChat - A smart assistant that connects powerful AI to your personal world
+- [Trevorton27/jev-ops](https://github.com/trevorton27/jev-ops) `📚3` — ● AI Decision Reliability Control Plane — evaluates autonomous agent actions through typed semantic judgments and deterministic policy rules, returning ALLOW / ...
+- [Txy02/jev-agent](https://github.com/txy02/jev-agent) `📚3` — jev-agent - agent for jev · Python
+- [typed-decisions](https://huggingface.co/datasets/localllama/typed-decisions) `📚3` — Typed-decisions benchmark dataset used in several model cards, including Laya's.
+- [TypeSafe's Jev: Can decision models replace LLM judges?](https://arize.com/blog/typesafe-jev-llm-judge) `📚3` — Collects the third-party evaluations that exist so far and frames the question of where a decision model can stand in for an LLM judge.
+- [venumadhav7484/jev-bot](https://github.com/venumadhav7484/jev-bot) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [visitworld123/Awesome-Robot-Use-Agent](https://github.com/visitworld123/awesome-robot-use-agent) `📚3` — Awesome-Robot-Use-Agent — News: We add many jev+robot in infrastructure. A curated collection of papers and resources on robot-use agents, tool-based robot control, embodied agent runtimes, and self-evolving robotic…
+- [vizuh/sabi](https://github.com/vizuh/sabi) `📚3` — Adaptive inference scheduling for AI agents — per-round model, effort and provider routing for coding harnesses: a Command Code mod or a ...
+- [wmsing/agent-firewall](https://github.com/wmsing/agent-firewall) `📚3` — Lightweight, zero-dependency AI Agent runtime firewall (L7 HTTP Proxy + MCP Sandbox) in Go.
+- [wonghanz/jev-decisions](https://github.com/wonghanz/jev-decisions) `📚3` — Reviewed 2026-09-27 (Europe/Sofia) at commit a6190593d605. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [XieChengYuan/jev-observatory](https://github.com/xiechengyuan/jev-observatory) `📚3`
+- [xinye1017/obsidian-decision-tagger](https://github.com/xinye1017/obsidian-decision-tagger) `📚3` — obsidian-decision-tagger — ⚡ High-speed, zero-hallucination System-1 intelligent tagging assistant for Obsidian powered by TypeSafe Jev (auto-discovered, description not yet written)
+- [yeyan00/Jev-Decision](https://github.com/yeyan00/jev-decision) `📚3` — Jev-Decision focuses on one thing missing from most current Jev-style open models: a unified decision interface across text and vision.
+- [yunusemrejr/yunuspi](https://github.com/yunusemrejr/yunuspi) `📚3` — Yunus Pi is a heavily customized harness experience built on top of a forked Pi harness (pi.dev). It uses patches, extensions, skills, ...
+- [ziyacivan/s1decide](https://github.com/ziyacivan/s1decide) `📚3` — An open decision model: typed questions answered in one forward pass, with published calibration and the negative controls that make it honest. ★ 1
+- [网站](https://kvhx37ziab90c.space.minimax.io) `📚3`
+
+## Long tail (cited by 1–2 lists) — 683
+
+<details><summary>Show 683 long-tail entries</summary>
+
+- [1612535983/deepreseach-learing](https://github.com/1612535983/deepreseach-learing) `📚2` — Jev é executado em modo sombra para anexar avaliações de qualidade estruturadas aos relatórios de pesquisa profunda gerados.
+- [419vive/jev-crm-decision-board](https://github.com/419vive/jev-crm-decision-board) `📚2` — Other related projects
+- [4i7/JEVe](https://github.com/4i7/jeve) `📚2` — JEVe - JEV-powered decision architecture for EVE Online.
+- [54k41/darkforest](https://github.com/54k41/darkforest) `📚2` — Chatbot web em um único arquivo HTML com roteamento de modelos via Jev (modos Pro e Lite)
+- [a/one](https://github.com/a/one) `📚2` — const bad = fixture.replace("- one - Does one thing. By this list's maintainer.", "- one without a link");
+- [Adkid-Zephyr/chinese-workflow-decision-bench](https://github.com/adkid-zephyr/chinese-workflow-decision-bench) `📚2` — MIT. TypeSafe usage billed separately for live Jev.
+- [afelipeg/airline-banking-commerce-agent](https://github.com/afelipeg/airline-banking-commerce-agent) `📚2` — Quasar Airlines: prototipo de agentes de comercio (aerolínea + ancillaries + fintech) sobr
+- [AgentBull/bongard](https://github.com/agentbull/bongard) `📚2` — bongard — Bongard: an encoder-decoder System One model that returns probabilities, not text (auto-discovered, description not yet written)
+- [AgentJev](https://huggingface.co/aimeigaoshou/agent-jev) `📚2` — aimeigaoshou · Hugging Face · 2026-09-21Open 0.6B agent decision model with shared-prefix caching that returns distributions for questions like which tool is…
+- [AIagentPRO78/cybersec-10000](https://github.com/aiagentpro78/cybersec-10000) `📚2` — agent, ~10,163-dimension security analysis swarm (static + live ops) with a scored 46-chain exploit planner and Jev (TypeSafe System One) decisioning. Built ...
+- [aipoch/open-science](https://github.com/aipoch/open-science) `📚2` — The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnosti…
+- [ak2k2/liljevduel](https://github.com/ak2k2/liljevduel) `📚2` — liljevduel - top down arena shooter where jev picks each bot's next position from options a planner lays out. code aims, paths, and fires. a small experiment…
+- [albrand/ai-config-kit](https://github.com/albrand/ai-config-kit) `📚2` — ai-config-kit typed decisions · albrand · GitHub · ⭐ 5 repo · 2026-05-06CLI in a tool-neutral operating framework for AI coding agents that lets an agent ask…
+- [alekzihz/jev-decision](https://github.com/alekzihz/jev-decision) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [alonsuare/typed-decisions-shadow-layer](https://github.com/alonsuare/typed-decisions-shadow-layer) `📚2` — Typed decisions, not chat — shadow decision layer (Jev / TypeSafe AI), with a measured comparison against our live CRM.
+- [Anil-matcha/awesome-agent-apis](https://github.com/anil-matcha/awesome-agent-apis) `📚2` — awesome-agent-apis — catalog of APIs and tools that typed decisions can route to.
+- [Anil-matcha/open-business-agents](https://github.com/anil-matcha/open-business-agents) `📚2` — open-business-agents — specialized business agents that can use Jev as a decision and safety layer.
+- [ankepoipoi/wechat-response-jev-agent](https://github.com/ankepoipoi/wechat-response-jev-agent) `📚2`
+- [anton-abyzov/specweave](https://github.com/anton-abyzov/specweave) `📚2` — Spec-first AI development: describe a feature → AI creates spec + plan + tasks, builds autonomously, syncs to…
+- [AristideWafo/my-gmail-assistant](https://github.com/aristidewafo/my-gmail-assistant) `📚2` — AI-powered Gmail assistant using LangGraph, JEV, and Gemini. Automates email triage, categ
+- [arjun-354/hand](https://github.com/arjun-354/hand) `📚2` — Voice agent in the MacBook notch that controls your Mac, powered by TypeSafe's Jev
+- [asertyui1/decide.js](https://github.com/asertyui1/decide.js) `📚2` — One typed API for every System-1 decision model (Jev, Laya, Kev, tev1, self-hosted, offline) - SDK + CLI with instant fallback. choose ...
+- [ATANU0023/agent_pilot_with_JEV](https://github.com/atanu0023/agent_pilot_with_jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [atmaneayoubdev/jev-ar](https://github.com/atmaneayoubdev/jev-ar) `📚2` — Arabic intent routing for RAG apps and assistants: MSA, Emirati, Saudi and code-switched Arabic. Open weights (CC BY-NC 4.0).
+- [awoaCrim/pi-smart-subagents](https://github.com/awoacrim/pi-smart-subagents) `📚2` — Pi subagents with Jev model and tool routing, worktree isolation, and background task management.
+- [axgiroud312-byte/pi-agent-deck](https://github.com/axgiroud312-byte/pi-agent-deck) `📚2`
+- [bastian-seifert/armin](https://github.com/bastian-seifert/armin) `📚2` — Middleware to ensure agents memorize decisions Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [BerriAI/liteagents](https://github.com/berriai/liteagents) `📚2` — SDK de agente independiente del proveedor que utiliza enrutamiento escrito para seleccionar un modelo para cada turno.
+- [BeyondModels/requirements-deep-agent](https://github.com/beyondmodels/requirements-deep-agent) `📚2` — Security requirements analysis with JEV, LangChain Deep Agent review via LLM, and deterministic Python reporting
+- [bhcbhc/Jev-Uno-Decision](https://github.com/bhcbhc/jev-uno-decision) `📚2` — Jev-Uno-Decision — Lab to compare LLM choose vs Jev choose on Uno (auto-discovered, description not yet written) ❔
+- [Blueangel98/jev-general-agent](https://github.com/blueangel98/jev-general-agent) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [builderio/agent-native](https://github.com/builderio/agent-native) `📚2` — A framework for building agentic apps
+- [bytemonk-academy/jev-decision-lab](https://github.com/bytemonk-academy/jev-decision-lab) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [byx-darwin/dsh-agent-kit](https://github.com/byx-darwin/dsh-agent-kit) `📚2` — DeepSeek Harness plugin kit for always-on agent workers: WebSocket, DingTalk, Claude Code/Codex, Jev.
+- [CaptainDigitals/jev-copilot](https://github.com/captaindigitals/jev-copilot) `📚2` — Jev - Claude Code Integration plugin
+- [casungo/noflow-runtime](https://github.com/casungo/noflow-runtime) `📚2` — Tired of knowing exactly what your button does? NoFlow lets buttons describe intent and picks from your regis…
+- [CharlesFeng0314/JEV_control_your_roboarm](https://github.com/charlesfeng0314/jev_control_your_roboarm) `📚2` — JEV robot decision loop with an experiment scene.
+- [ChenneyZhuang/localdecide](https://github.com/chenneyzhuang/localdecide) `📚2` — observed / agent-tooling — ⭐0
+- [clueless-creations/fast-decision](https://github.com/clueless-creations/fast-decision) `📚2` — A portable agent skill for bounded decisions through TypeSafe Jev and Vercel AI Gateway.
+- [codaaiteam/jev-agent-tools](https://github.com/codaaiteam/jev-agent-tools) `📚2` — Open-source single-file tools for AI agent builders, powered by Jev (TypeSafe AI's decision model):
+- [copilotkit/copilotkit](https://github.com/copilotkit/copilotkit) `📚2` — The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI P…
+- [CrowBe/weave](https://github.com/crowbe/weave) `📚2` — Agent Harness for System One model
+- [crzyc0d3r/jev-agent-judge](https://github.com/crzyc0d3r/jev-agent-judge) `📚2` — Evaluate support-agent traces with typed Jev judgments (grounding, honesty, relevance, helpfulness)
+- [dainlucas/ifnmg-news-bot](https://github.com/dainlucas/ifnmg-news-bot) `📚2` — ifnmg-news-bot — Telegram bot that delivers IFNMG news from RSS feeds based on each subscriber's chosen topics. Built with Cloudflare Workers, D1, and JEV…
+- [danielmaciejpytel/jev-lanepilot](https://github.com/danielmaciejpytel/jev-lanepilot) `📚2` — Bounded Jev routing for Codex and Claude Code, with explicit policies, one worker at a time, and reviewable decisions.
+- [dataelvisliang/jev-as-a-judge-scaffold](https://github.com/dataelvisliang/jev-as-a-judge-scaffold) `📚2` — Scaffold of the frozen confidence cascade from "JEV-as-a-Judge: Accept When Confident, Escalate When
+- [DataZooDE/anofox-decide](https://github.com/datazoode/anofox-decide) `📚2` — anofox-decide — DuckDB extension: evaluate natural-language predicates and answer sets with TypeSafe Jev or local open decision models (Julia-1, Laya)…
+- [designmon/jevlin](https://github.com/designmon/jevlin) `📚2` — Jev's javelin — fast judgement calls for coding agents. Narrows hundreds of candidates to the few that matter in one round trip, ...
+- [deva981001/jev-workflow-codex](https://github.com/deva981001/jev-workflow-codex) `📚2` — inferred / agent-tooling — ⭐0
+- [dgomez04/jev-refund-agent](https://github.com/dgomez04/jev-refund-agent) `📚2` — A weekend project to test Jev and work out how to design agent harnesses that mix system-one models
+- [dhdbv-cbs/turtle-soup-bot](https://github.com/dhdbv-cbs/turtle-soup-bot) `📚2`
+- [Dielldev/rrufe-support-agent](https://github.com/dielldev/rrufe-support-agent) `📚2` — AI customer-support agent for a Kosovo electronics shop — deterministic decisions, Jev/Groq proposals, guarded phrasing
+- [douglance/jevon](https://github.com/douglance/jevon) `📚2` — jevon - Rust command-line interface and MCP server for TypeSafe Jev typed decisions.
+- [draiagent/ai-to-agent-jev-mcp](https://github.com/draiagent/ai-to-agent-jev-mcp) `📚2` — inferred / agent-tooling — ⭐1
+- [dustinmays/jev-runner](https://github.com/dustinmays/jev-runner) `📚2` — Quick agent-ready Jev tool for decision making on the fly
+- [elie222/rakazo](https://github.com/elie222/rakazo) `📚2` — Open-source Grok Bot alternative. Choose your own model and sandbox.
+- [emergency-lee/decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills) `📚2` — Agent Skills for decision-native RAG: retrieve wide, decide explicitly, build evidence sets. Site:
+- [EricCheng2222/vox-ambient-assistant](https://github.com/ericcheng2222/vox-ambient-assistant) `📚2` — Privacy-first ambient voice assistant with OpenAI Realtime and JEV routing
+- [ericjuta/omp-jevify](https://github.com/ericjuta/omp-jevify) `📚2` — Oh My Pi skill plugin: rubric-first bulk classification with judge_batch (Jev)
+- [ermagent-star/jev-model-router](https://github.com/ermagent-star/jev-model-router) `📚2` — Opencode plugin and CLI where Jev classifies each task and a policy maps it to the cheapest free Zen model, with a fail-closed paid-model gate. MIT · TypeScript
+- [ernosto0/jevkit](https://github.com/ernosto0/jevkit) `📚2` — JevKit is an open-source decision infrastructure that helps developers integrate Jev into
+- [Expeed-Software/smart-home-assistant](https://github.com/expeed-software/smart-home-assistant) `📚2` — smart-home-assistant - Demo app to showcase the System One models functionality. Say what you want in natural language, System decides what to do on the home..…
+- [fastino-ai/GLiNER2](https://github.com/fastino-ai/gliner2) `📚2` — Allows agent systems to perform routing, safety filtering, and argument parsing simultaneously per the GLiNER2 Guide.
+- [fenixninja/tokensave.fenix.ninja](https://github.com/fenixninja/tokensave.fenix.ninja) `📚2` — Design Head for decision, similar a JEV on WebGPU or WebCPU
+- [flaviomartil/ralph-jev](https://github.com/flaviomartil/ralph-jev) `📚2` — Autonomous agent loop with a TypeSafe Jev completion judge. Inspired by the Ralph loop.
+- [Flowtivity: "Jev by TypeSafe AI: Is the 200x Faster Decision Model Too Good to Be True?" (](https://flowtivity.ai/blog/jev-typesafe-ai-decision-model) `📚2` — Is the 200x Faster Decision Model Too Good to Be True?
+- [flyersworder/agent-contracts](https://github.com/flyersworder/agent-contracts) `📚2` — System-One probe of typesafe/jev-1.13 (~750 calls, $0.074) for an AAMAS resubmission: ranking the menu by informativeness gives rho −0.443 ± 0.029, but asking…
+- [gaharivatsa/toolbox](https://github.com/gaharivatsa/toolbox) `📚2` — One MCP endpoint in front of all your MCP servers: Jev routes each prompt to the right server and tool, and a ...
+- [gbesse/agent-capsule](https://github.com/gbesse/agent-capsule) `📚2` — Record instrumented workflow failures, replay tool traces offline and minimize response fi
+- [gbesse/agent-mandates](https://github.com/gbesse/agent-mandates) `📚2` — Bound agent actions with signed mandates, attenuated delegation and an idempotent budget l
+- [gbesse/decision-solver](https://github.com/gbesse/decision-solver) `📚2` — Combine Jev preferences with finite constraints, exact bounded search and verifiable backe
+- [Geemal2004/jev-pybullet-decision-layer](https://github.com/geemal2004/jev-pybullet-decision-layer) `📚2` — Other related projects
+- [GiskardB/jev-agentbridge](https://github.com/giskardb/jev-agentbridge) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [glmn/ns-jev-decider](https://github.com/glmn/ns-jev-decider) `📚2` — Jev Oracle custom card for NeuroSquad app
+- [Gm1654/jev-decisionops](https://github.com/gm1654/jev-decisionops) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [GMR714/jev-decision-lab](https://github.com/gmr714/jev-decision-lab) `📚2` — Measured bilingual support routing benchmark with Jev decisions, calibrated gate and LLM baselines
+- [HanboyLee/typesafe-decision-skill](https://github.com/hanboylee/typesafe-decision-skill) `📚2` — Tool-agnostic System One decision orchestration skill for AI coding agents, with optional TypeSafe, Jev MCP and CodeGraph integrations.
+- [harlan-zw/harlan-agent-kit](https://github.com/harlan-zw/harlan-agent-kit) `📚2` — harlan-github-agent Jev classification · harlan-zw · GitHub · ⭐ 10 repo · 2026-01-11Claude Code agent kit with a service that works GitHub repos autonomously,…
+- [hazemibrahim97/decision-models-css](https://github.com/hazemibrahim97/decision-models-css) `📚2` — Hosted System One service
+- [HROSONE/OZY](https://github.com/hrosone/ozy) `📚2` — OZY — decisor local para agentes de PC, extraído do núcleo JEV local do OSONE. Base independente para inferência e futuro treinamento.
+- [IgorGanapolsky/ThumbGate](https://github.com/igorganapolsky/thumbgate) `📚2` — ThumbGate typed questions · IgorGanapolsky · GitHub · ⭐ 26 repo · 2026-03-03Pre-action firewall for AI coding agents that maps Jev's question format onto its…
+- [InternLM/Intern-Decision](https://github.com/internlm/intern-decision) `📚2` — Modelos multimodales Qwen3.5 que responden varias preguntas tipadas Choice, Score y Noul con probabilidades en una sola pasada.
+- [jackmuva/jev-workflow-runner](https://github.com/jackmuva/jev-workflow-runner) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [jakecyr/rift](https://github.com/jakecyr/rift) `📚2` — Faster coding agent that uses Jev for tool decision making and frontier models for reasoning and code generation
+- [jbellsolutions/jev-agent-kit](https://github.com/jbellsolutions/jev-agent-kit) `📚2` — inferred / agent-tooling — ⭐0
+- [JeremyEltho/jev-applybot](https://github.com/jeremyeltho/jev-applybot) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Jev for AI agents](https://refix.ai/news/jev-for-ai-agents) `📚2` — Vendor documentation: the Refix Jev for AI agents article states "Refix watches your product, scores what it finds with Jev". This is a vendor claim; the…
+- [jevbook/jevbook](https://github.com/jevbook/jevbook) `📚2` — The typed social network. Agents post. Jev decides.
+- [jinshendan/jev-scout](https://github.com/jinshendan/jev-scout) `📚2` — Evidence-first code investigation with bounded context and pluggable decision…
+- [jkf87/korean-decision-benchmark](https://github.com/jkf87/korean-decision-benchmark) `📚2` — Reproducible Colab benchmark of SemIf, Decider, Laya and TypeSafe Jev on Korean hate speech; pinned
+- [jsherman999/engineer-assistant](https://github.com/jsherman999/engineer-assistant) `📚2`
+- [jstxn/agentdir](https://github.com/jstxn/agentdir) `📚2` — Local-first Maildir-inspired work mailstore for software agents
+- [juanpiRiv/usher-point](https://github.com/juanpiriv/usher-point) `📚2` — On-demand CLI that decides where a task should run (Claude Code, Codex CLI, or an isolated Orca worktree) and optionally uses TypeSafe ...
+- [JyothiKumar03/just-jev-it](https://github.com/jyothikumar03/just-jev-it) `📚2` — just-jev-it - Skills used to analyze the current workflows/automations/agents and integrate jev if it helps\! · Python
+- [kevin9327/jev-bot](https://github.com/kevin9327/jev-bot) `📚2` — JevBot: TypeSafe Jev support bot. Choice+Score+Noul in, canned reply/escalate/block out. Not a chatb
+- [khudayarovich/jev-voice-agent](https://github.com/khudayarovich/jev-voice-agent) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [knarayanareddy/edge-hybrid-agent](https://github.com/knarayanareddy/edge-hybrid-agent) `📚2` — On-device & cloud hybrid AI agent for Android with JEV routing, persistent learning ledger, and MCP support
+- [KO6BXL/jev-bot](https://github.com/ko6bxl/jev-bot) `📚2` — A discord chatbot that respones when jev decides it should.
+- [konsumer/opendecision](https://github.com/konsumer/opendecision) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [krisitown/jev-loop-control](https://github.com/krisitown/jev-loop-control) `📚2` — Bounded Jev supervision for Pi: observe decisions, block tool batches, and continue unfinished tasks.
+- [ksyung1228/jev-decision-tool](https://github.com/ksyung1228/jev-decision-tool) `📚2` — A general-purpose decision tool powered by TypeSafe Jev. Users bring their own API key.
+- [kylerhenry/jevgate](https://github.com/kylerhenry/jevgate) `📚2` — Jev-backed validation gates for LLM-driven development: a ticket gate and a delivery gate, driven by any agent
+- [learningtour/agentic-growing-vision](https://github.com/learningtour/agentic-growing-vision) `📚2` — agentic-growing-vision - agentic-growing-vision: TypeSafe Jev ecosystem repository. · HTML
+- [lodilorenzo/pi-jev-decisions](https://github.com/lodilorenzo/pi-jev-decisions) `📚2` — Typed Jev decision tool for Pi via OpenRouter.
+- [luancaldeira/jev-decision-fit-worksheet](https://github.com/luancaldeira/jev-decision-fit-worksheet) `📚2` — Free worksheet for choosing between deterministic code, bounded semantic decisions, and generative models
+- [lucas-peters/jev-the-spire](https://github.com/lucas-peters/jev-the-spire) `📚2` — Im trying out using jev as a supplemental decision making layer when the expected value of the best move is ambiguous
+- [lukeliu95/ra2-commander](https://github.com/lukeliu95/ra2-commander) `📚2`
+- [majiayu000/awesome-grok-bot](https://github.com/majiayu000/awesome-grok-bot) `📚2` — Live x.ai/bot shares you can Add, plus writeups of how people actually run them. Automatically matched explicit Jev and TypeSafe/System One references.…
+- [marcuslinhares/jevily](https://github.com/marcuslinhares/jevily) `📚2` — Search API for LLM agents. Own index and crawler, with a type-safe decision engine (Jev) doing the reranking, gating and citation verification ...
+- [masonlee39/Multi-Agent](https://github.com/masonlee39/multi-agent) `📚2` — Mecanismo de orquestração multiagente com sessões quentes, uma caixa de correio durável e contabilidade de token por tarefa.
+- [masseater/cc-jev-teacher](https://github.com/masseater/cc-jev-teacher) `📚2` — Claude Code plugin: TypeSafe-judged hooks that make Claude finish the job before it reports
+- [mastnacek/pi-decision-gate](https://github.com/mastnacek/pi-decision-gate) `📚2` — Pi coding-agent plugin for human approval of every tool call with Jev risk scoring via OpenRouter and spend tracking in Czech koruna. MIT · TypeScript
+- [maximgladkov/jev-bot](https://github.com/maximgladkov/jev-bot) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [mgecawicz/jev_bot](https://github.com/mgecawicz/jev_bot) `📚2` — jev\_bot - Processing arena where little robots hunt treasure, with TypeSafe's Jev as their brain · Processing
+- [michael54/jev-agent-lab](https://github.com/michael54/jev-agent-lab) `📚2` — Jev agent experiments and reproducible SemIf deployment on Runpod Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [Mist-wu/qqbot](https://github.com/mist-wu/qqbot) `📚2`
+- [mitkox/esf](https://github.com/mitkox/esf) `📚2` — ESF - Self-hosted software factory: coding agents in microVMs, changes verified, and the patch and execution evidence kept, with Temporal coordinating the…
+- [momomo-agent/judge-vm-web](https://github.com/momomo-agent/judge-vm-web) `📚2` — Judge VM Playground — a probabilistic computing runtime with JASM assembly language, backed by TypeSafe AI Jev
+- [MoRohn/flowaid](https://github.com/morohn/flowaid) `📚2` — flowaid - Open-source, backend-first AI agent and workflow platform with typed decision intelligence. · TypeScript
+- [MrBug1024/jev-decision-maker](https://github.com/mrbug1024/jev-decision-maker) `📚2` — Other related projects
+- [MrDiamondBallz/jev-agent-integration](https://github.com/mrdiamondballz/jev-agent-integration) `📚2` — inferred / community-sdk — ⭐0
+- [nanstey/agentic-tools](https://github.com/nanstey/agentic-tools) `📚2` — Agentic Tools Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Neha/agent-battle-royale](https://github.com/neha/agent-battle-royale) `📚2` — agent-battle-royale - Interactive agent-routing demo. The API key and Sites project id stay in local env files. · TypeScript
+- [neostryder/augur](https://github.com/neostryder/augur) `📚2` — AI plan usage and credit balances in your tray and on your phone: Claude, ChatGPT/Codex, Grok, MiniMax, OpenRouter, fal and Jev.
+- [nifrajs/nifra-decisions](https://github.com/nifrajs/nifra-decisions) `📚2` — nifra-decisions - Typed, confidence-aware semantic decisions for production TypeScript applications. · TypeScript
+- [nmokaria27/job-scraper-bot](https://github.com/nmokaria27/job-scraper-bot) `📚2` — Discord job-posting bot on GitHub Actions with an optional Jev second pass that scores surviving jobs so the 25-slot cap posts the best matches. no license ·…
+- [nohunt-bot/local-jev](https://github.com/nohunt-bot/local-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [nwadmark/jev-decision-lab](https://github.com/nwadmark/jev-decision-lab) `📚2` — Inspected index.html / app.js: workbench copies typed questions into the TypeSafe Jev Playground. Live Playground runs not executed on the review host.
+- [omkarchougule19/Jev_validation_agent](https://github.com/omkarchougule19/jev_validation_agent) `📚2` — Reviewed 2026-09-24 (Europe/Sofia) at commit 1148239. AI-assisted README + jev_guard layout inspection.
+- [OpenAgentsInc/bender](https://github.com/openagentsinc/bender) `📚2` — Coding agent written in Bend2 and C that uses Jev to classify the next action and an OpenRouter model to generate code. MIT · C
+- [orq-ai/jev-judge](https://github.com/orq-ai/jev-judge) `📚2` — Judge repeatability study: Jev via Orq classify vs LLM judges on a docs agent. Frozen runs, labels,
+- [pally-sai-tilak/primus-decision](https://github.com/pally-sai-tilak/primus-decision) `📚2` — Primus Decision 0.1 by AAME: a 3.7M-parameter non-transformer model for typed probabilisti
+- [panosru/jev-agent-toolkit](https://github.com/panosru/jev-agent-toolkit) `📚2` — Jev-powered model routing, skill picking and per-message overrides for Claude Code and the OpenAI Co
+- [pollinations/pollinations](https://github.com/pollinations/pollinations) `📚2` — Pollinations Jev API - The Pollinations gen API serves Jev as typesafe/jev-1.13 through a typed POST /alpha/decisions endpoint and Chat Completions, plus an…
+- [pr0ta9/jev-agent](https://github.com/pr0ta9/jev-agent) `📚2` — A personal-assistant backend where a decision model chooses, code acts, and a language model writes only when prose is the product. Persona: ...
+- [prajwal-svm/jev-decision-gate](https://github.com/prajwal-svm/jev-decision-gate) `📚2` — GitHub Action that labels and comments on PRs with Jev's change kind, three risk flags and a ship/needs_review/risky verdict. no license · Python · live
+- [prakashgbe/jev-agent-demo](https://github.com/prakashgbe/jev-agent-demo) `📚2` — A simple Agentic AI demo using TypeSafe Jev for structured tool selection and an LLM for response generation.
+- [pratyushkaware2/jev-stepwise-judge](https://github.com/pratyushkaware2/jev-stepwise-judge) `📚2` — Stepwise Jev judge for coding agents: tracks knowledge, workspace and goal state and tells the agent
+- [PreetamGKatakali/Claude-jev](https://github.com/preetamgkatakali/claude-jev) `📚2` — Claude Code plugin that routes each turn to the cheapest model that can handle it via a Jev decision call; README claims complete and verified end-to-end…
+- [prestonkakukdev/Agent-Defense](https://github.com/prestonkakukdev/agent-defense) `📚2` — Agent-Defense - A Jev-powered security guard for AI agents: blocks dangerous tool calls, strips prompt injection, scans skills. Works with Claude Code, Codex,…
+- [prifer101/wechat-assistant-based-on-jev](https://github.com/prifer101/wechat-assistant-based-on-jev) `📚2` — Chinese-language Android "important-person message co-pilot": watches the notification shade for whitelisted contacts, reads the open WeChat conversation…
+- [psygns/osenv.io](https://github.com/psygns/osenv.io) `📚2` — One Go binary that runs low-cost AI coding agents with a judge on every action. Known mist
+- [rajarshidattapy/Jev_harness](https://github.com/rajarshidattapy/jev_harness) `📚2` — building an agent harness with Jev
+- [rajasekharponakala/awesome-system1-decision-models](https://github.com/rajasekharponakala/awesome-system1-decision-models) `📚2` — awesome-system1-decision-models - awesome-system1-decision-models: TypeSafe Jev ecosystem repository. · JavaScript
+- [ranjithtimesmart/agent-lighthouse](https://github.com/ranjithtimesmart/agent-lighthouse) `📚2` — Lighthouse for AI agents: score your system prompt and tool definitions with Jev
+- [ricardo-landim/claude-prompt-map](https://github.com/ricardo-landim/claude-prompt-map) `📚2` — Claude Code hook: loose chat messages become a structured prompt map in your own words (goal, constr
+- [richard7463/a2h-onus](https://github.com/richard7463/a2h-onus) `📚2` — Open verification layer for AI agents. The burden of proof is on the evidence.
+- [RJMSWD/QwenJev](https://github.com/rjmswd/qwenjev) `📚2` — QwenJev · 57 stars — A local Qwen experiment for closed-set visual decisions. Source
+- [rodriveiga01/second-thought](https://github.com/rodriveiga01/second-thought) `📚2`
+- [rohithreddy1095/omarchy-agent](https://github.com/rohithreddy1095/omarchy-agent) `📚2` — Two-tier computer use for Linux: code perceives, Jev decides in ~200ms, Claude only when stuck. Move
+- [rutvikchandla3/agent-reflex](https://github.com/rutvikchandla3/agent-reflex) `📚2` — agent-reflex - A ~400ms System-One safety reflex for AI coding agents: auto-approves routine tool calls, escalates risky ones, blocks exfiltration &amp; prompt…
+- [ruverd/bulma](https://github.com/ruverd/bulma) `📚2` — A software factory for coding agents. One command, /bulma, picks the next piece of work an
+- [ryoheimatsumo/jev-ai-scrum-master](https://github.com/ryoheimatsumo/jev-ai-scrum-master) `📚2` — Experimental Skill-first AI Scrum Master: evidence-based CLI/Core, optional Jev, npx skills installation
+- [sambawy01/jevistication](https://github.com/sambawy01/jevistication) `📚2` — A calibrated decision engine for developer workflows, built on fast structured-decision models.
+- [sandipan-ai95/Jev_Agent](https://github.com/sandipan-ai95/jev_agent) `📚2`
+- [sankaku-tech/jev-kit](https://github.com/sankaku-tech/jev-kit) `📚2`
+- [sapplefeld/agent_persona](https://github.com/sapplefeld/agent_persona) `📚2` — Claude based Function Hooks implementation of PIANO style loops for goal management, memory curation, redirec…
+- [sbhand22/jev-agent-eval-example](https://github.com/sbhand22/jev-agent-eval-example) `📚2` — A runnable decision-first agent evaluation example using Jev and TypeSafe AI.
+- [shkumbinhasani/typedecide](https://github.com/shkumbinhasani/typedecide) `📚2` — Provider-agnostic TypeScript SDK for decision models — typed answers with calibrated uncertainty, in
+- [shuymn/hermes-agent](https://github.com/shuymn/hermes-agent) `📚2` — The agent that grows with you
+- [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) `📚2` — AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack…
+- [sir-ad/jev-agentic-workflows](https://github.com/sir-ad/jev-agentic-workflows) `📚2` — Typed selection, independent verification, and bounded reconsideration for agent workflows with Type
+- [site](https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems-6ab2c941bcecb4d2c61d1326) `📚2`
+- [site](https://choxos.github.io/letjevdecide) `📚2`
+- [skastr0/prism](https://github.com/skastr0/prism) `📚2` — Agents, skills, hooks and typed multi-model workflows written once in TypeScript, compiled for a dozen agents. ★ 2
+- [soul99soul-glitch/AmberAgent](https://github.com/soul99soul-glitch/amberagent) `📚2` — AmberAgent mobile AI workspace for Android and iOS, with a gradually shared core.
+- [Sskift/jev-sts2-agent](https://github.com/sskift/jev-sts2-agent) `📚2`
+- [StanleyOneG/pi-jev-any-decision](https://github.com/stanleyoneg/pi-jev-any-decision) `📚2` — Other related projects
+- [starhn87/jev-agent-optimizer](https://github.com/starhn87/jev-agent-optimizer) `📚2` — inferred / agent-tooling — ⭐0
+- [sw-ml-study/demo-decision-model](https://github.com/sw-ml-study/demo-decision-model) `📚2` — A Jev-or-System-1 inspired typed decision model demo in sw-mlpl
+- [tangbl93/multica-agent-capacity](https://github.com/tangbl93/multica-agent-capacity) `📚2` — Reusable Multica agent capacity scheduling Skill with GPT-only capacity retries, Jev classification,
+- [tayden-b/agent-airlock](https://github.com/tayden-b/agent-airlock) `📚2` — agent-airlock - agent-airlock: TypeSafe Jev ecosystem repository. · TypeScript
+- [thanhauco/chomp-game-agent-jev](https://github.com/thanhauco/chomp-game-agent-jev) `📚2` — inferred / agent-tooling — ⭐0
+- [The Trolley Problem](https://gpu.studio/trolley) `📚2` — gpu.studio · AppBrowser toy where you put anything on both tracks of the trolley problem and Jev decides whether to pull the lever.
+- [theonedev/onedev](https://github.com/theonedev/onedev) `📚2` — The Unified and Autonomous Development Platform
+- [TimothyZhang7/open-decisions](https://github.com/timothyzhang7/open-decisions) `📚2` — An MIT Python SDK for typed decisions from local open models, benchmarked against Jev on an experimental Tetris demo.
+- [tititasf/Unificando-JEV-E-LLM](https://github.com/tititasf/unificando-jev-e-llm) `📚2` — Portuguese autonomous "cognitive systems lab" unifying S0–S6 (substrate, Jev-style S1 typed decisions, latent S2 deliberation, metacognition, collective,…
+- [To3akaRin/Jev-agent](https://github.com/to3akarin/jev-agent) `📚2` — inferred / agent-tooling — ⭐0
+- [toolazytoname/jev-copilot](https://github.com/toolazytoname/jev-copilot) `📚2`
+- [trancong12102/agentskills](https://github.com/trancong12102/agentskills) `📚2` — ora answer audit · trancong12102 · GitHub · ⭐ 7 repo · 2025-12-24Audit script in the ora Claude Code research plugin that checks logged answers against their…
+- [TypeSafe JEV AI Decision Model: 193x Faster and Explains Every Output — Karmactive](https://karmactive.com/typesafe-jev-ai-decision-model-explainer-193x-speed) `📚2` — TrueStandard independent test (reported via Karmactive, 2026-09-22) — Third-party numbers with tempered framing: a single decision ~1.7× faster than a…
+- [typesafe-sdk-csharp/typesafe-agent-framework](https://github.com/typesafe-sdk-csharp/typesafe-agent-framework) `📚2` — typesafe-agent-framework - typesafe-agent-framework: TypeSafe Jev ecosystem repository. · C#
+- [unclehobbot/aiwiki](https://github.com/unclehobbot/aiwiki) `📚2` — "Typesafe.ai & Jev — Research Notes" (2026-09-21) — Research-agent notes for a future wiki entry with the claims discipline we like: every official TypeSafe…
+- [vanthiet1/JevGuarAgent](https://github.com/vanthiet1/jevguaragent) `📚2` — Agent tools and workflow control
+- [vbcherepanov/total-agent-memory](https://github.com/vbcherepanov/total-agent-memory) `📚2` — Jev comprueba los recuerdos recuperados en busca de contradicciones antes de que un agente los utilice en una respuesta.
+- [vinodjagwani/jev-claude-demo](https://github.com/vinodjagwani/jev-claude-demo) `📚2` — jev-claude-demo - This is a small Spring Boot service built around one idea: Jev decides, Claude writes · Java
+- [virtualman333/jev-decision-arena](https://github.com/virtualman333/jev-decision-arena) `📚2` — Same maze, same rules, N decision backends. A zero-key, zero-dependency arena that measures Jev / LL
+- [virtualramblas/gromacs_jev_agent](https://github.com/virtualramblas/gromacs_jev_agent) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [vsekhar/decide](https://github.com/vsekhar/decide) `📚2` — Reviewed 2026-09-29 (Europe/Sofia) at commit a9f85c8. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [VTSTech/AgentKthx](https://github.com/vtstech/agentkthx) `📚2` — AgentKthx JEV API mode · VTSTech · GitHub · ⭐ 5 repo · 2026-03-20Mode in the AgentKthx local-first agent framework that emulates Jev's System One decision…
+- [wantosure/JevHomeAssistant](https://github.com/wantosure/jevhomeassistant) `📚2` — JevHomeAssistant — _(★0, Kotlin)_
+- [What Is Jev? Inside TypeSafe's Decision-Only AI Model and Its Developer Use Cases — Firecr](https://firecrawl.dev/blog/what-is-jev) `📚2` — Firecrawl: "What Is Jev? Inside TypeSafe's Decision-Only AI Model and Its Developer Use Cases" (2026-09-21) — Dev-tool-company explainer: Jev's launch thread…
+- [xolotlwastaken/jev-judge](https://github.com/xolotlwastaken/jev-judge) `📚2` — Real-time AI post classifier for X (Twitter) using TypeSafe AI's Jev model
+- [yamyam-rvc/bonsai-decision-engine](https://github.com/yamyam-rvc/bonsai-decision-engine) `📚2` — Generation-free typed decisions with Ternary Bonsai 2 27B on a consumer 8GB GPU.
+- [yfpgle-glitch/jev-decision](https://github.com/yfpgle-glitch/jev-decision) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [YichenBC/jev-charactor](https://github.com/yichenbc/jev-charactor) `📚2` — Jev-Character: a TypeScript core for role-playing agents, autonomous game NPCs and AI towns. Agent memory, natural-language behavior authoring and programmatic…
+- [youdotcom-oss/cve-triage-agent](https://github.com/youdotcom-oss/cve-triage-agent) `📚2` — Security-advisory triage agent — You.com real-time search × TypeSafe Jev decision model
+- [zfrqbl-CW/jev-support-copilot](https://github.com/zfrqbl-cw/jev-support-copilot) `📚2` — A live support reply co-pilot built on TypeSafe AI's Jev model, evaluating tone, commitment risk, es
+- [zhu1j/JevAgentRuntime](https://github.com/zhu1j/jevagentruntime) `📚2` — Jev-driven enterprise Agent Runtime / gateway.
+- [Zizlik/Home-Jarvis](https://github.com/zizlik/home-jarvis) `📚2` — An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered
+- [ZYHUO/nyat-bot](https://github.com/zyhuo/nyat-bot) `📚2` — NyatBot Jev guards · ZYHUO · GitHub · ⭐ 9 repo · 2026-04-10Telegram group-chat agent that uses Jev to catch paraphrased repeats of its own messages and to…
+- [艾特玖 · Benchmarking Jev…（DEV，2026-09-21）](https://dev.to/aitejiu/benchmarking-jev-what-a-decision-model-can-and-cant-do-in-an-agent-harness-20po) `📚2` — Aitejiu: "Benchmarking Jev: what a decision model can (and can't) do in an agent harness" (code) — Black-box engineering evaluation: 10 public datasets,…
+- [0xBlockPay/rlcd-self-driving-car](https://github.com/0xblockpay/rlcd-self-driving-car) `📚1` — Self-driving vehicle decision framework built on "System One" RLCD architecture.
+- [2FastLabs/agent-squad](https://github.com/2fastlabs/agent-squad) `📚1` — Agent Squad Jev Classifier - Multi-agent framework with TypeScript and Python classifiers that use Jev to route requests.
+- [91wallace/system1-reflexive](https://github.com/91wallace/system1-reflexive) `📚1` — Sub-millisecond Non-Autoregressive Decision Engine & Calibrated Fast-Path for LLM Agents with ModernBERT RLCD & MCP
+- [@rileybrown](https://madewithjev.com/builds/agent-model-router) `📚1`
+- [@testmuai: Jev "Agent Assurance" cautionary demo (Instagram reel, 2026-09-26)](https://instagram.com/reel/ddwcd_jce4q) `📚1` — The sharpest short-form critique of the "can't hallucinate" framing we've seen: an expense-approval agent asks the Jev runtime "Is this claim approved?" for…
+- [aarithooda/personal-information-acquiring-agent](https://github.com/aarithooda/personal-information-acquiring-agent) `📚1`
+- [AbhayKale332/Recova](https://github.com/abhaykale332/recova) `📚1` — Recova - Autonomous Revenue Recovery Agent using Razorpay MCP & JEV (TypeSafe)
+- [abp002/story-shapes](https://github.com/abp002/story-shapes) `📚1` — The shape of a story, read passage by passage by a System One model that decides instead of writing.
+- [achildrenmile/jev-belege-demo](https://github.com/achildrenmile/jev-belege-demo) `📚1` — Not every decision needs an LLM: receipt pipeline where Claude reads, Jev decides, Python computes t
+- [adamelhirch/jev-browsing-agent](https://github.com/adamelhirch/jev-browsing-agent) `📚1`
+- [adelaserna82/typed-decisions-net](https://github.com/adelaserna82/typed-decisions-net) `📚1` — Unofficial community Jev SDK for .NET 10. Typed decisions, examples, tests and NuGet packages.
+- [adrianpeticila/gorgona](https://github.com/adrianpeticila/gorgona) `📚1`
+- [advayc/instructional-agent](https://github.com/advayc/instructional-agent) `📚1` — teach you how to do anything on your computer (using jev and openrouter)
+- [Agent workflow](https://supercov.com/docs/agent-loop) `📚1` — walks through asking a coding agent to add a test, with a recorded session.
+- [agent-ix/quoin](https://github.com/agent-ix/quoin) `📚1` — quoin-jev · agent-ix · GitHub · ⭐ 19 repo · 2026-06-14Rust crate in Quoin, a spec-driven development kit for Claude Code, that runs a criterion-strength lens…
+- [agent.fastino.ai](https://agent.fastino.ai) `📚1` — Incurs $0.00 marginal cost on self-hosted infrastructure. Available under the Apache 2.0 open-weight license with optional hosted API endpoints at…
+- [agentbeam.com](https://agentbeam.com) `📚1`
+- [Agentic-Guides/decision-kernel](https://github.com/agentic-guides/decision-kernel) `📚1` — The judgment API — TypeSafe Jev (System One) on Cloudflare Workers. Classify text into triage/urgenc
+- [Agentium: "Jev (TypeSafe)" framework docs](https://docs.agentium.in/models/jev) `📚1` — JS agent framework's integration reference: model: jev("jev-latest") makes the agent itself a decision, JevToolkit lets chat agents consult Jev, Jev as an eval…
+- [AgentsAnywhere-ai/jev-flowmap](https://github.com/agentsanywhere-ai/jev-flowmap) `📚1` — Map the user flows of a repository from its source, using Jev typed judgments. Static: never runs, b
+- [agentseek.dev](https://agentseek.dev) `📚1` — Python service (FastAPI) with REST + MCP + optional hosted demo at agentseek.dev.
+- [ahmedezz26/alibi](https://github.com/ahmedezz26/alibi) `📚1` — We check whether your agent has an alibi for what it did.
+- [AI Weekly: "UT Dallas' Jev-Mem cuts agent query latency 36.7% on LoCoMo" (2026-09-22)](https://aiweekly.co/alerts/ut-dallas-jev-mem-cuts-agent-query-latency-367-on-locomo) `📚1` — First Jev-flavored research preprint (indexed on Hugging Face): System-One control plane, full LLM only for answer synthesis. Note the abstract reports the…
+- [AIM-Decision](https://aimultiple.com/decision-models) `📚1` — Independent comparison of Jev, Kev and LLMs.
+- [akio-byte/jev-decision-gate](https://github.com/akio-byte/jev-decision-gate) `📚1` — Hybrid deterministic + Jev risk decision gate for AI operators with ALLOW / REQUIRE_APPROVAL / BLOCK
+- [alancoppin1/jev-bot-clock](https://github.com/alancoppin1/jev-bot-clock) `📚1` — Timer that wakes the Jev paper-trading bot every 15 minutes (no code or keys here)
+- [alanyoungcy/jev-agent](https://github.com/alanyoungcy/jev-agent) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [AlexanderVegazo26/agent-guard](https://github.com/alexandervegazo26/agent-guard) `📚1` — Semantic testing, observability and adversarial evaluation for AI agents. Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [AlexBosio95/second-thought](https://github.com/alexbosio95/second-thought) `📚1` — A probabilistic control plane for AI agents. LLMs propose actions, Jev evaluates them, code has final authority.
+- [alexnarberhaus/jev-gate](https://github.com/alexnarberhaus/jev-gate) `📚1` — Use Jev to give or deny agents permissions
+- [Alien0218/Jev_GUI_agent](https://github.com/alien0218/jev_gui_agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [allaabdella2-us/jeva-support-agent](https://github.com/allaabdella2-us/jeva-support-agent) `📚1` — Support agent that shows its work: Jev understands, Python decides, the LLM explains. Fast
+- [Alpha-Park/genpark-personal-agent-dual-cognition-orchestrator-skill](https://github.com/alpha-park/genpark-personal-agent-dual-cognition-orchestrator-skill) `📚1` — unverified / agent-tooling — ⭐7
+- [alphaparkinc/genpark-personal-agent-dual-cognition-orchestrator-skill](https://github.com/alphaparkinc/genpark-personal-agent-dual-cognition-orchestrator-skill) `📚1` — unverified / agent-tooling — ⭐7
+- [alpibrusl/lex-judge](https://github.com/alpibrusl/lex-judge) `📚1` — Package for the Lex language exposing Noul, Choice and Score judgments as a net-only effect with a decided() confidence helper. no license · Lex
+- [AndyBoWu/typed-decision-lab](https://github.com/andybowu/typed-decision-lab) `📚1`
+- [andyqiuqiubo/andy-harness](https://github.com/andyqiuqiubo/andy-harness) `📚1`
+- [Anil-matcha/awesome-meta-muse-agent](https://github.com/anil-matcha/awesome-meta-muse-agent) `📚1` — awesome-meta-muse-agent — copy-paste Muse agent briefs with explicit connectors, approval boundaries, and evidence workflows.
+- [anis-marrouchi/agentx](https://github.com/anis-marrouchi/agentx) `📚1` — AgentX decision backends · anis-marrouchi · GitHub · ⭐ 8 repo · 2026-02-11Self-hosted AI agent mesh for small businesses whose decision layer can run Jev-style…
+- [apoorvjin/jev-bot](https://github.com/apoorvjin/jev-bot) `📚1`
+- [Arc-Rider/arc-rider-playground](https://github.com/arc-rider/arc-rider-playground) `📚1` — Live Jev and MCP examples built with the published arcWidgets React package.
+- [armaneker/agentic-playbook](https://github.com/armaneker/agentic-playbook) `📚1` — Learnings from working with OpenClaw Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Arnav1771/snap-judge](https://github.com/arnav1771/snap-judge) `📚1` — Ask typed questions in TypeSafe Jev format (noul, choice, score) and run them on Jev or any LLM - pr
+- [artaxlives/agent-panopticon](https://github.com/artaxlives/agent-panopticon) `📚1`
+- [arvelvale/krovin](https://github.com/arvelvale/krovin) `📚1` — Agent tools and workflow control
+- [asakaxgit/askif](https://github.com/asakaxgit/askif) `📚1` — Let Jev decide. Typed decisions for your code: ask.if, ask.switch, ask.score.
+- [ask-rb/ask-decisions](https://github.com/ask-rb/ask-decisions) `📚1` — Ruby gem with Choice, Score and Noul decision primitives, batching and a static test provider, using TypeSafe as the default backend. MIT · Ruby
+- [athrvakulkarni11/jev-agent](https://github.com/athrvakulkarni11/jev-agent) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Austin-Resi/grok-bot-go-fast](https://github.com/austin-resi/grok-bot-go-fast) `📚1` — Bot plugin that ports the jev-ultrafast loop: DOM snapshot, Jev picks the node via AI Gateway, CDP click, pausing for text or unclear decisions. no license ·…
+- [automateyournetwork/netclaw](https://github.com/automateyournetwork/netclaw) `📚1` — An AI agent that claws through your network
+- [auxon/jev_decide](https://github.com/auxon/jev_decide) `📚1` — Ask Jev (TypeSafe System One) for calibrated decisions — stdin-JSON CLI helper plus an OpenCode jev_
+- [avbiswas/bev-decider](https://github.com/avbiswas/bev-decider) `📚1` — Open System One decision model (Qwen3-0.6B finetune, 0.4B params): drop-in /v1/systemone local server speaking the TypeSafe Jev question format. Core claim:…
+- [avbiswas/bev-decider-0.4B](https://huggingface.co/avbiswas/bev-decider-0.4b) `📚1` — A 0.4B Jev-compatible decision model that is invariant to option order by construction; 74.7% vs. Jev 1.13's 78.0% on 5,000 held-out questions.
+- [AWS routing workflows](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/workflow-for-routing.html) `📚1` — routing as a classifier that selects specialized handlers.
+- [AydinAdnan/ai-email-agent](https://github.com/aydinadnan/ai-email-agent) `📚1` — AI email agent simulation using Jev + LLM hybrid model
+- [AyushRawat1/k8-jev-agent](https://github.com/ayushrawat1/k8-jev-agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [b1dane/kalshi-bot](https://github.com/b1dane/kalshi-bot) `📚1` — alshi BTC 15-min paper trading bot with Jev AI decisions
+- [Barry2llen/agent-jev-approval](https://github.com/barry2llen/agent-jev-approval) `📚1` — agent-jev-approval - Barry2llen/agent-jev-approval - No description provided.
+- [bennyp11/bytesjev](https://github.com/bennyp11/bytesjev) `📚1` — PlanningChecker: a local MCP server that asks Jev whether each item in a coding agent's plan is actually needed
+- [bertus37987/skaldir-agent](https://github.com/bertus37987/skaldir-agent) `📚1` — CLI/API-first, type-safe coding agent: runs long projects, verifies real results, and completes a goal only when a check passes. Eight layers (EXPAND, ACT,…
+- [bhrenno2000/jev-agent-kit](https://github.com/bhrenno2000/jev-agent-kit) `📚1` — Concluded experiment evaluating Jev through MCP for coding agents, with reproducible benchmarks, results, and limitations.
+- [BIackFIame/canvastty-plugin-assistant](https://github.com/biackfiame/canvastty-plugin-assistant) `📚1` — CanvasTTY plugin (preview): System One (Jev, Laya, Eikos) and Ollama assistant, command review, laun
+- [bitomule/musts](https://github.com/bitomule/musts) `📚1` — musts · bitomule · GitHub · ⭐ 9 · 2026-05-13Validation loop for coding agents that keeps a task open until every declared check passes, including uses: jev…
+- [blakestone-x/engram](https://github.com/blakestone-x/engram) `📚1`
+- [blobfishai/jevfish](https://github.com/blobfishai/jevfish) `📚1` — An open judge for agent runs: typed decision model, trainer, server and the Typed Decision
+- [Bombhub-apk/jev-decision-layer](https://github.com/bombhub-apk/jev-decision-layer) `📚1` — Deterministic System One cognitive decision layer, token ROI telemetry, multi-key rotation hub, and live glassmorphic observability dashboard for AI agents…
+- [bouncypitch/jevbot-rx](https://github.com/bouncypitch/jevbot-rx) `📚1` — JevBOT Rx: a hospital delivery robot that decides in milliseconds. Jev vs an off-the-shelf
+- [bpmforbusiness/jev-agent-harness,0,,,2026-09-22](https://github.com/bpmforbusiness/jev-agent-harness,0,,,2026-09-22) `📚1`
+- [bread1337j/jevisthisreal](https://github.com/bread1337j/jevisthisreal) `📚1` — simple discord bot that passes a message through some jev prompts
+- [bro789/typed-decision-coherence](https://github.com/bro789/typed-decision-coherence) `📚1`
+- [brunogpj/jarvis-ai-os,0,JavaScript,,2026-09-24](https://github.com/brunogpj/jarvis-ai-os,0,javascript,,2026-09-24) `📚1`
+- [btcjon/agent-tools](https://github.com/btcjon/agent-tools) `📚1` — Practical, guarded tools for AI agents—maintenance, skill discovery, email triage, harness routing, and conte…
+- [buch0090/pi-jev-model-judge](https://github.com/buch0090/pi-jev-model-judge) `📚1` — Pi Agent Extension that saves token spend by having Jev pick correct model for the job
+- [BudEcosystem/Bud-Decision-Engine](https://github.com/budecosystem/bud-decision-engine) `📚1`
+- [Build Your Own JEV Locally: Run a 100% Private AI Agent on Your Machine](https://medium.com/coding-nexus/build-your-own-jev-locally-run-a-100-private-ai-agent-on-your-machine-bb98126d394a) `📚1` — Despite the title, this does not run Jev. It builds a Jev-like decision engine from an open LLM using constrained next-token scoring.
+- [BuzzRAG: "TypeSafe's Jev Bets on Faster Decisions for AI"](https://buzzrag.com/article/typesafe-jev-faster-decisions-ai-agents-7vnwji) `📚1` — Cites an Every/Forkast extraction test (~25× faster, 580× cheaper than Claude Fable 5.1 on one task) and notes no named production customers or disclosed…
+- [caglarsubas/domain-trajectory-data-generation](https://github.com/caglarsubas/domain-trajectory-data-generation) `📚1` — generating domain specific trajectory data primarily for post-training, agent/decision training and evaluation of LLM's and Jev-type models
+- [caiweike/gremlins-ai-agent](https://github.com/caiweike/gremlins-ai-agent) `📚1` — Powered by TypeSafe Jev: an experimental AI player for Gremlins, Inc., with a BepInEx bridge and Pyt
+- [calvingit/jev-agent-demo](https://github.com/calvingit/jev-agent-demo) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [cayu-dev/cayu](https://github.com/cayu-dev/cayu) `📚1` — Cayu is the runtime for long-horizon agents that need explicit environments, durable sessions, controlled too…
+- [celsiusm/jarvis-workspace](https://github.com/celsiusm/jarvis-workspace) `📚1`
+- [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) `📚1` — ChainlessChain skill decision layer · chainlesschain · GitHub · ⭐ 11 repo · 2025-12-01Skill decision layer in a personal AI management CLI that can ask Jev…
+- [chenking2020/general-decision-with-laya](https://github.com/chenking2020/general-decision-with-laya) `📚1`
+- [chinna250801/agent-decision-firewall](https://github.com/chinna250801/agent-decision-firewall) `📚1` — Decision firewall & evaluation harness for AI agent actions — no approval, no execution. Local Laya,
+- [chudworks/chudbot](https://github.com/chudworks/chudbot) `📚1`
+- [chuzouX/balatro-dual-agent](https://github.com/chuzoux/balatro-dual-agent) `📚1` — Agent tools and workflow control
+- [CircleCI-Research/elevator-decision-arena](https://github.com/circleci-research/elevator-decision-arena) `📚1` — A benchmark for decision models (Jev, Laya, classic algorithms) on elevator dispatch
+- [cis2042/orca_agent](https://github.com/cis2042/orca_agent) `📚1` — Oagent: Native Multi-Agent Orchestration & Desktop Workspace with Cursor CLI Resume & A2A Bridge
+- [clavia-labs/tardigrade](https://github.com/clavia-labs/tardigrade) `📚1`
+- [clouatre-labs/decisions-judge-mcp,4,JavaScript,,2026-09-20](https://github.com/clouatre-labs/decisions-judge-mcp,4,javascript,,2026-09-20) `📚1`
+- [CMaintz/leash](https://github.com/cmaintz/leash) `📚1` — leash - Jev-powered guardrail that keeps a coding agent's output quality on a short leash: judges every turn against your un-lintable project rules and tells…
+- [codaaiteam/jev-agent-tools,0,HTML,,2026-09-24](https://github.com/codaaiteam/jev-agent-tools,0,html,,2026-09-24) `📚1`
+- [codaaiteam/jev-bedrock](https://github.com/codaaiteam/jev-bedrock) `📚1` — Deploy a Jev decision step as an Amazon Bedrock agent action group (SAM).
+- [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) `📚1`
+- [codealitle/jev-agents](https://github.com/codealitle/jev-agents) `📚1` — A collection of Jev-powered AI agents for intent recognition, embedding reranking, response evaluati
+- [Coding-Dev-Tools/engraphis](https://github.com/coding-dev-tools/engraphis) `📚1`
+- [colt2822/Drex-OpenWebUI-Bridge](https://github.com/colt2822/drex-openwebui-bridge) `📚1` — Natural-language Drex decision model integration for OpenWebUI. Type normal prompts and ge
+- [craftingmod/makoto-decision](https://github.com/craftingmod/makoto-decision) `📚1` — Decision like hanuma makoto
+- [CryptVenture/Jevris](https://github.com/cryptventure/jevris) `📚1` — Jevris - Local decide/verify/route control plane for coding agents using TypeSafe System One Jev. (Project guide)(community/projects/tools/jevris.md).
+- [crzyc0d3r/jev-agent-judge,0,Python,,2026-09-25](https://github.com/crzyc0d3r/jev-agent-judge,0,python,,2026-09-25) `📚1`
+- [cw-jlu/Drug-Repurposing-Agent](https://github.com/cw-jlu/drug-repurposing-agent) `📚1` — An auditable drug repurposing agent that integrates transcriptomic reversal, biomedical evidence retrieval, and Jev-powered decision routing, evaluated on…
+- [daijiapeng2012-cyber/jev-fastgate](https://github.com/daijiapeng2012-cyber/jev-fastgate) `📚1` — JEV FastGate: a high-speed decision gate for Codex workflows
+- [davealan74/pollinations-referee-agent](https://github.com/davealan74/pollinations-referee-agent) `📚1` — Pollinations code agent that judges whether a "done" claim holds up against its evidence (diff, tool output, test results) by asking Jev for a calibrated…
+- [davidrydberg/git-judge](https://github.com/davidrydberg/git-judge) `📚1` — GitHub Action that judges every PR hunk and posts one comment with what to read first, skipped hunks, undescribed changes and secret or data-loss gates. MIT ·…
+- [dbobo4/local-llm-probabilistic-decision-engine](https://github.com/dbobo4/local-llm-probabilistic-decision-engine) `📚1` — Python library that turns local open-weight LLMs into decision engines by scoring candidate answer sequences directly, generating zero tokens. Apache-2.0 ·…
+- [ddalcero/ruleraven](https://github.com/ddalcero/ruleraven) `📚1` — ubernetes incident triage: deterministic rules, pluggable AI decisions, and agent-neutral notifications Automatically matched explicit Jev and TypeSafe/System…
+- [deepdivekr/agent-driver](https://github.com/deepdivekr/agent-driver) `📚1`
+- [den0206/agent-tool](https://github.com/den0206/agent-tool) `📚1` — Find Skills, Install Easily! Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dev.to: "Fast Decisions in Agent Workflows: Laya vs TypeSafe Jev" (2026-09-22)](https://dev.to/x_z_e87b809fe996bc463fe4a/fast-decisions-in-agent-workflows-laya-vs-typesafe-jev-3ago) `📚1` — Independent JevLab write-up comparing open-source Laya to hosted Jev: Laya ~7.8× faster locally (32.8ms vs Jev's published 236–276ms) with tighter calibration…
+- [devnolife/copilot-jev](https://github.com/devnolife/copilot-jev) `📚1` — Jev (TypeSafe System One) sebagai partner keputusan untuk AI agent - agent skill lintas SDK + MCP se
+- [DhanushPrince/jev-web-agent](https://github.com/dhanushprince/jev-web-agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [dhirajpatra/agentic-payments-demo-x402-vs-acp-vs-ap2-langgraph-](https://github.com/dhirajpatra/agentic-payments-demo-x402-vs-acp-vs-ap2-langgraph-) `📚1`
+- [Discovery entry](https://jevable.com/project/2101022590722810271) `📚1`
+- [divaltor/starlight](https://github.com/divaltor/starlight) `📚1` — Starlight dialogue continuation · divaltor · GitHub · ⭐ 10 repo · 2024-01-05Telegram bot that asks Jev, for each group message, whether to reply with text,…
+- [dnplus/genio-one](https://github.com/dnplus/genio-one) `📚1` — The control plane for every AI agent and resource
+- [docs.liquid.ai/lfm/models/decision-models](https://docs.liquid.ai/lfm/models/decision-models) `📚1` — Yes, POST /decisions/v1/systemone; works with the TypeSafe SDKs
+- [Dovahkkin/slay-the-spire-jev-bot](https://github.com/dovahkkin/slay-the-spire-jev-bot) `📚1`
+- [Dreamfind (Medium): "Jev AI model: TypeSafe's System One model turns text into typed decis](https://medium.com/@dremfind/jev-ai-model-typesafes-system-one-model-turns-text-into-typed-decisions-39d15e751875) `📚1` — Compact roundup carrying both sides: $40M seed, jev-1.13.0 aliased jev-latest, 70–500ms, $0.042/M input with free output, 64K budget — plus TypeSafe's own…
+- [DreamLab-AI/agentbox](https://github.com/dreamlab-ai/agentbox) `📚1`
+- [drmas/buzz-agent-team](https://github.com/drmas/buzz-agent-team) `📚1` — AI teammates (PM, Designer, Marketing, Engineer, Claude, Codex) in a Buzz community: isola
+- [DrTonks/qwen3-vl-decision](https://github.com/drtonks/qwen3-vl-decision) `📚1`
+- [dryvist/ai-workflows](https://github.com/dryvist/ai-workflows) `📚1` — ai-workflows Scope Classify · dryvist · GitHub · ⭐ 5 repo · 2026-02-15Reusable GitHub Actions step that gates how much CI a pull request gets (full or partial…
+- [duketopceo/dim-agent](https://github.com/duketopceo/dim-agent) `📚1` — Jev-powered voice computer-use agent for Omarchy (Hyprland/Asahi): push-to-talk → whisper.cpp → Jev decision …
+- [duketopceo/wisp](https://github.com/duketopceo/wisp) `📚1` — Jev-powered voice computer-use agent for Omarchy (Hyprland/Asahi): push-to-talk → whisper.cpp → Jev decision → guarded hyprctl launch, with a breathing dim…
+- [dybala-21/rune](https://github.com/dybala-21/rune) `📚1` — RUNE Jev routing · dybala-21 · GitHub · ⭐ 5 repo · 2026-03-20Decision-API routing in RUNE, a local-model coding agent that only claims done when tests pass,…
+- [earendil-works/pi-coding-agent](https://github.com/earendil-works/pi-coding-agent) `📚1`
+- [eas4ai/cairn](https://github.com/eas4ai/cairn) `📚1` — Cairn · eas4ai · GitHub · ⭐ 6 · 2026-08-10Git-based record keeping that ties AI-assisted development to agreed requirements; at consequential choices the…
+- [Eastern Herald: "TypeSafe AI's Jev Skips Language, Makes Decisions Instantly" (2026-09-21)](https://easternherald.com/2026/09/21/typesafe-ai-jev-decision-model-developers) `📚1` — Narrative piece with the sharpest calibration critique among explainers: TypeSafe has published no RLCD preprint and no standard benchmarks vs…
+- [eclecticv/jev-adcp-decision-economics](https://github.com/eclecticv/jev-adcp-decision-economics) `📚1` — Jev System One vs LLM cost/latency estimates for AdCP buyer and seller agent decisions (verified 202
+- [eddygarcas/ronny-zig](https://github.com/eddygarcas/ronny-zig) `📚1` — Email assistant in Zig. Watches a mailbox over IMAP and answers on Telegram, by text or vo
+- [edgefloor/docktape-lead-agent](https://github.com/edgefloor/docktape-lead-agent) `📚1`
+- [edgelesssys/privatemode-decisions](https://github.com/edgelesssys/privatemode-decisions) `📚1` — privatemode-decisions - Gets a choice and a probability per option out of any OpenAI-compatible model in one forward pass, for Edgeless Systems'…
+- [egao1980/decision-backend-http](https://github.com/egao1980/decision-backend-http) `📚1` — HTTP System One backend for decision-protocol (Kev sidecar / hosted Jev)
+- [egarim/systemone-deciders](https://github.com/egarim/systemone-deciders) `📚1` — One C# IDecider, three engines: TypeSafe Jev (cloud), any local model in a constrained-decoding harn
+- [eidast/jev-decision-demos](https://github.com/eidast/jev-decision-demos) `📚1` — Independent Moral Machine-inspired demo comparing human choices with Jev probabilistic evaluations
+- [Elegant-IT-Limited/saleque-assistant](https://github.com/elegant-it-limited/saleque-assistant) `📚1` — Multi-tenant RAG assistant for the SaleQue CRM: cited answers on PostgreSQL and pgvector with Row Level Security, Claude and OpenAI behind one ...
+- [embabel/embabel-agent](https://github.com/embabel/embabel-agent) `📚1`
+- [en540424/e-nexus-decision-layer](https://github.com/en540424/e-nexus-decision-layer) `📚1`
+- [erayyilmmaz/jev-decisionops](https://github.com/erayyilmmaz/jev-decisionops) `📚1` — Decision quality and reliability layer for typed probabilistic workflows with Jev.
+- [ericgla/hermes-agent-home-assistant-voice](https://github.com/ericgla/hermes-agent-home-assistant-voice) `📚1`
+- [escapeboy/agent-fleet-o](https://github.com/escapeboy/agent-fleet-o) `📚1` — Open-source AI agent orchestration platform — self-hosted mission control for autonomous multi-agent systems.…
+- [ethereumdegen/starkbot-neo](https://github.com/ethereumdegen/starkbot-neo) `📚1` — Fast, local-first macOS agent with Jev navigation and Hypercanvas
+- [ethz-spylab/agentdojo](https://github.com/ethz-spylab/agentdojo) `📚1` — Agent injection evaluation with task outcomes
+- [ever-just/agentskills](https://github.com/ever-just/agentskills) `📚1` — Agent skills for Claude Code and other file-reading coding agents — 130+ SKILL.md procedures for deep researc…
+- [F0Rextasy/omp-laya-judge](https://github.com/f0rextasy/omp-laya-judge) `📚1` — Local Laya System-1 judge MCP server + skill for oh-my-pi: typed decisions in milliseconds, zero LLM tokens
+- [fadhlirahim/simple-agent-collabs](https://github.com/fadhlirahim/simple-agent-collabs) `📚1` — A file-based research loop for one human and N LLM subagents. Inspired by HF agent-collabs
+- [fengnovo/jev-deepseek-agent-real](https://github.com/fengnovo/jev-deepseek-agent-real) `📚1` — Agent tools and workflow control
+- [ffazecaldy/elysiumagent](https://github.com/ffazecaldy/elysiumagent) `📚1`
+- [Fibonaccirabbit/Jev-MAPF](https://github.com/fibonaccirabbit/jev-mapf) `📚1` — Decentralized LLM decision-making for multi-agent path finding on POGEMA
+- [flaviomartil/ralph-jev-gauntlet](https://github.com/flaviomartil/ralph-jev-gauntlet) `📚1` — Autonomous agent loop gated by a Jev requirement screen and a blind critic agent. Ralph lo
+- [freebuff-agent02/jev-for-all-bynara](https://github.com/freebuff-agent02/jev-for-all-bynara) `📚1` — Fork do jev-for-all (opencode): roteamento por Jev/System One via gateway…
+- [freepeak/agentloop](https://github.com/freepeak/agentloop) `📚1`
+- [FreePeak/LeanKG](https://github.com/freepeak/leankg) `📚1` — LeanKG judge · FreePeak · GitHub · ⭐ 220 repo · 2026-04-13Code knowledge graph for AI coding agents that adds a System One judgment layer, calling Jev or a…
+- [frubot/kataru](https://github.com/frubot/kataru) `📚1`
+- [fstandhartinger/decision-desk](https://github.com/fstandhartinger/decision-desk) `📚1` — A live support-triage demo for Jev-class decision models
+- [furuCRM-Inc/400ms-agentic-sf](https://github.com/furucrm-inc/400ms-agentic-sf) `📚1` — ms Agentic Salesforce demo — Jev System 1 AI + WebMCP Direct UI Control. No screen-scraping. No token stre…
+- [g33ky00/jev-decisions-app](https://github.com/g33ky00/jev-decisions-app) `📚1` — inferred / apps-demos — ⭐0
+- [gabedsam01/decision-maker](https://github.com/gabedsam01/decision-maker) `📚1`
+- [gbesse/decision-conformance](https://github.com/gbesse/decision-conformance) `📚1` — Behavioral conformance evidence for Jev integrations: native host tests, finite outcomes a
+- [gbesse/erpnext-jev-decisions](https://github.com/gbesse/erpnext-jev-decisions) `📚1` — Reviewable Jev lead intent for ERPNext
+- [gdrpaul3-byte/jev-agent-router](https://github.com/gdrpaul3-byte/jev-agent-router) `📚1` — JEV + LLM + exact replay for existing agents: verified handoffs, measured costs and task-a
+- [geekfoxcharlie/agentpulse](https://github.com/geekfoxcharlie/agentpulse) `📚1`
+- [geminixiang/mikan](https://github.com/geminixiang/mikan) `📚1` — mikan Jev harness · geminixiang · GitHub · ⭐ 8 repo · 2026-03-11Self-hosted Slack coding agent where call sites needing fast classification, routing or…
+- [GeorgeThiel-hob/interview-coach](https://github.com/georgethiel-hob/interview-coach) `📚1` — Practise job interviews against a real vacancy and your own CV, with an AI coach that keeps personal data on your own ...
+- [gklab/MacWork](https://github.com/gklab/macwork) `📚1`
+- [Graphify-Labs/graphify](https://github.com/graphify-labs/graphify) `📚1`
+- [GregDixonMXN/annalist](https://github.com/gregdixonmxn/annalist) `📚1` — Local-first flight recorder for autonomous coding agents (Zig + SQLite)
+- [Grok Bot](https://grok.com) `📚1` — This list is tended by Grok Bot (with a human in the loop for the spicy calls). We watch what the community is building and arguing about, then keep the notes…
+- [Guest453/pollinations-idea-judge](https://github.com/guest453/pollinations-idea-judge) `📚1` — observed / agent-tooling — ⭐0
+- [guhan-tofu/System-One-plus-Two-Ops-Agent](https://github.com/guhan-tofu/system-one-plus-two-ops-agent) `📚1` — System-One-plus-Two-Ops-Agent - System-One-plus-Two-Ops-Agent: TypeSafe Jev ecosystem repository. · Python
+- [gungnir-maker/typesafe-agent-dsh](https://github.com/gungnir-maker/typesafe-agent-dsh) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [guozhiwei01/langgraph-agent-practice](https://github.com/guozhiwei01/langgraph-agent-practice) `📚1`
+- [Hanzo Kai](https://docs.hanzo.ai/docs/decisions) `📚1` — Hanzo's hosted decision model on the OpenRouter Decisions wire: model: "kai" at api.hanzo.ai/v1/decisions, with Jev itself routable on the same endpoint. A Jev…
+- [HappyMonkeyAI/kev-decision-mcp](https://github.com/happymonkeyai/kev-decision-mcp) `📚1` — A small stdio FastMCP adapter exposing the Kev pointer-head Jev model decision API at as four agent tools. The model identifier ...
+- [harche/sig-node-board-assistant](https://github.com/harche/sig-node-board-assistant) `📚1` — Chrome extension: Jev-judged suggestions for the SIG Node GitHub project boards, TestGrid dashboards, and pull request and issue pages.
+- [harpreetclouder/agentwatch](https://github.com/harpreetclouder/agentwatch) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [harris21/decide-with-jev](https://github.com/harris21/decide-with-jev) `📚1` — Decide with Jev: AI decisions in Laravel. Course code, one branch per episode.
+- [haydarrjr/agent-engineering-toolkit](https://github.com/haydarrjr/agent-engineering-toolkit) `📚1` — Open-source skills-first engineering toolkit for agent-assisted repository maintenance, ReThinking audits, and Agent Plugins authoring. Automatically matched…
+- [henstarr/JBrancher](https://github.com/henstarr/jbrancher) `📚1` — JavaScript decision layer for agent loops: deterministic rule first, then Jev scores a fixed candidate action set, then fallback to the existing actor. MIT ·…
+- [HermeticOrmus/jev-batch-decisions](https://github.com/hermeticormus/jev-batch-decisions) `📚1` — Jev batch vs sequential decision pattern Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [HermeticOrmus/jev-decision-gate](https://github.com/hermeticormus/jev-decision-gate) `📚1` — Jev decision gate: bounded forks (agent/model/tool/human escalate) Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [HIKKYG59/vrc-jev-agent](https://github.com/hikkyg59/vrc-jev-agent) `📚1` — VRChat desktop navigation PoC using TypeSafe Jev, with Japanese installation guide.
+- [hiroshi57/jev-decision-layer](https://github.com/hiroshi57/jev-decision-layer) `📚1`
+- [hiroshi75/deepagents-jev](https://github.com/hiroshi75/deepagents-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Hkshoonya/agentic-trader](https://github.com/hkshoonya/agentic-trader) `📚1` — Autonomous Robinhood trading agent: evidence-gated, shadow-first, with a one-click Windows app. It has to earn the right to trade, and still asks before it…
+- [HMuSeaB/jev-decision-console](https://github.com/hmuseab/jev-decision-console) `📚1` — jevlang OR jev.ai in:name,description created:
+- [https://fastino.ai/blog/gliner-2-5-decide-open-weight-decision-model](https://fastino.ai/blog/gliner-2-5-decide-open-weight-decision-model) `📚1` — Leads in 9 of the 17 benchmark datasets, notably scoring 75.3% on support intent routing and 64.3% on banking intent per the Fastino Launch Blog.
+- [human-agent-society/reef](https://github.com/human-agent-society/reef) `📚1`
+- [Humprey Cogay multi-model decision-model comparison (Facebook AI Engineering PH, 2026-09-3](https://facebook.com/groups/aiengineeringph/permalink/1114064297940909) `📚1` — Three-slide carousel benchmarking decision models head-to-head: a speed-vs-accuracy scatter (items/sec, log scale), a detailed table (accuracy, 95% CI, macro…
+- [hurttlocker/o8](https://github.com/hurttlocker/o8) `📚1` — o8 judgment referee · hurttlocker · GitHub · ⭐ 17 repo · 2026-03-11Judgment layer in o8, a control room for a fleet of coding agents, that asks Jev locked…
+- [Huskyauto/VisionClaw-Agent-Public-Release](https://github.com/huskyauto/visionclaw-agent-public-release) `📚1` — VisionClaw Jev validation · Huskyauto · GitHub · ⭐ 26 repo · 2026-04-15Bounded, advisory-only Jev client in the VisionClaw self-hosted multi-tenant agent…
+- [incoai/splash](https://github.com/incoai/splash) `📚1` — Splash · 638 stars — A local Apple Silicon inference engine oriented around decision-style models. Source
+- [Indosaram/typesafe-judge](https://github.com/indosaram/typesafe-judge) `📚1` — Rust CLI and agent skill for choice/score/noul calls and a git diff gate with exit codes, printing the raw API JSON. no license · Rust
+- [inematds/jarvismodelo](https://github.com/inematds/jarvismodelo) `📚1` — JEV Reflex: cinco decisões antes da resposta. Base reutilizável para criar assistentes Jarvis com ferramentas, aprovação e idempotência.
+- [INSIDE 报道](https://inside.com.tw/article/42416-typesafe-jev-decision-model-agentic-ai) `📚1`
+- [Isaac-Flath/agentkb](https://github.com/isaac-flath/agentkb) `📚1`
+- [Isaac12x/incident-resolver-agent](https://github.com/isaac12x/incident-resolver-agent) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [itsflownium/Kestrel-Agent](https://github.com/itsflownium/kestrel-agent) `📚1` — A multi-provider terminal AI agent for coding, research, and browser automation, with discoverable skills, re…
+- [JacksonLee2285/retry-is-a-decision](https://github.com/jacksonlee2285/retry-is-a-decision) `📚1` — Java reference implementation where Jev picks RETRY, WAIT, DLQ or ESCALATE from failure context, behind hard invariants and a confidence gate. MIT · Java
+- [jadeonstudio/jev-agent-control](https://github.com/jadeonstudio/jev-agent-control) `📚1`
+- [jadouse5/jev-sim](https://github.com/jadouse5/jev-sim) `📚1` — An interactive 3D world studio 🌐 built for probabilistic AI decisions. Generate synthetic
+- [Jarvis-os-tech/jev-ultrafast](https://github.com/jarvis-os-tech/jev-ultrafast) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Jason-Fay/jevulon](https://github.com/jason-fay/jevulon) `📚1` — Run AI coding agents in true parallel. Faster, cheaper, zero quality loss. Shared whiteboard file locking and System-1 routing for Claude Code, ...
+- [JavierBertolino/agent-stack](https://github.com/javierbertolino/agent-stack) `📚1` — Agent Stack Jev QA · JavierBertolino · GitHub · ⭐ 5 repo · 2026-08-20QA engine in Agent Stack, a multi-agent delivery workflow for Codex, Claude Code, Cursor…
+- [javierdv7/calibrated-decisions-iot-demo](https://github.com/javierdv7/calibrated-decisions-iot-demo) `📚1` — Interactive smart home demo comparing local Laya (MLX) with Jev (TypeSafe API) using shared routing
+- [jayeshvpatil/jev-agent-risk-gate](https://github.com/jayeshvpatil/jev-agent-risk-gate) `📚1` — Can a non-generative 'System One' model safely gate an AI agent's shell commands? Four experiments c
+- [jbarragan1981/agente-correo](https://github.com/jbarragan1981/agente-correo) `📚1` — Agente que lee tus correos electronicos y atiende segun prioridad, clasifica utilizando modelo jev como jailbreak y clasificador de correo
+- [jbsx/indecision](https://github.com/jbsx/indecision) `📚1`
+- [jchristn/Armada](https://github.com/jchristn/armada) `📚1`
+- [jcr.niazmorshed.dev](https://jcr.niazmorshed.dev) `📚1` — Product write-up/demo: jcr.niazmorshed.dev.
+- [jeiden83/sengo_bot](https://github.com/jeiden83/sengo_bot) `📚1`
+- [jerichosiahaya/naluri](https://github.com/jerichosiahaya/naluri) `📚1` — Naluri: instinctive, multilingual decisions in one pass.
+- [jerryshadow/jev-chat-jarvis](https://github.com/jerryshadow/jev-chat-jarvis) `📚1`
+- [Jev agentic harness](https://madewithjev.com/jev-agentic-harness) `📚1` — The decision layer: the model proposes, Jev answers, code acts, with a receipt per step.
+- [Jev and System One models: typed decisions — Noze](https://noze.it/en/insights/jev-system-one-typed-decisions) `📚1`
+- [Jev by TypeSafe AI: Real-Time Decision Making for Agent Assist](https://youtube.com/watch?v=9gpthwywuqu) `📚1` — A human agent-assist application in production shape: customer–agent voice over WebRTC, Deepgram live transcription, Jev evaluates the transcript against…
+- [Jev by TypeSafe: A Decision Model for AI Agents](https://beam.ai/agentic-insights/jev-typesafe-ai-agents) `📚1` — An agent-builder's framing of where a decision model sits in an agent stack.
+- [Jev DSH](https://mrjev.com/projects/devin-axis-jev-dsh-decision) `📚1` — No — endpoint constant, no override
+- [jev-chat/jev-chat-jarvis-simple](https://github.com/jev-chat/jev-chat-jarvis-simple) `📚1`
+- [Jev-Gate Student B](https://huggingface.co/sargedev/jev-gate-student-b) `📚1` — SargeDev · Hugging Face · ⬇ 111 · 2026-09-21LoRA on Qwen2.5-0.5B distilled from Jev into a local memory-relevance judge that outputs a calibrated P(relevant)…
+- [jev-local-lab 决策头](https://huggingface.co/mchen04/jev-local-lab-decision-heads) `📚1` — jev-local-lab decision heads · mchen04 · Hugging Face · 2026-09-21Tiny trained heads (0.2 to 1.3M parameters) that read structured decisions from a 4-bit…
+- [jev-my-bro](https://huggingface.co/jonusnattapong/jev-my-bro) `📚1` — JonusNattapong · Hugging Face · 2026-09-21Self-hosted English/Thai decision model for agent and tool governance that decides whether to execute, ask for…
+- [jev-my-bro 治理数据集](https://huggingface.co/datasets/jonusnattapong/jev-my-bro-dataset) `📚1` — jev-my-bro governance dataset · JonusNattapong · Hugging Face · ⬇ 17 · 2026-09-21English/Thai dataset of 8,508 cases and 34,032 typed decisions on whether an…
+- [Jev: A New Way to Make Probabilistic Decisions](https://amaarora.github.io/posts/2026-19-09-jev-intro.html) `📚1` — 📅 2026-09-19 · Technical blog · Tier A · Aman Arora
+- [jevforagents.com](https://jevforagents.com) `📚1` — . Link useful cases to their detailed pages on jevforagents.com.
+- [JevForge/jev-release-forge](https://github.com/jevforge/jev-release-forge) `📚1` — Reusable release workflows and composite actions for JevForge Node Actions.
+- [jingx8885/lov-evo](https://github.com/jingx8885/lov-evo) `📚1` — EvoMap tavern persona voice bot: Jev emotion judgment + async LLM planning + gpt-live duplex voice
+- [jkudish/jev-agent-tools,1,JavaScript,,2026-09-23,Jev](https://github.com/jkudish/jev-agent-tools,1,javascript,,2026-09-23,jev) `📚1`
+- [jmagly/aiwg](https://github.com/jmagly/aiwg) `📚1` — Cognitive architecture for AI-augmented software development. Specialized agents, structured workflows, and m…
+- [jmgb/gmail-inbox-bot](https://github.com/jmgb/gmail-inbox-bot) `📚1`
+- [jmoksz/agent-nexus](https://github.com/jmoksz/agent-nexus) `📚1`
+- [joernmht/decisions4railwayOps](https://github.com/joernmht/decisions4railwayops) `📚1` — Experiments applying Jev typed decisions to railway operations.
+- [JosephHardy91/jev_prd_check](https://github.com/josephhardy91/jev_prd_check) `📚1` — Uses Jev to check whether PRD requirements are met in a diff. Ensures that a coding agent
+- [JTech-CO/Smart-Cart-Autonomy-Lab-Jev](https://github.com/jtech-co/smart-cart-autonomy-lab-jev) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Jul0t/jevent-bot](https://github.com/jul0t/jevent-bot) `📚1`
+- [K3110S/jev-bot](https://github.com/k3110s/jev-bot) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [kabukisensei/coop-agent](https://github.com/kabukisensei/coop-agent) `📚1`
+- [kallurayaankit/jev-grid-agent](https://github.com/kallurayaankit/jev-grid-agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kang915-deep/Jev4agent](https://github.com/kang915-deep/jev4agent) `📚1`
+- [kevinwindisch/trex-jev-bot,0,JavaScript,,2026-09-24,A](https://github.com/kevinwindisch/trex-jev-bot,0,javascript,,2026-09-24,a) `📚1`
+- [kinfey/jevHarnessAgent](https://github.com/kinfey/jevharnessagent) `📚1` — Jev and GitHub Copilot harness comparison with a live bilingual ordering dashboard
+- [kingdsa/AI-Relationship-Copilot](https://github.com/kingdsa/ai-relationship-copilot) `📚1` — No description provided.
+- [kitepon/dotagents](https://github.com/kitepon/dotagents) `📚1`
+- [korallis/agent-stack](https://github.com/korallis/agent-stack) `📚1` — Reproducible local multi-agent dev team: OpenRig + Claude Code + Codex + CLIProxyAPI + Jev. Plan in, user-tested features out.
+- [kshetrajna12/sparkstation](https://github.com/kshetrajna12/sparkstation) `📚1` — SparkStation decision models · kshetrajna12 · GitHub · ⭐ 8 repo · 2025-10-27Model fleet manager for NVIDIA DGX Spark that serves decision models such as Reflex…
+- [lawrence3699/Jev-Style-2B-Decision-v3](https://github.com/lawrence3699/jev-style-2b-decision-v3) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-2B-Decision-v3 Hugging Face model
+- [lawrence3699/Jev-Style-Qwen3.5-2B-Decision-v2](https://github.com/lawrence3699/jev-style-qwen3.5-2b-decision-v2) `📚1` — GitHub mirror of the chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2 Hugging Face model
+- [Laya vs Jev: Benchmarking Edge Decision Models for Autonomous AI Agents](https://jevproxy.com/blog/laya-vs-jev-ai-decision-model-benchmark-comparison) `📚1` — Deep-dive benchmark comparing Convai Laya (ModernBERT 421M) vs TypeSafe Jev (RLCD cross-attention) across latency, VRAM, and candidate logit degradation.
+- [Laya, 421M parameters, local](https://madewithjev.com/builds/laya-421m-local-decisions) `📚1` — An open-weight decision model on a laptop
+- [legendarysamw3-droid/jev-the-Agent](https://github.com/legendarysamw3-droid/jev-the-agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [level6me/antigravity-feishu-bot](https://github.com/level6me/antigravity-feishu-bot) `📚1`
+- [lhy302/-jevkit-agent](https://github.com/lhy302/-jevkit-agent) `📚1`
+- [lighfe/agent-graph-kit](https://github.com/lighfe/agent-graph-kit) `📚1`
+- [linlin131236/jev-chat-jarvis](https://github.com/linlin131236/jev-chat-jarvis) `📚1` — Jev Chat JARVIS - AbinAPI & OpenAI compatible edition
+- [live](https://prajwal-s-venkatesh.github.io/jev-decision-gate) `📚1`
+- [LiveKit turn detection](https://docs.livekit.io/agents/build/turns) `📚1`
+- [liyumini/Jev-driven-agent-loop](https://github.com/liyumini/jev-driven-agent-loop) `📚1`
+- [lockstep-team-agent/lockstep](https://github.com/lockstep-team-agent/lockstep) `📚1` — Lockstep · lockstep-team-agent · GitHub · ⭐ 10 · 2026-06-07Shared decision record for a team's coding agents that checks whether changed code may contradict…
+- [loki52501/jarvis-desk](https://github.com/loki52501/jarvis-desk) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [lordofthesticks0/magic-decision-maker](https://github.com/lordofthesticks0/magic-decision-maker) `📚1` — A fun little decision maker powered by classification models. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [lowspecbot-GH/latency-probe](https://github.com/lowspecbot-gh/latency-probe) `📚1` — (notable) - Measures DNS, TCP, TLS and TTFB to api.typesafe.ai from Tokyo, US East and US West, cold vs keep-alive, against AWS reference endpoints. MIT ·…
+- [lucasnscr/healthcare-agent](https://github.com/lucasnscr/healthcare-agent) `📚1`
+- [LuKks/like-jev](https://github.com/lukks/like-jev) `📚1` — Jev-compatible typed decisions (choice, score, noul) with local Core ML and…
+- [machina-sports/sportsclaw](https://github.com/machina-sports/sportsclaw) `📚1` — sportsclaw Jev evidence verifier · machina-sports · GitHub · ⭐ 15 repo · 2026-02-22Opt-in evidence verifier in sportsclaw, a CLI and bot scaffold connecting…
+- [MacTokyo: "Jev by TypeSafe AI: The System One Model That Decides Instead of Talking" (2026](https://mactokyo.com/journal/jev-typesafe-system-one-model) `📚1` — Deep honest audit: third-party ably-labs/jev-pong latency numbers with a live play-against-Jev lane (jev-pong.ably.dev); keeps the baselines straight…
+- [macwork.org](https://macwork.org) `📚1`
+- [mad-helpers/jev-decision-layer](https://github.com/mad-helpers/jev-decision-layer) `📚1` — Deterministic System One cognitive decision layer, token ROI telemetry, multi-key rotation hub, and live glassmorphic observability dashboard for AI agents…
+- [MaekawaAo0604/jev-ux-poc](https://github.com/maekawaao0604/jev-ux-poc) `📚1` — Local-only PoC that measures UX by having an AI agent choose the next action from the goal
+- [marcus-sa/decow](https://github.com/marcus-sa/decow) `📚1`
+- [MardonBa/jev-calendar-agent](https://github.com/mardonba/jev-calendar-agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [mariusandra/jeb.st](https://github.com/mariusandra/jeb.st) `📚1` — jeb street: a static playground for Jev-style typed-decision models (jeb.st)
+- [mas-bandwidth/nova-tools](https://github.com/mas-bandwidth/nova-tools) `📚1` — nova-decide · mas-bandwidth · GitHub · ⭐ 5 repo · 2026-08-07Typed-decision route in Nova Tools, a set of tools for AI agents on different models to message,…
+- [masumi-network/Citadel](https://github.com/masumi-network/citadel) `📚1` — Citadel promotion decisions · masumi-network · GitHub · ⭐ 16 repo · 2026-05-20Promotion step in Citadel, self-hosted memory for engineering teams and their…
+- [Maverick-Ansh/jev-from-scratch](https://github.com/maverick-ansh/jev-from-scratch) `📚1` — A first-principles rebuild of TypeSafe's Jev: the non-autoregressive System One decision model, dissected and measured against a world whose Bayes posterior is…
+- [mbonnardot/judgment-base-agent](https://github.com/mbonnardot/judgment-base-agent) `📚1`
+- [mdabydeen/stopline](https://github.com/mdabydeen/stopline) `📚1` — A decision gate for browser agents: Jev or Laya classifies each proposed action, a policy in code decides whether it runs.
+- [Medium writeup](https://medium.com/superagentic-ai/jev-in-superqode-a-harness-for-your-code-and-workflows-with-jev-agent-aed62fa4c98d) `📚1`
+- [mergesafe-ai/judgetap](https://github.com/mergesafe-ai/judgetap) `📚1` — Fast typed decisions (choice, score, yes/no) across Jev-style engines, and a pre-action guard for coding agents.
+- [mermellla/retirement-investment-bot](https://github.com/mermellla/retirement-investment-bot) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [mickn/presto](https://github.com/mickn/presto) `📚1` — Voice commands for macOS that run before you finish speaking. On-device speech + Jev decision model.
+- [MidasMulli/kev-ane](https://github.com/midasmulli/kev-ane) `📚1` — ev-0.6B, a Jev-class decision model, running on the Apple Neural Engine — with the gates and instruments use…
+- [miguelaeh/jev-microduck](https://github.com/miguelaeh/jev-microduck) `📚1` — Make Microduck autonomous controlled in a loop by Jev.
+- [milind-soni/OpenMausBot](https://github.com/milind-soni/openmausbot) `📚1`
+- [minglelabs/jevcraft](https://github.com/minglelabs/jevcraft) `📚1` — A model-agnostic real-time decision benchmark and agent harness for StarCraft: Brood War, powered by BWAPI. Automatically matched explicit Jev and…
+- [mirasoth/soothe](https://github.com/mirasoth/soothe) `📚1` — Soothe TypeSafe decisions · mirasoth · GitHub · ⭐ 10 repo · 2026-03-12Goal-driven orchestration framework for long-running agents that classifies intake intent…
+- [mishrasanjeev/agentic-org](https://github.com/mishrasanjeev/agentic-org) `📚1`
+- [mjpaulus/agentic-ds](https://github.com/mjpaulus/agentic-ds) `📚1`
+- [mmastrac/jevenator2](https://github.com/mmastrac/jevenator2) `📚1` — was inspected and placed
+- [MNWinn/agent-switchboard](https://github.com/mnwinn/agent-switchboard) `📚1` — (notable) - Action gates and decision routing for agent harnesses with paired cost runs comparing Jev routing, deterministic checks and a GPT baseline. no…
+- [modular-agent/modular-agent-jev](https://github.com/modular-agent/modular-agent-jev) `📚1`
+- [mogita/jev-decider](https://github.com/mogita/jev-decider) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [mohanpaineti/interlock](https://github.com/mohanpaineti/interlock) `📚1` — A pre-execution interlock for AI agent tool calls: allow, ask, or block before anything ru
+- [mohitsharma-2007/aegis-bot](https://github.com/mohitsharma-2007/aegis-bot) `📚1`
+- [momo0205/jev-decision-lab](https://github.com/momo0205/jev-decision-lab) `📚1`
+- [moritzkremb/jev-sales-copilot](https://github.com/moritzkremb/jev-sales-copilot) `📚1` — Live sales-call copilot on TypeSafe Jev: per-utterance closing probability, signals and next-best-mo
+- [MoRohn/meridian-copilot](https://github.com/morohn/meridian-copilot) `📚1`
+- [nakitadev/alto-assistant-jev](https://github.com/nakitadev/alto-assistant-jev) `📚1` — AI assistant for AltoTech using seperate system (system 1 + system 2)
+- [Nanako0129/NyanCogs](https://github.com/nanako0129/nyancogs) `📚1` — Cogs for Red Discord Bot
+- [NatBrian/jev-touhou](https://github.com/natbrian/jev-touhou) `📚1` — Jev (Laya, Mica) decision-model AI: local, non-autoregressive engines answering…
+- [nativesoil/handover](https://github.com/nativesoil/handover) `📚1`
+- [nbramia/LifeOS](https://github.com/nbramia/lifeos) `📚1` — LifeOS Jev orchestrator experiments · nbramia · GitHub · ⭐ 31 repo · 2026-01-07Six offline experiments in the self-hosted LifeOS personal assistant testing, on…
+- [NeetigyaShah/jev-gate-extension](https://github.com/neetigyashah/jev-gate-extension) `📚1` — jev-gate-extension - NeetigyaShah/jev-gate-extension - Jev-gated browser agent in your side panel. Jev decides, code executes, you approve.
+- [neo-picasso-2112/jev-reflex](https://github.com/neo-picasso-2112/jev-reflex) `📚1` — Jev Reflex is a small neon arena shooter that demonstrates fast, typed AI decisions in a p
+- [NeuralNexusPro/startupOS](https://github.com/neuralnexuspro/startupos) `📚1` — OriginOS Jev perception decisions · NeuralNexusPro · GitHub · ⭐ 7 repo · 2026-07-02Optional Jev decision mode for the perception rules of OriginOS, a local AI…
+- [ngallodev-software/agent-workflow](https://github.com/ngallodev-software/agent-workflow) `📚1` — Agent-Workflow TypeSafe routing · ngallodev-software · GitHub · 2026-09-19Optional TypeSafe provider in Agent-Workflow, a coding-agent orchestration tool, that…
+- [ngallodev-software/agent-workflow-typesafe-ai,1,Python](https://github.com/ngallodev-software/agent-workflow-typesafe-ai,1,python) `📚1`
+- [ngallodev-software/jev-decision-support](https://github.com/ngallodev-software/jev-decision-support) `📚1` — Agent skill for bounded Jev decisions with callable API templates.
+- [nicolasdao/conversation-assistant](https://github.com/nicolasdao/conversation-assistant) `📚1` — Open-source Mac app that transcribes live conversations (your mic + the call your Mac plays), maps t
+- [nitsud13/foxwell-advisor](https://github.com/nitsud13/foxwell-advisor) `📚1` — Real-time, community-backed advice for Meta Ads Manager changes. Foxwell MCP for the evidence, TypeSafe Jev for the fast typed decision.
+- [nk412/judgements](https://github.com/nk412/judgements) `📚1` — TypeSafe System One for pydantic users
+- [nnennandukwe/jev-agentic-workflow-evals,0,Python,,2026-09-22](https://github.com/nnennandukwe/jev-agentic-workflow-evals,0,python,,2026-09-22) `📚1`
+- [nochinxx/jevathon-commute-assistant](https://github.com/nochinxx/jevathon-commute-assistant) `📚1` — Jevathon hackathon project — Jev-powered commute decision assistant
+- [NomaDamas/kojev](https://github.com/nomadamas/kojev) `📚1` — Quick experiment for Korean specialized Jev-style decision model
+- [nourhelmi/agent-router](https://github.com/nourhelmi/agent-router) `📚1` — Pick the right AI model for every coding-agent task: Jev task fit, your costs, live quota and reviewed track records. Zero dependencies.
+- [nthclrd/jevcraft](https://github.com/nthclrd/jevcraft) `📚1` — Autonomous adaptive Minecraft bot: Jev (TypeSafe System One) decides fast, an LLM plans, designs and
+- [nwadmark.github.io/jev-decision-lab](https://nwadmark.github.io/jev-decision-lab) `📚1` — Try Jev Decision Lab · (Full Jev Decision Lab guide)(jev-decision-lab.md) · Source
+- [obie/decide](https://github.com/obie/decide) `📚1` — Decision maker for Ruby: turn decision model answers into policy verdicts Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [ojusave/seefood](https://github.com/ojusave/seefood) `📚1` — Hotdog-or-not app: a local SqueezeNet labels the photo in a Render Workflow and Jev judges the text labels. no license · TypeScript · live
+- [onlyjq04/jev-agent-hooks,2,JavaScript,,2026-09-20](https://github.com/onlyjq04/jev-agent-hooks,2,javascript,,2026-09-20) `📚1`
+- [Open-Weights Jev Alternatives](https://rohitraj.tech/notes/jev-alternatives-open-weights-decision-models-2026) `📚1` — Which open decision model to ship.
+- [OpenMausBot 路由演示](https://madewithjev.com/builds/bot-chief-of-staff) `📚1`
+- [orange233-g/quick-decision-assistant](https://github.com/orange233-g/quick-decision-assistant) `📚1` — "system one" in:description jev
+- [OwenZhao9/jev-decide](https://github.com/owenzhao9/jev-decide) `📚1` — Typed decisions with calibrated confidence: ask one typed question, get choice + probabilities + con
+- [ozcelikmirzabugra/jev-decision-maker](https://github.com/ozcelikmirzabugra/jev-decision-maker) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ozzy2438/personal-decision-inbox,0](https://github.com/ozzy2438/personal-decision-inbox,0) `📚1`
+- [Panniantong/Agent-Reach](https://github.com/panniantong/agent-reach) `📚1` — Pattern inspired by Agent Reach's agent-led update guide.
+- [particle.news roundup](https://particle.news/story/typesafe-jev-brings-fast-typed-decision-calls-to-go-backends) `📚1`
+- [PatriwalaAmit/jev-opus-agent](https://github.com/patriwalaamit/jev-opus-agent) `📚1` — Reference coding agent wiring Jev (System One) and Opus 5.5 (System Two)
+- [PaulChen79/whoa](https://github.com/paulchen79/whoa) `📚1`
+- [pcarrier/skibidu](https://github.com/pcarrier/skibidu) `📚1` — (notable) - Chibi Scheme program that has Jev build a small arithmetic interpreter from an empty AST, one typed decision at a time, until sandboxed acceptance…
+- [pdbz199/local-decision-model](https://github.com/pdbz199/local-decision-model) `📚1`
+- [pkasela/Decision-Models-Assignments](https://github.com/pkasela/decision-models-assignments) `📚1` — Reports of the assignments: Decision Models a.y. 2018/2019
+- [PLangHQ/plang](https://github.com/planghq/plang) `📚1` — PLang Typesafe decider · PLangHQ · GitHub · ⭐ 65 repo · 2023-12-03Natural-language programming language whose builder can let Jev make the module, method and…
+- [pngwn/system-one-decisions](https://huggingface.co/datasets/pngwn/system-one-decisions) `📚1` — Training set for the pngwn scorer: 12,913/1,452/1,751 rows of state, typed question, options, answer index; card body is the upstream support-ticket dataset…
+- [priyankark/jeeves](https://github.com/priyankark/jeeves) `📚1` — Your to-do list has acquired staff. Open source desktop AI workflows with Jev decisions, focused agents, and human input.
+- [PRNewswire release](https://prnewswire.com/news-releases/autotrust-ai-releases-jev-27b-an-open-decision-model-for-self-hosted-ai-agents-302891720.html) `📚1`
+- [psmon/agentzerolite](https://github.com/psmon/agentzerolite) `📚1`
+- [public profile mirror](https://twstalker.com/gokayfem) `📚1` — post's text was readable on the author's public profile mirror.
+- [puddingagent/puddingagent](https://github.com/puddingagent/puddingagent) `📚1`
+- [qinpei-dev/Doubao-jev-agent](https://github.com/qinpei-dev/doubao-jev-agent) `📚1`
+- [Qredence/fleet-prime-agent](https://github.com/qredence/fleet-prime-agent) `📚1` — Fleet Prime intent router · Qredence · GitHub · ⭐ 16 repo · 2026-08-10Composer intent router in Fleet Prime, a local web workspace for the Prime Agent coding…
+- [RadRebelSam/whichjudge.dev](https://github.com/radrebelsam/whichjudge.dev) `📚1` — Replacement matrix for cheap judge / decision models.
+- [rajadaud12/Clarity-AI-Decision-Studio](https://github.com/rajadaud12/clarity-ai-decision-studio) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Rajatgdev/JEV_Agent](https://github.com/rajatgdev/jev_agent) `📚1`
+- [rajsinghtech/catanbot](https://github.com/rajsinghtech/catanbot) `📚1`
+- [RamkailashChoudhary/jev-spring-decision](https://github.com/ramkailashchoudhary/jev-spring-decision) `📚1`
+- [real-time control page](https://systemonemodels.org/use-cases/real-time-and-agents/real-time-control) `📚1`
+- [reddpy/AgentGhost](https://github.com/reddpy/agentghost) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [reiswaffel78/jev-agent-toolkit,2,JavaScript](https://github.com/reiswaffel78/jev-agent-toolkit,2,javascript) `📚1`
+- [relevan-dev/decision-model-eval](https://github.com/relevan-dev/decision-model-eval) `📚1` — We tested Jev, Laya, and Claude to see how they stacked up when it came to configuring a system.
+- [remio](https://remio.ai/zh/post/typesafe-jev-model-rejects-chatbots-for-programmatic-decisions-zh) `📚1`
+- [Reviewed media artifact](https://huggingface.co/mapika/decider-2b-vision) `📚1`
+- [RIA-Spec/one-agent](https://github.com/ria-spec/one-agent) `📚1` — The one tool to rule them all agent that implements Re in Act pattern
+- [riemannulus/jev-merge-queue-decision](https://github.com/riemannulus/jev-merge-queue-decision) `📚1`
+- [ris3abh/Engram](https://github.com/ris3abh/engram) `📚1` — an experimental open-source long-term memory graph for AI agents using Jev
+- [riteshverma/s18](https://github.com/riteshverma/s18) `📚1` — Introducing s18 — an open-source agent runtime & orchestration framework for real AI systems. ⚡ Multi-agent workflows ⚡ Real-time streaming state ⚡ Scheduling…
+- [rmosleydb/jev-agent-orchestrator](https://github.com/rmosleydb/jev-agent-orchestrator) `📚1` — Turn one prompt into a purpose-built agent on Databricks.
+- [Robinfxa/jev2agent](https://github.com/robinfxa/jev2agent) `📚1`
+- [Robot-Friends-Community/customs-authority](https://github.com/robot-friends-community/customs-authority) `📚1` — Customs Authority · Department of Snap Judgments — the decision-layer toolkit for Claude Code. Find where Typ…
+- [rotsl/layaagent](https://github.com/rotsl/layaagent) `📚1`
+- [routing-price test](https://ayautomate.com/blog/jev-pricing-cost-per-decision) `📚1` — The article cites a third-party routing-price test that reported roughly 40 times lower per-decision cost than one larger model on its own task, while the…
+- [rshade/jev-decide](https://github.com/rshade/jev-decide) `📚1`
+- [rwjdk/agent-framework-samples](https://github.com/rwjdk/agent-framework-samples) `📚1` — Samples demonstrating the Microsoft Agent Framework in C#
+- [sago-cream/mini-sago](https://github.com/sago-cream/mini-sago) `📚1` — A Discord bot for... everything?
+- [saikumardeepak1/agent-one](https://github.com/saikumardeepak1/agent-one) `📚1` — A browser agent that books a flight from one sentence. TypeSafe Jev makes every bounded decision; a
+- [SaiNarayana-B/decision-model-bench](https://github.com/sainarayana-b/decision-model-bench) `📚1` — Independent tests of whether AI decision models' confidence scores can be trusted. Laya results now,
+- [sakthijas/multiAgent-jev](https://github.com/sakthijas/multiagent-jev) `📚1` — Sample project for multiagent using Jev as root orchestration and Judge
+- [SamurAIGPT/llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent) `📚1` — LLM Wiki Agent — a persistent, interlinked knowledge workflow that can benefit from typed retrieval and verification.
+- [sandracam64/jev-bot](https://github.com/sandracam64/jev-bot) `📚1`
+- [sanlega/OpenBot](https://github.com/sanlega/openbot) `📚1` — Open harness for a roster of persistent AI Bots (Claude Code / Codex) led by a Chief of Staff, with Jev as ...
+- [SashaSkind/beyondgreen](https://github.com/sashaskind/beyondgreen) `📚1` — Typed scout/critic/investigator/verifier loop that inspects evidence left by a passing end-to-end test and decides regression, clean or insufficient. no…
+- [Schweik7/jev-pacman](https://github.com/schweik7/jev-pacman) `📚1` — Pac-Man decision environment for TypeSafe's Jev (System One) model
+- [scottkaplan41510/attribute-engine](https://github.com/scottkaplan41510/attribute-engine) `📚1` — Find which attributes of your content correlate with performance. Code counts, Jev labels, Claude proposes new attributes blind.
+- [Seabass-up/jev-workflow-patterns](https://github.com/seabass-up/jev-workflow-patterns) `📚1` — Documentation and Codex skills for code-controlled Jev workflow patterns
+- [seedxdream/jev-inbox-decision](https://github.com/seedxdream/jev-inbox-decision) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [sekosai/schemen-gate](https://github.com/sekosai/schemen-gate) `📚1`
+- [Sergio-CVM00/jev-teams](https://github.com/sergio-cvm00/jev-teams) `📚1` — Read Microsoft Teams chats on macOS from a coding agent, with Jev resolving only the ambig
+- [sergio-lim/ai-decision-engine](https://github.com/sergio-lim/ai-decision-engine) `📚1` — Give your agents typed AI decisions instead of parsing LLM text. Jev (TypeSafe) classifier
+- [sf8193/hydra](https://github.com/sf8193/hydra) `📚1`
+- [shahdadk/glance-qm](https://github.com/shahdadk/glance-qm) `📚1` — An ambient assistant for Meta glasses: context cards, conversation memory, and agent workflows with QM, GBrain, Memorable, Exa, and Jev.
+- [Shai-Koffman/jev-web-agent](https://github.com/shai-koffman/jev-web-agent) `📚1` — A web-browsing agent driven by Jev (TypeSafe's System One model): Playwright + typed, calibrated dec
+- [Shifros/RageBot](https://github.com/shifros/ragebot) `📚1` — Next.js chatbot that uses Jev to select sarcastic canned replies and score the user's rage for a live meter. no license · TypeScript · live
+- [Shijiuwei/jev-chat-jarvis-mirror-399](https://github.com/shijiuwei/jev-chat-jarvis-mirror-399) `📚1` — High availability mirror and network topology specifications for jev-chat/jev-chat-jarvis
+- [shima78/agentshield](https://github.com/shima78/agentshield) `📚1`
+- [shubham10divakar/AgentJev](https://github.com/shubham10divakar/agentjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [SilverDecisions/SilverDecisions](https://github.com/silverdecisions/silverdecisions) `📚1` — Software for creating and analyzing decision trees.
+- [simonmesmith/jev-arc-agi-v1-experiment](https://github.com/simonmesmith/jev-arc-agi-v1-experiment) `📚1` — of 400 ARC-AGI-1 tasks solved via per-cell Choice decisions, $2.32 in total. jev-1.13.0 · n=400 tasks
+- [sir-ad/jev-agentic-workflows,0,JavaScript,,2026-09-23](https://github.com/sir-ad/jev-agentic-workflows,0,javascript,,2026-09-23) `📚1`
+- [skyf0xx/hedgehog](https://github.com/skyf0xx/hedgehog) `📚1`
+- [smartdio/jev-browser-agent](https://github.com/smartdio/jev-browser-agent) `📚1` — ego-browser + TypeSafe Jev: per-step browser decisions at ~1s and near-zero cost. Skill, router pilo
+- [smcronin/jev-the-band](https://github.com/smcronin/jev-the-band) `📚1` — Five decision models. One improvising jam band. Jev personas, a declarative score, live audio, and a virtual …
+- [SohamKukreti/sift](https://github.com/sohamkukreti/sift) `📚1` — Sift a website for the one page that answers your question. crawl4ai crawls, Jev (a cheap decision model) picks the page, LLM ...
+- [Solar Decide](https://console.upstage.ai/api/systemone) `📚1` — Upstage's structured decision model on Solar Mini 4 (beta). Same /v1/systemone schema as Jev, calibrated probability per answer, and a 512K context — a whole…
+- [somoore/interlock](https://github.com/somoore/interlock) `📚1` — The kernel the LLM is not allowed to talk to. Capability kernel for untrusted agents — can
+- [sonyccd/camunda-jev](https://github.com/sonyccd/camunda-jev) `📚1` — Community connector to allow JEV AI as part of process workflow
+- [sorafujitani/valibot-jev](https://github.com/sorafujitani/valibot-jev) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [sparktype/decide](https://github.com/sparktype/decide) `📚1`
+- [spheal363/opportunity_agent](https://github.com/spheal363/opportunity_agent) `📚1`
+- [stevenke1981/jev-agent-toolkit](https://github.com/stevenke1981/jev-agent-toolkit) `📚1`
+- [street-labs/buzz-agents](https://github.com/street-labs/buzz-agents) `📚1`
+- [SuInk/Diana](https://github.com/suink/diana) `📚1` — Diana TypeSafe client · SuInk · GitHub · ⭐ 8 repo · 2026-07-02Self-hosted group-chat agent for QQ, Telegram, DingTalk, Feishu and WeCom that can use Jev to…
+- [sulistta/jev-agent](https://github.com/sulistta/jev-agent) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [sulistta/jev-transformice](https://github.com/sulistta/jev-transformice) `📚1` — Experimental investigation: can TypeSafe's Jev control a real Transformice mouse (Steam/Proton) through typed, low-level keyboard decisions derived from…
+- [Sunny-commit/OpenDecision](https://github.com/sunny-commit/opendecision) `📚1` — A framework-agnostic, typed decision layer for AI agents using Laya to evaluate tool safety, routing
+- [SuperagenticAI/superqode](https://github.com/superagenticai/superqode) `📚1` — SuperQode Jev decision harness · SuperagenticAI · GitHub · ⭐ 53 repo · 2026-01-19Harness layer for coding agents over ACP, A2A and MCP that adds a Jev decision…
+- [SuperQode: Jev as a harness for your code and workflows](https://super-agentic.ai/resources/super-posts/jev-in-superqode-harness-with-jev-agent) `📚1` — Decision layer for the "soft middle" of a permission stack: reviewed questions, typed answers, evidence you can hash; ships a live client on api.typesafe.ai…
+- [surajvs2710-stack/god-llm-decisions](https://github.com/surajvs2710-stack/god-llm-decisions) `📚1` — Fuses two System-1 decision models (Laya + Jev) into one auditable verdict — confidence-weighted fus
+- [Sutanshu/jev-agent](https://github.com/sutanshu/jev-agent) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Sweet-Butters/reply-copilot](https://github.com/sweet-butters/reply-copilot) `📚1` — Judge first, then reply: a reply copilot for Gmail and YouTube/Instagram comments. Jev decides whether and how to answer, an LLM drafts ...
+- [swisnl/DecisionEngine](https://github.com/swisnl/decisionengine) `📚1` — Typed, probabilistic decisions (Choice / Score / Noul) for System One tasks, powered by TypeSafe Jev
+- [syldeha/kairos](https://github.com/syldeha/kairos) `📚1` — A meeting assistant that knows when to speak, what to say, and when to stay quiet. Live voice (Gradium), inner thoughts, Jev ...
+- [TaewoooPark/Knowledge-Decider](https://github.com/taewooopark/knowledge-decider) `📚1` — An interactive artwork: a local model judges 150 books, then feeds its selections back int
+- [tameernoor/aotn-jev-stortinget](https://github.com/tameernoor/aotn-jev-stortinget) `📚1` — Did the minister answer the question? Jev judges a full Storting session of written questions; code decides, checked against an independent reader
+- [tanzeelak/house-agent](https://github.com/tanzeelak/house-agent) `📚1` — WhatsApp house agent that classifies roommate messages with TypeSafe for intent and urgency, then logs requests and sublet leads to SQLite and Sheets. no…
+- [teja338/JEV-Powered-Adaptive-Multi-Agent-RAG-](https://github.com/teja338/jev-powered-adaptive-multi-agent-rag-) `📚1` — Agent tools and workflow control
+- [tenuo-ai/safe-upgrade](https://github.com/tenuo-ai/safe-upgrade) `📚1` — Safe dependency upgrade agent: LangGraph orchestration, Jev decisions, Tenuo task-scoped delegation
+- [thanh-abaii/ud-jev-decision-workflow](https://github.com/thanh-abaii/ud-jev-decision-workflow) `📚1`
+- [Thanh-Mathieu95/jev-agent](https://github.com/thanh-mathieu95/jev-agent) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [the-sof/home-assistant-typesafe-conversation-agent](https://github.com/the-sof/home-assistant-typesafe-conversation-agent) `📚1` — TypeSafe Conversation — Experimental Home Assistant Assist conversation agent: each command sends the utterance and every Assist-exposed entity (names, areas,…
+- [thejevos/jevos](https://github.com/thejevos/jevos) `📚1` — The operating system for autonomous agents - powered by Jev.
+- [TheodoreGalanos/agent-memory](https://github.com/theodoregalanos/agent-memory) `📚1` — Agent memory architecture: Rust host, Pi worker pool, judgement runtime with Jev shadow, formation/activation…
+- [THEROCKSSS/typesafe-ai-bot](https://github.com/therocksss/typesafe-ai-bot) `📚1` — Self-hosted Discord moderation bot: reads your written rules, AI suggests, plain code deci
+- [tickernelz/omp-fabric](https://github.com/tickernelz/omp-fabric) `📚1` — omp-fabric typed judgment · tickernelz · GitHub · ⭐ 7 repo · 2026-09-06Typed judgment lane in Fabric, a programmable tool and agent runtime for Oh My Pi, where…
+- [timoconnellaus/frockbot](https://github.com/timoconnellaus/frockbot) `📚1`
+- [tinyhumansai/opencompany](https://github.com/tinyhumansai/opencompany) `📚1` — OpenCompany - OpenCompany uses Jev to select which agent handles a room message or broadcast in its multi-agent runtime.
+- [TMTPOST: “Jev’s Decision-Only Model Turns Speed and Cost Into a New AI Specialty” (2026-09](https://en.tmtpost.com/post/8150598) `📚1` — NextFin News syndication: released Sept 15, fully opened Sept 21; vendor’s own multipliers quoted as the company’s claim (194× faster, ~445× cheaper). New…
+- [Tokol/DecisionServiceJev,0,,,2026-09-26](https://github.com/tokol/decisionservicejev,0,,,2026-09-26) `📚1`
+- [Towards Data Science: "Jev vs. LLMs: When AI Moves from Generation to Decision-Making" (20](https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-generation-to-decision-making) `📚1` — Independent long-form benchmark: the author ran Jev against a locally hosted Qwen3-Coder-Next-80B-A3B (vLLM, 4-bit, prefix-cached) on the full 3,080-message…
+- [trancethehuman/template-next-agent](https://github.com/trancethehuman/template-next-agent) `📚1` — Open-source Next.js starter for durable AI workflows, EVE, Jev, AI SDK, AI Elements, and shadcn/ui
+- [trkr-ai/trkr-agents](https://github.com/trkr-ai/trkr-agents) `📚1`
+- [Try the free JEV API](https://docs.beatapi.io/decisions) `📚1` — (Search with your agent)(../docs/agent-search.en.md)
+- [ttofalo/OlivIA](https://github.com/ttofalo/olivia) `📚1` — Asistente de casa por WhatsApp: cámaras, boyeros y lo que venga. Jev para los reflejos, Claude para razonar.
+- [tumf/conflux](https://github.com/tumf/conflux) `📚1` — Conflux judge command · tumf · GitHub · ⭐ 27 repo · 2026-01-10Judge-command boundary in Conflux, a spec-driven orchestrator running AI coding agents in…
+- [twilson724/tw_typesafe](https://github.com/twilson724/tw_typesafe) `📚1` — Redacted experiment wiki comparing TypeSafe System One with four LLM agents on retrieval, batching and cost, with an offline arithmetic check. no license ·…
+- [TypeSafe](https://typesafe.co) `📚1` — Jev is a decision model from TypeSafe designed for making bounded, structured decisions rather than generating open-ended text.
+- [TypeSafe AI's Jev Is Not a Chatbot. It Is a Decision Engine — LLM Rumors](https://llmrumors.com/news/typesafe-ai-jev-system-one-model-use-cases) `📚1`
+- [TypeSafe AI's Jev offers an alternative to LLMs](https://tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making) `📚1` — Tom's Hardware coverage.
+- [up1512001/conductor-hats](https://github.com/up1512001/conductor-hats) `📚1`
+- [Uri-cyber/typesafe-agent](https://github.com/uri-cyber/typesafe-agent) `📚1` — General-purpose agent built on TypeSafe System One judgments: natural language in, typed confidence
+- [usesofar/sofar](https://github.com/usesofar/sofar) `📚1` — sofar typed-judge calibration · usesofar · GitHub · ⭐ 8 repo · 2026-07-03Script in an event-sourced memory tool for coding agents that calibrates Jev against…
+- [Venuarremset/jev-bot](https://github.com/venuarremset/jev-bot) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [via AI Beat](https://ai-beat.github.io/news/2026/09/jev-agent-decision-layer) `📚1` — mini-jev — similar approach; 0.909 accuracy on a multiple-choice benchmark vs Jev's 0.907 across 6,750 observations (via AI Beat)
+- [vinaykasarla/jev-decision-desk](https://github.com/vinaykasarla/jev-decision-desk) `📚1` — Experimenting with Jev model which compliments LLM in decison making
+- [vzornjak/typesafe-decision](https://github.com/vzornjak/typesafe-decision) `📚1` — Unofficial, advisory TypeSafe Jev decision layer for Minis — fail-closed routing, ranking, verification, and …
+- [Weathernews 的 agent 操作审批](https://zenn.dev/weathernews/articles/jev-auto-approval-poc) `📚1` — Agent action approval at Weathernews · Weathernews (Sakamoto) · Article · 2026-09-18Weathernews replaced the LLM that approved operations in its internal AI…
+- [wenchenxi/jev-memes](https://github.com/wenchenxi/jev-memes) `📚1` — Memes about asking a model for one decision instead of a page of prose
+- [wharley/DevCommandCenter](https://github.com/wharley/devcommandcenter) `📚1` — Dev Command Center decision provider · wharley · GitHub · ⭐ 12 repo · 2026-01-29Local-first desktop workbench for coding agents with an opt-in decision…
+- [What is JEV? Complete Guide to Autonomous AI Agent Reflexes](https://jevproxy.com/blog/what-is-jev-ai-agent-guide) `📚1` — Explains System 1 vs System 2 reflexes for Cursor and Claude Code, non-autoregressive decision models, and benchmark telemetry.
+- [whom-m0rty/iris-voice-agent](https://github.com/whom-m0rty/iris-voice-agent) `📚1`
+- [whosydd/pi-subagents](https://github.com/whosydd/pi-subagents) `📚1` — Sub-agents for pi: delegate tasks to autonomous child agents, with Jev (TypeSafe) calibrated model routing and result verification.
+- [wmoto-ai/local-decision-playground](https://github.com/wmoto-ai/local-decision-playground) `📚1` — Single-file web app that restricts a vLLM model to defined options and shows renormalised logprob shares per candidate for text, JSON or image input. no…
+- [X02](https://jevable.com/project/2101079101997982037) `📚1`
+- [X03](https://jevable.com/project/2101020844092756072) `📚1`
+- [X04](https://jevable.com/project/2100780008193020049) `📚1`
+- [X05](https://jevable.com/project/2101013867627159592) `📚1`
+- [X06](https://jevable.com/project/2101064273187274838) `📚1`
+- [X07](https://jevable.com/project/2101022133753430365) `📚1`
+- [xbzbing/dsh-decision-layer](https://github.com/xbzbing/dsh-decision-layer) `📚1`
+- [xshubhamg/twtry](https://github.com/xshubhamg/twtry) `📚1` — Scheduled eve agent that scrapes HN, Reddit and dev.to, has Jev judge candidates, rewrites them with DeepSeek and queues 15 tweet slots. MIT · TypeScript
+- [yacine-kellib/agent-control-plane](https://github.com/yacine-kellib/agent-control-plane) `📚1`
+- [yama4936/mahjong-agent](https://github.com/yama4936/mahjong-agent) `📚1`
+- [Yanwei-0808/jev-driving-agent-demo](https://github.com/yanwei-0808/jev-driving-agent-demo) `📚1`
+- [yashml-dev/DEV---Decision-Engine-for-Verdicts](https://github.com/yashml-dev/dev---decision-engine-for-verdicts) `📚1` — "DEV": a compact Jev-like decision model in Python — typed questions in, typed answers with probabilities and confidence out; the worked example routes a…
+- [YedraN/botInversion](https://github.com/yedran/botinversion) `📚1` — Bot usado con Jev para invertir
+- [Yomiamy/jev-mobile-agent](https://github.com/yomiamy/jev-mobile-agent) `📚1` — Mobile agent testing by jev decision and ocr detection.
+- [Youzini-afk/Varin](https://github.com/youzini-afk/varin) `📚1` — Varin Jev fast decisions · Youzini-afk · GitHub · ⭐ 14 repo · 2026-08-01Coding and research agent workspace whose Fast Decision capability calls Jev to judge…
+- [Yutaan5/jev-decision-tool](https://github.com/yutaan5/jev-decision-tool) `📚1` — Local web app for TypeSafe Jev decision probabilities
+- [zanedonkey/jev-pet](https://github.com/zanedonkey/jev-pet) `📚1` — Telegram group pet — Jev decides when it speaks; an LLM decides what it says.
+- [zanedonkey/TG-jev-chatbot](https://github.com/zanedonkey/tg-jev-chatbot) `📚1` — Two-way Telegram chatbot: user DMs become forum topics for staff; Jev-ready triage later.
+- [ZenMux: "ZenMux Adds TypeSafe's Jev 1.13 for Fast, Structured AI Decisions" (2026-09-23)](https://lifestyle.kotaradio.com/story/450947/zenmux-adds-typesafes-jev-1-13-for-fast-structured-ai-decisions) `📚1` — Company press release: AI model gateway ZenMux lists Jev 1.13 in its catalog as an active route for typed classification/score/choice decisions. Company…
+- [Zentor: "What Is TypeSafe Jev? Typed Agent Decisions" (updated 2026-09-21)](https://zentor.ai/blog/what-is-typesafe-jev) `📚1` — Vendor explainer (Zentor sells workflow automation) walking through the request shape — state plus typed questions (choice, score, noul) evaluated in parallel,…
+- [zerone-agents/jev-model-router](https://github.com/zerone-agents/jev-model-router) `📚1`
+- [zhengbangbo/structured-decision-bench](https://github.com/zhengbangbo/structured-decision-bench) `📚1` — typed decisions repeated 10 times: Jev and Qwen3 8B both 100% label-consistent; Jev 808 to 848 ms vs 6 to 100 ms locally. jev-1.13.0 · n=240 calls
+- [ZidongLiu/Jev-trial](https://github.com/zidongliu/jev-trial) `📚1` — Try out Jev, compare with existing decision making models using json schema. Also try to b
+- [ziyu/realtime-agent](https://github.com/ziyu/realtime-agent) `📚1`
+- [zjason-jx/law-query-assistant](https://github.com/zjason-jx/law-query-assistant) `📚1`
+- [zsoist/BUILD-DAY---Danis-Project](https://github.com/zsoist/build-day---danis-project) `📚1` — Fable 5.1 comanda 8 agentes deepseek-flash con juez Jev — DAG ship-first, thinking por tarea, budget auto-sto…
+- [zzx060828/isaac-sol-jev-agent](https://github.com/zzx060828/isaac-sol-jev-agent) `📚1` — Experimental Isaac agent: asynchronous LLM planning, local control and optional JEV tactic
+- [官方产品介绍](https://skyvern.com/products) `📚1`
+- [网站](https://skilldev.pro) `📚1`
+- [网站中的同一项目 / Same project on JevForAgents](https://jevforagents.com/builds/ha-jev) `📚1`
+
+</details>

@@ -1,0 +1,775 @@
+# Agent Skills & Plugins
+
+> Skills and plugins for Claude Code, Codex, pi, Hermes, OpenClaw, Cursor and similar agent harnesses.
+>
+> **752 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 57
+
+- [0xNatoshi/jev-codex-router](https://github.com/0xnatoshi/jev-codex-router) `★277 · 📚54` — Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.
+- [Dicklesworthstone/skillranker](https://github.com/dicklesworthstone/skillranker) `★125 · 📚49` — Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for the next step using live session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires a TypeSafe API key.
+- [kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills) `★932 · 📚42` — Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)
+- [dbreunig/building-with-jev-skill](https://github.com/dbreunig/building-with-jev-skill) `★145 · 📚39` — A skill for writing and improving programs that call Jev, TypeSafe's System One model
+- [shantanugoel/ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) `★41 · 📚38` — Skill for Hermes, and other agents, to ask typesafe's jev
+- [shitianfang/jev-use](https://github.com/shitianfang/jev-use) `★33 · 📚34` — Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) — measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM
+- [GodsBoy/jev-agent-skill-router](https://github.com/godsboy/jev-agent-skill-router) `★23 · 📚33` — Typed, confidence-aware agent skill routing with TypeSafe Jev.
+- [compozy/yoshi](https://github.com/compozy/yoshi) `★27 · 📚30` — Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into https://github.com/compozy/compozy
+- [Brainwires/jevwire](https://github.com/brainwires/jevwire) `★21 · 📚28` — Jev decision layer for agents: MCP server, embeddable DecisionModel library, and an escalate-only Claude Code plugin (TypeSafe AI's Jev)
+- [DECRUX9812/typesafe-skill-router](https://github.com/decrux9812/typesafe-skill-router) `★14 · 📚26` — TypeSafe (Jev) skill routing for Hermes Agent: names the one skill worth loading, before the model call. Opt-in, stdlib only, ~$0.001 per routed turn.
+- [keeltrace/hermes-nerve](https://github.com/keeltrace/hermes-nerve) `★31 · 📚25` — Nerve is a supervisory nervous system for Hermes agents, adding typed System One decisions, ranking, verification, token-aware oversight, and an opt-in tool gate powered by TypeSafe Jev or Open Source Laya
+- [suenot/codex-jev-router](https://github.com/suenot/codex-jev-router) `★4 · 📚25` — Portable JevRouter setup for cost-aware Codex subagent model selection, with English and Russian instructions
+- [ShivamPansuriya/jev-skill-gate](https://github.com/shivampansuriya/jev-skill-gate) `★7 · 📚24` — Cut Claude Code's skill manifest by ~75% with TypeSafe Jev. Scores every installed skill for relevance and hides the rest via skillOverrides — 12,750 → 3,185 tokens on a 217-skill install, for $0.0009 a session.
+- [DevMortimer/pi-typesafe](https://github.com/devmortimer/pi-typesafe) `★48 · 📚23` — TypeSafe decisions for Pi: batched evaluation tool, terminal playground, and typed API for extension authors
+- [MongLong0214/jev-gate](https://github.com/monglong0214/jev-gate) `★3 · 📚22` — Not every coding task needs your best model. Experimental Jev-powered model routing for Claude Code — V3 prototype runs today, V4 routes at the task boundary.
+- [win4r/jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) `★32 · 📚21` — 用 TypeSafe Jev 推荐已安装 Skill / Bounded installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill, bilingual docs and live examples.
+- [ruban-24/switchboard](https://github.com/ruban-24/switchboard) `★16 · 📚21` — Open-source model and reasoning effort router for Claude Code and Codex, using Jev or experimental self-hosted Laya.
+- [BorisLeMeec/jev](https://github.com/borislemeec/jev) `★33 · 📚20` — A claude code plugin for jev.
+- [FFatTiger/new-api-plugin-typesafe](https://github.com/ffattiger/new-api-plugin-typesafe) `★3 · 📚20` — TypeSafe AI System One (Jev) task plugin for QuantumNous/new-api — native /v1/systemone, synchronous evaluation, token billing
+- [BeLazy167/typesafe-mod](https://github.com/belazy167/typesafe-mod) `★3 · 📚18` — Claude Code mod that routes decisions to TypeSafe's Jev model: ranks installed skills per prompt, and answers the agent's own this-or-that questions when confident.
+- [ajensenwaud/hermes-jev-plugin](https://github.com/ajensenwaud/hermes-jev-plugin) `★7 · 📚16` — TypeSafe Jev (System One) decision tools for Hermes Agent: jev_check / jev_route / jev_score / jev_evaluate
+- [shimo4228/jev-skill-router](https://github.com/shimo4228/jev-skill-router) `★6 · 📚16` — Claude Code plugin: asks TypeSafe Jev which installed skill fits each prompt and logs the answer (shadow-first). A working reference for the skill-suggestion cookbook on Claude Code — the README records why it is unlikely to help a strong…
+- [miuuyy/Astra-Ares](https://github.com/miuuyy/astra-ares) `★293 · 📚15` — Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.
+- [Nisaka520/JevIntent](https://github.com/nisaka520/jevintent) `★63 · 📚15` — 微信（FkWeChat 插件）：长按消息分析意图 / 情绪 / 回复姿态，只在本机弹提示，对方无感知
+- [safzanpirani/pi-jev-skill-picker](https://github.com/safzanpirani/pi-jev-skill-picker) `★36 · 📚15` — Rank Pi Agent Skills for the current task with TypeSafe Jev
+- [DanielKillenberger/jev-predict-skill](https://github.com/danielkillenberger/jev-predict-skill) `★3 · 📚15` — Predict another skill's next closed decision with TypeSafe Jev — without running that skill.
+- [pZacca/askjev](https://github.com/pzacca/askjev) `★1 · 📚15` — Unofficial MCP server for Jev (Typesafe AI).
+- [Para-FR/casse-brique-typesafe](https://github.com/para-fr/casse-brique-typesafe) `★0 · 📚15` — A Next.js brick breaker whose paddle is controlled in real time by TypeSafe AI's Jev model. Built with Claude Code.
+- [oldmoldycake/jev_vampire_survivors](https://github.com/oldmoldycake/jev_vampire_survivors) `★5 · 📚14` — TypeSafe's Jev model plays Vampire Survivors on Steam: BepInEx plugin + Python brain + live decision dashboard. Native Linux only.
+- [deyna256/langchain-skill-router](https://github.com/deyna256/langchain-skill-router) `★4 · 📚14` — Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt.
+- [lomeshdutta/skill-router](https://github.com/lomeshdutta/skill-router) `★2 · 📚14` — Tell Claude Code which installed skill a session needs, using Jev (TypeSafe AI) for the decision and skills.sh for discovery.
+- [CrowdLinker/JevPromptCoach](https://github.com/crowdlinker/jevpromptcoach) `★3 · 📚13` — Claude Code plugin that scores how well you prompt a coding agent, and shows whether your habits are improving. Runs on TypeSafe's Jev model. Zero added latency.
+- [ChenYCL/jev-browser-skill](https://github.com/chenycl/jev-browser-skill) `★2 · 📚13` — Browser use & computer use for coding agents, powered by TypeSafe Jev: calibrated judgments from a System One model, control loop in code. ego lite / Chrome / Safari · CLI + MCP
+- [ussyverse/hermes-jev-router](https://github.com/ussyverse/hermes-jev-router) `★1 · 📚13` — Experimental Hermes plugin: Jev-assisted model routing plans with budget and capability constraints. API access pending.
+- [Olli0103/openclaw-typesafe-ai](https://github.com/olli0103/openclaw-typesafe-ai) `★0 · 📚13` — Optional typed TypeSafe AI Jev decisions for OpenClaw, with SecretRef credentials and strict API validation.
+- [erkamyaman/jev-enforce](https://github.com/erkamyaman/jev-enforce) `★9 · 📚12` — 📏 Claude Code plugin that makes Claude follow your AGENTS.md: every reply and edit checked by TypeSafe Jev ✅
+- [Charlyhno-eng/jev-codex-pilot](https://github.com/charlyhno-eng/jev-codex-pilot) `★4 · 📚12` — Smart Codex overlay featuring JEV-model-based routing, contextual optimization, and Kanban automation. Reduce token consumption by up to 70% while maintaining control
+- [Mandrilsquad1441/jev-model-router](https://github.com/mandrilsquad1441/jev-model-router) `★2 · 📚12` — Pick the best AI model and reasoning effort for any task in ~1s. Plugin for Claude Code, Claude Desktop and Codex, powered by TypeSafe's Jev decision model and live OpenRouter pricing. Balance intelligence, speed and cost, or choose your…
+- [ourines/hermes-jev](https://github.com/ourines/hermes-jev) `★2 · 📚12` — Jev decision sidekick for Hermes Agent — TypeSafe and Cloudflare, explicit tools and official skill
+- [zurfyx/jev-browser-skill](https://github.com/zurfyx/jev-browser-skill) `★2 · 📚12` — Let Jev, TypeSafe's ~100ms decision model, drive your browser. A plug-and-play skill for Claude Code and Codex.
+- [muse0509/jev-preflight](https://github.com/muse0509/jev-preflight) `★1 · 📚12` — A bounded Jev risk check for Claude Code: eight risk axes, one request, one optional reinspection.
+- [integrate-your-mind/jev-codex-plugin](https://github.com/integrate-your-mind/jev-codex-plugin) `★10 · 📚11` — Open-source Codex plugin for TypeSafe Jev decision consultation, failure diagnosis, and evidence-based completion review
+- [455-dIAO/windows-save-token-jev-setup](https://github.com/455-diao/windows-save-token-jev-setup) `★4 · 📚11` — Windows Codex Skill：通过 npx 或 Git 安装，安全配置 save-token-jev 的 PreCompact/SessionStart Hooks，并提供信任、原生压缩与旧内容隔离验证。
+- [Wang-auspicious/codex-jev-compaction](https://github.com/wang-auspicious/codex-jev-compaction) `★4 · 📚11` — Jev-powered context curation for Codex. Build compact, traceable handoff context through native plugins and skills.
+- [dr-dimitru/claude-jev-plugin](https://github.com/dr-dimitru/claude-jev-plugin) `★2 · 📚11` — TypeSafe Jev semantic guardrails for Claude Code.
+- [kleosr/cursor-clijev-compaction](https://github.com/kleosr/cursor-clijev-compaction) `★1 · 📚11` — TypeSafe Jev-scored context recovery for Cursor CLI (agent). Capture tool I/O, score keep/drop, re-inject after native compact.
+- [poponline63/north-star](https://github.com/poponline63/north-star) `★1 · 📚11` — Hermes Agent skill whose north-star gate is judged by Jev (TypeSafe System One): turn an intention into a checkable finish line, generate the run prompt, and let Jev rank what is still unproven.
+- [kaijia323/dsh-plugin-jev](https://github.com/kaijia323/dsh-plugin-jev) `★0 · 📚11` — TypeSafe Jev (System One decision model) as a native jev_decide tool plugin for DeepSeek Harness
+- [fabricioctelles/skills](https://github.com/fabricioctelles/skills) `★96 · 📚10` — A collection of skills for AI agents (Kiro, Cursor, Windsurf, Claude Code, and others). Each skill is a reusable module that teaches the agent to perform complex tasks with context, structure, and best practices.
+- [brianhong-dev/omo-jev-plugin](https://github.com/brianhong-dev/omo-jev-plugin) `★24 · 📚10` — Jev-powered decision support for OmO and senpi agents
+- [jcressler/jev-codex-token-saver](https://github.com/jcressler/jev-codex-token-saver) `★7 · 📚10` — Experimental Jev evidence selection for token-efficient Codex investigations
+- [eran-broder/jev-skills](https://github.com/eran-broder/jev-skills) `★6 · 📚10` — Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0 tokens.
+- [Nanako0129/stingray](https://github.com/nanako0129/stingray) `★6 · 📚10` — A Stop hook for Claude Code and Codex, for the turn that ends half-done — nothing done, an announced action never carried out, a promise to watch CI with nothing running — or in the wrong language. Every judgement is made by TypeSafe Jev.
+- [teempai/jev-in-codex](https://github.com/teempai/jev-in-codex) `★6 · 📚10` — Jev-powered tool and skill selection, context search, and output triage for Codex via MCP
+- [thehan-co/jevriel](https://github.com/thehan-co/jevriel) `★6 · 📚10` — Give your AI JEV wings. A skill and plugin to build with TypeSafe Jev, upgrade LLM-only workflows and measure the result.
+- [HiepPP/hiep-paseo-plugin](https://github.com/hieppp/hiep-paseo-plugin) `★3 · 📚10` — Local Paseo plugin exposing Jev evaluations through MCP
+- [clownware/bouncer](https://github.com/clownware/bouncer) `★1 · 📚10` — Jev-powered Judgment layer for Claude Code. Stops paying reasoning prices for if-statements: a PreToolUse hook scores every tool call against a YAML policy you own — allow / deny in ~100 ms, no LLM in the loop. TypeSafe Jev now, local…
+
+## Established (cited by 5–9 lists) — 90
+
+- [cline/plugins](https://github.com/cline/plugins) `★31 · 📚9` — Official curated plugins for Cline CLI and extensions
+- [jsk4581/jev-blindspot](https://github.com/jsk4581/jev-blindspot) `★20 · 📚9` — A side-panel assistant that finds the blind spots in your prompts. For Claude Code and Codex CLI.
+- [cyberofficial/dsh-plugin-jev](https://github.com/cyberofficial/dsh-plugin-jev) `★11 · 📚9` — dsh-plugin-jev — No description provided by the repository (auto-discovered, description not yet written)
+- [justhalfbit/dsh-plugin-jev-effort-selector](https://github.com/justhalfbit/dsh-plugin-jev-effort-selector) `★6 · 📚9` — DeepSeek Harness (DSH) 推理等级自动选择插件：由 Jev System One 模型判断每条消息值多少思考量，按模型声明的等级自动推导档位，上下文信封让「继续」这类追问继承话题深度，低置信度向上取，任何失败都静默沿用原等级。 \| Jev-driven reasoning effort per message: per-model ladders derived from what each model advertises, a fixed-size…
+- [alexj11324/open-jev-approvals](https://github.com/alexj11324/open-jev-approvals) `★3 · 📚9` — Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and composed through a versioned local policy, with scoped authorization.
+- [DoGMaTiiC/hermes-jev](https://github.com/dogmatiic/hermes-jev) `★3 · 📚9` — Hermes Agent plugin: route each turn to the one skill that fits, via TypeSafe Jev on the Vercel AI Gateway. Fail-open, opt-in, stdlib only.
+- [laguagu/jev-skills](https://github.com/laguagu/jev-skills) `★3 · 📚9` — Practical agent skills and examples for building with Jev. API setup, routing, ranking, and evidence checks.
+- [hatt-io/jevkeep](https://github.com/hatt-io/jevkeep) `★1 · 📚9` — Codex plugin that preserves useful conversation excerpts alongside the summary after context compaction.
+- [monotykamary/pi-fabric](https://github.com/monotykamary/pi-fabric) `★272 · 📚8` — A programmable tool and agent runtime for Pi.
+- [hqman/jev-browser-skill](https://github.com/hqman/jev-browser-skill) `★37 · 📚8` — jev-browser-skill — Isolated Playwright Chromium driven by Jev. A coding agent (or you) runs a. _TypeScript; ★ 33._
+- [TheAdaply/jev-apply](https://github.com/theadaply/jev-apply) `★9 · 📚8` — Fill job applications from your saved answers, without inventing personal details.
+- [konstantinosbotonakis/codex-context-diet](https://github.com/konstantinosbotonakis/codex-context-diet) `★5 · 📚8` — Codex plugin: Jev-guided dieting of bulky tool results
+- [rsdkrasen/hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router) `★4 · 📚8` — TypeSafe/Jev router plugin for Hermes Agent — compact tool results, suppress duplicate tools, skip unnecessary main-model calls
+- [bgrablin/hermes-switchyard](https://github.com/bgrablin/hermes-switchyard) `★3 · 📚8` — Jev for Hermes: skill discovery, multi-skill advice, adaptive reasoning effort, model recommendations, typed assessments, session re-ranking, and computer use.
+- [wellkilo/codex-jev-preflight](https://github.com/wellkilo/codex-jev-preflight) `★2 · 📚8` — Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata.
+- [PhilippElhaus/Codex-Jev](https://github.com/philippelhaus/codex-jev) `★1 · 📚8` — VS Code Codex Plugin for Jev-gated tool output integration
+- [jason-allen-oneal/openclaw-plugin-typesafe-ai](https://github.com/jason-allen-oneal/openclaw-plugin-typesafe-ai) `★0 · 📚8` — TypeSafe AI (Jev System One) plugin for OpenClaw - sub-100ms group triage, tool safety guardrails, compaction curation, and model routing
+- [fornhere/hafiza-os](https://github.com/fornhere/hafiza-os) `★19 · 📚7` — Linux, macOS ve Windows için kaynaklı ikinci beyin. Claude Code, Codex ve Antigravity adaptörleri; yerel Markdown kasa, ayrı hafıza incelemesi, isteğe bağlı Mem0/Jev.
+- [Parth1811/JevFlow](https://github.com/parth1811/jevflow) `★7 · 📚7` — A Claude Code plugin that keeps your AI agents honest. Claude plans tasks as phases with checks, and when it tries to stop, Jevflow runs them and asks Jev if the work is really done. Many agents, one plan, with a live viewer to watch it…
+- [priyankark/jev-state](https://github.com/priyankark/jev-state) `★6 · 📚7` — Build and regression-test conversational state machines powered by Jev. Inspect decisions, capture failing conversations as tests, and export runnable TypeScript for your app.
+- [455-dIAO/jev-codex-router-skill](https://github.com/455-diao/jev-codex-router-skill) `★3 · 📚7` — Portable Codex Skill for Jev model and reasoning-effort routing, with safe installation and Chinese usage guides
+- [gholtzap/jev-codex-model-and-effort-router](https://github.com/gholtzap/jev-codex-model-and-effort-router) `★3 · 📚7` — jev-codex-model-and-effort-router — Copy and paste this into your coding agent:
+- [himomohi/jev-skill-router](https://github.com/himomohi/jev-skill-router) `★3 · 📚7` — Keep skill catalogs outside the main LLM context. Jev selects relevant skills through one read-only MCP tool.
+- [King4s/Jev-AI-Skill](https://github.com/king4s/jev-ai-skill) `★3 · 📚7` — One AI skill + MCP server for Claude Code, Codex and Hermes: Jev (TypeSafe) gates large-model turns (event triage, review verdicts, owner questions, tool choice), runs build-and-repair loops with independent review, routes models and…
+- [Oranquelui/astra-jev-harness](https://github.com/oranquelui/astra-jev-harness) `★3 · 📚7` — Agent Skills for Codex Desktop and Claude Code, plus a Codex CLI harness. Jev-assisted context selection. / Codex Desktop・Claude Code向けAgent SkillsとCodex CLI用ハーネス。Jevでコンテキストを選別。
+- [BenjaminPolge/jev-architect](https://github.com/benjaminpolge/jev-architect) `★2 · 📚7` — Makes Claude Code and Codex ask whether a step needs a generative LLM at all — or whether it belongs on Jev, TypeSafe's System One model. Architecture arbitrage before the code is written.
+- [herval/openclaw-jev-plugin](https://github.com/herval/openclaw-jev-plugin) `★2 · 📚7` — Jev as a message gate to determine if agents should respond
+- [redreamality/jev-skill-selection](https://github.com/redreamality/jev-skill-selection) `★2 · 📚7` — Pre-message hook: use TypeSafe Jev to keep/drop skills and shrink agent context
+- [reiswaffel78/jev-agent-toolkit](https://github.com/reiswaffel78/jev-agent-toolkit) `★2 · 📚7` — Jev-first portable Agent Skill and optional MCP bridge for Claude Code, Codex, Cursor and compatible agents.
+- [de-niji/jev-hermes](https://github.com/de-niji/jev-hermes) `★1 · 📚7` — Jev for Hermes Agent: cheap typed decisions via TypeSafe Jev on OpenRouter. Routes turns, gates risky commands, compacts tool history, triages mail.
+- [WanLanglin/jev-skills](https://github.com/wanlanglin/jev-skills) `★1 · 📚7` — Claude Code & Codex skills powered by Jev, TypeSafe's System One model. 256 calibrated judgements for $0.0005 in 0.72s — 360x cheaper than Claude Opus 5. Includes the first published Jev calibration curve, measured on 4,995 real agent…
+- [youkiti/tiab-review-plugin](https://github.com/youkiti/tiab-review-plugin) `★1 · 📚7` — Chrome extension for systematic-review screening where Jev returns per-criterion match probabilities and an inclusion judgment.
+- [angribot/pi-jev](https://github.com/angribot/pi-jev) `★0 · 📚7` — Single-file pi extension for batched TypeSafe Jev judgments
+- [karanb192/jev-skill-scout](https://github.com/karanb192/jev-skill-scout) `★0 · 📚7` — Finds the turns where Claude Code should have loaded one of your skills and did not, judged by TypeSafe's Jev. Audit CLI plus the mod that fixes it live.
+- [makefunstuff/jev-lsp](https://github.com/makefunstuff/jev-lsp) `★0 · 📚7` — An LSP server whose ambient pass runs the rules a repository states in `.jev/rules/*.json`: each candidate line is sent to Jev, a classifier that answers one typed question with a value and a probability, never prose.
+- [Pinutss/jev-plugins](https://github.com/pinutss/jev-plugins) `★0 · 📚7` — Cursor and Hermes marketplace for the four published JEV Labs routers.
+- [yoichiojima-2/deslop](https://github.com/yoichiojima-2/deslop) `★0 · 📚7` — Score web pages for ads, slop, SEO and second-hand content. An agent skill built on TypeSafe Jev: four probabilities per page, no verdict, the caller sets the thresholds.
+- [szczyglis-dev/py-gpt](https://github.com/szczyglis-dev/py-gpt) `★1,962 · 📚6` — Desktop AI Assistant powered by GPT-6, GPT-5, Gemini, Claude, Grok, Ollama, DeepSeek, Perplexity, and more - chat, agents, tools, MCP, plugins, RAG, vision, voice, image and video generation, speech synthesis and speech recognition, web…
+- [luobosibing2/dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) `★48 · 📚6` — Native DeepSeek Harness (DSH) plugin integrating TypeSafe Jev as a System One decision layer for agent selection, supervision, corrections, and approvals.
+- [romanmeclazcke/codex-sift](https://github.com/romanmeclazcke/codex-sift) `★8 · 📚6` — Route each Codex turn to the cheapest model that can handle it, judged by TypeSafe Jev.
+- [47vigen/catherd](https://github.com/47vigen/catherd) `★6 · 📚6` — Herds coding agents: autopilot builds from your own Claude Code session — Claude plans and verifies, Codex and opencode write the code, Jev picks the model.
+- [wangzhezbz/jev-pilot](https://github.com/wangzhezbz/jev-pilot) `★3 · 📚6` — An all-in-one Jev plugin for Codex. Bringing automatic reasoning-effort routing, context filtering, and workflow assistance to macOS, Windows, and Linux. Under active development.
+- [droid-Q/jev-skill-router](https://github.com/droid-q/jev-skill-router) `★2 · 📚6` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [killerz3/jevalyzer](https://github.com/killerz3/jevalyzer) `★2 · 📚6` — Grade the agent sessions already on your disk. Claude Code, Codex, opencode, Gemini CLI and Antigravity, scored with Jev for cents.
+- [2023Anita/codex-jev-assistant](https://github.com/2023anita/codex-jev-assistant) `★1 · 📚6` — Codex Plugin with typed Jev judgments for risk review, evidence checks, context screening, and reranking.
+- [ivorpad/skillranker](https://github.com/ivorpad/skillranker) `★1 · 📚6` — Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for the next step using live session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires a TypeSafe API key.
+- [luw2007/omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions) `★1 · 📚6` — Archived: superseded by https://github.com/luw2007/pi-jev-harness
+- [Nabsku/pi-follow-through](https://github.com/nabsku/pi-follow-through) `★1 · 📚6` — Nudge your agent, when jev deems it so!
+- [chapel/hermes-jev-skills](https://github.com/chapel/hermes-jev-skills) `★0 · 📚6` — hermes-jev-skills - Hermes plugin adding semantic skill search and turn-start suggestions. ★ 0.
+- [EthanThatOneKid/zocomputer-jev](https://github.com/ethanthatonekid/zocomputer-jev) `★0 · 📚6` — A Zo skill for situational script writing and execution using Vercel AI Gateway and TypeSafe AI Jev.
+- [ioOvOoi/Pi-Jev](https://github.com/ioovooi/pi-jev) `★0 · 📚6` — Extension for the pi coding agent adding a batched mixed-type jev tool, a /jev panel, key login and Noul as a permission authorizer. MIT · TypeScript
+- [Mrmimee/hermes-plugin-jev](https://github.com/mrmimee/hermes-plugin-jev) `★0 · 📚6` — Jev (TypeSafe AI) System One decision engine plugin for Hermes Agent, backed by Agnes AI Flash.
+- [NousResearch/hermes-agent](https://github.com/nousresearch/hermes-agent) `★250,326 · 📚5` — The agent that grows with you.
+- [caliber-ai-org/ai-setup](https://github.com/caliber-ai-org/ai-setup) `★1,292 · 📚5` — Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.
+- [AgriciDaniel/gatekeeper](https://github.com/agricidaniel/gatekeeper) `★19 · 📚5` — Routes each request to the right AI agent or skill before your AI picks one. Your rules decide what code can; Jev (TypeSafe) makes the typed call. Installs as Claude Code hooks.
+- [Jimuelle07/Helm](https://github.com/jimuelle07/helm) `★14 · 📚5` — Route every coding task to the best AI agent on your machine — Claude Code, Codex, Cursor, Gemini CLI, Aider, OpenCode. Installs as a Claude Code plugin, Gemini extension, or Agent Skill.
+- [Panebianco00/jev-claude](https://github.com/panebianco00/jev-claude) `★5 · 📚5` — Route Claude Code's coding decisions through TypeSafe Jev: typed choices with probabilities, enforced at plan approval, questions, and risky commands.
+- [alpha-tales/alphaoptimizer](https://github.com/alpha-tales/alphaoptimizer) `★4 · 📚5` — Jev-powered output optimization for Codex, built to keep large tool results concise and usable.
+- [Tongyun1/Jev-in-the-Loop](https://github.com/tongyun1/jev-in-the-loop) `★4 · 📚5` — Researching how Jev can accelerate tasks that rely on LLM decision-making.
+- [anpicasso/hermes-jev-curator](https://github.com/anpicasso/hermes-jev-curator) `★3 · 📚5` — Typed Jev relation governance and safe archive plans for Hermes Curator
+- [ShahriarBijoy/eslint-plugin-jev](https://github.com/shahriarbijoy/eslint-plugin-jev) `★3 · 📚5` — Today's linters read the shape of your code. This one would read what it means.
+- [adlternative/tally](https://github.com/adlternative/tally) `★2 · 📚5` — Turn a pile of comments into an auditable distribution: Jev judges each item, code counts the percentages. React workspace + Python engine with pluggable data sources.
+- [AstrBotDevs/astrbot_plugin_reply_gate](https://github.com/astrbotdevs/astrbot_plugin_reply_gate) `★2 · 📚5` — Decides whether a message should reach the LLM at all, using TypeSafe Jev choice probabilities.
+- [Koushik890/jev-firewall](https://github.com/koushik890/jev-firewall) `★2 · 📚5` — A real-time firewall for AI coding agents: every Claude Code / Codex tool call is checked before it reaches your machine
+- [Mrchen116/jev-computer-use-skill](https://github.com/mrchen116/jev-computer-use-skill) `★2 · 📚5` — Save LLM calls by letting Codex and other AI agents delegate repetitive computer tasks to Jev.
+- [48Nauts-Operator/skill-dash](https://github.com/48nauts-operator/skill-dash) `★1 · 📚5` — Skill Dash uses Jev to judge Claude Code and Codex skills and plugins: usefulness, redundancy, clarity, duplicates, safety. Local dashboard plus the corpus pipeline behind whichskills.dev. MIT.
+- [dhava-gautama/noulgate](https://github.com/dhava-gautama/noulgate) `★1 · 📚5` — A gate for your agent's expensive steps, powered by TypeSafe Jev (System One). Offline-first, OpenRouter or direct, MIT.
+- [Hyper-AI-Lab/openclaw-jev](https://github.com/hyper-ai-lab/openclaw-jev) `★1 · 📚5` — Production control plane for OpenClaw agents: intake routing with Jev, Temporal orchestration, a Process Evaluator gate before every reply, and dual-store memory (Postgres + Qdrant).
+- [jcressler/fast-jev-compaction-codex](https://github.com/jcressler/fast-jev-compaction-codex) `★1 · 📚5` — Task-aware Jev evidence selection and exact local recovery around native Codex compaction.
+- [PedroAlvarado/jev-scout](https://github.com/pedroalvarado/jev-scout) `★1 · 📚5` — Agent Skill that finds where TypeSafe Jev decision models would pay off in a codebase. Works in Claude Code, Codex, Cursor and other Agent Skills hosts.
+- [rinti/wagtail-jev](https://github.com/rinti/wagtail-jev) `★1 · 📚5` — Use jev to classify tags for pages.
+- [andrewdeng318/paperclip-plugin-jev](https://github.com/andrewdeng318/paperclip-plugin-jev) `★0 · 📚5` — Community Paperclip plugin for Jev-powered issue triage and automatic routing.
+- [damian87x/jev-claude-orchestrator](https://github.com/damian87x/jev-claude-orchestrator) `★0 · 📚5` — Jev-supervised madmax conductor for Claude Code: tiny slices, parallel subagent workers in worktrees, TypeSafe Jev makes routing/review/QA/supervision decisions.
+- [damian87x/jev-pi-skills](https://github.com/damian87x/jev-pi-skills) `★0 · 📚5` — pi extension: TypeSafe Jev decisions as tools (search, rerank, supervise, pick) and hooks (skill select, compaction)
+- [DefensiveSniper/jev-subagent-router](https://github.com/defensivesniper/jev-subagent-router) `★0 · 📚5` — Use TypeSafe Jev to select subagent models and reasoning effort in Codex and Claude Code.
+- [enriquejuncorichi-create/pi-jev-assist](https://github.com/enriquejuncorichi-create/pi-jev-assist) `★0 · 📚5` — Pi extension: checks an agent's work against observation, not against its own account of itself
+- [eriestra/blockly-jev](https://github.com/eriestra/blockly-jev) `★0 · 📚5` — Blockly extension: TypeSafe Jev judgments (Noul, Choice, Score) as first-class blocks
+- [fsodanogm2dev/opencode-jev-plugin](https://github.com/fsodanogm2dev/opencode-jev-plugin) `★0 · 📚5` — TypeSafe Jev System One decision and aggressive token-saving plugin for OpenCode and OmO
+- [jakenbear/the-jev-enator](https://github.com/jakenbear/the-jev-enator) `★0 · 📚5` — The Jev-enator: three Jev-backed Claude Code hooks - a danger gate, a failure notice, and a completion check.
+- [JiaWeiXie/jev-enhanced-plugin](https://github.com/jiaweixie/jev-enhanced-plugin) `★0 · 📚5` — A Claude Code plugin that takes skills already in use and adds one thing to each: a typed judgment from (TypeSafe)(https://typesafe.ai) Jev (System One) at the points where the skill previously relied on the agent's own impression.
+- [johnpozy/codriver](https://github.com/johnpozy/codriver) `★0 · 📚5` — Instead of locking a whole session to one model, you pick Auto in the model picker — and for every turn, Codriver asks Jev (TypeSafe AI's non-generating "System One" decision model) which concrete model from your fleet fits THIS turn, then…
+- [kaitoy/plan-drift](https://github.com/kaitoy/plan-drift) `★0 · 📚5` — Plan vs. implementation drift report powered by TypeSafe Jev.
+- [maito1201/jev-harness](https://github.com/maito1201/jev-harness) `★0 · 📚5` — TypeSafe jev でエージェントの応答を審査し、形式的な完了を Stop hook で差し戻す Claude Code / Codex plugin
+- [maurorosero/hermes-jev-helper](https://github.com/maurorosero/hermes-jev-helper) `★0 · 📚5` — Hermes harness plugin — Jev-backed intent classifier that routes each turn to a source-first path before the agent improvises
+- [NaluKicks-808/jev-field-guide-skill](https://github.com/nalukicks-808/jev-field-guide-skill) `★0 · 📚5` — A Claude Code skill of field notes on Jev: which question shape fits which job, how to test a use before trusting it, and the traps. Companion to TypeSafe's official skill.
+- [OmarAlaaeldein/jev-verifier-skill](https://github.com/omaralaaeldein/jev-verifier-skill) `★0 · 📚5` — Fast 'System One' reflex for reasoning LLMs: typed probabilistic second opinions from Jev via OpenCode Zen, with PII-minimizing state redaction.
+- [pb-crackers/Jev-Cognigy-QA-Suite](https://github.com/pb-crackers/jev-cognigy-qa-suite) `★0 · 📚5` — Score every Cognigy conversation against rubrics you write, using TypeSafe Jev instead of an LLM. CLI, local web UI, and an agent skill.
+- [shishiv/pi-jeev](https://github.com/shishiv/pi-jeev) `★0 · 📚5` — A bounded TypeSafe Jev decision tool for Pi.
+- [tr1v3r/dsh-jev](https://github.com/tr1v3r/dsh-jev) `★0 · 📚5` — jev × DeepSeek Harness: System One decision client, MCP server, per-turn router and effort plugins
+- [yannip1234/ask-jev](https://github.com/yannip1234/ask-jev) `★0 · 📚5` — Continuous AskJev CLI checks throughout Astra work, plus the standalone AskJev skill
+
+## Emerging (cited by 3–4 lists) — 153
+
+- [207studio/jev-skills](https://github.com/207studio/jev-skills) `📚4` — jev-skills - Agent-neutral Jev skills for Claude Code and Codex, from 207 Studio.
+- [abhisheksharma001/jev-skill](https://github.com/abhisheksharma001/jev-skill) `📚4` — Agent skill for TypeSafe AI's Jev decision model: fit assessment, integration recipes, calibration, multi-Jev, benchmarks
+- [aiwithenoch/Jev-Skill](https://github.com/aiwithenoch/jev-skill) `📚4` — Open-source Jev harness for TypeSafe, OpenJev, LocalJev, Ollama, vLLM, LM Studio, llama.cpp. Typed decisions,…
+- [alaithuy385-byte/jev-decision-skill](https://github.com/alaithuy385-byte/jev-decision-skill) `📚4`
+- [AliUraish/Jev_SO101](https://github.com/aliuraish/jev_so101) `📚4` — SO-101 robot arm prototype where a vision model describes two camera views and Jev picks a typed skill and answers unsafe/done checks; offline demo and tests. no license · Python
+- [arslanr-com/perfectrecall](https://github.com/arslanr-com/perfectrecall) `📚4` — Jev-powered memory for AI agents, with Mnemosyne-compatible storage and Hermes integration
+- [Barba-Tech-CO/jev-claude-skill](https://github.com/barba-tech-co/jev-claude-skill) `📚4` — jev-claude-skill - Barba-Tech-CO/jev-claude-skill - Claude Code skill for TypeSafe's Jev decision model.
+- [bojansandhaus/jev-lcm-hermes-compaction](https://github.com/bojansandhaus/jev-lcm-hermes-compaction) `📚4` — Calibrated Jev ranking before lossless context condensation
+- [ByteDeskAI/bytedesk-jev](https://github.com/bytedeskai/bytedesk-jev) `📚4` — Reusable Choice, Score and Noul AI decisions via a host-held Typesafe key (Jev).
+- [coding-hermes/auger](https://github.com/coding-hermes/auger) `📚4` — Auger — spec drilling for the coding-hermes fleet: a CLI that interrogates a project into a git-backed spec o…
+- [compozy/compozy](https://github.com/compozy/compozy) `📚4` — compozy - Context-pruning proxy for Claude Code and Codex: Jev judges which history is still needed, measured not claimed. POC here now, heading soon into Compozy.
+- [dakai/omp-jev-web](https://github.com/dakai/omp-jev-web) `📚4` — OMP browser tool that drives any page from one goal using TypeSafe Jev (System One) decisions instead of the main model.
+- [designnotdrum/fast-jev-compaction-codex](https://github.com/designnotdrum/fast-jev-compaction-codex) `📚4` — fast-jev-compaction-codex - Jev-guided verbatim supplemental compaction for Codex sessions · TypeScript
+- [dsandrade/jevra](https://github.com/dsandrade/jevra) `📚4` — Alpha plugin for Codex and Claude Code whose PreToolUse hook redirects large file reads to a helper where Jev selects the source excerpts. MIT · TypeScript
+- [edddine4-source/jev-challenge-lab](https://github.com/edddine4-source/jev-challenge-lab) `📚4` — Self-hosted interface for building and testing typed TypeSafe Jev API challenges.
+- [Excalibur9527/dsh-jev](https://github.com/excalibur9527/dsh-jev) `📚4` — dsh-jev — This DeepSeek Harness plugin sends each round's latest user message to the systemone (Jev) API for emotion and intent classification and injects the result as plugin-sourced runtime context, with API Key and…
+- [fabricio852/jevshift](https://github.com/fabricio852/jevshift) `📚4` — Codex plugin with four hooks where Jev classifies prompts, blocks bad computer actions, auto-allows safe permissions and trims large tool output. MIT · JavaScript
+- [gnoviawan/omp-jev-tools](https://github.com/gnoviawan/omp-jev-tools) `📚4` — Native omp (oh-my-pi) extension: TypeSafe Jev judgment tools — token efficiency, confidence routing, citation verification
+- [govindup63/skillpick](https://github.com/govindup63/skillpick) `📚4` — Pick the right agent skill for every prompt with TypeSafe's Jev. Hooks for Claude Code, Codex, Gemini CLI, Dr…
+- [gregb100/gavel](https://github.com/gregb100/gavel) `📚4` — Stop burning LLM calls on classification. Route bugs, triage failures, and gate PRs in 200ms for $0.00002. OpenClaw plugin for TypeSafe Jev structured decisions. ★ 1 · model_id · Python
+- [HermeticOrmus/ormus-jev](https://github.com/hermeticormus/ormus-jev) `📚4` — Open teaching pack for TypeSafe Jev in Grok Bot — three lanes, setup, examples. Gold Hat. No secrets
+- [hoangngochuong24947-gif/jev-patent-disclosure](https://github.com/hoangngochuong24947-gif/jev-patent-disclosure) `📚4` — Patent disclosure and application drafting skill powered by TypeSafe Jev / Jeb System-1
+- [iamdin/pi-jev-skill-suggestion](https://github.com/iamdin/pi-jev-skill-suggestion) `📚4` — pi-jev-skill-suggestion — Pi extension: strip skill listing; Jev gate + wide/narrow Choice → at most one skill (cookbook two-stage; fail open)
+- [itsaslamopenclawdata/GrowthCompany_JevOutputs](https://github.com/itsaslamopenclawdata/growthcompany_jevoutputs) `📚4` — Jev (TypeSafe System One) x Hermes Agent - the calibrated decision-layer playbook: 5 end-to-end use
+- [JohnsonRan/pi-jev](https://github.com/johnsonran/pi-jev) `📚4` — pi-jev - Claude-style auto-mode classifier for Pi, powered by TypeSafe Jev · TypeScript
+- [jukkatupamaki/better-call-jev](https://github.com/jukkatupamaki/better-call-jev) `📚4` — A skill for integrating Jev model calls to any Claude Code session. Supports Vercel AI Gateway.
+- [larches-technologies/openclaw-jev-router](https://github.com/larches-technologies/openclaw-jev-router) `📚4` — openclaw-jev-router - larches-technologies/openclaw-jev-router - Privacy-aware TypeSafe Jev tools and per-turn tool-family routing for OpenClaw.
+- [linw1995/dify-plugin-typesafe-ai](https://github.com/linw1995/dify-plugin-typesafe-ai) `📚4` — Dify tool plugin with a Yes/No node and a multi-question Evaluate node that expose Jev probabilities and a boolean decision to workflows. MIT · Python
+- [litshing/hermes-jev-plugins](https://github.com/litshing/hermes-jev-plugins) `📚4` — Two Hermes Agent plugins that prune the context window and gate permanent memory with cheap System O
+- [LonelyFellas/jev-codex-cua](https://github.com/lonelyfellas/jev-codex-cua) `📚4` — jev in:name created:2026-09-20..2026-09-21
+- [luobosibing2/deepseek-harness-jev](https://github.com/luobosibing2/deepseek-harness-jev) `📚4` — Native DeepSeek Harness (DSH) plugin integrating TypeSafe Jev as a System One decision layer for age
+- [maciejczub/skill-siujev](https://github.com/maciejczub/skill-siujev) `📚4` — skill-siujev - Should I use JEV? · Python
+- [marcodicesare-dev/jev-skill](https://github.com/marcodicesare-dev/jev-skill) `📚4` — Jev skill for Claude Code and Codex: TypeSafe System One guide, Python CLI, 5 tested recipes, and findings from 19,367 Jev calls.
+- [meetr1912/jev-bracket](https://github.com/meetr1912/jev-bracket) `📚4` — TypeSafe Jev predicts a synthetic 32-team tournament in round fan-out: calibrated Brier vs Elo/seed/
+- [n23eos/jev-skills](https://github.com/n23eos/jev-skills) `📚4` — jev-skills - Jev-powered decision skills for Claude Code and Codex. Opt-in, advisory, fail-open. · Python
+- [narumiruna/pi-extensions](https://github.com/narumiruna/pi-extensions) `📚4` — pi-extensions - A monorepo of Pi Coding Agent extensions · TypeScript
+- [Neoo-Blue/jev-gate](https://github.com/neoo-blue/jev-gate) `📚4` — Claude Code plugin: Jev (TypeSafe) checks Claude's plan against your request before it bui
+- [ngallodev-software/typesafe-ai-implementation-skill](https://github.com/ngallodev-software/typesafe-ai-implementation-skill) `📚4` — typesafe-ai-implementation-skill - a work in progress, built from the typesafe-ai-skill for building and analyzing jev opportunities · Python
+- [ngpool/jev-codex](https://github.com/ngpool/jev-codex) `📚4` — jev-codex - jev-codex: TypeSafe Jev ecosystem repository. · Python
+- [oozoofrog/jev-context-manager](https://github.com/oozoofrog/jev-context-manager) `📚4` — Durable automatic Codex session continuity with bounded Jev judgments and existing/fresh-session bootstraps
+- [OpeOginni/oc-plugins](https://github.com/opeoginni/oc-plugins) `📚4` — oc-plugins — The oc-auto-perms plugin in an OpenCode plugin collection uses Jev to check tool intent against natural-language rules.
+- [PraveenKumarSridhar/jevgauge](https://github.com/praveenkumarsridhar/jevgauge) `📚4` — jevgauge - One-shot model and reasoning routing for Hermes Desktop. Manual control wins. Explicit upstream integration preview. · Python
+- [RodrigoAlbe/system-one](https://github.com/rodrigoalbe/system-one) `📚4` — High-speed, zero-cost System One decision engine powered by Google Gemini (Free Tier), Groq & Ollama. Drop-in alternative to Jev.
+- [ShiqinGuo/jev4jobhunter](https://github.com/shiqinguo/jev4jobhunter) `📚4` — Jev4JobHunter — AI job application plugin with TypeSafe Jev for job matching. Screen BOSS Zhipin jobs, apply …
+- [slashdaemon/jev-expert](https://github.com/slashdaemon/jev-expert) `📚4` — A Claude Code skill: an authoritative reference for TypeSafe AI's Jev, the "System One" model. You send it a state plus typed ...
+- [Sodapopper-pixel/astrbot_plugin_jev_gate](https://github.com/sodapopper-pixel/astrbot_plugin_jev_gate) `📚4`
+- [sudorandom/protoc-gen-jev](https://github.com/sudorandom/protoc-gen-jev) `📚4` — protoc-gen-jev - Experimental plugin to convert protobuf into Jev code · Go
+- [svitaTLCO/jev-skill](https://github.com/svitatlco/jev-skill) `📚4` — Empirical research, agent skills, and a production-grade swarm engine coordinating local SLMs under TypeSafe AI System One (Jev) supervision.
+- [thanakijwanavit/cursor-jev](https://github.com/thanakijwanavit/cursor-jev) `📚4` — cursor-jev - Jev for Cursor. Jev decides. The agent writes. The router is off until you turn it on. · Python
+- [tomtyiu/Jev-decision-plugin](https://github.com/tomtyiu/jev-decision-plugin) `📚4` — Jev-decision-plugin - A Codex plugin that turns noisy input into small, typed, calibrated decisions using TypeSafe Jev. · Python
+- [twwright/jeverything](https://github.com/twwright/jeverything) `📚4` — Installable agent skill for finding and implementing Jev decision points in a repo, with Gateway and native SDK examples and a companion course. MIT · live
+- [umithavare/unwedge](https://github.com/umithavare/unwedge) `📚4` — A circuit breaker for AI coding agents: catches doom loops in Claude Code, Codex CLI and custom agent loops, with optional judgments ...
+- [universam1/jevselector](https://github.com/universam1/jevselector) `📚4` — OpenCode v2 plugin that uses Jev (TypeSafe AI) to dynamically select relevant skills and tools per turn, reducing context window usage.
+- [v60samurai/jev-atlas](https://github.com/v60samurai/jev-atlas) `📚4` — Map where Jev and System One models actually belong in your project, test the strongest ideas, then implement them. A skill for Claude Code and Codex.
+- [wanghai673/jev-browser-skill](https://github.com/wanghai673/jev-browser-skill) `📚4` — jev-browser-skill — This Codex Skill lets Codex drive Chrome through Jev to complete multi-step browser tasks from a goal description with preset inputs.
+- [yanmad27/ask-jev](https://github.com/yanmad27/ask-jev) `📚4` — Ask Jev before asking you — a Claude Code plugin that answers AskUserQuestion from conversation context, and …
+- [ZizhuangCui/codex-jev-imagegen](https://github.com/zizhuangcui/codex-jev-imagegen) `📚4` — Jev-powered decision workflows for Codex image generation. Explicit constraints, bounded repairs, an
+- [Zyw052/astrbot_plugin_jev_radar](https://github.com/zyw052/astrbot_plugin_jev_radar) `📚4`
+- [207studio/jev-codex-tools](https://github.com/207studio/jev-codex-tools) `📚3` — Experimental opt-in Jev decision tools for bounded Codex session reading and guarded UI workflows.
+- [abhisingh9696/jev](https://github.com/abhisingh9696/jev) `📚3` — Jev decision-gate skill for Hermes Agent -- typesafe/jev-1.13 client
+- [adamjralph/skill-broker](https://github.com/adamjralph/skill-broker) `📚3` — Deterministic pre-agent skill routing for Hermes agents: audit, canonical catalog, profile policy, and bounde…
+- [Aether-254/ask-jev](https://github.com/aether-254/ask-jev) `📚3` — ask-jev (Aether-254) - MCP + Codex/Claude plugin for TypeSafe Jev evaluate/batch/ping (Choice/Score/Noul). (Project guide)(community/projects/tools/aether-254-ask-jev.md).
+- [aleksvega/jev-skill-router](https://github.com/aleksvega/jev-skill-router) `📚3` — Jev-powered skill router & security auditor for any AI agent (Codex, Claude Code, OpenCode, Hermes):
+- [amazingjoe/pi-saver](https://github.com/amazingjoe/pi-saver) `📚3` — pi-saver - Dynamic context filter for Pi Coder using Jev by TypeSafe to save 75%+ on context tokens. · TypeScript
+- [andyholst/hermes-typesafe-jev](https://github.com/andyholst/hermes-typesafe-jev) `📚3` — Documentation hub for Hermes Agent + Jev (TypeSafe System One Model) integration
+- [AndyTheFactory/jev-skill](https://github.com/andythefactory/jev-skill) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [Atikpui007/jev-sift](https://github.com/atikpui007/jev-sift) `📚3` — jev-sift - Atikpui007/jev-sift - Keep Claude Code context clean: tool results filtered through Jev before the model sees them.
+- [banjtheman/jev-brotato](https://github.com/banjtheman/jev-brotato) `📚3` — Let TypeSafe Jev play Brotato: local game bridge, autonomous menus, and recorded runs with probabili
+- [brida-ai/reflex](https://github.com/brida-ai/reflex) `📚3` — Open schemas, recipes, templates, examples and agent tooling for Brida Reflex.
+- [BrokkAi/mjolnir](https://github.com/brokkai/mjolnir) `📚3` — Manage Codex, Claude Code, Muse Code, Kimi Code, Grok Build, and DeepSeek Harness with durable sessions, isol…
+- [BubbatheVTOG/pi-jev-anti-slop](https://github.com/bubbathevtog/pi-jev-anti-slop) `📚3` — pi-jev-anti-slop - pi-jev-anti-slop: TypeSafe Jev ecosystem repository. · TypeScript
+- [ChosenXu/raindrop-collection-governance](https://github.com/chosenxu/raindrop-collection-governance) `📚3` — Agent Skills-compatible skill: govern a Raindrop.io library's collection structure via rai
+- [chrismathew3/fast-jev-codex](https://github.com/chrismathew3/fast-jev-codex) `📚3` — fast-jev-codex - Preserve exact context across Codex compaction with Jev. Open-source plugin, CLI, and library. · TypeScript
+- [codaaiteam/jev-skill](https://github.com/codaaiteam/jev-skill) `📚3` — Agent skill: call the Jev (TypeSafe System One) Decision API from Claude Code, Cursor or any agent
+- [codejunkie99/codex-model-routing](https://github.com/codejunkie99/codex-model-routing) `📚3` — Installable Codex skill: LLM-first model routing with optional Jev, a shared benchmark registry, and explicit cost and confidence checks.
+- [daraujo85/jev-claude-engine](https://github.com/daraujo85/jev-claude-engine) `📚3` — Sub-300ms JEV System One decision engine for Claude Code, Codex, OpenCode &amp; AGY…
+- [dees91/agent-skill-manager](https://github.com/dees91/agent-skill-manager) `📚3` — A macOS app, TUI, and CLI to manage skills for AI coding tools. Turn skills on or off without deleting them.
+- [Dharundp6/jev-sortwell](https://github.com/dharundp6/jev-sortwell) `📚3` — An inbox with judgment. MCP server that files every note, link and meeting line by itself: TypeSafe'
+- [digitalfrost84/openclaw-jev-openrouter](https://github.com/digitalfrost84/openclaw-jev-openrouter) `📚3` — OpenClaw plugin: TypeSafe AI Jev System One via OpenRouter decisions endpoint (fork of jason-allen-oneal/openclaw-plugin-typesafe-ai)
+- [dryob/hermes-jev-context-engine](https://github.com/dryob/hermes-jev-context-engine) `📚3` — Lossless context compaction for Hermes Agent via the TypeSafe/Jev API — deletes or truncates stale t
+- [EmilianoVeron/jev-skill](https://github.com/emilianoveron/jev-skill) `📚3` — jev-skill - A Claude Code skill for TypeSafe's Jev \(System One\) model — Choice/Score/Noul design guidance, patterns, and SDK reference.
+- [fagnersouza666/Jev-plugin-for-hermes](https://github.com/fagnersouza666/jev-plugin-for-hermes) `📚3` — Jev-plugin-for-hermes - Jev-plugin-for-hermes: TypeSafe Jev ecosystem repository. · Python
+- [Filipe-Araujo0/tell-me-jev](https://github.com/filipe-araujo0/tell-me-jev) `📚3` — 🧭 Turn noisy tool output into compact, typed next-step JSON for AI coding agents with Jev.
+- [gbesse/camunda-jev-connector](https://github.com/gbesse/camunda-jev-connector) `📚3` — Camunda 8 decision worker, Modeler template and BPMN example using Jev.
+- [gbesse/roblox-jev-studio](https://github.com/gbesse/roblox-jev-studio) `📚3` — roblox-jev-studio - Review selected Roblox Studio Instances with typed Jev criteria and exact citations. · Lua
+- [gbesse/strapi-plugin-jev-review](https://github.com/gbesse/strapi-plugin-jev-review) `📚3` — strapi-plugin-jev-review - Strapi 5 editorial review and publish guard powered by TypeSafe Jev · JavaScript
+- [gbesse/wordpress-jev-rules](https://github.com/gbesse/wordpress-jev-rules) `📚3` — WordPress Playground validation for the PHP plugin.
+- [gnapse/jev](https://github.com/gnapse/jev) `📚3` — jev - CLI and MCP server for TypeSafe's Jev model, built for scripts, agents, and automation. · TypeScript
+- [grapefruit0205/jev-save](https://github.com/grapefruit0205/jev-save) `📚3` — Runtime efficiency guard for coding agents (Claude Code, Codex): Jev judges each tool call for necessity, red…
+- [guilhem/codex-subagent-router](https://github.com/guilhem/codex-subagent-router) `📚3` — AI model routing for Codex subagents. Let Jev choose the model and reasoning effort for each mission
+- [gulagala001/jevify](https://github.com/gulagala001/jevify) `📚3` — jevify - Jev-style Choice, Score and Noul decisions from ordinary models. An optional DSH plugin. · JavaScript
+- [gvkhosla/typesafe-pi](https://github.com/gvkhosla/typesafe-pi) `📚3` — typesafe-pi - TypeSafe System One for Pi: a consent-gated judgment tool and workflow design skill · TypeScript
+- [haystackeditor/stop-rules](https://github.com/haystackeditor/stop-rules) `📚3` — Holds your coding agent to your team's written coding rules. A stop hook for Claude Code, Codex, Cursor and t…
+- [Horace-Maxwell/horosa-skill](https://github.com/horace-maxwell/horosa-skill) `📚3` — When explicitly enabled, Jev selects an astrology technique when keyword routing has no match and extracts settings stated by the user.
+- [ivancasco/aidlc-plugin-jev](https://github.com/ivancasco/aidlc-plugin-jev) `📚3` — AI-DLC plugin: Jev (TypeSafe) document-quality gate checks for planning stages
+- [jackson7705/jev-web-skills](https://github.com/jackson7705/jev-web-skills) `📚3` — Five tested website-building workflows with TypeSafe Jev: page maps, content migration, silo and doorway QA, on-site routing
+- [james947/codex-jev](https://github.com/james947/codex-jev) `📚3` — codex-jev - Route each Codex prompt to the right effort with TypeSafe's Jev · Python
+- [jethrojones/hermes-jev-agent](https://github.com/jethrojones/hermes-jev-agent) `📚3` — Explainable Jev model router for Hermes — routes requests across model tiers…
+- [jjjjjjjjjjjjjjjjacob/jev-router](https://github.com/jjjjjjjjjjjjjjjjacob/jev-router) `📚3` — Claude Code plugin + skills: Jev picks the effort level for every prompt and the right model for every subagent.
+- [King4s/jev-loop](https://github.com/king4s/jev-loop) `📚3` — jev-loop (King4s) - TypeSafe Jev decides, Claude Code or Hermes builds—MCP server + skill (distinct from lvzhaobo/jev-loop). (Project guide)(community/projects/tools/king4s-jev-loop.md).
+- [Kmasterrr/use-jev](https://github.com/kmasterrr/use-jev) `📚3` — Claude Code / Codex skill for bounded semantic decisions via Jev (typesafe/jev-1.13) on OpenRouter
+- [kofujimura/jev-obniz-led](https://github.com/kofujimura/jev-obniz-led) `📚3` — jev-obniz-led - Jev × obniz LED: Physical AI Hello World — text → typed decisions \(TypeSafe System One\) → WS2812B LEDs · TypeScript
+- [Korbeil/opencode-jev-plugin](https://github.com/korbeil/opencode-jev-plugin) `📚3` — opencode-jev-plugin - opencode-jev-plugin: TypeSafe Jev ecosystem repository. · TypeScript
+- [kurowashi/pi-jev](https://github.com/kurowashi/pi-jev) `📚3` — Semantic checks for Pi file edits and new-file placement, powered by TypeSafe Jev (System One).
+- [LeahyCC/kungfu-kanban](https://github.com/leahycc/kungfu-kanban) `📚3` — Local-first kanban board where Claude Code agents work your cards — dependency chains with merge gates, an AI…
+- [lhviet/jev-bridge](https://github.com/lhviet/jev-bridge) `📚3` — A zero-dependency MCP server for TypeSafe's Jev — calibrated, typed judgments for Claude Code, with
+- [LightDevCoder/skills](https://github.com/lightdevcoder/skills) `📚3` — Personal Skills Collection — governed first-party Agent Skills Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [longkou1988/cnki-skills](https://github.com/longkou1988/cnki-skills) `📚3` — The optional cnki-jev package uses Jev for first-pass literature screening and escalates complex cases for model or human review.
+- [lucioamor/lovable-skills](https://github.com/lucioamor/lovable-skills) `📚3` — Reusable Lovable skills for app reviews, decisions, writing, and jevify runtime AI audits and JEV migration.
+- [marszhongx/pi-jev-score](https://github.com/marszhongx/pi-jev-score) `📚3` — pi-jev-score - pi-jev-score: TypeSafe Jev ecosystem repository. · TypeScript
+- [martinvilu/jev-accelerator](https://github.com/martinvilu/jev-accelerator) `📚3` — jev-accelerator - A skill using jev to speed up LLM use. · JavaScript
+- [MaururuTakumi/codex-jev-compaction](https://github.com/maururutakumi/codex-jev-compaction) `📚3` — codex-jev-compaction - Codex plugin that restores Jev-selected tool evidence after context compaction · JavaScript
+- [MDGChamomile/pi-jev](https://github.com/mdgchamomile/pi-jev) `📚3` — mdgchamomile/pi-jev -- Experimental consent-gated Jev routing and public-passage reranking for Pi
+- [MertBasar0/openclaw-tool-prefilter](https://github.com/mertbasar0/openclaw-tool-prefilter) `📚3` — Dynamic two-stage skill & tool pre-filtering for OpenClaw using Decision Models (Jev / TypeSafe)
+- [MokiMeow/jev-fabric](https://github.com/mokimeow/jev-fabric) `📚3` — A typed decision control plane for bounded semantic choices with Jev and AI agents.
+- [muthuishere/jevx](https://github.com/muthuishere/jevx) `📚3` — An agent-skill CLI for Claude Code/Codex/any agent giving yes/no/unsure and pick-one/rating answers from a Jev-style model, with exit-code contracts and hook-based guardrails.
+- [mywwave/cursor-jev](https://github.com/mywwave/cursor-jev) `📚3` — Cursor plugin that routes subagents with TypeSafe Jev and exposes Choice, Score, and Noul as MCP tools.
+- [narekgevorgyan/ultrabrowse](https://github.com/narekgevorgyan/ultrabrowse) `📚3` — Ultra-fast browsing for Claude Code, Codex and any MCP client: hand off a goal, a Jev-driven Chrome does the clicking at ~300 ms per decision. Automatically matched explicit Jev and TypeSafe/System One references.…
+- [NicoSKOOL/jev-internal-links](https://github.com/nicoskool/jev-internal-links) `📚3` — Claude Code skill: find every internal link your site is missing, decided by TypeSafe's Jev model. O
+- [nvnv19309/jev-citation-verifier-skill](https://github.com/nvnv19309/jev-citation-verifier-skill) `📚3` — A Codex Skill that audits whether cited papers support academic claims using local evidence retrieva
+- [onepayzk-glitch/dsh-typesafe-ask](https://github.com/onepayzk-glitch/dsh-typesafe-ask) `📚3` — Ask TypeSafe (Jev) for structured decisions from inside DeepSeek Harness: typed questions in, calibr
+- [openclaw/docs](https://github.com/openclaw/docs) `📚3` — docs - OpenClaw docs + translation · JavaScript
+- [openclaw/openclaw](https://github.com/openclaw/openclaw) `📚3` — OpenClaw TypeSafe Extension - OpenClaw extension for typed decisions through TypeSafe's Jev API.
+- [OrMizL/jev-skill-router-bench](https://github.com/ormizl/jev-skill-router-bench) `📚3` — Reviewed on 2026-09-22 at commit 3266a69 (MIT). AI-assisted review of README, CLAIM.md, LICENSE, and p1/ artifact layout. No live TypeSafe/Hermes replay.
+- [oswarld/notion-skills](https://github.com/oswarld/notion-skills) `📚3` — inferred / community-sdk — ⭐8
+- [pavlealeksic/jev-hermes](https://github.com/pavlealeksic/jev-hermes) `📚3` — jev-hermes - jev-hermes: TypeSafe Jev ecosystem repository. · Python
+- [punkcanyang/hermes-jev-router](https://github.com/punkcanyang/hermes-jev-router) `📚3` — hermes-jev-router — Hermes Agent plugin: TypeSafe Jev model routing + trim-then-compress
+- [PyModel/jev-skill](https://github.com/pymodel/jev-skill) `📚3` — Unofficial agent skill for TypeSafe AI's Jev: typed Choice, Score, and Noul decisions with calibrate
+- [qualixar/jev-codex-workbench](https://github.com/qualixar/jev-codex-workbench) `📚3` — Codex plugin and MCP server for TypeSafe Jev decisions and recoverable context reduction, with optio
+- [raitoxlol/hermes-slash-router](https://github.com/raitoxlol/hermes-slash-router) `📚3` — Unified Hermes Agent + Desktop plugin: TypeSafe Jev routes misspelled, shortened, and meaning-based slash com…
+- [RefoundAI/jev-editor-skill](https://github.com/refoundai/jev-editor-skill) `📚3` — jev-editor-skill - Editorial gate skill for Claude Code and other agents. Scores a draft on AI tells, your own voice, editorial quality, and SEO using TypeSafe's Jev. · Python
+- [rexleimo/aios](https://github.com/rexleimo/aios) `📚3` — Local-first AI agent bootstrap: Playwright Browser MCP + ContextDB for Codex CLI, Claude Code, Gemini CLI, an…
+- [RickT34/dsh-just-enough-tools](https://github.com/rickt34/dsh-just-enough-tools) `📚3` — Nearly half the agent cost, with accuracy intact. Just enough tools is a DeepSeek Harness plugin that uses Jev to reveal tools ...
+- [saif27217/jev-hermes](https://github.com/saif27217/jev-hermes) `📚3` — Fast, cheap, typed decisions for AI agents — stdlib-only Python client for TypeSafe's Jev decision m
+- [SawyerHood/sawyer-plugins](https://github.com/sawyerhood/sawyer-plugins) `📚3` — Sawyer Hood's BB plugins: Cascade, Compact Nav, CoW copy, Miku Companion, SlopCop, and T3 Sidebar in one repository. ★ 18
+- [scursel/hermes-jev-fastpath](https://github.com/scursel/hermes-jev-fastpath) `📚3` — hermes-jev-fastpath - Hermes Agent middleware using TypeSafe Jev for fail-open deterministic fast paths before LLM execution.
+- [seahsky/kelpie](https://github.com/seahsky/kelpie) `📚3` — Delegation policy for Claude Code, cut down to what its own benchmark supports: two pinned roles, and a skill…
+- [seanperkins/omp-jev-watchdog](https://github.com/seanperkins/omp-jev-watchdog) `📚3` — Experimental shadow-only watchdog for OMP using TypeSafe Jev. Records verification and tool-action instructio…
+- [shinpr/agent-clinic](https://github.com/shinpr/agent-clinic) `📚3` — Diagnostic plugins for Claude Code and Codex: why a session went wrong, and whether a proposed change is too …
+- [sugarforever/yummy-pi-extensions](https://github.com/sugarforever/yummy-pi-extensions) `📚3` — yummy-pi-extensions - Extensions for the Pi coding agent, each released separately, including a Jev-based model router.
+- [takemo101/pi-jev-continue](https://github.com/takemo101/pi-jev-continue) `📚3` — pi-jev-continue - Goal-scoped continuous development for Pi, judged by Jev. · TypeScript
+- [thevilledev/typesafe-scheduler-diagnostics](https://github.com/thevilledev/typesafe-scheduler-diagnostics) `📚3` — Experimental out-of-tree Kubernetes scheduler plugin that uses TypeSafe's Jev model to produce typed
+- [tiffygk/jev-mode](https://github.com/tiffygk/jev-mode) `📚3` — jev-mode (tiffygk) — Claude Code skills for building with Jev, TypeSafe's System One model (auto-discovered, description not yet written)
+- [vercel-labs/skills](https://github.com/vercel-labs/skills) `📚3` — Install it from your project directory with the Skills CLI, then select your agent:
+- [vitas/dsh-jev-subagent-dispatch](https://github.com/vitas/dsh-jev-subagent-dispatch) `📚3` — Cut LLM costs: route routine tasks to cheap subagent models (DeepSeek Harness plugin)
+- [Wany-i/jev-ads-analysis](https://github.com/wany-i/jev-ads-analysis) `📚3` — inferred / agent-tooling — ⭐0
+- [watany-dev/jev-playground](https://github.com/watany-dev/jev-playground) `📚3` — Codex hooks auto-mode wired to Jev with design and gateway reports, plus prefecture-guessing and RGB score samples. no license · TypeScript
+- [wellkilo.github.io/codex-jev-preflight](https://wellkilo.github.io/codex-jev-preflight) `📚3` — Docs/demo site: wellkilo.github.io/codex-jev-preflight
+- [westaicommerce/westai-openclaw-jev](https://github.com/westaicommerce/westai-openclaw-jev) `📚3` — westai-openclaw-jev - TypeSafe Jev decisions for OpenClaw: calibrated Noul/Choice/Score judgments via a dependency-free CLI wrapper. MIT. · Python
+- [win4r/jev-humanize-writing](https://github.com/win4r/jev-humanize-writing) `📚3` — Natural prose editing with Jev-assisted fidelity review
+- [wraithyy/ilmari-plugin-jev](https://github.com/wraithyy/ilmari-plugin-jev) `📚3` — ilmari-plugin-jev - ilmari plugin: the jev step, a quick decision on TypeSafe Jev via OpenRouter · JavaScript
+- [wylu1037/pi-jev-checkpoints](https://github.com/wylu1037/pi-jev-checkpoints) `📚3` — pi-jev-checkpoints - pi-jev-checkpoints: TypeSafe Jev ecosystem repository. · TypeScript
+- [zhuyansen/jev-cold-start-prior](https://github.com/zhuyansen/jev-cold-start-prior) `📚3` — Can a TypeSafe Jev prior read from a README on day one predict which new agent-skill repos gain star
+
+## Long tail (cited by 1–2 lists) — 452
+
+<details><summary>Show 452 long-tail entries</summary>
+
+- [7starsseeker/dsh-fact-check](https://github.com/7starsseeker/dsh-fact-check) `📚2` — Fact-checking skill for DeepSeek Harness: multi-source verification against the open web, domestic a
+- [alam0rt/mergegate](https://github.com/alam0rt/mergegate) `📚2` — Decide whether a PR is safe to auto-merge: path rules first, TypeSafe Jev for the rest
+- [aldokruger/jev-skill](https://github.com/aldokruger/jev-skill) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [alexadark/jev-openrouter-skill](https://github.com/alexadark/jev-openrouter-skill) `📚2` — A Codex skill that asks TypeSafe Jev through OpenRouter which model and reasoning effort to use
+- [alisson-p/ysat-jev](https://github.com/alisson-p/ysat-jev) `📚2` — The typed judgment variant of YSAT: the verdict is composed in code from atomic typed questions, wit
+- [Alpha-Park/genpark-jev-system1-subconscious-decision-skill](https://github.com/alpha-park/genpark-jev-system1-subconscious-decision-skill) `📚2` — Jev-inspired System-1 subconscious cognitive decision layer resolving typed routing, loop-stall arbi
+- [alphaparkinc/genpark-jev-system1-subconscious-decision-skill](https://github.com/alphaparkinc/genpark-jev-system1-subconscious-decision-skill) `📚2` — Jev-inspired System-1 subconscious cognitive decision layer resolving typed routing, loop-stall arbi
+- [AnakinRM/jev-confidence-kit](https://github.com/anakinrm/jev-confidence-kit) `📚2` — jev-confidence-kit - Question-design and confidence-calibration toolkit for TypeSafe's Jev \(System One\) API — a Claude Code plugin skill.
+- [AntonioCoppe/openclaw-jev-harness](https://github.com/antoniocoppe/openclaw-jev-harness) `📚2` — OpenClaw plugin: jev-harness DecisionHarness as System One decide layer (policy/confidence/shadow)
+- [Antony-Jia/JevChromePlugin](https://github.com/antony-jia/jevchromeplugin) `📚2` — Chrome extension for scoring X and Weibo posts with Jev, with optional LLM deep analysis and Tavily-powered w…
+- [applex250/jev-skill-laya](https://github.com/applex250/jev-skill-laya) `📚2` — Fork of wuyoscar/jev-skill v0.2.0 adapted to call a local keyless Laya decision API by default (no c
+- [arshiaez/system-one-memory](https://github.com/arshiaez/system-one-memory) `📚2` — Token-efficient agent memory for Claude Code and Codex, using TypeSafe Jev for typed decisions and a
+- [asymptotelabs/beacon](https://github.com/asymptotelabs/beacon) `📚2` — Continuous agent trajectory capture & self-improving memory layer. Uses Jev to score run delta and extract reusable skills across Claude Code, Codex, Cursor,…
+- [Bechi29/jev-dify-tool-plugin](https://github.com/bechi29/jev-dify-tool-plugin) `📚2` — jev-dify-tool-plugin - Bechi29/jev-dify-tool-plugin - Dify Tool plugin for TypeSafe System One (Jev) typed decisions.
+- [Blue-And-White/Grill-Jev](https://github.com/blue-and-white/grill-jev) `📚2` — Use when the user wants Jev-assisted task execution or delegates task decisions to Jev. Turn observa
+- [BP602/ntfy-hermes-jev-bridge](https://github.com/bp602/ntfy-hermes-jev-bridge) `📚2` — Local-first ntfy -&gt; TypeSafe Jev -&gt; Hermes notification gate
+- [ccrawford4/jev-plugin](https://github.com/ccrawford4/jev-plugin) `📚2` — Jev Plugin for the Pi Harness to improve tool/mcp choice performance and speed
+- [championswimmer/pi-skill-picker-jev](https://github.com/championswimmer/pi-skill-picker-jev) `📚2` — Pi Skill Picker — Uses Jev to rank available Pi skills for the current task and show the agent only the selected skills. By Arnav Gupta.
+- [chujianyun/skills](https://github.com/chujianyun/skills) `📚2` — WuMing's Claude Skills
+- [ciberjohn/Hermes-Skills](https://github.com/ciberjohn/hermes-skills) `📚2` — unverified / agent-tooling — ⭐13
+- [ComposioHQ/awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills) `📚2` — README format inspired by Awesome Claude Skills from ComposioHQ. That list's prose, branding, logos, and affiliate links are not copied here.
+- [dannyowelch/jev-skill-suggester](https://github.com/dannyowelch/jev-skill-suggester) `📚2` — inferred / agent-tooling — ⭐0
+- [darkroomengineering/cc-settings](https://github.com/darkroomengineering/cc-settings) `📚2` — Claude Code configuration — agents, skills, hooks &amp; settings for Darkroom Engineering Automatically matched explicit Jev and TypeSafe/System One…
+- [dharun-cohere/jev-sortwell](https://github.com/dharun-cohere/jev-sortwell) `📚2` — sortwell {agent: claude-code, type: plugin} - Personal inbox: MCP server and Claude Code plugin that files each captured note, link or meeting line with one…
+- [DivinPrince/profanity-check](https://github.com/divinprince/profanity-check) `📚2` — Vite demo: TypeSafe Jev checks whether text contains profanity Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [dusbin/jev-skill](https://github.com/dusbin/jev-skill) `📚2` — topic:typesafe created:2026-09-01..2026-09-30
+- [dymzz/lgtm-dsh](https://github.com/dymzz/lgtm-dsh) `📚2` — lgtm-dsh is a DSH plugin that automatically installs lgtm, reuses the Jev already configured in DSH, and lets…
+- [EthanSMC/jev-codex](https://github.com/ethansmc/jev-codex) `📚2` — Jev browser automation with field text supplied by the current Codex conversation. Include
+- [evan-zhang/openclaw-typesafe-plugin](https://github.com/evan-zhang/openclaw-typesafe-plugin) `📚2` — OpenClaw Tool Plugin exposing TypeSafe System One judgments with SecretRef-safe credentials and bund
+- [explorer1092/openclaw-zh](https://github.com/explorer1092/openclaw-zh) `📚2`
+- [fan56/dsh-jev-core](https://github.com/fan56/dsh-jev-core) `📚2` — Shared TypeSafe Jev decision-model client for the dsh ecosystem: strict response validation, keychai
+- [getexcited/claude-plugins](https://github.com/getexcited/claude-plugins) `📚2` — Claude Code plugins by Stefan Trockel: agent verification, control and observability. Automatically matched explicit Jev and TypeSafe/System One references.…
+- [HarnessRouter/harnessrouter](https://github.com/harnessrouter/harnessrouter) `📚2` — Plug-and-play unified harness interface running Jev System One alongside Codex, Hermes, Claude Code, and 9+ harnesses via UHP
+- [heyman333/jev-skill](https://github.com/heyman333/jev-skill) `📚2` — jev-skill - jev-skill: TypeSafe Jev ecosystem repository. · JavaScript
+- [hfm77788/hermes-teaching-decision-plugin](https://github.com/hfm77788/hermes-teaching-decision-plugin) `📚2` — Teaching Decision Layer for Hermes education profiles using TypeSafe Jev
+- [hobbs/jev-turn-analysis](https://github.com/hobbs/jev-turn-analysis) `📚2` — Jev Turn Analysis is a Rust CLI for analyzing completed Claude Code and Codex sessions.
+- [hraness/gobstopper](https://github.com/hraness/gobstopper) `📚2` — Automatic context compaction for coding-agent sessions — Codex and Claude Code today, any JSONL-transcript agent tomorrow. Compact earlier, with a strategy you…
+- [hraness/system-one-skills](https://github.com/hraness/system-one-skills) `📚2` — System One skills for Devin, Claude Code and Codex. Cut noisy validation-log tokens with one deterministic sk…
+- [hraness/xcb](https://github.com/hraness/xcb) `📚2` — xcb routes coding tasks across the Claude, Codex, and Devin subscriptions you already pay for, picking an account that is signed in and idle. Automatically…
+- [i3u8/jev-skill-selection](https://github.com/i3u8/jev-skill-selection) `📚2` — Pre-message hook: use TypeSafe Jev to keep/drop skills and shrink agent context
+- [ianwijma/skill-library-skill](https://github.com/ianwijma/skill-library-skill) `📚2` — skill-library-skill - skill-library-skill: TypeSafe Jev ecosystem repository. · TypeScript
+- [imsukhe/jev-ai-skill](https://github.com/imsukhe/jev-ai-skill) `📚2` — inferred / community-sdk — ⭐0
+- [infiquetra/infiquetra-claude-plugins](https://github.com/infiquetra/infiquetra-claude-plugins) `📚2` — Claude Code plugins for Infiquetra development workflows
+- [ipriyaaanshu/omp-greenlight](https://github.com/ipriyaaanshu/omp-greenlight) `📚2` — Jev-graded tool approvals for oh-my-pi: suppress the approval prompts you did not need, keep the one
+- [jackson7705/jev-seo-skills](https://github.com/jackson7705/jev-seo-skills) `📚2` — Five tested SEO workflows powered by TypeSafe's Jev: intent, internal links, cannibalization, brief QA, AI mention tracking
+- [Je1zzz/Jev-Codex-accelerator](https://github.com/je1zzz/jev-codex-accelerator) `📚2`
+- [jessicasetyani/hermes-plugin-jev-suggest](https://github.com/jessicasetyani/hermes-plugin-jev-suggest) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Jiiiin/codex-jev-compaction](https://github.com/jiiiin/codex-jev-compaction) `📚2` — Codex plugin that has Jev select tool records to checkpoint before native compaction and restore after, plus a CLI that exports a trimmed transcript copy. MIT…
+- [Jimuelle07/live-love-jev](https://github.com/jimuelle07/live-love-jev) `📚2` — Claude Code plugin that cuts token usage: routes coding subagents to cheap OpenCode Go models, filte
+- [jjongguet/gjc-plugin](https://github.com/jjongguet/gjc-plugin) `📚2` — Plugins for gajae-code (gjc) — jev-advisor: decision-model tier advisories for subagent task delegation (TypeSafe Jev / OpenRouter / local)
+- [jmgomezl/hak-jev-plugin](https://github.com/jmgomezl/hak-jev-plugin) `📚2` — MIT. TypeSafe and Hedera network usage may incur charges.
+- [jonaslinde/hermes-jev-capability-router](https://github.com/jonaslinde/hermes-jev-capability-router) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [jsagir/mindrian-os-plugin](https://github.com/jsagir/mindrian-os-plugin) `📚2` — The AI co-founder that pushes back. Bring a real problem worth solving and it reframes what you are actually …
+- [juanlentino/signal-and-noise-tools](https://github.com/juanlentino/signal-and-noise-tools) `📚2` — Companion plugin for the Signal &amp; Noise theme: SEO, login hardening, cookieless edge analytics, and native wp-admin tooling on the WP 7.0 Abilities API.…
+- [kelinbruce/jev-aico](https://github.com/kelinbruce/jev-aico) `📚2` — AICO skill selection benchmarks, JEV comparisons, and local KEV testing
+- [KelvinxG/lean-codex-stack](https://github.com/kelvinxg/lean-codex-stack) `📚2` — A practical guide to TypeSafe AI, Caveman modes, AGENTS.md, and token-efficient Codex workflows
+- [KHAEntertainment/jev-skill](https://github.com/khaentertainment/jev-skill) `📚2` — Agent skill: decide when and how to integrate TypeSafe's Jev decision model (OpenRouter, TypeSafe, V
+- [kieran-a-egan/pi-software-factory](https://github.com/kieran-a-egan/pi-software-factory) `📚2` — pi-software-factory - pi-software-factory: TypeSafe Jev ecosystem repository. · TypeScript
+- [kirkins/hermes-jev-adaptive-effort](https://github.com/kirkins/hermes-jev-adaptive-effort) `📚2` — Cache-safe adaptive reasoning effort for Hermes, selected by TypeSafe Jev through OpenRouter
+- [koojy/jev-plugins](https://github.com/koojy/jev-plugins) `📚2` — Jev checks for development workflows, organized as plugins.
+- [l49227554-byte/Openclaw-](https://github.com/l49227554-byte/openclaw-) `📚2` — Openclaw- - Openclaw-: TypeSafe Jev ecosystem repository. · TypeScript
+- [lambohtan/jev-ultrafast-skill](https://github.com/lambohtan/jev-ultrafast-skill) `📚2` — Claude Code skill: drive real web pages fast with jev-ultrafast, then verify the result instead of trusting 'done'
+- [lanfeng123456/jev-hub](https://github.com/lanfeng123456/jev-hub) `📚2` — Bilingual (zh/en) community guide for Jev - TypeSafe AI first System One decision model
+- [leokessel-lgtm/jev-codex-partner](https://github.com/leokessel-lgtm/jev-codex-partner) `📚2` — Agent tools and workflow control
+- [Lightupsky/astrbot_plugin_intentiontrigger](https://github.com/lightupsky/astrbot_plugin_intentiontrigger) `📚2` — astrbot\_plugin\_intentiontrigger - astrbot\_plugin\_intentiontrigger: TypeSafe Jev ecosystem repository. · Python
+- [linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills) `📚2` — Curated, auto-updated awesome-list of vetted AI agent skills with quality ratings for Claude, GPT, a Automatically matched explicit Jev and TypeSafe/System One…
+- [makky0620/hermes-fast-jev-compaction](https://github.com/makky0620/hermes-fast-jev-compaction) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [markpyvo/jev-delegate](https://github.com/markpyvo/jev-delegate) `📚2` — Claude Code skill that sends each task to the cheapest model that can handle it
+- [matt-riley/lore](https://github.com/matt-riley/lore) `📚2` — Local-first memory and continuity extension for AI harnesses Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [mehanshbarthwal-lab/universal-agent-skills](https://github.com/mehanshbarthwal-lab/universal-agent-skills) `📚2` — universal-agent-skills — Production AI agent skills and tool protocols across Claude Code, Cursor, Antigravity, ChatGPT, and Local LLMs (auto-discovered,…
+- [meimingqi222/pi-plugins](https://github.com/meimingqi222/pi-plugins) `📚2` — A bun workspace of independently published pi extensions: secret redaction (pi-redact) and Jev-based verbatim…
+- [minhlucvan/dsh-plugin-jev](https://github.com/minhlucvan/dsh-plugin-jev) `📚2` — inferred / agent-tooling — ⭐0
+- [monotykamary/is-jrecord](https://github.com/monotykamary/is-jrecord) `📚2` — Codex isRecord, except Jev has to think about it.
+- [Mrribvar/hermes-jev-plugin](https://github.com/mrribvar/hermes-jev-plugin) `📚2` — Jev (TypeSafe AI) evaluation plugin for Hermes Agent — structured decision/classification/routing tool via Vercel AI Gateway
+- [murat-saglam/herdr-jev](https://github.com/murat-saglam/herdr-jev) `📚2` — Herdr plugin: know why each coding agent stopped. Triage blocked and finished agents with TypeSafe's
+- [muskanpaliwal/skill-picker](https://github.com/muskanpaliwal/skill-picker) `📚2` — Rank your agent skills against a request so your agent can suggest which to invoke; powered by Jev
+- [Nanako0129/lorenzini](https://github.com/nanako0129/lorenzini) `📚2` — lorenzini - Claude Code skills that wait for CodeRabbit, Copilot or Codex to finish reviewing a pull request, then judge whether the verdict actually permits a…
+- [Nasrallah-AL/sessionwise](https://github.com/nasrallah-al/sessionwise) `📚2` — Analyze, understand, and optimize AI sessions. Claude Code adapter, model-fit/cache/context/health metrics, o…
+- [ngpestelos-mirrors/hermes-agent](https://github.com/ngpestelos-mirrors/hermes-agent) `📚2` — Mirror of NousResearch/hermes-agent (full history)
+- [ngpestelos-mirrors/openclaw](https://github.com/ngpestelos-mirrors/openclaw) `📚2` — Public full-history mirror of openclaw/openclaw (not a fork)
+- [NitayRabi/hunch](https://github.com/nitayrabi/hunch) `📚2` — CLI and Claude Code/Codex plugin that walks a repo with Jev or OpenJEV classifications to gather file snippets relevant to a task. MIT · TypeScript
+- [Noe1120/jev-advisor](https://github.com/noe1120/jev-advisor) `📚2` — A private, local decision-advice Skill for Codex that ranks tool choices, estimates risks, guides recovery, and checks completion evidence.
+- [Nostoi/jev-expert](https://github.com/nostoi/jev-expert) `📚2` — jev-expert - Claude Code plugin: engineering discipline for TypeSafe Jev integrations (skill, reviewer agent, question-test harness).
+- [nun/jev-emoji](https://github.com/nun/jev-emoji) `📚2` — Omarchy emoji picker. Type words and Jev ranks the matches.
+- [pawel-debik/author-tools](https://github.com/pawel-debik/author-tools) `📚2` — Sublime text plugin that uses Jev AI via OpenRouter to show the KAV cycle, telescoping, mood, show/tell balance, and tension in the ...
+- [PhiDung-hub/jev-input-standardizer](https://github.com/phidung-hub/jev-input-standardizer) `📚2` — Alt+G prompt review for Claude Code and Codex: Jev-guided cleanup and target-native formatting before a draft is sent.
+- [piyushsonawane07/trueKeep-jev](https://github.com/piyushsonawane07/truekeep-jev) `📚2` — trueKeep-jev - Claude Code plugin: swaps LLM-summarized /compact for Jev's yes/no calls — nothing kept is ever rewritten, ~20–50x cheaper than routing it…
+- [plm66/hermes-delegate](https://github.com/plm66/hermes-delegate) `📚2` — Route subagents to the right Hermes profile — model, provider, credentials, and personality per delegate_task…
+- [punkcanyang/claude-jev-gate](https://github.com/punkcanyang/claude-jev-gate) `📚2` — Claude Code: Jev tool gate + Anthropic-compatible proxy (route + trim→compress)
+- [rajnandan1/sensibility](https://github.com/rajnandan1/sensibility) `📚2` — sensibility - Give Claude Code a second opinion it can ask for in half a second. Reusable "battery" checks plus optional risk and finish gates, powered by…
+- [Rcidshacker/jev-tools](https://github.com/rcidshacker/jev-tools) `📚2` — Claude Code plugin: OpenJev (Codiv) makes the small typed decisions…
+- [risa-labs-inc/boss-plugin-jev](https://github.com/risa-labs-inc/boss-plugin-jev) `📚2` — Ask a decision model structured yes/no, choice, and score questions from a BOSS sidebar panel or the BOSS MCP server
+- [Roasbeef/loom-skill-selector](https://github.com/roasbeef/loom-skill-selector) `📚2` — loom-skill-selector - Proactive Jev-powered skill selection for Loom, running as a jailed extension · Gleam
+- [robertnowell/tranquility-base](https://github.com/robertnowell/tranquility-base) `📚2` — Lead a team of claude code and codex agents with two keyboard keys, your voice, and your ears.
+- [rohanarun/dynamic-context-engine](https://github.com/rohanarun/dynamic-context-engine) `📚2` — Dynamic paragraph context with Jev for Codex, Claude Code, and Hermes. SQLite memory, mode
+- [RosarioDiBartolo/jev-agent-skill](https://github.com/rosariodibartolo/jev-agent-skill) `📚2` — Agent skill connecting Jev and Kev System One models to Codex and AI agents for fast tool routing, classification, and bounded decisions.
+- [rtuszik/salt](https://github.com/rtuszik/salt) `📚2` — Clanker frustration insights, powered by on-device Laya decision model.
+- [rubichandrap/hermes-jev-guard](https://github.com/rubichandrap/hermes-jev-guard) `📚2` — Hermes Agent plugin using Jev for per-turn lane and model-tier planning, a tool-risk gate and a done-check after file edits; stdlib only, fail-open. MIT ·…
+- [runapi-ai/typesafe](https://github.com/runapi-ai/typesafe) `📚2` — RunAPI TypeSafe skill for Claude Code, Codex, Gemini CLI, Cursor, and 50+ agents
+- [ryonakae/pi-inline-skills](https://github.com/ryonakae/pi-inline-skills) `📚2` — Independently maintained fork of pi-inline-skills with optional Jev skill routing
+- [salomh46-rgb/jev-system-one-skill](https://github.com/salomh46-rgb/jev-system-one-skill) `📚2`
+- [satangel2222/truthgate](https://github.com/satangel2222/truthgate) `📚2` — TruthGate - Stop hook and deterministic gatekeeper for Claude Code, Cursor, and Antigravity: uses parallel Jev Nouls to block fake completions and passive…
+- [schalkneethling/jev-3000](https://github.com/schalkneethling/jev-3000) `📚2` — Demo of TypeSafe's Jev decision model: Noul, Choice, Score
+- [sdkfile/jev](https://github.com/sdkfile/jev) `📚2` — Jev (TypeSafe) for agents: yes/no, category or score with a probability in ~0.5s. Claude Code · Codex plugin + Toss paper-trading demo.
+- [Seryozh/conductor](https://github.com/seryozh/conductor) `📚2` — Run your Mac by voice: hold Fn, say a task, and Claude Code or Codex carries it out. Built on Jev Voice ...
+- [SherseaHe/jev-ultrafast-skill](https://github.com/sherseahe/jev-ultrafast-skill) `📚2` — Reviewed 2026-09-29 (Europe/Sofia) at commit 59516e0. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [Ship with Jev](https://shipwithjev.com) `📚2` — For more demos and skills, browse Ship with Jev. We use it for discovery, then check the original projects. Our selections from it.
+- [sisodias/jev-agent-skills](https://github.com/sisodias/jev-agent-skills) `📚2` — Portable Jev skills for intent, completion, routing, Camofox browser loops and shadow context relevance.
+- [site](https://skills.sh/zephyrdeng/ego-jev) `📚2`
+- [site](https://minilv.github.io/2026/08/03/codex-auto-router) `📚2`
+- [sk123qaq/hermes-plugin-jev-approval](https://github.com/sk123qaq/hermes-plugin-jev-approval) `📚2`
+- [Softtor/nestjs-hexagonal](https://github.com/softtor/nestjs-hexagonal) `📚2` — Claude Code plugin for building NestJS bounded contexts with Hexagonal Architecture, DDD, CQRS, and event-dri…
+- [stas4000/claude-subagent-router](https://github.com/stas4000/claude-subagent-router) `📚2` — Claude Code sub-agents: an Opus 5.5 lead, Sonnet 5.5 or Opus 5.5 builders picked per sub-task by a Jev classifier, and a guard so Sonnet never runs at max…
+- [stevenke1981/jev-codex-harness](https://github.com/stevenke1981/jev-codex-harness) `📚2`
+- [StevenLi-phoenix/laya-skill](https://github.com/stevenli-phoenix/laya-skill) `📚2` — Apache-2.0. Hosted Jev usage may incur charges; Laya weights download separately.
+- [sujay399/typesafe-oncall-plugin](https://github.com/sujay399/typesafe-oncall-plugin) `📚2` — TypeSafe System One plugin for generic typed decisions plus an on-call pack
+- [t-lind/accessor](https://github.com/t-lind/accessor) `📚2` — Local voice gateway around Codex, Claude Code, and Antigravity
+- [togishima/subagent-dispatcher](https://github.com/togishima/subagent-dispatcher) `📚2` — subagent-dispatcher - experimental subagent dispatcher · JavaScript
+- [toorop/jev-skill](https://github.com/toorop/jev-skill) `📚2` — inferred / agent-tooling — ⭐0
+- [trajectoire-ai/hermes-structured-aux-models](https://github.com/trajectoire-ai/hermes-structured-aux-models) `📚2` — A Hermes Agent model-provider plugin that routes selected auxiliary tasks through bounded Jev decision calls …
+- [tu11aa/squadrant](https://github.com/tu11aa/squadrant) `📚2` — Multi-project agent orchestration for Claude Code. One command session controls everything.
+- [UEFN-Ducky/uefn-plugin-typesafe](https://github.com/uefn-ducky/uefn-plugin-typesafe) `📚2` — TypeSafe Jev judge for UEFN Ducky Automations and Pipelines. Not a chat model.
+- [vexjoy.com](https://vexjoy.com) `📚2`
+- [Vicente-MD/jev-match](https://github.com/vicente-md/jev-match) `📚2` — Chrome extension using TypeSafe Jev. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [whamp/skills](https://github.com/whamp/skills) `📚2` — Public agent skills authored and maintained by Will Hampson.
+- [x/pi-jev](https://github.com/x/pi-jev) `📚2` — pi-jev by x - First pi-jev.
+- [y/pi-jev](https://github.com/y/pi-jev) `📚2` — pi-jev by y - Second pi-jev; Chinese readme.
+- [yanmad27/jev-ask](https://github.com/yanmad27/jev-ask) `📚2` — Claude Code plugin that intercepts AskUserQuestion and lets Jev answer when derivable, gated by a second 'is this personal' question. no license · JavaScript
+- [yannip1234/codex-jev](https://github.com/yannip1234/codex-jev) `📚2` — Experimental Jev compression for Codex, with a macOS menu bar launcher, desktop bridge, and native client.
+- [yousan/openclaw-jev-trigger](https://github.com/yousan/openclaw-jev-trigger) `📚2` — Reviewed 2026-09-30 (Europe/Sofia) at commit 01a9226. AI-assisted README and license inspection; install/live paths not executed.
+- [0xNatoshi/jev-codex-router,274,JavaScript,,2026-09-17](https://github.com/0xnatoshi/jev-codex-router,274,javascript,,2026-09-17) `📚1`
+- [0xwhrari/jev-agent-switch](https://github.com/0xwhrari/jev-agent-switch) `📚1` — Portable Jev decision gate for Claude Code and Codex.
+- [207studio/jev-claude-tools](https://github.com/207studio/jev-claude-tools) `📚1` — Experimental opt-in Jev skills and config for Claude Code — the companion to jev-codex-tools.
+- [207studio/jev-skills,0,,,2026-09-22](https://github.com/207studio/jev-skills,0,,,2026-09-22) `📚1`
+- [5c0r/omp-jev-skills](https://github.com/5c0r/omp-jev-skills) `📚1` — OMP-native Jev skill discovery through the configured Judge role
+- [916099/jev-cttai-plugin](https://github.com/916099/jev-cttai-plugin) `📚1` — Codex MCP plugin for structured Jev judgments through CTTAI; bilingual setup and release notes.
+- [abgregs/jev-skill-router](https://github.com/abgregs/jev-skill-router) `📚1` — Jev-powered skill router for coding agents — one Noul per skill, sharded in…
+- [abgregs/jev-skill-router,0,TypeScript,,2026-09-21](https://github.com/abgregs/jev-skill-router,0,typescript,,2026-09-21) `📚1`
+- [abhilashr1/jev-agent-browser-skill](https://github.com/abhilashr1/jev-agent-browser-skill) `📚1` — Agent Skill that uses TypeSafe Jev for bounded browser action selection through agent-browser
+- [abhisheksharma001/jev-skill,0,Python,,2026-09-21](https://github.com/abhisheksharma001/jev-skill,0,python,,2026-09-21) `📚1`
+- [acharyaanusha/pico](https://github.com/acharyaanusha/pico) `📚1` — Pico: a pixel pet that grows with every little coding breakthrough (Claude Code, Codex, Gemini CLI; judged by Jev)
+- [acisky/jev-naturalize](https://github.com/acisky/jev-naturalize) `📚1` — Naturalize — a web app that removes "AI flavor" from articles (English & Chinese). It splits text in
+- [Agent Skills specification](https://agentskills.io/specification) `📚1` — The reference format follows the Agent Skills specification.
+- [AgentPlugins JEV directory](https://agentplugins-2v1.pages.dev/jev-plugins) `📚1` — Cross-ecosystem JEV plugin & tool directory covering browser-use/jev-ultrafast, Laya, Kev and fast-jev-compaction, ranked by GitHub stars, with a practical JEV…
+- [ahoo/cpa-plugin-systemone](https://github.com/ahoo/cpa-plugin-systemone) `📚1` — Native SystemOne (Jev) provider for CLIProxyAPI: chat-compatible jev-1.13 models with weighted key pool and failover
+- [ahtcfg24/codex-speculator](https://github.com/ahtcfg24/codex-speculator) `📚1` — Read-only speculative tool execution PoC for Codex with Jev: explicit metrics, safe candidate tools, and loca…
+- [AI-Driven-School/aiboard](https://github.com/ai-driven-school/aiboard) `📚1` — The whiteboard for your coding agents — every Claude Code and Codex session on one canvas, with real terminals. Native macOS, local only. Automatically matched…
+- [aidiveyt (dev.to): "Jev did not make Claude Code cheaper. Its own benchmark says so." (202](https://dev.to/aidiveyt/jev-did-not-make-claude-code-cheaper-its-own-benchmark-says-so-1abm) `📚1` — Code-reading audit of vinilana/jev-gateway: one ternary in src/adapters/messages.ts:99 decides the whole story — with thinking or prompt caching on, the…
+- [aiwithenoch/Jev-Skill,0,Python,,2026-09-20](https://github.com/aiwithenoch/jev-skill,0,python,,2026-09-20) `📚1`
+- [ajensenwaud/hermes-jev-plugin,7,Python,TypeSafe](https://github.com/ajensenwaud/hermes-jev-plugin,7,python,typesafe) `📚1`
+- [aleksvega/jev-prompt-enhancer](https://github.com/aleksvega/jev-prompt-enhancer) `📚1` — Automatic Prompt Enhancer for any AI agent — Jev decides IF refinement is needed, Mercury rewrites,
+- [aleksvega/jev-skill-router,0,JavaScript,,2026-09-21](https://github.com/aleksvega/jev-skill-router,0,javascript,,2026-09-21) `📚1`
+- [Alexander-68/jev-skill](https://github.com/alexander-68/jev-skill) `📚1` — Skill to invoke JEV model ask-jev
+- [Alexander-68/jev-skill,0,Python,,2026-09-22,Skill](https://github.com/alexander-68/jev-skill,0,python,,2026-09-22,skill) `📚1`
+- [alexperettogithub/fast-jev-compaction-codex](https://github.com/alexperettogithub/fast-jev-compaction-codex) `📚1` — inferred / agent-tooling — ⭐0
+- [algal-skills](https://npmjs.com/package/algal-skills) `📚1` — benzguo · Package · ⬇ 624 · 2026-09-19Token-efficient agent skills for Devin, Claude Code and Codex that keep raw tool output out of context, with Jev…
+- [ALucky1/jevf-cursor](https://github.com/alucky1/jevf-cursor) `📚1` — A drop-in custom cursor for the web that plays a sound when you click.
+- [amishah1998/said-done](https://github.com/amishah1998/said-done) `📚1` — Report card for your AI coding agent: grades every Claude Code session on disk with Jev, cheaply
+- [amitvijapur/cortex](https://github.com/amitvijapur/cortex) `📚1` — Cortex · amitvijapur · GitHub · ⭐ 5 · 2026-04-27Meta-router that sits above coding-agent workflow systems in Claude Code, Cursor, Codex and others to pick the…
+- [Andersonlimahw/lemon-ai-hub](https://github.com/andersonlimahw/lemon-ai-hub) `📚1` — My ai marketplace with skills, agents an more Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [AndrewWayne/JevForSteve](https://github.com/andrewwayne/jevforsteve) `📚1` — A local-first gaze and blink desktop companion for accessible communication, with bounded Jev decisi
+- [andyholst/hermes-typesafe-jev,0,Python](https://github.com/andyholst/hermes-typesafe-jev,0,python) `📚1`
+- [anthony-maio/codex-decision-layer](https://github.com/anthony-maio/codex-decision-layer) `📚1` — Shadow-mode evidence selection for Codex with Jev, local Eve FP32, and Q8 GGUF. CLI, MCP server, plugin, and …
+- [ao-kamal/jev-qualification](https://github.com/ao-kamal/jev-qualification) `📚1` — A fail-closed qualification skill for deciding where Jev belongs in AI pipelines
+- [apolenkov/jev-codex-router-lab](https://github.com/apolenkov/jev-codex-router-lab) `📚1` — Evidence-first TypeScript lab for advisory Jev skill routing.
+- [apolenkov/jev-codex-router-lab,0,TypeScript,,2026-09-21,Evidence-first](https://github.com/apolenkov/jev-codex-router-lab,0,typescript,,2026-09-21,evidence-first) `📚1`
+- [argus-sh/argus-ts](https://github.com/argus-sh/argus-ts) `📚1` — A minimal, type-safe, and elegant CLI framework for TypeScript.
+- [arnab621/typesafe-jev-plugin,1,Python,,2026-09-22](https://github.com/arnab621/typesafe-jev-plugin,1,python,,2026-09-22) `📚1`
+- [astahmer/pandabox](https://github.com/astahmer/pandabox) `📚1` — a toolbox for Panda CSS
+- [atulify/omp-plugin-jev-router,1,TypeScript,,2026-09-21,Route](https://github.com/atulify/omp-plugin-jev-router,1,typescript,,2026-09-21,route) `📚1`
+- [Barba-Tech-CO/jev-claude-skill,0,Python,,2026-09-19](https://github.com/barba-tech-co/jev-claude-skill,0,python,,2026-09-19) `📚1`
+- [BenjaminG/ai-skills](https://github.com/benjaming/ai-skills) `📚1`
+- [beso1225/codex-jev-harness](https://github.com/beso1225/codex-jev-harness) `📚1`
+- [bigdra50/skills](https://github.com/bigdra50/skills) `📚1`
+- [billshoap/hermesfixes](https://github.com/billshoap/hermesfixes) `📚1`
+- [blackplume233/game-developers-skills](https://github.com/blackplume233/game-developers-skills) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [bradsec/mynameisjev](https://github.com/bradsec/mynameisjev) `📚1` — Jev model router plugin for Claude Code: routes each message to the cheapest fitting Claude model or Codex
+- [brunogallo/delegate-work-skill](https://github.com/brunogallo/delegate-work-skill) `📚1` — Project skill: Astra/Sol planning, Luna Max implementation, TypeSafe Jev assistance.
+- [buiphucminhtam/forgewright](https://github.com/buiphucminhtam/forgewright) `📚1` — Forgewright Jev skill router · buiphucminhtam · GitHub · ⭐ 49 repo · 2026-03-06Optional, default-off Jev adapter in the Forgewright AI engineering harness that…
+- [bytelabs-oss/jev-sift](https://github.com/bytelabs-oss/jev-sift) `📚1` — eep Claude Code context clean: tool results filtered through Jev before the model sees them
+- [cablate/longform-production-method](https://github.com/cablate/longform-production-method) `📚1` — A source-grounded method for producing newsletters and long-form writing with staged AI work and Typ
+- [candidosales/herdr-laya-router](https://github.com/candidosales/herdr-laya-router) `📚1` — Herdr plugin that picks Claude Code, Codex or OpenCode plus model and effort for a task, then launch
+- [cdepuy/hermes-skill-router](https://github.com/cdepuy/hermes-skill-router) `📚1` — Hermes plugin: Jev-style skill pre-routing with a local Laya model (421M System-1). Injects the top-N relevan…
+- [cerredz/Vidbyte-Jev-Skills,0,,,2026-09-22,A](https://github.com/cerredz/vidbyte-jev-skills,0,,,2026-09-22,a) `📚1`
+- [chaseai-yt/jev-audit](https://github.com/chaseai-yt/jev-audit) `📚1` — Find where TypeSafe Jev fits your real workflows. An evidence-based audit skill for Claude Code, Cod
+- [chat-prompt/gpters-ai-toolkit](https://github.com/chat-prompt/gpters-ai-toolkit) `📚1` — GPTers AI Toolkit - Skills, Agents, and Prompts Catalog for Claude Code
+- [cinjoff/firehorse](https://github.com/cinjoff/firehorse) `📚1` — Firehorse agentic skills framework
+- [Claude Code docs](https://code.claude.com/docs/en/skills) `📚1`
+- [Clevis22/hermes-deep-research,0,Python,,2026-09-22](https://github.com/clevis22/hermes-deep-research,0,python,,2026-09-22) `📚1`
+- [codaaiteam/jev-computer-use](https://github.com/codaaiteam/jev-computer-use) `📚1` — Gate any agent's actions (Claude Code / Codex / opencode / computer-use) with a typed, cal
+- [codaaiteam/jev-skill,0,,,2026-09-19](https://github.com/codaaiteam/jev-skill,0,,,2026-09-19) `📚1`
+- [codaaiteam/jev-skill-router,0,HTML,,2026-09-24](https://github.com/codaaiteam/jev-skill-router,0,html,,2026-09-24) `📚1`
+- [Codex docs](https://developers.openai.com/codex/skills) `📚1`
+- [coil398/dotfiles](https://github.com/coil398/dotfiles) `📚1` — jev-stop-guard · coil398 · GitHub · ⭐ 8 repo · 2016-11-04Stop hook for Codex, Cursor and Devin CLI that asks Jev whether the main agent is stopping with…
+- [CompleteTech-LLC-AI-Research/jev-codex-approval](https://github.com/completetech-llc-ai-research/jev-codex-approval) `📚1` — Experimental typed JEV approval preflight for Codex with deterministic policy gates and Guardian fal
+- [cryptoSUN2049/xDAN-JEV-Plugin](https://github.com/cryptosun2049/xdan-jev-plugin) `📚1` — Single-backbone Qwen 9B JEV research deployment plugin; verified assets and auto/jev/llm API
+- [damian87x/jev-pi-skills,0,JavaScript,,2026-09-24](https://github.com/damian87x/jev-pi-skills,0,javascript,,2026-09-24) `📚1`
+- [danielhirt/truthsayer](https://github.com/danielhirt/truthsayer) `📚1` — Calibrated yes-or-no checks for AI coding agents: a Claude Code plugin and a Rust crate on the Jev d
+- [dannyowelch/jev-skill-suggester,0,TypeScript,,2026-09-23,Jev](https://github.com/dannyowelch/jev-skill-suggester,0,typescript,,2026-09-23,jev) `📚1`
+- [dave-jin/para-ai-skills](https://github.com/dave-jin/para-ai-skills) `📚1`
+- [davehardy20/pi-skills](https://github.com/davehardy20/pi-skills) `📚1`
+- [dbreunig/building-with-jev-skill,134,,,2026-09-17,2026-09-26](https://github.com/dbreunig/building-with-jev-skill,134,,,2026-09-17,2026-09-26) `📚1`
+- [dgyun-ai/openclaw-typesafe-catalog-router](https://github.com/dgyun-ai/openclaw-typesafe-catalog-router) `📚1` — typesafe jev openclaw plugins
+- [dimitritholen/clouter](https://github.com/dimitritholen/clouter) `📚1` — Claude Code plugin: routes image, SVG, video and speech prompts to Jev-ranked OpenRouter models
+- [dkauser12/rp-director](https://github.com/dkauser12/rp-director) `📚1` — SillyTavern extension for Jev-backed RP adjudication, native send/swipe integration, and reviewed NPC actions.
+- [Doctor9Trio/skill-switcher,0,HTML,,2026-09-23](https://github.com/doctor9trio/skill-switcher,0,html,,2026-09-23) `📚1`
+- [dovstern/jev-ultrafast-computer-use](https://github.com/dovstern/jev-ultrafast-computer-use) `📚1` — Supervised Jev browser use for Codex and Claude
+- [dreyfus92/jev-shadow](https://github.com/dreyfus92/jev-shadow) `📚1` — claude code plugin that measures jev before trusting it: background verdicts, joined with the classi
+- [duolahypercho/codex-router](https://github.com/duolahypercho/codex-router) `📚1`
+- [dusbin/jev-skill,0,JavaScript,,2026-09-20,参考](https://github.com/dusbin/jev-skill,0,javascript,,2026-09-20,参考) `📚1`
+- [eadst/polyjev](https://github.com/eadst/polyjev) `📚1` — 📊 Polymarket × 🧠 TypeSafe Jev: Jev judges each Polymarket market blind to its price, polyjev weighs
+- [eh-tools/dsh-plugin](https://github.com/eh-tools/dsh-plugin) `📚1`
+- [eidos-space/eidos-smart-actions-plugin](https://github.com/eidos-space/eidos-smart-actions-plugin) `📚1` — Jev-powered classification, scoring and actions for Eidos Lite
+- [eitaar/jev-skill-router,0,TypeScript,,2026-09-23](https://github.com/eitaar/jev-skill-router,0,typescript,,2026-09-23) `📚1`
+- [EmilianoVeron/jev-skill,0,,,2026-09-19](https://github.com/emilianoveron/jev-skill,0,,,2026-09-19) `📚1`
+- [emoubarak/jev-check](https://github.com/emoubarak/jev-check) `📚1` — Agent skill for Claude Code / Codex / OpenClaw: puts a jev-ultrafast browser agent on your staging app, signed in as a throwaway account in an exact state…
+- [enhansome/enhansome-ai-plugins](https://github.com/enhansome/enhansome-ai-plugins) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [enhansome/enhansome-codex-plugins](https://github.com/enhansome/enhansome-codex-plugins) `📚1`
+- [ensaremirerol/jev-writer](https://github.com/ensaremirerol/jev-writer) `📚1` — Claude Code plugin: Jev-based checks for academic paper writing (fact support, level, complexity, fl
+- [eran-broder/jev-skills,4,TypeScript,,2026-09-23,Skills](https://github.com/eran-broder/jev-skills,4,typescript,,2026-09-23,skills) `📚1`
+- [Ex8-ca/jev-router,4,Python,,2026-09-24,Hermes](https://github.com/ex8-ca/jev-router,4,python,,2026-09-24,hermes) `📚1`
+- [Fei2-Labs/skill-genie](https://github.com/fei2-labs/skill-genie) `📚1` — ai-csuite Jev judgments · Fei2-Labs · GitHub · ⭐ 12 repo · 2026-01-09AI C-Suite strategic debate skill that can use Jev to classify the decision topic and…
+- [FlyPig23/DealWeek](https://github.com/flypig23/dealweek) `📚1` — An open-source AI skill that turns Gmail and Outlook promotions into a weekly savings calendar, with
+- [frederico-kluser/jev-agent-skill,0,JavaScript,,2026-09-24](https://github.com/frederico-kluser/jev-agent-skill,0,javascript,,2026-09-24) `📚1`
+- [freeleepm/new-api-jev-plugin](https://github.com/freeleepm/new-api-jev-plugin) `📚1`
+- [fsans/jev-skill](https://github.com/fsans/jev-skill) `📚1` — Spec-compliant universal agent skill: fast TypeSafe Jev semantic judgments (intent detection, code r
+- [fsans/jev-skill,0,Python,,2026-09-20](https://github.com/fsans/jev-skill,0,python,,2026-09-20) `📚1`
+- [gabrielegualtieri/jev-compaction-plugin](https://github.com/gabrielegualtieri/jev-compaction-plugin) `📚1`
+- [gavinHuang/jevinize](https://github.com/gavinhuang/jevinize) `📚1` — Claude Code skill: Jev-inize a use case into a simple-jev-powered classifier/router system
+- [gbesse/strapi-plugin-jev-review,0,JavaScript,,2026-09-26,Strapi](https://github.com/gbesse/strapi-plugin-jev-review,0,javascript,,2026-09-26,strapi) `📚1`
+- [giorgiocerruti/jev-skils](https://github.com/giorgiocerruti/jev-skils) `📚1` — Claude Code skill: integrate TypeSafe's Jev (System One model) into JS/TS projects — primitives, SDK
+- [GLDRoger/jevis](https://github.com/gldroger/jevis) `📚1` — Hooks that give Codex, Claude Code, and other coding agents a second pair of eyes: lessons at the right moment, refusals before ...
+- [GuanWhite/cmd-risk-plugin](https://github.com/guanwhite/cmd-risk-plugin) `📚1` — Jev-powered command-risk assessor for AI agents: estimates the probability a shell command
+- [GuilhermeBars/jev-skill,0,Python,,2026-09-23,Skill](https://github.com/guilhermebars/jev-skill,0,python,,2026-09-23,skill) `📚1`
+- [guybrush1984/purelink](https://github.com/guybrush1984/purelink) `📚1` — Chrome plugin to highlight AI generated posts
+- [gxx0720/jev-codex-router](https://github.com/gxx0720/jev-codex-router) `📚1`
+- [hak-jev-plugin](https://npmjs.com/package/hak-jev-plugin) `📚1`
+- [HanboyLee/typesafe-decision-skill,1,,,2026-09-21](https://github.com/hanboylee/typesafe-decision-skill,1,,,2026-09-21) `📚1`
+- [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) `📚1` — A curated list of the best awesome AI plugins for AI assistants including Claude Code, OpenAI Codex / ChatGPT, Gemini, Antigravity, Pi / Oh My Pi, Grok,…
+- [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) `📚1`
+- [heavenyu1982yu/dsh-skill-suggest](https://github.com/heavenyu1982yu/dsh-skill-suggest) `📚1` — Fail-open two-hop skill suggestion plugin for DeepSeek Harness (DSH): TypeSafe Jev ranks the roster
+- [hebbianai/dure](https://github.com/hebbianai/dure) `📚1` — dure jev · hebbianai · GitHub · ⭐ 22 repo · 2026-07-30CLI command in Dure, an open-source workspace coordinating Claude Code, Codex and Pi agents across…
+- [hermes-jev-approvals](https://mrjev.com/projects/anpicasso-hermes-jev-approvals) `📚1` — Read in its code and covered by its own boundary test; we did not drive that path
+- [hideshi/llm-skills](https://github.com/hideshi/llm-skills) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [himomohi/jev-skill-router,3,Python,,2026-09-22,Keep](https://github.com/himomohi/jev-skill-router,3,python,,2026-09-22,keep) `📚1`
+- [hnaderi/sbt-k8s](https://github.com/hnaderi/sbt-k8s) `📚1` — Unopinionated kubernetes manifests for scala and sbt
+- [How to Use JEV in Cursor and Claude Code](https://jevproxy.com/blog/how-to-use-jev-in-cursor-and-claude-code) `📚1` — Step-by-step setup guide to eliminate the 2-second tool freeze in Cursor, Claude Code, and Copilot.
+- [hqbvqv/jev-for-codex](https://github.com/hqbvqv/jev-for-codex) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [HunterXing/typesafe-ai-jev-skill](https://github.com/hunterxing/typesafe-ai-jev-skill) `📚1` — Portable Agent Skill for TypeSafe System One / Jev with custom provider configuration
+- [HunterXing/typesafe-ai-jev-skill,0,JavaScript,,2026-09-25,Portable](https://github.com/hunterxing/typesafe-ai-jev-skill,0,javascript,,2026-09-25,portable) `📚1`
+- [HuolalaTech/react-query-kit](https://github.com/huolalatech/react-query-kit) `📚1` — 🕊️ A toolkit for ReactQuery that make ReactQuery hooks reusable and typesafe
+- [hzq001/cpa-plugin-jev](https://github.com/hzq001/cpa-plugin-jev) `📚1` — CLIProxyAPI TypeSafe System One (Jev) native provider plugin
+- [ianluo/skills](https://github.com/ianluo/skills) `📚1`
+- [Idk507/chatgpt-jev-plugin](https://github.com/idk507/chatgpt-jev-plugin) `📚1` — Other related projects
+- [Idk507/jev-codex-plugin](https://github.com/idk507/jev-codex-plugin) `📚1` — Agent tools and workflow control
+- [ivanhofer/inlang-plugin-typesafe-i18n](https://github.com/ivanhofer/inlang-plugin-typesafe-i18n) `📚1` — the official typesafe-i18n plugin for inlang
+- [jackchen13755/dsh-jev-core](https://github.com/jackchen13755/dsh-jev-core) `📚1` — Shared kernel for the Jev DSH plugins: transport, retry/breaker/limiter, verdict cache, service shim
+- [JacobADevore/next-validenv](https://github.com/jacobadevore/next-validenv) `📚1` — Typesafe environment variables for Next.js
+- [JacobHsu/skill-typesafe-ai](https://github.com/jacobhsu/skill-typesafe-ai) `📚1` — typesafe-ai in:name,description created:2026-0
+- [janegbert/ask-jev](https://github.com/janegbert/ask-jev) `📚1` — Ask Jev about a file instead of reading it. A Claude Code plugin. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [jason-allen-oneal/openclaw-plugin-typesafe-ai,0,TypeScript](https://github.com/jason-allen-oneal/openclaw-plugin-typesafe-ai,0,typescript) `📚1`
+- [jasonjeske/hermes-jev-context-engine](https://github.com/jasonjeske/hermes-jev-context-engine) `📚1` — Experimental selective context compaction for Hermes Agent using TypeSafe Jev. Native plugin, local
+- [jay1803/ship-skills](https://github.com/jay1803/ship-skills) `📚1` — Skills for Codex to ship your idea automatically.
+- [jeanjeanloic/seo-aeo-jev-skills](https://github.com/jeanjeanloic/seo-aeo-jev-skills) `📚1` — Free SEO+AEO skills pack: Opus writes, Jev decides (typed gates). Companion to the operator article.
+- [jeanjeanloic/seo-aeo-jev-skills,0,,,2026-09-24](https://github.com/jeanjeanloic/seo-aeo-jev-skills,0,,,2026-09-24) `📚1`
+- [jeger-ai/opengantry](https://github.com/jeger-ai/opengantry) `📚1` — OpenGantry Jev preflight · jeger-ai · GitHub · ⭐ 7 repo · 2026-05-11Experimental preflight in the OpenGantry agent-governance CLI that asks Jev which manifest…
+- [jeiang/agent-skills](https://github.com/jeiang/agent-skills) `📚1` — stuff i use for codex Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [jethrojones/hermes-jev-router](https://github.com/jethrojones/hermes-jev-router) `📚1` — Hermes Agent plugin that has Jev grade each request into five capability levels and routes it to a locally discovered model, showing a route card. no license ·…
+- [Jev Agent Skill Router](https://mrjev.com/projects/godsboy-jev-agent-skill-router) `📚1` — We had to patch the constant to test it
+- [Jev Skills](https://mrjev.com/projects/wuyoscar-jev-skill) `📚1` — No — an allow-list of exactly two endpoints, both Jev routes
+- [Jev with Claude Code](https://madewithjev.com/jev-with/claude-code) `📚1` — Routing and compaction inside Claude Code, the builds behind the 200× headline, and where that ceiling stops.
+- [jev-ai/jev-agent-skill,1,,,2026-09-21,Jev](https://github.com/jev-ai/jev-agent-skill,1,,,2026-09-21,jev) `📚1`
+- [jev-kit](https://npmjs.com/package/jev-kit) `📚1` — nikheal25 · Package · ⬇ 480 · 2026-09-20Agent-first CLI for Cursor, Claude Code, Codex and Pi that pipes logs, diffs or files into Jev with Noul, Choice or…
+- [jevgate](https://jevgate.dev) `📚1` — remotehost · App · ⬇ 804 · 2026-09-18Permission hook for Claude Code and Codex that auto-approves routine agent requests in about 300 ms, logs every decision,…
+- [jevido/omarchy-jevido](https://github.com/jevido/omarchy-jevido) `📚1` — My Omarchy 4 shell plugins: a daily wiki digest, a calendar clock, and media controls
+- [jevsuniverse/Jev-plugins](https://github.com/jevsuniverse/jev-plugins) `📚1` — jev in:name created:2026-07-01..2026-07-31
+- [Jevvy](https://mrjev.com/projects/panachy-jevvy) `📚1` — We ran its Claude Code hook against a local server of ours
+- [jianrong7/jev-codex-model-router](https://github.com/jianrong7/jev-codex-model-router) `📚1`
+- [Jilazem/Czip](https://github.com/jilazem/czip) `📚1` — czip · Jilazem · GitHub · ⭐ 6 · 2026-09-16Compresses Claude Code, Codex, Grok and Hermes agent sessions into a searchable pack that new sessions query instead…
+- [jkf87/jev-codex](https://github.com/jkf87/jev-codex) `📚1` — Jev-first local model router and Codex skill: choose a suitable model, then execute once.
+- [jkf87/openclaw-session-router](https://github.com/jkf87/openclaw-session-router) `📚1` — OpenClaw dashboard session router — manual + Jev-judged auto routing of messages to agent sessions (MIT)
+- [jon-devlapaz/Jevvy-chase](https://github.com/jon-devlapaz/jevvy-chase) `📚1` — Agent skill for Cursor where Jev picks the best next clarifying question from supplied candidates until the session ends in a written plan. MIT · Python
+- [jon-devlapaz/tink-skills](https://github.com/jon-devlapaz/tink-skills) `📚1` — grill-me-with-jev · jon-devlapaz · GitHub · ⭐ 13 repo · 2026-08-01Agent skill that stress-tests an engineering plan through a decision-tree interview, using…
+- [jongwony/epistemic-protocols](https://github.com/jongwony/epistemic-protocols) `📚1` — Epistemic Protocols Route · jongwony · GitHub · ⭐ 162 repo · 2025-12-25Claude Code plugin that routes session context to the epistemic protocol matching its…
+- [jorgehara/gentle-jev-lab](https://github.com/jorgehara/gentle-jev-lab) `📚1` — Public lab for testing TypeSafe JEV tool planning with a Gentle-style read-only workflow
+- [kangshifu1/jev-skills-market,0,JavaScript,,2026-09-19](https://github.com/kangshifu1/jev-skills-market,0,javascript,,2026-09-19) `📚1`
+- [karanb192/jev-skill-scout,0,JavaScript,,2026-09-19](https://github.com/karanb192/jev-skill-scout,0,javascript,,2026-09-19) `📚1`
+- [kcd-dev/jev-skill](https://github.com/kcd-dev/jev-skill) `📚1`
+- [kcd-dev/jev-skill,0,Python,,2026-09-21,jev-skill,2026-09-26](https://github.com/kcd-dev/jev-skill,0,python,,2026-09-21,jev-skill,2026-09-26) `📚1`
+- [keeltrace/hermes-nerve,26,Python,,2026-09-18](https://github.com/keeltrace/hermes-nerve,26,python,,2026-09-18) `📚1`
+- [keithasaurus/koda-validate](https://github.com/keithasaurus/koda-validate) `📚1` — Typesafe, Composable Validation
+- [kelwinssavoia/kss-skill](https://github.com/kelwinssavoia/kss-skill) `📚1`
+- [kenchikuliu/jev-browser-skill](https://github.com/kenchikuliu/jev-browser-skill) `📚1` — Codex skill for using TypeSafe Jev as a browser decision layer
+- [kerpopule/hermes-jev-skills,850,Python,,2026-09-18](https://github.com/kerpopule/hermes-jev-skills,850,python,,2026-09-18) `📚1`
+- [KHAEntertainment/jev-skill,0,Python,,2026-09-23](https://github.com/khaentertainment/jev-skill,0,python,,2026-09-23) `📚1`
+- [kibuniverse/dsh-skill-auto-load-typesafe](https://github.com/kibuniverse/dsh-skill-auto-load-typesafe) `📚1` — dsh-skill-auto-load-typesafe - dsh-skill-auto-load-typesafe: TypeSafe Jev ecosystem repository. · TypeScript
+- [kieranklaassen/ruby_llm-skills](https://github.com/kieranklaassen/ruby_llm-skills) `📚1`
+- [kleosr/cursor-clijev-compaction,1,TypeScript,,2026-09-18](https://github.com/kleosr/cursor-clijev-compaction,1,typescript,,2026-09-18) `📚1`
+- [koh11235813/skills](https://github.com/koh11235813/skills) `📚1`
+- [korkin25/agent-plugins](https://github.com/korkin25/agent-plugins) `📚1`
+- [kp8896/jev-toolkit](https://github.com/kp8896/jev-toolkit) `📚1` — "My personal decision layer": a developer demo of the Choice/Score/Noul pattern — LLMs (Claude/Codex) write and reason, Jev routes, scores, gates, and checks…
+- [laguagu/jev-skills,3,,,2026-09-20](https://github.com/laguagu/jev-skills,3,,,2026-09-20) `📚1`
+- [lahfir/claude-plugins](https://github.com/lahfir/claude-plugins) `📚1` — delegate · lahfir · GitHub · ⭐ 49 repo · 2026-09-17Claude Code plugin that decides who runs a task: this session, a sub-agent, or an outside CLI harness. It…
+- [legacybridge-tech/jev-cursor](https://github.com/legacybridge-tech/jev-cursor) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [leonelfame/jev-with-codex](https://github.com/leonelfame/jev-with-codex) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [LichHsu/codex-desktop-jev-worker](https://github.com/lichhsu/codex-desktop-jev-worker) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [linny006/claude-code-plugin-tracker](https://github.com/linny006/claude-code-plugin-tracker) `📚1` — Live index of Claude Code extensions, hooks, and plugins — refreshed every 15 minutes from GitHub Automatically matched explicit Jev and TypeSafe/System One…
+- [LonelyFellas/codex-jev-cua](https://github.com/lonelyfellas/codex-jev-cua) `📚1`
+- [loppo-llc/kojo](https://github.com/loppo-llc/kojo) `📚1` — ojo Jev effort classifier · loppo-llc · GitHub · ⭐ 5 repo · 2026-02-22Per-turn effort classifier in kojo, a mobile remote control for Claude Code, Codex and…
+- [lucasdinonolte/stilvoll](https://github.com/lucasdinonolte/stilvoll) `📚1` — CLI and Vite Plugin turning CSS Tokens into fully typed utility classes
+- [lucioamor/jevify](https://github.com/lucioamor/jevify) `📚1` — jevify: find the AI calls in your app that are really decisions, then migrate them to JEV in shadow mode. Skills for ...
+- [lucioamor/lovable-skill-jevify](https://github.com/lucioamor/lovable-skill-jevify) `📚1` — The /jevify skill for Lovable: audit runtime AI calls for JEV candidates, then /jevify migrate one in shadow mode.
+- [M-T-D-N/codex-ares-windows](https://github.com/m-t-d-n/codex-ares-windows) `📚1` — Automatic reasoning-effort control for Astra and Sol in Codex on Windows. Luna or Jev/Main evaluation within the same turn.
+- [Marceswan/jevis](https://github.com/marceswan/jevis) `📚1` — Jev-powered intent routing plugin for Hermes Agent — fast conversational model up front, big model i
+- [MatsDK/TauRPC](https://github.com/matsdk/taurpc) `📚1` — Typesafe IPC layer for Tauri applications
+- [mayank-devac/context-eng](https://github.com/mayank-devac/context-eng) `📚1` — Local project memory router using JEV for Codex, Claude Code
+- [McKean/intuitive-response](https://github.com/mckean/intuitive-response) `📚1` — A little System 1 for Claude Code: a Go proxy where Claude pre-writes replies to what you
+- [medy17/SilkChat](https://github.com/medy17/silkchat) `📚1` — SilkChat Jev skill selection · medy17 · GitHub · ⭐ 5 repo · 2026-02-11Jev integration in SilkChat, a TanStack Start and Convex AI chat app, that picks which…
+- [mhsFlairs/jev-skills](https://github.com/mhsflairs/jev-skills) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [michaljach/jev-relay](https://github.com/michaljach/jev-relay) `📚1` — Two-model relay for Claude Code and Codex: Jev makes the small decisions, the main model d
+- [Michele-deng/michele-codex-router,0,TypeScript,,2026-09-26](https://github.com/michele-deng/michele-codex-router,0,typescript,,2026-09-26) `📚1`
+- [milojarow/jev-skills](https://github.com/milojarow/jev-skills) `📚1` — Jev (TypeSafe System One) skill and CLI for coding agents: when to use typed semantic decisions and
+- [milojarow/jev-skills,0,Shell,,2026-09-19,Jev](https://github.com/milojarow/jev-skills,0,shell,,2026-09-19,jev) `📚1`
+- [mindroom-ai/response-audit-jev-plugin](https://github.com/mindroom-ai/response-audit-jev-plugin) `📚1` — MindRoom plugin using JEV to audit completed answers and request targeted corrections.
+- [minhlucvan/dsh-plugin-system-one](https://github.com/minhlucvan/dsh-plugin-system-one) `📚1` — TypeSafe Jev (System One) as DeepSeek Harness agent tools, with the token accounting and benchmark t
+- [mohitagw15856/pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills) `📚1`
+- [moukrea/automodel](https://github.com/moukrea/automodel) `📚1` — Automatic model and effort routing for Claude Code, decided per prompt by Jev
+- [mspiechowicz/harness-useful-skills](https://github.com/mspiechowicz/harness-useful-skills) `📚1`
+- [mthines/agent-skills](https://github.com/mthines/agent-skills) `📚1` — jev-assert · mthines · GitHub · ⭐ 13 repo · 2026-04-23Agent skill that turns a natural-language UI expectation into a verdict by asking Jev whether the outcome…
+- [muliziqi/JevForWechat](https://github.com/muliziqi/jevforwechat) `📚1` — Jev analysis plugin for WeChat Android
+- [mykclawd/openclaw-smart-router](https://github.com/mykclawd/openclaw-smart-router) `📚1` — OpenAI-compatible model router for Surplus Intelligence (OpenClaw integration) Automatically matched explicit Jev and TypeSafe/System One references. Category…
+- [n23eos/jev-skills,3,Python,,2026-09-22](https://github.com/n23eos/jev-skills,3,python,,2026-09-22) `📚1`
+- [nadsous/Misogi](https://github.com/nadsous/misogi) `📚1` — Misogi — A second opinion on every "done" your coding agent announces. Sidecar for Claude Code, Codex & Kimi, judged by Jev. _(★0)_
+- [ngallodev-software/use-jev-skill](https://github.com/ngallodev-software/use-jev-skill) `📚1` — a skill to give an agent access and knowledge to create api requests and get…
+- [NicoSKOOL/jev-cannibalization](https://github.com/nicoskool/jev-cannibalization) `📚1` — Claude Code skill: find searches where Google shows the wrong one of your pages, from Search Console
+- [NicoSKOOL/jev-chatgpt-visibility](https://github.com/nicoskool/jev-chatgpt-visibility) `📚1` — Claude Code skill: see how ChatGPT treats your brand across real buyer questions, read by TypeSafe's
+- [nodaysidle/cursorpad](https://github.com/nodaysidle/cursorpad) `📚1`
+- [Non-Plus/fast-jev-llm](https://github.com/non-plus/fast-jev-llm) `📚1` — Context optimization for Claude Code, Codex, and Cursor.
+- [NousResearch](https://hermes-agent.nousresearch.com) `📚1`
+- [ntoombs19/pest-plugin-jev](https://github.com/ntoombs19/pest-plugin-jev) `📚1`
+- [obie/skills](https://github.com/obie/skills) `📚1` — deletion-test skill · obie · GitHub · ⭐ 95 repo · 2026-02-06Claude Code skill that tests whether a module can be regenerated from its spec, with optional Jev…
+- [oozoofrog/codex-skills](https://github.com/oozoofrog/codex-skills) `📚1`
+- [OpenClaw — `@openclaw/typesafe` plugin](https://npmjs.com/package/@openclaw/typesafe) `📚1` — OpenClaw — @openclaw/typesafe plugin — OpenClaw (open-source personal AI assistant framework) added Jev as an opt-in Decision Model through a separate plugin…
+- [OpenCode docs](https://opencode.ai/docs/skills) `📚1`
+- [OpenLinkSoftware/ai-agent-skills](https://github.com/openlinksoftware/ai-agent-skills) `📚1` — Jev judgment modality for agent-rdf-memory · OpenLinkSoftware · GitHub · ⭐ 39 repo · 2025-12-19RDF HowTo in OpenLink's OPAL agent skills that adds an optional…
+- [orlenko/aiq](https://github.com/orlenko/aiq) `📚1` — Quota-aware router for pooled Claude Code and Codex subscriptions: PATH shims, rollover scoring, long-session…
+- [orlenko/skills](https://github.com/orlenko/skills) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [oxwen11/pi-jev-skill-suggestion,1,,,2026-09-19,Pi](https://github.com/oxwen11/pi-jev-skill-suggestion,1,,,2026-09-19,pi) `📚1`
+- [Parcha-ai/parcha-skills](https://github.com/parcha-ai/parcha-skills) `📚1` — Parcha recall Jev judgments · Parcha-ai · GitHub · ⭐ 60 repo · 2026-07-13Agent skill for recalling past coding-agent sessions that is moving its regex date…
+- [PatrickJS/awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules) `📚1` — The layout references were Awesome Cursor Rules, Awesome, Awesome Selfhosted, Awesome Node.js, and Awesome Claude Code. This was a sample of established lists,…
+- [plugpogpag/jev-for-cursor](https://github.com/plugpogpag/jev-for-cursor) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Pluviobyte/rnskill](https://github.com/pluviobyte/rnskill) `📚1` — RNSkill · JEV Office Gate · 1.6K stars — An agent-skill collection containing a JEV gate for bounded office-document checks. Source
+- [pnll1991/io-delegation-skill](https://github.com/pnll1991/io-delegation-skill) `📚1` — Portable I/O delegation skill for Claude Code, Codex and Cursor. Keep reasoning focused; delegate bounded, verifiable work. Automatically matched explicit Jev…
+- [podcctv/Narwhal-Cloud-podman-watcher](https://github.com/podcctv/narwhal-cloud-podman-watcher) `📚1` — Jev MCP server · podcctv · GitHub · ⭐ 6 repo · 2026-04-14Zero-dependency Python MCP server bundled with the Narwhal Cloud container watcher that gives agents…
+- [punkcanyang/hermes-jev-router,1,Python,,2026-09-25,Hermes](https://github.com/punkcanyang/hermes-jev-router,1,python,,2026-09-25,hermes) `📚1`
+- [racecraft-lab/racecraft-plugins-public](https://github.com/racecraft-lab/racecraft-plugins-public) `📚1` — Racecraft agent-plugin marketplace monorepo: the typesafe-jev plugin (0.9.0, listed in the marketplace) adds a one-shot call command and a value-free…
+- [raphael-liu/jev-skill,0,Python,,2026-09-21](https://github.com/raphael-liu/jev-skill,0,python,,2026-09-21) `📚1`
+- [RazanKai/pi-delegateau](https://github.com/razankai/pi-delegateau) `📚1` — A Pi extension for bounded, model-routed delegation to trusted child agents Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [reactive-skills/reactive-skills](https://github.com/reactive-skills/reactive-skills) `📚1`
+- [Read](https://mrjev.com/projects/thruwire-foreman) `📚1` — Codex ran with the Jev key in its environment; since v0.3.0 the key is stripped first.
+- [Reasonofmoon/seal](https://github.com/reasonofmoon/seal) `📚1` — SEAL — No seal, no advance. Workflow kernel: product truth as a sealed graph (not an agent parade, n
+- [redreamality/jev-skill-selection,2,Python,,2026-09-21,Pre-message](https://github.com/redreamality/jev-skill-selection,2,python,,2026-09-21,pre-message) `📚1`
+- [reliable-era/andrej-karpathy-skills-jev](https://github.com/reliable-era/andrej-karpathy-skills-jev) `📚1` — embed jev into claude code/codex/deepseek hardness phases anytime , when need make decisio
+- [renchris/claude-infrastructure](https://github.com/renchris/claude-infrastructure) `📚1` — Custom Claude Code infrastructure — versioned updates, lifecycle hooks, backup system, session search, agent …
+- [ricardosuman/claude-jev](https://github.com/ricardosuman/claude-jev) `📚1` — use jev, typesafe's system one classifier, to cut claude code costs, and measure which dec
+- [RisorseArtificiali/skills](https://github.com/risorseartificiali/skills) `📚1` — JEV shared judgment layer · RisorseArtificiali · GitHub · ⭐ 10 repo · 2026-08-28Shared runner in a coding-agent skill set that turns a target state plus a…
+- [rjvim/ai-skills](https://github.com/rjvim/ai-skills) `📚1`
+- [robbyczgw-cla/hermes-plugin-jev](https://github.com/robbyczgw-cla/hermes-plugin-jev) `📚1` — TypeSafe/Jev decision signals for Hermes: turn classification, conservative tool shaping, approvals,
+- [rsdkrasen/hermes-jev-router,3,Python](https://github.com/rsdkrasen/hermes-jev-router,3,python) `📚1`
+- [rustybladerunner/jev-skills](https://github.com/rustybladerunner/jev-skills) `📚1` — Practical Jev integration and experiment workflows, with runnable evidence-check examples.
+- [rustybladerunner/jev-skills,0,,,2026-09-20](https://github.com/rustybladerunner/jev-skills,0,,,2026-09-20) `📚1`
+- [ruuddrummen/react-signal-forms](https://github.com/ruuddrummen/react-signal-forms) `📚1` — new: Create high performance forms with type-safe configurations, rules and plugins.
+- [safzanpirani/pi-jev-skill-picker,35,TypeScript,,2026-09-20,Rank](https://github.com/safzanpirani/pi-jev-skill-picker,35,typescript,,2026-09-20,rank) `📚1`
+- [sageri/agent-skills](https://github.com/sageri/agent-skills) `📚1` — Agent Skills (SKILL.md) for Claude Code, Codex & ZCode: fast browser automation with TypeSafe Jev, c
+- [saif27217/jev-hermes,0,Python,,2026-09-24](https://github.com/saif27217/jev-hermes,0,python,,2026-09-24) `📚1`
+- [samber/lo](https://github.com/samber/lo) `📚1` — 💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)
+- [samber/mo](https://github.com/samber/mo) `📚1` — 🦄 Monads and popular FP abstractions, powered by Go 1.18+ Generics (Option, Result, Either...)
+- [sammyjoyce/prime-browser-skills](https://github.com/sammyjoyce/prime-browser-skills) `📚1` — Native Prime Agent browser skills: Astra, Jev, and evidence-based web QA
+- [sapphire-cms/defectless](https://github.com/sapphire-cms/defectless) `📚1` — A tool for building predictable and reliable TypeScript programs.
+- [shantanugoel/ask-jev-skill,40,Python,,2026-09-17](https://github.com/shantanugoel/ask-jev-skill,40,python,,2026-09-17) `📚1`
+- [shimo4228/jev-skill-router,4,Python,,2026-09-21](https://github.com/shimo4228/jev-skill-router,4,python,,2026-09-21) `📚1`
+- [ShivamPansuriya/jev-skill-gate,7,JavaScript,,2026-09-17](https://github.com/shivampansuriya/jev-skill-gate,7,javascript,,2026-09-17) `📚1`
+- [shivendrasoni/mimir](https://github.com/shivendrasoni/mimir) `📚1` — Mimir TypeSafe skill and tool selection · shivendrasoni · GitHub · ⭐ 5 repo · 2026-08-13TypeSafe integration in Mimir, a Rust recursive-language-model agent…
+- [sijav/Sijav-Skills](https://github.com/sijav/sijav-skills) `📚1` — Six Claude Code skills that work in any project: rule sets that load only when called, a dev round, codex sessions, roasts ...
+- [simplosophy/jev-skill](https://github.com/simplosophy/jev-skill) `📚1`
+- [sir-ad/codex-jev-task-router](https://github.com/sir-ad/codex-jev-task-router) `📚1` — Model, reasoning effort, skill, and bounded worker routing for Codex with optional TypeSafe Jev.
+- [sir-ad/codex-task-router](https://github.com/sir-ad/codex-task-router) `📚1`
+- [sisodias/jev-agent-skills,0,Python,,2026-09-21](https://github.com/sisodias/jev-agent-skills,0,python,,2026-09-21) `📚1`
+- [skill.md](https://orthogonal.com/skill.md) `📚1`
+- [skills section](https://shipwithjev.com/type/skill) `📚1`
+- [snesmaeili/jev-claude-controller](https://github.com/snesmaeili/jev-claude-controller) `📚1` — A System-1/System-2 coding agent: TypeSafe Jev makes fast typed decisions, deterministic Python owns
+- [sozercan/vekil](https://github.com/sozercan/vekil) `📚1` — Vekil Jev policy routing · sozercan · GitHub · ⭐ 20 repo · 2026-02-12Example policy for Vekil, a Go AI gateway that fronts GitHub Copilot and other providers…
+- [speed25200-cyber/Hermes-Fork](https://github.com/speed25200-cyber/hermes-fork) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [spexus-ai/hermes-jev-topic-policy](https://github.com/spexus-ai/hermes-jev-topic-policy) `📚1` — Jev topic-policy plugin for Hermes: input/output gates, configuration, policy, example cor
+- [steamdollar/codex-config](https://github.com/steamdollar/codex-config) `📚1`
+- [styu/postcss-typesafe-css-modules](https://github.com/styu/postcss-typesafe-css-modules) `📚1` — PostCSS plugin for generating typesafe CSS modules
+- [Sun-Season/jev-codex](https://github.com/sun-season/jev-codex) `📚1` — Codex skill for bounded Jev browser navigation, context filtering, search ranking, and evidence revi
+- [sunznx/skills](https://github.com/sunznx/skills) `📚1`
+- [superlowburn/hermes-jev-cron-gate](https://github.com/superlowburn/hermes-jev-cron-gate) `📚1` — Hermes plugin: skip agent cron runs that would do nothing, using TypeSafe Jev
+- [svitaTLCO/jev-skill,0,Python,,2026-09-21](https://github.com/svitatlco/jev-skill,0,python,,2026-09-21) `📚1`
+- [taaanmay/openclaw-jev-guard](https://github.com/taaanmay/openclaw-jev-guard) `📚1` — OpenClaw-Jev-Guard, a production-ready open-source verification layer for AI agents using Jev.
+- [taman-spirit/product-skill-jev](https://github.com/taman-spirit/product-skill-jev) `📚1`
+- [thatjuan/agent-skills](https://github.com/thatjuan/agent-skills) `📚1`
+- [TheMarco/token-saver](https://github.com/themarco/token-saver) `📚1` — Pairs Codex-to-Muse task delegation with "Jev Context," which ranks file and log excerpts by relevance before they enter the main model's context instead of…
+- [theodorexli/Caret](https://github.com/theodorexli/caret) `📚1` — Cursor tab-style completion in every app, aware of who you are, what you’ve been doing, and capable of using …
+- [timainge/good-cop](https://github.com/timainge/good-cop) `📚1` — A second opinion on every tool call your coding agent makes: local-first guardrails for Claude Code and Codex, with LLM, decision-model (Jev) ...
+- [tlangridge/Alloy](https://github.com/tlangridge/alloy) `📚1` — A local, multi-model panel for Claude Code that uses Jev to route tasks by complexity, model strength, and remaining subscription quota.
+- [TomasMikula/jing](https://github.com/tomasmikula/jing) `📚1` — Typesafe, spec-first APIs without codegen. Just Import 'N' Go!
+- [tsdk-monorepo/tsdk](https://github.com/tsdk-monorepo/tsdk) `📚1` — Type-safe API development and code share tool for TypeScript projects.
+- [tuanhung303/agy-jev-hooks](https://github.com/tuanhung303/agy-jev-hooks) `📚1` — Jev-gated stop verifier and skill hooks for AGY, Qoder, and Hermes (formerly agy-background-agent)
+- [tupe12334/holstered](https://github.com/tupe12334/holstered) `📚1` — Hands your coding agent the right skill for each prompt: BM25 recall + Jev, one hook binary for Claude Code, Codex, Gemini ...
+- [uberspaceguru/tmux-jev](https://github.com/uberspaceguru/tmux-jev) `📚1` — Exact tmux control with optional read-only Jev judgments for agent panes.
+- [usedhonda/jev-scout](https://github.com/usedhonda/jev-scout) `📚1` — Shared Jev Scout skill for Claude Code and Codex
+- [ussyverse/hermes-jev-router,2,Python,Experimental](https://github.com/ussyverse/hermes-jev-router,2,python,experimental) `📚1`
+- [usualoma/mt-plugin-jev](https://github.com/usualoma/mt-plugin-jev) `📚1` — Natural-language search for Movable Type 9 with OpenAI embeddings and Jev.
+- [VBS2004/hermes-jev-lesson-gate](https://github.com/vbs2004/hermes-jev-lesson-gate) `📚1` — Reviewed 2026-09-30 (Europe/Sofia) at commit 838bdd4. AI-assisted README and license inspection; install/live paths not executed.
+- [vectorAz/goutoujunshi-jev](https://github.com/vectoraz/goutoujunshi-jev) `📚1`
+- [voidning/jev-figma-design-plugin](https://github.com/voidning/jev-figma-design-plugin) `📚1`
+- [wangdada8208/codex-cua-jev](https://github.com/wangdada8208/codex-cua-jev) `📚1` — Bridge Codex native macOS Computer Use runtime to any AI agent without login, guided by TypeSafe Jev
+- [wangmiaozero/laya-router-skill](https://github.com/wangmiaozero/laya-router-skill) `📚1` — Cross-platform Laya decision routing skill for Codex, Claude Code, OpenCode, Pi and other Agent Skil
+- [WanLanglin/jev-skills,1,Python,,2026-09-21](https://github.com/wanlanglin/jev-skills,1,python,,2026-09-21) `📚1`
+- [wbuecksler/jev-brainstorm](https://github.com/wbuecksler/jev-brainstorm) `📚1` — Interview-style Jev discovery kit for non-engineers: point Claude Code, Cursor, ChatGPT, Grok, or Claude.ai at the repo and it interviews you one question at a…
+- [what-my-names/operit-jev-skills,0,Python,,2026-09-23,Jev](https://github.com/what-my-names/operit-jev-skills,0,python,,2026-09-23,jev) `📚1`
+- [who/ortus](https://github.com/who/ortus) `📚1` — Ortus Jev pre-turn gate · who · GitHub · ⭐ 5 repo · 2026-01-17Optional pre-turn gate in Ortus, which closes a backlog of bd issues with Claude Code, Codex,…
+- [win4r/jev-skill-suggester,33,Python,,2026-09-19](https://github.com/win4r/jev-skill-suggester,33,python,,2026-09-19) `📚1`
+- [wingsky-1/dsh-plugin-hub](https://github.com/wingsky-1/dsh-plugin-hub) `📚1` — DSH (DeepSeek Harness) web GUI plugin collection — task notifications, provider usage, LAN proxy, MCP manager…
+- [winwiny/codex-model-routing](https://github.com/winwiny/codex-model-routing) `📚1`
+- [wlawrencelo/Claude-code-Codex-Jev-harness](https://github.com/wlawrencelo/claude-code-codex-jev-harness) `📚1`
+- [wmtang2/jevknows](https://github.com/wmtang2/jevknows) `📚1` — A malicious instruction protection skill and prehook for zcode
+- [woodwosj/jevor](https://github.com/woodwosj/jevor) `📚1` — Layered compaction fork of fast-jev-compaction (Claude Code plugin): archive+expand modes, local-lane gating, optional OpenRouter transport
+- [wowhxj/pi-jev-subagent-router](https://github.com/wowhxj/pi-jev-subagent-router) `📚1` — Pi extension that asks TypeSafe Jev which configured Pi model best fits each subagent task. Modes: active (apply when no explicit model set), shadow (log the…
+- [wusi321/jev-decision-skills](https://github.com/wusi321/jev-decision-skills) `📚1`
+- [wuyoscar/jev-skill,501,Python,,2026-09-20](https://github.com/wuyoscar/jev-skill,501,python,,2026-09-20) `📚1`
+- [wuzeyou/jev-hands](https://github.com/wuzeyou/jev-hands) `📚1` — Drive an Android phone from Claude Code: TypeSafe Jev picks which UI element to act on, the plugin v
+- [xal-sh/xal](https://github.com/xal-sh/xal) `📚1` — Xal TypeSafe plugin · xal-sh · GitHub · ⭐ 37 repo · 2026-08-05Built-in TypeSafe decision provider for the Xal terminal coding harness; one switch turns on…
+- [xiaoyanng/yanng-laya-skill](https://github.com/xiaoyanng/yanng-laya-skill) `📚1` — Unofficial agent skill for Claude Code, Codex and other agents: fast, local typed decisions with Laya, the open-source System One model.
+- [Yaklede/codex-jev-auto](https://github.com/yaklede/codex-jev-auto) `📚1`
+- [YannBirba/vps-panda-css](https://github.com/yannbirba/vps-panda-css) `📚1` — Panda CSS integration with vite-plugin-ssr example
+- [Yaxun-Yang/codex-effort-with-jev](https://github.com/yaxun-yang/codex-effort-with-jev) `📚1` — Local Codex UserPromptSubmit hook: asks TypeSafe's Jev for a reasoning-effort recommendation before each task — suggests a level, never changes settings or…
+- [ydmw74/jev-skill-router](https://github.com/ydmw74/jev-skill-router) `📚1` — TypeSafe cookbook skill suggestion (Jev) as a stdio MCP server for Hermes: one Choice call ranks the
+- [ydmw74/jev-skill-router,0,Python,,2026-09-23](https://github.com/ydmw74/jev-skill-router,0,python,,2026-09-23) `📚1`
+- [yizhiyanhua-ai/fireworks-vibe-cleaner](https://github.com/yizhiyanhua-ai/fireworks-vibe-cleaner) `📚1` — Offline-first disk cleanup Skill and CLI for Codex and Claude Code, with plan-bound recovery and optional Jev…
+- [yrui-cmd/Botverse_convert_to_jev](https://github.com/yrui-cmd/botverse_convert_to_jev) `📚1` — Add Jev judgment nodes to existing Codex Skills without rewriting them from scratch.
+- [yusupsupriyadi/jev-skill](https://github.com/yusupsupriyadi/jev-skill) `📚1` — Claude Code plugin that routes skill selection and post-turn code judgment through TypeSafe Jev on O
+- [yusupsupriyadi/jev-skill,1,JavaScript,,2026-09-22,Claude](https://github.com/yusupsupriyadi/jev-skill,1,javascript,,2026-09-22,claude) `📚1`
+- [yuyang2230/jev-agent-skill,0,Python,Free](https://github.com/yuyang2230/jev-agent-skill,0,python,free) `📚1`
+- [zereight/muse-jev-skill-router](https://github.com/zereight/muse-jev-skill-router) `📚1`
+- [zhonggheart/codex-auto-router](https://github.com/zhonggheart/codex-auto-router) `📚1`
+- [zhulinchng/jevper-skill](https://github.com/zhulinchng/jevper-skill) `📚1` — Agent tools and workflow control
+- [ztllll/cpa-plugin-opencode-jev](https://github.com/ztllll/cpa-plugin-opencode-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [zurfyx/jev-browser-skill-demo](https://github.com/zurfyx/jev-browser-skill-demo) `📚1` — Let Jev, TypeSafe's ~100ms decision model, drive your browser. A plug-and-play skill for Claude Code and Codex. ★ 1 · endpoint · JavaScript
+- [网站](https://sink.5km.tech/skills) `📚1`
+
+</details>

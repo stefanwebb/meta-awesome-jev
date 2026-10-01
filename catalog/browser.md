@@ -1,0 +1,806 @@
+# Browser, Desktop & Computer Use
+
+> Browser agents, computer-use, mobile/GUI agents and extensions.
+>
+> **783 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 86
+
+- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) `★21,563 · 📚76` — Fastest and cheapest web agent.
+- [droidrun/mobile-jev](https://github.com/droidrun/mobile-jev) `★426 · 📚59` — Jev Android automation agent that selects app actions through Mobilerun, with a live dashboard, CLI, and execution traces.
+- [moritzkremb/jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser) `★374 · 📚49` — Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwright acts — often before you finish the sentence.
+- [kitze/unclutter](https://github.com/kitze/unclutter) `★343 · 📚49` — WXT browser extension: Jev-powered page clutter removal with reusable template rules.
+- [jkudish/jev-browser](https://github.com/jkudish/jev-browser) `★297 · 📚49` — Browser use using Typesafe's Jev model.
+- [awlevin/typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) `★1,098 · 📚46` — Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.
+- [wy-coliney/jev-browser-use](https://github.com/wy-coliney/jev-browser-use) `★721 · 📚45` — 5–10x faster browser operations: Jev clicks, Codex thinks and verifies. Built at EZCollegeApp.
+- [Ying-Kai-Liao/jev-browser](https://github.com/ying-kai-liao/jev-browser) `★93 · 📚43` — Browser automation where an LLM plans and Jev (Typesafe System One) decides. Library, CLI and MCP server.
+- [valentynkit/jev-skip](https://github.com/valentynkit/jev-skip) `★5 · 📚39` — YouTube sponsor skipper that reads the captions and decides at watch time: a probability heatmap on the seek bar, no crowd database
+- [chy4pro/jev-for-chrome](https://github.com/chy4pro/jev-for-chrome) `★33 · 📚37` — Jev for Chrome: drives the tab you are looking at with TypeSafe Jev, a sub-second decision model. Community port of browser-use/jev-ultrafast, not affiliated with TypeSafe.
+- [romaluev/jev-ego](https://github.com/romaluev/jev-ego) `★16 · 📚29` — Fast browser agent for ego lite. One TypeSafe request per step; an agent or Jev picks the move.
+- [Sac-Y/Jev-cu](https://github.com/sac-y/jev-cu) `★613 · 📚28` — A Codex skill where Jev picks the next UI action for computer use while a local policy gate blocks sensitive clicks.
+- [tontoko/jev-browser](https://github.com/tontoko/jev-browser) `★10 · 📚27` — One grounded Jev/Playwright core: typed SDK, persistent CLI, and MCP server with native browser operations and deterministic assertions.
+- [Friedjof/jev-mobile](https://github.com/friedjof/jev-mobile) `★7 · 📚25` — Fast structured Android control loops with TypeSafe Jev and Mobile MCP
+- [yikangy873-gif/jev-desktop](https://github.com/yikangy873-gif/jev-desktop) `★74 · 📚24` — TypeSafe Jev action selection inside Codex Computer Use
+- [forvela/jev-agent-browser](https://github.com/forvela/jev-agent-browser) `★13 · 📚24` — Fast, bounded browser agents powered by Jev and agent-browser — typed actions, research, classification, and safe orchestration.
+- [anishfn/shapeshift](https://github.com/anishfn/shapeshift) `★755 · 📚23` — An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline.
+- [vinilana/live-jev](https://github.com/vinilana/live-jev) `★20 · 📚23` — 2D autonomous car simulation in the browser, driven by TypeSafe's Jev decision model
+- [kitze/pagegrade](https://github.com/kitze/pagegrade) `★7 · 📚23` — Grade page sections for clarity, writing and on-page SEO. WXT + TypeSafe AI Jev.
+- [savka777/jev-use](https://github.com/savka777/jev-use) `★111 · 📚22` — Say it, and your Mac does it. A computer-use harness on Jev that reads the screen through Accessibility. Fast, no vision model
+- [achimala/jev-paint](https://github.com/achimala/jev-paint) `★61 · 📚22` — Use Jev to make art!
+- [manifoldor/xtags](https://github.com/manifoldor/xtags) `★11 · 📚21` — 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自 Jev，一个只返回概率、不生成文本的模型。
+- [keltokhy/jlink](https://github.com/keltokhy/jlink) `★6 · 📚21` — Record linkage for economists: write the match rule in plain English, get a probability per pair, audit it, cite it. Python, CLI, Stata and R.
+- [paulsmith/computer-use-jev](https://github.com/paulsmith/computer-use-jev) `★6 · 📚21` — macOS computer use driven by Jev (TypeSafe System One) as the decision maker
+- [w3cj/jev-chat](https://github.com/w3cj/jev-chat) `★105 · 📚20` — A tool calling chat bot built with Jev and no LLM.
+- [jcpsimmons/jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop) `★23 · 📚20` — Open-source macOS AI computer use and native GUI automation on Apple silicon. Jev + OmniParser CoreML + Apple Vision OCR. Bring your own OpenRouter, Vercel AI Gateway, or TypesafeAI token.
+- [joevidev/ui-generator-instinct-jev](https://github.com/joevidev/ui-generator-instinct-jev) `★7 · 📚20` — ui-generator-instinct-jev - Turns UI descriptions into selections from existing shadcn/ui components, fields and styles.
+- [himomohi/aside-jev](https://github.com/himomohi/aside-jev) `★8 · 📚19` — Aside agents decide with TypeSafe Jev (System One: Choice/Score/Noul). Not a Cua binding — Jev is the model, Aside is the browser runtime.
+- [PistachioAIHQ/jev-synergy-screening](https://github.com/pistachioaihq/jev-synergy-screening) `★2 · 📚19` — Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels
+- [oso95/x-scanner](https://github.com/oso95/x-scanner) `★21 · 📚18` — Chrome extension that labels every post you scroll past on X with typed Jev judgments and a live cost counter
+- [trycua/cua](https://github.com/trycua/cua) `★27,561 · 📚17` — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+- [milind-soni/tiptour-macos](https://github.com/milind-soni/tiptour-macos) `★669 · 📚17` — Open-Source fast local computer use.
+- [openqa-cn/jev-browser](https://github.com/openqa-cn/jev-browser) `★104 · 📚17` — Jev Browser — indexed browser automation. Jev chooses the control, Playwright acts. A CodexQA skill.
+- [ufec/jev-block-android-ad](https://github.com/ufec/jev-block-android-ad) `★7 · 📚17` — JevNoiseGate filters unwanted notifications and SMS on Android. Rather than   matching keywords, an LLM decides what's noise — and only what it explicitly   flags is blocked. Verification codes are matched on-device and never uploaded;  …
+- [TKY-27/JevSlop](https://github.com/tky-27/jevslop) `★4 · 📚17` — Jevによるnote記事のAI Slop判定サイト.
+- [lahfir/agent-desktop](https://github.com/lahfir/agent-desktop) `★1,733 · 📚16` — Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing…
+- [ethanplusai/jev-chat-for-twitch](https://github.com/ethanplusai/jev-chat-for-twitch) `★13 · 📚16` — Filter any live Twitch chat with Jev: a bring-your-own-key Chrome extension
+- [NobleSpartan6/otto](https://github.com/noblespartan6/otto) `★4 · 📚16` — Open-source native computer use for macOS and Windows: TypeSafe Jev, local OCR, and selective planning.
+- [KesavanKing/jev-browser](https://github.com/kesavanking/jev-browser) `★0 · 📚16` — Local browser automation UI that uses TypeSafe Jev to choose bounded page actions and a text model only for field values.
+- [mizchi/jev-playground](https://github.com/mizchi/jev-playground) `★72 · 📚15` — jev-playground - A MoonBit and TypeScript Jev playground covering games, browsers, command risk and small languages.
+- [ronadin2002/jev-cua](https://github.com/ronadin2002/jev-cua) `★38 · 📚15` — Voice and text control for macOS. One floating bar, live UI action selection with Jev, and a continuous observe–act–verify loop.
+- [cocktailpeanut/jevthoven](https://github.com/cocktailpeanut/jevthoven) `★16 · 📚15` — AI Music (MIDI) generator powered by Jev.
+- [jaibhasin/jev-yt-time-saver](https://github.com/jaibhasin/jev-yt-time-saver) `★7 · 📚15` — A Chrome extension that covers distracting YouTube videos with Jev. Show anyway whenever you want.
+- [TypeSafeAI/typesafe-ui](https://github.com/typesafeai/typesafe-ui) `★6 · 📚15` — shadcn-style reusable components and blocks for using TypeSafe AI.
+- [jiangkoumo/ego-decision-layer](https://github.com/jiangkoumo/ego-decision-layer) `★4 · 📚15` — Pluggable decision layer for the ego lite browser: one System One (Jev) call per step replaces the per-step LLM turn, and the backend can be swapped for a local OpenAI-compatible model. Fail-closed execution guards. The measured one — raw…
+- [vinilana/jev-browser](https://github.com/vinilana/jev-browser) `★4 · 📚15` — Hybrid browser harness: an LLM turns goals into verifiable subgoals, Jev chooses each action and DOM field, Playwright acts.
+- [vmendes90/jev-shield](https://github.com/vmendes90/jev-shield) `★4 · 📚15` — Privacy-first Chrome extension that semantically blocks native ads, sponsored feed cards, and video ads using TypeSafe Jev
+- [krw82/jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp) `★1 · 📚15` — Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent.
+- [dougsong/jev-android](https://github.com/dougsong/jev-android) `★7 · 📚14` — A Kotlin Android SDK for UI automation powered by TypeSafe Jev, with an accessibility runtime and sample app.
+- [etweisberg/jev-ui](https://github.com/etweisberg/jev-ui) `★4 · 📚14` — React components that resolve which component to render, how to order a list, and whether to show an affordance — from calibrated judgments returned by TypeSafe's Jev.
+- [aidil2105/jev-browser-pilot](https://github.com/aidil2105/jev-browser-pilot) `★2 · 📚14` — A bounded decision layer for browser and desktop automation: a decision-only model picks one next step; the code owns perception, content, actuation and verification.
+- [elpumberto/barrunto](https://github.com/elpumberto/barrunto) `★2 · 📚14` — A Chrome extension that brings TypeSafe's Jev to X.com to analyze posts as you browse
+- [sightmap/jev-turbo](https://github.com/sightmap/jev-turbo) `★2 · 📚14` — Jev-powered semantic browser use.
+- [cbetz/extremely-specific-council](https://github.com/cbetz/extremely-specific-council) `★0 · 📚14` — Twelve members. Zero qualifications. A playful TypeSafe AI council with animated votes, inspectable decisions, and shareable verdicts.
+- [eriestra/browser-use-olympics](https://github.com/eriestra/browser-use-olympics) `★0 · 📚14` — Browser Use Olympics by Almond: one prompt, five events, one clock. Plus fast loop, a ~200-line browser computer-use agent (Chrome DevTools + TypeSafe Jev).
+- [tylergibbs1/sift](https://github.com/tylergibbs1/sift) `★0 · 📚14` — Chrome extension that re-ranks Google results with TypeSafe Jev and folds away sales pages and SEO filler.
+- [sdras/jev-webmcp-extension](https://github.com/sdras/jev-webmcp-extension) `★121 · 📚13` — A small extension that demos the combination of Jev x WebMCP
+- [0x7067/jev-browse](https://github.com/0x7067/jev-browse) `★4 · 📚13` — Browser automation with Jev (TypeSafe) as decision model
+- [JacquesGariepy/ORIGIN-CIVILIZATION](https://github.com/jacquesgariepy/origin-civilization) `★3 · 📚13` — AI life-and-civilization simulation: TypeSafe Jev makes every decision (typed, probabilistic, auditable); LLMs plan — OpenAI-compatible APIs, local models (Ollama, LM Studio), Claude Code, Codex.
+- [yairshy/decido](https://github.com/yairshy/decido) `★1 · 📚13` — Probabilistic decisions for Python. Use Jev or bring your own provider; crawl with Playwright.
+- [MahmoudAdelbghany/jev-browser](https://github.com/mahmoudadelbghany/jev-browser) `★0 · 📚13` — Jev-powered browser MCP for LLM agents — ~300ms decisions, no LLM tokens in the loop. Benchmark vs Playwright MCP included.
+- [neddes/sloppy-jevs-extension](https://github.com/neddes/sloppy-jevs-extension) `★0 · 📚13` — Open-source Chrome extension that filters AI-generated prose and ads with Jev
+- [stefw/lkclean](https://github.com/stefw/lkclean) `★15 · 📚12` — Chrome extension that cleans up your LinkedIn feed: hides engagement bait, self-promo and off-topic posts using Jev, TypeSafe AI's typed classification model — and explains every decision.
+- [perixtar/jev-e2e](https://github.com/perixtar/jev-e2e) `★12 · 📚12` — Natural-language end-to-end tests for web apps, powered by Jev and Playwright.
+- [nexibeo/jev-browser-control](https://github.com/nexibeo/jev-browser-control) `★5 · 📚12` — Let Claude code, chatgpt codex or control your own Chrome. Chrome extension + MCP server: Jev, TypeSafe's decision model, picks each click in ~0.5 s for a fraction of a cent. MIT, bring your own OpenRouter key.
+- [Sur-Cai/macos-computer-use-kit](https://github.com/sur-cai/macos-computer-use-kit) `★5 · 📚12` — AX-first computer use for AI agents on macOS with optional Jev (TypeSafe System One) semantic guards: calibrated target/input judgments before an irreversible action, decisions kept in code. Accessibility-tree targeting, window-scoped…
+- [muhammedilyasy/jev-mail](https://github.com/muhammedilyasy/jev-mail) `★4 · 📚12` — Chrome extension that triages Gmail with TypeSafe's Jev model: category, priority, spam % and reply % on every email.
+- [rorshopping/jev-browser-local](https://github.com/rorshopping/jev-browser-local) `★3 · 📚12` — Run jev-browser on a fully local JEV-style decision engine (no cloud API). Warm-browser fork, VRAM guard, measured benchmarks, run traces.
+- [i2cjak/RISC-jeV](https://github.com/i2cjak/risc-jev) `★1 · 📚12` — I tortured Jev into being a RISC-V CPU.
+- [shengjidaguai-china/goutoujunshi-jev-chat](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat) `★230 · 📚11` — 狗头军师 Chat：Mac 微信读屏、关系分析与回复草稿悬浮窗.
+- [SAGAR-TAMANG/sarvam-jev](https://github.com/sagar-tamang/sarvam-jev) `★58 · 📚11` — Generation-free typed decisions on Indic LLMs. An open Jev-style inference engine on sarvam-1: constrained logit readout instead of autoregressive JSON. Runs client-side in the browser.
+- [GoldenLoaf24h/browserpaw](https://github.com/GoldenLoaf24h/browserpaw) `★30 · 📚11` — BrowserClaw - Control your everyday Chrome browser from AI agents, without losing logins or focus
+- [razaanstha/ulka](https://github.com/razaanstha/ulka) `★23 · 📚11` — Experimental browser agent powered by FX, Jev, and Vercel AI Gateway. Bring your own API key to read pages and automate browser tasks.
+- [adamnroman/slop-filter](https://github.com/adamnroman/slop-filter) `★22 · 📚11` — Chrome extension that hides AI-generated posts and comments on X, LinkedIn, and Reddit. Scored by TypeSafe Jev.
+- [filedcom/playjev](https://github.com/filedcom/playjev) `★12 · 📚11` — Fast, typed browser automation powered by Jev and Playwright
+- [mstf-svndk/jev-windows-voice](https://github.com/mstf-svndk/jev-windows-voice) `★4 · 📚11` — Türkçe ve İngilizce doğal konuşmayla Windows 10/11 bilgisayar kontrolü: OpenAI Realtime, local Whisper, Jev, UI Automation ve Playwright.
+- [zsoXi/FeedGate](https://github.com/zsoxi/feedgate) `★1 · 📚11` — Safe-controls Chrome feed filter (v3.3.0) with TypeSafe Jev judgments, temporal topic mutes, repeat grouping, API usage panel with thrift mode, author pickers, transactional cosmetic picker with Undo, persist-first recovery, and six…
+- [bilune/jev-design](https://github.com/bilune/jev-design) `★58 · 📚10` — Can a model design a dashboard? A console whose whole design system is generated at runtime by Jev from a one-sentence brief.
+- [bgivenb/flick-computer-use](https://github.com/bgivenb/flick-computer-use) `★23 · 📚10` — Fast browser and macOS computer use for MCP agents. Local execution, TypeSafe Jev decisions, verified outcomes.
+- [lexmount/jev-browser-bridge](https://github.com/lexmount/jev-browser-bridge) `★9 · 📚10` — Plug any CDP browser into Jev — cloud, local or self-hosted, including browsers that never draw a page.
+- [comoc/jev-minesweeper](https://github.com/comoc/jev-minesweeper) `★8 · 📚10` — TypeSafe Jev (System One) にブラウザ上のマインスイーパーを解かせるデモ.
+- [Mrlyk/jev-browser](https://github.com/mrlyk/jev-browser) `★5 · 📚10` — Browser automation CLI for AI agents, powered by the Jev model's millisecond decisions and near-zero inference costs
+- [antiyro/jevdroid](https://github.com/antiyro/jevdroid) `★3 · 📚10` — A typed Python framework for controlling Android over ADB with Jev.
+- [Ashadeepa/typesafe-showcase](https://github.com/ashadeepa/typesafe-showcase) `★1 · 📚10` — Next.js UI showing off TypeSafe's System One model (Jev) — parallel Noul judgments and a Choice-based citation checker, deployable to Vercel
+- [laihenyi/pi-Jev-browser](https://github.com/laihenyi/pi-jev-browser) `★1 · 📚10` — Browser and macOS desktop agent for pi: Jev (TypeSafe System One) chooses each action from a structured observation in a bounded, surface-agnostic loop. Isolated Playwright tools, an allow-listed accessibility-tree tool, deterministic…
+- [bottlebrushes/jev-orb](https://github.com/bottlebrushes/jev-orb) `★0 · 📚10` — Siri-style push-to-talk voice orb for autonomous browser control with Jev and Metal Whisper
+
+## Established (cited by 5–9 lists) — 113
+
+- [socai-io/socai](https://github.com/socai-io/socai) `★226 · 📚9` — Agent that actually understands social platforms. Fast. Precise. Deep.
+- [michaelswissa/jevry](https://github.com/michaelswissa/jevry) `★122 · 📚9` — Your browser. Ready to act. An MIT-licensed desktop browser agent for website tasks, cited research, and supported games.
+- [henryklunaris/hey-jev](https://github.com/henryklunaris/hey-jev) `★45 · 📚9` — hey-jev — No description provided by the repository (auto-discovered, description not yet written)
+- [MiaoWuNYA/rikkahub-sillytavern-android](https://github.com/miaowunya/rikkahub-sillytavern-android) `★39 · 📚9` — 安卓AI聊天端:开箱即聊，无损导入酒馆卡，缓存强省用量，Jev 决策，防空回，多维记忆，前端卡支持，高定制主题，QQbot，AI群聊，插件系统，强兼容中转站。手机移动端原生支持，求 Star 收藏⭐Android AI Chatbox: lossless SillyTavern card import, aggressive cache optimization, Jev decisions, multi-dimensional memory,…
+- [tshmieldev/sharp](https://github.com/tshmieldev/sharp) `★30 · 📚9` — Filter your X.com feed with Jev or any LLM.
+- [jev-chat/jev-chat-jarvis-ios](https://github.com/jev-chat/jev-chat-jarvis-ios) `★27 · 📚9` — iOS 键盘：在任何聊天 App 里直接出意图、风险与候选回复——复制消息，键盘上见分晓。Swift / SwiftUI，中英双语。An iOS keyboard that drafts replies inside any chat app.
+- [imohitmayank/jevfill](https://github.com/imohitmayank/jevfill) `★21 · 📚9` — jevfill — Open \test/sample-form.html\ in the browser, configure the extension, and click \\Autofill page\\.
+- [Silbercue/public-browser](https://github.com/silbercue/public-browser) `★17 · 📚9` — Lets Claude Code and Cursor drive Chrome. Blind benchmark vs agent-browser: -33% tokens, -33% cost, -24% tool calls, +48% speed, 30/30. Direct CDP, a11y-tree refs, server-side plan executor. MIT, no paid tier.
+- [pst2154/Nemotron_Jev](https://github.com/pst2154/nemotron_jev) `★12 · 📚9` — Ask typed questions about text or JSON and inspect model-derived probability distributions in a browser. One container runs the model, the original Decision Lab explorer, and a TypeSafe-shaped API.
+- [Ryu0118/jev-sim-use](https://github.com/ryu0118/jev-sim-use) `★10 · 📚9` — 📱 Reach any screen with sim-use at Jev speed.
+- [MithrilMan/your-signal](https://github.com/mithrilman/your-signal) `★5 · 📚9` — Open-source BYOK Chrome extension for personal, reversible X timeline filters.
+- [jonymusky/jev-browser-qa](https://github.com/jonymusky/jev-browser-qa) `★3 · 📚9` — Browser QA where Playwright drives and films, and TypeSafe Jev judges. JSON-flow CLI for agents, run dashboard, agent skill.
+- [shikaizhong-design/ego-jev-ultrafast](https://github.com/shikaizhong-design/ego-jev-ultrafast) `★3 · 📚9` — Jev drives your Ego Lite browser: one typed-choice request per step. Single-file, zero-dependency port of browser-use/jev-ultrafast with multi-model benchmarks and extra guardrails. Unofficial.
+- [xinwang-nwpu/jev-mobile](https://github.com/xinwang-nwpu/jev-mobile) `★3 · 📚9` — One TypeSafe Jev decision per step over the A11Y tree, executed via ADB. No screenshots and ultra fast!
+- [kbitgood/jev-cdp](https://github.com/kbitgood/jev-cdp) `★2 · 📚9` — A small Jev-powered bridge to Chrome through the Chrome DevTools Protocol.
+- [yatharth1706/jev-automation](https://github.com/yatharth1706/jev-automation) `★2 · 📚9` — Trying automation on web browser via jev from typesafe
+- [knowlet/jevlens](https://github.com/knowlet/jevlens) `★0 · 📚9` — Chrome extension for annotating articles, X/Twitter posts, and Threads posts.
+- [uezo/aiavatarkit](https://github.com/uezo/aiavatarkit) `★682 · 📚8` — 🥰 Building AI-based conversational avatars lightning fast ⚡️💬
+- [YUTA-fywoo/jev-gui-delegate](https://github.com/yuta-fywoo/jev-gui-delegate) `★131 · 📚8` — AI-assisted Windows and Chrome GUI delegation for Codex: task contracts, local execution, Jev semantic decisions, recovery and outcome verification.
+- [alanhuangyoo/wev](https://github.com/alanhuangyoo/wev) `★22 · 📚8` — Local System-One decision models: typed questions in, calibrated probabilities out. General decisions and browser-agent steps.
+- [ehui1226/hookmeter-jev](https://github.com/ehui1226/hookmeter-jev) `★21 · 📚8` — ⚡ Millisecond-level Viral Hook Telemetry & Co-pilot for Social Media (Chrome Extension + JEV System 1)
+- [idovmamane/dejevu](https://github.com/idovmamane/dejevu) `★12 · 📚8` — Jev? Déjà vu. Browser agents that run on instinct, no Jev needed. One look at the page, one call to any open model, one action. Faster than the Jev demo on Google Flights.
+- [caizili999/jev-chat-windows](https://github.com/caizili999/jev-chat-windows) `★9 · 📚8` — Windows 微信回复助手（非官方修改版）：本地离线 OCR 读屏 + 模型起草候选回复 + 一键填入微信输入框，可选自动发送。不 hook、不注入、不读微信数据库。
+- [ai-suifeng/comment-jev-chrome](https://github.com/ai-suifeng/comment-jev-chrome) `★5 · 📚8` — comment-jev-chrome - Typed four-way triage of social-media comments, with hostility scoring for malicious ones. ★ 1.
+- [ThinkyMiner/Winnow](https://github.com/thinkyminer/winnow) `★3 · 📚8` — Know before you click. A Chrome extension that reads articles and YouTube videos ahead of you and says read, skim, save, or skip — with a confidence, tuned to your goals. Open source, MV3, powered by Jev.
+- [Teylersf/WindowsJev](https://github.com/teylersf/windowsjev) `★2 · 📚8` — Token-efficient Windows automation and durable research MCP server for Codex and Claude Code, powered by TypeSafe Jev.
+- [InfamousCube/JevPilot](https://github.com/infamouscube/jevpilot) `★1 · 📚8` — Computer use with TypeSafe Jev: control your PC, browser, games and Android phone with a prompt
+- [jaewgwon/jevis](https://github.com/jaewgwon/jevis) `★1 · 📚8` — Run Flutter integration tests using natural language with TypeSafe.ai's Jev
+- [LiuHao-1443/jev-table-tennis](https://github.com/liuhao-1443/jev-table-tennis) `★1 · 📚8` — Table tennis vs. TypeSafe's Jev (System One). Every paddle move on the right is a live model decision — no local prediction, just a lookup table and a servo.
+- [mittal-parth/jev-experiments](https://github.com/mittal-parth/jev-experiments) `★1 · 📚8` — jev-experiments - Uses Jev to play Chrome Dino and a local shooter arena while Python executes structured decisions.
+- [abeatrix/cline-plugin-jev-browser](https://github.com/abeatrix/cline-plugin-jev-browser) `★0 · 📚8` — Cline Plugin to add a new computer run tool runs by the typesafe/jev model
+- [dtduc-git/jev-table](https://github.com/dtduc-git/jev-table) `★0 · 📚8` — AI columns for CSV/JSONL files with TypeSafe's Jev — typed answers, confidence, review queue, resume and cost preview. Local-first, BYO key.
+- [juancristobalgd1/jevRemote](https://github.com/juancristobalgd1/jevremote) `★0 · 📚8` — Reproducible text-first browser automation experiment with TypeSafe Jev and Playwright.
+- [karimatayuta/tiny-jev](https://github.com/karimatayuta/tiny-jev) `★0 · 📚8` — tiny-jev — Small browser experiment for TypeSafe Jev decisions. _HTML; ★ 0._
+- [mkruglikov/droidjev](https://github.com/mkruglikov/droidjev) `★0 · 📚8` — A fast, screenshot-free Android emulator clicker powered by TypeSafe's jev
+- [pc418/jev-calculator](https://github.com/pc418/jev-calculator) `★0 · 📚8` — It's the result, correct. *probably. - A probabilistic AI calculator powered by Jev.
+- [buer2233/jev-ui-test](https://github.com/buer2233/jev-ui-test) `★25 · 📚7` — Jev 决策模型驱动的 UI 自动化测试框架：不生成「下一步做什么」的文字，而是在候选元素里直接打分；一句话写用例，pytest 执行，Allure 出报告，每个操作决策中位 458 ms（UI test automation driven by the Jev decision model — scored decisions, not generated prose; ~458 ms per decision）
+- [littlewindy123/jev-weekend-shopping-chrome](https://github.com/littlewindy123/jev-weekend-shopping-chrome) `★8 · 📚7` — 把对双休的支持，带进每一次购物。逛淘宝、京东时，JEV 实时猜测商品背后的工作制，疑似非双休直接盖上 PASS。原页生效，边逛边选。
+- [arthurfiorette/jev-playwright](https://github.com/arthurfiorette/jev-playwright) `★6 · 📚7` — Jev-powered Playwright test selection.
+- [gokulnair2001/Convoy](https://github.com/gokulnair2001/convoy) `★6 · 📚7` — Semantic end-to-end agent testing for iOS, Android, and web.
+- [MANISH007700/tab-bouncer](https://github.com/manish007700/tab-bouncer) `★5 · 📚7` — Chrome extension that closes the tabs you don't need, judged by TypeSafe's Jev in one call. Tell it what you're doing; it shows the rest the door.
+- [SomeshSampat2/jev-android-super](https://github.com/someshsampat2/jev-android-super) `★3 · 📚7` — jev-android-super - On-device Kotlin/Compose agent; "open YouTube and subscribe to MrBeast" in 17 steps / ~32 s, ships an APK.
+- [aadhil-kh/jevx](https://github.com/aadhil-kh/jevx) `★2 · 📚7` — Jev-powered Chrome extension that categorizes X posts and classifies replies in context.
+- [HAR5HA-7663/hunch](https://github.com/har5ha-7663/hunch) `★1 · 📚7` — ⚡ Browser agent that acts on a hunch: Jev (TypeSafe System One) picks every click in ~150 ms, an LLM is only needed when confidence drops. Zero-dependency Python on top of agent-browser.
+- [mkeco/Cerebellum-2B](https://github.com/mkeco/cerebellum-2b) `★1 · 📚7` — Non-Autoregressive AI Agent Decision Model. Open-source SOTA alternative to TypeSafe Jev. O(1) Tool Routing & DOM Automation on Qwen3.5-2B .
+- [nanami-0713/jev-resume-screening](https://github.com/nanami-0713/jev-resume-screening) `★1 · 📚7` — TypeSafe Jev (System One) 简历-JD 匹配度初筛：判据模板 + 正/负/陷阱三类样本测试档案，判据 v1→v3 迭代全程可复现 / Resume-JD screening with TypeSafe Jev: atomic questions, calibrated criteria v1→v3, full reproducible test archive
+- [phd-peter/ego-jev](https://github.com/phd-peter/ego-jev) `★1 · 📚7` — ego-jev - Connects Ego Lite snapshots and browser actions to a bounded Jev decision loop.
+- [proshunsuke/jev-tab-order](https://github.com/proshunsuke/jev-tab-order) `★1 · 📚7` — Organize Chrome tabs and groups by meaning with a single Jev API request.
+- [terryds/jevplayground](https://github.com/terryds/jevplayground) `★1 · 📚7` — Browser-only playground for Jev (TypeSafe AI's decision model) via Vercel AI Gateway
+- [bramtechs/Focus](https://github.com/bramtechs/focus) `★0 · 📚7` — Browser extension that blocks distracting websites using TypeSafe: Jev
+- [DowLucas/browser-jev](https://github.com/dowlucas/browser-jev) `★0 · 📚7` — Adversarial browser testing: personas explore your web app while Jev judges every page state
+- [kofanlabs/jev-browser-chrome](https://github.com/kofanlabs/jev-browser-chrome) `★0 · 📚7` — Fast Jev browser agent for existing signed-in Chrome tabs via a local extension bridge and MCP
+- [rashedInt32/jev-reach](https://github.com/rashedint32/jev-reach) `★0 · 📚7` — chrome-devtools-mcp plus one tool: Jev walks the browser to the spot, your agent makes one devtools call there.
+- [YuanTong-Wu/jev-screen](https://github.com/yuantong-wu/jev-screen) `★0 · 📚7` — Turn an investment idea into an evidence-backed stock list: Jev reads ~20k global companies and checks official annual reports. 主题选股 / 产业链 / 年报证据 — runs locally via your AI agent.
+- [BennyKok/omg.dev](https://github.com/bennykok/omg.dev) `★545 · 📚6` — omg.dev — Remote control for claude, codex, cursor, opencode, pi, grok, jcocde with mobile client
+- [Knuckles92/OpenWhisper](https://github.com/knuckles92/openwhisper) `★195 · 📚6` — Local speech-to-text, dictation, and meetings with Whisper and the OpenAI API. Optional engines: Parakeet and Nemotron (Windows x64, Linux x86_64), Qwen3-ASR and Moonshine (Windows x64). Share an engine with another computer over your…
+- [timpratim/macbrow](https://github.com/timpratim/macbrow) `★156 · 📚6` — Hands free Mac and Browser control powered by Gradium
+- [jekhov/jekhov](https://github.com/jekhov/jekhov) `★9 · 📚6` — Policy-bounded Jev target selection for resilient Playwright workflows
+- [jacks3tr/Jev-Desktop](https://github.com/jacks3tr/jev-desktop) `★5 · 📚6` — Jev-Desktop (jacks3tr) — No description provided by the repository (auto-discovered, description not yet written)
+- [charleeagni/JevPiano](https://github.com/charleeagni/jevpiano) `★2 · 📚6` — @typesafeai 's Jev controls the 2 hands and each finger to play the piano in real-time.  Jev only "sees" what we see and plays this from the "note waterfall". It uses  @browser_use 's jev-ultrafast and some decision scheduling to make this…
+- [dingw530/playwright-jev](https://github.com/dingw530/playwright-jev) `★2 · 📚6` — 基于 Jev + playwright-cli 的自然语言 Web E2E 测试工具：Jev 负责决策，Playwright 负责执行，代码负责断言与安全边界。Goal-driven web E2E testing with Jev + playwright-cli: bounded AI decisions, real browser execution, and deterministic assertions.
+- [hdkiller/jev-panerelay](https://github.com/hdkiller/jev-panerelay) `★2 · 📚6` — Ultra-fast browser automation using TypeSafe Jev via Panerelay and OpenRouter.
+- [vladzima/jev-x](https://github.com/vladzima/jev-x) `★2 · 📚6` — Cut the noise on your X timeline: Jev (TypeSafe System One) scores posts on firsthand experience, promo, bait, depth, and relevance; your sliders decide what gets dimmed or collapsed.
+- [XYenon/ajevt-browser](https://github.com/xyenon/ajevt-browser) `★2 · 📚6` — A bounded Jev System-1 browser tool for Pi, OpenCode V2, Amp, and MCP, powered by agent-browser
+- [ZHUBoer/ego-jev](https://github.com/zhuboer/ego-jev) `★2 · 📚6` — Complete browser tasks with Ego Lite and actively call Jev for semantic target selection, filtering, ranking, classification and text evidence judgments.
+- [amberwhitehead/jevscript](https://github.com/amberwhitehead/jevscript) `★1 · 📚6` — jevscript - An early language experiment whose current implementation is a Jev request-batching spike.
+- [DigitalIQ/tabwerk](https://github.com/digitaliq/tabwerk) `★1 · 📚6` — Chrome-Extension für viele offene Tabs: Schnellsuche, Gruppen, Sortieren, Doppelte, Wächter und Verlauf. Optional mit Jev über OpenRouter oder TypeSafe.
+- [FZ2000/android-jev](https://github.com/fz2000/android-jev) `★1 · 📚6` — MCP server and skill that let an agent drive an Android phone naturally over adb
+- [gavansmyth-arch/jev-chrome-extension](https://github.com/gavansmyth-arch/jev-chrome-extension) `★1 · 📚6` — Highlight text, right-click, Ask Jev — TypeSafe Jev answers in a Chrome side panel
+- [grayrepo-byte/jev_filter_for_x](https://github.com/grayrepo-byte/jev_filter_for_x) `★1 · 📚6` — A browser extension that scores and filters X posts in real time with Jev, folding low-signal content while keeping it expandable.
+- [cartermccann/typesafe-computer-use-hyprland](https://github.com/cartermccann/typesafe-computer-use-hyprland) `★0 · 📚6` — Hyprland/NixOS fork of typesafe-computer-use — grim + hyprctl + ydotool, TypeSafe Jev decisions
+- [edgeteamio/jev-cua](https://github.com/edgeteamio/jev-cua) `★0 · 📚6` — Voice-controlled Mac computer use on TypeSafe Jev: speech to typed decisions to verified accessibility actions, no screenshots to a big model
+- [juanfabrega/jev-quiz-pilot](https://github.com/juanfabrega/jev-quiz-pilot) `★0 · 📚6` — Put Jev in the pilot's seat of a web quiz. A Python CLI that lets TypeSafe's Jev navigate quizzes in your Chrome and logs every pick, so you can measure how it does.
+- [Neoo-Blue/vibecheck](https://github.com/neoo-blue/vibecheck) `★0 · 📚6` — Vibe check before you reply: an Android accessibility overlay that reads the chat on screen and judges the turn with TypeSafe Jev, with per-person memory and RL on the phone
+- [BoundaryML/baml](https://github.com/boundaryml/baml) `★9,363 · 📚5` — The programming language for agents.
+- [shhivv/third-hand](https://github.com/shhivv/third-hand) `★311 · 📚5` — computer-use assistant w/ decision models.
+- [shhivv/arc-cua](https://github.com/shhivv/arc-cua) `★148 · 📚5` — Superfast action layer for computer-use agents, powered by decision models.
+- [affirmitv/ghosthands](https://github.com/affirmitv/ghosthands) `★54 · 📚5` — Give an agent real hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for hands, a vision grounding model for eyes, any LLM for a brain.
+- [bugkiwi/elons-job](https://github.com/bugkiwi/elons-job) `★19 · 📚5` — 用“Elon的工作”，享无福X！.
+- [drowzeys/keys-mcode-continuous-context-browser-decision-enhancement-pack](https://github.com/drowzeys/keys-mcode-continuous-context-browser-decision-enhancement-pack) `★8 · 📚5` — MiniMax Code CLI enhancement pack: continuous 25% context renewal, context progress meter, browser tooling, Syntra and djev-spark local decision integrations.
+- [kolibril13/jev-in-blender-experiment](https://github.com/kolibril13/jev-in-blender-experiment) `★6 · 📚5` — jev-in-blender-experiment - Blender extension that adds a Jev tab for finding and running operators from a plain-language description. #productivity
+- [chengyongru/notiq](https://github.com/chengyongru/notiq) `★4 · 📚5` — Native Android notification filtering with natural-language rules, powered by Jev or self-hosted FastJev.
+- [Rajmeet/jev-phone](https://github.com/rajmeet/jev-phone) `★4 · 📚5` — Drive a phone with a model that never writes a word. TypeSafe's Jev picks each action, phone-use runs it on iOS and Android.
+- [reindent/jauvex](https://github.com/reindent/jauvex) `★4 · 📚5` — Your coding agents, side by side, by voice. Claude, Codex & Grok in one desktop app, with Jev for the fast decisions.
+- [RoderickQiu/qualm](https://github.com/roderickqiu/qualm) `★4 · 📚5` — The first screen-time app built on Kev and Jev. Local-first on Apple silicon for free & privacy. Blocks the mechanism (Shorts, feeds, livestreams), not the site or app.
+- [sseanliu/Jev-Vision](https://github.com/sseanliu/jev-vision) `★4 · 📚5` — Open-weight step verifier for computer-use agents: calibrated ground/skip/effect/done judgments from screenshots in ~160 ms, plus a benchmark with environment-derived labels
+- [tinyhumansai/tinycomputer](https://github.com/tinyhumansai/tinycomputer) `★4 · 📚5` — Decision model (JEV) based harness to perform Desktop & Browser automation. Written in Rust.  - GitHub - tinyhumansai/tinycomputer: Decision model (JEV) based harness to perform Desktop & Browser automation. Written in Rust.
+- [VBS2004/jev-windows-agent](https://github.com/vbs2004/jev-windows-agent) `★4 · 📚5` — Windows UI Automation extension of arc-cua: a fast, JEV-powered decision loop for desktop computer-use agents
+- [ZTRRTUO/Jev-PhoneControl](https://github.com/ztrrtuo/jev-phonecontrol) `★4 · 📚5` — Visual Android automation powered by three agents: vision, a text-only supervisor, and TypeSafe JEV. Executes actions through ADB with a local web console.
+- [elliothux/tweet-911](https://github.com/elliothux/tweet-911) `★3 · 📚5` — Real-time AI / solicitation / parrot-bot scores for X posts and replies. Chrome extension + Workers API on open-compute, judged by TypeSafe Jev.
+- [matthewdonsemail-lab/open-typesafe-camoufox](https://github.com/matthewdonsemail-lab/open-typesafe-camoufox) `★3 · 📚5` — open-typesafe-camoufox - CLI that drives a headed Camoufox browser toward a plain-English goal, without sending screenshots. ★ 2.
+- [Clueless-Creations/jev-ios-ultrafast](https://github.com/clueless-creations/jev-ios-ultrafast) `★2 · 📚5` — Run iOS Simulator goals with Jev, compare decision models, and replay every attempt. Python CLI and Brigade host wrapper.
+- [ZihuaEvan/GUI_JEV](https://github.com/zihuaevan/gui_jev) `★2 · 📚5` — Fast GUI Grounding with jev.
+- [jeffyuysw/jev-xianhui](https://github.com/jeffyuysw/jev-xianhui) `★1 · 📚5` — 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级
+- [jeffyuysw/jev-xianhui-windows](https://github.com/jeffyuysw/jev-xianhui-windows) `★1 · 📚5` — 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级
+- [q93304989-bit/jev-lab](https://github.com/q93304989-bit/jev-lab) `★1 · 📚5` — 最简 Jev 调用演示器：单页分类器，把请求 JSON、概率分布、confidence、耗时与 token 都摊开给你看
+- [ryanzen9/XFlow](https://github.com/ryanzen9/xflow) `★1 · 📚5` — Jev for your X. XFlow 是一款由 Jev 驱动的 Manifest V3 浏览器扩展，提供可自定义的过滤策略，助您打造去广告、更个性化的 X 浏览体验。 XFlow is a Manifest V3 browser extension powered by Jev, offering customizable filtering strategies to help you create an ad-free, more personalized X…
+- [ayushkushwaha609/Jev-resume-screener](https://github.com/ayushkushwaha609/jev-resume-screener) `★0 · 📚5` — A resume screener built using Typesafe's new System One Model - Jev
+- [bskkimm/JevSceneMiner](https://github.com/bskkimm/jevsceneminer) `★0 · 📚5` — Mine driving scenes from logs with Jev: scene text in, scenarios with probabilities and timestamps out.
+- [Capitalofgeorgiapolitician1569/mobile-jev](https://github.com/capitalofgeorgiapolitician1569/mobile-jev) `★0 · 📚5` — Automate real Android tasks on live phones with Jev, Mobilerun, and TypeSafe—no ADB needed.
+- [carlchou0dailyfresh/jev-gates](https://github.com/carlchou0dailyfresh/jev-gates) `★0 · 📚5` — Composable three-valued semantic logic circuits powered by JEV. Stack small judgments into auditable decisions.
+- [criguex/playwright-jev](https://github.com/criguex/playwright-jev) `★0 · 📚5` — Semantic assertions for Playwright Test powered by Jev (TypeSafe AI): toMean, toMeanAll, toChoose, toBeScored with record/replay and a reporter
+- [Eronmmer/jev-cua](https://github.com/eronmmer/jev-cua) `★0 · 📚5` — Production local Cua + TypeSafe Jev fast-path runtime for Codex and Waku
+- [imanshu03/jev-browser-use](https://github.com/imanshu03/jev-browser-use) `★0 · 📚5` — Lightweight Browser Use using Jev(TypeSafe) + CDP/Chromium/Agent-Browser
+- [jagenaujagenau/ground-truth](https://github.com/jagenaujagenau/ground-truth) `★0 · 📚5` — Ground News style bias check for the article in your current tab.
+- [JeonKH81/jev-for-gmail](https://github.com/jeonkh81/jev-for-gmail) `★0 · 📚5` — Chrome extension: priority score badges for Gmail Primary inbox using TypeSafe Jev (patient-related mail excluded)
+- [mhingston/jev-agent-browser](https://github.com/mhingston/jev-agent-browser) `★0 · 📚5` — Confidence-gated browser action routing with TypeSafe Jev and agent-browser
+- [mojomast/TurboSlop](https://github.com/mojomast/turboslop) `★0 · 📚5` — Machine-made, human-judged. Jev decides the design, an LLM writes the copy, an image model illustrates it — and code ships the page in about a second for a tenth of a cent. Typed decisions with calibrated confidence, not vibes.
+- [pistachiopranay/jev-synergy-screening](https://github.com/pistachiopranay/jev-synergy-screening) `★0 · 📚5` — Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels
+- [Sachin-chaurasiya/scam-checker-with-jev](https://github.com/sachin-chaurasiya/scam-checker-with-jev) `★0 · 📚5` — Paste a suspicious text message. Get a straight answer and the reasons behind it.
+- [site](https://ui-generator-instinct-jev.vercel.app) `📚5`
+- [site](https://brnyxx.github.io/jev-ra) `📚5`
+- [yaredtekile/jev-2048](https://github.com/yaredtekile/jev-2048) `★0 · 📚5` — TypeSafe Jev plays live 2048. It doesn’t see pixels or write text, it only picks the swipe.
+
+## Emerging (cited by 3–4 lists) — 185
+
+- [8endit/CasaJev](https://github.com/8endit/casajev) `📚4` — Bounded local agent harness with Jev decisions, verified tools, chat-isolated browser sessions, and
+- [aadilghani1/qc-use](https://github.com/aadilghani1/qc-use) `📚4` — qc-use - Test the most important path in your app. Describe it in plain words. Powered by TypeSafe Jev. · Python
+- [Aben25/jev-sim](https://github.com/aben25/jev-sim) `📚4` — jev-sim - Aben25/jev-sim - Fast mobile-simulator computer-use: sim-use + TypeSafe Jev (Cua jev-use pattern for iOS/Android sims).
+- [abubakarsiddik31/wild-jev-builds](https://github.com/abubakarsiddik31/wild-jev-builds) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [AE-AlphaEdge/grokskill-jev](https://github.com/ae-alphaedge/grokskill-jev) `📚4` — Fork of Browser Use's jev-ultrafast adding a Grok Build skill, a PowerShell runner, reuse of the open Chrome tab and a long-lived harness daemon. MIT · Python
+- [ai-ecoverse/jev-omni.js](https://github.com/ai-ecoverse/jev-omni.js) `📚4` — Jev-Omni multimodal decision classifier in the browser: WebGPU via onnxruntime-web
+- [aleksvega/jev-stack](https://github.com/aleksvega/jev-stack) `📚4` — One command (npx jev-stack) to install the Jev-powered agent toolset: context compaction, pre-push g
+- [amapara27/jev-pilot](https://github.com/amapara27/jev-pilot) `📚4` — control your desktop smoothly. powered by typesafe's jev. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [APUS-AI-Lab/fast-browser-use](https://github.com/apus-ai-lab/fast-browser-use) `📚4` — A fast browser-use skill powered by local LLMs via single-token reflexes. Fast, local-first, zero hallucinations.
+- [AuroraPixel/jev-browser-use](https://github.com/aurorapixel/jev-browser-use) `📚4` — jev-browser-use - Jev-powered browser automation for Codex and Claude: native reasoning, continuous action loops, CLI, MCP and Chrome extension. · TypeScript
+- [authrain-cloud-abdullahformuli/jev-ultrafast](https://github.com/authrain-cloud-abdullahformuli/jev-ultrafast) `📚4` — jev-ultrafast - ⚡ Ultrafast browser agent with dynamic, indexed action spaces. Zurich → London on Google Flights in 7.1s. · Python
+- [BenjisCollector/rocky](https://github.com/benjiscollector/rocky) `📚4` — rocky - Say it, and your computer does it. Voice-controlled computer agent on TypeSafe Jev for macOS and Windows. · Python
+- [cadeos/jev-grounds](https://github.com/cadeos/jev-grounds) `📚4` — jev-grounds - Chrome extension: a badge rating how well-argued an article is, via the Jev API. · JavaScript
+- [CorieW/JevExplore](https://github.com/coriew/jevexplore) `📚4` — Discover bounded web application action spaces with Playwright and TypeSafe Jev.
+- [crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter) `📚4` — Unofficial local Jev Router adapter for the Codex desktop app on macOS
+- [daidr/browser-jev](https://github.com/daidr/browser-jev) `📚4` — browser-jev - Run Jev-like decisions in your browser with the Prompt API. · TypeScript
+- [damian87x/jev-browser-use](https://github.com/damian87x/jev-browser-use) `📚4` — Fast browser QA from Claude Code or pi: TypeSafe Jev picks every click via Jev Ultrafast, you supply text and the pass ...
+- [daneknudsen8-maker/jev-voice-control](https://github.com/daneknudsen8-maker/jev-voice-control) `📚4` — Control your browser by voice. A Chrome extension that turns speech into typed commands using TypeSafe's Jev …
+- [dglazkov/gev](https://github.com/dglazkov/gev) `📚4` — Jev from DiffusionGemma Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dgr8akki/jev-voice](https://github.com/dgr8akki/jev-voice) `📚4` — Control Chrome by voice: open sites, search, click links and fill in forms. Chrome extension powered by Jev.
+- [dgr8akki/recipe-mode](https://github.com/dgr8akki/recipe-mode) `📚4` — Cook hands-free on any recipe page: say "next", "how much butter?" or "set a timer". Chrome extension powered by Jev.
+- [dgr8akki/slop-radar](https://github.com/dgr8akki/slop-radar) `📚4` — Labels LinkedIn posts as human, unclear or AI slop as you scroll, with the reasons on hover. Chrome extension powered by Jev.
+- [djangobeatty/textured](https://github.com/djangobeatty/textured) `📚4` — (notable) - Browser synthesiser where Jev turns a typed sound description into typed judgments that code maps onto synth parameters. MIT · TypeScript · live
+- [dom-actions/doma](https://github.com/dom-actions/doma) `📚4` — doma — The open-source of DomA, an AI automation agent for the browser (auto-discovered, description not yet written) ❔
+- [DuvInc/jev-table-import-mapper](https://github.com/duvinc/jev-table-import-mapper) `📚4` — Map the columns of an uploaded CSV onto your own table: a strict deterministic pass first, then a matrix of typed yes/no ...
+- [ericboehs/wrangle](https://github.com/ericboehs/wrangle) `📚4` — Hand one Safari window to a program, and no more than that. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [feliperfpereira/jevBrowser](https://github.com/feliperfpereira/jevbrowser) `📚4` — Playwright task runner where Jev picks the next action and target element from an ARIA snapshot each step, with a CLI and an HTTP API. no license · TypeScript
+- [flenard/chrome-x-post-qualifier](https://github.com/flenard/chrome-x-post-qualifier) `📚4` — Chrome extension that scores X (Twitter) posts in real time with TypeSafe AI — collapses engagement bait and spam, blocks ads, tracks ...
+- [fol2/jev-playground](https://github.com/fol2/jev-playground) `📚4` — jev-playground - jev-playground: TypeSafe Jev ecosystem repository. · Swift
+- [frankie137/jev-web-ui](https://github.com/frankie137/jev-web-ui) `📚4` — A single web page for requesting Jev from TypeSafe AI, supporting TypeSafe official api or Vercel AI gateway.
+- [garry-schuette/browser-use-with-jev](https://github.com/garry-schuette/browser-use-with-jev) `📚4` — browser-use-with-jev — \\Keep Browser Use's execution engine. Move bounded decisions to Jev.\\
+- [gbesse/jev-screen](https://github.com/gbesse/jev-screen) `📚4` — Title and abstract screening for systematic reviews with Jev: explicit criteria, include/exclude/maybe with r…
+- [giangeralcus/gee-fundriving](https://github.com/giangeralcus/gee-fundriving) `📚4` — Gee-FunDriving — 2D top-down autonomous driving sim (System-One decision loop demo)
+- [goodnight000/exact-paste](https://github.com/goodnight000/exact-paste) `📚4` — exact-paste - Chrome extension: paste the exact value a form field wants, or the whole copied text. · TypeScript
+- [hamza-sahin/fast-browser](https://github.com/hamza-sahin/fast-browser) `📚4` — fast-browser - Playwright browser automation for Codex/MCP with TypeSafe Jev (or Laya) decisions. (Project guide)(community/projects/tools/fast-browser.md).
+- [HusDev/LinguaTrace](https://github.com/husdev/linguatrace) `📚4` — The lesson notebook that writes itself. A live tutoring lesson becomes structured notes and a personalised Le…
+- [igloomatics/jev-ai-detector](https://github.com/igloomatics/jev-ai-detector) `📚4` — fast & ultra-light AI detector chrome extension. use JEV for super-fast AIGC detection.
+- [jasonduncan/jev-browser](https://github.com/jasonduncan/jev-browser) `📚4` — Agent skill and runtime where Jev selects page elements in a continuous observe, act, verify loop using the agent's existing browser tools. MIT · JavaScript
+- [joaoh82/yardsort](https://github.com/joaoh82/yardsort) `📚4` — Desktop app that runs terminal coding agents in parallel git worktrees, with Jev judging each changed file against what the workspace was asked to do.
+- [jxspam/jev-ui-map](https://github.com/jxspam/jev-ui-map) `📚4` — jev-ui-map - Map your app's UI so Jev can drive it. Demo: order food by voice. Built with AdaL. · JavaScript
+- [jxxfdgd/jev-ai-slop-detector](https://github.com/jxxfdgd/jev-ai-slop-detector) `📚4` — Chrome extension that flags AI-slop posts on X, LinkedIn and Reddit in real time using the JEV Classifier
+- [kamesan1577/re-heitan](https://github.com/kamesan1577/re-heitan) `📚4` — Chrome extension that hides or blurs abusive posts in the X timeline using batched Jev score and noul questions with local caching. no license · TypeScript
+- [kcc989/keeled](https://github.com/kcc989/keeled) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [kitepon/jev-bookmarks](https://github.com/kitepon/jev-bookmarks) `📚4`
+- [kofanlabs/typesafe-computer-use-windows](https://github.com/kofanlabs/typesafe-computer-use-windows) `📚4` — typesafe-computer-use-windows - Windows port of typesafe-computer-use with Jev decisions, local OCR/UIA, and MCP host integration · Python
+- [lalitsonawane/jev-one-system](https://github.com/lalitsonawane/jev-one-system) `📚4` — jev-one-system - jev-one-system: TypeSafe Jev ecosystem repository. · TypeScript
+- [maskjelly/TiVM](https://github.com/maskjelly/tivm) `📚4` — Computer-use agent for a throwaway Linux desktop: AT-SPI accessibility-tree perception, TypeSafe Jev / GPT-5.…
+- [mpeddicord/jev-tab-filter](https://github.com/mpeddicord/jev-tab-filter) `📚4` — jev-tab-filter - Chrome extension: group, hide, or close tabs by theme, scored by TypeSafe's Jev model · JavaScript
+- [NeerajMohanty/RFxCheck](https://github.com/neerajmohanty/rfxcheck) `📚4` — RFxCheck - Open source Chrome extension for semantic RFx requirement checking, powered by TypeSafe Jev. · JavaScript
+- [nomanjack/smart-paste](https://github.com/nomanjack/smart-paste) `📚4` — A Chrome extension that uses Jev choice/score/noul questions to match pasted text to form fields and paste only confident matches.
+- [nozo-moto/jev-reverse](https://github.com/nozo-moto/jev-reverse) `📚4` — Browser and CLI Reversi where Jev chooses among legal moves given board features, playable against Jev, a one-ply CPU or Jev vs Jev. no license · JavaScript
+- [ogamircs/jev-demo](https://github.com/ogamircs/jev-demo) `📚4` — Independent demo of TypeSafe's Jev model: typed decisions with probabilities, measured side by side
+- [Paul-Sizon/tab-organizer](https://github.com/paul-sizon/tab-organizer) `📚4` — Chrome extension that groups your open tabs by category using TypeSafe AI Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [pelazas/jev-cmdtab](https://github.com/pelazas/jev-cmdtab) `📚4` — macOS app switcher with Apple's Cmd+Tab HUD. Smarter order, same design. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [PenDraga/paperless-jev](https://github.com/pendraga/paperless-jev) `📚4` — lassifiziert den Paperless-NGX-Posteingang mit TypeSafe Jev - Docker-Dienst mit Web-UI, Webhook/Pol
+- [rivendale/hsi-operator](https://github.com/rivendale/hsi-operator) `📚4` — eep a human at the strategic level of agent work: surface only what needs a person, and establish what 'done…
+- [Rorogogogo/jev-browser-relay](https://github.com/rorogogogo/jev-browser-relay) `📚4` — A high-speed browser runtime for AI coding agents: Jev drives the browser loop, the host model intervenes onl…
+- [RubenVroman/Hearth](https://github.com/rubenvroman/hearth) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [samarkandiy/Ollaya-Web-UI](https://github.com/samarkandiy/ollaya-web-ui) `📚4` — Ollaya-Web-UI — Web UI for the Ollaya API (auto-discovered, description not yet written) ❔
+- [sandra-arato/icon-matcher-ui](https://github.com/sandra-arato/icon-matcher-ui) `📚4` — Browser-only UI for icon-matcher — paste a TypeSafe.ai key, match a UI title to an icon live, no backend.
+- [satyawikananda/gits](https://github.com/satyawikananda/gits) `📚4` — gits - Gits is a browser extension powered by Jev to search the leads data on the Google Maps · TypeScript
+- [serejaris/voice-browser](https://github.com/serejaris/voice-browser) `📚4` — Voice and text browser control with Jev, Chrome MV3 and a local AI Gateway bridge ★ 1 · endpoint · JavaScript
+- [Simon-zj1/jev-exam](https://github.com/simon-zj1/jev-exam) `📚4`
+- [site](https://browser-use.com) `📚4`
+- [steventsao/jevzen](https://github.com/steventsao/jevzen) `📚4` — jevzen: an MIT-licensed Chrome extension demo that switches unwanted X posts to zen or cat photos us
+- [SuchintK/jev-call-screener](https://github.com/suchintk/jev-call-screener) `📚4` — internal/adapters/jev/client.go posts bounded Choice questions to Go policy owns forward/reject/clarify.
+- [sumant1122/jevci](https://github.com/sumant1122/jevci) `📚4` — Sub-second code diff, commit, and doc quality gate powered by TypeSafe AI Jev SystemOne
+- [torumitsutake/jev-page-verdict](https://github.com/torumitsutake/jev-page-verdict) `📚4` — Chrome extension that asks Jev whether the page you are on is selling something or reporting first-hand experience, and marks Google results with verdicts it already has or snippet-only estimates, leaving low-confidence…
+- [vibecodingelite-ai/cacador-de-anuncios](https://github.com/vibecodingelite-ai/cacador-de-anuncios) `📚4` — Extensão do Chrome que analisa anúncios da Biblioteca de Anúncios da Meta com o JEV (typesafe/jev-1.
+- [winter-loo/jev-voice-browser](https://github.com/winter-loo/jev-voice-browser) `📚4` — jev-voice-browser - Voice-controlled browser via Jev, native CDP \(port 9229\), Doubao Voice Bridge and Web Audio streaming · JavaScript
+- [xD3I/PZ_Optimization](https://github.com/xd3i/pz_optimization) `📚4` — PZ_Optimization - Performance work on a game, notable here for the harness: the arithmetic and the noise floors are computed in code, and Jev is asked only for the verdict on what the numbers mean. No licence file.
+- [xpressabhi/jev-browser](https://github.com/xpressabhi/jev-browser) `📚4` — OpenCode plugin and harness-agnostic core where Jev picks one operation and target per cycle from visible page text and a small model writes typed text. MIT · TypeScript
+- [yasuhito/jev-computer-use](https://github.com/yasuhito/jev-computer-use) `📚4` — jev-computer-use - Safe computer-use automation guided by typed Jev decisions · JavaScript
+- [yibie/pi-jev-browser](https://github.com/yibie/pi-jev-browser) `📚4` — Isolated Playwright browser for pi, driven by Jev typed decisions through the TypeSafe API or the model pi already has configured. ★ 1 · endpoint · TypeScript
+- [YIRC99/yanwai](https://github.com/yirc99/yanwai) `📚4` — Módulo Android WeChat que usa Jev para mostrar probabilidades de emoções, significado implícito e sugestões de comunicação.
+- [1deat0r/Jcua](https://github.com/1deat0r/jcua) `📚3` — Jev Computer Use Agent — cross-platform self-improving computer-use (cua offshoot: linux/w
+- [Addition2000/book-of-answers](https://github.com/addition2000/book-of-answers) `📚3` — Ask a question, and let TypeSafe's Jev model open the Book of Answers for you — yes/no or your own o
+- [Adityakk9031/jev-fast-playwright](https://github.com/adityakk9031/jev-fast-playwright) `📚3` — Agent-agnostic MCP server: low-token browser UI testing via compressed DOM + Jev System-1 + Playwright
+- [adnanahmaddev/system-one-browser-agent](https://github.com/adnanahmaddev/system-one-browser-agent) `📚3` — High-speed dual-process browser agent combining sub-150ms Jev reflex decisions with Stageh
+- [alejandroerickson/jev-atlas](https://github.com/alejandroerickson/jev-atlas) `📚3` — Jev Atlas: an atlas that teaches TypeSafe's Jev model to drive ADIT, a mock enterprise app, and lear
+- [alexbejan/jevkit](https://github.com/alexbejan/jevkit) `📚3` — TypeSafe Jev as a bounded judgement layer for computer use: verify, pick, classify over Cua Driver and phone-…
+- [Baran3575/jev-voice-android](https://github.com/baran3575/jev-voice-android) `📚3` — jev-voice-android - Turkish voice-command app; one parallel Jev call → dial/SMS/alarms, confidence-gated at 0.60.
+- [berkayturk/appstore-precheck](https://github.com/berkayturk/appstore-precheck) `📚3` — Read-only iOS App Store pre-submission check: scans 52 rejection vectors, wraps Apple's fastlane precheck, wa…
+- [browser-use/browser-harness](https://github.com/browser-use/browser-harness) `📚3` — Browser runtime used by Jev Ultrafast; includes an agent skill and an MCP surface. Not all uses involve Jev.
+- [CaseReed/latch](https://github.com/casereed/latch) `📚3` — Merge-gate triage for a red CI run: cluster the failures, let TypeSafe Jev label the cause, and retu
+- [chanrute/jev-ui](https://github.com/chanrute/jev-ui) `📚3` — jev-ui - jev-ui: TypeSafe Jev ecosystem repository. · TypeScript
+- [Charlescui89/jev-in-safari](https://github.com/charlescui89/jev-in-safari) `📚3` — Experimental Safari WebDriver adapter for Jev Ultrafast. Native Safari validation pending; macOS testers welcome.
+- [chrisXchen/typesafe-cookie-consent](https://github.com/chrisxchen/typesafe-cookie-consent) `📚3` — Chrome extension that reads every cookie banner and popup like a person and clicks the honest button. Judged by TypeSafe's Jev. BYOK, no backend.
+- [claudfuen/jev-genui](https://github.com/claudfuen/jev-genui) `📚3` — Generative UI sandbox: Jev composes the interface as you type, one typed decision at a time
+- [cnhuye/mobile-jev-ultrafast](https://github.com/cnhuye/mobile-jev-ultrafast) `📚3` — mobile-jev-ultrafast — jev AI controll mobile phone (auto-discovered, description not yet written)
+- [coderexpert123/jev-browser-wingman](https://github.com/coderexpert123/jev-browser-wingman) `📚3` — Browser automation where TypeSafe's Jev model picks each step. Attaches to an existing Chrome via CDP and run…
+- [cooper667/jev-playwright](https://github.com/cooper667/jev-playwright) `📚3` — Jev Playwright checklist runner — Uses Jev to select browser elements and judge plain-English QA checklists from Playwright accessibility trees. By Craig Cooper.
+- [damiensmith1/jev-gmail-filter](https://github.com/damiensmith1/jev-gmail-filter) `📚3` — Pipeline uses jevfilter/TypeSafe Jev (src/jev_gmail_filter/pipeline.py); localhost UI under src/jev_gmail_filter/web/.
+- [DavidSnir/JevOps](https://github.com/davidsnir/jevops) `📚3` — JevOps - JevOps: TypeSafe Jev ecosystem repository. · TypeScript
+- [dennisonbertram/jev-browser](https://github.com/dennisonbertram/jev-browser) `📚3` — jev-browser - A fast browser agent. It picks an action from a numbered table of the page's real controls instead of writing a selector, so one step is a single small-model call. · TypeScript
+- [digitalfoudnry-vb/JevBrowser](https://github.com/digitalfoudnry-vb/jevbrowser) `📚3`
+- [divyekant/jev-qa](https://github.com/divyekant/jev-qa) `📚3` — Jev-only browser UAT and measured design QA with a Luna wrapper and frozen evaluation evidence.
+- [dolphin-wood/jev-rogue](https://github.com/dolphin-wood/jev-rogue) `📚3` — Jev-powered roguelike game
+- [dy-ma/jev-world](https://github.com/dy-ma/jev-world) `📚3` — (notable) - Web demo that asks Jev land-or-water for each map coordinate and replays the recorded responses, with throughput and latency tables per resolution. no license · TypeScript · live
+- [edamame-labs/tab-jev](https://github.com/edamame-labs/tab-jev) `📚3` — Pluggable framework for predictions on mixed text and tabular data (early development)
+- [ehateshamhusaini-cell/autosham-for-jobs-open-source](https://github.com/ehateshamhusaini-cell/autosham-for-jobs-open-source) `📚3` — Score any job posting against your resume, using your own Jev API key. No server, no account. The op
+- [ehtan-smaltai/jev-desktop](https://github.com/ehtan-smaltai/jev-desktop) `📚3` — Upstream README documents the observe→Jev decide→act loop with TypeSafe as the decision model (README).
+- [ennsharma/scrollpatrol](https://github.com/ennsharma/scrollpatrol) `📚3` — Inspected src/background.ts and src/core.ts: posts Noul questions per mute rule to with model jev-latest; content scripts collapse matched posts.
+- [erseco/questionator](https://github.com/erseco/questionator) `📚3` — questionator - Feed it context. Break the quiz. A privacy-first, browser-only questionnaire assistant powered by JEV. · JavaScript
+- [Evgen-rus/JEV_voice_browser](https://github.com/evgen-rus/jev_voice_browser) `📚3` — JEV\_voice\_browser - JEV\_voice\_browser: TypeSafe Jev ecosystem repository. · JavaScript
+- [expanso-io/demo-expanso-jev](https://github.com/expanso-io/demo-expanso-jev) `📚3` — Expanso x Jev demos: live edge-pipeline dashboard, pipeline configs, and flow UI.
+- [fahd12/jev-chrome-extension](https://github.com/fahd12/jev-chrome-extension) `📚3` — Integrate JEV in chrome as extension and validate posts from X.com if written by AI or no.
+- [FluidInference/FluidUse](https://github.com/fluidinference/fluiduse) `📚3` — Apple-silicon computer-use toolkit that runs local typed-decision models to choose form-fill actions from macOS accessibility state.
+- [force416/veil](https://github.com/force416/veil) `📚3` — Chrome extension that hides X / Twitter replies matching a natural-language condition, judged by TypeSafe Jev.
+- [forestwas/gmail-jev](https://github.com/forestwas/gmail-jev) `📚3` — gmail-jev - Gmail inbox triage with TypeSafe Jev — workflow labels, archive decisions, and optional live/backfill workers. · Python
+- [furuCRM-Inc/flash-agent-stack](https://github.com/furucrm-inc/flash-agent-stack) `📚3` — Local open-source drop-in for TypeSafe AI Jev + Universal WebMCP Chrome Extension — Noul/Choice/Score at 10-50ms with Transformers.js
+- [getanyapi-com/lurk](https://github.com/getanyapi-com/lurk) `📚3` — lurk - Self-hostable Reddit buyer-intent finder that uses Jev to judge every post and comment a scan reads.
+- [grizzlypeaksoftware/jev-demo](https://github.com/grizzlypeaksoftware/jev-demo) `📚3` — jev-demo - jev-demo: TypeSafe Jev ecosystem repository. · JavaScript
+- [hawkyre/jevx](https://github.com/hawkyre/jevx) `📚3` — lib/jev.ts and lib/draft-jev.ts fetch for feed relevance and draft-axis Score/Noul judgments. Host permission includes
+- [hermespromox/browserjev](https://github.com/hermespromox/browserjev) `📚3` — browserjev - Low-memory autonomous web classification with HTTPX, Lightpanda and Jev · Python
+- [Holychung/jev-browser-lab](https://github.com/holychung/jev-browser-lab) `📚3` — Experiments with TypeSafe Jev + Browser Use (based on browser-use/jev-ultrafast, MIT)
+- [hugues-vnsgn/jev-ios-bridge](https://github.com/hugues-vnsgn/jev-ios-bridge) `📚3` — Bridge that lets Claude Code verify an iOS app on a simulator, with TypeSafe's Jev choosing each step (planning stage)
+- [HusDev/pisocheck](https://github.com/husdev/pisocheck) `📚3` — pisocheck - Chrome extension that scores Idealista rental listings in Spain for scam and contract risk, on the page, powered by Jev · TypeScript
+- [hxutixnnn/ui-jev](https://github.com/hxutixnnn/ui-jev) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [hybridgroup/jeyzma](https://github.com/hybridgroup/jeyzma) `📚3` — Jev in your browser written in Go using yzma and compiled to WebAssembly with TinyGo. Supports WebGPU.
+- [Ice-Hazymoon/jevwright](https://github.com/ice-hazymoon/jevwright) `📚3` — Browser business-flow tests: Jev initially grounds controls and records semantic paths for model-free replay; code decides verdicts from requests and API/database assertions.
+- [ilove-ai.net/fill](https://ilove-ai.net/fill) `📚3`
+- [jal-co/jev-agent-browser](https://github.com/jal-co/jev-agent-browser) `📚3` — jev-agent-browser - jal-co/jev-agent-browser - Jev policy decisions executed through Agent Browser.
+- [JamesANZ/jev-chrome-blocker-extension](https://github.com/jamesanz/jev-chrome-blocker-extension) `📚3` — jev-chrome-blocker-extension - A chrome extension that uses JEV to dynamically block content per user request · TypeScript
+- [jdorado/ez-fast-browser](https://github.com/jdorado/ez-fast-browser) `📚3` — Plugin for Ez agents that runs bounded Chromium sessions where Jev picks an operation and target from an indexed table of visible controls. MIT · Python
+- [JeronimoRepetto/DwarfAI-Miners](https://github.com/jeronimorepetto/dwarfai-miners) `📚3` — Local desktop panel that turns your AI coding sessions into an isometric dwarf mining colony - watch, message…
+- [Jev and Browser Use, fully tested](https://youtube.com/watch?v=snj3yuj_qwy) `📚3` — Jev (Fully Tested) + Browser Use: FASTEST AI Agent I'VE TRIED YET! — Wires Jev into Browser Use to drive a browser automation agent.
+- [jev-ai-desktop/Jev-AI-Desktop](https://github.com/jev-ai-desktop/jev-ai-desktop) `📚3` — Jev AI Model is TypeSafe 1.13: jev ai model, jev typesafe, jev api, jev github, jev pricing. noul, choice, score. 32K. Decisions ...
+- [jev-browser.vercel.app](https://jev-browser.vercel.app) `📚3` — Agent skill (SKILL.md) plus dependency-free scripts/.mjs and an explainer site (jev-browser.vercel.app).
+- [JH3lou/GridCue](https://github.com/jh3lou/gridcue) `📚3` — Ask a dense data grid in plain language; get a previewed, undoable view change. Headless TypeScript, React, TanStack Table, shadcn. MIT.
+- [jjd-lab/jev-browsecomp](https://github.com/jjd-lab/jev-browsecomp) `📚3` — Jev vs a Sonnet 5 RLM on BrowseComp-Plus (1K docs): a Jev screen in front of one Sonnet ca
+- [kaitoy/jev-rca](https://github.com/kaitoy/jev-rca) `📚3` — jev-rca - Prototype of Jev-powered Root Cause Analysis for events · TypeScript
+- [kazuki-oshino/mobile-order-jev-experiment](https://github.com/kazuki-oshino/mobile-order-jev-experiment) `📚3` — A mobile-friendly donut storefront POC with Jev-powered shopping assistance; no checkout.
+- [koksalkapucuoglu/resume-enhance](https://github.com/koksalkapucuoglu/resume-enhance) `📚3` — An open-source, AI-powered resume builder designed to craft high-impact resumes. Features smart content enhan…
+- [koz/anti-dead-internet](https://github.com/koz/anti-dead-internet) `📚3` — anti-dead-internet - A Chrome Manifest extension that classifies and removes the text of posts on X/Twitter with TypeSafe's JEV · TypeScript
+- [LauricellaAndrea/Jev-browser-remote](https://github.com/lauricellaandrea/jev-browser-remote) `📚3` — Jev-browser-remote - beta project di use-computer su google chrome mediante l'uso di Jerv, riducendo notevolmente la latenza e i costi per token · TypeScript
+- [LiamCarlin/Navi](https://github.com/liamcarlin/navi) `📚3` — Jev-powered Spotlight replacement for macOS — typed fast decisions, Claude for answers and computer use, loca…
+- [littlewindy123/jev-bili-filter](https://github.com/littlewindy123/jev-bili-filter) `📚3`
+- [lwyxzm/maestro-jev](https://github.com/lwyxzm/maestro-jev) `📚3` — Goal-driven UI verification on iOS/Android/Chromium: Jev (TypeSafe) decides each step, Maestro execu
+- [mandarkashikar/linkedin-slop-filter](https://github.com/mandarkashikar/linkedin-slop-filter) `📚3` — Chrome extension prototype that filters low-value AI slop from LinkedIn using Jev classification
+- [mbilskilets/jevex](https://github.com/mbilskilets/jevex) `📚3` — jevex - A small Convex component that uses Jev to build a semantic index over your tables. · TypeScript
+- [mhmhquiz/jev-x-highlighter](https://github.com/mhmhquiz/jev-x-highlighter) `📚3` — Browser and device control
+- [miles990/jev-newbie](https://github.com/miles990/jev-newbie) `📚3` — Hands-on starter kit for TypeSafe Jev: what it can do, what to install, runnable examples, a jev CLI
+- [Mobilerun](https://mobilerun.ai) `📚3`
+- [moritzkremb/voice-browser-extension](https://github.com/moritzkremb/voice-browser-extension) `📚3` — voice-browser-extension - Control Chrome by voice with a Manifest V3 extension powered by Jev. · JavaScript
+- [naturalmoods/epeszuro](https://github.com/naturalmoods/epeszuro) `📚3` — Chrome-bővítmény: elrejti a gyűlolkodő YouTube-hozzászólásokat és élőchat-uzeneteket a TypeSafe Jev
+- [nedzen/jev-terminal-browser-driver](https://github.com/nedzen/jev-terminal-browser-driver) `📚3` — Hermes plugin: drive and read a visible terminal-browser tab with Jev typed decisions. No screenshot
+- [neerajvipparla/dev-tab-autopilot](https://github.com/neerajvipparla/dev-tab-autopilot) `📚3` — dev-tab-autopilot - Chrome extension: sort tabs into groups with TypeSafe Jev · JavaScript
+- [NerdishShah/playwright-cli-jev-bakeoff](https://github.com/nerdishshah/playwright-cli-jev-bakeoff) `📚3` — Bake-off: Playwright CLI vs CLI+Jev vs Playwright MCP (Mini Kanban + dense Shopify Sauce demo)
+- [pareshbhangale/JEV---Job-Hiring-Content-Detector](https://github.com/pareshbhangale/jev---job-hiring-content-detector) `📚3` — Supercharge your job hunt on social feeds. Instantly isolate, highlight, and filter hiring opportuni
+- [Product page](https://nisaka520.github.io/jevbystander) `📚3`
+- [project webpage](https://zjureal.com/cua-jev) `📚3` — zjureal.com/CUA-JEV videos and snapshot.json.
+- [pulkitxm/jev-reader](https://github.com/pulkitxm/jev-reader) `📚3` — jev-reader - Browser extension that explains difficult words with simple meanings and examples, powered by Jev. · JavaScript
+- [raydocs/egolite-jev](https://github.com/raydocs/egolite-jev) `📚3` — Agent skill that clicks through pages in ego-browser using a Jev Choice over ranked controls and reports success only on a URL or title match. MIT · JavaScript
+- [rishhavv/tabjev](https://github.com/rishhavv/tabjev) `📚3` — tabjev - Every new Chrome tab sorts itself into the right tab group in ~150ms using Jev \(TypeSafe\). Bring your own key. MV3, no dependencies, MIT. · JavaScript
+- [sai-harsha-k/relay-macos-assistant](https://github.com/sai-harsha-k/relay-macos-assistant) `📚3` — Experimental local-first macOS voice automation using whisper.cpp, TypeSafe Jev routing, typed actio
+- [schulxf/browser-qa](https://github.com/schulxf/browser-qa) `📚3` — Skill de QA visual e funcional para aplicações web. Combina agent-browser, Jev e verificação independente com…
+- [shamoniuniu/typesafe-jev-ui](https://github.com/shamoniuniu/typesafe-jev-ui) `📚3` — inferred / apps-demos — ⭐0
+- [sidhasadhak/jev-perfume-advisor](https://github.com/sidhasadhak/jev-perfume-advisor) `📚3` — Perfume recommendation chatbot powered by TypeSafe Jev's typed decisions (no generated text) over Fr
+- [site](https://huggingface.co/mkeco/cerebellum-2b-bf16) `📚3`
+- [site](https://collapseindex.github.io/jev-builder) `📚3`
+- [site](https://nexibeo.com) `📚3`
+- [site](https://jevcumber.dev) `📚3`
+- [site](https://jevplayground.terrydjony.com) `📚3`
+- [songxitao/browseros-jev](https://github.com/songxitao/browseros-jev) `📚3` — Zero-dependency fast-loop decision bridge connecting BrowserOS Neo & TypeSafe Jev.
+- [Stagehand on a remote browser](https://madewithjev.com/builds/stagehand-remote-browser) `📚3` — Browser tasks at a tenth of a cent each
+- [StoneHub/jev-tab-organizer](https://github.com/stonehub/jev-tab-organizer) `📚3` — jev-tab-organizer - jev-tab-organizer: TypeSafe Jev ecosystem repository. · JavaScript
+- [SwastikGorai/unslopify](https://github.com/swastikgorai/unslopify) `📚3` — unslopify - A configurable Chrome extension that filters AI slop, engagement bait, generic filler, and empty hype from social feeds using Jev · JavaScript
+- [thegovind/blink](https://github.com/thegovind/blink) `📚3` — Typed decisions from open models: a probability for every option in one forward pass, no generated t
+- [ThePatriczek/playwright-recast](https://github.com/thepatriczek/playwright-recast) `📚3` — Jev chooses camera moves, emphasis, and timing from a rendered Playwright recording and bounded direction candidates.
+- [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) `📚3` — OpenHuman - Rust agent harness that uses Jev to rank tool-search candidates and select browser actions, with host-controlled approval gates for consequential actions.
+- [Todmy/jevqa](https://github.com/todmy/jevqa) `📚3` — jevqa - Jev-guided monkey tester: $0.35 and 5 minutes to find missing features, validation gaps and dead controls before QA · Python
+- [trivikrama-madhusudhana/onpurpose](https://github.com/trivikrama-madhusudhana/onpurpose) `📚3` — A desktop Chrome extension that filters YouTube recommendations against your goal using Jev.
+- [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) `📚3` — TypeScript sidecar that helps agent-browser choose the next safe browser action: Jev sees a compact accessibility snapshot and goal, returns a typed decision, then code validates and agent-browser executes.
+- [victortran0904/Jev-Browser-Use](https://github.com/victortran0904/jev-browser-use) `📚3` — Local browser agent where Jev picks one bounded action from a DOM snapshot of up to 180 elements and code validates and executes it via an extension. no license · TypeScript
+- [wbuecksler/jev-voice-browser-chrome-extension](https://github.com/wbuecksler/jev-voice-browser-chrome-extension) `📚3` — Control your own Chrome by voice. Jev (TypeSafe System One) decides intent + target from typed proba
+- [wei-b0/gram-render](https://github.com/wei-b0/gram-render) `📚3` — gram-render - Near-instant generative UI for Telegram bots, powered by JEV. · TypeScript
+- [wendaoheri/jev-browser](https://github.com/wendaoheri/jev-browser) `📚3` — jev-browser - jev-browser: TypeSafe Jev ecosystem repository. · TypeScript
+- [xiaotao-xiaotao/jev-sense](https://github.com/xiaotao-xiaotao/jev-sense) `📚3` — jev-sense - An interactive image classification workbench powered by Jev, with a virtual conveyor belt and visual results. · JavaScript
+- [Xvectorio/jevit](https://github.com/xvectorio/jevit) `📚3` — jevit - JevIt: AI mail triage for Thunderbird with TypeSafe's Jev model. Unofficial. · JavaScript
+- [ypcypc/JEMM](https://github.com/ypcypc/jemm) `📚3` — Like Jev, but multimodal and open-weight: picks one candidate per question, with probabilities, from text or screenshots.
+- [Yzywil/jev-windows](https://github.com/yzywil/jev-windows) `📚3` — Supervised Windows UI Automation with TypeSafe Jev: bounded choices, local policy, verified outcomes
+- [zeno29/jev-desktop](https://github.com/zeno29/jev-desktop) `📚3` — Voice + text desktop assistant for Windows.
+- [zjply4000/antigravity-approval](https://github.com/zjply4000/antigravity-approval) `📚3` — Fail-closed Antigravity PreToolUse guardrail using deterministic rules and TypeSafe Jev to screen to
+- [网站](https://juancristobalgd1.github.io/jevremote) `📚3`
+
+## Long tail (cited by 1–2 lists) — 399
+
+<details><summary>Show 399 long-tail entries</summary>
+
+- [99hansling/bb-jev-browser](https://github.com/99hansling/bb-jev-browser) `📚2`
+- [adiun/clinical-trial-screener](https://github.com/adiun/clinical-trial-screener) `📚2` — Testing out Jev / System One model for a health use case Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [AdriaanVE/playwright-jev](https://github.com/adriaanve/playwright-jev) `📚2` — playwright-jev - Structured JEV decisions for Playwright: failure triage, smart retries, healer gating, snapshot pruning, locator healing, semantic assertions,…
+- [Ahmadnmic/autocorrecter](https://github.com/ahmadnmic/autocorrecter) `📚2` — Inline contextual autocorrect: web preview, desktop app (macOS/Windows), Android keyboard, Jev + Claude Haiku…
+- [ai-suifeng/twitter-laji-fliter-chrome](https://github.com/ai-suifeng/twitter-laji-fliter-chrome) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [aldouus/jevium](https://github.com/aldouus/jevium) `📚2` — jevium - droidjev (screenshot-free, ports the jev-ultrafast pattern).
+- [aley3567/bright-sight](https://github.com/aley3567/bright-sight) `📚2`
+- [Amakingithub/jev-computer-use](https://github.com/amakingithub/jev-computer-use) `📚2` — TypeSafe Jev (System One) decision layer + CPU-first GUI agent prototype (RapidOCR + Jev + pyautogui + dHash)
+- [andepants/feed-rubric](https://github.com/andepants/feed-rubric) `📚2` — feed-rubric - Open-source Chrome MV3 extension: user-defined rubric categories, Jev noul scores each feed post, hide matches. BYOK Typesafe. · TypeScript
+- [anvisharmaa/JobswithJEV](https://github.com/anvisharmaa/jobswithjev) `📚2` — A browser extension backed by JEV, classifying whether an individual should apply to a job posting or not.
+- [Arkane-o7/Sentinel](https://github.com/arkane-o7/sentinel) `📚2` — Sentinel - Sentinel: TypeSafe Jev ecosystem repository. · JavaScript
+- [arronhc/windows2text](https://github.com/arronhc/windows2text) `📚2` — Windows UI Automation screen-to-text, MCP server, and Jev-gated computer use
+- [aryaminus/cua](https://github.com/aryaminus/cua) `📚2` — cua — Computer-use automation where an LLM discovers a UI flow once and it replays deterministically with no model in the loop; Jev answers the continue/stuck…
+- [AshwaniKottapalli/brain-speeddial-eeg-jev](https://github.com/ashwanikottapalli/brain-speeddial-eeg-jev) `📚2` — Can EEG drive an AI agent? Public-data experiments: mental-command detection, Muse-like channel ablation, Jev (typesafe.ai) integration, two-layer EEG…
+- [auser/forge](https://github.com/auser/forge) `📚2` — forge - forge: TypeSafe Jev ecosystem repository. · Rust
+- [automaticdai/jev-linux-cleaner](https://github.com/automaticdai/jev-linux-cleaner) `📚2`
+- [AutomationAnywhere/typesafe-package](https://github.com/automationanywhere/typesafe-package) `📚2` — Automation Anywhere custom package wrapping the TypeSafe (Jev) API for typed yes/no, categorical, an
+- [babulubobo/formpilot](https://github.com/babulubobo/formpilot) `📚2` — FormPilot: AI form-filling Chrome extension
+- [bartek-filipiuk/linux-agent-workbench](https://github.com/bartek-filipiuk/linux-agent-workbench) `📚2` — Linux desktop app where an agent drives a containerized terminal and browser, with an experimental mode that hands fast browser subgoals to Jev. MIT ·…
+- [briwilcox/quiet-feed](https://github.com/briwilcox/quiet-feed) `📚2` — Chrome extension that filters X timelines with your own TypeSafe Jev API key, or GLiNER-Decide locally
+- [CaiZongyuan/mobile-agent](https://github.com/caizongyuan/mobile-agent) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [cameroncooke/AXe](https://github.com/cameroncooke/axe) `📚2` — For iOS, the author's Jev + AXe posts were inspected and the public AXe tree was checked at 30f4bfa. No Jev implementation was found there; the guide presents…
+- [cancakmk/playwright-ai-benchmark](https://github.com/cancakmk/playwright-ai-benchmark) `📚2` — Playwright AI Benchmark: Klasik Playwright vs JEV (TypeSafe AI) vs GPT-5.6 Luna vs GLM-5.3
+- [CatJuly/jev-voice-browser-zh](https://github.com/catjuly/jev-voice-browser-zh) `📚2` — Chinese-language adaptation of the (moritzkremb/jev-voice-browser)(#projects--code) idea (its own repo, not a GitHub fork): speak Chinese, a real browser…
+- [cdsassj00/jev-automation-showcase](https://github.com/cdsassj00/jev-automation-showcase) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [celestios/synthetic_colony](https://github.com/celestios/synthetic_colony) `📚2` — synthetic\_colony - synthetic\_colony: TypeSafe Jev ecosystem repository. · Python
+- [chaitanyatakmoge-maker/Jev-mobile-test](https://github.com/chaitanyatakmoge-maker/jev-mobile-test) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [chinazhangsan999-crypto/jev-ios](https://github.com/chinazhangsan999-crypto/jev-ios) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [danilocecilia/sleep-on-it](https://github.com/danilocecilia/sleep-on-it) `📚2` — Reviewed on 2026-09-23 at commit a074e11 (MIT). AI-assisted review of README, LICENSE, main.py. No Chrome/live run.
+- [davidkotler/jev-browser-tests](https://github.com/davidkotler/jev-browser-tests) `📚2` — jev-browser-tests - Prompt-driven browser tests: Jev executes, deterministic code verifies. · Python
+- [Divhanthelion/Smithy-Windows](https://github.com/divhanthelion/smithy-windows) `📚2` — Smithy for Windows: a native Rust IDE and coding agent on your own model, with Jev checking every step and unattended Runs ...
+- [dl013209-ai/hermes-ui-and-jev-suite](https://github.com/dl013209-ai/hermes-ui-and-jev-suite) `📚2` — Hermes UI & Jev Engine: Complete Suite (One-click installer for Feishu/WeChat UI beauty, fullwidth p
+- [Doringber/jevii-android](https://github.com/doringber/jevii-android) `📚2` — Jev-driven Android UI automation and reusable QA scenarios using Python, uiautomator2, and ADB.
+- [emipasca/jev-ecosystem-sim](https://github.com/emipasca/jev-ecosystem-sim) `📚2` — jev-ecosystem-sim - A 2D grid-island ecosystem where each animal is a Jev \(TypeSafe\) agent; the food chain emerges from calibrated typed decisions.…
+- [Faresabdelghany/jev-browser-test](https://github.com/faresabdelghany/jev-browser-test) `📚2`
+- [filiphric/playwright-jev](https://github.com/filiphric/playwright-jev) `📚2` — Jev browser agent powered by Playwright CLI, with a Trello demo and three-way MCP, CLI + Jev, and CLI + LLM comparison.
+- [Flight search with Browser Use](https://madewithjev.com/builds/browser-use-flights) `📚2` — Booking flow driven end to end
+- [flxbl-io/sf-autopilot](https://github.com/flxbl-io/sf-autopilot) `📚2` — sf-autopilot — Experimental: hand it a Salesforce org and a manual step. An LLM plans, Jev (TypeSafe) chooses every action, Playwright executes…
+- [frederico-kluser/anonymous-browser](https://github.com/frederico-kluser/anonymous-browser) `📚2` — Disposable, fingerprint-rotating browser via Tor (Camoufox) for you and for AI agents. The installer
+- [fz2000/android-phone-control](https://github.com/fz2000/android-phone-control) `📚2` — android-phone-control — MCP server and skill that let an agent drive an Android phone naturally over adb (auto-discovered, description not yet written)
+- [gbesse/exceptionos](https://github.com/gbesse/exceptionos) `📚2` — Resolve recurring order-reference exceptions with reviewed precedents and auditable propos
+- [gdamiani1/sieve](https://github.com/gdamiani1/sieve) `📚2` — Sieve: a Chrome extension that scores which LinkedIn and Reddit posts are worth your time and suggests reply angles, built on TypeSafe's ...
+- [GinSing1226/ScreenClaw](https://github.com/ginsing1226/screenclaw) `📚2` — Record once, replay anytime & screenshots + percentage-coordinate grids: non-blocking Windows deskto
+- [godovasik/infcraft-typesafe](https://github.com/godovasik/infcraft-typesafe) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [gowthxm07/Smart-Home-Automation-Using-Jev](https://github.com/gowthxm07/smart-home-automation-using-jev) `📚2` — Other related projects
+- [GreenPandaStudios/jev-browser-harness](https://github.com/greenpandastudios/jev-browser-harness) `📚2` — Fast, typed System One decisions over Playwright browser actions
+- [guanxuyu-sv/Visual-Jev-Browser-Use](https://github.com/guanxuyu-sv/visual-jev-browser-use) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [hermeticormus/ormus-jev-cua-linux](https://github.com/hermeticormus/ormus-jev-cua-linux) `📚2` — Linux AT-SPI action layer for Ormus Jev computer-use — agent plans, Jev executes clicks/types (arc-c
+- [hope-joe-instinct/lantern-extension](https://github.com/hope-joe-instinct/lantern-extension) `📚2` — Semantic find-in-page Chrome extension powered by TypeSafe AI Jev.
+- [huaaudio/jevsim](https://github.com/huaaudio/jevsim) `📚2` — Run verified iOS and Android UI workflows in one agent tool call with Jev.
+- [Ironieser/banjev](https://github.com/ironieser/banjev) `📚2` — Chrome extension that marks papers published within weeks of a viral model release (Jev) and their authors on arXiv / Google Scholar (auto-discovered,…
+- [jangtrinh/design-os-generative-ui](https://github.com/jangtrinh/design-os-generative-ui) `📚2` — Sub-50ms Real-Time Generative UI engine powered by Laya-MLX and TypeSafe JEV Cascade Router
+- [jawauntb/mapvest](https://github.com/jawauntb/mapvest) `📚2` — Mapvest — Google-Maps/Zillow-style investable-brand explorer. Photo scanning identifies public companies + ET…
+- [jeffscottward/omarchy-jev](https://github.com/jeffscottward/omarchy-jev) `📚2` — Bounded, screenshot-free JEV desktop control for Omarchy, with verified native actions and real-time evidence.
+- [JonasReif/Jev-Browser](https://github.com/jonasreif/jev-browser) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [kangshifu1/jev-computer-use](https://github.com/kangshifu1/jev-computer-use) `📚2` — Independent Jev computer-use skill for Codex and Chrome/Chromium, with bounded actions and verified browser workflows.
+- [KayatoX/Jev-Anti-Netabare](https://github.com/kayatox/jev-anti-netabare) `📚2`
+- [kentaojapi/jev-contract-screening-trial](https://github.com/kentaojapi/jev-contract-screening-trial) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [koriym/semantic-browser](https://github.com/koriym/semantic-browser) `📚2` — Browses hyperlinks by what they mean, not by routes — and measures whether an application
+- [kz-95/kz-harness](https://github.com/kz-95/kz-harness) `📚2` — z-harness - kz-harness: TypeSafe Jev ecosystem repository. · JavaScript
+- [LeeBooth269/tic-tac-toe-jev](https://github.com/leebooth269/tic-tac-toe-jev) `📚2` — Self-playing Tic-Tac-Toe (Rust + browser) that shows its decision logic for every move
+- [legostin/jev-browser](https://github.com/legostin/jev-browser) `📚2` — Browser automation MCP server and skill for Codex and Claude Code where Jev chooses action sequences and a Chrome extension executes them. no license ·…
+- [liyifan2004/browser-read-or-skip](https://github.com/liyifan2004/browser-read-or-skip) `📚2` — browser-read-or-skip - browser-read-or-skip: TypeSafe Jev ecosystem repository. · JavaScript
+- [londrwus/tano_hackathon](https://github.com/londrwus/tano_hackathon) `📚2` — tano\_hackathon - tano\_hackathon · Python
+- [lucas-avila/fishy](https://github.com/lucas-avila/fishy) `📚2` — Browser extension that checks whether the Gmail email you're reading looks like phishing, powered by TypeSafe Jev
+- [madhurjyadc/kibu](https://github.com/madhurjyadc/kibu) `📚2` — ibu - kibu: TypeSafe Jev ecosystem repository. · TypeScript
+- [MartinSWDev/gen-ui](https://github.com/martinswdev/gen-ui) `📚2` — Web app where one Jev call picks a shadcn/ui display and field bindings for pasted or live JSON, timing Jev latency with p50/p95. no license · TypeScript · live
+- [mauropello/stop-the-slop](https://github.com/mauropello/stop-the-slop) `📚2` — 🚫 Spot AI-generated YouTube scripts and content farms in real-time. Open-source browser extension for Chrome …
+- [max1874/jev-computer-use](https://github.com/max1874/jev-computer-use) `📚2` — A macOS computer-use agent with a dynamic, indexed action space. No screenshots, no coordinates. A macOS port of browser-use/jev-ultrafast.
+- [max1874/open-computer-use](https://github.com/max1874/open-computer-use) `📚2` — A macOS computer-use agent with a dynamic, indexed action space. No screenshots, no coordinates. A macOS port…
+- [MidnightLabDev/AI-Slop-Detector-for-LinkedIn](https://github.com/midnightlabdev/ai-slop-detector-for-linkedin) `📚2` — Chrome extension that detects low substance AI slop patterns in LinkedIn posts using the TypeSafe JEV API
+- [moomooskycow/polymorph](https://github.com/moomooskycow/polymorph) `📚2` — src/jev/client.ts and src/defaults.ts POST Choice questions to with model typesafe/jev-1.13; gate thresholds in code.
+- [More agents and browsers on madewithjev.com](https://madewithjev.com/categories/agents-and-browsers) `📚2` — (More agents and browsers on madewithjev.com)(projects/253-more-agents-and-browsers-on-madewithjev-co.md) — README.md:253 — → More agents and browsers on…
+- [moruku36/messenger-human-firewall](https://github.com/moruku36/messenger-human-firewall) `📚2` — messenger-human-firewall - messenger-human-firewall: TypeSafe Jev ecosystem repository. · TypeScript
+- [motomiki/jev-form-filler](https://github.com/motomiki/jev-form-filler) `📚2`
+- [Mr-Banan0/Jev-Resume-Filler-Chinese](https://github.com/mr-banan0/jev-resume-filler-chinese) `📚2` — Browser and device control
+- [muneeebnaveeed/jev-browser-standalone](https://github.com/muneeebnaveeed/jev-browser-standalone) `📚2` — jev-browser-standalone - Fork of jkudish/jev-browser with cookie seeding \(--cookie-file\) for authenticated pages · TypeScript
+- [ndrezn/ts-browser-agent](https://github.com/ndrezn/ts-browser-agent) `📚2` — Fast browser agent on langchain-typesafe Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [nikolas-j/jev-voice-browser](https://github.com/nikolas-j/jev-voice-browser) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [notsointresting/shouldiapply](https://github.com/notsointresting/shouldiapply) `📚2` — Free AI job fit checker: paste a job ad, see your chance of passing the resume screen, fix
+- [nshelia/jev-ultrafast](https://github.com/nshelia/jev-ultrafast) `📚2` — jev-ultrafast - A browser agent with a dynamic, indexed action space. · Python
+- [numaan/automation-jev](https://github.com/numaan/automation-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [onlineeric/speedy-jev](https://github.com/onlineeric/speedy-jev) `📚2` — My new browser extension (building in progress...): A fast, lightweight browser extension that sends
+- [ozzy2438/flow-desk](https://github.com/ozzy2438/flow-desk) `📚2` — Evidence-backed job discovery workspace with parallel browser flows, Jev-based typed decisions, and human-app…
+- [P3lerA/jev-computer-use](https://github.com/p3lera/jev-computer-use) `📚2` — jev-computer-use - jev-computer-use: TypeSafe Jev ecosystem repository. · Python
+- [PatrickOgilvie/popcomputer-structured-chat](https://github.com/patrickogilvie/popcomputer-structured-chat) `📚2` — Schema-defined structured chats with typed tools, stages, and UI views Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [paulsonnentag/scrap](https://github.com/paulsonnentag/scrap) `📚2` — scrap - scrap: TypeSafe Jev ecosystem repository. · TypeScript
+- [pav-bio-gh/spec-ptc-jev](https://github.com/pav-bio-gh/spec-ptc-jev) `📚2` — Natural-language speculation gates for speculative programmatic tool calling (spec-ptc), judged by TypeSafe J…
+- [pedroarruda07/jev-twitter-filter](https://github.com/pedroarruda07/jev-twitter-filter) `📚2` — Real-time twitter/X filter with Jev
+- [phareim/slopmark](https://github.com/phareim/slopmark) `📚2` — Chrome extension that subtly marks obviously AI-written text on web pages, scored by TypeSafe Jev
+- [pianistprogrammer/Jev-Browser](https://github.com/pianistprogrammer/jev-browser) `📚2`
+- [planeon-ai/jev-xai](https://github.com/planeon-ai/jev-xai) `📚2` — explanability and accountability layer for Jev type models
+- [pujux/hass-hunch](https://github.com/pujux/hass-hunch) `📚2` — hass-hunch - hass-hunch: TypeSafe Jev ecosystem repository. · Python
+- [pumpkinredbean/bside](https://github.com/pumpkinredbean/bside) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [pyroweiqiu/JevLens](https://github.com/pyroweiqiu/jevlens) `📚2` — JevLens - Using Jev for better web browsing · TypeScript
+- [RatelXD/JevPilot](https://github.com/ratelxd/jevpilot) `📚2` — Hybrid browser agent that combines a frontier LLM planner with Jev for fast structured act
+- [Ravicha2/jev-browser](https://github.com/ravicha2/jev-browser) `📚2` — Deterministic browser loop: Jev supplies judgments, code owns control flow
+- [richy-builds/jev](https://github.com/richy-builds/jev) `📚2` — Demos of TypeSafe's Jev model: typed judgments at scale (grid, race, sweep, London meetup planner)
+- [riz007/jev-screen](https://github.com/riz007/jev-screen) `📚2` — Jev based Resume scanner
+- [RohitKaushal7/omarchy-beam](https://github.com/rohitkaushal7/omarchy-beam) `📚2` — One box for Omarchy: apps, menu actions, inline maths and conversions, search shortcuts, URLs, and o
+- [Sagnik2503/blink-duel](https://github.com/sagnik2503/blink-duel) `📚2` — blink-duel - &gt; A fast-paced browser game where you compete against \\Jev\\ to distinguish real, fake, and AI-generated content across a series of deceptive…
+- [SATHVIK-R-P/jev-browser-agent](https://github.com/sathvik-r-p/jev-browser-agent) `📚2` — Confidence-aware autonomous browser agent that uses JEV for fast web decisions, Playwright for brows
+- [shing1Sks/jev-city](https://github.com/shing1sks/jev-city) `📚2` — A watchable town of ten residents. JEV chooses. GPT-6 Luna tells the story.
+- [shreyansh-singh74/ultrafast](https://github.com/shreyansh-singh74/ultrafast) `📚2` — ultrafast - ultrafast: TypeSafe Jev ecosystem repository. · Python
+- [ShunL12324/jev-browser-use](https://github.com/shunl12324/jev-browser-use) `📚2` — Chrome extension and MCP bridge with TypeSafe Jev browser experiments.
+- [sichengchen/unimeasure](https://github.com/sichengchen/unimeasure) `📚2` — Imperial/Metric conversion for Chrome. Smart detection with Jev.
+- [silver-lynn/Floaty](https://github.com/silver-lynn/floaty) `📚2` — Floaty - A hand-drawn desktop speech companion with live captions, Jev scoring, linked radar reviews and collectible hats. · Python
+- [sirviejo/jev-tidy-my-desktop](https://github.com/sirviejo/jev-tidy-my-desktop) `📚2` — Jev Tidy my Desktop: tidies the macOS Desktop with TypeSafe's Jev: screenshots always go to their folder; fol…
+- [site](https://jevbrowsercontrol.com) `📚2`
+- [site](https://xianhui.xzaigf.dpdns.org) `📚2`
+- [site](https://docs.jev-ui.dev) `📚2`
+- [skhlo/rlcd-brwsr](https://github.com/skhlo/rlcd-brwsr) `📚2` — Fast browser execution for Pi using Jev classification and Chrome DevTools CLI
+- [skyfallsin/jev-browser](https://github.com/skyfallsin/jev-browser) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [slopmop.lol](https://slopmop.lol) `📚2` — Hosted (no account): build the extension pointed at the public product backend, or follow install steps on slopmop.lol.
+- [smarty-kiki/chrome_jev_agent](https://github.com/smarty-kiki/chrome_jev_agent) `📚2` — chrome\_jev\_agent - chrome\_jev\_agent: TypeSafe Jev ecosystem repository. · JavaScript
+- [smellship/Jev-browseruse-autoui](https://github.com/smellship/jev-browseruse-autoui) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [srirsatt/jev-uicheck](https://github.com/srirsatt/jev-uicheck) `📚2` — jev ui check automator: fast jev+playwright UI check tool on every code change
+- [stanleyyoga123/jev-screening](https://github.com/stanleyyoga123/jev-screening) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [stas4000/jev-scroll](https://github.com/stas4000/jev-scroll) `📚2` — Open Chrome extension that labels every X/Twitter post with one Jev decision as you scroll. MIT.
+- [sushrutb17/linkedin-noslop-extension](https://github.com/sushrutb17/linkedin-noslop-extension) `📚2` — Chrome extension that blurs low-value LinkedIn feed posts using TypeSafe's Jev model, with one-click
+- [syanhg/JevBrowser](https://github.com/syanhg/jevbrowser) `📚2` — inferred / apps-demos — ⭐0
+- [theapiwalks-alt/Jev-Browser](https://github.com/theapiwalks-alt/jev-browser) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [thisisnsh/aithing](https://github.com/thisisnsh/aithing) `📚2` — AI, Agents, and Automation
+- [thonawit/slop-filter](https://github.com/thonawit/slop-filter) `📚2` — Hides AI slop on X and LinkedIn using TypeSafe's Jev model. Typed judgments, code decides.
+- [tonours/etabli](https://github.com/tonours/etabli) `📚2`
+- [user-attachments/assets](https://github.com/user-attachments/assets) `📚2` — Demo material: Original desktop demonstration
+- [usingcolor/jev-browser-plugin](https://github.com/usingcolor/jev-browser-plugin) `📚2` — Agent plugin: TypeSafe Jev browser automation skills for Grok Bot / Cursor
+- [uzuradev/cookie-clicker-jev](https://github.com/uzuradev/cookie-clicker-jev) `📚2` — Browser Cookie Clicker loop driven by Jev via Vercel AI Gateway
+- [vanawaker/jev-magi](https://github.com/vanawaker/jev-magi) `📚2`
+- [varunlohade/fastbrowsertool](https://github.com/varunlohade/fastbrowsertool) `📚2` — Claude thinks, jev clicks: a two-way loop between Claude Code and jev-ultrafast. 5-6x faster browser
+- [Vatsa10/typesafe-computer-use-win](https://github.com/vatsa10/typesafe-computer-use-win) `📚2` — typesafe-computer-use-win - Windows port of typesafe-computer-use: UI Automation + OCR with TypeSafe Jev decisions (winclicker). (Project…
+- [vedssharma/jev-drive](https://github.com/vedssharma/jev-drive) `📚2` — Browser-based autonomous car simulator powered by Jev: connected roads, traffic signals, p
+- [Vidit-Ostwal/Jev-Playing-Flipping-Birds](https://github.com/vidit-ostwal/jev-playing-flipping-birds) `📚2` — TypeSafe Jev plays Flappy Bird via flappy-bird-gymnasium, spectated live over WebSocket/FastAPI
+- [vincenth19/jev-testing](https://github.com/vincenth19/jev-testing) `📚2` — Small apps built on Jev (TypeSafe AI): Are they into you? and Finder, on Cloudflare Workers.
+- [viniciuskr/omarchy-windows-3-theme](https://github.com/viniciuskr/omarchy-windows-3-theme) `📚2` — Omarchy theme based on TypeSafe AI's Windows 3.1 design — pink VGA desktop, navy title bars, teal accents.
+- [vit-cerny/jev-browser-kit](https://github.com/vit-cerny/jev-browser-kit) `📚2` — Give any MCP-capable LLM harness an on-demand real-browser search tool (TypeSafe Jev) with per-run t
+- [ynnyh/model-preflight](https://github.com/ynnyh/model-preflight) `📚2` — model-preflight - model-preflight: TypeSafe Jev ecosystem repository. · Python
+- [yonidavidson/browser-duel](https://github.com/yonidavidson/browser-duel) `📚2` — LLM vs TypeSafe Jev vs a confidence-gated hybrid: who picks better links in a wiki race?
+- [yukurash/jev-playwright-repair-lab](https://github.com/yukurash/jev-playwright-repair-lab) `📚2` — Locator-only Playwright repair: rules vs Azure GPT-5.5 vs Jev, with independent verification
+- [网站](https://icon-matcher-ui.vercel.app) `📚2`
+- [网站](https://groundtruth.click) `📚2`
+- [00xmario/Linkedin-Slop-Detector](https://github.com/00xmario/linkedin-slop-detector) `📚1` — Chrome extension that detects AI-generated LinkedIn posts with TypeSafe's Jev model and slams a SLOP
+- [0pilatos0/jev-browser-mcp](https://github.com/0pilatos0/jev-browser-mcp) `📚1` — MCP server that lets an LLM drive a browser quickly and cheaply: Jev decides each step, code execute
+- [0xwhrari/jev-agent-switch,0,JavaScript,,2026-09-25,Portable](https://github.com/0xwhrari/jev-agent-switch,0,javascript,,2026-09-25,portable) `📚1`
+- [abdulbasit0-UI/support-ticket-jev-ai](https://github.com/abdulbasit0-ui/support-ticket-jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [abhitsian/seek](https://github.com/abhitsian/seek) `📚1` — Describe a file, app, setting, Chrome tab or person on your Mac and open it. Menu-bar search panel (
+- [Aceternity 3D Card Effect](https://ui.aceternity.com/components/3d-card-effect) `📚1` — use small CSS perspective and rotation to give the card depth. This implementation limits pointer tilt to four degrees.
+- [acoyfellow/predict](https://github.com/acoyfellow/predict) `📚1` — A small browser signal for the next useful step on a website.
+- [adlternative/tally-android](https://github.com/adlternative/tally-android) `📚1` — Android app that reads visible Bilibili comments and shows a floating sentiment distribution, powere
+- [adnankhan46/jev-voice-browser-agent](https://github.com/adnankhan46/jev-voice-browser-agent) `📚1` — The implementation of voice browser agent using jev or laya. Latency ~400 ms
+- [afcodehub/Jev-para-Chrome](https://github.com/afcodehub/jev-para-chrome) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [afraiz-tariq/ai-browser-agent](https://github.com/afraiz-tariq/ai-browser-agent) `📚1`
+- [AftabIbrahimKazi/ai-dev-kit](https://github.com/aftabibrahimkazi/ai-dev-kit) `📚1` — Self-improving skills library + layered coding-standards system for AI-assisted development (Claude
+- [Agneypraseed/TabPilot](https://github.com/agneypraseed/tabpilot) `📚1` — A Jev browser agent that reads pages, chooses browser actions, and follows a task across tabs
+- [ahmadghoniem/jev-lf2](https://github.com/ahmadghoniem/jev-lf2) `📚1` — Harness that lets Jev play Little Fighter 2 Remastered over the Chrome DevTools Protocol
+- [aidanobrien5599/smartpaste](https://github.com/aidanobrien5599/smartpaste) `📚1` — Cmd-V pastes the answer the field is asking for, chosen from your own resume by Jev. Chrome extension + CLI.
+- [Airflow LLMBranchOperator with Jev](https://airflow.apache.org/docs/apache-airflow-providers-common-ai/stable/index.html) `📚1` — Turns downstream task ids into a choice option set, with a minimum-confidence gate that routes uncertain runs to a human.
+- [akrupa-appto/sash](https://github.com/akrupa-appto/sash) `📚1` — Browser tasks with Jev, optional LLM planning, and Anchor Browser.
+- [aldemirkonuk/RestaurantAIAutomation](https://github.com/aldemirkonuk/restaurantaiautomation) `📚1` — Full Business Backend for Restaurant Inventory Systems
+- [alexmarianetti100-debug/jev-screener](https://github.com/alexmarianetti100-debug/jev-screener) `📚1` — inferred / apps-demos — ⭐0
+- [ameerhmz/ghosthand](https://github.com/ameerhmz/ghosthand) `📚1` — Ghosthand (powered by LAYA) ⚡ Sub-100ms local voice assistant & computer use agent for macOS on Appl
+- [AnEntrypoint/sembrowse](https://github.com/anentrypoint/sembrowse) `📚1` — Portable local browser decision runner combining Jev Ultrafast with SemIf-OpenJev
+- [anipnwr7777/jev-playing-chrome-dino](https://github.com/anipnwr7777/jev-playing-chrome-dino) `📚1` — Vibe coded automation for playing chrome dino using jev AI - using playright to automate t
+- [Anirudh64210/Mae---gmail-companion](https://github.com/anirudh64210/mae---gmail-companion) `📚1` — Mae is a Chrome extension for Gmail that checks your reply when you press Send and tells you if you left a ...
+- [aryan-confity/openultra-browser](https://github.com/aryan-confity/openultra-browser) `📚1` — System 1 decision model controlled ultrafast browser use running fully locally at 0 cost.
+- [AskingQuestions/typepath](https://github.com/askingquestions/typepath) `📚1` — Lightweight, headless, path-based router with full type-safety. Think tRPC + REST
+- [AstonyCat/jev-tab-grouper,3,JavaScript,,2026-09-20](https://github.com/astonycat/jev-tab-grouper,3,javascript,,2026-09-20) `📚1`
+- [aTh1ef/ateef-portfolio-typesafe](https://github.com/ath1ef/ateef-portfolio-typesafe) `📚1` — Ateef Hussain Sheikh portfolio, re-skinned in the monochrome typesafe.ai system UI.
+- [August1314/bb-browser-skill](https://github.com/august1314/bb-browser-skill) `📚1`
+- [avishekjana-89/playwright-jev](https://github.com/avishekjana-89/playwright-jev) `📚1` — Autonomous, scalable browser automation — Playwright MCP + Typesafe AI Jev
+- [Ayush0054/menso](https://github.com/ayush0054/menso) `📚1` — Native macOS voice assistant where Jev selects one candidate from a request-scoped catalog of Mac actions and the app requires local approval to execute. MIT ·…
+- [Babe153/jev-desktop-agent](https://github.com/babe153/jev-desktop-agent) `📚1` — Windows voice desktop agent powered by TypeSafe Jev and Python
+- [batky-ai/reddit-jev-tool-public](https://github.com/batky-ai/reddit-jev-tool-public) `📚1` — Chrome extension that highlights Reddit posts you can answer, scored by TypeSafe Jev against your ow
+- [bchhabra2490/jev-linkedin-filter-extension](https://github.com/bchhabra2490/jev-linkedin-filter-extension) `📚1` — Chrome extension using Jev for Linkedin posts filters
+- [bensonlove1986-sys/jev-ui](https://github.com/bensonlove1986-sys/jev-ui) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [bigmo6286/youtube-shorts-automation](https://github.com/bigmo6286/youtube-shorts-automation) `📚1`
+- [bingjianzhuoo-ui/jev-demo](https://github.com/bingjianzhuoo-ui/jev-demo) `📚1`
+- [blosmo/super-UI](https://github.com/blosmo/super-ui) `📚1` — Discover, compare, and try original React components with problem-based semantic search. Automatically matched explicit Jev and TypeSafe/System One references.…
+- [brandononchain/zearch](https://github.com/brandononchain/zearch) `📚1` — Perplexity-style open-source UI for TypeSafe Jev: search → evidence state → typed decisions
+- [bridge-mind/bridgeclip](https://github.com/bridge-mind/bridgeclip) `📚1` — BridgeClip - Desktop app that cuts long videos into short clips, asking which moments are strongest and whether a cut still makes sense on its own.
+- [Browser Use's Jev Ultrafast Cuts Browser Agent Costs 90% With Indexed DOM Actions](https://alphasignal.ai/news/browser-use-s-jev-ultrafast-cuts-browser-agent-costs-90-with-indexed-dom-actions) `📚1` — Reports Browser Use's MIT-licensed agent where Jev picks an action and element index per step; Google Flights demo in about 7s at a reported $0.0039. Paywalled…
+- [browser-use/jev-ultrafast,20513,Python,MIT,2026-09-25,2026-09-26](https://github.com/browser-use/jev-ultrafast,20513,python,mit,2026-09-25,2026-09-26) `📚1`
+- [browser-use/macOS-use](https://github.com/browser-use/macos-use) `📚1`
+- [buer2233.github.io/jev-ui-test](https://buer2233.github.io/jev-ui-test) `📚1` — Online report: buer2233.github.io/jev-ui-test.
+- [calum-mcg/jev-hearts](https://github.com/calum-mcg/jev-hearts) `📚1` — Puts Jev at a Hearts card-game table with three computer players and shows every decision in one window; full-round demo GIF (dumps the Q♠ on East, finishes on…
+- [chand45/JetDesk](https://github.com/chand45/jetdesk) `📚1` — Native Windows desktop automation powered by Jev and Windows UI Automation.
+- [chrisyerga/jev-ui](https://github.com/chrisyerga/jev-ui) `📚1` — Using jev for intelligent UI list filtering
+- [Chrome Web Store](https://chromewebstore.google.com/detail/jev-content-guard/icdfmbedfjfodocdhpnecdjgofakeemn) `📚1` — Chrome (Chromium Manifest V3); version 1.3. Chrome Web Store or source-build (clone the MIT source).
+- [ChubbyOtter/jevDemo](https://github.com/chubbyotter/jevdemo) `📚1` — AI-native Android UI test runner using TypeSafe/Jev + Appium
+- [ChuckNomis/linkedin-post-filtering-jev](https://github.com/chucknomis/linkedin-post-filtering-jev) `📚1` — Chrome extension that filters LinkedIn feed job posts using Jev AI classification
+- [chy4pro/jev-for-chrome,29,TypeScript,,2026-09-18](https://github.com/chy4pro/jev-for-chrome,29,typescript,,2026-09-18) `📚1`
+- [CloakHQ/CloakBrowser](https://github.com/cloakhq/cloakbrowser) `📚1`
+- [coltorapps/builder](https://github.com/coltorapps/builder) `📚1` — React Form Builder. Headless, full-stack, typesafe, multi-platform, framework agnostic, zero depende
+- [cx295410-dot/jev-biomedical-evidence-screening](https://github.com/cx295410-dot/jev-biomedical-evidence-screening) `📚1` — Frozen predictions on SYNERGY systematic-review data scored for discrimination, calibration and screening workload at high recall. jev-1.13.0 · n=17,191 pairs
+- [daisuke7/jevlergy](https://github.com/daisuke7/jevlergy) `📚1` — Evaluating TypeSafe's System One model Jev through camera-based food allergen estimation (Flutter, i
+- [damian87x/jev-browser-use,0,Python,,2026-09-23](https://github.com/damian87x/jev-browser-use,0,python,,2026-09-23) `📚1`
+- [DanielCorralesAlonso/Decision_Model_Screening_CRC](https://github.com/danielcorralesalonso/decision_model_screening_crc) `📚1` — Decision model for colorrectal cancer screening. Based on bayesian networks and influence
+- [DanielTea/screenquest](https://github.com/danieltea/screenquest) `📚1` — A local vision game agent for Apple Silicon. Screenshot perception, Laya/Core ML decisions, Qwen/MLX
+- [darkbringer1/jev-mobile-tester](https://github.com/darkbringer1/jev-mobile-tester) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [databyjp/jev-elastic-examples](https://github.com/databyjp/jev-elastic-examples) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ddannyc/jev-2048-experiment](https://github.com/ddannyc/jev-2048-experiment) `📚1` — Browser experiment: TypeSafe Jev selects legal moves in Poki 2048 via Playwright.
+- [Deeptanshuu/mill-screen](https://github.com/deeptanshuu/mill-screen) `📚1` — mill-screen — Mill is a fast, single-pass classifier for content moderation across 7 languages (en, ru, tr, es, fr, it, pt), built on XLM-RoBERTa-large.…
+- [dex0shubham/intern-decision-mlx](https://github.com/dex0shubham/intern-decision-mlx) `📚1` — Screenshot + questions in, calibrated typed decisions out. Intern-Decision on Apple silicon: 0.9 s p
+- [DigitalniVuk/safenet](https://github.com/digitalnivuk/safenet) `📚1` — Terminal LAN monitor: local rules as senses, TypeSafe Jev as risk brain. Speed/accuracy experiment.
+- [digitopvn/clarkcant](https://github.com/digitopvn/clarkcant) `📚1` — Conversation-first agent platform: portable runtime, paired execution nodes, rich widgets and capability packs
+- [Divinci-AI/divinci-table](https://github.com/divinci-ai/divinci-table) `📚1` — An AI player at a real four-player Commander (Magic: The Gathering) table: typed System One decisions, a rules harness, and the table ...
+- [doruktarhan/jev-browser](https://github.com/doruktarhan/jev-browser) `📚1` — Hand web navigation to the Jev action model in one call. Claude Code skill + jb CLI, bench
+- [droidrun/mobile-jev,405,JavaScript,MIT,2026-09-17,2026-09-26](https://github.com/droidrun/mobile-jev,405,javascript,mit,2026-09-17,2026-09-26) `📚1`
+- [duanebester/gooey](https://github.com/duanebester/gooey) `📚1` — Gooey is a hybrid immediate/retained mode UI framework designed for building fast, GPU-rendered applications …
+- [Eddienews/forgeos-browser](https://github.com/eddienews/forgeos-browser) `📚1` — ForgeOS Browser - a private, local-first browser built for humans and prepared for trusted AI agents. Educational prototype. Zero telemetry. Automatically…
+- [ehabhamdy/jev-browser-use](https://github.com/ehabhamdy/jev-browser-use) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [emre-aktas/muteads](https://github.com/emre-aktas/muteads) `📚1` — Mute the ads, not the app. An Android notification filter that reads each notification as it arrives and clears only the ones trying to sell you something.…
+- [enucatl/docker-browser-use](https://github.com/enucatl/docker-browser-use) `📚1`
+- [epiral/bb-browser](https://github.com/epiral/bb-browser) `📚1`
+- [ericjuta/omp-cua-jev](https://github.com/ericjuta/omp-cua-jev) `📚1` — Guarded computer use with Oh My Pi's configured judge and Cua Driver
+- [ewu-gcts/typesafe-computer-use-windows](https://github.com/ewu-gcts/typesafe-computer-use-windows) `📚1` — Windows adaptation of awlevin/typesafe-computer-use (950★ macOS computer-use agent): Jev picks UI actions, local OCR + Windows UI Automation + MCP integration…
+- [Eyalm321/hearthsmith](https://github.com/eyalm321/hearthsmith) `📚1` — A pixel-art blacksmith who lives on your desktop, nags you about tasks, watches your terminal panes, and hands work to your coding agents. Automatically…
+- [flenard/chrome-x-post-qualifier,0,TypeScript,,2026-09-22](https://github.com/flenard/chrome-x-post-qualifier,0,typescript,,2026-09-22) `📚1`
+- [forvela/jev-agent-browser,13,JavaScript](https://github.com/forvela/jev-agent-browser,13,javascript) `📚1`
+- [gabriel-laet/zappe](https://github.com/gabriel-laet/zappe) `📚1` — Personal TV zapper: wgpu HUD + real Chrome for Netflix/Prime/Disney Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [gautam-saraf/local-jev-browser](https://github.com/gautam-saraf/local-jev-browser) `📚1` — Browser and device control
+- [gbesse/jev-reseau-mobile-fit](https://github.com/gbesse/jev-reseau-mobile-fit) `📚1`
+- [gbesse/metabase-jev](https://github.com/gbesse/metabase-jev) `📚1` — Community TypeSafe Jev semantic decision integration for metabase
+- [gbesse/metabase-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/metabase-jev,0,python,,2026-09-26,community) `📚1`
+- [goncy/quiet-replies](https://github.com/goncy/quiet-replies) `📚1` — A small Chrome extension that marks or collapses likely AI-written replies on X, powered by Jev. ★ 3 · ai_sdk · JavaScript
+- [grabbou/jevil](https://github.com/grabbou/jevil) `📚1` — Mobile QA agent that reads an iOS or Android app via agent-device, lets Jev choose each action until pass or fail, and saves a trace and recording. no license…
+- [Green Stock News: "Aurora Mobile's GPTBots.ai Integrates Jev" (2026-09-22)](https://greenstocknews.com/news/nasdaq/jg/aurora-mobile-s-gptbots-ai-integrates-jev-two-layers-of-ai-one-enterprise-platform) `📚1` — Company press release: NASDAQ-listed Aurora Mobile adds Jev to its GPTBots.ai enterprise agent platform as a "decision layer" beneath the reasoning layer —…
+- [GreenPandaStudios/jeverative-ui](https://github.com/greenpandastudios/jeverative-ui) `📚1` — Goal-directed React interfaces powered by TypeSafe Jev, with a static showcase of recorded examples.
+- [Guischk/airtable-types-gen](https://github.com/guischk/airtable-types-gen) `📚1` — CLI that turns an Airtable base schema into Zod schemas and TypeScript types. Computed fields marked
+- [h1code2/mobile-jev-local](https://github.com/h1code2/mobile-jev-local) `📚1`
+- [hadiezatpanah/Spark_Java_Stateful_Processing](https://github.com/hadiezatpanah/spark_java_stateful_processing) `📚1` — This project presents a distributable solution based on Spark Java, aiming to connect star
+- [HermeticOrmus/jev-context-screen](https://github.com/hermeticormus/jev-context-screen) `📚1` — jev-context-screen - HermeticOrmus/jev-context-screen - Jev context screen.
+- [hitakshiA/solari-fast-showcase](https://github.com/hitakshia/solari-fast-showcase) `📚1` — Long, real workflows on Solari browsers and desktops: solari-reflex (Jev) vs Codex + GPT-6 Astra, recorded and verified by the apps themselves. Automatically…
+- [hitakshiA/solari-reflex](https://github.com/hitakshia/solari-reflex) `📚1` — A speed layer for computer use on Solari: one structured observation, one Jev decision, one verified action per step. Browsers and Linux desktops.…
+- [htpu/mailaya](https://github.com/htpu/mailaya) `📚1` — Local AI mail triage for Gmail & Outlook — a Chrome extension backed by a Laya model running on your
+- [hudbeard/jev-hints](https://github.com/hudbeard/jev-hints) `📚1` — Chrome extension: Macmillan Learning multiple-choice hints via TypeSafe Jev
+- [Intellinfinity/edupi-desktop](https://github.com/intellinfinity/edupi-desktop) `📚1` — EduPi teacher agent desktop
+- [intersoftdatalabs-in/percussioncms](https://github.com/intersoftdatalabs-in/percussioncms) `📚1` — Percussion CMS issue prescreen · intersoftdatalabs-in · GitHub · ⭐ 6 repo · 2023-09-27Maintainer script for the Percussion CMS repository that prescreens a…
+- [ItaiZeilig/clawbrowse](https://github.com/itaizeilig/clawbrowse) `📚1` — clawbrowse — Let Claude Code drive your real, logged-in Chrome. MV3 extension + zero-dep MCP server, element-table perception over CDP. The agent is the…
+- [itsaam/slop-detector](https://github.com/itsaam/slop-detector) `📚1` — A Chrome extension that flags low-substance engagement bait on X using Jev.
+- [itsamejoshab/jevlab](https://github.com/itsamejoshab/jevlab) `📚1` — Offline search lab for studying Jev's behavior: bandit-driven phrase search to identify which words influence decisions, with architecture docs and screenshots…
+- [jadense-ai/jadense-in-zotero](https://github.com/jadense-ai/jadense-in-zotero) `📚1` — Jadense in Zotero - Zotero reading assistant that classifies your library with typed questions. Chinese.
+- [jaimevalasek/aioson](https://github.com/jaimevalasek/aioson) `📚1` — AIOSON jev:review · jaimevalasek · GitHub · ⭐ 25 repo · 2026-03-01Jev commands in the AIOSON AI operating framework for software projects: jev:review adds a…
+- [jal-co/jev-agent-browser,0,Python,Jev](https://github.com/jal-co/jev-agent-browser,0,python,jev) `📚1`
+- [jeslor/jev_observe](https://github.com/jeslor/jev_observe) `📚1` — Jev Trace is a local-first desktop application that answers one simple question: "What exa
+- [Jev Rapid Decision Engine: Automating Software in Real-Time — BinaryPH](https://binary.ph/2026/09/23/unveiling-jev-typesafe-ais-rapid-decision-engine-revolutionizing-software-automation) `📚1`
+- [jevinskie/jev-elf-tools](https://github.com/jevinskie/jev-elf-tools) `📚1` — ELF tools like external -> local symtab entry patching
+- [JevList](https://jevlist.ai) `📚1` — Try the beta web UI at JevList. Explore the projects in this directory through a searchable web interface. We're continually improving the experience—take a…
+- [jfariasf87/Krilin](https://github.com/jfariasf87/krilin) `📚1` — Python host and Kotlin accessibility service that let Jev choose grounded actions on an Android emulator, with CLI, optional MCP server and demo app. MIT ·…
+- [jkf87/jev-ultrafast-naver](https://github.com/jkf87/jev-ultrafast-naver) `📚1` — Jev Ultrafast fork: Naver Flights mobile browser agent driven by Korean goals (TypeSafe Jev + GLM)
+- [jkudish/jev-browser,274,JavaScript,MIT,2026-09-26,2026-09-26](https://github.com/jkudish/jev-browser,274,javascript,mit,2026-09-26,2026-09-26) `📚1`
+- [JonnyFi/gute-kaese](https://github.com/jonnyfi/gute-kaese) `📚1` — Type anything. Jev decides in ~0.4s whether it's Gute Käse. A gut call, no explanation.
+- [jxzxl07/JevDesk](https://github.com/jxzxl07/jevdesk) `📚1` — Local-first push-to-talk desktop agent that completes work visibly, verifies outcomes, and compiles successfu…
+- [kachray/jevBrowserAgent](https://github.com/kachray/jevbrowseragent) `📚1`
+- [Kathan511/JevFocus](https://github.com/kathan511/jevfocus) `📚1` — Jev Focus is a Chrome extension that keeps Instagram Reels and YouTube video feeds aligned
+- [keduseworku/jev-transcript-screener](https://github.com/keduseworku/jev-transcript-screener) `📚1` — Jev demo: rank AI solver transcripts so a costly judge reads only the likely guesses
+- [Kernel 浏览器演示](https://jev-browser-use.val.run) `📚1`
+- [Kev Space](https://huggingface.co/spaces/jaredpalmer/kev) `📚1` — Browser demo of Kev-4B and Kev-0.8B.
+- [khang859/fleet](https://github.com/khang859/fleet) `📚1` — Fleet auto-mode Jev classifier · khang859 · GitHub · ⭐ 6 repo · 2026-03-14Option in Fleet, a desktop terminal multiplexer for running several AI coding agents,…
+- [kitasota/jev-ultrafast](https://github.com/kitasota/jev-ultrafast) `📚1` — A browser agent that chooses instead of generating.
+- [kylemclaren/jevx](https://github.com/kylemclaren/jevx) `📚1` — Chrome extension that indexes the tweets you actually read on X into local SQLite, dedupes them, and judges and searches them with ...
+- [lacemou/handraw-stylepop-jev](https://github.com/lacemou/handraw-stylepop-jev) `📚1`
+- [laihenyi/pi-Jev-browser,1,TypeScript,,2026-09-19](https://github.com/laihenyi/pi-jev-browser,1,typescript,,2026-09-19) `📚1`
+- [layaForWeb](https://medium.com/@visrow/jev-vs-laya-live-demo-i-ran-a-421-million-parameter-ai-decision-model-inside-a-browser-tab-no-84b86bed1f10) `📚1` — Vishal Mysore · Article · 2026-09-21Runs the open 421M-parameter Laya decision model inside a browser tab via ONNX Runtime Web and WebAssembly, shown next to…
+- [lazniak/Jev-UltraCuse](https://github.com/lazniak/jev-ultracuse) `📚1` — Najszybszy Computer Use na Jev 1.13: Rust, portable exe, UIA + SendInput + PowerShell, realtime STT (PL)
+- [ledgerwerk/pyjev](https://github.com/ledgerwerk/pyjev) `📚1` — Reusable, inspectable Jev decision contracts for Python applications and automation.
+- [lianjiexu08-ui/goal-guided-brain](https://github.com/lianjiexu08-ui/goal-guided-brain) `📚1`
+- [linc85824-lang/Jev-AI-Desktop](https://github.com/linc85824-lang/jev-ai-desktop) `📚1` — inferred / other — ⭐1
+- [liumengniu/majiang](https://github.com/liumengniu/majiang) `📚1`
+- [live](https://sites.almond.build/browser-use-olympics) `📚1`
+- [live](https://noblespartan6.github.io/otto) `📚1`
+- [live](https://chrome.google.com/webstore/detail/ponbeiihcconklnlphjcnbfkghnimpid) `📚1`
+- [live](https://gen-ui-wheat.vercel.app) `📚1`
+- [m-naw/ux-explore](https://github.com/m-naw/ux-explore) `📚1` — Goal-driven synthetic persona testing for websites: Jev decides, Playwright acts, one Sonnet report per journ…
+- [maanlamp/react-f3](https://github.com/maanlamp/react-f3) `📚1` — Components, hooks & utilities for creating and managing delightfully simple form experiences in Reac
+- [Magic UI Confetti](https://magicui.design/docs/components/confetti) `📚1` — and Border Beam: celebrate a deliberate action once; use a restrained highlight instead of a permanent animated banner. The draw uses 18 short-lived Canvas…
+- [matsuikentaro1/jev-title-abstract-screening](https://github.com/matsuikentaro1/jev-title-abstract-screening) `📚1` — Title and abstract screening for systematic reviews with Jev, a System One model
+- [mercy719/jev-browser-use-for-ego-lite](https://github.com/mercy719/jev-browser-use-for-ego-lite) `📚1` — Browser use for Claude Code in ego lite: Jev picks each click, GLM plans and falls back. G
+- [MIBlue119/jevtabs](https://github.com/miblue119/jevtabs) `📚1` — Local-first browser context workspace: watches where your attention actually goes (foreground visits only — a tab untouched for sixteen days produces nothing),…
+- [MidnightLabDev/AI-Slop-Detector-for-LinkedIn,0,JavaScript,,2026-09-22,Chrome](https://github.com/midnightlabdev/ai-slop-detector-for-linkedin,0,javascript,,2026-09-22,chrome) `📚1`
+- [midplane/clean-twitter](https://github.com/midplane/clean-twitter) `📚1` — Pending review of credential-bearing settings returned by the extension's message handler. Removed its automatic listing through an explicit, reversible…
+- [Mihir-Rabari/jev-one-click](https://github.com/mihir-rabari/jev-one-click) `📚1` — Deploy a Jev-compatible decision API locally in one click.
+- [mjvmsteixeira/jev-browser-mcp](https://github.com/mjvmsteixeira/jev-browser-mcp) `📚1` — Agente de browser para o Claude Code: jev-ultrafast + Jev (TypeSafe) com guardas de domíni
+- [Mobilerun API keys](https://cloud.mobilerun.ai/api-keys) `📚1`
+- [moritzkremb/jev-voice-browser,324,JavaScript,MIT,2026-09-21,2026-09-26](https://github.com/moritzkremb/jev-voice-browser,324,javascript,mit,2026-09-21,2026-09-26) `📚1`
+- [msrshahrukh100/jev-resume-screener](https://github.com/msrshahrukh100/jev-resume-screener) `📚1` — Jev Resume Screener: open-source AI resume screening with TypeSafe's Jev decision model. YES/NO verd
+- [msrshahrukh100/jev-resume-screener,0,Python,,2026-09-23](https://github.com/msrshahrukh100/jev-resume-screener,0,python,,2026-09-23) `📚1`
+- [Mytai20100/opencode-browser](https://github.com/mytai20100/opencode-browser) `📚1` — A extension chrome mcp server allow AI agent full remote same playwright
+- [nano-form/nano-form](https://github.com/nano-form/nano-form) `📚1` — Lightweight, type-safe form validation library for Vue 3 that leverages Vue's reactivity system to p
+- [nanoqsh/dunge](https://github.com/nanoqsh/dunge) `📚1` — Typesafe and portable 3d render library
+- [nathan1658/jev-tab-grouper](https://github.com/nathan1658/jev-tab-grouper) `📚1` — Chrome extension: group tabs by domain, or by category using TypeSafe Jev
+- [naturalmoods/zajszuro](https://github.com/naturalmoods/zajszuro) `📚1` — Zajszűrő – hírválogató és kattintásvadász-mérő Chrome-bővítmény (TypeSafe Jev)
+- [neuronection/desktop-assistant](https://github.com/neuronection/desktop-assistant) `📚1` — Open-source AI launcher in your system tray: global hotkey, streaming chat, voice input, P
+- [Nguyen-Dinh-Long-GMO-Z-VN/DrissionPage-Jev-Browser-Harness-Skill](https://github.com/nguyen-dinh-long-gmo-z-vn/drissionpage-jev-browser-harness-skill) `📚1`
+- [norbertgoltl/jev-semantic-content-blocker](https://github.com/norbertgoltl/jev-semantic-content-blocker) `📚1` — Technical case study exploring Jev (jevtypesafeai.com) as a semantic decision layer for ad detection
+- [nottelabs/notte-jevmaxxing](https://github.com/nottelabs/notte-jevmaxxing) `📚1` — Run Jev on Notte browser sessions
+- [novnski/luna-computer-use](https://github.com/novnski/luna-computer-use) `📚1` — Computer-use MCP server and Chrome extension where Jev selects the live UI element for every browser or native action and the caller plans. no license ·…
+- [nozomuiino/kind-sns](https://github.com/nozomuiino/kind-sns) `📚1`
+- [nshelia-typeform/jev-ultrafast](https://github.com/nshelia-typeform/jev-ultrafast) `📚1` — A browser agent with a dynamic, indexed action space.
+- [nternet-company/hater](https://github.com/nternet-company/hater) `📚1` — Firefox/Chrome extension that asks Jev on every keystroke which reaction-cat meme fits your X draft, with an editable memes.json. MIT · JavaScript
+- [OmerHerera/jev-ui](https://github.com/omerherera/jev-ui) `📚1` — Small generative-UI demo: Jev classifies a prompt into a registered component and React renders that component from local code — model output never becomes…
+- [onecentdemo.com](https://onecentdemo.com) `📚1` — Python 3.12+, uv, ffmpeg, Google Chrome; Try demos or source build.
+- [onecuriousmindset/sweep](https://github.com/onecuriousmindset/sweep) `📚1` — Chrome extension that blurs or removes posts on X, Reddit, LinkedIn and Hacker News matching plain-word Hide or Show-only rules, with your own key. MIT ·…
+- [packstub/filament-flow](https://github.com/packstub/filament-flow) `📚1` — Visual workflow automation for Filament panels: triggers, conditions and actions drawn on a canvas, run by yo…
+- [PedroProcopio/outlook-worth-it](https://github.com/pedroprocopio/outlook-worth-it) `📚1` — Chrome extension: Jev (TypeSafe) tags Outlook Web emails as worth reviewing and categorizes them (PO Variance, Patch Notes, Items, Cost Containment)…
+- [PedroProcopio/yt-worth-it](https://github.com/pedroprocopio/yt-worth-it) `📚1` — Chrome extension: Jev (TypeSafe) tags YouTube videos as worth watching and categorizes them Automatically matched explicit Jev and TypeSafe/System One…
+- [peterrauscher/x-bookmark-sorter](https://github.com/peterrauscher/x-bookmark-sorter) `📚1` — Chrome extension that auto-sorts your X bookmarks into folders using Jev.
+- [phanngoc/browser-ai](https://github.com/phanngoc/browser-ai) `📚1` — Jev-driven browser agent in pure Go — CDP over pipe/WebSocket, attach to real Chrome, built to measure real s…
+- [pickle-debug/jev-chat-jarvis-ios](https://github.com/pickle-debug/jev-chat-jarvis-ios) `📚1`
+- [PistachioAIHQ/jev-synergy-screening,2,Python,,2026-09-16](https://github.com/pistachioaihq/jev-synergy-screening,2,python,,2026-09-16) `📚1`
+- [pkmdev-sec/aveli](https://github.com/pkmdev-sec/aveli) `📚1` — A browser agent that chooses operations and targets from an indexed page state.
+- [pmarcanol/ungrift](https://github.com/pmarcanol/ungrift) `📚1` — Ungrift classifies and filters posts on X and LinkedIn with TypeSafe Jev.
+- [pongpong/token-savings-notes](https://github.com/pongpong/token-savings-notes) `📚1` — PongPong/token-savings-notes: TYPESAFE-JEV.md — Token-savings research notes with a dedicated Jev companion doc: a claim-source table for Jev (each official…
+- [pratikpakhale/jevx](https://github.com/pratikpakhale/jevx) `📚1` — Bring-your-own-key Chrome extension that filters your X timeline with TypeSafe Jev
+- [Product](https://harness.autonomous.ai/desktop) `📚1` — Harness desktop download — macOS and Linux installers for OpenHarness, which ships the Jev Sheets harness.
+- [pulkitxm/jev-form-filler](https://github.com/pulkitxm/jev-form-filler) `📚1` — Browser extension that fills forms from your profiles and portfolio in one click, powered by Jev.
+- [Python Libraries (Substack): "Browser-Use Puts the Jev Model into a Browser Agent!"](https://pythonlibraries.substack.com/p/browser-use-puts-the-jev-model-into) `📚1` — Walkthrough of the (jev-ultrafast)(#projects--code) 7.1s Zurich→London demo: browser protocol calls dropped from 1,092 to 101; Jev picks the operation +…
+- [qiyangdev/hn-jev](https://github.com/qiyangdev/hn-jev) `📚1` — Hacker News scoring Chrome extension powered by Jev
+- [Quietcatalpa/subtext](https://github.com/quietcatalpa/subtext) `📚1` — Read between the lines — a local, private chat reply assistant: paste a WeChat screenshot to analyze
+- [qwts/postlens](https://github.com/qwts/postlens) `📚1` — Chrome/Brave extension adding a JEV Analyze button to X posts that shows eight Jev analysis dimensions inline. no license · JavaScript
+- [raihankhan-rk/firstscreen](https://github.com/raihankhan-rk/firstscreen) `📚1` — FirstScreen — paste a URL. Jev judges the first screen (TypeSafe System One).
+- [rajeev-sg/adaptive-ui-runtime](https://github.com/rajeev-sg/adaptive-ui-runtime) `📚1`
+- [Rasukarusan/chrome-extension-jev-x](https://github.com/rasukarusan/chrome-extension-jev-x) `📚1`
+- [ratatoskr-labs/tab-jev-overview](https://github.com/ratatoskr-labs/tab-jev-overview) `📚1` — Independent overview slides of edamame-labs/tab-jev (not a fork; all project credit upstream)
+- [Read](https://mrjev.com/projects/jkudish-jev-browser) `📚1` — Every typing step presses Enter, so filling a contact form submits it.
+- [Read](https://mrjev.com/projects/awlevin-typesafe-computer-use) `📚1` — The README said no screenshot is sent; the final answer includes one.
+- [ReflexDesigns/Ehi-Jev](https://github.com/reflexdesigns/ehi-jev) `📚1` — HeyJev — voice-operated Windows desktop assistant with dynamic notch overlay
+- [Retriever AI: Jev browser-agent benchmark](https://rtrvr.ai/blog/jev-browser-agent-benchmark) `📚1` — A first-party report on Jev action selection with GLM planning, including speed gains and higher total cost.…
+- [RikaiDev/mesen](https://github.com/rikaidev/mesen) `📚1` — mesen — On-prem typed VLM UI decision engine (vlm-jev) with sub-millisecond ONNX runtime
+- [rkceve/SkiPass](https://github.com/rkceve/skipass) `📚1` — iOS AutoFill for one-time codes from any mailbox. Jev picks the right code; RevenueCat meters fills.
+- [rkendel1/jev-ui](https://github.com/rkendel1/jev-ui) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [rossik86/playwright-mcp-jev](https://github.com/rossik86/playwright-mcp-jev) `📚1`
+- [roundup](https://juliangoldieaiautomation.com/blog/is-jev-open-source) `📚1` — jev-voice-browser — by Moritz Kremb (MIT): voice-controls a real Chromium browser, Jev decisions + Playwright (roundup)
+- [roxy-gg/jevrelay](https://github.com/roxy-gg/jevrelay) `📚1` — Open-source local MCP runtime for provider-neutral browser automation
+- [rrozum/jev-race](https://github.com/rrozum/jev-race) `📚1` — Russian-language browser game pitting a human against Jev on obstacle decisions (Godot Platformer 2D): per-decision comparison of correctness, penalties,…
+- [Ryoseiimai/screen-jev](https://github.com/ryoseiimai/screen-jev) `📚1`
+- [SabaAutomation/jev-CLUADE](https://github.com/sabaautomation/jev-cluade) `📚1` — “Free automation templates by Saba Automations.”
+- [sadamia/browser-jev](https://github.com/sadamia/browser-jev) `📚1` — Claude Code skill: typed browser automation over CDP with TypeSafe Jev decisions
+- [sahajamit/jev-lens](https://github.com/sahajamit/jev-lens) `📚1` — Personal Chrome extension: Jev (TypeSafe) badges X and LinkedIn posts READ / MAYBE / SKIP against my own inte…
+- [saitodisse/web-automation-jev](https://github.com/saitodisse/web-automation-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Salvius10/Kural-Automation](https://github.com/salvius10/kural-automation) `📚1` — Voice enabled browser automation using jev
+- [samth/sf-lean-automation-bench](https://github.com/samth/sf-lean-automation-bench) `📚1` — Waterfall, the jev-lean harness with open Jev-style rankers, and Lean automation on Software Foundations in Lean
+- [Sanketh149/Jev-Linkedin-AI-Slop-Detector](https://github.com/sanketh149/jev-linkedin-ai-slop-detector) `📚1` — A Chrome extension which lets you filter out AI Slop before reading
+- [sarang-pratham/jev-computer-use](https://github.com/sarang-pratham/jev-computer-use) `📚1` — computer use (mac for now)
+- [sdkfile/jev-browser](https://github.com/sdkfile/jev-browser) `📚1`
+- [sedum-dev/sedum](https://github.com/sedum-dev/sedum) `📚1` — Plain-English browser e2e tests cheap enough to run on every PR. Built on Jev and Playwright, open source, bring your own key.
+- [sethdavis512/agent-browser-jev-demo](https://github.com/sethdavis512/agent-browser-jev-demo) `📚1` — Type a site and a goal; agent-browser walks it while Jev picks each click, streaming screenshots as it goes.
+- [severs65/JEVIL-uninstaller](https://github.com/severs65/jevil-uninstaller) `📚1` — JEVIL-uninstaller — A lightweight portable Windows uninstaller with leftover cleanup, Appx/UWP support and Safe Mode removal. _(★1, C++)_
+- [shawgichan/cv-screener-backend](https://github.com/shawgichan/cv-screener-backend) `📚1`
+- [Shijiuwei/jev-ultrafast-mirror-709](https://github.com/shijiuwei/jev-ultrafast-mirror-709) `📚1` — High availability mirror and network topology specifications for browser-use/jev-ultrafast
+- [shivaylamba/wearscout](https://github.com/shivaylamba/wearscout) `📚1` — Find similar clothing from a photo: Nebius vision, TypeSafe Jev browser decisions, and product-page
+- [shwetank-nagar/jev](https://github.com/shwetank-nagar/jev) `📚1` — A2A multi-agent investment research showcase: jev (sequential), jev-parallel (concurrent), and a sin
+- [simoncorompt/jev-ui-gen](https://github.com/simoncorompt/jev-ui-gen) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [smaldd14/qavo](https://github.com/smaldd14/qavo) `📚1` — A QA agent that drives a real browser with Jev choices
+- [SomeshSampat2/android-control](https://github.com/someshsampat2/android-control) `📚1` — MCP server controlling Android devices over ADB with a Jev fast mode for goal-driven steps, tap-by-description and yes/no screen questions. Apache-2.0 · Python
+- [Soybean501/jev-dynamic-ui](https://github.com/soybean501/jev-dynamic-ui) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Srinivasa314/hn-comment-filter](https://github.com/srinivasa314/hn-comment-filter) `📚1` — Chrome extension that shows the Hacker News comments worth reading, scored by TypeSafe's Jev model
+- [srujanpwork-stack/Jev_Browser](https://github.com/srujanpwork-stack/jev_browser) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [sustentabilitas/axonal](https://github.com/sustentabilitas/axonal) `📚1` — Smart monorepos, fast CI using System One Models.
+- [Tewoto1/Computer-use-and-control-with-Jev](https://github.com/tewoto1/computer-use-and-control-with-jev) `📚1` — Jev assisted computer use and control framework, can link to a phone or a display to showcase current use pro…
+- [ThaboMoore/Climate-suitability-for-JEV-in-Australia](https://github.com/thabomoore/climate-suitability-for-jev-in-australia) `📚1` — jev in:name created:2026-04-01..2026-04-30
+- [thechristobal/llm-roundtable](https://github.com/thechristobal/llm-roundtable) `📚1`
+- [Thunders: "What Jev Changes in AI Test Automation"](https://thunders.ai/articles/jev-system-one-ai-test-automation) `📚1` — A test-automation vendor's own Jev tests and integration notes: Jev answers in roughly 100–200ms vs 2–10s for the large language models in the same comparison;…
+- [tikeda/jev-ux-ui-reference](https://github.com/tikeda/jev-ux-ui-reference) `📚1` — jevlang OR jev.ai in:name,description created:
+- [TimurSalakhetdinov/fuelcast-tabpfn](https://github.com/timursalakhetdinov/fuelcast-tabpfn) `📚1` — fuelcast-tabpfn — Does Jev-extracted event text improve TabPFN-3.5 forecasts of U.S. gasoline prices? An auditable forecasting workbench. _(★0)_
+- [tivojn/gpt-live-avatar](https://github.com/tivojn/gpt-live-avatar) `📚1` — GPT-Live Avatar: Tia, Sarah and friends as full-duplex desk/phone avatars on OpenAI GPT-Live-1 (Mac Electron + iOS) Automatically matched explicit Jev and…
+- [tk1475/talaria](https://github.com/tk1475/talaria) `📚1` — A browser agent in Chrome's side panel. A planner orders the steps, and Jev picks every cl
+- [toshio1105/blinkfill](https://github.com/toshio1105/blinkfill) `📚1`
+- [truehannan/movo](https://github.com/truehannan/movo) `📚1` — Movo - Linux (Debian-family) desktop computer-use agent: AT-SPI observation, typed TypeSafe Jev decisions, floating PySide6 panel. (Project…
+- [Try app](https://chromewebstore.google.com/detail/jev-investment-forecast/nghdnlbiicpmbenookmnbebneigaeaco) `📚1`
+- [undefined-ui/second-brain-os](https://github.com/undefined-ui/second-brain-os) `📚1`
+- [Unni-Krishnan-M/jev-intelligence](https://github.com/unni-krishnan-m/jev-intelligence) `📚1` — JEV — Intelligent Decision & Early-Warning Engine: detects trends and anomalies, forecasts risk, mak
+- [unpacked extension installation flow](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world) `📚1` — ZIP installation: use Get the extension in the running playground, or run npm run package:extension. Unzip the package into a permanent folder and choose that…
+- [uzuraDev/x-not-interested-jev](https://github.com/uzuradev/x-not-interested-jev) `📚1` — X For You: Jev-driven Not interested via Playwright/CDP (AI Gateway)
+- [vhicktour/JevAuto](https://github.com/vhicktour/jevauto) `📚1` — An agent that uses your Mac apps and the web for you: Cua for Mac apps, its own Chrome for websites, one ...
+- [vidavida1970/jev-strategic-decision-automation](https://github.com/vidavida1970/jev-strategic-decision-automation) `📚1`
+- [vitorepf/traco-ios](https://github.com/vitorepf/traco-ios) `📚1`
+- [wahabkhan98/ReplyGuyRepellent](https://github.com/wahabkhan98/replyguyrepellent) `📚1` — Chrome extension that hides low-effort engagement bait and bot replies on X so only real conversatio
+- [webbrain-one/webbrain](https://github.com/webbrain-one/webbrain) `📚1` — Open-source AI browser agent for Chrome and Firefox (monorepo) 🧠
+- [weberLyu/Android-Jev](https://github.com/weberlyu/android-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [wengyinqi/undertone-observatory](https://github.com/wengyinqi/undertone-observatory) `📚1` — Interactive text signal observatory powered by TypeSafe Jev
+- [whilu/LayaGesture](https://github.com/whilu/layagesture) `📚1`
+- [wy-coliney/jev-browser-use,555,JavaScript,MIT,2026-09-23,2026-09-26](https://github.com/wy-coliney/jev-browser-use,555,javascript,mit,2026-09-23,2026-09-26) `📚1`
+- [wyattjoh/jjmap](https://github.com/wyattjoh/jjmap) `📚1` — Sort a JMAP mailbox (Fastmail) into your categories with TypeSafe Jev: per email it moves the message, sets a color flag and marks it $triaged so later runs…
+- [xingtu1228/Jev-Mobile](https://github.com/xingtu1228/jev-mobile) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Ying-Kai-Liao/jev-browser,90,JavaScript,,2026-09-16](https://github.com/ying-kai-liao/jev-browser,90,javascript,,2026-09-16) `📚1`
+- [yishu-ziyu/By-Your-Side](https://github.com/yishu-ziyu/by-your-side) `📚1` — Chrome side-panel assistant for reading and web tasks that optionally routes display commands through Jev, cutting median latency 2.60s to 0.77s. no license ·…
+- [ylemiesa57/jev-runner](https://github.com/ylemiesa57/jev-runner) `📚1` — Type a command, press Run. TypeSafe Jev decides what it means; code does it. macOS launcher with pag
+- [YOKurnaz/owi](https://github.com/yokurnaz/owi) `📚1` — OWI — Ollaya Web Interface: decide playground, model manager, MCP control, users & API keys
+- [Zafer-Liu/jev-demo-screener](https://github.com/zafer-liu/jev-demo-screener) `📚1` — JD-anchored resume screener adapted for TypeSafe Jev - swap the job description, flip the verdict
+- [Zaraki596/scam-shield](https://github.com/zaraki596/scam-shield) `📚1` — Android app that warns you about scam messages (SMS, WhatsApp, Telegram, email) before you act on th
+- [zbcoding/jev-userflow-browser-monitor](https://github.com/zbcoding/jev-userflow-browser-monitor) `📚1` — Agent skill: daily AI-driven (TypeSafe Jev + Playwright) userflow checks against a production site v
+- [ZiyaoLi/browser-use-with-jev](https://github.com/ziyaoli/browser-use-with-jev) `📚1`
+- [zjl1985/zero-jev](https://github.com/zjl1985/zero-jev) `📚1` — Jev research and experiments for browser, computer use, and typed decision workflows
+- [zohaib-md/UXRay](https://github.com/zohaib-md/uxray) `📚1` — Dark Pattern HUD — system-wide overlay that flags manipulative UI via TypeSafe Jev
+- [zovos-ai-inc/persona-drive](https://github.com/zovos-ai-inc/persona-drive) `📚1` — Persona-based browser testing: Jev decides what a named person would do next, Playwright does it, and the run is recorded
+- [打开多维表格](https://z0kdt9b641u.feishu.cn/wiki/qjfvwk8ihibslkkmmw5cqosgnbf) `📚1` — 👉 Open the table — easier to organize and browse than Markdown
+- [网站](https://socai.io) `📚1`
+- [网站中的同一项目 / Same project on JevForAgents](https://jevforagents.com/builds/browser-use-flights) `📚1`
+
+</details>

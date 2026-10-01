@@ -1,0 +1,1111 @@
+# SDKs, Clients & Framework Integrations
+
+> Unofficial clients in every language, framework adapters (LangChain, LlamaIndex, DSPy, Vercel AI SDK, n8n …) and gateways.
+>
+> **1,088 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 120
+
+- [pithings/advocaat](https://github.com/pithings/advocaat) `★96 · 📚48` — A small, type-safe client for asking AI questions about your data, powered by TypeSafe Jev.
+- [dannote/jev](https://github.com/dannote/jev) `★34 · 📚43` — TypeSafe Jev for OTP: reply to Jev from a GenServer and pattern match on its answer
+- [featherless-ai/simple-jev](https://github.com/featherless-ai/simple-jev) `★575 · 📚40` — Turn any open model into a classifier/jev endpoint
+- [nshkrdotcom/typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) `★5 · 📚36` — An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / ai-sdk) providing unified LLM integrations, streaming text and structured outputs, tool calling, and agentic workflows. Jev is their current flagship model and is…
+- [joshmn/typesafe-sdk](https://github.com/joshmn/typesafe-sdk) `★7 · 📚35` — Ruby client for typesafe.ai.
+- [saibimajdi/typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk) `★12 · 📚34` — Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.
+- [Twister915/typesafe-ai](https://github.com/twister915/typesafe-ai) `★13 · 📚33` — Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
+- [obie/ruby_decision_model](https://github.com/obie/ruby_decision_model) `★51 · 📚32` — Ruby client for decision models such as Typesafe Jev
+- [AntonioCoppe/jev-harness](https://github.com/antoniocoppe/jev-harness) `★15 · 📚31` — Decision harness for TypeSafe Jev — confidence gates, shadow mode, recipes, and evals. Claude CLI 48.9s → Jev 1.3s on the same row-filter job.
+- [gilljon/typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs) `★6 · 📚31` — Independent async and blocking Rust SDK for the TypeSafe AI System One API
+- [kieranklaassen/ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) `★18 · 📚30` — TypeSafe structured-output provider for RubyLLM 2.
+- [AboveColin/jevclient](https://github.com/abovecolin/jevclient) `★2 · 📚30` — Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
+- [jamesward/zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) `★5 · 📚29` — Scala Cliente 3 / ZIO para a API System One: digitado de ponta a ponta, várias perguntas por ida e volta via NamedTuple.
+- [vercel/eve](https://github.com/vercel/eve) `★5,426 · 📚28` — The Open Framework for Building Agents.
+- [alterhq/typesafe-sdk-swift](https://github.com/alterhq/typesafe-sdk-swift) `★4 · 📚25` — Unofficial Swift library for the TypeSafe API.
+- [Tangerg/typesafe-sdk-go](https://github.com/tangerg/typesafe-sdk-go) `★9 · 📚24` — Go SDK for the TypeSafe AI API — typed questions in, probability distributions out.
+- [Hawxy/TypeSafeAI.Net](https://github.com/hawxy/typesafeai.net) `★4 · 📚24` — .NET SDK for the TypeSafe AI platform.
+- [juspay/neurolink](https://github.com/juspay/neurolink) `★143 · 📚23` — The pipe layer of an AI nervous system — one interface connecting provider neurons to your application, across three inference types: generate, stream, and a calibrated decide (via TypeSafe Jev). MCP-native, voice (TTS/STT/realtime), RAG,…
+- [allebee/jevk5](https://github.com/allebee/jevk5) `★125 · 📚23` — JevK5: open-weight alternative to TypeSafe Jev. Typed decisions with probabilities in one forward pass; Apache-2.0 weights and code.
+- [Premo-Cloud/typesafe-sdk-java](https://github.com/premo-cloud/typesafe-sdk-java) `★10 · 📚23` — Community Java SDK for Jev, TypeSafe's System One model: typed questions in, typed answers with calibrated probabilities out. Java 17+, Spring Boot starter (unofficial)
+- [jomatsu/zod-jev](https://github.com/jomatsu/zod-jev) `★8 · 📚23` — zod-jev — Adds semantic rules to Zod validation, such as checking whether text matches a description or contains personal information.
+- [zhirschtritt/typesafe-go](https://github.com/zhirschtritt/typesafe-go) `★3 · 📚23` — Idiomatic Go SDK for the TypeSafe AI API.
+- [AbdelStark/s1-rs](https://github.com/abdelstark/s1-rs) `★1 · 📚23` — Typed System One layer for Rust (Choice/Score/Noul).  - GitHub - AbdelStark/s1-rs: Typed System One layer for Rust (Choice/Score/Noul).
+- [asfarsadewa/human-compiler](https://github.com/asfarsadewa/human-compiler) `★1 · 📚23` — A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev.
+- [Vercel AI Gateway](https://vercel.com/ai-gateway/models/jev) `📚23` — Jev on Vercel AI Gateway - Hosted typesafe-ai/jev for the AI SDK's experimental_evaluate, no TypeSafe waitlist required.
+- [ainame/swift-typesafe](https://github.com/ainame/swift-typesafe) `★16 · 📚22` — Unofficial Swift SDK for TypeSafe.
+- [jmanhype/jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) `★10 · 📚22` — Reproducible calibration and selective-risk benchmarks for Jev/TypeSafe decisions in DSPy workflows
+- [mateonunez/jod](https://github.com/mateonunez/jod) `★3 · 📚22` — Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers.
+- [mizchi/jev-gomoku](https://github.com/mizchi/jev-gomoku) `★0 · 📚22` — MoonBit Jev API client, one-shot question CLI and a Jev-vs-Jev gomoku CLI that renders games to real-time GIFs. no license · MoonBit
+- [DomMonte/n8n-nodes-typesafe-ai](https://github.com/dommonte/n8n-nodes-typesafe-ai) `★0 · 📚21` — n8n community node for the TypeSafe AI System One API — typed yes/no, choice and score questions with calibrated probabilities
+- [peterfriese/system-one-foundation-models](https://github.com/peterfriese/system-one-foundation-models) `★54 · 📚20` — A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework.
+- [spring-ai-community/spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe) `★41 · 📚20` — A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations.
+- [codeitlikemiley/typesafe-sdk-rust](https://github.com/codeitlikemiley/typesafe-sdk-rust) `★3 · 📚20` — Rust SDK for the TypeSafe AI API.
+- [evoke-build/evoke](https://github.com/evoke-build/evoke) `★22 · 📚19` — Software, by reflex. An open runtime that turns human intent into inspectable plans across small, composable programs, with explicit permissions and human approval before irreversible actions.
+- [Ray-Hughes/jevalyn](https://github.com/ray-hughes/jevalyn) `★19 · 📚19` — The decision layer for your Rails app. A Rails-native wrapper around TypeSafe's Jev System One API: typed, calibrated decisions in your control flow.
+- [harshil1712/slidepilot](https://github.com/harshil1712/slidepilot) `★8 · 📚19` — Voice-driven semantic auto-advance for Slidev, powered by Cloudflare Agents and TypeSafe AI Jev
+- [Olti1947/jev-java](https://github.com/olti1947/jev-java) `★6 · 📚19` — Idiomatic Java SDK for TypeSafe AI Jev System One decision engine
+- [binnash/typesafe-sdk](https://github.com/binnash/typesafe-sdk) `★2 · 📚19` — PHP & Laravel SDK for TypeSafe AI's JEV Model series
+- [fgn/jevgo](https://github.com/fgn/jevgo) `★2 · 📚19` — Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
+- [Vercel AI SDK provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai) `📚19` — @ai-sdk/typesafe-ai plus experimental_evaluate. Use typeSafeAi.evaluationModel('jev-latest') or the Gateway id typesafe-ai/jev.
+- [vercel-labs/json-render](https://github.com/vercel-labs/json-render) `★18,446 · 📚18` — The Generative UI framework.
+- [iamaamir/system-one](https://github.com/iamaamir/system-one) `★67 · 📚18` — Provider-neutral System One runtime for TypeScript and Pi
+- [InsaneArts/typesafe-sdk-swift](https://github.com/insanearts/typesafe-sdk-swift) `★3 · 📚18` — Swift SDK for TypeSafe AI.
+- [valksor/typesafe-sdk-go](https://github.com/valksor/typesafe-sdk-go) `★0 · 📚18` — Unofficial Go SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. Not affiliated with TypeSafe AI.
+- [valksor/typesafe-sdk-php](https://github.com/valksor/typesafe-sdk-php) `★0 · 📚18` — Unofficial PHP SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. Not affiliated with TypeSafe AI.
+- [danvega/jev-spring-boot-starter](https://github.com/danvega/jev-spring-boot-starter) `★40 · 📚17` — A simple Spring Boot 4 starter for TypeSafe Jev using Spring MVC and RestClient
+- [collapseindex/jev-ultralightspeed](https://github.com/collapseindex/jev-ultralightspeed) `★12 · 📚17` — BRRRRRRRRRRRRRRRRRRRRRR.
+- [pambrose/jev4k](https://github.com/pambrose/jev4k) `★11 · 📚17` — A Kotlin Multiplatform DSL and client for TypeSafe's Jev model
+- [colinmcdermott/emoji-jev](https://github.com/colinmcdermott/emoji-jev) `★3 · 📚17` — Emoji autocomplete at the speed of typing. TypeSafe AI Jev on a Whop-hosted TanStack Start app.
+- [steven-shoemaker/hunch](https://github.com/steven-shoemaker/hunch) `★3 · 📚17` — Ask Jev over columns of data: closed-set questions, cached and joined back.
+- [Butochnikov/typesafe-sdk-php](https://github.com/butochnikov/typesafe-sdk-php) `★2 · 📚17` — typesafe-sdk-php - A community TypeSafe SDK for PHP 8.2+, with synchronous calls and Guzzle-based async requests.
+- [anilsenay/jev](https://github.com/anilsenay/jev) `★1 · 📚17` — Unofficial Go client for TypeSafe's System One API  and its model, Jev.
+- [cole-gillespie/typesafe-go](https://github.com/cole-gillespie/typesafe-go) `★1 · 📚17` — unofficial go SDK for typesafe AI, with typed answers, retries, and context support
+- [guillemus/jev-go](https://github.com/guillemus/jev-go) `★1 · 📚17` — Unofficial Go SDK for TypeSafe AI's Jev API.
+- [kunobi-ninja/kunobi-jev](https://github.com/kunobi-ninja/kunobi-jev) `★0 · 📚17` — Rust client for the TypeSafe System One API (Jev).
+- [atharvamhaske/typesafe-sdk-go](https://github.com/atharvamhaske/typesafe-sdk-go) `★12 · 📚16` — unofficial go sdk for typesafe ai. not affiliated with or endorsed by typesafe ai. a side project built to fill the missing go sdk gap, for the community to use.
+- [ItisNoMatter/kojev](https://github.com/itisnomatter/kojev) `★8 · 📚16` — Kotlin Multiplatform client for Jev that returns your own enum/sealed types instead of string keys.
+- [NSStudent/JevSwiftSDK](https://github.com/nsstudent/jevswiftsdk) `★8 · 📚16` — An independent, type-safe Swift SDK for TypeSafe Jev, with async/await, batching, retries, and SPM support.
+- [n3ndor/n8n-nodes-typesafe-jev](https://github.com/n3ndor/n8n-nodes-typesafe-jev) `★2 · 📚16` — n8n community node for TypeSafe Jev structured AI decisions
+- [Building a Harness with Jev](https://langchain.com/blog/building-a-harness-with-jev) `📚16` — Building a harness with Jev - LangChain on model routing and gating dangerous tool calls behind a typed decision.
+- [typesend/typesafe_ai](https://github.com/typesend/typesafe_ai) `★0 · 📚16` — Typed Elixir client for TypeSafe AI and its Jev System One model, with offline test stubs, concurrent fan-out, and atom-keyed answers.
+- [milvus-io/milvus-model](https://github.com/milvus-io/milvus-model) `★60 · 📚15` — A library integrating embedding and reranker models from OpenAI, SentenceTransformers etc for semantic search in vector database.
+- [Qew7/jev-feels](https://github.com/qew7/jev-feels) `★19 · 📚15` — Semantic decisions as ordinary Ruby #feels?, #decide, #score, Rails validations and pattern matching powered by Jev
+- [Kiln-AI/jev_jsonschema](https://github.com/kiln-ai/jev_jsonschema) `★7 · 📚15` — Run a JSON Schema through TypeSafe's Jev API, and get JSON back.
+- [gudcks0305/jev-java](https://github.com/gudcks0305/jev-java) `★5 · 📚15` — Unofficial Java SDK for TypeSafe Jev and Vercel AI Gateway, with Spring Boot and WebClient support
+- [mattneel/typesafe](https://github.com/mattneel/typesafe) `★2 · 📚15` — An idiomatic Elixir client for the TypeSafe AI API
+- [carlsonchik/judging-with-typesafe](https://github.com/carlsonchik/judging-with-typesafe) `★1 · 📚15` — Скилл для агентов Letta: суждения по критериям через TypeSafe System One (Jev)
+- [vinnie357/typesafe_sdk_ex](https://github.com/vinnie357/typesafe_sdk_ex) `★1 · 📚15` — Typesafe AI SDK in Elixir using Req.
+- [hfiguera/typesafe_ai](https://github.com/hfiguera/typesafe_ai) `★0 · 📚15` — An Elixir client for TypeSafe AI with typed responses and bounded concurrency
+- [ComposioHQ/composio](https://github.com/composiohq/composio) `★30,374 · 📚14` — Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
+- [cequence-io/openai-scala-client](https://github.com/cequence-io/openai-scala-client) `★255 · 📚14` — Scala client for OpenAI API and other major LLM providers
+- [krzyzanowskim/TypeSafe](https://github.com/krzyzanowskim/typesafe) `★27 · 📚14` — TypeSafe SDK in Swift.
+- [chengyongru/fastjev](https://github.com/chengyongru/fastjev) `★21 · 📚14` — SDK-first, independently maintained SemIf fork for fast, self-hosted semantic decisions.
+- [zhulinchng/jevper](https://github.com/zhulinchng/jevper) `★17 · 📚14` — Jev-shaped (TypeSafe System One) classification wrapper over OpenAI-like clients
+- [d-date/swift-jev](https://github.com/d-date/swift-jev) `★16 · 📚14` — A Swift client for TypeSafe AI's Jev — typed judgements, not text
+- [devbackend/jevgo](https://github.com/devbackend/jevgo) `★8 · 📚14` — Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out.
+- [ticofab/scala-jev-sdk](https://github.com/ticofab/scala-jev-sdk) `★8 · 📚14` — Scala SDK for Jev. No effect system bundled.
+- [luigivis/jev-sdk-java](https://github.com/luigivis/jev-sdk-java) `★5 · 📚14` — Type-safe Java 21 client for the TypeSafe AI Jev (System One) decision API
+- [vibe-with-me-tools/n8n-nodes-jev](https://github.com/vibe-with-me-tools/n8n-nodes-jev) `★5 · 📚14` — Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions you define, and get a probability for every answer so unsure items can go to review.
+- [innocentdiaz/s1_ruby](https://github.com/innocentdiaz/s1_ruby) `★2 · 📚14` — Makes S1-model 'measurement' (and the collapse that follows it) a Ruby primitive.
+- [chez-shanpu/typesafeai-go](https://github.com/chez-shanpu/typesafeai-go) `★1 · 📚14` — Go SDK for TypeSafe AI API https://docs.typesafe.ai/api
+- [JedimEmO/typesafe-client](https://github.com/jedimemo/typesafe-client) `★1 · 📚14` — Unofficial typed async Rust client for the TypeSafe System One API
+- [codeitlikemiley/system-one-adapter-rust](https://github.com/codeitlikemiley/system-one-adapter-rust) `★0 · 📚14` — Rust port of TypeSafe system-one-adapter (LLM-backed system_one evaluations)
+- [tinyhumansai/tinydecisionmodels](https://github.com/tinyhumansai/tinydecisionmodels) `★0 · 📚14` — Integrate decision models (Jev, OpenJev, Sage) in Rust
+- [typesafeainate/dspy-typesafeify](https://github.com/typesafeainate/dspy-typesafeify) `★64 · 📚13` — Add a decorator for dspy Signatures that automatically uses TypeSafe where relevant
+- [alvarobartt/sys1](https://github.com/alvarobartt/sys1) `★48 · 📚13` — Blazing fast, self-hosted structured decisions for open-weight models with a TypeSafe AI compatible API, written in Rust.
+- [jamilxt/typesafe-ai-java](https://github.com/jamilxt/typesafe-ai-java) `★4 · 📚13` — Community-maintained Java SDK for the TypeSafe AI System One (Jev) API. Not an official TypeSafe product.
+- [0xPlaygrounds/rig](https://github.com/0xplaygrounds/rig) `★8,779 · 📚12` — ⚙️🦀 Build modular and scalable LLM Applications in Rust
+- [ax-llm/ax](https://github.com/ax-llm/ax) `★2,956 · 📚12` — The pretty much "official" DSPy framework for Typescript
+- [vercel-labs/jev-ai-sdk-form-router](https://github.com/vercel-labs/jev-ai-sdk-form-router) `★10 · 📚12` — Route form submissions to the right people with Jev and AI SDK.
+- [soderlind/ai-provider-for-jev](https://github.com/soderlind/ai-provider-for-jev) `★4 · 📚12` — Connect WordPress to TypeSafe's Jev System One model for structured decisions (choice, score, noul).
+- [mzainzulifqar/jev-php-sdk](https://github.com/mzainzulifqar/jev-php-sdk) `★2 · 📚12` — PHP SDK for TypeSafe's Jev: send text and typed questions, get typed answers with calibrated confidence. PHP 8.1+, works with any PSR-18 client, Laravel 8–13.
+- [Hollow Creek](https://hollow-creek-sigma.vercel.app) `📚12` — Village NPCs that judge you each tick, deciding what to do and how they feel, instead of chatting.
+- [hunkim/solar-mini4-jev](https://github.com/hunkim/solar-mini4-jev) `★45 · 📚11` — solar-mini4-jev — A drop-in wrapper that exposes Upstage \\Solar Mini4\\ through the TypeSafe Jev System One API shape.
+- [nico-martin/open-jev](https://github.com/nico-martin/open-jev) `★38 · 📚11` — open-jev is a browser-focused TypeScript library for typed decisions: one piece of text (the state) plus any number of typed questions go in, and one forward pass returns a calibrated probability distribution per question. Nothing is…
+- [Towow-ai/jpp](https://github.com/towow-ai/jpp) `★30 · 📚11` — J++: an experimental language with standalone source and a Rust runtime. Compose questions and methods. 独立源码，组合问题与方法。
+- [sanmai/typesafe-ai-php](https://github.com/sanmai/typesafe-ai-php) `★14 · 📚11` — Jev for PHP, TypeSafe AI PHP SDK.
+- [kataras/jev](https://github.com/kataras/jev) `★5 · 📚11` — A Go client for the TypeSafe AI's System One API and its model, Jev.
+- [kisshan13/typesafe-ai-go](https://github.com/kisshan13/typesafe-ai-go) `★4 · 📚11` — Community-maintained Go SDK for the TypeSafe AI System One evaluation API, with typed questions, fluent builders, retries, and examples.
+- [abeldzan/jev-rs](https://github.com/abeldzan/jev-rs) `★3 · 📚11` — Async-first Rust SDK for the TypeSafe AI API.
+- [hardkoded/typesafe-sdk-dotnet](https://github.com/hardkoded/typesafe-sdk-dotnet) `★3 · 📚11` — Unofficial .NET port of the TypeSafe AI client SDK (typed questions & answers)
+- [Chandler-Sun/chat2jev](https://github.com/chandler-sun/chat2jev) `★2 · 📚11` — Convert legacy chat completion API request to Typesafe jev API
+- [iJ03l/jear](https://github.com/ij03l/jear) `★2 · 📚11` — Jev-routed client for NEAR AI Cloud inference and IronClaw agents.
+- [RubyBrewsday/jevcumber](https://github.com/rubybrewsday/jevcumber) `★2 · 📚11` — Write Cucumber tests with just the .feature file. No step definitions — Jev (TypeSafe AI) resolves each Gherkin step and Playwright runs it.
+- [dwisiswant0/typesafe-sdk-go](https://github.com/dwisiswant0/typesafe-sdk-go) `★1 · 📚11` — Go SDK for TypeSafe AI.
+- [Nibir1/typesafe-go](https://github.com/nibir1/typesafe-go) `★1 · 📚11` — Zero-dependency Go SDK for TypeSafe's System One API (Jev). Typed questions in, calibrated probabilities out with static analyzers that catch bad question design at build time, a decision layer, batching and caching. Not affiliated with…
+- [StefanoITA/ts-jev-cost-calculator](https://github.com/stefanoita/ts-jev-cost-calculator) `★1 · 📚11` — Unofficial CLI + Python estimator of tokens, cost and context limits for TypeSafe (System One / Jev) API requests. Not affiliated with TypeSafe.
+- [jonesmelton/verdict](https://github.com/jonesmelton/verdict) `★0 · 📚11` — ocaml sdk for typesafe.ai's jev model.
+- [Shubham510/typesafe-go](https://github.com/shubham510/typesafe-go) `★0 · 📚11` — Unofficial Go SDK for TypeSafe AI's System One API (Jev).
+- [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) `📚11` — typesafe-ai/jev through AI SDK's experimental evaluate interface; its Boolean primitive corresponds to TypeSafe's Noul.
+- [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) `★18,243 · 📚10` — The agent engineering platform.
+- [agentjido/req_llm](https://github.com/agentjido/req_llm) `★589 · 📚10` — Composable Elixir library for LLM interactions built on Req and Finch
+- [caiovicentino/jev-risk-check-provider](https://github.com/caiovicentino/jev-risk-check-provider) `★8 · 📚10` — x402 risk-check provider: signed pre-payment verdicts — OFAC, phishing feeds, transaction simulation, drainer-kit code, and our own EIP-7702 kit watch (poisoners, sweepers). $0.001 per check with prepaid credits; per call via x402 from…
+- [blingdivinity/jevseek](https://github.com/blingdivinity/jevseek) `★4 · 📚10` — DeepSeek proposes the next token, TypeSafe's Jev chooses it: a decision model used as a sampler
+- [JabbaKadabra/SystemOneDotNet](https://github.com/jabbakadabra/systemonedotnet) `★4 · 📚10` — .NET client for TypeSafe System One (Jev) — typed questions in, typed answers with probabilities and confidence out. No prompt engineering, no output parsing.
+- [zcoder-run/rust-sysone](https://github.com/zcoder-run/rust-sysone) `★4 · 📚10` — System One TypeSafe AI Rust Client (unofficial).
+- [steven-shoemaker/hunch-js](https://github.com/steven-shoemaker/hunch-js) `★2 · 📚10` — Jev judgments as TypeScript functions over arrays: classify, score, check, where, extract, pick, rank, verify. LLMs propose, Jev decides.
+- [ajayk/jev-go-sdk](https://github.com/ajayk/jev-go-sdk) `★1 · 📚10` — Dependency-free Go client for TypeSafe AI's System One API and the Jev model
+- [Biztactix/n8n-nodes-typesafe](https://github.com/biztactix/n8n-nodes-typesafe) `★0 · 📚10` — Typesafe AI Node for N8N.
+- [Jev mood demo](https://jev-demo.vercel.app) `📚10` — Jev mood demo - Talk nicely or nastily over time; structured state tracks mood.
+
+## Established (cited by 5–9 lists) — 126
+
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) `★147,327 · 📚9` — The agent engineering platform.
+- [vercel-labs/fx](https://github.com/vercel-labs/fx) `★3,234 · 📚9` — Unix like coding agent.
+- [vercel-labs/ai-python](https://github.com/vercel-labs/ai-python) `★188 · 📚9` — AI SDK for Python.
+- [haileyok/typesafe-client](https://github.com/haileyok/typesafe-client) `★7 · 📚9` — Unofficial Go and Rust clients for the TypeSafe AI System One API (Jev)
+- [danvega/hello-jev-java](https://github.com/danvega/hello-jev-java) `★5 · 📚9` — Jev from plain Java 25. No framework, no dependencies, one HTTP call. ★ 4 · endpoint · Java
+- [NicolasMontone/jev-tool-permissions](https://github.com/nicolasmontone/jev-tool-permissions) `★5 · 📚9` — Jev-backed tool approval gate and tool-list pruning for the Vercel AI SDK
+- [simxnherrera/jevr](https://github.com/simxnherrera/jevr) `★5 · 📚9` — A native R client for Jev System 1 model decisions
+- [pewriebontal/typesafe-sdk-cpp](https://github.com/pewriebontal/typesafe-sdk-cpp) `★3 · 📚9` — An unofficial CPP 20 SDK for the TypeSafe API.
+- [virolea/jev](https://github.com/virolea/jev) `★3 · 📚9` — Ruby client for the typesafe AI Jev model.
+- [zaferayan/jev-example](https://github.com/zaferayan/jev-example) `★3 · 📚9` — TypeSafe AI'ın karar modeli Jev ile basit, tip güvenli bir örnek. Aynı görevi Claude Opus 5 ile yapan bir karşılaştırma scripti de içerir. ★ 3 · sdk · TypeScript
+- [hnegishi/typesafe-ai-ruby](https://github.com/hnegishi/typesafe-ai-ruby) `★1 · 📚9` — Ruby client for the TypeSafe AI(Jev) System One API
+- [inematds/jev](https://github.com/inematds/jev) `★1 · 📚9` — Análise crítica e plano de aplicação do Jev em decisões estruturadas
+- [kyledickey/jev-go](https://github.com/kyledickey/jev-go) `★1 · 📚9` — TypeSafe.ai Jev Go SDK.
+- [marandaneto/typesafe-sdk-swift](https://github.com/marandaneto/typesafe-sdk-swift) `★1 · 📚9` — typesafe-sdk-js and typesafe-sdk-python port for swift
+- [thezem/jev-one](https://github.com/thezem/jev-one) `★1 · 📚9` — A vocabulary-driven TypeScript runtime for safe, stateful applications powered by TypeSafe AI Jev.
+- [zchee/typesafe-sdk-rust](https://github.com/zchee/typesafe-sdk-rust) `★1 · 📚9` — Unofficial async Rust SDK for the TypeSafe AI System One API: typed questions via #(derive(QuestionSet)), a port of typesafe-sdk-python.
+- [Fox-Islam/typesafe-sdk-php](https://github.com/fox-islam/typesafe-sdk-php) `★0 · 📚9` — Unofficial PHP library for the TypeSafe API.
+- [jevclient](https://pypi.org/project/jevclient) `📚9` — Python ecosystem: async client for Jev published on PyPI.
+- [Pydantic AI](https://pydantic.dev/docs/ai/models/typesafe) `📚9` — TypeSafeModel - Pydantic AI's TypeSafeModel uses Jev for typed agent outputs and supported tool arguments.
+- [Mushroom-Systems/lichen](https://github.com/mushroom-systems/lichen) `★57 · 📚8` — A local, API-compatible replacement for Jev, TypeSafe's System One model
+- [gopinav/jev-demo](https://github.com/gopinav/jev-demo) `★16 · 📚8` — Jev + TypeScript SDK demo.
+- [aaazzam/jev](https://github.com/aaazzam/jev) `★11 · 📚8` — Jev Python Function Decorator - Python decorator that maps Pydantic return fields to Jev Choice, Score, and Noul questions.
+- [backant-io/jevelry](https://github.com/backant-io/jevelry) `★7 · 📚8` — Use Jev everywhere to make & track decisions.
+- [arczhi/jet](https://github.com/arczhi/jet) `★4 · 📚8` — A TypeSafe-native (Jev) coding agent built on Recursive LLM Context Decomposition (RLCD), with a native macOS client
+- [aoprisan/typesafe-ai-rust-sdk](https://github.com/aoprisan/typesafe-ai-rust-sdk) `★3 · 📚8` — Rust client for the TypeSafe AI System One API: send a state plus named, ★ 1 · endpoint · Rust
+- [cipherTing/sael](https://github.com/cipherting/sael) `★3 · 📚8` — Go client for the TypeSafe System One API (Jev) — the first piece of sael, a content-safety classifier for an AI request relay
+- [elbruno/ElBruno.AI.Jev](https://github.com/elbruno/elbruno.ai.jev) `★3 · 📚8` — Community .NET 10 SDK for official TypeSafe AI Jev typed decisions and Microsoft.Extensions.AI integrations.
+- [javiergradiche/ruby_llm-providers-typesafe](https://github.com/javiergradiche/ruby_llm-providers-typesafe) `★3 · 📚8` — TypeSafe System One models (Jev) for RubyLLM: typed judgments, evaluations and reranking.
+- [KKloudTarus/taurus-jev-sdk-go](https://github.com/kkloudtarus/taurus-jev-sdk-go) `★3 · 📚8` — Unofficial, dependency-free Go client for the TypeSafe AI System One API and the Jev model. Validated responses, masked credentials, bounded retries.
+- [Solido/jev_dart](https://github.com/solido/jev_dart) `★2 · 📚8` — Typesafe Jev Api.
+- [tinystruct/tinystruct-typesafe-sdk](https://github.com/tinystruct/tinystruct-typesafe-sdk) `★2 · 📚8` — A tinystruct-based TypeSafe SDK with JEV model.
+- [afurm/typesafe-sdk-ruby](https://github.com/afurm/typesafe-sdk-ruby) `★1 · 📚8` — Unofficial Ruby SDK for the TypeSafe AI API (Jev model) - typed questions, retries, and typed errors. Community port of typesafe-sdk-js.
+- [dtheofr/typesafe-jev-ruby](https://github.com/dtheofr/typesafe-jev-ruby) `★1 · 📚8` — Ruby client for Jev, TypeSafe's System One model: typed questions, probabilistic answers. Zero runtime dependencies.
+- [guchengod/typesafe-sdk-go](https://github.com/guchengod/typesafe-sdk-go) `★1 · 📚8` — Go SDK for TypeSafe AI — classification and rating primitives over text and JSON
+- [Lasimeri/Mechanical-Jev](https://github.com/lasimeri/mechanical-jev) `★1 · 📚8` — The asking side of Jev (TypeSafe System One: noul, choice, score) in Rust: client library, mjev CLI, evaluation harness, and Jev reverse engineered from its docs. Talks to Intel-Phi-Jev.
+- [SergeAx/typesafe-sdk-go](https://github.com/sergeax/typesafe-sdk-go) `★1 · 📚8` — TypeSafe.AI Go SDK.
+- [blazskufca/typesafe-sdk-go](https://github.com/blazskufca/typesafe-sdk-go) `★0 · 📚8` — Community SDK for Typesafe.ai in Go.
+- [community-ports/typesafeai-sdk-rust-community](https://github.com/community-ports/typesafeai-sdk-rust-community) `★0 · 📚8` — Community-built Rust SDK for the TypeSafe AI API (System One / Jev). A port of typesafe-sdk-python
+- [kazz187/jev-sdk-go](https://github.com/kazz187/jev-sdk-go) `★0 · 📚8` — Go 1.27 client for TypeSafe AI's Jev (System One) API: typed questions, typed answers
+- [RyanErkal/jevcast](https://github.com/ryanerkal/jevcast) `★0 · 📚8` — Native macOS launcher and window manager. Optional natural-language matching with Jev by TypeSafe AI.
+- [sava-software/typesafe-client](https://github.com/sava-software/typesafe-client) `★0 · 📚8` — Java client for the TypeSafe System One API (Jev): typed questions in, calibrated probabilities out
+- [vercel/ai](https://github.com/vercel/ai) `★27,056 · 📚7` — The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents  - GitHub - vercel/ai: The AI Toolkit for TypeScript. From the creators of Next.js, the…
+- [Arize-ai/openinference](https://github.com/arize-ai/openinference) `★1,240 · 📚7` — OpenTelemetry Instrumentation for AI Observability
+- [topherchris420/james_library](https://github.com/topherchris420/james_library) `★71 · 📚7` — R.A.I.N. Lab is an experimental scientific-agent architecture that separates fast local judgment, independent probabilistic evaluation, multi-agent deliberation, evidence, and authorization into distinct computational layers.🐙(Predates…
+- [SoundBlaster/SwiftJev](https://github.com/soundblaster/swiftjev) `★7 · 📚7` — Swift framework to access Jev System One model by TypeSafe.ai
+- [mountainMath/JevR](https://github.com/mountainmath/jevr) `★5 · 📚7` — R client for the TypeSafe Jev System One API.
+- [BetterZflyee/dsh-jev-adapter](https://github.com/betterzflyee/dsh-jev-adapter) `★4 · 📚7` — Use the Jev (System One) decision-model paradigm with any OpenAI-compatible LLM — no TypeSafe key required. A jev_decide tool for DeepSeek Harness (dsh).
+- [brightshore/jev-net](https://github.com/brightshore/jev-net) `★3 · 📚7` — A lightweight .NET client for the TypeSafe AI API (System One / Jev). One dependency; a faithful port of the official Python SDK.
+- [gauravkhuraana/jev-qa-demos](https://github.com/gauravkhuraana/jev-qa-demos) `★3 · 📚7` — Jev (TypeSafe AI) demos for QA / SDET engineers via Vercel AI Gateway - simple, commented TypeScript for a video walkthrough
+- [afanjul/jev-llm](https://github.com/afanjul/jev-llm) `★1 · 📚7` — Fake autoregressive language model powered by TypeSafe Jev
+- [jakeknowlton/jev.zig](https://github.com/jakeknowlton/jev.zig) `★1 · 📚7` — An unofficial Zig client for the TypeSafe System One API (Jev)
+- [Lasimeri/Intel-Phi-Jev](https://github.com/lasimeri/intel-phi-jev) `★1 · 📚7` — XKEYSCORE for Jev: TypeSafe System One judgments (noul/choice/score) served locally, with the Xeon Phi cards doing the model's matrix work
+- [unimtx/typesafe-sdk-go](https://github.com/unimtx/typesafe-sdk-go) `★1 · 📚7` — A Go SDK for the TypeSafe API, enabling quick integration with Jev.
+- [realdubb/jev-playground](https://github.com/realdubb/jev-playground) `★0 · 📚7` — Playground for TypeSafe AI's Jev decision model: provider-agnostic AI SDK scripts, jev-filter CLI, GitHub pruner
+- [elizaOS/eliza](https://github.com/elizaos/eliza) `★19,524 · 📚6` — Open source agentic operating system.
+- [maximhq/bifrost](https://github.com/maximhq/bifrost) `★8,478 · 📚6` — Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.
+- [laravel/ai](https://github.com/laravel/ai) `★1,203 · 📚6` — The Laravel AI SDK provides a unified, expressive API for interacting with AI providers such as OpenAI, Anthropic, Gemini, and more.
+- [firelex/jeff](https://github.com/firelex/jeff) `★1,182 · 📚6` — Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification
+- [grandamenium/jev-anything](https://github.com/grandamenium/jev-anything) `★16 · 📚6` — Agent skill for designing, building, testing, and tuning bounded JEV decision layers
+- [jhd3197/Prompture](https://github.com/jhd3197/prompture) `★14 · 📚6` — Prompture is an API-first library for requesting structured JSON output from LLMs (or any structure), validating it against a schema, and running comparative tests between models.
+- [stefafafan/jev](https://github.com/stefafafan/jev) `★12 · 📚6` — An unofficial, provider-neutral Unix client for Jev from TypeSafe AI. Written in Go.
+- [captain-corgi/typesafe-sdk-go](https://github.com/captain-corgi/typesafe-sdk-go) `★9 · 📚6` — Community TypeSafe SDK in Golang.
+- [laurentkempe/TypeSafeJevPlayground](https://github.com/laurentkempe/typesafejevplayground) `★5 · 📚6` — TypeSafe Jev Playground - idiomatic .NET port of typesafe-ai/typesafe-sdk-js v0.6.0
+- [nitoba/questions](https://github.com/nitoba/questions) `★5 · 📚6` — questions - A TypeScript decision library that asks typed questions via Zod or native batches, defaulting to TypeSafe Jev, with optional Vercel or generative adapters.
+- [fbettag/elixir-jev](https://github.com/fbettag/elixir-jev) `★3 · 📚6` — Typed semantic judgments and pattern matching for TypeSafe Jev and local Laya in Elixir
+- [iamtalha-arshad/ex_typesafe_ai](https://github.com/iamtalha-arshad/ex_typesafe_ai) `★3 · 📚6` — Unofficial Elixir client for the TypeSafe AI API — typed structs, Req-based HTTP with retries, and ergonomic noul/choice/score questions. Not affiliated with TypeSafe AI.
+- [asynq-io/system-one](https://github.com/asynq-io/system-one) `★1 · 📚6` — Vendor-neutral SDK for typed decision-making (yes/no, choice, score) — hosted and local
+- [carldaws/hunch-ts](https://github.com/carldaws/hunch-ts) `★1 · 📚6` — Probabilistic control flow for TypeScript - powered by TypeSafe's Jev
+- [copyleftdev/jevlin](https://github.com/copyleftdev/jevlin) `★1 · 📚6` — Zig SDK for TypeSafe AI's Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.
+- [jmelahman/typesafe-sdk-go](https://github.com/jmelahman/typesafe-sdk-go) `★1 · 📚6` — Unofficial Golang library for the TypeSafe API.
+- [smlayero/jev-debtgate](https://github.com/smlayero/jev-debtgate) `★1 · 📚6` — Jev-powered technical debt gate for coding agents and CI. Bring your own TypeSafe API key.
+- [yask123/ai-dj](https://github.com/yask123/ai-dj) `★1 · 📚6` — An AI with its hands on the decks: real songs, real DJ moves, every move a tool call decided live by Jev in ~150 ms
+- [Crowdcheck](https://crowdcheck-ai.vercel.app) `📚6` — Test a post against 10,000 synthetic personas before you publish it.
+- [dfa1/typesafe-java](https://github.com/dfa1/typesafe-java) `★0 · 📚6` — Java client and CLI for the TypeSafe AI API.
+- [isiomaC/jevkit](https://github.com/isiomac/jevkit) `★0 · 📚6` — Native Swift SDK for TypeSafe Jev System One decisions.
+- [jev-column-race.vercel.app](https://jev-column-race.vercel.app) `📚6` — Try Jev Column Race · (Full Jev Column Race guide)(jev-column-race.md) · Source
+- [luizribeiro/jevrs](https://github.com/luizribeiro/jevrs) `★0 · 📚6` — Rust client for TypeSafe AI's Jev (System One) model: sans-IO core, typed questions, WASI transports
+- [nirgal-soft/typesafe-rs](https://github.com/nirgal-soft/typesafe-rs) `★0 · 📚6` — A rust client for the TypeSafe AI API.
+- [site](https://jev-playground.vercel.app) `📚6`
+- [site](https://jev-playground-zeta.vercel.app) `📚6`
+- [site](https://typesafe-api.hexdocs.pm/readme.html) `📚6`
+- [tryAGI/TypeSafeAI](https://github.com/tryagi/typesafeai) `★0 · 📚6` — First-class, NativeAOT-ready .NET SDK for TypeSafe AI System One, generated with AutoSDK.
+- [typesafe-ai on PyPI](https://pypi.org/project/typesafe-ai) `📚6` — typesafe-ai on PyPI - Community redirect shim; the real package is typesafe-sdk. Registered to block slopsquatting.
+- [ufec/typesafe-sdk-kotlin](https://github.com/ufec/typesafe-sdk-kotlin) `★0 · 📚6` — typesafe-sdk-kotlin - typesafe-sdk-kotlin: TypeSafe Jev ecosystem repository. · Kotlin
+- [ZeroAlloc-Net/ZeroAlloc.Jev](https://github.com/zeroalloc-net/zeroalloc.jev) `★0 · 📚6` — Unofficial .NET client for TypeSafe's Jev System One API — source-generated, Native AOT, allocation-conscious
+- [Arize-ai/phoenix](https://github.com/arize-ai/phoenix) `★11,666 · 📚5` — AI Observability & Evaluation.
+- [crmne/ruby_llm](https://github.com/crmne/ruby_llm) `★4,423 · 📚5` — The Ruby-native AI framework. Chats, agents, tools, images, audio, and video through one consistent API, in plain Ruby or Rails.
+- [sandeco/pix-golpe](https://github.com/sandeco/pix-golpe) `★31 · 📚5` — Demo: IA detecta golpe do Pix e rastreia a quadrilha. Rust + Jev vs Python + DeepSeek em tela dividida.
+- [columnar-tech/jevaro](https://github.com/columnar-tech/jevaro) `★12 · 📚5` — Jev + Arrow.
+- [JordanDalton/jev-mermaid](https://github.com/jordandalton/jev-mermaid) `★3 · 📚5` — jev-mermaid - jev-mermaid: TypeSafe Jev ecosystem repository. · JavaScript
+- [jb2197/pydantic-jev](https://github.com/jb2197/pydantic-jev) `★2 · 📚5` — A thin shim between Pydantic and Jev.
+- [Joymfl/dagger](https://github.com/Joymfl/dagger) `★2 · 📚5` — DAG creation out of unordered items via Jev.
+- [kantan-kanto/ComfyUI-ScriptFlow](https://github.com/kantan-kanto/comfyui-scriptflow) `★2 · 📚5` — Safe Python-like script node with a System One decision model: ask yes/no, choice, and score questions via TypeSafe AI's Jev API, with local GGUF LLMs as a fallback. Multiple inputs and outputs let one node handle math, logic, text…
+- [kierandotai/jev-client](https://github.com/kierandotai/jev-client) `★2 · 📚5` — Zero-dependency TypeScript client for TypeSafe Jev (System One decision model) — OpenRouter, TypeSafe direct, and Vercel AI Gateway providers
+- [kgonia/typesafe-sdk-java](https://github.com/kgonia/typesafe-sdk-java) `★1 · 📚5` — Zero-dependency Java 21 client for the System One API with typed Noul, Choice and Score question builders and answer accessors. MIT · Java
+- [nothingmn/Jev.Sdk](https://github.com/nothingmn/jev.sdk) `★1 · 📚5` — A .NET client library for the (TypeSafe AI)(https://typesafe.ai) System One API (`https://api.typesafe.ai`).
+- [pedro-pscunha/guideme-rust](https://github.com/pedro-pscunha/guideme-rust) `★1 · 📚5` — Judgments from TypeSafe Jev that read like Rust control flow: a yes/no is an if, a choice is an exhaustive match, a score is a comparison.
+- [spate141/jev-wordfeel](https://github.com/spate141/jev-wordfeel) `★1 · 📚5` — Turn any word into probability distributions over taste, material, scent, and shape. Powered by Jev.
+- [vishivishvish/jev-typesafeai](https://github.com/vishivishvish/jev-typesafeai) `★1 · 📚5` — jev-typesafeai - jev-typesafeai: TypeSafe Jev ecosystem repository. · TypeScript
+- [withzombies/jev-go](https://github.com/withzombies/jev-go) `★1 · 📚5` — Stdlib-only Go client for the System One API with typed Noul, Choice and Score questions, explicit config and an SDK parity document. Apache-2.0 · Go
+- [yunusey/typesafe-sdk-cpp](https://github.com/yunusey/typesafe-sdk-cpp) `★1 · 📚5` — Unofficial C++23 client for the TypeSafe AI API.
+- [zampierid4p/n8n-nodes-typesafe](https://github.com/zampierid4p/n8n-nodes-typesafe) `★1 · 📚5` — Type-safe AI community nodes for n8n.
+- [Adityakhalkar/JevEye](https://github.com/adityakhalkar/jeveye) `★0 · 📚5` — Ask Jev about an image. A CNN reports what it sees with a calibrated confidence or an abstention; Jev judges what it means.
+- [haydarsahin0/Jev](https://github.com/haydarsahin0/jev) `★0 · 📚5` — GitHub Actions pipeline that scores new arXiv AI papers with Jev twice a day and publishes a ranked static site on GitHub Pages. no license · Python
+- [Jev AI](https://jev-ai.pro) `📚5` — playground - Public playground and API for putting typed questions to Jev about pasted text.
+- [kkdev92/jev-dotnet](https://github.com/kkdev92/jev-dotnet) `★0 · 📚5` — An unofficial .NET 10 client for Jev, TypeSafe's System One API. Typed decision plans, answers checked against the contract, Native AOT ready, with no third-party runtime dependencies in the core.
+- [nishimotz/hello-jev](https://github.com/nishimotz/hello-jev) `★0 · 📚5` — Japanese Python tutorial for Jev with a helper that smooths over request differences between TypeSafe direct, Vercel AI Gateway and Cloudflare. no license · Python
+- [orcawhisperer/typesafe-sdk-go](https://github.com/orcawhisperer/typesafe-sdk-go) `★0 · 📚5` — Idiomatic, strongly-typed Go client SDK for the TypeSafe AI System One API (v0.6.0)
+- [polidog/jev](https://github.com/polidog/jev) `★0 · 📚5` — Unofficial, provider-neutral CLI for TypeSafe Jev (TypeSafe, Cloudflare, Vercel). Written in Rust.
+- [RomainFranceschini/typesafe_ai_sdk](https://github.com/romainfranceschini/typesafe_ai_sdk) `★0 · 📚5` — An unofficial Dart SDK for the TypeSafe AI API.
+- [site](https://cartshield.vercel.app) `📚5`
+- [site](https://extremely-specific-council-five.vercel.app) `📚5`
+- [site](https://gptvsjev.vercel.app) `📚5`
+- [site](https://lanebreak.vercel.app) `📚5`
+- [site](https://pulselane-topaz.vercel.app) `📚5`
+- [site](https://toolgate.vercel.app) `📚5`
+- [site](https://ailerix.vercel.app) `📚5`
+- [site](https://jevegis.vercel.app) `📚5`
+- [site](https://scam-shield-seven-ecru.vercel.app) `📚5`
+- [site](https://npmjs.com/package/@mateonunez/jod) `📚5`
+- [site](https://saibimajdi.github.io/typesafeai-dotnet-sdk) `📚5`
+- [site](https://packagist.org/packages/valksor/typesafe-sdk-php) `📚5`
+- [Studio-Sasquatch/typesafe-sdk-elixir](https://github.com/studio-sasquatch/typesafe-sdk-elixir) `★0 · 📚5` — An unofficial SDK for TypeSafe AI.
+- [T-moz/typesafe-ai-dart](https://github.com/t-moz/typesafe-ai-dart) `★0 · 📚5` — A pure Dart sdk wrapper around Typesafe AI API and JEV
+- [Tango-Tango/ex_typesafe](https://github.com/tango-tango/ex_typesafe) `★0 · 📚5` — An Elixir SDK for Typesafe's API (https://docs.typesafe.ai/sdk)
+- [Verhex/xerify](https://github.com/verhex/xerify) `★0 · 📚5` — Verify before you trust. Cross-provider verification with LLMs and Jev. CLI, library & MCP.
+
+## Emerging (cited by 3–4 lists) — 150
+
+- [4nt0ineB/jev-from-java](https://github.com/4nt0ineb/jev-from-java) `📚4` — Calling TypeSafe's Jev from Java with a hand-typed API contract. Small app to demo triage, zero-shot
+- [aboisvert/jev-nim-client](https://github.com/aboisvert/jev-nim-client) `📚4` — Nim client library for the TypeSafe.ai System One (Jev) API.
+- [alexsatch/omp-auto-mode](https://github.com/alexsatch/omp-auto-mode) `📚4` — Plugin for oh-my-pi that uses Typesafe Jev API to classify tool calls as safe/unsafe/ask ★ 2 · sdk · TypeScript
+- [atheory-ai/typesafe-sdk-go](https://github.com/atheory-ai/typesafe-sdk-go) `📚4` — Unofficial Go port of the TypeSafe AI SDK
+- [BipinRajC/Jev-api-experiments](https://github.com/bipinrajc/jev-api-experiments) `📚4` — Jev-api-experiments - Empirical experiments and API research for TypeSafe's Jev System One model trained using RLCD · Python
+- [chenjingdev/jev](https://github.com/chenjingdev/jev) `📚4` — jev - jev: TypeSafe Jev ecosystem repository. · Python
+- [ChristianAlexander/effect-jev-cwe](https://github.com/christianalexander/effect-jev-cwe) `📚4` — A demonstration of the Jev System 1 model in Effect, matching vulnerabilities to their underlying CWEs ★ 1 · sdk · TypeScript
+- [cognesy/instructor-php](https://github.com/cognesy/instructor-php) `📚4` — Instructor Php · 327 stars — A TypeSafe Decision driver within Instructor PHP’s Polyglot module. Source
+- [deyna256/langchain-loadout](https://github.com/deyna256/langchain-loadout) `📚4` — Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt.
+- [DiscreteTom/jev-sts2](https://github.com/discretetom/jev-sts2) `📚4` — Play Slay the Spire 2 with Jev (TypeSafe System One). ★ 2 · endpoint · TypeScript
+- [emipaz/jev](https://github.com/emipaz/jev) `📚4` — jev - jev: TypeSafe Jev ecosystem repository. · Python
+- [Evaluation](https://vercel.com/docs/ai-gateway/modalities/evaluation) `📚4` — Vercel now documents AI SDK 7 experimental_evaluate, POST /v1/evaluate, and a TypeSafe-compatible API that lets an existing client migrate by changing its base URL. Their field names are not identical
+- [exYze/rift](https://github.com/exyze/rift) `📚4` — rift — An optional TypeSafe decision client in the Rust coding terminal Rift for bounded Jev judgments.
+- [frquintero/jev-typesafe-spike](https://github.com/frquintero/jev-typesafe-spike) `📚4` — jev-typesafe-spike - jev-typesafe-spike: TypeSafe Jev ecosystem repository. · Python
+- [guidance-ai/guidance](https://github.com/guidance-ai/guidance) `📚4` — Guidance, Constrained generation library named on the HN launch thread as what Jev's typed outputs get compared against.
+- [heddendorp/jev-sort](https://github.com/heddendorp/jev-sort) `📚4` — jev-sort - TypeScript fuzzy sorting with Jev: non-mutating arrays, shared context, and batched parallel comparisons · TypeScript
+- [hemanth/tc39-atlas](https://github.com/hemanth/tc39-atlas) `📚4` — Web explorer of TC39 proposals enriched by Jev with adoption path, cognitive overhead, motivation, web-compat risk and architectural signal judgments. no license · TypeScript
+- [i-priyanshuverma/laravel-jev](https://github.com/i-priyanshuverma/laravel-jev) `📚4` — laravel-jev - Fluent Laravel API for semantic classification and decisions with single-line is, choose, and score methods. #sdk
+- [JabbaKadabra/JevDotNet](https://github.com/jabbakadabra/jevdotnet) `📚4` — DotNet Wrapper for the Jev Model Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Jev × 2048](https://jev-2048-ultra.vercel.app) `📚4` — Browser. Try jev-2048-ultra.vercel.app or ./start.sh locally (Node.js ≥ 20).
+- [jkakar/typesafe-sdk-go](https://github.com/jkakar/typesafe-sdk-go) `📚4` — Go client for the TypeSafe AI API. Ask typed questions, get calibrated probabilities your code can act on — with a fake ...
+- [jonaed1230/typesafe-ai](https://github.com/jonaed1230/typesafe-ai) `📚4` — typesafe-ai - Unofficial typed wrapper around the TypeSafe AI SDK: ask typed questions, get unwrapped answers. · JavaScript
+- [kcb-swe-gh/typesafe-ai-jev](https://github.com/kcb-swe-gh/typesafe-ai-jev) `📚4` — typesafe-ai-jev — Java 21 client for Jev, TypeSafe AI's structured decision model 🔗
+- [Ki-Seki/jev-heuristic-adapter](https://github.com/ki-seki/jev-heuristic-adapter) `📚4` — jev-heuristic-adapter - Compile fixed decision tasks into reusable heuristic programs. · Python
+- [Kiln-AI/Kiln](https://github.com/kiln-ai/kiln) `📚4` — iln · JEV Adapter · 5.1K stars — Kiln maps compatible JSON schemas to JEV questions for structured single-turn tasks. Source
+- [kongyo2/similarity-ts-jev](https://github.com/kongyo2/similarity-ts-jev) `📚4` — similarity-ts and fallow duplicate detection for TypeScript, filtered by TypeSafe's Jev down to the
+- [LangChain](https://docs.langchain.com/oss/python/integrations/providers/typesafe) `📚4` — TypeSafe integration - Pre-release Python integration that exposes Jev's Choice, Score, and Noul answers as a LangChain Runnable.
+- [latere-ai/typesafe-ai-go-sdk](https://github.com/latere-ai/typesafe-ai-go-sdk) `📚4` — Go client for the TypeSafe API Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [lim6112j/jev-example](https://github.com/lim6112j/jev-example) `📚4` — jev-example - jev-example: TypeSafe Jev ecosystem repository. · Python
+- [LingXuanYin/jev-chat](https://github.com/lingxuanyin/jev-chat) `📚4` — Chat experiment that assembles each reply word by word from dictionary candidates chosen by Jev, with an offline fixture mode. no license · Python · live
+- [mathixu/jev-dotnet-sdk](https://github.com/mathixu/jev-dotnet-sdk) `📚4` — jev-dotnet-sdk - An idiomatic .NET SDK for TypeSafe AI's Jev System One API. · C#
+- [NenXMaster-AB/reflex](https://github.com/nenxmaster-ab/reflex) `📚4` — reflex - Iibrary for Jev · Python
+- [neurono-ml/typed-lm](https://github.com/neurono-ml/typed-lm) `📚4` — HTTP handlers under typed-lm-serve/src/api/handlers/ including systemone.rs.
+- [noahbclarkson/typesafe-api-rs](https://github.com/noahbclarkson/typesafe-api-rs) `📚4` — Ergonomic, strongly typed Rust client for the TypeSafe System One API (Jev)
+- [Nuu-maan/undertone](https://github.com/nuu-maan/undertone) `📚4` — Inspected src/lib/jev/client.ts: @typesafe-ai/sdk systemOne with default model jev-latest over draft text (questions.ts).
+- [PavelLizunov/jev-sentinel](https://github.com/pavellizunov/jev-sentinel) `📚4` — jev-sentinel - jev-sentinel: TypeSafe Jev ecosystem repository. · Rust
+- [pedro-pscunha/guideme-python](https://github.com/pedro-pscunha/guideme-python) `📚4` — guideme-python - Type-safe inline judgments from TypeSafe Jev, for Python · Python
+- [pedro-pscunha/guideme-typescript](https://github.com/pedro-pscunha/guideme-typescript) `📚4` — guideme-typescript - TypeScript guideme SDK: a TypeSafe Jev judgment as control flow · TypeScript
+- [RadixILS-Dev/typesafe-sdk-go](https://github.com/radixils-dev/typesafe-sdk-go) `📚4` — typesafe-sdk-go - RadixILS-Dev/typesafe-sdk-go - A typesafe.ai client written in golang.
+- [rahulthakore16/n8n-nodes-jev](https://github.com/rahulthakore16/n8n-nodes-jev) `📚4` — n8n-nodes-jev — Jev by TypeSafe AI for n8n: typed decisions, probabilities, and confidence-aware workflows
+- [robertjndw/gosys1](https://github.com/robertjndw/gosys1) `📚4` — gosys1 — Client for TypeSafe's SystemOne API for Jev (auto-discovered, description not yet written)
+- [ryan-sunny/dbt-assay](https://github.com/ryan-sunny/dbt-assay) `📚4` — dbt-assay - Your dbt project has types nobody declared. assay infers them and finds where they contradict each other. sqlglot for structure, Jev for meaning. · Python
+- [shapeshiftui.vercel.app](https://shapeshiftui.vercel.app) `📚4` — Try Shapeshift · (Full Shapeshift guide)(shapeshift.md) · Source
+- [site](https://hiresignal-opal.vercel.app) `📚4`
+- [site](https://mcpmatch.vercel.app) `📚4`
+- [site](https://spendbrake.vercel.app) `📚4`
+- [site](https://trustgate-mu.vercel.app) `📚4`
+- [site](https://packagist.org/packages/mzainzulifqar/jev-php-sdk) `📚4`
+- [site](https://typesafe-ui.vercel.app) `📚4`
+- [southpolesteve/probably](https://github.com/southpolesteve/probably) `📚4` — A small programming language for LLM workflows, powered by Jev. ★ 4 · endpoint · TypeScript
+- [sstehniy/jev-calculator](https://github.com/sstehniy/jev-calculator) `📚4` — iOS 6-inspired Jev calculator demo with a lifetime API budget ★ 1 · ai_sdk · TypeScript
+- [stardeckai/lgtm](https://github.com/stardeckai/lgtm) `📚4` — lgtm - Prove that your tests actually test something. Powered by Jev and your own API Key. · TypeScript
+- [StefH/typesafe-ai.sdk](https://github.com/stefh/typesafe-ai.sdk) `📚4`
+- [Stephonomon/scribe-verify](https://github.com/stephonomon/scribe-verify) `📚4` — Can a non-generative model (Jev) double-check an AI scribe's note against the encounter transcript? Working m…
+- [SwiftFaze/Jev-Studio](https://github.com/swiftfaze/jev-studio) `📚4` — Jev-Studio - GitHub project related to TypeSafe AI / Jev: SwiftFaze/Jev-Studio · JavaScript
+- [sysone-help/sysone](https://github.com/sysone-help/sysone) `📚4` — A tiny, zero-dependency TypeScript library for Jev by TypeSafe. Checks, classification and scoring, with a li…
+- [taifoon-io/n8n-nodes-typesafe](https://github.com/taifoon-io/n8n-nodes-typesafe) `📚4` — TypeSafe for n8n: ask yes/no, pick-one and rate-it questions about any item and route on calibrated answers (Pass / Fail / Review)
+- [tayaee/typesafe-ai-jev-demo](https://github.com/tayaee/typesafe-ai-jev-demo) `📚4` — typesafe-ai-jev-demo - typesafe-ai-jev-demo: TypeSafe Jev ecosystem repository. · Python
+- [tcheeric/jev-java](https://github.com/tcheeric/jev-java) `📚4` — jev-java - Java 21 client for TypeSafe's Jev evaluator: typed questions, typed answers, no decisions made for you · Java
+- [typesafe-sdk-csharp/typesafe-sdk](https://github.com/typesafe-sdk-csharp/typesafe-sdk) `📚4` — typesafe-sdk — An unofficial .NET SDK for TypeSafe AI, published on NuGet, with deterministic question building and high-throughput verification.
+- [yagi469/playground-Jev](https://github.com/yagi469/playground-jev) `📚4` — playground-Jev - playground-Jev: TypeSafe Jev ecosystem repository. · Python
+- [zojeda/llama-cpp-system-one](https://github.com/zojeda/llama-cpp-system-one) `📚4` — A Rust implementation of the System One API for structured question answering with DiffusionGemma and llama.c…
+- [zushicat/gliner2-api-jev-schema](https://github.com/zushicat/gliner2-api-jev-schema) `📚4` — Local classification API using GLiNER2 with GLiNER2.5-Decide model, serving a Typesafe Jev compatibl
+- [网站](https://rubygems.org/gems/ruby_llm-providers-typesafe) `📚4`
+- [0x1f/pi-jev-multi-provider](https://github.com/0x1f/pi-jev-multi-provider) `📚3` — pi-jev-multi-provider - Pi Jev System One integration with TypeSafe Direct and Vercel AI Gateway transports · TypeScript
+- [1cyberlangke1/rwkv-jev-like](https://github.com/1cyberlangke1/rwkv-jev-like) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [1u991yu24k1/typesafe-jev-sdk](https://github.com/1u991yu24k1/typesafe-jev-sdk) `📚3` — TypeSafe AI Jev API Wrapper SDK
+- [A79-ai/jev-incall-assistance](https://github.com/a79-ai/jev-incall-assistance) `📚3` — jev-incall-assistance - Implementation for in call assistance using Jev · Python
+- [AdoCbl/JEV-RESUME-POLISHER](https://github.com/adocbl/jev-resume-polisher) `📚3` — JEV-RESUME-POLISHER - AI resume polisher that fact-checks every line it writes against your real resume — no invented metrics, no inflated scope. · Python
+- [agugliotta/jev-kmp](https://github.com/agugliotta/jev-kmp) `📚3` — TypeSafe Jev Kotlin Multiplatform (KMP) SDK for Android, iOS, and JVM. Lightweight client for probab
+- [AidenHadisi/mayi](https://github.com/aidenhadisi/mayi) `📚3` — Rust 1.96+ (or a prebuilt release); TypeSafe API key via mayi config set api_key (default provider jev, model jev-latest).
+- [AitelqadiMo/SimoBee-JEV](https://github.com/aitelqadimo/simobee-jev) `📚3` — SimoBee-JEV - SimoBee-JEV: TypeSafe Jev ecosystem repository. · TypeScript
+- [aoprisan/typesafe-ai-scala-sdk](https://github.com/aoprisan/typesafe-ai-scala-sdk) `📚3` — Dependency-free Scala 3 client for System One mirroring the official Python SDK's retries and errors, with blocking, CompletableFuture and Future calls. MIT · Scala
+- [b0bleet/syn](https://github.com/b0bleet/syn) `📚3` — Open-source, Jev-compatible System One API: typed decisions (Noul, Choice, Score) from next-token probabilities in one forward pass. Works with typesafe-sdk. Free hosted ...
+- [basi/typesafe-ai-php-client](https://github.com/basi/typesafe-ai-php-client) `📚3` — PHP client for the typesafe.ai System One API (Jev)
+- [blisspixel/fragr](https://github.com/blisspixel/fragr) `📚3` — Agentic-first retro 3D arena FPS: Rust authoritative server, Godot client, MCP door for agents, in-game pirat…
+- [bnistor4/fotocopiatrice](https://github.com/bnistor4/fotocopiatrice) `📚3` — pipeline/questions.ts builds noul/choice/score via @typesafe-ai/sdk; pipeline/analyze.ts and pipeline/pairs.ts call TypeSafeClient.
+- [bogusweb/cv-by-jev](https://github.com/bogusweb/cv-by-jev) `📚3` — cv-by-jev - cv-by-jev: TypeSafe Jev ecosystem repository. · TypeScript
+- [bouncerguy/jevwrapper](https://github.com/bouncerguy/jevwrapper) `📚3` — English in. Typed JEV decisions out. Inspectable LLM-to-JEV middleware, a browser sandbox, and reusa
+- [caudena/beam_weaver](https://github.com/caudena/beam_weaver) `📚3` — BeamWeaver exposes Jev Choice, Score, and Noul evaluations as provider-neutral decision-model calls in Elixir workflows.
+- [ChristianAlexander/laya_ex](https://github.com/christianalexander/laya_ex) `📚3` — laya_ex - Elixir library wrapping Laya.
+- [Crypt0nik/voxjev](https://github.com/crypt0nik/voxjev) `📚3` — voxjev - Assistant vocal français pour macOS : Whisper local + décisions Jev, actions sûres, interface Liquid Glass. · Python
+- [csswork/JevDemo](https://github.com/csswork/jevdemo) `📚3` — JevDemo - JevDemo: TypeSafe Jev ecosystem repository. · TypeScript
+- [damiensmith1/jevfilter](https://github.com/damiensmith1/jevfilter) `📚3` — jevfilter - Python library/PyPI: filter or classify text with plain-English rules via TypeSafe Jev (choose/check/rate). (Project guide)(community/projects/tools/damiensmith1-jevfilter.md).
+- [Elue-dev/jev_elixir](https://github.com/elue-dev/jev_elixir) `📚3` — elue-dev/jev_elixir -- jev_elixir is a small, idiomatic interface for making typed decisions with Jev.
+- [Formatho Jev Playground](https://formatho.com/tools/jev-playground) `📚3` — Formatho · AppClient-side request builder for the System One API that composes a state plus Noul, Choice and Score questions, previews mock distributions and generates typesafe_sdk Python code.
+- [Fox-Islam/composable-jev](https://github.com/fox-islam/composable-jev) `📚3` — composable-jev - A library to chain Jev calls, for the deranged and enlightened · PHP
+- [fruitymcdoo/JevChat](https://github.com/fruitymcdoo/jevchat) `📚3` — JevChat - A chat interface built on Jev, TypeSafe's decision-only model: every word is a typed decision · Python
+- [futex-ai/ai](https://github.com/futex-ai/ai) `📚3` — ai - ai: TypeSafe Jev ecosystem repository. · Rust
+- [FYIsoft/FYIsoft.Extensions.AI.Providers](https://github.com/fyisoft/fyisoft.extensions.ai.providers) `📚3` — Microsoft.Extensions.AI provider SDKs: Anthropic Claude and TypeSafe AI Jev
+- [Gackson/Jev-dashcam](https://github.com/gackson/jev-dashcam) `📚3` — Jev-dashcam — Native macOS app that captures foreground window content and organizes it into topics with Jev. _(★0, Swift)_
+- [galitianu/jev4j](https://github.com/galitianu/jev4j) `📚3` — Java SDK for the TypeSafe AI API. Typed questions, typed answers, Java 21.
+- [HCTDIP/jevkit](https://github.com/hctdip/jevkit) `📚3` — Python client for the Jev decision model (OpenRouter Decisions API) - calibrated noul/choice/score,
+- [HexDocs](https://hexdocs.pm/typesafe_sdk) `📚3`
+- [hideri777/jev-application-sample](https://github.com/hideri777/jev-application-sample) `📚3` — jev-application-sample - jev-application-sample: TypeSafe Jev ecosystem repository. · TypeScript
+- [HomayoonAlimohammadi/jev-sdk-go](https://github.com/homayoonalimohammadi/jev-sdk-go) `📚3` — jev-sdk-go {type: library} - Go ecosystem: dependency-free Go 1.24+ client for Jev Noul, Choice and Score questions that reads Choice and Score answers back as the caller's own types, rejecting any label or level the…
+- [hrstmr/typesafe-ai-sdk](https://github.com/hrstmr/typesafe-ai-sdk) `📚3` — typesafe-ai in:name,description created:2026-0
+- [http4k/http4k](https://github.com/http4k/http4k) `📚3` — http4k · TypeSafe Client · 2.8K stars — A typed Kotlin client and fake implementation for the TypeSafe System One API. Source
+- [IAmNo1Special/typesafe-sdk-godot](https://github.com/iamno1special/typesafe-sdk-godot) `📚3` — typesafe-sdk-godot - TypeSafe SDK for Godot 4.7, at parity with the Python SDK and the HTTP API reference. · GDScript
+- [jev](https://hex.pm/packages/jev) `📚3`
+- [jevframe](https://pypi.org/project/jevframe) `📚3` — Row-wise semantic judgments for Pandas / Polars, returning probabilities with concurrency control and caching
+- [jevkit/jev-java](https://github.com/jevkit/jev-java) `📚3` — A Java client for TypeSafe's System One API and its Jev models: send some state and a set of ★ 1 · endpoint · Java
+- [jhnwr/scrapy-jev](https://github.com/jhnwr/scrapy-jev) `📚3` — scrapy-jev - A scraped item quality monitor using jev, that samples scraped items · Python
+- [jt7991/jev-calculator](https://github.com/jt7991/jev-calculator) `📚3` — Natural-language calculator with a shared TypeScript core, Svelte UI, Nitro API, CLI, and Jev/Luna comparison.
+- [keltokhy/jevkit-core](https://github.com/keltokhy/jevkit-core) `📚3` — jevkit-core - Shared Python infrastructure for the JevKit tools.
+- [Ketankhunti/typesafe-sdk-rust](https://github.com/ketankhunti/typesafe-sdk-rust) `📚3` — typesafe-sdk-rust - GitHub project related to TypeSafe AI / Jev: Ketankhunti/typesafe-sdk-rust · Rust
+- [lab-emi/ChipJev](https://github.com/lab-emi/chipjev) `📚3` — ChipJev - ChipJev: TypeSafe Jev ecosystem repository. · Python
+- [luanvsky/jev-and-ai-sdk](https://github.com/luanvsky/jev-and-ai-sdk) `📚3` — jev-and-ai-sdk - jev-and-ai-sdk: TypeSafe Jev ecosystem repository. · TypeScript
+- [MakonnenMak/jev-smart-retry](https://github.com/makonnenmak/jev-smart-retry) `📚3` — jev-smart-retry - jev-smart-retry: TypeSafe Jev ecosystem repository. · Python
+- [Mant1ssa-smf3kt/chat_jev](https://github.com/mant1ssa-smf3kt/chat_jev) `📚3` — chat\_jev - chat\_jev: TypeSafe Jev ecosystem repository. · Python
+- [mehdihadeli/typesafe-jev-dotnet-sdk](https://github.com/mehdihadeli/typesafe-jev-dotnet-sdk) `📚3` — typesafe-jev-dotnet-sdk - .Net SDK for the TypeSafe Jev API · C#
+- [mesopelagique/typesafe-sdk-4d](https://github.com/mesopelagique/typesafe-sdk-4d) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Miyamura80/among-us-jev](https://github.com/miyamura80/among-us-jev) `📚3` — among-us-jev - 🔪🩸 Among Us played by Jev · TypeScript
+- [MSFT-TKENDRICK/JEV-examples](https://github.com/msft-tkendrick/jev-examples) `📚3` — JEV-examples - examples · TypeScript
+- [npm package](https://npmjs.com/package/n8n-nodes-jev-classification) `📚3` — Published npm package, reviewed at v0.2.0. Self-hosted only; upstream reports n8n declined Cloud verification because of overlap with built-in functionality.
+- [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) `📚3` — Open Connector · TypeSafe · 5.9K stars — Open Connector exposes TypeSafe evaluation through its provider runtime. Source
+- [OpenRouterTeam/ai-sdk-provider](https://github.com/openrouterteam/ai-sdk-provider) `📚3` — The OpenRouter provider for the Vercel AI SDK contains support for hundreds of models through the OpenRouter chat and completion APIs.
+- [paddix/JEV](https://github.com/paddix/jev) `📚3` — JEV - JEV: TypeSafe Jev ecosystem repository. · Python
+- [pepperoni21/jev-rust](https://github.com/pepperoni21/jev-rust) `📚3` — Typesafe AI API wrapper for Rust
+- [pierangeloc/zio-typesafe-ai](https://github.com/pierangeloc/zio-typesafe-ai) `📚3` — Simple ZIO based client library for typesafe-ai
+- [praveen-hari/codestudio-jev-sdk](https://github.com/praveen-hari/codestudio-jev-sdk) `📚3` — TypeScript and Python SDKs for the CodeStudio JEV Decisions API
+- [rhelmer/filelathe](https://github.com/rhelmer/filelathe) `📚3` — filelathe - filelathe: TypeSafe Jev ecosystem repository. · TypeScript
+- [rishi-raj-jain/ping-pong-jev](https://github.com/rishi-raj-jain/ping-pong-jev) `📚3` — ping-pong-jev - ping-pong-jev: TypeSafe Jev ecosystem repository. · TypeScript
+- [RiwRiwara/jev-computer](https://github.com/riwriwara/jev-computer) `📚3` — jev-computer - An 8-bit computer built from one yes/no question asked to Jev \(TypeSafe\) — 24,511 NAND gates from a single API call · Python
+- [rockomatthews/jev-dashboard](https://github.com/rockomatthews/jev-dashboard) `📚3` — jev-dashboard — _(★0, TypeScript)_
+- [rominap22/strandsharness-langchain-jev](https://github.com/rominap22/strandsharness-langchain-jev) `📚3` — Demo for We Are Developers AI Conference with Strands Harness, LangChain, and Jev
+- [roprgm/tierjev](https://github.com/roprgm/tierjev) `📚3` — tierjev - Pick a set, state a criterion, let Jev sort it into tiers. · TypeScript
+- [shailesh-svg/Jev-POC-Lead-Gen](https://github.com/shailesh-svg/jev-poc-lead-gen) `📚3` — Jev-POC-Lead-Gen - Jev-POC-Lead-Gen: TypeSafe Jev ecosystem repository. · TypeScript
+- [Sidneeuncharged29/jev-visual](https://github.com/sidneeuncharged29/jev-visual) `📚3` — sidneeuncharged29/jev-visual -- Run vision-language model inference on Apple Silicon with Qwen3.5-0.8 B via MLX; answer image questions, score options, and interact through browser, CLI, or HTTP API.
+- [site](https://jev-projects.vercel.app) `📚3`
+- [site](https://winnow-seven.vercel.app) `📚3`
+- [site](https://npmjs.com/package/n8n-nodes-jev) `📚3`
+- [site](https://npmjs.com/package/carryforward) `📚3`
+- [site](https://jevarena-lab.vercel.app) `📚3`
+- [site](https://sysadarsh-zerosweep.vercel.app) `📚3`
+- [sususu98/pi-jev-navigator](https://github.com/sususu98/pi-jev-navigator) `📚3` — Ultra-low-token System One context navigation and precision SOP dispatch engine for Pi Coding Agent using TypeSafe Jev & Trie-Folded CodeGraphs
+- [taifoon-io/jev-wilson](https://github.com/taifoon-io/jev-wilson) `📚3` — jev-wilson - jev-wilson: TypeSafe Jev ecosystem repository. · TypeScript
+- [TanStack/ai](https://github.com/tanstack/ai) `📚3` — TanStack AI - @tanstack/ai-typesafe adapter exposing typed Boolean, Choice, and Score decisions through TanStack AI's decide() API.
+- [TheRealF/bivio](https://github.com/therealf/bivio) `📚3` — bivio - Decisioni tipizzate da un modello linguistico, sul tuo computer, senza generare un token. La versione libera dell'idea di Jev. · Python
+- [thiagomendes/poc-jev-show-milhao](https://github.com/thiagomendes/poc-jev-show-milhao) `📚3` — poc-jev-show-milhao - poc-jev-show-milhao: TypeSafe Jev ecosystem repository. · TypeScript
+- [Tool-gating cookbook](https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev) `📚3` — Gating agent tool calls - OpenRouter recipe combining deterministic checks with Jev Noul probabilities and fixed approve, block, or human-review thresholds.
+- [Txy02/jev-harness](https://github.com/txy02/jev-harness) `📚3` — jev-harness - harness for jev · Python
+- [tycoding/jev-java-sdk](https://github.com/tycoding/jev-java-sdk) `📚3` — No description provided.
+- [TypeSafe adapter](https://tanstack.com/ai/latest/docs/adapters/typesafe) `📚3` — TanStack AI TypeSafe adapter - TanStack AI's TypeSafe adapter sends typed Choice, Score, and Boolean questions to Jev through decide().
+- [typesafe_sdk](https://hex.pm/packages/typesafe_sdk) `📚3`
+- [Xubqpanda/JevRepo](https://github.com/xubqpanda/jevrepo) `📚3` — JevRepo - JevRepo — Jev / TypeSafe related project · Python
+- [YosAwed/python-jev-if](https://github.com/yosawed/python-jev-if) `📚3` — Use TypeSafe Jev yes/no probabilities in Python if conditions.
+- [ziyu/sytem-one-sdk](https://github.com/ziyu/sytem-one-sdk) `📚3` — Unified interface wrapper for system one models Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [网站](https://crates.io/crates/jev-curate) `📚3`
+- [网站](https://ticket-quest-three.vercel.app) `📚3`
+
+## Long tail (cited by 1–2 lists) — 692
+
+<details><summary>Show 692 long-tail entries</summary>
+
+- [1475505/jev-api-adapter](https://github.com/1475505/jev-api-adapter) `📚2` — jev-api-adapter - Jev decision bridge for OpenAI Chat Completions and Responses on Cloudflare Workers and Vercel · TypeScript
+- [54yyyu/rev](https://github.com/54yyyu/rev) `📚2` — rev - Typed decisions from a frozen open model, one forward pass; a local Jev · Python
+- [6566znyndm-sketch/jev-and-ai-sdk](https://github.com/6566znyndm-sketch/jev-and-ai-sdk) `📚2` — jevlang OR jev.ai in:name,description created:
+- [@ai-sdk/typesafe-ai](https://ai-sdk.dev/docs/ai-sdk-core/evaluation) `📚2` — Vercel AI Gateway + AI SDK evaluate — Jev as typesafe-ai/jev on AI Gateway, plus AI SDK 7 experimental_evaluate. Maintained by Vercel.
+- [aayanrehman/trustlens](https://github.com/aayanrehman/trustlens) `📚2` — trustlens - trustlens: TypeSafe Jev ecosystem repository. · TypeScript
+- [above-the-fold/typesafe-sdk-swift](https://github.com/above-the-fold/typesafe-sdk-swift) `📚2` — typesafe-sdk-swift - The unofficial Swift library for the TypeSafe API
+- [Adapter/head](https://huggingface.co/tinnel123/omnijev) `📚2`
+- [agupta01/jev-8-ball](https://github.com/agupta01/jev-8-ball) `📚2` — Pixel-art magic 8 ball: a Modal-hosted FastAPI backend asks Jev nine Noul judgments per question and the static page shows the answer. MIT · Python · live
+- [Ahesui/vercel-jev-mcp](https://github.com/ahesui/vercel-jev-mcp) `📚2` — Typed Jev (System One) judgments for MCP clients via the Vercel AI Gateway — one AI_GATEWAY_API_KEY, 9 tools, deadline-aware, offline-mock testable.
+- [AkashPriyadarshii/jev-stars](https://github.com/akashpriyadarshii/jev-stars) `📚2` — Local-first GitHub stars memory for AI coding agents: Rust CLI turning 1243…
+- [AmooEbrahim/jev-answers](https://github.com/amooebrahim/jev-answers) `📚2` — MCP server + CLI: send files and typed questions to TypeSafe.
+- [AnderHonorato/Agente-sem-Texto-Jev-Claude-](https://github.com/anderhonorato/agente-sem-texto-jev-claude-) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [AnderHonorato/Typesafe_Jev_IA](https://github.com/anderhonorato/typesafe_jev_ia) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [AravDharnikota/apush-debate-jev](https://github.com/aravdharnikota/apush-debate-jev) `📚2` — apush-debate-jev - apush-debate-jev: TypeSafe Jev ecosystem repository. · TypeScript
+- [aryasaatvik/pagegraph](https://github.com/aryasaatvik/pagegraph) `📚2` — Route-declared SEO graph and audit toolkit for TanStack Start: sitemap/robots, React head, JSON-LD, Vite coverage gate, live audit, and Jev-backed link…
+- [AtelierArith/JevClient.jl](https://github.com/atelierarith/jevclient.jl) `📚2` — JevClient.jl - Unofficial Julia client for TypeSafe System One (Noul/Choice/Score; endpoint policy to api.typesafe.ai). (Project…
+- [babanomania/bro-source](https://github.com/babanomania/bro-source) `📚2` — bro-source - bro-source: TypeSafe Jev ecosystem repository. · TypeScript
+- [benwyrosdick/laya-api](https://github.com/benwyrosdick/laya-api) `📚2` — laya-api - laya-api: TypeSafe Jev ecosystem repository. · Python
+- [Biztactix-Ryan/TypeSafe.Sdk.C-](https://github.com/biztactix-ryan/typesafe.sdk.c-) `📚2` — C# Library to use the Typesafe APIs, Direct conversion from Python/JS libraries Automatically matched explicit Jev and TypeSafe/System One references. Category…
+- [braintrustdata/braintrust-sdk-python](https://github.com/braintrustdata/braintrust-sdk-python) `📚2` — Braintrust Python TypeSafe integration - Built-in integration in Braintrust's Python tracing and evals SDK that auto-instruments typesafe-sdk system_one calls…
+- [brida-ai/sdk](https://github.com/brida-ai/sdk) `📚2` — Official TypeScript SDK for the Brida platform
+- [byteally/typesafe-sdk](https://github.com/byteally/typesafe-sdk) `📚2` — Haskell SDK for
+- [cbuctok/n8n-nodes-judgment](https://github.com/cbuctok/n8n-nodes-judgment) `📚2` — n8n community node offering evaluate, decide, rank, rate, composite and yes/no operations over the System One API for workflow branching. MIT · TypeScript
+- [cephalization/phoenix-jev-example](https://github.com/cephalization/phoenix-jev-example) `📚2` — TypeScript example that runs Jev through the AI SDK evaluation API and wraps it in an OpenInference evaluator span traced to Arize Phoenix. MIT · TypeScript
+- [ChristianCruzArango/triaje-ambulancias](https://github.com/christiancruzarango/triaje-ambulancias) `📚2` — triaje-ambulancias - triaje-ambulancias · TypeScript
+- [Church-of-Lane/Csharp-Jef-SDK](https://github.com/church-of-lane/csharp-jef-sdk) `📚2` — Csharp-Jef-SDK - SKD on C# for Model Jef · C#
+- [CMaintz/jev-dotnet](https://github.com/cmaintz/jev-dotnet) `📚2` — Unofficial .NET SDK for TypeSafe AI.
+- [CMaintz/jev-java](https://github.com/cmaintz/jev-java) `📚2` — Unofficial Java SDK for TypeSafe AI.
+- [confident-ai/deepeval](https://github.com/confident-ai/deepeval) `📚2` — DeepEval's JevEval metric, which scores outputs from Jev's decision probabilities (weighted mean with confidence), in Python and TypeScript.
+- [creativerezz/dspy-reanchor-starter](https://github.com/creativerezz/dspy-reanchor-starter) `📚2` — DSPy 3.4 starter for Jev/System One decisions and ReAnchor confidence calibration, with one-line Apple Silicon setup.
+- [csabika98/typesafe-sdk-java](https://github.com/csabika98/typesafe-sdk-java) `📚2` — typesafe-sdk-java - This is an unofficial community port and is not supported by TypeSafe. · Java
+- [Danijel-Enoch/banger-tweet](https://github.com/danijel-enoch/banger-tweet) `📚2` — banger-tweet - Jev scores whether a tweet goes viral; OpenRouter writes drafts and a write-judge-revise loop climbs the score. · TypeScript
+- [dguzman1012/jev-langchain-harness](https://github.com/dguzman1012/jev-langchain-harness) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [DotNetVibeCoderz/Vibe_SDK](https://github.com/dotnetvibecoderz/vibe_sdk) `📚2` — TypeSafeSDK — An unofficial .NET client that POSTs state and typed questions to TypeSafe /v1/systemone. The parent repo also contains unrelated SDK dumps.
+- [dspachos/jev-dspy](https://github.com/dspachos/jev-dspy) `📚2` — inferred / community-sdk — ⭐0
+- [eastriverlee/julia.swift](https://github.com/eastriverlee/julia.swift) `📚2` — Fast, free, offline Julia-1 decisions on CPU. Swift package for macOS, iOS, Linux and Windows, with
+- [echohello-dev/jevctl](https://github.com/echohello-dev/jevctl) `📚2` — jevctl - CLI for typed AI judgments via TypeSafe or OpenRouter · TypeScript
+- [EvanGruhlkey/JevSweep](https://github.com/evangruhlkey/jevsweep) `📚2` — JevSweep - JevSweep: TypeSafe Jev ecosystem repository. · Python
+- [fast-facts/jevy-vet](https://github.com/fast-facts/jevy-vet) `📚2` — jevy-vet - jevy-vet: TypeSafe Jev ecosystem repository. · TypeScript
+- [faulker/lmr-rs](https://github.com/faulker/lmr-rs) `📚2` — lmr-rs - lmr-rs: TypeSafe Jev ecosystem repository. · Rust
+- [ferxalbs/needle-lens](https://github.com/ferxalbs/needle-lens) `📚2` — needle-lens - needle-lens: TypeSafe Jev ecosystem repository. · TypeScript
+- [flyteorg/flyte-sdk](https://github.com/flyteorg/flyte-sdk) `📚2` — examples/typesafe_ai — Official Flyte SDK repo example + benchmark harness interleaving TypeSafe Jev (System 1 guard/decisions) with System 2 LLMs inside…
+- [gaebalai/jev-playground](https://github.com/gaebalai/jev-playground) `📚2` — inferred / official-sdk — ⭐0
+- [gauravk310/jev-api](https://github.com/gauravk310/jev-api) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [ginovva320/typesafe-sdk-golang](https://github.com/ginovva320/typesafe-sdk-golang) `📚2` — typesafe-sdk-golang - GitHub project related to TypeSafe AI / Jev: ginovva320/typesafe-sdk-golang · Go
+- [harshsinha-12/library-estimate](https://github.com/harshsinha-12/library-estimate) `📚2`
+- [harukishimo/hori_checker](https://github.com/harukishimo/hori_checker) `📚2` — hori\_checker - hori\_checker: TypeSafe Jev ecosystem repository. · TypeScript
+- [henteko/jev-dev-cloudflare](https://github.com/henteko/jev-dev-cloudflare) `📚2` — Latency bench that calls Jev through the same Hono API on Cloudflare Workers and on Node/VPS, with Server-Timing breakdown and a React compare page. MIT ·…
+- [ianlintner/jev-shadow-adapter](https://github.com/ianlintner/jev-shadow-adapter) `📚2` — Shadow-mode observational adapter harness for TypeSafe Jev routing decisions (with MkDocs GitHub Pages site)
+- [invalidate-playground.vercel.app](https://invalidate-playground.vercel.app) `📚2` — Hosted playground: invalidate-playground.vercel.app. Live checks send memory/event text to TypeSafe. This listing did not run the playground or call the API.
+- [iroy2000/langgraph-jev](https://github.com/iroy2000/langgraph-jev) `📚2` — LangGraph/LangChain integration for TypeSafe.
+- [itsmeyaw/n8n-nodes-typesafe](https://github.com/itsmeyaw/n8n-nodes-typesafe) `📚2` — N8N Nodes for Typesafe AI
+- [jacintofleta/geojev](https://github.com/jacintofleta/geojev) `📚2` — geojev - Most probable countries · TypeScript
+- [JamesANZ/ChatJev](https://github.com/jamesanz/chatjev) `📚2` — ChatJev - A simple web chat interface that allows you to ask simple questions to JEV about attached context · TypeScript
+- [jasonduncan/libtypesafe](https://github.com/jasonduncan/libtypesafe) `📚2` — Unofficial C++17 client for the TypeSafe AI API
+- [Jev API](https://json-render.dev/docs/jev) `📚2`
+- [Jev in 25 Lines of Python](https://nobodywho.ai/posts/jev-in-25-lines) `📚2` — Blog + HN thread (464 points, 139 comments): builds the smallest working Jev loop in Python, and the thread argues over whether the decision step needs a…
+- [Jev vs GPT-6 Astra: when to use each](https://vercel.com/i/jev-vs-gpt-6-astra) `📚2` — Guide: compares when to use Jev versus a frontier generative model and links several Jev use cases.
+- [jev-as-llm.vercel.app](https://jev-as-llm.vercel.app) `📚2` — Hosted demo jev-as-llm.vercel.app and README: browser calls OpenRouter Decisions (Jev) for next-word Choice; CSP limits connect-src to self + openrouter.ai.
+- [jev-trust](https://pypi.org/project/jev-trust) `📚2` — Python ecosystem: wraps Jev calls with decision logging, outcome-based calibration metrics, effective-confidence annotations, overconfidence alerts, and signed…
+- [Jibalmi/Tez](https://github.com/jibalmi/tez) `📚2` — Tez - Tez: TypeSafe Jev ecosystem repository. · Python
+- [jon-devlapaz/tink](https://github.com/jon-devlapaz/tink) `📚2` — Python ≥ 3.11; live routing needs TYPESAFE_API_KEY. Skill install/prune paths need a working Tink skill library under ~/.tink/skills/.
+- [JonTelep/local-library](https://github.com/jontelep/local-library) `📚2` — Ask questions answered from an offline Wikipedia by a local AI model (kiwix + Ollama, optional Jev re-ranking)
+- [jozefRudy/patterns](https://github.com/jozefrudy/patterns) `📚2` — patterns - patterns: TypeSafe Jev ecosystem repository. · Rust
+- [jsun969/github-categorizing-jev](https://github.com/jsun969/github-categorizing-jev) `📚2` — github-categorizing-jev - github-categorizing-jev: TypeSafe Jev ecosystem repository. · TypeScript
+- [juanegido/promesometro](https://github.com/juanegido/promesometro) `📚2` — promesometro - promesometro: TypeSafe Jev ecosystem repository. · TypeScript
+- [jumboly/jev-client](https://github.com/jumboly/jev-client) `📚2` — TypeSafe AI Jev client (Vercel AI Gateway / direct API)
+- [kevhill/jev-hierarchy](https://github.com/kevhill/jev-hierarchy) `📚2` — jev-hierarchy - Compute probabilities over a heierarchy of terms rather than a set with Jev from Typesafe · Python
+- [kloki/milkman](https://github.com/kloki/milkman) `📚2` — milkman - milkman: TypeSafe Jev ecosystem repository. · TypeScript
+- [langchain-ai/docs](https://github.com/langchain-ai/docs) `📚2` — Unified LangChain documentation.
+- [langchain-typesafe](https://pypi.org/project/langchain-typesafe) `📚2` — The LangChain package with TypeSafeClassifier.
+- [laween-alsulaivany/shouldicare](https://github.com/laween-alsulaivany/shouldicare) `📚2` — shouldicare - shouldicare: TypeSafe Jev ecosystem repository. · TypeScript
+- [lib-x/typesafe-go](https://github.com/lib-x/typesafe-go) `📚2` — Go SDK for the TypeSafe AI API: typed questions in, structured answers out. Zero dependencies.
+- [lib-x/typesafe-rs](https://github.com/lib-x/typesafe-rs) `📚2` — Rust SDK for the TypeSafe AI API: typed questions in, structured answers out. Published on crates.io as typesafe-sdk-rs.
+- [lufemc/seen](https://github.com/lufemc/seen) `📚2` — Search your Mac screen history. Native SwiftUI app with automatic Jev search, your own API
+- [m0rphtail/papaya](https://github.com/m0rphtail/papaya) `📚2` — Local typed decisions on ARM: a TypeSafe-compatible System One API for Raspberry Pi. llama
+- [MohdAnas010/jev-and-ai-sdk](https://github.com/mohdanas010/jev-and-ai-sdk) `📚2` — jevlang OR jev.ai in:name,description created:
+- [moraxh/Buggo](https://github.com/moraxh/buggo) `📚2` — Buggo - 🐛 Give your coding agent a detective. Buggo investigates bugs, builds a suspect list, and finds where to look. · TypeScript
+- [moritalous/jev-persona-panel](https://github.com/moritalous/jev-persona-panel) `📚2` — jev-persona-panel - jev-persona-panel: TypeSafe Jev ecosystem repository. · TypeScript
+- [Muvon/octolib](https://github.com/muvon/octolib) `📚2` — Rust library unifying 25+ AI providers that includes typed yes/no, choice and score evaluation through Jev, directly or via Cloudflare AI Gateway. Apache-2.0 ·…
+- [Mvstnz/jev-n8n-b2b-lead-qualification](https://github.com/mvstnz/jev-n8n-b2b-lead-qualification) `📚2` — B2B lead qualification with n8n, JEV, Google Sheets and Slack; explicit business rules, synthetic evaluation cases and reproducible tests.
+- [nafisazizir/x-jev](https://github.com/nafisazizir/x-jev) `📚2` — Chrome extension that badges X posts as worth it, thin or slop from one Jev Score via Vercel AI Gateway, with a labelled eval set for rubric edits. no license…
+- [nangcr/typesafe-sdk-go](https://github.com/nangcr/typesafe-sdk-go) `📚2` — typesafe-sdk-go - GitHub project related to TypeSafe AI / Jev: nangcr/typesafe-sdk-go · Go
+- [Nash171/dotmaster](https://github.com/nash171/dotmaster) `📚2` — dotmaster - dotmaster: TypeSafe Jev ecosystem repository. · TypeScript
+- [nicelgueta/typesafe-api](https://github.com/nicelgueta/typesafe-api) `📚2` — rust async wrapper for typesafe ai api
+- [notzsph/zjev](https://github.com/notzsph/zjev) `📚2` — Modular Python integration layer for TypeSafe Jev, with a typed evaluation client, CLI, HTTP API, Do
+- [nshkrdotcom/system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk) `📚2` — Provider-neutral Elixir/BEAM SDK for System One semantics: typed Noul, Choice and Score decisions, prepared e…
+- [OpenAI Answers TypeSafe's Jev with a Decision API Built on Luna（The New Stack）](https://thenewstack.io/openai-decision-api-luna) `📚2` — The New Stack: "OpenAI answers TypeSafe's Jev with a Decision API built on Luna" (2026-09-29) — OpenAI announced a Decision API at DevDay (Sep 29), built on…
+- [OpenRouter question compiler](https://openrouter.ai/labs/jev/compile) `📚2` — Use an OpenRouter key and its decisions request shape; do not send these questions to a chat-completions API.
+- [OpenRouter request contract](https://openrouter.ai/docs/api/api-reference/alphadecisions/submit-a-decisions-questions-and-answers-request) `📚2` — OpenRouter Decisions API - Alpha multi-provider surface for the class: Jev, Solar Decide, Span-01, and Kev-4B under one state + questions request shape, plus a…
+- [Orel-doudou-records/ask-me-reasoning-jev](https://github.com/orel-doudou-records/ask-me-reasoning-jev) `📚2` — ask-me-reasoning-jev - ask-me-reasoning-jev: TypeSafe Jev ecosystem repository. · Python
+- [orthogonal-sh/typescript](https://github.com/orthogonal-sh/typescript) `📚2` — Proprietary hosted product. Orthogonal TypeScript SDK and CLI are MIT (orthogonal-sh/typescript @ 7da7967bf7b6a3c0cd5aa96c20a9907f7da8b8e1, orthogonal-sh/cli @…
+- [passoz/goodbizz](https://github.com/passoz/goodbizz) `📚2` — goodbizz - goodbizz: TypeSafe Jev ecosystem repository. · TypeScript
+- [pavanmadiraju91/jev_art](https://github.com/pavanmadiraju91/jev_art) `📚2` — Local web app that turns a typed phrase into moving 3D art by having Jev rate the mood of the words. no license · Python
+- [pcarrier/plz](https://github.com/pcarrier/plz) `📚2` — plz - plz: TypeSafe Jev ecosystem repository. · Rust
+- [phiat/typesafe-elixir-sdk](https://github.com/phiat/typesafe-elixir-sdk) `📚2` — Unofficial Elixir client for TypeSafe's System One API (Jev): typed Noul, Choice and Score judgments over Req ★ 1 · endpoint · Elixir
+- [phiat/typesafe-rust-sdk](https://github.com/phiat/typesafe-rust-sdk) `📚2` — Unofficial Rust client for TypeSafe's System One API (Jev): typed Noul, Choice and Score questions, async and blocking ★ 1 · endpoint · Rust
+- [PhiDung-hub/typesafe-rust](https://github.com/phidung-hub/typesafe-rust) `📚2` — Unofficial Rust client for TypeSafe's System One API (Jev), with opt-in concurrency tooling. Not affiliated with TypeSafe AI.
+- [pimalaya/himalaya](https://github.com/pimalaya/himalaya) `📚2` — Python ≥ 3.10; himalaya ≥ 2 with Gmail backend (IMAP-only will not work); OpenRouter API key; uv/pipx optional.
+- [PinableAgents/typesafe-sdk-go](https://github.com/pinableagents/typesafe-sdk-go) `📚2` — typesafe-sdk-go - TypeSafe Go SDK · Go
+- [prof-fabiosantos/ai-incident-atlas](https://github.com/prof-fabiosantos/ai-incident-atlas) `📚2` — ai-incident-atlas - ai-incident-atlas: TypeSafe Jev ecosystem repository. · Python
+- [programadormarin/typesafe-sdk-go](https://github.com/programadormarin/typesafe-sdk-go) `📚2` — typesafe-sdk-go - A type-safe Go SDK for building reliable integrations with strongly typed APIs. Designed to provide an idiomatic developer experience,…
+- [promiseeuler/JevSwitch](https://github.com/promiseeuler/jevswitch) `📚2` — JevSwitch - JevSwitch: TypeSafe Jev ecosystem repository. · TypeScript
+- [realpython/materials](https://github.com/realpython/materials) `📚2` — Hello Jev (Real Python) - Companion code for Real Python's Get Started With Jev in Python video: a train-station help desk that swaps strict Y/N input parsing…
+- [rezastd/living-npc-world](https://github.com/rezastd/living-npc-world) `📚2` — living-npc-world - living-npc-world: TypeSafe Jev ecosystem repository. · TypeScript
+- [Rhyn0w0/Flashbang](https://github.com/rhyn0w0/flashbang) `📚2` — Expo and Convex dating app where private comments on profiles are analysed by Jev through the Vercel AI SDK to refine suggested matches. no license · TypeScript
+- [riclib/llm-wires](https://github.com/riclib/llm-wires) `📚2` — Rust crate with one Provider trait over Anthropic and OpenAI HTTP shapes plus a Judge trait for typed System One questions. MIT · Rust
+- [rivianpratama/JeVJ](https://github.com/rivianpratama/jevj) `📚2` — Local music visualiser that downloads a track, runs DSP analysis, asks Jev how each passage feels and renders a cue timeline as smoke visuals. no license ·…
+- [rohitgarud/llm-schema-lite](https://github.com/rohitgarud/llm-schema-lite) `📚2` — llm-schema-lite - “LLM-ify” your JSON schemas · Python
+- [runapi-ai/typesafe-sdk](https://github.com/runapi-ai/typesafe-sdk) `📚2` — RunAPI TypeSafe SDK for Jev structured decision workflows in JavaScript, Python, Ruby, Go,
+- [saembit/jeff-ink](https://github.com/saembit/jeff-ink) `📚2` — jeff-ink - Type anything, the story stays authored. Jev maps free text to Ink choices. · TypeScript
+- [saembit/n8n-nodes-jeff](https://github.com/saembit/n8n-nodes-jeff) `📚2` — n8n-nodes-jeff - n8n community node that turns Jev by TypeSafe into ready made decisions · TypeScript
+- [samarkundal/expect-semantic](https://github.com/samarkundal/expect-semantic) `📚2` — expect-semantic - expect-semantic: TypeSafe Jev ecosystem repository. · TypeScript
+- [satoshihiraishi/kotlin-jev](https://github.com/satoshihiraishi/kotlin-jev) `📚2` — Reviewed 2026-09-24 (Europe/Sofia) at commit b0ee7ff. AI-assisted README + tree inspection. No live TypeSafe spend.
+- [shhh-hoo/CueLight](https://github.com/shhh-hoo/cuelight) `📚2` — CueLight - CueLight: TypeSafe Jev ecosystem repository. · TypeScript
+- [shiro-0x/hersona](https://github.com/shiro-0x/hersona) `📚2` — Persona template library for agents with CLI and MCP server, plus an optional Jev-backed decide command that recommends reply, ask, search, tool or hold. MIT ·…
+- [simonschubert/linuxcommandlibrary](https://github.com/simonschubert/linuxcommandlibrary) `📚2` — M+ app downloads, 500k+ monthly website visitors, Linux basics, tips and formatted man pages
+- [site](https://npmjs.com/package/wellposed) `📚2`
+- [site](https://pypi.org/project/jev-align) `📚2`
+- [site](https://pypi.org/project/anyjev) `📚2`
+- [site](https://component-charades.vercel.app) `📚2`
+- [site](https://taiafox-ph-five.vercel.app) `📚2`
+- [site](https://pypi.org/project/jev-harness) `📚2`
+- [site](https://jev-reflex-autonomy-lab.vercel.app) `📚2`
+- [site](https://jev-trip.vercel.app) `📚2`
+- [site](https://jeveryword.vercel.app) `📚2`
+- [site](https://jevtrafficsim.vercel.app) `📚2`
+- [site](https://postmark-rho.vercel.app) `📚2`
+- [site](https://typesafe-showcase.vercel.app) `📚2`
+- [site](https://npmjs.com/package/agent-fastpath) `📚2`
+- [site](https://pypi.org/project/macos-computer-use-kit) `📚2`
+- [site](https://athena-jev.vercel.app) `📚2`
+- [site](https://npmjs.com/package/dsh-jev-tools) `📚2`
+- [site](https://npmjs.com/package/jev-axi) `📚2`
+- [site](https://npmjs.com/package/jev-enforce) `📚2`
+- [site](https://npmjs.com/package/jev-firewall) `📚2`
+- [site](https://npmjs.com/package/jev-layer) `📚2`
+- [site](https://npmjs.com/package/jev-spec) `📚2`
+- [site](https://jev-superpowers.vercel.app) `📚2`
+- [site](https://npmjs.com/package/jev-use) `📚2`
+- [site](https://npmjs.com/package/@kushalicious/jevcache) `📚2`
+- [site](https://npmjs.com/package/jevmem) `📚2`
+- [site](https://npmjs.com/package/jevonian) `📚2`
+- [site](https://crates.io/crates/jevr) `📚2`
+- [site](https://skillfeed-xi.vercel.app) `📚2`
+- [site](https://npmjs.com/package/@lukstei/slop-grader) `📚2`
+- [site](https://npmjs.com/package/jev-harness-router) `📚2`
+- [site](https://typesafe-sdk-go.mintlify.site) `📚2`
+- [site](https://go.dw1.io/typesafe-sdk-go) `📚2`
+- [site](https://docs.rs/typesafe-sdk-rust) `📚2`
+- [site](https://npmjs.com/package/@doeixd/discern) `📚2`
+- [site](https://npmjs.com/package/jev-compiler) `📚2`
+- [site](https://pypi.org/project/langchain-loadout) `📚2`
+- [site](https://5-kelime-ismail-jev.vercel.app) `📚2`
+- [site](https://pypi.org/project/pydecide) `📚2`
+- [site](https://npmjs.com/package/dsh-jev-verify) `📚2`
+- [site](https://pypi.org/project/edgejev) `📚2`
+- [site](https://jev-gatehouse.vercel.app) `📚2`
+- [site](https://jev-dataops.vercel.app) `📚2`
+- [site](https://jev-forge.vercel.app) `📚2`
+- [site](https://kev-notjev.vercel.app) `📚2`
+- [solovieff/tg_accessor](https://github.com/solovieff/tg_accessor) `📚2` — tg\_accessor - Telegram Goups auditor with TypeSafe models. · Python
+- [SoundBlaster/SwiftDecision-Examples](https://github.com/soundblaster/swiftdecision-examples) `📚2` — Showcase with Jev-driven mini-apps
+- [spprichard/SwiftJev](https://github.com/spprichard/swiftjev) `📚2` — Type-safe Swift client package (TypeSafe library)
+- [stephenlb/truetype.ai-open](https://github.com/stephenlb/truetype.ai-open) `📚2` — truetype.ai-open - Open source replica of Truetype AI using open weight models · Python
+- [stoopid-computers/effective-jev](https://github.com/stoopid-computers/effective-jev) `📚2` — Effective Jev - Independent EffectTS-based fork of the TypeSafe JavaScript and TypeScript SDK.
+- [Supprocom/TypeSafeAI-SDK](https://github.com/supprocom/typesafeai-sdk) `📚2` — TypeSafeAI-SDK - TypeSafeAI-SDK: TypeSafe Jev ecosystem repository. · C#
+- [systemonemodels.org](https://systemonemodels.org) `📚2` — Independent hub tracking every System One model, open alternative, community SDK, and example. The place to check when this list lags.
+- [systemonemodels/systemonemodels-sdk](https://github.com/systemonemodels/systemonemodels-sdk) `📚2`
+- [taiki510/JevPaste](https://github.com/taiki510/jevpaste) `📚2` — JevClient.swift posts to Keychain account typesafe-api-key; redirects other than that host are rejected.
+- [Takashi-Matsumura/jev-github-demo](https://github.com/takashi-matsumura/jev-github-demo) `📚2` — jev-github-demo - jev-github-demo: TypeSafe Jev ecosystem repository. · TypeScript
+- [tanishqnalloju/typesafe-rust-sdk](https://github.com/tanishqnalloju/typesafe-rust-sdk) `📚2` — Official Rust SDK for TypeSafe AI (System One / Jev typed decisions).
+- [tekkabroley/jev-client](https://github.com/tekkabroley/jev-client) `📚2` — One-shot CLI for the TypeSafe Jev API
+- [thaih6448/eugeniusz](https://github.com/thaih6448/eugeniusz) `📚2` — Run local typed AI models directly inside your C++, C#, Python, Unity, or Unreal apps.
+- [therealbill/typesafe-go](https://github.com/therealbill/typesafe-go) `📚2` — A quick Typesafe.ai Jev client library for experimenting with iy
+- [TheronEagle/jev-sdk](https://github.com/theroneagle/jev-sdk) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [TickerDev/jevfanity-api](https://github.com/tickerdev/jevfanity-api) `📚2` — jevfanity-api - TickerDev/jevfanity-api - API for jevfanity, a profanity detector using Jev by TypeSafe AI.
+- [tornikegomareli/typesafe-sdk-rust](https://github.com/tornikegomareli/typesafe-sdk-rust) `📚2` — Community Rust SDK for the TypeSafe AI API. A port of the official JavaScript SDK.
+- [vbarrai/jurai](https://github.com/vbarrai/jurai) `📚2` — jurai - jurai: TypeSafe Jev ecosystem repository. · TypeScript
+- [Velclaw/jev-and-ai-sdk](https://github.com/velclaw/jev-and-ai-sdk) `📚2` — jevlang OR jev.ai in:name,description created:
+- [Vercel AI Gateway (TypeSafe-compatible)](https://vercel.com/docs/ai-gateway/sdks-and-apis/typesafe) `📚2` — /v1/evaluate and the TypeSafe-compatible API use different schemas; ordinary OpenAI-compatible chat end
+- [Vercel AI SDK evaluation API](https://vercel.com/kb/guide/typesafe-jev-and-ai-sdk) `📚2` — Using TypeSafe Jev with the AI SDK — The richest Vercel walkthrough: single and multi-question calls, probability-threshold routing, and unit tests with a mock…
+- [wasikarn/matt-harness](https://github.com/wasikarn/matt-harness) `📚2` — matt-harness: TypeSafe Jev claim-by-claim research note (2026-09-18) — Research verdict: the company, docs site and people are real (live docs with ~35…
+- [wawan93/gojev](https://github.com/wawan93/gojev) `📚2` — golang implementation of typesafe.ai SDK
+- [weirdstuff-dev/typesafe-ai-rust-sdk](https://github.com/weirdstuff-dev/typesafe-ai-rust-sdk) `📚2` — typesafe-ai-rust-sdk - weirdstuff-dev/typesafe-ai-rust-sdk - so you can jev in rust.
+- [whilehq/whileai-sdk](https://github.com/whilehq/whileai-sdk) `📚2` — Scientific RL and SFT post-training for AI agents: build evals that can fail, simulate situations, judge chec…
+- [XLCYun/nl-jev](https://github.com/xlcyun/nl-jev) `📚2` — inferred / community-sdk — ⭐0
+- [Xubqpanda/JevLoop](https://github.com/xubqpanda/jevloop) `📚2` — JevLoop - The agent loop where decisions don't cost a large language model call. Zero deps, runs offline, no API key needed. · TypeScript
+- [YIZY-API/yizy-web-app](https://github.com/yizy-api/yizy-web-app) `📚2` — . Document and Build Typesafe JSON APIs with Instant Code Generation. Boost Development Productivity with AI. 1 stars, Svelte, GNU General Public License v3.0.
+- [ZENOTME/openasking](https://github.com/zenotme/openasking) `📚2` — Rust SDK for Jev with a builder for bool, choice and score questions, supporting the direct TypeSafe API and Vercel AI Gateway. MIT · Rust
+- [ziyu/system-one-sdk](https://github.com/ziyu/system-one-sdk) `📚2` — Unified interface wrapper for system one models
+- [zojeda/jevons-rs](https://github.com/zojeda/jevons-rs) `📚2` — System One structured-answer API on DiffusionGemma, in pure Rust on AMD GPUs (CubeCL/HIP), with image input
+- [网站](https://jev-atlas.vercel.app) `📚2`
+- [.NET 社区 SDK](https://daily.dev/posts/typesafe-s-jev-ai-model-in-net-a-community-sdk-for-structured-ai-output-in-c--xmcidm5vs) `📚1`
+- [0xlf/pi-jev-multi-provider](https://github.com/0xlf/pi-jev-multi-provider) `📚1`
+- [1,891 ads in 19 seconds](https://madewithjev.com/builds/maxfusion-ad-library) `📚1` — Every live ad in a competitor's library tagged by hook, offer and format
+- [1u991yu24k1/typesafe-jev-sdk,0,Rust,,2026-09-22,TypeSafe](https://github.com/1u991yu24k1/typesafe-jev-sdk,0,rust,,2026-09-22,typesafe) `📚1`
+- [207studio/jev-claude-tools,0,Python,,2026-09-21](https://github.com/207studio/jev-claude-tools,0,python,,2026-09-21) `📚1`
+- [24601/Augustus,11,Python,,2026-09-18](https://github.com/24601/augustus,11,python,,2026-09-18) `📚1`
+- [2951461586/Jev-Register-Tool,28,Python,,2026-09-20,TypeSafe（Jev](https://github.com/2951461586/jev-register-tool,28,python,,2026-09-20,typesafe（jev) `📚1`
+- [54Lynnn/graphify-jev,0,Python,,2026-09-26](https://github.com/54lynnn/graphify-jev,0,python,,2026-09-26) `📚1`
+- [@kongyo2/similarity-ts](https://npmjs.com/package/@kongyo2/similarity-ts) `📚1` — TypeScript CLI and ESM library, npm package (@kongyo2/similarity-ts-jev 0.2.0). Detection uses the maintainer's @kongyo2/similarity-ts (an edition of…
+- [@typesafe-ai/sdk](https://npmjs.com/package/@typesafe-ai/sdk) `📚1` — official Node/TypeScript SDK
+- [a-chris/pi-ask-jeff,0,TypeScript,,2026-09-22](https://github.com/a-chris/pi-ask-jeff,0,typescript,,2026-09-22) `📚1`
+- [AbdelStark/typesafe-rs,2,Rust,,2026-09-16,Latency-first](https://github.com/abdelstark/typesafe-rs,2,rust,,2026-09-16,latency-first) `📚1`
+- [abhishek085/JevControl,0,Python,,2026-09-23](https://github.com/abhishek085/jevcontrol,0,python,,2026-09-23) `📚1`
+- [abhishekswe/agent-fastpath,3,TypeScript,,2026-09-21](https://github.com/abhishekswe/agent-fastpath,3,typescript,,2026-09-21) `📚1`
+- [adam-rocska/invertible-typescript](https://github.com/adam-rocska/invertible-typescript) `📚1` — A library for creating and managing invertible functions and type-safe pipelines in TypeScript.
+- [Adapter/head](https://huggingface.co/jaredpalmer/kev-4b) `📚1`
+- [Adapter/head](https://huggingface.co/wfzyx/von-1.0) `📚1`
+- [Adapter/head](https://huggingface.co/zeredy879/minojev) `📚1`
+- [Adapter/head](https://huggingface.co/guanxuyu/visual-jev-4b-answer-sft) `📚1`
+- [adibhanna/typesafego](https://github.com/adibhanna/typesafego) `📚1` — Stdlib-only Go client for the TypeSafe API with Noul, Choice and Score helpers, typed answer accessors and a runnable triage example. MIT · Go
+- [affirmitv/bitrate-advisor,0,TypeScript](https://github.com/affirmitv/bitrate-advisor,0,typescript) `📚1`
+- [afurm/typesafe-sdk-ruby,1,Ruby,,2026-09-20](https://github.com/afurm/typesafe-sdk-ruby,1,ruby,,2026-09-20) `📚1`
+- [AI SDK `experimental_evaluate](https://sdk.vercel.ai) `📚1` — AI SDK experimental_evaluate - Native Choice / Score / Boolean path that looks like System One answers already live in your application code. Selected as the…
+- [ai-ecoverse/kev.js,1,TypeScript,,2026-09-21](https://github.com/ai-ecoverse/kev.js,1,typescript,,2026-09-21) `📚1`
+- [ai-freer/jev-feishu,0,Python,,2026-09-26,macOS](https://github.com/ai-freer/jev-feishu,0,python,,2026-09-26,macos) `📚1`
+- [AI/ML API](https://docs.aimlapi.com/api-references/decision-models/typesafe/jev) `📚1` — Jev on AI/ML API — Another gateway route, notable because its endpoint path and request envelope differ again from both the native API and Cloudflare's.
+- [AIHOT REST API v1](https://aihot.news/agent) `📚1` — The scheduled collector uses AIHOT REST API v1, specifically /api/v1/items?mode=all&window=7d&by=timeline&q=jev&limit=100. This matches the public Jev search's…
+- [ajayk/jev-go-sdk,1,Go,,2026-09-20,Dependency-free](https://github.com/ajayk/jev-go-sdk,1,go,,2026-09-20,dependency-free) `📚1`
+- [ajshedivy/ibmi-jev](https://github.com/ajshedivy/ibmi-jev) `📚1` — Ask your Db2 for i tables questions. A Db2 for i SQL SDK powered by TypeSafe's Jev. ★ 1 · endpoint · Shell
+- [AkashPriyadarshii/jev-scout,5,Rust,Zero-hallucination](https://github.com/akashpriyadarshii/jev-scout,5,rust,zero-hallucination) `📚1`
+- [akbar1214/typesafe-odata-client](https://github.com/akbar1214/typesafe-odata-client) `📚1` — topic:typesafe created:2026-07-01..2026-07-31
+- [akhilsbehl/pie-jev](https://github.com/akhilsbehl/pie-jev) `📚1` — pie-jev - akhilsbehl/pie-jev - Standalone JEV client library and Pi extension exposing askJev and ask_jev.
+- [alanyoungcy/jev-agent,0,TypeScript,,2026-09-20,Agent](https://github.com/alanyoungcy/jev-agent,0,typescript,,2026-09-20,agent) `📚1`
+- [alexanderKaramushko/typesafe-has-own-key](https://github.com/alexanderkaramushko/typesafe-has-own-key) `📚1` — The Typescript utility to typesafely check object keys
+- [All-Light/reflex-arc](https://github.com/all-light/reflex-arc) `📚1` — Python library where Jev triages incoming events to stored reflexes and a reasoning LLM handles novel ones and writes a new reflex, with shadow-mode promotion.…
+- [Allan Boll's letter-logprob wrapper](https://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html) `📚1` — Single Python function, published inline on a blog, that softmaxes one-step letter logprobs into yes/no, choice, or score answers, including images, via…
+- [allebee/jevk5,109,Python,,2026-09-22,JevK5](https://github.com/allebee/jevk5,109,python,,2026-09-22,jevk5) `📚1`
+- [allenporter/home-assistant-typesafe,1,Python,,2026-09-20](https://github.com/allenporter/home-assistant-typesafe,1,python,,2026-09-20) `📚1`
+- [alsoleg89/decide,1,Python,,2026-09-19,Bulk](https://github.com/alsoleg89/decide,1,python,,2026-09-19,bulk) `📚1`
+- [amanbolat/awesome-rust-with-stars](https://github.com/amanbolat/awesome-rust-with-stars) `📚1` — List of awesome rust projects with stars Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [amir1376/kotlin-validator](https://github.com/amir1376/kotlin-validator) `📚1` — A validator library written in kotlin
+- [anandantony-satlabs/jev-adapter](https://github.com/anandantony-satlabs/jev-adapter) `📚1` — jev-adapter as a pi tool call for agents in local llm settings
+- [andepants/feed-rubric,0,TypeScript,,2026-09-21](https://github.com/andepants/feed-rubric,0,typescript,,2026-09-21) `📚1`
+- [andreaserradev-gbj/jev-access-day,0,TypeScript](https://github.com/andreaserradev-gbj/jev-access-day,0,typescript) `📚1`
+- [andrelandgraf/safer-with-jev,6,TypeScript,Neon](https://github.com/andrelandgraf/safer-with-jev,6,typescript,neon) `📚1`
+- [andrewgilliland/typesafe-ai-api](https://github.com/andrewgilliland/typesafe-ai-api) `📚1` — typesafe-ai in:name,description created:2026-0
+- [andrueandersoncs/better-typescript](https://github.com/andrueandersoncs/better-typescript) `📚1` — Better TypeScript semantic · andrueandersoncs · GitHub · ⭐ 8 · 2026-06-10Go linter for TypeScript projects whose semantic command checks natural-language…
+- [anishfn/shapeshift,676,TypeScript,,2026-09-22](https://github.com/anishfn/shapeshift,676,typescript,,2026-09-22) `📚1`
+- [Anonyfox/chatoyant](https://github.com/anonyfox/chatoyant) `📚1` — Unified TypeScript SDK for LLM providers (OpenAI, Anthropic, xAI) with streaming, structured outputs
+- [apolinario/decision-index,3,Python,,2026-09-22,Decision](https://github.com/apolinario/decision-index,3,python,,2026-09-22,decision) `📚1`
+- [araray/llmcore](https://github.com/araray/llmcore) `📚1` — A unified, async Python framework for LLM applications—chat, autonomous agents, RAG, and sandboxed code execution. Supports OpenAI, Anthropic, Gemini, Ollama,…
+- [ArchAI-Labs/archai-jev](https://github.com/archai-labs/archai-jev) `📚1` — archai-jev — High-performance Rust implementation of System One AI decision…
+- [ARCJ137442/jev-switch,1,Rust,,2026-09-22](https://github.com/arcj137442/jev-switch,1,rust,,2026-09-22) `📚1`
+- [argaumartinez-png/jev-and-ai-sdk](https://github.com/argaumartinez-png/jev-and-ai-sdk) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Aryan-stark/jev-voice,0,Python,,2026-09-26](https://github.com/aryan-stark/jev-voice,0,python,,2026-09-26) `📚1`
+- [ascariandrea/revolut-sdk](https://github.com/ascariandrea/revolut-sdk) `📚1`
+- [aseem-raspberry/pacman](https://github.com/aseem-raspberry/pacman) `📚1` — Pac-Man that plays itself: Jev 1.13 (OpenRouter Decisions API) drives every junction decis
+- [AStheTECH/mewcp-jev,0,Python,JEV](https://github.com/asthetech/mewcp-jev,0,python,jev) `📚1`
+- [atelierarith.github.io/JevClient.jl](https://atelierarith.github.io/jevclient.jl) `📚1` — Docs: atelierarith.github.io/JevClient.jl. Live with_client examples send state/questions to TypeSafe.
+- [AtelierArith/JevClient.jl,2,Julia,,2026-09-22,Unofficial](https://github.com/atelierarith/jevclient.jl,2,julia,,2026-09-22,unofficial) `📚1`
+- [AtticusG3/okx-jev-desk,0,TypeScript,,2026-09-26](https://github.com/atticusg3/okx-jev-desk,0,typescript,,2026-09-26) `📚1`
+- [avalonreset/legends-jev](https://github.com/avalonreset/legends-jev) `📚1` — Typed decision advice adapter for an operator choosing application or browser actions: supply small text evidence + explicit candidate actions, get a candidate…
+- [avshalomd/longjev,1,Python,Long](https://github.com/avshalomd/longjev,1,python,long) `📚1`
+- [awlevin/typesafe-computer-use,1001,Python,MIT,2026-09-26,2026-09-26](https://github.com/awlevin/typesafe-computer-use,1001,python,mit,2026-09-26,2026-09-26) `📚1`
+- [Ax TypeSafe integration](https://axllm.dev/typescript/skills/ax-typesafe) `📚1` — Ax's TypeScript provider supports required Boolean and class signatures and a native Jev client for Noul, Choice, and Score questions with probabilities and…
+- [Ayush0054/metis,2,Python,Metis](https://github.com/ayush0054/metis,2,python,metis) `📚1`
+- [ayushap18/tracegraph,1,TypeScript,,2026-09-25](https://github.com/ayushap18/tracegraph,1,typescript,,2026-09-25) `📚1`
+- [B.AI: "B.AI Adds TypeSafe AI's Jev Model to Its API" (2026-09-23)](https://binance.com/en/square/post/09-23-2026-b-ai-adds-typesafe-ai-s-jev-model-to-its-api-369782022358093) `📚1` — API gateway adds Jev (via Binance Square, citing ChainCatcher): full-access section, callable as Jev-1.13.0 or Jev-Latest; positioned for ticket routing,…
+- [bagguley/kev](https://github.com/bagguley/kev) `📚1` — A Kotlin client for Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [banjtheman/jev-vampire-survivors,0,Python,,2026-09-23](https://github.com/banjtheman/jev-vampire-survivors,0,python,,2026-09-23) `📚1`
+- [basi/typesafe-ai-php-client,0,PHP,,2026-09-24,PHP](https://github.com/basi/typesafe-ai-php-client,0,php,,2026-09-24,php) `📚1`
+- [bebe0307mz/jevs-kitchen-chaos,0,TypeScript](https://github.com/bebe0307mz/jevs-kitchen-chaos,0,typescript) `📚1`
+- [benoit-dev/next-js-ai-typesafe-starter](https://github.com/benoit-dev/next-js-ai-typesafe-starter) `📚1` — Modern Next.js 15 starter with TypeScript, Supabase auth, tRPC APIs, and Drizzle ORM. Full
+- [bestagentkits/jev-skillful,4,TypeScript,,2026-09-17](https://github.com/bestagentkits/jev-skillful,4,typescript,,2026-09-17) `📚1`
+- [Bewinxed/svetch](https://github.com/bewinxed/svetch) `📚1` — Auto-Generated typesafe client & API docs generator for your Serverless Application (Svelte First)
+- [bgivenb/flick-computer-use,22,TypeScript,,2026-09-24](https://github.com/bgivenb/flick-computer-use,22,typescript,,2026-09-24) `📚1`
+- [bhaktofmahakal/onemetric-ai-assessment,0,TypeScript,,2026-09-24,Deterministic](https://github.com/bhaktofmahakal/onemetric-ai-assessment,0,typescript,,2026-09-24,deterministic) `📚1`
+- [Bluff](https://typesafe-showcase.vercel.app/bluff) `📚1` — Ashadeepa · AppCard game of bluffing (also called Cheat) against three AI opponents that each ask Jev how plausible your claim is before deciding which cards…
+- [BoD/KLibJev](https://github.com/bod/klibjev) `📚1` — A Jev API client library for Kotlin
+- [Bodila51/grok-bot-jev,83,Python,,2026-09-19](https://github.com/bodila51/grok-bot-jev,83,python,,2026-09-19) `📚1`
+- [Bodila51/Jev-chooses-a-LLM,2,TypeScript,,2026-09-20](https://github.com/bodila51/jev-chooses-a-llm,2,typescript,,2026-09-20) `📚1`
+- [braintrustdata/braintrust-sdk-javascript](https://github.com/braintrustdata/braintrust-sdk-javascript) `📚1` — Braintrust TypeSafe instrumentation - Braintrust JavaScript SDK instrumentation for @typesafe-ai/sdk: wrapTypeSafe and auto-instrumentation trace every…
+- [brian-w-zhang/askjev,0,Python,,2026-09-24](https://github.com/brian-w-zhang/askjev,0,python,,2026-09-24) `📚1`
+- [buildaistack/jev-agent-harness,1,Java,,2026-09-22,A](https://github.com/buildaistack/jev-agent-harness,1,java,,2026-09-22,a) `📚1`
+- [bystreamzhang/NBC_JEV](https://github.com/bystreamzhang/nbc_jev) `📚1`
+- [bytelabs-oss/clash-jev,33,Python,,2026-09-21,A](https://github.com/bytelabs-oss/clash-jev,33,python,,2026-09-21,a) `📚1`
+- [cameronpcampbell/openblox](https://github.com/cameronpcampbell/openblox) `📚1` — An API wrapper for Roblox, written in Typescript. Fully typesafe, optional caching, use any http cli
+- [carlsonchik/judging-with-typesafe,2,Python,,2026-09-17,Скилл](https://github.com/carlsonchik/judging-with-typesafe,2,python,,2026-09-17,скилл) `📚1`
+- [Case library on the website](https://typesafe-jev.com/en/use-cases) `📚1` — Project page · Official cookbooks · (Detailed catalog (Chinese))(CATALOG.md)
+- [catoenm/first-instinct](https://github.com/catoenm/first-instinct) `📚1` — (notable) - Open training experiments for a 9B decision model with released adapters and raw predictions, reporting SFT gains and RL runs that did not help.…
+- [cbroker1/jev-un-squadron,0,Python,,2026-09-21](https://github.com/cbroker1/jev-un-squadron,0,python,,2026-09-21) `📚1`
+- [cdubiel08/jev-ercot,0,TypeScript,,2026-09-26](https://github.com/cdubiel08/jev-ercot,0,typescript,,2026-09-26) `📚1`
+- [CeciliaW888/jev-town,0,TypeScript,,2026-09-19](https://github.com/ceciliaw888/jev-town,0,typescript,,2026-09-19) `📚1`
+- [chemany/jeva,1,Python,,2026-09-23](https://github.com/chemany/jeva,1,python,,2026-09-23) `📚1`
+- [chenrui333/jev-docs,5,Python,,2026-09-21](https://github.com/chenrui333/jev-docs,5,python,,2026-09-21) `📚1`
+- [chensterman/talos,0,TypeScript](https://github.com/chensterman/talos,0,typescript) `📚1`
+- [Church-of-Lane/csharp-typesafe-sdk](https://github.com/church-of-lane/csharp-typesafe-sdk) `📚1` — C# SDK for Jev and other Typesafe models
+- [Clawbuilders/web-qa-jev-agent,0,TypeScript](https://github.com/clawbuilders/web-qa-jev-agent,0,typescript) `📚1`
+- [ClockworkIdeasOrg/jev-client](https://github.com/clockworkideasorg/jev-client) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [cocktail](https://jev-kitchen.vercel.app/cocktail) `📚1`
+- [codicate/pi-grail,0,TypeScript,,2026-09-26,Minimal](https://github.com/codicate/pi-grail,0,typescript,,2026-09-26,minimal) `📚1`
+- [colinmcdermott/emoji-jev,4,TypeScript,Emoji](https://github.com/colinmcdermott/emoji-jev,4,typescript,emoji) `📚1`
+- [Community SDKs](https://systemonemodels.org/examples/tools) `📚1` — Unofficial clients for Go, Rust, Ruby, PHP, .NET, Elixir, and Swift, tracked by language. All launched in Jev's first week — check the last commit before…
+- [Composio TypeSafe provider](https://docs.composio.dev/docs/providers/typesafe) `📚1` — Official @composio/typesafe / composio-typesafe adapters let Jev select tools and closed-set arguments, returning call, partial, or abstain; decide does not…
+- [ctaxnagomi/instruct-jev,1,Python](https://github.com/ctaxnagomi/instruct-jev,1,python) `📚1`
+- [ctmx/openrouter-jev-mcp,0,Python,High-speed](https://github.com/ctmx/openrouter-jev-mcp,0,python,high-speed) `📚1`
+- [cyanheads/jev-harness,0,TypeScript,,2026-09-18](https://github.com/cyanheads/jev-harness,0,typescript,,2026-09-18) `📚1`
+- [d-date/swift-jev\](https://github.com/d-date/swift-jev\) `📚1`
+- [dag-node/typesafe-client-js](https://github.com/dag-node/typesafe-client-js) `📚1` — Unofficial, dependency-free TypeScript client for the TypeSafe System One API, emitted as a single r
+- [damienen/slop-alarm,0,TypeScript,,2026-09-23](https://github.com/damienen/slop-alarm,0,typescript,,2026-09-23) `📚1`
+- [daniel-farina/nitro,5,Rust,,2026-09-20,Grok](https://github.com/daniel-farina/nitro,5,rust,,2026-09-20,grok) `📚1`
+- [DanieleMenchetti/jev-langchain](https://github.com/danielemenchetti/jev-langchain) `📚1`
+- [DanielSuhett/typesafe-api-boilerplate](https://github.com/danielsuhett/typesafe-api-boilerplate) `📚1` — Opinionated Elysia + Bun + Drizzle boilerplate for building type‑safe, observable REST APIs on Postg
+- [danninx/go-jev](https://github.com/danninx/go-jev) `📚1` — jev golang implementation for future projects
+- [dannyowelch/jev-noul-vs-choice,0,TypeScript,,2026-09-24,Interactive](https://github.com/dannyowelch/jev-noul-vs-choice,0,typescript,,2026-09-24,interactive) `📚1`
+- [danstarns/talk-to-graphql](https://github.com/danstarns/talk-to-graphql) `📚1` — Example using gqlpt to speak plain text to any GraphQL api with generated types
+- [danvega/jev-spring-boot-starter,37,Java,,2026-09-20,A](https://github.com/danvega/jev-spring-boot-starter,37,java,,2026-09-20,a) `📚1`
+- [datadog-labs/reflex](https://github.com/datadog-labs/reflex) `📚1` — Reflex - Rust library for control loops over observability data: metrics and forecasts become typed state, a model recommends an action, and it is committed…
+- [davecalnan/typesafe-api](https://github.com/davecalnan/typesafe-api) `📚1` — Typesafe API definition and client.
+- [Davidasx/pi-typesafe-approve,2,TypeScript,,2026-09-25](https://github.com/davidasx/pi-typesafe-approve,2,typescript,,2026-09-25) `📚1`
+- [DeccansoftAITeam/jev-model,0,TypeScript,,2026-09-26](https://github.com/deccansoftaiteam/jev-model,0,typescript,,2026-09-26) `📚1`
+- [deepakraj5/jev-client](https://github.com/deepakraj5/jev-client) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dfa1/typesafe-java,0,Java,,2026-09-19,Java](https://github.com/dfa1/typesafe-java,0,java,,2026-09-19,java) `📚1`
+- [diegozhou114-cloud/jev-agent-quality,0,TypeScript,,2026-09-22](https://github.com/diegozhou114-cloud/jev-agent-quality,0,typescript,,2026-09-22) `📚1`
+- [discoprint](https://npmjs.com/package/discoprint) `📚1` — npm package discoprint.
+- [DKVekariya/NavigationPilot](https://github.com/dkvekariya/navigationpilot) `📚1` — Type safe SwiftUI Navigation library, A wrapper around the SwiftUI's NavigationStack
+- [dpshde/bible-jev-climb,0,Python,,2026-09-22,Cross-reference](https://github.com/dpshde/bible-jev-climb,0,python,,2026-09-22,cross-reference) `📚1`
+- [dvjn/aegis](https://github.com/dvjn/aegis) `📚1` — aegis: TypeSafe as a first-class provider — A personal Rust AI gateway with a TypeSafe provider, usage extraction and alias resolution tested against real…
+- [EasyMetaAu/helm-api](https://github.com/easymetaau/helm-api) `📚1` — Helm API Jev classifier · EasyMetaAu · GitHub · ⭐ 30 repo · 2026-05-29Request classifier in the Helm API self-hosted LLM routing gateway that sends Jev the…
+- [ebamberg/typescript_decision_model_jev_example](https://github.com/ebamberg/typescript_decision_model_jev_example) `📚1`
+- [ElixirForum](https://elixirforum.com/t/typesafe-sdk-jev-the-first-system-one-model-from-typesafe/76700) `📚1`
+- [elliothux/tweet-911,3,TypeScript,,2026-09-20](https://github.com/elliothux/tweet-911,3,typescript,,2026-09-20) `📚1`
+- [emrickgarrett/OneVOneJev,39,TypeScript,,2026-09-17](https://github.com/emrickgarrett/onevonejev,39,typescript,,2026-09-17) `📚1`
+- [Enapiuz/jev-client-swift](https://github.com/enapiuz/jev-client-swift) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [enigma-jev.vercel.app](https://enigma-jev.vercel.app) `📚1` — Try enigma-jev · (Full enigma-jev guide)(enigma-jev.md) · Source
+- [erfanium/atlas_sdk](https://github.com/erfanium/atlas_sdk) `📚1` — TypeSafe MongoDB Atlas Data API SDK for Deno, Deno Deploy and Node.js
+- [EricCheng2222/vox-ambient-assistant,0,TypeScript,,2026-09-21,Privacy-first](https://github.com/ericcheng2222/vox-ambient-assistant,0,typescript,,2026-09-21,privacy-first) `📚1`
+- [erik-dunteman/ChatJev,7,Python,,2026-09-20,Turning](https://github.com/erik-dunteman/chatjev,7,python,,2026-09-20,turning) `📚1`
+- [events.langchain.com/…](https://events.langchain.com/webinar/building-a-harness-with-jev) `📚1`
+- [EveryInfra](https://everyinfra.com) `📚1` — Jev Radar is initiated and maintained by EveryInfra — public-data, web-search and CAPTCHA infrastructure for AI products, one API across 88 platforms. An…
+- [example.py](https://huggingface.co/akhilaaa3/jev-omni/blob/c127654e586e05b2e9b75b3aaef075ddcf57a286/example.py) `📚1` — short text predict snippet; same API for other modalities.
+- [fallow](https://npmjs.com/package/fallow) `📚1`
+- [Fayegram-AI/jev-adapter](https://github.com/fayegram-ai/jev-adapter) `📚1` — JavaScript SDK for structured decisions with native Jev and configurable model backends
+- [fcannizzaro/questdb-typesafe-client](https://github.com/fcannizzaro/questdb-typesafe-client) `📚1` — Type-safe QuestDB client for TypeScript - schema definitions, query builders, and DDL with
+- [FiringJ/splendor-client](https://github.com/firingj/splendor-client) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [flitsinc/go-llms](https://github.com/flitsinc/go-llms) `📚1` — Go LLM library for Anthropic, Google and OpenAI that also supports Jev typed judgments driven by a JSON output schema. MIT · Go
+- [fluffypony/jevrand](https://github.com/fluffypony/jevrand) `📚1` — Random numbers subject to Jev approval. Python CLI and library.
+- [fotocopiatrice.vercel.app](https://fotocopiatrice.vercel.app) `📚1` — Or open fotocopiatrice.vercel.app (HTTP 200 on review host).
+- [frodi-karlsson/jev-client](https://github.com/frodi-karlsson/jev-client) `📚1`
+- [FukaseDaichi/insider](https://github.com/fukasedaichi/insider) `📚1` — insider - insider: TypeSafe Jev ecosystem repository. · Python
+- [fullofcaffeine/reflaxe.elixir](https://github.com/fullofcaffeine/reflaxe.elixir) `📚1` — Elixir target for Haxe. Compile Haxe to (mostly idiomatic) Elixir.
+- [furkancosgun/abap-jev-client](https://github.com/furkancosgun/abap-jev-client) `📚1` — An ABAP client for the TypeSafe's Jev decision model API.
+- [galitianu/jev4j,1,Java,,2026-09-20](https://github.com/galitianu/jev4j,1,java,,2026-09-20) `📚1`
+- [Gateway retention requirements](https://vercel.com/docs/ai-gateway/security-and-compliance/zdr) `📚1` — The evaluator requests zero data retention and no prompt training. Vercel currently documents ZDR eligibility for Pro/Enterprise and rejects requests without…
+- [gbesse/airbyte-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/airbyte-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/argo-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/argo-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/dagster-jev,0,Python,,2026-09-26,Dagster](https://github.com/gbesse/dagster-jev,0,python,,2026-09-26,dagster) `📚1`
+- [gbesse/flink-jev,0,Java,,2026-09-26,Flink](https://github.com/gbesse/flink-jev,0,java,,2026-09-26,flink) `📚1`
+- [gbesse/formbricks-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/formbricks-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/kestra-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/kestra-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/nifi-jev,0,Java,,2026-09-26,Apache](https://github.com/gbesse/nifi-jev,0,java,,2026-09-26,apache) `📚1`
+- [gbesse/pulsar-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/pulsar-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/seatunnel-jev,0,Python,,2026-09-26,Community](https://github.com/gbesse/seatunnel-jev,0,python,,2026-09-26,community) `📚1`
+- [gbesse/spark-jev,0,Python,,2026-09-26,PySpark](https://github.com/gbesse/spark-jev,0,python,,2026-09-26,pyspark) `📚1`
+- [Geist 颜色规范](https://vercel.com/geist/colors) `📚1`
+- [get-convex/convex-backend](https://github.com/get-convex/convex-backend) `📚1` — Convex AI Gateway Jev support - Convex's AI Gateway serves Jev as typesafe/jev-1.13 through a decisions endpoint, callable from Convex actions via AI SDK's…
+- [getclients4u-lab/jevline](https://github.com/getclients4u-lab/jevline) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ghzcool/xev](https://github.com/ghzcool/xev) `📚1` — Jev like wrapper for any llm
+- [GitSujal/duck-jev,0,Python,,2026-09-25,Jev](https://github.com/gitsujal/duck-jev,0,python,,2026-09-25,jev) `📚1`
+- [gkvoelkl/rust-bevy-jev-ants,0,Rust,,2026-09-23](https://github.com/gkvoelkl/rust-bevy-jev-ants,0,rust,,2026-09-23) `📚1`
+- [glacer06/bandwise](https://github.com/glacer06/bandwise) `📚1` — System One Model wrapper and management for realtime adjustment flexible usage.
+- [glacer06/SysOne-Wrapper](https://github.com/glacer06/sysone-wrapper) `📚1` — System One Model wrapper and management for realtime adjustment flexible usage.
+- [goddard-ai/goddard](https://github.com/goddard-ai/goddard) `📚1` — Goddard Jev evaluation features · goddard-ai · GitHub · ⭐ 6 repo · 2026-09-13Evaluation-model client in Goddard, a Rust GUI for orchestrating Codex, Claude,…
+- [Gorpokki/modhopper](https://github.com/gorpokki/modhopper) `📚1` — Sorts Minecraft mods from Modrinth and CurseForge into categories with Jev. Python and Rust implementations.
+- [gregb100/gavel,1,Python,,2026-09-18](https://github.com/gregb100/gavel,1,python,,2026-09-18) `📚1`
+- [griptape-ai/griptape-nodes-library-jev](https://github.com/griptape-ai/griptape-nodes-library-jev) `📚1` — A Griptape Nodes library that uses JEV for creating calibrated decisions
+- [gshost1/vercel-compaction](https://github.com/gshost1/vercel-compaction) `📚1` — Claude Code plugin that scores old tool calls with Jev through the Vercel AI Gateway and drops or truncates stale ones instead of summarising. MIT · TypeScript
+- [gtaras7/typesafe-jev,8,TypeScript](https://github.com/gtaras7/typesafe-jev,8,typescript) `📚1`
+- [guxinlengyue/jev-and-ai-sdk](https://github.com/guxinlengyue/jev-and-ai-sdk) `📚1` — jevlang OR jev.ai in:name,description created:
+- [hamakyo/jev-starter,2,TypeScript](https://github.com/hamakyo/jev-starter,2,typescript) `📚1`
+- [hanshs474/jevx-client](https://github.com/hanshs474/jevx-client) `📚1`
+- [hanshs474/jevx-client,0,TypeScript,,2026-09-21,Typed](https://github.com/hanshs474/jevx-client,0,typescript,,2026-09-21,typed) `📚1`
+- [harshil1712/slidepilot,5,TypeScript](https://github.com/harshil1712/slidepilot,5,typescript) `📚1`
+- [harshit-d3v/jev_project,0,TypeScript,,2026-09-19](https://github.com/harshit-d3v/jev_project,0,typescript,,2026-09-19) `📚1`
+- [hazlema/jev-patterns,0,TypeScript,,2026-09-24](https://github.com/hazlema/jev-patterns,0,typescript,,2026-09-24) `📚1`
+- [hazlema/jev-riffs,3,TypeScript,,2026-09-25](https://github.com/hazlema/jev-riffs,3,typescript,,2026-09-25) `📚1`
+- [hcl-z/pi-jev-gate,1,TypeScript,,2026-09-22](https://github.com/hcl-z/pi-jev-gate,1,typescript,,2026-09-22) `📚1`
+- [HCTDIP/jevkit,0,Python,,2026-09-21](https://github.com/hctdip/jevkit,0,python,,2026-09-21) `📚1`
+- [Heman10x-NGU/Verdict-open-jev,104,Python](https://github.com/heman10x-ngu/verdict-open-jev,104,python) `📚1`
+- [herakles-dev/typesafe-claude-kit,2,Python,,2026-09-22](https://github.com/herakles-dev/typesafe-claude-kit,2,python,,2026-09-22) `📚1`
+- [HikaruEgashira/pi-prompt-enhancer,0,TypeScript,,2026-09-21,pi](https://github.com/hikaruegashira/pi-prompt-enhancer,0,typescript,,2026-09-21,pi) `📚1`
+- [HIKKYG59/vrc-jev-agent,0,Python,,2026-09-22](https://github.com/hikkyg59/vrc-jev-agent,0,python,,2026-09-22) `📚1`
+- [hr98w/jev-visual,287,Python,MIT,2026-09-21,2026-09-26](https://github.com/hr98w/jev-visual,287,python,mit,2026-09-21,2026-09-26) `📚1`
+- [human-in-the-loop middleware](https://docs.langchain.com/oss/python/langchain/human-in-the-loop) `📚1`
+- [hwalde/OpenRouter4J](https://github.com/hwalde/openrouter4j) `📚1` — Java client library for the OpenRouter API - Access 100+ AI models through a unified interface Automatically matched explicit Jev and TypeSafe/System One…
+- [iamngoni/veyra](https://github.com/iamngoni/veyra) `📚1` — unverified / community-sdk — ⭐3
+- [iamtalha-arshad/ex_typesafe_ai,0,Elixir,,2026-09-24](https://github.com/iamtalha-arshad/ex_typesafe_ai,0,elixir,,2026-09-24) `📚1`
+- [ianlintner/rust-oauth2-server](https://github.com/ianlintner/rust-oauth2-server) `📚1` — Rust OAuth2 Server with Social Logins with observability. Typesafe and Actor System.
+- [identities-ai/ratify-protocol](https://github.com/identities-ai/ratify-protocol) `📚1` — Ratify Jev tool-selection adapter · identities-ai · GitHub · ⭐ 9 repo · 2026-04-19Reference LangChain gate for the Ratify delegated-authority protocol where…
+- [imankur85/typesafe-ai-java-sdk](https://github.com/imankur85/typesafe-ai-java-sdk) `📚1` — typesafe-ai in:name,description created:2026-0
+- [innocentdiaz/typesafe_ruby](https://github.com/innocentdiaz/typesafe_ruby) `📚1` — Typesafe S1 model Jev implementation as a native/primitive Ruby feature. Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [intelliDean/reflexgate,0,TypeScript,,2026-09-23](https://github.com/intellidean/reflexgate,0,typescript,,2026-09-23) `📚1`
+- [intikhab49/open-jev-typed-decision-engine,44,Python,,2026-09-19](https://github.com/intikhab49/open-jev-typed-decision-engine,44,python,,2026-09-19) `📚1`
+- [Irys-xyz/arweave-js-sdk](https://github.com/irys-xyz/arweave-js-sdk) `📚1`
+- [itani404/jev-explained,0,TypeScript,,2026-09-24](https://github.com/itani404/jev-explained,0,typescript,,2026-09-24) `📚1`
+- [ItisShikhar/gg-friggin-ez,7,TypeScript](https://github.com/itisshikhar/gg-friggin-ez,7,typescript) `📚1`
+- [ItzJLaugh/JagDay_Activity](https://github.com/itzjlaugh/jagday_activity) `📚1` — Create a simple AI Project using Python and TypeSafe's New Jev model. The project will create a connection to a user's mail ...
+- [jacobgoldfarb/Jevlish](https://github.com/jacobgoldfarb/jevlish) `📚1` — A better Javascript SDK for Jev
+- [jamilxt/typesafe-ai-java,4,Java,,2026-09-20,Community-maintained](https://github.com/jamilxt/typesafe-ai-java,4,java,,2026-09-20,community-maintained) `📚1`
+- [jaredpalmer/kev,7185,Python,Apache-2.0,2026-09-26,2026-09-26](https://github.com/jaredpalmer/kev,7185,python,apache-2.0,2026-09-26,2026-09-26) `📚1`
+- [javiergradiche/ruby_llm-providers-typesafe,2,Ruby,,2026-09-18](https://github.com/javiergradiche/ruby_llm-providers-typesafe,2,ruby,,2026-09-18) `📚1`
+- [jayeshvpatil/jev-agent-risk-gate,0,Python,,2026-09-23](https://github.com/jayeshvpatil/jev-agent-risk-gate,0,python,,2026-09-23) `📚1`
+- [jaysonsantos/sudoku-jev,0,TypeScript,Sudoku](https://github.com/jaysonsantos/sudoku-jev,0,typescript,sudoku) `📚1`
+- [jbt95/jev-toolkit,2,TypeScript,,2026-09-21](https://github.com/jbt95/jev-toolkit,2,typescript,,2026-09-21) `📚1`
+- [JedimEmO/typesafe-client,2,Rust,,2026-09-16,Unofficial](https://github.com/jedimemo/typesafe-client,2,rust,,2026-09-16,unofficial) `📚1`
+- [jeiel85/jevscope,0,TypeScript,Local-first](https://github.com/jeiel85/jevscope,0,typescript,local-first) `📚1`
+- [jerelvelarde/jev-copilotkit,1,TypeScript,,2026-09-21,CopilotKit](https://github.com/jerelvelarde/jev-copilotkit,1,typescript,,2026-09-21,copilotkit) `📚1`
+- [Jev AI Tools](https://jevai.tools) `📚1` — !type: hosted - Developer education: hosts six bounded recipes plus a custom builder for AI SDK Choice, Score, and Boolean evaluations; recipes display answer…
+- [Jev Cuts AI Decision Costs 100x And Vercel, Cloudflare Rushed To Add It](https://forbes.com/sites/josipamajic/2026/09/19/jev-cuts-ai-decision-costs-100x-and-vercel-cloudflare-rushed-to-add-it) `📚1` — Mainstream coverage of the launch and the speed with which gateways added support.
+- [Jev TypeScript quickstart: build a typed ticket router](https://refix.ai/news/jev-quickstart-typescript) `📚1` — End-to-end TypeScript tutorial.
+- [jev-kitchen.vercel.app/recipe](https://jev-kitchen.vercel.app/recipe) `📚1` — Try Jev Kitchen · (Full Jev Kitchen guide)(jev-kitchen.md) · Source
+- [jev-swap.vercel.app](https://jev-swap.vercel.app) `📚1` — Website jev-swap.vercel.app and Explorer.
+- [jev-web](https://npmjs.com/package/jev-web) `📚1` — score 12 · 0 stars
+- [jevai.org/playground](https://jevai.org/playground) `📚1`
+- [jevbrief's OpenTelemetry adapter](https://pypi.org/project/jevbrief/0.1.0) `📚1`
+- [jevcast.vercel.app](https://jevcast.vercel.app) `📚1` — Product homepage
+- [jevpipe](https://pypi.org/project/jevpipe) `📚1`
+- [jevspan](https://pypi.org/project/jevspan) `📚1`
+- [Jeyzma](https://jeyzma.com) `📚1`
+- [jleifeld/maclaya](https://github.com/jleifeld/maclaya) `📚1` — maclaya - Run Laya typed-decision models locally with one command on Apple Silicon behind a Jev-compatible API, with a dashboard and playground · TypeScript
+- [jomatsu/pi-jev-auto-mode,27,TypeScript,,2026-09-17](https://github.com/jomatsu/pi-jev-auto-mode,27,typescript,,2026-09-17) `📚1`
+- [jonloucks/contracts](https://github.com/jonloucks/contracts) `📚1` — Java Dependency Contracts for dependency inversion
+- [jonloucks/contracts-ts](https://github.com/jonloucks/contracts-ts) `📚1` — Typescript Dependency Contracts for dependency inversion
+- [JoshuaSP/open-jev,41,Python,,2026-09-16](https://github.com/joshuasp/open-jev,41,python,,2026-09-16) `📚1`
+- [jpanasuk-netizen/15-min-BTC-JAP,1,Python](https://github.com/jpanasuk-netizen/15-min-btc-jap,1,python) `📚1`
+- [jsonclem/jev-visualizer](https://github.com/jsonclem/jev-visualizer) `📚1` — jev-visualizer — A gamified visualizer for executing tasks with Jev and Agentic systems _(★0, TypeScript)_
+- [jstdlee/jev-spaceshooter-demo-julia1](https://github.com/jstdlee/jev-spaceshooter-demo-julia1) `📚1` — Retro pixel space shooter steered by SupersonicLabs Julia 1 (144M decision model) through a local /v1/systemone API — Julia-tuned fork of jev-spaceshooter-demo
+- [jumboly/jev-client,0,TypeScript,,2026-09-25,TypeSafe](https://github.com/jumboly/jev-client,0,typescript,,2026-09-25,typesafe) `📚1`
+- [jvanev/jxconfig](https://github.com/jvanev/jxconfig) `📚1` — Declarative configuration library for Java, providing if-else-free conditional value resol
+- [JVM Weekly vol. 193: "Thinking, fast… and typed: Java & Jev" (2026-09-24)](https://jvm-weekly.com/p/thinking-fast-and-typed-java-and) `📚1` — Documents the JVM wave: a GitHub search turned up 23 Java repos mentioning Jev by Sept 22 (22 created within the launch week), including the danvega starter…
+- [kazz187/jev-sdk-go,0,Go,,2026-09-17](https://github.com/kazz187/jev-sdk-go,0,go,,2026-09-17) `📚1`
+- [kenmori/jev-dojo,0,TypeScript,,2026-09-24](https://github.com/kenmori/jev-dojo,0,typescript,,2026-09-24) `📚1`
+- [kevin9327/jev-harness,1,Python,JevHarness](https://github.com/kevin9327/jev-harness,1,python,jevharness) `📚1`
+- [kevin9327/jev-master,0,Python,,2026-09-18,Typed](https://github.com/kevin9327/jev-master,0,python,,2026-09-18,typed) `📚1`
+- [kierandotai/jev-client,2,TypeScript,,2026-09-19](https://github.com/kierandotai/jev-client,2,typescript,,2026-09-19) `📚1`
+- [kihiyuki/python-rsdict](https://github.com/kihiyuki/python-rsdict) `📚1` — Type or key restricted and resettable Python dictionary
+- [kimjooyoon/jev-gooo](https://github.com/kimjooyoon/jev-gooo) `📚1` — Provider-neutral JEV execution envelopes and Gooo provenance experiments
+- [kinde-starter-kits/jev-agent-authorization,5,TypeScript,,2026-09-23](https://github.com/kinde-starter-kits/jev-agent-authorization,5,typescript,,2026-09-23) `📚1`
+- [kitze/pagegrade,7,TypeScript](https://github.com/kitze/pagegrade,7,typescript) `📚1`
+- [kitze/skillbox,248,TypeScript,MIT,2026-09-19,2026-09-26](https://github.com/kitze/skillbox,248,typescript,mit,2026-09-19,2026-09-26) `📚1`
+- [kitze/unclutter,304,TypeScript,MIT,2026-09-18,2026-09-26](https://github.com/kitze/unclutter,304,typescript,mit,2026-09-18,2026-09-26) `📚1`
+- [KKloudTarus/taurus-jev-sdk-go,3,Go,,2026-09-24](https://github.com/kkloudtarus/taurus-jev-sdk-go,3,go,,2026-09-24) `📚1`
+- [klauswg/jev-suite,33,Java,,2026-09-22](https://github.com/klauswg/jev-suite,33,java,,2026-09-22) `📚1`
+- [krywen/langchain-jev-tool-call](https://github.com/krywen/langchain-jev-tool-call) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [kubk/typescript-enum](https://github.com/kubk/typescript-enum) `📚1` — TypeScript enum missed helpers for runtime and compile time safety
+- [kunobi-ninja/kunobi-jev,1,Rust,,2026-09-17,Rust](https://github.com/kunobi-ninja/kunobi-jev,1,rust,,2026-09-17,rust) `📚1`
+- [kxuejava/travel-agent](https://github.com/kxuejava/travel-agent) `📚1`
+- [kylehovance-ai/jev-the-janitor,1,Python,,2026-09-23](https://github.com/kylehovance-ai/jev-the-janitor,1,python,,2026-09-23) `📚1`
+- [kylemclaren/jevpdf,4,TypeScript,Ask](https://github.com/kylemclaren/jevpdf,4,typescript,ask) `📚1`
+- [l-library/hypr-jev](https://github.com/l-library/hypr-jev) `📚1`
+- [lachlansneff/uy](https://github.com/lachlansneff/uy) `📚1` — A typesafe, flexible, simple, and user-friendly unit system library for Rust that has good error mes
+- [lancejohnson/pi-jev-thinking,0,TypeScript,,2026-09-26,pi](https://github.com/lancejohnson/pi-jev-thinking,0,typescript,,2026-09-26,pi) `📚1`
+- [langchain-typesafe](https://python.langchain.com) `📚1` — LangChain — langchain-typesafe package: model-routing middleware + AutoModeMiddleware that flags risky tool calls with Jev
+- [Lasimeri/Intel-Phi-Jev,0,Rust,,2026-09-24](https://github.com/lasimeri/intel-phi-jev,0,rust,,2026-09-24) `📚1`
+- [Lasimeri/Mechanical-Jev,1,Rust,,2026-09-24](https://github.com/lasimeri/mechanical-jev,1,rust,,2026-09-24) `📚1`
+- [levi-qiao/SemaLoom,1,Python,,2026-09-11](https://github.com/levi-qiao/semaloom,1,python,,2026-09-11) `📚1`
+- [LHLLHL-hailong/jev_enhance_harness,0,TypeScript,,2026-09-25,Pi](https://github.com/lhllhl-hailong/jev_enhance_harness,0,typescript,,2026-09-25,pi) `📚1`
+- [lithoscomputer/lithos-llm](https://github.com/lithoscomputer/lithos-llm) `📚1` — Provider-neutral language model catalog and client for Rust. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [live](https://turing-jail.vercel.app) `📚1`
+- [live](https://jevf1.vercel.app) `📚1`
+- [live](https://pleasenoo.vercel.app) `📚1`
+- [live](https://beat-jev-typescript-web.onrender.com) `📚1`
+- [live](https://jevbug.vercel.app) `📚1`
+- [live](https://jev-arena-ochre.vercel.app) `📚1`
+- [live](https://dunjev.vercel.app) `📚1`
+- [live](https://latency-probe-eight.vercel.app) `📚1`
+- [live](https://jev-world.vercel.app) `📚1`
+- [live](https://upweight.vercel.app) `📚1`
+- [live](https://typesafe-ai-playground.vercel.app) `📚1`
+- [live](https://pg-redact.vercel.app) `📚1`
+- [live](https://jevpixel.vercel.app) `📚1`
+- [live](https://jev-calculator.vercel.app) `📚1`
+- [live](https://harden-jev-decides.vercel.app) `📚1`
+- [live](https://jev-eosin.vercel.app) `📚1`
+- [live](https://ewo-order.vercel.app) `📚1`
+- [live](https://try-typesafe-appsapp.vercel.app) `📚1`
+- [live](https://jev-in-action-psi.vercel.app) `📚1`
+- [live](https://rage-bot-two.vercel.app) `📚1`
+- [live](https://signals-plum.vercel.app) `📚1`
+- [lm15-dev/lm15-ts](https://github.com/lm15-dev/lm15-ts) `📚1` — lm15 TypeScript implementation — canonical LLM types, exact serde, provider adapters. Passes the full 304-check lm15-contract conformance corpus. Automatically…
+- [lmnr-ai/lmnr-python](https://github.com/lmnr-ai/lmnr-python) `📚1` — Laminar TypeSafe instrumentation - OpenTelemetry instrumentation in the Laminar Python SDK that traces TypeSafe SDK system_one calls to Jev as spans alongside…
+- [lmnr-ai/lmnr-ts](https://github.com/lmnr-ai/lmnr-ts) `📚1` — Laminar TypeSafe instrumentation - OpenTelemetry instrumentation in Laminar's TypeScript SDK that patches the TypeSafe SDK's systemOne calls to record Jev…
+- [lookfwd/jev-fact-checker,0,TypeScript,Uses](https://github.com/lookfwd/jev-fact-checker,0,typescript,uses) `📚1`
+- [lorenzopant/tmdb](https://github.com/lorenzopant/tmdb) `📚1` — TMDB API wrapper for Typescript projects.
+- [LuggaPugga/tinybird-ts](https://github.com/luggapugga/tinybird-ts) `📚1` — A CLI tool that generates a fully typed TypeScript client from your Tinybird pipes
+- [luigivis/jev-sdk-java,5,Java,,2026-09-21,Type-safe](https://github.com/luigivis/jev-sdk-java,5,java,,2026-09-21,type-safe) `📚1`
+- [luw2007/omp-jev-extensions,1,TypeScript,,2026-09-19,OMP](https://github.com/luw2007/omp-jev-extensions,1,typescript,,2026-09-19,omp) `📚1`
+- [madhur-seeker/jev-adapter-oauth](https://github.com/madhur-seeker/jev-adapter-oauth) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [mahdi-shojaee/parlo](https://github.com/mahdi-shojaee/parlo) `📚1` — High-performance Lodash inspired library for Go, utilizing CPU cores and Generics (Go 1.18
+- [malaya-zemlya/likely,1,Python,,2026-09-24](https://github.com/malaya-zemlya/likely,1,python,,2026-09-24) `📚1`
+- [Mapika/decider,504,Python,Apache-2.0,2026-09-25,2026-09-26](https://github.com/mapika/decider,504,python,apache-2.0,2026-09-25,2026-09-26) `📚1`
+- [marlowe-lang/marlowe-ts-sdk](https://github.com/marlowe-lang/marlowe-ts-sdk) `📚1`
+- [masonweb3/liuyao,0,TypeScript,,2026-09-25,中国风六爻起卦网站](https://github.com/masonweb3/liuyao,0,typescript,,2026-09-25,中国风六爻起卦网站) `📚1`
+- [mastepanoski/ce-ai](https://github.com/mastepanoski/ce-ai) `📚1` — ce-ai Jev decisions · mastepanoski · GitHub · ⭐ 5 repo · 2026-08-20Jev decision provider in ce-ai, a Rust CLI that orchestrates the Compound Engineering plugin…
+- [mathixu/jev-dotnet-sdk,0,C](https://github.com/mathixu/jev-dotnet-sdk,0,c) `📚1`
+- [matthew004-web/heyreach-jev-bot,2,Python,,2026-09-23](https://github.com/matthew004-web/heyreach-jev-bot,2,python,,2026-09-23) `📚1`
+- [maubaron/typesafe-smash](https://github.com/maubaron/typesafe-smash) `📚1` — Repository & Showcase: Maurice Baron Super Smash Bros. Melee Agent (github.com/maubaron/typesafe-smash) (Python, ⭐ 84).
+- [MauricioPerera/n8n-nodes-jev-safe](https://github.com/mauricioperera/n8n-nodes-jev-safe) `📚1` — TypeSafe Jev community node for n8n
+- [maxanstey-meridian/rivet-ts](https://github.com/maxanstey-meridian/rivet-ts) `📚1` — Contract-first APIs in TypeScript: write a contract as plain types, generate OpenAPI 3.1 +
+- [mcembalest/sys1](https://github.com/mcembalest/sys1) `📚1` — System One compatible API for open decision models in Rust (based on alvarobartt/sys1)
+- [mega123-art/typesafe-sdk-rs](https://github.com/mega123-art/typesafe-sdk-rs) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [michael54/jev-agent-lab,0,Python,Jev](https://github.com/michael54/jev-agent-lab,0,python,jev) `📚1`
+- [MiladBahariQaragoz/HighwayEnv-But-Jev-is-Driving,2,Python,,2026-09-20](https://github.com/miladbahariqaragoz/highwayenv-but-jev-is-driving,2,python,,2026-09-20) `📚1`
+- [Milo](https://npmjs.com/package/usemilo) `📚1` — banana.man · Package · ⬇ 466 · 2026-09-20Routing gateway for coding harnesses such as pi, Codex and Claude Code: send model milo/auto and each request is…
+- [mintannn/THE-HUNDRED-EYES,0,TypeScript,,2026-09-21](https://github.com/mintannn/the-hundred-eyes,0,typescript,,2026-09-21) `📚1`
+- [mkosir/trpc-api-boilerplate](https://github.com/mkosir/trpc-api-boilerplate) `📚1` — ⚒️ Minimal tRPC API boilerplate for projects with separate BE-FE repositories. Easily publish fully
+- [mnbjhu/KotlinRedisGraph](https://github.com/mnbjhu/kotlinredisgraph) `📚1` — A small Cypher DSL for interacting with Redis databases in Kotlin
+- [mobarmg/jev-schema-scorer](https://huggingface.co/spaces/mobarmg/jev-schema-scorer) `📚1` — Gradio demo and API for mobarmg/jev-schema-scorer-deberta-v3-large; you write your own choice/noul/score schema and it returns per-question distributions.…
+- [MoonTory/pi-jev-harness,0,TypeScript](https://github.com/moontory/pi-jev-harness,0,typescript) `📚1`
+- [morcoan/JMP,3,Python,,2026-09-18](https://github.com/morcoan/jmp,3,python,,2026-09-18) `📚1`
+- [mrmps/hotdog,5,Python,,2026-09-22](https://github.com/mrmps/hotdog,5,python,,2026-09-22) `📚1`
+- [muqi2004/jev-api](https://github.com/muqi2004/jev-api) `📚1`
+- [muthuishere/toolnexus](https://github.com/muthuishere/toolnexus) `📚1` — One agent SDK, hand-ported to 7 languages — JavaScript, Python, Go, Java, C#, Elixir, Clojure — every port he…
+- [Muvon/octohub](https://github.com/muvon/octohub) `📚1` — High-performance LLM proxy: one OpenAI-style API over 20+ providers, with multi-tenant keys, full request logging, and usage analytics. Built in Rust.…
+- [n8n](https://n8n.io) `📚1` — Community n8n node for TypeSafe System One: ask noul, choice, and score questions about workflow text or JSON and route on typed answers.
+- [n8n-nodes-agent-langfuse](https://community.n8n.io/t/jev-in-n8n-a-node-for-typesafes-decision-model-traced-in-langfuse/315249) `📚1` — Diward · X · 2026-09-21Community n8n node that sends a state plus yes/no, choice and score questions to Jev through OpenRouter and traces each call to Langfuse…
+- [nandansrikrishna/jev-agent-tool,0,Python](https://github.com/nandansrikrishna/jev-agent-tool,0,python) `📚1`
+- [nativeship/n8n-nodes-typesafe](https://github.com/nativeship/n8n-nodes-typesafe) `📚1` — score 10.8 · 0 stars
+- [nazariimoroz/JevWrapperPP](https://github.com/nazariimoroz/jevwrapperpp) `📚1`
+- [nbogojevic/midea-beautiful-air](https://github.com/nbogojevic/midea-beautiful-air) `📚1` — Python client for accessing Midea air conditioners and dehumidifiers (Midea, Comfee, Inventor EVO) via local network
+- [Neoo-Blue/vibecheck,0,Kotlin,,2026-09-21](https://github.com/neoo-blue/vibecheck,0,kotlin,,2026-09-21) `📚1`
+- [netf/typesafe-sdk-rs](https://github.com/netf/typesafe-sdk-rs) `📚1` — Rust port of the official Python SDK with async builders, an optional blocking client, matching errors and retries, and doctested examples. MIT · Rust
+- [nguyenthieutoan/n8n-nodes-openrouter-official](https://github.com/nguyenthieutoan/n8n-nodes-openrouter-official) `📚1`
+- [nicelgueta/typesafe-api,0,Rust,,2026-09-22,rust](https://github.com/nicelgueta/typesafe-api,0,rust,,2026-09-22,rust) `📚1`
+- [NicolasRisso/JevMCP,0,Python,,2026-09-22](https://github.com/nicolasrisso/jevmcp,0,python,,2026-09-22) `📚1`
+- [Node documentation](https://nodejs.org/api/typescript.html) `📚1` — All collector/reviewer scripts and offline tests use .ts. Run npm run typecheck for strict TypeScript checks and npm test for offline regression tests. CI runs…
+- [noetion/dsh-jev,4,TypeScript](https://github.com/noetion/dsh-jev,4,typescript) `📚1`
+- [NoRaincheck/gliger](https://github.com/noraincheck/gliger) `📚1` — Jev Adapter for GLiClass (GLiNER) Models
+- [nothingmn/vectorize.hindsight.sdk](https://github.com/nothingmn/vectorize.hindsight.sdk) `📚1`
+- [NourEldinShobier/claude-tuning,0,TypeScript,,2026-09-22](https://github.com/noureldinshobier/claude-tuning,0,typescript,,2026-09-22) `📚1`
+- [npm](https://npmjs.com) `📚1` — @typesafe-ai/sdk: official JavaScript/TypeScript SDK (npm install @typesafe-ai/sdk)
+- [npm package](https://npmjs.com/package/open-jev) `📚1` — ; WebGPU or WASM in browsers, with a documented Node.js CPU path. Runtime inference was not tested in this review.
+- [npow/jev-hanabi,0,Python,,2026-09-23](https://github.com/npow/jev-hanabi,0,python,,2026-09-23) `📚1`
+- [nshkrdotcom/typesafe_api_sdk](https://github.com/nshkrdotcom/typesafe_api_sdk) `📚1` — Minimal Elixir client and HTTP/wire SDK for TypeSafe System One API, featuring OpenAPI-driven operat
+- [NurMarvin/astro-typesafe-i18n](https://github.com/nurmarvin/astro-typesafe-i18n) `📚1` — Example of how to implement a typesafe i18n system with TypeScript for use in Astro projec
+- [Odin107/jev-isaac](https://github.com/odin107/jev-isaac) `📚1` — An experimental Jev AI player for The Binding of Isaac, using a Lua bridge and Python cont
+- [ogarciarevett/jev-sdk](https://github.com/ogarciarevett/jev-sdk) `📚1` — score 11.3 · 0 stars
+- [okira-e/safego](https://github.com/okira-e/safego) `📚1` — Rust-like Option enum for safer handling of optional (nil) values in Go. A way to always h
+- [okohlbacher/consent-check,0,Python,,2026-09-24](https://github.com/okohlbacher/consent-check,0,python,,2026-09-24) `📚1`
+- [Olti1947/jev-java,6,Java,Idiomatic](https://github.com/olti1947/jev-java,6,java,idiomatic) `📚1`
+- [Om22210564/CMMS-JEV](https://github.com/om22210564/cmms-jev) `📚1` — A sample CMMS integration with TypeSafe AI Jev, demonstrating LLM-powered…
+- [OniReimu/Edge-Computing-JEV,0,Python,,2026-09-25](https://github.com/onireimu/edge-computing-jev,0,python,,2026-09-25) `📚1`
+- [OpenAI Decisions API](https://devday.openai.com) `📚1` — OpenAI's entry in the class, announced at DevDay 2026 as a limited preview: text or image context plus a fixed answer set, returning one answer with a…
+- [OpenAI GPT-4o Mini](https://developers.openai.com/api/docs/models/gpt-4o-mini) `📚1` — $0.15 input, $0.075 cached input, and $0.60 output per million tokens at standard pricing.
+- [OpenAI Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs) `📚1` — The provider-side JSON-schema guarantee the CEO named on HN as what Jev replaces, shape enforced but no probability returned.
+- [OpenAI Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) `📚1` — TypeSafe API · (All examples)(../README.md)
+- [OpenRouter model page](https://openrouter.ai/~typesafe/jev-latest) `📚1` — The maintained sources are data/curated.json, data/x_demos.json, and data/media.json; regenerate all views with python3 scripts/build.py. The X schema now…
+- [openrouterteam/go-sdk](https://github.com/openrouterteam/go-sdk) `📚1`
+- [Orthogonal quickstart](https://docs.orthogonal.com/quickstart) `📚1` — . Compare matched endpoints and prices; use an Orthogonal key only if you choose to run a call (see Orthogonal quickstart).
+- [orthogonal.com](https://orthogonal.com) `📚1` — Orthogonal (orthogonal.com); launch attributed to Christian Pickett (@chrisspickett) (building @orthogonal_sh).
+- [p2kalita/Building-a-Harness-with-Jev-LangChain](https://github.com/p2kalita/building-a-harness-with-jev-langchain) `📚1`
+- [p47t/hello-jev](https://github.com/p47t/hello-jev) `📚1` — Playable Asteroids with a Jev tactical autopilot in TypeScript
+- [PabloB07/JevMC](https://github.com/pablob07/jevmc) `📚1` — Unofficial dependency-free Java SDK for Jev in PaperMC (Minecraft) plugins: thin typed wrapper around POST /v1/systemone (Java 17+, zero shaded deps), async…
+- [pangelini777/PoC-BetterContext,1,TypeScript,,2026-09-21,JEV](https://github.com/pangelini777/poc-bettercontext,1,typescript,,2026-09-21,jev) `📚1`
+- [pareshbhangale/docweave,0,Python,,2026-09-26](https://github.com/pareshbhangale/docweave,0,python,,2026-09-26) `📚1`
+- [pastewise.vercel.app](https://pastewise.vercel.app) `📚1` — Hosted site: pastewise.vercel.app (HTTP 200 observed; workflow not exercised).
+- [pattoor/JEV-agent-opencv,1,Python,,2026-09-21,Juego](https://github.com/pattoor/jev-agent-opencv,1,python,,2026-09-21,juego) `📚1`
+- [pawelmamcarz/linkedin-ai-slop,0,TypeScript,,2026-09-23,LinkedIn](https://github.com/pawelmamcarz/linkedin-ai-slop,0,typescript,,2026-09-23,linkedin) `📚1`
+- [PedroAlvarado/jev-scout,0,TypeScript,,2026-09-23](https://github.com/pedroalvarado/jev-scout,0,typescript,,2026-09-23) `📚1`
+- [pepperoni21/jev-rust,0,Rust,,2026-09-26,Typesafe](https://github.com/pepperoni21/jev-rust,0,rust,,2026-09-26,typesafe) `📚1`
+- [PerryLink/jevcore,40,TypeScript,,2026-09-20](https://github.com/perrylink/jevcore,40,typescript,,2026-09-20) `📚1`
+- [PhiDung-hub/typesafe-rust,0,Rust,,2026-09-24](https://github.com/phidung-hub/typesafe-rust,0,rust,,2026-09-24) `📚1`
+- [phone-use](https://npmjs.com/package/@phone-use/sdk) `📚1` — Drive a real phone with TypeSafe Jev choosing indexed UI actions while phone-use executes taps/types on iOS Simulator, Android, or a cloud phone.
+- [pithings/advocaat,93,TypeScript,MIT,2026-09-18,2026-09-26](https://github.com/pithings/advocaat,93,typescript,mit,2026-09-18,2026-09-26) `📚1`
+- [poiuyjie/jev_project_context,9,Python,,2026-09-22](https://github.com/poiuyjie/jev_project_context,9,python,,2026-09-22) `📚1`
+- [ppweni/typesafe_rs](https://github.com/ppweni/typesafe_rs) `📚1` — Async Rust client for the TypeSafe API modelled on the Python SDK 0.6.0, with builders for Noul/Choice/Score, retries and model listing. MIT · Rust
+- [prakashgbe/jev-agent-demo,0,Python,,2026-09-23,A](https://github.com/prakashgbe/jev-agent-demo,0,python,,2026-09-23,a) `📚1`
+- [purankuton2001/jev-vts-adapter](https://github.com/purankuton2001/jev-vts-adapter) `📚1` — Make your own VTube Studio model answer viewer comments: Gemini replies, Jev-decided expressions, lo
+- [pydantic/genai-prices](https://github.com/pydantic/genai-prices) `📚1` — genai-prices TypeSafe provider - Pydantic library for calculating LLM API costs, extended with TypeSafe pricing so Jev calls to /v1/systemone are matched and…
+- [PyPI](https://pypi.org) `📚1` — typesafe-sdk: official Python SDK (pip install typesafe-sdk; Python 3.10+; TypeSafeClient, AsyncTypeSafeClient, Pydantic ChoiceAnswer/ScoreAnswer/NoulAnswer…
+- [PyPI](https://pypi.org/project/jev-ultralightspeed) `📚1`
+- [QAInsights/typesafe-java-sdk](https://github.com/qainsights/typesafe-java-sdk) `📚1`
+- [qte77/2026-09-12-WandB-AGIH-CoreWeave-Hack](https://github.com/qte77/2026-09-12-wandb-agih-coreweave-hack) `📚1` — Hackathon critique-refine loop fixing Elixir bugs where real test failures are diagnosed by a TypeSafe Choice before a stronger model retries. no license ·…
+- [Query-farm/vgi-typesafe,4,Python,,2026-09-18](https://github.com/query-farm/vgi-typesafe,4,python,,2026-09-18) `📚1`
+- [Quintui/jev-use-cases,1,TypeScript,,2026-09-24,Demo](https://github.com/quintui/jev-use-cases,1,typescript,,2026-09-24,demo) `📚1`
+- [racetozero/kiss](https://github.com/racetozero/kiss) `📚1` — ISS - Rust terminal coding agent with 44 providers that asks Jev for its own decisions; kiss-coding holds the client.
+- [rahulpalivela18/jiffy](https://github.com/rahulpalivela18/jiffy) `📚1` — general Chrome agent — Jev + OpenRouter ★ 1 · endpoint · Python
+- [raihankhan-rk/jevarena,3,TypeScript](https://github.com/raihankhan-rk/jevarena,3,typescript) `📚1`
+- [raikuxq/apexds-binary-heap](https://github.com/raikuxq/apexds-binary-heap) `📚1` — Minimal binary heap for TypeScript. Generic, tree-backed, and built to stay out of your wa
+- [ranjan2829/AskJev,9,TypeScript,,2026-09-17](https://github.com/ranjan2829/askjev,9,typescript,,2026-09-17) `📚1`
+- [React](https://react.dev) `📚1` — Library for building user interfaces.
+- [Real Python: "How to Get Started With Jev in Python"](https://realpython.com/jev-python) `📚1` — Hands-on tutorial with free sample code: a train-station visitor scenario replaces rigid Y/N checks with a Noul, then asks Choice + Score + Noul in one…
+- [realdubb/jev-playground,0,TypeScript](https://github.com/realdubb/jev-playground,0,typescript) `📚1`
+- [requirements.txt](https://huggingface.co/akhilaaa3/jev-omni/resolve/main/requirements.txt) `📚1` — CUDA GPU (reference loader refuses non-CUDA). FP32 weights are about 50 GB before runtime overhead; inference uses BF16 autocast. Python deps in…
+- [rest-rpc/rest-rpc](https://github.com/rest-rpc/rest-rpc) `📚1` — REST-shaped APIs with function-shaped TypeScript.
+- [rinat-amanbekov/semantic-if](https://github.com/rinat-amanbekov/semantic-if) `📚1` — semantic-if - SemIf method on vLLM as a Python library, CLI, REST API and MCP server.
+- [river-oaks-one.vercel.app](https://river-oaks-one.vercel.app) `📚1`
+- [rlaope/jeval,20,Python,,2026-09-20](https://github.com/rlaope/jeval,20,python,,2026-09-20) `📚1`
+- [rocstack/jev-profanity](https://github.com/rocstack/jev-profanity) `📚1` — Context-aware profanity detection for JavaScript and TypeScript, powered by Jev AI with op
+- [rolki-png/JevArena,1,TypeScript,Two](https://github.com/rolki-png/jevarena,1,typescript,two) `📚1`
+- [rubenvitt/cefr-loop](https://github.com/rubenvitt/cefr-loop) `📚1` — Demo loop where Jev scores a German paragraph's CEFR level, Claude simplifies it, and Jev re-checks until target, stall or cap. no license · Python
+- [sachin-handiekar/typesafe-go](https://github.com/sachin-handiekar/typesafe-go) `📚1` — Unofficial Go SDK for the TypeSafe AI API. Zero dependencies.
+- [saembit/jeff,1,Python,,2026-09-22](https://github.com/saembit/jeff,1,python,,2026-09-22) `📚1`
+- [sahabaplus/moyasar](https://github.com/sahabaplus/moyasar) `📚1` — A comprehensive TypeScript SDK for integrating with the Moyasar payment gateway
+- [sandroandric/JevGram](https://github.com/sandroandric/jevgram) `📚1` — AI detection in research papers with Jev ★ 1 · sdk · Python
+- [schalkneethling/jev-3000,0,TypeScript,,2026-09-24](https://github.com/schalkneethling/jev-3000,0,typescript,,2026-09-24) `📚1`
+- [selcukusta/jev-mailroom,3,Python,,2026-09-20](https://github.com/selcukusta/jev-mailroom,3,python,,2026-09-20) `📚1`
+- [serendptai/swiftagent-be](https://github.com/serendptai/swiftagent-be) `📚1`
+- [ShahJahanApurbo/jev-support,0,TypeScript,,2026-09-20](https://github.com/shahjahanapurbo/jev-support,0,typescript,,2026-09-20) `📚1`
+- [siddicky/omp-typesafe,2,TypeScript,TypeSafe](https://github.com/siddicky/omp-typesafe,2,typescript,typesafe) `📚1`
+- [siiick/pi-pignon,2,TypeScript,,2026-09-23](https://github.com/siiick/pi-pignon,2,typescript,,2026-09-23) `📚1`
+- [Simon-zj1/jev-exam,0,TypeScript,,2026-09-22,用](https://github.com/simon-zj1/jev-exam,0,typescript,,2026-09-22,用) `📚1`
+- [sinha-sahil/typesafe-api-call](https://github.com/sinha-sahil/typesafe-api-call) `📚1` — topic:typesafe created:2022-01-01..2022-12-31
+- [Slityak/rajzolj-mircinek,0,TypeScript,,2026-09-23,Draw](https://github.com/slityak/rajzolj-mircinek,0,typescript,,2026-09-23,draw) `📚1`
+- [solrac149/typesafelicious](https://github.com/solrac149/typesafelicious) `📚1` — Live text visualizer that asks Jev for intent, emotion, urgency and intensity in one request and drives particle colors and motion from the probabilities. no…
+- [sophia-phillipa/master-jev-hook,0,TypeScript,,2026-09-25](https://github.com/sophia-phillipa/master-jev-hook,0,typescript,,2026-09-25) `📚1`
+- [SoroushNilton/typesafe-jev](https://github.com/soroushnilton/typesafe-jev) `📚1` — Minimal Python client for TypeSafe's Jev via OpenRouter's Decisions API
+- [southleft/component-charades,2,TypeScript,,2026-09-22](https://github.com/southleft/component-charades,2,typescript,,2026-09-22) `📚1`
+- [speakeasy-api/kit](https://github.com/speakeasy-api/kit) `📚1` — it eval tool · speakeasy-api · GitHub · ⭐ 41 repo · 2026-08-24Experimental eval tool in Kit, the Rust coding-agent runtime with a single compose tool: an agent…
+- [spring-ai-community/spring-ai-typesafe,37,Java,,2026-09-20](https://github.com/spring-ai-community/spring-ai-typesafe,37,java,,2026-09-20) `📚1`
+- [srdjan/zttp](https://github.com/srdjan/zttp) `📚1` — zttp invariant advise · srdjan · GitHub · ⭐ 18 repo · 2025-12-24Option in zttp, a Zig TypeScript runtime and agent compiler, where zttp invariant author…
+- [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) `📚1`
+- [starhn87/jev-agent-optimizer,0,TypeScript,,2026-09-25](https://github.com/starhn87/jev-agent-optimizer,0,typescript,,2026-09-25) `📚1`
+- [stellar-experimental/stellar-raven-jev](https://github.com/stellar-experimental/stellar-raven-jev) `📚1` — inferred / community-sdk — ⭐0
+- [steveruizok/perfect-freehand](https://github.com/steveruizok/perfect-freehand) `📚1` — Why our own canvas. tldraw v5 requires a paid licence for production: without one it watermarks the canvas and hides it after 5 seconds on non-localhost hosts.…
+- [sttp](https://sttp.softwaremill.com) `📚1` — Unofficial Scala 3.3 LTS client for TypeSafe System One (Jev): typed Question / answer lookup with no bundled effect system—you supply an sttp 4 backend…
+- [Sur-Cai/macos-computer-use-kit,4,Python,,2026-09-22](https://github.com/sur-cai/macos-computer-use-kit,4,python,,2026-09-22) `📚1`
+- [SwiftFaze/jev-dev](https://github.com/swiftfaze/jev-dev) `📚1`
+- [Takamasa045/ctxfilter-jev,0,Python,,2026-09-20,Opt-in](https://github.com/takamasa045/ctxfilter-jev,0,python,,2026-09-20,opt-in) `📚1`
+- [talktojev.com](https://talktojev.com) `📚1` — Web: talktojev.com. Local: Python 3 + requirements.txt, OpenRouter key in .env.
+- [TanStack AI](https://tanstack.com) `📚1`
+- [teamgbg/rust-adapters-api-typesafe](https://github.com/teamgbg/rust-adapters-api-typesafe) `📚1` — Typed api-typesafe rest_client adapter (Rust) for the TypeSafe AI API
+- [teamgbg/rust-adapters-api-typesafe,0,TypeScript,,2026-09-22,Typed](https://github.com/teamgbg/rust-adapters-api-typesafe,0,typescript,,2026-09-22,typed) `📚1`
+- [Tech-Byte-Frontier/jevgate,6,Rust,,2026-09-18](https://github.com/tech-byte-frontier/jevgate,6,rust,,2026-09-18) `📚1`
+- [techcwbldr26/dspy-jev](https://github.com/techcwbldr26/dspy-jev) `📚1`
+- [tedliou/decision-model-playground,1,Python,A](https://github.com/tedliou/decision-model-playground,1,python,a) `📚1`
+- [temoncher/tpath](https://github.com/temoncher/tpath) `📚1` — tpath is a tiny TypeScript helper for building typed translation paths
+- [thanabartbb/jev-and-ai-sdk](https://github.com/thanabartbb/jev-and-ai-sdk) `📚1` — jevlang OR jev.ai in:name,description created:
+- [thanabatsomsak971-a11y/jev-and-ai-sdk](https://github.com/thanabatsomsak971-a11y/jev-and-ai-sdk) `📚1` — jevlang OR jev.ai in:name,description created:
+- [The-Little-AI-Company/callout](https://github.com/the-little-ai-company/callout) `📚1` — Windows tray app that on a hotkey has Jev score selected text for manipulation signals and checks its claims against fetched sources. no license · TypeScript ·…
+- [TheoLeeCJ/SemIf,4384,Python,MIT,2026-09-23,2026-09-26](https://github.com/theoleecj/semif,4384,python,mit,2026-09-23,2026-09-26) `📚1`
+- [theprinceraj/paste-smart](https://github.com/theprinceraj/paste-smart) `📚1` — A lightweight Windows clipboard utility built with Tauri 2, React, and TypeScript. Uses Je
+- [thezem/jev-one,1,TypeScript](https://github.com/thezem/jev-one,1,typescript) `📚1`
+- [thomaszta/jev-req-gate,0,Python,,2026-09-26](https://github.com/thomaszta/jev-req-gate,0,python,,2026-09-26) `📚1`
+- [thruwire/foreman,572,Python,MIT,2026-09-26,2026-09-26](https://github.com/thruwire/foreman,572,python,mit,2026-09-26,2026-09-26) `📚1`
+- [tiesen243/effect-tanstack-query](https://github.com/tiesen243/effect-tanstack-query) `📚1` — Effortlessly bridge Effect HTTP API clients with TanStack Query. Enjoy end-to-end type saf
+- [To3akaRin/Jev-agent,0,Swift,,2026-09-21](https://github.com/to3akarin/jev-agent,0,swift,,2026-09-21) `📚1`
+- [tomerab1/vampire-survivor,0,Rust,,2026-09-24,Vampire-Survivors-style](https://github.com/tomerab1/vampire-survivor,0,rust,,2026-09-24,vampire-survivors-style) `📚1`
+- [Trace every judgment with Phoenix](https://arize.com/docs/phoenix/integrations/llm-providers/typesafe) `📚1` — Arize's instrumentation: one line of code to trace each decision.
+- [Try app](https://jev-chat-ten.vercel.app) `📚1` — Hosted demo: jev-chat-ten.vercel.app
+- [Try app](https://shouldijev.vercel.app) `📚1` — Access: try shouldijev.vercel.app or run the MIT source with TYPESAFE_API_KEY. No app purchase fee; provider usage separate. Source inspected; live hosted…
+- [Try the free JEV API](https://beatapi.io/jev-api) `📚1`
+- [Txy02/jev-agent,0,Python,,2026-09-21,agent](https://github.com/txy02/jev-agent,0,python,,2026-09-21,agent) `📚1`
+- [tylerjharden/harden-jev-decides,2,TypeScript,,2026-09-16,JEV](https://github.com/tylerjharden/harden-jev-decides,2,typescript,,2026-09-16,jev) `📚1`
+- [typesafe-sdk](https://pypi.org/project/typesafe-sdk) `📚1` — official Python SDK
+- [TypeScript](https://typescriptlang.org) `📚1` — Typed JavaScript for safer development.
+- [tyrchen/jev-typed](https://github.com/tyrchen/jev-typed) `📚1` — Typed third-party Rust SDK for Jev with derive macros (#(derive(Decision)), #(derive(ChoiceOptions)), #(derive(ScoreLevels))): the doc comments on your struct…
+- [ukashanoor/jev-dotnet](https://github.com/ukashanoor/jev-dotnet) `📚1` — Unofficial typed C# client for the Jev (TypeSafe System One) decision API…
+- [undertone-app.vercel.app](https://undertone-app.vercel.app) `📚1` — Access: open undertone-app.vercel.app or build the source with TYPESAFE_API_KEY. No app purchase fee; TypeSafe usage separate. No LICENSE at tip—not Open…
+- [unownone/jevsume,3,TypeScript,,2026-09-17](https://github.com/unownone/jevsume,3,typescript,,2026-09-17) `📚1`
+- [UsamaImran/axios-auth-client](https://github.com/usamaimran/axios-auth-client) `📚1` — A lightweight, framework-agnostic Axios wrapper with automatic JWT access token refresh (p
+- [vbarrai/comparai](https://github.com/vbarrai/comparai) `📚1` — comparai - comparai: TypeSafe Jev ecosystem repository. · TypeScript
+- [velesxbt/argus,2,Python,,2026-09-14](https://github.com/velesxbt/argus,2,python,,2026-09-14) `📚1`
+- [Venomous-101/n8n-nodes-jev-ai](https://github.com/venomous-101/n8n-nodes-jev-ai) `📚1`
+- [Vercel and OpenRouter adoption numbers](https://tradersunion.com/news/financial-news/show/3491019-typesafe-ai-jev-developer-automation) `📚1` — News: Vercel reports Jev drew more than twice the interest from paid developer accounts in its first 24 hours than any previous model launch on the service,…
+- [Vercel Connect：Jev](https://vercel.com/connect/jev) `📚1` — Connect scopes credentials to projects and environments; eve's auto and evaluate default to typesafe-ai/jev on AI Gateway
+- [Vercel Jev integrations](https://vercel.com/i/jev-integrations) `📚1` — Gives the JS/TS AI SDK ecosystem a familiar entry point. Vercel Jev integrations
+- [Vercel's design guidance](https://vercel.com/design.md) `📚1`
+- [Vercel's published foundation](https://vercel.com/geist/vercel-brand.css) `📚1` — The site's standard surface radii follow the two-step geometry in Vercel's published foundation: 6px for compact controls, 8px for cards and dialogs. In our…
+- [vercel-labs/ai-cli,816,TypeScript,,2026-09-23,2026-09-26](https://github.com/vercel-labs/ai-cli,816,typescript,,2026-09-23,2026-09-26) `📚1`
+- [vercel-labs/jev-v0-api-auto-routing](https://github.com/vercel-labs/jev-v0-api-auto-routing) `📚1`
+- [verify-media/verify-client](https://github.com/verify-media/verify-client) `📚1`
+- [vinaychawla-ops/jev-openrouter-example](https://github.com/vinaychawla-ops/jev-openrouter-example) `📚1` — Minimal example: call TypeSafe's Jev decision model via OpenRouter's Decisions API (stdlib-only Pyth
+- [vinaychawla-ops/jev-openrouter-example,0,Python,Minimal](https://github.com/vinaychawla-ops/jev-openrouter-example,0,python,minimal) `📚1`
+- [vintasoftware/medplum-provider-jev](https://github.com/vintasoftware/medplum-provider-jev) `📚1` — A Medplum Provider + Jev integration demo for detecting conflicts in clinical…
+- [vvhybe/odoo-client](https://github.com/vvhybe/odoo-client) `📚1` — Type-safe JSON-RPC and XML-RPC client for Odoo — works with Node.js, Next.js, and React
+- [wafaa-alhayek/masroufi,0,Python,,2026-09-23](https://github.com/wafaa-alhayek/masroufi,0,python,,2026-09-23) `📚1`
+- [websharkdev/todo-api](https://github.com/websharkdev/todo-api) `📚1` — topic:typesafe created:2025-01-01..2025-12-31
+- [weiwenchen2022/utils](https://github.com/weiwenchen2022/utils) `📚1` — A Go library based on Go generics (slices, maps, strings, channels, set, ...)
+- [What is Jev, TypeSafe AI's System One model?](https://vercel.com/i/what-is-jev) `📚1` — 📅 2026-09-18 · Vercel technical article · Tier A · Ben Sabic
+- [WhoJoshi69/jev-but-without-api-calls](https://github.com/whojoshi69/jev-but-without-api-calls) `📚1` — Everyone and their mom is talking about Jev. Jev this, Jev that. Everyone on Twitter is al
+- [willswire/swift-newt](https://github.com/willswire/swift-newt) `📚1`
+- [withabdul/n8n-nodes-jev-systemone](https://github.com/withabdul/n8n-nodes-jev-systemone) `📚1`
+- [wnoronha/jeb,1,Rust,,2026-09-24](https://github.com/wnoronha/jeb,1,rust,,2026-09-24) `📚1`
+- [wr0x00/jev_mcp,0,Python,,2026-09-21](https://github.com/wr0x00/jev_mcp,0,python,,2026-09-21) `📚1`
+- [yusukebe/hono-jev-router,51,TypeScript,Route](https://github.com/yusukebe/hono-jev-router,51,typescript,route) `📚1`
+- [yym68686/uni-api-web](https://github.com/yym68686/uni-api-web) `📚1`
+- [zach-ct/jev-and-ai-sdk](https://github.com/zach-ct/jev-and-ai-sdk) `📚1` — jevlang OR jev.ai in:name,description created:
+- [zchee/typesafe-sdk-rust,1,Rust,,2026-09-18](https://github.com/zchee/typesafe-sdk-rust,1,rust,,2026-09-18) `📚1`
+- [ZENOTME/TypeAsking](https://github.com/zenotme/typeasking) `📚1` — A Rust SDK for typed AI decisions with Jev. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [zhulinchng/jevper,18,Python,,2026-09-23,Jev-shaped](https://github.com/zhulinchng/jevper,18,python,,2026-09-23,jev-shaped) `📚1`
+- [zig-utils/zig-error-handling](https://github.com/zig-utils/zig-error-handling) `📚1` — A type-safe error handling library for Zig inspired by Rust's Result and TypeScript's neverthr
+- [zixiang0623/jev-mail_vercel](https://github.com/zixiang0623/jev-mail_vercel) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [zliv83/jevvy](https://github.com/zliv83/jevvy) `📚1` — Rust wrapper for TypeSafe.al's Jev.
+- [zulimazuli/Jev-playground,0,TypeScript,,2026-09-26,Small](https://github.com/zulimazuli/jev-playground,0,typescript,,2026-09-26,small) `📚1`
+- [zzx060828/isaac-sol-jev-agent,0,Python,,2026-09-25](https://github.com/zzx060828/isaac-sol-jev-agent,0,python,,2026-09-25) `📚1`
+- [网站](https://pkg.go.dev/github.com/zhirschtritt/typesafe-go) `📚1`
+- [网站](https://mewcp-jev.vercel.app) `📚1`
+- [项目来源](https://openroom-ivory.vercel.app) `📚1`
+
+</details>

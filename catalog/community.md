@@ -1,0 +1,3352 @@
+# Community, Discussions & Social
+
+> X/Twitter threads, Hacker News, Reddit, and other public discussion.
+>
+> **3,329 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 17
+
+- [主 HN 帖规模](https://news.ycombinator.com/item?id=49717558) `📚22` — . Hacker News: "TypeSafe AI launch discussion thread": The richest technical critique with named commenters.
+- [Launch thread by Diogo Almeida](https://x.com/completeskeptic/status/2099925682726002904) `📚21` — X: TypeSafe’s founder introduces Jev and argues for RLCD-trained decision models as a separate path from conversational models.
+- [@gregpr07](https://x.com/gregpr07/status/2100411066966749359) `📚19` — Browser Use + Jev — Gregor Zunic's real-time flight-search demo and short description of the dynamic DOM action space.
+- [X @typesafeai](https://x.com/typesafeai) `📚18` — TypeSafe on X — Tracks first-party Jev launch and ecosystem updates from the official TypeSafe account; checked 2026-09-21.
+- [Discord](https://discord.gg/typesafe) `📚16` — Open an issue. For questions about Jev itself rather than about this list, the TypeSafe Discord and docs are the better venue.
+- [@jarrodwatts](https://x.com/jarrodwatts/status/2100356151468585346) `📚15` — An on-chain trading bot where Jev decides — X: demonstrates a Monad trading bot that turns live price state into Jev buy/sell decisions and places the resulting orders.
+- [Stagehand plus Jev browser control](https://x.com/kylejeong/status/2100622054945095934) `📚14` — Stagehand + Jev browser use - Observe the accessibility tree, Jev chooses the next action, Stagehand executes.
+- [Steve Krouse](https://x.com/stevekrouse/status/2100287368221659289) `📚13` — An interactive Jev playground on Val Town — typesafe's jev is fun! live demo you can play with: — by @stevekrouse
+- [@awlevin](https://x.com/awlevin/status/2100262612428894676) `📚11` — Computer use built on Jev — Aaron Levin: 155x cheaper than Opus 5, about 20x faster, and it generalizes across operating systems
+- [Jev as an AI agent safety monitor](https://x.com/isnickma/status/2100566407524344225) `📚11` — X: reports using Jev to check agent actions before execution and compares attack catches, false blocks, and latency.
+- [Jev for instant compaction](https://x.com/tamarajtran/status/2100694549362553153) `📚11` — X: proposes replacing generated context summaries with Jev relevance decisions over existing conversation material.
+- [Model router built with Jev](https://x.com/ephraimduncan/status/2100454070536351824) `📚11` — A model router on Jev by @ephraimduncan. Router that chooses the model best suited to each request and forwards it there.
+- [Shannon](https://x.com/iammrduncan/status/2100467548298899918) `📚11` — Qwen on Cerebras comparison — Shannon's video and source-backed comparison of a structured-output LLM baseline with Jev.
+- [Jev on OpenRouter](https://x.com/openrouter/status/2100744709589316009) `📚10` — OpenRouter Jev Endpoint (TypeScript) &middot; 🐦 Thread -- Serverless Jev endpoint availability on OpenRouter for unified multi-provider billing.
+- [jev(): a PostgreSQL extension for natural-language queries](https://x.com/iam_zachi/status/2100679300756435135) `📚10` — X: demonstrates a PostgreSQL jev() predicate for natural-language row filtering without a prebuilt search index.
+- [MLP on Qwen 4B mimicking Jev](https://x.com/justalexwortega/status/2100341039986798930) `📚10` — Independent Qwen-based OpenJev claim. Model card checked; not TypeSafe weights, API compatibility or calibration equivalence.
+- [文章](https://x.com/0xlogicrw/status/2100478725393686556) `📚10` — Early Jev tools roundup - Thread cataloguing the first wave of Jev tools: MCP servers, routers, reviewers, and browser agents.
+
+## Established (cited by 5–9 lists) — 95
+
+- [A DuckDB extension for row classification](https://x.com/hamiltonulmer/status/2100370557405667768) `📚9` — X: demonstrates applying Jev to CSV, Parquet, and DuckDB rows and reports timing for a thousand-row classification run.
+- [Ask Jev anything, it will judge](https://x.com/waynesutton/status/2100487878992388279) `📚9` — askjev.ai by @waynesutton. Website where you ask Jev anything and it gives a judgment instead of an answer.
+- [Jev "playing" Minecraft (r/accelerate)](https://reddit.com/r/accelerate/comments/1whk9oy/new_typesafe_ai_jev_model_playing_minecraft_wip) `📚9` — Jev plays Minecraft (r/accelerate) - Work-in-progress demo of Jev driving Minecraft, including fleeing zombies at night.
+- [Jev is a really smart switch statement](https://x.com/nathanflurry/status/2100036101809619314) `📚9` — X: frames Jev as a fast learned branching primitive that complements rather than replaces general-purpose text models.
+- [Running a local Typesafe Jev](https://x.com/wmoto_ai/status/2100454049359577516) `📚9` — X (Japanese): documents an attempt to reproduce the Jev interaction pattern locally and notes remaining speed limitations.
+- [A driving simulator controlled by Jev](https://x.com/jpschroeder/status/2100347770867458384) `📚8` — I rebuilt Tesla Full Self Driving with Jev in less than an hour. This model is a total unlock. — by @jpschroeder
+- [Full Jev tutorial](https://x.com/moritzkremb/status/2100715237267660873) `📚8` — Video tutorial covering what Jev is, API setup, and three demos: a voice-controlled browser, AI memory and a YouTube predictor.
+- [Internal classifier field note](https://x.com/identitytorn/status/2100475121324728615) `📚8` — A builder's early matched-precision comparison against a private fine-tuned Qwen classifier; useful anecdotal evidence, not a reproducible benchmark
+- [Jev 中文解读](https://x.com/dotey/status/2100109937237987823) `📚8` — X (Chinese): explains Jev to Chinese readers as a calibrated typed-decision layer rather than a text-generation model.
+- [Rethinking security engineering with Jev](https://x.com/kostastsale/status/2100362415187833048) `📚8` — Rethinking security engineering with Jev - Argues purely engineering decisions in security work belong to Jev rather than a chat model.
+- [SuperX post scoring](https://x.com/robj3d3/status/2100722975645598191) `📚8` — Viral post scorer (61 questions / SuperX) - Parallel multi-question scoring as a product try-link; no public GitHub in the thread.
+- [Testing Jev for Pi extensions (r/PiCodingAgent)](https://reddit.com/r/picodingagent/comments/1whsav6/anyone_else_testing_out_typesafe_ais_new_system) `📚8` — Reddit: builders describe using Jev as an agent tool-use safety layer and planning a prompt-complexity model router.
+- [WTF is Jev, ELI5](https://x.com/mvanhorn/status/2100761338918363550) `📚8` — X: introduces Jev with the “AI multiple choice, not AI essay writing” analogy and explains the basic System One interface.
+- [@vercel_dev](https://x.com/vercel_dev/status/2100378959653507175) `📚7`
+- [Arbitrary classification as a type-safe primitive](https://x.com/cocktailpeanut/status/2100277062309179521) `📚7` — X: argues the real novelty is not classification but that Jev makes arbitrary classification a runtime-defined, type-safe programmable primitive
+- [Chetaslua](https://x.com/chetaslua/status/2100473581251748216) `📚7` — Enlace relacionado: X — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [First Jev use case in a Mac app](https://x.com/malekoo/status/2100439840575684910) `📚7` — X: describes a shipped Mac application that sends setup and troubleshooting judgments to Jev when no language model is loaded.
+- [I reviewed 287 open-source Jev projects](https://reddit.com/r/llmdevs/comments/1wko2e5/i_reviewed_287_opensource_jev_projects_here_are) `📚7` — Reddit: reports a manual review of 287 Jev repositories and narrows them to a smaller set that clearly explains how the model is used.
+- [Jev broke our WebMCP benchmark](https://x.com/0xidanlevin/status/2100937437325205568) `📚7` — Idan Levin on WebMCP Agent Benchmarking -- Comparative evaluation of Jev within the WebMCP benchmark suite.
+- [Jev on Cloudflare AI Gateway](https://x.com/cloudflaredev/status/2100688880798159254) `📚7` — X: announces Jev support in Cloudflare AI Gateway for use from Workers and other gateway clients.
+- [Jev-compatible public API](https://x.com/ekzhang1/status/2100651678110515383) `📚7` — Open research: a public Jev-shaped API backed by an open Qwen3.6-35B-A3B model so anyone can try the typed-decision interface
+- [LinkedIn](https://linkedin.com/company/typesafe-ai) `📚7` — LinkedIn - Company announcements and hiring.
+- [Marcel Pociot on Social Feed Noise Collapsing](https://x.com/marcelpociot/status/2100520134481735729) `📚7` — Hide posts on X with natural language - Marcel Pociot's browser extension that collapses posts based on a Jev judgment.
+- [Spreadsheets that read intent](https://x.com/dabit3/status/2100780008193020049) `📚7` — Predictive spreadsheets by @dabit3. Name a column and Jev fills each row in about 100 ms.
+- [This is a terrible compaction strategy](https://x.com/theo/status/2100762304862384257) `📚7` — X: critiques Jev-based context pruning on the grounds that compaction requires reconstruction rather than simple relevance filtering.
+- [WTF is Jev, and the 9 things people are building with it](https://x.com/mvanhorn/status/2100788572316139655) `📚7` — X: the most widely shared explainer of the launch window, framing Jev as "AI multiple choice, not AI essay writing" and cataloguing nine use patterns
+- [第三方独立实测：Vercel 生产集成（最重要产业证据）](https://x.com/rauchg/status/2100307962262872105) `📚7` — Vercel fx: Jev as a command safety reviewer — Guillermo Rauch: Jev reviews every fx command, faster and more accurate than a chat model
+- [724 competitor ads, broken down](https://x.com/themattberman/status/2100654891756589230) `📚6` — Multiple dimensions per ad, then aggregate a comparison
+- [@beni_il_](https://x.com/beni_il_/status/2100617387116568956) `📚6`
+- [@CompleteSkeptic](https://x.com/completeskeptic) `📚6` — Diogo Almeida — launch threads, Doom, RLCD framing
+- [@hhkkmon](https://x.com/hhkkmon/status/2100443314957038010) `📚6`
+- [@typesafeai](https://x.com/typesafeai/status/2100376436272173088) `📚6`
+- [All the coolest Jev projects on X](https://x.com/moritzkremb/status/2100895894287839255) `📚6` — X: a curated thread of the strongest Jev projects posted within 72 hours of launch, by a builder who also produced the most-watched Jev tutorial
+- [Chinese notes after a day with Jev](https://x.com/jiayuan_jy/status/2100876273061102006) `📚6` — X (Chinese): offers a skeptical early assessment, treating Jev as a fast general classifier while questioning its behavior on knowledge-heavy tasks.
+- [Discovery post](https://x.com/studio_yebisu/status/2100686990090047569) `📚6` — Jev repository roundup (Japanese) — X (Japanese): surveys practical Jev repositories and highlights computer use and automated trading among the early clusters.
+- [Five open Jev replicas worth trying](https://x.com/xiaomovps/status/2100923960493818177) `📚6` — X (Chinese): surveys five open System One-style models and notes which ones are practical on consumer hardware.
+- [https://x.com/_GauravGosain/status/2100111398277959715](https://x.com/_gauravgosain/status/2100111398277959715) `📚6` — _GauravGosain · _trou3 · 0xboyd
+- [https://x.com/j_lamberts/status/2100592556081832131](https://x.com/j_lamberts/status/2100592556081832131) `📚6`
+- [Introducing CUA-S1](https://x.com/trycua/status/2101014004927729737) `📚6` — X: announces a family of open specialist System One models for computer use, starting with form filling.
+- [It is the inference technique, not the training](https://x.com/anderslie/status/2100388704644919662) `📚6` — X: argues that Jev’s speed is primarily an inference-interface effect and that similar APIs can be built over open-weight models.
+- [Jev reranking is not a free win](https://x.com/gosailglobal/status/2100877682972258619) `📚6` — Retrieval evaluation: reports a run over 33,047 catalog entries, 164 real queries, and 9,831 graded pairs in which Jev-only reranking did not beat vector retrieval.
+- [Mac computer use with local perception](https://x.com/milindlabs/status/2100631847155994852) `📚6` — Computer use without screenshots by @milindlabs. On-device segmentation and OCR convert the screen into text that Jev can read.
+- [One 50 ms pass versus 23 turns](https://x.com/be_arsh/status/2101026864341164110) `📚6` — X: contrasts a specialist form-filling System One model with a multi-turn LLM agent to illustrate the latency trade-off between bounded scoring and iterative generation.
+- [OpenCode browser use powered by Jev](https://x.com/thdxr/status/2100288951978164647) `📚6` — Preview of fast browser use with Jev and OpenCode's browser CLI.
+- [Reviewing unnecessary tool calls with Jev](https://x.com/altryne/status/2100739055923425589) `📚6` — X: demonstrates a Claude plugin that asks Jev to flag redundant tool calls after the fact.
+- [Six things I'll still use Jev for](https://x.com/isaac_flath/status/2100623016644223175) `📚6` — X: a practitioner lists the six Jev uses he still expects to rely on after 60 days, an early usefulness review rather than a launch reaction
+- [TypeSafe AI releases Jev (r/singularity)](https://reddit.com/r/singularity/comments/1whop6b/typesafe_ai_releases_ai_model_called_jev_rather) `📚6` — Reddit: launch thread framing Jev as a low-hallucination, low-cost decision model for software rather than chat.
+- [19 open-source Jev projects](https://x.com/gosailglobal/status/2100859307671855113) `📚5` — X (Chinese): rounds up 19 early open-source Jev projects and summarizes the kinds of applications appearing after launch.
+- [3,282 posts, eight questions each](https://x.com/iannuttall/status/2100668908227162567) `📚5` — by @iannuttall. Ian Nuttall ran eight questions on each of 3,282 posts in his X archive, for $0.1282.
+- [@JoshARosen](https://x.com/josharosen/status/2100573432089866717) `📚5` — Assesses coding-worker progress and verification needs while deterministic policy decides interventions.
+- [AIAvatarKit turn-end gate](https://x.com/uezochan/status/2100608556823388486) `📚5` — Voice-dialog turn-end detection using Jev scores after speech.
+- [An inbox classifier for 1,500 emails](https://x.com/ryanvogel/status/2100042788851101842) `📚5` — this model is actually insane at email classification i tested it on 1500 of my own emails to see how well it works and I am blown away — by @ryanvogel
+- [An internal Jev study session with 50+ engineers](https://x.com/layerx_tech/status/2100887864594895154) `📚5` — X (Japanese): shares material from a company-wide Jev study session, providing an early signal of organizational evaluation.
+- [Ask HN: What do you think of Noul, a new decision primitive](https://news.ycombinator.com/item?id=49760225) `📚5` — Hacker News: discusses Noul, the probability-of-true answer shape, as a software primitive that could outlive any one Jev implementation.
+- [ConsoleChaosRacing driven by Jev](https://x.com/maoku/status/2100611986358927627) `📚5` — Racing UI wired to Jev driving decisions.
+- [Ground Truth news-framing extension](https://x.com/jagenaujagenau/status/2100622352333574460) `📚5` — Browser extension that classifies an article's framing, type, topic, and loaded language with Jev.
+- [Hook panel A/B tester](https://x.com/vybhav/status/2100609472750047263) `📚5` — Near-real-time scoring of TikTok and Instagram hooks against about 100 personas.
+- [https://x.com/agentgateway/status/2100615437973074097](https://x.com/agentgateway/status/2100615437973074097) `📚5` — Jev as an LLM prompt guardrail inside the agentgateway proxy, with tracing and cost tracking.
+- [https://x.com/BuildWithKhalil/status/2100364868733812987](https://x.com/buildwithkhalil/status/2100364868733812987) `📚5`
+- [https://x.com/chetaslua/status/2100602714204049588](https://x.com/chetaslua/status/2100602714204049588) `📚5`
+- [https://x.com/DagmawiBabi/status/2100618066459553796](https://x.com/dagmawibabi/status/2100618066459553796) `📚5`
+- [https://x.com/DennisAdriaans/status/2100616874719347136](https://x.com/dennisadriaans/status/2100616874719347136) `📚5`
+- [https://x.com/elixirforum/status/2100495661942677648](https://x.com/elixirforum/status/2100495661942677648) `📚5`
+- [https://x.com/just_aryansingh/status/2100617080395710748](https://x.com/just_aryansingh/status/2100617080395710748) `📚5`
+- [https://x.com/Kantorcodes/status/2100607286498488587](https://x.com/kantorcodes/status/2100607286498488587) `📚5`
+- [https://x.com/KevinMagnan/status/2100587059928764726](https://x.com/kevinmagnan/status/2100587059928764726) `📚5`
+- [https://x.com/MarcoIannello/status/2100622449268191524](https://x.com/marcoiannello/status/2100622449268191524) `📚5`
+- [https://x.com/MingtianZhang/status/2100579236960682120](https://x.com/mingtianzhang/status/2100579236960682120) `📚5`
+- [https://x.com/mmateonunez/status/2100612699394597125](https://x.com/mmateonunez/status/2100612699394597125) `📚5`
+- [https://x.com/Neel490/status/2100618722318688753](https://x.com/neel490/status/2100618722318688753) `📚5`
+- [https://x.com/nerdytanay/status/2100465397267144815](https://x.com/nerdytanay/status/2100465397267144815) `📚5`
+- [https://x.com/Teyhouse/status/2100555273718907064](https://x.com/teyhouse/status/2100555273718907064) `📚5`
+- [https://x.com/thekitze/status/2100570975175877106](https://x.com/thekitze/status/2100570975175877106) `📚5`
+- [https://x.com/tinykitten8/status/2100618835443453969](https://x.com/tinykitten8/status/2100618835443453969) `📚5` — Pull request adding Jev to station-suggestion reranking in the TrainLCD transit app.
+- [https://x.com/wundercorp/status/2100619500966056196](https://x.com/wundercorp/status/2100619500966056196) `📚5`
+- [https://x.com/zxdubx/status/2100604919120121960](https://x.com/zxdubx/status/2100604919120121960) `📚5`
+- [Instant generative UI](https://x.com/ctatedev/status/2101022101750571357) `📚5` — json-render + Jev experiment for dynamic interfaces: componentized UI rendered in milliseconds; an early generative-UI direction
+- [Jev gomoku harness](https://x.com/vacekvvita/status/2100609341145465325) `📚5` — Local tactics shrink 225 moves to about 40 candidates, then Jev picks among tiered options.
+- [Jev in 34 seconds](https://x.com/dwhitedesign/status/2100368024649769384) `📚5` — Short video explainer of how Jev's typed-decision loop works.
+- [Jev in a Grammarly-style Mac app](https://x.com/nielsmouthaan/status/2100543809465577665) `📚5` — Desktop writing app using Jev for fast structured writing judgments.
+- [Jev is now available to everyone, no waitlist](https://x.com/typesafeai/status/2101786156572823624) `📚5` — TypeSafe removes the waitlist; the community continues exploring semantic search, podcast ad detection, and asset selection
+- [Jev's Architecture Unmasked](https://x.com/iwashi86/status/2100713337436930288) `📚5` — X (Japanese): summarizes an inference-time investigation based on many API calls and proposes a hypothesis for Jev’s parallel decision mechanism.
+- [jev-rabbit PR review bot](https://x.com/thekitze/status/2100616530275029139) `📚5` — Work-in-progress PR reviewer with plain-English Jev rules.
+- [Kalshi prediction-market bot](https://x.com/stablebun/status/2100614911898390589) `📚5` — Jev trades 15-minute and 1-hour BTC, ETH, and SOL markets on Kalshi.
+- [Model router CLI](https://x.com/nidhisinghattri/status/2100617830890885415) `📚5` — Task plus subscription list in, Jev picks which model or agent should handle it.
+- [Show and Tell](https://discord.com/channels/1483217544214085663/1483217545040232493) `📚5` — Builder demos and work in progress; joining the Discord server is required.
+- [skillbox + Jev skill routing](https://x.com/thekitze/status/2100556122570792999) `📚5` — MCP skill router where Jev picks the relevant skills instead of a long agent search.
+- [Spanish AEPD corpus test](https://x.com/juanmacias/status/2100463494629925048) `📚5` — Jev versus a hand-built regex on 544 public data-protection resolutions: 98.2% agreement for about five cents.
+- [StarCraft Brood War WASM MCP demo](https://x.com/literallydenis/status/2100622868878868603) `📚5` — Brood War in WASM exposed as an MCP server, with Jev playing and still losing to a Zerg rush.
+- [Support ticket classifier](https://x.com/ifahimreza/status/2100616988746023102) `📚5` — Jev labels category, urgency, and human-versus-auto handling for support tickets.
+- [Tabletop MMORPG action mapper](https://x.com/jon_iy/status/2100397782322364792) `📚5` — Eval of Jev turning free-text player intent into typed server actions: 96% agreement, 317 ms median.
+- [ViZDoom Jev agent](https://x.com/kmad/status/2100339921714323624) `📚5` — Two decision channels on ViZDoom, navigation at 5 Hz and combat at 12 Hz, with an 18-kill test run.
+- [Wiki-link clicker demo](https://x.com/mark1nhu/status/2100620075090792490) `📚5` — Page-level demo where Jev picks which candidate link to click toward a goal.
+- [X is all over it, Reddit is not](https://x.com/0xboyd/status/2100619702003208701) `📚5` — X: compares Jev discussion volume across platforms and cautions that ecosystem impressions depend strongly on where builders are posting.
+- [🐦 Thread](https://x.com/completeskeptic/status/2099925687465570372) `📚5` — Diogo Almeida / TypeSafe AI (Interactive Doom Demo) -- Real-time 3D combat agent navigating Doom without autoregressive decoding lag. Executes decisions in 35 ms.
+
+## Emerging (cited by 3–4 lists) — 97
+
+- [@yuzxfred](https://x.com/yuzxfred/status/2100652136878981337) `📚4`
+- [A city on a whale](https://x.com/gokayfem/status/2101022590722810271) `📚4` — whale-city.png: original frame; whale-preview.png is the 800 × 450 preview. An unaltered frame at 00:06 from the author's 480 × 270 video rendition. Astra designs, Jev chooses, H3 renders.
+- [Aagamsheth0601/instagram-safe-feed](https://github.com/aagamsheth0601/instagram-safe-feed) `📚4` — Explainable Instagram feed and Reels classification using TypeSafe AI Jev and Gemini vision
+- [Automatically organize downloaded files](https://x.com/marcelpociot/status/2100906882365788167) `📚4` — A Downloads folder that sorts itself by @marcelpociot. macOS app that files your downloads by rules you set, with Jev as the only LLM.
+- [Can we have Jev in Devin?](https://reddit.com/r/devinai/comments/1wjtmwi/can_we_have_jev_in_devin) `📚4` — Reddit: asks for a Jev-style decision layer inside Devin, illustrating user demand for typed decisions in another coding-agent environment.
+- [Classifying 500 emails in seconds](https://x.com/rileybrown/status/2100404532119269426) `📚4` — Yeah Jev by @typesafeai is very cool. It classified 500 emails in seconds. And it costed 3.5 cents. — by @rileybrown
+- [Email fraud detection with Jev and Kimi](https://x.com/nutlope/status/2100614659690713543) `📚4` — Fraud detection with Jev and Kimi K3 by @nutlope. Jev classifies 100 emails in 1.42 seconds and passes the uncertain ones to Kimi K3.
+- [Five hundred agents in a 3D environment](https://x.com/crislenta/status/2100457614073327754) `📚4` — Jev is actually insane. We benchmarked it, and the results completely change the game for us: > 500 real-time agents > running in parallel > in a 3D environment The preliminary results are crazy: >… — by @crislenta
+- [Fourteen checks for every pull request](https://x.com/redp314/status/2100585126652481915) `📚4` — Paolo Rosson PR review — paste a diff → one Jev/TypeSafe call → ~14 typed checks as probabilities → BLOCK / security review / nits / merge; ~$0.00007/PR
+- [Has anyone tried Jev as a relevance filter for RAG?](https://reddit.com/r/ai_agents/comments/1wjpgbx/has_anyone_tried_jev_as_a_relevance) `📚4` — Reddit: discusses using Jev as a retrieval relevance filter and reranker, including the limitations suggested by early negative reranking results.
+- [https://x.com/kavehmz/status/2100616111771238881](https://x.com/kavehmz/status/2100616111771238881) `📚4`
+- [https://x.com/sydneyrunkle/status/2100754364545761643](https://x.com/sydneyrunkle/status/2100754364545761643) `📚4` — Building a Harness with Jev - Guide to adding Jev to a LangChain agent harness, covering how Jev works, where it fits in the agent loop, model routing and pre-tool risk checks as middleware.
+- [https://x.com/thekitze/status/2100595129874817340](https://x.com/thekitze/status/2100595129874817340) `📚4`
+- [Jev plays Slay the Spire 2](https://x.com/coolish/status/2100570517954838897) `📚4` — by @coolish. Jev plays Slay the Spire 2 at 0.7 seconds per move, where GPT-6 Astra ran slowly.
+- [Jev-review feedback for coding agents](https://x.com/niazmorshed_/status/2100465662867218857) `📚4` — jev-review by @niazmorshed_, 492 likes.
+- [Job and candidate matching](https://x.com/sarvagya_kul/status/2100980770206879849) `📚4` — companies matched to one candidate by @sarvagya_kul. Predicts which jobs one candidate is most likely to land across 400 companies, at $0.0005.
+- [Keystroke oracle](https://x.com/dabit3/status/2100756930054504776) `📚4` — by @dabit3. Keystroke oracle, a predictive launcher and the first experiment in Nader Dabit's Jev series.
+- [Launch roundup](https://x.com/vaibhavsisinty/status/2100619641827836222) `📚4` — introduction. Thread examples not included in the supplied text; pending source expansion.
+- [MuJoCo robot-arm control](https://x.com/dimentary/status/2101018760371171420) `📚4` — \| Two calls per step: what to do, then how to moveDmytro Hrybov (@dimentary), X, 2026-09-18Author: "tested Jev as a real-time robotics policy in MuJoCo. it struggle
+- [OCR-powered image classification](https://x.com/fayazara/status/2100953838891192789) `📚4` — Made myself a little image classifier with OCR + Jev It was able to categorise ~900 images in 40 seconds Pretty cool — by @fayazara
+- [Open-sourced jev architecture last year with model,paper and dataset](https://news.ycombinator.com/item?id=49736660) `📚4` — Open-sourced Jev architecture last year - A prior-art claim for non-autoregressive typed decisions, and the counter that zero-shot generality is the actual difference.
+- [project](https://x.com/agent_journal/status/2100611808545632758) `📚4` — Jev calls for $1.43 across template-trap, multi-dimension, and real-ledger account-coding tasks.
+- [Real-time platformer levels](https://x.com/hugoduprez/status/2100953089003921543) `📚4` — Jev can generate game levels in real time. Faster and cheaper structured output could be a big deal for game dev! — by @HugoDuprez
+- [Real-time voice control for a browser](https://x.com/moritzkremb/status/2100577979021832365) `📚4` — Voice → Jev → browser clicks - Hands-busy control loop (~300 ms / ~$0.0002 in the author’s numbers). Video demo; no public repo verified — pattern only.
+- [SEO and GEO fixes, 90% cheaper](https://x.com/irabukht/status/2101090579127951694) `📚4` — by @irabukht. Ryze AI agents that use Jev to audit a client's SEO and GEO and apply fixes at 90% lower cost.
+- [Voice-controlled Mac computer use](https://x.com/instantricecook/status/2100814590300889426) `📚4` — I built a voice controlled computer-use for my mac using @typesafeai's Jev and it's INSANE how fast it is! I can dictate "open the notes app and create..." and the app opens before I even finish my… — by @instantricecook
+- [When a designer gets access to Jev](https://x.com/heystefan_/status/2101369117496521042) `📚4` — X: demonstrates narrowing a large icon set from a natural-language phrase with Jev and discusses mismatches in the reply thread.
+- [60 Jev use cases in Chinese](https://x.com/yaojingang/status/2101867443820113982) `📚3` — X (Chinese): rounds up sixty Jev use cases and organizes them around classification, scoring, and selection.
+- [700 leads scored in 40 seconds](https://x.com/romanbuildsaas/status/2100891604735099103) `📚3` — by @romanbuildsaas, 3,138 likes.
+- [@gregpr07](https://x.com/gregpr07) `📚3` — Browser Use + Jev flight-search demo (AbdelStark showcase)
+- [@Saboo_Shubham_](https://x.com/saboo_shubham_/status/2101576462042366114) `📚3` — Original thread and media preview. The author links a broad examples repository; an exact extension source path was not located. Not installed.
+- [@sid19arya0](https://x.com/sid19arya0/status/2100458351440048258) `📚3` — Single Pokémon battle demo; not a cross-game model leaderboard
+- [@stevekrouse](https://x.com/stevekrouse) `📚3` — TypeSafe Typewriter demo
+- [@vercel_dev](https://x.com/vercel_dev/status/2101116818463281579) `📚3` — AI Gateway offer through September 25; separate from direct TypeSafe pricing
+- [@waynesutton](https://x.com/waynesutton) `📚3` — “Ask Jev anything” public demo
+- [A driving decision simulator](https://x.com/cipherwrk/status/2100965547454374316) `📚3` — I built an autonomous driving system with Jev It receives real time data from its environment & decides what to do next Change lanes,Brake,Accelerate,Slow down With sudden obstacles,pedestrians… — by @cipherwrk
+- [A drone in an asteroid field](https://x.com/mkhordoo/status/2100950317852455039) `📚3` — ms decisions; "99% of the time, Jev steered the drone on its own"
+- [A faster Slack agent](https://x.com/johnyeo_/status/2100987661926252737) `📚3` — Jev made our Slack agent 2x faster ⚡️ Our agent can be quite slow because it needs to read skills and figure out which tools to call. We used @typesafeai's new model to speed this up by first passing… — by @johnyeo_
+- [A Jev index rebuilt every four hours](https://x.com/linearuncle/status/2102423502414618729) `📚3` — X (Chinese): describes a multilingual index that scrapes X every four hours and reports more than 5,380 Jev-related posts.
+- [A job crawler that matches your profile](https://x.com/hqmank/status/2100933183931900346) `📚3` — jev-job-hunter by @hqmank, 75 likes.
+- [A real-time feed quality filter](https://x.com/rbilgil/status/2100976648552169805) `📚3` — Made a real-time slop detector with jev as you scroll — by @RBilgil
+- [A robot arm picks up a ball](https://x.com/daniiarabdiev/status/2100851116498186415) `📚3` — \| SO-101 arm picks up a ball and places it in a bowlDaniiar Abdiev (@DaniiarAbdiev), X, 2026-09-18Author: "Two USB cameras, an SO-101, and @typesafeai's J
+- [A second-hand shopping agent](https://x.com/alandaitch/status/2100757989212754085) `📚3` — by @AlanDaitch. Reads about 26 second-hand listings per minute and decides on each one in 406 ms.
+- [A smart calculator notebook](https://x.com/thekitze/status/2100873520951808403) `📚3` — Jev Calc by @thekitze. A notebook-style calculator that understands terms written in plain language.
+- [AI Will @FinanceYF5](https://x.com/financeyf5/status/2101585391140905034) `📚3` — Chinese-language account of an ad-analysis example; compare Matthew Berman's original September 17 demo so the same case is not counted twice
+- [An ad blocker with judgment](https://x.com/iam_zachi/status/2100529273186472318) `📚3` — I build an undetectable realtime adblocker extension with typesafe It checks every dom element and classifies as ad/non-ad and removes it if true Extremely fun to work with, expecting an incredible… — by @iam_zachi
+- [An assistant without a wake word](https://x.com/_maxblade/status/2100967959879471519) `📚3` — Ai is evolving. Jev can be armed at all times. I can speak freely and it knows ( from probabilities ) if im asking my computer to do something or blaberring away at something else. no wake word… — by @_MaxBlade
+- [An autonomous trading experiment](https://x.com/abolbuild/status/2100523868913807410) `📚3` — $10,000 in Jev’s hands by @abolbuild. Abol handed Jev $10,000 and let it place trades on its own.
+- [Automatic agent and model selection](https://x.com/sawyerhood/status/2100994779291259187) `📚3` — thanks to @typesafeai jev I no longer have fill out all of those fields on prompt boxes. It picks the agent / model / computer / folder for me. - For a major rewrite it uses Fable + Claude Code. -… — by @sawyerhood
+- [Cua announcement](https://x.com/trycua/status/2100649543079502213) `📚3` — Research on 2026-09-19 used X search and original author posts, GitHub repositories, and official TypeSafe documentation. Social demonstrations supplied leads, not verification. In particular, the Cua announcement must…
+- [Doomscroll Filter](https://x.com/robj3d3/status/2101074194260000982) `📚3` — by @robj3d3. You choose a niche and Jev sorts new X posts into Read, Skim or Pass.
+- [Early experimentation using Jev to rethink harness UX](https://elvex.com/blog/early-experimentation-using-jev-to-rethink-harness-ux) `📚3` — Elvex: describes using Jev as a callable harness tool for search, approvals, and context and reports a bulk expense-categorization experiment.
+- [ethereumdegen/jev-discord-bot](https://github.com/ethereumdegen/jev-discord-bot) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Filtering unwanted X replies](https://x.com/iannuttall/status/2100888635943883244) `📚3` — Pro tip: You can use Jev to remove annoying reply guy comments that X seems to always miss. Takes 5 minutes in Astra with the docs and an API key. — by @iannuttall
+- [Hassan El Mghari, @nutlope](https://x.com/nutlope/status/2100426999546184123) `📚3` — cents to classify 1,018 papers, 256 ms median end-to-end per paper. The summaries from another model cost $3.99.
+- [HN: Kev，Jev 开源复刻](https://news.ycombinator.com/item?id=49783999) `📚3` — ev: Tiny Jev-like family of decision models built on top of Qwen3.5 — observed / media-discussions — ⭐4
+- [https://x.com/0xMovez/status/2101007482919227841](https://x.com/0xmovez/status/2101007482919227841) `📚3` — Jev Engineering in 10 steps - X article laying out a 10-step setup that moves an agent's yes/no, next-worker and relevance-scoring calls from an LLM to Jev, then adds a model router and a gate for risky tool calls.
+- [https://x.com/_avichawla/status/2101563610644496464](https://x.com/_avichawla/status/2101563610644496464) `📚3` — Build your own Jev (100% local) - Tutorial on turning an open-source LLM into a local decision engine without retraining, using next-token scoring over fixed choices with SGLang, benchmarked against normal text generation.
+- [https://x.com/jan__kubica/status/2100636173249007696](https://x.com/jan__kubica/status/2100636173249007696) `📚3` — Real implementation: @jan__kubica tested Jev for legal use cases in stll_app:
+- [https://x.com/mdlahfir/status/2100314182201802811](https://x.com/mdlahfir/status/2100314182201802811) `📚3` — Lahfir harness router — Jev routes Claude Code / Codex / Opencode tasks by intensity (Haiku vs Opus sub-agents vs external harness)
+- [https://x.com/sabrinaesaquino/status/2101102660997017747](https://x.com/sabrinaesaquino/status/2101102660997017747) `📚3` — Jev on the Venice API - Demo marking Jev's beta launch on the Venice API, classifying 24,000 Hacker News posts into 12 categories in about 2 minutes.
+- [https://x.com/sotak/status/2100701152824185319](https://x.com/sotak/status/2100701152824185319) `📚3` — sotak · brainstormity · leftspace35 · abhijay_cloaked
+- [https://x.com/wuyang_zhou/status/2100727660875808913](https://x.com/wuyang_zhou/status/2100727660875808913) `📚3` — Minecraft realtime — Jev for fast realtime actions while a planner LLM plans (multi-zombie fight)
+- [Instant variable generation](https://x.com/eltokh7/status/2101016673109016622) `📚3` — eltokh7 · X · ♥ 9 · 2026-09-18Demo of Jev producing variables almost instantly, from a series of Jev developer-tool experiments.
+- [jasondotsetHacked/jev-discord-gate-v1](https://github.com/jasondotsethacked/jev-discord-gate-v1) `📚3` — AWS CDK Discord bot where Jev Noul questions decide whether the generative model should reply and which recent messages to include, with shadow mode. no license · JavaScript
+- [Jev / TypesafeAI is revolutionary as LLMs](https://reddit.com/r/artificialinteligence/comments/1wkhsyh/jev_typesafeai_is_revolutionary_as_llms) `📚3` — Jev impressions on r/ArtificialInteligence - Busy thread (155 comments) where early users share first impressions of Jev, including use as a policy prefilter, and argue about how it compares with frontier LLMs.
+- [JEV captcha arbitrage](https://x.com/kenonews/status/2101656436136661163) `📚3` — X: analyzes CAPTCHA-solving economics using Jev’s per-decision pricing against marketplace payouts.
+- [Jev plays Catan](https://x.com/sachpatro97/status/2101064273187274838) `📚3` — Include legal pass/terminate paths, negotiation budgets and deadlock detection. Local plausible choices do not guarantee progress by the group.
+- [Jev plays Super Mario Bros.](https://x.com/faadilhshaik/status/2100086301894881578) `📚3` — @faadilhshaik got Jev playing Super Mario Bros.
+- [JevForm](https://x.com/tamirspiritt/status/2101079101997982037) `📚3` — introducing JevForm, a form that dynamically branches and chooses what to ask next usinng @typesafeai’s Jev in my life i’ve made hundreds of forms with crazy if/then logic. Jev solves it. built with… — by @tamirspiritt
+- [LangChain is already using Jev inside its harness](https://x.com/dongxi_nlp/status/2100813094951748074) `📚3` — X (Chinese): interprets LangChain’s adoption as evidence that Jev fits fixed harness roles such as agent and model routing.
+- [Live 3D character expressions](https://x.com/john_bortotti/status/2101019513676345555) `📚3` — \| A 3D character's whole performance, ten decisions per messageJoao Bortotti (@john_bortotti), X, 2026-09-18Author: "I'm using @typesafeai's Jev to orches
+- [MakerMods robot arm in MuJoCo](https://x.com/isaacsin12/status/2100833538224668699) `📚3` — \| MakerMods Metal arm in MuJoCo: typed actions with confidenceIsaac Sin (@IsaacSin12), X, 2026-09-18The simulator passes scene state to Jev as JSON; the camera image
+- [Manhattan pathfinding](https://x.com/buildershivam/status/2101014788575035689) `📚3` — Can Jev defeat Dijkstra's or even the Mighty A? Let's check it out on Manhattan! — by @BuilderShivam
+- [MOSS litter-picking simulation](https://x.com/metrox_eth/status/2101021471644733867) `📚3` — \| MOSS litter-picking: Jev chooses the target, replayed in simulationmetr0x (@metrox_eth), X, 2026-09-18Author: "Jev picks the target. MOSS picks up the litte
+- [OpenRouter author post](https://x.com/openrouter/status/2101412965765529853) `📚3` — OpenRouter Ori Eval judging test - OpenRouter's Ori Eval comparison of Jev with popular LLMs as a judge: Jev was more than 5x faster than the next fastest model, and its slowest requests beat every other model's median.
+- [Pac-Man report](https://x.com/daniel_mac8/status/2100335929273524541) `📚3` — Pac-Man: Astra strategizes, Jev carries out actions. Strategic/tactical split; supplied demo description only, no outcome evaluation inspected.
+- [project](https://x.com/heman10x/status/2100836659533336676) `📚3` — Verdict (Open-jev) launch thread - Hemant Kumar on his 151M ModernBERT reproduction: 0.83% adaptive calibration error, 3.0% of predictions flip when the option list is reversed, 35.6ms on CPU, with the failed use cases…
+- [Search your inbox by intent](https://x.com/dabit3/status/2100960281769738433) `📚3` — Intent-based search in Gmail by @dabit3. Gmail search that matches what you mean instead of the exact words you type.
+- [September 17 Jev + AXe post](https://x.com/camsoft2000/status/2100648648434434298) `📚3` — iOS simulator control uses the same loop: observed accessibility state → permitted control ID → simulator action → fresh observation. Roundup source, not reproduced here.
+- [Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev](https://news.ycombinator.com/item?id=49789538) `📚3` — Hallo zusammen. TypeSafe hat letzte Woche Jev veröffentlicht, und das hat mich…
+- [Subway Surfers＋50 平行局](https://x.com/_maxblade/status/2100634359099232678) `📚3` — Jev plays Subway Surfers by @_MaxBlade, 3,956 likes.
+- [Tax document classification](https://x.com/nedwize/status/2100973868324417852) `📚3` — ; check the code and data description, and do not generalize performance from one document collection
+- [Tester Army E2E](https://x.com/o_kwasniewski/status/2100966838905585687) `📚3` — e2e + jev from @typesafeai ⚡ I'm building an open-source framework for running e2e tests with agents. supports web, mobile (and more!) available soon: — by @o_kwasniewski
+- [Tetris with real-time Jev decisions](https://x.com/marcus_lowe/status/2100315518930661861) `📚3` — I got early access to @typesafeai's new Jev model and built a demo of it playing tetris The generation speed is so fast that it's pushing blocks down This feels like another "this changes everything"… — by @marcus_lowe
+- [TypeSafe pauses Jev signups](https://x.com/typesafeai/status/2102281508950307159) `📚3` — X: TypeSafe reports pausing new Jev signups after general availability to protect service quality.
+- [Voice-controlled Figma](https://x.com/mikegee/status/2100845388655960112) `📚3` — Controlling Figma with voice using Jev from @typesafeai Total cost from first line of code to recording this video: $0.01 🤯 — by @mikegee
+- [Writing one character at a time](https://x.com/ryanvogel/status/2100218045549412499) `📚3` — i made an llm from first principles with Jev 29 yes/no questions per character: should the next key be a–z, space, comma, or period? highest probability gets append to it, then fed the updated text… — by @ryanvogel
+- [X 上一条新描述口径](https://x.com/testingcatalog/status/2099968075861008781) `📚3` — Mô tả Jev là &quot;một mô hình quyết định System One nhỏ và có thể tùy chỉnh&quot;, và…
+- [YouTube sponsor skipper](https://x.com/tdinh_me/status/2100793777103466615) `📚3` — by @tdinh_me. Chrome extension that finds sponsor segments in YouTube videos and skips past them.
+- [出处](https://reddit.com/r/picodingagent/comments/1wjibh5/anyone_here_using_jev) `📚3` — Anyone here using Jev? - Thread in r/PiCodingAgent (77 comments) collecting what people build with Jev, starting from routing a natural-language request to one of 250-300 app API calls.
+- [项目来源](https://x.com/jackcheng/status/2100729670991802386) `📚3` — A canvas you control by pointing and speaking by @jackcheng, 4,797 likes.
+- [🐦 Thread](https://x.com/borjafat/status/2101018783976722479) `📚3` — Demonstrated Economics: Crawled and placed 584 links across 586 pages in 45.1 seconds for $0.21 total. Operated ~190x cheaper per page than Claude Opus 5.
+- [🔗 在 X 上查看](https://x.com/studio_yebisu/status/2101065176069886152) `📚3` — All 30 repositories linked in StudioYebisu's roundup received individual AI-agent source reviews. The catalog gained 21 detail pages: four apps, thirteen Jev developer resources, and four explicitly separated…
+- [🔗 在 X 上查看](https://x.com/fazxes/status/2100300097695232164) `📚3` — fx auto-review — Jev as the safety classifier for fx auto mode; ~5–18× faster and more accurate than GPT-5.6 Luna on their benchmark
+- [🔗 在 X 上查看](https://x.com/gregisenberg/status/2101018750916948237) `📚3` — What Jev is, and the businesses it unlocks - Greg Isenberg: find an expensive queue and put Jev at the front of it. Seven ideas, from instant quotes to lead scoring.
+- [🔗 在 X 上查看](https://x.com/openrouter/status/2101061688338575739) `📚3` — Decision models in practice - OpenRouter thread explaining what a decision model is through practical software-development examples where Jev answers yes/no and multiple-choice questions with confidence.
+
+## Long tail (cited by 1–2 lists) — 3,120
+
+<details><summary>Show 3,120 long-tail entries</summary>
+
+- [@_MaxBlade](https://x.com/_maxblade) `📚2` — Jev plays Subway Surfers
+- [@abolbuild](https://x.com/abolbuild) `📚2` — $10,000 in Jev’s hands
+- [@ali_uraish](https://x.com/ali_uraish/status/2100425130082238682) `📚2` — SO-101 simulation: vision model observes, Jev selects an action, local controller executes
+- [@ChetasLua](https://x.com/chetaslua) `📚2` — Author: ChetasLua (@ChetasLua), Real-Time Media and Streaming Systems Engineer.
+- [@dabit3](https://x.com/dabit3) `📚2` — By @dabit3. Rank 18 of 74 by likes.
+- [@danshipper](https://x.com/danshipper) `📚2` — Every — early user experience cited in HN/founder replies
+- [@ephraimduncan](https://x.com/ephraimduncan) `📚2` — A model router on Jev
+- [@fayazara](https://x.com/fayazara) `📚2` — By @fayazara. Rank 53 of 74 by likes.
+- [@harshagundal](https://x.com/harshagundal/status/2100044305536889015) `📚2`
+- [@higgsfield_ai](https://x.com/higgsfield_ai) `📚2` — By @higgsfield_ai. Rank 44 of 74 by likes.
+- [@hqmank](https://x.com/hqmank) `📚2` — By @hqmank. Rank 69 of 74 by likes.
+- [@HugoDuprez](https://x.com/hugoduprez) `📚2` — By @HugoDuprez. Rank 17 of 74 by likes.
+- [@iam_zachi](https://x.com/iam_zachi) `📚2` — jev() for PostgreSQL
+- [@iannuttall](https://x.com/iannuttall) `📚2` — By @iannuttall. Rank 47 of 74 by likes.
+- [@instantricecook](https://x.com/instantricecook) `📚2` — By @instantricecook. Rank 5 of 74 by likes.
+- [@isNickMa](https://x.com/isnickma) `📚2` — Jev as an agent safety monitor
+- [@jarrodwatts](https://x.com/jarrodwatts) `📚2` — By @jarrodwatts. Rank 6 of 74 by likes.
+- [@johnyeo_](https://x.com/johnyeo_) `📚2` — By @johnyeo_. Rank 65 of 74 by likes.
+- [@justALEXWORTEGA](https://x.com/justalexwortega) `📚2` — MLP-on-Qwen mimicking Jev
+- [@kylejeong](https://x.com/kylejeong) `📚2` — By @kylejeong. Rank 46 of 74 by likes.
+- [@LangChain](https://x.com/langchain/status/2101454284927959080) `📚2` — Judge accuracy, repeatability, latency and cost study; truncated excerpt. Same experiment as (N01)(community.md#n01), not a new data point.
+- [@madiator](https://x.com/madiator/status/2100990591215783946) `📚2` — Bespoke Nimble's open model, data, and training recipe; an independent implementation
+- [@marcelpociot](https://x.com/marcelpociot) `📚2` — By @marcelpociot. Rank 35 of 74 by likes.
+- [@maubaron](https://x.com/maubaron) `📚2` — Jev plays Smash Bros. against itself
+- [@milindlabs](https://x.com/milindlabs) `📚2` — By @milindlabs. Rank 22 of 74 by likes.
+- [@NFT_Chen](https://x.com/nft_chen/status/2101253568774697099) `📚2` — Support-ticket routing versus DeepSeek on latency / cost; insufficient evidence for equal accuracy
+- [@niazmorshed_](https://x.com/niazmorshed_) `📚2` — By @niazmorshed_. Rank 52 of 74 by likes.
+- [@NicoSaraintaris](https://x.com/nicosaraintaris/status/2100745151622664392) `📚2`
+- [@nutlope](https://x.com/nutlope) `📚2` — Fraud detection with Jev and Kimi K3
+- [@o_kwasniewski](https://x.com/o_kwasniewski) `📚2` — By @o_kwasniewski. Rank 38 of 74 by likes.
+- [@raihankhan_rk](https://x.com/raihankhan_rk) `📚2` — By @raihankhan_rk. Rank 67 of 74 by likes.
+- [@RBilgil](https://x.com/rbilgil) `📚2` — Real-time slop detector as you scroll
+- [@rileybrown](https://x.com/rileybrown) `📚2` — An agent with a Jev model router
+- [@rinte0321](https://x.com/rinte0321/status/2100736454850908344) `📚2` — Japanese e-commerce live-recommendation demo: mid-conversation product suggestions that react to the user's latest utterance (Jev + gpt-live-1); the experience…
+- [@robj3d3](https://x.com/robj3d3) `📚2` — By @robj3d3. Rank 27 of 74 by likes.
+- [@ryanvogel](https://x.com/ryanvogel) `📚2` — By @ryanvogel. Rank 13 of 74 by likes.
+- [@sarvagya_kul](https://x.com/sarvagya_kul) `📚2` — By @sarvagya_kul. Rank 24 of 74 by likes.
+- [@sawyerhood](https://x.com/sawyerhood) `📚2` — By @sawyerhood. Rank 62 of 74 by likes.
+- [@sotak](https://x.com/sotak) `📚2` — By @sotak. Rank 64 of 74 by likes.
+- [@tamarajtran](https://x.com/tamarajtran) `📚2` — By @tamarajtran. Rank 1 of 74 by likes.
+- [@the_cyw](https://x.com/the_cyw) `📚2` — By @the_cyw. Rank 68 of 74 by likes.
+- [@thekitze](https://x.com/thekitze) `📚2` — By @thekitze. Rank 56 of 74 by likes.
+- [@wmoto_ai](https://x.com/wmoto_ai) `📚2` — Local Jev-style experiment (JP)
+- [@yanhua1010](https://x.com/yanhua1010/status/2101257759497089171) `📚2` — Looks up a 12306 train ticket with the browser agent (Jev Ultrafast): an everyday-usability demo
+- [A 6502 emulator experiment](https://x.com/thebalkanhacker/status/2100962091498684848) `📚2` — Yes yes, Jev can drive, Jev can be a programming language... but lets just skip the middle man ... Jev be the "computer" !!! Motorola 6502 emulation directly…
+- [A chat bot with no LLM](https://x.com/codinggarden/status/2100665210419950031) `📚2` — by @CodingGarden. A chat bot without an LLM. Jev chooses the tool and its arguments, so replies arrive instantly.
+- [A codebase complexity classifier](https://x.com/ryanvogel/status/2100068006592123055) `📚2` — i built a codebase classifier with Jev and this might be the solution to overengineered code that agents create what should I test Jev on next? — by @ryanvogel
+- [A draft quality gate](https://x.com/mnilax/status/2101015355133227348) `📚2` — it's fcking insane Jev sat between GPT and me, killing every draft that broke my rules before i saw it. good setup. then Jev did not answer. the agent decided…
+- [A Jev Magic 8 Ball](https://x.com/will_caskets/status/2100968037117780130) `📚2` — Everyone’s talking about Jev, so I made a slightly silly way to try it. A Magic 8 Ball that returns 1 of 20 answers. My $4 in API credits should cover ~300,000…
+- [A predictive app launcher](https://x.com/hityyhz/status/2101017732913529326) `📚2` — Also been playing with @typesafeai Jev. Insane. A pile of apps suddenly become possible. What a time to be a builder. Sharing experiments here. First one:…
+- [A real-time orchestra conductor](https://x.com/gulatiyajat/status/2100963005764919517) `📚2` — Jev is so cool! I just made Jev conduct a musical orchestra in REAL time My entire TL was filled with Jev demos so decided to give it a spin and needless to…
+- [A Rubik's Cube that solves itself](https://x.com/redp314/status/2100489858951073858) `📚2` — I got a rubik's cube to solve itself with @typesafeai 's Jev and it solves it like a person does, 94 moves, not the 22 move optimal solution. Jev isn't an LLM,…
+- [A Tetris agent](https://x.com/marceloomendes/status/2100969755318370699) `📚2` — ok, I got Jev to play Tetris and this is cool asf — by @MarcelooMendes
+- [A Tetris placement picker](https://x.com/ziwenxu_/status/2100984628811084144) `📚2` — TypeSafe's Jev plays Tetris better than me!! We hooked it up to a Tetris game. Every piece, it looks at the board and all the spots the piece could land, and…
+- [A typed trading-rule experiment](https://x.com/mttcnnng/status/2100971168912048153) `📚2` — So here’s what I built. A simple TSLA / 50-day MA rule, with @typesafeai’s Jev sitting in the judgement layer. Real API calls. Typed answers. My code decides…
+- [A visual reference finder](https://x.com/albicodes/status/2100720936852857271) `📚2` — by @albicodes. Returns 100 reference images from one prompt, drawn from sources like Cosmos and NASA.
+- [Abide coding-agent rules](https://x.com/ohansemmanuel/status/2101034822760288452) `📚2` — best coding agent use case for Jev: enforcing rules a linter can't coding agents tend to break rules and some rules can't be codified Jev can now score every…
+- [Ad creatives from filtered assets](https://x.com/higgsfield_ai/status/2101117855622463719) `📚2` — by @higgsfield_ai. Jev filters content and selects assets, then DeepSeek and Higgsfield turn them into ads.
+- [Adi (@aditya005)](https://x.com/aditya005/status/2101016584571818106) `📚2` — \| Sentinel tactical decisions against a playerAdi (@aditya005), X, 2026-09-18Author: "JEV Live: hands the Sentinel's tactical call to JEV." The post compares
+- [AI Will @FinanceYF5](https://x.com/financeyf5/status/2101502474691698971) `📚2` — Chinese-language account of multi-round play; costs are the poster's report, not independently reproduced
+- [Alex Carrabre (@carrabre)](https://x.com/carrabre/status/2101035345643221239) `📚2` — \| Natural-language camera moves for a video editing toolAlex Carrabre (@carrabre), X, 2026-09-18Author: "Jev converts natural language to precise camera…
+- [An audience of 100 personalities](https://x.com/legitamit/status/2100713197502173373) `📚2` — I used Jev to make an audience of 100 personalities to yap to. Each blob has its own personality and makes its own Jev call every time you talk to decide if…
+- [An offline research decision gate](https://x.com/otto_explorer/status/2100971155297603662) `📚2` — got early access to @TypeSafeAI (Jev). in my last post on autoresearch vs dream-rsi, the quiet bottleneck was: how do you score 28+ dreamt tree branches…
+- [Android end-to-end testing](https://x.com/kevinkern/status/2101032931456168098) `📚2` — Was curious how jev performs for e2e testing on a real android device. Both started with the same prompt and 15 test steps. Well, jev was ~14.8x faster than…
+- [Arpan (@ArpanTripathi20)](https://x.com/arpantripathi20/status/2101011926301991070) `📚2` — \| Early robot-arm experimentArpan (@ArpanTripathi20), X, 2026-09-18Author: "Seems Jev can control robot arms. Need more iterations to make its degre
+- [Author screenshots and feature description](https://x.com/rokcso/status/2100876608340910548) `📚2` — Demo material: Author screenshots and feature description. Original author material, linked only; not SeeAPI test results.
+- [Blitz chess against frontier models](https://x.com/aimlapi/status/2100372930282573876) `📚2` — Jev VS Fable 5.1 VS GPT-6 Astra: chess typesafe's new Jev V13 isn't an LLM. it doesn't chat, doesn't explain, doesn't write code — it only makes decisions. so…
+- [Browser Use discussion](https://news.ycombinator.com/item?id=49735979) `📚2` — Discussion of browser automation.
+- [Choice versus Noul trolley dilemmas](https://x.com/145k4/status/2100933101966758250) `📚2` — i was curious if @typesafeai 's jev would make different judgements if you push a problem through a Choice vs. a Noul, so i ran it through a short series of…
+- [Chrome Dino with live decision scores](https://x.com/mittalparth_/status/2100817199686619348) `📚2` — @typesafeai jev playing chrome dino! the model is incredibly fast! - avg response time: ~280ms - spent 116M tokens - cost? just $4.65. - the input here is a…
+- [Computer use, sped up](https://x.com/savboj/status/2100545295201288678) `📚2` — If you blink you might miss it Jev + Computer use = 100x faster than any LLM @typesafeai — by @savboj
+- [Contextual clipboard quick actions](https://x.com/marcelpociot/status/2100907261593829675) `📚2` — Jev also constantly monitors my macOS clipboard. Is the content of the clipboard a terminal command? The app offers a quick action to run it in my terminal. —…
+- [Criteria-based model routing in Eve](https://x.com/eve/status/2100430918762832180) `📚2` — Ultra-fast, criteria-based model routing using Jev from @typesafeai. — by @eve
+- [Decisions from the command line](https://x.com/ctatedev/status/2100584917092409479) `📚2` — Every agent harness can now use Jev npm install -g ai-cli → ask yes/no questions → choose between options → score against your criteria — by @ctatedev
+- [digitalshane_](https://x.com/digitalshane_/status/2100399951872205224) `📚2`
+- [Discovery post](https://x.com/yibie/status/2100619188062523695) `📚2`
+- [Discovery post](https://x.com/yusukebe/status/2100750454393348237) `📚2`
+- [Discovery source](https://x.com/0xlogicrw/status/2100861912590205411) `📚2`
+- [Discovery source](https://x.com/fakewow_/status/2100889184861110572) `📚2`
+- [Doom with branching futures](https://x.com/toksdotdev/status/2101084662793666618) `📚2` — i got jev + an llm playing doom, with a twist: try several futures, then keep playing from the best outcome. jev picks the moves. a custom harness uses…
+- [Drape real-time virtual try-on](https://x.com/nailthy62/status/2101388186916454439) `📚2` — nailthy62/drape-jev (TypeScript) &middot; 🐦 Thread -- Real-time virtual try-on haul demo for Drape. Matches speech transcripts and outfit metadata in 35 ms at…
+- [Easy-Jev](https://x.com/rory_builds/status/2100606378184171682) `📚2` — Interactive playground where you change the inputs and watch Jev's classifications update in real time.
+- [Ego Lite shopping decisions](https://x.com/ego_agent/status/2100970015977804008) `📚2` — ego lite + Jev + DeepSeek Flash = stupid fast. ⚡ 3.71s for 20 Amazon product decisions. GPT-5.6 Sol: 54.45s Same task. Same result. 10/10 on both. Less…
+- [Every Pac-Man move chosen by Jev](https://x.com/nesanselvan04/status/2100844705588347238) `📚2` — Built a Pacman where every single move is decided by @typesafeai jev 👾 Every tile, Jev gets what is around Pacman and returns a direction, strategy, danger…
+- [Every’s editorial vibe check](https://x.com/danshipper/status/2099947471518474522) `📚2` — by @danshipper. Runs 21 questions over each of 37 documents. That is 1,709 judgments for under one cent.
+- [Fight Jev with live decision probabilities](https://x.com/taufiq_ansari01/status/2100906203396337686) `📚2` — Fight Jev and see who's actually better. Integrated @typesafe_ai 's Jev model to control the enemy in real-time. You can see the live probability of every…
+- [follow-up](https://x.com/camsoft2000/status/2100838015857782784) `📚2`
+- [Furkan (@W33baker)](https://x.com/w33baker/status/2100927795484369231) `📚2` — \| Figma plugin that checks designs against a requirements documentFurkan (@W33baker), X, 2026-09-18Author: "you give it a requirements doc, select your…
+- [Generating text with Jev](https://x.com/0xsuman/status/2100030221189874015) `📚2` — Hack that makes Jev write text by asking one Choice question per character position, with a STOP option, and reading off the most likely letters.
+- [Getting started: install the skill](https://x.com/iannuttall/status/2100982108873191861) `📚2` — Getting started with the TypeSafe skill - Two-step starter: install the official typesafe-ai agent skill, then ask your coding agent to use /typesafe-ai to…
+- [Har (@Sxfyhvx)](https://x.com/sxfyhvx/status/2100929250882691464) `📚2` — \| Blender airplane model, with Jev as the evaluation standardHar (@Sxfyhvx), X, 2026-09-18Author: a chat model reached through OpenCode was asked "to help me…
+- [Higgsfield model routing](https://x.com/higgsfield_ai/status/2101022133753430365) `📚2` — Jev + Higgsfield = solved auto-routing for genAI models. In this demo, @typesafeai’s Jev evaluates prompt and picks the most fit models for video and image…
+- [HN](https://news.ycombinator.com/item?id=49754516) `📚2` — Show HN: Jev vs. GPT-5.6 and Claude Haiku at Pong — observed / media-discussions — ⭐4
+- [HN discussion](https://news.ycombinator.com/item?id=49802160) `📚2` — Jev – a curation of Jev demos on X, tools, skills, and integrations — observed / media-discussions — ⭐43
+- [How Jev makes agents faster and cheaper](https://x.com/da_fant/status/2100659471257366766) `📚2` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [https://x.com/0xMovez/status/2101325703635435523](https://x.com/0xmovez/status/2101325703635435523) `📚2`
+- [https://x.com/AbdelStark/status/2100628873356693788](https://x.com/abdelstark/status/2100628873356693788) `📚2`
+- [https://x.com/adin_ron/status/2102433115918725337](https://x.com/adin_ron/status/2102433115918725337) `📚2`
+- [https://x.com/Akhila_988/status/2102171891410825520](https://x.com/akhila_988/status/2102171891410825520) `📚2` — Inspected model card README, license: apache-2.0 card metadata, requirements.txt, example.py, decision_config.json, and jev_omni.py loader/classifier. X…
+- [https://x.com/AlanDaitch/status/2100438353946513815](https://x.com/alandaitch/status/2100438353946513815) `📚2` — Jev plays Tetris by @AlanDaitch, 48 likes.
+- [https://x.com/alessandro_a0/status/2100573356294607245](https://x.com/alessandro_a0/status/2100573356294607245) `📚2`
+- [https://x.com/amasen02/status/2101630729910366424](https://x.com/amasen02/status/2101630729910366424) `📚2` — AI-assisted catalog review; no affiliation with the maintainer. Listing is not an endorsement. Source, docs, and mock-server tests layout inspected; Docker…
+- [https://x.com/anshuc/status/2101040309522121072](https://x.com/anshuc/status/2101040309522121072) `📚2`
+- [https://x.com/aresotik/status/2100949805573030378](https://x.com/aresotik/status/2100949805573030378) `📚2`
+- [https://x.com/arielweinberger/status/2100687687057285215](https://x.com/arielweinberger/status/2100687687057285215) `📚2` — arielweinberger · AbdelStark · AttractModeIO · zain_hoda
+- [https://x.com/ashkans_dev/status/2101014737383206914](https://x.com/ashkans_dev/status/2101014737383206914) `📚2` — Jev puzzle solver at scale · ashkans_dev · X · ♥ 1 · 2026-09-18Jev solving a batch of logic games at scale, with Sudoku taking noticeably longer than the rest.
+- [https://x.com/atomic_chat_hq/status/2100644221279424925](https://x.com/atomic_chat_hq/status/2100644221279424925) `📚2`
+- [https://x.com/Av1dlive/status/2102802621664985241](https://x.com/av1dlive/status/2102802621664985241) `📚2` — Build an agentic harness using Jev - Avid's builder's guide, and the fullest public write-up of the pattern: where the decision layer sits in a coding harness,…
+- [https://x.com/aviz85/status/2100150169270419572](https://x.com/aviz85/status/2100150169270419572) `📚2` — @aviz85 described wiring Jev into a live claim-ops pipeline for a UK consumer-claims firm handling roughly 35,000 cases:
+- [https://x.com/burstingbagel/status/2102592197476626486](https://x.com/burstingbagel/status/2102592197476626486) `📚2`
+- [https://x.com/chalkers/status/2100429696941080886](https://x.com/chalkers/status/2100429696941080886) `📚2` — chalkers / ② · CleistaCelestia（fixvx）
+- [https://x.com/chalkers/status/2100466530459017458](https://x.com/chalkers/status/2100466530459017458) `📚2`
+- [https://x.com/Chrisondesk/status/2101894289475485849](https://x.com/chrisondesk/status/2101894289475485849) `📚2` — Chrisondesk — comment moderation, line by line - Moderated 100 comments for $0.002171 total and breaks down why: zero output-token cost, a closed answer space…
+- [https://x.com/cjzafir/status/2100991512020725788](https://x.com/cjzafir/status/2100991512020725788) `📚2` — $3.40 spent over 24 hours of testing. Repeats TypeSafe's 70 to 500 ms and 193.6x and 444.6x figures.
+- [https://x.com/cyrilXBT/status/2101515130798297448](https://x.com/cyrilxbt/status/2101515130798297448) `📚2` — The Jev + Claude Code Stack - Where the 200× and 400× headline figures come from, why they are a ceiling rather than a typical result, and the decision-point…
+- [https://x.com/danmana/status/2100545412780220877](https://x.com/danmana/status/2100545412780220877) `📚2`
+- [https://x.com/dave_xt/status/2100723103143997510](https://x.com/dave_xt/status/2100723103143997510) `📚2` — Classifier Wiki Race · dave_xt · X · ▶ 178 · 2026-09-17Web app where Jev races from one Wikipedia article to another in real time with no LLM in the loop,…
+- [https://x.com/davidmokos_/status/2102501546336371030](https://x.com/davidmokos_/status/2102501546336371030) `📚2` — Expo recovers hallucinated docs URLs by @davidmokos_, 43 likes. When an agent requests a docs path that does not exist, a Jev Choice question over the docs…
+- [https://x.com/dustin_podell/status/2100451281013969078](https://x.com/dustin_podell/status/2100451281013969078) `📚2`
+- [https://x.com/dustin_podell/status/2100458335405588607](https://x.com/dustin_podell/status/2100458335405588607) `📚2`
+- [https://x.com/FabioAngela79/status/2101013867627159592](https://x.com/fabioangela79/status/2101013867627159592) `📚2` — Separate reusable judgments from user weights/hide rules. Reweight without another call only when evidence and question meaning are unchanged; retain an undo…
+- [https://x.com/FarouqAldori/status/2100711180704641520](https://x.com/farouqaldori/status/2100711180704641520) `📚2` — One-click invoice finder by @FarouqAldori, 43 likes.
+- [https://x.com/fluixoo/status/2102680895425503354](https://x.com/fluixoo/status/2102680895425503354) `📚2`
+- [https://x.com/GeekCatX/status/2101223068580643172](https://x.com/geekcatx/status/2101223068580643172) `📚2`
+- [https://x.com/GodName794/status/2102199799160475707](https://x.com/godname794/status/2102199799160475707) `📚2` — Jev plays Gomoku · GodName794 · X · ▶ 49 · 2026-09-22Gomoku experiment: deciding alone, Jev lost, but once an attack-defence search filtered candidate moves…
+- [https://x.com/gowthamgts/status/2101635898991587785](https://x.com/gowthamgts/status/2101635898991587785) `📚2` — AI-assisted catalog review; no affiliation with the maintainer. Listing is not an endorsement. Source and offline npm test inspected; live TypeSafe reviews…
+- [https://x.com/heykathan/status/2100680287042814326](https://x.com/heykathan/status/2100680287042814326) `📚2` — heykathan · iam_zachi · sid19arya0 · sybuilds
+- [https://x.com/iam_zachi/status/2100700176444731780](https://x.com/iam_zachi/status/2100700176444731780) `📚2`
+- [https://x.com/imarikchakma/status/2100587614927741435](https://x.com/imarikchakma/status/2100587614927741435) `📚2`
+- [https://x.com/injaneity/status/2100290364657848538](https://x.com/injaneity/status/2100290364657848538) `📚2`
+- [https://x.com/itsayush__/status/2100600179615518918](https://x.com/itsayush__/status/2100600179615518918) `📚2` — itsayush__ · richardcsuwandi · rishi_raj_jain_ · oxfrancesco_
+- [https://x.com/itspraveeny/status/2101333228808499692](https://x.com/itspraveeny/status/2101333228808499692) `📚2` — Live chess with Jev · itspraveeny · X · ♥ 3 · 2026-09-19Chrome extension captures a live chess board and move history, sends it to a local backend and has Jev…
+- [https://x.com/j_lamberts/status/2100577481698734255](https://x.com/j_lamberts/status/2100577481698734255) `📚2` — j_lamberts / ② · Fabulous_7781 · alessandro_a0 · danmana / ②
+- [https://x.com/joaobnobre/status/2100486780298383801](https://x.com/joaobnobre/status/2100486780298383801) `📚2`
+- [https://x.com/KennyChinaTech/status/2102201611502448865](https://x.com/kennychinatech/status/2102201611502448865) `📚2`
+- [https://x.com/kraayenJon/status/2101157548346794059](https://x.com/kraayenjon/status/2101157548346794059) `📚2` — AI slop detector by @kraayenJon, 0 likes.
+- [https://x.com/kshetrajna/status/2100739853101195744](https://x.com/kshetrajna/status/2100739853101195744) `📚2`
+- [https://x.com/kushbhuwalka/status/2100731050075050485](https://x.com/kushbhuwalka/status/2100731050075050485) `📚2` — RAG chunk filter — per retrieved chunk, keep vs drop for precision (no author repo yet)
+- [https://x.com/kwindla/status/2101394993957274021](https://x.com/kwindla/status/2101394993957274021) `📚2` — windla — Jev vs. GPT-5.6 Luna as a voice-pipeline operator - A domain-specific benchmark: Jev hits 92.6% command accuracy at 296ms median latency vs. Luna's…
+- [https://x.com/kylejeong/status/2102561749404971460](https://x.com/kylejeong/status/2102561749404971460) `📚2` — Decision: Jev scores candidate results against the selected relevance criteria.Action: The program returns five higher-scoring results; the author says Jev…
+- [https://x.com/lostingz001/status/2101934790018773143](https://x.com/lostingz001/status/2101934790018773143) `📚2` — Jev Tetris autoplayer · lostingz001 · X · ♥ 1 · 2026-09-21Chinese Tetris demo where each turn packs the board, holes and legal placements into JSON and one Jev…
+- [https://x.com/matthewcanham/status/2102077098756280413](https://x.com/matthewcanham/status/2102077098756280413) `📚2` — Jev Explained for Normies - Matt Canham's X article, written for everyone who read the launch posts and still did not get it.
+- [https://x.com/milindlabs/status/2100515910754750741](https://x.com/milindlabs/status/2100515910754750741) `📚2` — A chief of staff for bots by @milindlabs, 182 likes.
+- [https://x.com/miu21590/status/2101857866378362926](https://x.com/miu21590/status/2101857866378362926) `📚2` — miu21590 — mid-task reasoning-effort routing - Uses Jev to change a coding model's reasoning effort during a run rather than picking a model up front,…
+- [https://x.com/moritzkremb/status/2100566009312940457](https://x.com/moritzkremb/status/2100566009312940457) `📚2` — Memory routing: give each permitted memory store a purpose and retention rule; choose a store or none, then let the host retrieve and check provenance.…
+- [https://x.com/mormonnegro/status/2100408498446111031](https://x.com/mormonnegro/status/2100408498446111031) `📚2` — Headless Chromium agent by @mormonnegro, 213 likes.
+- [https://x.com/nagata_hideyuki/status/2100695580096016611](https://x.com/nagata_hideyuki/status/2100695580096016611) `📚2` — nagata_hideyuki and mkotlikov both build conversational interfaces on top of a model that does not converse. They are informative precisely because they show…
+- [https://x.com/naobit_/status/2101682262857363563](https://x.com/naobit_/status/2101682262857363563) `📚2` — Jev UX linter extension · naobit_ · X · ♥ 4 · 2026-09-20Japanese Chrome extension that evaluates a site's UX by sending Jev several parallel questions per…
+- [https://x.com/npaka123/status/2100202335104598393](https://x.com/npaka123/status/2100202335104598393) `📚2` — @npaka123: 801 likes, 137 reposts - the most-shared explainer, in Japanese.
+- [https://x.com/npaka123/status/2101460638883315761](https://x.com/npaka123/status/2101460638883315761) `📚2` — Agent builds action-game auto-play with a Jev status UI. Truncated prompt; another controller-adaptation lead, not proof of stable success.
+- [https://x.com/nutlope/status/2102881280115249597](https://x.com/nutlope/status/2102881280115249597) `📚2` — How to train your own Jev for $17 - Together AI fine-tunes a Jev-like classifier on Qwen3.5 4B: ~38,000 sampled questions, ~25 minutes of training, and the…
+- [https://x.com/nutlope/status/2103183092428984413](https://x.com/nutlope/status/2103183092428984413) `📚2`
+- [https://x.com/omarelbasat/status/2101786937526739398](https://x.com/omarelbasat/status/2101786937526739398) `📚2`
+- [https://x.com/op7418/status/2101536330018918793](https://x.com/op7418/status/2101536330018918793) `📚2` — Selects and adjusts prefabricated 3D assets in parallel; Jev does not directly generate mesh models
+- [https://x.com/OpenDevLog/status/2100743740549702044](https://x.com/opendevlog/status/2100743740549702044) `📚2` — Reverse CAPTCHA · OpenDevLog · X · ♥ 1 · 2026-09-18Tongue-in-cheek gate that asks five questions to prove you are not human, with Jev classifying every answer…
+- [https://x.com/picocreator/status/2101006253829046539](https://x.com/picocreator/status/2101006253829046539) `📚2` — Simple Jev by @picocreator, 1,105 likes.
+- [https://x.com/pierreeliottlal/status/2100912453999587657](https://x.com/pierreeliottlal/status/2100912453999587657) `📚2` — Which outreach signals book demos by @pierreeliottlal, 113 likes.
+- [https://x.com/raihankhan_rk/status/2100584682664628454](https://x.com/raihankhan_rk/status/2100584682664628454) `📚2` — DiffJury by @raihankhan_rk, 81 likes.
+- [https://x.com/razaanstha/status/2100645675591520612](https://x.com/razaanstha/status/2100645675591520612) `📚2` — Agentic browsing in Chrome by @razaanstha, 194 likes.
+- [https://x.com/realdora_eth/status/2102036344130191370](https://x.com/realdora_eth/status/2102036344130191370) `📚2` — Jev plays Tetris · realdora_eth · X · ♥ 2 · 2026-09-21Tetris hooked up to Jev, which decides where every piece lands.
+- [https://x.com/richardcsuwandi/status/2100603807894053252](https://x.com/richardcsuwandi/status/2100603807894053252) `📚2`
+- [https://x.com/riku720720/status/2100705558512963602](https://x.com/riku720720/status/2100705558512963602) `📚2`
+- [https://x.com/riku720720/status/2100738087584481657](https://x.com/riku720720/status/2100738087584481657) `📚2` — Emotion cellular automata - Many parallel agents updating state with Jev — unusual multi-body concept (not another single-player bot). Lower likes; higher…
+- [https://x.com/rileybrown/status/2100607709317861879](https://x.com/rileybrown/status/2100607709317861879) `📚2` — An agent with a Jev model router by @rileybrown, 281 likes.
+- [https://x.com/roiyaruRIZ/status/2101130711067431018](https://x.com/roiyaruriz/status/2101130711067431018) `📚2`
+- [https://x.com/shannon_fano/status/2100639390468833379](https://x.com/shannon_fano/status/2100639390468833379) `📚2` — shannon_fano（fixupx）· pj4533 · pcp_liu · nawtayei
+- [https://x.com/StrateGeee/status/2100247334961426434](https://x.com/strategeee/status/2100247334961426434) `📚2` — StrateGeee framed this as the whole product: "workflow state → typed decisions → deterministic policy gates, escalating uncertain cases to frontier models or…
+- [https://x.com/tanaysoni_/status/2101020844092756072](https://x.com/tanaysoni_/status/2101020844092756072) `📚2` — Adapt to different observed interfaces and legal controls. Discover the action space instead of assuming every application accepts the same moves.
+- [https://x.com/the_cyw/status/2101020586931875932](https://x.com/the_cyw/status/2101020586931875932) `📚2` — X timeline labeler by @the_cyw, 79 likes.
+- [https://x.com/the_mdfazal/status/2102012970373111933](https://x.com/the_mdfazal/status/2102012970373111933) `📚2`
+- [https://x.com/TheMattBerman/status/2101439340588974096](https://x.com/themattberman/status/2101439340588974096) `📚2`
+- [https://x.com/tspy/status/2100864234523685146](https://x.com/tspy/status/2100864234523685146) `📚2` — X intent labeller — observed / apps-demos — ⭐0
+- [https://x.com/tsuyoshi_osiire/status/2100734646824902713](https://x.com/tsuyoshi_osiire/status/2100734646824902713) `📚2`
+- [https://x.com/typesafeai/status/2099944756931596454](https://x.com/typesafeai/status/2099944756931596454) `📚2`
+- [https://x.com/typesafeai/status/2101490102866493522](https://x.com/typesafeai/status/2101490102866493522) `📚2` — Time-limited Vercel Gateway promotion through Sept 25 according to the supplied post. Provider-specific; not free OpenRouter usage.
+- [https://x.com/vercel/status/2101077346203971900](https://x.com/vercel/status/2101077346203971900) `📚2` — Vercel's earlier post says Jev was adopted faster than any other model in AI Gateway history. It reports about 13% of teams in the first day, 2x the GPT-5.6…
+- [https://x.com/VladTerin/status/2100762694223618177](https://x.com/vladterin/status/2100762694223618177) `📚2`
+- [https://x.com/Yarilo7brigada/status/2100946657965912253](https://x.com/yarilo7brigada/status/2100946657965912253) `📚2` — live ads in 40 seconds by @Yarilo7brigada, 59 likes.
+- [https://x.com/yoheinakajima/status/2100674306405814568](https://x.com/yoheinakajima/status/2100674306405814568) `📚2` — Also: graph extraction. A host proposes entities and candidate relations from source passages; Jev selects a relation label or none for each pair. Keep…
+- [https://x.com/zain_hoda/status/2100720719470494126](https://x.com/zain_hoda/status/2100720719470494126) `📚2`
+- [Implementation / documentation](https://x.com/stoufax/status/2100899469843673218) `📚2`
+- [Instant calorie tracking](https://x.com/thekitze/status/2100857642566758849) `📚2` — i made a calorie tracking app with jev. it's INSTANT 🤯 — by @thekitze
+- [Intelligent autofill buttons](https://x.com/ctnicholasdev/status/2100928133608472817) `📚2` — I love that Jev can fit into basically any app. You don't need to build everything around a chat, you can just integrate intelligent features into the…
+- [Intent-aware search in Replicas](https://x.com/saaiarora/status/2100807349363741132) `📚2` — small experiment where I used jev to power the global search in replicas. the possibilities of improving UX with models like jev are endless. we can now have…
+- [Jev Arena](https://x.com/raihankhan_rk/status/2100951738606035176) `📚2` — I've had access to Jev by @typesafeai for about 30 hours now and I can't stop thinking of the million places it can be used 🤯 Meanwhile, checkout this fun…
+- [Jev as a QA tester](https://x.com/krzysztof_moch/status/2100513641556549700) `📚2` — You can hire Jev from @typesafeai as your QA tester — by @krzysztof_moch
+- [Jev attempts Resident Evil](https://x.com/juminoz/status/2100846091281506370) `📚2` — So @typesafeai Jev knows how to shoot and dodge, but can Jev survives against zombies in 3D space??? I had Jev played the original Resident Evil to see how far…
+- [Jev beats Super Mario Bros.](https://x.com/ishuagra02/status/2101025059909353718) `📚2` — Jev beat Super Mario Bros. Every moment, the simulator returns structured data of the game's current state, such as Mario's position, nearby enemies, and…
+- [Jev board](https://x.com/zahlekhan/status/2100681083176226921) `📚2` — Introducing jev board, short for jevin keyboard. Fast, reliable models unlock much subtler experiences for building ambient intelligence into interfaces. A…
+- [Jev cannot emit an invalid output, but where is the reliability curve?](https://reddit.com/r/artificialinteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but) `📚2` — Reddit: questions whether Jev’s calibration claims are backed by published ECE or reliability curves while accepting its typed-output guarantee.
+- [Jev compaction for OMP](https://x.com/jerry543/status/2100987079488409741) `📚2` — If you use omp, you're missing out on jev based compaction It helps your agent optimize token usage with 30 to 55% less context. $0.0005 a pass What it does: -…
+- [Jev Detector](https://x.com/jozef_gherman/status/2100627898436571555) `📚2` — by @jozef_gherman. AI slop detector that scans about 10,000 words in 2 seconds.
+- [Jev inside a security pipeline](https://x.com/grichadev/status/2100437998571860087) `📚2` — Jev in a security pipeline - Results table from a production security pipeline: Jev reached 99.3% accuracy at 0.259s latency and $0.026 per 1K, versus Gemini…
+- [Jev is on Workers AI as typesafe/jev](https://reddit.com/r/cloudflare/comments/1wmjsj2/typesafes_jev_the_decisiononly_model_is_on) `📚2` — Reddit: reports the model appearing on Cloudflare's Workers AI surface as typesafe/jev, a second Cloudflare integration alongside the AI Gateway listing.
+- [Jev plays Balatro](https://x.com/juris_savos/status/2100989012966031417) `📚2` — Jev from @typesafeai plays @BalatroGame. Every hand it sees the cards, jokers, and blind, then picks play or discard in ~200–500ms. After the ante, it shops…
+- [Jev plays piano](https://x.com/nickfromlater/status/2100963628484624670) `📚2` — Jev playing the piano. I gave it the key, all 88 notes to choose from and the sequence so far. Did chords in a second pass once we had the melody by giving it…
+- [Jev plays Time Crisis](https://x.com/juminoz/status/2100832108855857325) `📚2` — Alright. So we know that @typesafeai Jev can fight, but can Jev shoot and avoid getting shot? I had Jev playing one of my favorite arcade shooter, Time Crisis,…
+- [Jev Reviewer](https://x.com/asofimahmudi/status/2100985031703269425) `📚2` — Introducing Jev Reviewer, a tool designed for systematic reviewers to quickly find and extract the information from research articles. App: GitHub: — by…
+- [Jev vs Claude, same agent, same instructions](https://x.com/godefroy/status/2103583148575768597) `📚2` — Author demo on X: Jev vs Claude, same agent, same instructions — public side-by-side latency/personality demo (Blip voice-controlled agents; Jev claimed ~233…
+- [Jev vs OpenJev in an FPS](https://x.com/neel490/status/2101028527978020920) `📚2` — Made Jev fight OpenJev in a first person shooter. — by @Neel490
+- [Jev vs. GLM at chess](https://x.com/nutlope/status/2101010773157761481) `📚2` — Jev vs GLM 5.3 at chess! Results: ◾ GLM 5.3 won by checkmate in 29 moves ◾ Jev: ~0.3s and <$0.0001 per move ◾ GLM 5.3: ~5.8s and ~$0.008 per move ◾ The whole…
+- [jev-browser-skill](https://x.com/aibuilderclub_/status/2101316543317684368) `📚2`
+- [Jev-like wrapper discussion](https://news.ycombinator.com/item?id=49853175) `📚2` — A single function Jev-like wrapper for LLMs, including vision models — observed / media-discussions — ⭐73
+- [Jevals](https://x.com/dayhaysoos/status/2100968892591968320) `📚2` — I wanted an easier way to test my jev requests and see if my results are improving, so I built jevals! It's a local workbench for testng the Noul, Choice, and…
+- [Jevinik](https://x.com/unicodeveloper/status/2100965455506628834) `📚2` — JEVINIK - Evaluating stocks insanely fast with @typesafeai's Jev It pulls market data, signals, risk & filings around any stock, then calls the next 30 days: 🐂…
+- [jevlike](https://x.com/vinnylarouge/status/2100170846346097083) `📚2` — (Research and data)(#research-and-data)
+- [Jevmaxxing with Notte](https://x.com/nottecore/status/2101021237417787819) `📚2` — Jevmaxxing on Notte browser sessions ⚡️ > Type a task, hit start, and watch Jev @typesafeai pick every actions super fast from the page's action space. > new…
+- [Jevton: a town of 120 people](https://x.com/chiziaruhoma/status/2100878555047514390) `📚2` — WTF !!! I pushed @typesafeai to a break neck decision making frenzy and it held up its own. Insane I built a town where Jev makes EVERY decision and never…
+- [Jido agents play tic-tac-toe](https://x.com/mikehostetler/status/2100946109308748079) `📚2` — Jido Jev + ReqLLM playing Tic Tac Toe Each agent makes Jev calls to determine their next move, pretty fun! Now time to scale up ... — by @mikehostetler
+- [JollyRojak (@Michael50663932)](https://x.com/michael50663932/status/2101009609087389712) `📚2` — \| Chaotic kitchen priority decisionsJollyRojak (@Michael50663932), X, 2026-09-18Author: "I built a chaotic kitchen to stress-test Jev." The setup
+- [Jony Shaik (@JonyShaik)](https://x.com/jonyshaik/status/2100827590781214981) `📚2` — \| Multi-stage manipulation with confidence gatesJony Shaik (@JonyShaik), X, 2026-09-18Author: "Jev handles the high-level task transitions and confidence gati
+- [Korean sentences, one call vs whole document (Threads)](https://threads.com/@ebrain.lab/post/dddggxuolll) `📚2` — orean sentences: 40 of 40 sent one per call, 62% when the whole document went in one call.
+- [launch](https://x.com/chrisspickett/status/2102855582969725198) `📚2` — Jev x Orthogonal.” Launch demo on X (@chrisspickett, 2026-09-23) shows the same Orthogonal × Jev UI with “JEV MATCH” cards and Orthogonal POST snippets.…
+- [Laya author on Hacker News](https://news.ycombinator.com/item?id=49765348) `📚2` — Laya the open source version of Jev — observed / media-discussions — ⭐19
+- [League of Legends win probabilities](https://x.com/filicroval/status/2100963424163307712) `📚2` — got @typesafeai's jev to build a League of Legends win-probability overlay in real-time every second, the model receives the full game state in and answers…
+- [Live clinical-transcript classification prototype](https://x.com/rheum_ai/status/2100454043361722798) `📚2` — During a live clinical consultation (with an ambient scribe), the transcript is periodically supplied to Jev, which traverses a medical ontology to classify…
+- [Live viral post analyzer](https://x.com/rileybrown/status/2100425868053008758) `📚2` — by @rileybrown. Gives a draft post a score half a second after you stop typing.
+- [LLMs generate answers, Jev makes decisions](https://x.com/paarangatrai/status/2100113737097367896) `📚2` — LLMs generate answers. Jev makes decisions. - One-line mental model that stuck hard on X. Use it to explain System One to teammates; it is a frame, not a…
+- [Lurk](https://x.com/mxfp4/status/2101070906852298910) `📚2` — by @mxfp4. Finds and tracks Reddit threads so your content can get cited by AI, at no cost.
+- [Magic Jev Ball](https://x.com/acharyaagamya/status/2101129105676861621) `📚2` — acharyaagamya · X · ♥ 5 · 2026-09-19Joke button for GitHub pull requests that checks CI, diff size and reviews, then lets Jev answer 'should I approve this?'…
+- [main](https://x.com/nelsonpatrao/status/2102780634103939560) `📚2` — . Optional maker demos on X: main post, video.
+- [Making beats by talking](https://x.com/mahirb22/status/2101023899265692100) `📚2` — Jev is insane. SOUND ON!!! I made music just by talking to it. "Add a snare on the backbeat." "Make it darker." "Way faster." "Add scratch on the offbeats and…
+- [Mario Never Dies](https://x.com/theappcypher/status/2101095181382721998) `📚2` — okay Jev is an INSANE unlock, I just gave Mario a multiverse. built "Mario Never Dies" with @typesafeai's Jev + microsandbox Jev picks every move and every…
+- [maubaron/typesafe-smash](https://x.com/maubaron/status/2100738237237002706) `📚2` — Jev plays Smash Bros. against itself by @maubaron, 3,620 likes.
+- [Maxfusion competitor-ad research](https://x.com/mightyking/status/2100939189869002819) `📚2` — JEV is insane for competitor research! We gave it Resilia's ad library It classified 1,891 ads in 19 seconds for $0.12 costumer journey step + Ad style And a…
+- [Meaning Diff](https://x.com/johnsandovai/status/2102222760131101044) `📚2` — johnsandovaI · X · ▶ 31 · 2026-09-22Open-source patch reviewer that looks at what a diff means rather than its lines; on a broken checkout it flagged an agent…
+- [Measuring progress in agent traces](https://x.com/0xkaushik_k/status/2100928490367230201) `📚2` — Got early access to @typesafeai Jev and spent a few hours building on it. The problem I keep hitting: agent traces tell you which tool ran, how long it took,…
+- [Meliwat93](https://x.com/meliwat93/status/2100404711283188181) `📚2`
+- [Nanocode with selective memory compaction](https://x.com/kylejeong/status/2100827289349132657) `📚2` — i added Jev compaction to a small agent with searchable memory. this is a fork of nanocode with some extra tools to grep a memory.md file + use Jev compaction…
+- [ne0ekspert/messageeval-discord](https://github.com/ne0ekspert/messageeval-discord) `📚2` — Discord bot that evaluates message like chess Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [News matching for brands](https://x.com/elvissun/status/2100951347080421409) `📚2` — Jev is INSANE. 🤯 in 24.9 seconds it read 384 news from this morning and told 15 brands which stories to hop onto today, for $0.19. Claude Opus 5, running on…
+- [On-demand UI flow capture](https://x.com/omarjpeg/status/2101047036863037753) `📚2` — I've wanted this for ages and it's finally possible now with Jev by @typesafeai Imagine Mobbin, but it grabs fresh flows for whatever you’re looking for…
+- [OpenJev](https://reddit.com/r/localllama/comments/1wjlyzr/still_on_the_jev_waitlist_i_hosted_openjev_its) `📚2` — Laya · Von and critical feedback
+- [OpenJev on Hacker News](https://news.ycombinator.com/item?id=49752041) `📚2` — OpenJev - Thread on openjev.com (108 points, 53 comments): commenters note it is unaffiliated, emulates Jev with Qwen3 0.6B, takes 0.5-2s on an M2 Max, and…
+- [OpenRoboto (@openroboto)](https://x.com/openroboto/status/2101310974359941332) `📚2` — \| Jev, GPT-6 Astra and GPT-4.1 mini on an apple-to-plate taskOpenRoboto (@openroboto), X, 2026-09-19Post: "We compared Jev, GPT-6 Astra and GPT-4.1 mini in
+- [OpenRouter X](https://x.com/openrouter/status/2103610898690855161) `📚2` — Decision: Jev judges task type, difficulty, precision needs and likely benefit from a larger model, then selects a model and reasoning effort.Action:…
+- [ostyn (@ostynhyss)](https://x.com/ostynhyss/status/2100987585384345890) `📚2` — \| Microduck navigates around obstacles to a goalostyn (@ostynhyss), X, 2026-09-18Author: "I plugged Jev into a version of @huggingface Microduck and it can…
+- [Painting the Golden Gate Bridge](https://x.com/_shubhankar/status/2100834561995493476) `📚2` — i wanted to paint with Jev 🎨 watch this beautiful painting of the Golden Gate Bridge, powered by Codex(Astra) + Jev + @Stagehanddev + @browserbase (video at 1x…
+- [Paper Breakdown research recommendations](https://x.com/neural_avb/status/2100881974780993668) `📚2` — Organically integrated JEV in a real project The Paper Breakdown Recommendation Engine We already had a working system that combines content-based and…
+- [Parallel adversarial browser testing](https://x.com/rafalwilinski/status/2100882207879434359) `📚2` — thanks to @typesafeai's Jev we now have massively parallel browser-based adversarial testing suite that tries to break each release. and it costs pennies. — by…
+- [powered by Jev](https://x.com/mmmikhaeel/status/2102105486501822826) `📚2` — Vendor-stated: the product author posted that the tool is powered by Jev and extracts product features and business logic into markdown. The homepage describes…
+- [Proq construction-plan classification](https://x.com/hari_trinay/status/2101118529936519453) `📚2` — Built a construction plan-set classifier with Jev. Proq turns civil and building plan sets into bills of materials using an LLM pipeline we built on GPT-4.1.…
+- [Scoring 3,000 kids’ snacks](https://x.com/nikunj/status/2101006585481073093) `📚2` — Jev scoring 3000 kid snacks with multiple criteria on in 28 seconds for $0.11 🤯 — by @nikunj
+- [Scoring every shot in a video ad](https://x.com/vladdubchak_x/status/2100870244004683886) `📚2` — Jev is insane for ad research. I built a tool that scores every shot of any video ad on meta in 1.5 seconds. It runs on Maxfusion + @typesafeai I pushed 450+…
+- [Search a physical library](https://x.com/s3ththompson/status/2100975114753892550) `📚2` — Jev lets me search my physical library by looking at the entire book index in parallel in 300ms. Here, the answer to “Who invented photography?” is probably on…
+- [Sentence-by-sentence AI text detection](https://x.com/ahmedgagan11/status/2100955502075388250) `📚2` — Jev is crazy 🤯 I made an AI text detector powered by Jev. Scans a complete article and gives a sentence by sentence breakdown in almost realtime. — by…
+- [September 21 roundup](https://x.com/openrouter/status/2102125748723339774) `📚2` — OpenRouter's September 21 roundup features JevAI for XMage, Jev Chess, tisco, Vibe Domain, and jev_search. Their screenshots are in the gallery above. Project…
+- [Show HN: Jevopt: Making intelligent compiler optimisation decisions with Jev](https://news.ycombinator.com/item?id=49795171) `📚2` — Can Jev optimise the size of compiled binaries better than clang -Oz? Turns out…
+- [Simon 文章讨论（09-22 收录）](https://news.ycombinator.com/item?id=49796843) `📚2` — Jev introduces a new shape of LLM — observed / media-discussions — ⭐4
+- [site](https://x.com/bl888m_eth) `📚2`
+- [site](https://discord.gg/3kegbk9pvr) `📚2`
+- [Skill Router for Claude Code](https://x.com/lomeshdutta/status/2100833655518367871) `📚2` — Just hacked a fun little project - Skill Router (Open source) using Claude and Jev @typesafeai Why? I have ~ 90 Claude Code skills installed and use maybe…
+- [status/2101405199827149139](https://x.com/vpoile1/status/2101405199827149139) `📚2` — Related X discovery post: status/2101405199827149139.
+- [Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev](https://news.ycombinator.com/item?id=49781612) `📚2` — observed / media-discussions — ⭐5
+- [survival-mode post](https://x.com/paonx_eth/status/2102801840819556417) `📚2`
+- [Switch between manual and AI play](https://x.com/adrianmg/status/2100970810483823086) `📚2` — Had some fun taking Jev from @typesafeai for a spin, switching seamlessly between manual and AI-driven gameplay. It’s clocking 2–3 calls/sec at 60 FPS, with…
+- [Tarun Tomar](https://linkedin.com/posts/taratt_zero-shot-robot-tasks-with-the-new-typesafe-activity-7506600373059588096-fljn) `📚2` — \| Askable Arm: plain-English goals chained from hard-coded primitivesTarun Tomar, LinkedIn, 2026-09-18Post: "Give it a goal in plain English. Jev chains a set…
+- [Taylor Otwell's announcement](https://x.com/taylorotwell/status/2100700952923713641) `📚2`
+- [TextLayer (@textlayerai)](https://x.com/textlayerai/status/2100998343254257898) `📚2` — \| Jev flies a rocket in Kerbal Space ProgramTextLayer (@textlayerai), X, 2026-09-18Post: "Gareth, our AI Architect, did the obvious thing: gave @typesafea
+- [The compaction plugin, in Chinese](https://x.com/suoha_ai/status/2100780634734002230) `📚2` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [The Jev archive built by OpenChamber](https://x.com/openchamberai/status/2102423502414618729) `📚2` — X: an independent site that has crawled X every four hours and collected 5,380+ Jev posts into a classified, multilingual index.
+- [The X algorithm, rebuilt with Jev](https://x.com/leojrr/status/2100470174130250127) `📚2` — by @leojrr. Rebuilds the X algorithm to estimate how far a post will reach, with a global feed of everyone's posts.
+- [Three Jev bots in an FPS](https://x.com/tommyvedvik/status/2100903520425677027) `📚2` — I put 3 JEV bots inside a FPS game. — by @tommyvedvik
+- [Touchpress mobile end-to-end testing](https://x.com/wobsoriano/status/2100813615410634997) `📚2` — my mobile e2e testing library powered by @agent_device and AI sdk now supports Jev from @typesafeai Same test, same loop: Jev: 29s, $0.003 Haiku 4.5: 37s,…
+- [Turning GLM-5.3-Flash into a Jev-like decision model](https://news.ycombinator.com/item?id=49857656) `📚2` — Nous avons trouvé une approche pour obtenir des propriétés de type Jev à partir…
+- [Turning signals into decisions](https://x.com/_trou3/status/2100481938016669917) `📚2` — For those who still didn't understand what Jev from @typesafeai can do, here is the example. Jev can read dozens of structured trading signals and then show…
+- [TypeSafe AI's Jev Is Not an LLM – and That May Be the Point](https://news.ycombinator.com/item?id=49761730) `📚2` — observed / media-discussions — ⭐2
+- [TypeSafe X](https://x.com/typesafeai/status/2103218258405118035) `📚2`
+- [TypeSafe X](https://x.com/typesafeai/status/2103612889655353346) `📚2`
+- [typing explanation](https://x.com/camsoft2000/status/2100675440004289011) `📚2`
+- [Upweight for Hacker News](https://x.com/visheshbaghell/status/2100536228827496721) `📚2` — I recently got access to jev from and built this, because I hated the hacker news front page. everyone gets the same stories in the same order. someone else…
+- [video](https://x.com/nelsonpatrao/status/2102788177257722316) `📚2`
+- [vlad-terin-jev-browser](https://x.com/vladterin/status/2100448995415863323) `📚2`
+- [Voice commands for Autumn billing](https://x.com/charlielamb/status/2100946207530955145) `📚2` — 🚨Do not record Jev demos while @ogme01 flies a drone over your desk 🚁 You can now dictate attaches, updates, schedules & more in the @autumnpricing dashboard,…
+- [Voice intent to tool calls](https://x.com/bhosalepratim/status/2100986774742765991) `📚2` — Played around with @typesafeai Jev today, mostly to understand what it does for tool calling. Instead of an LLM deciding what to do, I substituted that part…
+- [Website to App](https://x.com/chddaniel/status/2100919415554617537) `📚2` — by @chddaniel. Paste a URL and Jev decides how to rebuild that site as a native mobile app.
+- [Whose Jev Is It Anyway?](https://x.com/charliemolthrop/status/2100946286136406421) `📚2` — I'm laughing out loud. I turned Jev into an improv judge. Introducing: 'Whose Jev is it Anyway?' — by @CharlieMolthrop
+- [Worth Replying finds relevant X discussions](https://x.com/aisaonehq/status/2100894473085489510) `📚2` — We built "Worth Replying" with Jev + AIsa. Drop in a company’s domain and it finds people on X already talking about the problems your product solves. We…
+- [X demo](https://x.com/anishfn/status/2102327334485557422) `📚2` — Selects a prebuilt card and intent signals as you type; ordinary code handles dates, amounts, and calculations.
+- [X demo](https://x.com/carlaiau/status/2102519449517785191) `📚2` — Scores sentence-level emotions while you read; a separate deterministic name-and-alias map navigates characters.
+- [X demo](https://x.com/kylemclaren/status/2102038326588878950) `📚2` — Streams lexical site-search results first, then uses Jev to judge and rerank a bounded candidate set.
+- [X demo](https://x.com/kylemclaren/status/2100953409973108759) `📚2` — Adds typed semantic predicates and judgments around ordinary Postgres queries, with batching and cached row decisions.
+- [X post](https://x.com/mrahmadawais/status/2102456912486989945) `📚2` — Upstream demo video linked from README (X post).
+- [X post](https://x.com/numankhannnnn/status/2102780024411869576) `📚2` — Author demo: X post (video demo of paste → tool morph; not independently reproduced here).
+- [yink12138/zhihu-ai-filter](https://github.com/yink12138/zhihu-ai-filter) `📚2`
+- [Youform voice builder](https://x.com/themkmaker/status/2100961111319429403) `📚2` — Used Jev to build voice builder in Youform. It is so fast! — by @themkmaker
+- [Zaid Bulbul (@zaidbul)](https://x.com/zaidbul/status/2100949713138729135) `📚2` — \| Zero-shot control of a physical robot arm, no trained policyZaid Bulbul (@zaidbul), X, 2026-09-18Author: "have not seen anyone actually using Jev for…
+- [zsh history completion with Jev](https://x.com/diygod/status/2101886889150292085) `📚2` — X: picks the most likely next command from the last 100 deduplicated history entries by asking Jev, and shows it greyed out after the prompt.
+- [原始入口](https://x.com/brainstormity/status/2100471987860553931) `📚2`
+- [原始入口](https://x.com/sybuilds/status/2100417692096459074) `📚2`
+- [原文](https://x.com/harrisonitsme/status/2100799749192569167) `📚2` — Agent Skill and key setup tutorial; waitlist instructions are historical
+- [原文](https://x.com/ai_xiaomu/status/2101135680168771979) `📚2` — Long Chinese introduction; its waitlist instructions were superseded by a later announcement
+- [工具调用评测讨论](https://news.ycombinator.com/item?id=49788402) `📚2` — We Tested Jev on 100 Agent Tool Calls — observed / media-discussions — ⭐10
+- [开源推](https://x.com/jarrodwatts/status/2100405097029148890) `📚2` — Open-source release of U05; source documentation inspected below, trading not run.
+- [成了，用 cua 和 jev 实现电脑控制](https://xiaohongshu.com/explore/6aaf844a000000001103379c) `📚2`
+- [笔记](https://xiaohongshu.com/explore/6aafe241000000001103375f) `📚2` — Title, attribution, and the tokened link come from the CodeAlex52/awesome-jev-cn index; the tokened visit still returned “page not found,” text unverified
+- [项目来源](https://x.com/theraz0r/status/2100898307186864593) `📚2`
+- [🐦 Thread](https://x.com/rronak_/status/2101544156757950697) `📚2` — Achieved a 40% reduction in elapsed run time compared to monolithic 14-minute LLM baselines per Ronak Malde's Benchmark Report.
+- [🔗 在 X 上查看](https://x.com/princecaarlo/status/2100313645116952701) `📚2`
+- [🔗 在 X 上查看](https://x.com/chenchengpro/status/2100516953496670430) `📚2`
+- [🔗 在 X 上查看](https://x.com/0xboyd/status/2100539883836018697) `📚2`
+- [🔗 在 X 上查看](https://x.com/brendanplayford/status/2100485748533440990) `📚2`
+- [🔗 在 X 上查看](https://x.com/maxrovensky/status/2100706874173575199) `📚2` — Trolley problems: humans vs robots - Video of Jev working through trolley problems, where it chose to sacrifice a human to save robots.
+- [🔗 在 X 上查看](https://x.com/ctnicholasdev/status/2100611346203353110) `📚2`
+- [🔗 在 X 上查看](https://x.com/libukai/status/2100984923926728920) `📚2`
+- [🔗 在 X 上查看](https://x.com/suoha_ai/status/2101000339948282090) `📚2`
+- [🔗 在 X 上查看](https://x.com/matijasosic/status/2100190746389135772) `📚2` — second Jev TL;DR - Short explainer video that walks through Jev's core idea more simply than the launch video.
+- [🔗 在 X 上查看](https://x.com/completeskeptic/status/2100655158992719907) `📚2`
+- [🔗 在 X 上查看](https://x.com/akira_papa_it/status/2100590065357639971) `📚2`
+- [🔗 在 X 上查看](https://x.com/miiura/status/2100615772053877164) `📚2` — Also: autocomplete. Let code or a text model propose completions; Jev ranks those supplied candidates using the prefix and surrounding context. Return a…
+- [/last30days](https://x.com/slashlast30days) `📚1`
+- [0x_kaize — free ways to access Jev without a waitlist](https://x.com/0x_kaize/status/2101330099802886343) `📚1` — A practical, non-marketing rundown of no-waitlist Jev providers (OpenRouter, Vercel AI Gateway, Cloudflare, Netlify AI Gateway, OpenCode Zen) with a real…
+- [0xboyd](https://x.com/0xboyd/status/2100418365986578908) `📚1`
+- [0xchromium — a paper on Jev as the agent's decision layer](https://x.com/0xchromium/status/2103881299606098009) `📚1` — Summarizes new research where Jev handles every bounded decision in an agent loop and a frontier LLM is called only for writing or low-confidence cases,…
+- [0xRicker — "Jev Engineering" as a control-system layer](https://x.com/0xricker/status/2101705843200721203) `📚1` — Frames state → decision → action → verification → next state as a distinct architectural layer most agent stacks are missing.
+- [0xwhrrari — Almeida's 12-page blueprint](https://x.com/0xwhrrari/status/2104587006680379439) `📚1` — Summarizes a 12-page PDF from Diogo Almeida: a 10-step blueprint for making any LLM faster, cheaper, and more controllable, starting with "separate generation…
+- [1 秒组装 UI](https://linkedin.com/posts/michaeltefula_ive-been-testing-jev-a-new-ai-model-from-activity-7506620679417442304-qtlm) `📚1`
+- [1whsav6 评论区](https://reddit.com/r/picodingagent/comments/1whsav6) `📚1` — Reddit u/peepo_comfy
+- [22 分钟 Jev 演示讲解](https://x.com/techyoutbe/status/2101213908677857400) `📚1` — minute Jev walkthrough · techyoutbe · YouTube · ♥ 14 · 2026-09-19Video of about 22 minutes explaining what Jev can do, with demos of three apps built on it.
+- [27b](https://x.com/4rcherhume/status/2101888238357237798) `📚1` — Doccy/Solomon-27B (Python) &middot; 🐦 Thread -- Open-weight alternative to Jev by Archer Hume and Doccy healthcare based on Qwen3.8 27b. Features native…
+- [30 things you can do with Jev](https://x.com/29meat_ai/status/2100844631693095267) `📚1` — Japanese-language introduction to what Jev does and does not do, walking through 30 real prototypes and demos (flight search, browser agents, games, trading…
+- [@0niheei · 2103149067513573413](https://x.com/i/web/status/2103149067513573413) `📚1` — Screen new token launches for risk signals and gate action by confidence
+- [@0x_kaize](https://x.com/0x_kaize) `📚1`
+- [@0xClodex · 2103214310919209295](https://x.com/i/web/status/2103214310919209295) `📚1` — Route a request across 32 skills and four AI model families
+- [@0xCodila](https://x.com/0xcodila/status/2101064040332054741) `📚1` — Ten-step synthesis: batch questions, route bounded choices, read fresh state, verify outcomes. Secondary roundup, not ten independent reproductions; linked…
+- [@0xkaushik_k](https://x.com/0xkaushik_k) `📚1`
+- [@0xMovez · 2103177715125752176](https://x.com/i/web/status/2103177715125752176) `📚1` — Choose layout and palette while Opus 5.5 rewrites website sections during scrolling
+- [@0xpizi](https://x.com/0xpizi/status/2101495141030932704) `📚1` — Waitlist onboarding instructions; truncated. Not an installation dependency for this OpenRouter wrapper.
+- [@0xRoxten · 2103214655351005488](https://x.com/i/web/status/2103214655351005488) `📚1` — Run browser skills with Jev choices and Claude Opus 5.5 as a fallback
+- [@0xSuman](https://x.com/0xsuman) `📚1`
+- [@145k4](https://x.com/145k4) `📚1`
+- [@2ndpsy](https://x.com/2ndpsy) `📚1`
+- [@3kwm · 2103144831271027085](https://x.com/i/web/status/2103144831271027085) `📚1` — Plot binary preference judgments by Japanese prefecture on a heatmap
+- [@_shubhankar](https://x.com/_shubhankar) `📚1`
+- [@_trou3](https://x.com/_trou3) `📚1`
+- [@adin_ron](https://x.com/adin_ron) `📚1`
+- [@adin_ron · 2103160532333207929](https://x.com/i/web/status/2103160532333207929) `📚1` — Compare new prompts with recent chat context to catch messages sent to the wrong coding session
+- [@adrianmg](https://x.com/adrianmg) `📚1`
+- [@ahmedgagan11](https://x.com/ahmedgagan11) `📚1`
+- [@AIMind_Ai · 2103164625130844571](https://x.com/i/web/status/2103164625130844571) `📚1` — Compare Snake gameplay across Opus 5.5, Grok 4.7, Jev and Laya
+- [@aimlapi](https://x.com/aimlapi) `📚1`
+- [@AIsaOneHQ](https://x.com/aisaonehq) `📚1`
+- [@ajainvivek · 2103282991799972047](https://x.com/i/web/status/2103282991799972047) `📚1` — Compare Jev and Claude Sonnet 5 on three questions per support message across 1,998 messages
+- [@Akhila_988](https://x.com/akhila_988) `📚1`
+- [@AlanDaitch](https://x.com/alandaitch) `📚1` — Jev plays Tetris
+- [@albicodes](https://x.com/albicodes) `📚1` — By @albicodes. Rank 48 of 74 by likes.
+- [@alejandrofanjul](https://x.com/alejandrofanjul) `📚1`
+- [@alexblackmon137 · 2103223016654356509](https://x.com/i/web/status/2103223016654356509) `📚1` — Increase second-choice probabilities in a text-selection experiment and test the resulting explanations
+- [@alexjhancock](https://x.com/alexjhancock) `📚1`
+- [@alilibx · 2103205808326746277](https://x.com/i/web/status/2103205808326746277) `📚1` — Compare local Laya and hosted Jev on the same 60 classification questions
+- [@amagitakayosi](https://x.com/amagitakayosi) `📚1`
+- [@AmritNigam2](https://x.com/amritnigam2) `📚1`
+- [@amrtaher1995 · 2103272104908988718](https://x.com/i/web/status/2103272104908988718) `📚1` — Refine branded hooks and posts through feedback across more than 500 iterations
+- [@anshuc](https://x.com/anshuc) `📚1`
+- [@AnxKhn](https://x.com/anxkhn) `📚1`
+- [@ASofiMahmudi](https://x.com/asofimahmudi) `📚1`
+- [@Av1dlive · 2103190313624039620](https://x.com/i/web/status/2103190313624039620) `📚1` — Select project notes, worker routes, recovery paths and focused tests before expensive reasoning
+- [@awlevin](https://x.com/awlevin/status/2100427922205209012) `📚1`
+- [@awlevin](https://x.com/awlevin) `📚1`
+- [@ayush_gundecha · 2103236117474762790](https://x.com/i/web/status/2103236117474762790) `📚1` — Change a coffee shop's visual identity from a mood description while preserving its cart and products
+- [@benkigera](https://x.com/benkigera) `📚1`
+- [@bhasin_jai_ · 2103194624022171898](https://x.com/i/web/status/2103194624022171898) `📚1` — Compare Jev and GPT-6 Luna controlling Flappy Bird under identical game physics
+- [@BhosalePratim](https://x.com/bhosalepratim) `📚1`
+- [@BNNBags · 2103209377159131501](https://x.com/i/web/status/2103209377159131501) `📚1` — Serve local Laya decisions to agents through Singularity Grid and compatible APIs
+- [@borjafat](https://x.com/borjafat) `📚1`
+- [@Box](https://x.com/box) `📚1`
+- [@BrendanPlayford](https://x.com/brendanplayford/status/2100614031845539975) `📚1`
+- [@browser_use](https://x.com/browser_use) `📚1` — Jev Ultrafast; related posts cite gregpr07
+- [@BuilderShivam](https://x.com/buildershivam) `📚1`
+- [@burkeholland · 2103174712545484839](https://x.com/i/web/status/2103174712545484839) `📚1` — Control a smart home through a Jev-powered application built with GitHub Copilot
+- [@Calclavia · 2103181695440883982](https://x.com/i/web/status/2103181695440883982) `📚1` — Test a Jev state-machine interpreter on sorting, arithmetic and other toy programs
+- [@charlielamb](https://x.com/charlielamb) `📚1`
+- [@CharlieMolthrop](https://x.com/charliemolthrop) `📚1`
+- [@chaseleantj](https://x.com/chaseleantj) `📚1`
+- [@chddaniel](https://x.com/chddaniel) `📚1` — By @chddaniel. Rank 55 of 74 by likes.
+- [@chiziaruhoma](https://x.com/chiziaruhoma) `📚1`
+- [@ChmalSzymon](https://x.com/chmalszymon) `📚1`
+- [@chuanliang](https://x.com/chuanliang/status/2101492811405361338) `📚1` — Chinese conceptual overview; truncated. Background only, no additional concrete workflow in the excerpt.
+- [@cipherwrk](https://x.com/cipherwrk) `📚1`
+- [@cocktailpeanut](https://x.com/cocktailpeanut) `📚1`
+- [@codecloude · 2103217842443210923](https://x.com/i/web/status/2103217842443210923) `📚1` — Find people and enrich sales leads through an open-source Jev workflow
+- [@codewithnk](https://instagram.com/p/ddrdqwze0xm) `📚1`
+- [@CodingGarden](https://x.com/codinggarden) `📚1` — By @CodingGarden. Rank 33 of 74 by likes.
+- [@coingecko · 2103137525720375540](https://x.com/i/web/status/2103137525720375540) `📚1` — Rescore pump and dump pressure from CoinGecko's live WebSocket trade stream
+- [@CombosFun_AI](https://x.com/combosfun_ai) `📚1`
+- [@CompleteSkeptic](https://x.com/completeskeptic/status/2099925684256899543) `📚1` — Vendor explanation of the non-generative trade-off. Keep generation separate from typed judgment.
+- [@CompleteSkeptic](https://x.com/completeskeptic/status/2099925685720760404) `📚1` — Vendor pricing/workflow-eval thread; supplied excerpt is truncated. Do not promote launch pricing or “free forever” into this skill's guarantee.
+- [@conanssam: Korean hate-comment detection benchmark (Threads, 2026-09-24)](https://threads.com/@conanssam/post/ddsrqkin_ha) `📚1` — Same 471 cases, three systems on a Korean hate-speech validation set (none/offensive/hate): Jev 1.13.0 (63.0% 3-class accuracy, 95.1% hate precision, 82.5%…
+- [@coolish](https://x.com/coolish) `📚1` — Jev plays Slay the Spire 2
+- [@corentAI](https://x.com/corentai) `📚1`
+- [@counter_parrot.ai: Opper's side-by-side of Jev vs open-source Kev 4B](https://threads.com/@counter_parrot.ai/post/ddzzeitey01) `📚1` — New questions drawn from arXiv papers, Stack Exchange posts and GitHub issues published after both models shipped (avoiding training-data contamination),…
+- [@crislenta](https://x.com/crislenta) `📚1`
+- [@CryptoCT01 · 2103151026635243592](https://x.com/i/web/status/2103151026635243592) `📚1` — Inspect fixed-size paper trades and fee rebates in Jev Pulse
+- [@Cryptonaire19](https://x.com/cryptonaire19) `📚1`
+- [@ctatedev](https://x.com/ctatedev) `📚1`
+- [@ctnicholasdev](https://x.com/ctnicholasdev) `📚1`
+- [@ctnicholasdev · 2103155013841563702](https://x.com/i/web/status/2103155013841563702) `📚1` — Classify multiplayer chat messages and trigger coding agents only for relevant requests
+- [@dailyaionly: "Xor: a decision model, measured against Jev" (Threads, 2026-09-25)](https://threads.com/@dailyaionly/post/ddtycroccu7) `📚1` — Static infographic comparing three systems on 231 public JevBench v1.2 decisions: Xor (described as post-trained on Qwen-3.6-35B) Accuracy 88.3% vs Official…
+- [@dani_avila7](https://x.com/dani_avila7/status/2101484241762603363) `📚1` — Four-example learning playground, designed to be extended using a coding agent. Author repository README checked below.
+- [@DaniiarAbdiev](https://x.com/daniiarabdiev) `📚1`
+- [@datagoggins · 2103142378706214923](https://x.com/i/web/status/2103142378706214923) `📚1` — Retrieve relevant mathematics lessons with context-aware semantic judgments
+- [@davidmokos_](https://x.com/davidmokos_) `📚1`
+- [@Dayhaysoos](https://x.com/dayhaysoos) `📚1`
+- [@dimentary](https://x.com/dimentary) `📚1`
+- [@dmckinno: Jev vs GPT-nano document-classification benchmark (Threads, 2026-09-25)](https://threads.com/@dmckinno/post/ddswtjzde37) `📚1` — Same 200 PDFs through classification and extraction+classification: identical results (TP=6, FP=20, TN=174, FN=0 → precision 23.1%, recall 100%). Jev ~5×…
+- [@dotey](https://x.com/dotey) `📚1` — Chinese explainer thread
+- [@eachlabs · 2103160314795532645](https://x.com/i/web/status/2103160314795532645) `📚1` — Generate a game world with Opus 5.5 and improvise NPC behavior with Jev
+- [@EDAN_SEO · 2103166291305775277](https://x.com/i/web/status/2103166291305775277) `📚1` — Review sitemap pages for updates, merging or removal with optional Search Console traffic data
+- [@eduardohgto · 2103207658128117967](https://x.com/i/web/status/2103207658128117967) `📚1` — Run Laya against itself in Pokémon battles
+- [@ego_agent](https://x.com/ego_agent) `📚1`
+- [@ekzhang1](https://x.com/ekzhang1) `📚1` — By @ekzhang1. Rank 39 of 74 by likes.
+- [@elberacasa · 2103283315423780947](https://x.com/i/web/status/2103283315423780947) `📚1` — Review 6,949 Caracas businesses in a reported 33-minute run
+- [@eltokh7](https://x.com/eltokh7) `📚1`
+- [@elune0x · 2103160054895505603](https://x.com/i/web/status/2103160054895505603) `📚1` — Route coding tasks between Claude Code and Codex and gate risky tool execution
+- [@elvissun](https://x.com/elvissun) `📚1`
+- [@ENowoslawski](https://x.com/enowoslawski) `📚1`
+- [@Entelic_Aria](https://x.com/entelic_aria) `📚1`
+- [@eooes · 2103194539603468459](https://x.com/i/web/status/2103194539603468459) `📚1` — Autopilot Asteroids using local Laya-MLX decisions from JSON game state
+- [@ericosiu · 2103152482771701877](https://x.com/i/web/status/2103152482771701877) `📚1` — Select clips whose argument, context and evidence survive the cut
+- [@eve](https://x.com/eve) `📚1`
+- [@exiao3 · 2103255175096103123](https://x.com/i/web/status/2103255175096103123) `📚1` — Classify four real homeowners-association complaints in an interactive playground
+- [@faadilhshaik](https://x.com/faadilhshaik) `📚1` — Jev plays Super Mario Bros.
+- [@fabianstelzer](https://x.com/fabianstelzer) `📚1`
+- [@FarouqAldori](https://x.com/farouqaldori) `📚1` — By @FarouqAldori. Rank 72 of 74 by likes.
+- [@fastinoAI](https://x.com/fastinoai) `📚1` — Author: Fastino Labs (@fastinoAI).
+- [@fatwang2ai](https://x.com/fatwang2ai) `📚1`
+- [@filicroval](https://x.com/filicroval) `📚1`
+- [@flof_fly · 2103138113384292825](https://x.com/i/web/status/2103138113384292825) `📚1` — Filter LTC/USD trading signals with Laya in an out-of-sample terminal experiment
+- [@frevana_ai · 2103152485372485703](https://x.com/i/web/status/2103152485372485703) `📚1` — Score hooks, formats and trust signals across 294 TikTok ads from 68 brands
+- [@GabiDev98 · 2103139199155064921](https://x.com/i/web/status/2103139199155064921) `📚1` — Classify risk across 50 Morpho vaults on Base using allocation, liquidity and oracle signals
+- [@gabrielbuzziv · 2103196746335555637](https://x.com/i/web/status/2103196746335555637) `📚1` — Classify subjects for batches of 100 imported questions in medsimple
+- [@GiladShips · 2103164128638517307](https://x.com/i/web/status/2103164128638517307) `📚1` — Control Chrome's dinosaur game with ten decision calls per second
+- [@gippp69 · 2103161700769755509](https://x.com/i/web/status/2103161700769755509) `📚1` — Gate Picsart generation steps with run, stop, reuse and human-review decisions
+- [@gokayfem](https://x.com/gokayfem) `📚1`
+- [@GoSailGlobal · 2103288418977599769](https://x.com/i/web/status/2103288418977599769) `📚1` — Audit website pages against 52 SEO rules and export PDF, Excel and Markdown reports
+- [@gregpr07](https://x.com/gregpr07/status/2100411068426469552) `📚1` — Repository follow-up to U03; not another experiment.
+- [@grichadev](https://x.com/grichadev) `📚1`
+- [@GuangyuRobert](https://x.com/guangyurobert) `📚1`
+- [@GulatiYajat](https://x.com/gulatiyajat) `📚1`
+- [@Hacubu](https://x.com/hacubu/status/2102064714851455363) `📚1` — LangSmith hosts SemIf with a temporary free offer. TypeSafe SDK compatibility means interface compatibility, not open official Jev weights
+- [@hamiltonulmer](https://x.com/hamiltonulmer) `📚1` — DuckDB Jev classifier (jev.directory)
+- [@hanznathanpo](https://x.com/hanznathanpo) `📚1`
+- [@hari_trinay](https://x.com/hari_trinay) `📚1`
+- [@harshagundal](https://x.com/harshagundal) `📚1` — Open RLCD/Qwen experiment cited on HN
+- [@henloitsjoyce · 2103261956375466225](https://x.com/i/web/status/2103261956375466225) `📚1` — Classify audience comments to choose the next prompt for an interactive movie
+- [@hityyhz](https://x.com/hityyhz) `📚1`
+- [@homebrewrobots · 2103176609780174893](https://x.com/i/web/status/2103176609780174893) `📚1` — Replan a cup-return task after the cup moves and switch to the left arm
+- [@hsrivatsa2010 · 2103181602922926378](https://x.com/i/web/status/2103181602922926378) `📚1` — Choose simulated gripper actions in Reflexive Manipulation Lab
+- [@hwchase17](https://x.com/hwchase17/status/2102065131202945152) `📚1`
+- [@iamMrDuncan](https://x.com/iammrduncan) `📚1` — Qwen-on-Cerebras comparison video
+- [@identityTorn](https://x.com/identitytorn) `📚1` — Internal classifier field note
+- [@imjustnewatai · 2103217370403663898](https://x.com/i/web/status/2103217370403663898) `📚1` — Split Left 4 Dead 2 control and planning between Jev and GPT-6 Astra
+- [@irabukht](https://x.com/irabukht) `📚1` — By @irabukht. Rank 31 of 74 by likes.
+- [@IsaacSin12](https://x.com/isaacsin12) `📚1`
+- [@ishuagra02](https://x.com/ishuagra02) `📚1`
+- [@ItsCuthulhu](https://x.com/itscuthulhu) `📚1` — Author: Jake Cuth (@ItsCuthulhu), Georgia Tech Analytics Lead.
+- [@jackcheng](https://x.com/jackcheng) `📚1` — A canvas you control by pointing and speaking
+- [@jackcheng · 2103281698305937693](https://x.com/i/web/status/2103281698305937693) `📚1` — Prioritize email using sleep quality and current mood as classification context
+- [@jduhking_ · 2103273106014146912](https://x.com/i/web/status/2103273106014146912) `📚1` — Open task-specific interfaces as the user types in a dynamic operating-system mockup
+- [@jenukal · 2103165869883007035](https://x.com/i/web/status/2103165869883007035) `📚1` — Expose Jev as a classifier tool inside DigitalOcean Action Gateway
+- [@jerry543](https://x.com/jerry543) `📚1`
+- [@joey_build](https://x.com/joey_build) `📚1`
+- [@john_bortotti](https://x.com/john_bortotti) `📚1`
+- [@jozef_gherman](https://x.com/jozef_gherman) `📚1` — By @jozef_gherman. Rank 57 of 74 by likes.
+- [@jpschroeder](https://x.com/jpschroeder) `📚1`
+- [@jstnimo](https://threads.com/@jstnimo/post/ddqvf_cgkdf) `📚1`
+- [@juminoz](https://x.com/juminoz) `📚1`
+- [@Juris_Savos](https://x.com/juris_savos) `📚1`
+- [@JussCubs · 2103259079095288245](https://x.com/i/web/status/2103259079095288245) `📚1` — Compare Jev and DeepSeek V4 Flash choosing straight, left or right in Snake
+- [@k0nOO · 2103169003376062595](https://x.com/i/web/status/2103169003376062595) `📚1` — Interpret whiteboard elements for a voice interviewer that cannot receive images
+- [@k2sbhai · 2103270018360516635](https://x.com/i/web/status/2103270018360516635) `📚1` — Select coding-agent runs worth turning into reusable skills with Beacon
+- [@k_grajeda](https://x.com/k_grajeda) `📚1`
+- [@kevinkern](https://x.com/kevinkern) `📚1`
+- [@kimmonismus](https://x.com/kimmonismus/status/2100222673385312617) `📚1`
+- [@KinanHamwi · 2103215473102041122](https://x.com/i/web/status/2103215473102041122) `📚1` — Build 12 decision nodes from a prompt and connect them in a Cerevisor workflow
+- [@kleen_pulse · 2103191381690990865](https://x.com/i/web/status/2103191381690990865) `📚1` — Combine Jev and Claude Opus 5.5 for email classification and management
+- [@Kostastsale](https://x.com/kostastsale) `📚1` — Security engineering reframing
+- [@kraayenJon](https://x.com/kraayenjon) `📚1` — By @kraayenJon. Rank 74 of 74 by likes.
+- [@krispuckett](https://x.com/krispuckett) `📚1`
+- [@krzysztof_moch](https://x.com/krzysztof_moch) `📚1`
+- [@kunchenguid](https://x.com/kunchenguid/status/2100846644304773541) `📚1` — Joke about long-lasting API credit. Cost sentiment, not measured usage.
+- [@kunchenguid](https://x.com/kunchenguid/status/2101032677940117875) `📚1` — compact-adviser: judge task boundaries with context-pressure-dependent policy; hint versus opt-in auto. Primary docs checked below.
+- [@LatentKush · 2103271228291285108](https://x.com/i/web/status/2103271228291285108) `📚1` — Track a red Porsche with multimodal decisions at a reported 250 ms interval
+- [@legitamit](https://x.com/legitamit) `📚1`
+- [@leojrr](https://x.com/leojrr) `📚1` — The X algorithm, rebuilt with Jev
+- [@leshemco · 2103212819214926181](https://x.com/i/web/status/2103212819214926181) `📚1` — Choose browser actions for Stencil QA with screenshots and decision traces at each checkpoint
+- [@lomeshdutta](https://x.com/lomeshdutta) `📚1`
+- [@luckeyfaraday](https://x.com/luckeyfaraday) `📚1`
+- [@mahirb22](https://x.com/mahirb22) `📚1`
+- [@malekoo](https://x.com/malekoo) `📚1` — Mac app first use case
+- [@MarcelooMendes](https://x.com/marceloomendes) `📚1`
+- [@marcus_lowe](https://x.com/marcus_lowe) `📚1`
+- [@mariojankovic](https://x.com/mariojankovic) `📚1`
+- [@mattdesl](https://x.com/mattdesl) `📚1`
+- [@merccante · 2103149335345291480](https://x.com/i/web/status/2103149335345291480) `📚1` — Identify missed sales follow-ups and route qualified roofing leads to the owner
+- [@merijnvanes · 2103211750598365667](https://x.com/i/web/status/2103211750598365667) `📚1` — Command simulated Roman units with decision trees and Luna-planned multi-step orders
+- [@metrox_eth](https://x.com/metrox_eth) `📚1`
+- [@mightyking](https://x.com/mightyking) `📚1`
+- [@MiguelriosEN](https://x.com/miguelriosen) `📚1`
+- [@mika_systems · 2103180115303670157](https://x.com/i/web/status/2103180115303670157) `📚1` — Decide which coding-session constraints, decisions and bugs to retain with jevmem
+- [@mikegee](https://x.com/mikegee) `📚1`
+- [@mikehostetler](https://x.com/mikehostetler) `📚1`
+- [@milesdeutscher · 2103149036933165110](https://x.com/i/web/status/2103149036933165110) `📚1` — Demonstrate a HYPE trading framework built with Jev and Opus 5.5
+- [@miltonisblurrd · 2103282001893879967](https://x.com/i/web/status/2103282001893879967) `📚1` — Judge whether a traced iOS privacy-alert flow has enough evidence to ship
+- [@miramarket_org · 2103144395113697506](https://x.com/i/web/status/2103144395113697506) `📚1` — Convert natural-language prompts into prediction-market strategies in Miramarket
+- [@MisbahSy](https://x.com/misbahsy) `📚1`
+- [@mittalparth_](https://x.com/mittalparth_) `📚1`
+- [@mizorewww](https://x.com/mizorewww) `📚1` — Author: Mizore (@mizorewww), Systems and MLX Framework Researcher.
+- [@MKhordoo](https://x.com/mkhordoo) `📚1`
+- [@mmalisper](https://x.com/mmalisper) `📚1`
+- [@Mnilax](https://x.com/mnilax) `📚1`
+- [@moritzkremb](https://x.com/moritzkremb) `📚1`
+- [@mormonnegro](https://x.com/mormonnegro) `📚1` — By @mormonnegro. Rank 60 of 74 by likes.
+- [@mttcnnng](https://x.com/mttcnnng) `📚1`
+- [@mxfp4](https://x.com/mxfp4) `📚1` — By @mxfp4. Rank 50 of 74 by likes.
+- [@mxkaske · 2103166067891917153](https://x.com/i/web/status/2103166067891917153) `📚1` — Choose typography dynamically from the words being typed
+- [@n0tduck1e · 2103151347675893828](https://x.com/i/web/status/2103151347675893828) `📚1` — Label functions in a stripped binary and compare them with their original names
+- [@nailthy62](https://x.com/nailthy62) `📚1`
+- [@narphorium](https://x.com/narphorium) `📚1`
+- [@nateherk](https://x.com/nateherk) `📚1` — Jev tagger (inside linkedin-slop-blocker v0.5). A floating corner panel where you write your own categories, each with a name and a plain-English description,…
+- [@natepac · 2103195772019790232](https://x.com/i/web/status/2103195772019790232) `📚1` — Let AI bots play an Advance Wars-style game against each other
+- [@NathanWilbanks_](https://x.com/nathanwilbanks_) `📚1`
+- [@nedwize](https://x.com/nedwize) `📚1`
+- [@Neel490](https://x.com/neel490) `📚1`
+- [@NesanSelvan04](https://x.com/nesanselvan04) `📚1`
+- [@neural_avb](https://x.com/neural_avb) `📚1`
+- [@ngrokHQ · 2103183324856361019](https://x.com/i/web/status/2103183324856361019) `📚1` — Inspect typed answers and confidence in the ngrok AI Gateway playground
+- [@nicdunz](https://x.com/nicdunz) `📚1`
+- [@nicekate8888](https://x.com/nicekate8888) `📚1`
+- [@nick_kango · 2103206401636266410](https://x.com/i/web/status/2103206401636266410) `📚1` — Combine Astra research with repeated Jev judgments to test prediction-market opportunities
+- [@nickfromlater](https://x.com/nickfromlater) `📚1`
+- [@nikunj](https://x.com/nikunj) `📚1`
+- [@nottecore](https://x.com/nottecore) `📚1`
+- [@Numankhannnnn](https://x.com/numankhannnnn) `📚1`
+- [@OhansEmmanuel](https://x.com/ohansemmanuel) `📚1`
+- [@omarjpeg](https://x.com/omarjpeg) `📚1`
+- [@omesis_ray · 2103145186050351209](https://x.com/i/web/status/2103145186050351209) `📚1` — Assign subtitle speakers and presentation effects with Jev
+- [@OpenMed_AI · 2103154995139137539](https://x.com/i/web/status/2103154995139137539) `📚1` — Compare Jev and Laya on 16 labeled decisions across four fictional clinical notes
+- [@origamichat · 2103240686657261967](https://x.com/i/web/status/2103240686657261967) `📚1` — Score 1,000 leads and outreach messages for fit and flag mismatches in Origami
+- [@orthogonal_sh](https://x.com/orthogonal_sh) `📚1`
+- [@Orus_agent](https://x.com/orus_agent) `📚1`
+- [@oscabriel · 2103173632054988884](https://x.com/i/web/status/2103173632054988884) `📚1` — Extract coffee attributes from scraped product pages using Choice and Noul questions
+- [@otto_explorer](https://x.com/otto_explorer) `📚1`
+- [@outboundphd](https://linkedin.com/posts/outboundphd_so-jev-does-in-fact-work-for-building-clay-activity-7506771976632451072-co-4) `📚1`
+- [@PawelHuryn](https://x.com/pawelhuryn) `📚1` — Author: Paweł Huryn (@PawelHuryn), Author of The Product Compass and Product Discovery Coach.
+- [@peer_rich](https://x.com/peer_rich) `📚1`
+- [@picocreator](https://x.com/picocreator) `📚1` — By @picocreator. Rank 34 of 74 by likes.
+- [@piercefreeman · 2103162041724805307](https://x.com/i/web/status/2103162041724805307) `📚1` — Control Firefox by chaining Jev with multimodal models and Rotunda DOM serialization
+- [@pierreeliottlal](https://x.com/pierreeliottlal) `📚1` — By @pierreeliottlal. Rank 66 of 74 by likes.
+- [@PipeAbellos](https://x.com/pipeabellos) `📚1`
+- [@pirrer](https://x.com/pirrer) `📚1`
+- [@prathitjoshi_ · 2103145907734880747](https://x.com/i/web/status/2103145907734880747) `📚1` — Route terminal tasks to installed agents while preserving the follow-up thread
+- [@qqc1989 · 2103138735684747712](https://x.com/i/web/status/2103138735684747712) `📚1` — Control tank movement and firing with three decision intervals in an AX8850 arena
+- [@qqc1989 · 2103139236778008938](https://x.com/i/web/status/2103139236778008938) `📚1` — Choose left, right or hold for an AX8850 paddle duel using Laya
+- [@rafalwilinski](https://x.com/rafalwilinski) `📚1`
+- [@raghavp · 2103159699571171419](https://x.com/i/web/status/2103159699571171419) `📚1` — Navigate a simulated drone from camera-derived state and mission goals
+- [@rauchg](https://x.com/rauchg) `📚1` — Guillermo Rauch — Vercel fx / Jev safety reviewer thread cited publicly
+- [@razaanstha](https://x.com/razaanstha) `📚1` — By @razaanstha. Rank 61 of 74 by likes.
+- [@RealAstropulse](https://x.com/realastropulse) `📚1`
+- [@realy0usaf](https://x.com/realy0usaf) `📚1`
+- [@redp314](https://x.com/redp314) `📚1`
+- [@refix_ai](https://x.com/refix_ai) `📚1`
+- [@rheum_ai](https://x.com/rheum_ai) `📚1`
+- [@richardt830](https://x.com/richardt830/status/2101780631667794077) `📚1` — JevGraph: a document-to-evidence-backed knowledge graph pipeline built on community project DocJev
+- [@romanbuildsaas](https://x.com/romanbuildsaas) `📚1` — By @romanbuildsaas. Rank 14 of 74 by likes.
+- [@RomanSlack](https://x.com/romanslack) `📚1` — Author: Roman Slack (@RomanSlack), Robotics and Physical Simulation Researcher.
+- [@rronak_](https://x.com/rronak_) `📚1` — Author: Ronak Malde (@rronak_), Co-Founder of Trajectory (@TrajectoryLabs), former Google DeepMind, SWE-1 at Windsurf, Stanford.
+- [@rrriviannn](https://x.com/rrriviannn) `📚1`
+- [@s3ththompson](https://x.com/s3ththompson) `📚1`
+- [@sa_mous · 2103144930377891912](https://x.com/i/web/status/2103144930377891912) `📚1` — Route iPhone assistant requests to actions using an on-device fine-tuned Laya model
+- [@SaaiArora](https://x.com/saaiarora) `📚1`
+- [@sachpatro97](https://x.com/sachpatro97) `📚1`
+- [@SalvatoChris · 2103203937608495485](https://x.com/i/web/status/2103203937608495485) `📚1` — Choose a task's model inside Pi using Jev
+- [@sameh_khamis · 2103183622442545569](https://x.com/i/web/status/2103183622442545569) `📚1` — Land a simulated plane using aircraft state, terrain and runway heading
+- [@samidoribuilds · 2103137454492381263](https://x.com/i/web/status/2103137454492381263) `📚1` — Choose coffee shop recommendations with Jev
+- [@sandeco · 2103270401702760812](https://x.com/i/web/status/2103270401702760812) `📚1` — Detect fraud in Pix payments
+- [@sandeepdev_code · 2103162910830948443](https://x.com/i/web/status/2103162910830948443) `📚1` — Score likely commit regret from code and diffs using local Laya
+- [@sarah_edo](https://x.com/sarah_edo) `📚1`
+- [@savboj](https://x.com/savboj) `📚1`
+- [@sep_is_heim](https://x.com/sep_is_heim) `📚1`
+- [@serhiikar · 2103172941638939061](https://x.com/i/web/status/2103172941638939061) `📚1` — Illustrate a proposed semantic search for group chats in an animated concept
+- [@shadouyoua](https://x.com/shadouyoua/status/2101490613069783148) `📚1` — Official skill / direct-TypeSafe onboarding instructions. Related official repository checked; not this project's OpenRouter installation path.
+- [@SiddhitSanghavi · 2103168340982137015](https://x.com/i/web/status/2103168340982137015) `📚1` — Compare Jev and Haiku on 100 classification questions with batched and individual calls
+- [@simplifyinai: 27 questions, one parallel request](https://threads.com/@simplifyinai/post/ddeakq9ksp9) `📚1` — Jev answered 27 typed questions in a single parallel request in 0.11s for $0.000083, head-to-head vs GPT-5.6-texta on the same task (community test).
+- [@smalltownrobot](https://x.com/smalltownrobot) `📚1`
+- [@Smartpigai](https://x.com/smartpigai/status/2101493869628256276) `📚1` — Monetization article lead, truncated before its 15 directions. Do not invent or count those unseen directions as reviewed use cases.
+- [@softwarecuddler](https://x.com/softwarecuddler) `📚1`
+- [@Solomonrojie · 2103189872433303933](https://x.com/i/web/status/2103189872433303933) `📚1` — Turn live market signals into decisions with position-limit checks before execution
+- [@SolSt1ne · 2103189823305691256](https://x.com/i/web/status/2103189823305691256) `📚1` — Trace wallet funding, cluster related holders and filter copy-trading candidates
+- [@sopersone · 2103242299690135662](https://x.com/i/web/status/2103242299690135662) `📚1` — Choose BUY, HOLD or SELL in Cabbage with a 0.80 confidence gate and fixed risk rules
+- [@Spshulem · 2103172266188300660](https://x.com/i/web/status/2103172266188300660) `📚1` — Map conversation threads during live meetings
+- [@SSHCodes](https://x.com/sshcodes) `📚1`
+- [@StarchildOnX](https://x.com/starchildonx) `📚1`
+- [@stas_sorokin_ · 2103171355940409496](https://x.com/i/web/status/2103171355940409496) `📚1` — Classify MCP servers by access to private data and inspect local agent configurations
+- [@superx_ai](https://x.com/superx_ai) `📚1` — Author: SuperX AI (@superx_ai), Social Media Growth and Analytics Platform.
+- [@supreeth___ravi · 2103236699174343092](https://x.com/i/web/status/2103236699174343092) `📚1` — Use local Laya decisions to choose a Unitree G1 humanoid's kitchen actions
+- [@sven_ai](https://x.com/sven_ai/status/2101495236325425333) `📚1` — Support-ticket routing explanation; truncated. Use-case framing, with existing triage recipes rather than a verified deployment claim.
+- [@sydneyrunkle](https://x.com/sydneyrunkle/status/2101472983587909999) `📚1` — Commentary linking U14. Count once with LangChain's experiment; consistency is not correctness.
+- [@Taj_youknow · 2103230822321152411](https://x.com/i/web/status/2103230822321152411) `📚1` — Select sources and quotations in SIEVE to return a verdict without generated answer text
+- [@tamirspiritt](https://x.com/tamirspiritt) `📚1`
+- [@tarasshyn](https://x.com/tarasshyn) `📚1`
+- [@TarunTomar122](https://x.com/taruntomar122) `📚1` — Author: Tarun Tomar (@TarunTomar122), Robotics and Reinforcement Learning Engineer.
+- [@Taufiq_ansari01](https://x.com/taufiq_ansari01) `📚1`
+- [@tdinh_me](https://x.com/tdinh_me) `📚1` — By @tdinh_me. Rank 37 of 74 by likes.
+- [@tegnike · 2103221808149516607](https://x.com/i/web/status/2103221808149516607) `📚1` — Test djev visual recognition with reported response times of 400–600 ms
+- [@theappcypher](https://x.com/theappcypher) `📚1`
+- [@TheBalkanHacker](https://x.com/thebalkanhacker) `📚1`
+- [@thedelost · 2103233652482334723](https://x.com/i/web/status/2103233652482334723) `📚1` — Score retrieved context chunks to keep, compress or exclude before building the model context
+- [@TheINAOG](https://x.com/theinaog/status/2100384258804093139) `📚1` — Extracts state from simulator RAM and looks ahead before acting; game-specific adapters reduce perception difficulty
+- [@TheMattBerman](https://x.com/themattberman) `📚1` — By @TheMattBerman. Rank 4 of 74 by likes.
+- [@themkmaker](https://x.com/themkmaker) `📚1`
+- [@thenightshipper](https://x.com/thenightshipper) `📚1`
+- [@ThisMightWrk · 2103240633809080687](https://x.com/i/web/status/2103240633809080687) `📚1` — Judge a one-sentence pitch through votes from 100 fictional personalities
+- [@thorstenball](https://x.com/thorstenball) `📚1`
+- [@TianyuCodings](https://x.com/tianyucodings) `📚1` — Author: Tianyu (@TianyuCodings), Machine Learning Systems Engineer.
+- [@tim_willia98364 · 2103201292965617943](https://x.com/i/web/status/2103201292965617943) `📚1` — Control English-programmable farming robots with on-device Laya on an iPhone
+- [@toksdotdev](https://x.com/toksdotdev) `📚1`
+- [@tommy_jepsen](https://x.com/tommy_jepsen) `📚1`
+- [@tommyvedvik](https://x.com/tommyvedvik) `📚1`
+- [@TrajectoryLabs](https://x.com/trajectorylabs) `📚1`
+- [@TriadDarren](https://x.com/triaddarren/status/2100645341393494264) `📚1` — Demonstrated Economics: 15 ms evaluation latency at $0.00004 per tool call. Zero false-positive destructive commands reported across thousands of autonomous…
+- [@TTLequals0](https://x.com/ttlequals0/status/2101776961282408786) `📚1` — Podcast ad detection with MinusPodJev source; does not imply Jev natively accepts audio
+- [@twid 的实战记录](https://x.com/twid/status/2101642632837366105) `📚1` — model capabilities. @twid's practitioner report
+- [@twitte_ethan](https://x.com/twitte_ethan) `📚1`
+- [@typesafeai](https://x.com/typesafeai/status/2101952261421474159) `📚1` — API / Console incident announcement and subsequent recovery post; use the status page for incident details
+- [@u9_BlockChain](https://x.com/u9_blockchain/status/2101502538503889273) `📚1` — Personal speed impression and signup guidance; truncated. Access anecdote, not a waitlist SLA or benchmark.
+- [@unicodeveloper](https://x.com/unicodeveloper) `📚1`
+- [@USPraveenRaj1 · 2103164694014157253](https://x.com/i/web/status/2103164694014157253) `📚1` — Benchmark memory reranking on three BEIR datasets against Cohere and open models
+- [@uwwgo](https://x.com/uwwgo) `📚1`
+- [@vansitha12](https://x.com/vansitha12) `📚1`
+- [@verbove](https://x.com/verbove) `📚1`
+- [@Viggle_PINOC · 2103158570372026410](https://x.com/i/web/status/2103158570372026410) `📚1` — Select pregenerated character animations from live voice commands with Pinoc MCP
+- [@vinnylarouge](https://x.com/vinnylarouge) `📚1` — By @vinnylarouge. Rank 19 of 74 by likes.
+- [@virattt](https://x.com/virattt) `📚1`
+- [@VisheshBaghell](https://x.com/visheshbaghell) `📚1`
+- [@vista8](https://x.com/vista8) `📚1`
+- [@vladdubchak_x](https://x.com/vladdubchak_x) `📚1`
+- [@Vvtentt101 · 2103193709412057564](https://x.com/i/web/status/2103193709412057564) `📚1` — Score authentication-refactor diffs to keep changes, reject files or continue work
+- [@will_caskets](https://x.com/will_caskets) `📚1`
+- [@wobsoriano](https://x.com/wobsoriano) `📚1`
+- [@wwardenn · 2103168377388978635](https://x.com/i/web/status/2103168377388978635) `📚1` — Audit internal-link opportunities across 586 pages and leave unsuitable matches unlinked
+- [@x_alex_schaff · 2103230166789144822](https://x.com/i/web/status/2103230166789144822) `📚1` — Control an OpenFront bot with Jeviatus
+- [@Yarilo7brigada](https://x.com/yarilo7brigada) `📚1` — By @Yarilo7brigada. Rank 70 of 74 by likes.
+- [@yask123 · 2103211367612465592](https://x.com/i/web/status/2103211367612465592) `📚1` — Select live DJ moves including scratches, loop rolls and crossfader chops
+- [@yoheinakajima](https://x.com/yoheinakajima) `📚1`
+- [@Yokii_26 · 2103174624519626961](https://x.com/i/web/status/2103174624519626961) `📚1` — Classify text, images, audio and video with the open-weight Jev-Omni model
+- [@yongfook](https://x.com/yongfook) `📚1`
+- [@YouWareAI](https://x.com/youwareai) `📚1`
+- [@YouWareJP · 2103136222831116740](https://x.com/i/web/status/2103136222831116740) `📚1` — Switch a Sonic-style runner between human play and AI-controlled Jev Mode
+- [@zadescoxp · 2103190945978339399](https://x.com/i/web/status/2103190945978339399) `📚1` — Test revised ETH trading decisions across six trades, with three wins and three losses reported
+- [@zahlekhan](https://x.com/zahlekhan) `📚1`
+- [@zaidmukaddam](https://x.com/zaidmukaddam) `📚1`
+- [@zepaui · 2103180137047187758](https://x.com/i/web/status/2103180137047187758) `📚1` — Scan code for suitable decision points and ask Jev for a second opinion with JevX
+- [@ziwenxu_](https://x.com/ziwenxu_) `📚1`
+- [_pi0_](https://x.com/_pi0_/status/2100362008856010789) `📚1`
+- [A Bluesky feed with emotion detection](https://x.com/amagitakayosi/status/2100820581444980736) `📚1` — Jev demo: A live Bluesky feed with real-time emotion detection and avatars matched to each user’s profile. #jev — by @amagitakayosi
+- [A browser-agent stress test](https://x.com/sshcodes/status/2101026313871970721) `📚1` — People keep thinking Jev is useful for browser use! It is not. It completed about 5 actions before collapsing in a non-cheated test. It's a cool model but not…
+- [A deep dive into Jev, TypeSafe's System One model](https://news.ycombinator.com/item?id=49774157) `📚1` — observed / media-discussions — ⭐2
+- [A dogfighting experiment](https://x.com/hanznathanpo/status/2101020398477365629) `📚1` — first attempt at getting jev to dogfight, it kinda sucks, will keep experimenting — by @hanznathanpo
+- [A fancy-prose experiment](https://x.com/fabianstelzer/status/2100955039455985933) `📚1` — let Jev automatically transmogrify your simpleton English into unnecessarily fancy prose as you're writing it 😅 — by @fabianstelzer
+- [A Jev query planner](https://x.com/mmalisper/status/2101001041903009987) `📚1` — I used Jev to build a query planner! With some tuning, I sped up Postgres queries on the join order benchmark by 12%. Here's what I did — by @mmalisper
+- [A logical-fallacy detector](https://x.com/smalltownrobot/status/2100999987572203809) `📚1` — LOGICAL FALLACIES: Next jev tool I'm working on is a @brave extension that gives a probabilistic fallacy score to every post on X timeline in realtime. It also…
+- [A MySQL plugin that filters rows by meaning (built on TypeSafe Jev)](https://news.ycombinator.com/item?id=49774592) `📚1` — observed / media-discussions — ⭐2
+- [A page-by-page OCR router](https://x.com/misbahsy/status/2100979972194369925) `📚1` — Doc-OCR router using Jev @typesafeai A Jev-powered router that looks at a PDF page by page, decides which pages actually need OCR, extracts the rest locally.…
+- [A plain-English logic interpreter](https://x.com/narphorium/status/2100985027093749764) `📚1` — Jev can't reason. So I built an interpreter that reasons for it. It runs a logic language where the facts and rules are plain English. — by @narphorium
+- [A prompt difficulty classifier](https://x.com/k_grajeda/status/2101021361351131464) `📚1` — prompt classifier before user hits send jev is very fast and cheap so we can check the difficulty of the prompt every time user finish typing if its a simple…
+- [A run at the Pokémon League](https://x.com/joey_build/status/2100904864519770170) `📚1` — Trying to get JEV (@typesafeai) to beat the Pokémon League in Pokémon Gold (HGSS). Let’s see if it can become a Pokémon Champion 🏆 UP DOWN LEFT RIGHT A B — by…
+- [A weekend with Jev made my coding agents up to 31% faster](https://news.ycombinator.com/item?id=49787871) `📚1` — observed / media-discussions — ⭐3
+- [aaiach01](https://x.com/aaiach01/status/2100396887207776380) `📚1` — abcdmku · ali_uraish
+- [abcdmku](https://x.com/abcdmku/status/2100406369744482318) `📚1`
+- [abhijay_cloaked](https://x.com/abhijay_cloaked/status/2100689866279252270) `📚1`
+- [AgentRun reusable workflows](https://x.com/miguelriosen/status/2101033282414768456) `📚1` — Today I’m excited to show you our new harness called AgentRun, built with @pidotdev and @typesafeai's Jev. It’s built for an agent to learn how to do a job,…
+- [AI Hedge Fund with Jev](https://x.com/virattt/status/2100959848623899005) `📚1` — I added Jev to the AI Hedge Fund. We now get frontier-level trading decisions, 100x faster and cheaper than an LLM. How it works: 1 • set strategy 2 • pick…
+- [airesearch12/jevbench-alternatives](https://x.com/airesearch12/status/2101936404385161270) `📚1` — 📈 JevBench v1.2.7: 26 Alternative Systems.Category 7: Independent BenchmarksCreator: Florian S (@airesearch12).Composite evaluation (Intelligence, Calibration,…
+- [Alcides Ticlla — the cost/latency gap, quantified](https://x.com/alcidesticllach/status/2101465729929220490) `📚1` — The same classification task: $0.013880 in 8.566s on an LLM vs. $0.000081 in 0.114s on Jev, verbatim from Jev's own numbers.
+- [An AI-writing slop detector](https://x.com/chaseleantj/status/2101039024118829261) `📚1` — You can use Jev to flag all the slop that Opus likes to write — by @chaseleantj
+- [An X feed tuned to your bookmarks](https://x.com/redp314/status/2100915304062710263) `📚1` — in 2026, why do you still get irrelevant posts on your X feed? built a feed optimizer with @typesafeai Jev. it's tuned on my own bookmarks, then every post…
+- [Analyzing Jev Outcomes with a Validator](https://news.ycombinator.com/item?id=49808558) `📚1` — observed / media-discussions — ⭐2
+- [Analyzing Jev, a new AI model](https://news.ycombinator.com/item?id=49799641) `📚1` — observed / media-discussions — ⭐2
+- [anessbelbati](https://x.com/anessbelbati/status/2100398911911248050) `📚1` — Anot · ayaankhan_x
+- [Anot](https://x.com/anot/status/2100425243269468583) `📚1`
+- [Anto Patrex](https://linkedin.com/posts/antopatrex_we-ran-typesafe-ais-jev-eval-model-on-humanoid-robot-activity-7507141761530503168-87s3) `📚1` — \| Evaluating humanoid teleoperation data: label consistency and segmentationAnto Patrex, LinkedIn, 2026-09-19Author: "We ran TypeSafe AI's J
+- [APA X @aipersonaacad](https://x.com/aipersonaacad) `📚1` — Updates on agentic persona design and machine-native evaluation.
+- [Ask HN: JEV for K1 Tax Forms](https://news.ycombinator.com/item?id=49879648) `📚1` — observed / media-discussions — ⭐2
+- [AttractModeIO](https://x.com/attractmodeio/status/2100723340021276739) `📚1`
+- [Auto approve pull requests with Jev](https://news.ycombinator.com/item?id=49775144) `📚1` — observed / media-discussions — ⭐2
+- [ayaankhan_x](https://x.com/ayaankhan_x/status/2100322283407700308) `📚1`
+- [Bannerbear instant field mapping](https://x.com/yongfook/status/2100801037192024478) `📚1` — First Jev use case published live on Bannerbear! Instant field mapping between template and source, when names are slightly different eg template - photo -…
+- [barnyx](https://x.com/me_barnyx) `📚1`
+- [Bart Collet: "The last signature" (2026-09-23)](https://linkedin.com/pulse/last-signature-bart-collet-gjr5e) `📚1` — Long-form essay on what cheap machine checking means for healthcare and accountability: Robert Scoble's Sully.ai team was building with Jev <48h after launch;…
+- [BaselAshraf81](https://x.com/baselashraf81/status/2100400028711805242) `📚1` — BniWael · brainstormity
+- [Bespoke Nimble: open data, open model, open recipe for an open Jev](https://news.ycombinator.com/item?id=49757009) `📚1` — observed / media-discussions — ⭐3
+- [Bk23544/threejs-grassworks-jev](https://x.com/bk23544/status/2102021494112981347) `📚1` — 🌱 Real-Time Three.js Scene Director.Category 6: Simulation & GamingCreator: Bilal Khan (@Bk23544).Evaluates natural language directives into shader uniforms…
+- [BniWael](https://x.com/bniwael/status/2100195854904598745) `📚1`
+- [BourneS — 164 tracked Jev/decision-model projects](https://x.com/bourneshao/status/2102691360222351798) `📚1` — A census of the six-day-old clone race: the winning pattern splits the agent (small model for text, Jev for the operation/element), and Jev-1.13 itself scores…
+- [bourneshao — the fatal flaw in Jev](https://x.com/bourneshao/status/2101802361588945073) `📚1` — Jev confidently returns wrong typed verdicts on multi-step arithmetic (summing invoice line items), arguing a typed answer still needs validation.
+- [brainstormity](https://x.com/brainstormity/status/2100702826196307977) `📚1`
+- [Building a Harness with Jev](https://x.com/sydneyrunkle/article/2100754364545761643) `📚1` — Based on: “Building a Harness with Jev” by Sydney Runkle, published 18 September 2026. This is an original Appit Studio guide, drafted with AI assistance.…
+- [ByrneHobart — cost discrimination, not price discrimination](https://x.com/byrnehobart/status/2100233046792257801) `📚1` — Frames Jev's real use as routing between deterministic rules and an expensive model per request, letting you do cost discrimination instead of flat pricing.
+- [Byte predicts rock-paper-scissors](https://x.com/2ndpsy/status/2101026520185622589) `📚1` — Can Jev read a human? Play rock paper scissors against Byte. Every round he predicts your next throw before you make it, then plays against that read. His move…
+- [Calibrating Jev as a Code Reviewer](https://news.ycombinator.com/item?id=49803758) `📚1` — observed / media-discussions — ⭐2
+- [Can Jev be jailbroken?](https://news.ycombinator.com/item?id=49802723) `📚1` — observed / media-discussions — ⭐2
+- [Can Jev Parse CSV?](https://news.ycombinator.com/item?id=49885054) `📚1` — observed / media-discussions — ⭐2
+- [Can You Beat Jev?](https://news.ycombinator.com/item?id=49767438) `📚1` — observed / media-discussions — ⭐2
+- [Cascade Search typed query filters](https://x.com/zaidmukaddam/status/2100910232255992032) `📚1` — A search bar that knows when it doesn't know. cascade-search is a 27K-parameter model that parses queries like "open bugs from sam since last week" into typed…
+- [Charlyhno](https://x.com/charlyhno/status/2100670579321754080) `📚1` — nickvasiles · CompleteSkeptic · Meliwat93
+- [chatgpt联合创始人发布新模型jev](https://xiaohongshu.com/explore/6aa9e5aa0000000028002b34) `📚1` — “ChatGPT co-founder releases Jev” (Chinese)
+- [Christian Pickett (@chrisspickett)](https://x.com/chrisspickett) `📚1`
+- [Classifier.dev: outperforms Jev and is free](https://news.ycombinator.com/item?id=49764649) `📚1` — observed / media-discussions — ⭐2
+- [Classify 6700 pages for $1 with a Jev-compatible VLM API](https://news.ycombinator.com/item?id=49887163) `📚1` — observed / media-discussions — ⭐2
+- [Claude Code context compaction](https://x.com/0x_kaize/status/2100913118528393596) `📚1` — I got access to Jev and immediately plugged it into Claude Code to see if it actually FIXES the biggest pain of agent workflows: context compaction > result:…
+- [CleistaCelestia](https://x.com/cleistacelestia/status/2095319421187207550) `📚1`
+- [cline-jev-browser](https://x.com/cline/status/2101056078872256935) `📚1`
+- [Coaching and writing checks](https://x.com/krispuckett/status/2101006617223508022) `📚1` — Alright playing with Jev through Vercel. 1. quick coaching support during a session rather than running through my gateway. 2. Anti-slop detector and fixer. —…
+- [Code review benchmark](https://x.com/liorshkiller/status/2100936106615140757) `📚1` — Benchmark of Jev scoring raw Git diffs against a GLM + Grok + Gemini ensemble reviewer: zero false positives, ~50x faster, ~100x cheaper, with 75% bug recall.
+- [Codenames with Jev](https://x.com/uwwgo/status/2101683325320454189) `📚1` — I tried out Jev. It's very very fast, and very very cheap. So cheap that you can embed it deeply into all kinds of consumer products where traditionally it…
+- [Combos FPS](https://x.com/combosfun_ai/status/2100952069461127257) `📚1` — jev is insane 🤯 Same Combos FPS. Astra left. @typesafeai Jev right. Reasoning model vs decision model — not even close. Jev does not replace astra, it opens a…
+- [Completing Programming Adventures with Jev](https://news.ycombinator.com/item?id=49787999) `📚1` — observed / media-discussions — ⭐3
+- [computer-use discussion](https://news.ycombinator.com/item?id=49764149) `📚1` — The discussion is not mere cheerleading. On the computer-use thread, critics questioned code/project quality; OpenJev discussion included a concrete…
+- [Connect Four on Omarchy](https://x.com/entelic_aria/status/2100966999602102520) `📚1` — We put Jev inside OmarchyLinux @dhh to play Connect Four. It reads the board, chooses a move, watches the opponent respond, then Hermes reviews the result and…
+- [Contrastive Language Model (CLM): An Ultra-Fast System One Model](https://news.ycombinator.com/item?id=49827145) `📚1`
+- [Contrastive Language Models: A Fast, Generalizable System One Model](https://news.ycombinator.com/item?id=49848279) `📚1` — observed / media-discussions — ⭐2
+- [Corent model routing](https://x.com/corentai/status/2100965880242770423) `📚1` — Corent’s brain uses @typesafeai Jev now. Not to generate the output, to make the decision before the output gets generated. When a request comes into Corent,…
+- [Cua S1- A family of System One models](https://news.ycombinator.com/item?id=49758885) `📚1` — observed / media-discussions — ⭐2
+- [Custom Jev-style models for agent workflows](https://x.com/swill1ams/status/2100421326389354624) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [CV-matching proposal](https://reddit.com/r/picodingagent/comments/1wjibh5/comment/paiv33r) `📚1`
+- [dani_avila7 — Jev Model Router for Claude Code](https://x.com/dani_avila7/status/2101176629745561686) `📚1` — Announces the jev-model-router mod (see davila7/claude-code-templates above) with the reasoning behind locking the main model at session start to preserve…
+- [danielkhunter](https://x.com/danielkhunter/status/2100456518751768775) `📚1`
+- [Danish stock-market backtest](https://x.com/tommy_jepsen/status/2100939646653903063) `📚1` — Jev trading the danish stock market for all of 2025(239 trading days). Sentiment-based on market data, news articles, wikipedia & google trends. 8.1 million…
+- [danmana](https://x.com/danmana/status/2100550435094278475) `📚1`
+- [darkzodchi](https://x.com/zodchiii) `📚1`
+- [deliprao — don't distill your own Jev clone](https://x.com/deliprao/status/2103864277610189267) `📚1` — Warns builders of Jev-like models that gradient descent often fails to recover a teacher model's true parameters even when they exist nearby, and that…
+- [Demo and measurement boundaries](https://reddit.com/r/localllama/comments/1wl1yzq/i_gave_jev_laya_finetuned_modernce_and_qwen35_the) `📚1`
+- [Deokhyun — replacing MCP tool-calling with a Jev decision layer](https://x.com/evanyi_81/status/2102230224427753513) `📚1` — Proposes API Registry + JEV Decision + Direct Executor in place of exposing large MCP tool schemas to the LLM, using Jev to pick which raw API to call directly.
+- [devagrawal09](https://x.com/devagrawal09/status/2100341005690298687) `📚1`
+- [dextns](https://x.com/dextns/status/2099792098719305741) `📚1`
+- [Diogo Almeida with a16z on Jev](https://x.com/a16z/status/2104580361254810080) `📚1` — X: the founder with Ben Horowitz and Martin Casado, pitching Jev by asking where all the decisions in a software stack currently live.
+- [Direct policy/prefilter comment](https://reddit.com/r/artificialinteligence/comments/1wkhsyh/comment/paqmh38) `📚1`
+- [Discord](https://mksaas.link/discord) `📚1` — Join the community and get help.
+- [discord.gg/WUujKYBp8s](https://discord.com/invite/wuujkybp8s) `📚1`
+- [Does an open-weight decision model beat a hosted one? Jev vs. Laya](https://news.ycombinator.com/item?id=49806080) `📚1` — observed / media-discussions — ⭐3
+- [Does Jev understand color?](https://x.com/mattdesl/status/2100899669802963060) `📚1` — does Jev understand colour? incredible model, very cheap and fast. definitely feels like a leap forward for creating new UX/UI paradigms on top of modern…
+- [Drawing, one decision at a time](https://x.com/anshuc/status/2100246929611411501) `📚1` — Jev can draw pictures by predicting every pixel in parallel — by @anshuc
+- [drummatick — does Jev really save the cost?](https://x.com/drummatick/status/2101714564404715872) `📚1` — Benchmarks Jev against GPT-5 on the Banking77 intent-classification dataset: GPT-5 beats Jev by 3.2% accuracy at 32x the cost, plus a Jev+GPT-5 cascade test.
+- [DuckDB extension: typed Jev answers as real SQL types](https://news.ycombinator.com/item?id=49774406) `📚1` — observed / media-discussions — ⭐2
+- [Eastwood — Jev loses to Kimi-K2 and fine-tuned Qwen3-14B on SemEval sentiment](https://x.com/tsj_estwld/status/2102305073888116870) `📚1` — Across all 10 SemEval-2026 DimABSA ST1 test sets, Jev went 0-10 against one-shot Kimi-K2 Thinking and 3-7 against a fine-tuned Qwen3-14B.
+- [Eikos - OSS Jev-like model](https://news.ycombinator.com/item?id=49863193) `📚1` — observed / media-discussions — ⭐2
+- [Emotions expressed in beeps](https://x.com/yoheinakajima/status/2100945960671326482) `📚1` — gave jev a way to express some emotion and chat with beeps (sound on 🔊) — by @yoheinakajima
+- [EntendreAI — Crypto Accounting Benchmark](https://x.com/entendreai/status/2104624722403283407) `📚1` — Jev ran at about 635 ms per call but scored only 51.7%, 47.5%, and 48.3% choosing among 2, 3, and 5 accounts.
+- [Every CEO 相关讨论](https://x.com/danshipper/status/2100251499443998766) `📚1` — . “JSON classifier” framing is useful rhetoric, not a product warranty. Example discussion: @danshipper.
+- [Every model (incl. Jev) we tested inflates security finding severity](https://news.ycombinator.com/item?id=49894699) `📚1` — observed / media-discussions — ⭐7
+- [Fabulous_7781](https://x.com/fabulous_7781/status/2100576934572814597) `📚1`
+- [Filtering AI slop from YouTube](https://x.com/mariojankovic/status/2100934084503519325) `📚1` — Used Jev to build a chrome extension that filters out AI slop on YouTube. It's BYOK, works on scroll and caches results. — by @mariojankovic
+- [Find-jevable-code – audit a repo for Jev-replaceable decisions](https://news.ycombinator.com/item?id=49783502) `📚1` — observed / media-discussions — ⭐2
+- [Flappy Apex plays itself](https://x.com/chmalszymon/status/2100934588205851015) `📚1` — That’s Jev playing Floppy Apex, passing the previous best score and not thinking of stopping anytime soon 🏆 It was wired up by Apex via Appduct, with some…
+- [FLock.io THIS / THAT Model 1.0](https://x.com/flock_io/status/2101936492323209559) `📚1` — (Empirical Evaluation) &middot; 🐦 Thread -- Binary decision benchmark across 68 questions recording 94.1% accuracy for FLock's specialized decision model…
+- [fluixoo — TypeSafe's own 193.6x claim, retested](https://x.com/fluixoo/status/2103755424117686645) `📚1` — An independent 791-decision test measured Jev at 3.6x faster than GPT-5.6 Terra (not TypeSafe's advertised 193.6x) and several accuracy points behind on hard…
+- [Focus Rail train routing](https://x.com/benkigera/status/2101035079149449398) `📚1` — This made me try a different experiment: Can Jev play a game in real time? In my new game, Focus Rail, Jev has to track multiple moving trains and route each…
+- [FxTwitter 的同帖镜像](https://api.fxtwitter.com/status/2101786156572823624) `📚1`
+- [general guidelines](https://news.ycombinator.com/newsguidelines.html) `📚1`
+- [Generating levels in real time with the Jev model](https://news.ycombinator.com/item?id=49771494) `📚1` — observed / media-discussions — ⭐2
+- [Gevva0 – a Jev like decision engine on Gemma 26B via direct logit scoring](https://news.ycombinator.com/item?id=49879676) `📚1` — observed / media-discussions — ⭐2
+- [Gipp 🦅](https://x.com/gippp69) `📚1`
+- [glennwiz/jev-discord-bot,0,Rust,,2026-09-26](https://github.com/glennwiz/jev-discord-bot,0,rust,,2026-09-26) `📚1`
+- [GLiNER2.5-Decide and Jev: a decision model you run, and one you call](https://news.ycombinator.com/item?id=49864950) `📚1` — observed / media-discussions — ⭐3
+- [Gmail filter 原帖](https://x.com/ziyacivan/status/2104008318616211880) `📚1` — We used the index for discovery, then checked candidate repositories through GitHub API and their READMEs. The September 27 Gmail-filter post leads to a…
+- [Google Gemma — turn DiffusionGemma into a Jev-like model](https://x.com/googlegemma/status/2104990261181075498) `📚1` — Gemma's account shows vLLM seeding a response template so DiffusionGemma returns yes/no, multiple-choice, and score probabilities in one denoising step.
+- [Grok 机器人的 ask-jev 前置关卡](https://x.com/chuckhtf/status/2102187054381617367) `📚1` — ask-jev gate for Grok bots · ChuckHTF · X · ♥ 1 · 2026-09-22Personal desk of Grok bots and assistants that now asks Jev first, via OpenRouter's Decisions API,…
+- [hackgoofer](https://x.com/hackgoofer/status/2100464343255294448) `📚1`
+- [haiderTheDev](https://x.com/haiderthedev/status/2100419750459519156) `📚1`
+- [Hanako](https://x.com/hanakoxbt) `📚1`
+- [Hari Sevugan: "The Decision Layer: Separating Judgment from Generation" (LinkedIn, 2026-09](https://linkedin.com/pulse/decision-layer-separating-judgment-from-generation-jev-hari-sevugan-htgse) `📚1` — Architecture-level analysis, no new independent measurements: reads 193.6×/444.6× as best-case ceilings from vendor workflow evals that measured agreement with…
+- [harshil1712 的 Cloudflare Workers 语音 agent](https://linkedin.com/posts/harshil1712_i-got-access-to-jev-a-new-model-from-typesafe-activity-7506395781399080961-4bka) `📚1`
+- [Have a Question? Ask Jev](https://news.ycombinator.com/item?id=49782388) `📚1` — observed / media-discussions — ⭐3
+- [Havok (@HavokSocial)](https://x.com/havoksocial/status/2100702139735818568) `📚1` — (SecOps Playbook) &middot; 🐦 Thread -- Automated host isolation and firewall containment in sub-50 ms at >= 0.90 confidence with mandatory human sign-off,…
+- [Hermes experiment and critiques](https://reddit.com/r/hermesagent/comments/1wkpl3q/integrated_the_jev_context_engine_into_hermes) `📚1` — Separate prompt-cache warning
+- [hermes-imessage-codex-context](https://x.com/miles_matthias/status/2101856344269558027) `📚1`
+- [Hipershopping with Agentcard](https://x.com/pipeabellos/status/2101035136867569838) `📚1` — breaking: Agentcard + Jev + Kernel = Hipershopping ⚡ asking an agent to go buy stuff for you online is usually: - expensive (bc of tokens going back and forth)…
+- [HiringCafe resume-job relevance benchmark](https://x.com/h_nilforoshan/status/2100409794276520341) `📚1` — Thread benchmarking Jev on resume-to-job-description relevance scoring for HiringCafe, a job search app serving 2.5 million monthly active users.
+- [HN](https://news.ycombinator.com/item?id=49800830) `📚1`
+- [HN](https://news.ycombinator.com/item?id=49800574) `📚1`
+- [HN comment](https://news.ycombinator.com/item?id=49804711) `📚1`
+- [HN comment](https://news.ycombinator.com/item?id=49803734) `📚1`
+- [HN submission](https://news.ycombinator.com/item?id=49802812) `📚1`
+- [HN submission](https://news.ycombinator.com/item?id=49803528) `📚1`
+- [HN: Jev technical discussion](https://news.ycombinator.com/item?id=49762040) `📚1`
+- [Home Assistant discussion](https://reddit.com/r/homeassistant/comments/1wjmqj0/upcoming_revolution_for_smart_home_control_with) `📚1`
+- [hosted invite](https://discord.com/oauth2/authorize) `📚1`
+- [How Jev works: calibrated decision models](https://news.ycombinator.com/item?id=49868786) `📚1` — observed / media-discussions — ⭐3
+- [How Jev-style decoding works](https://x.com/nielsrogge/status/2100239244501430438) `📚1` — Visual explanation, based on the open Qwen2.5-RLCD model, of reading field probabilities from a cached single decoder pass instead of generating JSON token by…
+- [How to classify, route, and score with Jev and AI SDK](https://news.ycombinator.com/item?id=49765748) `📚1` — observed / media-discussions — ⭐2
+- [How to Cut Your Agent Bill by 90% With Jev Engineering and Kimi K3](https://x.com/polydao/article/2104783226833186920) `📚1` — Original article by Mr. Buzzoni, published September 29, 2026. The guide's prose and diagram are by Appit Studio with AI assistance; no human reviewer is…
+- [How to Get Started with Jev in Python – Real Python](https://news.ycombinator.com/item?id=49899736) `📚1` — observed / media-discussions — ⭐2
+- [How to master Jev (Full Guide)](https://x.com/chddaniel/status/2100925069765534024) `📚1` — Long guide covering what Jev is good at, using it beside existing LLMs, question patterns, confidence gates against bad decisions, and five money-making…
+- [How to Use Jev in Node.js](https://news.ycombinator.com/item?id=49877785) `📚1` — observed / media-discussions — ⭐2
+- [https://x.com/0bullnet/status/2100652480648360352](https://x.com/0bullnet/status/2100652480648360352) `📚1`
+- [https://x.com/0chob/status/2102497463265640798](https://x.com/0chob/status/2102497463265640798) `📚1`
+- [https://x.com/0niheei/status/2102728716455448884](https://x.com/0niheei/status/2102728716455448884) `📚1`
+- [https://x.com/0x0SojalSec/status/2101134552005828803](https://x.com/0x0sojalsec/status/2101134552005828803) `📚1`
+- [https://x.com/0x0SojalSec/status/2102547858486702368](https://x.com/0x0sojalsec/status/2102547858486702368) `📚1`
+- [https://x.com/0x0SojalSec/status/2102570286810099997](https://x.com/0x0sojalsec/status/2102570286810099997) `📚1`
+- [https://x.com/0x_exit/status/2102523501928145403](https://x.com/0x_exit/status/2102523501928145403) `📚1`
+- [https://x.com/0x_freddy/status/2102386533214912969](https://x.com/0x_freddy/status/2102386533214912969) `📚1`
+- [https://x.com/0x_Leonn/status/2102387938508104150](https://x.com/0x_leonn/status/2102387938508104150) `📚1`
+- [https://x.com/0x_rody/status/2102071432700104846](https://x.com/0x_rody/status/2102071432700104846) `📚1`
+- [https://x.com/0x_rody/status/2102403963865759871](https://x.com/0x_rody/status/2102403963865759871) `📚1`
+- [https://x.com/0X_Vetra/status/2102423572207550662](https://x.com/0x_vetra/status/2102423572207550662) `📚1`
+- [https://x.com/0xABANN/status/2102028793397321799](https://x.com/0xabann/status/2102028793397321799) `📚1`
+- [https://x.com/0xAIGOAT/status/2102546567286669438](https://x.com/0xaigoat/status/2102546567286669438) `📚1`
+- [https://x.com/0xAIGOAT/status/2102741017661456849](https://x.com/0xaigoat/status/2102741017661456849) `📚1`
+- [https://x.com/0xaniol/status/2101076982373191927](https://x.com/0xaniol/status/2101076982373191927) `📚1`
+- [https://x.com/0xAsm0d3us/status/2100518573118779547](https://x.com/0xasm0d3us/status/2100518573118779547) `📚1`
+- [https://x.com/0xBakeer/status/2101597047635705987](https://x.com/0xbakeer/status/2101597047635705987) `📚1`
+- [https://x.com/0xBOYD/status/2100599760004522490](https://x.com/0xboyd/status/2100599760004522490) `📚1`
+- [https://x.com/0xBynode/status/2102716004660842523](https://x.com/0xbynode/status/2102716004660842523) `📚1`
+- [https://x.com/0xCaps/status/2101053797279666303](https://x.com/0xcaps/status/2101053797279666303) `📚1`
+- [https://x.com/0xCaps/status/2101240580512591952](https://x.com/0xcaps/status/2101240580512591952) `📚1`
+- [https://x.com/0xCaps/status/2101974658442526862](https://x.com/0xcaps/status/2101974658442526862) `📚1`
+- [https://x.com/0xCarnagee/status/2101793910142259500](https://x.com/0xcarnagee/status/2101793910142259500) `📚1`
+- [https://x.com/0xCarnagee/status/2102559228737012087](https://x.com/0xcarnagee/status/2102559228737012087) `📚1`
+- [https://x.com/0xChainThought/status/2102396788887912563](https://x.com/0xchainthought/status/2102396788887912563) `📚1`
+- [https://x.com/0xchewa/status/2102015328582508980](https://x.com/0xchewa/status/2102015328582508980) `📚1`
+- [https://x.com/0xChonsy/status/2102389788389040584](https://x.com/0xchonsy/status/2102389788389040584) `📚1`
+- [https://x.com/0xChonsy/status/2102746544109724052](https://x.com/0xchonsy/status/2102746544109724052) `📚1`
+- [https://x.com/0xClodex/status/2102477450341208277](https://x.com/0xclodex/status/2102477450341208277) `📚1`
+- [https://x.com/0xCodez/status/2102443885351911500](https://x.com/0xcodez/status/2102443885351911500) `📚1`
+- [https://x.com/0xCodila/status/2102447757722050959](https://x.com/0xcodila/status/2102447757722050959) `📚1`
+- [https://x.com/0xironyAditya/status/2100689091058921635](https://x.com/0xironyaditya/status/2100689091058921635) `📚1`
+- [https://x.com/0xKaspie/status/2102052707024466181](https://x.com/0xkaspie/status/2102052707024466181) `📚1`
+- [https://x.com/0xKiyoro/status/2101544074591236375](https://x.com/0xkiyoro/status/2101544074591236375) `📚1`
+- [https://x.com/0xKiyoro/status/2102060645151539305](https://x.com/0xkiyoro/status/2102060645151539305) `📚1`
+- [https://x.com/0xKiyoro/status/2102586877446390162](https://x.com/0xkiyoro/status/2102586877446390162) `📚1`
+- [https://x.com/0xkkai/status/2102764873499206076](https://x.com/0xkkai/status/2102764873499206076) `📚1`
+- [https://x.com/0xmigi/status/2100694891839824324](https://x.com/0xmigi/status/2100694891839824324) `📚1`
+- [https://x.com/0xMorlex/status/2101676757082341786](https://x.com/0xmorlex/status/2101676757082341786) `📚1`
+- [https://x.com/0xMortyx/status/2102418994510639280](https://x.com/0xmortyx/status/2102418994510639280) `📚1`
+- [https://x.com/0xMortyx/status/2102762224720716232](https://x.com/0xmortyx/status/2102762224720716232) `📚1`
+- [https://x.com/0xMovez/status/2101746812738850945](https://x.com/0xmovez/status/2101746812738850945) `📚1`
+- [https://x.com/0xMuizz/status/2100652804150833607](https://x.com/0xmuizz/status/2100652804150833607) `📚1`
+- [https://x.com/0xnineinch/status/2101761209309827469](https://x.com/0xnineinch/status/2101761209309827469) `📚1`
+- [https://x.com/0xnirlin/status/2101047345496617218](https://x.com/0xnirlin/status/2101047345496617218) `📚1`
+- [https://x.com/0xnoonez/status/2102045236851548503](https://x.com/0xnoonez/status/2102045236851548503) `📚1`
+- [https://x.com/0xnoonez/status/2102338128929280289](https://x.com/0xnoonez/status/2102338128929280289) `📚1`
+- [https://x.com/0xnoonez/status/2102502363810402662](https://x.com/0xnoonez/status/2102502363810402662) `📚1`
+- [https://x.com/0xRicker/status/2102432538480234946](https://x.com/0xricker/status/2102432538480234946) `📚1`
+- [https://x.com/0xRunix/status/2102030484871995769](https://x.com/0xrunix/status/2102030484871995769) `📚1`
+- [https://x.com/0xSkik/status/2102483067914834137](https://x.com/0xskik/status/2102483067914834137) `📚1`
+- [https://x.com/0xSolty/status/2101413803678105744](https://x.com/0xsolty/status/2101413803678105744) `📚1`
+- [https://x.com/0xSolty/status/2101763071014498528](https://x.com/0xsolty/status/2101763071014498528) `📚1`
+- [https://x.com/0xSolty/status/2102452262077378721](https://x.com/0xsolty/status/2102452262077378721) `📚1`
+- [https://x.com/0xSpikez/status/2102448251127357864](https://x.com/0xspikez/status/2102448251127357864) `📚1`
+- [https://x.com/0xTreff/status/2101997289715773761](https://x.com/0xtreff/status/2101997289715773761) `📚1`
+- [https://x.com/0xUYZ/status/2101209643683107086](https://x.com/0xuyz/status/2101209643683107086) `📚1`
+- [https://x.com/0xwhippa/status/2102518451432575271](https://x.com/0xwhippa/status/2102518451432575271) `📚1`
+- [https://x.com/0xwhrrari/status/2102035137848381455](https://x.com/0xwhrrari/status/2102035137848381455) `📚1`
+- [https://x.com/0xyoussea/status/2102294324079735228](https://x.com/0xyoussea/status/2102294324079735228) `📚1`
+- [https://x.com/10Xpraash/status/2101746524548161689](https://x.com/10xpraash/status/2101746524548161689) `📚1`
+- [https://x.com/123olp/status/2102025016984625316](https://x.com/123olp/status/2102025016984625316) `📚1`
+- [https://x.com/145k4/status/2100647394211680286](https://x.com/145k4/status/2100647394211680286) `📚1`
+- [https://x.com/1920web1080/status/2102405349110104121](https://x.com/1920web1080/status/2102405349110104121) `📚1`
+- [https://x.com/1a1n1d1y/status/2101658223979970704](https://x.com/1a1n1d1y/status/2101658223979970704) `📚1`
+- [https://x.com/1kleos1/status/2102738512889954372](https://x.com/1kleos1/status/2102738512889954372) `📚1`
+- [https://x.com/29meat_ai/status/2101619628187218291](https://x.com/29meat_ai/status/2101619628187218291) `📚1`
+- [https://x.com/29meat_ai/status/2102664261466308790](https://x.com/29meat_ai/status/2102664261466308790) `📚1`
+- [https://x.com/40jobseeking/status/2102564127285866546](https://x.com/40jobseeking/status/2102564127285866546) `📚1`
+- [https://x.com/40jobseeking/status/2102577673591775347](https://x.com/40jobseeking/status/2102577673591775347) `📚1`
+- [https://x.com/51bodila/status/2101096030641238236](https://x.com/51bodila/status/2101096030641238236) `📚1`
+- [https://x.com/7okesh/status/2101937286653096059](https://x.com/7okesh/status/2101937286653096059) `📚1`
+- [https://x.com/8823scholar/status/2101177824921215026](https://x.com/8823scholar/status/2101177824921215026) `📚1`
+- [https://x.com/_can1357/status/2102524775470084280](https://x.com/_can1357/status/2102524775470084280) `📚1`
+- [https://x.com/_crydevil_/status/2101297201469079564](https://x.com/_crydevil_/status/2101297201469079564) `📚1`
+- [https://x.com/_foreverpiano/status/2101996018997043661](https://x.com/_foreverpiano/status/2101996018997043661) `📚1`
+- [https://x.com/_hosty/status/2100980502362517801](https://x.com/_hosty/status/2100980502362517801) `📚1`
+- [https://x.com/_iamkartiks_/status/2102092735754957126](https://x.com/_iamkartiks_/status/2102092735754957126) `📚1`
+- [https://x.com/_jaechung/status/2102302888404115641](https://x.com/_jaechung/status/2102302888404115641) `📚1`
+- [https://x.com/_kayato/status/2102643279141666977](https://x.com/_kayato/status/2102643279141666977) `📚1`
+- [https://x.com/_koushikde_/status/2102055249443983604](https://x.com/_koushikde_/status/2102055249443983604) `📚1`
+- [https://x.com/_opinionateddev/status/2101864284703613007](https://x.com/_opinionateddev/status/2101864284703613007) `📚1`
+- [https://x.com/_pulkitxm/status/2101689338798973354](https://x.com/_pulkitxm/status/2101689338798973354) `📚1`
+- [https://x.com/_pulkitxm/status/2101789245832937506](https://x.com/_pulkitxm/status/2101789245832937506) `📚1`
+- [https://x.com/_serinuntius/status/2100497307112452332](https://x.com/_serinuntius/status/2100497307112452332) `📚1`
+- [https://x.com/_serinuntius/status/2100497721367175312](https://x.com/_serinuntius/status/2100497721367175312) `📚1`
+- [https://x.com/_shafinsiddique/status/2101517492883431899](https://x.com/_shafinsiddique/status/2101517492883431899) `📚1`
+- [https://x.com/_shubhankar/status/2101830589620056160](https://x.com/_shubhankar/status/2101830589620056160) `📚1`
+- [https://x.com/_smontlouis/status/2100570538007527719](https://x.com/_smontlouis/status/2100570538007527719) `📚1`
+- [https://x.com/_trou3/status/2101209823790711161](https://x.com/_trou3/status/2101209823790711161) `📚1`
+- [https://x.com/_xpn_/status/2102150280854868159](https://x.com/_xpn_/status/2102150280854868159) `📚1`
+- [https://x.com/_yuhanluo/status/2101901020691648957](https://x.com/_yuhanluo/status/2101901020691648957) `📚1`
+- [https://x.com/a1exstone/status/2101687438653497633](https://x.com/a1exstone/status/2101687438653497633) `📚1`
+- [https://x.com/a1exstone/status/2102472886111838643](https://x.com/a1exstone/status/2102472886111838643) `📚1`
+- [https://x.com/a_captaincook/status/2102205359100457023](https://x.com/a_captaincook/status/2102205359100457023) `📚1`
+- [https://x.com/a_ramabadran/status/2102430712150569280](https://x.com/a_ramabadran/status/2102430712150569280) `📚1`
+- [https://x.com/aaayandev/status/2102137061490794730](https://x.com/aaayandev/status/2102137061490794730) `📚1`
+- [https://x.com/aadhilkh/status/2101316158024815075](https://x.com/aadhilkh/status/2101316158024815075) `📚1`
+- [https://x.com/aadhilkh/status/2101319794243092695](https://x.com/aadhilkh/status/2101319794243092695) `📚1`
+- [https://x.com/aadhilkh/status/2101624643291627719](https://x.com/aadhilkh/status/2101624643291627719) `📚1`
+- [https://x.com/aadhrik/status/2102159282728841320](https://x.com/aadhrik/status/2102159282728841320) `📚1`
+- [https://x.com/aadityansha_06/status/2101680888455246253](https://x.com/aadityansha_06/status/2101680888455246253) `📚1`
+- [https://x.com/aaronrubin/status/2101455538043212139](https://x.com/aaronrubin/status/2101455538043212139) `📚1`
+- [https://x.com/aayanrehmanai/status/2102128588837232810](https://x.com/aayanrehmanai/status/2102128588837232810) `📚1`
+- [https://x.com/abdulsaboooor/status/2101013687565959393](https://x.com/abdulsaboooor/status/2101013687565959393) `📚1`
+- [https://x.com/abhegd/status/2102195682257854602](https://x.com/abhegd/status/2102195682257854602) `📚1`
+- [https://x.com/abhi_s_tanwar/status/2102118723129843866](https://x.com/abhi_s_tanwar/status/2102118723129843866) `📚1`
+- [https://x.com/AbhinavXJ/status/2102107645713023058](https://x.com/abhinavxj/status/2102107645713023058) `📚1`
+- [https://x.com/abolbuild/status/2100509548339408972](https://x.com/abolbuild/status/2100509548339408972) `📚1`
+- [https://x.com/abolbuild/status/2100690370912805049](https://x.com/abolbuild/status/2100690370912805049) `📚1`
+- [https://x.com/ace_the_agent/status/2101773185511211167](https://x.com/ace_the_agent/status/2101773185511211167) `📚1`
+- [https://x.com/adamisnotroman/status/2101549596048543843](https://x.com/adamisnotroman/status/2101549596048543843) `📚1`
+- [https://x.com/adammiribyan/status/2100988421426839942](https://x.com/adammiribyan/status/2100988421426839942) `📚1`
+- [https://x.com/ADesiHCI/status/2102114286390898707](https://x.com/adesihci/status/2102114286390898707) `📚1`
+- [https://x.com/AdhyaayK/status/2100409470006255975](https://x.com/adhyaayk/status/2100409470006255975) `📚1`
+- [https://x.com/adiletech/status/2100776353914073308](https://x.com/adiletech/status/2100776353914073308) `📚1`
+- [https://x.com/adiletech/status/2100780526969692451](https://x.com/adiletech/status/2100780526969692451) `📚1`
+- [https://x.com/AdilMouja/status/2101424882315669818](https://x.com/adilmouja/status/2101424882315669818) `📚1`
+- [https://x.com/adriaansaeezdev/status/2102736053220016200](https://x.com/adriaansaeezdev/status/2102736053220016200) `📚1`
+- [https://x.com/adriancortexbt/status/2101670746883768607](https://x.com/adriancortexbt/status/2101670746883768607) `📚1`
+- [https://x.com/adriancortexbt/status/2102099108387545297](https://x.com/adriancortexbt/status/2102099108387545297) `📚1`
+- [https://x.com/agentcardhq/status/2102073471664537677](https://x.com/agentcardhq/status/2102073471664537677) `📚1`
+- [https://x.com/agentslopzone/status/2101339313870889028](https://x.com/agentslopzone/status/2101339313870889028) `📚1`
+- [https://x.com/agentslopzone/status/2102110628810813746](https://x.com/agentslopzone/status/2102110628810813746) `📚1`
+- [https://x.com/agentspanel/status/2101316231466991755](https://x.com/agentspanel/status/2101316231466991755) `📚1`
+- [https://x.com/agrimsingh/status/2101149562274562475](https://x.com/agrimsingh/status/2101149562274562475) `📚1`
+- [https://x.com/ahab_developer/status/2101605212108800348](https://x.com/ahab_developer/status/2101605212108800348) `📚1`
+- [https://x.com/ahmedgagan11/status/2100895104055836914](https://x.com/ahmedgagan11/status/2100895104055836914) `📚1`
+- [https://x.com/ahmedgagan11/status/2100925308975161549](https://x.com/ahmedgagan11/status/2100925308975161549) `📚1`
+- [https://x.com/ai2humannetwork/status/2102687134369091975](https://x.com/ai2humannetwork/status/2102687134369091975) `📚1`
+- [https://x.com/ai_300/status/2102291814686593035](https://x.com/ai_300/status/2102291814686593035) `📚1`
+- [https://x.com/ai_7days_lab/status/2102019721176756559](https://x.com/ai_7days_lab/status/2102019721176756559) `📚1`
+- [https://x.com/ai_agent_dev/status/2100396115808190792](https://x.com/ai_agent_dev/status/2100396115808190792) `📚1`
+- [https://x.com/ai_security_CT/status/2102173029275230263](https://x.com/ai_security_ct/status/2102173029275230263) `📚1`
+- [https://x.com/ai_smallbiz/status/2101282951103443267](https://x.com/ai_smallbiz/status/2101282951103443267) `📚1`
+- [https://x.com/ai_xiaomu/status/2101619124812357850](https://x.com/ai_xiaomu/status/2101619124812357850) `📚1`
+- [https://x.com/AiAircle34052/status/2102337181763371239](https://x.com/aiaircle34052/status/2102337181763371239) `📚1`
+- [https://x.com/aiedge_/status/2101870531754799287](https://x.com/aiedge_/status/2101870531754799287) `📚1`
+- [https://x.com/AIgossipTalks/status/2101262006640857109](https://x.com/aigossiptalks/status/2101262006640857109) `📚1`
+- [https://x.com/AInebosuke/status/2101537902853513490](https://x.com/ainebosuke/status/2101537902853513490) `📚1`
+- [https://x.com/airesearch12/status/2101925455037095982](https://x.com/airesearch12/status/2101925455037095982) `📚1`
+- [https://x.com/airesearch12/status/2102748391658684561](https://x.com/airesearch12/status/2102748391658684561) `📚1`
+- [https://x.com/aiRobertDaily/status/2101584423347220897](https://x.com/airobertdaily/status/2101584423347220897) `📚1`
+- [https://x.com/aisikream/status/2101974883806937197](https://x.com/aisikream/status/2101974883806937197) `📚1`
+- [https://x.com/ajaypv4/status/2101666186001863083](https://x.com/ajaypv4/status/2101666186001863083) `📚1`
+- [https://x.com/akafukusou/status/2100575139956244701](https://x.com/akafukusou/status/2100575139956244701) `📚1`
+- [https://x.com/akafukusou/status/2100643727178092903](https://x.com/akafukusou/status/2100643727178092903) `📚1`
+- [https://x.com/akbuilds_/status/2101470121944338726](https://x.com/akbuilds_/status/2101470121944338726) `📚1`
+- [https://x.com/akimm_27/status/2101444816395514114](https://x.com/akimm_27/status/2101444816395514114) `📚1`
+- [https://x.com/akimm_27/status/2101446185542119794](https://x.com/akimm_27/status/2101446185542119794) `📚1`
+- [https://x.com/akira_papa_IT/status/2100581114293506163](https://x.com/akira_papa_it/status/2100581114293506163) `📚1`
+- [https://x.com/akiyoshisan/status/2101606819848417716](https://x.com/akiyoshisan/status/2101606819848417716) `📚1`
+- [https://x.com/akras14/status/2101933291419099148](https://x.com/akras14/status/2101933291419099148) `📚1`
+- [https://x.com/AkshaySubr42403/status/2102534648920260676](https://x.com/akshaysubr42403/status/2102534648920260676) `📚1`
+- [https://x.com/aksssrao/status/2100560844459475368](https://x.com/aksssrao/status/2100560844459475368) `📚1`
+- [https://x.com/aksssrao/status/2101595948455809265](https://x.com/aksssrao/status/2101595948455809265) `📚1`
+- [https://x.com/alamosaravali/status/2101061200402690503](https://x.com/alamosaravali/status/2101061200402690503) `📚1`
+- [https://x.com/alber_tostring/status/2101248891555324047](https://x.com/alber_tostring/status/2101248891555324047) `📚1`
+- [https://x.com/albertobeicas/status/2102313719346958773](https://x.com/albertobeicas/status/2102313719346958773) `📚1`
+- [https://x.com/albicodes/status/2101005086348488797](https://x.com/albicodes/status/2101005086348488797) `📚1`
+- [https://x.com/AlejandroRomaan/status/2100668711061602608](https://x.com/alejandroromaan/status/2100668711061602608) `📚1`
+- [https://x.com/aleksey_ignatov/status/2102391862279688373](https://x.com/aleksey_ignatov/status/2102391862279688373) `📚1`
+- [https://x.com/alex__bit/status/2102139341653024913](https://x.com/alex__bit/status/2102139341653024913) `📚1`
+- [https://x.com/AlexAITrends/status/2102150753850708082](https://x.com/alexaitrends/status/2102150753850708082) `📚1`
+- [https://x.com/alikayhanx/status/2101672593832996883](https://x.com/alikayhanx/status/2101672593832996883) `📚1`
+- [https://x.com/alin_zone/status/2102671376268370160](https://x.com/alin_zone/status/2102671376268370160) `📚1`
+- [https://x.com/alpesdream/status/2100768016862675144](https://x.com/alpesdream/status/2100768016862675144) `📚1`
+- [https://x.com/alphabatcher/status/2102493746558333262](https://x.com/alphabatcher/status/2102493746558333262) `📚1`
+- [https://x.com/alphabatcher/status/2102654298257543297](https://x.com/alphabatcher/status/2102654298257543297) `📚1`
+- [https://x.com/altory_y/status/2102046874362323276](https://x.com/altory_y/status/2102046874362323276) `📚1`
+- [https://x.com/altryne/status/2100606640097771901](https://x.com/altryne/status/2100606640097771901) `📚1`
+- [https://x.com/amazedsaint/status/2101030005060853800](https://x.com/amazedsaint/status/2101030005060853800) `📚1`
+- [https://x.com/amir_ship/status/2101788868089729155](https://x.com/amir_ship/status/2101788868089729155) `📚1`
+- [https://x.com/amirhusain_tx/status/2101689234851860851](https://x.com/amirhusain_tx/status/2101689234851860851) `📚1`
+- [https://x.com/AmirKodro/status/2101760551642968520](https://x.com/amirkodro/status/2101760551642968520) `📚1`
+- [https://x.com/amit_mirgal/status/2101639897232617750](https://x.com/amit_mirgal/status/2101639897232617750) `📚1`
+- [https://x.com/amit_y11/status/2101553142802661706](https://x.com/amit_y11/status/2101553142802661706) `📚1`
+- [https://x.com/amodexbt/status/2102452809622839611](https://x.com/amodexbt/status/2102452809622839611) `📚1`
+- [https://x.com/amya_wilks/status/2102125617177043039](https://x.com/amya_wilks/status/2102125617177043039) `📚1`
+- [https://x.com/Anand_naraya/status/2102006876607283314](https://x.com/anand_naraya/status/2102006876607283314) `📚1`
+- [https://x.com/andersjw_/status/2101212374955106378](https://x.com/andersjw_/status/2101212374955106378) `📚1`
+- [https://x.com/Andrew_Blumson/status/2102019991868465626](https://x.com/andrew_blumson/status/2102019991868465626) `📚1`
+- [https://x.com/AndriiSolokh/status/2101180068814860549](https://x.com/andriisolokh/status/2101180068814860549) `📚1`
+- [https://x.com/andymarrows/status/2101723708448489766](https://x.com/andymarrows/status/2101723708448489766) `📚1`
+- [https://x.com/andymarrows/status/2101733629655179687](https://x.com/andymarrows/status/2101733629655179687) `📚1`
+- [https://x.com/andytng28/status/2100434574019121254](https://x.com/andytng28/status/2100434574019121254) `📚1`
+- [https://x.com/andytng28/status/2100525172096716950](https://x.com/andytng28/status/2100525172096716950) `📚1`
+- [https://x.com/andytng28/status/2102699495691841810](https://x.com/andytng28/status/2102699495691841810) `📚1`
+- [https://x.com/andywang/status/2102265179543400907](https://x.com/andywang/status/2102265179543400907) `📚1`
+- [https://x.com/angelgalvisc/status/2101700437074203017](https://x.com/angelgalvisc/status/2101700437074203017) `📚1`
+- [https://x.com/AngelPadillaRam/status/2100963480027480457](https://x.com/angelpadillaram/status/2100963480027480457) `📚1`
+- [https://x.com/Angus_Flint/status/2101872088210710948](https://x.com/angus_flint/status/2101872088210710948) `📚1`
+- [https://x.com/Aniketx/status/2102364532433990097](https://x.com/aniketx/status/2102364532433990097) `📚1`
+- [https://x.com/anis_marrouchi/status/2102026141884141989](https://x.com/anis_marrouchi/status/2102026141884141989) `📚1`
+- [https://x.com/anish_hg/status/2101382613332381914](https://x.com/anish_hg/status/2101382613332381914) `📚1`
+- [https://x.com/ankitatr_/status/2102278336705937893](https://x.com/ankitatr_/status/2102278336705937893) `📚1`
+- [https://x.com/ankittharol/status/2102263906433732647](https://x.com/ankittharol/status/2102263906433732647) `📚1`
+- [https://x.com/Anmol_Srv/status/2102025733208166589](https://x.com/anmol_srv/status/2102025733208166589) `📚1`
+- [https://x.com/ann_nnng/status/2101918688068919576](https://x.com/ann_nnng/status/2101918688068919576) `📚1`
+- [https://x.com/AnnatarXBT/status/2102665268162076922](https://x.com/annatarxbt/status/2102665268162076922) `📚1`
+- [https://x.com/Anot/status/2100761008352493918](https://x.com/anot/status/2100761008352493918) `📚1`
+- [https://x.com/Anot/status/2100822237221724317](https://x.com/anot/status/2100822237221724317) `📚1`
+- [https://x.com/AnotherCodingX/status/2100780180977725577](https://x.com/anothercodingx/status/2100780180977725577) `📚1`
+- [https://x.com/anshuc/status/2100708588922573272](https://x.com/anshuc/status/2100708588922573272) `📚1`
+- [https://x.com/anthonyriera/status/2100611323562233976](https://x.com/anthonyriera/status/2100611323562233976) `📚1`
+- [https://x.com/antiyro/status/2101272879409053944](https://x.com/antiyro/status/2101272879409053944) `📚1`
+- [https://x.com/AntonOdelski/status/2100257867647299917](https://x.com/antonodelski/status/2100257867647299917) `📚1`
+- [https://x.com/AnushkaaTyagii/status/2101274250141446612](https://x.com/anushkaatyagii/status/2101274250141446612) `📚1`
+- [https://x.com/aowang/status/2100770166619652330](https://x.com/aowang/status/2100770166619652330) `📚1`
+- [https://x.com/aowang/status/2100772813166772245](https://x.com/aowang/status/2100772813166772245) `📚1`
+- [https://x.com/aqhayami/status/2101152038520529229](https://x.com/aqhayami/status/2101152038520529229) `📚1`
+- [https://x.com/aravindballa/status/2100600122929504353](https://x.com/aravindballa/status/2100600122929504353) `📚1`
+- [https://x.com/ArchitectFray/status/2100560955692454117](https://x.com/architectfray/status/2100560955692454117) `📚1`
+- [https://x.com/ArchiveExplorer/status/2101302017301909810](https://x.com/archiveexplorer/status/2101302017301909810) `📚1`
+- [https://x.com/Argona0x/status/2102420702762602991](https://x.com/argona0x/status/2102420702762602991) `📚1`
+- [https://x.com/argos_M1111/status/2100999697456660934](https://x.com/argos_m1111/status/2100999697456660934) `📚1`
+- [https://x.com/argos_M1111/status/2101009663445942393](https://x.com/argos_m1111/status/2101009663445942393) `📚1`
+- [https://x.com/argos_M1111/status/2101330185044074958](https://x.com/argos_m1111/status/2101330185044074958) `📚1`
+- [https://x.com/ArielSh/status/2101637517359341701](https://x.com/arielsh/status/2101637517359341701) `📚1`
+- [https://x.com/arielweinberger/status/2100734952274907166](https://x.com/arielweinberger/status/2100734952274907166) `📚1`
+- [https://x.com/arifcodes/status/2100162790061113634](https://x.com/arifcodes/status/2100162790061113634) `📚1`
+- [https://x.com/arlooooooo/status/2100809471908069798](https://x.com/arlooooooo/status/2100809471908069798) `📚1`
+- [https://x.com/arni0x9053/status/2101470134996959681](https://x.com/arni0x9053/status/2101470134996959681) `📚1`
+- [https://x.com/arni0x9053/status/2102166644877307960](https://x.com/arni0x9053/status/2102166644877307960) `📚1`
+- [https://x.com/arrakis_ai/status/2101126279022211135](https://x.com/arrakis_ai/status/2101126279022211135) `📚1`
+- [https://x.com/arre_ankit/status/2101081321661775953](https://x.com/arre_ankit/status/2101081321661775953) `📚1`
+- [https://x.com/ArshanKhanifar/status/2102232365929996359](https://x.com/arshankhanifar/status/2102232365929996359) `📚1`
+- [https://x.com/ArthurLabMRP/status/2102680148852322563](https://x.com/arthurlabmrp/status/2102680148852322563) `📚1`
+- [https://x.com/ArtyShatilov/status/2102170150149726507](https://x.com/artyshatilov/status/2102170150149726507) `📚1`
+- [https://x.com/arztral/status/2101859216482775201](https://x.com/arztral/status/2101859216482775201) `📚1`
+- [https://x.com/asantossanz/status/2100521357679186355](https://x.com/asantossanz/status/2100521357679186355) `📚1`
+- [https://x.com/ashthepeasant/status/2102758684837462022](https://x.com/ashthepeasant/status/2102758684837462022) `📚1`
+- [https://x.com/AskVenice/status/2101095644467511578](https://x.com/askvenice/status/2101095644467511578) `📚1`
+- [https://x.com/ASofiMahmudi/status/2101393722730553807](https://x.com/asofimahmudi/status/2101393722730553807) `📚1`
+- [https://x.com/asta_td/status/2101594395799916616](https://x.com/asta_td/status/2101594395799916616) `📚1`
+- [https://x.com/atominac_98/status/2101879018244993196](https://x.com/atominac_98/status/2101879018244993196) `📚1`
+- [https://x.com/atsepio/status/2101764387526554008](https://x.com/atsepio/status/2101764387526554008) `📚1`
+- [https://x.com/atsurokishii/status/2100877439350272505](https://x.com/atsurokishii/status/2100877439350272505) `📚1`
+- [https://x.com/attrip/status/2101915424090996896](https://x.com/attrip/status/2101915424090996896) `📚1`
+- [https://x.com/augdrak/status/2100271950337597607](https://x.com/augdrak/status/2100271950337597607) `📚1`
+- [https://x.com/automataroom/status/2102228666449351165](https://x.com/automataroom/status/2102228666449351165) `📚1`
+- [https://x.com/avinashmohan/status/2100657016285061483](https://x.com/avinashmohan/status/2100657016285061483) `📚1`
+- [https://x.com/avrldotdev/status/2102354597314748446](https://x.com/avrldotdev/status/2102354597314748446) `📚1`
+- [https://x.com/ayami_marketing/status/2102044873864188081](https://x.com/ayami_marketing/status/2102044873864188081) `📚1`
+- [https://x.com/ayomosuro/status/2100748938425073925](https://x.com/ayomosuro/status/2100748938425073925) `📚1`
+- [https://x.com/ayousanz/status/2100766795661758642](https://x.com/ayousanz/status/2100766795661758642) `📚1`
+- [https://x.com/ayousanz/status/2100804974762762386](https://x.com/ayousanz/status/2100804974762762386) `📚1`
+- [https://x.com/b0dre/status/2102362736839512538](https://x.com/b0dre/status/2102362736839512538) `📚1`
+- [https://x.com/b_sagnnik/status/2100633299794481343](https://x.com/b_sagnnik/status/2100633299794481343) `📚1`
+- [https://x.com/b_szafranow/status/2102306964239966253](https://x.com/b_szafranow/status/2102306964239966253) `📚1`
+- [https://x.com/bairdcodes/status/2100223186868597190](https://x.com/bairdcodes/status/2100223186868597190) `📚1`
+- [https://x.com/balaena01/status/2101504117172502839](https://x.com/balaena01/status/2101504117172502839) `📚1`
+- [https://x.com/BalesTJason/status/2102069780496761026](https://x.com/balestjason/status/2102069780496761026) `📚1`
+- [https://x.com/bangbuilds/status/2102049977451287008](https://x.com/bangbuilds/status/2102049977451287008) `📚1`
+- [https://x.com/bangbuilds/status/2102310493289640445](https://x.com/bangbuilds/status/2102310493289640445) `📚1`
+- [https://x.com/bangbuilds/status/2102621899482407282](https://x.com/bangbuilds/status/2102621899482407282) `📚1`
+- [https://x.com/banjtheman/status/2102095712196382827](https://x.com/banjtheman/status/2102095712196382827) `📚1`
+- [https://x.com/banjtheman/status/2102449999288135889](https://x.com/banjtheman/status/2102449999288135889) `📚1`
+- [https://x.com/Bart_Mol/status/2100694860877513007](https://x.com/bart_mol/status/2100694860877513007) `📚1`
+- [https://x.com/battarchicken/status/2102441245738234077](https://x.com/battarchicken/status/2102441245738234077) `📚1`
+- [https://x.com/beamnxw/status/2102095524627177613](https://x.com/beamnxw/status/2102095524627177613) `📚1`
+- [https://x.com/bendersej/status/2100960073853935630](https://x.com/bendersej/status/2100960073853935630) `📚1`
+- [https://x.com/BenjamMartin/status/2101268411019915435](https://x.com/benjammartin/status/2101268411019915435) `📚1`
+- [https://x.com/BertrandDiouly/status/2102752597413372101](https://x.com/bertranddiouly/status/2102752597413372101) `📚1`
+- [https://x.com/bethanymarz/status/2102243184470294586](https://x.com/bethanymarz/status/2102243184470294586) `📚1`
+- [https://x.com/bfzli/status/2102350916699467901](https://x.com/bfzli/status/2102350916699467901) `📚1`
+- [https://x.com/bhasin_jai_/status/2101389370322502101](https://x.com/bhasin_jai_/status/2101389370322502101) `📚1`
+- [https://x.com/bhatsy/status/2101854008851730881](https://x.com/bhatsy/status/2101854008851730881) `📚1`
+- [https://x.com/bhatsy/status/2102038708379603404](https://x.com/bhatsy/status/2102038708379603404) `📚1`
+- [https://x.com/bijanbowen/status/2100756715197043122](https://x.com/bijanbowen/status/2100756715197043122) `📚1`
+- [https://x.com/bilal_harouchi/status/2100979294306488814](https://x.com/bilal_harouchi/status/2100979294306488814) `📚1`
+- [https://x.com/BillyJacobson/status/2102501216051712162](https://x.com/billyjacobson/status/2102501216051712162) `📚1`
+- [https://x.com/BillyJacobson/status/2102501430980378934](https://x.com/billyjacobson/status/2102501430980378934) `📚1`
+- [https://x.com/biluneg/status/2101800600019124420](https://x.com/biluneg/status/2101800600019124420) `📚1`
+- [https://x.com/bitslix/status/2100766212439363937](https://x.com/bitslix/status/2100766212439363937) `📚1`
+- [https://x.com/bl888m_eth/status/2101684333413368021](https://x.com/bl888m_eth/status/2101684333413368021) `📚1`
+- [https://x.com/bl888m_eth/status/2102056629822959868](https://x.com/bl888m_eth/status/2102056629822959868) `📚1`
+- [https://x.com/bl888m_eth/status/2102417420300468735](https://x.com/bl888m_eth/status/2102417420300468735) `📚1`
+- [https://x.com/bl888m_eth/status/2102750909021474993](https://x.com/bl888m_eth/status/2102750909021474993) `📚1`
+- [https://x.com/blacklist_ryu/status/2101743682382958877](https://x.com/blacklist_ryu/status/2101743682382958877) `📚1`
+- [https://x.com/blockchainys/status/2102676184420991299](https://x.com/blockchainys/status/2102676184420991299) `📚1`
+- [https://x.com/blu3mo/status/2100408913870909767](https://x.com/blu3mo/status/2100408913870909767) `📚1`
+- [https://x.com/blu3mo/status/2100409077633311182](https://x.com/blu3mo/status/2100409077633311182) `📚1`
+- [https://x.com/blueedgetechno/status/2102510277266948429](https://x.com/blueedgetechno/status/2102510277266948429) `📚1`
+- [https://x.com/Blueprint_Biz/status/2102222824215625751](https://x.com/blueprint_biz/status/2102222824215625751) `📚1`
+- [https://x.com/blumbuilds/status/2101143279505162551](https://x.com/blumbuilds/status/2101143279505162551) `📚1`
+- [https://x.com/blumbuilds/status/2101303285168664622](https://x.com/blumbuilds/status/2101303285168664622) `📚1`
+- [https://x.com/blune66/status/2101683580321804459](https://x.com/blune66/status/2101683580321804459) `📚1`
+- [https://x.com/bnl5110_/status/2102104753111224690](https://x.com/bnl5110_/status/2102104753111224690) `📚1`
+- [https://x.com/BogardKc/status/2101479145968636276](https://x.com/bogardkc/status/2101479145968636276) `📚1`
+- [https://x.com/BogdanBurlacu/status/2101198798982672537](https://x.com/bogdanburlacu/status/2101198798982672537) `📚1`
+- [https://x.com/BogdanDragomir/status/2100705473402229138](https://x.com/bogdandragomir/status/2100705473402229138) `📚1`
+- [https://x.com/BogdanDragomir/status/2101308008240177586](https://x.com/bogdandragomir/status/2101308008240177586) `📚1`
+- [https://x.com/bohnen/status/2101256247760818654](https://x.com/bohnen/status/2101256247760818654) `📚1`
+- [https://x.com/boiopollo/status/2100472612828721336](https://x.com/boiopollo/status/2100472612828721336) `📚1`
+- [https://x.com/boiopollo/status/2101218934594629792](https://x.com/boiopollo/status/2101218934594629792) `📚1`
+- [https://x.com/bolau_/status/2101429151219823022](https://x.com/bolau_/status/2101429151219823022) `📚1`
+- [https://x.com/bond_ai1/status/2101556210516316223](https://x.com/bond_ai1/status/2101556210516316223) `📚1`
+- [https://x.com/bonduelleioat/status/2102680389823160583](https://x.com/bonduelleioat/status/2102680389823160583) `📚1`
+- [https://x.com/boyney123/status/2102070798655582255](https://x.com/boyney123/status/2102070798655582255) `📚1`
+- [https://x.com/br_huni/status/2102042688916709743](https://x.com/br_huni/status/2102042688916709743) `📚1`
+- [https://x.com/Brandondoyle/status/2102424355829653835](https://x.com/brandondoyle/status/2102424355829653835) `📚1`
+- [https://x.com/BratNinitux/status/2101763161623818340](https://x.com/bratninitux/status/2101763161623818340) `📚1`
+- [https://x.com/brian_lovin/status/2101321554130809156](https://x.com/brian_lovin/status/2101321554130809156) `📚1`
+- [https://x.com/BSPK_/status/2101255662970028065](https://x.com/bspk_/status/2101255662970028065) `📚1`
+- [https://x.com/bubosees/status/2102427259759935636](https://x.com/bubosees/status/2102427259759935636) `📚1`
+- [https://x.com/bubosees/status/2102545024768422218](https://x.com/bubosees/status/2102545024768422218) `📚1`
+- [https://x.com/buildingadlicio/status/2100721721711980908](https://x.com/buildingadlicio/status/2100721721711980908) `📚1`
+- [https://x.com/buildingadlicio/status/2101131500653609312](https://x.com/buildingadlicio/status/2101131500653609312) `📚1`
+- [https://x.com/BukunmiOA/status/2100879606924345747](https://x.com/bukunmioa/status/2100879606924345747) `📚1`
+- [https://x.com/BurhanUsman/status/2101419720763207986](https://x.com/burhanusman/status/2101419720763207986) `📚1`
+- [https://x.com/BurhanUsman/status/2101641842441732297](https://x.com/burhanusman/status/2101641842441732297) `📚1`
+- [https://x.com/burningalexis/status/2101217951089402347](https://x.com/burningalexis/status/2101217951089402347) `📚1`
+- [https://x.com/CamiloSilvaC/status/2101140692927913999](https://x.com/camilosilvac/status/2101140692927913999) `📚1`
+- [https://x.com/camsoft2000/status/2100629073542218203](https://x.com/camsoft2000/status/2100629073542218203) `📚1`
+- [https://x.com/Carbaj0/status/2101942660680368367](https://x.com/carbaj0/status/2101942660680368367) `📚1`
+- [https://x.com/Carbaj0/status/2102061478438211812](https://x.com/carbaj0/status/2102061478438211812) `📚1`
+- [https://x.com/carlaeng/status/2102495604425543945](https://x.com/carlaeng/status/2102495604425543945) `📚1`
+- [https://x.com/carlaiau/status/2101136036990734755](https://x.com/carlaiau/status/2101136036990734755) `📚1`
+- [https://x.com/carlesnunez/status/2101430997325869135](https://x.com/carlesnunez/status/2101430997325869135) `📚1`
+- [https://x.com/carlesnunez/status/2101431328365535695](https://x.com/carlesnunez/status/2101431328365535695) `📚1`
+- [https://x.com/carlosmarcialt/status/2100979161196052855](https://x.com/carlosmarcialt/status/2100979161196052855) `📚1`
+- [https://x.com/CarolMonroe/status/2101747586126557230](https://x.com/carolmonroe/status/2101747586126557230) `📚1`
+- [https://x.com/CarolMonroe/status/2101877994335977536](https://x.com/carolmonroe/status/2101877994335977536) `📚1`
+- [https://x.com/cbarmorecpa/status/2101276366855676227](https://x.com/cbarmorecpa/status/2101276366855676227) `📚1`
+- [https://x.com/ch3nweiii/status/2102745528220160139](https://x.com/ch3nweiii/status/2102745528220160139) `📚1`
+- [https://x.com/chandamamz/status/2101066294816920063](https://x.com/chandamamz/status/2101066294816920063) `📚1`
+- [https://x.com/chaosengineerr/status/2102244378290864616](https://x.com/chaosengineerr/status/2102244378290864616) `📚1`
+- [https://x.com/CharlieMolthrop/status/2100715812470301133](https://x.com/charliemolthrop/status/2100715812470301133) `📚1`
+- [https://x.com/chata/status/2101331708662698304](https://x.com/chata/status/2101331708662698304) `📚1`
+- [https://x.com/chengyongru/status/2102380673030123933](https://x.com/chengyongru/status/2102380673030123933) `📚1`
+- [https://x.com/chensterman/status/2100618896080540014](https://x.com/chensterman/status/2100618896080540014) `📚1`
+- [https://x.com/chesny/status/2101938912423735654](https://x.com/chesny/status/2101938912423735654) `📚1`
+- [https://x.com/chesny/status/2102008701754409204](https://x.com/chesny/status/2102008701754409204) `📚1`
+- [https://x.com/chesny/status/2102670197001994690](https://x.com/chesny/status/2102670197001994690) `📚1`
+- [https://x.com/ChetasLua/status/2100621234567890123](https://x.com/chetaslua/status/2100621234567890123) `📚1` — Canonical Thread:
+- [https://x.com/chg80333/status/2102176073471725986](https://x.com/chg80333/status/2102176073471725986) `📚1`
+- [https://x.com/chhddavid/status/2100917936806678916](https://x.com/chhddavid/status/2100917936806678916) `📚1`
+- [https://x.com/chillychillingt/status/2102657621585170858](https://x.com/chillychillingt/status/2102657621585170858) `📚1`
+- [https://x.com/chiziaruhoma/status/2100679584878325861](https://x.com/chiziaruhoma/status/2100679584878325861) `📚1`
+- [https://x.com/chomado/status/2102625920008028434](https://x.com/chomado/status/2102625920008028434) `📚1`
+- [https://x.com/chongdashu/status/2101256555668836843](https://x.com/chongdashu/status/2101256555668836843) `📚1`
+- [https://x.com/chris_not_busy/status/2102349211127955925](https://x.com/chris_not_busy/status/2102349211127955925) `📚1`
+- [https://x.com/chrisbrownridge/status/2102506677094482115](https://x.com/chrisbrownridge/status/2102506677094482115) `📚1`
+- [https://x.com/chrispyprojects/status/2100636591848919503](https://x.com/chrispyprojects/status/2100636591848919503) `📚1`
+- [https://x.com/chrono_it/status/2101248586793341057](https://x.com/chrono_it/status/2101248586793341057) `📚1`
+- [https://x.com/ciatelarlanta/status/2101359413957177377](https://x.com/ciatelarlanta/status/2101359413957177377) `📚1`
+- [https://x.com/cielogames/status/2101259333673836866](https://x.com/cielogames/status/2101259333673836866) `📚1`
+- [https://x.com/cinkotweets/status/2102435164760551909](https://x.com/cinkotweets/status/2102435164760551909) `📚1`
+- [https://x.com/claudecode84/status/2101688081237541344](https://x.com/claudecode84/status/2101688081237541344) `📚1`
+- [https://x.com/claudeicular/status/2102578820104470888](https://x.com/claudeicular/status/2102578820104470888) `📚1`
+- [https://x.com/CleaneraMade/status/2101852322414432531](https://x.com/cleaneramade/status/2101852322414432531) `📚1`
+- [https://x.com/ClementDelangue/status/2102071917926613310](https://x.com/clementdelangue/status/2102071917926613310) `📚1`
+- [https://x.com/ClementDelangue/status/2102085295650828487](https://x.com/clementdelangue/status/2102085295650828487) `📚1`
+- [https://x.com/ClementDelangue/status/2102140443194503358](https://x.com/clementdelangue/status/2102140443194503358) `📚1`
+- [https://x.com/ClownStates/status/2100428471944053096](https://x.com/clownstates/status/2100428471944053096) `📚1`
+- [https://x.com/cmdrvl/status/2100937318760599594](https://x.com/cmdrvl/status/2100937318760599594) `📚1`
+- [https://x.com/coastyai/status/2101131296881992141](https://x.com/coastyai/status/2101131296881992141) `📚1`
+- [https://x.com/coastyai/status/2101141892067156219](https://x.com/coastyai/status/2101141892067156219) `📚1`
+- [https://x.com/codegirl007/status/2101650540803604540](https://x.com/codegirl007/status/2101650540803604540) `📚1`
+- [https://x.com/codex_aca/status/2102593813348835405](https://x.com/codex_aca/status/2102593813348835405) `📚1`
+- [https://x.com/cogentgene1/status/2101111331256504456](https://x.com/cogentgene1/status/2101111331256504456) `📚1`
+- [https://x.com/cohki0305/status/2101171958335643750](https://x.com/cohki0305/status/2101171958335643750) `📚1`
+- [https://x.com/CoinSh0t/status/2101626821783482843](https://x.com/coinsh0t/status/2101626821783482843) `📚1`
+- [https://x.com/CoinSh0t/status/2102063535723262029](https://x.com/coinsh0t/status/2102063535723262029) `📚1`
+- [https://x.com/cola_runner/status/2102083742353523006](https://x.com/cola_runner/status/2102083742353523006) `📚1`
+- [https://x.com/combatsheep/status/2101241552215671028](https://x.com/combatsheep/status/2101241552215671028) `📚1`
+- [https://x.com/CombosFun_AI/status/2101570862508089785](https://x.com/combosfun_ai/status/2101570862508089785) `📚1`
+- [https://x.com/CompleteSkeptic/status/2101370481328984475](https://x.com/completeskeptic/status/2101370481328984475) `📚1`
+- [https://x.com/CompleteSkeptic/status/2101376493704315048](https://x.com/completeskeptic/status/2101376493704315048) `📚1`
+- [https://x.com/CompleteSkeptic/status/2101719837592743944](https://x.com/completeskeptic/status/2101719837592743944) `📚1`
+- [https://x.com/CompleteSkeptic/status/2101796685903188086](https://x.com/completeskeptic/status/2101796685903188086) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102166782664749173](https://x.com/completeskeptic/status/2102166782664749173) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102282924699840980](https://x.com/completeskeptic/status/2102282924699840980) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102294042185023816](https://x.com/completeskeptic/status/2102294042185023816) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102513797441462513](https://x.com/completeskeptic/status/2102513797441462513) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102515801421185267](https://x.com/completeskeptic/status/2102515801421185267) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102616999318958145](https://x.com/completeskeptic/status/2102616999318958145) `📚1`
+- [https://x.com/CompleteSkeptic/status/2102840267007205630](https://x.com/completeskeptic/status/2102840267007205630) `📚1`
+- [https://x.com/CompleteSkeptic/status/2103156606318108892](https://x.com/completeskeptic/status/2103156606318108892) `📚1`
+- [https://x.com/CompleteSkeptic/status/2103515857909678542](https://x.com/completeskeptic/status/2103515857909678542) `📚1`
+- [https://x.com/CompleteSkeptic/status/2103641648362348929](https://x.com/completeskeptic/status/2103641648362348929) `📚1`
+- [https://x.com/CompleteSkeptic/status/2103654904275537968](https://x.com/completeskeptic/status/2103654904275537968) `📚1`
+- [https://x.com/composio/status/2102562025952137304](https://x.com/composio/status/2102562025952137304) `📚1`
+- [https://x.com/ConvictionFAQ/status/2101019068702879952](https://x.com/convictionfaq/status/2101019068702879952) `📚1`
+- [https://x.com/coocka_/status/2102516435113169098](https://x.com/coocka_/status/2102516435113169098) `📚1`
+- [https://x.com/copilot_shogo/status/2100925744599966026](https://x.com/copilot_shogo/status/2100925744599966026) `📚1`
+- [https://x.com/coreyganim/status/2102446829530968078](https://x.com/coreyganim/status/2102446829530968078) `📚1`
+- [https://x.com/corocorodev/status/2101965550054244525](https://x.com/corocorodev/status/2101965550054244525) `📚1`
+- [https://x.com/cosara22/status/2102358811067687113](https://x.com/cosara22/status/2102358811067687113) `📚1`
+- [https://x.com/cosara22/status/2102380215943254303](https://x.com/cosara22/status/2102380215943254303) `📚1`
+- [https://x.com/crislenta/status/2102427714120478811](https://x.com/crislenta/status/2102427714120478811) `📚1`
+- [https://x.com/cristianexer/status/2102128437058302184](https://x.com/cristianexer/status/2102128437058302184) `📚1`
+- [https://x.com/cristicrtu/status/2100625826559537379](https://x.com/cristicrtu/status/2100625826559537379) `📚1`
+- [https://x.com/crossiBuilds/status/2100972788164985043](https://x.com/crossibuilds/status/2100972788164985043) `📚1`
+- [https://x.com/crypto_dev_1/status/2102081831042416935](https://x.com/crypto_dev_1/status/2102081831042416935) `📚1`
+- [https://x.com/cskadarla/status/2100977720670728556](https://x.com/cskadarla/status/2100977720670728556) `📚1`
+- [https://x.com/cutetoxicguy/status/2102671438381543533](https://x.com/cutetoxicguy/status/2102671438381543533) `📚1`
+- [https://x.com/cviklihamar/status/2101301125697699962](https://x.com/cviklihamar/status/2101301125697699962) `📚1`
+- [https://x.com/cyberesian/status/2100558071768416561](https://x.com/cyberesian/status/2100558071768416561) `📚1`
+- [https://x.com/DailyAITracker/status/2101897628510494812](https://x.com/dailyaitracker/status/2101897628510494812) `📚1`
+- [https://x.com/Dain0x/status/2102430540569669747](https://x.com/dain0x/status/2102430540569669747) `📚1`
+- [https://x.com/dair_ai/status/2101775443300872536](https://x.com/dair_ai/status/2101775443300872536) `📚1`
+- [https://x.com/dair_ai/status/2102762841698898127](https://x.com/dair_ai/status/2102762841698898127) `📚1`
+- [https://x.com/dair_ai/status/2103147453717545278](https://x.com/dair_ai/status/2103147453717545278) `📚1`
+- [https://x.com/dakshgup/status/2101678769022841297](https://x.com/dakshgup/status/2101678769022841297) `📚1`
+- [https://x.com/DanFessler/status/2100462684370256134](https://x.com/danfessler/status/2100462684370256134) `📚1`
+- [https://x.com/dani_avila7/status/2101715724821463538](https://x.com/dani_avila7/status/2101715724821463538) `📚1`
+- [https://x.com/DanielMizr43248/status/2100469687314522505](https://x.com/danielmizr43248/status/2100469687314522505) `📚1`
+- [https://x.com/DanielMizr43248/status/2100714507303829829](https://x.com/danielmizr43248/status/2100714507303829829) `📚1`
+- [https://x.com/DanielPrevoznik/status/2100409832314491062](https://x.com/danielprevoznik/status/2100409832314491062) `📚1`
+- [https://x.com/DanielPrevoznik/status/2100756529653633249](https://x.com/danielprevoznik/status/2100756529653633249) `📚1`
+- [https://x.com/DanielZambrini/status/2100735301111222282](https://x.com/danielzambrini/status/2100735301111222282) `📚1`
+- [https://x.com/danmana/status/2100991925364969827](https://x.com/danmana/status/2100991925364969827) `📚1`
+- [https://x.com/Dannnnnok/status/2102049755744321999](https://x.com/dannnnnok/status/2102049755744321999) `📚1`
+- [https://x.com/dannylivshits/status/2102252669784260769](https://x.com/dannylivshits/status/2102252669784260769) `📚1`
+- [https://x.com/DanRWilloughby/status/2100963528261751073](https://x.com/danrwilloughby/status/2100963528261751073) `📚1`
+- [https://x.com/DanRWilloughby/status/2100965562977300548](https://x.com/danrwilloughby/status/2100965562977300548) `📚1`
+- [https://x.com/DanRWilloughby/status/2100990605308441076](https://x.com/danrwilloughby/status/2100990605308441076) `📚1`
+- [https://x.com/dansyu_callenge/status/2101613378791964847](https://x.com/dansyu_callenge/status/2101613378791964847) `📚1`
+- [https://x.com/dao_npc/status/2102307462271648188](https://x.com/dao_npc/status/2102307462271648188) `📚1`
+- [https://x.com/DarrenTheLi/status/2102372866318803016](https://x.com/darrentheli/status/2102372866318803016) `📚1`
+- [https://x.com/darvasch/status/2101442431409356829](https://x.com/darvasch/status/2101442431409356829) `📚1`
+- [https://x.com/davidandress__/status/2100701554286178611](https://x.com/davidandress__/status/2100701554286178611) `📚1`
+- [https://x.com/davidfano/status/2101780094524051878](https://x.com/davidfano/status/2101780094524051878) `📚1`
+- [https://x.com/dazxlr/status/2101675207203405945](https://x.com/dazxlr/status/2101675207203405945) `📚1`
+- [https://x.com/dazxlr/status/2101681769527566347](https://x.com/dazxlr/status/2101681769527566347) `📚1`
+- [https://x.com/dbillson/status/2101657637871837578](https://x.com/dbillson/status/2101657637871837578) `📚1`
+- [https://x.com/ddalcu/status/2102380423095497085](https://x.com/ddalcu/status/2102380423095497085) `📚1`
+- [https://x.com/ddlaws0n/status/2101768880897007969](https://x.com/ddlaws0n/status/2101768880897007969) `📚1`
+- [https://x.com/de1lymoon/status/2102748149848662191](https://x.com/de1lymoon/status/2102748149848662191) `📚1`
+- [https://x.com/dealerdefi/status/2102167087309369731](https://x.com/dealerdefi/status/2102167087309369731) `📚1`
+- [https://x.com/dealerdefi/status/2102529476043091988](https://x.com/dealerdefi/status/2102529476043091988) `📚1`
+- [https://x.com/deanimatedmonk/status/2102753725219778965](https://x.com/deanimatedmonk/status/2102753725219778965) `📚1`
+- [https://x.com/debichanchan/status/2101629628863664576](https://x.com/debichanchan/status/2101629628863664576) `📚1`
+- [https://x.com/debichanchan/status/2101932981606817820](https://x.com/debichanchan/status/2101932981606817820) `📚1`
+- [https://x.com/dedene/status/2101770592055935114](https://x.com/dedene/status/2101770592055935114) `📚1`
+- [https://x.com/Dee_Tay_ler/status/2101806093517402322](https://x.com/dee_tay_ler/status/2101806093517402322) `📚1`
+- [https://x.com/DeemosTech/status/2102040715723522440](https://x.com/deemostech/status/2102040715723522440) `📚1`
+- [https://x.com/deepakgupta392/status/2100676785520431212](https://x.com/deepakgupta392/status/2100676785520431212) `📚1`
+- [https://x.com/deepamkapur/status/2102355777893941521](https://x.com/deepamkapur/status/2102355777893941521) `📚1`
+- [https://x.com/Deepusleepy/status/2101736440975839277](https://x.com/deepusleepy/status/2101736440975839277) `📚1`
+- [https://x.com/defileo/status/2102190191419281826](https://x.com/defileo/status/2102190191419281826) `📚1`
+- [https://x.com/defileo/status/2102381113230692353](https://x.com/defileo/status/2102381113230692353) `📚1`
+- [https://x.com/defileo/status/2102511743830569420](https://x.com/defileo/status/2102511743830569420) `📚1`
+- [https://x.com/deifosv/status/2102434255330832807](https://x.com/deifosv/status/2102434255330832807) `📚1`
+- [https://x.com/deifosv/status/2102551046778446142](https://x.com/deifosv/status/2102551046778446142) `📚1`
+- [https://x.com/Delroy715/status/2100882724068491471](https://x.com/delroy715/status/2100882724068491471) `📚1`
+- [https://x.com/Delroy715/status/2102567373110718814](https://x.com/delroy715/status/2102567373110718814) `📚1`
+- [https://x.com/Delroy715/status/2102666587173990740](https://x.com/delroy715/status/2102666587173990740) `📚1`
+- [https://x.com/demmy_s/status/2101014579317027140](https://x.com/demmy_s/status/2101014579317027140) `📚1`
+- [https://x.com/denisyarats/status/2102252088067850507](https://x.com/denisyarats/status/2102252088067850507) `📚1`
+- [https://x.com/densancar/status/2101030551280910636](https://x.com/densancar/status/2101030551280910636) `📚1`
+- [https://x.com/depletionmode/status/2100587299536802258](https://x.com/depletionmode/status/2100587299536802258) `📚1`
+- [https://x.com/desertantlabs/status/2102423007494889785](https://x.com/desertantlabs/status/2102423007494889785) `📚1`
+- [https://x.com/DevKiper/status/2100940830471061661](https://x.com/devkiper/status/2100940830471061661) `📚1`
+- [https://x.com/devprojects/status/2102157395082260890](https://x.com/devprojects/status/2102157395082260890) `📚1`
+- [https://x.com/dexhorthy/status/2100496400547041778](https://x.com/dexhorthy/status/2100496400547041778) `📚1`
+- [https://x.com/dexhorthy/status/2101477631904661619](https://x.com/dexhorthy/status/2101477631904661619) `📚1`
+- [https://x.com/dexhorthy/status/2101770896679772531](https://x.com/dexhorthy/status/2101770896679772531) `📚1`
+- [https://x.com/dexhorthy/status/2102447433603313813](https://x.com/dexhorthy/status/2102447433603313813) `📚1`
+- [https://x.com/dhaiwat/status/2101517699432034791](https://x.com/dhaiwat/status/2101517699432034791) `📚1`
+- [https://x.com/dhruv_ko/status/2102258860925038625](https://x.com/dhruv_ko/status/2102258860925038625) `📚1`
+- [https://x.com/dhruvamin/status/2100435492043145277](https://x.com/dhruvamin/status/2100435492043145277) `📚1`
+- [https://x.com/dhythm_dev/status/2101655208560644372](https://x.com/dhythm_dev/status/2101655208560644372) `📚1`
+- [https://x.com/Dia_Nexus/status/2100591120468308142](https://x.com/dia_nexus/status/2100591120468308142) `📚1`
+- [https://x.com/DicksonWuML/status/2101108417331142863](https://x.com/dicksonwuml/status/2101108417331142863) `📚1`
+- [https://x.com/diegocabezas01/status/2102005420927971378](https://x.com/diegocabezas01/status/2102005420927971378) `📚1`
+- [https://x.com/divinprnc/status/2100715669062832216](https://x.com/divinprnc/status/2100715669062832216) `📚1`
+- [https://x.com/divinprnc/status/2101414760323436669](https://x.com/divinprnc/status/2101414760323436669) `📚1`
+- [https://x.com/Divyanshueth/status/2100997199102677033](https://x.com/divyanshueth/status/2100997199102677033) `📚1`
+- [https://x.com/djannias/status/2102609809505677732](https://x.com/djannias/status/2102609809505677732) `📚1`
+- [https://x.com/djmalvarado/status/2102546451624816649](https://x.com/djmalvarado/status/2102546451624816649) `📚1`
+- [https://x.com/djrio_vr/status/2102031720531034427](https://x.com/djrio_vr/status/2102031720531034427) `📚1`
+- [https://x.com/dobbythelaughm/status/2100917746846556518](https://x.com/dobbythelaughm/status/2100917746846556518) `📚1`
+- [https://x.com/dobbythelaughm/status/2100979733374926930](https://x.com/dobbythelaughm/status/2100979733374926930) `📚1`
+- [https://x.com/doerstokyo342/status/2101083855193301236](https://x.com/doerstokyo342/status/2101083855193301236) `📚1`
+- [https://x.com/dominik_rapacki/status/2101307068036633080](https://x.com/dominik_rapacki/status/2101307068036633080) `📚1`
+- [https://x.com/dongxi_nlp/status/2100475029460799584](https://x.com/dongxi_nlp/status/2100475029460799584) `📚1`
+- [https://x.com/dongxi_nlp/status/2101183155294117913](https://x.com/dongxi_nlp/status/2101183155294117913) `📚1`
+- [https://x.com/dongxi_nlp/status/2102615749663531012](https://x.com/dongxi_nlp/status/2102615749663531012) `📚1`
+- [https://x.com/dongxi_nlp/status/2102647304264298856](https://x.com/dongxi_nlp/status/2102647304264298856) `📚1`
+- [https://x.com/dopiotrek/status/2101365774073868746](https://x.com/dopiotrek/status/2101365774073868746) `📚1`
+- [https://x.com/doranobic/status/2101957287225295020](https://x.com/doranobic/status/2101957287225295020) `📚1`
+- [https://x.com/doyc_1/status/2101711735233396972](https://x.com/doyc_1/status/2101711735233396972) `📚1`
+- [https://x.com/dparksdev/status/2100949987571974537](https://x.com/dparksdev/status/2100949987571974537) `📚1`
+- [https://x.com/dprophecyguy/status/2101199688410312950](https://x.com/dprophecyguy/status/2101199688410312950) `📚1`
+- [https://x.com/dqnamo/status/2100593115233222750](https://x.com/dqnamo/status/2100593115233222750) `📚1`
+- [https://x.com/draginol/status/2101309585370095735](https://x.com/draginol/status/2101309585370095735) `📚1`
+- [https://x.com/draginol/status/2101882375479099486](https://x.com/draginol/status/2101882375479099486) `📚1`
+- [https://x.com/dragosroua/status/2101580463991316806](https://x.com/dragosroua/status/2101580463991316806) `📚1`
+- [https://x.com/dreamerjavier/status/2102039059740680618](https://x.com/dreamerjavier/status/2102039059740680618) `📚1`
+- [https://x.com/dsqjaffa/status/2100914580394307857](https://x.com/dsqjaffa/status/2100914580394307857) `📚1`
+- [https://x.com/dsqjaffa/status/2102564195921436935](https://x.com/dsqjaffa/status/2102564195921436935) `📚1`
+- [https://x.com/DXhusni/status/2100746693033816557](https://x.com/dxhusni/status/2100746693033816557) `📚1`
+- [https://x.com/dylayed/status/2102610425653440654](https://x.com/dylayed/status/2102610425653440654) `📚1`
+- [https://x.com/ediggs/status/2102408596411535853](https://x.com/ediggs/status/2102408596411535853) `📚1`
+- [https://x.com/edon_d/status/2101237870778257774](https://x.com/edon_d/status/2101237870778257774) `📚1`
+- [https://x.com/edwartnoyola/status/2101799243811876866](https://x.com/edwartnoyola/status/2101799243811876866) `📚1`
+- [https://x.com/Efe_berke_c/status/2101605513490243702](https://x.com/efe_berke_c/status/2101605513490243702) `📚1`
+- [https://x.com/ego_agent/status/2102050427206619525](https://x.com/ego_agent/status/2102050427206619525) `📚1`
+- [https://x.com/eightbeat8b/status/2101873362213724652](https://x.com/eightbeat8b/status/2101873362213724652) `📚1`
+- [https://x.com/Eito_Miyamura/status/2102450162941792338](https://x.com/eito_miyamura/status/2102450162941792338) `📚1`
+- [https://x.com/ElaichMarouane/status/2101314158612672740](https://x.com/elaichmarouane/status/2101314158612672740) `📚1`
+- [https://x.com/elberacasa/status/2101463653987876912](https://x.com/elberacasa/status/2101463653987876912) `📚1`
+- [https://x.com/EliaAlberti/status/2100941050978164894](https://x.com/eliaalberti/status/2100941050978164894) `📚1`
+- [https://x.com/ellfyy_/status/2102530671734341867](https://x.com/ellfyy_/status/2102530671734341867) `📚1`
+- [https://x.com/ellfyy_/status/2102700647955009679](https://x.com/ellfyy_/status/2102700647955009679) `📚1`
+- [https://x.com/elpumberto/status/2100530802794561714](https://x.com/elpumberto/status/2100530802794561714) `📚1`
+- [https://x.com/elpumberto/status/2101607375421460881](https://x.com/elpumberto/status/2101607375421460881) `📚1`
+- [https://x.com/eltokh7/status/2102562391699423469](https://x.com/eltokh7/status/2102562391699423469) `📚1`
+- [https://x.com/elvissun/status/2102441622604791971](https://x.com/elvissun/status/2102441622604791971) `📚1`
+- [https://x.com/emergingbits/status/2102022270172475889](https://x.com/emergingbits/status/2102022270172475889) `📚1`
+- [https://x.com/emile_rib22/status/2100646488003019258](https://x.com/emile_rib22/status/2100646488003019258) `📚1`
+- [https://x.com/EmilHovv/status/2102020842427428938](https://x.com/emilhovv/status/2102020842427428938) `📚1`
+- [https://x.com/EmilWagman/status/2101377808643576149](https://x.com/emilwagman/status/2101377808643576149) `📚1`
+- [https://x.com/emmjay_init/status/2101810507166687314](https://x.com/emmjay_init/status/2101810507166687314) `📚1`
+- [https://x.com/encryptjustice/status/2101681218232431052](https://x.com/encryptjustice/status/2101681218232431052) `📚1`
+- [https://x.com/enekes_abel/status/2101971214780518634](https://x.com/enekes_abel/status/2101971214780518634) `📚1`
+- [https://x.com/engmaxxing/status/2102425426153115829](https://x.com/engmaxxing/status/2102425426153115829) `📚1`
+- [https://x.com/EngMoElgaraihy/status/2100858880548864358](https://x.com/engmoelgaraihy/status/2100858880548864358) `📚1`
+- [https://x.com/Entelic_Aria/status/2100937627973415340](https://x.com/entelic_aria/status/2100937627973415340) `📚1`
+- [https://x.com/entropy1996/status/2102743716767346765](https://x.com/entropy1996/status/2102743716767346765) `📚1`
+- [https://x.com/ephraimduncan/status/2100524915007144289](https://x.com/ephraimduncan/status/2100524915007144289) `📚1`
+- [https://x.com/eptwts/status/2100724278400332061](https://x.com/eptwts/status/2100724278400332061) `📚1`
+- [https://x.com/eres2k/status/2100474445525639231](https://x.com/eres2k/status/2100474445525639231) `📚1`
+- [https://x.com/erhanmeydan/status/2100946643109421457](https://x.com/erhanmeydan/status/2100946643109421457) `📚1`
+- [https://x.com/eric_khun/status/2101182341981077954](https://x.com/eric_khun/status/2101182341981077954) `📚1`
+- [https://x.com/eric_khun/status/2101333573597003821](https://x.com/eric_khun/status/2101333573597003821) `📚1`
+- [https://x.com/EricMao06/status/2102709070985895973](https://x.com/ericmao06/status/2102709070985895973) `📚1`
+- [https://x.com/ericosiu/status/2102181612133966298](https://x.com/ericosiu/status/2102181612133966298) `📚1`
+- [https://x.com/ericosiu/status/2102427708235919697](https://x.com/ericosiu/status/2102427708235919697) `📚1`
+- [https://x.com/ericosiu/status/2102518303411278147](https://x.com/ericosiu/status/2102518303411278147) `📚1`
+- [https://x.com/ericzakariasson/status/2101144294304457030](https://x.com/ericzakariasson/status/2101144294304457030) `📚1`
+- [https://x.com/eridots/status/2101444001798779258](https://x.com/eridots/status/2101444001798779258) `📚1`
+- [https://x.com/erik_kokalj/status/2102758519908811133](https://x.com/erik_kokalj/status/2102758519908811133) `📚1`
+- [https://x.com/erikdunteman/status/2101533797527454109](https://x.com/erikdunteman/status/2101533797527454109) `📚1`
+- [https://x.com/essjaykay755/status/2102040390727856354](https://x.com/essjaykay755/status/2102040390727856354) `📚1`
+- [https://x.com/ethank_6/status/2102069493510090838](https://x.com/ethank_6/status/2102069493510090838) `📚1`
+- [https://x.com/ethanplusai/status/2101120021447483402](https://x.com/ethanplusai/status/2101120021447483402) `📚1`
+- [https://x.com/ethanplusai/status/2101347270314614963](https://x.com/ethanplusai/status/2101347270314614963) `📚1`
+- [https://x.com/eugene_mindset/status/2102065669302829438](https://x.com/eugene_mindset/status/2102065669302829438) `📚1`
+- [https://x.com/euglena1215/status/2101132105342443725](https://x.com/euglena1215/status/2101132105342443725) `📚1`
+- [https://x.com/evanyi_81/status/2101304557699727596](https://x.com/evanyi_81/status/2101304557699727596) `📚1`
+- [https://x.com/everton_dev/status/2101058122634666079](https://x.com/everton_dev/status/2101058122634666079) `📚1`
+- [https://x.com/evgheni_D/status/2101227893120553458](https://x.com/evgheni_d/status/2101227893120553458) `📚1`
+- [https://x.com/eviljer/status/2100944650945298529](https://x.com/eviljer/status/2100944650945298529) `📚1`
+- [https://x.com/explosss1ve/status/2102339233323036853](https://x.com/explosss1ve/status/2102339233323036853) `📚1`
+- [https://x.com/EyLuismi/status/2101480262555103610](https://x.com/eyluismi/status/2101480262555103610) `📚1`
+- [https://x.com/EyphanMandraci/status/2101611357732847805](https://x.com/eyphanmandraci/status/2101611357732847805) `📚1`
+- [https://x.com/FabioAngela79/status/2100734272839516557](https://x.com/fabioangela79/status/2100734272839516557) `📚1`
+- [https://x.com/fabriciocarraro/status/2102131298932285629](https://x.com/fabriciocarraro/status/2102131298932285629) `📚1`
+- [https://x.com/Fabulous_7781/status/2101414888891662834](https://x.com/fabulous_7781/status/2101414888891662834) `📚1`
+- [https://x.com/fajarhide/status/2101927785480761804](https://x.com/fajarhide/status/2101927785480761804) `📚1`
+- [https://x.com/fakeWow_/status/2100869351293513806](https://x.com/fakewow_/status/2100869351293513806) `📚1`
+- [https://x.com/farynth/status/2100436395420475460](https://x.com/farynth/status/2100436395420475460) `📚1`
+- [https://x.com/FazAliDev/status/2101327974335422525](https://x.com/fazalidev/status/2101327974335422525) `📚1`
+- [https://x.com/fazlerocks/status/2101363028692545822](https://x.com/fazlerocks/status/2101363028692545822) `📚1`
+- [https://x.com/fazlerocks/status/2102359122754834650](https://x.com/fazlerocks/status/2102359122754834650) `📚1`
+- [https://x.com/felix_trz/status/2102068488273822183](https://x.com/felix_trz/status/2102068488273822183) `📚1`
+- [https://x.com/felixnjenga_/status/2100704201797939569](https://x.com/felixnjenga_/status/2100704201797939569) `📚1`
+- [https://x.com/FerdinandTerme/status/2102650141152793033](https://x.com/ferdinandterme/status/2102650141152793033) `📚1`
+- [https://x.com/fernandoviac/status/2100678949193789605](https://x.com/fernandoviac/status/2100678949193789605) `📚1`
+- [https://x.com/ffsxdev/status/2100795422922924119](https://x.com/ffsxdev/status/2100795422922924119) `📚1`
+- [https://x.com/filicroval/status/2101692321364406600](https://x.com/filicroval/status/2101692321364406600) `📚1`
+- [https://x.com/FinalventNet/status/2101135945122906350](https://x.com/finalventnet/status/2101135945122906350) `📚1`
+- [https://x.com/FiniYang/status/2102246440961724515](https://x.com/finiyang/status/2102246440961724515) `📚1`
+- [https://x.com/Fl0/status/2101689050688024823](https://x.com/fl0/status/2101689050688024823) `📚1`
+- [https://x.com/Flandermaxx/status/2102457468592730142](https://x.com/flandermaxx/status/2102457468592730142) `📚1`
+- [https://x.com/florianhoenicke/status/2101333502369083690](https://x.com/florianhoenicke/status/2101333502369083690) `📚1`
+- [https://x.com/fluixoo/status/2102418894984216611](https://x.com/fluixoo/status/2102418894984216611) `📚1`
+- [https://x.com/fluixoo/status/2102439027999732188](https://x.com/fluixoo/status/2102439027999732188) `📚1`
+- [https://x.com/Fluxora_Studios/status/2101239322749915587](https://x.com/fluxora_studios/status/2101239322749915587) `📚1`
+- [https://x.com/flyuniqueee/status/2101895175920553985](https://x.com/flyuniqueee/status/2101895175920553985) `📚1`
+- [https://x.com/fomomofosol/status/2101133910919073892](https://x.com/fomomofosol/status/2101133910919073892) `📚1`
+- [https://x.com/ForgeRunsAI/status/2100638080378286489](https://x.com/forgerunsai/status/2100638080378286489) `📚1`
+- [https://x.com/ForgeRunsAI/status/2102108906646593834](https://x.com/forgerunsai/status/2102108906646593834) `📚1`
+- [https://x.com/fran_rimoldi/status/2101084847548850410](https://x.com/fran_rimoldi/status/2101084847548850410) `📚1`
+- [https://x.com/fran_rimoldi/status/2101674418741121457](https://x.com/fran_rimoldi/status/2101674418741121457) `📚1`
+- [https://x.com/francchen/status/2102588731559735389](https://x.com/francchen/status/2102588731559735389) `📚1`
+- [https://x.com/francescoinweb3/status/2101372526513336330](https://x.com/francescoinweb3/status/2101372526513336330) `📚1`
+- [https://x.com/francip/status/2100949194064425433](https://x.com/francip/status/2100949194064425433) `📚1`
+- [https://x.com/FrankDa18249347/status/2102197241331290121](https://x.com/frankda18249347/status/2102197241331290121) `📚1`
+- [https://x.com/frankiedigiac/status/2100594253952921944](https://x.com/frankiedigiac/status/2100594253952921944) `📚1`
+- [https://x.com/furoku/status/2100576115429699603](https://x.com/furoku/status/2100576115429699603) `📚1`
+- [https://x.com/furoku/status/2100752206601560198](https://x.com/furoku/status/2100752206601560198) `📚1`
+- [https://x.com/fuxuemingzhu/status/2102326167630147884](https://x.com/fuxuemingzhu/status/2102326167630147884) `📚1`
+- [https://x.com/fuzzzypan/status/2102056646281437577](https://x.com/fuzzzypan/status/2102056646281437577) `📚1`
+- [https://x.com/fyraux/status/2101810890014167313](https://x.com/fyraux/status/2101810890014167313) `📚1`
+- [https://x.com/gabcoin_/status/2101831051597259103](https://x.com/gabcoin_/status/2101831051597259103) `📚1`
+- [https://x.com/gabefosse/status/2101742703704985641](https://x.com/gabefosse/status/2101742703704985641) `📚1`
+- [https://x.com/GabiDev98/status/2102073217670107364](https://x.com/gabidev98/status/2102073217670107364) `📚1`
+- [https://x.com/gabrycina/status/2100545285659480128](https://x.com/gabrycina/status/2100545285659480128) `📚1`
+- [https://x.com/gaiking2013/status/2102639924562563445](https://x.com/gaiking2013/status/2102639924562563445) `📚1`
+- [https://x.com/gakutarou_pmf/status/2100937350557978745](https://x.com/gakutarou_pmf/status/2100937350557978745) `📚1`
+- [https://x.com/galfrevn/status/2101395778686312726](https://x.com/galfrevn/status/2101395778686312726) `📚1`
+- [https://x.com/ganjidotme/status/2101024692526280706](https://x.com/ganjidotme/status/2101024692526280706) `📚1`
+- [https://x.com/gareofeasttown/status/2100432098049855612](https://x.com/gareofeasttown/status/2100432098049855612) `📚1`
+- [https://x.com/garrrikkotua/status/2102006594879844757](https://x.com/garrrikkotua/status/2102006594879844757) `📚1`
+- [https://x.com/gauravisnotme/status/2102097556671266865](https://x.com/gauravisnotme/status/2102097556671266865) `📚1`
+- [https://x.com/gavinowensnet/status/2100972896931713489](https://x.com/gavinowensnet/status/2100972896931713489) `📚1`
+- [https://x.com/Gbahdeyboh/status/2102669303535567264](https://x.com/gbahdeyboh/status/2102669303535567264) `📚1`
+- [https://x.com/gdechichi/status/2102144051197915162](https://x.com/gdechichi/status/2102144051197915162) `📚1`
+- [https://x.com/GeekCatX/status/2101229558636986463](https://x.com/geekcatx/status/2101229558636986463) `📚1`
+- [https://x.com/GeekCatX/status/2101971059041763451](https://x.com/geekcatx/status/2101971059041763451) `📚1`
+- [https://x.com/geeorgey/status/2101962395648417917](https://x.com/geeorgey/status/2101962395648417917) `📚1`
+- [https://x.com/geeorgey/status/2101972279026737208](https://x.com/geeorgey/status/2101972279026737208) `📚1`
+- [https://x.com/geeorgey/status/2102093822985687435](https://x.com/geeorgey/status/2102093822985687435) `📚1`
+- [https://x.com/genviral_/status/2102653038335066365](https://x.com/genviral_/status/2102653038335066365) `📚1`
+- [https://x.com/GeyzsoN/status/2100598525470048646](https://x.com/geyzson/status/2100598525470048646) `📚1`
+- [https://x.com/gianmauric/status/2101568319736213952](https://x.com/gianmauric/status/2101568319736213952) `📚1`
+- [https://x.com/gigabit_million/status/2101124023375774073](https://x.com/gigabit_million/status/2101124023375774073) `📚1`
+- [https://x.com/gigabit_million/status/2101285853859545263](https://x.com/gigabit_million/status/2101285853859545263) `📚1`
+- [https://x.com/gigabit_million/status/2101813176887390398](https://x.com/gigabit_million/status/2101813176887390398) `📚1`
+- [https://x.com/giginet/status/2101665861551693887](https://x.com/giginet/status/2101665861551693887) `📚1`
+- [https://x.com/gillinghammer/status/2101527024938389806](https://x.com/gillinghammer/status/2101527024938389806) `📚1`
+- [https://x.com/gillinghammer/status/2101677829960192298](https://x.com/gillinghammer/status/2101677829960192298) `📚1`
+- [https://x.com/gippp69/status/2102098368486838380](https://x.com/gippp69/status/2102098368486838380) `📚1`
+- [https://x.com/gippp69/status/2102361073206587588](https://x.com/gippp69/status/2102361073206587588) `📚1`
+- [https://x.com/gippp69/status/2102726296291680275](https://x.com/gippp69/status/2102726296291680275) `📚1`
+- [https://x.com/giswqs/status/2102491184908144881](https://x.com/giswqs/status/2102491184908144881) `📚1`
+- [https://x.com/Godefroy/status/2102420081753919684](https://x.com/godefroy/status/2102420081753919684) `📚1`
+- [https://x.com/godlovesu_n/status/2100610873819840951](https://x.com/godlovesu_n/status/2100610873819840951) `📚1`
+- [https://x.com/godlovesu_n/status/2100972334182219919](https://x.com/godlovesu_n/status/2100972334182219919) `📚1`
+- [https://x.com/GodName794/status/2102020300640756219](https://x.com/godname794/status/2102020300640756219) `📚1`
+- [https://x.com/gojiteji/status/2101990059142737998](https://x.com/gojiteji/status/2101990059142737998) `📚1`
+- [https://x.com/GoktugVatandas/status/2101623582560330095](https://x.com/goktugvatandas/status/2101623582560330095) `📚1`
+- [https://x.com/gonlenidefi/status/2102103449722646987](https://x.com/gonlenidefi/status/2102103449722646987) `📚1`
+- [https://x.com/gonlenidefi/status/2102489839920628025](https://x.com/gonlenidefi/status/2102489839920628025) `📚1`
+- [https://x.com/GonnabeNikhil/status/2101971257541705867](https://x.com/gonnabenikhil/status/2101971257541705867) `📚1`
+- [https://x.com/gooby_esq/status/2101467099327529155](https://x.com/gooby_esq/status/2101467099327529155) `📚1`
+- [https://x.com/Goosusuu/status/2101588131153883329](https://x.com/goosusuu/status/2101588131153883329) `📚1`
+- [https://x.com/gorillasu/status/2100962570052030550](https://x.com/gorillasu/status/2100962570052030550) `📚1`
+- [https://x.com/GOROman/status/2100948504596398276](https://x.com/goroman/status/2100948504596398276) `📚1`
+- [https://x.com/GOROman/status/2100979174953611724](https://x.com/goroman/status/2100979174953611724) `📚1`
+- [https://x.com/GOROman/status/2100983031138042155](https://x.com/goroman/status/2100983031138042155) `📚1`
+- [https://x.com/GoSailGlobal/status/2102745333167997403](https://x.com/gosailglobal/status/2102745333167997403) `📚1`
+- [https://x.com/gosrum/status/2101254577794490830](https://x.com/gosrum/status/2101254577794490830) `📚1`
+- [https://x.com/gosrum/status/2101268238516527343](https://x.com/gosrum/status/2101268238516527343) `📚1`
+- [https://x.com/gosrum/status/2102032193443058059](https://x.com/gosrum/status/2102032193443058059) `📚1`
+- [https://x.com/gotham_wotham/status/2100665687735931101](https://x.com/gotham_wotham/status/2100665687735931101) `📚1`
+- [https://x.com/gpj/status/2102485292423012393](https://x.com/gpj/status/2102485292423012393) `📚1`
+- [https://x.com/grabbou/status/2100720457888534710](https://x.com/grabbou/status/2100720457888534710) `📚1`
+- [https://x.com/gregce10/status/2100748797722664975](https://x.com/gregce10/status/2100748797722664975) `📚1`
+- [https://x.com/Grgo6_/status/2101132929220964474](https://x.com/grgo6_/status/2101132929220964474) `📚1`
+- [https://x.com/GroverInnovate/status/2101034633462977016](https://x.com/groverinnovate/status/2101034633462977016) `📚1`
+- [https://x.com/grsl_fr/status/2102031737509269655](https://x.com/grsl_fr/status/2102031737509269655) `📚1`
+- [https://x.com/GrungeCoder/status/2101591461288423442](https://x.com/grungecoder/status/2101591461288423442) `📚1`
+- [https://x.com/GrungeCoder/status/2101618816052568328](https://x.com/grungecoder/status/2101618816052568328) `📚1`
+- [https://x.com/gucci0915/status/2102317047837327596](https://x.com/gucci0915/status/2102317047837327596) `📚1`
+- [https://x.com/guikyoki/status/2100671641961263197](https://x.com/guikyoki/status/2100671641961263197) `📚1`
+- [https://x.com/GulatiYajat/status/2101700254555140561](https://x.com/gulatiyajat/status/2101700254555140561) `📚1`
+- [https://x.com/gusfadlallah/status/2101367991011103110](https://x.com/gusfadlallah/status/2101367991011103110) `📚1`
+- [https://x.com/gusta_nas/status/2101999631110701065](https://x.com/gusta_nas/status/2101999631110701065) `📚1`
+- [https://x.com/Gyome1_/status/2102426814178001180](https://x.com/gyome1_/status/2102426814178001180) `📚1`
+- [https://x.com/h100envy/status/2102052409950515654](https://x.com/h100envy/status/2102052409950515654) `📚1`
+- [https://x.com/hackertrader/status/2101647998807609675](https://x.com/hackertrader/status/2101647998807609675) `📚1`
+- [https://x.com/hakimel/status/2102355980621324494](https://x.com/hakimel/status/2102355980621324494) `📚1`
+- [https://x.com/halfmage/status/2101276996978229687](https://x.com/halfmage/status/2101276996978229687) `📚1`
+- [https://x.com/hametgholizadeh/status/2101289895624917076](https://x.com/hametgholizadeh/status/2101289895624917076) `📚1`
+- [https://x.com/hammertime_one/status/2102456921810980895](https://x.com/hammertime_one/status/2102456921810980895) `📚1`
+- [https://x.com/hamzaansari09/status/2102331969434681719](https://x.com/hamzaansari09/status/2102331969434681719) `📚1`
+- [https://x.com/hanakoxbt/status/2102504267206492357](https://x.com/hanakoxbt/status/2102504267206492357) `📚1`
+- [https://x.com/Hankyone/status/2101692805051482263](https://x.com/hankyone/status/2101692805051482263) `📚1`
+- [https://x.com/hari65535/status/2100968425967493414](https://x.com/hari65535/status/2100968425967493414) `📚1`
+- [https://x.com/harshpatel071/status/2100664983935971379](https://x.com/harshpatel071/status/2100664983935971379) `📚1`
+- [https://x.com/harshpatel071/status/2100689095202885722](https://x.com/harshpatel071/status/2100689095202885722) `📚1`
+- [https://x.com/hAru_mAki_ch/status/2101994638102127086](https://x.com/haru_maki_ch/status/2101994638102127086) `📚1`
+- [https://x.com/hashsriram/status/2102255321590939996](https://x.com/hashsriram/status/2102255321590939996) `📚1`
+- [https://x.com/hashtodi/status/2102755210636689413](https://x.com/hashtodi/status/2102755210636689413) `📚1`
+- [https://x.com/hckmstrrahul/status/2102040278937055404](https://x.com/hckmstrrahul/status/2102040278937055404) `📚1`
+- [https://x.com/healthyboy5/status/2100805054060269974](https://x.com/healthyboy5/status/2100805054060269974) `📚1`
+- [https://x.com/healthyboy5/status/2101292605292392499](https://x.com/healthyboy5/status/2101292605292392499) `📚1`
+- [https://x.com/healthyboy5/status/2102070538525085801](https://x.com/healthyboy5/status/2102070538525085801) `📚1`
+- [https://x.com/heyakbarali/status/2100903054685921742](https://x.com/heyakbarali/status/2100903054685921742) `📚1`
+- [https://x.com/heyDhavall/status/2099926342095798783](https://x.com/heydhavall/status/2099926342095798783) `📚1`
+- [https://x.com/heykumaonx/status/2101233217764569154](https://x.com/heykumaonx/status/2101233217764569154) `📚1`
+- [https://x.com/heyorvian/status/2102710192848732203](https://x.com/heyorvian/status/2102710192848732203) `📚1`
+- [https://x.com/heyxviraj/status/2102048070649405592](https://x.com/heyxviraj/status/2102048070649405592) `📚1`
+- [https://x.com/HHouaiss/status/2100677818782822461](https://x.com/hhouaiss/status/2100677818782822461) `📚1`
+- [https://x.com/HHouaiss/status/2101046650516943093](https://x.com/hhouaiss/status/2101046650516943093) `📚1`
+- [https://x.com/higgsfield_ai/status/2101022473248727177](https://x.com/higgsfield_ai/status/2101022473248727177) `📚1`
+- [https://x.com/higgsfield_ai/status/2101024623370567913](https://x.com/higgsfield_ai/status/2101024623370567913) `📚1`
+- [https://x.com/hik4_n/status/2101173099425345927](https://x.com/hik4_n/status/2101173099425345927) `📚1`
+- [https://x.com/hirykawa_/status/2100750049152278747](https://x.com/hirykawa_/status/2100750049152278747) `📚1`
+- [https://x.com/hiteshkar/status/2100598773290303641](https://x.com/hiteshkar/status/2100598773290303641) `📚1`
+- [https://x.com/hityyhz/status/2102745635170500617](https://x.com/hityyhz/status/2102745635170500617) `📚1`
+- [https://x.com/HixonStudio/status/2101799228951371784](https://x.com/hixonstudio/status/2101799228951371784) `📚1`
+- [https://x.com/HixonStudio/status/2102024810356228500](https://x.com/hixonstudio/status/2102024810356228500) `📚1`
+- [https://x.com/hochulambo/status/2101335377671782901](https://x.com/hochulambo/status/2101335377671782901) `📚1`
+- [https://x.com/hochulambo/status/2101690706968338669](https://x.com/hochulambo/status/2101690706968338669) `📚1`
+- [https://x.com/holyokehirsch/status/2101826113689268673](https://x.com/holyokehirsch/status/2101826113689268673) `📚1`
+- [https://x.com/homebrewrobots/status/2102079871388201146](https://x.com/homebrewrobots/status/2102079871388201146) `📚1`
+- [https://x.com/hongming731/status/2101489900164116821](https://x.com/hongming731/status/2101489900164116821) `📚1`
+- [https://x.com/hongming731/status/2101502731500536199](https://x.com/hongming731/status/2101502731500536199) `📚1`
+- [https://x.com/hongming731/status/2102192210318164301](https://x.com/hongming731/status/2102192210318164301) `📚1`
+- [https://x.com/hongming731/status/2102192282367914319](https://x.com/hongming731/status/2102192282367914319) `📚1`
+- [https://x.com/hope_rythmn/status/2102178634870264308](https://x.com/hope_rythmn/status/2102178634870264308) `📚1`
+- [https://x.com/hope_rythmn/status/2102184995209228714](https://x.com/hope_rythmn/status/2102184995209228714) `📚1`
+- [https://x.com/hosicix/status/2100675822386331674](https://x.com/hosicix/status/2100675822386331674) `📚1`
+- [https://x.com/hosicix/status/2100699124945326537](https://x.com/hosicix/status/2100699124945326537) `📚1`
+- [https://x.com/Hosseinberg/status/2100857562099007587](https://x.com/hosseinberg/status/2100857562099007587) `📚1`
+- [https://x.com/hosseintoussi/status/2101291155883282624](https://x.com/hosseintoussi/status/2101291155883282624) `📚1`
+- [https://x.com/hosseintoussi/status/2101644118686375956](https://x.com/hosseintoussi/status/2101644118686375956) `📚1`
+- [https://x.com/hota911/status/2101130463037530229](https://x.com/hota911/status/2101130463037530229) `📚1`
+- [https://x.com/hqmank/status/2101529876469522673](https://x.com/hqmank/status/2101529876469522673) `📚1`
+- [https://x.com/hr98w/status/2100646513412292873](https://x.com/hr98w/status/2100646513412292873) `📚1`
+- [https://x.com/hrishioa/status/2101842370052669903](https://x.com/hrishioa/status/2101842370052669903) `📚1`
+- [https://x.com/hrswatigupta/status/2102745441091920210](https://x.com/hrswatigupta/status/2102745441091920210) `📚1`
+- [https://x.com/httptetsuo/status/2101778562978042243](https://x.com/httptetsuo/status/2101778562978042243) `📚1`
+- [https://x.com/huangyihe/status/2101669687579033881](https://x.com/huangyihe/status/2101669687579033881) `📚1`
+- [https://x.com/huangyun_122/status/2102094087784743163](https://x.com/huangyun_122/status/2102094087784743163) `📚1`
+- [https://x.com/huangyun_122/status/2102112025627476146](https://x.com/huangyun_122/status/2102112025627476146) `📚1`
+- [https://x.com/humanmadeltd/status/2102714457847976227](https://x.com/humanmadeltd/status/2102714457847976227) `📚1`
+- [https://x.com/hunterweb303/status/2102591120203304969](https://x.com/hunterweb303/status/2102591120203304969) `📚1`
+- [https://x.com/huoshan007/status/2102316469908353465](https://x.com/huoshan007/status/2102316469908353465) `📚1`
+- [https://x.com/husain_j53/status/2101007440393408702](https://x.com/husain_j53/status/2101007440393408702) `📚1`
+- [https://x.com/huxlab/status/2101511344688341354](https://x.com/huxlab/status/2101511344688341354) `📚1`
+- [https://x.com/huxlab/status/2101968117064945718](https://x.com/huxlab/status/2101968117064945718) `📚1`
+- [https://x.com/hxhdb_jp/status/2101600969276686759](https://x.com/hxhdb_jp/status/2101600969276686759) `📚1`
+- [https://x.com/hxiao/status/2100973209114075330](https://x.com/hxiao/status/2100973209114075330) `📚1`
+- [https://x.com/Hyde_ai3/status/2102512043446407476](https://x.com/hyde_ai3/status/2102512043446407476) `📚1`
+- [https://x.com/i2cjak/status/2100454307405365673](https://x.com/i2cjak/status/2100454307405365673) `📚1`
+- [https://x.com/I_am_oil_oil/status/2102066556486427133](https://x.com/i_am_oil_oil/status/2102066556486427133) `📚1`
+- [https://x.com/iamAdityaAnjana/status/2100438907611660510](https://x.com/iamadityaanjana/status/2100438907611660510) `📚1`
+- [https://x.com/iamAliAgha/status/2100384606818333011](https://x.com/iamaliagha/status/2100384606818333011) `📚1`
+- [https://x.com/iamAnish/status/2101306033146847458](https://x.com/iamanish/status/2101306033146847458) `📚1`
+- [https://x.com/iAmAustinPiazza/status/2102112514846740749](https://x.com/iamaustinpiazza/status/2102112514846740749) `📚1`
+- [https://x.com/iamfakhrealam/status/2102045103774941372](https://x.com/iamfakhrealam/status/2102045103774941372) `📚1`
+- [https://x.com/iammusham/status/2100494363742945703](https://x.com/iammusham/status/2100494363742945703) `📚1`
+- [https://x.com/iamrexei/status/2102419154238078987](https://x.com/iamrexei/status/2102419154238078987) `📚1`
+- [https://x.com/iannuttall/status/2102443273339994558](https://x.com/iannuttall/status/2102443273339994558) `📚1`
+- [https://x.com/Ibelick/status/2101752873302258026](https://x.com/ibelick/status/2101752873302258026) `📚1`
+- [https://x.com/idleshubh/status/2102429846660079971](https://x.com/idleshubh/status/2102429846660079971) `📚1`
+- [https://x.com/idovmamane/status/2102383572543746103](https://x.com/idovmamane/status/2102383572543746103) `📚1`
+- [https://x.com/IFITALEX/status/2102369318499406149](https://x.com/ifitalex/status/2102369318499406149) `📚1`
+- [https://x.com/IgalPines/status/2102424740442894457](https://x.com/igalpines/status/2102424740442894457) `📚1`
+- [https://x.com/ilyasycom/status/2101549394684441027](https://x.com/ilyasycom/status/2101549394684441027) `📚1`
+- [https://x.com/im_payam/status/2101024843193835617](https://x.com/im_payam/status/2101024843193835617) `📚1`
+- [https://x.com/imjaredz/status/2101465520209883172](https://x.com/imjaredz/status/2101465520209883172) `📚1`
+- [https://x.com/imjszhang/status/2101890445056106659](https://x.com/imjszhang/status/2101890445056106659) `📚1`
+- [https://x.com/immortalhowwl/status/2102370482871767524](https://x.com/immortalhowwl/status/2102370482871767524) `📚1`
+- [https://x.com/immortalhowwl/status/2102392930870677921](https://x.com/immortalhowwl/status/2102392930870677921) `📚1`
+- [https://x.com/imohitmayank/status/2101954225781772319](https://x.com/imohitmayank/status/2101954225781772319) `📚1`
+- [https://x.com/imost/status/2101158125042901229](https://x.com/imost/status/2101158125042901229) `📚1`
+- [https://x.com/indierdcr/status/2102352335246942637](https://x.com/indierdcr/status/2102352335246942637) `📚1`
+- [https://x.com/IndraVahan/status/2100929105382564113](https://x.com/indravahan/status/2100929105382564113) `📚1`
+- [https://x.com/invinciDesigns/status/2102692751519383609](https://x.com/invincidesigns/status/2102692751519383609) `📚1`
+- [https://x.com/iparaskev/status/2101750053568491752](https://x.com/iparaskev/status/2101750053568491752) `📚1`
+- [https://x.com/ironcarbs/status/2100708731780563407](https://x.com/ironcarbs/status/2100708731780563407) `📚1`
+- [https://x.com/Iruhdam24/status/2101397946654720394](https://x.com/iruhdam24/status/2101397946654720394) `📚1`
+- [https://x.com/ishiki_emo/status/2101259359682756769](https://x.com/ishiki_emo/status/2101259359682756769) `📚1`
+- [https://x.com/ishiki_emo/status/2101274249319395357](https://x.com/ishiki_emo/status/2101274249319395357) `📚1`
+- [https://x.com/ishuagra02/status/2101801015649374508](https://x.com/ishuagra02/status/2101801015649374508) `📚1`
+- [https://x.com/Ishwarinfra/status/2100470056316776553](https://x.com/ishwarinfra/status/2100470056316776553) `📚1`
+- [https://x.com/Isichan_Hitori/status/2101823727667441671](https://x.com/isichan_hitori/status/2101823727667441671) `📚1`
+- [https://x.com/itscellou/status/2101721165719089434](https://x.com/itscellou/status/2101721165719089434) `📚1`
+- [https://x.com/ItsCuthulhu/status/2101387385871470637](https://x.com/itscuthulhu/status/2101387385871470637) `📚1`
+- [https://x.com/ItsDanielHung/status/2101036327441686718](https://x.com/itsdanielhung/status/2101036327441686718) `📚1`
+- [https://x.com/itsjack/status/2101700330354327671](https://x.com/itsjack/status/2101700330354327671) `📚1`
+- [https://x.com/itsmainstreamtv/status/2102514524868018514](https://x.com/itsmainstreamtv/status/2102514524868018514) `📚1`
+- [https://x.com/itsnoahd/status/2101078288307478861](https://x.com/itsnoahd/status/2101078288307478861) `📚1`
+- [https://x.com/itsronakag/status/2101591273794859486](https://x.com/itsronakag/status/2101591273794859486) `📚1`
+- [https://x.com/ItsukiDev/status/2101823140582011011](https://x.com/itsukidev/status/2101823140582011011) `📚1`
+- [https://x.com/IurySza/status/2101770705155010568](https://x.com/iurysza/status/2101770705155010568) `📚1`
+- [https://x.com/ivaavimusic/status/2101389575868580099](https://x.com/ivaavimusic/status/2101389575868580099) `📚1`
+- [https://x.com/ivy432hz/status/2101679424634789963](https://x.com/ivy432hz/status/2101679424634789963) `📚1`
+- [https://x.com/iwasakoya/status/2100471523358474709](https://x.com/iwasakoya/status/2100471523358474709) `📚1`
+- [https://x.com/J_niwacis/status/2100791658346676691](https://x.com/j_niwacis/status/2100791658346676691) `📚1`
+- [https://x.com/J_niwacis/status/2101174407859511575](https://x.com/j_niwacis/status/2101174407859511575) `📚1`
+- [https://x.com/jacintofleta/status/2101915138735399147](https://x.com/jacintofleta/status/2101915138735399147) `📚1`
+- [https://x.com/jack_burrr/status/2100719196808315149](https://x.com/jack_burrr/status/2100719196808315149) `📚1`
+- [https://x.com/JackdeS11/status/2102596308930589121](https://x.com/jackdes11/status/2102596308930589121) `📚1`
+- [https://x.com/jackrudenko/status/2102557605264552356](https://x.com/jackrudenko/status/2102557605264552356) `📚1`
+- [https://x.com/JackSk35800/status/2102243060189147353](https://x.com/jacksk35800/status/2102243060189147353) `📚1`
+- [https://x.com/jackson99ai/status/2101246982979310022](https://x.com/jackson99ai/status/2101246982979310022) `📚1`
+- [https://x.com/Jackywine/status/2101609759040586186](https://x.com/jackywine/status/2101609759040586186) `📚1`
+- [https://x.com/jacobilin/status/2101555617945055236](https://x.com/jacobilin/status/2101555617945055236) `📚1`
+- [https://x.com/jacobilin/status/2101772612984561937](https://x.com/jacobilin/status/2101772612984561937) `📚1`
+- [https://x.com/jacobs__blue/status/2101188130665800124](https://x.com/jacobs__blue/status/2101188130665800124) `📚1`
+- [https://x.com/jacques_codes/status/2102456011453857842](https://x.com/jacques_codes/status/2102456011453857842) `📚1`
+- [https://x.com/JacquesGariepy/status/2101357762923884852](https://x.com/jacquesgariepy/status/2101357762923884852) `📚1`
+- [https://x.com/Jadfyd/status/2101908433700278758](https://x.com/jadfyd/status/2101908433700278758) `📚1`
+- [https://x.com/jake_gwon/status/2101194639948787818](https://x.com/jake_gwon/status/2101194639948787818) `📚1`
+- [https://x.com/james2_0/status/2101785784990970155](https://x.com/james2_0/status/2101785784990970155) `📚1`
+- [https://x.com/jamiepinheiro/status/2100704841786114215](https://x.com/jamiepinheiro/status/2100704841786114215) `📚1`
+- [https://x.com/JanDalhuysen/status/2101334340353318993](https://x.com/jandalhuysen/status/2101334340353318993) `📚1`
+- [https://x.com/japan19840824/status/2102730635492343899](https://x.com/japan19840824/status/2102730635492343899) `📚1`
+- [https://x.com/jasonlu_ai/status/2101071647730205135](https://x.com/jasonlu_ai/status/2101071647730205135) `📚1`
+- [https://x.com/JasonSteving/status/2102520055796011448](https://x.com/jasonsteving/status/2102520055796011448) `📚1`
+- [https://x.com/jasonzhou1993/status/2101988970565603489](https://x.com/jasonzhou1993/status/2101988970565603489) `📚1`
+- [https://x.com/Jasperschoormns/status/2101421618056622436](https://x.com/jasperschoormns/status/2101421618056622436) `📚1`
+- [https://x.com/jaunatis_q/status/2102719714258792948](https://x.com/jaunatis_q/status/2102719714258792948) `📚1`
+- [https://x.com/jawadbhimani/status/2100779779045916775](https://x.com/jawadbhimani/status/2100779779045916775) `📚1`
+- [https://x.com/Jdevreede2/status/2101305337601016178](https://x.com/jdevreede2/status/2101305337601016178) `📚1`
+- [https://x.com/JDHyper/status/2101882683391352890](https://x.com/jdhyper/status/2101882683391352890) `📚1`
+- [https://x.com/jdrhyne/status/2102519484724695453](https://x.com/jdrhyne/status/2102519484724695453) `📚1`
+- [https://x.com/Jessiecs007/status/2102532892283056499](https://x.com/jessiecs007/status/2102532892283056499) `📚1`
+- [https://x.com/JesterMule/status/2100662962042396728](https://x.com/jestermule/status/2100662962042396728) `📚1`
+- [https://x.com/jetwaniavinash/status/2101750500668358684](https://x.com/jetwaniavinash/status/2101750500668358684) `📚1`
+- [https://x.com/jetwaniavinash/status/2102053156829937785](https://x.com/jetwaniavinash/status/2102053156829937785) `📚1`
+- [https://x.com/jevcoinxyz/status/2100697612835766310](https://x.com/jevcoinxyz/status/2100697612835766310) `📚1`
+- [https://x.com/jevonstonk/status/2102750077454577818](https://x.com/jevonstonk/status/2102750077454577818) `📚1`
+- [https://x.com/jiayao/status/2101108866713063804](https://x.com/jiayao/status/2101108866713063804) `📚1`
+- [https://x.com/joevidev/status/2100600987631448270](https://x.com/joevidev/status/2100600987631448270) `📚1`
+- [https://x.com/johancutych/status/2100890907151143266](https://x.com/johancutych/status/2100890907151143266) `📚1`
+- [https://x.com/johnjoubert/status/2100491137496547834](https://x.com/johnjoubert/status/2100491137496547834) `📚1`
+- [https://x.com/johnjoubert/status/2101999087331491904](https://x.com/johnjoubert/status/2101999087331491904) `📚1`
+- [https://x.com/jokinglp/status/2101789037992247533](https://x.com/jokinglp/status/2101789037992247533) `📚1`
+- [https://x.com/jokinglp/status/2102118899709821094](https://x.com/jokinglp/status/2102118899709821094) `📚1`
+- [https://x.com/jokkemann222/status/2102143796871942450](https://x.com/jokkemann222/status/2102143796871942450) `📚1`
+- [https://x.com/jolehuit/status/2101087590661414975](https://x.com/jolehuit/status/2101087590661414975) `📚1`
+- [https://x.com/jpmontoya271/status/2102420153829056638](https://x.com/jpmontoya271/status/2102420153829056638) `📚1`
+- [https://x.com/jpn3616/status/2100928337078358511](https://x.com/jpn3616/status/2100928337078358511) `📚1`
+- [https://x.com/juanmaagd/status/2100454527841529856](https://x.com/juanmaagd/status/2100454527841529856) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2101374009669571045](https://x.com/juliangoldieseo/status/2101374009669571045) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2101389360864129359](https://x.com/juliangoldieseo/status/2101389360864129359) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2102389956891009493](https://x.com/juliangoldieseo/status/2102389956891009493) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2102405054632538525](https://x.com/juliangoldieseo/status/2102405054632538525) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2102432110200107413](https://x.com/juliangoldieseo/status/2102432110200107413) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2102444312273228234](https://x.com/juliangoldieseo/status/2102444312273228234) `📚1`
+- [https://x.com/JulianGoldieSEO/status/2102525850541519134](https://x.com/juliangoldieseo/status/2102525850541519134) `📚1`
+- [https://x.com/juminoz/status/2100768849528586320](https://x.com/juminoz/status/2100768849528586320) `📚1`
+- [https://x.com/JungleSilicon/status/2101668698008301825](https://x.com/junglesilicon/status/2101668698008301825) `📚1`
+- [https://x.com/junhoh0ng/status/2100999241326047596](https://x.com/junhoh0ng/status/2100999241326047596) `📚1`
+- [https://x.com/JunMa_AI4Health/status/2102230939111702659](https://x.com/junma_ai4health/status/2102230939111702659) `📚1`
+- [https://x.com/jurlycat/status/2102593454903832652](https://x.com/jurlycat/status/2102593454903832652) `📚1`
+- [https://x.com/JustinPerea/status/2101996047257972932](https://x.com/justinperea/status/2101996047257972932) `📚1`
+- [https://x.com/justkrup/status/2101702454069100620](https://x.com/justkrup/status/2101702454069100620) `📚1`
+- [https://x.com/jxnlco/status/2103885150828544302](https://x.com/jxnlco/status/2103885150828544302) `📚1`
+- [https://x.com/jxnlco/status/2103944048327479651](https://x.com/jxnlco/status/2103944048327479651) `📚1`
+- [https://x.com/kacpersinilo/status/2100544757248278933](https://x.com/kacpersinilo/status/2100544757248278933) `📚1`
+- [https://x.com/kaif9998/status/2101761144226824309](https://x.com/kaif9998/status/2101761144226824309) `📚1`
+- [https://x.com/kaiwlson/status/2101741764449051087](https://x.com/kaiwlson/status/2101741764449051087) `📚1`
+- [https://x.com/kalenjordan/status/2102194463107866822](https://x.com/kalenjordan/status/2102194463107866822) `📚1`
+- [https://x.com/kalyandechiraju/status/2101338153294635151](https://x.com/kalyandechiraju/status/2101338153294635151) `📚1`
+- [https://x.com/KanaWorks_AI/status/2101638176691679569](https://x.com/kanaworks_ai/status/2101638176691679569) `📚1`
+- [https://x.com/KanaWorks_AI/status/2101974231810449540](https://x.com/kanaworks_ai/status/2101974231810449540) `📚1`
+- [https://x.com/kaorixbt/status/2102392477898486198](https://x.com/kaorixbt/status/2102392477898486198) `📚1`
+- [https://x.com/karaage0703/status/2101199000728944703](https://x.com/karaage0703/status/2101199000728944703) `📚1`
+- [https://x.com/karishnu/status/2102435080996315549](https://x.com/karishnu/status/2102435080996315549) `📚1`
+- [https://x.com/karminski3/status/2100717944565354595](https://x.com/karminski3/status/2100717944565354595) `📚1`
+- [https://x.com/karminski3/status/2100724328975462779](https://x.com/karminski3/status/2100724328975462779) `📚1`
+- [https://x.com/karminski3/status/2100873867321647496](https://x.com/karminski3/status/2100873867321647496) `📚1`
+- [https://x.com/karminski3/status/2101419754888245626](https://x.com/karminski3/status/2101419754888245626) `📚1`
+- [https://x.com/karminski3/status/2101839176224391358](https://x.com/karminski3/status/2101839176224391358) `📚1`
+- [https://x.com/karminski3/status/2101923782407639249](https://x.com/karminski3/status/2101923782407639249) `📚1`
+- [https://x.com/karminski3/status/2101941770003361893](https://x.com/karminski3/status/2101941770003361893) `📚1`
+- [https://x.com/KarnikShreyas/status/2101359643847274711](https://x.com/karnikshreyas/status/2101359643847274711) `📚1`
+- [https://x.com/karthiknish/status/2101314761556426893](https://x.com/karthiknish/status/2101314761556426893) `📚1`
+- [https://x.com/KashyapVisharad/status/2101319684578795577](https://x.com/kashyapvisharad/status/2101319684578795577) `📚1`
+- [https://x.com/KashyapVisharad/status/2102350346031149183](https://x.com/kashyapvisharad/status/2102350346031149183) `📚1`
+- [https://x.com/Kavishanx/status/2101369223423701239](https://x.com/kavishanx/status/2101369223423701239) `📚1`
+- [https://x.com/kei_output_1104/status/2101589851191869875](https://x.com/kei_output_1104/status/2101589851191869875) `📚1`
+- [https://x.com/kei_output_1104/status/2101649606123856310](https://x.com/kei_output_1104/status/2101649606123856310) `📚1`
+- [https://x.com/KeibaStat/status/2101473486418161988](https://x.com/keibastat/status/2101473486418161988) `📚1`
+- [https://x.com/keiranhaax/status/2100723829257421230](https://x.com/keiranhaax/status/2100723829257421230) `📚1`
+- [https://x.com/keitowebai/status/2102612729634898233](https://x.com/keitowebai/status/2102612729634898233) `📚1`
+- [https://x.com/kejunz/status/2102303761528246666](https://x.com/kejunz/status/2102303761528246666) `📚1`
+- [https://x.com/kelamoaba/status/2100568894909849660](https://x.com/kelamoaba/status/2100568894909849660) `📚1`
+- [https://x.com/kenonews/status/2101025013243555971](https://x.com/kenonews/status/2101025013243555971) `📚1`
+- [https://x.com/kenonews/status/2102399496667734479](https://x.com/kenonews/status/2102399496667734479) `📚1`
+- [https://x.com/kentaro/status/2100937615642185842](https://x.com/kentaro/status/2100937615642185842) `📚1`
+- [https://x.com/kernullist/status/2101638295121776940](https://x.com/kernullist/status/2101638295121776940) `📚1`
+- [https://x.com/kevbuildsapps/status/2101061936834023754](https://x.com/kevbuildsapps/status/2101061936834023754) `📚1`
+- [https://x.com/KevinKelbie/status/2102603408637124705](https://x.com/kevinkelbie/status/2102603408637124705) `📚1`
+- [https://x.com/KevinShengHui/status/2100963923143098712](https://x.com/kevinshenghui/status/2100963923143098712) `📚1`
+- [https://x.com/keyengtee/status/2102657387224314219](https://x.com/keyengtee/status/2102657387224314219) `📚1`
+- [https://x.com/kgsi/status/2100740717454954548](https://x.com/kgsi/status/2100740717454954548) `📚1`
+- [https://x.com/KhazzanYassine/status/2102746552376725756](https://x.com/khazzanyassine/status/2102746552376725756) `📚1`
+- [https://x.com/khemmapich/status/2102120625691304379](https://x.com/khemmapich/status/2102120625691304379) `📚1`
+- [https://x.com/khoa_solo/status/2101138098239447130](https://x.com/khoa_solo/status/2101138098239447130) `📚1`
+- [https://x.com/KillerQueenAndy/status/2102613810981048408](https://x.com/killerqueenandy/status/2102613810981048408) `📚1`
+- [https://x.com/kinari_kuramoto/status/2101937847674835406](https://x.com/kinari_kuramoto/status/2101937847674835406) `📚1`
+- [https://x.com/KinasRemek/status/2100953553917313180](https://x.com/kinasremek/status/2100953553917313180) `📚1`
+- [https://x.com/kis/status/2101294352790348072](https://x.com/kis/status/2101294352790348072) `📚1`
+- [https://x.com/kis/status/2101426969971916863](https://x.com/kis/status/2101426969971916863) `📚1`
+- [https://x.com/kis/status/2101800107968782645](https://x.com/kis/status/2101800107968782645) `📚1`
+- [https://x.com/kiyoshi_shin/status/2102038713580794278](https://x.com/kiyoshi_shin/status/2102038713580794278) `📚1`
+- [https://x.com/kiyoshi_shin/status/2102116631166255389](https://x.com/kiyoshi_shin/status/2102116631166255389) `📚1`
+- [https://x.com/kiyoshi_shin/status/2102308183255769556](https://x.com/kiyoshi_shin/status/2102308183255769556) `📚1`
+- [https://x.com/kmelve/status/2100753906607468947](https://x.com/kmelve/status/2100753906607468947) `📚1`
+- [https://x.com/kobatch_tk/status/2102033314643411045](https://x.com/kobatch_tk/status/2102033314643411045) `📚1`
+- [https://x.com/kodykoala/status/2100943346575253515](https://x.com/kodykoala/status/2100943346575253515) `📚1`
+- [https://x.com/kokushing/status/2101300938040574218](https://x.com/kokushing/status/2101300938040574218) `📚1`
+- [https://x.com/konaito_copilot/status/2101236853844377911](https://x.com/konaito_copilot/status/2101236853844377911) `📚1`
+- [https://x.com/koneko59/status/2101303124921356682](https://x.com/koneko59/status/2101303124921356682) `📚1`
+- [https://x.com/konstantinsaifo/status/2102097858346311939](https://x.com/konstantinsaifo/status/2102097858346311939) `📚1`
+- [https://x.com/KostyaAI/status/2101925503430967540](https://x.com/kostyaai/status/2101925503430967540) `📚1`
+- [https://x.com/KostyaAI/status/2102527162242748481](https://x.com/kostyaai/status/2102527162242748481) `📚1`
+- [https://x.com/kote2/status/2101201087399428361](https://x.com/kote2/status/2101201087399428361) `📚1`
+- [https://x.com/kote2/status/2102055283334013019](https://x.com/kote2/status/2102055283334013019) `📚1`
+- [https://x.com/krispuckett/status/2101058974670000421](https://x.com/krispuckett/status/2101058974670000421) `📚1`
+- [https://x.com/kristianvtr/status/2102387154630394085](https://x.com/kristianvtr/status/2102387154630394085) `📚1`
+- [https://x.com/kriticdamage/status/2101101905879654894](https://x.com/kriticdamage/status/2101101905879654894) `📚1`
+- [https://x.com/krzysztoffduda/status/2100521764451131610](https://x.com/krzysztoffduda/status/2100521764451131610) `📚1`
+- [https://x.com/krzysztoffduda/status/2101914990911312078](https://x.com/krzysztoffduda/status/2101914990911312078) `📚1`
+- [https://x.com/kualts/status/2102226460710719618](https://x.com/kualts/status/2102226460710719618) `📚1`
+- [https://x.com/Kuldeepzzz/status/2101166296973119555](https://x.com/kuldeepzzz/status/2101166296973119555) `📚1`
+- [https://x.com/kuma_XXP/status/2102760789300162610](https://x.com/kuma_xxp/status/2102760789300162610) `📚1`
+- [https://x.com/kurtbuhler/status/2101085486031012250](https://x.com/kurtbuhler/status/2101085486031012250) `📚1`
+- [https://x.com/kushagrchitkar/status/2100686524065222698](https://x.com/kushagrchitkar/status/2100686524065222698) `📚1`
+- [https://x.com/kushayush9/status/2101212380697100439](https://x.com/kushayush9/status/2101212380697100439) `📚1`
+- [https://x.com/kyamilass/status/2101095353697357921](https://x.com/kyamilass/status/2101095353697357921) `📚1`
+- [https://x.com/kylejeong/status/2100320242895552791](https://x.com/kylejeong/status/2100320242895552791) `📚1`
+- [https://x.com/kynichol/status/2100945511003885815](https://x.com/kynichol/status/2100945511003885815) `📚1`
+- [https://x.com/kyr0stack/status/2102507316033839426](https://x.com/kyr0stack/status/2102507316033839426) `📚1`
+- [https://x.com/kzkhykw/status/2100895571062218978](https://x.com/kzkhykw/status/2100895571062218978) `📚1`
+- [https://x.com/kzkhykw/status/2102038395296022607](https://x.com/kzkhykw/status/2102038395296022607) `📚1`
+- [https://x.com/LamplighterPaul/status/2100899181120360693](https://x.com/lamplighterpaul/status/2100899181120360693) `📚1`
+- [https://x.com/laoyingkhq/status/2102636422234845242](https://x.com/laoyingkhq/status/2102636422234845242) `📚1`
+- [https://x.com/laputa_kodama/status/2101479532515426468](https://x.com/laputa_kodama/status/2101479532515426468) `📚1`
+- [https://x.com/laura_llin/status/2101899469805736407](https://x.com/laura_llin/status/2101899469805736407) `📚1`
+- [https://x.com/laura_llin/status/2101939425668436384](https://x.com/laura_llin/status/2101939425668436384) `📚1`
+- [https://x.com/LeahW_2077/status/2101894926250168654](https://x.com/leahw_2077/status/2101894926250168654) `📚1`
+- [https://x.com/leanxbt/status/2101360891703017785](https://x.com/leanxbt/status/2101360891703017785) `📚1`
+- [https://x.com/leeadkins/status/2101730133614772466](https://x.com/leeadkins/status/2101730133614772466) `📚1`
+- [https://x.com/leecobaby/status/2101954931829645588](https://x.com/leecobaby/status/2101954931829645588) `📚1`
+- [https://x.com/leecobaby/status/2101959889606328403](https://x.com/leecobaby/status/2101959889606328403) `📚1`
+- [https://x.com/lennox_saint/status/2102313163932983584](https://x.com/lennox_saint/status/2102313163932983584) `📚1`
+- [https://x.com/lennox_saint/status/2102721286615265372](https://x.com/lennox_saint/status/2102721286615265372) `📚1`
+- [https://x.com/LeoTava8/status/2100822293803143208](https://x.com/leotava8/status/2100822293803143208) `📚1`
+- [https://x.com/letshahid/status/2100931843680043096](https://x.com/letshahid/status/2100931843680043096) `📚1`
+- [https://x.com/levie/status/2101007708044574906](https://x.com/levie/status/2101007708044574906) `📚1`
+- [https://x.com/lftrb/status/2101050075279712613](https://x.com/lftrb/status/2101050075279712613) `📚1`
+- [https://x.com/libapi_/status/2101656468026269840](https://x.com/libapi_/status/2101656468026269840) `📚1`
+- [https://x.com/LidaMidorin/status/2102292533103788484](https://x.com/lidamidorin/status/2102292533103788484) `📚1`
+- [https://x.com/lifesinger/status/2102764610109813192](https://x.com/lifesinger/status/2102764610109813192) `📚1`
+- [https://x.com/lifesinger/status/2102772248985870349](https://x.com/lifesinger/status/2102772248985870349) `📚1`
+- [https://x.com/limbopeng/status/2100937995637673986](https://x.com/limbopeng/status/2100937995637673986) `📚1`
+- [https://x.com/limbopeng/status/2100997073382568308](https://x.com/limbopeng/status/2100997073382568308) `📚1`
+- [https://x.com/limbopeng/status/2101734780882891174](https://x.com/limbopeng/status/2101734780882891174) `📚1`
+- [https://x.com/linguinelabs/status/2101745712744775809](https://x.com/linguinelabs/status/2101745712744775809) `📚1`
+- [https://x.com/LinQ444/status/2101695168542073072](https://x.com/linq444/status/2101695168542073072) `📚1`
+- [https://x.com/LiorNsnd/status/2102404691846139905](https://x.com/liornsnd/status/2102404691846139905) `📚1`
+- [https://x.com/liuuuk311/status/2100520115183714666](https://x.com/liuuuk311/status/2100520115183714666) `📚1`
+- [https://x.com/LiuweijiaVip/status/2101228302342176877](https://x.com/liuweijiavip/status/2101228302342176877) `📚1`
+- [https://x.com/LiuweijiaVip/status/2101232538413105565](https://x.com/liuweijiavip/status/2101232538413105565) `📚1`
+- [https://x.com/lobsternft_lol/status/2102422109708566833](https://x.com/lobsternft_lol/status/2102422109708566833) `📚1`
+- [https://x.com/logesh_umapathi/status/2102315546490343543](https://x.com/logesh_umapathi/status/2102315546490343543) `📚1`
+- [https://x.com/LoicBerthelot/status/2102691174708359245](https://x.com/loicberthelot/status/2102691174708359245) `📚1`
+- [https://x.com/loktar00/status/2101851403790512615](https://x.com/loktar00/status/2101851403790512615) `📚1`
+- [https://x.com/Lonely__MH/status/2101823975349244095](https://x.com/lonely__mh/status/2101823975349244095) `📚1`
+- [https://x.com/LordMarket22/status/2102374855022883293](https://x.com/lordmarket22/status/2102374855022883293) `📚1`
+- [https://x.com/luccacerf/status/2101471720020254824](https://x.com/luccacerf/status/2101471720020254824) `📚1`
+- [https://x.com/luckeyfaraday/status/2100622223014842432](https://x.com/luckeyfaraday/status/2100622223014842432) `📚1`
+- [https://x.com/lucky_note_lab/status/2101820180137685482](https://x.com/lucky_note_lab/status/2101820180137685482) `📚1`
+- [https://x.com/LuckyBullCat/status/2101040766613102799](https://x.com/luckybullcat/status/2101040766613102799) `📚1`
+- [https://x.com/LufzzLiz/status/2101323323947049288](https://x.com/lufzzliz/status/2101323323947049288) `📚1`
+- [https://x.com/luisf_mc/status/2102237061822767171](https://x.com/luisf_mc/status/2102237061822767171) `📚1`
+- [https://x.com/LukasCantCode/status/2102223232913055805](https://x.com/lukascantcode/status/2102223232913055805) `📚1`
+- [https://x.com/lukaskeledzija/status/2100516936958271928](https://x.com/lukaskeledzija/status/2100516936958271928) `📚1`
+- [https://x.com/LukeParkerDev/status/2100533086912139585](https://x.com/lukeparkerdev/status/2100533086912139585) `📚1`
+- [https://x.com/luki_notlowkey/status/2101365293402534216](https://x.com/luki_notlowkey/status/2101365293402534216) `📚1`
+- [https://x.com/lukisimi/status/2102757256152678836](https://x.com/lukisimi/status/2102757256152678836) `📚1`
+- [https://x.com/luongnv89/status/2102025676983288133](https://x.com/luongnv89/status/2102025676983288133) `📚1`
+- [https://x.com/LuquiGoncalves/status/2101104687827050984](https://x.com/luquigoncalves/status/2101104687827050984) `📚1`
+- [https://x.com/luta_ai/status/2101504154191675671](https://x.com/luta_ai/status/2101504154191675671) `📚1`
+- [https://x.com/LxKus/status/2100611468580323414](https://x.com/lxkus/status/2100611468580323414) `📚1`
+- [https://x.com/lypy/status/2101826306841202952](https://x.com/lypy/status/2101826306841202952) `📚1`
+- [https://x.com/lypy/status/2102044979174560017](https://x.com/lypy/status/2102044979174560017) `📚1`
+- [https://x.com/lypy/status/2102406124771197408](https://x.com/lypy/status/2102406124771197408) `📚1`
+- [https://x.com/m_hatayama/status/2101946922370302456](https://x.com/m_hatayama/status/2101946922370302456) `📚1`
+- [https://x.com/m_rakutko/status/2100696115456679989](https://x.com/m_rakutko/status/2100696115456679989) `📚1`
+- [https://x.com/maail/status/2102038738838962316](https://x.com/maail/status/2102038738838962316) `📚1`
+- [https://x.com/maail/status/2102227956324266290](https://x.com/maail/status/2102227956324266290) `📚1`
+- [https://x.com/Maaland/status/2101343304856023424](https://x.com/maaland/status/2101343304856023424) `📚1`
+- [https://x.com/maddiedreese/status/2101448014896505003](https://x.com/maddiedreese/status/2101448014896505003) `📚1`
+- [https://x.com/maestrooth/status/2102453475078533209](https://x.com/maestrooth/status/2102453475078533209) `📚1`
+- [https://x.com/magmagK/status/2101592394206761293](https://x.com/magmagk/status/2101592394206761293) `📚1`
+- [https://x.com/mah_lab/status/2100873512760283567](https://x.com/mah_lab/status/2100873512760283567) `📚1`
+- [https://x.com/mahirb22/status/2100749397864681735](https://x.com/mahirb22/status/2100749397864681735) `📚1`
+- [https://x.com/MajdAICode/status/2102721549115457770](https://x.com/majdaicode/status/2102721549115457770) `📚1`
+- [https://x.com/Majin_AppSheet/status/2101659641386274883](https://x.com/majin_appsheet/status/2101659641386274883) `📚1`
+- [https://x.com/MalayVasa/status/2101649868305653889](https://x.com/malayvasa/status/2101649868305653889) `📚1`
+- [https://x.com/manabu_imanaga/status/2101590930075623905](https://x.com/manabu_imanaga/status/2101590930075623905) `📚1`
+- [https://x.com/manfye/status/2101549781160259821](https://x.com/manfye/status/2101549781160259821) `📚1`
+- [https://x.com/ManishRaanaa/status/2101738552044535934](https://x.com/manishraanaa/status/2101738552044535934) `📚1`
+- [https://x.com/manmeet_sethi/status/2102050897887146459](https://x.com/manmeet_sethi/status/2102050897887146459) `📚1`
+- [https://x.com/manthan_surkar/status/2101221041830027290](https://x.com/manthan_surkar/status/2101221041830027290) `📚1`
+- [https://x.com/manu_jsx/status/2102512561769877563](https://x.com/manu_jsx/status/2102512561769877563) `📚1`
+- [https://x.com/mar_vn_nv_cie/status/2101332047281459240](https://x.com/mar_vn_nv_cie/status/2101332047281459240) `📚1`
+- [https://x.com/marckohlbrugge/status/2101344345857069558](https://x.com/marckohlbrugge/status/2101344345857069558) `📚1`
+- [https://x.com/marfinxx/status/2102023625863790817](https://x.com/marfinxx/status/2102023625863790817) `📚1`
+- [https://x.com/marimo_io/status/2102110429820633577](https://x.com/marimo_io/status/2102110429820633577) `📚1`
+- [https://x.com/marinatrajk/status/2102173897676185658](https://x.com/marinatrajk/status/2102173897676185658) `📚1`
+- [https://x.com/mariojankovic/status/2100711375332835645](https://x.com/mariojankovic/status/2100711375332835645) `📚1`
+- [https://x.com/mariojankovic/status/2100996843131863071](https://x.com/mariojankovic/status/2100996843131863071) `📚1`
+- [https://x.com/markgadala/status/2101131295061385718](https://x.com/markgadala/status/2101131295061385718) `📚1`
+- [https://x.com/markgadala/status/2101490226212294733](https://x.com/markgadala/status/2101490226212294733) `📚1`
+- [https://x.com/MartinSWDev/status/2100278904447475920](https://x.com/martinswdev/status/2100278904447475920) `📚1`
+- [https://x.com/maruo_ai_info/status/2102344042545656064](https://x.com/maruo_ai_info/status/2102344042545656064) `📚1`
+- [https://x.com/masafumi/status/2101119726256837089](https://x.com/masafumi/status/2101119726256837089) `📚1`
+- [https://x.com/masahirochaen/status/2101587412816380413](https://x.com/masahirochaen/status/2101587412816380413) `📚1`
+- [https://x.com/masahirochaen/status/2101611863507419411](https://x.com/masahirochaen/status/2101611863507419411) `📚1`
+- [https://x.com/mat_m_a_t/status/2101846169228050448](https://x.com/mat_m_a_t/status/2101846169228050448) `📚1`
+- [https://x.com/matiwojt/status/2101435209774219381](https://x.com/matiwojt/status/2101435209774219381) `📚1`
+- [https://x.com/matthew_hartman/status/2102100386987360603](https://x.com/matthew_hartman/status/2102100386987360603) `📚1`
+- [https://x.com/matthewabides/status/2102700585271353426](https://x.com/matthewabides/status/2102700585271353426) `📚1`
+- [https://x.com/mattheworiordan/status/2100937732012822897](https://x.com/mattheworiordan/status/2100937732012822897) `📚1`
+- [https://x.com/mattheworiordan/status/2101354190958145764](https://x.com/mattheworiordan/status/2101354190958145764) `📚1`
+- [https://x.com/mattheworiordan/status/2101355032469778477](https://x.com/mattheworiordan/status/2101355032469778477) `📚1`
+- [https://x.com/mattn_jp/status/2100795484441112710](https://x.com/mattn_jp/status/2100795484441112710) `📚1`
+- [https://x.com/mattsimpsn/status/2100342554394865771](https://x.com/mattsimpsn/status/2100342554394865771) `📚1`
+- [https://x.com/matu79go/status/2101878718138605593](https://x.com/matu79go/status/2101878718138605593) `📚1`
+- [https://x.com/Max_brandkernel/status/2100699431309897845](https://x.com/max_brandkernel/status/2100699431309897845) `📚1`
+- [https://x.com/Max_Grigoryev/status/2101054907390501100](https://x.com/max_grigoryev/status/2101054907390501100) `📚1`
+- [https://x.com/max_web_artisan/status/2101639445606703246](https://x.com/max_web_artisan/status/2101639445606703246) `📚1`
+- [https://x.com/max_web_artisan/status/2101712148191727701](https://x.com/max_web_artisan/status/2101712148191727701) `📚1`
+- [https://x.com/max_web_artisan/status/2101743488018657404](https://x.com/max_web_artisan/status/2101743488018657404) `📚1`
+- [https://x.com/maxxspotter/status/2100476853920129024](https://x.com/maxxspotter/status/2100476853920129024) `📚1`
+- [https://x.com/maze_rapid/status/2101247727816651102](https://x.com/maze_rapid/status/2101247727816651102) `📚1`
+- [https://x.com/MaziyarPanahi/status/2101294513507451268](https://x.com/maziyarpanahi/status/2101294513507451268) `📚1`
+- [https://x.com/md_taqui_imam/status/2102650420480880941](https://x.com/md_taqui_imam/status/2102650420480880941) `📚1`
+- [https://x.com/mdlahfir/status/2100399709995356266](https://x.com/mdlahfir/status/2100399709995356266) `📚1`
+- [https://x.com/mdlahfir/status/2101855581044916612](https://x.com/mdlahfir/status/2101855581044916612) `📚1`
+- [https://x.com/me_barnyx/status/2102708705372295459](https://x.com/me_barnyx/status/2102708705372295459) `📚1`
+- [https://x.com/measure_plan/status/2101315424247820309](https://x.com/measure_plan/status/2101315424247820309) `📚1`
+- [https://x.com/meenster/status/2100670116358996229](https://x.com/meenster/status/2100670116358996229) `📚1`
+- [https://x.com/meghwal11/status/2101672730659525003](https://x.com/meghwal11/status/2101672730659525003) `📚1`
+- [https://x.com/megurosumi/status/2101656868645216490](https://x.com/megurosumi/status/2101656868645216490) `📚1`
+- [https://x.com/megurosumi/status/2101657719392612542](https://x.com/megurosumi/status/2101657719392612542) `📚1`
+- [https://x.com/megurosumi/status/2101658510891352421](https://x.com/megurosumi/status/2101658510891352421) `📚1`
+- [https://x.com/Mellon0x/status/2102068354903056566](https://x.com/mellon0x/status/2102068354903056566) `📚1`
+- [https://x.com/MemovaAI/status/2102183506809851970](https://x.com/memovaai/status/2102183506809851970) `📚1`
+- [https://x.com/merccante/status/2102719975676862555](https://x.com/merccante/status/2102719975676862555) `📚1`
+- [https://x.com/mhadifilms/status/2101307823800115603](https://x.com/mhadifilms/status/2101307823800115603) `📚1`
+- [https://x.com/mhdzainm/status/2101552356190208501](https://x.com/mhdzainm/status/2101552356190208501) `📚1`
+- [https://x.com/Michael50663932/status/2101321665393099141](https://x.com/michael50663932/status/2101321665393099141) `📚1`
+- [https://x.com/michaelaubry/status/2101868080477724712](https://x.com/michaelaubry/status/2101868080477724712) `📚1`
+- [https://x.com/Michaelzsguo/status/2101729721323053561](https://x.com/michaelzsguo/status/2101729721323053561) `📚1`
+- [https://x.com/Michaelzsguo/status/2102190802160005277](https://x.com/michaelzsguo/status/2102190802160005277) `📚1`
+- [https://x.com/michhachula/status/2101052463847547279](https://x.com/michhachula/status/2101052463847547279) `📚1`
+- [https://x.com/MichitakaTsuda/status/2100971640184074565](https://x.com/michitakatsuda/status/2100971640184074565) `📚1`
+- [https://x.com/mick__net/status/2101232326239756368](https://x.com/mick__net/status/2101232326239756368) `📚1`
+- [https://x.com/Mifmasterz/status/2101296433408417841](https://x.com/mifmasterz/status/2101296433408417841) `📚1`
+- [https://x.com/miguelperedo/status/2101370330719686836](https://x.com/miguelperedo/status/2101370330719686836) `📚1`
+- [https://x.com/mikehostetler/status/2100638443126554687](https://x.com/mikehostetler/status/2100638443126554687) `📚1`
+- [https://x.com/mikemenard_com/status/2100760534987464875](https://x.com/mikemenard_com/status/2100760534987464875) `📚1`
+- [https://x.com/mikemenard_com/status/2100984306583703858](https://x.com/mikemenard_com/status/2100984306583703858) `📚1`
+- [https://x.com/mikemenard_com/status/2101045885257843001](https://x.com/mikemenard_com/status/2101045885257843001) `📚1`
+- [https://x.com/MinatoYuichiro/status/2101840140922724661](https://x.com/minatoyuichiro/status/2101840140922724661) `📚1`
+- [https://x.com/miniroutersh/status/2102422771892416610](https://x.com/miniroutersh/status/2102422771892416610) `📚1`
+- [https://x.com/MinLiBuilds/status/2101649130724683850](https://x.com/minlibuilds/status/2101649130724683850) `📚1`
+- [https://x.com/Minsi_AI/status/2101851724000743852](https://x.com/minsi_ai/status/2101851724000743852) `📚1`
+- [https://x.com/misakism13/status/2102305405280080143](https://x.com/misakism13/status/2102305405280080143) `📚1`
+- [https://x.com/MisbahSy/status/2101428297062330489](https://x.com/misbahsy/status/2101428297062330489) `📚1`
+- [https://x.com/miscfunks/status/2100643494901539033](https://x.com/miscfunks/status/2100643494901539033) `📚1`
+- [https://x.com/mitch0z/status/2101697940733448546](https://x.com/mitch0z/status/2101697940733448546) `📚1`
+- [https://x.com/mizorewww/status/2100761234567890123](https://x.com/mizorewww/status/2100761234567890123) `📚1` — Canonical Thread:
+- [https://x.com/mizorewww/status/2101473552956555427](https://x.com/mizorewww/status/2101473552956555427) `📚1`
+- [https://x.com/MKhordoo/status/2101040416300630033](https://x.com/mkhordoo/status/2101040416300630033) `📚1`
+- [https://x.com/mkoushikbhargav/status/2101174185209000436](https://x.com/mkoushikbhargav/status/2101174185209000436) `📚1`
+- [https://x.com/mkoushikbhargav/status/2101245413227741646](https://x.com/mkoushikbhargav/status/2101245413227741646) `📚1`
+- [https://x.com/mkoushikbhargav/status/2101247093662953934](https://x.com/mkoushikbhargav/status/2101247093662953934) `📚1`
+- [https://x.com/MLB_Connection/status/2102585805512520137](https://x.com/mlb_connection/status/2102585805512520137) `📚1`
+- [https://x.com/MLB_Connection/status/2102612925152461304](https://x.com/mlb_connection/status/2102612925152461304) `📚1`
+- [https://x.com/mmastrac/status/2101011110132601054](https://x.com/mmastrac/status/2101011110132601054) `📚1`
+- [https://x.com/MMMusol/status/2101256485464383783](https://x.com/mmmusol/status/2101256485464383783) `📚1`
+- [https://x.com/MMMusol/status/2101576725876650398](https://x.com/mmmusol/status/2101576725876650398) `📚1`
+- [https://x.com/mn0g0znalll/status/2102739493996384436](https://x.com/mn0g0znalll/status/2102739493996384436) `📚1`
+- [https://x.com/Mnilax/status/2101711455255241077](https://x.com/mnilax/status/2101711455255241077) `📚1`
+- [https://x.com/Mnilax/status/2102126178928607723](https://x.com/mnilax/status/2102126178928607723) `📚1`
+- [https://x.com/Mnilax/status/2102417833535643652](https://x.com/mnilax/status/2102417833535643652) `📚1`
+- [https://x.com/Mnilax/status/2102502691444322606](https://x.com/mnilax/status/2102502691444322606) `📚1`
+- [https://x.com/Mnilax/status/2102760642872508510](https://x.com/mnilax/status/2102760642872508510) `📚1`
+- [https://x.com/mo_kechaou/status/2101614020021059639](https://x.com/mo_kechaou/status/2101614020021059639) `📚1`
+- [https://x.com/mocchalera/status/2100931921874411668](https://x.com/mocchalera/status/2100931921874411668) `📚1`
+- [https://x.com/moelabs_dev/status/2100341324335464893](https://x.com/moelabs_dev/status/2100341324335464893) `📚1`
+- [https://x.com/mohritaroh/status/2101325806119035332](https://x.com/mohritaroh/status/2101325806119035332) `📚1`
+- [https://x.com/momito/status/2102032346308342149](https://x.com/momito/status/2102032346308342149) `📚1`
+- [https://x.com/montyspeaks/status/2101539726842863774](https://x.com/montyspeaks/status/2101539726842863774) `📚1`
+- [https://x.com/monymonykay/status/2101512320522363116](https://x.com/monymonykay/status/2101512320522363116) `📚1`
+- [https://x.com/Moore/status/2102078191758102998](https://x.com/moore/status/2102078191758102998) `📚1`
+- [https://x.com/morethancoder/status/2101434212146405386](https://x.com/morethancoder/status/2101434212146405386) `📚1`
+- [https://x.com/MorganFeeney/status/2102483276006896033](https://x.com/morganfeeney/status/2102483276006896033) `📚1`
+- [https://x.com/moritzkremb/status/2102031209018634312](https://x.com/moritzkremb/status/2102031209018634312) `📚1`
+- [https://x.com/moritzkremb/status/2102537239662096658](https://x.com/moritzkremb/status/2102537239662096658) `📚1`
+- [https://x.com/morpphhhaw/status/2102410144965374334](https://x.com/morpphhhaw/status/2102410144965374334) `📚1`
+- [https://x.com/mossy2026/status/2101687829680050438](https://x.com/mossy2026/status/2101687829680050438) `📚1`
+- [https://x.com/mot0aki/status/2102210520870977745](https://x.com/mot0aki/status/2102210520870977745) `📚1`
+- [https://x.com/motatoeshq/status/2101849857782923691](https://x.com/motatoeshq/status/2101849857782923691) `📚1`
+- [https://x.com/motiondotdev/status/2102018548381974917](https://x.com/motiondotdev/status/2102018548381974917) `📚1`
+- [https://x.com/motomiki_lab/status/2101813335910146532](https://x.com/motomiki_lab/status/2101813335910146532) `📚1`
+- [https://x.com/MOulitzky/status/2100865465333490028](https://x.com/moulitzky/status/2100865465333490028) `📚1`
+- [https://x.com/mousoommudoi/status/2101060704128348618](https://x.com/mousoommudoi/status/2101060704128348618) `📚1`
+- [https://x.com/movermandana/status/2101348383512293844](https://x.com/movermandana/status/2101348383512293844) `📚1`
+- [https://x.com/MrHydeDev/status/2101689340556390874](https://x.com/mrhydedev/status/2101689340556390874) `📚1`
+- [https://x.com/mtropolis_chris/status/2100811463048810560](https://x.com/mtropolis_chris/status/2100811463048810560) `📚1`
+- [https://x.com/mtropolis_chris/status/2100927820050366734](https://x.com/mtropolis_chris/status/2100927820050366734) `📚1`
+- [https://x.com/multimodalart/status/2102296665331999098](https://x.com/multimodalart/status/2102296665331999098) `📚1`
+- [https://x.com/muse_jp_sol/status/2101332990978600992](https://x.com/muse_jp_sol/status/2101332990978600992) `📚1`
+- [https://x.com/mustafaergisi/status/2101794050781090153](https://x.com/mustafaergisi/status/2101794050781090153) `📚1`
+- [https://x.com/mustafaergisi/status/2102109971655909645](https://x.com/mustafaergisi/status/2102109971655909645) `📚1`
+- [https://x.com/mykhailen/status/2100448352424853666](https://x.com/mykhailen/status/2100448352424853666) `📚1`
+- [https://x.com/N01ennn/status/2101639021143244848](https://x.com/n01ennn/status/2101639021143244848) `📚1`
+- [https://x.com/N01ennn/status/2102735837335011637](https://x.com/n01ennn/status/2102735837335011637) `📚1`
+- [https://x.com/n8mirai/status/2102181854472261893](https://x.com/n8mirai/status/2102181854472261893) `📚1`
+- [https://x.com/n8mirai/status/2102557570174943644](https://x.com/n8mirai/status/2102557570174943644) `📚1`
+- [https://x.com/nabendu82/status/2101302792849674447](https://x.com/nabendu82/status/2101302792849674447) `📚1`
+- [https://x.com/nabendu82/status/2101695378760577343](https://x.com/nabendu82/status/2101695378760577343) `📚1`
+- [https://x.com/nagasawa_item/status/2101961345134624906](https://x.com/nagasawa_item/status/2101961345134624906) `📚1`
+- [https://x.com/nagasawa_item/status/2102046189411606866](https://x.com/nagasawa_item/status/2102046189411606866) `📚1`
+- [https://x.com/nagata_hideyuki/status/2100714926474182831](https://x.com/nagata_hideyuki/status/2100714926474182831) `📚1`
+- [https://x.com/Nain1sh/status/2102711464062804303](https://x.com/nain1sh/status/2102711464062804303) `📚1`
+- [https://x.com/NameisDkp/status/2102753628356509822](https://x.com/nameisdkp/status/2102753628356509822) `📚1`
+- [https://x.com/NANDEMO_BUILD/status/2101741606147948908](https://x.com/nandemo_build/status/2101741606147948908) `📚1`
+- [https://x.com/nao_1000ri/status/2101129046860157117](https://x.com/nao_1000ri/status/2101129046860157117) `📚1`
+- [https://x.com/nateherk/status/2101330780702068969](https://x.com/nateherk/status/2101330780702068969) `📚1`
+- [https://x.com/NathanOyler/status/2101173030605201480](https://x.com/nathanoyler/status/2101173030605201480) `📚1`
+- [https://x.com/NathanWilbanks_/status/2100685798488076790](https://x.com/nathanwilbanks_/status/2100685798488076790) `📚1`
+- [https://x.com/NathanWilbanks_/status/2102503575498760409](https://x.com/nathanwilbanks_/status/2102503575498760409) `📚1`
+- [https://x.com/NawafAi_/status/2101713357883498947](https://x.com/nawafai_/status/2101713357883498947) `📚1`
+- [https://x.com/naz3eh/status/2101334918144102416](https://x.com/naz3eh/status/2101334918144102416) `📚1`
+- [https://x.com/neat_snap/status/2101488262594306175](https://x.com/neat_snap/status/2101488262594306175) `📚1`
+- [https://x.com/nedzen/status/2101770097945989381](https://x.com/nedzen/status/2101770097945989381) `📚1`
+- [https://x.com/Neel490/status/2100760976006021371](https://x.com/neel490/status/2100760976006021371) `📚1`
+- [https://x.com/negishoyu/status/2100569308225241170](https://x.com/negishoyu/status/2100569308225241170) `📚1`
+- [https://x.com/neil_xbt/status/2102309423523758178](https://x.com/neil_xbt/status/2102309423523758178) `📚1`
+- [https://x.com/nemumusitocha/status/2100903883153473751](https://x.com/nemumusitocha/status/2100903883153473751) `📚1`
+- [https://x.com/neogoose_btw/status/2101174909942772045](https://x.com/neogoose_btw/status/2101174909942772045) `📚1`
+- [https://x.com/neogoose_btw/status/2101428888874410069](https://x.com/neogoose_btw/status/2101428888874410069) `📚1`
+- [https://x.com/Neriousy/status/2100613859052491031](https://x.com/neriousy/status/2100613859052491031) `📚1`
+- [https://x.com/nestymee/status/2102077670788042844](https://x.com/nestymee/status/2102077670788042844) `📚1`
+- [https://x.com/Netlify/status/2100633528975196186](https://x.com/netlify/status/2100633528975196186) `📚1`
+- [https://x.com/next_adventureX/status/2100871733658157198](https://x.com/next_adventurex/status/2100871733658157198) `📚1`
+- [https://x.com/NFT_Chen/status/2101675124747338229](https://x.com/nft_chen/status/2101675124747338229) `📚1`
+- [https://x.com/nicbstme/status/2101176704312164717](https://x.com/nicbstme/status/2101176704312164717) `📚1`
+- [https://x.com/nicdunz/status/2101030098866454822](https://x.com/nicdunz/status/2101030098866454822) `📚1`
+- [https://x.com/nicdunz/status/2101380521687171281](https://x.com/nicdunz/status/2101380521687171281) `📚1`
+- [https://x.com/nicekate8888/status/2100801746977399203](https://x.com/nicekate8888/status/2100801746977399203) `📚1`
+- [https://x.com/nicekate8888/status/2101196168323875102](https://x.com/nicekate8888/status/2101196168323875102) `📚1`
+- [https://x.com/nicekate8888/status/2101908148110217220](https://x.com/nicekate8888/status/2101908148110217220) `📚1`
+- [https://x.com/nickfthedev/status/2101037081719902327](https://x.com/nickfthedev/status/2101037081719902327) `📚1`
+- [https://x.com/nickfthedev/status/2101045790470799697](https://x.com/nickfthedev/status/2101045790470799697) `📚1`
+- [https://x.com/nickfthedev/status/2101181929299038625](https://x.com/nickfthedev/status/2101181929299038625) `📚1`
+- [https://x.com/nicknisi/status/2100986176370786768](https://x.com/nicknisi/status/2100986176370786768) `📚1`
+- [https://x.com/nicky_sap/status/2101131448636023058](https://x.com/nicky_sap/status/2101131448636023058) `📚1`
+- [https://x.com/Nicmauro/status/2101343496879714382](https://x.com/nicmauro/status/2101343496879714382) `📚1`
+- [https://x.com/nicodotdev/status/2101925770432008665](https://x.com/nicodotdev/status/2101925770432008665) `📚1`
+- [https://x.com/nicolasmore_/status/2101035899240767542](https://x.com/nicolasmore_/status/2101035899240767542) `📚1`
+- [https://x.com/NicoSaraintaris/status/2100938146175152323](https://x.com/nicosaraintaris/status/2100938146175152323) `📚1`
+- [https://x.com/nielsmdt99/status/2100570381513839005](https://x.com/nielsmdt99/status/2100570381513839005) `📚1`
+- [https://x.com/nifuchi222222/status/2101104999615066445](https://x.com/nifuchi222222/status/2101104999615066445) `📚1`
+- [https://x.com/nikhilraj__/status/2101917424107012448](https://x.com/nikhilraj__/status/2101917424107012448) `📚1`
+- [https://x.com/nikunj/status/2101077053567332618](https://x.com/nikunj/status/2101077053567332618) `📚1`
+- [https://x.com/Nin19536/status/2101318933072715870](https://x.com/nin19536/status/2101318933072715870) `📚1`
+- [https://x.com/Nin19536/status/2101506134834327816](https://x.com/nin19536/status/2101506134834327816) `📚1`
+- [https://x.com/ninjaswebcom/status/2102079624389771443](https://x.com/ninjaswebcom/status/2102079624389771443) `📚1`
+- [https://x.com/ninjaswebcom/status/2102172944898142711](https://x.com/ninjaswebcom/status/2102172944898142711) `📚1`
+- [https://x.com/Nitikshofficial/status/2101793368619745524](https://x.com/nitikshofficial/status/2101793368619745524) `📚1`
+- [https://x.com/nito_b_a/status/2100949243485700547](https://x.com/nito_b_a/status/2100949243485700547) `📚1`
+- [https://x.com/niwanotorico/status/2102624056172519750](https://x.com/niwanotorico/status/2102624056172519750) `📚1`
+- [https://x.com/njpCoder/status/2100938813707366848](https://x.com/njpcoder/status/2100938813707366848) `📚1`
+- [https://x.com/noah_covey/status/2102634930098585856](https://x.com/noah_covey/status/2102634930098585856) `📚1`
+- [https://x.com/noisyb0y1/status/2102722194241372287](https://x.com/noisyb0y1/status/2102722194241372287) `📚1`
+- [https://x.com/nomad_amaraa/status/2101560914101059843](https://x.com/nomad_amaraa/status/2101560914101059843) `📚1`
+- [https://x.com/Nomandsign/status/2101330997723955279](https://x.com/nomandsign/status/2101330997723955279) `📚1`
+- [https://x.com/nonepcbl/status/2102500860743860428](https://x.com/nonepcbl/status/2102500860743860428) `📚1`
+- [https://x.com/norbertbodziony/status/2100544998391349310](https://x.com/norbertbodziony/status/2100544998391349310) `📚1`
+- [https://x.com/notf/status/2101915884663308796](https://x.com/notf/status/2101915884663308796) `📚1`
+- [https://x.com/nottecore/status/2102040878231491055](https://x.com/nottecore/status/2102040878231491055) `📚1`
+- [https://x.com/notthatchirag/status/2102549002487238854](https://x.com/notthatchirag/status/2102549002487238854) `📚1`
+- [https://x.com/npaka123/status/2101867946448736382](https://x.com/npaka123/status/2101867946448736382) `📚1`
+- [https://x.com/npceo_/status/2102154533971677481](https://x.com/npceo_/status/2102154533971677481) `📚1`
+- [https://x.com/ntedvs/status/2100579021633548593](https://x.com/ntedvs/status/2100579021633548593) `📚1`
+- [https://x.com/NuCode/status/2100724340677595247](https://x.com/nucode/status/2100724340677595247) `📚1`
+- [https://x.com/numaausaumon/status/2101313680440807908](https://x.com/numaausaumon/status/2101313680440807908) `📚1`
+- [https://x.com/nuthemedia/status/2101194008156627056](https://x.com/nuthemedia/status/2101194008156627056) `📚1`
+- [https://x.com/nwtseira/status/2102712826880217355](https://x.com/nwtseira/status/2102712826880217355) `📚1`
+- [https://x.com/o8dotrun/status/2101051113659125857](https://x.com/o8dotrun/status/2101051113659125857) `📚1`
+- [https://x.com/objectgraph/status/2100626348725207104](https://x.com/objectgraph/status/2100626348725207104) `📚1`
+- [https://x.com/OccupyingM/status/2102130055786938798](https://x.com/occupyingm/status/2102130055786938798) `📚1`
+- [https://x.com/ojigineko_tips/status/2101642545101242537](https://x.com/ojigineko_tips/status/2101642545101242537) `📚1`
+- [https://x.com/ojusave/status/2100846896776626402](https://x.com/ojusave/status/2100846896776626402) `📚1`
+- [https://x.com/okapi_fukugyo/status/2101578909045399909](https://x.com/okapi_fukugyo/status/2101578909045399909) `📚1`
+- [https://x.com/okkshitij/status/2101191491989148119](https://x.com/okkshitij/status/2101191491989148119) `📚1`
+- [https://x.com/okkshitij/status/2102224278590554379](https://x.com/okkshitij/status/2102224278590554379) `📚1`
+- [https://x.com/OKtamajun/status/2102064393899188433](https://x.com/oktamajun/status/2102064393899188433) `📚1`
+- [https://x.com/old_pgmrs_will/status/2100914367785234655](https://x.com/old_pgmrs_will/status/2100914367785234655) `📚1`
+- [https://x.com/old_pgmrs_will/status/2100959743875649632](https://x.com/old_pgmrs_will/status/2100959743875649632) `📚1`
+- [https://x.com/olearycrew/status/2100965636314746999](https://x.com/olearycrew/status/2100965636314746999) `📚1`
+- [https://x.com/omarsar0/status/2099933100440494105](https://x.com/omarsar0/status/2099933100440494105) `📚1`
+- [https://x.com/omarsar0/status/2100638430229357046](https://x.com/omarsar0/status/2100638430229357046) `📚1`
+- [https://x.com/omarsar0/status/2100693601021997193](https://x.com/omarsar0/status/2100693601021997193) `📚1`
+- [https://x.com/omarsar0/status/2101349932569370826](https://x.com/omarsar0/status/2101349932569370826) `📚1`
+- [https://x.com/omarsar0/status/2101443311454036477](https://x.com/omarsar0/status/2101443311454036477) `📚1`
+- [https://x.com/omarsar0/status/2101696753749655863](https://x.com/omarsar0/status/2101696753749655863) `📚1`
+- [https://x.com/omarsar0/status/2101774405521301681](https://x.com/omarsar0/status/2101774405521301681) `📚1`
+- [https://x.com/omarsar0/status/2101775584661573692](https://x.com/omarsar0/status/2101775584661573692) `📚1`
+- [https://x.com/omarsar0/status/2102066232383979749](https://x.com/omarsar0/status/2102066232383979749) `📚1`
+- [https://x.com/omarsar0/status/2102113906529538496](https://x.com/omarsar0/status/2102113906529538496) `📚1`
+- [https://x.com/omarsar0/status/2102762406204076532](https://x.com/omarsar0/status/2102762406204076532) `📚1`
+- [https://x.com/omarsar0/status/2102763652101161232](https://x.com/omarsar0/status/2102763652101161232) `📚1`
+- [https://x.com/omarsar0/status/2102934356108972278](https://x.com/omarsar0/status/2102934356108972278) `📚1`
+- [https://x.com/omarsar0/status/2103139055013646646](https://x.com/omarsar0/status/2103139055013646646) `📚1`
+- [https://x.com/omarsar0/status/2103513870904053936](https://x.com/omarsar0/status/2103513870904053936) `📚1`
+- [https://x.com/omarsar0/status/2103529287676567888](https://x.com/omarsar0/status/2103529287676567888) `📚1`
+- [https://x.com/omarsar0/status/2103603205821366311](https://x.com/omarsar0/status/2103603205821366311) `📚1`
+- [https://x.com/omarsar0/status/2103875089779261682](https://x.com/omarsar0/status/2103875089779261682) `📚1`
+- [https://x.com/omerfrkdemiral/status/2101391893414465621](https://x.com/omerfrkdemiral/status/2101391893414465621) `📚1`
+- [https://x.com/OnerBiberkoku/status/2100631665336836308](https://x.com/onerbiberkoku/status/2100631665336836308) `📚1`
+- [https://x.com/OneWaveAI/status/2102163589020655655](https://x.com/onewaveai/status/2102163589020655655) `📚1`
+- [https://x.com/OneWaveAI/status/2102194222191292668](https://x.com/onewaveai/status/2102194222191292668) `📚1`
+- [https://x.com/OnrampBitcoin/status/2102390330947449285](https://x.com/onrampbitcoin/status/2102390330947449285) `📚1`
+- [https://x.com/openclaw/status/2102488199486656862](https://x.com/openclaw/status/2102488199486656862) `📚1`
+- [https://x.com/openclaw/status/2102955928693989413](https://x.com/openclaw/status/2102955928693989413) `📚1`
+- [https://x.com/openmayhem_ai/status/2102473869785526580](https://x.com/openmayhem_ai/status/2102473869785526580) `📚1`
+- [https://x.com/OpenRouter/status/2102103905815396635](https://x.com/openrouter/status/2102103905815396635) `📚1`
+- [https://x.com/OpenRouter/status/2102367448586744127](https://x.com/openrouter/status/2102367448586744127) `📚1`
+- [https://x.com/OpenRouter/status/2102418328979435759](https://x.com/openrouter/status/2102418328979435759) `📚1`
+- [https://x.com/OpenRouter/status/2103915026205806610](https://x.com/openrouter/status/2103915026205806610) `📚1`
+- [https://x.com/oragnes/status/2101156068814667942](https://x.com/oragnes/status/2101156068814667942) `📚1`
+- [https://x.com/OriSilver/status/2100941251478458871](https://x.com/orisilver/status/2100941251478458871) `📚1`
+- [https://x.com/osarupolice/status/2102329887130521669](https://x.com/osarupolice/status/2102329887130521669) `📚1`
+- [https://x.com/oscabriel/status/2102254083679965231](https://x.com/oscabriel/status/2102254083679965231) `📚1`
+- [https://x.com/osushi_cr/status/2101539880149160295](https://x.com/osushi_cr/status/2101539880149160295) `📚1`
+- [https://x.com/otani_ai_memo/status/2100631273849159993](https://x.com/otani_ai_memo/status/2100631273849159993) `📚1`
+- [https://x.com/otani_ai_memo/status/2100868079899296075](https://x.com/otani_ai_memo/status/2100868079899296075) `📚1`
+- [https://x.com/otousan19/status/2101155598926778552](https://x.com/otousan19/status/2101155598926778552) `📚1`
+- [https://x.com/otto_explorer/status/2101249350601171378](https://x.com/otto_explorer/status/2101249350601171378) `📚1`
+- [https://x.com/ouchi/status/2101098459940212934](https://x.com/ouchi/status/2101098459940212934) `📚1`
+- [https://x.com/p_rabtsevich/status/2101735215659946373](https://x.com/p_rabtsevich/status/2101735215659946373) `📚1`
+- [https://x.com/PabloDegod/status/2102101679738925444](https://x.com/pablodegod/status/2102101679738925444) `📚1`
+- [https://x.com/painn_x/status/2102697706598613391](https://x.com/painn_x/status/2102697706598613391) `📚1`
+- [https://x.com/pallavmac/status/2100703517778350559](https://x.com/pallavmac/status/2100703517778350559) `📚1`
+- [https://x.com/pallavmac/status/2101068150091485574](https://x.com/pallavmac/status/2101068150091485574) `📚1`
+- [https://x.com/paoloanzn/status/2102466908415279455](https://x.com/paoloanzn/status/2102466908415279455) `📚1`
+- [https://x.com/paonx_eth/status/2102005825589936383](https://x.com/paonx_eth/status/2102005825589936383) `📚1`
+- [https://x.com/parasite_jpn/status/2100757840122286238](https://x.com/parasite_jpn/status/2100757840122286238) `📚1`
+- [https://x.com/patsupyon/status/2101422210275762363](https://x.com/patsupyon/status/2101422210275762363) `📚1`
+- [https://x.com/patsupyon/status/2101614199353024526](https://x.com/patsupyon/status/2101614199353024526) `📚1`
+- [https://x.com/paulNL/status/2101759927039508783](https://x.com/paulnl/status/2101759927039508783) `📚1`
+- [https://x.com/PaulTakisaki/status/2102033481266319856](https://x.com/paultakisaki/status/2102033481266319856) `📚1`
+- [https://x.com/PavanChhalani/status/2102552901399044205](https://x.com/pavanchhalani/status/2102552901399044205) `📚1`
+- [https://x.com/pdp/status/2102125246522478695](https://x.com/pdp/status/2102125246522478695) `📚1`
+- [https://x.com/perceptnet/status/2101413903578120494](https://x.com/perceptnet/status/2101413903578120494) `📚1`
+- [https://x.com/personne_natsu/status/2101658946096570685](https://x.com/personne_natsu/status/2101658946096570685) `📚1`
+- [https://x.com/peytoncasper/status/2101724786401632613](https://x.com/peytoncasper/status/2101724786401632613) `📚1`
+- [https://x.com/pgol80/status/2102759773363978682](https://x.com/pgol80/status/2102759773363978682) `📚1`
+- [https://x.com/PhilYoussef/status/2100186640149033457](https://x.com/philyoussef/status/2100186640149033457) `📚1`
+- [https://x.com/phughes9000/status/2100780092104274415](https://x.com/phughes9000/status/2100780092104274415) `📚1`
+- [https://x.com/piyush_yip/status/2101997596202152375](https://x.com/piyush_yip/status/2101997596202152375) `📚1`
+- [https://x.com/piyush_yip/status/2102254052293894325](https://x.com/piyush_yip/status/2102254052293894325) `📚1`
+- [https://x.com/piyushnp/status/2101525383313240446](https://x.com/piyushnp/status/2101525383313240446) `📚1`
+- [https://x.com/play_syllabyte/status/2100635102464069714](https://x.com/play_syllabyte/status/2100635102464069714) `📚1`
+- [https://x.com/Poensgi/status/2101210604216213930](https://x.com/poensgi/status/2101210604216213930) `📚1`
+- [https://x.com/poetengineer__/status/2102515821029245166](https://x.com/poetengineer__/status/2102515821029245166) `📚1`
+- [https://x.com/polidog/status/2101113353196466547](https://x.com/polidog/status/2101113353196466547) `📚1`
+- [https://x.com/Politas_180/status/2101315654896730495](https://x.com/politas_180/status/2101315654896730495) `📚1`
+- [https://x.com/posi_posi8/status/2101668611081568423](https://x.com/posi_posi8/status/2101668611081568423) `📚1`
+- [https://x.com/ppweni/status/2100891358223388966](https://x.com/ppweni/status/2100891358223388966) `📚1`
+- [https://x.com/pramodk73/status/2101207939428258013](https://x.com/pramodk73/status/2101207939428258013) `📚1`
+- [https://x.com/PranavRamesh123/status/2102612677797560742](https://x.com/pranavramesh123/status/2102612677797560742) `📚1`
+- [https://x.com/pranaysuyash/status/2102093481833553938](https://x.com/pranaysuyash/status/2102093481833553938) `📚1`
+- [https://x.com/prasenx/status/2101302619759411708](https://x.com/prasenx/status/2101302619759411708) `📚1`
+- [https://x.com/prayag_sonar/status/2102631547371483394](https://x.com/prayag_sonar/status/2102631547371483394) `📚1`
+- [https://x.com/prayushkale/status/2102343509030363142](https://x.com/prayushkale/status/2102343509030363142) `📚1`
+- [https://x.com/priyansh0327/status/2100943264459407757](https://x.com/priyansh0327/status/2100943264459407757) `📚1`
+- [https://x.com/Priyanshh91/status/2100982553436176813](https://x.com/priyanshh91/status/2100982553436176813) `📚1`
+- [https://x.com/Priyanshh91/status/2101033914261532886](https://x.com/priyanshh91/status/2101033914261532886) `📚1`
+- [https://x.com/prkeshari/status/2101047374286119296](https://x.com/prkeshari/status/2101047374286119296) `📚1`
+- [https://x.com/prkeshari/status/2101048015720951975](https://x.com/prkeshari/status/2101048015720951975) `📚1`
+- [https://x.com/psychedelicflyn/status/2101344792844079298](https://x.com/psychedelicflyn/status/2101344792844079298) `📚1`
+- [https://x.com/punit_arani/status/2102041407372566774](https://x.com/punit_arani/status/2102041407372566774) `📚1`
+- [https://x.com/pupilcc/status/2102376926199607474](https://x.com/pupilcc/status/2102376926199607474) `📚1`
+- [https://x.com/purefunctor/status/2100796490516169184](https://x.com/purefunctor/status/2100796490516169184) `📚1`
+- [https://x.com/Puristonline/status/2102553760547602688](https://x.com/puristonline/status/2102553760547602688) `📚1`
+- [https://x.com/putrikarunian/status/2101165276532543813](https://x.com/putrikarunian/status/2101165276532543813) `📚1`
+- [https://x.com/Py2K4/status/2102037758051221672](https://x.com/py2k4/status/2102037758051221672) `📚1`
+- [https://x.com/QianXigua01/status/2101728728531284053](https://x.com/qianxigua01/status/2101728728531284053) `📚1`
+- [https://x.com/QiaoGeorge/status/2101865689099424218](https://x.com/qiaogeorge/status/2101865689099424218) `📚1`
+- [https://x.com/QingQ77/status/2101174948416848376](https://x.com/qingq77/status/2101174948416848376) `📚1`
+- [https://x.com/qkl2058/status/2102371080522322167](https://x.com/qkl2058/status/2102371080522322167) `📚1`
+- [https://x.com/qkl2058/status/2102662500315705421](https://x.com/qkl2058/status/2102662500315705421) `📚1`
+- [https://x.com/quarbby/status/2101196171243098435](https://x.com/quarbby/status/2101196171243098435) `📚1`
+- [https://x.com/R0u9h/status/2100485683744026996](https://x.com/r0u9h/status/2100485683744026996) `📚1`
+- [https://x.com/R0u9h/status/2100534723177263336](https://x.com/r0u9h/status/2100534723177263336) `📚1`
+- [https://x.com/raihankhan_rk/status/2101333813842620522](https://x.com/raihankhan_rk/status/2101333813842620522) `📚1`
+- [https://x.com/rainisto/status/2101280082102821045](https://x.com/rainisto/status/2101280082102821045) `📚1`
+- [https://x.com/rainn_vibes/status/2101881195365822927](https://x.com/rainn_vibes/status/2101881195365822927) `📚1`
+- [https://x.com/rajuborda/status/2101862731813191862](https://x.com/rajuborda/status/2101862731813191862) `📚1`
+- [https://x.com/rajumaz/status/2101146104628973698](https://x.com/rajumaz/status/2101146104628973698) `📚1`
+- [https://x.com/rammcodes/status/2102742107975012749](https://x.com/rammcodes/status/2102742107975012749) `📚1`
+- [https://x.com/Rare_matt/status/2102565101291344332](https://x.com/rare_matt/status/2102565101291344332) `📚1`
+- [https://x.com/Raytar/status/2102499845407740160](https://x.com/raytar/status/2102499845407740160) `📚1`
+- [https://x.com/razaanstha/status/2100708222847853043](https://x.com/razaanstha/status/2100708222847853043) `📚1`
+- [https://x.com/rbnnghs/status/2101702935751364614](https://x.com/rbnnghs/status/2101702935751364614) `📚1`
+- [https://x.com/rchan0687587257/status/2101349181969535431](https://x.com/rchan0687587257/status/2101349181969535431) `📚1`
+- [https://x.com/reachjalil/status/2100770321943196102](https://x.com/reachjalil/status/2100770321943196102) `📚1`
+- [https://x.com/realanshull/status/2102104595048902754](https://x.com/realanshull/status/2102104595048902754) `📚1`
+- [https://x.com/realgalleryx/status/2101812945722499077](https://x.com/realgalleryx/status/2101812945722499077) `📚1`
+- [https://x.com/realgalleryx/status/2102021551998554419](https://x.com/realgalleryx/status/2102021551998554419) `📚1`
+- [https://x.com/realy0usaf/status/2100106949874335851](https://x.com/realy0usaf/status/2100106949874335851) `📚1`
+- [https://x.com/reczko_konrad/status/2100406220746055741](https://x.com/reczko_konrad/status/2100406220746055741) `📚1`
+- [https://x.com/reczko_konrad/status/2100646448324833512](https://x.com/reczko_konrad/status/2100646448324833512) `📚1`
+- [https://x.com/reddmachine/status/2101447233745117466](https://x.com/reddmachine/status/2101447233745117466) `📚1`
+- [https://x.com/redp314/status/2101935665663328491](https://x.com/redp314/status/2101935665663328491) `📚1`
+- [https://x.com/ReindentAI/status/2100912441911648457](https://x.com/reindentai/status/2100912441911648457) `📚1`
+- [https://x.com/reiraxbt/status/2102045194614939700](https://x.com/reiraxbt/status/2102045194614939700) `📚1`
+- [https://x.com/remymount/status/2101802367352008900](https://x.com/remymount/status/2101802367352008900) `📚1`
+- [https://x.com/remymount/status/2102033194404950249](https://x.com/remymount/status/2102033194404950249) `📚1`
+- [https://x.com/ReStructureAI/status/2102254799156650025](https://x.com/restructureai/status/2102254799156650025) `📚1`
+- [https://x.com/rewind02/status/2102739436060459414](https://x.com/rewind02/status/2102739436060459414) `📚1`
+- [https://x.com/rfgarcia/status/2101659113591623727](https://x.com/rfgarcia/status/2101659113591623727) `📚1`
+- [https://x.com/rfitzpatrick_io/status/2102740840418353629](https://x.com/rfitzpatrick_io/status/2102740840418353629) `📚1`
+- [https://x.com/rherton/status/2101005942913729001](https://x.com/rherton/status/2101005942913729001) `📚1`
+- [https://x.com/richard_epsilla/status/2101619962477781446](https://x.com/richard_epsilla/status/2101619962477781446) `📚1`
+- [https://x.com/richard_meng_01/status/2101897102557425680](https://x.com/richard_meng_01/status/2101897102557425680) `📚1`
+- [https://x.com/richyjudge/status/2101369844230758403](https://x.com/richyjudge/status/2101369844230758403) `📚1`
+- [https://x.com/richyjudge/status/2101687492151853470](https://x.com/richyjudge/status/2101687492151853470) `📚1`
+- [https://x.com/richyjudge/status/2101778748630560768](https://x.com/richyjudge/status/2101778748630560768) `📚1`
+- [https://x.com/rick_boers/status/2101110301693444123](https://x.com/rick_boers/status/2101110301693444123) `📚1`
+- [https://x.com/rick_boers/status/2101348296438771879](https://x.com/rick_boers/status/2101348296438771879) `📚1`
+- [https://x.com/riku720720/status/2100710286466637975](https://x.com/riku720720/status/2100710286466637975) `📚1`
+- [https://x.com/rinte0321/status/2100749640866165092](https://x.com/rinte0321/status/2100749640866165092) `📚1`
+- [https://x.com/riseandshaheen/status/2101293864413970444](https://x.com/riseandshaheen/status/2101293864413970444) `📚1`
+- [https://x.com/riseandshaheen/status/2101655637960839504](https://x.com/riseandshaheen/status/2101655637960839504) `📚1`
+- [https://x.com/Rishabh_SJ/status/2102704683341234253](https://x.com/rishabh_sj/status/2102704683341234253) `📚1`
+- [https://x.com/rishi_raj_jain_/status/2102015585416855823](https://x.com/rishi_raj_jain_/status/2102015585416855823) `📚1`
+- [https://x.com/rishi_raj_jain_/status/2102365625834447312](https://x.com/rishi_raj_jain_/status/2102365625834447312) `📚1`
+- [https://x.com/rishivenkat30/status/2102524694557790336](https://x.com/rishivenkat30/status/2102524694557790336) `📚1`
+- [https://x.com/RiverKhan/status/2101062992624243062](https://x.com/riverkhan/status/2101062992624243062) `📚1`
+- [https://x.com/road_ninjart/status/2102229395582902315](https://x.com/road_ninjart/status/2102229395582902315) `📚1`
+- [https://x.com/ROAS_HACK/status/2102739686384955633](https://x.com/roas_hack/status/2102739686384955633) `📚1`
+- [https://x.com/robo_denis/status/2100576702220918864](https://x.com/robo_denis/status/2100576702220918864) `📚1`
+- [https://x.com/rodenlab/status/2102154848053432443](https://x.com/rodenlab/status/2102154848053432443) `📚1`
+- [https://x.com/rohan1chaudhari/status/2102340139800527225](https://x.com/rohan1chaudhari/status/2102340139800527225) `📚1`
+- [https://x.com/rohanpaul_ai/status/2101435924790026437](https://x.com/rohanpaul_ai/status/2101435924790026437) `📚1`
+- [https://x.com/rohanpaul_ai/status/2102859958039777717](https://x.com/rohanpaul_ai/status/2102859958039777717) `📚1`
+- [https://x.com/rohit9m/status/2101884207610171655](https://x.com/rohit9m/status/2101884207610171655) `📚1`
+- [https://x.com/rolottr/status/2100951484846199063](https://x.com/rolottr/status/2100951484846199063) `📚1`
+- [https://x.com/rolottr/status/2101446700023808264](https://x.com/rolottr/status/2101446700023808264) `📚1`
+- [https://x.com/rom1trs/status/2102043849820450880](https://x.com/rom1trs/status/2102043849820450880) `📚1`
+- [https://x.com/RomanSlack/status/2100611234567890123](https://x.com/romanslack/status/2100611234567890123) `📚1` — Canonical Thread:
+- [https://x.com/roshanchandna/status/2101419433415581797](https://x.com/roshanchandna/status/2101419433415581797) `📚1`
+- [https://x.com/Rossst_03/status/2102479231280439477](https://x.com/rossst_03/status/2102479231280439477) `📚1`
+- [https://x.com/RoundtableSpace/status/2100793182438985991](https://x.com/roundtablespace/status/2100793182438985991) `📚1`
+- [https://x.com/RoundtableSpace/status/2101872796423135340](https://x.com/roundtablespace/status/2101872796423135340) `📚1`
+- [https://x.com/RoundtableSpace/status/2102506975380591082](https://x.com/roundtablespace/status/2102506975380591082) `📚1`
+- [https://x.com/rowansail/status/2100922845345783928](https://x.com/rowansail/status/2100922845345783928) `📚1`
+- [https://x.com/Roxx_0x/status/2102494926516736493](https://x.com/roxx_0x/status/2102494926516736493) `📚1`
+- [https://x.com/roylee0x/status/2101498725411746098](https://x.com/roylee0x/status/2101498725411746098) `📚1`
+- [https://x.com/roylee0x/status/2102219367245394020](https://x.com/roylee0x/status/2102219367245394020) `📚1`
+- [https://x.com/rrmdp/status/2101353740297031840](https://x.com/rrmdp/status/2101353740297031840) `📚1`
+- [https://x.com/rrmdp/status/2102435256833823210](https://x.com/rrmdp/status/2102435256833823210) `📚1`
+- [https://x.com/RubanBhatia/status/2102058731206782982](https://x.com/rubanbhatia/status/2102058731206782982) `📚1`
+- [https://x.com/RubyBrewsday/status/2101130224360419631](https://x.com/rubybrewsday/status/2101130224360419631) `📚1`
+- [https://x.com/runzhuotao/status/2101735994496291160](https://x.com/runzhuotao/status/2101735994496291160) `📚1`
+- [https://x.com/rvaniaaaa/status/2102462445184856306](https://x.com/rvaniaaaa/status/2102462445184856306) `📚1`
+- [https://x.com/ryma_jp/status/2100821307898429720](https://x.com/ryma_jp/status/2100821307898429720) `📚1`
+- [https://x.com/ryma_jp/status/2100847072392192061](https://x.com/ryma_jp/status/2100847072392192061) `📚1`
+- [https://x.com/rymaaaar/status/2102532621804687637](https://x.com/rymaaaar/status/2102532621804687637) `📚1`
+- [https://x.com/s16h_/status/2102434671326032148](https://x.com/s16h_/status/2102434671326032148) `📚1`
+- [https://x.com/s1rozha_/status/2102683178301362359](https://x.com/s1rozha_/status/2102683178301362359) `📚1`
+- [https://x.com/s_tat1204/status/2100994179380007367](https://x.com/s_tat1204/status/2100994179380007367) `📚1`
+- [https://x.com/saadahsan/status/2102505598235603130](https://x.com/saadahsan/status/2102505598235603130) `📚1`
+- [https://x.com/Saber5656/status/2101408139501555934](https://x.com/saber5656/status/2101408139501555934) `📚1`
+- [https://x.com/Saccc_c/status/2100864907046768890](https://x.com/saccc_c/status/2100864907046768890) `📚1`
+- [https://x.com/safabilici/status/2102149481986691363](https://x.com/safabilici/status/2102149481986691363) `📚1`
+- [https://x.com/SafaElmali/status/2100709851336683730](https://x.com/safaelmali/status/2100709851336683730) `📚1`
+- [https://x.com/SafaElmali/status/2102138295949943004](https://x.com/safaelmali/status/2102138295949943004) `📚1`
+- [https://x.com/sagar_builds/status/2100978402174120134](https://x.com/sagar_builds/status/2100978402174120134) `📚1`
+- [https://x.com/saisantosh_ssk/status/2102760012036628930](https://x.com/saisantosh_ssk/status/2102760012036628930) `📚1`
+- [https://x.com/saisuiwa/status/2101439046606361011](https://x.com/saisuiwa/status/2101439046606361011) `📚1`
+- [https://x.com/saivenna5/status/2102224856913748073](https://x.com/saivenna5/status/2102224856913748073) `📚1`
+- [https://x.com/SakaneBTC/status/2101902015194636573](https://x.com/sakanebtc/status/2101902015194636573) `📚1`
+- [https://x.com/SakaneBTC/status/2102614388440199299](https://x.com/sakanebtc/status/2102614388440199299) `📚1`
+- [https://x.com/SakaneBTC/status/2102691953897042207](https://x.com/sakanebtc/status/2102691953897042207) `📚1`
+- [https://x.com/saketh_bsv/status/2102510799348756654](https://x.com/saketh_bsv/status/2102510799348756654) `📚1`
+- [https://x.com/SakshamMalhot27/status/2102739222574821827](https://x.com/sakshammalhot27/status/2102739222574821827) `📚1`
+- [https://x.com/sald_ra/status/2101342588368511048](https://x.com/sald_ra/status/2101342588368511048) `📚1`
+- [https://x.com/sald_ra/status/2101342591086452755](https://x.com/sald_ra/status/2101342591086452755) `📚1`
+- [https://x.com/SamGCoder/status/2100363928492790078](https://x.com/samgcoder/status/2100363928492790078) `📚1`
+- [https://x.com/SamiBizConsult/status/2101372265963110530](https://x.com/samibizconsult/status/2101372265963110530) `📚1`
+- [https://x.com/SamiBizConsult/status/2102317476814246126](https://x.com/samibizconsult/status/2102317476814246126) `📚1`
+- [https://x.com/samuraipreneur/status/2101390628789625060](https://x.com/samuraipreneur/status/2101390628789625060) `📚1`
+- [https://x.com/SandbaseAI/status/2101695244345765917](https://x.com/sandbaseai/status/2101695244345765917) `📚1`
+- [https://x.com/SandbaseAI/status/2102751661072781382](https://x.com/sandbaseai/status/2102751661072781382) `📚1`
+- [https://x.com/santychuy_dev/status/2101430917835206994](https://x.com/santychuy_dev/status/2101430917835206994) `📚1`
+- [https://x.com/saragordic/status/2101752219687378985](https://x.com/saragordic/status/2101752219687378985) `📚1`
+- [https://x.com/sarthakcodes/status/2102076270083486158](https://x.com/sarthakcodes/status/2102076270083486158) `📚1`
+- [https://x.com/sashatwitts/status/2101033458596188389](https://x.com/sashatwitts/status/2101033458596188389) `📚1`
+- [https://x.com/sat0xshi/status/2101115419449077974](https://x.com/sat0xshi/status/2101115419449077974) `📚1`
+- [https://x.com/SaulFloresJr/status/2101476735497957683](https://x.com/saulfloresjr/status/2101476735497957683) `📚1`
+- [https://x.com/Saurav_sah11/status/2102152496663962104](https://x.com/saurav_sah11/status/2102152496663962104) `📚1`
+- [https://x.com/sciencedegens/status/2102090345115009139](https://x.com/sciencedegens/status/2102090345115009139) `📚1`
+- [https://x.com/ScottWilderHQ/status/2102470140160078166](https://x.com/scottwilderhq/status/2102470140160078166) `📚1`
+- [https://x.com/scottyfost/status/2100999355486339348](https://x.com/scottyfost/status/2100999355486339348) `📚1`
+- [https://x.com/scrapsonsolana/status/2102465221549850902](https://x.com/scrapsonsolana/status/2102465221549850902) `📚1`
+- [https://x.com/sector_sol/status/2102735005306802492](https://x.com/sector_sol/status/2102735005306802492) `📚1`
+- [https://x.com/seflless/status/2101670433821004192](https://x.com/seflless/status/2101670433821004192) `📚1`
+- [https://x.com/sengpt/status/2100562912121082303](https://x.com/sengpt/status/2100562912121082303) `📚1`
+- [https://x.com/sengpt/status/2101231206801027398](https://x.com/sengpt/status/2101231206801027398) `📚1`
+- [https://x.com/Sentdex/status/2101828851458293827](https://x.com/sentdex/status/2101828851458293827) `📚1`
+- [https://x.com/Sentdex/status/2102192643480678651](https://x.com/sentdex/status/2102192643480678651) `📚1`
+- [https://x.com/serhiikar/status/2102710682311344202](https://x.com/serhiikar/status/2102710682311344202) `📚1`
+- [https://x.com/seth_codes_/status/2102691946569642216](https://x.com/seth_codes_/status/2102691946569642216) `📚1`
+- [https://x.com/SethCronin/status/2101875380407713986](https://x.com/sethcronin/status/2101875380407713986) `📚1`
+- [https://x.com/sethrosen/status/2100605193985368259](https://x.com/sethrosen/status/2100605193985368259) `📚1`
+- [https://x.com/sgondala2/status/2102502554114617836](https://x.com/sgondala2/status/2102502554114617836) `📚1`
+- [https://x.com/sh1ma/status/2102387516083233000](https://x.com/sh1ma/status/2102387516083233000) `📚1`
+- [https://x.com/ShahriarBijoy/status/2101468251372781601](https://x.com/shahriarbijoy/status/2101468251372781601) `📚1`
+- [https://x.com/shaihulud43/status/2102003362472583336](https://x.com/shaihulud43/status/2102003362472583336) `📚1`
+- [https://x.com/shaivpidadi/status/2102079160050979240](https://x.com/shaivpidadi/status/2102079160050979240) `📚1`
+- [https://x.com/shakuji/status/2101180907822719468](https://x.com/shakuji/status/2101180907822719468) `📚1`
+- [https://x.com/SharmaTushar1/status/2101734696048841037](https://x.com/sharmatushar1/status/2101734696048841037) `📚1`
+- [https://x.com/sharvinshah26/status/2101280824025030759](https://x.com/sharvinshah26/status/2101280824025030759) `📚1`
+- [https://x.com/sheherenow_/status/2102242154399850662](https://x.com/sheherenow_/status/2102242154399850662) `📚1`
+- [https://x.com/Shelpid_WI3M/status/2101640135683055827](https://x.com/shelpid_wi3m/status/2101640135683055827) `📚1`
+- [https://x.com/ShenSeanChen/status/2102234040535494876](https://x.com/shenseanchen/status/2102234040535494876) `📚1`
+- [https://x.com/shi3z/status/2101191780268220764](https://x.com/shi3z/status/2101191780268220764) `📚1`
+- [https://x.com/shi3z/status/2101513277339828303](https://x.com/shi3z/status/2101513277339828303) `📚1`
+- [https://x.com/shields_pikes/status/2101629789417476220](https://x.com/shields_pikes/status/2101629789417476220) `📚1`
+- [https://x.com/shields_pikes/status/2102232350449135728](https://x.com/shields_pikes/status/2102232350449135728) `📚1`
+- [https://x.com/shimo_adiem/status/2101622535167336888](https://x.com/shimo_adiem/status/2101622535167336888) `📚1`
+- [https://x.com/shingo2000/status/2101325874201325884](https://x.com/shingo2000/status/2101325874201325884) `📚1`
+- [https://x.com/shinshin86/status/2101211342678180236](https://x.com/shinshin86/status/2101211342678180236) `📚1`
+- [https://x.com/shinshin86/status/2101514831383961919](https://x.com/shinshin86/status/2101514831383961919) `📚1`
+- [https://x.com/shirasu59s/status/2101306090931585100](https://x.com/shirasu59s/status/2101306090931585100) `📚1`
+- [https://x.com/shivilizationn/status/2102144095447883870](https://x.com/shivilizationn/status/2102144095447883870) `📚1`
+- [https://x.com/shmidtqq/status/2102391900820963699](https://x.com/shmidtqq/status/2102391900820963699) `📚1`
+- [https://x.com/shogo0032/status/2102026389033742750](https://x.com/shogo0032/status/2102026389033742750) `📚1`
+- [https://x.com/short_usd/status/2102653943507546405](https://x.com/short_usd/status/2102653943507546405) `📚1`
+- [https://x.com/shuvam360/status/2101186415891734728](https://x.com/shuvam360/status/2101186415891734728) `📚1`
+- [https://x.com/shwetabjaj/status/2101108199990739303](https://x.com/shwetabjaj/status/2101108199990739303) `📚1`
+- [https://x.com/shwetabjaj/status/2102646974734553242](https://x.com/shwetabjaj/status/2102646974734553242) `📚1`
+- [https://x.com/shwetabjaj/status/2102652838132527528](https://x.com/shwetabjaj/status/2102652838132527528) `📚1`
+- [https://x.com/sidmanale643/status/2102078962147238209](https://x.com/sidmanale643/status/2102078962147238209) `📚1`
+- [https://x.com/sidodtv/status/2101542581696155968](https://x.com/sidodtv/status/2101542581696155968) `📚1`
+- [https://x.com/sidodtv/status/2101995122896654455](https://x.com/sidodtv/status/2101995122896654455) `📚1`
+- [https://x.com/SigGravitas/status/2100325221932958134](https://x.com/siggravitas/status/2100325221932958134) `📚1`
+- [https://x.com/silentguyy66/status/2102725349901516962](https://x.com/silentguyy66/status/2102725349901516962) `📚1`
+- [https://x.com/SiliconFlowAI/status/2102794117977903544](https://x.com/siliconflowai/status/2102794117977903544) `📚1`
+- [https://x.com/SimAudience/status/2101117203060019431](https://x.com/simaudience/status/2101117203060019431) `📚1`
+- [https://x.com/SimAudience/status/2101268144069521645](https://x.com/simaudience/status/2101268144069521645) `📚1`
+- [https://x.com/SimAudience/status/2101344243453468795](https://x.com/simaudience/status/2101344243453468795) `📚1`
+- [https://x.com/SimonasDip/status/2101664257238618294](https://x.com/simonasdip/status/2101664257238618294) `📚1`
+- [https://x.com/simplifyinAI/status/2102021706613473287](https://x.com/simplifyinai/status/2102021706613473287) `📚1`
+- [https://x.com/sin_ceriously/status/2102081664646029722](https://x.com/sin_ceriously/status/2102081664646029722) `📚1`
+- [https://x.com/singh_abinashi/status/2101491068004901342](https://x.com/singh_abinashi/status/2101491068004901342) `📚1`
+- [https://x.com/SinghDevHub/status/2102086884998664521](https://x.com/singhdevhub/status/2102086884998664521) `📚1`
+- [https://x.com/singularity_sah/status/2101354623319626153](https://x.com/singularity_sah/status/2101354623319626153) `📚1`
+- [https://x.com/singularity_sah/status/2102112625891099045](https://x.com/singularity_sah/status/2102112625891099045) `📚1`
+- [https://x.com/siroccomask/status/2100526283805675875](https://x.com/siroccomask/status/2100526283805675875) `📚1`
+- [https://x.com/skeptrune/status/2101209390992994570](https://x.com/skeptrune/status/2101209390992994570) `📚1`
+- [https://x.com/skipday_io/status/2100584528293335390](https://x.com/skipday_io/status/2100584528293335390) `📚1`
+- [https://x.com/Skoorbkaz/status/2101144295524679785](https://x.com/skoorbkaz/status/2101144295524679785) `📚1`
+- [https://x.com/Skrilla_git/status/2102488355350921225](https://x.com/skrilla_git/status/2102488355350921225) `📚1`
+- [https://x.com/Skrilla_git/status/2102755168911520213](https://x.com/skrilla_git/status/2102755168911520213) `📚1`
+- [https://x.com/sleepmagican/status/2101454430231265692](https://x.com/sleepmagican/status/2101454430231265692) `📚1`
+- [https://x.com/SlivenRed/status/2100901254633574668](https://x.com/slivenred/status/2100901254633574668) `📚1`
+- [https://x.com/Slonski_rt/status/2102072798571270567](https://x.com/slonski_rt/status/2102072798571270567) `📚1`
+- [https://x.com/slvDev/status/2100589330481791353](https://x.com/slvdev/status/2100589330481791353) `📚1`
+- [https://x.com/smardio/status/2101535285184200806](https://x.com/smardio/status/2101535285184200806) `📚1`
+- [https://x.com/smhumair/status/2101595413425864883](https://x.com/smhumair/status/2101595413425864883) `📚1`
+- [https://x.com/smhumair/status/2101676418040266818](https://x.com/smhumair/status/2101676418040266818) `📚1`
+- [https://x.com/smthomas3/status/2102541387086324106](https://x.com/smthomas3/status/2102541387086324106) `📚1`
+- [https://x.com/Sofi_Shvets/status/2101813487941062997](https://x.com/sofi_shvets/status/2101813487941062997) `📚1`
+- [https://x.com/Sollersxl/status/2101779573511729329](https://x.com/sollersxl/status/2101779573511729329) `📚1`
+- [https://x.com/Solomonrojie/status/2101738072366854381](https://x.com/solomonrojie/status/2101738072366854381) `📚1`
+- [https://x.com/soloninjakun/status/2101960740504838327](https://x.com/soloninjakun/status/2101960740504838327) `📚1`
+- [https://x.com/soloninjakun/status/2102748787500548601](https://x.com/soloninjakun/status/2102748787500548601) `📚1`
+- [https://x.com/sopersone/status/2102131227709018353](https://x.com/sopersone/status/2102131227709018353) `📚1`
+- [https://x.com/sora19ai/status/2101493817409216889](https://x.com/sora19ai/status/2101493817409216889) `📚1`
+- [https://x.com/sorajate/status/2101810187971805483](https://x.com/sorajate/status/2101810187971805483) `📚1`
+- [https://x.com/sotamiyajima/status/2101583783363596720](https://x.com/sotamiyajima/status/2101583783363596720) `📚1`
+- [https://x.com/soumyadesign/status/2101920794200912382](https://x.com/soumyadesign/status/2101920794200912382) `📚1`
+- [https://x.com/Souradip3000/status/2101264259846205603](https://x.com/souradip3000/status/2101264259846205603) `📚1`
+- [https://x.com/spectnfa/status/2102387203003301982](https://x.com/spectnfa/status/2102387203003301982) `📚1`
+- [https://x.com/SpikeCalls/status/2102508777836597307](https://x.com/spikecalls/status/2102508777836597307) `📚1`
+- [https://x.com/Sprytixl/status/2102483174970560836](https://x.com/sprytixl/status/2102483174970560836) `📚1`
+- [https://x.com/Sprytixl/status/2102704420517490958](https://x.com/sprytixl/status/2102704420517490958) `📚1`
+- [https://x.com/sreexts/status/2102230115245551867](https://x.com/sreexts/status/2102230115245551867) `📚1`
+- [https://x.com/sriniously/status/2101618638822470057](https://x.com/sriniously/status/2101618638822470057) `📚1`
+- [https://x.com/srming95/status/2101345668623216863](https://x.com/srming95/status/2101345668623216863) `📚1`
+- [https://x.com/srming95/status/2101607180042424716](https://x.com/srming95/status/2101607180042424716) `📚1`
+- [https://x.com/ssbengale/status/2100641006962323875](https://x.com/ssbengale/status/2100641006962323875) `📚1`
+- [https://x.com/SShikang/status/2102743181909705043](https://x.com/sshikang/status/2102743181909705043) `📚1`
+- [https://x.com/starmexxx/status/2102390247061348713](https://x.com/starmexxx/status/2102390247061348713) `📚1`
+- [https://x.com/starmexxx/status/2102674537280061683](https://x.com/starmexxx/status/2102674537280061683) `📚1`
+- [https://x.com/startupideaspod/status/2101056417129959670](https://x.com/startupideaspod/status/2101056417129959670) `📚1`
+- [https://x.com/stas_sorokin_/status/2101335212131012644](https://x.com/stas_sorokin_/status/2101335212131012644) `📚1`
+- [https://x.com/stas_sorokin_/status/2102148123590263094](https://x.com/stas_sorokin_/status/2102148123590263094) `📚1`
+- [https://x.com/stas_sorokin_/status/2102493981900743038](https://x.com/stas_sorokin_/status/2102493981900743038) `📚1`
+- [https://x.com/stas_sorokin_/status/2102725184511717579](https://x.com/stas_sorokin_/status/2102725184511717579) `📚1`
+- [https://x.com/stbenjam/status/2100773290767786468](https://x.com/stbenjam/status/2100773290767786468) `📚1`
+- [https://x.com/stbenjam/status/2100783751101846005](https://x.com/stbenjam/status/2100783751101846005) `📚1`
+- [https://x.com/stefanjblos/status/2100633209092424035](https://x.com/stefanjblos/status/2100633209092424035) `📚1`
+- [https://x.com/steipete/status/2102839395766472969](https://x.com/steipete/status/2102839395766472969) `📚1`
+- [https://x.com/stemonteduro/status/2100552043903553682](https://x.com/stemonteduro/status/2100552043903553682) `📚1`
+- [https://x.com/steph4n/status/2101820466302259448](https://x.com/steph4n/status/2101820466302259448) `📚1`
+- [https://x.com/Steve8708/status/2102536901467295796](https://x.com/steve8708/status/2102536901467295796) `📚1`
+- [https://x.com/stevekrouse/status/2100321685081559542](https://x.com/stevekrouse/status/2100321685081559542) `📚1`
+- [https://x.com/Steven_AI_Dev/status/2102018709552341213](https://x.com/steven_ai_dev/status/2102018709552341213) `📚1`
+- [https://x.com/stevenelliott/status/2100434631099285878](https://x.com/stevenelliott/status/2100434631099285878) `📚1`
+- [https://x.com/stevesecreti/status/2101318777635799324](https://x.com/stevesecreti/status/2101318777635799324) `📚1`
+- [https://x.com/stevibe/status/2101684349104247036](https://x.com/stevibe/status/2101684349104247036) `📚1`
+- [https://x.com/stringsaeed/status/2101107781227147679](https://x.com/stringsaeed/status/2101107781227147679) `📚1`
+- [https://x.com/SubhashY0310/status/2102106091924713569](https://x.com/subhashy0310/status/2102106091924713569) `📚1`
+- [https://x.com/suh_sunaneko/status/2101469071955128726](https://x.com/suh_sunaneko/status/2101469071955128726) `📚1`
+- [https://x.com/suidouble/status/2101698132761280711](https://x.com/suidouble/status/2101698132761280711) `📚1`
+- [https://x.com/sumjitg/status/2100898769470627948](https://x.com/sumjitg/status/2100898769470627948) `📚1`
+- [https://x.com/sunils34/status/2102157870473126305](https://x.com/sunils34/status/2102157870473126305) `📚1`
+- [https://x.com/SUOHA_AI/status/2101275294451515740](https://x.com/suoha_ai/status/2101275294451515740) `📚1`
+- [https://x.com/SUOHA_AI/status/2101640575812239406](https://x.com/suoha_ai/status/2101640575812239406) `📚1`
+- [https://x.com/SUOHA_AI/status/2102734061672214609](https://x.com/suoha_ai/status/2102734061672214609) `📚1`
+- [https://x.com/sup_nim/status/2101687838240858430](https://x.com/sup_nim/status/2101687838240858430) `📚1`
+- [https://x.com/superalesha/status/2101344360323293682](https://x.com/superalesha/status/2101344360323293682) `📚1`
+- [https://x.com/superoo7/status/2102585992083538214](https://x.com/superoo7/status/2102585992083538214) `📚1`
+- [https://x.com/superrieu/status/2102440312324956290](https://x.com/superrieu/status/2102440312324956290) `📚1`
+- [https://x.com/svatsa159/status/2100457458514976840](https://x.com/svatsa159/status/2100457458514976840) `📚1`
+- [https://x.com/sven_ai/status/2101848385456390653](https://x.com/sven_ai/status/2101848385456390653) `📚1`
+- [https://x.com/swyx/status/2101873256097804529](https://x.com/swyx/status/2101873256097804529) `📚1`
+- [https://x.com/sxhivs/status/2101367048223982065](https://x.com/sxhivs/status/2101367048223982065) `📚1`
+- [https://x.com/sxhivs/status/2101729362194432184](https://x.com/sxhivs/status/2101729362194432184) `📚1`
+- [https://x.com/Syaor4n/status/2100572561520095623](https://x.com/syaor4n/status/2100572561520095623) `📚1`
+- [https://x.com/SyedZawwarAhmed/status/2101354335573770574](https://x.com/syedzawwarahmed/status/2101354335573770574) `📚1`
+- [https://x.com/tachibanayu24/status/2101275691308470686](https://x.com/tachibanayu24/status/2101275691308470686) `📚1`
+- [https://x.com/tadeodonegana/status/2101326792715915634](https://x.com/tadeodonegana/status/2101326792715915634) `📚1`
+- [https://x.com/tadeodonegana/status/2102143687090122910](https://x.com/tadeodonegana/status/2102143687090122910) `📚1`
+- [https://x.com/Tafar_m/status/2102684400743772323](https://x.com/tafar_m/status/2102684400743772323) `📚1`
+- [https://x.com/tair/status/2102054413955129458](https://x.com/tair/status/2102054413955129458) `📚1`
+- [https://x.com/taira_daishiro/status/2101516075586462021](https://x.com/taira_daishiro/status/2101516075586462021) `📚1`
+- [https://x.com/Taj_youknow/status/2102484373748732399](https://x.com/taj_youknow/status/2102484373748732399) `📚1`
+- [https://x.com/Taj_youknow/status/2102753488761749945](https://x.com/taj_youknow/status/2102753488761749945) `📚1`
+- [https://x.com/takamasa045/status/2100810121953837404](https://x.com/takamasa045/status/2100810121953837404) `📚1`
+- [https://x.com/takamasa045/status/2101621510477844984](https://x.com/takamasa045/status/2101621510477844984) `📚1`
+- [https://x.com/takamasa045/status/2101650596558446724](https://x.com/takamasa045/status/2101650596558446724) `📚1`
+- [https://x.com/takeshi_engr/status/2100898418860400928](https://x.com/takeshi_engr/status/2100898418860400928) `📚1`
+- [https://x.com/taku_sid/status/2100830436176064597](https://x.com/taku_sid/status/2100830436176064597) `📚1`
+- [https://x.com/Taodav/status/2101716888464117846](https://x.com/taodav/status/2101716888464117846) `📚1`
+- [https://x.com/tarasshyn/status/2101043617649340678](https://x.com/tarasshyn/status/2101043617649340678) `📚1`
+- [https://x.com/tarasshyn/status/2102383372303577259](https://x.com/tarasshyn/status/2102383372303577259) `📚1`
+- [https://x.com/tarat_211/status/2100523142754050072](https://x.com/tarat_211/status/2100523142754050072) `📚1`
+- [https://x.com/tarat_211/status/2100625153109504483](https://x.com/tarat_211/status/2100625153109504483) `📚1`
+- [https://x.com/tarini_axory/status/2102641360595730549](https://x.com/tarini_axory/status/2102641360595730549) `📚1`
+- [https://x.com/TarunTomar122/status/2100651234567890123](https://x.com/taruntomar122/status/2100651234567890123) `📚1` — Canonical Thread:
+- [https://x.com/TatsuCodeAI/status/2100922443577643348](https://x.com/tatsucodeai/status/2100922443577643348) `📚1`
+- [https://x.com/tazr_dev/status/2101073889266925822](https://x.com/tazr_dev/status/2101073889266925822) `📚1`
+- [https://x.com/tbleckert/status/2100718136542585137](https://x.com/tbleckert/status/2100718136542585137) `📚1`
+- [https://x.com/tbytefrontier/status/2102652078099411082](https://x.com/tbytefrontier/status/2102652078099411082) `📚1`
+- [https://x.com/TechieSapien/status/2101998302476788057](https://x.com/techiesapien/status/2101998302476788057) `📚1`
+- [https://x.com/Technop54777070/status/2102107087438258477](https://x.com/technop54777070/status/2102107087438258477) `📚1`
+- [https://x.com/techs44576/status/2100882869334003767](https://x.com/techs44576/status/2100882869334003767) `📚1`
+- [https://x.com/techvignesh/status/2102514026886414693](https://x.com/techvignesh/status/2102514026886414693) `📚1`
+- [https://x.com/techwithemma/status/2101402501002186777](https://x.com/techwithemma/status/2101402501002186777) `📚1`
+- [https://x.com/tedbuildsapps/status/2100852246778933693](https://x.com/tedbuildsapps/status/2100852246778933693) `📚1`
+- [https://x.com/tedpak3/status/2102423260063526939](https://x.com/tedpak3/status/2102423260063526939) `📚1`
+- [https://x.com/TelepathicPug/status/2101823295838429669](https://x.com/telepathicpug/status/2101823295838429669) `📚1`
+- [https://x.com/tenfingers/status/2102166895109853256](https://x.com/tenfingers/status/2102166895109853256) `📚1`
+- [https://x.com/tensorfiend/status/2101415848510660976](https://x.com/tensorfiend/status/2101415848510660976) `📚1`
+- [https://x.com/tensorfish/status/2101250607038464221](https://x.com/tensorfish/status/2101250607038464221) `📚1`
+- [https://x.com/tensyoku_kura/status/2101572540456112449](https://x.com/tensyoku_kura/status/2101572540456112449) `📚1`
+- [https://x.com/tetsu_tetsu333/status/2102035483308023949](https://x.com/tetsu_tetsu333/status/2102035483308023949) `📚1`
+- [https://x.com/tetsuro731/status/2101481013029531799](https://x.com/tetsuro731/status/2101481013029531799) `📚1`
+- [https://x.com/Thao19872017/status/2102635229408293156](https://x.com/thao19872017/status/2102635229408293156) `📚1`
+- [https://x.com/the_robvb/status/2100583932525793431](https://x.com/the_robvb/status/2100583932525793431) `📚1`
+- [https://x.com/TheAIInsiderN/status/2101457846231584902](https://x.com/theaiinsidern/status/2101457846231584902) `📚1`
+- [https://x.com/TheAIInsiderN/status/2102001482425852074](https://x.com/theaiinsidern/status/2102001482425852074) `📚1`
+- [https://x.com/TheAIInsiderN/status/2102696698648621104](https://x.com/theaiinsidern/status/2102696698648621104) `📚1`
+- [https://x.com/TheAIInsiderN/status/2102723746465206476](https://x.com/theaiinsidern/status/2102723746465206476) `📚1`
+- [https://x.com/theappcypher/status/2102108234404241437](https://x.com/theappcypher/status/2102108234404241437) `📚1`
+- [https://x.com/TheBalkanHacker/status/2101053413546963056](https://x.com/thebalkanhacker/status/2101053413546963056) `📚1`
+- [https://x.com/thechrisbetz/status/2100587131898912915](https://x.com/thechrisbetz/status/2100587131898912915) `📚1`
+- [https://x.com/TheCreatorAbove/status/2100593442824798451](https://x.com/thecreatorabove/status/2100593442824798451) `📚1`
+- [https://x.com/thedelost/status/2102725886478803297](https://x.com/thedelost/status/2102725886478803297) `📚1`
+- [https://x.com/thegreatest_sv/status/2102102057276588346](https://x.com/thegreatest_sv/status/2102102057276588346) `📚1`
+- [https://x.com/TheINAOG/status/2101065506652319854](https://x.com/theinaog/status/2101065506652319854) `📚1`
+- [https://x.com/theiskaa/status/2101742625413906511](https://x.com/theiskaa/status/2101742625413906511) `📚1`
+- [https://x.com/thel3l/status/2100803060432073078](https://x.com/thel3l/status/2100803060432073078) `📚1`
+- [https://x.com/thelau/status/2101321144179831047](https://x.com/thelau/status/2101321144179831047) `📚1`
+- [https://x.com/thenightshipper/status/2101241514492092666](https://x.com/thenightshipper/status/2101241514492092666) `📚1`
+- [https://x.com/TheosTT04/status/2101993249481384290](https://x.com/theostt04/status/2101993249481384290) `📚1`
+- [https://x.com/TheosTT04/status/2102359639379812763](https://x.com/theostt04/status/2102359639379812763) `📚1`
+- [https://x.com/TheoTabah/status/2102399975137100135](https://x.com/theotabah/status/2102399975137100135) `📚1`
+- [https://x.com/TheOtherGandhi_/status/2102437745994199226](https://x.com/theothergandhi_/status/2102437745994199226) `📚1`
+- [https://x.com/therealdanvega/status/2101042918412697874](https://x.com/therealdanvega/status/2101042918412697874) `📚1`
+- [https://x.com/TheVinhNguyen4/status/2102434211378716699](https://x.com/thevinhnguyen4/status/2102434211378716699) `📚1`
+- [https://x.com/thibault_mthh/status/2100572184435417305](https://x.com/thibault_mthh/status/2100572184435417305) `📚1`
+- [https://x.com/thilakbhat95/status/2100846150056309107](https://x.com/thilakbhat95/status/2100846150056309107) `📚1`
+- [https://x.com/ThinkingMatthew/status/2100969119772258623](https://x.com/thinkingmatthew/status/2100969119772258623) `📚1`
+- [https://x.com/thisisclaireli/status/2101438195238162648](https://x.com/thisisclaireli/status/2101438195238162648) `📚1`
+- [https://x.com/thisiskp_/status/2101846703091376219](https://x.com/thisiskp_/status/2101846703091376219) `📚1`
+- [https://x.com/thoughtcrime___/status/2101588851194229228](https://x.com/thoughtcrime___/status/2101588851194229228) `📚1`
+- [https://x.com/TianyuCodings/status/2100731234567890123](https://x.com/tianyucodings/status/2100731234567890123) `📚1` — Canonical Thread:
+- [https://x.com/timche_/status/2100893095147565523](https://x.com/timche_/status/2100893095147565523) `📚1`
+- [https://x.com/TimothyZ77/status/2101042229720793104](https://x.com/timothyz77/status/2101042229720793104) `📚1`
+- [https://x.com/tioocoo/status/2101252635982537033](https://x.com/tioocoo/status/2101252635982537033) `📚1`
+- [https://x.com/tk_researcher/status/2102233127599108349](https://x.com/tk_researcher/status/2102233127599108349) `📚1`
+- [https://x.com/toanmbui/status/2102114470092853392](https://x.com/toanmbui/status/2102114470092853392) `📚1`
+- [https://x.com/tobiaswup/status/2102046994248224826](https://x.com/tobiaswup/status/2102046994248224826) `📚1`
+- [https://x.com/token_wala/status/2101873307809419624](https://x.com/token_wala/status/2101873307809419624) `📚1`
+- [https://x.com/tollstile/status/2101550704963797307](https://x.com/tollstile/status/2101550704963797307) `📚1`
+- [https://x.com/tomoaki_imai/status/2101209529681654118](https://x.com/tomoaki_imai/status/2101209529681654118) `📚1`
+- [https://x.com/tomoima525/status/2101415402194796784](https://x.com/tomoima525/status/2101415402194796784) `📚1`
+- [https://x.com/TomSolidPM/status/2102552586209394971](https://x.com/tomsolidpm/status/2102552586209394971) `📚1`
+- [https://x.com/tonbistudio/status/2102036374694293610](https://x.com/tonbistudio/status/2102036374694293610) `📚1`
+- [https://x.com/Tonebird_ai/status/2102190208498471368](https://x.com/tonebird_ai/status/2102190208498471368) `📚1`
+- [https://x.com/TonyisntStark/status/2101189516979822671](https://x.com/tonyisntstark/status/2101189516979822671) `📚1`
+- [https://x.com/TonyisntStark/status/2101217336800034866](https://x.com/tonyisntstark/status/2101217336800034866) `📚1`
+- [https://x.com/tr_mz_/status/2102073111495487639](https://x.com/tr_mz_/status/2102073111495487639) `📚1`
+- [https://x.com/TreeCityWes/status/2101078021486809115](https://x.com/treecitywes/status/2101078021486809115) `📚1`
+- [https://x.com/tripoai/status/2101988205642092805](https://x.com/tripoai/status/2101988205642092805) `📚1`
+- [https://x.com/triviwritescode/status/2102072231887245740](https://x.com/triviwritescode/status/2102072231887245740) `📚1`
+- [https://x.com/trycua/status/2100649546481070362](https://x.com/trycua/status/2100649546481070362) `📚1`
+- [https://x.com/trytenjin/status/2101817410307137937](https://x.com/trytenjin/status/2101817410307137937) `📚1`
+- [https://x.com/trzaskun/status/2101636370733126055](https://x.com/trzaskun/status/2101636370733126055) `📚1`
+- [https://x.com/TslShahir/status/2102131273003332050](https://x.com/tslshahir/status/2102131273003332050) `📚1`
+- [https://x.com/tsuyoshi_osiire/status/2100714613381960186](https://x.com/tsuyoshi_osiire/status/2100714613381960186) `📚1`
+- [https://x.com/tsuyoshi_osiire/status/2101814103946023190](https://x.com/tsuyoshi_osiire/status/2101814103946023190) `📚1`
+- [https://x.com/TumaySolak20465/status/2102482177766375482](https://x.com/tumaysolak20465/status/2102482177766375482) `📚1`
+- [https://x.com/tuncerdeniz/status/2100531853090341220](https://x.com/tuncerdeniz/status/2100531853090341220) `📚1`
+- [https://x.com/TurboGuo/status/2101050585021886597](https://x.com/turboguo/status/2101050585021886597) `📚1`
+- [https://x.com/tutao0123/status/2101708919970447703](https://x.com/tutao0123/status/2101708919970447703) `📚1`
+- [https://x.com/TvWoo/status/2101987161214239168](https://x.com/tvwoo/status/2101987161214239168) `📚1`
+- [https://x.com/TvWoo/status/2102246070604738964](https://x.com/tvwoo/status/2102246070604738964) `📚1`
+- [https://x.com/tvytlx/status/2100532408894599678](https://x.com/tvytlx/status/2100532408894599678) `📚1`
+- [https://x.com/TylerMaran/status/2102107759483453733](https://x.com/tylermaran/status/2102107759483453733) `📚1`
+- [https://x.com/typesafeai/status/2101024808565870752](https://x.com/typesafeai/status/2101024808565870752) `📚1`
+- [https://x.com/typesafeai/status/2101093678311997520](https://x.com/typesafeai/status/2101093678311997520) `📚1`
+- [https://x.com/typesafeai/status/2101097027174309926](https://x.com/typesafeai/status/2101097027174309926) `📚1`
+- [https://x.com/typesafeai/status/2101445845212365129](https://x.com/typesafeai/status/2101445845212365129) `📚1`
+- [https://x.com/typesafeai/status/2102121915733405896](https://x.com/typesafeai/status/2102121915733405896) `📚1`
+- [https://x.com/typesafeai/status/2102178536970985861](https://x.com/typesafeai/status/2102178536970985861) `📚1`
+- [https://x.com/typesafeai/status/2102206611024716181](https://x.com/typesafeai/status/2102206611024716181) `📚1`
+- [https://x.com/typesafeai/status/2102483632585920833](https://x.com/typesafeai/status/2102483632585920833) `📚1`
+- [https://x.com/typesafeai/status/2102484110363275374](https://x.com/typesafeai/status/2102484110363275374) `📚1`
+- [https://x.com/typesafeai/status/2102488989983015332](https://x.com/typesafeai/status/2102488989983015332) `📚1`
+- [https://x.com/typesafeai/status/2102628596879880649](https://x.com/typesafeai/status/2102628596879880649) `📚1`
+- [https://x.com/typesafeai/status/2102900621284417806](https://x.com/typesafeai/status/2102900621284417806) `📚1`
+- [https://x.com/typesafeai/status/2102950669858767194](https://x.com/typesafeai/status/2102950669858767194) `📚1`
+- [https://x.com/typesafeai/status/2102965218720756045](https://x.com/typesafeai/status/2102965218720756045) `📚1`
+- [https://x.com/typesafeai/status/2102979122964406712](https://x.com/typesafeai/status/2102979122964406712) `📚1`
+- [https://x.com/typesafeai/status/2103162217076318276](https://x.com/typesafeai/status/2103162217076318276) `📚1`
+- [https://x.com/typesafeai/status/2103165951781032167](https://x.com/typesafeai/status/2103165951781032167) `📚1`
+- [https://x.com/typesafeai/status/2103196683932983335](https://x.com/typesafeai/status/2103196683932983335) `📚1`
+- [https://x.com/typesafeai/status/2103233636413903158](https://x.com/typesafeai/status/2103233636413903158) `📚1`
+- [https://x.com/typesafeai/status/2103569575061451137](https://x.com/typesafeai/status/2103569575061451137) `📚1`
+- [https://x.com/typesafeai/status/2103587838004785352](https://x.com/typesafeai/status/2103587838004785352) `📚1`
+- [https://x.com/u7niversal/status/2102078027957969271](https://x.com/u7niversal/status/2102078027957969271) `📚1`
+- [https://x.com/uemuragame5683/status/2101343009510244605](https://x.com/uemuragame5683/status/2101343009510244605) `📚1`
+- [https://x.com/unclecode/status/2102391927723483489](https://x.com/unclecode/status/2102391927723483489) `📚1`
+- [https://x.com/upstash/status/2102350313630187769](https://x.com/upstash/status/2102350313630187769) `📚1`
+- [https://x.com/urivalev/status/2100605364341239934](https://x.com/urivalev/status/2100605364341239934) `📚1`
+- [https://x.com/useBuddy/status/2101043821161177381](https://x.com/usebuddy/status/2101043821161177381) `📚1`
+- [https://x.com/useBuddy/status/2102039447676014933](https://x.com/usebuddy/status/2102039447676014933) `📚1`
+- [https://x.com/usedhonda/status/2101579836527653342](https://x.com/usedhonda/status/2101579836527653342) `📚1`
+- [https://x.com/usutaku_channel/status/2100829343954173965](https://x.com/usutaku_channel/status/2100829343954173965) `📚1`
+- [https://x.com/utpalnadiger/status/2101880142666805285](https://x.com/utpalnadiger/status/2101880142666805285) `📚1`
+- [https://x.com/v1ctortxt/status/2101932691038048547](https://x.com/v1ctortxt/status/2101932691038048547) `📚1`
+- [https://x.com/v3code_editor/status/2101740198623072621](https://x.com/v3code_editor/status/2101740198623072621) `📚1`
+- [https://x.com/v_sattinger/status/2100561859581456838](https://x.com/v_sattinger/status/2100561859581456838) `📚1`
+- [https://x.com/v_sattinger/status/2100888216463122453](https://x.com/v_sattinger/status/2100888216463122453) `📚1`
+- [https://x.com/v_sattinger/status/2100945255608586312](https://x.com/v_sattinger/status/2100945255608586312) `📚1`
+- [https://x.com/VacekvVita/status/2101247925829468549](https://x.com/vacekvvita/status/2101247925829468549) `📚1`
+- [https://x.com/valentynkit/status/2100481234567890123](https://x.com/valentynkit/status/2100481234567890123) `📚1` — Canonical Thread:
+- [https://x.com/vammu920/status/2100591409447174261](https://x.com/vammu920/status/2100591409447174261) `📚1`
+- [https://x.com/vayungodara/status/2100626286687211589](https://x.com/vayungodara/status/2100626286687211589) `📚1`
+- [https://x.com/vayungodara/status/2100706477757321621](https://x.com/vayungodara/status/2100706477757321621) `📚1`
+- [https://x.com/vcastellm/status/2100697178708549968](https://x.com/vcastellm/status/2100697178708549968) `📚1`
+- [https://x.com/venturetwins/status/2101341075684434245](https://x.com/venturetwins/status/2101341075684434245) `📚1`
+- [https://x.com/venturetwins/status/2101393861667115437](https://x.com/venturetwins/status/2101393861667115437) `📚1`
+- [https://x.com/verbove/status/2101253528501027128](https://x.com/verbove/status/2101253528501027128) `📚1`
+- [https://x.com/verbove/status/2101329544800075877](https://x.com/verbove/status/2101329544800075877) `📚1`
+- [https://x.com/verbove/status/2102390206150185003](https://x.com/verbove/status/2102390206150185003) `📚1`
+- [https://x.com/verysmallwoods/status/2102183268137206157](https://x.com/verysmallwoods/status/2102183268137206157) `📚1`
+- [https://x.com/VibeMarketer_/status/2102427229699428789](https://x.com/vibemarketer_/status/2102427229699428789) `📚1`
+- [https://x.com/VibeMarketer_/status/2102571165420327146](https://x.com/vibemarketer_/status/2102571165420327146) `📚1`
+- [https://x.com/vicky_grok/status/2102398164892619106](https://x.com/vicky_grok/status/2102398164892619106) `📚1`
+- [https://x.com/vicmakes_stuff/status/2101301130924081425](https://x.com/vicmakes_stuff/status/2101301130924081425) `📚1`
+- [https://x.com/VillageIdiotDuh/status/2101681063294816452](https://x.com/villageidiotduh/status/2101681063294816452) `📚1`
+- [https://x.com/vince_builds/status/2101681862795997459](https://x.com/vince_builds/status/2101681862795997459) `📚1`
+- [https://x.com/vincevenerito/status/2101252969198956955](https://x.com/vincevenerito/status/2101252969198956955) `📚1`
+- [https://x.com/vinnylarouge/status/2100281651930513460](https://x.com/vinnylarouge/status/2100281651930513460) `📚1`
+- [https://x.com/Vipul_Sharma/status/2101048652169089314](https://x.com/vipul_sharma/status/2101048652169089314) `📚1`
+- [https://x.com/VipulDivyanshu/status/2102291267120193609](https://x.com/vipuldivyanshu/status/2102291267120193609) `📚1`
+- [https://x.com/vishy1027/status/2100725570590126399](https://x.com/vishy1027/status/2100725570590126399) `📚1`
+- [https://x.com/vivekkmkpinn/status/2101473066366759045](https://x.com/vivekkmkpinn/status/2101473066366759045) `📚1`
+- [https://x.com/vivekkmkpinn/status/2101510014938624480](https://x.com/vivekkmkpinn/status/2101510014938624480) `📚1`
+- [https://x.com/vivekkmkpinn/status/2101932654719299738](https://x.com/vivekkmkpinn/status/2101932654719299738) `📚1`
+- [https://x.com/vladdubchak_x/status/2100952403121967298](https://x.com/vladdubchak_x/status/2100952403121967298) `📚1`
+- [https://x.com/voidisomorphism/status/2100572933974307310](https://x.com/voidisomorphism/status/2100572933974307310) `📚1`
+- [https://x.com/volcano_youtube/status/2101285313079558556](https://x.com/volcano_youtube/status/2101285313079558556) `📚1`
+- [https://x.com/VoltexGar/status/2102731792729927864](https://x.com/voltexgar/status/2102731792729927864) `📚1`
+- [https://x.com/voratheexplora/status/2102595079697277113](https://x.com/voratheexplora/status/2102595079697277113) `📚1`
+- [https://x.com/Vpoile1/status/2101405077575508052](https://x.com/vpoile1/status/2101405077575508052) `📚1`
+- [https://x.com/vshamanov/status/2101814135851720880](https://x.com/vshamanov/status/2101814135851720880) `📚1`
+- [https://x.com/w1nklerr/status/2101712752641224830](https://x.com/w1nklerr/status/2101712752641224830) `📚1`
+- [https://x.com/w1nklerr/status/2102053301202141414](https://x.com/w1nklerr/status/2102053301202141414) `📚1`
+- [https://x.com/w1nklerr/status/2102101853672452255](https://x.com/w1nklerr/status/2102101853672452255) `📚1`
+- [https://x.com/w1nklerr/status/2102480958385541561](https://x.com/w1nklerr/status/2102480958385541561) `📚1`
+- [https://x.com/W3_Btc/status/2102086796045602954](https://x.com/w3_btc/status/2102086796045602954) `📚1`
+- [https://x.com/W3_Btc/status/2102093064411955642](https://x.com/w3_btc/status/2102093064411955642) `📚1`
+- [https://x.com/WanderSamsara/status/2100969346004852747](https://x.com/wandersamsara/status/2100969346004852747) `📚1`
+- [https://x.com/WarlockTome/status/2101312284308172803](https://x.com/warlocktome/status/2101312284308172803) `📚1`
+- [https://x.com/wenhsu_/status/2101311135030878558](https://x.com/wenhsu_/status/2101311135030878558) `📚1`
+- [https://x.com/whereischarly/status/2100623855282749843](https://x.com/whereischarly/status/2100623855282749843) `📚1`
+- [https://x.com/whosfranki/status/2102195316829077686](https://x.com/whosfranki/status/2102195316829077686) `📚1`
+- [https://x.com/whosfranki/status/2102409604306997549](https://x.com/whosfranki/status/2102409604306997549) `📚1`
+- [https://x.com/whycallqq/status/2101270905670291536](https://x.com/whycallqq/status/2101270905670291536) `📚1`
+- [https://x.com/whydeso/status/2102392470898352612](https://x.com/whydeso/status/2102392470898352612) `📚1`
+- [https://x.com/WillDobrev/status/2101734156593926575](https://x.com/willdobrev/status/2101734156593926575) `📚1`
+- [https://x.com/wk__2023/status/2101645602660512187](https://x.com/wk__2023/status/2101645602660512187) `📚1`
+- [https://x.com/wk__2023/status/2101923673028665576](https://x.com/wk__2023/status/2101923673028665576) `📚1`
+- [https://x.com/wld_basha/status/2100562299085828566](https://x.com/wld_basha/status/2100562299085828566) `📚1`
+- [https://x.com/WMjjRpISUEt2QZZ/status/2100597575829385694](https://x.com/wmjjrpisuet2qzz/status/2100597575829385694) `📚1`
+- [https://x.com/wobsoriano/status/2101080178617471088](https://x.com/wobsoriano/status/2101080178617471088) `📚1`
+- [https://x.com/woody_research/status/2101724539956711891](https://x.com/woody_research/status/2101724539956711891) `📚1`
+- [https://x.com/worldofray/status/2101451785298645438](https://x.com/worldofray/status/2101451785298645438) `📚1`
+- [https://x.com/wormuth/status/2100575305370882257](https://x.com/wormuth/status/2100575305370882257) `📚1`
+- [https://x.com/wowinsight_rina/status/2102282866919174528](https://x.com/wowinsight_rina/status/2102282866919174528) `📚1`
+- [https://x.com/wquguru/status/2101612397882671345](https://x.com/wquguru/status/2101612397882671345) `📚1`
+- [https://x.com/wsvn53/status/2100923067375767562](https://x.com/wsvn53/status/2100923067375767562) `📚1`
+- [https://x.com/wwwalkerrun/status/2101841297724301713](https://x.com/wwwalkerrun/status/2101841297724301713) `📚1`
+- [https://x.com/xhackjp1/status/2101105660066967951](https://x.com/xhackjp1/status/2101105660066967951) `📚1`
+- [https://x.com/Xianbao_QIAN/status/2102543377472610409](https://x.com/xianbao_qian/status/2102543377472610409) `📚1`
+- [https://x.com/xiangxiang103/status/2101162590072357286](https://x.com/xiangxiang103/status/2101162590072357286) `📚1`
+- [https://x.com/xiaomovps/status/2100759235407884762](https://x.com/xiaomovps/status/2100759235407884762) `📚1`
+- [https://x.com/xiaomovps/status/2100849182127149335](https://x.com/xiaomovps/status/2100849182127149335) `📚1`
+- [https://x.com/xiaomovps/status/2101218235920314823](https://x.com/xiaomovps/status/2101218235920314823) `📚1`
+- [https://x.com/xin_pai88825/status/2102253938007511493](https://x.com/xin_pai88825/status/2102253938007511493) `📚1`
+- [https://x.com/Xiongtai6/status/2102701608828305445](https://x.com/xiongtai6/status/2102701608828305445) `📚1`
+- [https://x.com/xmglab/status/2102022029876859102](https://x.com/xmglab/status/2102022029876859102) `📚1`
+- [https://x.com/xmyttle/status/2102447835665097135](https://x.com/xmyttle/status/2102447835665097135) `📚1`
+- [https://x.com/xmyttle/status/2102736991230349805](https://x.com/xmyttle/status/2102736991230349805) `📚1`
+- [https://x.com/xucian_/status/2100957733960736889](https://x.com/xucian_/status/2100957733960736889) `📚1`
+- [https://x.com/yachimat_manga/status/2102343921221161328](https://x.com/yachimat_manga/status/2102343921221161328) `📚1`
+- [https://x.com/yama_kiyo/status/2101550815718826043](https://x.com/yama_kiyo/status/2101550815718826043) `📚1`
+- [https://x.com/yanashi/status/2101476396459790389](https://x.com/yanashi/status/2101476396459790389) `📚1`
+- [https://x.com/yanashi/status/2102360070537286061](https://x.com/yanashi/status/2102360070537286061) `📚1`
+- [https://x.com/yanhua1010/status/2100781603966632021](https://x.com/yanhua1010/status/2100781603966632021) `📚1`
+- [https://x.com/yanhua1010/status/2102750052158669254](https://x.com/yanhua1010/status/2102750052158669254) `📚1`
+- [https://x.com/yared_tekile/status/2101292287649030475](https://x.com/yared_tekile/status/2101292287649030475) `📚1`
+- [https://x.com/Yarilo7brigada/status/2101340023614578889](https://x.com/yarilo7brigada/status/2101340023614578889) `📚1`
+- [https://x.com/Yarilo7brigada/status/2101999493965398187](https://x.com/yarilo7brigada/status/2101999493965398187) `📚1`
+- [https://x.com/Yarilo7brigada/status/2102755295332372757](https://x.com/yarilo7brigada/status/2102755295332372757) `📚1`
+- [https://x.com/yatharth170699/status/2100986863788159191](https://x.com/yatharth170699/status/2100986863788159191) `📚1`
+- [https://x.com/yatharth170699/status/2101704988993130654](https://x.com/yatharth170699/status/2101704988993130654) `📚1`
+- [https://x.com/yegor/status/2101368226911232406](https://x.com/yegor/status/2101368226911232406) `📚1`
+- [https://x.com/yerkeRakhimov/status/2102641015438152140](https://x.com/yerkerakhimov/status/2102641015438152140) `📚1`
+- [https://x.com/YGaitsgory/status/2100931274311434442](https://x.com/ygaitsgory/status/2100931274311434442) `📚1`
+- [https://x.com/ym2sp2gzqc/status/2100514000706654290](https://x.com/ym2sp2gzqc/status/2100514000706654290) `📚1`
+- [https://x.com/ynishi2015/status/2101557601792377137](https://x.com/ynishi2015/status/2101557601792377137) `📚1`
+- [https://x.com/YoAmmaar/status/2100920115449766320](https://x.com/yoammaar/status/2100920115449766320) `📚1`
+- [https://x.com/YogiNotTheBear/status/2101357657131233396](https://x.com/yoginotthebear/status/2101357657131233396) `📚1`
+- [https://x.com/yoheinakajima/status/2100777327005511709](https://x.com/yoheinakajima/status/2100777327005511709) `📚1`
+- [https://x.com/yonsan434343/status/2102394467445883145](https://x.com/yonsan434343/status/2102394467445883145) `📚1`
+- [https://x.com/yonyoniz/status/2101967022808502653](https://x.com/yonyoniz/status/2101967022808502653) `📚1`
+- [https://x.com/yorksyo/status/2101509452579168545](https://x.com/yorksyo/status/2101509452579168545) `📚1`
+- [https://x.com/yosuga_sys/status/2100527828089586127](https://x.com/yosuga_sys/status/2100527828089586127) `📚1`
+- [https://x.com/YouTube_AIno/status/2102402943219839255](https://x.com/youtube_aino/status/2102402943219839255) `📚1`
+- [https://x.com/YouWareAI/status/2102598283948372339](https://x.com/youwareai/status/2102598283948372339) `📚1`
+- [https://x.com/YouWareJP/status/2102624047666442684](https://x.com/youwarejp/status/2102624047666442684) `📚1`
+- [https://x.com/ytiralugins/status/2102145892769804419](https://x.com/ytiralugins/status/2102145892769804419) `📚1`
+- [https://x.com/ytiskw/status/2100785155191550016](https://x.com/ytiskw/status/2100785155191550016) `📚1`
+- [https://x.com/ytk141/status/2101672148553416865](https://x.com/ytk141/status/2101672148553416865) `📚1`
+- [https://x.com/yu_ichi_suzuki/status/2101616002119471163](https://x.com/yu_ichi_suzuki/status/2101616002119471163) `📚1`
+- [https://x.com/Yuchenj_UW/status/2103627959810801857](https://x.com/yuchenj_uw/status/2103627959810801857) `📚1`
+- [https://x.com/yuhasbeentaken/status/2101231502038339798](https://x.com/yuhasbeentaken/status/2101231502038339798) `📚1`
+- [https://x.com/yukihamada/status/2102606174604632161](https://x.com/yukihamada/status/2102606174604632161) `📚1`
+- [https://x.com/yukihiko_a/status/2102067720997175524](https://x.com/yukihiko_a/status/2102067720997175524) `📚1`
+- [https://x.com/yukix2000/status/2101911998619656646](https://x.com/yukix2000/status/2101911998619656646) `📚1`
+- [https://x.com/yukke_/status/2102255801062834237](https://x.com/yukke_/status/2102255801062834237) `📚1`
+- [https://x.com/yukyu30/status/2101259309506277704](https://x.com/yukyu30/status/2101259309506277704) `📚1`
+- [https://x.com/YunfengB/status/2101172428861059351](https://x.com/yunfengb/status/2101172428861059351) `📚1`
+- [https://x.com/yupengfei990919/status/2101503163337711814](https://x.com/yupengfei990919/status/2101503163337711814) `📚1`
+- [https://x.com/yurshevv/status/2102036888756371605](https://x.com/yurshevv/status/2102036888756371605) `📚1`
+- [https://x.com/yutosuzuki/status/2101293998879150566](https://x.com/yutosuzuki/status/2101293998879150566) `📚1`
+- [https://x.com/yutosuzuki/status/2101307857191006463](https://x.com/yutosuzuki/status/2101307857191006463) `📚1`
+- [https://x.com/yuvalav/status/2102269968930791643](https://x.com/yuvalav/status/2102269968930791643) `📚1`
+- [https://x.com/yyyole/status/2100879695017632025](https://x.com/yyyole/status/2100879695017632025) `📚1`
+- [https://x.com/yyyole/status/2101184012899537092](https://x.com/yyyole/status/2101184012899537092) `📚1`
+- [https://x.com/Zack_AI_Lab/status/2101299805217493390](https://x.com/zack_ai_lab/status/2101299805217493390) `📚1`
+- [https://x.com/zadescoxp/status/2100675952317792734](https://x.com/zadescoxp/status/2100675952317792734) `📚1`
+- [https://x.com/zain_hoda/status/2100992526417031678](https://x.com/zain_hoda/status/2100992526417031678) `📚1`
+- [https://x.com/zalmaytech/status/2101147462966907316](https://x.com/zalmaytech/status/2101147462966907316) `📚1`
+- [https://x.com/zaneccampbell/status/2101152803775205665](https://x.com/zaneccampbell/status/2101152803775205665) `📚1`
+- [https://x.com/Zefan_Cai/status/2102682845915619333](https://x.com/zefan_cai/status/2102682845915619333) `📚1`
+- [https://x.com/zettelkastten/status/2101793561343631568](https://x.com/zettelkastten/status/2101793561343631568) `📚1`
+- [https://x.com/zhallen122/status/2101806504416293202](https://x.com/zhallen122/status/2101806504416293202) `📚1`
+- [https://x.com/zhao_spenc/status/2100833745859461451](https://x.com/zhao_spenc/status/2100833745859461451) `📚1`
+- [https://x.com/zhayujie/status/2102009189765881894](https://x.com/zhayujie/status/2102009189765881894) `📚1`
+- [https://x.com/zhilinjerrywag/status/2101576651238711642](https://x.com/zhilinjerrywag/status/2101576651238711642) `📚1`
+- [https://x.com/ZHO_ZHO_ZHO/status/2101031959648784402](https://x.com/zho_zho_zho/status/2101031959648784402) `📚1`
+- [https://x.com/ZHO_ZHO_ZHO/status/2101534153942720714](https://x.com/zho_zho_zho/status/2101534153942720714) `📚1`
+- [https://x.com/ZHO_ZHO_ZHO/status/2101551309522645430](https://x.com/zho_zho_zho/status/2101551309522645430) `📚1`
+- [https://x.com/ZHO_ZHO_ZHO/status/2102139594561191962](https://x.com/zho_zho_zho/status/2102139594561191962) `📚1`
+- [https://x.com/ZHO_ZHO_ZHO/status/2102347016840028273](https://x.com/zho_zho_zho/status/2102347016840028273) `📚1`
+- [https://x.com/zhongerxin/status/2101362956969922733](https://x.com/zhongerxin/status/2101362956969922733) `📚1`
+- [https://x.com/ziozio001/status/2100481014980297125](https://x.com/ziozio001/status/2100481014980297125) `📚1`
+- [https://x.com/zmikmik/status/2100408669209022880](https://x.com/zmikmik/status/2100408669209022880) `📚1`
+- [https://x.com/zostaff/status/2101330437658362038](https://x.com/zostaff/status/2101330437658362038) `📚1`
+- [https://x.com/zostaff/status/2101693557664862537](https://x.com/zostaff/status/2101693557664862537) `📚1`
+- [https://x.com/zostaff/status/2102108217966723527](https://x.com/zostaff/status/2102108217966723527) `📚1`
+- [https://x.com/zostaff/status/2102419278049710330](https://x.com/zostaff/status/2102419278049710330) `📚1`
+- [I accidentally created a mini-Jev and you can too](https://news.ycombinator.com/item?id=49762789) `📚1` — observed / media-discussions — ⭐2
+- [I benchmarked TypeSafe's JEV against LLMs, BERT and Laya](https://reddit.com/r/ai_india/comments/1wmvyqz/i_benchmarked_typesafes_jev_against_llms_bert_and) `📚1` — Reddit (49 upvotes): pits Jev against both generative models and a classical classifier on the same task.
+- [I Built a System One Model on a RTX 3070](https://news.ycombinator.com/item?id=49770066) `📚1` — observed / media-discussions — ⭐2
+- [I built the Jev architecture one year ago and open-sourced it](https://news.ycombinator.com/item?id=49806864) `📚1` — observed / media-discussions — ⭐8
+- [I used Jev to control a swarm of 15 simulated drones in real time](https://news.ycombinator.com/item?id=49759706) `📚1` — observed / media-discussions — ⭐2
+- [I was impressed by Jev, please explain why I shouldn't be](https://news.ycombinator.com/item?id=49868483) `📚1` — observed / media-discussions — ⭐3
+- [iamMrDuncan](https://x.com/iammrduncan/status/2100267443071451486) `📚1` — / ② · identityTorn
+- [IG carousel](https://instagram.com/p/ddolse8nhhl) `📚1` — @mattybuildsit (IG carousel, 2026-09-23) — First documented experiment with the official TypeSafe skill: 10 synthetic self-labeled questions sorted into five…
+- [IG reel](https://instagram.com/reel/ddjiocstttn) `📚1` — @evolving.ai (IG reel, 2026-09-21, 12K likes) — Andy Gao's voice-controlled Mac assistant goes viral: Notes/Arc/Google/X/Photo Booth open before he finishes…
+- [IG reel](https://instagram.com/reel/ddr1oumdxbf) `📚1` — @bencorde (IG reel, 2026-09-24, Spanish) — "Seven projects in three days" built on Jev: a Minesweeper latency race vs Fable 5.1 / Astra / Grok 4.6, a…
+- [IG reel](https://instagram.com/reel/ddp5k7vdox1) `📚1` — @altryne_ai (IG reel, 2026-09-24) — ThursdAI clip: Alex Volkov's X Timeline Analyzer (Cerebras infra) runs Jev at ~12 tweets/s, ~371–405ms latency, $0.019 per…
+- [IG reel](https://instagram.com/reel/ddrdwjtiuu8) `📚1` — @adibuildz (IG reel, 2026-09-24) — Self-run experiment on his own 53 Reels: Jev-scored hook strength predicted hit vs flop 86% of the time, while script…
+- [IG reel](https://instagram.com/reel/ddxu8fkjynd) `📚1` — @brochbuilds (IG reel, 2026-09-26) — Side-by-side "Internal Link Decider" for SEO: Jev processed 586 pages in 45s at $0.2111 vs Claude Opus 5 managing 21 pages…
+- [Implementation explanation](https://news.ycombinator.com/item?id=49804913) `📚1`
+- [In 2024 I fine-tuned an LLM. Jev could have removed the side quests](https://news.ycombinator.com/item?id=49767987) `📚1` — observed / media-discussions — ⭐3
+- [Incident triage in Box](https://x.com/box/status/2100993278955188320) `📚1` — 🆕@typesafeai dropped Jev this week, a new frontier model optimized for decisions. We put it to work on an incident triage workflow in Box. Jev doesn't generate…
+- [injaneity](https://x.com/injaneity/status/2100177865958682860) `📚1`
+- [Inline Manual contextual help](https://x.com/sotak/status/2100927660029247538) `📚1` — Adaptive real-time in-app support with Jev + . It detects where you're struggling and quietly adds help directly into the UI - explanations, suggestions, even…
+- [Instagram reel](https://instagram.com/reel/ddbhdqct-kf) `📚1`
+- [Instant Clay workflows](https://x.com/enowoslawski/status/2100999124099195377) `📚1` — Jev does in fact work for building @clay workflows instantly — by @ENowoslawski
+- [Instant team scheduling with Cal.com](https://x.com/peer_rich/status/2100902559313502602) `📚1` — Jev + API = find best overlap among team members in an instant the longest waiting time is our API call round trips 🤯 will come up with ideas how we can bake…
+- [Introducing System One Models and Jev (Hacker News)](https://news.ycombinator.com/item) `📚1` — Hacker News: 1,800-point launch thread whose ~480 comments debate whether typed decisions replace LLM calls for classification, routing, and verification
+- [Inventor of ChatGPT and RLHF Launches Typesafe.ai](https://news.ycombinator.com/item?id=49763045) `📚1` — observed / media-discussions — ⭐3
+- [Investigating Jev's architecture and how to scale it](https://news.ycombinator.com/item?id=49879637) `📚1` — observed / media-discussions — ⭐2
+- [Is Jev a generalized BERT?](https://reddit.com/r/localllama/comments/1wje4xh/still_doesnt_get_what_jev_isis_it_just_a_more) `📚1` — Thread in r/LocalLLaMA debating whether Jev is essentially a generalized BERT-style classifier that reads custom criteria at inference time.
+- [Is Jev calibrated? Tests on real data](https://news.ycombinator.com/item?id=49858564) `📚1` — observed / media-discussions — ⭐3
+- [Is Jev the general-purpose classifier we've been waiting for?](https://news.ycombinator.com/item?id=49774338) `📚1` — observed / media-discussions — ⭐2
+- [It's a Jev's World](https://news.ycombinator.com/item?id=49853879) `📚1` — observed / media-discussions — ⭐3
+- [It's Easy to Dismiss Jev as Just a Classifier](https://news.ycombinator.com/item?id=49780404) `📚1` — observed / media-discussions — ⭐2
+- [It's Easy to Dismiss Jev as Just a Classifier](https://news.ycombinator.com/item?id=49787418) `📚1` — observed / media-discussions — ⭐4
+- [jasonlk — $2.26 for a week of Jev](https://x.com/jasonlk/status/2104694741820481556) `📚1` — Spent $2.26 across 54.9M tokens, about $0.04/M and roughly 50x cheaper than Sonnet, or $0.0002 per request.
+- [Jauvex](https://x.com/diegoaraos/status/2101782639854186747) `📚1` — diegoaraos · X · ▶ 97 · 2026-09-20Two-way voice chat app for talking to and steering Claude and Codex coding agents while they work, with Jev classifying…
+- [Jeeves. Reasoning improves Jev-like decision models](https://news.ycombinator.com/item?id=49891290) `📚1` — observed / media-discussions — ⭐61
+- [Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms](https://news.ycombinator.com/item?id=49883844) `📚1` — observed / media-discussions — ⭐3
+- [Jev 1.13 Jaggedness](https://news.ycombinator.com/item?id=49784926) `📚1` — observed / media-discussions — ⭐3
+- [Jev and System One Models: Calibration Beats Accuracy](https://news.ycombinator.com/item?id=49839510) `📚1`
+- [Jev and the Return of AI/ML Engineering](https://news.ycombinator.com/item?id=49866629) `📚1` — observed / media-discussions — ⭐2
+- [Jev and where a System One model fits in document processing](https://news.ycombinator.com/item?id=49881336) `📚1` — observed / media-discussions — ⭐4
+- [Jev architecture speculation](https://reddit.com/r/localllama/comments/1wjjecz/jev_architecture) `📚1` — Thread in r/LocalLLaMA (57 comments) speculating on how Jev works and whether it is just an LLM read out before text generation.
+- [Jev as a decision primitive](https://x.com/michaellee04/status/2100003037150683593) `📚1` — Notes from ~5,000 requests (about $2) on classification, routing and intent: p50 ~150ms and p95 ~350ms make per-turn checks viable, and Jev rewards splitting…
+- [Jev as a language generator](https://x.com/alejandrofanjul/status/2101032677503603169) `📚1` — Who said that @CompleteSkeptic System One model Jev cannot be a LLM 😜? — by @alejandrofanjul
+- [Jev as a Primitive Feature of Ruby](https://news.ycombinator.com/item?id=49757734) `📚1` — observed / media-discussions — ⭐2
+- [Jev Based Code Review](https://news.ycombinator.com/item?id=49840300) `📚1` — observed / media-discussions — ⭐24
+- [JEV based Effort-router picks Claude Code's reasoning effort for each prompt](https://news.ycombinator.com/item?id=49880075) `📚1` — observed / media-discussions — ⭐2
+- [Jev Bot: The AI That Has to Pay for Its Own Brain](https://x.com/paonx_eth/article/2103881060878533066) `📚1` — Based on: “Jev Bot: The AI That Has to Pay for Its Own Brain” by Paone, published 26 September 2026. This independent Appit Studio guide was drafted with AI…
+- [Jev Civilizations](https://news.ycombinator.com/item?id=49890864) `📚1` — observed / media-discussions — ⭐2
+- [Jev Clearly Explained](https://x.com/akshay_pachaar/status/2101037514945597645) `📚1` — X article explaining Jev as a millisecond decision layer: how typed questions replace generate-parse-retry LLM calls, and where it sits next to an LLM in an…
+- [Jev Compares to Other Rerankers](https://news.ycombinator.com/item?id=49904383) `📚1` — observed / media-discussions — ⭐2
+- [Jev controls a simulated fly](https://x.com/eltokh7/status/2100971356691247377) `📚1` — I made Jev control The Fly — by @eltokh7
+- [Jev deserves hype but not the type it's getting](https://news.ycombinator.com/item?id=49824365) `📚1` — Hacker News: separates the technical claim from the launch framing, and argues the former stands without the latter.
+- [Jev Desk: How to Build a 24/7 AI Agent That Decides for Free and Only Pays to Write (Full](https://x.com/gippp69/article/2103394701063737504) `📚1` — (Jev agent triage desk: routes, audits and total cost)(articles/jev-agent-triage-desk.md) — Build a Jev event triage desk with four lanes, human review and a…
+- [Jev Engineering - How to make money with Jev: Best repos](https://x.com/me_barnyx/article/2101976764779999381) `📚1` — Based on: “Jev Engineering - How to make money with Jev: Best repos” by barnyx, published 21 September 2026. This is an original Appit Studio guide drafted…
+- [Jev Engineering roadmap](https://x.com/0xcodila/status/2100984487802708306) `📚1` — X article with a 10-step roadmap for setting up Jev as the decision layer that tells agents and LLMs what to do next.
+- [Jev Engineering roadmap, summarized](https://x.com/datachaz/status/2101206777924858319) `📚1` — Thread condensing a 10-step Jev setup guide: turn agent forks into Choice, Score and probability, batch decisions (13 questions ran 10x faster and 12.2x…
+- [Jev Engineering: How to Make AI Agent Loops 200x Faster in 10 Steps](https://x.com/0xmorlex/article/2101268094387704311) `📚1` — Based on: “Jev Engineering: How to Make AI Agent Loops 200x Faster in 10 Steps” by Morlex, published 19 September 2026. This is an original Appit Studio guide…
+- [Jev Engineering: How to Stop Paying a Frontier Model to Make Yes-or-No Decisions (full cou](https://x.com/hanakoxbt/article/2101709924828934222) `📚1` — Based on: “Jev Engineering: How to Stop Paying a Frontier Model to Make Yes-or-No Decisions (full course)” by Hanako, published 20 September 2026. This is an…
+- [Jev example use cases from community](https://news.ycombinator.com/item?id=49768162) `📚1` — observed / media-discussions — ⭐2
+- [Jev explained in one infographic](https://reddit.com/r/llmdevs/comments/1wkwqu2/what_is_jev_typesafes_system_one_model_explained) `📚1` — One-page infographic of what TypeSafe's docs and evals actually say about Jev, covering the primitives, pricing, limits, and why the confidence field matters.
+- [Jev Explained: How to Add Fast, Typed Decisions to an AI Agent](https://aihubmix.com/blog/jev-explained-how-to-add-fast-typed-decisions-to-an-ai-agent) `📚1` — A third-party explainer with a useful architecture sketch and an unusually honest list of cases where you should not use a decision model.
+- [Jev in 25 Lines of Python](https://news.ycombinator.com/item?id=49812769) `📚1` — observed / media-discussions — ⭐109
+- [Jev in front of the HeyGen MCP](https://x.com/heygen/status/2104633906217840701) `📚1` — X: a lead-generation pipeline where Jev decides which leads deserve a video in milliseconds before HeyGen renders it.
+- [Jev in the Agent Loop: A Complete Guide to Decision-Layer Automation](https://x.com/n01ennn/article/2103542021071978601) `📚1` — Based on: “Jev in the Agent Loop: A Complete Guide to Decision-Layer Automation” by NO1ennn, published 25 September 2026. Appit Studio wrote this separate…
+- [Jev in your local browser in Go with WebGPU using Jeyzma](https://news.ycombinator.com/item?id=49866106) `📚1` — observed / media-discussions — ⭐3
+- [Jev is an honest game changer](https://news.ycombinator.com/item?id=49793779) `📚1` — observed / media-discussions — ⭐2
+- [Jev is good for agentic security use cases too](https://news.ycombinator.com/item?id=49788374) `📚1` — observed / media-discussions — ⭐2
+- [Jev is just a classifier, and that is fine](https://x.com/bojie_li/status/2100688989006475580) `📚1` — X (Chinese): argues that Jev is best understood as a representation/classification model and ties its latency to one prefill plus parallel answer scoring.
+- [Jev is now available to everyone. No waitlist.](https://news.ycombinator.com/item?id=49780343) `📚1` — observed / media-discussions — ⭐3
+- [Jev is the fastest-adopted model in AI Gateway history](https://news.ycombinator.com/item?id=49774164) `📚1` — observed / media-discussions — ⭐2
+- [Jev is to tool use what RAG is to context](https://news.ycombinator.com/item?id=49770295) `📚1` — observed / media-discussions — ⭐2
+- [Jev isn't new tech](https://reddit.com/r/localllama/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people) `📚1` — Reddit (694 upvotes, 265 comments): the largest critique thread, arguing the marketing addresses people who think AI began with chat models.
+- [Jev Mario Lab](https://x.com/umezawakanta13/status/2102062482991001689) `📚1` — umezawakanta13 · X · ▶ 46 · 2026-09-21Mario-style World 1-1 played by Jev in the browser; this recording dies on the first enemy, and the author reports a…
+- [Jev Mario Lab](https://x.com/umezawakanta13/status/2102008904842658002) `📚1` — umezawakanta13 · X · ▶ 36 · 2026-09-21Follow-up latency run of Jev playing Mario-style 1-1 with a measurement overlay: 1,139.7ms median browser round-trip,…
+- [Jev Masterclass](https://x.com/mikenevermiss/article/2104436761032057204) `📚1` — Based on: “Jev Masterclass” by MIKE, published 28 September 2026. This is an original Appit Studio guide drafted with AI assistance. MIKE did not write or…
+- [Jev Minecraft 机器人](https://x.com/akashpurjalkar/status/2102014492217667872) `📚1` — Jev Minecraft bot · akashpurjalkar · X · ♥ 2 · 2026-09-21Minecraft bot that builds houses, towers, lakes and castles on command, and fights mobs with a sword…
+- [Jev model free online with direct API](https://news.ycombinator.com/item?id=49864566) `📚1` — observed / media-discussions — ⭐2
+- [Jev on Fly.io Sprites](https://x.com/flydotio/status/2102076230183035081) `📚1` — Fly.io's TypeSafe connector for Sprites, which injects your Jev API key at a gateway so agents running inside hardware-isolated Sprites can call Jev without…
+- [Jev on Sol](https://x.com/cryptonaire19/status/2100966334179770675) `📚1` — GM Jev V1 is live on Here's what's new: TRADE • Paste any Solana CA and get a live chart with Jev watching it with you • Jev re-reads the token every 5…
+- [JEV Playground](https://x.com/mac_eth/status/2101701798968840703) `📚1` — Simple web playground for trying Jev by entering text context and asking Noul, Choice or Score questions.
+- [Jev plays Clash Royale](https://x.com/amritnigam2/status/2100882320945520778) `📚1` — Made Jev play Clash Royale and actually won a match. — by @AmritNigam2
+- [Jev plays Geometry Dash](https://x.com/neel490/status/2100953791260397747) `📚1` — Jev plays geometry dash — by @Neel490
+- [Jev Plays Pokemon Red](https://news.ycombinator.com/item?id=49845172) `📚1` — A playful “Jev Plays Pokémon Red” project also appeared on HN, illustrating the current fascination with using high-frequency decisions for control loops…
+- [Jev Search](https://x.com/fatwang2ai/status/2100653998378516518) `📚1` — Built Jev Search -- free and open source, powered by @typesafeai Jev and @search1api_dev search API. Ask in plain language. Jev picks where to search and ranks…
+- [Jev Tetris](https://x.com/wellback000/status/2101931130731852088) `📚1` — wellback000 · X · ▶ 39 · 2026-09-21Tetris game played by Jev, shown in a short video.
+- [Jev tries drawing on a pixel canvas](https://x.com/yoheinakajima/status/2100939102455751049) `📚1` — gave jev a pixel canvas to see if it could draw... nope — by @yoheinakajima
+- [Jev vs. classical ML. Strong on sentiment: Mixed across tasks](https://news.ycombinator.com/item?id=49774364) `📚1` — observed / media-discussions — ⭐2
+- [Jev vs. Kev: open-source Jev alternative tested side by side](https://news.ycombinator.com/item?id=49847306) `📚1` — observed / media-discussions — ⭐12
+- [Jev vs. XGBoost and Bert](https://news.ycombinator.com/item?id=49768899) `📚1` — observed / media-discussions — ⭐3
+- [Jev was built for agents, here's how we're using it in computer use instead](https://news.ycombinator.com/item?id=49849950) `📚1` — observed / media-discussions — ⭐6
+- [Jev x Codex practical guide](https://x.com/makeai_ceo/status/2101924475814212065) `📚1` — Japanese guide to installing the TypeSafe skill in Codex, separating generation from Jev judgments, published experiments, work applications, and ways to…
+- [Jev – System-1 Agent Architecture Radar (open-source)](https://news.ycombinator.com/item?id=49782061) `📚1` — observed / media-discussions — ⭐3
+- [Jev 子弹棋测试](https://x.com/bariskisir/status/2101531039185129683) `📚1` — Jev bullet chess test · bariskisir · X · ♥ 2 · 2026-09-20Bullet-chess test of Jev inside a chess bot, which failed to beat even a 250 ELO computer opponent.
+- [Jev 完整教程](https://x.com/p0lybender/status/2102042285970006184) `📚1` — Jev full tutorial · p0lybender · YouTube · ♥ 8 · 2026-09-21Tutorial video covering how Jev works, access and pricing, a resume-scoring playground demo, and…
+- [Jev 对战 Maia-1100](https://x.com/marcospimi/status/2102079921388409005) `📚1` — Jev vs Maia-1100 · MarcosPimi · X · ▶ 25 · 2026-09-21Ten chess games against Lichess's beginner-style Maia-1100 bot: Jev scored just 0.5, finding the best…
+- [Jev 是什么？快速入门演示](https://reddit.com/r/artificialinteligence/comments/1wl2our/spent_over_2_hours_going_through_the_jev_docs_and) `📚1` — What is Jev? Quick start walkthrough · Kilo_Loco · Reddit · 2026-09-20Notes from reading the Jev docs plus a video walkthrough of the quick start in the…
+- [Jev 狼人杀游戏](https://x.com/tateko_ai/status/2102073216680546670) `📚1` — Jev Werewolf game · tateko_ai · X · ♥ 1 · 2026-09-21Werewolf (social deduction) game built with Jev right after a gakuse.ai study session on using Jev inside…
+- [Jev 玩 Pokémon Showdown](https://x.com/izzuddin_shafi/status/2101116220061958528) `📚1` — Jev plays Pokémon Showdown · Izzuddin_Shafi · X · ♥ 1 · 2026-09-19Pokémon Showdown harness, built with Codex, in which Jev plays a full match quickly but with…
+- [Jev 读心精灵](https://x.com/builderix/status/2101972512644948169) `📚1` — Jev mind-reading genie · builderix · X · ♥ 1 · 2026-09-21Akinator-style guessing game built by precomputing 2,125,999 Jev judgments (16,229 characters x 131…
+- [Jev's Architecture Unmasked](https://news.ycombinator.com/item?id=49759999) `📚1` — observed / media-discussions — ⭐2
+- [Jev's Architecture Unmasked](https://news.ycombinator.com/item?id=49766351) `📚1` — observed / media-discussions — ⭐2
+- [Jev's Architecture Unmasked](https://news.ycombinator.com/item?id=49783588) `📚1` — observed / media-discussions — ⭐2
+- [Jev's Dojo fighting coach](https://x.com/vansitha12/status/2100937772030927216) `📚1` — Let Jev roast your fighting habits 👇 — by @vansitha12
+- [Jev, Prolog, Pi, and the dream of probabilistic logic programming](https://news.ycombinator.com/item?id=49781694) `📚1` — observed / media-discussions — ⭐16
+- [Jev, Prolog, Pi, and the dream of probabilistic logic programming](https://news.ycombinator.com/item?id=49787058) `📚1` — observed / media-discussions — ⭐3
+- [Jev-as-a-Judge: Accept When Confident, Escalate When Unsure](https://news.ycombinator.com/item?id=49903224) `📚1` — observed / media-discussions — ⭐2
+- [Jev-Leftpad](https://news.ycombinator.com/item?id=49784706) `📚1` — observed / media-discussions — ⭐49
+- [jev-router: route to the cheapest model in claude code for your task](https://news.ycombinator.com/item?id=49798407) `📚1` — observed / media-discussions — ⭐3
+- [Jev-thoven music composition](https://x.com/cocktailpeanut/status/2101032641470386481) `📚1` — Jev-thoven composed this entire 2 minute song from first principles. — by @cocktailpeanut
+- [JEV: Ranking 6K+ peer-company candidates in ~40 seconds](https://news.ycombinator.com/item?id=49772480) `📚1` — observed / media-discussions — ⭐2
+- [Jev: System One Models for Prod, Not God – With Diogo Almeida, CEO, TypeSafe AI](https://news.ycombinator.com/item?id=49794590) `📚1` — observed / media-discussions — ⭐4
+- [Jev: The Model That Gives AI the Properties of Code](https://news.ycombinator.com/item?id=49716682) `📚1`
+- [JevBench: Benchmark for Jev-Class Models](https://news.ycombinator.com/item?id=49786635) `📚1` — observed / media-discussions — ⭐2
+- [Jevcal confidence-threshold calibration](https://x.com/thenightshipper/status/2100850610962919551) `📚1` — Everyone picks Jev confidence thresholds by vibes. 0.95? 0.5? I built jevcal. Give it your data and say "I need 99% accuracy". You get the exact threshold, how…
+- [Jeven Doors](https://x.com/uehaj/status/2101928834820165661) `📚1` — uehaj · X · ♥ 1 · 2026-09-21Guessing game where you have 7 yes/no questions to find the answer Jev has in mind; this update adds creating and uploading your…
+- [jevframe](https://news.ycombinator.com/item?id=49795313) `📚1`
+- [Jevgrep: A CLI for coding agents that uses Jev to discover relevant files](https://news.ycombinator.com/item?id=49880146) `📚1` — observed / media-discussions — ⭐5
+- [Jevify skill – Gets your existing agents running on Jev](https://news.ycombinator.com/item?id=49812519) `📚1` — Tried Jev when it came out last week and it&amp;#x27;s crazy fast.
+- [Jevlish: A JavaScript front end for Jev](https://news.ycombinator.com/item?id=49808535) `📚1` — observed / media-discussions — ⭐2
+- [Jevmem – automatic project memory for Claude Code, built on Jev](https://news.ycombinator.com/item?id=49846391) `📚1` — observed / media-discussions — ⭐52
+- [JevOps: Early Signs Decision Models Are Transforming DevOps](https://x.com/josharosen/article/2104201747732271519) `📚1` — Based on: “JevOps: Early Signs Decision Models Are Transforming DevOps” by Josh Rosen, published 27 September 2026. This independent Appit Studio guide was…
+- [Jevstiller: Distill a repeated Jev classification task into a local model](https://news.ycombinator.com/item?id=49912763) `📚1` — observed / media-discussions — ⭐2
+- [Jev刚火两天，开源就杀疯了：0.5B就能跑！](https://xiaohongshu.com/explore/6aaf83ef0000000012001034) `📚1` — Author and text unverified; “local model” in the title must not be read as official Jev weights
+- [Josh Rosen](https://x.com/josharosen) `📚1`
+- [judging post](https://x.com/openrouter/status/2102125842470232373) `📚1` — The judging post describes using Jev Score judgments and a Choice over entries. Those are the publisher's evaluation procedure, not independent validation, a…
+- [Just Ask Jev](https://news.ycombinator.com/item?id=49859957) `📚1`
+- [Just-in-time model selection in Goose](https://x.com/alexjhancock/status/2100932130196852896) `📚1` — Experimentation with Jev from @typesafeai and our harness @goose_oss Use Jev to take a prompt and JIT select a model just before the turn runs. Jev and models…
+- [k3o_exp](https://x.com/k3o_exp/status/2100065796240073215) `📚1`
+- [kalin_t](https://x.com/kalin_t/status/2097349448305394027) `📚1`
+- [karuri945](https://x.com/karuri945/status/2100427285224394867) `📚1`
+- [karuri945](https://x.com/karuri945/status/2100632366633070873) `📚1` — komorra86 · milindlabs · jan__kubica
+- [karuri945](https://x.com/karuri945/status/2100562714376454654) `📚1`
+- [Kaushik009911 — the tax Jev actually removes](https://x.com/kaushik009911/status/2101879965977571591) `📚1` — Argues the relevant comparison isn't Jev vs. a BERT classifier or grammar-constrained decoding, but the KV-cache and token-by-token cost those approaches still…
+- [kcp_kn — Jev as an agent-eval judge](https://x.com/kcp_kn/status/2101506638288965918) `📚1` — Reports on LangChain's Deep Agents experiment where Jev matched human pass/fail labels 100% across 500 trials with up to 913x lower quality-score variance than…
+- [kev: Jev-like model built on Qwen2.5-0.5B](https://news.ycombinator.com/item?id=49766295) `📚1` — observed / media-discussions — ⭐2
+- [komorra86](https://x.com/komorra86/status/2100631455843979442) `📚1`
+- [koolerkx/vibe-discord-bot-jev](https://github.com/koolerkx/vibe-discord-bot-jev) `📚1`
+- [KrzysztofStaron — predict outcomes, not steps](https://x.com/krzysztofstaron/status/2101422519391555867) `📚1` — A concrete prompting technique for Jev's weak multi-step planning: reframe "which action to take" as "what outcome to aim for" (demoed on Tetris), reportedly…
+- [LangChain + Jev harness](https://x.com/i/article/2100744524951932928) `📚1` — TypeSafeClassifier / middleware: model routing and Auto Mode safety checks before tool calls; post
+- [Language Models for Text Classification: From Bag-of-Words to Jev](https://news.ycombinator.com/item?id=49891203) `📚1` — observed / media-discussions — ⭐3
+- [Laurent (@Loran750)](https://x.com/loran750/status/2100692527829369115) `📚1`
+- [Laya](https://reddit.com/r/localllama/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with) `📚1`
+- [Lead routing on X](https://x.com/timbuildwithai/status/2102167332172767392) `📚1`
+- [leftspace35](https://x.com/leftspace35/status/2100713588381925520) `📚1`
+- [Legal documents yes/no test (X article)](https://x.com/i/article/2100463318209048850) `📚1` — legal documents, 109 yes/no judgments: Brier 0.030; all 96 answers outside the 0.2 to 0.8 band were correct.
+- [Let me Jev that for you](https://news.ycombinator.com/item?id=49776178) `📚1` — observed / media-discussions — ⭐3
+- [Lichen – A local, BOY model system1 (Jev) server with image support](https://news.ycombinator.com/item?id=49911997) `📚1` — observed / media-discussions — ⭐2
+- [lifcc — System 1 / System 2 agent bifurcation](https://x.com/mylifcc/status/2101504368746848492) `📚1` — Argues production agents need a strict split: Jev handles millisecond-level routing, the heavy LLM stays dormant until deep reasoning is actually required.
+- [LinkedIn](https://linkedin.com/posts/tanmaig_tried-out-a-workflow-on-jev-better-accuracy-activity-7506498916549410816-mzgb) `📚1`
+- [LinkedIn write-up](https://linkedin.com/pulse/jev-couldnt-find-password-reset-form-we-gave-map-venkat-podugu-p23fe) `📚1`
+- [Live noun-span demo](https://x.com/dweaths/status/2102415625301717065) `📚1` — The author explains an interesting candidate-span selection method, but no reusable source or comparative evaluation was verified. The advertised…
+- [LLM vs Jev at prompt difficulty](https://x.com/k_grajeda/status/2099952715430596710) `📚1` — Simplified side-by-side showing how an LLM and Jev classify a prompt's difficulty: token-by-token text versus probabilities for every option computed in…
+- [LLMs vs. Jev, clearly explained](https://x.com/akshay_pachaar/status/2101309986156712025) `📚1` — Explains that Jev does not generate faster, it does not generate at all: independent Choice, Score and Noul questions, like urgency, owning team and command…
+- [Lmjtfy – Ask Jev a yes or no question](https://news.ycombinator.com/item?id=49758022) `📚1` — observed / media-discussions — ⭐5
+- [Loop Engineering Meets Jev Engineering: How to Cut Your Claude Bill From $765 to $3 a Mont](https://x.com/polydao/article/2103689373774483815) `📚1` — Based on: “Loop Engineering Meets Jev Engineering: How to Cut Your Claude Bill From $765 to $3 a Month” by Mr. Buzzoni, published 26 September 2026. This…
+- [Mahax — Jev engineering is a new layer, not cheaper routing](https://x.com/mahaximus_/status/2102465392119570772) `📚1` — Argues Jev is a separate decision layer sitting under LLM-generated work rather than a cheap LLM substitute, with cost examples: 1,018 papers classified for…
+- [Mahesh Lambe — four objections to the launch claims](https://x.com/mahesh_lambe/status/2101892492098781219) `📚1` — "Can't hallucinate" only means schema-valid, not correct; the workflow eval's ground truth is the average of two LLMs' own predictions; the speed/cost…
+- [Mahesh Nani — how Jev makes structured output faster](https://x.com/maheshnani122/status/2102239463028265387) `📚1` — A mechanics explainer: parallel constrained decoding over a known JSON schema plus KV-cache prefill reuse, instead of generating structured output token by…
+- [MakerMap](https://x.com/verbove/status/2100990085340496185) `📚1` — now finds the makers you should meet, near you 🤯 it's crazy accurate and built with Jev by @typesafeai my #1 match was @martbln_dev funnily enough we were…
+- [Martin Casado (a16z) — why the labs missed it](https://x.com/a16z/status/2103911378222477377) `📚1` — Argues frontier labs are building "beings that speak," so a model built to choose between a fixed set of options instead of generating text sat outside what…
+- [Matt Gunter — "classification is not a decision"](https://x.com/matthewegunter/status/2102877302237626804) `📚1` — A five-point architectural critique: Jev's fixed option set, inability to reframe or fetch missing facts, and silent failure mode make a growing graph of…
+- [Matt Van Horn](https://x.com/mvanhorn) `📚1`
+- [matthewsoldit/camoufox-jev](https://x.com/matthewsoldit/status/2100702040938934493) `📚1` — (TypeScript) &middot; 🐦 Thread -- Stealth browser automation pairing headless Camoufox DOM extractions with Jev choice primitives for anti-bot resilient…
+- [me_barnyx — 5 rules before you wire Jev in](https://x.com/me_barnyx/status/2101630380067500350) `📚1` — A practical checklist — separate deciding from generating, set confidence thresholds before shipping, log confidence against real outcomes, treat vendor…
+- [Meliwat93](https://x.com/meliwat93/status/2100652464546472046) `📚1`
+- [MIKE](https://x.com/mikenevermiss) `📚1`
+- [Mike Codeur, X, September 20](https://x.com/mikecodeur/status/2101574588799013015) `📚1` — Same state, many questions. Mike Codeur, X, September 20
+- [Mikhaeel](https://x.com/mmmikhaeel) `📚1` — Chief prompting officer @ vicaura.com); contact (hello@vicaura.com)(mailto:hello@vicaura.com).
+- [Milon — "Jev is not a smaller LLM"](https://x.com/milonspace/status/2101495990725566640) `📚1` — Restricts Jev to exactly three gating jobs: is this done, which tool next, does a human need to see it — everything else still goes to a model that can write.
+- [mmastrac 评测推](https://x.com/mmastrac/status/2100626193943052784) `📚1` — razorback16 / TheoLeeCJ / vinnylarouge / Matt Mastracci
+- [model/effort routing](https://reddit.com/r/deepseek/comments/1wmrxxx/i_built_a_model_and_effort_router_for_codex) `📚1`
+- [Morlex](https://x.com/0xmorlex) `📚1`
+- [Most People on the Internet Miss What Jev Is About](https://news.ycombinator.com/item?id=49754461) `📚1` — observed / media-discussions — ⭐4
+- [Mr. Buzzoni](https://x.com/polydao) `📚1`
+- [MrWatchCEO](https://x.com/mrwatchceo/status/2100022312640610332) `📚1`
+- [Mullet of Log Processing: Determinism in the Front, AI at the Back (Expanso/Jev)](https://news.ycombinator.com/item?id=49791429) `📚1` — observed / media-discussions — ⭐2
+- [Multi-chatbot/TTS report](https://x.com/greenhill_pharm/status/2101492328137711891) `📚1` — Reports multi-chatbot conversation orchestration and seven-way utterance-emotion classification for TTS tone. Two distinct consumers; implementation not…
+- [muratcan — 2,029 receptionist calls, zero-shot](https://x.com/muratcan/status/2104959648482701686) `📚1` — Reduced real calls to pure structure and ran Jev over 38,012 turn-level forecasts at a 118 ms median, predicting bookings at AUC 0.78 mid-call for about $3…
+- [N01ennn — the official playbook in 7 patterns](https://x.com/n01ennn/status/2104935031865024781) `📚1` — Condenses TypeSafe's playbook on question design (not prompts) into seven patterns, such as one judgment per question and weighing narrow Nouls in code.
+- [nawtayei](https://x.com/nawtayei/status/2100607727978369138) `📚1`
+- [Neel490](https://x.com/neel490/status/2100400923826606523) `📚1`
+- [Nelson (@nelsonpatrao)](https://x.com/nelsonpatrao) `📚1` — . Self-submitted via Awesome Jev issue #399.
+- [neural_avb — Jev isn't deterministic](https://x.com/neural_avb/status/2101736546391244854) `📚1` — Shows identical prompts returning different output probabilities across repeated runs, and that reordering candidate choices measurably shifts them.
+- [neural_avb/live-coding](https://x.com/neural_avb/status/2100560729401426247) `📚1` — (TypeScript) &middot; 🐦 Thread -- Deep live coding session demonstrating reactive workflows, multi-choice classification outputs, and integrating Jev endpoints…
+- [News-driven stock research](https://x.com/abolbuild/status/2101019948684279862) `📚1` — I gave Jev the news and let it find the stocks worth buying Here’s how it works 🧵 — by @abolbuild
+- [nicbstme — Jev as Innovator's Dilemma](https://x.com/nicbstme/status/2101904295730016377) `📚1` — Frames Jev as commoditizing the bottom of the ML market (classifiers, routers, scoring) in a way frontier LLM labs have no incentive to compete on.
+- [nickvasiles](https://x.com/nickvasiles/status/2100670497818313175) `📚1`
+- [Nico Martin](https://x.com/nicodotdev/status/2101925774278152664) `📚1`
+- [NO1ennn](https://x.com/n01ennn) `📚1`
+- [noahkostesku — five places to put Jev in a coding-agent loop](https://x.com/noahkostesku/status/2102139134609391894) `📚1` — Tool routing, context pruning, model escalation, termination checks, and test-failure triage — argues the moat is in how well a team wires decisioning into…
+- [Nūs](https://instagram.com/reel/ddjhmvys1ej) `📚1` — @builtbynus / Nūs — Jev wired into their app as the "reflexes": voice commands open apps, type, and search while an on-screen millisecond counter tracks each…
+- [official LinkedIn post](https://linkedin.com/posts/openrouter_last-week-jev-typesafe-ais-system-one-activity-7507891467219050497-cysu) `📚1`
+- [oko](https://x.com/bartlomein/status/2101436827819192584) `📚1` — bartlomein · X · ♥ 6 · 2026-09-19Repo search for coding agents that searches locally and has Jev rank the matches so the agent reads less; a 108-session pilot…
+- [Ollama now supports Jev-like decision models all locally in 0.35](https://news.ycombinator.com/item?id=49908997) `📚1` — observed / media-discussions — ⭐3
+- [Ollaya discussion](https://news.ycombinator.com/item?id=49848269) `📚1`
+- [oluwadunni1/Instagram](https://github.com/oluwadunni1/instagram) `📚1`
+- [Open Source JEV architecture built 1 year ago](https://news.ycombinator.com/item?id=49764070) `📚1` — observed / media-discussions — ⭐3
+- [OpenAI Answers TypeSafe's Jev with a Decision API Built on Luna](https://news.ycombinator.com/item?id=49896979) `📚1` — observed / media-discussions — ⭐2
+- [OpenAI is about to eat Jev's lunch – Arcturus Labs](https://news.ycombinator.com/item?id=49802161) `📚1` — observed / media-discussions — ⭐74
+- [OpenJev: An open-source, Jev-compatible System One decision engine](https://news.ycombinator.com/item?id=49898615) `📚1` — observed / media-discussions — ⭐2
+- [OpenRouter details](https://x.com/openrouter/status/2103610988432126195) `📚1`
+- [OrcaRouter — reproducing Jev, and where the "open source beat it" claims fall apart](https://x.com/orcarouter/status/2102318172577911068) `📚1` — Confirms Jev's bounded-answer-space insight but shows the open-source "beats Jev" benchmarks are in-distribution only (0.769 in-distribution vs. 0.541…
+- [Orus trade-strategy review](https://x.com/orus_agent/status/2100859259915227358) `📚1` — As promised, Jev is now integrated into Orus agents. What is Jev, and how can it help our agents? Jev is a model from TypeSafe AI, built to answer precise…
+- [oswalpalash](https://x.com/oswalpalash/status/2100125657795834343) `📚1`
+- [oxfrancesco_](https://x.com/oxfrancesco_/status/2100595042385584622) `📚1`
+- [Pac-Man follow-up](https://x.com/ephraimduncan/status/2100554620254752981) `📚1` — . One demo win ≠ reproducible — Pac-Man follow-up: author could not reproduce an earlier win.
+- [Paone](https://x.com/paonx_eth) `📚1`
+- [Pavel Sich (@sichy)](https://x.com/sichy/status/2100519334716092885) `📚1` — Pavel Sich on DreamChat Ambiguity Gating -- Intercepts ambiguous prompts in 38 ms when confidence is low (34%), preventing wasted $0.05 vision + edit runs on…
+- [pcp_liu](https://x.com/pcp_liu/status/2100614050304458791) `📚1`
+- [Pixel art with a sketch-and-refine loop](https://x.com/realastropulse/status/2101029816975663312) `📚1` — I gave Jev the ability to draw pixel art! It uses deepseek to plan a sketch with some primitives, then renders it, refines it, all based on pixel positions and…
+- [pj4533](https://x.com/pj4533/status/2100624540938260919) `📚1`
+- [Playing with Jev for Daily Questions](https://news.ycombinator.com/item?id=49805970) `📚1` — observed / media-discussions — ⭐2
+- [Playwright CLI + Jev vs Playwright MCP](https://x.com/filip_hric/status/2103450014143947164) `📚1` — X: reports swapping the Playwright MCP for the Playwright CLI with Jev choosing each step, at 98% lower cost and twice the speed.
+- [Pokémon FireRed Elite Four run](https://x.com/anxkhn/status/2100842364248178833) `📚1` — Jev by @typesafeai is amazing! i let it play pokemon firered, and it was able to beat elite 4 with a party of level 40 pokemons. all under 0.03$ — by @AnxKhn
+- [Pokémon shiny hunting](https://x.com/luckeyfaraday/status/2100955913913774437) `📚1` — Jev is shiny hunting now. Yesterday it beat Brock in under 5 minutes. Now I’ve put it in a loop hunting for a shiny starter completely autonomously. It resets,…
+- [Prasenjit Sarkar — code review's real bottleneck isn't the model](https://x.com/stretchcloud/status/2102894026219266265) `📚1` — Jev scanned a 0.5M-line codebase for 12,938 findings in two minutes for $0.89, feeding an always-on Claude Opus 5.5 refactor loop; argues Jev's…
+- [Prasenjit Sarkar — Jev vs. BM25 for tool retrieval](https://x.com/stretchcloud/status/2102436259830657057) `📚1` — Jason Zhou's benchmark: Jev beat plain BM25 9x at matching tools to agent tasks across 3,000+ endpoints, positioned as a retrieval proxy layer exposing only…
+- [Prasenjit Sarkar — the $40M model with a 2-day head start](https://x.com/stretchcloud/status/2102335596421124212) `📚1` — Lays out TypeSafe's Sept 15 seed round and System One category, then tracks how fast open-source caught up: Laya beat cloud Jev 11x on latency in a…
+- [Prasenjit Sarkar — the Redis-in-front-of-Postgres pattern](https://x.com/stretchcloud/status/2102676090066231705) `📚1` — Jev triaged 384 news headlines in 24.9s for $0.19 versus Claude Opus 5 completing 4 of 384 for 77 cents — roughly 390x cheaper per headline — framed as agent…
+- [Predicting the next shell command](https://x.com/thorstenball/status/2100858434904109099) `📚1` — Jev picking the next command from shell history — by @thorstenball
+- [princecaarlo](https://x.com/princecaarlo/status/2100141659933856192) `📚1` — / ② · RomanSlack1
+- [Probably](https://x.com/southpolesteve/status/2100767781868150938) `📚1` — Toy semantic control flow; bound every loop
+- [ProTrailblazer](https://x.com/protrailblazer/status/2100644635924185449) `📚1`
+- [proxy_vector — 272 real support tickets](https://x.com/proxy_vector/status/2104815944136892690) `📚1` — Claude was more accurate (88% vs. 85%) but Jev was roughly 170x cheaper with honest confidence; a DIY logprobs baseline followed an injected "label this a bug"…
+- [pukerrainbrow — the practitioner pushback, point by point](https://x.com/pukerrainbrow/status/2103758223602008538) `📚1` — Notes Jev is architecturally a zero-shot classifier that's existed since 2019, that its "can't hallucinate" claim only guarantees schema-valid output rather…
+- [qainsights/jev-bench](https://x.com/qainsights/status/2100079359063204238) `📚1` — (Python) &middot; 🐦 Thread -- QA automation and load performance evaluation comparing Jev round-trip latency against generative LLMs for test suite triage.
+- [Qevi-2B: A Jev-style finetuned model for image classification](https://news.ycombinator.com/item?id=49899737) `📚1` — observed / media-discussions — ⭐2
+- [Quality checks for physical-AI action labels](https://x.com/the_cyw/status/2100807905859739779) `📚1` — Jev is insane. We are building egocentric training data for physical AI. Jev QA'd 58,643 action labels in under 3 minutes. 90 cents. A friction cost of the…
+- [Question-design comment](https://reddit.com/r/picodingagent/comments/1whsav6/comment/pa4q36u) `📚1`
+- [Quiet marketing notifications on Android](https://x.com/twitte_ethan/status/2100970832948580377) `📚1` — The JEV model is so fast and its instruction execution is so powerful that I can accurately identify whether there are advertising or marketing messages in…
+- [Qué es Jev: el modelo System One de TypeSafe AI](https://linkedin.com/pulse/qu%c3%a9-es-jev-el-modelo-system-one-de-typesafe-ai-que-en-kraayenbrink-g65ff) `📚1` — Spanish) Our explainer on LinkedIn: what a System One model is, what Jev decides, and where it fits.
+- [r/LLMDevs](https://reddit.com/r/llmdevs/comments/1wiu1ej/typesafe_jev_secret_detection_test) `📚1` — had a "Typesafe Jev: Secret Detection Test" thread in the launch window - a natural Noul use case given that you need a threshold, not a redaction essay.
+- [rasbt — "OpenAI just added a Jev clone"](https://x.com/rasbt/status/2104985996517355691) `📚1` — The most-liked reaction to OpenAI's DevDay Decisions API, a Luna-powered service that answers fixed-option questions in a fraction of a second; at least one…
+- [Rebuilding our agent with Jev as a core primitive](https://news.ycombinator.com/item?id=49779979) `📚1` — observed / media-discussions — ⭐3
+- [Reddit discussion](https://reddit.com/r/pwnhub/comments/1wlu7fj/jev_the_ai_model_that_only_makes_decisions_can_be) `📚1`
+- [Reddit experiment](https://reddit.com/r/llmdevs/comments/1wkc9hp/i_tried_jevstyle_decisions_with_local_qwen_same) `📚1`
+- [Reddit launch](https://reddit.com/r/picodingagent/comments/1wimfhg/piwarden_a_jevpowered_second_pair_of_eyes_for_pi) `📚1` — Current project
+- [Reddit report](https://reddit.com/r/localllama/comments/1wk0st3/routing_between_a_3b_a_4b_a_12b_and_a_26b_moe) `📚1`
+- [Reddit report and discussion](https://reddit.com/r/llmdevs/comments/1wihigc/tried_typesafes_new_decisiononly_model_jev_as_an) `📚1`
+- [Reddit 先前工作争议](https://reddit.com/r/localllama/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year) `📚1` — Reddit prior-architecture dispute
+- [reddit.com/r/PiCodingAgent/comments/1wimfhg/](https://reddit.com/r/picodingagent/comments/1wimfhg) `📚1`
+- [reddit.com/r/SideProject/comments/1wiw6tk/](https://reddit.com/r/sideproject/comments/1wiw6tk) `📚1`
+- [reel](https://instagram.com/reel/ddjkrdnyd5e) `📚1` — @datatramadan — Jev plays Chrome Dino with live RUN/JUMP/DUCK probability + confidence telemetry; mid-video the screen switches to OpenRouter logs confirming…
+- [Reflex – run a Jev-like decision model locally on a 16GB Nvidia GPU](https://news.ycombinator.com/item?id=49852130) `📚1` — observed / media-discussions — ⭐2
+- [Rene-1: Open-weight classifier sets SOTA on Decision Index (+9 over Jev)](https://news.ycombinator.com/item?id=49871553) `📚1` — observed / media-discussions — ⭐4
+- [Replacing an agentic classification loop with Jev: 7x faster](https://news.ycombinator.com/item?id=49783806) `📚1` — observed / media-discussions — ⭐2
+- [Reusable, testable decisions for agent orchestration with Jev](https://news.ycombinator.com/item?id=49908382) `📚1` — observed / media-discussions — ⭐2
+- [Reverse Jev: Ending a Turn with a Choice](https://news.ycombinator.com/item?id=49807602) `📚1` — observed / media-discussions — ⭐2
+- [Reverse-engineered Jev-like model](https://news.ycombinator.com/item?id=49731282) `📚1` — Thread on the jevlike repo (160 points): replication attempts, a commenter reporting a DiffusionGemma "Jev mode" at about 0.2s per decision, and a Qwen-2.5-1B…
+- [rishi_raj_jain_](https://x.com/rishi_raj_jain_/status/2100606501501169726) `📚1`
+- [RLHF核心研究者发布新模型，称比LLM快200倍](https://xiaohongshu.com/explore/6aaa543600000000260385d5) `📚1` — “RLHF researcher releases a model said to be 200× faster than LLMs” (Chinese)
+- [RobotsTJ500 — live-API mechanics and a code-review field test](https://x.com/robotstj500/status/2101930064140968172) `📚1` — Documents real measured latency (0.8-1.1s against the published 70-500ms) and field results from using Jev as a diff-triage layer, including how rephrasing a…
+- [rody](https://x.com/0x_rody) `📚1`
+- [Rolewise](https://x.com/zhilinjerrywag/status/2101570879972913333) `📚1` — Parallel job filtering. Rolewise author, X, September 20
+- [RomanSlack1](https://x.com/romanslack1/status/2100335978229690683) `📚1`
+- [Ronin — the "100x Upgrade" playbook](https://x.com/deronin_/status/2100917158922387537) `📚1` — You don't get the 100x by swapping your LLM for Jev; you get it by finding the calls that never needed a language model in the first place and deleting them.
+- [sakevoid — Jev is judgment, not cognition](https://x.com/sakevoid/status/2101676640879190343) `📚1` — A mental model for agent architecture: Claude/Codex handle cognition, Jev handles fast judgment calls, deterministic code enforces hard rules, and humans veto…
+- [Scoring a frontier-AI essay](https://x.com/nicdunz/status/2101029238883164288) `📚1` — what does jev from @typesafeai think of the pacing the frontier article by @DarioAmodei? — by @nicdunz
+- [Search engine for tech events built with Jev](https://news.ycombinator.com/item?id=49890037) `📚1` — observed / media-discussions — ⭐2
+- [Semantic end-to-end agent testing for iOS, Android, and web using Jev](https://news.ycombinator.com/item?id=49770667) `📚1` — observed / media-discussions — ⭐2
+- [Semantic spreadsheet formatting](https://x.com/guangyurobert/status/2100601420395282695) `📚1` — jev semantically formatting spreadsheet instantly should we put it in @tryshortcutai ? — by @GuangyuRobert
+- [Separate prompt-cache warning](https://reddit.com/r/artificialinteligence/comments/1wkhsyh/comment/paqvj6d) `📚1`
+- [September 20 Reddit model-router comparison](https://reddit.com/r/ai_agents/comments/1wl82fr/tried_typesafe_ais_jev_vs_a_regular_llm_for_model) `📚1`
+- [Session replay to bug fixes](https://x.com/tarasshyn/status/2101012033340571952) `📚1` — JEV is INSANE. We gave it 3 million replay events In 40 seconds, it watched 3,247 sessions, caught 132 rage clicks, 116 dead clicks and 95 JavaScript errors,…
+- [shantanugoel](https://x.com/shantanugoel/status/2100455295801827769) `📚1` — / ② · sid19arya0
+- [Show HN guidelines](https://news.ycombinator.com/showhn.html) `📚1` — Hacker News: do not post this reading list as Show HN. Its Show HN guidelines explicitly exclude lists and other reading material and suggest a regular…
+- [Show HN: A local alternative to Jev – 94% on Banking77](https://news.ycombinator.com/item?id=49858795) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: A minimal Pareto-optimal OpenRouter model router for pi, based on Jev](https://news.ycombinator.com/item?id=49775968) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: AT0M – a Jev Like System One decision model in a single Rust binary](https://news.ycombinator.com/item?id=49907865) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Chrome extension where Jev decides if each post/video/page is worth it](https://news.ycombinator.com/item?id=49868003) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: CUA-S1 – A System One Model for Computer Use](https://news.ycombinator.com/item?id=49767564) `📚1` — observed / media-discussions — ⭐95
+- [Show HN: Dbb1 radio – endless radio powered by Jev](https://news.ycombinator.com/item?id=49912424) `📚1` — started tinkering with this yesterday, has turned into something kind of cool.
+- [Show HN: Decide – Jev decisions in the shell, scripts, and agent skills](https://news.ycombinator.com/item?id=49878492) `📚1` — All software makes decisions. Code handles the deterministic ones.
+- [Show HN: Doom or Bloom, map your AI worldview with Jev](https://news.ycombinator.com/item?id=49846953) `📚1` — observed / media-discussions — ⭐10
+- [Show HN: Ephemeral runner for JEV-style models](https://news.ycombinator.com/item?id=49857297) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Explore 2D semantic space with the Jev model](https://news.ycombinator.com/item?id=49753667) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Gatekeeper – Persuade a 34MB Jev-like model to let you into the castle](https://news.ycombinator.com/item?id=49912849) `📚1` — Upfront caveat: it&amp;#x27;s English only! but I&amp;#x27;m personally still just…
+- [Show HN: Grade text from the CLI with custom rulesets and Jev](https://news.ycombinator.com/item?id=49784831) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Halv cut AI agent cost by 57.1% using Jev](https://news.ycombinator.com/item?id=49913080) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Herobrine – Minecraft buddies using jev](https://news.ycombinator.com/item?id=49843049) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: HN for Me – Jev curates Hacker News based on your interests](https://news.ycombinator.com/item?id=49788260) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: I built a chatbot that can only reply in emoji, powered by Jev](https://news.ycombinator.com/item?id=49853574) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: I Built a GIF Decider with Jev](https://news.ycombinator.com/item?id=49817371) `📚1` — Hey everyone! I wanted to try out a fun use case for Jev and had this idea…
+- [Show HN: I gave Jev my forum database so he could find the most relevant](https://news.ycombinator.com/item?id=49804096) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: I made a game about awkward conversations using Jev](https://news.ycombinator.com/item?id=49787381) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: I made Jev to talk](https://news.ycombinator.com/item?id=49905785) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jauvex 1.2, two-way voice chat harness for Claude+Codex+Grok+Jev](https://news.ycombinator.com/item?id=49886390) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jeeva – A modular trading engine for mid-frequency trading using Jev](https://news.ycombinator.com/item?id=49784390) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jeff – A read-only CLI for semantic code review using Jev](https://news.ycombinator.com/item?id=49757757) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Jev as the Bletchley Park Analyst: A Software Bombe on Enigma](https://news.ycombinator.com/item?id=49903792) `📚1` — Watched a recent youtube veritasium on the enigma machine and was curious on…
+- [Show HN: Jev Decision Layer: Save Frontier Tokens on Closed Decisions](https://news.ycombinator.com/item?id=49888632) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Jev helps you to not run malicous code](https://news.ycombinator.com/item?id=49756921) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev Powered Obsidian Search](https://news.ycombinator.com/item?id=49795109) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev predicting your life choices](https://news.ycombinator.com/item?id=49858032) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev, Fly Me to the Moon](https://news.ycombinator.com/item?id=49769916) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev-align, a CLI to calibrate Jev to your judgement](https://news.ycombinator.com/item?id=49770872) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev-CLI – CLI wrapper for JEV typesafe AI model](https://news.ycombinator.com/item?id=49786725) `📚1`
+- [Show HN: Jev-Like Model Learns to Cook](https://news.ycombinator.com/item?id=49870984) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev-lint – semantic linter with plain English rules](https://news.ycombinator.com/item?id=49771155) `📚1` — observed / media-discussions — ⭐4
+- [Show HN: Jev-windows-agent – Windows UI Automation back end for CUA agents](https://news.ycombinator.com/item?id=49865431) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jev.Store – A dedicated directory of useful things made on Jev](https://news.ycombinator.com/item?id=49850364) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Jeva.cpp – a llama.cpp fork with JEV-compatible API for all LLMs](https://news.ycombinator.com/item?id=49878572) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: jevals – replacing LLM judges with typed Jev decisions](https://news.ycombinator.com/item?id=49780849) `📚1` — observed / media-discussions — ⭐6
+- [Show HN: Jevdit – a social network moderated by Jev](https://news.ycombinator.com/item?id=49870654) `📚1` — observed / media-discussions — ⭐7
+- [Show HN: Judge HN Threads with Jev](https://news.ycombinator.com/item?id=49788903) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Knowledge Signal – A JEV-powered rubric assessment tool for study notes](https://news.ycombinator.com/item?id=49840561) `📚1` — I built Knowledge Signal, an open-source prototype that turns study notes into…
+- [Show HN: lgtm? – Jev-powered checks that make agents test](https://news.ycombinator.com/item?id=49775566) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Matching Jev on BANKING77 at a thousandth of the cost](https://news.ycombinator.com/item?id=49867086) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Newt – A Swift Package for Jev-Style Decisions on Apple Core AI](https://news.ycombinator.com/item?id=49861306) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: onesie – An expressive Unix-pipeable CLI for System One models like Jev](https://news.ycombinator.com/item?id=49876472) `📚1` — onesie is a Unix-style CLI for using System One models in shell pipelines…
+- [Show HN: Open-Source Alternative to TypeSafe.ai](https://news.ycombinator.com/item?id=49750649) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Peekaboolean – image and jev-like typed questions in typed anwers out](https://news.ycombinator.com/item?id=49865111) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Run Jev-style models locally on Mac with 0.74 GB RAM](https://news.ycombinator.com/item?id=49787265) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Sezwhere – Ask any document "where does it say that?" (built on Jev)](https://news.ycombinator.com/item?id=49894301) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Sokit – a LangChain like harness for Jev (or other System 1 models)](https://news.ycombinator.com/item?id=49744527) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Tenjin – A Jev based x402 tool router for Claude Code](https://news.ycombinator.com/item?id=49851853) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Typesafe Java SDK (Unofficial)](https://news.ycombinator.com/item?id=49762324) `📚1` — observed / media-discussions — ⭐2
+- [Show HN: Using Jev to generate game levels in real time](https://news.ycombinator.com/item?id=49754951) `📚1` — observed / media-discussions — ⭐3
+- [Show HN: Will Jev pull the lever in the trolley problem?](https://news.ycombinator.com/item?id=49773756) `📚1` — observed / media-discussions — ⭐4
+- [Showcase thread](https://reddit.com/r/localllama/comments/1wgcpww/biweekly_megathread_project_showcase) `📚1`
+- [sid19arya0](https://x.com/sid19arya0/status/2100679099723223341) `📚1`
+- [site-rule moderation](https://reddit.com/r/openai/comments/1wms3sr/using_jev_to_automatically_moderate_social_media) `📚1` — and site-rule moderation: read original posts;
+- [Six clones of Jev in 2 days](https://news.ycombinator.com/item?id=49796792) `📚1` — observed / media-discussions — ⭐4
+- [Sorting 63,000 emails](https://x.com/nathanwilbanks_/status/2101035975694483914) `📚1` — WOW 🤯 i just used Jev + @agnt_gg to categorize 63,045 emails in less than 3 minutes for < $1 total runtime: 2 minutes 54 seconds input tokens: 23,430,692…
+- [source 1](https://x.com/justlingonberry/status/2100081351508767003) `📚1`
+- [source 1](https://x.com/kzkhykw/status/2100519018058698874) `📚1`
+- [source 2](https://x.com/kissonl/status/2100377946615587181) `📚1`
+- [Southen13](https://x.com/southen13/status/2100414423152136322) `📚1`
+- [soya_da_yoot](https://x.com/soya_da_yoot/status/2100451279222755616) `📚1`
+- [Stagehand + Jev](https://x.com/kylejeong/status/2101046888468553855) `📚1` — Jev inside act / observe / extract primitives
+- [Starchild prompt routing](https://x.com/starchildonx/status/2100936455401214327) `📚1` — Starchild just became the first professional-grade app to integrate Jev from @typesafeai We use Jev to help route to LLMs which gave a 20x decrease in cost and…
+- [steve8708 公开点名](https://linkedin.com/posts/steve8708_jev-is-awesome-but-for-the-love-of-god-please-activity-7506883009443303424-irbj) `📚1`
+- [stuartsim/jev-vercel-gateway](https://x.com/stusim/status/2100690465251283065) `📚1` — Stuart Sim on Vercel AI Gateway Input Gating -- Sub-100 ms input gating via Jev on Vercel AI Gateway shields downstream LLM invocations, saving 95%+ of LLM…
+- [Suhail — a new model type, not a classifier](https://x.com/suhail/status/2104935527816524089) `📚1` — Argues Jev is more than a simple classifier and can take a lot of packed state, but doesn't beat frontier LLMs on correctness yet.
+- [SUOHA_AI — Jev's own creator found its ceiling](https://x.com/suoha_ai/status/2101367171687280894) `📚1` — Browser Use's founder, after the viral 7-second flight-booking demo, retested Jev on 20 complex real-world tasks and got 1/20 right vs. GPT-5.6 Luna's 17/20.
+- [Supabase RLS linter](https://x.com/softwarecuddler/status/2100981707105284255) `📚1` — @typesafeai Jev is FREAKING SICK!! Playing around with it to create an experimental RLS Linter for @supabase. You can check it out here: or view the demo 📺 —…
+- [SuperQode SystemOne Tune](https://x.com/shashikant86/status/2101668569201160634) `📚1` — Shashikant86 · Article · ♥ 1 · 2026-09-20SuperQode's SystemOne harness for Jev-like models adds GEPA-based tuning that improves Jev's typed tool-gating and…
+- [sybuilds](https://x.com/sybuilds/status/2100679413243474010) `📚1`
+- [Sydney Runkle](https://x.com/sydneyrunkle) `📚1`
+- [SYNTHLEX — the $200M model that got reproduced in 5 days](https://x.com/synthlex_/status/2102411667598356656) `📚1` — Tallies 10,294 stars across 11 independent Jev clones with zero monetization, and argues the real moat isn't the architecture but calibration data — the record…
+- [tdinh_me/tetris-harness](https://x.com/tdinh_me/status/2101958041986068848) `📚1` — (TypeScript / Evaluation) &middot; 🐦 Thread -- Tony Dinh's empirical reality check on real-time game control. Stripping the TypeScript search harness that…
+- [Teknium — Jev-based compaction doesn't hold up](https://x.com/teknium/status/2101398453578555898) `📚1` — Ran Jev-driven context compaction against a reproducible public eval and found it degenerates to a free programmatic rule that gets worse each round and breaks…
+- [Testing Jev as a validation gate for drug-discovery agents](https://news.ycombinator.com/item?id=49769496) `📚1` — observed / media-discussions — ⭐2
+- [The car wash question on Jev](https://reddit.com/r/llmdevs/comments/1wlciiq/the_famous_car_wash_question_on_jev) `📚1` — Tries the well-known car wash reasoning question on Jev and sparks a long debate (104 comments) on how to judge a decision model's intelligence beyond speed…
+- [The easiest-to-understand article I've read about Jev](https://news.ycombinator.com/item?id=49784782) `📚1` — observed / media-discussions — ⭐3
+- [The Jagged Frontier of Jev 1.13](https://news.ycombinator.com/item?id=49809509) `📚1` — observed / media-discussions — ⭐3
+- [The Jev Setup Guide: How to Get Maximum Quality for Minimum Cost (Exact Config Inside)](https://x.com/zodchiii/article/2101243146596384854) `📚1` — Based on: “The Jev Setup Guide: How to Get Maximum Quality for Minimum Cost (Exact Config Inside)” by darkzodchi, published 19 September 2026. This is an…
+- [The use cases Jev unlocks](https://x.com/tonnoz/status/2100844854490103835) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [Thoughts on Jev? Any use cases?](https://reddit.com/r/machinelearningnews/comments/1wjkzs5/thoughts_on_jev_any_usecases) `📚1` — Thread weighing whether Jev is worth the hype, comparing it with small encoder classifiers such as GLiNER and pointing to tasks people used Haiku for.
+- [Threads](https://threads.com/@stilesja/post/ddlpfibdkn3) `📚1` — @stilesja — IVR demo built on Jev: live call transcript with real-time classification probabilities beside it (Threads, 2026-09-22).
+- [Threads](https://threads.com/@nomadius.cyou/post/ddjssfigjlt) `📚1` — @nomadius.cyou — "Browser Dealer by K2S": Zürich → London flight-search head-to-head, Jev live lane (Threads, 2026-09-20).
+- [Threads](https://threads.com/@stvan.p/post/ddl2whmcr-y) `📚1` — @stvan.p (Threads, 2026-09-22) — "Jev plays Snake": screen recording of a Snake game where Jev acts as the high-level strategist (jevsnake.stevanuspangau.dev).
+- [Threads](https://threads.com/@kraayenjon/post/ddn2zi9gamu) `📚1` — @kraayenjon (Threads, 2026-09-23) — "Shapeshift": "Type UI. Get UI." — screen-recorded demo of natural-language phrases rendered as structured UI cards (event,…
+- [Threads](https://threads.com/@lets.anthony.kim/post/ddxvzn5e9tr) `📚1` — @lets.anthony.kim (Threads / FB reel, 2026-09-27) — Korean three-way Tetris battle: human vs Jev vs heuristic bot on jev-tetris-battle.vercel.app (same block…
+- [Threads](https://threads.com/@orbis2358__/post/ddzamh-j1e8) `📚1` — @orbis2358__ (Threads, 2026-09-27) — Self-built benchmark of Jev vs a new "system-one" model called span-01 across three tasks: Lichess chess puzzles, Korean…
+- [Threads](https://threads.com/@derekhsu/post/dd2oieso8xc) `📚1`
+- [Threads](https://threads.com/@vi.dulov/post/ddsz2d9dyiv) `📚1`
+- [Threads promo video](https://threads.com/@gspark337/post/ddvdhzie2ea) `📚1` — HyperTeams — Korean agent team says Jev judges whether their agent's work is actually done across 5,161 labeled operational turns: vendor-claimed 96.3%…
+- [TinyJev -Tiny Jev-style decision model that runs offline](https://news.ycombinator.com/item?id=49804866) `📚1` — observed / media-discussions — ⭐2
+- [Top 10 Jev Builds You Can Ship in an Afternoon](https://x.com/0x_rody/article/2103165281149354256) `📚1` — Based on: “Top 10 Jev Builds You Can Ship in an Afternoon” by rody, published 24 September 2026. This original Appit Studio guide was drafted with AI…
+- [tosa_now](https://x.com/tosa_now/status/2100230707297878339) `📚1` — useLectio · world_ia_lupo
+- [Trained KV cache bank turns any LLM into Jev like Model](https://news.ycombinator.com/item?id=49813610) `📚1` — observed / media-discussions — ⭐3
+- [Tuana — Jev vs. tabular foundation models](https://x.com/tuanacelik/status/2102775182834426099) `📚1` — Jev reads a row as text and predicts from world knowledge without fitting to your data, unlike a tabular foundation model like TabPFN that predicts from the…
+- [Two techniques for working with System One models](https://news.ycombinator.com/item?id=49755005) `📚1` — observed / media-discussions — ⭐2
+- [Typed-lm: a Rust jev open source alternative](https://news.ycombinator.com/item?id=49855980) `📚1` — observed / media-discussions — ⭐3
+- [TypeSafe / Jev latency-focused demos built by Devin](https://news.ycombinator.com/item?id=49757995) `📚1` — observed / media-discussions — ⭐2
+- [TypeSafe AI Jev vs. GPT-6 Astra](https://news.ycombinator.com/item?id=49798734) `📚1` — observed / media-discussions — ⭐3
+- [TypeSafe Conversation](https://reddit.com/r/homeassistant/comments/1wtbrz4/typesafe_conversation_a_home_assistant_voice) `📚1` — Home automation: a Home Assistant voice agent built on Jev.
+- [TypeSafe Jev API 教程](https://x.com/codingsharkjo/status/2102241824702423391) `📚1` — TypeSafe Jev API tutorial · CodingSharkJO · YouTube · ▶ 14 · 2026-09-22YouTube getting-started tutorial on integrating Jev and System One models into…
+- [TypeSafe X](https://x.com/typesafeai/status/2104772007481180633) `📚1`
+- [TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway](https://news.ycombinator.com/item?id=49768633) `📚1` — observed / media-discussions — ⭐2
+- [typesafe-computer-use…](https://news.ycombinator.com/item?id=49733647) `📚1`
+- [Typesafe.ai Jev Open Source Alternative Qwen-2.5-1B-RLCD](https://news.ycombinator.com/item?id=49734345) `📚1`
+- [Understand any Bluesky account (Jev)](https://news.ycombinator.com/item?id=49772632) `📚1` — observed / media-discussions — ⭐2
+- [UNgethe](https://x.com/ungethe/status/2100652324418945273) `📚1` — atomic_chat_hq · ProTrailblazer / ②
+- [useLectio](https://x.com/uselectio/status/2100249540599386538) `📚1`
+- [Using jev to improve product experiences is pretty crazy](https://news.ycombinator.com/item?id=49760264) `📚1` — observed / media-discussions — ⭐5
+- [Using system-one models inside high-throughput data pipelines](https://news.ycombinator.com/item?id=49771931) `📚1` — observed / media-discussions — ⭐2
+- [V2EX](https://v2ex.com/t/1243613) `📚1`
+- [V2EX](https://v2ex.com/t/1244562) `📚1`
+- [V2EX 三帖](https://v2ex.com/t/1242402) `📚1`
+- [Vibecheck](https://x.com/rafalwilinski/status/2100959576682012988) `📚1` — Jev is now in charge of this account's humor — by @rafalwilinski
+- [void — the threshold is part of the prompt](https://x.com/sakevoid/status/2102896039678382177) `📚1` — Ran 154 shell commands through 12 phrasings of the same danger-check question: accuracy stayed 94.8-100% throughout, but the decision threshold that matched a…
+- [Von and critical feedback](https://reddit.com/r/localllama/comments/1wkpxn6/von_opensource_395m_system_one_model) `📚1`
+- [Von, an Open-Source Jev Alternative](https://news.ycombinator.com/item?id=49858763) `📚1` — observed / media-discussions — ⭐2
+- [Walid Boulanouar 双层版](https://linkedin.com/posts/walid-boulanouar_i-built-a-browser-extension-that-removes-activity-7506661817759383553-madd) `📚1`
+- [We put Jev in production against a cross-encoder. Here are the numbers](https://news.ycombinator.com/item?id=49804788) `📚1` — observed / media-discussions — ⭐5
+- [We Rebuilt Jev's API on an Open Model and Used It to Play Doom](https://news.ycombinator.com/item?id=49804256) `📚1` — observed / media-discussions — ⭐2
+- [We swapped our LLMs for Jev. It's 39% cheaper](https://news.ycombinator.com/item?id=49881537) `📚1` — observed / media-discussions — ⭐6
+- [What are you building with jev?](https://news.ycombinator.com/item?id=49772507) `📚1` — observed / media-discussions — ⭐2
+- [What if Jev spoke Arrow?](https://news.ycombinator.com/item?id=49895970) `📚1` — observed / media-discussions — ⭐3
+- [What is a System One model and why we need it?](https://news.ycombinator.com/item?id=49760138) `📚1` — observed / media-discussions — ⭐2
+- [What is Jev? (r/LocalLLaMA)](https://reddit.com/r/localllama/comments/1wleg4w/what_is_jev_and_what_is_it_used_for) `📚1` — Large r/LocalLLaMA thread (306 comments) where people explain what Jev is, how it differs from an LLM, and what it is actually useful for.
+- [What Is RLCD? The Secret Behind Jev](https://news.ycombinator.com/item?id=49829625) `📚1` — observed / media-discussions — ⭐66
+- [What Jev can really do](https://x.com/servasyy_ai/status/2101132667056185544) `📚1` — Chinese-language reality check on Jev that explains what it is and is not, sorts demos that actually work by use case, and lays out the caveats behind the…
+- [What Jev Means for the Future of Evals](https://news.ycombinator.com/item?id=49789909) `📚1` — observed / media-discussions — ⭐3
+- [What Makes Jev Different from Other LLMs? A Simple Explanation](https://news.ycombinator.com/item?id=49796013) `📚1` — observed / media-discussions — ⭐2
+- [What toxicity sounds like to Jev](https://x.com/rrriviannn/status/2100807838566383819) `📚1` — Okay soooo what if @typesafeai's Jev could 'hear'? here's what Toxicity sounds like according to Jev : — by @rrriviannn
+- [What TypeSafe Got Right with the Jev Launch](https://news.ycombinator.com/item?id=49891067) `📚1` — observed / media-discussions — ⭐2
+- [What you can build with TypeSafe AI Jev](https://news.ycombinator.com/item?id=49797360) `📚1` — observed / media-discussions — ⭐2
+- [Where Jev worked for us, and where it didn't](https://news.ycombinator.com/item?id=49799065) `📚1` — observed / media-discussions — ⭐2
+- [whereischarly — benchmark it against encoders, not LLMs](https://x.com/whereischarly/status/2100955287200907343) `📚1` — Argues the fair comparison for Jev isn't frontier LLMs but boring open-weight encoder classifiers that have done zero marketing.
+- [Why Is Everyone Suddenly Talking About Jev? A Look From the Security Side — LinkedIn](https://linkedin.com/pulse/why-everyone-suddenly-talking-jev-look-from-security-side-onal-vbmge) `📚1`
+- [world_ia_lupo](https://x.com/world_ia_lupo/status/2099575807081345310) `📚1`
+- [WquGuru — Jev vs. its clones, head to head](https://x.com/wquguru/status/2102781168437567638) `📚1` — On the same 20-question set: Jev 20/20, AnyJev (Qwen3-4B) 95%, Laya 65%, djev (Mac, 4-bit) 35% — and reversing djev's option order flipped 19 of its 20 answers.
+- [Write Without Spaces with Jev](https://news.ycombinator.com/item?id=49790936) `📚1` — observed / media-discussions — ⭐4
+- [WTF is Jev (9 builds)](https://x.com/i/article/2100772231462961152) `📚1` — Matt Van Horn roundup of early builds (browser agent, compaction, fx, routing, RAG, games, email, batch eval, on-device); thread
+- [WTF Is Jev? 9 Things People Are Already Building](https://x.com/mvanhorn/status/2100784142850097482) `📚1` — Pattern roundup with receipts: give candidates (do not invent), fast reacts / slow plans, measured loops. Best as a map of what to look for, not a clone…
+- [WTF Is Jev? 9 Things People Are Already Building With It](https://x.com/mvanhorn/article/2100784142850097482) `📚1` — Based on: “WTF Is Jev? 9 Things People Are Already Building With It” by Matt Van Horn, published 18 September 2026. This is an original Appit Studio guide,…
+- [X @0xLogicrw](https://x.com/0xlogicrw) `📚1` — logicrw.chen@gmail.com · X @0xLogicrw · Telegram @logicrw
+- [X article](https://x.com/tonygentilcore/status/2104639390266036251) `📚1` — Decision: Jev chooses one of three predefined experts for each request, replacing the bounded selection step of the generative routing prompt.Action: The team…
+- [X demo](https://x.com/openrouter/status/2102125765773144286) `📚1` — XMage supplies legal plays; pure and hybrid players use Jev for bounded decisions and selection among searched lines.
+- [X demo](https://x.com/openrouter/status/2102125782219075865) `📚1` — A shared internet-versus-Jev chess game visualizes probabilities over legal move candidates.
+- [X demo](https://x.com/openrouter/status/2102125798371283444) `📚1` — Jev searches transcript meaning; code previews and applies approved clip moves and renames.
+- [X demo](https://x.com/openrouter/status/2102125815031071157) `📚1` — Ranks domain candidates against vibe and keyword preferences, separately from registry and availability checks.
+- [X demo](https://x.com/openrouter/status/2102125830185075060) `📚1` — eyword-density code prioritizes files and chunks; Jev judges passages in a fast first pass and a broader second pass.
+- [X demo](https://x.com/maxlibin/status/2102289217569337667) `📚1` — Chooses when a cube coach should stay quiet, warn, celebrate, or offer help; deterministic solvers find the moves.
+- [X demo](https://x.com/__syumai/status/2102297752810229800) `📚1` — Suggests semantically related CLI subcommands from the command's documented choices rather than only matching typos.
+- [X post](https://x.com/haoailab/status/2104302648786919643) `📚1`
+- [X's composer](https://x.com/compose/post) `📚1` — . Open X's composer, enter a non-sensitive sample such as “I shipped a small bug fix today. Here is what changed.”, and press the extension's Check button…
+- [x.com/luizribeiro/status/2102135454287970585](https://x.com/luizribeiro/status/2102135454287970585) `📚1`
+- [x.com/numankhannnnn/status/2102779770220286158](https://x.com/numankhannnnn/status/2102779770220286158) `📚1`
+- [Xiaofan Wu — a production playbook for typed decision models](https://x.com/xfanwu/status/2102408991783436645) `📚1` — Three insertion points (upstream router, midstream execution gate, downstream verifier), three primitives (Choice/Score/Bool), and a 7-step rollout checklist;…
+- [Yarrow — stress-testing Jev on 48 real corporate-disclosure cases](https://x.com/yarrow_ai/status/2102226848436645902) `📚1` — Classification was reliable (48/48) but judgment wasn't: 10/48 false "No"s on unmentioned outcomes, re-running identical inputs changed a field in 8/48 cases,…
+- [yishan](https://x.com/tspy) `📚1`
+- [yoavgo — 29 arXiv papers in two weeks](https://x.com/yoavgo/status/2104454553714450822) `📚1` — Notes Jev had only limited early access from Sep 15 yet already had 29 arXiv papers, and calls that pace "not healthy".
+- [You can use any LLM just like JEV](https://news.ycombinator.com/item?id=49791782) `📚1` — observed / media-discussions — ⭐10
+- [You could have built Jev](https://news.ycombinator.com/item?id=49755430) `📚1` — observed / media-discussions — ⭐2
+- [You could have built Jev](https://news.ycombinator.com/item?id=49783456) `📚1` — observed / media-discussions — ⭐3
+- [You don't need Jev for good emoji search](https://news.ycombinator.com/item?id=49859335) `📚1` — observed / media-discussions — ⭐2
+- [Yousufakhan95/Jev-Discord-Moderation](https://github.com/yousufakhan95/jev-discord-moderation) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [YouWare résumé screener](https://x.com/youwareai/status/2100984559215247814) `📚1` — JEV is Awsome!!! 😎 360 resumes Screened in 24.2s — $0.0212. Typed scores. Shortlist signals. Speed + cost your boss will quietly love. I Open-sourced the…
+- [zaidbul/robotic-arm-jev](https://x.com/zaidbul) `📚1` — (Python) &middot; 🐦 Thread -- Real-world robotic arm sorting physical workspace objects in real time. Coordinates evaluated by Jev in sub-50 ms cycles without…
+- [zelin1107 — auditing Jev's own numbers](https://x.com/zelin1107/status/2101904208547258587) `📚1` — A close read of the launch blog's own "Nuance" disclosures — laptop-only benchmarks, unproven cost sustainability, in-house eval design, an admittedly…
+- [“多模态 JEV 类模型”笔记](https://xiaohongshu.com/explore/6ab898da00000000190248ff) `📚1`
+- [②](https://x.com/shantanugoel/status/2100455779627311352) `📚1`
+- [②](https://x.com/protrailblazer/status/2100642491804336413) `📚1`
+- [《Jev 实战系列 04：Jev + CDP 浏览器自动化》](https://zhuanlan.zhihu.com/p/2084848802809303864) `📚1` — “Jev in practice 04: Jev + CDP browser automation” (Chinese)
+- [《JEV 应用接入实测：距离“能用”还远着》](https://zhuanlan.zhihu.com/p/2085662736722276833) `📚1` — “JEV integration tested: still far from usable” (Chinese)
+- [《每步决策 385ms：接进两个真实系统》](https://zhuanlan.zhihu.com/p/2085717977140352185) `📚1` — “385 ms per decision: wired into two real systems” (Chinese)
+- [「有没有上手」](https://v2ex.com/t/1243250) `📚1`
+- [てる (@rute1203d) — four domain playbooks](https://x.com/rute1203d/status/2100783005229011415) `📚1` — Concrete patterns for support-ticket triage, search-result relevance, tool selection, and agent-memory gating.
+- [一个视频搞懂Jev！](https://xiaohongshu.com/explore/6aaf548c000000000d025edf) `📚1` — “Jev explained in one video” (Chinese)
+- [一文了解 Jev 模型到底是啥](https://xiaohongshu.com/explore/6aac6d53000000002802a9ff) `📚1` — “What is the Jev model?” (Chinese)
+- [不如小参数开源模型?](https://v2ex.com/t/1242839) `📚1`
+- [与 Jev 对弈的国际象棋 playground](https://x.com/ezeugo__/status/2102207212986724814) `📚1` — Chess playground against Jev · ezeugo__ · X · ▶ 9 · 2026-09-22Playground for playing chess against Jev, which receives the board as state and all legal moves…
+- [专为 Jev 做的游戏](https://x.com/icaro_333/status/2102242170191179948) `📚1` — Game built for Jev to play · Icaro_333 · X · ▶ 41 · 2026-09-22Small game built specifically for Jev to play, made while learning how the model works.
+- [两分钟讲清 Jev](https://x.com/vertr_ai/status/2101921554116592055) `📚1` — Jev explained in two minutes · vertr_ai · X · ♥ 3 · 2026-09-21Short explainer video on splitting work between an LLM that plans and Jev that picks the next…
+- [中文解读推](https://x.com/aisuperdomain/status/2100536937664938408) `📚1`
+- [交易盈利提醒](https://x.com/mooninpapa/status/2104005602078798220) `📚1` — We did not promote the trading-profit alert, one-off game scores, social views, one-off speed / cost figures, or demos without code into the main catalog. They…
+- [介绍帖](https://v2ex.com/t/1243087) `📚1`
+- [作者 9 月 20 日的 Reddit 分享](https://reddit.com/r/sillytavernai/comments/1wl7uje/jev_might_be_the_next_frontier_for_improving) `📚1` — Full post and README. Batched, scoped sensors inform narration rules; no reproduction of the author's quality claims.
+- [作者 9 月 20 日的分享](https://reddit.com/r/opensourceeai/comments/1wl9m9n/jevify_super_simple_way_to_serve_llms_as_a) `📚1` — Post and README. An adapter for other models, not Jev weights. API compatibility does not establish equivalent calibration. Not installed.
+- [作者推文](https://x.com/kieranklaassen/status/2100088928271585527) `📚1`
+- [原始入口](https://x.com/totzenberger/status/2100575503061004579) `📚1`
+- [原始入口](https://x.com/coooolxyh/status/2101284346640654362) `📚1`
+- [原始入口](https://x.com/ponyo877/status/2101139914419290345) `📚1`
+- [原帖评论区](https://reddit.com/r/localllama/comments/1wjlyzr) `📚1`
+- [原文](https://x.com/nft_chen/status/2100466502545862725) `📚1`
+- [发现帖](https://x.com/aiwire_x/status/2104093221500658121) `📚1` — X → TypeLLM: this discovery post points to TypeLLM. README, license, and its evals/jevbench materials support its SGLang typed-generation layer, image input,…
+- [后续恢复帖](https://x.com/typesafeai/status/2101973003710222600) `📚1`
+- [和 Jev 下国际象棋](https://x.com/theshajha/status/2101905184704323969) `📚1` — Chess against Jev · theshajha · X · ▶ 96 · 2026-09-21Chess board where you play a game against Jev as your opponent.
+- [国际象棋对比：Jev vs Laya-mix](https://x.com/eter_inquirer/status/2102147083491000524) `📚1` — Chess bench: Jev vs Laya-mix · eter_inquirer · X · ▶ 404 · 2026-09-21Chess matches between Jev and the local Laya-mix model, where Laya is faster but Jev wins…
+- [官方回复](https://x.com/typesafeai/status/2101786280946499671) `📚1` — An official reply described this as roughly 120 million input tokens; it is not a promise of ongoing free use
+- [推文](https://x.com/afinetheorem/status/2099988282520072479) `📚1`
+- [有人用么](https://v2ex.com/t/1242707) `📚1`
+- [构建过程推](https://x.com/robj3d3/status/2100631889585606959) `📚1`
+- [比Jev快50倍？本地部署直接原地起飞！](https://xiaohongshu.com/explore/6aaff680000000000b0379c0) `📚1` — “50× faster than Jev? Run it locally!” (Chinese)
+- [生き残るための3K — the MacBook Air that beat the cloud](https://x.com/ikinokore_3k/status/2102593158681186391) `📚1` — onstantin Gladych's team raced local Laya against cloud Jev at Tetris on a 16GB MacBook Air and clocked Laya 11x faster, though replies note the gap may be…
+- [用 Jev 为 deepagents 做上下文选择](https://x.com/hiroshia_ai/status/2102214053489955208) `📚1` — Jev selection for deepagents · HiroshiA_AI · X · ▶ 3 · 2026-09-22Replaces LangChain deepagents' SummarizationMiddleware with Jev-based context selection; on a…
+- [用 Jev 玩 Atari Pong](https://x.com/memorysavermfa/status/2100881912113909893) `📚1` — Jev on Atari Pong · MemorysaverMFA · Article · ▶ 15 · 2026-09-18Article on using Jev as a policy-shaped controller for Atari Pong, where the policy lives in…
+- [知乎同题入口](https://zhuanlan.zhihu.com/p/2085400278489101833) `📚1`
+- [群聊 agent 选择器](https://x.com/vadimchoi/status/2101937206063780084) `📚1` — Group chat agent picker · vadimchoi · X · ♥ 1 · 2026-09-21Compares three ways to decide which agent in a group chat should answer: @mentions, an LLM…
+- [自称带 RLCD 训练的开源克隆](https://reddit.com/r/localllama/comments/1wjieap) `📚1`
+- [输出免费！前OpenAI研究员发布全新模型](https://xiaohongshu.com/explore/6aa9fe26000000001001c25e) `📚1` — “Free output! Former OpenAI researcher releases a new model” (Chinese)
+- [那个教 ChatGPT 说话的人，做了一个「哑巴」模型](https://zhuanlan.zhihu.com/p/2084250679376462979) `📚1`
+- [项目作者帖](https://xiaohongshu.com/explore/6ab4a4230000000015015366) `📚1` — Xiaohongshu → OmniJev: an author post points to the project site, GitHub, and weights. Its README supports the 0.8B, 2B, and 4B choice / score / noul interface…
+- [项目来源](https://reddit.com/r/agentzero/comments/1wj6li0/i_tested_typesafes_jev_model_and_made_it_run_a) `📚1`
+- [🐦 Thread](https://x.com/xillionsbobby/status/2100955062776586647) `📚1`
+- [🐦 Thread](https://x.com/tj_klug/status/2100695837495992737) `📚1` — TjKlug/slopcheck (TypeScript) &middot; 🐦 Thread -- Code review pipeline combining deterministic AST candidate extraction with semantic Jev scoring. Evaluates…
+- [🐦 Thread](https://x.com/austin_way/status/2102131624921968704) `📚1`
+- [🐦 Thread](https://x.com/sep_is_heim/status/2101603192664740330) `📚1` — Canonical Thread:
+- [🐦 Thread](https://x.com/superx_so) `📚1`
+- [🐦 Thread](https://x.com/pawelhuryn/status/2101213026204401921) `📚1` — Canonical Thread:
+- [🐦 Thread](https://x.com/itscuthulhu/status/2101491913866055821) `📚1` — Canonical Threads: and
+- [🐦 Thread](https://x.com/singularity_sah/status/2101450114246000706) `📚1` — Sahibzada Allahyar on GLiNER as Open Fast Classifier -- Fastino AI and Cambridge researcher analysis of bidirectional encoders. Argues GLiNER and GLiFormer…
+- [🐦 Thread](https://x.com/fastinoai/status/2103188985292157353) `📚1` — Canonical Thread:
+- [🐦 Thread](https://x.com/jaredpalmer) `📚1`
+- [🐦 Thread](https://x.com/marktechpost/status/2102660770941321233) `📚1`
+- [🐦 Thread](https://x.com/franckverrot/status/2101896265718198757) `📚1`
+- [🐦 Thread](https://x.com/googlegemma/status/2102536894169096357) `📚1`
+- [🔗 在 X 上查看](https://x.com/suoha_ai/status/2100628846240264348) `📚1`
+- [🔗 在 X 上查看](https://x.com/kanaworks_ai/status/2100783766193246394) `📚1`
+- [🔗 在 X 上查看](https://x.com/mikadzyki_nft/status/2100950578113232992) `📚1`
+- [🔗 在 X 上查看](https://x.com/studio_yebisu/status/2101003307200430126) `📚1`
+- [🔗 在 X 上查看](https://x.com/alandaitch/status/2101090570110169547) `📚1`
+- [🔗 在 X 上查看](https://x.com/chenchengpro/status/2100552073150665056) `📚1`
+- [🔗 在 X 上查看](https://x.com/suoha_ai/status/2100619720772694036) `📚1`
+- [🔗 在 X 上查看](https://x.com/rafalwilinski/status/2100516118586642476) `📚1`
+- [🔗 在 X 上查看](https://x.com/jpschroeder/status/2100230381588951209) `📚1`
+- [🔗 在 X 上查看](https://x.com/robj3d3/status/2100876506549645608) `📚1`
+- [🔗 在 X 上查看](https://x.com/gianmattya/status/2100878864855748668) `📚1`
+- [🔗 在 X 上查看](https://x.com/rauchg/status/2101032024635249069) `📚1`
+- [🔗 在 X 上查看](https://x.com/rauchg/status/2101079472732848510) `📚1`
+- [🔗 在 X 上查看](https://x.com/0xmaz_/status/2101030854269231389) `📚1`
+- [🔗 在 X 上查看](https://x.com/4ba_ba_baba/status/2100476048957931642) `📚1`
+- [🔗 在 X 上查看](https://x.com/hqmank/status/2100938653979508826) `📚1`
+- [🔗 在 X 上查看](https://x.com/daniel_mac8/status/2100620339097026633) `📚1`
+- [🔗 在 X 上查看](https://x.com/dotpem/status/2100389272004198844) `📚1`
+- [🔗 在 X 上查看](https://x.com/liambraus/status/2100954699255947277) `📚1`
+- [🔗 在 X 上查看](https://x.com/flaviocopes/status/2100695543995347188) `📚1`
+- [🔗 在 X 上查看](https://x.com/bystand3rs/status/2100769446457647532) `📚1`
+- [🔗 在 X 上查看](https://x.com/youwareai/status/2100655600803966986) `📚1`
+- [🔗 在 X 上查看](https://x.com/amitiitbhu/status/2100839449576030414) `📚1`
+- [🔗 在 X 上查看](https://x.com/gosailglobal/status/2100620755155181835) `📚1`
+- [🔗 在 X 上查看](https://x.com/av1dlive/status/2100974220759196026) `📚1`
+- [🔗 在 X 上查看](https://x.com/hwchase17/status/2100773130041950579) `📚1`
+- [🔗 在 X 上查看](https://x.com/neutronprawn/status/2100670087128846603) `📚1`
+- [🔗 在 X 上查看](https://x.com/oviniciuslana/status/2100457622407168509) `📚1`
+- [🔗 在 X 上查看](https://x.com/agentnative_/status/2100624941326500122) `📚1`
+- [🔗 在 X 上查看](https://x.com/sleepy0x13/status/2100753996684403175) `📚1`
+- [🔗 在 X 上查看](https://x.com/shannholmberg/status/2100979911825789393) `📚1`
+- [🔗 在 X 上查看](https://x.com/geekcatx/status/2100956459580395585) `📚1`
+- [🔗 在 X 上查看](https://x.com/kkawsb/status/2101043826714661033) `📚1`
+- [🔗 在 X 上查看](https://x.com/htwavever/status/2101168084652622062) `📚1`
+- [🔗 在 X 上查看](https://x.com/goon_nguyen/status/2101168725458354331) `📚1`
+- [🔗 在 X 上查看](https://x.com/k_matsumaru/status/2100767258415157493) `📚1`
+- [🔗 在 X 上查看](https://x.com/anthdm/status/2100489448576131433) `📚1`
+- [🔗 在 X 上查看](https://x.com/pedronauck/status/2100744500876320868) `📚1`
+- [🔗 在 X 上查看](https://x.com/claudecode84/status/2100810733076590784) `📚1`
+
+</details>

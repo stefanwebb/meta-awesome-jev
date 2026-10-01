@@ -1,0 +1,255 @@
+# Research Papers
+
+> arXiv and other papers about Jev, System One models, and the calibration / routing literature they build on.
+>
+> **232 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 3
+
+- [Eliot5566/JEV-Paper-Radar](https://github.com/eliot5566/jev-paper-radar) `★26 · 📚22` — Let Jev read every new arXiv paper each morning and surface the few you should read. Plain-English interests, calibrated probabilities, ~$0.06/day, fork and go.
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) `📚18` — "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem". !arXiv
+- [CompleteDotTech/paper-package](https://github.com/completedottech/paper-package) `★1 · 📚10` — Jev research manuscript, evidence, and reproducible paper package
+
+## Established (cited by 5–9 lists) — 13
+
+- [1kpapers](https://1kpapers.com) `📚7` — Paper explorer: generation for summaries, Jev for topics
+- [JEV-as-a-Judge](https://arxiv.org/abs/2609.26550) `📚7` — "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure". !arXiv
+- [Just Ask Jev](https://arxiv.org/abs/2609.29429) `📚7` — "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures". !arXiv
+- [Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions](https://arxiv.org/abs/2609.28613) `📚6` — Decision Hijacking, "Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions". !arXiv
+- [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://arxiv.org/abs/2609.23986) `📚6` — Jev-Mem, "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents". !arXiv
+- [site](https://jev-paper-judge.jacob.workers.dev) `📚6`
+- [LYchoon/paper-radar-jev](https://github.com/lychoon/paper-radar-jev) `★3 · 📚5` — An automated research paper radar that fetches the latest papers from arXiv, evaluates their relevance to a configurable research profile using TypeSafe AI, and ranks them by relevance score. Designed for personalized, daily literature…
+- [SRjoeee/jev-paper](https://github.com/srjoeee/jev-paper) `★1 · 📚5` — Marks every claim in an arXiv abstract, the sentence that delivers it, and the caveats worth knowing — right on the page. No summaries: every mark is the authors' own sentence. Chrome extension, bring your own key.
+- [Calibrated Decision Models for Autonomous Penetration-Testing Harnesses](https://arxiv.org/abs/2609.28940) `📚5` — Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents
+- [JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places](https://arxiv.org/abs/2609.29769) `📚5` — Jev vs. LLM Rubric Judges, "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places". !arXiv
+- [JevAdvBench](https://arxiv.org/abs/2609.31142) `📚5` — "JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models". !arXiv
+- [Type-Safe Is Not Error-Free](https://arxiv.org/abs/2609.26758) `📚5` — "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It". !arXiv
+- [When a Judgment Layer’s Self-Reported Fields Lie](https://doi.org/10.5281/zenodo.22901853) `📚5` — When a Judgment Layer's Self-Reported Fields Lie (Zenodo) - Jev as one of three judgment layers; tests whether the self-reported confidence fields track correctness.
+
+## Emerging (cited by 3–4 lists) — 26
+
+- [Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash](https://arxiv.org/abs/2609.24052) `📚4` — Calibrated Decisions at Scale (arXiv:2609.24052) - Converting police crash narratives into probabilistic variables with Jev.
+- [GLiClass](https://arxiv.org/abs/2508.07662) `📚4` — paper - Write-up of the single-pass label scorer. The runnable library is the GLiClass entry above.
+- [Jev-Mobile: Jev as an Executor for Mobile GUI Agents](https://arxiv.org/abs/2609.30186) `📚4` — Author code not verified; Primary abstract reviewed. An agent system, not evidence that the Jev executor consumes raw screenshots. Canonical author code not verified.
+- [JevOut](https://arxiv.org/abs/2609.30243) `📚4` — "JevOut: Natural Context Can Flip Decision Models". !arXiv
+- [JEVQA — Video Quality from Metadata, Bitstream, and Pixel Features with a General-Purpose](https://arxiv.org/abs/2609.24395) `📚4` — JEVQA, "JEVQA - Video Quality from Metadata, Bitstream, and Pixel Features with a General-Purpose Decision Model". !arXiv
+- [JSONSchemaBench](https://arxiv.org/abs/2501.10868) `📚4` — (B · 2025 · arXiv) Generating Structured Outputs from Language Models — JSONSchemaBench with 10,000 real-world schemas. geng2025jsonschema
+- [LLaDA](https://arxiv.org/abs/2502.09992) `📚4` — Non-autoregressive language modeling; no direct architectural link to Jev confirmed
+- [Open-Jev Judgments on CallScreenBench: Calibrated One-Pass Scam Screening with a Small Lan](https://arxiv.org/abs/2609.23959) `📚4` — JevLite, "Open-Jev Judgments on CallScreenBench: Calibrated One-Pass Scam Screening with a Small Language Model". !arXiv
+- [REFLEX](https://arxiv.org/abs/2609.26532) `📚4` — with Jev for Efficient Selective Control in LLM Agents📅 2026-09-22 14:54 UTC · arXiv v1 · Tier A · Tiantong Wu and Wei Yang Bryan Lim
+- [Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Un](https://arxiv.org/abs/2609.27678) `📚4` — Authors report the lowest cost and median latency for Jev, but higher baseline accuracy for hosted LLMs; small repeated-correctness dif
+- [this-that-model-1.0: A typed decision model that decides in 30 ms, for a millionth of a ce](https://arxiv.org/abs/2609.23886) `📚4` — this-that-model-1.0, "this-that-model-1.0: A typed decision model that decides in 30 ms, for a millionth of a cent". !arXiv
+- [Visual Jev: Accurate and Efficient Decisions from Shared Visual Context](https://arxiv.org/abs/2609.25845) `📚4` — Visual Jev, "Visual Jev: Accurate and Efficient Decisions from Shared Visual Context". !arXiv
+- [Calibration-Aware RL for Decision-Making LLMs](https://arxiv.org/abs/2601.13284) `📚3` — "Balancing Classification and Calibration Performance in Decision-Making LLMs via Calibration Aware Reinforcement Learning". !arXiv
+- [Can Jev Judge Radiology Reports? Evaluating a System One Model for Clinical Factuality](https://arxiv.org/abs/2609.27607) `📚3` — Jev for Radiology Reports, "Can Jev Judge Radiology Reports? Evaluating a System One Model for Clinical Factuality". !arXiv
+- [Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enter](https://arxiv.org/abs/2609.28919) `📚3` — Uses Jev as a custom classifier for session-start, side-lane, and subagent-launch model routing; authors report cost changes in a repricing simulation based on public datasets
+- [Evaluating Decision Models for Text Annotation in Computational Social Science](https://arxiv.org/abs/2609.24574) `📚3` — 🔥 Evaluating Decision Models for Text Annotation in Computational Social Science📅 2026-09-21 13:41 UTC · arXiv v1 · Tier B · Hazem Ibrahim and Yasir Zaki
+- [Fast Intent-Driven Service Orchestration with Jev for 6G Edge Networks](https://arxiv.org/abs/2609.23136) `📚3` — G Intent Orchestration, "Fast Intent-Driven Service Orchestration with Jev for 6G Edge Networks". !arXiv
+- [From Text Decisions to Pixels: An Study of Jev-Style Visual Choice Model](https://arxiv.org/abs/2609.29283) `📚3` — PixelJev, "From Text Decisions to Pixels: An Study of Jev-Style Visual Choice Model". !arXiv
+- [Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences](https://arxiv.org/abs/2609.24965) `📚3` — Jev for Scientific Decisions, "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences". !arXiv
+- [JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning](https://arxiv.org/abs/2609.27331) `📚3` — JEV-Star, "JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning". !arXiv
+- [NumericJev](https://arxiv.org/abs/2609.28587) `📚3` — numerical decoding with multiway decisions; the code is now named JevNext and uses a noncommercial license.
+- [On Calibration](https://arxiv.org/abs/1706.04599) `📚3` — of Modern Neural Networks - Guo et al., 2017. Introduces temperature scaling and ECE, the calibration foundations these models rely on.
+- [On Calibration of Modern Neural Networks](https://proceedings.mlr.press/v70/guo17a.html) `📚3` — Explains the gap between high confidence and true accuracy, plus methods such as temperature scaling
+- [Replacing LLMs with Jev Decision Models for Low-Latency Edge Service Orchestration](https://arxiv.org/abs/2609.22753) `📚3` — Edge Service Orchestration, "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration". !arXiv
+- [RLCR](https://arxiv.org/abs/2507.16806) `📚3` — "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty". Adds a Brier-score reward to RLVR so the model emits calibrated confidence, the closest published relative of TypeSafe's RLCD. !ICLR 2026 !arXiv
+- [RouteLLM](https://arxiv.org/abs/2406.18665) `📚3` — (B · 2024 · arXiv) RouteLLM — preference-data routing between stronger and weaker models. ong2024routellm
+
+## Long tail (cited by 1–2 lists) — 190
+
+<details><summary>Show 190 long-tail entries</summary>
+
+- [arXiv](https://arxiv.org/abs/2609.33401) `📚2` — Evaluating System One Models for Agent Security Decisions: Reliability, Calibration, and Selective Automation
+- [arXiv](https://arxiv.org/abs/2609.33209) `📚2` — Beyond Calibration: Do a Typed-Decision Model's Probabilities Obey the Probability Axioms?
+- [arXiv](https://arxiv.org/abs/2609.32160) `📚2` — Typed Decision Models: An Early Evidence Audit and Evaluation Checklist
+- [Confidence-Aware Routing for Large Language Model Reliability Enhancement](https://arxiv.org/abs/2510.01237) `📚2` — Confidence-Aware Routing for LLM Reliability Enhancement (arXiv:2510.01237) - Pre-generation routing paper by Laya's author.
+- [Constitutional Classifiers](https://arxiv.org/abs/2501.18837) `📚2` — "Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming". !arXiv
+- [DSPy](https://arxiv.org/abs/2310.03714) `📚2` — "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines". !arXiv
+- [Generative or Discriminative?](https://arxiv.org/abs/2506.12181) `📚2` — "Generative or Discriminative? Revisiting Text Classification in the Era of Transformers". !arXiv
+- [GLiNER](https://arxiv.org/abs/2311.08526) `📚2` — "GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer". !arXiv
+- [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) `📚2` — . Reports that RLHF destroys the base model's calibration, the finding RLCD is positioned against. !arXiv
+- [InstructGPT reward model](https://arxiv.org/abs/2203.02155) `📚2` — "Training language models to follow instructions with human feedback". A Bradley-Terry head emits one scalar per response in a single pass, no text,…
+- [JevSoup](https://arxiv.org/abs/2609.30922) `📚2` — "JevSoup: System-One Routing for Training-Free LoRA Composition". !arXiv
+- [KITE](https://arxiv.org/abs/2609.27535) `📚2` — Scaling Jev Population Experiments with Sparse Flagship Calibration📅 2026-09-23 08:28 UTC · arXiv v1 · Tier A · Hengyu Li
+- [Language Models (Mostly) Know What They Know](https://arxiv.org/abs/2207.05221) `📚2` — (B · 2022 · arXiv) Language Models (Mostly) Know What They Know — P(True), P(IK), scale, and cross-task behavior. kadavath2022know
+- [LAVOIR](https://arxiv.org/abs/2609.30706) `📚2` — "LAVOIR: Teaching a Single-Pass Decision Encoder When and What to Ask with Amortized Value of Information". !arXiv
+- [Let Me Speak Freely?](https://arxiv.org/abs/2408.02442) `📚2` — "Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models". !arXiv
+- [Live demo](https://eliot5566.github.io/jev-paper-radar/public) `📚2`
+- [Llama Guard](https://arxiv.org/abs/2312.06674) `📚2` — "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations". !arXiv
+- [Mercury](https://arxiv.org/abs/2506.17298) `📚2` — "Ultra-Fast Language Models Based on Diffusion". HN read Jev as a stripped down text diffusion model, and Mercury is that idea shipped commercially with…
+- [monoBERT](https://arxiv.org/abs/1901.04085) `📚2` — "Passage Re-ranking with BERT". Landmark cross-encoder: pair in, one scalar relevance probability out, no generation, the ancestor of Jev's Score primitive.…
+- [MT-Bench](https://arxiv.org/abs/2306.05685) `📚2` — "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena". The landmark LLM-as-a-judge paper, named on the launch thread as the layer Jev's score and Noul…
+- [Outlines](https://arxiv.org/abs/2307.09702) `📚2` — "Efficient Guided Generation for Large Language Models". The finite-state-machine guided decoding HN named as the incumbent way to get typed values, which Jev…
+- [Ovadia et al., uncertainty under shift](https://proceedings.neurips.cc/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-abstract.html) `📚2` — (A · 2019 · NeurIPS) Can You Trust Your Model's Uncertainty? — uncertainty evaluation under natural and synthetic dataset shift. ovadia2019shift
+- [Rewarding Doubt](https://arxiv.org/abs/2503.02623) `📚2` — "Rewarding Doubt: A Reinforcement Learning Approach to Calibrated Confidence Expression of Large Language Models". !arXiv
+- [SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction](https://arxiv.org/abs/2503.23303) `📚2` — SalesRLAgent (arXiv:2503.23303) - Earlier reinforcement-learning paper by Laya's author, cited as prior work.
+- [SelectiveNet](https://proceedings.mlr.press/v97/geifman19a.html) `📚2` — (A · 2019 · ICML) SelectiveNet — integrated reject option and risk--coverage optimization. geifman2019selectivenet
+- [site](https://eliot5566.github.io/jev-paper-radar) `📚2`
+- [Thinking Fast and Slow in AI](https://arxiv.org/abs/2010.06002) `📚2` — . The AI charter for System 1 components that answer from experience without search, what System One Models productizes. !AAAI 2021 !arXiv
+- [vLLM](https://arxiv.org/abs/2309.06180) `📚2` — "Efficient Memory Management for Large Language Model Serving with PagedAttention". !arXiv
+- [Zero-shot Classification as Entailment](https://arxiv.org/abs/1909.00161) `📚2` — "Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach". !arXiv
+- [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantifica](https://arxiv.org/abs/2107.07511v6) `📚1` — Conformal prediction: finite-sample coverage guarantees and their exchangeability assumptions.
+- [AbstentionBench](https://arxiv.org/abs/2506.09038) `📚1`
+- [Agents Thinking Fast and Slow: A Talker-Reasoner Architecture](https://arxiv.org/abs/2410.08328) `📚1` — Christakopoulou, Mourad & Matarić / DeepMind (2024). Splits an agent into a fast conversational Talker (System 1) and a slow planning Reasoner (System 2).
+- [API Terms of Use](https://info.arxiv.org/help/api/tou.html) `📚1` — Retrieved from the arXiv API. arXiv’s API Terms of Use release descriptive metadata — explicitly including titles, abstracts, authors and identifiers — under…
+- [arXiv API](https://export.arxiv.org/api/query) `📚1` — papers addition: the WeChat article was fully readable (direct HTML fetch), but it served only as a lead. The 13 papers were admitted after an arXiv API…
+- [arxiv.org/abs/2206.04615](https://arxiv.org/abs/2206.04615) `📚1` — Language Models (paper).
+- [arxiv.org/abs/2210.09261](https://arxiv.org/abs/2210.09261) `📚1` — Chain-of-Thought Can Solve Them (paper).
+- [arXiv:1904.01685](https://arxiv.org/abs/1904.01685) `📚1` — Links: arXiv:1904.01685 · PDF
+- [arXiv:2012.08668](https://arxiv.org/abs/2012.08668) `📚1` — Links: arXiv:2012.08668 · PDF
+- [arXiv:2104.09277](https://arxiv.org/abs/2104.09277) `📚1` — Links: arXiv:2104.09277 · PDF
+- [arXiv:2305.13971](https://arxiv.org/abs/2305.13971) `📚1` — Links: arXiv:2305.13971 · PDF · DOI
+- [arXiv:2404.14618](https://arxiv.org/abs/2404.14618) `📚1` — Links: arXiv:2404.14618 · OpenReview · PDF
+- [arXiv:2406.14815](https://arxiv.org/abs/2406.14815) `📚1` — Links: arXiv:2406.14815 · PDF
+- [arXiv:2407.08103](https://arxiv.org/abs/2407.08103) `📚1` — Links: arXiv:2407.08103 · PDF
+- [arXiv:2502.00409](https://arxiv.org/abs/2502.00409) `📚1` — Links: arXiv:2502.00409 · PDF
+- [arXiv:2503.07885](https://arxiv.org/abs/2503.07885) `📚1` — Links: arXiv:2503.07885 · PDF
+- [arXiv:2505.21600](https://arxiv.org/abs/2505.21600) `📚1` — Links: arXiv:2505.21600 · PDF · Code (GitHub)
+- [arXiv:2601.12345](https://arxiv.org/abs/2601.12345) `📚1`
+- [arXiv:2602.04655](https://arxiv.org/abs/2602.04655) `📚1` — Links: arXiv:2602.04655 · PDF
+- [arXiv:2603.09876](https://arxiv.org/abs/2603.09876) `📚1`
+- [arXiv:2605.18796](https://arxiv.org/abs/2605.18796) `📚1` — Links: arXiv:2605.18796 · PDF
+- [arXiv：Jev TypeSafe](https://arxiv.org/search) `📚1` — The arXiv search for “Jev TypeSafe” returned no results in that round. Supplemental searches for the exact RLCD expansion and OpenReview found no matching…
+- [axuanyaa/jev-paper-figures](https://github.com/axuanyaa/jev-paper-figures) `📚1` — TEMPORARY: figures from arXiv:2609.26550 (JEV-as-a-Judge) hosted solely to feed a Feishu doc import;
+- [Balancing Classification and Calibration in Decision-Making LLMs](https://aclanthology.org/2026.findings-acl.610) `📚1` — (A · 2026 · Findings of ACL) Balancing Classification and Calibration in Decision-Making LLMs — calibration-aware reinforcement learning for task performance…
+- [Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach](https://arxiv.org/abs/1909.00161v1) `📚1` — EMNLP 2019) — Zero-shot text classification with NLI-style label descriptions: historical context for runtime-defined option semantics.
+- [BERT](https://arxiv.org/abs/1810.04805) `📚1` — Primary reading: BERT,
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805v2) `📚1` — Bidirectional encoders are the basic reference point; a natural-language interface does not make conventional classifiers irrelevant.
+- [Building Efficient Universal Classifiers with NLI](https://arxiv.org/abs/2312.17543) `📚1` — Method paper for treating each label as an entailment hypothesis. A large label set costs one forward pass per label, unlike a single-pass decision head.
+- [Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash](https://arxiv.org/abs/2609.24052v1) `📚1` — Uses hosted jev-1.13.0 to code police crash narratives as gated, typed decisions.
+- [Calibrating Decision Robustness via Inverse Conformal Risk Control](https://arxiv.org/abs/2510.07750v3) `📚1` — Inverse conformal risk control and decision robustness.
+- [Calibrating Structured Output Predictors for NLP](https://aclanthology.org/2020.acl-main.188) `📚1` — (A · 2020 · ACL) Calibrating Structured Output Predictors for NLP — sequence-level calibration beyond independent labels. jagannatha2020structured
+- [Calibration Error for Decision Making](https://arxiv.org/abs/2404.13503v5) `📚1` — FOCS 2024) — Calibration error for decision making: a utility-aware alternative to a single ECE.
+- [Calibration of Pre-trained Transformers](https://aclanthology.org/2020.emnlp-main.21) `📚1` — (A · 2020 · EMNLP) Calibration of Pre-trained Transformers — in-domain and out-of-domain calibration in pretrained NLP models. desai2020calibration
+- [Can Jev Judge Radiology Reports? Evaluating a System One Model for Clinical Factuality](https://arxiv.org/abs/2609.27607v1) `📚1` — Uses hosted jev-1.13.0 as a statement-level support judge for generated radiology reports.
+- [Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Sh](https://arxiv.org/abs/1906.02530v2) `📚1` — NeurIPS 2019) — Predictive uncertainty under dataset shift: in-distribution calibration does not transfer to shifted data.
+- [Classifier Calibration: A Survey](https://doi.org/10.1007/s10994-023-06336-7) `📚1` — (A · 2023 · Machine Learning) Classifier Calibration: A Survey — metrics, calibration maps, and failure modes. silvafilho2023calibration
+- [ComVE](https://aclanthology.org/2020.semeval-1.39) `📚1` — Primary papers: ComVE,
+- [Confidence-Aware Routing for Large Language Model Reliability Enhancement: A Multi-Signal](https://arxiv.org/abs/2510.01237v1) `📚1` — Confidence-aware routing: combining several signals to decide before generation whether to answer or route.
+- [Conformal Decision Theory: Safe Autonomous Decisions from Imperfect Predictions](https://arxiv.org/abs/2310.05921v3) `📚1` — Conformal decision theory: turning imperfect predictions into constrained decisions.
+- [Conformal Language Modeling](https://openreview.net/forum?id=pzuhfq74c5) `📚1` — (A · 2024 · ICLR) Conformal Language Modeling — calibrated stopping and rejection for set-valued generation. quach2024conformal
+- [Conformity Breaks Conformal Prediction](https://arxiv.org/abs/2609.04445v1) `📚1` — Conformal coverage calibrated in isolation breaks under a score-mechanism shift (peer pressure); an attacker can target the low-confidence items a gate still…
+- [Consistent Estimators for Learning to Defer to an Expert](https://arxiv.org/abs/2006.01862v3) `📚1` — ICML 2020) — Learning to defer: modelling expert cost jointly with prediction error.
+- [Decision-Focused Learning: Foundations, Benchmark and Opportunities](https://arxiv.org/abs/2307.13565) `📚1` — (B · 2023 · arXiv) Decision-Focused Learning: Foundations, Benchmark and Opportunities — foundations, method families, benchmark, and open problems.…
+- [Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future Opportuniti](https://arxiv.org/abs/2307.13565v4) `📚1` — Journal of Artificial Intelligence Research 81 (2024) 1623-1701) — Decision-focused learning survey; its optimisation semantics differ from an API returning a…
+- [Detecting Hallucinations Using Semantic Entropy](https://doi.org/10.1038/s41586-024-07421-0) `📚1` — (A · 2024 · Nature) Detecting Hallucinations Using Semantic Entropy — uncertainty over meanings rather than strings. kuhn2024semantic
+- [Distilling System 2 into System 1](https://arxiv.org/abs/2407.06023) `📚1` — Yu, Xu, Weston & Kulikov / Meta (2024). Compiles intermediate-thought techniques into single-pass outputs; the research framing closest to what Jev is.
+- [DOI](https://doi.org/10.18653/v1/2023.emnlp-main.687) `📚1`
+- [doi.org/10.5281/zenodo.22940945](https://doi.org/10.5281/zenodo.22940945) `📚1`
+- [Efficient Calibration for Decision Making](https://arxiv.org/abs/2511.13699v1) `📚1` — Efficient decision-oriented calibration: a strong post-processing baseline.
+- [Efficient Few-Shot Learning Without Prompts](https://arxiv.org/abs/2209.11055v1) `📚1` — SetFit: a few-shot discriminative baseline for asking whether convenience comes from the zero-training interface.
+- [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702v4) `📚1` — Guided generation: valid outputs by construction without solving semantic errors.
+- [Entity Binding Failures in Tool-Augmented Agents](https://arxiv.org/abs/2606.30531v1) `📚1` — Entity binding failures — the right tool acting on the wrong entity — separate tool correctness from entity correctness, a close analogue of option-name…
+- [Evaluating Decision Models for Text Annotation in Computational Social Science](https://arxiv.org/abs/2609.24574v1) `📚1` — Evaluates hosted Jev and open-weight decision models against 19 LLMs under one zero-shot protocol.
+- [Evaluation of Neural Selective Prediction for NLP](https://aclanthology.org/2023.acl-long.437) `📚1` — (A · 2023 · ACL) Evaluation of Neural Selective Prediction for NLP — evaluation methodology and distribution-shift sensitivity. gu2023selective
+- [FalseQA](https://aclanthology.org/2023.acl-long.309) `📚1`
+- [Fast Intent-Driven Service Orchestration with Jev for 6G Edge Networks](https://arxiv.org/abs/2609.23136v1) `📚1` — Hosted Jev interprets service intents into contracts; a deterministic numerical scheduler places the work.
+- [fei0810/bear-paper-pick](https://github.com/fei0810/bear-paper-pick) `📚1`
+- [From System 1 to System 2: A Survey of Reasoning Large Language Models](https://arxiv.org/abs/2502.17419v6) `📚1` — From System 1 to System 2: a reasoning-LLM survey whose terminology predates and is broader than the product.
+- [FrugalGPT](https://arxiv.org/abs/2305.05176) `📚1` — (B · 2023 · arXiv) FrugalGPT — learned LLM cascades for quality--cost trade-offs. chen2023frugalgpt
+- [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176v1) `📚1` — FrugalGPT: model cascades and cost optimisation have clear precedents.
+- [GLiClass: Generalist Lightweight Model for Sequence Classification Tasks](https://arxiv.org/abs/2508.07662v1) `📚1` — GLiClass: a general lightweight sequence classifier and a direct adjacent baseline for typed decisions.
+- [GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer](https://arxiv.org/abs/2311.08526v1) `📚1` — GLiNER: open-type extraction with a bidirectional encoder; related to finite-candidate decisions but a different output task.
+- [Grammar-Constrained Decoding for Structured NLP Tasks](https://aclanthology.org/2023.emnlp-main.674) `📚1` — (A · 2023 · EMNLP) Grammar-Constrained Decoding for Structured NLP Tasks — formal and input-dependent grammars without finetuning. geng2023grammar
+- [Harnessing the Reasoning Economy: A Survey of Efficient Reasoning for Large Language Model](https://arxiv.org/abs/2503.24377v3) `📚1` — Reasoning economy: compare inference budgets, not only parameter counts.
+- [How Can We Know When Language Models Know?](https://doi.org/10.1162/tacl_a_00407) `📚1` — (A · 2021 · TACL) How Can We Know When Language Models Know? — calibration for language-model question answering. jiang2021know
+- [How Robust Are Router-LLMs?](https://aclanthology.org/2026.eacl-long.351) `📚1` — (A · 2026 · EACL) How Robust Are Router-LLMs? — category bias, privacy, safety, and router fragility. kassem2026routerfragility
+- [iLLaDA，2606.25331](https://arxiv.org/abs/2606.25331) `📚1` — research on masked diffusion; not a new Jev version
+- [Improving LLM-as-a-Judge Inference with the Judgment Distribution](https://arxiv.org/abs/2503.03064) `📚1` — Argument for using the distribution over score tokens instead of the greedy score digit. It assumes the API exposes logprobs, and it evaluates judgments rather…
+- [Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences](https://arxiv.org/abs/2609.24965v1) `📚1` — Evaluates hosted Jev 1.13 as a semantic decision component; arithmetic stays in code, following the vendor’s documented division of labour.
+- [JEV-as-a-Judge: Accept When Confident, Escalate When Unsure](https://arxiv.org/abs/2609.26550v1) `📚1` — Evaluates hosted jev-1.13.0 as a model judge against sixteen generative and reward-model judges.
+- [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://arxiv.org/abs/2609.23986v1) `📚1` — Uses hosted Jev as the System-One control plane of an agent memory system; a System-Two LLM writes the answers.
+- [JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning](https://arxiv.org/abs/2609.27331v1) `📚1` — Uses hosted Jev 1.13 for frequent action selection in a StarCraft II controller, with GPT-6 Astra writing persistent plans.
+- [Jevons' paradox (Alcott 2005)](https://doi.org/10.1016/j.ecolecon.2005.03.020) `📚1` — The rebound effect Jev is named for, where cheaper decisions raise total decision volume. !Ecological Economics 2005
+- [JEVQA - Video Quality from Metadata, Bitstream, and Pixel Features with a General-Purpose](https://arxiv.org/abs/2609.24395v1) `📚1` — Hosted text-only Jev reads video metadata, bitstream statistics and pixel-derived features; the video itself is never an input.
+- [jiawei686/jev-paper-review-mcp,1,TypeScript,,2026-09-21,论文审稿打分](https://github.com/jiawei686/jev-paper-review-mcp,1,typescript,,2026-09-21,论文审稿打分) `📚1`
+- [JSONSchemaBench: A Rigorous Benchmark of Structured Outputs for Language Models](https://arxiv.org/abs/2501.10868v3) `📚1` — JSONSchemaBench: structural correctness and efficiency of constrained decoding (title updated on arXiv).
+- [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685v4) `📚1` — NeurIPS Datasets and Benchmarks 2023) — MT-Bench and Chatbot Arena: foundations and biases of LLM-as-a-judge.
+- [Just Ask for Calibration](https://arxiv.org/abs/2305.14975) `📚1` — Comparison of verbalized confidence and token probabilities for models fine-tuned with human feedback. A reason not to treat raw logprobs as calibrated.
+- [KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking](https://arxiv.org/abs/2606.22807v3) `📚1` — aLM-Reranker-V1: a reranker whose updated abstract links a Jev model collection; that link does not make it a Jev source paper. Full text spot-checked.
+- [KITE: Scaling Jev Population Experiments with Sparse Flagship Calibration](https://arxiv.org/abs/2609.27535v1) `📚1` — Uses hosted jev-1.13.0 as a typed behavioural kernel for population experiments, corrected with sparse GPT-6 Astra anchors.
+- [kurapati-bhargavi/jev-research-paper](https://github.com/kurapati-bhargavi/jev-research-paper) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Language Models (Mostly) Know What They Know](https://arxiv.org/abs/2207.05221v4) `📚1` — Language models (mostly) know what they know: self-knowledge and confidence expression; native and verbalised confidence differ.
+- [LLMRouterBench](https://aclanthology.org/2026.findings-acl.1881) `📚1` — (A · 2026 · Findings of ACL) LLMRouterBench — unified benchmark covering 400,000+ instances, 21 datasets, and 33 models. li2026routerbench
+- [LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing](https://arxiv.org/abs/2601.07206v1) `📚1` — LLMRouterBench: a unified task set and protocol for routing evaluation.
+- [Mapping the Course for Prompt-Based Structured Prediction](https://aclanthology.org/2026.eacl-long.160) `📚1` — (A · 2026 · EACL) Mapping the Course for Prompt-Based Structured Prediction — systematic account of prompt-based structured prediction. pauk2026structured
+- [Marginal Fidelity Does Not Establish User Simulation in Demographic Synthetic Survey Panel](https://arxiv.org/abs/2609.07305v1) `📚1` — In synthetic survey panels the response contract (committed sets vs per-option probabilities) dominates measured fidelity — the same interface dependence seen…
+- [MDLM](https://arxiv.org/abs/2406.07524) `📚1`
+- [Melding the Data-Decisions Pipeline](https://doi.org/10.1609/aaai.v33i01.33011658) `📚1` — (A · 2019 · AAAI) Melding the Data-Decisions Pipeline — optimize predictions through downstream combinatorial decisions. wilder2019decision
+- [Mitigating Word Bias in Zero-shot Prompt-based Classifiers](https://arxiv.org/abs/2309.04992v1) `📚1` — Word bias in zero-shot prompt-based classifiers: why option names can become shortcuts.
+- [MMO1717/jev-paper-screener](https://github.com/mmo1717/jev-paper-screener) `📚1`
+- [Model Confidence Under Answer-Preserving Attacks: An Informativeness-Manipulability Fronti](https://arxiv.org/abs/2608.06571v1) `📚1` — Answer-preserving attacks move confidence readouts, bounding what confidence gates can certify.
+- [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599v2) `📚1` — ICML 2017) — Calibration of modern neural networks and temperature scaling: the post-hoc baseline for any returned probability.
+- [Open-Jev Judgments on CallScreenBench: Calibrated One-Pass Scam Screening with a Small Lan](https://arxiv.org/abs/2609.23959v1) `📚1` — JevLite: the authors’ own open Jev-style readout on Qwen3-4B with LoRA; not TypeSafe’s model.
+- [OpenReview](https://openreview.net/forum?id=02f3mutqnm) `📚1`
+- [PDF](https://arxiv.org/pdf/2505.21600) `📚1`
+- [PDF](https://arxiv.org/pdf/2502.00409) `📚1`
+- [PDF](https://arxiv.org/pdf/2404.14618) `📚1`
+- [PDF](https://arxiv.org/pdf/2305.13971) `📚1`
+- [PDF](https://arxiv.org/pdf/2501.10868) `📚1`
+- [PDF](https://arxiv.org/pdf/2407.08103) `📚1`
+- [PDF](https://arxiv.org/pdf/2605.18796) `📚1`
+- [PDF](https://arxiv.org/pdf/2503.07885) `📚1`
+- [PDF](https://arxiv.org/pdf/2104.09277) `📚1`
+- [PDF](https://arxiv.org/pdf/2012.08668) `📚1`
+- [PDF](https://arxiv.org/pdf/1904.01685) `📚1`
+- [PDF](https://arxiv.org/pdf/2602.04655) `📚1`
+- [PDF](https://arxiv.org/pdf/2406.14815) `📚1`
+- [PhantomFill: When the Form Demands an Answer, Language Models Invent One](https://arxiv.org/abs/2607.20492v2) `📚1` — PhantomFill: when a form demands an answer, models invent one — the closed-set risk of forced choices.
+- [PICARD](https://aclanthology.org/2021.emnlp-main.779) `📚1` — (A · 2021 · EMNLP) PICARD — incremental parsing that rejects invalid text-to-SQL continuations. scholak2021picard
+- [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Model](https://arxiv.org/abs/2109.05093v1) `📚1` — EMNLP 2021) — PICARD: incremental constrained autoregressive decoding, a historical structured-output baseline.
+- [Post-hoc Estimators for Learning to Defer](https://proceedings.neurips.cc/paper_files/paper/2022/hash/bc8f76d9caadd48f77025b1c889d2e2d-abstract.html) `📚1` — (A · 2022 · NeurIPS) Post-hoc Estimators for Learning to Defer — error probability, expert cost, and adaptive inference. narasimhan2022defer
+- [Predict Responsibly](https://proceedings.neurips.cc/paper/2018/hash/09d37c08f7b129e96277388757530c72-abstract.html) `📚1` — (A · 2018 · NeurIPS) Predict Responsibly — joint prediction and deferral to an external decision maker. madras2018defer
+- [Prometheus: Inducing Fine-grained Evaluation Capability in Language Models](https://arxiv.org/abs/2310.08491v2) `📚1` — ICLR 2024) — Prometheus: a dedicated evaluator model and a relevant baseline for decision-only judging.
+- [Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I l](https://arxiv.org/abs/2310.11324v2) `📚1` — ICLR 2024) — Sensitivity to spurious prompt-format features: a template for order and format invariance tests.
+- [REFLEX with Jev for Efficient Selective Control in LLM Agents](https://arxiv.org/abs/2609.26532v1) `📚1` — Uses hosted jev-1.13.0 as a typed decision layer inside an LLM agent, calling a strong LLM when confidence is low or generation is required.
+- [Reliable Financial Named Entity Recognition Under Domain Shift: Confidence Estimation and](https://arxiv.org/abs/2608.19558v2) `📚1` — Under domain shift the ranking of confidence signals changes: whole-output probability is the best in-domain error detector but degrades out of domain.
+- [Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orch](https://arxiv.org/abs/2609.22753v1) `📚1` — Replacing LLMs with Jev at the Edge (2026-09-19) ¹
+- [RewardBench: Evaluating Reward Models for Language Modeling](https://arxiv.org/abs/2403.13787v2) `📚1` — RewardBench: discriminative reward models as strong judging comparators.
+- [Rewarding Doubt: A Reinforcement Learning Approach to Calibrated Confidence Expression of](https://arxiv.org/abs/2503.02623v6) `📚1` — Rewarding Doubt: reinforcement learning for calibrated confidence expression.
+- [RLCD: Reinforcement Learning from Contrast Distillation](https://openreview.net/forum?id=v3xxtxwki6) `📚1` — (A · 2024 · ICLR) RLCD: Reinforcement Learning from Contrast Distillation — acronym collision: this RLCD is unrelated to TypeSafe's Reinforcement Learning for…
+- [RLCD: Reinforcement Learning from Contrastive Distillation for Language Model Alignment](https://arxiv.org/abs/2307.12950) `📚1` — Its acronym expands differently from TypeSafe's Reinforcement Learning for Calibrated Decisions; do not conflate the papers or recipes
+- [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665v4) `📚1` — RouteLLM: a learned-routing baseline.
+- [RouterEval](https://aclanthology.org/2025.findings-emnlp.208) `📚1` — (A · 2025 · Findings of EMNLP) RouterEval — model-level routing at large candidate-pool scale. huang2025routereval
+- [Rudinger et al. (2018)](https://aclanthology.org/n18-2002) `📚1`
+- [SAGE: A Unified Algebra and Self-Adaptive Execution for AI Functions in SQL](https://arxiv.org/abs/2608.20630v1) `📚1` — Typed AI primitives with a shared confidence-gated execution interface in SQL: the same design pattern arising independently in data systems.
+- [SalesRLAgent 正文](https://arxiv.org/html/2503.23303v1) `📚1` — Read the architecture, experiments, and limits in the SalesRLAgent full text and the routing paper full text. Both predate Jev's launch. Earlier work in a…
+- [SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction](https://arxiv.org/abs/2503.23303v1) `📚1` — SalesRLAgent (2025): probabilistic decisions in a sales domain; historically related work.
+- [Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Un](https://arxiv.org/abs/2609.27678v1) `📚1` — Evaluates hosted jev-1.13.0 against nine language models on legal contract inference.
+- [Selective Classification for Deep Neural Networks](https://arxiv.org/abs/1705.08500v2) `📚1` — Selective classification: risk–coverage and rejection; confidence gating long predates typed decision models.
+- [SelectiveNet: A Deep Neural Network with an Integrated Reject Option](https://arxiv.org/abs/1901.09192v4) `📚1` — ICML 2019) — SelectiveNet: jointly learning prediction and a reject option.
+- [Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Languag](https://arxiv.org/abs/2302.09664v3) `📚1` — ICLR 2023) — Semantic uncertainty: an alternative definition of confidence for generative models.
+- [SGLang: Efficient Execution of Structured Language Model Programs](https://arxiv.org/abs/2312.07104v2) `📚1` — SGLang: shared-prefix reuse and scheduling, whose gains must be separated from decision-head gains.
+- [SkillRouter](https://arxiv.org/abs/2603.22455) `📚1` — (B · 2026 · arXiv) SkillRouter — skill routing for large-scale LLM-agent systems. zheng2026skillrouter
+- [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient](https://arxiv.org/abs/2412.13663v2) `📚1` — ModernBERT: the backbone of several encoder-style open alternatives and a strong lightweight baseline.
+- [Smooth Calibration and Decision Making](https://arxiv.org/abs/2504.15582v1) `📚1` — FORC 2025) — Smooth calibration and decision making.
+- [Structured Prediction Energy Networks](https://proceedings.mlr.press/v48/belanger16.html) `📚1` — (A · 2016 · ICML) Structured Prediction Energy Networks — global scoring over structured outputs. belanger2016spen
+- [System 2 Attention](https://arxiv.org/abs/2311.11829) `📚1` — Weston & Sukhbaatar / Meta (2023). The LLM regenerates the context it should attend to before answering: deliberate filtering on top of fast attention.
+- [System-1.x: Learning to Balance Fast and Slow Planning with Language Models](https://arxiv.org/abs/2407.14414) `📚1` — Learns when to use fast direct planning and when to search, instead of always picking one.
+- [Target-Checked Reliability Score Refinement for Video Question Answering](https://arxiv.org/abs/2609.13288v1) `📚1` — Answer-level reliability scores built from option-probability lists can be refined under target shift, without changing answers, when a labelled target pilot…
+- [TART: A plug-and-play Transformer module for task-agnostic reasoning](https://arxiv.org/abs/2306.07536v1) `📚1` — TART: a task-agnostic discriminative reasoning module that predates the product framing.
+- [Teaching Models to Express Their Uncertainty in Words](https://arxiv.org/abs/2205.14334) `📚1` — (B · 2022 · arXiv) Teaching Models to Express Their Uncertainty in Words — learned verbalized probabilities. lin2022verbalized
+- [The Calibration Floor: Format Repair Can Masquerade as Self-Correction at Small-to-Mid Sca](https://arxiv.org/abs/2608.04355v1) `📚1` — Format recovery can masquerade as reasoning gains; grammar-constrained decoding closes much of the gap, so parseability must be separated from content when…
+- [The Router Within](https://arxiv.org/abs/2609.15982) `📚1` — (B · 2026 · arXiv) The Router Within — native skill routing elicited from a frozen LLM. chen2026routerwithin
+- [The Structured Output Benchmark: A Multi-Source Benchmark for Evaluating Structured Output](https://arxiv.org/abs/2604.25359v1) `📚1` — Structured Output Benchmark: broader task coverage for structured-output quality.
+- [this-that-model-1.0: A typed decision model that decides in 30 ms, for a millionth of a ce](https://arxiv.org/abs/2609.23886v1) `📚1` — Open-weight ~2B typed decision model adapted from decider-2b, compared with hosted Jev.
+- [Towards Improving Selective Prediction Ability of NLP Systems](https://aclanthology.org/2022.repl4nlp-1.23) `📚1` — (A · 2022 · RepL4NLP) Towards Improving Selective Prediction Ability of NLP Systems — selective behavior and confidence ranking in NLP. varshney2022selective
+- [Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the](https://arxiv.org/abs/2609.26758v1) `📚1` — Black-box evaluation of hosted Jev alongside two open-weight Jev-like encoder decision heads.
+- [Uncertainty Quantification and Confidence Calibration in Large Language Models: A Survey](https://arxiv.org/abs/2503.15850v2) `📚1` — Survey of uncertainty quantification and calibration in LLMs.
+- [Uncertainty Quantification and Confidence Calibration in LLMs: A Survey](https://arxiv.org/abs/2503.15850) `📚1` — (B · 2025 · arXiv) Uncertainty Quantification and Confidence Calibration in LLMs: A Survey — LLM-focused uncertainty and calibration taxonomy. liu2025uqsurvey
+- [Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneou](https://arxiv.org/abs/2609.25498v1) `📚1` — An independent, Jev wire-compatible runtime (werr) with Noul/Choice/Score-style outputs; not TypeSafe research. All results are self-reported on the authors’…
+- [v2 method](https://arxiv.org/html/2507.16806v2) `📚1`
+- [Visual Jev: Accurate and Efficient Decisions from Shared Visual Context](https://arxiv.org/abs/2609.25845v1) `📚1` — An independent vision–language decision model. It is not a TypeSafe product and is not evidence that hosted Jev accepts images.
+- [When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in C](https://arxiv.org/abs/2609.17977v1) `📚1` — A cheap stacked ensemble that escalates only its least-confident predictions to an LLM; on IEMOCAP the ensemble alone beat every LLM configuration — trained…
+- [XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models](https://arxiv.org/abs/2411.15100v3) `📚1` — MLSys 2025) — XGrammar: an efficient constrained-decoding engine for fair generative baselines.
+- [yanjieze/paper-list](https://github.com/yanjieze/paper-list) `📚1`
+- [yaohao159123/paper-triage](https://github.com/yaohao159123/paper-triage) `📚1`
+- [yehezkielgunawan/jev-paper](https://github.com/yehezkielgunawan/jev-paper) `📚1` — Quick research trial comparing Jev vs XGBoost vs Random Forest
+- [Your Prompt Is Not the Only Prompt: How Much Do LLMs Weight Structured-Output Schema Descr](https://arxiv.org/abs/2608.08254v1) `📚1` — Schema descriptions act as prompts: interface validity is not semantic compliance.
+- [Zhao et al. (2018)](https://aclanthology.org/n18-2003) `📚1`
+- [报告](https://doi.org/10.5281/zenodo.22971491) `📚1`
+- [路由论文正文](https://arxiv.org/html/2510.01237v1) `📚1`
+
+</details>

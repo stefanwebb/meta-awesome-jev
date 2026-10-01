@@ -1,0 +1,367 @@
+# Tutorials, Articles & Videos
+
+> Guides, blog posts, notebooks, courses and videos.
+>
+> **344 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 15
+
+- [nexibeo/jev-cookbook](https://github.com/nexibeo/jev-cookbook) `★34 · 📚27` — Practical, tested recipes for TypeSafe's Jev decision model on OpenRouter: support triage, database indexing, file organizing, tagging, taxonomies, dedupe, PII detection, extraction, search re-ranking and a browser agent.
+- [cobusgreyling/Jev](https://github.com/cobusgreyling/jev) `★129 · 📚18` — Unofficial TypeSafe Jev showcase — System One decisions, not chat.
+- [kenhuangus/jev-usecases](https://github.com/kenhuangus/jev-usecases) `★17 · 📚18` — Production TypeSafe Jev (System One) use-case harnesses with confidence-gated decision logic
+- [harshithsunku/learn-jev-end-to-end](https://github.com/harshithsunku/learn-jev-end-to-end) `★14 · 📚15` — Learn Jev end to end: a free hands-on course. Build 13 AI agent use cases with a fast brain (Jev) and a slow brain (LLM). One OpenRouter key.
+- [datawhalechina/jev-cookbook](https://github.com/datawhalechina/jev-cookbook) `★46 · 📚14` — ⚡ 适合中国宝宝的 Jev 入门教程｜手把手带你了解关于 Jev 的一切——Jupyter Notebook 轻松实验，从三种问题原语到 18 篇实战配方、语音智能家居、模型评测与本地微调，全面掌握 System One 判断模型的开发范式
+- [davila7/jev-explained](https://github.com/davila7/jev-explained) `★33 · 📚14` — Jev Explained.
+- [Jev vs Mistral and Gemini for event validation](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) `📚14` — Event discovery: head-to-head test of Jev against Mistral Small and Gemini Flash-Lite at validating local event listings
+- [Hiwoniu/Jev-Case](https://github.com/hiwoniu/jev-case) `★80 · 📚13` — 收集全网优秀 case 的收藏库 \| A curated collection of excellent cases from across the web
+- [jev.s1.dev](https://jev.s1.dev) `📚12` — Try Jev Search · (Full Jev Search guide)(jev-search.md) · Source
+- [zszz3/Pi-Jev-Guide](https://github.com/zszz3/pi-jev-guide) `★21 · 📚11` — Pi-Jev-Guide — No description provided by the repository (auto-discovered, description not yet written)
+- [cristianoliveira/jeq](https://github.com/cristianoliveira/jeq) `★10 · 📚11` — What happens when jev meets jq? Intelligence you can pipe for quick experimentation and scripts
+- [paramjeetn/jev-cookbook](https://github.com/paramjeetn/jev-cookbook) `★7 · 📚11` — The complete cookbook for Jev by TypeSafe AI — 120+ use cases, 10 runnable examples, 4 composition patterns, and first-principles theory for the world's first System One AI model.
+- [disler/ten-levels-of-jev](https://github.com/disler/ten-levels-of-jev) `★124 · 📚10` — Ten levels of Jev, from one smart if statement to a coding agent that reaches for Jev on its own
+- [2456868764/jevguide](https://github.com/2456868764/jevguide) `★9 · 📚10` — Curated Jev showcases from X, organized by category with media previews and direct source links.
+- [codaaiteam/jev-ai](https://github.com/codaaiteam/jev-ai) `★4 · 📚10` — Jev AI quickstart & FAQ — TypeSafe AI's System One model. Try it free: jevtypesafeai.com
+
+## Established (cited by 5–9 lists) — 25
+
+- [karminski/Jev-Quantum](https://github.com/karminski/jev-quantum) `★32 · 📚9` — 亚微秒级 System-1 模型，准确率服从高斯分布.
+- [kuhung/understanding-jev](https://github.com/kuhung/understanding-jev) `★4 · 📚9` — 深入解读 Jev 模型：毫秒级判定与工程边界.
+- [qingshungLI/everything-about-jev](https://github.com/qingshungli/everything-about-jev) `★3 · 📚9` — tell you everything about jev,TypeSafe AI's System One model for typed decisions.
+- [piyush97/focus-tube](https://github.com/piyush97/focus-tube) `★0 · 📚9` — Distraction-free YouTube learning feed powered by TypeSafe AI's Jev System One model
+- [Valyu AI practical guide](https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e) `📚9` — . dev.to (Valyu AI): "How to Use Jev: A practical guide": A hands-on tutorial with code and real numbers.
+- [Nisaka520/JevGuide](https://github.com/nisaka520/jevguide) `★31 · 📚8` — 弦外之音 —— 微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。
+- [Jev: The Language Model That Won't Talk](https://anthonymaio.substack.com/p/jev-the-language-model-that-wont) `📚8` — Jev: The Language Model That Will Not Talk - Anthony Maio's essay on what a model that cannot generate text is for.
+- [eachann1024/pi-jev-reply](https://github.com/eachann1024/pi-jev-reply) `★3 · 📚7` — Pi extension: clearer replies via Jev review + optional rewrite/visuals
+- [TypeSafe Jev: the first decision-only model class](https://developersdigest.tech/blog/typesafe-jev-system-one-models-release-guide-2026) `📚7` — Release-week technical roundup: API, evals, adapter, and skill.
+- [AIAnytime/jev-crash-course](https://github.com/aianytime/jev-crash-course) `★12 · 📚6` — All projects for learning Jev and other Decision (System-1) Models, a model that makes decisions instead of writing text.  - GitHub - AIAnytime/jev-crash-course: All projects for learning Jev and other Decision (System-1) Models, a model…
+- [hndrr/ComfyUI-Jev](https://github.com/hndrr/comfyui-jev) `★5 · 📚6` — Jev text interpretation and judgments for ComfyUI.
+- [drpaneas/jev](https://github.com/drpaneas/jev) `★2 · 📚6` — Go pkg for Jev TypeSafe AI.
+- [AI that does not talk](https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guide) `📚6` — Practical guide: playground, Python and JS SDKs, raw HTTP, and the agent skill.
+- [He says he co-invented ChatGPT. His new AI will not write a word](https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-new-ai-jev-wont-write-a-word-e3c) `📚6` — Dev.to walkthrough of the Vercel AI SDK evaluate integration.
+- [nadyth/jev-crash-course](https://github.com/nadyth/jev-crash-course) `★0 · 📚6` — An 11-level crash course on Jev, TypeSafe AI's System One decision model — runnable examples against the real API, plus a capstone project with unit tests and evals. Works with any LLM provider via LiteLLM.
+- [PromptEngineer48/langchain-jev-tutorial](https://github.com/promptengineer48/langchain-jev-tutorial) `★0 · 📚6` — LangChain + Jev (TypeSafe) tutorial: a support-ops agent whose small decisions (triage, model routing, tool guarding, evals) are made by Jev. Real run outputs included.
+- [Dino-Kupinic/blackrose](https://github.com/dino-kupinic/blackrose) `★6 · 📚5` — The decision layer for LLM apps.
+- [AnthusAI/Jev-Flywheel](https://github.com/anthusai/jev-flywheel) `★3 · 📚5` — Jev plus a decision head that learns from feedback: can a loop name a bias we planted in our own dataset?
+- [123wwwa/JevTrace](https://github.com/123wwwa/jevtrace) `★2 · 📚5` — An MCP server that cuts coding-agent token usage by retrieving only the relevant JS/TS code using the TypeScript compiler and Jev.
+- [nextflow-io/nf-jev](https://github.com/nextflow-io/nf-jev) `★2 · 📚5` — TypeSafe Jev plugin for example.
+- [q3learners/jev-demofast](https://github.com/q3learners/jev-demofast) `★2 · 📚5` — One sentence in, a product demo video out. Jev drives your real product in a browser; an index built from your source code guides it.
+- [nadeemcite/jev-crash-course](https://github.com/nadeemcite/jev-crash-course) `★1 · 📚5` — An 11-level crash course on Jev, TypeSafe AI's System One decision model — runnable examples against the real API, plus a capstone project with unit tests and evals. Works with any LLM provider via LiteLLM.
+- [ZHYsfl/learn-jev](https://github.com/zhysfl/learn-jev) `★1 · 📚5` — a repo that helps you learn jev model.
+- [Simon Willison 分析](https://simonwillison.net/2026/sep/21/jev) `📚5` — Jev introduces a new shape of LLM - Blog: Simon Willison's read on what changes when a model's output is a typed decision instead of prose.
+- [TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway](https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew) `📚5` — Blog: explores what Jev can infer from textual descriptions of drawings despite lacking direct image input.
+
+## Emerging (cited by 3–4 lists) — 46
+
+- [bcharleson/jev-gtm-cookbook](https://github.com/bcharleson/jev-gtm-cookbook) `📚4` — open-source outbound recipes on TypeSafe Jev. Score your LinkedIn network or any lead list agains
+- [brainstormity/Jev-For-Dummies](https://github.com/brainstormity/jev-for-dummies) `📚4`
+- [ChasLui/vai2jev](https://github.com/chaslui/vai2jev) `📚4` — Learning resources and directories
+- [daveebbelaar/ai-cookbook](https://github.com/daveebbelaar/ai-cookbook) `📚4` — AI cookbook for Jev - Nine runnable examples plus the four official patterns, written against the current Python SDK.
+- [earlyaidopters/away-together-starter](https://github.com/earlyaidopters/away-together-starter) `📚4` — Tutorial de decisões de viagem inspirado no Jev com treinamento de classificadores; a demonstração usa saídas gravadas.
+- [FindMalek/guesswork](https://github.com/findmalek/guesswork) `📚4` — guesswork - zsh history autosuggestions ranked by TypeSafe Jev instead of prefix match. (Project guide)(community/projects/tools/guesswork.md).
+- [JawzoD3TH/JevApi](https://github.com/jawzod3th/jevapi) `📚4` — JevApi - .NET 10 TypeSafe Jev client (AOT) plus stdio MCP evaluate/batch tools. (Project guide)(community/projects/tools/jevapi.md).
+- [Jev - The Ultimate Classification Model?](https://youtube.com/watch?v=x117w2rark8) `📚4` — Covers the System 1 idea, then demos Choice, Score, and Noul, a practical classification example, and chained actions.
+- [Jev is about to change the AI economy](https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change) `📚4` — Substack: argues that cheap calibrated decisions could shift inference spend away from general-purpose generation in bounded workflows.
+- [Jev, Sorted](https://pearpages.com/blog/2026/09/16/jev-sorted-what-typesafes-system-one-model-actually-is-and-what-is-still-just-a-claim) `📚4` — Jev, Sorted - What the launch claims survive a reading of the primary sources, and what is still vendor-reported.
+- [JGalego/J3v](https://github.com/jgalego/j3v) `📚4` — J3v - Edge-compiled System One decision runtime ('J3v is to Jev as k3s is to k8s') with Rust compiler/firmware demos. (Project guide)(community/projects/tools/j3v.md).
+- [kvnloo/z0intelligence](https://github.com/kvnloo/z0intelligence) `📚4` — z0intelligence — Can we run something like Jev on a 3090 at home? (auto-discovered, description not yet written)
+- [llm-learner/headroom](https://github.com/llm-learner/headroom) `📚4` — headroom — A local-first brain-budget meter for Codex: meme moods, local Laya scoring (auto-discovered, description not yet written) ❔
+- [pratikgorji/jev-guide](https://github.com/pratikgorji/jev-guide) `📚4` — An illustrated guide to TypeSafe AI’s Jev model, explaining typed decisions, calibrated probabilitie
+- [ryana/jevify](https://github.com/ryana/jevify) `📚4` — jevify — Prompts to jev-ify your projects _(★192, n/a)_
+- [shunshunNi/redmine_jev](https://github.com/shunshunni/redmine_jev) `📚4` — redmine_jev - shunshunNi/redmine_jev - Asks Jev whether a Redmine issue's tracker fits, while you fill in the form.
+- [wtf is jev?](https://youtube.com/watch?v=qbybrjoagoo) `📚4` — Jev explained: demos and use cases - Demos including a model router and a chatbot with no LLM behind it, with companion code.
+- [ZJUCQR/DepthJev](https://github.com/zjucqr/depthjev) `📚4` — DepthJev - Embodied navigation: RGB→depth/text facts; TypeSafe Jev chooses EB-Navigation actions. (Project guide)(community/projects/tools/depthjev.md).
+- [9sako6/learn-jev](https://github.com/9sako6/learn-jev) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [aaronmeis/learn-jev](https://github.com/aaronmeis/learn-jev) `📚3` — Learn Jev — TypeSafe System One typed decisions for software. Personal GitHub Pages reference hub (d
+- [ady95/jev_tutorial](https://github.com/ady95/jev_tutorial) `📚3`
+- [arnonrodman/jev-tetris-workshop](https://github.com/arnonrodman/jev-tetris-workshop) `📚3` — score 13.6 · 0 stars
+- [bvolpato/kevala](https://github.com/bvolpato/kevala) `📚3` — evala - Zero-dependency Rust→WASM decision models (Laya/Kev/…) in any web page with WebGPU; independent of official Jev. (Project guide)(community/projects/tools/kevala.md).
+- [chalkychalk42/jev](https://github.com/chalkychalk42/jev) `📚3` — A guide-directed leveling agent for a private TBC 2.4.3 server, built so it gets cheaper to run the longer it runs
+- [chewcw/project-scale-jev-demonstration](https://github.com/chewcw/project-scale-jev-demonstration) `📚3` — project-scale-jev-demonstration - project-scale-jev-demonstration: TypeSafe Jev ecosystem repository. · TypeScript
+- [CMaintz/jev-tools](https://github.com/cmaintz/jev-tools) `📚3` — jev-tools (CMaintz) - TypeScript TypeSafe Jev tools including an agent tool-call guardrail. (Project guide)(community/projects/tools/cmaintz-jev-tools.md).
+- [Donnie/latte](https://github.com/donnie/latte) `📚3` — ☕ A bilingual tool to learn and communicate in multiple languages
+- [dugufeng666/jev-ai-guide](https://github.com/dugufeng666/jev-ai-guide) `📚3`
+- [geminixiang/jev](https://github.com/geminixiang/jev) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [How does Jev work? RLCD and parallel inference](https://explainx.ai/blog/how-does-jev-work-rlcd-system-one-model-explained-2026) `📚3` — Explainer reconstructing the RLCD objective and the parallel sampler from public statements.
+- [hyprstream/hyprstream](https://github.com/hyprstream/hyprstream) `📚3` — HyprStream: agentic infrastructure for continous online-learning applications
+- [itani404/jev-explained](https://github.com/itani404/jev-explained) `📚3` — jev-explained - Hands-on explainer for TypeSafe AI's Jev decision model: examples, playground, and independent benchmark results · TypeScript
+- [kanaharu20/jev-learn](https://github.com/kanaharu20/jev-learn) `📚3` — jev in:name created:2026-09-16..2026-09-17
+- [Livestream: coding with Jev](https://youtube.com/watch?v=5lx4dllyafm) `📚3` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [Meet Jev: tested on 1,000 emails](https://youtube.com/watch?v=9owxrsro4d8) `📚3` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [noelserdna/red-ciberseguridad-jev](https://github.com/noelserdna/red-ciberseguridad-jev) `📚3` — Ejemplo didáctico: captura los paquetes de tu red con Wireshark/tshark y deja que Jev (Typ
+- [ohama/jev-tutorial](https://github.com/ohama/jev-tutorial) `📚3` — Other related projects
+- [Product page](https://nisaka520.github.io/jevguide) `📚3` — intro, APK, privacy.
+- [site](https://youtu.be/c_l8fi1odde) `📚3`
+- [sriharsha8991/JEV-use_cases](https://github.com/sriharsha8991/jev-use_cases) `📚3` — JEV-use\_cases - JEV-use\_cases: TypeSafe Jev ecosystem repository. · Python
+- [Sunwood-ai-labs/jev-colab-lab](https://github.com/sunwood-ai-labs/jev-colab-lab) `📚3` — Reproducible Google Colab GPU experiments for decision-model inference
+- [suyash-lyzr/jev-typesafe](https://github.com/suyash-lyzr/jev-typesafe) `📚3` — jev-typesafe - jev-typesafe: TypeSafe Jev ecosystem repository. · TypeScript
+- [Vercel reported](https://vercel.com/blog/ai-gateway-jev-model-launch) `📚3` — Platform-reported adoption by nearly 13% of paying teams on day one; not a global-developer statistic
+- [who/jevq](https://github.com/who/jevq) `📚3` — jq): keep JSONL values that pass a yes/no TypeSafe Jev question (or emit scores). (Project guide)(community/projects/tools/who-jevq.md).
+- [xiaoMingChina/jevcn](https://github.com/xiaomingchina/jevcn) `📚3` — Other related projects
+- [zljr/file-guide](https://github.com/zljr/file-guide) `📚3`
+
+## Long tail (cited by 1–2 lists) — 258
+
+<details><summary>Show 258 long-tail entries</summary>
+
+- [A Coding Guide to TypeSafe AI Jev — MarkTechPost](https://marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev) `📚2` — A Coding Guide to TypeSafe AI Jev - Typed decisions, confidence and fan-out in code.
+- [agcodin/f1-self-driving](https://github.com/agcodin/f1-self-driving) `📚2` — Self-learning F1 driver: a Jev-style typed-decision policy trained by evolution strategies on scale-accurate, elevation-aware Monza, Spa and COTA
+- [AndyBoWu/learning-jev-lab](https://github.com/andybowu/learning-jev-lab) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [bhavishy09/jev_learning](https://github.com/bhavishy09/jev_learning) `📚2` — A small hands-on project exploring Jev, TypeSafe AI's fast structured-decision model. Builds a support ticket router that compares Jev's single-pass…
+- [contacto939/kit-jev](https://github.com/contacto939/kit-jev) `📚2` — it gratuito para probar Jev (TypeSafe) con tus datos: clasificador, test de indexación, l
+- [fangqiank/JevDemo](https://github.com/fangqiank/jevdemo) `📚2` — JevDemo - JevDemo: TypeSafe Jev ecosystem repository. · TypeScript
+- [FathirAMM/JEV](https://github.com/fathiramm/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [haxitag/Yueli-Dex](https://github.com/haxitag/yueli-dex) `📚2` — Choice-only decision exchange that routes bounded business decisions to TypeSafe Jev or compatible providers and maps validated results to non-authorizing…
+- [hirosichen/jev-workshop](https://github.com/hirosichen/jev-workshop) `📚2` — Other related projects
+- [imchong/robotics_notebooks](https://github.com/imchong/robotics_notebooks) `📚2`
+- [jeanniejoshi/typesafe-jev-clean-beauty-guide](https://github.com/jeanniejoshi/typesafe-jev-clean-beauty-guide) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Jev AI Full COURSE 1 HOUR](https://youtube.com/watch?v=hz8tobafbvm) `📚2` — Julian Goldie's hour-long course: the three question types and ten use cases.
+- [JEV Breakdown: The First AI Model Built For Code](https://youtube.com/watch?v=2bs0ink_-uo) `📚2` — Breakdown of Jev with a live Playground walkthrough of Choice, Score, Noul, and confidence, and where a decision model fits in real apps.
+- [Jev by TypeSafe AI: System One Model Guide for Startups — SaaSCity](https://saascity.io/blog/system-one-models-jev-typesafe-ai-2026) `📚2` — SaaSCity: "Jev by TypeSafe AI: System One Model Guide for Startups (2026)" (updated 2026-09-19) — Founder-oriented guide: unit-economics math, five high-value…
+- [Jev Does Not Replace the LLM. It Changes Who Owns the Decision — DEV](https://dev.to/miruky/jev-does-not-replace-the-llm-it-changes-who-owns-the-decision-3n6) `📚2` — dev.to: "Jev Does Not Replace the LLM. It Changes Who Owns the Decision" (2026-09-19) — Architecture piece: "System One" is TypeSafe's product term, not a…
+- [Jev explained in 7 minutes](https://youtube.com/watch?v=vj7hysh0moi) `📚2` — Jev explained in 7 mins - Caleb Writes Code: what Jev is and how to use it.
+- [Jev Explained（MindStudio）](https://mindstudio.ai/blog/jev-system-one-model-launch) `📚2` — Jev Explained: TypeSafe AI's Non-Autoregressive System-1 Model - MindStudio.
+- [Jev From TypeSafe is a New Class of AI Model that is FAST and CHEAP - But There is a Cavea](https://youtube.com/watch?v=qdji39xxgey) `📚2` — A review that puts the limitation in the title rather than burying it.
+- [Jev in practice: typed decisions, scoped authority](https://tenuo.ai/blog/jev-scoped-authority) `📚2` — Blog: pairs the typed-decision loop with scoped authority, so a confidence value only authorises the action its scope already allows.
+- [Jev is HERE. How to use it](https://youtube.com/watch?v=4mtlpuqpb80) `📚2` — Startup Ideas Pod episode where Ryan Vogel demos Jev sorting 1,700 emails for 18 cents total, then covers lead scoring, support routing, video clipping, and…
+- [Jev Tutorial](https://jev-tutorial.org) `📚2` — Site: multilingual implementation guide covering Choice, Score, Noul, Python SDK calls, thresholds, deterministic fallbacks, and human escalation.
+- [Jev 对比 LLM](https://youtube.com/watch?v=jqfnpx1w6vy) `📚2` — Jev vs LLMs · Alex Hitt · YouTube · ♥ 11 · 2026-09-17Breakdown of parallel sampling vs autoregressive generation, RLCD calibration, the decision primitives, an…
+- [jev.mintan.org](https://jev.mintan.org) `📚2` — Try Jev Asks Until Sure · (Full Jev Asks Until Sure guide)(jev-asks-until-sure.md) · Source
+- [jxaizj/jev-course-demo-main](https://github.com/jxaizj/jev-course-demo-main) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [KennyKang7012/typesafe-chicken-egg](https://github.com/kennykang7012/typesafe-chicken-egg) `📚2` — typesafe-chicken-egg - typesafe-chicken-egg: TypeSafe Jev ecosystem repository. · JavaScript
+- [moruku36/jev-learning-quest](https://github.com/moruku36/jev-learning-quest) `📚2` — A Japanese learning app that uses Jev AI to choose daily quests for cybersecurity certification prep and AI, cloud, and security skills.
+- [mrinalsinghraja/typesafe-easy-guide](https://github.com/mrinalsinghraja/typesafe-easy-guide) `📚2` — Plain-English, step-by-step guide to building cheap, fast AI apps with TypeSafe AI (Jev) — flowcharts, graphics, cost calculator
+- [ninjasweb/jev-blog-filter](https://github.com/ninjasweb/jev-blog-filter) `📚2` — jev-blog-filter - jev-blog-filter: TypeSafe Jev ecosystem repository. · CSS
+- [pasangimhana/fly-x-jev](https://github.com/pasangimhana/fly-x-jev) `📚2` — Pavlovian conditioning on the MaleCNS fruit-fly connectome with TypeSafe's Jev picking the actions: a browser arena (JS) visualizes the circuits, vision, and…
+- [piratchai/Jevonian-complete-guide-to-jev-router](https://github.com/piratchai/jevonian-complete-guide-to-jev-router) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [rickysullivan/typesafe-tutorial](https://github.com/rickysullivan/typesafe-tutorial) `📚2` — Notebooks built while learning TypeSafe AI's System One model Jev
+- [samyung0/capy-notebook](https://github.com/samyung0/capy-notebook) `📚2`
+- [scikit-learn-contrib/MAPIE](https://github.com/scikit-learn-contrib/mapie) `📚2` — MAPIE - Scikit-learn-compatible library for prediction intervals and sets with guaranteed coverage, usable for the "escalate when unsure" path.
+- [shntnu/jev-claim-check](https://github.com/shntnu/jev-claim-check) `📚2` — Check biomedical claims against cited abstracts with DSPy and Jev, as a marimo notebook for molab
+- [ShunsukeTamura06/jev-engineer-briefing](https://github.com/shunsuketamura06/jev-engineer-briefing) `📚2` — Other related projects
+- [simonjisu/learning-jev](https://github.com/simonjisu/learning-jev) `📚2` — Jupyter Notebook
+- [site](https://jev.guide) `📚2`
+- [site](https://youtu.be/zz1ibx8r7wi) `📚2`
+- [site](https://harshithsunku.github.io/learn-jev-end-to-end) `📚2`
+- [spring-ai-typesafe](https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment) `📚2` — Particularly significant for enterprise Java adoption. Spring AI Jev integration
+- [stacklok/typesafe-go](https://github.com/stacklok/typesafe-go) `📚2` — TypeSafe Go - Unofficial Go System One client (Stacklok): explicit auth options, no implicit env reads; distinct from jevgo. (Project…
+- [tidepool-heavy-industries/tidepool](https://github.com/tidepool-heavy-industries/tidepool) `📚2` — A live Haskell notebook where agents compose commands, semantic judgments, and delegation into programs. Agen…
+- [tonhowtf/omniget](https://github.com/tonhowtf/omniget) `📚2` — Udemy & Hotmart course downloader, YouTube downloader (yt-dlp GUI, 1,800+ sites) + desktop app for AI agents:…
+- [TypeSafe AI Jev: An AI model that doesn't generate text – and is 200x faster — DEV](https://dev.to/saaro_net/typesafe-ai-jev-an-ai-model-that-doesnt-generate-text-and-is-200x-faster-1ggo) `📚2` — dev.to: "TypeSafe AI Jev: An AI model that doesn't generate text – and is 200x faster" (2026-09-18) — Community explainer on the three primitives (Choice /…
+- [TypeSafe Jev explained（Requesty）](https://requesty.ai/blog/typesafe-jev-explained) `📚2`
+- [Unnati-23/jev-typesafe-guide](https://github.com/unnati-23/jev-typesafe-guide) `📚2` — Jev by TypeSafe AI — the free guide: where to get it, how to use it, use cases, and an honest comparison ...
+- [vasuchettyphd/jev-tutorial](https://github.com/vasuchettyphd/jev-tutorial) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Vedmeena21/understanding-jev](https://github.com/vedmeena21/understanding-jev) `📚2` — understanding-jev - understanding-jev: TypeSafe Jev ecosystem repository. · Python
+- [whit33y/Jev-demo](https://github.com/whit33y/jev-demo) `📚2` — Jev-demo - Jev-demo: TypeSafe Jev ecosystem repository. · TypeScript
+- [Why I couldn't build Jev at OpenAI](https://youtube.com/watch?v=cfx9z3zxca0) `📚2` — Video: Diogo Almeida explains the design motivation behind System One models and why the work became a separate company.
+- [zhumin2/jev-tutorial](https://github.com/zhumin2/jev-tutorial) `📚2`
+- [网站](https://kikoncuo.github.io/jevfire/learn.html) `📚2`
+- [虎嗅](https://huxiu.com/article/4892583.html) `📚2` — About 64–65.2% correct; roughly 0.73 s per question and ~$0.002 for 50 questions; the strongest small-model comparator (MiniMax M3) led by about 10.8…
+- ["Jev AI Explained: TypeSafe's New AI Is 99% Cheaper Than GPT" (YouTube, The Invisible Econ](https://youtube.com/watch?v=eqh6a-2mz7o) `📚1` — Stickman-animated explainer of what Jev is and how it works (typed questions in, one answer plus a confidence score out; the "bouncer" trick for cutting…
+- [100x Faster? He Co-Created ChatGPT. Now He Built the Opposite: Meet Jev.](https://youtube.com/watch?v=oai-5lhkwyu) `📚1` — Launch walkthrough with sources on screen: blog caveats, Doom and Wikiracing demos, the two outside tests, 'can't hallucinate' read closely, X thread…
+- [108 条声明对照：Jev 的校准并不独特（含作者自我修正）](https://truestandard.ai/blog/jev-accuracy-tested) `📚1` — Vergelijking van 108 verklaringen: de kalibratie van Jev is niet uniek.
+- [7155/course-learning](https://github.com/7155/course-learning) `📚1`
+- [8 Wild Things People Already Built](https://youtube.com/watch?v=bon4omc8o9c) `📚1`
+- [\"One Million Logs, Zero Wasted Pages\"](https://medium.com/@muhamad99t/one-million-logs-zero-wasted-pages-inside-jevops-and-typesafe-jev-35ac25179215) `📚1`
+- [A Coding Guide to TypeSafe AI Jev — Bytecore News](https://bytecorenews.com/a-coding-guide-to-typesafe-ai-jev-typed-decisions-calibrated-confidence-and-speculative-fan-out-with-a-system-one-model) `📚1`
+- [aangelopoulos/conformal-prediction](https://github.com/aangelopoulos/conformal-prediction) `📚1` — conformal-prediction - Angelopoulos and Bates: lecture notes and runnable notebooks on conformal prediction and distribution-free uncertainty, the basis for…
+- [Agentpedia claim-vs-evidence guide](https://agentpedia.codes/blog/jev-system-one-models) `📚1` — Claim-by-claim audit separating verified Jev pricing and latency from unproven calibration; puts aggregate accuracy at 67.8% versus Opus 5's 73.1%.
+- [ahmadsalahuddeen/Learn-Typescript](https://github.com/ahmadsalahuddeen/learn-typescript) `📚1` — This repository documents my journey learning TypeScript. I am using this repository to ke
+- [AI Profit Boardroom: Jev Architecture](https://aiprofitboardroom.com/blog/jev-architecture) `📚1` — architecture blueprints (voice browser, outfit mirror), the "English carries the intelligence" pattern
+- [ai.quantdinger.com](https://ai.quantdinger.com) `📚1` — Live app · Website · (Full QuantDinger guide)(quantdinger.md) · Source
+- [AI/ML API: "What Is Jev? TypeSafe's Decision Model, Tested Against LLMs" (2026-09-26)](https://aimlapi.com/blog/what-is-jev) `📚1` — Independent six-model head-to-head, full article verified: 900 examples across three tasks (Banking77 intent routing, TweetEval offensive moderation,…
+- [albertcas/jev-mail-filtering](https://github.com/albertcas/jev-mail-filtering) `📚1` — JEV Mail Filtering - Local read-only IMAP inbox triage with TypeSafe Jev (needs reply / worth reading / scam / unsure). (Project…
+- [Anthropic ticket-routing guide](https://platform.claude.com/docs/en/about-claude/use-case-guides/ticket-routing) `📚1` — customer-support classification as a concrete LLM workflow.
+- [aprv10/MoEjev](https://github.com/aprv10/moejev) `📚1` — Exploring learned adaptive compute for Mixture-of-Experts routing, inspired by calibrated decision models Automatically matched explicit Jev and…
+- [Archestra: 100 real agent calls](https://archestra.ai/blog/we-tested-jev-on-100-real-agent-calls) `📚1` — Authors report roughly 93% zero-shot and 95% nine-shot for Jev; majority-class baseline is 79%; also checks repeat calls and option permutations
+- [aryanvisualize/Understanding-Jev](https://github.com/aryanvisualize/understanding-jev) `📚1` — Learning resources and directories
+- [BAML](https://boundaryml.com/blog/typesafe-ai-jev) `📚1` — BoundaryML · Article · 2026-09-17Derives Jev questions from a function's return type, turning booleans and floats into Nouls and enums into Choices.
+- [Best Open Source Jev Alternatives](https://pinggy.io/blog/best_open_source_jev_alternatives_self_hosted_decision_models) `📚1` — Self-hosting decision models.
+- [Bienfait-ijambo/learn-jev](https://github.com/bienfait-ijambo/learn-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [bio-colab/darwin-evolab](https://github.com/bio-colab/darwin-evolab) `📚1` — Evolutionary Operating System for Software Repair &amp; Silicon Synthesis Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [Blackshadow05/learningenglish](https://github.com/blackshadow05/learningenglish) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Braintrust](https://braintrust.dev/blog/evaluate-agent-responses-with-jev) `📚1`
+- [Brier definition](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.brier_score_loss.html) `📚1`
+- [casco CVSS 基准](https://casco.com/blog/jev-cvss-benchmark) `📚1`
+- [caseymanos/jev-drop](https://github.com/caseymanos/jev-drop) `📚1` — A Thousand Small Frictions: an interactive Jev field guide with a live inbox playground
+- [CellCog](https://cellcog.ai/blog/jev-typesafe-decision-model) `📚1`
+- [charliejimi/reliable-hook-workshop](https://github.com/charliejimi/reliable-hook-workshop) `📚1`
+- [chefline9/jev_eul4](https://github.com/chefline9/jev_eul4) `📚1` — Life is always full of ups and downs; learn to maintain a peaceful mindset; only by holdin
+- [clchrf/jev-course-demo](https://github.com/clchrf/jev-course-demo) `📚1`
+- [Cody Seibert (WebDevCody)](https://youtube.com/watch?v=ldmrk_7d-w8) `📚1` — (Video Analysis) &middot; 📺 Video -- Critical architectural teardown by WebDevCody analyzing where non-generative classification outperforms generative LLMs vs…
+- [columnar.tech 的 Arrow 思路实验](https://columnar.tech/blog/what-if-jev-spoke-arrow) `📚1`
+- [Community Jev demo roundup](https://youtube.com/watch?v=lu6k07u4wok) `📚1`
+- [daemonchen/jev-system-one-tutorial](https://github.com/daemonchen/jev-system-one-tutorial) `📚1`
+- [daryl9441/laya-learning-demo](https://github.com/daryl9441/laya-learning-demo) `📚1`
+- [daunlee1128/jev-workshop](https://github.com/daunlee1128/jev-workshop) `📚1`
+- [DEV Community guide](https://dev.to) `📚1` — getting-started guides circulating since launch week
+- [dev.to: "Jev, the ChatGPT co-creator's System One model can't talk"](https://dev.to/lukeocodes/jev-the-chatgpt-co-creators-system-one-model-cant-talk-3774) `📚1`
+- [dev.to: "Jev, the model that cannot write a word, and where it fits in web scraping" (2026](https://dev.to/extractdata/jev-the-model-that-cannot-write-a-word-and-where-it-fits-in-web-scraping-does-it-45jb) `📚1` — Practitioner test of Jev as a post-extraction data-quality gate: one batched call with six typed questions over scraped book records; across 59 correct + 59…
+- [dev.to: "Laya a decision making system one model" (Shariful Islam Sourav, 2026-09-26)](https://dev.to/sharifulislamsourav/laya-a-decision-making-system-one-model-41fb) `📚1` — Weekend build: an order-risk fraud detector on Laya with a GitHub repo and a live demo (order-risk.netlify.app). Self-reported speeds: 5s+/request on a laptop…
+- [dev.to: "What Is Jev AI? A Practical Getting-Started Guide to TypeSafe's Decision Model" (](https://dev.to/charlie_chen_d661f49e69cb/what-is-jev-ai-a-practical-getting-started-guide-to-typesafes-decision-model-2gaf) `📚1` — Accurate getting-started walkthrough: the three question types, the Jev-vs-LLM decision-layer framing, honest production habits (pin jev-1.13.0, measure your…
+- [Di Zhang：What Is RLCD?](https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev) `📚1` — Community architecture hypothesis; its equations are not a TypeSafe-disclosed training algorithm
+- [Drawpie: "Jev, TypeSafe AI's Model: Specs, Price, Access"](https://drawpie.com/blog/what-is-jev-typesafe-ai-model) `📚1` — Honest spec/price audit (figures read from TypeSafe's docs on 2026-09-22): catches the GA-to-signup-pause gap at 32.8h and flags the 64K-request-budget vs…
+- [Eigent AI: 什么是 Jev](https://eigent.ai/zh-cn/blog/typesafe-ai-jev-system-one-models) `📚1` — detailed Chinese explainer
+- [evaluation write-up](https://norsica.jp/blog/what-retrieval-still-hasnt-decided) `📚1`
+- [f/prompts.chat](https://github.com/f/prompts.chat) `📚1` — GitHub API reported 170,916 stars for f/prompts.chat
+- [Farit Galeev (Medium): "How Might TypeSafe's Jev Work? Rebuilding a 'System One' Decoder o](https://medium.com/@f.galeev.business/how-might-typesafes-jev-work-rebuilding-a-system-one-decoder-on-a-laptop-48a7c104220b) `📚1` — Reverse-engineering deep-dive with real experiments and code (HiGal/parallel-constrained-decoding, six notebooks): parallel constrained decoding over an…
+- [findtherightapi.com](https://findtherightapi.com) `📚1` — Try Find the Right API · (Full Find the Right API guide)(find-the-right-api.md) · Source
+- [frank chu · DEV（2026-09-21）](https://dev.to/frankchu/everyone-is-quoting-jevs-benchmarks-heres-what-you-can-check-without-a-key-59dg) `📚1`
+- [Free JEV API Guide](https://jevapi.io) `📚1` — Independent first-request walkthrough with runnable examples of typed JEV decisions; example calls send supplied state through BeatAPI, while the guide itself…
+- [fukukei23/jev-harness-guide](https://github.com/fukukei23/jev-harness-guide) `📚1`
+- [GuardingPearSoftware: "How to use Jev in game development" (updated 2026-09-23)](https://guardingpearsoftware.com/blog/how-to-use-jev-in-game-development-55682) `📚1` — Honest independent-latency aggregation with named sources: WotAI p50 455ms (fastest of 16 models); Benchmark Heaven 242 decisions, median 0.65s / p95 0.72s…
+- [Guide](https://laya-ai.com/system-one-models/kev) `📚1`
+- [Guide](https://laya-ai.com/system-one-models/von) `📚1`
+- [Guide](https://laya-ai.com/system-one-models/tev1) `📚1`
+- [Halv cut AI agent cost by 57.1% using Jev](https://halv.ai/blog/halv-swe-rebench-astra-42-pairs) `📚1` — Blog + HN: reports a measured cost reduction from putting Jev in the agent loop, on the SWE-rebench Astra pair set.
+- [HermeticOrmus/jev-state-questions-action-verify](https://github.com/hermeticormus/jev-state-questions-action-verify) `📚1` — Jev loop cookbook: State → Questions → Action → Verify Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [hmaiya/jev-lab-v2](https://github.com/hmaiya/jev-lab-v2) `📚1` — JevLab V2: workflow evaluation guide and calculator
+- [https://dev.to/shimo4228/moving-my-research-pipelines-judgment-calls-from-an-llm-to-jev-a-](https://dev.to/shimo4228/moving-my-research-pipelines-judgment-calls-from-an-llm-to-jev-a-judgment-only-model-4ncj) `📚1`
+- [I Built Non-Autoregressive Decision Models a Year Ago](https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me) `📚1` — Laya's author on the background of the project.
+- [I tried TypeSafe’s System One Model: Jev](https://youtube.com/watch?v=ccmqps6q9gw) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [ino-777/jev_tutorial](https://github.com/ino-777/jev_tutorial) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Jev AI Use Cases](https://medium.com/data-science-in-your-pocket/jev-ai-use-cases-9a87d57ac3b4) `📚1` — Walks through use case after use case — agent routing, an in-agent decision layer, ticket triage — each with a concrete option set and a sample response.
+- [Jev AI，System One：比 LLM 快 193 倍？](https://youtube.com/watch?v=qhx9gbex_e8) `📚1` — Jev AI, System One: 193x Faster Than LLMs? · Fru Dev · YouTube · ♥ 5 · 2026-09-17Explains how Jev returns a typed decision with a confidence score instead of…
+- [Jev and herdr: routing between models](https://youtube.com/watch?v=7w8erwnuua8) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [Jev and System One Models: A Production Engineering Review — ContextOS](https://contextosai.com/blog/jev-system-one-models-when-ai-returns-decisions) `📚1`
+- [Jev deep dive](https://youtube.com/watch?v=nttqtdrbguc) `📚1`
+- [Jev Explained for Python Developers](https://youtube.com/watch?v=jpflid19qnq) `📚1` — Dave Ebbelaar: a support-ticket classification first, then the three primitives, with latency and price next to Claude Haiku and Opus.
+- [Jev Explained in 3 Mins](https://youtube.com/shorts/zkzqt5rbrf4) `📚1` — odeKloud's short: what a System One model decides, and why it answers in milliseconds.
+- [Jev explained with Python examples](https://youtube.com/watch?v=eah1h1gyxdm) `📚1` — ZazenCodes works through Jev hands on, from a first call to typed decisions.
+- [Jev for GTM: What a $0.04 Decision Model Does to Your Sales Stack — MarketBetter](https://marketbetter.ai/blog/jev-for-gtm-decision-model-playbook) `📚1`
+- [Jev in production vs a cross-encoder（getunblocked）](https://getunblocked.com/blog/jev-in-production-vs-cross-encoder) `📚1`
+- [Jev in the rtrvr.ai browser agent](https://youtube.com/watch?v=jsnqwfb9n1q) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [Jev is 13.6x faster, 2.7x cheaper than GPT Luna 6（tessl 实测）](https://tessl.io/blog/jev-is-136x-faster-and-27x-cheaper-than-gpt-luna-6-for-tessl-verifiers-try-it-yourself) `📚1`
+- [Jev is incredible](https://youtube.com/watch?v=f3yxg7aakwe) `📚1` — Theo explains why Jev is a fast classifier with strong safety perks that complements rather than replaces reasoning models like Astra and Fable.
+- [Jev launch demo (TypeSafe)](https://youtube.com/watch?v=7aaq5j64k34) `📚1`
+- [Jev System One Model, clearly explained](https://youtube.com/watch?v=rmqi_y1avva) `📚1` — Sean's AI Stories explains TypeSafe AI, fast judgment and evaluation end to end.
+- [JEV tutorial](https://agentplugins-2v1.pages.dev/typesafe) `📚1`
+- [Jev vs Laya](https://wilsonwu.me/en/blog/2026/jev-vs-laya) `📚1` — Choosing between closed and open System One models.
+- [JEV vs. ChatGPT & Claude](https://youtube.com/watch?v=g_gzu-zfena) `📚1` — Portuguese-language video comparing Jev with ChatGPT and Claude and explaining what a decision model does differently.
+- [Jev 入门](https://youtube.com/watch?v=har_ddwrlha) `📚1` — Getting started with Jev · azamsharp · YouTube · ♥ 16 · 2026-09-17Tutorial on setting up a Jev API key, making a raw HTTP request, reading the response…
+- [Jev 对比 LLM：为什么它不需要说话](https://youtube.com/watch?v=uwgcouou9ns) `📚1` — Jev vs LLMs: why it doesn't need to talk · EJ Zhang · YouTube · ♥ 2 · 2026-09-20Four-minute explainer on how Jev differs from autoregressive LLMs, why…
+- [Jev 对比传统 LLM：上手深度解读](https://youtube.com/watch?v=3uvmxwejagk) `📚1` — Jev vs traditional LLMs: hands-on deep dive · NitMonk · YouTube · ♥ 19 · 2026-09-21Hour-long live session on Jev's primitives, state and questions, and…
+- [Jev 是什么？快速入门完整演示](https://youtube.com/watch?v=w3ks3ezl3cq) `📚1` — What is Jev? Complete Quick Start Walkthrough · Kilo Loco · YouTube · ♥ 7 · 2026-09-20Fifty-minute walkthrough of the official quick start: the Playground, a…
+- [Jev 是决策层](https://youtube.com/watch?v=uun0r3t6oig) `📚1` — Jev is the decision layer · Ante AI Portas · YouTube · ♥ 6 · 2026-09-17Educational overview of why chat LLMs are a poor fit for classify, route, and score…
+- [Jev 比你想的更强](https://youtube.com/watch?v=dnhx2yiloic) `📚1` — Jev is more than you think · Kristian · YouTube · ♥ 8 · 2026-09-20Explainer on how Jev choices can be actions such as tool selection, model routing, or game…
+- [Jev 真能打败 LLM 吗？4 项对决](https://youtube.com/watch?v=ltf1gji6ewa) `📚1` — Does Jev actually beat LLMs? 4 arenas · Ansh Nanda · YouTube · ♥ 23 · 2026-09-17Head-to-head tests of Jev against Claude, GPT and DeepSeek models on inbox…
+- [Jev 讲解](https://youtube.com/watch?v=ryp_uq4afyw) `📚1` — Jev explained · John Joubert · YouTube · ♥ 7 · 2026-09-17Explainer on structured decisions, the Doom and Super Mario demos, parallel questions, calibration,…
+- [Jev 讲解：更快、更便宜的决策](https://youtube.com/watch?v=we5igfmqze8) `📚1` — Jev explained: faster, cheaper decisions · Morgans Code · YouTube · ♥ 6 · 2026-09-18Explainer on whether a decision model can speed up computer-use agents,…
+- [Jev, three days in](https://aiwithmike.substack.com/p/jev-three-days-in-what-is-known-what) `📚1` — What is known, what is guessed, and what it is good for, with the independent numbers pulled together.
+- [Jev-Like Model Learns to Cook](https://rlafuente.com/posts/2026-9-26-training-a-small-decision-model-to-cook) `📚1`
+- [jev-songwriter.chardonn.ai](https://jev-songwriter.chardonn.ai) `📚1` — Try Jev Songwriter · (Full Jev Songwriter guide)(jev-songwriter.md) · Source
+- [JEV: How It Works and What You Can Build](https://youtube.com/watch?v=o1cogatwdbk) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [Jev: The AI That Returns a Decision, Not a Paragraph — Sreenath Menon](https://sreenathmenon.com/blog/2026-09-20-jev-the-ai-that-returns-a-decision-not-a-paragraph) `📚1`
+- [jeves1202/use4-learning-lab](https://github.com/jeves1202/use4-learning-lab) `📚1` — Build a USE4-style (Barra) equity factor risk model from scratch on Sharadar data — specs + a full textbook; you write the code.
+- [jevi-rahmat/jev-academy](https://github.com/jevi-rahmat/jev-academy) `📚1` — A college project from the Intermediate Website Programming course. The goal is to create
+- [jeviguide.com: "Is Jev an LLM?" (independent FAQ, checked 2026-09-19)](https://jevaiguide.com/faq/is-jev-an-llm) `📚1` — Architecture question, honestly scoped: RLCD objective + single parallel forward pass are confirmed; TechCrunch reports it is transformer-based; base model,…
+- [jevrl/jevrl](https://github.com/jevrl/jevrl) `📚1` — JevRL: Calibrated Typed Decisions from Language Models via Reward Learning
+- [jevxtn/assembly-language-projects](https://github.com/jevxtn/assembly-language-projects) `📚1` — A curated collection of assembly language projects showcasing various techniques and algorithms. This repository is a resource for learning and exploring the…
+- [Jev（TypeSafe）：快 200 倍……但是和什么比？](https://youtube.com/watch?v=zjlz4-rs5wm) `📚1` — Jev (TypeSafe) : 200x plus rapide... mais comparé à quoi ? · Deep Learner, One Step at a Time · YouTube · ♥ 4 · 2026-09-19French-language look at how TypeSafe…
+- [Jev：是什么、如何获取、我怎么用](https://youtube.com/watch?v=umtp7i-ugw0) `📚1` — Jev: what it is, how to get access, how I use it · tacosdedatos · YouTube · ♥ 16 · 2026-09-20Explainer on Jev's three question types, schema rules and…
+- [Jev：毫秒级决策](https://youtube.com/watch?v=i817k4awtmu) `📚1` — Jev: decisions in milliseconds · Codedigipt · YouTube · ♥ 16 · 2026-09-20Explainer on how Jev returns probabilistic typed outputs, its speed, and how it…
+- [Jev：通用分类模型首测](https://youtube.com/watch?v=rdvj3u642js) `📚1` — Jev - General Classification Model First Test · Venelin Valkov · YouTube · ♥ 13 · 2026-09-19First hands-on test of Jev as a general classifier whose labels are…
+- [josers18/analytics-made-simple-tutorials](https://github.com/josers18/analytics-made-simple-tutorials) `📚1`
+- [Kalshi 预测市场实测视频](https://youtube.com/watch?v=od4j4osz4jy) `📚1`
+- [kangana1024/showkhun-jev-workshop](https://github.com/kangana1024/showkhun-jev-workshop) `📚1` — Showkhun Blog workshop: Jev on Vercel AI Gateway (4 steps)
+- [karthikBalasubramanian/jev-tutorials](https://github.com/karthikbalasubramanian/jev-tutorials) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [Lakshmi narayana .U (Medium): "I Wired TypeSafe AI's Jev Into a Real Pipeline. Here's What](https://medium.com/@lakshminarayana_u/i-wired-typesafe-ais-jev-into-a-real-pipeline-here-s-what-actually-held-up-360ef0065b69) `📚1` — Real-API end-to-end build (intro verified; body behind Medium's JS render): a competitive-intelligence radar watching HN and GitHub Trending across nine stages…
+- [Laozhang.AI: "Jev AI Model: What It Is, How It Compares, and How to Use It" (2026-09-24)](https://blog.laozhang.ai/en/posts/jev-ai-model-guide) `📚1` — Long-form tutorial with request anatomy (state/model/questions), cost arithmetic (1M ticket classifications at 400 input tokens ≈ $16.80), and a retest of Emil…
+- [Laravel News: "Decide with Jev: Laravel AI That Answers with a Probability" (mini course,](https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability) `📚1` — Builds a "content preflight checker" in Laravel: Jev scores whether a draft matches its brief — 0.96 for a complete draft, 0.02 for a thin one — with mid-range…
+- [Laya: A 421M Local Decision Model](https://themenonlab.blog/blog/laya-local-system-1-decision-model) `📚1` — How Laya works under the hood.
+- [Laya: The Open-Source Jev Alternative, Benchmarked](https://flowtivity.ai/blog/laya-open-source-jev-alternative) `📚1` — Laya benchmarked against Jev.
+- [Learn Jev Tutorials](https://learnjev.com/tutorials) `📚1` — Independent tutorials for Jev concepts, patterns, confidence, and reliability.
+- [learn-ukrainian/learn-ukrainian.github.io](https://github.com/learn-ukrainian/learn-ukrainian.github.io) `📚1` — Learn Ukrainian TypeSafe tooling · learn-ukrainian · GitHub · ⭐ 9 repo · 2025-12-21Agent-fleet tooling in a free A1-C2 Ukrainian course repo that uses Jev for…
+- [Learner-Lee/JEV-Try](https://github.com/learner-lee/jev-try) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [li-qing919/harness-guide](https://github.com/li-qing919/harness-guide) `📚1` — Harness Engineering Implementation Guide - Complete guide with theory, practice, and tool recommendations Automatically matched explicit Jev and…
+- [live](https://jeverything.vercel.app/courses/jev) `📚1`
+- [live](https://blog.vertexcover.io/who-is-hiring) `📚1`
+- [lue-bird/blog](https://github.com/lue-bird/blog) `📚1` — topic:typesafe created:2023-01-01..2023-12-31
+- [MadhavBahl/jev-guide](https://github.com/madhavbahl/jev-guide) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [marktechpost-ai-media-inc/ai-agents-projects-tutorials](https://github.com/marktechpost-ai-media-inc/ai-agents-projects-tutorials) `📚1` — Jev typed decisions tutorial - Marktechpost notebook that walks through Jev typed decisions: ticket triage, recomputing confidence, resume scoring, intent…
+- [mattwfog/harness](https://github.com/mattwfog/harness) `📚1` — Run, record, replay, score and gate LLM agents: an OCaml 5 effect-handler agent runtime (journal, policy, deterministic replay, measured learning loop) plus a…
+- [Medium](https://medium.com/@manjunath.shiva/i-tested-typesafes-jev-a-470-cheaper-decision-model-against-claude-gpt-6-kimi-minimax-and-d36ed152e861) `📚1`
+- [Medium 热文](https://ezzekielnjuguna.medium.com/jev-ai-explained-the-new-model-that-finished-a-3-minute-web-task-in-7-seconds-2fdb199e5588) `📚1`
+- [MeetCody: "Jev AI Explained: Pricing, Speed & LLM Comparison"](https://meetcody.ai/blog/typesafe-jev-ai-system-one-model) `📚1` — Fact-sheet explainer with sources checked 2026-09-17: Jev 1.13, System One, API ID jev-1.13.0, 64K tokens/request, $0.042 per million input tokens with free…
+- [Meng Li (Python Libraries): "20 Open Source Projects for the Jev Model" (Substack, ~2026-0](https://pythonlibraries.substack.com/p/20-open-source-projects-for-the-jev) `📚1` — Curated roundup with the framing that threads all twenty together: "large models write and think; Jev judges and chooses." Intro verified; the 20-project list…
+- [merefield/discourse-chatbot](https://github.com/merefield/discourse-chatbot) `📚1` — An AI bot with RAG capability for Topics, Chat &amp; Customer Support in Discourse, currently powered by OpenAI Automatically matched explicit Jev and…
+- [Mithil Maske (Medium): "What Is Jev? TypeSafe's System One Model, Explained" (2026-09-26)](https://medium.com/@mithilmaske/what-is-jev-typesafes-system-one-model-explained-b0a4d98ec263) `📚1` — Synthesis of eight days of independent tests: six-model comparison has Jev at 72.5% vs Claude Fable 5.1 84.0% / GPT-6 Astra 79.0%; narrow binary work shines…
+- [Most People on the Internet Miss What Jev Is About](https://medium.com/@gemanor/most-people-on-the-internet-miss-what-jev-is-about-ad0a983537d5) `📚1` — Addresses common misconceptions
+- [NaveenKumar Namachivayam (QAInsights)](https://youtube.com/@qainsights) `📚1`
+- [New Jev Model Acts in Real Time... Minecraft Broke It](https://youtube.com/watch?v=di3irgulczq) `📚1`
+- [nexibeo/jev-cookbook,28,JavaScript](https://github.com/nexibeo/jev-cookbook,28,javascript) `📚1`
+- [Nicksxs/Nicksxs.github.io](https://github.com/nicksxs/nicksxs.github.io) `📚1` — my personal blog for tech and life
+- [nourayman21k/clinic-zero](https://github.com/nourayman21k/clinic-zero) `📚1` — clinic-zero — Dental clinic front-desk agent (LangGraph + Groq) with a local Jev router that binds only the tools each message needs - 51% fewer tokens _(★0,…
+- [OctoMind: "Jev System One model for AI agents"](https://octomind.run/blog/jev-system-one-model-ai-agents) `📚1`
+- [ofmeton/jev-field-guide-2026](https://github.com/ofmeton/jev-field-guide-2026) `📚1` — Visual field guide to TypeSafe Jev cases, OSS and research
+- [Ollama 0.35](https://ollama.com/blog/ollama-now-supports-jev-style-decision-models) `📚1`
+- [omnifroodle/couchbase_notebooks](https://github.com/omnifroodle/couchbase_notebooks) `📚1`
+- [open notebook](https://colab.research.google.com/github/atliq/jev-ai-use-cases/blob/main/jev_decision_guide.ipynb) `📚1`
+- [OpenRouter Jev comparison](https://openrouter.ai/blog/tutorials/jev-vs-llm-when-to-use-each) `📚1` — Benchmark comparisons have also circulated rapidly on X, but those should be treated as preliminary social evidence rather than authoritative evaluation. One…
+- [opper.ai 的 Jev vs. Kev 同题对比](https://opper.ai/blog/jev-vs-kev-open-decision-model) `📚1`
+- [OrcaRouter Chinese introduction](https://orcarouter.ai/zh-cn/blog/jev-typesafe-system-one-what-we-know) `📚1` — An overview of the product and available evidence.
+- [peterwadsackett/agenticworkshop](https://github.com/peterwadsackett/agenticworkshop) `📚1`
+- [pmerlin1/sf-early-learning-mcp](https://github.com/pmerlin1/sf-early-learning-mcp) `📚1`
+- [pmerlin1/sf-early-learning-mcp,0,JavaScript,,2026-09-21](https://github.com/pmerlin1/sf-early-learning-mcp,0,javascript,,2026-09-21) `📚1`
+- [Preporato: "Learn Jev: Hands-On Tutorial, Live Demo and Free Lab"](https://preporato.com/jev) `📚1` — Honest interactive walkthrough with live API examples (raw request/response, 399ms shown) and a free 45-minute guardrail lab. Best part: a production…
+- [Product with Attitude](https://karozieminski.substack.com) `📚1` — Curated by Karo Zieminski, creator of Product with Attitude — practical AI experiments and lessons from building with AI.
+- [RadRebelSam/ai4all-20c-darkpatterns](https://github.com/radrebelsam/ai4all-20c-darkpatterns) `📚1` — Detecting manipulative e-commerce website language using supervised machine learning - deployed as a Streamli…
+- [Rebuilt Captcha with Jev](https://localcan.com/blog/build-your-own-captcha) `📚1`
+- [Recurso original](https://learningatlas.us/learning/video/ccmqps6q9gw) `📚1`
+- [rsrini7/Learnings](https://github.com/rsrini7/learnings) `📚1` — My public engineering learning OS - daily notes, AI/ML research, agent systems, JVM engineering, architecture…
+- [Runtime-weekly/runtime-tutorials](https://github.com/runtime-weekly/runtime-tutorials) `📚1` — Hands-on Laya and Needle guides: beginner setup, runnable Python examples, saved results and trouble
+- [Sanity](https://sanity.io) `📚1` — Headless CMS for directory content and blog posts.
+- [satvik314/jev-experiments](https://github.com/satvik314/jev-experiments) `📚1` — Jupyter Notebook
+- [SDK installation guide](https://laravel.com/docs/ai-sdk) `📚1`
+- [serverpod/starguide](https://github.com/serverpod/starguide) `📚1`
+- [setup guide](https://cua.ai/docs/how-to-guides/driver/jev-use) `📚1`
+- [shimayuz/cath-lab-open](https://github.com/shimayuz/cath-lab-open) `📚1` — Open-source coronary catheter learning prototype. English/Japanese. Research data under separate terms; Jev P…
+- [sinfiny/jev-feed](https://github.com/sinfiny/jev-feed) `📚1` — Adaptive public YouTube learning feeds built for focused audiences.
+- [spareilleux/learn](https://github.com/spareilleux/learn) `📚1` — Learning in public — bilingual (en/fr) courses written as I learn
+- [Substack](https://zodchiii.substack.com/p/the-jev-setup-guide-how-to-get-maximum) `📚1`
+- [tatdt622989/blog](https://github.com/tatdt622989/blog) `📚1`
+- [Terence Luk: "TypeSafe Jev: The System One Model" (2026-09-24)](https://blog.terenceluk.com/2026/09/typesafe-jev-system-one-model.html) `📚1` — Honest hands-on tutorial through Vercel AI Gateway: a claims table separating TypeSafe's launch-post figures (40–200× faster, up to 444.6× cheaper) from what…
+- [Testing Jev as a validation gate for drug-discovery agents](https://frederickparsons.substack.com/p/can-a-fast-ai-gate-catch-chemistry) `📚1` — Experiment in a high-stakes domain
+- [The State Machine Is the Agent（stacktoheap）](https://stacktoheap.com/blog/2026/09/21/the-state-machine-is-the-agent) `📚1`
+- [THIS AI MODEL DOESN'T WANT TO TALK TO YOU — DEV](https://dev.to/mahankenway/this-ai-model-doesnt-want-to-talk-to-you-od0) `📚1`
+- [tms7331/jev-notebook](https://github.com/tms7331/jev-notebook) `📚1` — Hands-on Jupyter notebook intro to TypeSafe's Jev: typed questions and probabilistic answers, a complete first API call, three useful workflows and three poor…
+- [tomjo21/learning_jev](https://github.com/tomjo21/learning_jev) `📚1`
+- [Towards Deep Learning: "TypeSafe Spent Two Years Building 'Jev' in Secret. Open Source Clo](https://towardsdeeplearning.com/typesafe-spent-two-years-building-jev-in-secret-open-source-cloned-it-in-4-days-6020238ae08f) `📚1` — Analysis of the open-clone wave: Laya creator Nandakishor Mukkunnoth (ConvAI Innovations) claims his March-2025 arXiv paper plus open weights/dataset/PyPI…
+- [trainingonlinecourses/JEV-AI](https://github.com/trainingonlinecourses/jev-ai) `📚1` — JEV-AI DEMO and showing with all frontier and open source models
+- [TrueFoundry](https://truefoundry.com/blog/typesafe-ai-jev) `📚1`
+- [TypeSafe AI 的 Jev：现场演示讲解](https://youtube.com/watch?v=qkafjhkyrre) `📚1` — Jev by TypeSafe AI: Explained With Live Demos · AiNow · YouTube · ♥ 3 · 2026-09-19Runs Jev live through OpenRouter and walks through what separates a System…
+- [TypeSafe Jev 事实核查](https://youtube.com/watch?v=no9g3n8psik) `📚1` — TypeSafe Jev Fact-Check · Prism Labs · YouTube · ♥ 5 · 2026-09-20Checks the viral launch claims against TypeSafe's own footnotes: the 70 ms typed-decision…
+- [utkaln/learn-jev](https://github.com/utkaln/learn-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [VanshWAGH-CS/Learning-Jev](https://github.com/vanshwagh-cs/learning-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [vemuladasaradha1/jevguard-colab-deploy,1,Python,,2026-09-25,Jev](https://github.com/vemuladasaradha1/jevguard-colab-deploy,1,python,,2026-09-25,jev) `📚1`
+- [vikrantjadhav09/JEV-AI-Model-Learning-](https://github.com/vikrantjadhav09/jev-ai-model-learning-) `📚1` — jevlang OR jev.ai in:name,description created:
+- [vivek081166/jev-ai-tutorial](https://github.com/vivek081166/jev-ai-tutorial) `📚1` — Code from 'How to Use Jev AI (and When Not to Trust It)': one Jev call, a trust rule, seve
+- [We need to talk about Jev](https://youtube.com/watch?v=2z-7pij57f8) `📚1` — Matthew Berman reviews the Jev launch and early community demos and reactions from X, and what a decision-only model changes.
+- [We Tested a 35B LLM Against Typed-Decision Models on 12,000 Real RFQs — DEV](https://dev.to/cookies_c9dc8b91f33d29250/we-tested-a-35b-llm-against-typed-decision-models-on-12000-real-rfqs-confidence-changed-the-winner-56hh) `📚1`
+- [What is Jev: TypeSafe AI's model that decides instead of writing — DEV](https://dev.to/devrchancay/what-is-jev-typesafe-ais-model-that-decides-instead-of-writing-1ndd) `📚1`
+- [What is Jev? (Tech Brew Ride Home)](https://youtube.com/watch?v=ipom6c1fcp0) `📚1` — La publicación original o el vídeo completo no se han revisado de forma independiente.
+- [What is Jev? Costs, examples, and getting started — Karo Zieminski, Product with Attitude](https://karozieminski.substack.com/p/what-is-jev-cost) `📚1` — . What is Jev? Costs, examples, and getting started — Karo Zieminski, Product with Attitude — A practical introduction to Jev, how it differs from LLMs, and…
+- [What Is Jev? TypeSafe AI's System One Model Explained — TestMu AI](https://testmuai.com/blog/what-is-jev) `📚1`
+- [What Is Jev? TypeSafe's System One Model Explained — KuCoin](https://kucoin.com/blog/what-is-jev-ai-typesafe-system-one-model-explained) `📚1`
+- [What Is Jev? Why System One Models Matter for Enterprise AI — HatchWorks](https://hatchworks.com/blog/gen-ai/system-one-models-jev) `📚1`
+- [What Is RLCD? The Secret Behind Jev](https://kartikpansuriya.com/blog/jev-system-one-model-calibrated-decisions) `📚1`
+- [What Is TypeSafe Jev? The ChatGPT Co-Creator's Silent AI — Apex36](https://apex36tech.com/blog/what-is-typesafe-jev-the-chatgpt-co-inventors-silent-ai) `📚1`
+- [Will OpenAI eat Jev's lunch?](https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch) `📚1` — Analysis + HN thread (306 points, 215 comments): argues OpenAI is best positioned to fast-follow the typed-decision shape, and the thread debates whether the…
+- [X 社区：发布日官方账号被钓鱼](https://commondefense.ai/blog/typesafe-x-account-phished) `📚1` — @typesafeai opublikował wpis w dniu premiery o 11:17, o 17:43 CEO zgłosił jego…
+- [Yeping-Hu/ai-workshop-tracker](https://github.com/yeping-hu/ai-workshop-tracker) `📚1` — Find AI/ML/Robotics workshop deadlines and search across thousands of accepted papers, all in one place.
+- [YouTube](https://youtube.com/@mkdirshq) `📚1` — Watch video tutorials and product updates.
+- [YouTube demo](https://youtu.be/7w8erwnuua8) `📚1`
+- [YouTube walkthrough](https://youtube.com/watch?v=fd_taiqclr0) `📚1`
+- [yuma-seno/local-jev](https://github.com/yuma-seno/local-jev) `📚1` — Japanese-first unofficial local reimplementation of the Jev idea: Qwen3-1.7B + a learned score head with a single-forward-pass tree attention mask over cached…
+- [中文案例盘点视频](https://youtube.com/watch?v=fqfkzidoyam) `📚1`
+- [他们给了 Jev 1 万美元去交易](https://youtube.com/watch?v=vfw8lrnfn9q) `📚1` — They gave Jev $10k to trade · Micah · YouTube · ♥ 9 · 2026-09-20Fact-check of a viral post about giving Jev $10,000 to trade, showing it was a simulation with…
+- [备受关注的超高速 TypeSafe Jev](https://youtube.com/watch?v=bwl21_tpxl8) `📚1`
+- [如何在 Claude Code 中配置 Jev](https://youtube.com/watch?v=ik88ehoilyw) `📚1` — How to set up Jev with Claude Code · Julian Goldie SEO · YouTube · ♥ 19 · 2026-09-21Guide to getting Jev access through OpenRouter, wiring it into Claude Code,…
+- [实测 Jev AI：比 Gemini 更快吗？](https://youtube.com/watch?v=hjqvoklxzlm) `📚1` — I tested Jev AI: is it faster than Gemini? · DeepOnAI · YouTube · ♥ 7 · 2026-09-17Explainer tracing one Jev request end to end, plus a 40-case synthetic…
+- [教程视频](https://youtube.com/watch?v=nq_lu5qt-fi) `📚1`
+- [程序员鱼皮的实战教程](https://cloud.tencent.com/developer/article/2748472) `📚1` — Also: programmer Yupi's tutorial has a same-title Zhihu entry point; the experiment counts once and is listed under (in-depth articles)(#reading), with the…
+- [腾讯云 ADP 博客](https://adp.tencent.com/zh/blog/jev-vs-general-llm-automated-decision-selection) `📚1` — Reports intent 88.2% versus 93.2%, ~93.5% versus 93.2% excluding empty results, sentiment MAE 0.29 versus 0.16, handoff 86.6% versus 89.8% (Jev versus an LLM…
+- [面向聊天机器人的 TypeSafe Jev 讲解](https://youtube.com/watch?v=a51uny6rsni) `📚1` — TypeSafe Jev Explained for Chatbots · ChatMaxima · YouTube · ♥ 3 · 2026-09-19Explains Jev for chatbot builders: typed yes/no, pick-one, and scale answers with…
+
+</details>

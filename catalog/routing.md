@@ -1,0 +1,1076 @@
+# Routing, Cascades & Orchestration
+
+> Model routers, confidence-gated cascades, triage and dispatch layers.
+>
+> **1,053 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 72
+
+- [gargpratyush/jev-router](https://github.com/gargpratyush/jev-router) `★505 · 📚60` — Route to the cheapest model in claude code for your task using jev-router
+- [BillionsBobby/JevRouter](https://github.com/billionsbobby/jevrouter) `★309 · 📚42` — A lightweight Jev-powered router for models, tools, and subagents
+- [yusukebe/hono-jev-router](https://github.com/yusukebe/hono-jev-router) `★50 · 📚41` — Route HTTP requests by meaning. A semantic router for Hono powered by Jev.
+- [reachjalil/jev-tree](https://github.com/reachjalil/jev-tree) `★9 · 📚34` — Recursive Jev choice over a taxonomy. Select from more than 255 options without breaking TypeSafe Jev's choice cap.
+- [mejiasd3v/pi-jev-router](https://github.com/mejiasd3v/pi-jev-router) `★15 · 📚31` — Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway
+- [Stumble/jev-go](https://github.com/stumble/jev-go) `★6 · 📚30` — Community Go SDK for TypeSafe AI Jev / System One.
+- [Butochnikov/laravel-typesafe-jev](https://github.com/butochnikov/laravel-typesafe-jev) `★3 · 📚30` — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes.
+- [prismhq/jev-router](https://github.com/prismhq/jev-router) `★14 · 📚29` — Open-source LLM router that uses TypeSafe's Jev to pick a model, on top of LiteLLM
+- [gtaras7/typesafe-jev](https://github.com/gtaras7/typesafe-jev) `★9 · 📚29` — Screen a folder of CVs with the TypeSafe Jev decision model: typed judgments, an editable policy, free re-scoring.
+- [andrelandgraf/safer-with-jev](https://github.com/andrelandgraf/safer-with-jev) `★5 · 📚29` — Neon Function proxy for the Neon AI Gateway with TypeSafe Jev routing.
+- [Gaurav-Gosain/jev-go](https://github.com/gaurav-gosain/jev-go) `★5 · 📚29` — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
+- [fazlerocks/jevmail](https://github.com/fazlerocks/jevmail) `★92 · 📚27` — Open-source AI email triage for Gmail. Sorts your inbox into Needs reply, Updates, Promos, Sales and Spam with Jev, TypeSafe AI's decision model, via Vercel AI Gateway. Read-only, runs locally, 1,000 emails in about a minute for 3 cents.
+- [adarshmishra07/jcm-router](https://github.com/adarshmishra07/jcm-router) `★8 · 📚27` — Local proxy that picks the Claude model and effort per message using TypeSafe Jev. Routes subagents, leaves your cached main chat alone.
+- [vinilana/jev-gateway](https://github.com/vinilana/jev-gateway) `★268 · 📚26` — An easy way to use jev with your coding agent for tool calling reasoning
+- [kavehmz/typesafe-playground](https://github.com/kavehmz/typesafe-playground) `★13 · 📚26` — Interactive experiments with TypeSafe Jev, from support routing to 3D driving simulations with real AI decisions and visible sensor inputs.
+- [nidhi-singh02/agent-router](https://github.com/nidhi-singh02/agent-router) `★99 · 📚25` — CLI that picks Cursor, Claude Code, Codex, or OpenCode + model/effort for a task, then launches it. Powered by Jev and Herdr
+- [cephalization/jev-triage](https://github.com/cephalization/jev-triage) `★4 · 📚24` — Uses typeful jev, zero sync to pull and sync large repositories for issue triage
+- [Dimweaker/jev-libero](https://github.com/dimweaker/jev-libero) `★78 · 📚23` — Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks.
+- [Foadsf/jev-for-engineers](https://github.com/foadsf/jev-for-engineers) `★5 · 📚23` — Eight minimal working examples of TypeSafe's Jev (a System One model) applied to mechanical and electrical engineering: CAD/CAE/CAM routing, FEM result triage, DFM screening, BOM alignment, hallucination-proof extraction. Zero dependencies.
+- [bohutang/sift](https://github.com/bohutang/sift) `★12 · 📚21` — Chrome extension that labels every post on X (Substance · Humor · Chit-chat · Promo · Junk · AI-written) with TypeSafe Jev, and hides the ones you don't want.
+- [kushals256/jevcache](https://github.com/kushals256/jevcache) `★12 · 📚21` — MorrowCache — skip the chat call when the question is the same. OpenAI-compatible proxy. npm: @kushalicious/jevcache
+- [miniLV/Jev-Auto-Router](https://github.com/minilv/jev-auto-router) `★8 · 📚21` — Jev Auto Router (Jev Router): experimental per-call GPT model routing for Codex via TypeSafe Jev and a local Responses proxy, with independent task verification.
+- [rajivkuriakose/typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples) `★2 · 📚21` — Worked examples for TypeSafe's Jev System One decision model, runnable today through OpenRouter
+- [rajdhakad9826/jev-router](https://github.com/rajdhakad9826/jev-router) `★9 · 📚20` — LLM router that picks the cheapest model capable of handling a query, using TypeSafe's Jev for fast classification instead of an LLM call.
+- [Nainish-Rai/jev-frontend-qa](https://github.com/nainish-rai/jev-frontend-qa) `★5 · 📚20` — Evidence-driven frontend QA built on Jev Ultrafast and Browser Harness, with a synthetic todo demo.
+- [usenotra/notra](https://github.com/usenotra/notra) `★225 · 📚19` — Notra is a modern GEO tool that asks ChatGPT, Claude and Gemini the questions your buyers ask. See if you show up, who shows up instead and how to fix it.
+- [maker-KK/todo-jev](https://github.com/maker-kk/todo-jev) `★3 · 📚19` — ⚡ Ultra-fast, low-cost intelligent task classifier and 3-tier routing engine powered by TypeSafe Jev (System One)
+- [Cloudflare Workers AI](https://developers.cloudflare.com/ai/models/typesafe/jev) `📚19` — Jev on Cloudflare Workers AI - typesafe/jev via env.AI.run, with worked support-routing and risk-escalation examples.
+- [mattn/go-jev](https://github.com/mattn/go-jev) `★39 · 📚18` — Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model
+- [matthewp/flue-jev-demo](https://github.com/matthewp/flue-jev-demo) `★11 · 📚18` — Flue agent routing with TypeSafe Jev through Cloudflare AI Gateway
+- [Alex314618-create/JevRev](https://github.com/alex314618-create/jevrev) `★700 · 📚17` — An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside.  - GitHub - Alex314618-create/JevRev: An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside.
+- [JackZeng/Jev_apps](https://github.com/jackzeng/jev_apps) `★33 · 📚17` — 看看 Jev 能做什么：用中英文讲清热门应用、工作原理和各自优缺点。Explore Jev apps with plain-language examples, explanations, and comparisons.
+- [mizzlelover/jev-hub](https://github.com/mizzlelover/jev-hub) `★24 · 📚17` — JEV HUB · X 上关于 TypeSafe AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品
+- [HarnessRouter/SystemOneHarness](https://github.com/harnessrouter/systemoneharness) `★188 · 📚16` — The System One harness for System One models. Run Jev and other System One models locally or directly on HarnessRouter.ai.
+- [philippdubach/pi-jev-router](https://github.com/philippdubach/pi-jev-router) `★13 · 📚16` — A minimal Pareto-optimal OpenRouter model router for pi, based on Jev
+- [ARCJ137442/jev-2048](https://github.com/arcj137442/jev-2048) `★5 · 📚16` — An instrumented 2048 web lab where every move is a Jev (TypeSafe AI System One) Choice, with no heuristic fallback \| 用 Jev 决策模型驱动每一步的 2048 网页实验台，概率、置信度、延迟与成本全部摊开可见，且刻意不做启发式兜底
+- [noelzappy/tripwire](https://github.com/noelzappy/tripwire) `★3 · 📚16` — Judge every LLM response before the user sees it. AI SDK middleware and OpenAI-compatible proxy.
+- [GhrezaKh74/JevTicktRouter](https://github.com/ghrezakh74/jevticktrouter) `★2 · 📚16` — A .NET 10 and React 19 application for fast, structured AI-powered ticket triage using TypeSafe Jev.
+- [TokenTrim/jev-routing-experiment](https://github.com/tokentrim/jev-routing-experiment) `★2 · 📚16` — Benchmarking TypeSafe's Jev decision model as a cost-efficient LLM router on RouterArena
+- [wundercorp/loki](https://github.com/wundercorp/loki) `★25 · 📚15` — The agent that evolves with you 𖤍.
+- [Ravinder82/jev-flash-router](https://github.com/ravinder82/jev-flash-router) `★3 · 📚15` — open-sourced jev-flash-router: an MCP server for TypeSafe's new Jev model.  AI coding agents waste hundreds of reasoning tokens just deciding which file to edit, which route to pick, or whether a diff breaks tests.  Jev evaluates state and…
+- [qddegtya/qualm](https://github.com/qddegtya/qualm) `★2 · 📚15` — Typed decisions from a System One model, where uncertainty is something you have to handle.
+- [tylerjharden/ailerix](https://github.com/tylerjharden/ailerix) `★2 · 📚15` — Type-safe model router. Jev (System One) banks each request to a typed catalog route.
+- [m0rphtail/triagedy](https://github.com/m0rphtail/triagedy) `★1 · 📚15` — Alert triage as a UNIX filter: JSONL security alerts in, typed decisions out. Runs on TypeSafe Jev or a local model; policy routing stays in code.
+- [ndolinschi/lanebreak](https://github.com/ndolinschi/lanebreak) `★0 · 📚15` — LaneBreak — support ticket priority+routing via TypeSafe Jev
+- [jackbarunz/jev-tool-router](https://github.com/jackbarunz/jev-tool-router) `★7 · 📚14` — Jev-powered MCP tool routing for Codex.
+- [collapseindex/jev-builder](https://github.com/collapseindex/jev-builder) `★3 · 📚14` — A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally.
+- [ndolinschi/swarmrouter](https://github.com/ndolinschi/swarmrouter) `★0 · 📚14` — Route tasks to research/code/browser/support/writer agents via TypeSafe Jev
+- [morcoan/JMP](https://github.com/morcoan/JMP) `★3 · 📚13` — JMP — Joint Model Participation. A local coding workspace where Jev routes actions and OpenAI, DeepSeek, or local models generate arguments.
+- [danielhirt/jev-lab](https://github.com/danielhirt/jev-lab) `★1 · 📚13` — Experiments on TypeSafe Jev (System One decision model) via OpenRouter: repeatability, perturbation, and LLM baseline comparison
+- [ndolinschi/pulselane](https://github.com/ndolinschi/pulselane) `★1 · 📚13` — PulseLane — clinic triage decisions via TypeSafe Jev
+- [Tatuck/jev-boe-demo](https://github.com/tatuck/jev-boe-demo) `★1 · 📚13` — Daily demo applying TypeSafe's Jev model to Spain's official gazette (BOE).
+- [Jev on OpenRouter](https://openrouter.ai/typesafe/jev-1.13) `📚13` — Beta listing on the general-purpose gateway, model id typesafe/jev-1.13, billed on your OpenRouter key.
+- [agentgateway/agentgateway](https://github.com/agentgateway/agentgateway) `★5,109 · 📚12` — Next Generation Agentic Proxy for AI Agents and MCP servers
+- [9pings/notjev](https://github.com/9pings/notjev) `★20 · 📚12` — Super fast Jev like server, model agnostic, working with any OpenAI compatible endpoint
+- [aaronshaf/opencode-jev-orchestrator](https://github.com/aaronshaf/opencode-jev-orchestrator) `★4 · 📚12` — Keeps OpenCode on a cheap sticky model for warm cache; Jev escalates hard turns to stronger subagents.
+- [JoacoMarc/jev-harness-router](https://github.com/joacomarc/jev-harness-router) `★4 · 📚12` — Per-turn router for agent harnesses: one 350ms Jev call picks the model tier, effort, tools and skill, behind a hard deadline with a regex fallback. Claude Agent SDK adapter included.
+- [az9713/jev-model-router](https://github.com/az9713/jev-model-router) `★2 · 📚12` — Jev (TypeSafe) model router on the Vercel AI Gateway
+- [Protocol-Lattice/harness-router](https://github.com/protocol-lattice/harness-router) `★19 · 📚11` — A decision layer embedded into the harness tool-selection loop
+- [amithgc/local-jev](https://github.com/amithgc/local-jev) `★13 · 📚11` — A local, offline System One server compatible with TypeSafe's Jev API. It answers typed yes/no, category and score questions with small open models.
+- [da-vinci-noob/pi-jev-model-router](https://github.com/da-vinci-noob/pi-jev-model-router) `★10 · 📚11` — Route pi prompts to task-appropriate model tiers with TypeSafe Jev typed judgments. Budget-aware, with automatic fallback.
+- [jon-devlapaz/tink-route](https://github.com/jon-devlapaz/tink-route) `★4 · 📚11` — Dynamic, confidence-aware Agent Skill routing with TypeSafe Jev and Tink
+- [bahramzada/jev-taxi-dispatch](https://github.com/bahramzada/jev-taxi-dispatch) `★0 · 📚11` — Real-vaxt taksi dispetçerlik simulyasiyası - TypeSafe JEV (System One) modeli ilə
+- [WrongStack/WrongStack](https://github.com/wrongstack/wrongstack) `★351 · 📚10` — An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across a terminal REPL, a full-screen TUI, and a browser UI, while you keep your hand on every permission.
+- [wobsoriano/is-jeven](https://github.com/wobsoriano/is-jeven) `★32 · 📚10` — Is it even? Ask Jev.
+- [Das-rebel/a3m-router](https://github.com/das-rebel/a3m-router) `★16 · 📚10` — ⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router
+- [thejorgg/omp-jev](https://github.com/thejorgg/omp-jev) `★7 · 📚10` — ARCHIVED — Superseded by regular OMP (Oh My Pi). No longer maintained.
+- [ZhangYiqun018/jev-dimabsa](https://github.com/zhangyiqun018/jev-dimabsa) `★7 · 📚10` — TypeSafe Jev (System One) on DimABSA, SemEval-2026 Task 3 Track A, all three subtasks: V/A regression (lowest 10-corpus micro RMSE among full-coverage teams), triplet extraction, quadruplet extraction. Pure-Jev inference with BM25 examples…
+- [RevocGG/typesafe-jev-bridge](https://github.com/revocgg/typesafe-jev-bridge) `★3 · 📚10` — Use the TypeSafe Jev decision model (System One) anywhere: zero-dependency OpenAI-compatible bridge for 9Router, Claude Code, Cursor, Cline & any OpenAI SDK. Typed yes/no, choice & score judgments via CLI or HTTP.
+- [hugo-alves/jev-router-playground](https://github.com/hugo-alves/jev-router-playground) `★2 · 📚10` — Interactive playground for testing Jev model-routing decisions against OpenRouter models
+- [mikecann/magic-jev-ball](https://github.com/mikecann/magic-jev-ball) `★1 · 📚10` — A Magic 8 Ball that asks Jev instead of picking at random. Convex + AI Gateway + three.js.
+- [jekozyra/pi-typesafe-router](https://github.com/jekozyra/pi-typesafe-router) `★0 · 📚10` — pi-typesafe-router !agent: Pi !stars - Coding agents: routes Pi's work through typed Jev decisions.
+
+## Established (cited by 5–9 lists) — 101
+
+- [Liyucheng1997/332_lab-jev-chat](https://github.com/liyucheng1997/332_lab-jev-chat) `★161 · 📚9` — Jev Chat Assistant for Windows - 电脑版微信意图判断与 DeepSeek 建议回复
+- [zeeshan8281/slo-router](https://github.com/zeeshan8281/slo-router) `★10 · 📚9` — SLO-aware LLM inference router with Jev decisions, live queue metrics, counterfactual evaluation, and reproducible latency/cost benchmarks
+- [ryanwaits/secondlayer](https://github.com/ryanwaits/secondlayer) `★6 · 📚9` — Decoded Stacks data in your own database. Self-hosted.
+- [sugarforever/tryjev](https://github.com/sugarforever/tryjev) `★6 · 📚9` — Jev Playground.
+- [satviksinha/jev-model-router](https://github.com/satviksinha/jev-model-router) `★4 · 📚9` — Model router for Claude Code using Jev.
+- [jeffloo886/jev-notion](https://github.com/jeffloo886/jev-notion) `★3 · 📚9` — 🚀 Blazing-fast native macOS menu bar companion for Notion. Pure Swift & SwiftUI (<3MB), 8 languages.
+- [lucianfialho/jev-model-router](https://github.com/lucianfialho/jev-model-router) `★2 · 📚9` — Cost-optimized OpenRouter model router using TypeSafe's Jev, with a live full-catalog scorer instead of a hardcoded model list
+- [CMaintz/jev-triage](https://github.com/cmaintz/jev-triage) `★1 · 📚9` — Near-free GitHub issue triage powered by TypeSafe AI's Jev - typed, confidence-gated labels that escalate only the uncertain cases.
+- [nekowasabi/jev-routing](https://github.com/nekowasabi/jev-routing) `★1 · 📚9` — Go Jev harness for Claude Code, Codex, and Grok Build. No npx. Not an MCP server.
+- [kuldeepsinh19/jev-decision-gateway](https://github.com/kuldeepsinh19/jev-decision-gateway) `★0 · 📚9` — A provider-agnostic AI decision gateway using TypeSafe AI's Jev (System One) model to gate, route, and verify expensive LLM workflows
+- [angel291592/Intent-Router](https://github.com/angel291592/intent-router) `★432 · 📚8` — Intent compiler for AI agents — converges vague requests into typed IntentSpec contracts (probe, ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya
+- [misbahsy/doc-router](https://github.com/misbahsy/doc-router) `★28 · 📚8` — A Document OCR Router to help route pages based on content.  - GitHub - misbahsy/doc-router: A Document OCR Router to help route pages based on content.
+- [win4r/pi-jev-router](https://github.com/win4r/pi-jev-router) `★11 · 📚8` — Task-boundary model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and observable failover.
+- [rmosleydb/jev-smart-router](https://github.com/rmosleydb/jev-smart-router) `★4 · 📚8` — JEV Smart Router — a Databricks App that uses TypeSafe JEV to pick which model answers each message, then runs inference on the chosen Databricks Foundation Model API endpoint.
+- [boldbug1/jev-triage](https://github.com/boldbug1/jev-triage) `★3 · 📚8` — Message triage CLI in Go, built on the Jev decision model from TypeSafe AI. Categorizes messages, scores urgency, and flags low-confidence ones for human review.
+- [sathariels/jevtriage](https://github.com/sathariels/jevtriage) `★1 · 📚8` — GitHub Action + CLI: triage PRs with TypeSafe Jev (ready / needs review / risky) with confidence gates and jevcheck-friendly contracts.
+- [willprout/magic-8-ball](https://github.com/willprout/magic-8-ball) `★1 · 📚8` — A beautifully minimal Magic 8 Ball powered by Jev from TypeSafe. Twenty classic answers, one fast AI judgment.
+- [thusinh1969/BrighTO_Router](https://github.com/thusinh1969/brighto_router) `★19 · 📚7` — BrighTO LLM Router: free open-source, ultra-fast self-hosted Rust LLM gateway for OpenAI/Anthropic APIs, SystemOne/JEV/DJEV decisions, Ollaya/Laya, load balancing, fallback routing, team keys and token budgets.
+- [green-dalii/pi-shift-router](https://github.com/green-dalii/pi-shift-router) `★9 · 📚7` — Per-turn model routing for the Pi coding agent: a small judge picks the cheap or the strong tier for each message, with multi-model failover, task-level orchestration, and an optional decision-model judge (Jev) that answers with a…
+- [kyle-chalmers/typesafe-jev-incident-router](https://github.com/kyle-chalmers/typesafe-jev-incident-router) `★8 · 📚7` — Confidence-gated incident routing with TypeSafe Jev
+- [benjamincanac/tia](https://github.com/benjamincanac/tia) `★6 · 📚7` — Triage Issue Agent for GitHub, built with Eve and Jev.
+- [vinilana/jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) `★5 · 📚7` — Benchmark for jev-gateway: real coding agents on chess engine tasks, with Jev routing on and off
+- [xafold/jev-router](https://github.com/xafold/jev-router) `★5 · 📚7` — jev-router: automatic model and effort switching for Claude Code
+- [florian-hoenicke/jev-gpt](https://github.com/florian-hoenicke/jev-gpt) `★4 · 📚7` — Text generation with jev: one typed question per word
+- [mcftira/jev-route](https://github.com/mcftira/jev-route) `★3 · 📚7` — jev-route — No description provided by the repository (auto-discovered, description not yet written)
+- [avshalomd/longjev](https://github.com/avshalomd/longjev) `★1 · 📚7` — Long inputs for TypeSafe AI's Jev decision model. An experiment.
+- [goodruizhan/pi-jev-control](https://github.com/goodruizhan/pi-jev-control) `★1 · 📚7` — System-One control plane for Pi Coding Agent powered by TypeSafe Jev.
+- [Pasblinn/jev-lab](https://github.com/pasblinn/jev-lab) `★1 · 📚7` — Open lab: Jev (TypeSafe System One) routing in front of Claude Code - measured bugs, patch, and a hard fallback with alerts
+- [maraichr/jev-triage](https://github.com/maraichr/jev-triage) `★0 · 📚7` — Cross-border B2B case triage prototype using TypeSafe Jev via OpenRouter
+- [Rawson08/the-llm-dispatcher](https://github.com/rawson08/the-llm-dispatcher) `★0 · 📚7` — An LLM router that uses Jev (TypeSafe System One) to dispatch each request to the cheapest model and lowest reasoning effort that will do the job. OpenAI-compatible proxy, Claude Code and Codex wrappers, TypeScript and C#.
+- [JunMa11/MedJev](https://github.com/junma11/medjev) `★106 · 📚6` — MedJev — _(★106, Python)_
+- [dirien/jev-router](https://github.com/dirien/jev-router) `★7 · 📚6` — Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model
+- [atliq/jev-ai-use-cases](https://github.com/atliq/jev-ai-use-cases) `★4 · 📚6` — Hands-on LangChain examples of Jev, TypeSafe AI's decision model: support ticket triage, model routing, reply guardrails, tool selection and finance-inbox fraud checks. An LLM writes; Jev decides.
+- [FrancoisChastel/jev-router](https://github.com/francoischastel/jev-router) `★4 · 📚6` — Route each coding-agent turn to the cheapest model that can finish it. Switchyard-style execution signals, TypeSafe's jev as the judge, honest cost accounting. Claude Code, Codex, OpenCode, Pi.
+- [Wh0rigin/pi-thinking-router-jev](https://github.com/wh0rigin/pi-thinking-router-jev) `★3 · 📚6` — 面向 pi 的自适应 Thinking Level 路由器：根据任务状态和执行反馈，在 low / medium / high / xhigh 之间动态选择合适档位。
+- [AABBAASS1/jev-router](https://github.com/aabbaass1/jev-router) `★2 · 📚6` — Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor, and Antigravity with auto-launch on macOS, Windows, and Linux.
+- [Flam1ngFir3ball/jev-claude-router](https://github.com/flam1ngfir3ball/jev-claude-router) `★2 · 📚6` — Model router for Claude Code using Jev.
+- [Hugo-DDT/JevTape](https://github.com/hugo-ddt/jevtape) `★2 · 📚6` — Jev 决策的 Record / Replay 工具：CLI + 本地代理 + JSON 磁带，回放彻底离线。
+- [ingebyd/fast-jev-compaction-openrouter](https://github.com/ingebyd/fast-jev-compaction-openrouter) `★2 · 📚6` — Fork of tamaratran/fast-jev-compaction: Jev via OpenRouter with zero data retention (zdr, data_collection: deny)
+- [JimmyWesley/rlcd-gateway](https://github.com/jimmywesley/rlcd-gateway) `★2 · 📚6` — Self-hosted gateway for LLMs and decision models. Claude Code, Codex, OpenCode and any OpenAI/Anthropic SDK app reach any provider (OpenRouter, Groq, Ollama…) with context pruning; Jev and open-rlcd System One decisions get audit and…
+- [nemalabs/voicevox-jev-proxy](https://github.com/nemalabs/voicevox-jev-proxy) `★2 · 📚6` — Correct VOICEVOX readings with TypeSafe Jev, and intonation as an option
+- [nitinnat/jev-gateway](https://github.com/nitinnat/jev-gateway) `★1 · 📚6` — A small local HTTP service for TypeSafe AI's Jev through Vercel
+- [alexei-led/claude-router](https://github.com/alexei-led/claude-router) `★0 · 📚6` — Claude Code plugin that auto-picks the right model for each turn — micro, low, medium, or high tier — using Jev routing.
+- [HuXioAn/jev-telegram-channel-router](https://github.com/huxioan/jev-telegram-channel-router) `★0 · 📚6` — Jev as a channel message router \| Jev频道消息路由.
+- [liyifan2004/obsidian-jev-inbox-router](https://github.com/liyifan2004/obsidian-jev-inbox-router) `★0 · 📚6` — Obsidian plugin: route incoming notes to the right folder using JEV (TypeSafe System One) typed decisions. It never writes your content — it only decides where it belongs.
+- [Loule95450/jev-free-router](https://github.com/loule95450/jev-free-router) `★0 · 📚6` — Dynamic per-turn model router on free OpenCode Zen + Go models (fork of gargpratyush/jev-router)
+- [mandu5/jevcompat](https://github.com/mandu5/jevcompat) `★0 · 📚6` — A testable spec and conformance suite for Jev-compatible (TypeSafe System One) API servers — with a normalising proxy, a reference mock and a GitHub Action.
+- [octanevz/jev-playground-openrouter](https://github.com/octanevz/jev-playground-openrouter) `★0 · 📚6` — Local browser playground for TypeSafe's Jev decision model via OpenRouter. Python stdlib only.
+- [riposta/pi-jev](https://github.com/riposta/pi-jev) `★0 · 📚6` — a Jev classification layer for the Pi coding agent
+- [stbenjam/jev-eight-ball](https://github.com/stbenjam/jev-eight-ball) `★0 · 📚6` — A liquid magic eight ball powered by TypeSafe Jev decisions through OpenRouter
+- [thisisjorge/jev-control-room](https://github.com/thisisjorge/jev-control-room) `★0 · 📚6` — A visual control room for typed AI evaluations, structured decision-making, and confidence-aware policy gating using Vercel AI SDK and TypeSafe Jev.
+- [kunchenguid/firstmate](https://github.com/kunchenguid/firstmate) `★7,372 · 📚5` — Talk to one agent. Ship with a crew.
+- [kevinbadi/hyperedit](https://github.com/kevinbadi/hyperedit) `★206 · 📚5` — AI-powered video editor with FFMPEG, Remotion, & Obsidian Agents Baked in - POWERED BY JEV  - GitHub - kevinbadi/hyperedit: AI-powered video editor with FFMPEG, Remotion, & Obsidian Agents Baked in - POWERED BY JEV
+- [kuhung/ask-jev](https://github.com/kuhung/ask-jev) `★9 · 📚5` — 是非选择问Jev.
+- [inso1337/revl](https://github.com/inso1337/revl) `★8 · 📚5` — A language for safe, universal spatiotemporal composability (Cordis paradigm) and orchestration.
+- [kennethashley/fez](https://github.com/kennethashley/fez) `★7 · 📚5` — Orchestrate your own AI agents and build extensions for them — summon an agent by name, watch it think, ship its work. Runs on nostr, so no company owns your agents, your data, or your identity.
+- [cachix/jev-action](https://github.com/cachix/jev-action) `★6 · 📚5` — Run Jev judgments in GitHub Actions, including pull request label triage
+- [flaviusapop/jev-router](https://github.com/flaviusapop/jev-router) `★5 · 📚5` — Routes each turn in Claude Code, Codex, Grok and opencode to the cheapest model and reasoning depth that can finish it, using TypeSafe Jev
+- [Pinutss/jev-model-router](https://github.com/pinutss/jev-model-router) `★4 · 📚5` — Route among multiple LLMs and multi-model provider keys without leaking secrets.
+- [mmornati/system-one-router](https://github.com/mmornati/system-one-router) `★3 · 📚5` — A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark
+- [rizafahmi/pi-jev-task-router](https://github.com/rizafahmi/pi-jev-task-router) `★3 · 📚5` — Per-prompt model routing for the Pi coding agent: classify each prompt with Jev, pick a model tier, and switch before the turn runs.
+- [saksham-malhotra-27/jev-relevance](https://github.com/saksham-malhotra-27/jev-relevance) `★3 · 📚5` — Drop-in relevance filter for LangChain RAG retrievers powered by TypeSafe Jev.
+- [Davidasx/pi-typesafe-approve](https://github.com/davidasx/pi-typesafe-approve) `★2 · 📚5` — Pi extension: auto-approve routine Bash commands with a System One (Jev) decision model, escalate the rest to a human
+- [youyo/decio](https://github.com/youyo/decio) `★2 · 📚5` — Turn context into typed decisions and pre-declared actions.
+- [aaravriyer193/OpenSmoke](https://github.com/aaravriyer193/opensmoke) `★1 · 📚5` — Find the AI agent runs that broke because their environment did: missing keys, tools, files, permissions, network, or context. Powered by TypeSafe Jev.
+- [buckmoon/jev-issue-router](https://github.com/buckmoon/jev-issue-router) `★1 · 📚5` — Jev recommends model and reasoning settings for GitHub issues across OpenAI, Claude, and Grok
+- [ca7ai/jev-prompt-sentry](https://github.com/ca7ai/jev-prompt-sentry) `★1 · 📚5` — Ingress LLM firewall: a reverse proxy that screens each request with one batched TypeSafe Jev System One call for jailbreaks, indirect injections, and data exfiltration before an expensive model runs
+- [ccai40359-wq/jev-triage](https://github.com/ccai40359-wq/jev-triage) `★1 · 📚5` — Millisecond-class test-failure triage for coding agents: RETRY / FIX_CODE / FIX_ENV, powered by TypeSafe Jev.
+- [chy4pro/jev-dev-kit](https://github.com/chy4pro/jev-dev-kit) `★1 · 📚5` — Framework for agents on TypeSafe Jev: turns candidates into valid Jev questions and answers into validated choices; loop, cross-checks, fallbacks and traces built in. No network code.
+- [colinmcdermott/grok-jev-router](https://github.com/colinmcdermott/grok-jev-router) `★1 · 📚5` — Jev decides, Grok Bot executes, humans control irreversible actions. A decision router for Grok Bot built on TypeSafe AI's Jev.
+- [cvsgireesh/jev-usher](https://github.com/cvsgireesh/jev-usher) `★1 · 📚5` — The doorman for Claude’s context window. JEV-powered model routing and recoverable context filtering for Claude Code.
+- [flazouh/ego-jev](https://github.com/flazouh/ego-jev) `★1 · 📚5` — Drive ego-browser pages with TypeSafe Jev: code builds the allowed actions, Jev picks one, code acts and re-checks.
+- [kartikanand73/jev-decision-gateway](https://github.com/kartikanand73/jev-decision-gateway) `★1 · 📚5` — Governed decision-model gateway: TypeSafe Jev vs GPT-6 Sol vs rules on 100 withdrawals
+- [keiffff/jev-kit](https://github.com/keiffff/jev-kit) `★1 · 📚5` — Jev toolkit for building fast, testable AI decision points for agent permissions, routing, semantic change detection, and evidence checks.
+- [kevin9327/jev-harness](https://github.com/kevin9327/jev-harness) `★1 · 📚5` — JevHarness: TypeSafe Jev agent tool-call gate. execute / confirm / reject in code.
+- [Mistertelecom/NEXUS-AI-Gateway-with-JEV](https://github.com/mistertelecom/nexus-ai-gateway-with-jev) `★1 · 📚5` — AI gateway that validates before it executes: Lead plans, JEV validates, Worker generates. Local-first control plane, 359-provider catalog.
+- [nitoba/opencode-jev-router](https://github.com/nitoba/opencode-jev-router) `★1 · 📚5` — opencode-jev-router - opencode-jev-router: TypeSafe Jev ecosystem repository. · TypeScript
+- [nothans/sieve](https://github.com/nothans/sieve) `★1 · 📚5` — Find where a folder of Markdown notes contradicts itself, and ask it anything. Every pair of notes crosschecked, every note asked, with Jev via OpenRouter.
+- [redrossa/pi-model-router](https://github.com/redrossa/pi-model-router) `★1 · 📚5` — Pi extension that classifies each prompt with TypeSafe's Jev and routes it to the best model you're logged into.
+- [ak--47/ak-jev](https://github.com/ak--47/ak-jev) `★0 · 📚5` — Node.js bindings for TypeSafe's Jev — the System One model. Typed decisions, probabilities and confidence, with no text generation and no parsing.
+- [beese54/jev-ticket-triage](https://github.com/beese54/jev-ticket-triage) `★0 · 📚5` — Customer support ticket triage: TypeSafe Jev (System One) vs Together.ai LLMs - accuracy, cost, latency, confidence
+- [damiensmith1/semantic-pubsub-jev](https://github.com/damiensmith1/semantic-pubsub-jev) `★0 · 📚5` — Pub/sub that routes messages by what they mean. Subscribers describe their interests in plain language; each message is judged once against all of them with Jev.
+- [DevvGwardo/ghost-route](https://github.com/devvgwardo/ghost-route) `★0 · 📚5` — Flock-camera-aware privacy navigation: see ALPR cameras near you and get driving routes ranked by camera exposure (TypeSafe Jev ranking + heuristic fallback). Paste your own key, find clean routes.
+- [Ioluca/fili_Jev](https://github.com/ioluca/fili_jev) `★0 · 📚5` — Plugin WordPress: trova i link interni che mancano e gli articoli doppi. Propone, non scrive. Giudizi di Jev (TypeSafe AI).
+- [jaysonsantos/sudoku-jev](https://github.com/jaysonsantos/sudoku-jev) `★0 · 📚5` — Sudoku game played by the TypeSafe Jev decision model through OpenRouter
+- [kevin9327/jev-master](https://github.com/kevin9327/jev-master) `★0 · 📚5` — Typed System One decisions with Jev: Choice + Score + Noul composed in code.
+- [krsna-smnt/jev-moral-dilemmas](https://github.com/krsna-smnt/jev-moral-dilemmas) `★0 · 📚5` — Does Jev give the same answer twice? Repeatability and confidence-stability experiments on TypeSafe's Jev model — including a 52-dilemma moral reasoning stress test — via OpenRouter's Decisions API.
+- [MoonTory/pi-jev-harness](https://github.com/moontory/pi-jev-harness) `★0 · 📚5` — Pi extension: TypeSafe Jev routes turns, pre-fetches context, trims tool results, catches loops and guards tool calls
+- [moto-taka/jev-orchestrator](https://github.com/moto-taka/jev-orchestrator) `★0 · 📚5` — Local TUI orchestrator where Jev makes typed assignment, review and approval decisions while Codex, Claude Code, Pi and OpenCode do the work. MIT · TypeScript
+- [mpiv-ai/bb-plugin-typesafe-router](https://github.com/mpiv-ai/bb-plugin-typesafe-router) `★0 · 📚5` — Routes a thread's first message to the right harness and model with TypeSafe (Jev), then asks you to confirm.
+- [peptidehackers/jev-router](https://github.com/peptidehackers/jev-router) `★0 · 📚5` — Calibrated schema-typed decision heads with Wilson-certified act-or-escalate routing — the SalesRLAgent/Jev 'System One' paradigm, open-sourced March 2025 (arXiv 2503.23303)
+- [raj8525/universal-jev](https://github.com/raj8525/universal-jev) `★0 · 📚5` — Universal TypeSafe Jev Runtime Plugin & MCP Server for Coding Agents
+- [Renwang-Huang/arbitype](https://github.com/renwang-huang/arbitype) `★0 · 📚5` — Typed decision tools for AI agents, powered by TypeSafe Jev
+- [SarathChandraBellam/jev-vs-llm-ticket-router](https://github.com/sarathchandrabellam/jev-vs-llm-ticket-router) `★0 · 📚5` — Benchmark: TypeSafe Jev vs traditional LLM on support-ticket routing accuracy, latency, and cost
+- [shinshin86/jev-aituber-tension-sample](https://github.com/shinshin86/jev-aituber-tension-sample) `★0 · 📚5` — A small demo that passes a viewer comment to Jev and asks whether the AITuber's tension goes up, stays the same, or goes down. The tension value and the character's kaomoji change according to the result.
+- [STiFLeR7/Jev-LLM-Playground](https://github.com/stifler7/jev-llm-playground) `★0 · 📚5` — Independent playground for TypeSafe AI Jev decision models: typed decisions, support-ticket routing, reproducible evaluations, and a local browser demo.
+- [Tatendaz/model-picker](https://github.com/tatendaz/model-picker) `★0 · 📚5` — Model Picker: JEV-powered Codex model and effort recommendations as task scope grows. Manual switching, private local state, MIT licensed.
+- [Taveren7/jev-outlook-organizer](https://github.com/taveren7/jev-outlook-organizer) `★0 · 📚5` — Self-hosted Outlook organization with TypeSafe Jev, custom categories, scoped Microsoft 365 access, and guided setup
+- [twilso24/jev_router](https://github.com/twilso24/jev_router) `★0 · 📚5` — Standalone TypeSafe Jev-based auto-routing for Agent Zero
+- [vishalbitit/jev-prior-auth-triage](https://github.com/vishalbitit/jev-prior-auth-triage) `★0 · 📚5` — Prior-authorization triage using TypeSafe AI's Jev (System-1 model) — payer-side utilization management, synthetic PHI-free data, audit-logged decisions.
+- [What is Jev?](https://mohammedshehu.com/jev-typesafe-ai) `📚5` — Short practical intro with a Python ticket-triage example.
+
+## Emerging (cited by 3–4 lists) — 193
+
+- [ai-freer/jev-feishu](https://github.com/ai-freer/jev-feishu) `📚4` — macOS Feishu companion with TypeSafe Jev and local Ollama replies
+- [AIGNLAI/ReflexRoute](https://github.com/aignlai/reflexroute) `📚4` — Fast zero-shot and few-shot LLM routing powered by Jev.
+- [akanthed/jev-migrate](https://github.com/akanthed/jev-migrate) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [alpbahadur/jevrouter](https://github.com/alpbahadur/jevrouter) `📚4` — Drop-in decision/routing layer powered by TypeSafe Jev (System One) — typed Choice/Noul/Score routes
+- [AlphaPerseii3000/jev-effort-router](https://github.com/alphaperseii3000/jev-effort-router) `📚4` — Per-turn model AND reasoning-effort routing for Hermes Agent on Ollama:Cloud, decided by TypeSafe Je
+- [armsteadj1/vibe-smart-router](https://github.com/armsteadj1/vibe-smart-router) `📚4` — A Node-first, policy-bounded payment-context scorer using Jev for held-out feature discovery and per-transaction context.
+- [az9713/jev-email-triage](https://github.com/az9713/jev-email-triage) `📚4` — jev-email-triage - az9713/jev-email-triage - Email triage with Jev (TypeSafe) over the Vercel AI Gateway.
+- [bariskisir/JevSharp](https://github.com/bariskisir/jevsharp) `📚4` — JevSharp - .NET 10 SDK for Jev decisions through TypeSafe, OpenRouter, Vercel AI Gateway, and compatible endpoints.
+- [blackopsrepl/omarchy-pr-jev-triage](https://github.com/blackopsrepl/omarchy-pr-jev-triage) `📚4` — omarchy-pr-jev-triage — Jev-powered triage of the Omarchy PR backlog: merge tranches, duplicate clusters, escalation lists. TypeSafe System One. _(★0)_
+- [bquigley1/jev-imap-router](https://github.com/bquigley1/jev-imap-router) `📚4` — AI inbox sorting for any IMAP mailbox, powered by Jev (TypeSafe). Plain-English categories, preview
+- [BUNYOD0987/jev-vs-llm](https://github.com/bunyod0987/jev-vs-llm) `📚4` — jev-vs-llm - BUNYOD0987/jev-vs-llm - TypeSafe AI's Jev vs GPT-5.6 Luna vs Claude Sonnet 5 on support-ticket triage (Vercel AI Gateway).
+- [cannacre8ive/switchboard-ai](https://github.com/cannacre8ive/switchboard-ai) `📚4` — Adaptive multi-model AI orchestration runtime using Jev for cost-aware routing, confidence
+- [carllippert/jev-router](https://github.com/carllippert/jev-router) `📚4` — Express with no routes. TypeSafe Jev picks which handler runs.
+- [CSlawyer1985/dsh-jev-router](https://github.com/cslawyer1985/dsh-jev-router) `📚4`
+- [damian87x/jev-pi-model-router](https://github.com/damian87x/jev-pi-model-router) `📚4` — jev-pi-model-router - pi extension: TypeSafe Jev picks the model for each turn, only from models pi can use · JavaScript
+- [Danu28/pi-jev-harness](https://github.com/danu28/pi-jev-harness) `📚4` — Pure Jev System-One harness for Pi — pi-model tool-based calibrate + plan + git, zero deps, no fallback
+- [david96182/cribrix](https://github.com/david96182/cribrix) `📚4` — cribrix - A precision-first RAG orchestrator: filters before it generates, verifies before it answers. · Python
+- [daviddl9/jev-router](https://github.com/daviddl9/jev-router) `📚4` — jev-router by daviddl9 - Jev picks the worker tier for each step in OMP and Pi, keeping planning and review on a strong model and bounded work on cheaper ones.
+- [deepdave98/jev-playground](https://github.com/deepdave98/jev-playground) `📚4` — Weekly builds on Jev (TypeSafe AI), benchmarked honestly enough to publish. Week 01: inbound lead tr
+- [enderkus/zammad-jev-dispatcher](https://github.com/enderkus/zammad-jev-dispatcher) `📚4` — AI ticket triage for Zammad using Jev (TypeSafe AI) - classifies and routes new tickets into the right service group automatically.
+- [EtienneLescot/jev-router](https://github.com/etiennelescot/jev-router) `📚4` — Typed judgments in, control flow out: two Jev calls route a support ticket to an agent, then pick it
+- [Ex8-ca/jev-router](https://github.com/ex8-ca/jev-router) `📚4` — Hermes plugin for TypeSafe Jev decision routing via OpenRouter + session-start skill pre-loader
+- [FirasB9/jev-community-ops](https://github.com/firasb9/jev-community-ops) `📚4` — Community triage for a developer community, built on TypeSafe's Jev: typed questions, confidence-gated routing, weekly digest.
+- [flaviomartil/herdr-jev](https://github.com/flaviomartil/herdr-jev) `📚4` — herdr-jev - flaviomartil/herdr-jev - Jev-driven multi-model triage and Triad orchestration plugin for Herdr and AI-Harness.
+- [fstandhartinger/auto-model-router](https://github.com/fstandhartinger/auto-model-router) `📚4` — (notable) - LLM router that uses one Jev call to classify each turn, then picks the model with lowest expected cost given cache state, quota and measured success. MIT · Python
+- [gastonmira/typesafe-triage-demo](https://github.com/gastonmira/typesafe-triage-demo) `📚4` — typesafe-triage-demo - Demo pública: mensaje → juicios TypeSafe \(Choice/Noul/Score\) vs decisión en código. Spec: Notion TypeSafe triage. · TypeScript
+- [gbesse/jev-mistral-reflex](https://github.com/gbesse/jev-mistral-reflex) `📚4` — jev-mistral-reflex - Route bounded decisions through Jev and hand open-ended work to Mistral. · JavaScript
+- [gbesse/nifi-jev](https://github.com/gbesse/nifi-jev) `📚4` — nifi-jev - Apache NiFi processor for TypeSafe Jev semantic routing with uncertainty lane · Java
+- [gualican/jev-model-router](https://github.com/gualican/jev-model-router) `📚4` — jev-model-router — Routes prompts to the right Claude tier (Haiku/Sonnet/Opus) using TypeSafe's Jev model
+- [guptadivyanshu765/n8n-nodes-jev-router](https://github.com/guptadivyanshu765/n8n-nodes-jev-router) `📚4` — n8n-nodes-jev-router - n8n community node for TypeSafe AI's Jev System One decision model · TypeScript
+- [gzawadzki/jev-usecases](https://github.com/gzawadzki/jev-usecases) `📚4` — TypeSafe Jev demos: Play inbox, Czajka guard, agent-card router, seed comparator, RL data triage
+- [hackclub/ai](https://github.com/hackclub/ai) `📚4` — AI · 133 stars — A Jev forwarding endpoint in the Hack Club AI proxy, using its authentication, limits and usage logging. Source
+- [heyaozh/system-one](https://github.com/heyaozh/system-one) `📚4` — Typed, calibrated decisions for Rust: a backend-agnostic client for System One models (TypeSafe AI's
+- [higress-group/HiRoute](https://github.com/higress-group/hiroute) `📚4` — HiRoute - Local-first routing and coordination engine for long-running agent work, with a jev-decider extension that routes on typed decisions.
+- [himanshu231204/jev_model_routers](https://github.com/himanshu231204/jev_model_routers) `📚4` — jev in:name created:2026-09-24..2026-09-25
+- [hiroyannnn/yuru-come](https://github.com/hiroyannnn/yuru-come) `📚4` — yuru-come - Loose comment viewer: bundles duplicate live-chat reactions and surfaces the comments a streamer should not miss, triaged by TypeSafe Jev · MoonBit
+- [hoangngochuong24947-gif/jev-figure-router](https://github.com/hoangngochuong24947-gif/jev-figure-router) `📚4` — jev-figure-router - hoangngochuong24947-gif/jev-figure-router - Universal Figure & Diagram Router for AI Agents powered by TypeSafe Jev / Jeb System-1.
+- [huzeyfe07/jev-route](https://github.com/huzeyfe07/jev-route) `📚4` — Async, typed intent & tool routing for Python agents: Jev decides, a confidence gate stops weak deci
+- [hyspacex/jev-router](https://github.com/hyspacex/jev-router) `📚4` — Route OpenAI-style chat requests to a model and reasoning effort, using TypeSafe's Jev decision model as the …
+- [immanuelsavio/jev-experiment](https://github.com/immanuelsavio/jev-experiment) `📚4` — Benchmarking TypeSafe Jev against general-purpose LLMs on support-ticket routing, with a focus on la
+- [Ivanovskyi/typesafe-ai-gateway](https://github.com/ivanovskyi/typesafe-ai-gateway) `📚4` — Spring Boot API gateway using TypeSafe AI for confidence-based request routing.
+- [Jason-Doyle/jev-parallel-dispatch](https://github.com/jason-doyle/jev-parallel-dispatch) `📚4` — jev-parallel-dispatch - Browser simulation for parallel Jev decisions with capacity-constrained assignment and retained evidence.
+- [jcpsimmons/jev-model-router-demo](https://github.com/jcpsimmons/jev-model-router-demo) `📚4` — jev-model-router-demo - jcpsimmons/jev-model-router-demo - Throwaway Jev demo: route coding tasks to Grok Build or Codex Astra.
+- [Jev-verified cascade](https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-verified-cascade) `📚4` — OpenRouter cookbook: a cheap model answers, Jev checks the answer, only the failures escalate.
+- [jev4k.com](https://jev4k.com) `📚4` — README triage DSL sample and jev4k.com docs.
+- [jijaraba/LogiPulseAI_JEV](https://github.com/jijaraba/logipulseai_jev) `📚4` — Real-time last-mile delivery exception triage: Jev (TypeSafe AI System One) evaluates each event, de
+- [JxWayne890/jev-control-plane](https://github.com/jxwayne890/jev-control-plane) `📚4` — jev-control-plane - JEV powered model and reasoning routing for delegated Codex work · Python
+- [kentaro/jevex](https://github.com/kentaro/jevex) `📚4` — Jevex — Composes Jev decisions with ordinary Elixir control flow and documents confidence gates, fallbacks, and backend contracts.
+- [kjmagnan1s/karnak](https://github.com/kjmagnan1s/karnak) `📚4` — arnak - Jev picks Claude Code's reasoning effort before every step. Low for routine, high when recovering. · TypeScript
+- [kunpengtalk/OmniStudio](https://github.com/kunpengtalk/omnistudio) `📚4` — OmniStudio exposes Jev Noul, Choice, and Score decisions for triage, scoring, content guards, retrieval reranking, and intent routing.
+- [LiteLLM pass-through](https://docs.litellm.ai/docs/pass_through/typesafe) `📚4` — Route the System One endpoint through a LiteLLM proxy for key management and cost tracking; no streaming, since TypeSafe has none.
+- [ljy8072/jev-agent-router](https://github.com/ljy8072/jev-agent-router) `📚4` — Code when exact. Jev when useful. Agent when uncertain. A lightweight routing layer for computer-use
+- [lorensation/llm-cost-optimizer-jev](https://github.com/lorensation/llm-cost-optimizer-jev) `📚4` — An intelligent routing layer powered by TypeSafe AI's System One model Jev that sits in front of multiple LLM providers, analyzes each ...
+- [maxlibin/jev-rubiks](https://github.com/maxlibin/jev-rubiks) `📚4` — Rubik's cube coach: key-bearing dev proxy, solver/coach split, MIT license.
+- [minghanminghan/jev-demo](https://github.com/minghanminghan/jev-demo) `📚4` — jev-demo - A customer-service routing demo that batches Jev questions before following the resulting route.
+- [mja00/cmdc-auto-mode](https://github.com/mja00/cmdc-auto-mode) `📚4` — Auto permission mode for Command Code: screens every tool call with TypeSafe Jev before it runs, and
+- [nekowasabi/jev-routing-go](https://github.com/nekowasabi/jev-routing-go) `📚4` — Go proxy for Claude Code, Codex and Grok Build that prunes tool results and uses Jev to narrow each step's tools to one schema. MIT · Go
+- [nickylin/jev-harness](https://github.com/nickylin/jev-harness) `📚4` — Typed decision control plane for agents, powered by TypeSafe Jev
+- [openchamber/openchamber](https://github.com/openchamber/openchamber) `📚4` — OpenChamber · JEV Router · 10.3K stars — An optional automatic model router that classifies a message before model selection. Source
+- [PatrickLaflamme/typesafe-llm-router](https://github.com/patricklaflamme/typesafe-llm-router) `📚4` — Experimental Typesafe.ai smart router: route prompts to LLMs with caching and cost awareness
+- [PauloBTX/exemplo-hev-roteamento](https://github.com/paulobtx/exemplo-hev-roteamento) `📚4` — Roteamento automático de incidentes para o time certo usando o modelo Jev (TypeSafe AI) via OpenRouter, com benchmark de 1000 requisições.
+- [petercr/jev-orchestrator](https://github.com/petercr/jev-orchestrator) `📚4` — An mini node orchestrator that uses Jev to handle routing to different LLMs based on difficulty.
+- [purplesmoke05/opencode-plugin-jev-auto-model-router](https://github.com/purplesmoke05/opencode-plugin-jev-auto-model-router) `📚4` — Opt-in Auto (Jev) model routing for OpenCode with a configurable model allowlist ★ 1 · endpoint · TypeScript
+- [rayanweragala/jev-call-router](https://github.com/rayanweragala/jev-call-router) `📚4` — jev-call-router — No description provided by the repository (auto-discovered, description not yet written)
+- [rexbuilds/jev-triage](https://github.com/rexbuilds/jev-triage) `📚4` — Triage for deep-research agents. Score N search results in one parallel TypeSafe Jev call, so the frontier model only reads what is worth reading. ★ 2 · sdk · Python
+- [rodrigopsasaki/jev-patterns](https://github.com/rodrigopsasaki/jev-patterns) `📚4` — Typed distribution patterns for Jev responses: descriptive shapes, composable predicates, and exhaustive matching.
+- [rustfuture/reflex-control](https://github.com/rustfuture/reflex-control) `📚4` — Rust policy engine using TypeSafe Jev and deterministic checks to route AI agent decisions.
+- [ryuchan00/jev_practice](https://github.com/ryuchan00/jev_practice) `📚4`
+- [Santiago-j-s/jev-proxy](https://github.com/santiago-j-s/jev-proxy) `📚4` — jev-proxy - Local observability proxy and playground for TypeSafe Jev · TypeScript
+- [Significant-Gravitas/AutoGPT](https://github.com/significant-gravitas/autogpt) `📚4` — AutoGPT TypeSafe blocks — Seven production blocks — choice, score, yes/no, ask-many, route, pick-best, filter — with a UTF-8 byte budget, verbatim wire capture and eleven test files.
+- [sirkirby/routr](https://github.com/sirkirby/routr) `📚4` — TUI harness orchestration with herdr and jev to efficiently distribute work across your coding subscriptions.
+- [site](https://swarmrouter.vercel.app) `📚4`
+- [smarthi/assembly-jev-router](https://github.com/smarthi/assembly-jev-router) `📚4` — Apple Silicon Assembly implementation of Jev router
+- [tanishkgovil/jev-elevator-dispatch](https://github.com/tanishkgovil/jev-elevator-dispatch) `📚4` — Hospital elevator dispatch experiment: the same optimizer with and without Jev (TypeSafe AI) reading
+- [taro1985/dual-process-ai](https://github.com/taro1985/dual-process-ai) `📚4` — Dual-Process AI: A design pattern combining System 1 (Jev/TypeSafe AI) with System 2 (Gemini) — insp
+- [tbphp/gpt-load](https://github.com/tbphp/gpt-load) `📚4` — GPT-Load · JEV Provider · 7.0K stars — A self-hosted AI gateway with a first-class JEV channel and native Decisions routes. Source
+- [thevibeworks/pagepilot](https://github.com/thevibeworks/pagepilot) `📚4` — An agent in the browser that pays for thinking once: author a deterministic spec (Jev first, LLM on escalation), replay it for 0 tokens.
+- [thomaszta/jev-req-gate](https://github.com/thomaszta/jev-req-gate) `📚4` — A quality gate for AI-generated requirements, powered by Jev (TypeSafe System One). Routes each requ
+- [toorop/veille-by-jev](https://github.com/toorop/veille-by-jev) `📚4` — Nightly pipeline that collects Hacker News stories, triages them with typed Jev questions and has an LLM write a French Markdown digest. no license · Python
+- [TypeSafeAI/typesafe-router](https://github.com/typesafeai/typesafe-router) `📚4` — TypeSafe Router - Official TypeSafe router that uses Jev to choose among models and tools.
+- [vpicone/jev-lab](https://github.com/vpicone/jev-lab) `📚4` — Test bench for TypeSafe AI's Jev evaluation model on Vercel AI Gateway
+- [wadadanet/faq-jev-router](https://github.com/wadadanet/faq-jev-router) `📚4` — Static bilingual FAQ demo that cascades Jev Choices from category to article or not-found, with a Cloudflare Worker proxy holding the key. MIT · JavaScript
+- [wendyeq/dsh-jev-router](https://github.com/wendyeq/dsh-jev-router) `📚4` — Optional session-pinned Jev routing plugin for DeepSeek Harness.
+- [第三方独立实测：Classmethod / DevelopersIO](https://dev.classmethod.jp/en/articles/jev-for-llm-model-routing) `📚4` — wywołań zakończonych sukcesem, klasyfikacja poprawna w 10/10 przypadków;
+- [adymitruk/openrouter-spend-jev](https://github.com/adymitruk/openrouter-spend-jev) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [aesgalexis/model-switch](https://github.com/aesgalexis/model-switch) `📚3` — Local model and reasoning router for OpenAI Codex, powered by TypeSafe Jev.
+- [Akashdb5/jev-router](https://github.com/akashdb5/jev-router) `📚3` — Jev-powered security screening and cost-aware routing for OpenAI, Anthropic, and OpenRouter LLMs.
+- [alexei-led/pi-model-router](https://github.com/alexei-led/pi-model-router) `📚3` — Independent Pi extension for four-tier model routing with optional privacy-gated Jev advice, deterministic ba…
+- [AlexPEClub/Jev-Model-Router-Claude-Code](https://github.com/alexpeclub/jev-model-router-claude-code) `📚3` — Jev-Model-Router-Claude-Code — Begleitmaterial zum Video „Jev + Claude Code: 3 Use Cases".
+- [AlgoVaultLabs/algovault-integrations](https://github.com/algovaultlabs/algovault-integrations) `📚3` — Production-ready examples for consuming the AlgoVault Verifiable-Signal v1.0 spec across downstream execution platforms.
+- [andrei10k/claude-jev-model-router](https://github.com/andrei10k/claude-jev-model-router) `📚3` — A local proxy that sits between Claude Code and the Anthropic API and uses TypeSafe's Jev to route each subag…
+- [aryamangoenka/traceassert](https://github.com/aryamangoenka/traceassert) `📚3` — you already test your code. this tests what your agent actually did (powered by jev)
+- [ashafizullah/jev-triage](https://github.com/ashafizullah/jev-triage) `📚3` — jev-triage — Automated issue & PR triage for open-source maintainers, powered by Jev (TypeSafe AI).
+- [atulify/omp-plugin-jev-router](https://github.com/atulify/omp-plugin-jev-router) `📚3` — omp-plugin-jev-router — Route Oh My Pi prompts between simple and advanced models with TypeSafe AI's Jev classifier.
+- [auggie246/dsh-jev](https://github.com/auggie246/dsh-jev) `📚3` — Jev integration to Deepseek harness
+- [Autometrixai/jev-clinic-triage-eval](https://github.com/autometrixai/jev-clinic-triage-eval) `📚3` — Early evaluation of TypeSafe's Jev on clinic call triage: 98.6% accurate when confident, 116k decisi
+- [balewgize/jev-ticket-triage](https://github.com/balewgize/jev-ticket-triage) `📚3` — A small demo showing a cheaper way to route support tickets.
+- [blacksinisterx/jev-router](https://github.com/blacksinisterx/jev-router) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [bonghancho/jev-ai-gateway-sample](https://github.com/bonghancho/jev-ai-gateway-sample) `📚3` — jev-ai-gateway-sample - Sample: TypeSafe Jev via Vercel AI Gateway · TypeScript
+- [Bonzokoles/36_chambers](https://github.com/bonzokoles/36_chambers) `📚3` — Federated knowledge retrieval engine for AI agents. Routes queries across specialized back
+- [boriscardano/herdr-jev-router](https://github.com/boriscardano/herdr-jev-router) `📚3` — Advisory Jev routing for child agents on stock Herdr: Jev picks the harness, model and effort from the task and your remaining subscription capacity.
+- [box-community/box-jev-incident-triage](https://github.com/box-community/box-jev-incident-triage) `📚3` — jev in:name created:2026-09-16..2026-09-17
+- [bravesfan133/minuspod-jev-proxy](https://github.com/bravesfan133/minuspod-jev-proxy) `📚3` — minuspod-jev-proxy - bravesfan133/minuspod-jev-proxy - OpenAI-compatible proxy: MinusPod ad detection via Jev (TypeSafe decision model).
+- [buberlo/jev-pastepilot](https://github.com/buberlo/jev-pastepilot) `📚3` — Explicit paste-to-action launcher that routes text to useful tools without automatic side effects.
+- [cdubiel08/jev-test-triage](https://github.com/cdubiel08/jev-test-triage) `📚3` — Rank surviving mutants by whether a test is worth writing, with TypeSafe Jev System One judgments. P
+- [chengyixu/jev-clean](https://github.com/chengyixu/jev-clean) `📚3` — Clean mysterious macOS System Data. Nexora’s mandatory local-model investigation, human-reviewed cleanup, and model-ready installation.
+- [ClemannD/jev-playground](https://github.com/clemannd/jev-playground) `📚3` — jev-playground - ClemannD/jev-playground - Interactive playground for learning how TypeSafe's Jev model works (via Vercel AI Gateway).
+- [codaaiteam/jev-skill-router](https://github.com/codaaiteam/jev-skill-router) `📚3` — Route each task to the one tool an agent should call, with Jev — with confidence. Single-file, no bu
+- [commonweavelabs-crypto/jev-triage](https://github.com/commonweavelabs-crypto/jev-triage) `📚3` — Jev-powered submission triage - one modular engine (bug/feature/complaint/question classification + intent routing), built for comfyui-video-ui, reusable in tierllama and all CommonWeave projects
+- [copyleftdev/braess-router](https://github.com/copyleftdev/braess-router) `📚3` — Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.
+- [cskwork/pi-jev-router](https://github.com/cskwork/pi-jev-router) `📚3` — pi-jev-router - Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway · JavaScript
+- [danieljohnmorris/omp-jev-router](https://github.com/danieljohnmorris/omp-jev-router) `📚3` — OMP extension that routes each turn to a model, and each delegated task to an agent, using a Jev capability classification plus ...
+- [devjtv/jev-router](https://github.com/devjtv/jev-router) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [dragonlin-ai/llmbridge](https://github.com/dragonlin-ai/llmbridge) `📚3` — llmbridge - OpenAI-compatible LLM routing gateway with TypeSafe Jev as the L2 decision layer. (Project guide)(community/projects/tools/llmbridge.md).
+- [drewpayment/jev-route](https://github.com/drewpayment/jev-route) `📚3` — Claude Code plugin: per-turn model routing with Jev (TypeSafe / Vercel AI Gateway)
+- [eachann1024/pi-jev-route](https://github.com/eachann1024/pi-jev-route) `📚3` — Pi extension: Jev model selection before subagent dispatch.
+- [edsonayllon/jev-prototype](https://github.com/edsonayllon/jev-prototype) `📚3` — Feed triage prototype: TypeSafe Jev judgments tag posts by type, sentiment, and attention
+- [eitaar/jev-skill-router](https://github.com/eitaar/jev-skill-router) `📚3` — Semantic skill routing for Pi, powered by Jev.
+- [eSaadster/jev-effort-router](https://github.com/esaadster/jev-effort-router) `📚3` — Claude Code plugin: per-prompt reasoning-effort routing with TypeSafe Jev
+- [eylexlive/jev-drive](https://github.com/eylexlive/jev-drive) `📚3` — A 3D driving simulator where Jev, TypeSafe's decision model, chooses what the car does. Code eye or
+- [fan56/dsh-agent-dispatch](https://github.com/fan56/dsh-agent-dispatch) `📚3` — Jev-guided dispatch advice for DeepSeek Harness: before each turn, Jev judges whether to delegate an
+- [FleeexCorp/jev-orchestrator](https://github.com/fleeexcorp/jev-orchestrator) `📚3` — Claude Code skill and CLI that hand delegate, parallelise, retry and stop decisions to Jev while Codex workers run in separate git worktrees. MIT · TypeScript
+- [fstandhartinger/jev-router](https://github.com/fstandhartinger/jev-router) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [gbesse/directus-extension-jev](https://github.com/gbesse/directus-extension-jev) `📚3` — Native Directus Flow operation for versioned Jev decisions with server-side credentials.
+- [gbesse/jev-proxy](https://github.com/gbesse/jev-proxy) `📚3` — Policy firewall for MCP tool calls with one-time human approvals and JSONL audit.
+- [gbesse/jev-timemachine](https://github.com/gbesse/jev-timemachine) `📚3` — jev-timemachine - jev-timemachine: TypeSafe Jev ecosystem repository. · JavaScript
+- [gbesse/jev-utility](https://github.com/gbesse/jev-utility) `📚3` — Turn calibrated probabilities and explicit mistake costs into thresholds, escalation bands and actio
+- [getsynkora/synkora-ai](https://github.com/getsynkora/synkora-ai) `📚3` — synkora-ai — Synkora includes optional TypeSafe client tools for classification, scoring and yes/no judgments.
+- [goldytech/jev-model-routing](https://github.com/goldytech/jev-model-routing) `📚3` — src/jev.ts and src/router.ts ask tier/complexity/reasoning questions; confidence below 0.60 escalates one tier.
+- [hamzaahmadaslam/woo-note-triage](https://github.com/hamzaahmadaslam/woo-note-triage) `📚3` — Note Triage for WooCommerce: a WordPress plugin that sorts customer order notes (gift message, deliv
+- [Hatuw/jev-chat-feishu](https://github.com/hatuw/jev-chat-feishu) `📚3`
+- [ianlintner/jev-router](https://github.com/ianlintner/jev-router) `📚3` — Shadow-mode Jev decision adapter for model-routing comparisons, with Prometheus metrics and Grafana dashboards
+- [ilayzeidman/jev-triage](https://github.com/ilayzeidman/jev-triage) `📚3` — GitHub issue triage with jev (TypeSafe AI's System One model): one typed call per issue, confidence
+- [infinitylogesh/systemone](https://github.com/infinitylogesh/systemone) `📚3` — A Proxy that enables zero-shot system one typed-decisions endpoint for decoder only models served wi
+- [jackkfan0305/ticket-triage](https://github.com/jackkfan0305/ticket-triage) `📚3` — Support ticket triage: TypeSafe Jev judgments plus an explicit policy layer for priority and team ro
+- [jammaru/jev-affected](https://github.com/jammaru/jev-affected) `📚3` — jev-affected - Semantic task routing for software development, powered by Jev. · TypeScript
+- [jerryshao2012/typesafe_jev](https://github.com/jerryshao2012/typesafe_jev) `📚3` — From API key to typed decisions, testable policy, confidence fallbacks, and shadow-mode validation
+- [jev-ai/jev-api](https://github.com/jev-ai/jev-api) `📚3`
+- [kedi-lang/kedi-typesafe](https://github.com/kedi-lang/kedi-typesafe) `📚3` — edi-typesafe - Framework-native TypeSafe Jev integrations for Pydantic AI, LangChain, and Kedi.
+- [LucasZhangTJU/guandan-jev](https://github.com/lucaszhangtju/guandan-jev) `📚3` — inferred / apps-demos — ⭐0
+- [manish-9245/Wayfinder](https://github.com/manish-9245/wayfinder) `📚3` — Doubt, as a service: one HTTP call turns any text in 100+ languages into a calibrated act/review/esc
+- [murongg/JevRepoTriage](https://github.com/murongg/jevrepotriage) `📚3` — JevRepoTriage - Self-hosted GitHub issue/PR triage assistant powered by TypeSafe Jev (web UI + workers). (Project guide)(community/projects/tools/jevrepo-triage.md).
+- [NakliTechie/verdict](https://github.com/naklitechie/verdict) `📚3` — Sovereign typed decisions on your Mac — zero install. On-device Apple Foundation Models + Laya, Jev-compatibl…
+- [NatersGonnaN8/talk-to-jev](https://github.com/natersgonnan8/talk-to-jev) `📚3` — Wire a cheap LLM to TypeSafe Jev with one OpenRouter key
+- [NeOMakinG/kev-model-router](https://github.com/neomaking/kev-model-router) `📚3` — Jev-style model routing powered by kev — a tiny local System One model classifies every request and picks the…
+- [OpenRouter](https://openrouter.ai/typesafe) `📚3` — A third-party model platform that currently lists Jev Latest and Jev 1.13; its always-latest model ID is ~typesafe/jev-latest. Source.
+- [opsiaadi/opnroute-jev](https://github.com/opsiaadi/opnroute-jev) `📚3` — MCP server for JEV (TypeSafe System One) classification via OpenRouter
+- [panchambanerjee/jev_expts](https://github.com/panchambanerjee/jev_expts) `📚3` — Experiments with TypeSafe AI's System One Model Jev
+- [Papr-ai/paprwork](https://github.com/papr-ai/paprwork) `📚3` — Papr Work is a local-first app that lets you collaborate with AI agents that can access your computer, rememb…
+- [parable-work/jev-datafusion](https://github.com/parable-work/jev-datafusion) `📚3` — jev-datafusion - DataFusion SQL functions for typed judgments. TypeSafe is one server.
+- [pathak-r/how-good-is-jev](https://github.com/pathak-r/how-good-is-jev) `📚3` — How good is Jev? TypeSafe Jev vs an LLM on the same intent-routing task.
+- [pcparts001/pi-jev-reasoning-router-lite](https://github.com/pcparts001/pi-jev-reasoning-router-lite) `📚3` — pi-jev-reasoning-router-lite - pi-jev-reasoning-router-lite: TypeSafe Jev ecosystem repository. · TypeScript
+- [PeterP22/jev-triage](https://github.com/peterp22/jev-triage) `📚3` — jev-triage - Confidence-gated creator inbox triage on TypeSafe's Jev \(System One\) model · TypeScript
+- [phamhongviet/pi-ext-model-router](https://github.com/phamhongviet/pi-ext-model-router) `📚3` — pi-ext-model-router - pi.dev extension to select models using TypeSafe Jev · Python
+- [Pinutss/jev-agent-router](https://github.com/pinutss/jev-agent-router) `📚3` — Python router exposed over HTTP and MCP that picks one agent from a registry, abstains or falls back once; local heuristic by default, Jev as optional judge. MIT · Python
+- [QAInsights/jmeter-ai](https://github.com/qainsights/jmeter-ai) `📚3` — Jev classifies JMeter agent intent and selects a focused tool pack, with a full-tool fallback when routing is uncertain.
+- [rahilmavani/piedpiper-jev-buildathon](https://github.com/rahilmavani/piedpiper-jev-buildathon) `📚3` — Team piedpiper: failproofai + Jev guardrails that stop the Helix IT agent from failing (Jev Buildathon)
+- [realbogart/jev](https://github.com/realbogart/jev) `📚3` — Jev Haskell Client - Haskell client with typed Choice, Score, and Noul questions for TypeSafe Jev.
+- [reallygood83/jev-router](https://github.com/reallygood83/jev-router) `📚3`
+- [richardskypixel-max/jevrail](https://github.com/richardskypixel-max/jevrail) `📚3` — Auditable Jev decisions through OpenRouter. A macOS-first TypeScript CLI with Keychain credentials,
+- [Roasbeef/jevlar](https://github.com/roasbeef/jevlar) `📚3` — Typed, correct-by-construction Jev decisions for Go: batch typed questions through POST /v1/systemone with Go types wired to Jev primitives (real Go client + tests, created 2026-09-22).
+- [rockjoel/local-skill-router](https://github.com/rockjoel/local-skill-router) `📚3` — Local-first skill router for coding agents. Inspired by TypeSafe Jev; optional swappable judge (not an offici…
+- [russleyshaw/typesafe-jev-gate](https://github.com/russleyshaw/typesafe-jev-gate) `📚3` — Fail-closed Jev policy gate for Hermes Agent tool calls
+- [Sahil-coder-30/jev-langgraph-router](https://github.com/sahil-coder-30/jev-langgraph-router) `📚3` — ⚡ Autonomous Multi-Model Routing Engine powered by TypeSafe Jev System One (<250ms, 97.4% cost savin
+- [SciScend/system-one-categorizer-demo](https://github.com/sciscend/system-one-categorizer-demo) `📚3` — Jev vs Laya on Bulgarian: two System One models suggest a category for each blog post. A local BgGPT names new topics.
+- [shanginn/jev-php](https://github.com/shanginn/jev-php) `📚3` — jev-php - shanginn/jev-php - Type-safe PHP 8.5 SDK for JEV decisions on OpenRouter: choices, scores, probabilities and typed DTOs.
+- [shimoverse/inbox-triage](https://github.com/shimoverse/inbox-triage) `📚3` — Inspected src/inbox_triage/providers/jev.py: POST {base}/v1/systemone (default with model jev-latest. Policy in policy.py owns labels.
+- [sinfiny/sunvai](https://github.com/sinfiny/sunvai) `📚3` — sunvai - AI triage layer for MP CM Helpline 181: Jev typed decisions + Claude, built at Claude Code Build Day Bhopal · TypeScript
+- [site](https://az9713.github.io/jev-model-router) `📚3`
+- [sophia-phillipa/master-jev-hook](https://github.com/sophia-phillipa/master-jev-hook) `📚3` — Hooks and MCP that make Claude Code, Claude Desktop and Codex delegate decisions to TypeSafe JEV through a local gateway.
+- [souravC01/jev-vs-jev](https://github.com/souravc01/jev-vs-jev) `📚3` — A playful experiment where Jev judges whether Jev is the right tool for a task.
+- [suncirkles/jev-router](https://github.com/suncirkles/jev-router) `📚3` — Decision-only coding-task model routing (JevRoute) with a separate evaluation harness and recorded experiment evidence
+- [sxivansx/sizeup](https://github.com/sxivansx/sizeup) `📚3` — sizeup - Jev-powered model router for AI coding agents \(omp + Claude Code\): small jobs go to smaller, cheaper models. · TypeScript
+- [tameernoor/aotn-jev-turbine-triage](https://github.com/tameernoor/aotn-jev-turbine-triage) `📚3` — Triage real wind turbine SCADA events with Jev typed questions, with a second look from production data for uncertain events
+- [TexasOct/jev-gateway](https://github.com/texasoct/jev-gateway) `📚3` — jev-gateway — Session-aware OpenAI-compatible model-routing gateway powered by JEV
+- [tgiridhar/claude-code-jev-smart-router](https://github.com/tgiridhar/claude-code-jev-smart-router) `📚3` — HTTP proxy for Claude Code that has Jev classify each request and rewrites the model field, switching only when prompt-cache rebuild cost pays back. MIT · Python
+- [ThalesAugusto0/typesafe-router-pipeline](https://github.com/thalesaugusto0/typesafe-router-pipeline) `📚3` — Open WebUI pipeline that routes prompts to a cheap or expensive LLM using TypeSafe AI classification
+- [ThyFriendlyFox/jev-triage](https://github.com/thyfriendlyfox/jev-triage) `📚3` — Active-learning triage pipeline using TypeSafe Jev — route by confidence, log soft labels for local
+- [tinyhumansai/tinyhivemind](https://github.com/tinyhumansai/tinyhivemind) `📚3` — tinyhivemind-typesafe · tinyhumansai · GitHub · ⭐ 11 repo · 2026-08-31Rust crate that lets the TinyHiveMind multi-agent coordination library route handoffs with Jev, picking the best-placed teammate and also routing to…
+- [tkumata/gh-issues-triage](https://github.com/tkumata/gh-issues-triage) `📚3` — Other related projects
+- [TPAteeq/tocsin](https://github.com/tpateeq/tocsin) `📚3` — (notable) - Rust log triage that masks and Drain-groups lines, asks Jev four questions once per new pattern and routes to page, ticket or log, with cost figures. MIT · Rust · live
+- [Utkarsh-Shivhare/jev-router-demo](https://github.com/utkarsh-shivhare/jev-router-demo) `📚3` — Production-style AI Support Router comparing Jev vs LLM.
+- [vlad-terin/jev-use](https://github.com/vlad-terin/jev-use) `📚3`
+- [Vybavnag/jev-triage-race](https://github.com/vybavnag/jev-triage-race) `📚3` — Race TypeSafe AI's Jev classifier against an LLM on support-ticket triage — live speed, cost and acc
+- [Wionerlol/wechat-jev-hud](https://github.com/wionerlol/wechat-jev-hud) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [wssaidong/kong-jev-router](https://github.com/wssaidong/kong-jev-router) `📚3` — ong plugin: intelligent LLM routing by task complexity using TypeSafe Jev
+- [XDeviation/pi-jev-router](https://github.com/xdeviation/pi-jev-router) `📚3` — Pin for review: commit 178687f. Live classification sends bounded task text to TypeSafe and may incur charges.
+- [yangbaepark/frugal-llm](https://github.com/yangbaepark/frugal-llm) `📚3` — High-performance LLM proxy server with dynamic prompt routing, multi-provider model regist
+- [yhdhappy/JEV-Model-Router](https://github.com/yhdhappy/jev-model-router) `📚3` — JEV Model Router: task-aware AI model routing for agent-driven development.
+- [yyy-router/QA-Classifier-Jev](https://github.com/yyy-router/qa-classifier-jev) `📚3` — Question classification experiment using TypeSafe AI Jev for QA/RAG routing.
+- [zhuyansen/x-reply-filter](https://github.com/zhuyansen/x-reply-filter) `📚3` — Chrome extension: collapse spam, bait, off-topic and AI-filler replies on X. Local rules + TypeSafe Jev, lear…
+- [zixiang0623/Jev-Openrouter](https://github.com/zixiang0623/jev-openrouter) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [ZongxingH/gemini-quality-gate-jev](https://github.com/zongxingh/gemini-quality-gate-jev) `📚3`
+
+## Long tail (cited by 1–2 lists) — 687
+
+<details><summary>Show 687 long-tail entries</summary>
+
+- [abhyodaya1/intel_engine](https://github.com/abhyodaya1/intel_engine) `📚2` — Due-diligence engine that uses Jev for probabilistic link routing and Groq for LLM teardowns, cuttin
+- [Abishek0070/JEV-model-router](https://github.com/abishek0070/jev-model-router) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [aboisvert/jevvy-nim](https://github.com/aboisvert/jevvy-nim) `📚2` — Use jev model to augment csv files with inferred classification, scoring, or probability scores
+- [actions-marketplace-validations/sathariels_jevtriage](https://github.com/actions-marketplace-validations/sathariels_jevtriage) `📚2` — sathariels\_jevtriage - sathariels\_jevtriage: TypeSafe Jev ecosystem repository. · Python
+- [ademczuk/jev-backlog-triage](https://github.com/ademczuk/jev-backlog-triage) `📚2` — Other related projects
+- [Agnuxo1/TartanIMU-Cognitive-Stack](https://github.com/agnuxo1/tartanimu-cognitive-stack) `📚2` — Deterministic-first cognitive orchestration with bounded TypeSafe JEV supervision, evidence-aware es
+- [ahmdd4vd/typesafe-create](https://github.com/ahmdd4vd/typesafe-create) `📚2` — Bulk auto-register typesafe.ai accounts + API keys in Go. Temp email via mail.tm, proxy-ready, outputs accounts.json & apikey.txt.
+- [Akashdb5/jev-outreach-router](https://github.com/akashdb5/jev-outreach-router) `📚2` — inferred / routing-guardrails — ⭐0
+- [alevtelles/triagem-inteligente-com-jev](https://github.com/alevtelles/triagem-inteligente-com-jev) `📚2` — Demo de triagem inteligente de atendimento de cartao de credito: em vez de uma IA generica decidir sozinha em texto livre, o ...
+- [alseif0x/jev-inbox-triage](https://github.com/alseif0x/jev-inbox-triage) `📚2` — jev-inbox-triage - Jev \(TypeSafe\) typed prefilter skill: two-phase inbox triage with confidence gating + pre-send guard · JavaScript
+- [amartyakumar11/x-ceed](https://github.com/amartyakumar11/x-ceed) `📚2` — AI recruitment platform — evidence-backed matching, weighted scoring, career plans. Next.js · LangGr
+- [appsprout-dev/unsga3](https://github.com/appsprout-dev/unsga3) `📚2` — U-NSGA-III multi-objective evolutionary optimization for .NET (Seada & Deb) — ZDT/DTLZ, IGD oracle vs pymoo
+- [Arifulfm/ai-media-router](https://github.com/arifulfm/ai-media-router) `📚2` — One CLI for AI image, video and voice generation across OpenRouter, Gemini, ElevenLabs, Ca
+- [aserjam100/jev-firewall](https://github.com/aserjam100/jev-firewall) `📚2` — Small JavaScript coding agent where Jev routes each step to list, search, read, test or stop and only calls OpenAI for generation or low confidence. no license…
+- [AtHeartEngineer/HA-SystemOne](https://github.com/atheartengineer/ha-systemone) `📚2` — Adding SystemOne APIs like Typesafe Jev to home assistant Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [ayushap18/tracegraph](https://github.com/ayushap18/tracegraph) `📚2` — Live multi-agent query routing with the Jev classifier, visualized as a real-time trace graph. Python + aiohttp + React + D3.
+- [b3nj1-1/jev-router](https://github.com/b3nj1-1/jev-router) `📚2` — This is a router to reduce the cost of token for your suscription of opencode
+- [bakertony-hash/aiconnect4](https://github.com/bakertony-hash/aiconnect4) `📚2` — AI vs AI Connect 4 arena. Jev vs Luna via OpenRouter.
+- [Bald0Wang/jev-playground](https://github.com/bald0wang/jev-playground) `📚2`
+- [baptiste-mnh/jev-proxy](https://github.com/baptiste-mnh/jev-proxy) `📚2` — jev-proxy - Local TypeSafe System One proxy that records, caches, and replays calls with a web inspector. (Project…
+- [benkohcc/jev-ticket-triage](https://github.com/benkohcc/jev-ticket-triage) `📚2` — Testing TypeSafe's Jev model on 100 synthetic support tickets: routing accuracy, confidence calibration, cost and latency
+- [bennyp11/jev-smart-copypaste](https://github.com/bennyp11/jev-smart-copypaste) `📚2` — jev-smart-copypaste - Smart paste: copy a whole resume, paste into a job application, and Jev \(TypeSafe\) routes only the relevant pieces into the right…
+- [bioarchitectonic/gsd-jev-demo](https://github.com/bioarchitectonic/gsd-jev-demo) `📚2` — Jev recognizes glycogen storage disease patterns in synthetic USMLE-style vignettes: one Choice ques
+- [Bodila51/jev-hft-model-router](https://github.com/bodila51/jev-hft-model-router) `📚2` — jev-hft-model-router - jev-hft-model-router: TypeSafe Jev ecosystem repository. · Python
+- [BunsDev/typesafe-router](https://github.com/bunsdev/typesafe-router) `📚2` — Route models and tools with TypeSafe Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [canok07/jev-router](https://github.com/canok07/jev-router) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [Ceobe-dev/routerBasedJev](https://github.com/ceobe-dev/routerbasedjev) `📚2`
+- [ChenReuven/jev-triage-hospital](https://github.com/chenreuven/jev-triage-hospital) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [clduab11/the-array](https://github.com/clduab11/the-array) `📚2` — the-array Jev decision layer · clduab11 · GitHub · ⭐ 1 repo · 2026-09-11Opt-in Jev layer in a self-hosted LiteLLM gateway reference build that picks model…
+- [codewitheren/jev-openrouter-demo](https://github.com/codewitheren/jev-openrouter-demo) `📚2` — jev-openrouter-demo - TypeSafe Jev support-ticket triage demo via OpenRouter · TypeScript
+- [ColinClark/claude-code-jev-router](https://github.com/colinclark/claude-code-jev-router) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [csprague96/email-triage](https://github.com/csprague96/email-triage) `📚2` — email-triage - email-triage: TypeSafe Jev ecosystem repository. · Python
+- [cyanheads/jev-harness](https://github.com/cyanheads/jev-harness) `📚2` — Harness for TypeSafe's Jev decision model: typed questions over datasets via OpenRouter, JSONL answe
+- [dandacompany/jev-gatekeeper](https://github.com/dandacompany/jev-gatekeeper) `📚2` — Local judge first, cloud Jev second: a privacy-first request router (llama.cpp + TypeSafe Jev)
+- [danfry1/jev-triage](https://github.com/danfry1/jev-triage) `📚2` — GitHub Action that labels, deduplicates and spam-checks issues with Jev, with calibrated confidence
+- [dannyowelch/jev-noul-vs-choice](https://github.com/dannyowelch/jev-noul-vs-choice) `📚2` — Interactive Jev demo: Noul vs yes/no Choice disagree (TypeSafe jev-1.13 jaggedness)
+- [daud4653/jev-model-router](https://github.com/daud4653/jev-model-router) `📚2` — jev-model-router - jev-model-router: TypeSafe Jev ecosystem repository. · TypeScript
+- [davidrydberg/freshdesk-triage-jev](https://github.com/davidrydberg/freshdesk-triage-jev) `📚2` — inferred / routing-guardrails — ⭐0
+- [dazreil/jev-npc-interaction-prototype](https://github.com/dazreil/jev-npc-interaction-prototype) `📚2` — Browser-based NPC interaction prototype using authored dialogue and TypeSafe Jev action selection
+- [delight0517/jev-token-saving-system](https://github.com/delight0517/jev-token-saving-system) `📚2` — Jev-based local-first ChatGPT token-saving router, durable Aside Mac bridge, paired measurement tools, and aggregate results
+- [dereknguyen269/jev-harness](https://github.com/dereknguyen269/jev-harness) `📚2` — No description provided.
+- [DineshKuppan/jev-banking-routing-go](https://github.com/dineshkuppan/jev-banking-routing-go) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [dishambha/jev-multimodel](https://github.com/dishambha/jev-multimodel) `📚2` — A local multimodel AI assistant that intelligently routes queries to specialized models for general tasks, coding, and image generation.
+- [dl013209-ai/jev-preflight-director](https://github.com/dl013209-ai/jev-preflight-director) `📚2` — Sub-millisecond (&lt;1ms) Pre-flight Gateway & Multi-modal Director for LLM Agents
+- [dolphinminer/jev-rss](https://github.com/dolphinminer/jev-rss) `📚2` — A local-first RSS reader with Jev-powered semantic screening. Follow what matters, inspect every jud
+- [drycool/jev-router](https://github.com/drycool/jev-router) `📚2` — Ultra-low latency System-1 decision router for AI agents powered by Laya, FTS5 & LightRAG
+- [dudaka/jev-openrouter](https://github.com/dudaka/jev-openrouter) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [duyet/aidr](https://github.com/duyet/aidr) `📚2` — aidr — Automated AI News ranking and summary by Jev/LLM powered by AnyRouter. _(★1)_
+- [ekil1100/pi-auto](https://github.com/ekil1100/pi-auto) `📚2` — Automatically select thinking effort for each task useing Jev
+- [EthanDai-1205/Cascade-Agent](https://github.com/ethandai-1205/cascade-agent) `📚2` — Cascade-Agent - Cascade-Agent: TypeSafe Jev ecosystem repository. · Python
+- [experientiallabs/experiential](https://github.com/experientiallabs/experiential) `📚2` — Experiential TypeSafe provider - TypeSafe provider in the Experiential open-source model gateway that dispatches Jev decisions natively and refuses to treat…
+- [FabiGambaro/JEV_China](https://github.com/fabigambaro/jev_china) `📚2` — jev in:name created:2024-01-01..2024-12-31
+- [flower-of-the-bridges/opencode-jev-router-plugin](https://github.com/flower-of-the-bridges/opencode-jev-router-plugin) `📚2` — Model routing for OpenCode powered by the JEV
+- [fstandhartinger/auto-router-demo](https://github.com/fstandhartinger/auto-router-demo) `📚2` — Public web playground for auto-model-router showing the Jev classification, per-model pricing, the routing decision and the streamed answer. MIT · Python · live
+- [galigutta/jev-use-cases](https://github.com/galigutta/jev-use-cases) `📚2` — An inspired MECE map of TypeSafe Jev use cases from the first days on X
+- [gautham-hegde/jev-project-router](https://github.com/gautham-hegde/jev-project-router) `📚2` — Demo of Vercel's Jev AI Gateway model: routes project submissions to teams and scores them. Next.js app with a routing form + result view. (0★, TypeScript,…
+- [gbesse/jev-cardgen](https://github.com/gbesse/jev-cardgen) `📚2` — Render a versioned verdict schema to self-contained SVG and optional PNG with zero runtime dependenc
+- [gbesse/openproject-jev-triage](https://github.com/gbesse/openproject-jev-triage) `📚2` — Jev completeness triage for OpenProject work packages.
+- [gbesse/redpanda-connect-jev](https://github.com/gbesse/redpanda-connect-jev) `📚2` — Typed Jev decisions in Redpanda Connect pipelines.
+- [gdamiani1/jev-feed-triage](https://github.com/gdamiani1/jev-feed-triage) `📚2` — Chrome extension: Jev scores which LinkedIn and Reddit posts are worth your time (created 2026-09-22).
+- [geranitin/TYPESAFE_JEV](https://github.com/geranitin/typesafe_jev) `📚2` — Jev experiments: user-upgrade triage with confidence gating and repeated-call stability checks, seven scenario examples (created 2026-09-19).
+- [gitmanhimanshu/jev-context-firewall](https://github.com/gitmanhimanshu/jev-context-firewall) `📚2` — Agent tools and workflow control
+- [glyzinie/jev-cerebras-gateway](https://github.com/glyzinie/jev-cerebras-gateway) `📚2` — Bun CLI that has Jev classify a prompt's route and complexity via Vercel AI Gateway, then picks the reasoning effort for a Cerebras-hosted generator. no…
+- [gmaxxxie/jev-router](https://github.com/gmaxxxie/jev-router) `📚2` — Per-prompt model routing for Pi, driven by Jev (TypeSafe System One)
+- [gpirge/CancerRegistry_Jev](https://github.com/gpirge/cancerregistry_jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [HackInvent/bloxmith-jev](https://github.com/hackinvent/bloxmith-jev) `📚2` — Autonomous BloxSmith block for TypeSafe Jev: typed judgments and probabilities from text or JSON.
+- [hamzaahmadaslam/action-scheduler-triage](https://github.com/hamzaahmadaslam/action-scheduler-triage) `📚2` — Group the failed actions of WordPress's Action Scheduler by hook and error, then ask Jev w
+- [hamzaahmadaslam/fedi-report-triage](https://github.com/hamzaahmadaslam/fedi-report-triage) `📚2` — Reads the open reports on a Mastodon server with a moderator's own read-only token and prints them a
+- [hamzaahmadaslam/wp-debuglog-triage](https://github.com/hamzaahmadaslam/wp-debuglog-triage) `📚2` — wp-debuglog-triage - Group a WordPress debug.log by message, attribute each group to core, a plugin or a theme, and rank the groups by kind and urgency with…
+- [hamzaahmadaslam/wporg-forum-triage](https://github.com/hamzaahmadaslam/wporg-forum-triage) `📚2` — Sorts a WordPress.org plugin's support threads into bugs, how-to questions, feature requests, confli
+- [Haresh33/Jev-Triage](https://github.com/haresh33/jev-triage) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [hichem300/bruv](https://github.com/hichem300/bruv) `📚2` — No yap, only fax. bruv a CLI tool that runs Jev, Simple Jev and other supported open models to turn
+- [hj01857655/jev-router](https://github.com/hj01857655/jev-router) `📚2` — Jev-powered support ticket router — parallel structured decisions via
+- [huangserva/hipporoute-jev-codex](https://github.com/huangserva/hipporoute-jev-codex) `📚2`
+- [iamupd/oh-my-jev](https://github.com/iamupd/oh-my-jev) `📚2` — oh-my-jev - Serve, benchmark, train and compare open System One decision models behind one Jev-compatible gateway · Python
+- [ianlintner/bcr-chat-router](https://github.com/ianlintner/bcr-chat-router) `📚2` — Bureau of Citizen Response — fictional gov chat routing backend using TypeSafe Jev choice classifica
+- [intelliDean/reflexgate](https://github.com/intellidean/reflexgate) `📚2` — Ultra-fast, sub-100ms API & webhook guardrail and triage gateway powered by TypeSafe AI System One (
+- [its-panzer/jev-model-router](https://github.com/its-panzer/jev-model-router) `📚2` — Python router and CLI that asks Jev to size a request and returns the cheapest Claude tier able to finish it, evaluated on 100 labelled cases. MIT · Python
+- [IWANABETHATGUY/rolldown-triager](https://github.com/iwanabethatguy/rolldown-triager) `📚2` — GitHub Action that auto-triages new rolldown issues with TypeSafe's Jev model: priority, reproduction quality, one comment.
+- [j7708git/jev-proxy](https://github.com/j7708git/jev-proxy) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [jagreehal/pydantic-ai-jev-example](https://github.com/jagreehal/pydantic-ai-jev-example) `📚2` — Examples of TypeSafe Jev in Pydantic AI
+- [jasonkneen/fm-with-jev](https://github.com/jasonkneen/fm-with-jev) `📚2`
+- [javaninvegas/jev-desert-crew](https://github.com/javaninvegas/jev-desert-crew) `📚2` — Four AI paper-trading bots racing on Jev (TypeSafe AI). Jev places the orders. Fork of imikerussell/beebots.
+- [javsanesq/jevlab](https://github.com/javsanesq/jevlab) `📚2` — Design, inspect, and regression-test TypeSafe Jev decisions from your terminal.
+- [jb-akp/jev-avatar](https://github.com/jb-akp/jev-avatar) `📚2` — Jev decides, an LLM talks, an Akapulu avatar is the face. Live AI receptionist with a Jev router.
+- [jerepaira/local-jev](https://github.com/jerepaira/local-jev) `📚2` — Local decision layer + MCP server: typed decisions (choice/score/yes-no) with probabilities from any
+- [jerryfane/oh-my-pi](https://github.com/jerryfane/oh-my-pi) `📚2` — Node.js ≥ 18; omp; live scoring needs TYPESAFE_API_KEY and/or OPENROUTER_API_KEY (TYPESAFE_API_KEY wins when both are set).
+- [Jev (AI model) on Wikipedia](https://en.wikipedia.org/wiki/jev_(ai_model) `📚2` — Most useful as an index: its reference list is a fast route to the coverage worth reading.
+- [Jev Logs' published dataset](https://huggingface.co/datasets/reachjalil/jevlogs-log-triage-benchmark) `📚2` — reachjalil/jevlogs-log-triage-benchmark - 5,000 sanitized Loghub HDFS/BGL log lines with live Jev routing decisions and token counts; card reports 0.993 HDFS…
+- [jevforge/jev-release-oracle](https://github.com/jevforge/jev-release-oracle) `📚2` — Gate release risk from commits, tests, vulns, and incidents. Jev returns proceed, warn, hold, or rev
+- [jkalend/jev-cicd](https://github.com/jkalend/jev-cicd) `📚2` — CI/CD system with a Jev AI decision layer — Go backend, Go CLI, Next.js frontend. Failure classifica
+- [JoelHarlander/mmmgc_modelrouter](https://github.com/joelharlander/mmmgc_modelrouter) `📚2` — mmmgc\_modelrouter - mmmgc\_modelrouter: TypeSafe Jev ecosystem repository. · TypeScript
+- [johanmatsgard/jev-svenska-triage](https://github.com/johanmatsgard/jev-svenska-triage) `📚2` — Testing TypeSafe's Jev on 100 Swedish social media comments.
+- [JordanKing22/RFQ_Routing](https://github.com/jordanking22/rfq_routing) `📚2` — RFQ\_Routing - RFQ\_Routing: TypeSafe Jev ecosystem repository. · Python
+- [jordilopez/pi-smart-router](https://github.com/jordilopez/pi-smart-router) `📚2` — A Pi coding-agent extension that routes each prompt to the best backend model — cheap, fast, balance
+- [julianoczkowski/jev-demo](https://github.com/julianoczkowski/jev-demo) `📚2` — Speak a UI into existence: local whisper.cpp transcription → Jev (TypeSafe AI) → json-render → shadc
+- [karishnu/flagship-jev](https://github.com/karishnu/flagship-jev) `📚2` — Semantic feature flag evaluation for Cloudflare Workers using Jev and Flagship
+- [keremmisik/jev-triage](https://github.com/keremmisik/jev-triage) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [kgarg2468/jev-map](https://github.com/kgarg2468/jev-map) `📚2` — Evidence-labelled Python repository maps and Jev test relationships for coding agents
+- [kijung4290/gmail-mail-triage](https://github.com/kijung4290/gmail-mail-triage) `📚2` — Agent tools and workflow control
+- [kkwelfare/jev-route-screening-public](https://github.com/kkwelfare/jev-route-screening-public) `📚2`
+- [kyrenzk/notify-jev-router](https://github.com/kyrenzk/notify-jev-router) `📚2` — TypeSafe AI (Jev) driven, type-safe notification routing engine for Go.
+- [lastlad/jev-model-router](https://github.com/lastlad/jev-model-router) `📚2`
+- [lifeporterlab/jev-verdict](https://github.com/lifeporterlab/jev-verdict) `📚2` — Auditable Jev-powered workflow gates with cache, ledger, policy, and stability measurement.
+- [liora-iyzebhel/jev-childspeak](https://github.com/liora-iyzebhel/jev-childspeak) `📚2` — A tiny terminal chat that gives TypeSafe Jev a closed vocabulary and asks him, one token at a time,
+- [live](https://willprout.github.io/magic-8-ball) `📚2`
+- [llmrix/llmrix-router](https://github.com/llmrix/llmrix-router) `📚2` — High-performance Java LLM router &amp; proxy with intelligent multi-model routing…
+- [lm-sys/RouteLLM](https://github.com/lm-sys/routellm) `📚2` — RouteLLM - Trains and serves routers that pick which LLM should handle a query, based on cost and expected quality, rather than answering the question itself.
+- [luhayes/jev-agent-router](https://github.com/luhayes/jev-agent-router) `📚2`
+- [makia9879/pi-jev-router](https://github.com/makia9879/pi-jev-router) `📚2` — Pi extension: TypeSafe Jev routes among checked models without becoming a chat model.
+- [manankumarthakkar/jev-escalation-gate](https://github.com/manankumarthakkar/jev-escalation-gate) `📚2` — How much traffic can a small calibrated decision model own? 600 measured decisions with Jev on a RAG
+- [masaki39/natural-language-interface](https://github.com/masaki39/natural-language-interface) `📚2` — Natural-language command line suggestions for any CLI, powered by TypeSafe Jev (no LLM, ~0.5s)
+- [masharratt/claude-flow-novice](https://github.com/masharratt/claude-flow-novice) `📚2` — Simplified Claude Flow for beginners - AI agent orchestration made easy
+- [mattheworiordan/jev-landscape](https://github.com/mattheworiordan/jev-landscape) `📚2` — Labels, tables and code for "A week of Jev, sorted": what X posts built with Jev in its first week. Post ids ...
+- [mehmet-akpolat/jev-llm-router](https://github.com/mehmet-akpolat/jev-llm-router) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [mjmiller41/jev-router-harness](https://github.com/mjmiller41/jev-router-harness) `📚2` — AI TUI harness using Vercel Eve and typesafe-ai/jev for dynamic model routing
+- [moelahmady/jev-model-router](https://github.com/moelahmady/jev-model-router) `📚2` — Routes each Claude Code turn's model and reasoning effort with TypeSafe Jev, and keeps small-window
+- [morinokami/hunk-triage](https://github.com/morinokami/hunk-triage) `📚2` — hunk-triage - Read the important changes first. · TypeScript
+- [muhandis525/jev-esp32s3-gateway](https://github.com/muhandis525/jev-esp32s3-gateway) `📚2` — inferred / routing-guardrails — ⭐0
+- [mukundhj2001-cyber/fieldops](https://github.com/mukundhj2001-cyber/fieldops) `📚2` — FieldOps Voice Agent — hybrid Jev routing + scripted FAQs + RAG (Cyberfield AI portfolio demo)
+- [mustapha-rashiduddin/jev-nixos-setup](https://github.com/mustapha-rashiduddin/jev-nixos-setup) `📚2` — Running Jev (TypeSafe System One) from a NixOS flake: packaging, CLI, sops key storage
+- [nahid-sparktales/agent-dispatcher](https://github.com/nahid-sparktales/agent-dispatcher) `📚2` — agent-dispatcher - Routes a Claude Code or Codex task to one of 27 specialist roles and defines what evidence will count as done.
+- [neesenk/model-proxy](https://github.com/neesenk/model-proxy) `📚2` — model-proxy - model-proxy: TypeSafe Jev ecosystem repository. · Go
+- [Nessia-a11y/jev-aigw-demo](https://github.com/nessia-a11y/jev-aigw-demo) `📚2` — A demo for jev integration on Prisma AIGW as smart routing
+- [Netlify AI Gateway](https://docs.netlify.com/build/ai-gateway/overview) `📚2` — Use the official TypeSafe JavaScript SDK from a Netlify Function or Edge Function; the gateway supplies its environment configuration when enabled.
+- [niralikhoda/typesafe-jev-demos](https://github.com/niralikhoda/typesafe-jev-demos) `📚2` — Live Python demos and model comparisons for TypeSafe Jev.
+- [nocoo/falcon](https://github.com/nocoo/falcon) `📚2` — 🦅 Native macOS Jev proxy and decision observability, in development
+- [NVIDIA-NeMo/Switchyard](https://github.com/nvidia-nemo/switchyard) `📚2`
+- [OpenRouter](https://openrouter.ai/typesafe/jev-router) `📚2` — Indicates Jev-style decisions can themselves become model-routing infrastructure. OpenRouter Jev Router
+- [OrcaRouter: "Jev / TypeSafe System One: what we know"](https://orcarouter.ai/blog/jev-typesafe-system-one-what-we-know) `📚2` — . OrcaRouter: "Jev / TypeSafe System One: what we know": The claim-vs-evidence audit (the 75× vs 193× discrepancy).
+- [ormus-solutions/aurum-gate](https://github.com/ormus-solutions/aurum-gate) `📚2` — Confidence-gated action router for TypeSafe Jev — per-action thresholds, human floors, probability +
+- [panchicore/jev-dj-router](https://github.com/panchicore/jev-dj-router) `📚2` — Learning TypeSafe AI's Jev evaluation model fast by building a /play request router for a DJ chatbot
+- [parkthomp/jevs-mailroom](https://github.com/parkthomp/jevs-mailroom) `📚2` — A repository for catch-jev
+- [pc-style/jev-effort](https://github.com/pc-style/jev-effort) `📚2` — Per-turn reasoning effort for coding agents, classified by TypeSafe's Jev via AI SDK (Vercel AI Gate
+- [peterwanghot/jev-cc-codex-router](https://github.com/peterwanghot/jev-cc-codex-router) `📚2` — jev-cc-codex-router — Per-turn model routing proxy for Codex: asks Jev which tier each task needs, rewrites the model, retries flaky upstream errors.
+- [PranavV205/jev-gateway-study](https://github.com/pranavv205/jev-gateway-study) `📚2` — Other related projects
+- [prasanth263/maza](https://github.com/prasanth263/maza) `📚2` — Local MCP gateway with Jev tool discovery, secure credentials, CLI and dashboard
+- [priyalwalpita/jev](https://github.com/priyalwalpita/jev) `📚2` — Jev Tested with routing
+- [proxy303-wq/Parallax](https://github.com/proxy303-wq/parallax) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Quintui/jev-use-cases](https://github.com/quintui/jev-use-cases) `📚2` — Demo app: Jev (TypeSafe System One) use cases with the AI SDK and shadcn/ui
+- [rakshita-devurkar/syncroute](https://github.com/rakshita-devurkar/syncroute) `📚2` — Routes synthetic data-sync connector failures to seven simulated recovery workflows using determinis
+- [ravikadam/jev-loan-triage](https://github.com/ravikadam/jev-loan-triage) `📚2` — Voice loan-call triage using TypeSafe Jev: intent, info sufficiency and a lending decision from type
+- [Razeefshaik/JevEval](https://github.com/razeefshaik/jeveval) `📚2` — Jev Model evaluation for multi agent routing
+- [renjithwarrier94/pi-model-router](https://github.com/renjithwarrier94/pi-model-router) `📚2` — A lightweight Pi extension which reads each user message and uses a System One model like Jev to assess its complexity and ...
+- [robdelaney007/jev-examples](https://github.com/robdelaney007/jev-examples) `📚2` — Worked Python examples for TypeSafe AI's Jev, plus a 500-run stability study with stored data and generated reports
+- [robinwintertaylor/prompt-router](https://github.com/robinwintertaylor/prompt-router) `📚2` — Sub-120ms smart LLM gateway & real-time optics dashboard using TypeSafe Jev System One. Defeats cach
+- [Rocketstradingco/memory-router](https://github.com/rocketstradingco/memory-router) `📚2` — memory-router - Routing + write-lease service for multi-agent memory systems \(Jev-backed, MCP\) · Python
+- [rorshopping/jev-router](https://github.com/rorshopping/jev-router) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [ryantsai/jev-llm-router](https://github.com/ryantsai/jev-llm-router) `📚2`
+- [rz3m/deslop](https://github.com/rz3m/deslop) `📚2` — Chrome extension that hides engagement bait, AI slop, recycled news and posts from countries you pic
+- [saembit/jeff](https://github.com/saembit/jeff) `📚2` — Jev-routed multi-model orchestration for Claude Code: cheap work to cheap models, hard work to stron
+- [Saidelocha/qualify-chat](https://github.com/saidelocha/qualify-chat) `📚2` — A lead-qualification chat that never generates text. Next.js template built on TypeSafe Jev typed judgments, with a regex fallback.
+- [serenatsay/material-grade](https://github.com/serenatsay/material-grade) `📚2` — Scans shop URLs and uses Jev (Typesafe AI) to classify items by fiber composition
+- [Shashank-H/pi-jev-model-router](https://github.com/shashank-h/pi-jev-model-router) `📚2` — pi-jev-model-router - Shashank-H/pi-jev-model-router - Model router for pi with Jev.
+- [siiick/pi-pignon](https://github.com/siiick/pi-pignon) `📚2` — Pi coding agent extension that shifts to the right LLM for each prompt, using a local (Laya) or remo
+- [site](https://jev-triage-playground.ziki.workers.dev) `📚2`
+- [site](https://mmornati.github.io/system-one-router) `📚2`
+- [sivamondi/jev-model-router](https://github.com/sivamondi/jev-model-router) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Soubhagyadev/MergeCalibr-Jev](https://github.com/soubhagyadev/mergecalibr-jev) `📚2` — AI powered pull request triage system using DeepSeek for code understanding and TypeSafe Jev for pro
+- [stbenjam/jev-drums](https://github.com/stbenjam/jev-drums) `📚2` — Browser drum machine that fills a 6x16 step pattern from 96 Jev choice questions per generation via OpenRouter, evolving on bar boundaries. no license ·…
+- [Stephonomon/inbasket-triage](https://github.com/stephonomon/inbasket-triage) `📚2` — Jev (TypeSafe AI) triages EHR in-basket messages: urgency, owner pool, flags and which prompt snippe
+- [sureshpatel66/bruin-ai-quest](https://github.com/sureshpatel66/bruin-ai-quest) `📚2` — Interactive Jev-powered navigator for UCLA AI tools, research compute, training, and student resources.
+- [Suryals/jev-router-lab](https://github.com/suryals/jev-router-lab) `📚2` — Shadow-mode eval of TypeSafe Jev as an AIOps triage router vs Qwen3.8-27B and Claude Sonnet 5
+- [swarna04/jev-routing](https://github.com/swarna04/jev-routing) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [SYED-M-HUSSAIN/jev-experimental](https://github.com/syed-m-hussain/jev-experimental) `📚2` — Accuracy 83% to 100% once criteria, not the question, spelled out the boundary; Brier 0.038. jev-1.13.0
+- [tamnd/kime-compat](https://github.com/tamnd/kime-compat) `📚2` — The compatibility harness for kime. The TypeSafe (Jev) API and SDKs, jev-ultrafast and Laya's own cl
+- [tcruz-commits/Jev-routing](https://github.com/tcruz-commits/jev-routing) `📚2` — Jev model router and decision maker
+- [tcruz1978-afk/jev-model-routing](https://github.com/tcruz1978-afk/jev-model-routing) `📚2` — Jev model and decision routing
+- [tegersdorfer-collab/jevkit](https://github.com/tegersdorfer-collab/jevkit) `📚2` — jevkit - Decision kernel for TypeSafe Jev (System One): typed questions, bands, state building, composition.
+- [teilomillet/kayak](https://github.com/teilomillet/kayak) `📚2` — Classify, route, and rank text in Python with self-hosted models. Typed decisions and evaluation.
+- [Theo-Gkisis/jevops](https://github.com/theo-gkisis/jevops) `📚2` — AI-powered log triage for DevOps JEV flags the noise, Claude explains the root cause.
+- [toorop/pi-jev-router](https://github.com/toorop/pi-jev-router) `📚2`
+- [totally-tim/effort-router](https://github.com/totally-tim/effort-router) `📚2` — effort-router - Picks the reasoning effort for each turn of Claude Code with a System One classifier · TypeScript
+- [TranBaVinhSon/jev-router](https://github.com/tranbavinhson/jev-router) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [TS0047/jev-triage-demo](https://github.com/ts0047/jev-triage-demo) `📚2`
+- [Tserpilouski/jev-router-ai](https://github.com/tserpilouski/jev-router-ai) `📚2` — jevlang OR jev.ai in:name,description created:
+- [urban-tech-creative/openrouter-spike-01--jev](https://github.com/urban-tech-creative/openrouter-spike-01--jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [van-vanich/agent-tool-router](https://github.com/van-vanich/agent-tool-router) `📚2` — agent-tool-router - agent-tool-router: TypeSafe Jev ecosystem repository. · TypeScript
+- [Vercel AI Gateway](https://vercel.com/ai-gateway) `📚2` — No waitlist needed: Jev is available through Vercel AI Gateway as typesafe-ai/jev.
+- [vij-sameerb5/JevX](https://github.com/vij-sameerb5/jevx) `📚2` — When and Where Actually to use Jev in your code base.
+- [Vipea/jev-inbox-triage](https://github.com/vipea/jev-inbox-triage) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [void2610/gmail-triage](https://github.com/void2610/gmail-triage) `📚2`
+- [voidning/jev-combinators](https://github.com/voidning/jev-combinators) `📚2` — Logic gates for AI judgment.
+- [zDud4s/jev-model-router](https://github.com/zdud4s/jev-model-router) `📚2` — An OpenAI-compatible routing proxy that logs what it would have cost, and measures whether routing pays.
+- [ZephyrDeng/jev-triage](https://github.com/zephyrdeng/jev-triage) `📚2` — Triage a GitHub or GitLab backlog with TypeSafe Jev: duplicates, related topics, issue types and dependency order in one HTML report (gh ...
+- [Zuhaib2004/jev-data-quality-triage](https://github.com/zuhaib2004/jev-data-quality-triage) `📚2` — inferred / community-sdk — ⭐0
+- [掘金：发布 3 天登顶 HN，我把 Jev 的源码和黑料都扒了一遍](https://juejin.cn/post/7686669083098775562) `📚2`
+- [01Joseph-Hwang10/pi-jev-model-router-profile-switcher](https://github.com/01joseph-hwang10/pi-jev-model-router-profile-switcher) `📚1` — Switch and manage dynamic routing profiles for pi-jev-model-router in the Pi…
+- [0xSarnavo/jev-router](https://github.com/0xsarnavo/jev-router) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [1deat0r/Porter](https://github.com/1deat0r/porter) `📚1` — Local API holder + Jev-gated router for AI agents, with a native GPUI settings UI
+- [1hachem/lisptc](https://github.com/1hachem/lisptc) `📚1` — lisptc AGENTS.md checker · 1hachem · GitHub · ⭐ 38 repo · 2026-07-23CI script in the lisptc agent-oriented Lisp monorepo that uses Jev via OpenRouter to flag…
+- [3F3Feng/audit-triage-agents](https://github.com/3f3feng/audit-triage-agents) `📚1` — Multi-agent audit-triage prototype: LangChain tools + CrewAI orchestration behind a FastAPI service, driven by a TypeScript CLI. Synthetic data only.
+- [6over3/tempo](https://github.com/6over3/tempo) `📚1` — 🥁 Don't miss a beat. Real-time, end-to-end typesafe APIs.
+- [@truehorizonai: Jev vs GPT-5.6 Luna internal routing test (Instagram carousel, 2026-09-24)](https://instagram.com/p/ddsnvzzgdpv) `📚1` — TrueHorizon.ai's internal engineering test (run 2026-09-21/22) comparing TypeSafe Jev against GPT-5.6 Luna for agent routing: Jev 6.5× faster (404ms vs 2,633ms…
+- [AABBAASS1/jev-router,2,Python,,2026-09-21](https://github.com/aabbaass1/jev-router,2,python,,2026-09-21) `📚1`
+- [aadhar-build/claude-code-jev-router](https://github.com/aadhar-build/claude-code-jev-router) `📚1` — inferred / agent-tooling — ⭐1
+- [aawhan0/JevRev](https://github.com/aawhan0/jevrev) `📚1` — Benchmarking Jev-based AI routing for cost-efficient inference.
+- [abchatterjee7/spring-ai-model-router](https://github.com/abchatterjee7/spring-ai-model-router) `📚1` — A small Spring Boot ai app that picks the right OpenAI model for each request, depending u
+- [acc0mplish/Effort-Router](https://github.com/acc0mplish/effort-router) `📚1` — ARXIV.ORG 2608.05446 2608.26263 2609.01481 Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [adarshmishra07/jcm-router,6,TypeScript](https://github.com/adarshmishra07/jcm-router,6,typescript) `📚1`
+- [adelvillar1/zcode-router](https://github.com/adelvillar1/zcode-router) `📚1` — Jev driven auto-router for Zcode, with MoA, swarm, and adversarial solution capability
+- [adibirzu/llm-router-axi](https://github.com/adibirzu/llm-router-axi) `📚1`
+- [AdityaMogare/Jev-CI-Triage](https://github.com/adityamogare/jev-ci-triage) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [adityavardhansharma/EchoFlow](https://github.com/adityavardhansharma/echoflow) `📚1` — EchoFlow Jev router · adityavardhansharma · GitHub · ⭐ 48 repo · 2026-05-29Per-turn Jev router in the EchoFlow privacy-first Android AI chat app that decides…
+- [adonix-org/cloud-spark](https://github.com/adonix-org/cloud-spark) `📚1` — zap:Ignite your Cloudflare Workers with a type-safe library for rapid development
+- [advance-lion/dsh-jev-hook](https://github.com/advance-lion/dsh-jev-hook) `📚1` — Scenario-driven Jev System One hooks for DeepSeek Harness — replacement-first, not addition-first
+- [Agent 操作审批](https://openrouter.ai/labs/jev/overseer) `📚1` — Agent action approval · OpenRouter · AppOpenRouter Labs recipe that runs four checks (off task, could destroy, untrusted input, ask first) on each of 24 coding…
+- [agent-experience/AIModelRouter](https://github.com/agent-experience/aimodelrouter) `📚1` — jevlang OR jev.ai in:name,description created:
+- [AI Templates component page](https://aitmpl.com/component/mod/productivity/jev-model-router) `📚1` — installation entry point and a transcript-style preview. This is not independent evidence of model quality or savings.
+- [AiPersonacademy/jev-gateway](https://github.com/aipersonacademy/jev-gateway) `📚1` — Official JEV Gateway & Reverse Proxy for Cursor, Claude Code, and autonomous AI agents. Sub-25ms det
+- [ajaleelp/prompt-demux](https://github.com/ajaleelp/prompt-demux) `📚1` — OpenCode plugin: demultiplex each prompt to the right model and effort tier via a system one classif
+- [akrdixit/jev_support_router](https://github.com/akrdixit/jev_support_router) `📚1` — No description provided.
+- [Alanmc021/laboratorio-jev](https://github.com/alanmc021/laboratorio-jev) `📚1` — POC de estudo do Jev (TypeSafe AI): triagem de atendimento com decisões tipadas e confiança calibrada
+- [alexanderatallah/jevslist](https://github.com/alexanderatallah/jevslist) `📚1` — Jev's favorite things
+- [alexei-led/claude-router,0,JavaScript,,2026-09-22](https://github.com/alexei-led/claude-router,0,javascript,,2026-09-22) `📚1`
+- [alexyapsl/jevjoke](https://github.com/alexyapsl/jevjoke) `📚1` — Joke rating/categorizing web tool wired to Jev through OpenRouter: paste a joke, get back Score 1–10, Adult/General category, foul-language flag, and style…
+- [Amirhosein-gh98/Multi-Head-Latent-Control](https://github.com/amirhosein-gh98/multi-head-latent-control) `📚1` — Dynamic latent-state control heads for LLMs: route each query by actual model capability, not task t
+- [AmRitJain0442/Tern](https://github.com/amritjain0442/tern) `📚1` — Small router. Clear decisions. Local Laya inference, conservative LLM routing, and a configurable Ch
+- [anupsahoo/multi-agent-ticket-triage](https://github.com/anupsahoo/multi-agent-ticket-triage) `📚1`
+- [apscot/jev-auto-router-skill](https://github.com/apscot/jev-auto-router-skill) `📚1` — Automatic model + effort routing for coding agents, decided by TypeSafe's Jev
+- [arseniypom/jev-ai-model-picker](https://github.com/arseniypom/jev-ai-model-picker) `📚1` — Paste a prompt, get the cheapest AI model that will handle it well. Powered by Jev on OpenRouter.
+- [arthurcolle/jev-reasoning-lab](https://github.com/arthurcolle/jev-reasoning-lab) `📚1` — Portable Jev notebooks, routing experiments, and a bounded adversarial peer
+- [Artid1994/Fast-Decision-Router-JEV-Concept-](https://github.com/artid1994/fast-decision-router-jev-concept-) `📚1`
+- [aruniyer/jevcoder,0,TypeScript,Jev-routed](https://github.com/aruniyer/jevcoder,0,typescript,jev-routed) `📚1`
+- [as3k/model-router](https://github.com/as3k/model-router) `📚1` — A 'System 1' decision layer for LLM fleets: a local 421M decision model + Jev tiebreaker route every agent request to the ...
+- [AshutoshRudraksh/gmail-triage-v1](https://github.com/ashutoshrudraksh/gmail-triage-v1) `📚1` — Nightly Gmail triage pipeline: dry run consumes Gmail history, Jev classifies, a deterministic policy applies, and a local morning digest is rendered; a…
+- [astahmer/partyrpc](https://github.com/astahmer/partyrpc) `📚1` — Partykit + RPC. Move Fast (and Break Everything). Everything is better with typesafety.
+- [astaxie/TokenHub](https://github.com/astaxie/tokenhub) `📚1` — TokenHub gives enterprises a private gateway to unify AI model access and governance, making every request co…
+- [aurelio-labs/semantic-router](https://github.com/aurelio-labs/semantic-router) `📚1` — semantic-router - Embedding-space route layer for LLMs and agents. Chooses a path from utterance similarity without a generative call.
+- [b3nten/clazzx](https://github.com/b3nten/clazzx) `📚1` — ClazzX is a small typesafe utility library for composing HTML classes.
+- [BABAR-TAHSEEN55/Reddix](https://github.com/babar-tahseen55/reddix) `📚1` — An extension for reddit that lets you engage in communities without scrolling or actually opening su
+- [bavovna/jev-like-srv](https://github.com/bavovna/jev-like-srv) `📚1` — jev HTTP router framework compatible with typesafe API
+- [beapps-tech/triaz-pozadavku](https://github.com/beapps-tech/triaz-pozadavku) `📚1` — Czech demo that triages customer change requests with 22 typed judgments and code rules deciding agent, clarify, split or developer, showing each weight. no…
+- [Bennykillua/Jev_spidra_price_monitoring](https://github.com/bennykillua/jev_spidra_price_monitoring) `📚1` — A small Python monitor that watches a pricing page and decides whether a change is worth your attent
+- [bestagentkits/orchestrate](https://github.com/bestagentkits/orchestrate) `📚1` — Multi-runtime agent orchestration for Claude Code — capability- and risk-based routing, worktree isolation, resumable state, and independent arbiter review.…
+- [bidah/uni-stack](https://github.com/bidah/uni-stack) `📚1` — ⚛️💻📱Typesafe setup to build fullstack expo universal native apps
+- [BillionsBobby/JevRouter,246,TypeScript,MIT,2026-09-26,2026-09-26](https://github.com/billionsbobby/jevrouter,246,typescript,mit,2026-09-26,2026-09-26) `📚1`
+- [blablanumerodeux/model-router](https://github.com/blablanumerodeux/model-router) `📚1` — TypeSafe jev-powered LLM model router: classify → policy → tiered pools → OpenAI-compatible passthro
+- [Blankeos/vike-routegen](https://github.com/blankeos/vike-routegen) `📚1` — 🥏 Typesafe routes in Vike inspired by TanStack Router. Just a vite extension.
+- [BlockedPath/jev-model-router](https://github.com/blockedpath/jev-model-router) `📚1` — Codex plugin that uses TypeSafe Jev to choose subagent models, with scoped pstack integration.
+- [bloodf/durindoor](https://github.com/bloodf/durindoor) `📚1` — DurinDoor Jev routing classifier · bloodf · GitHub · ⭐ 8 repo · 2026-07-03Self-hosted AI gateway over 236 providers that can ask Jev to classify each request…
+- [boldbug1/jev-triage,3,Go,,2026-09-20](https://github.com/boldbug1/jev-triage,3,go,,2026-09-20) `📚1`
+- [boriscardano/herdr-jev-router,0,Python,Mandatory](https://github.com/boriscardano/herdr-jev-router,0,python,mandatory) `📚1`
+- [BrayanperezBalladares/jev-agent-routing-lab,0,TypeScript,,2026-09-26](https://github.com/brayanperezballadares/jev-agent-routing-lab,0,typescript,,2026-09-26) `📚1`
+- [Budgets](https://vercel.com/docs/ai-gateway/observability-and-spend/budgets) `📚1`
+- [bulldra/google-alert-rss-proxy](https://github.com/bulldra/google-alert-rss-proxy) `📚1`
+- [bvsden/emotion-system](https://github.com/bvsden/emotion-system) `📚1` — emotion-system - Reads an AI companion's emotion out of what it wrote itself rather than assigning one, through OpenRouter. Chinese.
+- [canopas/UIPilot](https://github.com/canopas/uipilot) `📚1` — The missing typesafe SwiftUI navigation library
+- [carllippert/jev-router,0,TypeScript,Express](https://github.com/carllippert/jev-router,0,typescript,express) `📚1`
+- [cdubiel08/jev-test-triage,0,Python,,2026-09-26](https://github.com/cdubiel08/jev-test-triage,0,python,,2026-09-26) `📚1`
+- [Ch1mpleo/Cross-Harness-Jev-Router](https://github.com/ch1mpleo/cross-harness-jev-router) `📚1`
+- [chan4lk/jev-architect](https://github.com/chan4lk/jev-architect) `📚1` — BISTEC Architect — Tauri desktop app: local MiniCPM builds the brief, Jev (TypeSafe via OpenRouter) makes BISTEC-aligned technology decisions, humans approve…
+- [Charlie-Qi394/jevrouter-prompt-tier-extension](https://github.com/charlie-qi394/jevrouter-prompt-tier-extension) `📚1` — Reviewable Chrome MV3 prompt-tier recommendations using optional TypeSafe Jev, confidence gating, an
+- [chriscoveries/jevalaya](https://github.com/chriscoveries/jevalaya) `📚1` — Fast, private, local decision router for Mac — one drop-in /predict endpoint routing to Ap
+- [cis2042/product-design-harness](https://github.com/cis2042/product-design-harness) `📚1` — UX3 Product Design Harness Jev gate · cis2042 · GitHub · ⭐ 17 repo · 2026-07-11Decision gate in an agent-operated product design harness that routes tasks and…
+- [ckijficqstrvy/pi-jev-router](https://github.com/ckijficqstrvy/pi-jev-router) `📚1` — Jev-powered, budget-aware model routing for pi — hardened local fork of…
+- [Cloudflare Workers AI](https://developers.cloudflare.com) `📚1`
+- [codaaiteam/jev-chat-ai](https://github.com/codaaiteam/jev-chat-ai) `📚1` — Jev Chat — one AI chat where Jev decides what happens next: answer directly, route to the best model
+- [colinlienard/sv-router](https://github.com/colinlienard/sv-router) `📚1` — 🚦 Type-safe routing for Svelte SPAs
+- [composio-community/jev-router](https://github.com/composio-community/jev-router) `📚1`
+- [Consiliency/jevdrill](https://github.com/consiliency/jevdrill) `📚1` — JEV Drill: evidence-based model and guidance routing, local analysis, and controlled comparison experiments.
+- [crazyooo/jev-router-desktop-adapter,0,JavaScript,,2026-09-23,Unofficial](https://github.com/crazyooo/jev-router-desktop-adapter,0,javascript,,2026-09-23,unofficial) `📚1`
+- [crownpku/FunctionGemma-Jev](https://github.com/crownpku/functiongemma-jev) `📚1`
+- [CSlawyer1985/dsh-jev-router,0,JavaScript,,2026-09-25,DSH](https://github.com/cslawyer1985/dsh-jev-router,0,javascript,,2026-09-25,dsh) `📚1`
+- [cwooldridge1/react-safe-query](https://github.com/cwooldridge1/react-safe-query) `📚1` — Light weight typesafe api middleware for react-query
+- [cyberspace-cs/jev-agent-routing,0,HTML,,2026-09-21](https://github.com/cyberspace-cs/jev-agent-routing,0,html,,2026-09-21) `📚1`
+- [cydevo202020/dsh-jev](https://github.com/cydevo202020/dsh-jev) `📚1` — TypeSafe Jev (System One) judgment for DeepSeek Harness: model-visible tool, ctx service, and per-se
+- [damian87x/jev-claude-orchestrator,0,Python,,2026-09-22](https://github.com/damian87x/jev-claude-orchestrator,0,python,,2026-09-22) `📚1`
+- [damian87x/jev-pi-model-router,0,JavaScript,,2026-09-24](https://github.com/damian87x/jev-pi-model-router,0,javascript,,2026-09-24) `📚1`
+- [damian87x/jev-pi-orchestrator](https://github.com/damian87x/jev-pi-orchestrator) `📚1` — Jev-supervised madmax conductor for pi: tiny slices, parallel pi-subagents workers in worktrees, Typ
+- [danieljohnmorris/omp-jev-router,0,TypeScript,,2026-09-24](https://github.com/danieljohnmorris/omp-jev-router,0,typescript,,2026-09-24) `📚1`
+- [danium/jev-orchestrator](https://github.com/danium/jev-orchestrator) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [davesheffer/coding-orchestrator](https://github.com/davesheffer/coding-orchestrator) `📚1` — coding-orchestrator - Orchestrator and subagent setups for Claude Code and Codex: routing, verification, and safe global installation. · Python
+- [DDouraid/jev-smart-triage](https://github.com/ddouraid/jev-smart-triage) `📚1` — Other related projects
+- [dev-hari-prasad/switchboard](https://github.com/dev-hari-prasad/switchboard) `📚1` — Cost-aware LLM router on Cloudflare Workers & D1 with TypeSafe Jev classification
+- [dev-willbird1936/pi-auto-model-router](https://github.com/dev-willbird1936/pi-auto-model-router) `📚1` — Score-based auto router for Pi Coding Agent (experimental Jev default)
+- [devfros/omause](https://github.com/devfros/omause) `📚1` — Silent Omarchy voice control powered by TypeSafe Jev: voice command in, visible Omarchy action out.
+- [devinat1/system-one-router](https://github.com/devinat1/system-one-router) `📚1` — pi-coding-agent extension on npm, based on pi-model-router, that uses Jev as the classifier picking a high, medium or low model tier each turn. MIT · TypeScript
+- [diego-ruas/omp-jev-router](https://github.com/diego-ruas/omp-jev-router) `📚1` — Jev Decision Layer for Oh My Pi: per-prompt model + thinking routing via cached Jev triage and config-driven policy
+- [diego-ruas/omp-jev-router,0,TypeScript,,2026-09-23,Jev](https://github.com/diego-ruas/omp-jev-router,0,typescript,,2026-09-23,jev) `📚1`
+- [digitaljavelina/jev-router](https://github.com/digitaljavelina/jev-router) `📚1` — Route each Claude Code message to the right size of model. A fast classifier sizes your me
+- [dimivelev/pi-jev-router](https://github.com/dimivelev/pi-jev-router) `📚1` — Pi extension for Jev-based task difficulty routing across chat models
+- [dirien/jev-router,0,JavaScript,,2026-09-24](https://github.com/dirien/jev-router,0,javascript,,2026-09-24) `📚1`
+- [diwakersurya/jev-to-laya-proxy](https://github.com/diwakersurya/jev-to-laya-proxy) `📚1` — Single-file Bun proxy: TypeSafe Jev API → local Laya (or any Jev-like backend)
+- [djalmaaraujo/jev-router](https://github.com/djalmaaraujo/jev-router) `📚1` — Route to the cheapest model in claude code for your task using jev-router
+- [DJLougen/hive](https://github.com/djlougen/hive) `📚1` — Hive Jev routing backend · DJLougen · GitHub · ⭐ 39 repo · 2026-06-01Jev backend for Hive, a CPU-side action router for AI agents: Jev picks the next tool and…
+- [dmmdea/meta-router](https://github.com/dmmdea/meta-router) `📚1` — A capability router for Claude Code — surfaces the most relevant installed skills per prompt via a local hybrid-retrieval hook. Fully local, fail-open.…
+- [dnoegel/jev-categories](https://github.com/dnoegel/jev-categories) `📚1` — Jev for Product Categorization
+- [Dphoshoba/ticket-triage](https://github.com/dphoshoba/ticket-triage) `📚1` — AI-powered support ticket triage system using Jev. Automatically classifies support ticket
+- [dsojevic/profanity-list](https://github.com/dsojevic/profanity-list) `📚1` — A highly consumable list of profanities / bad words with severity ratings, exceptions, and tags.
+- [eddiedunn/jev-feed-filter](https://github.com/eddiedunn/jev-feed-filter) `📚1` — Filter news and YouTube feeds: drop paywalls, strong slant, Shorts and livestreams, using the Jev mo
+- [edylan/jev-prompt-router](https://github.com/edylan/jev-prompt-router) `📚1` — Silent, capability-aware LLM routing for enterprise fleets — route each prompt to the cheapest model
+- [Effect](https://effect.website) `📚1` — Uncertainty-aware semantic control flow for Effect: type-safe patterns, policies, and routable procedures over Effect Decision / DecisionModel, including…
+- [egoist/tipc](https://github.com/egoist/tipc) `📚1` — End-to-end typesafe IPC for Electron
+- [emanuelediluzio/laya-orchestrator](https://github.com/emanuelediluzio/laya-orchestrator) `📚1` — Hybrid System 1 (Laya 33ms fast reflex) + System 2 Autonomous Plan-to-Code Orchestrator
+- [endomorphosis/ipfs_accelerate_py](https://github.com/endomorphosis/ipfs_accelerate_py) `📚1` — IPFS Accelerate TypeSafe advisor · endomorphosis · GitHub · ⭐ 11 repo · 2024-05-18Model server and agent supervisor with advisory TypeSafe integrations that…
+- [epicweb-dev/cachified](https://github.com/epicweb-dev/cachified) `📚1` — 🤑 wrap virtually everything that can store by key to act as cache with ttl/max-age, stale-while-vali
+- [eriklee1895/jev-town](https://github.com/eriklee1895/jev-town) `📚1`
+- [esinocchi/jev-tool-router](https://github.com/esinocchi/jev-tool-router) `📚1`
+- [Esposter/Esposter](https://github.com/esposter/esposter) `📚1` — Esposter Jev repo automation · Esposter · GitHub · ⭐ 23 repo · 2022-06-28Repository scripts in the Esposter Nuxt monorepo that use Jev to label issue triage…
+- [etf-sarajevo/zamger](https://github.com/etf-sarajevo/zamger) `📚1`
+- [ethanniser/next-typesafe-url](https://github.com/ethanniser/next-typesafe-url) `📚1` — Fully typesafe, JSON serializable, and zod validated URL search params, dynamic route params, and ro
+- [EtienneLescot/jev-router,0,HTML](https://github.com/etiennelescot/jev-router,0,html) `📚1`
+- [Expanso：日志分流实践](https://expanso.io/blog/log-triage-expanso-jev) `📚1` — Separates rules, context counting, model judgment, retries, and fallback
+- [explainx.ai: "SemIf Free on LangSmith Gateway" (2026-09-22)](https://explainx.ai/blog/semif-langsmith-gateway-free-week-decision-ai-2026) `📚1` — LangChain added a Decision models category to the LangSmith LLM Gateway: hosted SemIf (semif-qwen3.5-4b) free through 2026-09-28 for US Free/Developer/Plus…
+- [eziee-ai/jev-router-demo](https://github.com/eziee-ai/jev-router-demo) `📚1` — Can a half-second decision model read a DeFi request before the LLM speaks? The experiment, data, ra
+- [fabio-nettis/tiny-bus](https://github.com/fabio-nettis/tiny-bus) `📚1` — TinyBus is a highly customizable event bus shipping with different dispatching strategies,
+- [FarmerTian/Jev-MACE](https://github.com/farmertian/jev-mace) `📚1` — Jev-MACE: A lightweight framework for multi-agent software development, aligning requirements, tasks
+- [feelixe/astro-typesafe-routes](https://github.com/feelixe/astro-typesafe-routes) `📚1` — 🔒 An Astro integration for typesafe URL generation and routing, ensuring you never have broken links
+- [Ffinnis/jev-grammar](https://github.com/ffinnis/jev-grammar) `📚1` — Open-source grammar checker for Chrome. Jev screens sentences; your chosen OpenRouter model suggests
+- [flaviusapop/jev-router,3,JavaScript](https://github.com/flaviusapop/jev-router,3,javascript) `📚1`
+- [Flazer31/archive-center](https://github.com/flazer31/archive-center) `📚1` — Archive Center Jev selector · Flazer31 · GitHub · ⭐ 15 repo · 2026-06-30Optional Jev selector and reviewer in Archive Center, a local-first memory backend for…
+- [fontclos/pi-jev](https://github.com/fontclos/pi-jev) `📚1` — Based on the Jev Engineering for Coding Agents post
+- [Foundermag: "TypeSafe AI's Jev Becomes the Fastest-Adopted Model in Vercel AI Gateway Hist](https://foundermag.co/launches/jev) `📚1` — Per Vercel's September AI Gateway Production Index, Jev reached 13% of paid Gateway teams within 24h of launch — 2× the GPT-5.6 family, 6× Fable 5.1.…
+- [Fox-Islam/jev-svg-recognition-demo](https://github.com/fox-islam/jev-svg-recognition-demo) `📚1` — Demo site for the Jev SVG classification project
+- [FreeJolan/jev-gateway](https://github.com/freejolan/jev-gateway) `📚1` — TypeSafe Jev API gateway with official SDK compatibility and a simple ask endpoint, built for Vercel
+- [gargpratyush/jev-router,431,JavaScript,MIT,2026-09-19,2026-09-26](https://github.com/gargpratyush/jev-router,431,javascript,mit,2026-09-19,2026-09-26) `📚1`
+- [Gateway 文档](https://docs.langchain.com/langsmith/llm-gateway-decision-models) `📚1` — Jev-as-a-judge still needs validation and escalation; do not generalize the five-trace experiment. See LangSmith docs
+- [gbaeke/model-router](https://github.com/gbaeke/model-router) `📚1` — Local LLM router: Laya classifies prompt complexity on-device and routes simple prompts to a cheap m
+- [gbesse/airbyte-jev](https://github.com/gbesse/airbyte-jev) `📚1` — Community TypeSafe Jev semantic decision integration for airbyte
+- [gbesse/argo-jev](https://github.com/gbesse/argo-jev) `📚1` — Community TypeSafe Jev semantic decision integration for argo
+- [gbesse/dagster-jev](https://github.com/gbesse/dagster-jev) `📚1` — Dagster asset checks with TypeSafe Jev semantic decisions
+- [gbesse/formbricks-jev](https://github.com/gbesse/formbricks-jev) `📚1` — Community TypeSafe Jev semantic decision integration for formbricks
+- [gbesse/kestra-jev](https://github.com/gbesse/kestra-jev) `📚1` — Community TypeSafe Jev semantic decision integration for kestra
+- [gbesse/pulsar-jev](https://github.com/gbesse/pulsar-jev) `📚1` — Community TypeSafe Jev semantic decision integration for pulsar
+- [gbesse/seatunnel-jev](https://github.com/gbesse/seatunnel-jev) `📚1` — Community TypeSafe Jev semantic decision integration for seatunnel
+- [gbesse/spark-jev](https://github.com/gbesse/spark-jev) `📚1` — PySpark SQL UDF for TypeSafe Jev semantic decisions
+- [gbesse/zammad-jev-triage](https://github.com/gbesse/zammad-jev-triage) `📚1` — Signed Zammad ticket triage with Jev
+- [gdrpaul3-byte/jev-agent-router,0,JavaScript,,2026-09-24](https://github.com/gdrpaul3-byte/jev-agent-router,0,javascript,,2026-09-24) `📚1`
+- [geckguy/job-posting-triage](https://github.com/geckguy/job-posting-triage) `📚1` — Four engines answer the same four questions about the same job postings, on one labelled test split, with the…
+- [Gerry Burde](https://gerryburde.com) `📚1` — This repository is maintained by Gerry Burde (@Gerry9000) alongside the engineering research published on gerryburde.com.
+- [ghost-lattice/jev-triage-cn](https://github.com/ghost-lattice/jev-triage-cn) `📚1` — Unofficial experiment: classify Chinese short texts with TypeSafe Jev and calibrate a confidence thr
+- [giovannirco/jev-playground](https://github.com/giovannirco/jev-playground) `📚1` — Twenty local sites that show TypeSafe Jev making decisions.
+- [gkrtjd99/Jev_Orchestration](https://github.com/gkrtjd99/jev_orchestration) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [glukicov/laya_router](https://github.com/glukicov/laya_router) `📚1` — Model routing is a System 1 job: a 421M local decision engine (Laya) against a GPT-5 nano reasoning
+- [gmaxxxie/jev-router,1,TypeScript](https://github.com/gmaxxxie/jev-router,1,typescript) `📚1`
+- [godxue1/Jev_in_the_wild](https://github.com/godxue1/jev_in_the_wild) `📚1`
+- [gordonwei/victoria-gateway](https://github.com/gordonwei/victoria-gateway) `📚1`
+- [grid-momenta/react_typesafe_router](https://github.com/grid-momenta/react_typesafe_router) `📚1` — topic:typesafe created:2022-01-01..2022-12-31
+- [griteshs6-boop/jev-model-router](https://github.com/griteshs6-boop/jev-model-router) `📚1` — Claude Code skill that uses Jev (TypeSafe System One) to route tasks to the best Claude model — Opus
+- [gsporto/expo-api-routes-trpc](https://github.com/gsporto/expo-api-routes-trpc) `📚1` — Example for typesafe Expo API Routes using tRPC
+- [GZWZC/jevBlackjack](https://github.com/gzwzc/jevblackjack) `📚1` — jev model + blackjack 21
+- [habitssss/pi-jev-session-router](https://github.com/habitssss/pi-jev-session-router) `📚1` — Session-pinned model and thinking selection for Pi using TypeSafe Jev.
+- [hammadmunir959/resumes-ranker](https://github.com/hammadmunir959/resumes-ranker) `📚1` — Rank resumes against weighted job criteria with TypeSafe Jev via OpenRouter
+- [HapyRain/dsh-router-laya](https://github.com/hapyrain/dsh-router-laya) `📚1` — Auto tier routing for DSH: a locally fine-tuned model picks low/high/max thinking effort per message
+- [hardik2004gupta/JevRoute](https://github.com/hardik2004gupta/jevroute) `📚1` — Measuring the Economics of System-One Intelligence
+- [HarnessRouter/starter-kit](https://github.com/harnessrouter/starter-kit) `📚1` — HarnessRouter Super Mario kit · HarnessRouter · GitHub · ⭐ 54 repo · 2026-08-03Starter kit where a System One model plays Full Screen Mario in a headless…
+- [harrismcc/shelter-surrender-triage](https://github.com/harrismcc/shelter-surrender-triage) `📚1`
+- [hellomrleeus/google-maps-place-scout](https://github.com/hellomrleeus/google-maps-place-scout) `📚1` — Universal Google Maps place scout and corridor route planner for AI agents. Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [heph2/pi-typesafe-router](https://github.com/heph2/pi-typesafe-router) `📚1` — Pi extension that classifies each prompt with Jev into fast, balanced or deep routes, shadow-logging by default, with a Home Manager module. MIT · TypeScript
+- [HermeticOrmus/jev-confidence-routing](https://github.com/hermeticormus/jev-confidence-routing) `📚1` — jev-confidence-routing - HermeticOrmus/jev-confidence-routing - Jev confidence routing.
+- [heyman333/jev-router](https://github.com/heyman333/jev-router) `📚1` — jev-router · heyman333 · GitHub · ⭐ 1 · 2026-09-20Zero-dependency CLI and Claude Code/Codex skill that hands narrow agent judgments, like which of 184 files…
+- [heymrun/heym](https://github.com/heymrun/heym) `📚1` — Build agentic systems. Run them with confidence. Orchestrate agents, automate business processes, inspect eve…
+- [Himanshub15/jev-playground](https://github.com/himanshub15/jev-playground) `📚1` — A text box that becomes what you mean — every keystroke classified by TypeSafe's Jev model. Next.js
+- [HiQS-Labs/XYZ-forge](https://github.com/hiqs-labs/xyz-forge) `📚1` — XYZ Forge jev_triage · HiQS-Labs · GitHub · ⭐ 5 repo · 2026-08-15Triage classifier in XYZ Forge, an operations system for running coding agents as a workforce,…
+- [hj01857655/jev-router,1,JavaScript,,2026-09-21](https://github.com/hj01857655/jev-router,1,javascript,,2026-09-21) `📚1`
+- [hoangvuhuong/jev-model-router](https://github.com/hoangvuhuong/jev-model-router) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [hokauz/inference-triage](https://github.com/hokauz/inference-triage) `📚1`
+- [hono-jev-router.yusuke.run](https://hono-jev-router.yusuke.run) `📚1`
+- [How to Deploy Jev with Vercel AI Gateway: Sub-25ms Decision Routing on Vercel Edge](https://jevproxy.com/blog/how-to-deploy-jev-on-vercel-edge-ai-gateway-guide) `📚1` — Production guide for deploying non-autoregressive edge decision layers within Vercel Edge Functions without hitting CPU time limits.
+- [hraness/sysone](https://github.com/hraness/sysone) `📚1` — Local System One gateway for coding agents — one Jev-compatible endpoint on your machine, routed across hosted Jev and local Jev-like models. Automatically…
+- [hrnareshabd/jev-data-incident-triage](https://github.com/hrnareshabd/jev-data-incident-triage) `📚1` — Typed AI judgments for routing data-pipeline incidents with TypeSafe Jev and transparent Python rule
+- [hugo-alves/jev-router-playground,2,JavaScript,Interactive](https://github.com/hugo-alves/jev-router-playground,2,javascript,interactive) `📚1`
+- [hungdangit95/IT-Book](https://github.com/hungdangit95/it-book) `📚1`
+- [hyspacex/jev-router,0,Python](https://github.com/hyspacex/jev-router,0,python) `📚1`
+- [iamkarp/SlopDetector](https://github.com/iamkarp/slopdetector) `📚1` — Extensible AI-slop probability scorer: a rule-graph plus an OpenRouter judge model (Jev), paragraph
+- [ianlintner/jev-router,0,Python](https://github.com/ianlintner/jev-router,0,python) `📚1`
+- [ic.work：TypeSafe 发布 Jev 模型](https://ic.work/article/typesafe-releases-jev-system-one-model) `📚1`
+- [iCarlosVega/Jev-Cascade](https://github.com/icarlosvega/jev-cascade) `📚1` — inferred / other — ⭐0
+- [icflorescu/trpc-sveltekit](https://github.com/icflorescu/trpc-sveltekit) `📚1` — End-to-end typesafe APIs with tRPC.io for your SvelteKit applications.
+- [iJ03l/jear,3,Rust,Jev-routed](https://github.com/ij03l/jear,3,rust,jev-routed) `📚1`
+- [ima-jin/imajin-ai](https://github.com/ima-jin/imajin-ai) `📚1` — Imajin TypeSafe connector · ima-jin · GitHub · ⭐ 8 repo · 2026-02-11Service connector in the reference implementation of the MJN trust protocol that lets…
+- [inematds/jev-gw](https://github.com/inematds/jev-gw) `📚1` — Gateway de decisao para o Jev: teto de gasto, cache, falha conservadora e registro de custo. Biblioteca, servico HTTP e CLI em ...
+- [insciqq/AIQSA](https://github.com/insciqq/aiqsa) `📚1` — AIQSA Jev decision features · insciqq · GitHub · ⭐ 6 repo · 2026-07-22Jev integration in AIQSA, a self-hosted multi-provider AI workspace, that uses decision…
+- [IsaiasMella/jev-proxy](https://github.com/isaiasmella/jev-proxy) `📚1` — Per-turn model routing for Claude Code without breaking the prompt cache.
+- [iseif/jev-model-router](https://github.com/iseif/jev-model-router) `📚1` — Use Jev for structured judgments and Spring AI for model-routed answers.
+- [ishanahuja02-achilles/Ai-model-router-benchmark-Jev-vs-OpenAI-](https://github.com/ishanahuja02-achilles/ai-model-router-benchmark-jev-vs-openai-) `📚1` — Compare OpenAI vs Jev for AI model routing, measuring decision time, token usage, and cost.
+- [itsmartinwho/apartment-hunter](https://github.com/itsmartinwho/apartment-hunter) `📚1` — Rank NYC rentals from StreetEasy and Zillow with your own weights, TypeSafe Jev judgments, and photo
+- [JakeFenley/koa-zod-router](https://github.com/jakefenley/koa-zod-router) `📚1` — Build typesafe routes for Koa with ease. Utilizes Typescript, Zod, and Koa-Router to provide an easy
+- [jamesacklin/linear-triage](https://github.com/jamesacklin/linear-triage) `📚1`
+- [Jamesjiwei19981027/Jev-router](https://github.com/jamesjiwei19981027/jev-router) `📚1`
+- [janglad/next-app-typesafe-routes](https://github.com/janglad/next-app-typesafe-routes) `📚1` — Typesafe routing for Next App router. Define schemas for params using any Standard Schema like Zod,
+- [javierBrenesAI/jev_tool_calling_experiment](https://github.com/javierbrenesai/jev_tool_calling_experiment) `📚1` — Use Jev model from TypeSafe to evaluate if there is an improvement in latency and cost in the agenti
+- [jdeun/schemarouter](https://github.com/jdeun/schemarouter) `📚1`
+- [jermeyhu/jev-gateway](https://github.com/jermeyhu/jev-gateway) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [Jev 1.13 on LLM Gateway](https://llmgateway.io/models/jev-1.13.0) `📚1` — Third-party provider listing: $0.042/M input, $0/M output, 64k context, OpenAI-compatible API with automatic provider routing and fallback.
+- [jevelry/back-in-blackout](https://github.com/jevelry/back-in-blackout) `📚1`
+- [jevendev/focus](https://github.com/jevendev/focus) `📚1` — Z-targeting lock-on mod, customizable & great for combat.
+- [jeverhart383/astro-wordpress-starter](https://github.com/jeverhart383/astro-wordpress-starter) `📚1`
+- [jevermann/businessanalyticsbook](https://github.com/jevermann/businessanalyticsbook) `📚1` — Business analytics book for BUSI4720 at Memorial University
+- [jevial/fivem-server-dumper-2026](https://github.com/jevial/fivem-server-dumper-2026) `📚1` — Unlock the full potential with fivem server dumper 2026. this free 2026 cheat delivers pixel‑perfect aimbot, safe wallhack and undetectable esp. github release.
+- [jevinskie/jev-cpp20-coroutines-sandbox](https://github.com/jevinskie/jev-cpp20-coroutines-sandbox) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [jevinskie/musl-libc-aarch64-baremetal](https://github.com/jevinskie/musl-libc-aarch64-baremetal) `📚1`
+- [jevinskie/pioneer-dvd-dvd-flash-utils](https://github.com/jevinskie/pioneer-dvd-dvd-flash-utils) `📚1`
+- [jevlomcn/mir4](https://github.com/jevlomcn/mir4) `📚1`
+- [jevmodel/ai-jev](https://github.com/jevmodel/ai-jev) `📚1`
+- [jevmodel/ai-model-jev](https://github.com/jevmodel/ai-model-jev) `📚1`
+- [jevmodel/jev-ai](https://github.com/jevmodel/jev-ai) `📚1`
+- [jevmodel/jev-ai-model](https://github.com/jevmodel/jev-ai-model) `📚1`
+- [jevmodel/jev-model-ai](https://github.com/jevmodel/jev-model-ai) `📚1`
+- [jevmodel/jev-model-typesafe](https://github.com/jevmodel/jev-model-typesafe) `📚1`
+- [jevmodel/jev-typesafe](https://github.com/jevmodel/jev-typesafe) `📚1`
+- [jevmodel/jev-typesafe-ai](https://github.com/jevmodel/jev-typesafe-ai) `📚1`
+- [jevmodel/typesafe-ai](https://github.com/jevmodel/typesafe-ai) `📚1`
+- [jevmodel/typesafe-ai-jev](https://github.com/jevmodel/typesafe-ai-jev) `📚1`
+- [jevmodel/typesafe-jev](https://github.com/jevmodel/typesafe-jev) `📚1`
+- [jevmodel/typesafe-jev-model](https://github.com/jevmodel/typesafe-jev-model) `📚1`
+- [JevProxy](https://jevproxy.com) `📚1` — Autonomous agent decision proxy & JEV gateway for Cursor, Claude Code, and multi-agent fleets with sub-25ms tool execution
+- [JherrerasPY/jev-router](https://github.com/jherreraspy/jev-router) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jkrumm/email-gateway](https://github.com/jkrumm/email-gateway) `📚1`
+- [JohnEnev/jev_escalation](https://github.com/johnenev/jev_escalation) `📚1` — Other related projects
+- [Joker666/Reflex](https://github.com/joker666/reflex) `📚1` — Minimal native macOS intent router for browser and profile selection
+- [jon-devlapaz/tink-route,4,Python,,2026-09-21](https://github.com/jon-devlapaz/tink-route,4,python,,2026-09-21) `📚1`
+- [jonny5isalive5/jev-scam-triage](https://github.com/jonny5isalive5/jev-scam-triage) `📚1` — jev-scam-blocker
+- [JoseLion/react-routeways](https://github.com/joselion/react-routeways) `📚1` — Use ts-routeways and react-router-dom together
+- [JoseLion/ts-routeways](https://github.com/joselion/ts-routeways) `📚1` — A type-safe solution to define and consume routes
+- [jozso39/jev-model-router-for-claude](https://github.com/jozso39/jev-model-router-for-claude) `📚1` — Claude Code per-turn model routing with TypeSafe Jev through an OpenRouter API key (fork of gargprat
+- [jozso39/jev-model-router-for-claude,0,JavaScript,,2026-09-24,Claude](https://github.com/jozso39/jev-model-router-for-claude,0,javascript,,2026-09-24,claude) `📚1`
+- [jubi55-git/shared-jev-gateway](https://github.com/jubi55-git/shared-jev-gateway) `📚1`
+- [JussCubs/jev-conductor-router](https://github.com/jusscubs/jev-conductor-router) `📚1` — Task, quota and outcome-aware Conductor routing with Jev.
+- [justinhsu1477/jev-router](https://github.com/justinhsu1477/jev-router) `📚1` — LiteLLM pre-call hook that routes coding-agent requests to a cloud or local model lane, judged by Ty
+- [k3ntaw/orchestrator](https://github.com/k3ntaw/orchestrator) `📚1`
+- [kaleido-labo/system-one-model-gateway](https://github.com/kaleido-labo/system-one-model-gateway) `📚1` — observed / routing-guardrails — ⭐0
+- [kallurayaankit/jev-ticket-router](https://github.com/kallurayaankit/jev-ticket-router) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [karanbagh/slack-notifier](https://github.com/karanbagh/slack-notifier) `📚1` — Signal: a local Slack attention inbox with instant mention alerts, desktop notifications, and option
+- [kdandu001-arch/leanroute](https://github.com/kdandu001-arch/leanroute) `📚1` — A fast decision layer in front of any LLM: blocks attacks, sends easy requests to cheap models, hard
+- [kevinlupera/jev-strands-router](https://github.com/kevinlupera/jev-strands-router) `📚1` — Route Strands agent queries to the right Amazon Bedrock model tier using Jev typed complexity scorin
+- [kholis/jev-router-pi](https://github.com/kholis/jev-router-pi) `📚1` — Jev-powered automatic model routing for the pi coding agent across z.ai GLM models
+- [kijung4290/gmail-mail-triage,0,JavaScript,로컬](https://github.com/kijung4290/gmail-mail-triage,0,javascript,로컬) `📚1`
+- [Kimi's model page](https://platform.kimi.ai) `📚1` — For 10,000 messages with 1,000 Jev input tokens each, the article's stated $0.042 per million Jev input tokens gives $0.42. If 10% then require Kimi, and each…
+- [kingd2925-beep/handoff](https://github.com/kingd2925-beep/handoff) `📚1` — Train a tiny local router on your own AI chat history. It decides in ~0.1 s which requests a cheap m
+- [KnightChaser/sqlitriager](https://github.com/knightchaser/sqlitriager) `📚1` — SQLi Triager with Jev AI (My first toy project with JevAI)
+- [kondratjev/morphe-patches](https://github.com/kondratjev/morphe-patches) `📚1`
+- [krisitown/jev-router](https://github.com/krisitown/jev-router) `📚1` — A configurable OpenAI-compatible model router using Jev decisions, with a trace and control UI.
+- [krisitown/jev-router,2,TypeScript,,2026-09-21](https://github.com/krisitown/jev-router,2,typescript,,2026-09-21) `📚1`
+- [kubaplayer05/jev-router](https://github.com/kubaplayer05/jev-router) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [LankiYang/jev-got-doupo](https://github.com/lankiyang/jev-got-doupo) `📚1`
+- [laszloblum/jev-triage-router](https://github.com/laszloblum/jev-triage-router) `📚1`
+- [le0u0/jev-model-router](https://github.com/le0u0/jev-model-router) `📚1`
+- [leftspace89/jevsubrouter](https://github.com/leftspace89/jevsubrouter) `📚1` — jevsubrouter - Routes each Claude Code sub-agent dispatch to the cheapest model that can finish its brief without switching the main conversation's model.…
+- [leoprn/public-banking-orchestrator](https://github.com/leoprn/public-banking-orchestrator) `📚1`
+- [letta-ai/mods](https://github.com/letta-ai/mods) `📚1` — jev-auto · letta-ai · GitHub · ⭐ 22 repo · 2026-06-23Letta Code mod that auto-approves low-impact tool calls and asks a person about risky or unclear ones,…
+- [lifefesta/jev-mail-router](https://github.com/lifefesta/jev-mail-router) `📚1`
+- [LiteLLM](https://litellm.ai) `📚1` — proxy pass-through
+- [LiteLLM auto router](https://docs.litellm.ai/docs/proxy/auto_routing) `📚1` — (release candidate) · LiteLLM · ArticlePicks a model tier for each request with a Jev Choice.
+- [LiteLLM guardrail](https://docs.litellm.ai/docs/proxy/guardrails/typesafe) `📚1` — (release candidate) · LiteLLM · ArticleAsks one Noul per finished tool exchange and clears results that are no longer needed before each call.
+- [LiteLLM Jev integrations](https://docs.litellm.ai/docs/auto_router) `📚1` — LiteLLM uses Jev for Auto Router classification and relevance checks during context compaction.
+- [live](https://typesafe-router.vercel.app) `📚1`
+- [live](https://route-lab-typescript-web.onrender.com) `📚1`
+- [live](https://etiennelescot.github.io/jev-router) `📚1`
+- [live](https://typesafe-triage-demo.vercel.app) `📚1`
+- [live](https://cascade.scira.ai) `📚1`
+- [LLMGateway](https://docs.llmgateway.io/features/system-one) `📚1`
+- [LLPhant/LLPhant](https://github.com/llphant/llphant) `📚1` — LLPhant Jev Classifier - PHP AI framework with a typed Jev classifier for Choice, Score, and Noul questions.
+- [Loule95450/jev-free-router,0,JavaScript,Dynamic](https://github.com/loule95450/jev-free-router,0,javascript,dynamic) `📚1`
+- [lucadidomenico/jev-router-esperimento](https://github.com/lucadidomenico/jev-router-esperimento) `📚1` — Jev fa davvero risparmiare con Claude Code? Opus 5.5 fisso contro jev-router, 6 esecuzioni misurate
+- [LucaPinheiro/agent-router-study](https://github.com/lucapinheiro/agent-router-study) `📚1`
+- [lucasandre-dev/jev-demo](https://github.com/lucasandre-dev/jev-demo) `📚1` — Jev vs LLM lado a lado: tempo, custo e resultado numa triagem de chamados. Roda com Docker e uma cha
+- [LuisCarlosLopes/jev-model-router](https://github.com/luiscarloslopes/jev-model-router) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [luxint66/jev-claude-openrouter](https://github.com/luxint66/jev-claude-openrouter) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [madhavmadupu/talos](https://github.com/madhavmadupu/talos) `📚1` — Transaction Assessment & Logic Orchestration System
+- [maha0525/SAIVerse](https://github.com/maha0525/saiverse) `📚1` — SAIVerse reflex judgment · maha0525 · GitHub · ⭐ 43 repo · 2025-06-07Reflex-judgment layer in the SAIVerse AI-persona world that returns probabilities instead…
+- [maharshi365/oc-agent-router](https://github.com/maharshi365/oc-agent-router) `📚1` — OpenCode plugin that asks Jev which configured model each new task subagent should run on, with a fallback model and timeout. MIT · TypeScript
+- [malaya-zemlya/likely](https://github.com/malaya-zemlya/likely) `📚1` — Branch on plain-English yes/no questions, batched into TypeSafe System One calls
+- [Mandrilsquad1441/jev-model-router,1,TypeScript](https://github.com/mandrilsquad1441/jev-model-router,1,typescript) `📚1`
+- [manfredsteyer/jev-demo](https://github.com/manfredsteyer/jev-demo) `📚1` — Function calling with Jev: an AG-UI server and a CopilotKit client
+- [MarcoLoDico/pi-jev-router](https://github.com/marcolodico/pi-jev-router) `📚1`
+- [masonlee39/orchvia](https://github.com/masonlee39/orchvia) `📚1` — Agent Orchestration SDK - Orchestration engine for multi-agent work with durable mailboxes and warm sessions, routing each task with a typed decision instead…
+- [mattlennon/jev-harness-router](https://github.com/mattlennon/jev-harness-router) `📚1` — Budget-aware Jev routing plugin for DeepSeek Harness with multi-provider reasoning, SSE, and cancell
+- [maxipawlowski/story-orchestrator](https://github.com/maxipawlowski/story-orchestrator) `📚1`
+- [mazenDDr/crisis-triage](https://github.com/mazenddr/crisis-triage) `📚1` — Sure → sent. Unsure → a person. A small model (Laya) triages disaster messages in 6 languages and kn
+- [mbutler/marvel-jev](https://github.com/mbutler/marvel-jev) `📚1` — Use Jev to classify Marvel characters by power
+- [mchamoudadev/jev-home](https://github.com/mchamoudadev/jev-home) `📚1` — Voice-controlled 3D smart home demo powered by TypeSafe Jev (Next.js)
+- [mdad-elec/laya-v2-agent-routing](https://github.com/mdad-elec/laya-v2-agent-routing) `📚1` — A 421M System-One router for AI agent turns: beats a 27B LLM judge, vLLM Semantic Router and RouteLL
+- [mejiasd3v/pi-jev-router,15,JavaScript,Automatic](https://github.com/mejiasd3v/pi-jev-router,15,javascript,automatic) `📚1`
+- [Mhashimea/jev-llm-support-router](https://github.com/mhashimea/jev-llm-support-router) `📚1`
+- [Michele-deng/michele-codex-router](https://github.com/michele-deng/michele-codex-router) `📚1` — Jev router / model fallback proxy for OpenAI Codex — per-turn model routing with automatic failover (Windows)
+- [middleapi/orpc](https://github.com/middleapi/orpc) `📚1` — Typesafe APIs Made Simple 🪄
+- [mikestefanello/hooks](https://github.com/mikestefanello/hooks) `📚1` — Simple, type-safe hook system to enable easier modularization of your Go code.
+- [mikeyobrien/autoloop](https://github.com/mikeyobrien/autoloop) `📚1` — autoloop Jev routing · mikeyobrien · GitHub · ⭐ 70 repo · 2026-03-28Loop harness for long-running agent work, spun off from ralph-orchestrator, with opt-in Jev…
+- [mja00/magnum-opus](https://github.com/mja00/magnum-opus) `📚1` — Adaptive reasoning effort for Claude Opus 5.5 in Oh My Pi, decided per generation by a TypeSafe Syst
+- [MobAI-Inc/Cynosure](https://github.com/mobai-inc/cynosure) `📚1` — Jev-based adaptive model routing with structured decisions, persistent feedback, and hybrid retrieval ★ 1 · model_id · TypeScript
+- [moficodes/adk-go-jev-demo](https://github.com/moficodes/adk-go-jev-demo) `📚1` — ADK Go v2 demo: TypeSafe Jev + Gemini combined triage pipeline vs an all-Gemini pipeline, side by si
+- [moonstar-x-bot/jev-issue-triage](https://github.com/moonstar-x-bot/jev-issue-triage) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [mooooorty/jev-openworld](https://github.com/mooooorty/jev-openworld) `📚1` — Offline-first experiments for abstention and open-world routing with Jev.
+- [MrTrigger/yardmaster](https://github.com/mrtrigger/yardmaster) `📚1` — Routing layer for AI coding agents: model, effort and account selection with quota pacing
+- [mumit/triage-incident](https://github.com/mumit/triage-incident) `📚1` — Synthetic network incident triage benchmark comparing Jev, Laya, CLM-8B and GPT-6 Luna for fictional Northstar Networks
+- [must-lioncho/jev-router-effort-empty](https://github.com/must-lioncho/jev-router-effort-empty) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [mustafaakin/jev-cpu](https://github.com/mustafaakin/jev-cpu) `📚1` — A CPU emulator with Jev choosing one instruction at a time. No ROM, with registers, RAM, and serial
+- [nabendu82/jev-x-dark-patterns](https://github.com/nabendu82/jev-x-dark-patterns) `📚1` — "JEV Dark Pattern X-Ray": scans an ecommerce checkout (fictional demo, pasted copy/HTML, or a live public URL), asks Jev five atomic questions per UI element…
+- [namnam34/jev-router](https://github.com/namnam34/jev-router) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [nathan1313/issue-triage-bot,0,Python,,2026-09-21](https://github.com/nathan1313/issue-triage-bot,0,python,,2026-09-21) `📚1`
+- [Naumantamboli/jev-model-router](https://github.com/naumantamboli/jev-model-router) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [nautahakk/jev-codex-router](https://github.com/nautahakk/jev-codex-router) `📚1` — Jev-powered model and reasoning-effort router for Codex in DeepSeek Harness
+- [nayan-kunwar/jev-triage](https://github.com/nayan-kunwar/jev-triage) `📚1` — jev-triage - nayan-kunwar/jev-triage - No description provided.
+- [ncimbaljevic/listeo-core](https://github.com/ncimbaljevic/listeo-core) `📚1`
+- [nebius/nebius-physical-ai](https://github.com/nebius/nebius-physical-ai) `📚1` — Nebius Physical AI Jev model router · nebius · GitHub · ⭐ 30 repo · 2026-04-07Advisory model router in Nebius's Physical AI Workbench agent backend that asks…
+- [necos98/dsh-open-jev](https://github.com/necos98/dsh-open-jev) `📚1`
+- [Netlify AI Gateway](https://netlify.com) `📚1` — zero-config from Netlify Functions
+- [neuralmagic/crucible](https://github.com/neuralmagic/crucible) `📚1` — Crucible system_one route · neuralmagic · GitHub · ⭐ 8 repo · 2026-07-29Goal-directed research loop engine with an example domain where a decision role routes…
+- [nicolasalveshenrique-spec/medical-knowledge-triage](https://github.com/nicolasalveshenrique-spec/medical-knowledge-triage) `📚1` — A typed decision-routing prototype for turning medical learning material into deterministic study actions, de…
+- [nightoma/DMXRouter](https://github.com/nightoma/dmxrouter) `📚1` — Route and merge DMX512 lighting data across protocols with precise timing for reliable con
+- [niksargent/pulse-cx-with-jev](https://github.com/niksargent/pulse-cx-with-jev) `📚1` — demo of conversation analysis using jev with LLM fallback
+- [nirmallama/jev-triage](https://github.com/nirmallama/jev-triage) `📚1` — Learn TypeSafe's Jev model by building a support ticket triage app, step by step
+- [nklmilojevic/sofka](https://github.com/nklmilojevic/sofka) `📚1` — A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up.
+- [NotoriousPOG/trust-router](https://github.com/notoriouspog/trust-router) `📚1` — Shadow-mode AI security router comparing deterministic rules, BERT, and Laya on an external prompt-i
+- [nqobile-x/jevdj](https://github.com/nqobile-x/jevdj) `📚1` — AI DJ with a Virtual DJ style interface: beat-matched auto mixes of your music and Audius, with DJ routines, pre-listen and a ...
+- [ns2250225/nameType](https://github.com/ns2250225/nametype) `📚1` — Static web app that has Jev pick a Pokemon primary and secondary type for any name via OpenRouter and renders a share card. no license · HTML · live
+- [octanevz/jev-playground-openrouter,0,JavaScript,Local](https://github.com/octanevz/jev-playground-openrouter,0,javascript,local) `📚1`
+- [ojusave/route-lab](https://github.com/ojusave/route-lab) `📚1` — Persuasion game on Render Workflows where you pitch an invention to three fictional judges; TypeScript and Python versions using TypeSafe and OpenRouter. no…
+- [OniReimu/Edge-Computing-JEV](https://github.com/onireimu/edge-computing-jev) `📚1` — Code, EdgeIntent v1 benchmark, and results for 'Replacing Large Language Models with Jev Decision Mo
+- [open-gsd/gsd-path](https://github.com/open-gsd/gsd-path) `📚1` — Disk-backed pipeline that takes AI coding agents from raw idea to shipped code — gated phases, orchestrated s…
+- [OpenCode 任务路由器](https://dev.to/lbobylev/routing-opencode-tasks-with-jev-2c4n) `📚1` — OpenCode task router · l3o6 · Article · 2026-09-18Tool for OpenCode that asks Jev three questions about each task (coordination, uncertainty, consequences) via…
+- [OpenRouter](https://openrouter.ai) `📚1` — beta listing typesafe/jev-1.13
+- [OpenRouter](https://openrouter.ai/typesafe-ai/jev) `📚1` — Jev as a System One decision model on OpenRouter (beta); typed state + question → typed decision with probability; announcement
+- [OpenRouter 密钥页](https://openrouter.ai/settings/keys) `📚1` — A — Real Jev: OpenRouter key if you
+- [openrouter.ai/settings/credits](https://openrouter.ai/settings/credits) `📚1`
+- [openrouterteam/docs](https://github.com/openrouterteam/docs) `📚1` — OpenRouter docs: "Jev vs LLM: When to Use a Decision Model Instead of Generating Text" (2026-09-19) — OpenRouter's own measured tutorial (vendor-measured):…
+- [Ormus-Solutions/molten-cascade](https://github.com/ormus-solutions/molten-cascade) `📚1` — Jev → code → LLM cascade kit — cheap System One triage, deterministic middle, frontier only for the
+- [Oxelio/jev-router](https://github.com/oxelio/jev-router) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [PANews: "TypeSafe AI and OpenRouter Launch Jev Smart Router to Boost LLM Call Efficiency"](https://panews.io/articles/01a0db2d-ccc3-7014-9538-7c1854b0ef9f) `📚1` — TypeSafe said on X that OpenRouter has integrated Jev routing into all LLM calls via typesafe/jev-router: per-request model and inference-intensity selection…
+- [pangelini777/PoC-BetterContext](https://github.com/pangelini777/poc-bettercontext) `📚1` — JEV x APM progressive-context PoC: TypeSafe System One progressively materializes/dematerializes APM
+- [pedrogmbh/laterhook](https://github.com/pedrogmbh/laterhook) `📚1` — Receive webhooks now &amp; route it later to right place Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [pedroromanelo/aihairroutine](https://github.com/pedroromanelo/aihairroutine) `📚1`
+- [peptidehackers/jev-router,0,Python,,2026-09-26](https://github.com/peptidehackers/jev-router,0,python,,2026-09-26) `📚1`
+- [PhiDung-hub/jev-router,0,Rust,,2026-09-24](https://github.com/phidung-hub/jev-router,0,rust,,2026-09-24) `📚1`
+- [philippdubach/pi-jev-router,13,TypeScript,,2026-09-20](https://github.com/philippdubach/pi-jev-router,13,typescript,,2026-09-20) `📚1`
+- [prestonkakukdev/OneRoute](https://github.com/prestonkakukdev/oneroute) `📚1` — Routes every request to the best LLM and reasoning effort: Jev reads the task, a deterministic optimizer picks the model. OpenAI-compatible API, ...
+- [prismhq/jev-router,13,Python](https://github.com/prismhq/jev-router,13,python) `📚1`
+- [prodevtatera/CityFactory](https://github.com/prodevtatera/cityfactory) `📚1` — CityFactory: JevAstra decision-routing experiments and game development Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [ProNextJS/declarative-routing](https://github.com/pronextjs/declarative-routing) `📚1` — NextJS Typesafe Routing System
+- [prove-ai/jev-orchestration](https://github.com/prove-ai/jev-orchestration) `📚1` — Decision orchestration with JEV using explicit action probabilities instead of verbose age
+- [proxysoul/Empryo](https://github.com/proxysoul/empryo) `📚1`
+- [psadventure/jev-model-router](https://github.com/psadventure/jev-model-router) `📚1` — Pick the right Claude model (haiku/sonnet/opus) per task using TypeSafe's Jev, with a Claude Code subagent hook
+- [psf/requests](https://github.com/psf/requests) `📚1` — Updates an action specifically to remove a token-length validation failure described in the PR.
+- [punitkmryh/Jev-Routed-GenAI-Support-Desk](https://github.com/punitkmryh/jev-routed-genai-support-desk) `📚1` — Jev decides, the LLM talks. Three of five routes never touch an LLM, so cost and latency drop, and t
+- [punkcanyang/jev-triage](https://github.com/punkcanyang/jev-triage) `📚1` — TypeSafe Jev email/ticket triage: queue, urgency, confidence (MIT)
+- [Pydantic AI Gateway](https://pydantic.dev/articles/jev-pydantic-ai-gateway) `📚1` — Pydantic's bring-your-own TypeSafe key route forwards native /v1/systemone requests, not chat requests
+- [RajaRuling/warehouse-swarm-dispatcher](https://github.com/rajaruling/warehouse-swarm-dispatcher) `📚1` — Autonomous Warehouse Swarm Dispatcher with TypeSafe AI — Real-time logistics multi-agent simulation
+- [rajdhakad9826/jev-router,10,TypeScript](https://github.com/rajdhakad9826/jev-router,10,typescript) `📚1`
+- [ramb5144/laya-answer-router](https://github.com/ramb5144/laya-answer-router) `📚1` — Local-first Chrome side panel and MCP bridge that uses Laya to route page questions to fast or deep
+- [rapina/jev-assist](https://github.com/rapina/jev-assist) `📚1` — Jev-powered model routing for Codex with local ChatGPT account execution
+- [Razeefshaik/JevRouter](https://github.com/razeefshaik/jevrouter) `📚1`
+- [reachjalil/jevlogs-triage-explorer](https://huggingface.co/spaces/reachjalil/jevlogs-triage-explorer) `📚1` — Gradio explorer for the jevlogs log-triage benchmark; makes no live Jev calls and recomputes routing from saved probabilities on sanitized Loghub HDFS and BGL…
+- [Read](https://mrjev.com/projects/gargpratyush-jev-router) `📚1` — v0.3.0 left recent prompts in /tmp readable by other users on Linux. Fix merged upstream.
+- [realxhabib/JevAIRouter](https://github.com/realxhabib/jevairouter) `📚1`
+- [redpangilinan/next-entree](https://github.com/redpangilinan/next-entree) `📚1` — Next.js 14+ starter template with app router, shadcn/ui, typesafe env, icons, and configs setup.
+- [ReneGucci94/jev-scout-filter](https://github.com/renegucci94/jev-scout-filter) `📚1` — Filtro previo de candidatos de minidrama. Jev decide antes del scrape.
+- [revazi/pi-tmux-orchestrator](https://github.com/revazi/pi-tmux-orchestrator) `📚1`
+- [richet/bounce-router](https://github.com/richet/bounce-router) `📚1` — bounce-router · richet · GitHub · ⭐ 8 · 2026-09-07TUI over Claude Code, Codex and Muse that fails over between providers when usage limits hit, with an…
+- [riefer02/laya-call-router](https://github.com/riefer02/laya-call-router) `📚1` — An inspectable dealership call-routing research demo built on Laya, with typed decisions, determinis
+- [rishirajFS/jev-router](https://github.com/rishirajfs/jev-router) `📚1` — Outcome-based evaluation of Jev as a cost-aware LLM router, on ground-truth benchmarks with three Claude tiers
+- [rnldsalili/email-triage-badi](https://github.com/rnldsalili/email-triage-badi) `📚1` — Personal Gmail triage on Cloudflare Workers with Hono, Jev, Drizzle, and Bun
+- [robertn702/opencode-jev-router,1,TypeScript,,2026-09-22](https://github.com/robertn702/opencode-jev-router,1,typescript,,2026-09-22) `📚1`
+- [robertoshimizu/neurosymbolic-intent-router](https://github.com/robertoshimizu/neurosymbolic-intent-router) `📚1` — Models interpret, rules decide: a fail-closed neuro-symbolic router in which language mode
+- [rogersx27/ai-ports](https://github.com/rogersx27/ai-ports) `📚1` — Capa de IA agnóstica de proveedor: puertos, adaptadores (Gemini, Anthropic, OpenAI, Vercel AI Gatewa
+- [RouteWorks/RouterArena](https://github.com/routeworks/routerarena) `📚1`
+- [RunaticMoon/native-agent-router](https://github.com/runaticmoon/native-agent-router) `📚1` — Plugin-based native AI CLI router with a Job API, runtime supervision and optional Jev decisions. Fi
+- [RuntimeWire: "TypeSafe's Jev Router picks models for free, with a claimed million-token wi](https://runtimewire.com/article/typesafe-jev-router-openrouter-launch) `📚1` — TypeSafe's "Jev Router" listed on OpenRouter Sept 25: Jev picks the model and reasoning effort per request, listed price $0 with a claimed 1M-token context…
+- [ryanbeales/decision-proxy](https://github.com/ryanbeales/decision-proxy) `📚1`
+- [Ryder-Sun/Awsome-Jev-Router](https://github.com/ryder-sun/awsome-jev-router) `📚1` — A Jev practice catalog and local-first Agent skill router: map recurring logs to reusable decisions,
+- [ryfylke-react-as/typesafe-custom-events](https://github.com/ryfylke-react-as/typesafe-custom-events) `📚1` — typesafe-custom-events
+- [saapai/jev](https://github.com/saapai/jev) `📚1` — Smart paste powered by LLM decomposition + Jev routing — document-aware form filling
+- [safer-with-jev.com](https://echai.ventures/feed/we-found-the-perfect-use-case-for-jev-auto-routing-genai-models-the-623) `📚1` — Andre Landgraf's yes/no-gate showcase examples (via eChai's Jev roundup)
+- [SalvaIvars/routerjev](https://github.com/salvaivars/routerjev) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [sbluemin/fleet-harness](https://github.com/sbluemin/fleet-harness) `📚1` — Fleet AI Gateway Jev routing · sbluemin · GitHub · ⭐ 17 repo · 2026-03-17AI Gateway routing in Fleet, a local-first console for supervising Claude Code and…
+- [SC0d3r/jev-systemone](https://github.com/sc0d3r/jev-systemone) `📚1` — Typed TypeScript client for Jev System One models, Choice, Score & Noul decisions with presets for T
+- [sean1588/jev-playground](https://github.com/sean1588/jev-playground) `📚1` — A UI over TypeSafe Jev: state and typed questions in, calibrated answers out.
+- [sgaunet/gutcheck](https://github.com/sgaunet/gutcheck) `📚1` — Go client for System One typed-decision APIs (TypeSafe Jev and self-hosted Laya): typed noul, choice
+- [shamhithk/alex-doctours](https://github.com/shamhithk/alex-doctours) `📚1` — alex-doctours — Doctours take-home: skill-based SMS reply system with typed routing (Jev), code-owned escalation, evidence-grounded replies, and live evals…
+- [Shashanth1920/RouteGuard-AI](https://github.com/shashanth1920/routeguard-ai) `📚1` — An AI gateway that uses Jev for fast decisions, routes requests to the right LLM or agent,
+- [shaul1991/jev_route](https://github.com/shaul1991/jev_route) `📚1`
+- [shiftrouter.greenerai.top](https://shiftrouter.greenerai.top) `📚1` — Project site: shiftrouter.greenerai.top
+- [shivdeepnv/llm-vs-jev-email-triage](https://github.com/shivdeepnv/llm-vs-jev-email-triage) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [shubham10divakar/CascadeJev](https://github.com/shubham10divakar/cascadejev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/FallbackJev](https://github.com/shubham10divakar/fallbackjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/RouterJev](https://github.com/shubham10divakar/routerjev) `📚1` — Jev-family model/tooling repo: RouterJev
+- [sinhaparth5/coraza-waf-mod](https://github.com/sinhaparth5/coraza-waf-mod) `📚1` — A single-binary Web Application Firewall + reverse proxy for Go, built on Coraza (OWASP CRS) with a built-in …
+- [siren2345/jev-gateway](https://github.com/siren2345/jev-gateway) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [siren2345/jevlocal](https://github.com/siren2345/jevlocal) `📚1` — Jev-compatible local LLM gateway and deterministic router for macOS
+- [skiingfalcon/jev-email-cascade](https://github.com/skiingfalcon/jev-email-cascade) `📚1` — Proves an email-triage cascade: Jev decides via typed questions, a policy routes, gpt-oss handles the leftove…
+- [slateeho/jev-xray-grafana](https://github.com/slateeho/jev-xray-grafana) `📚1` — Jev-powered Xray + Grafana observability for IPs and websites — classify traffic by site category, e
+- [smarthi/assembly-jev-router,2,Assembly,,2026-09-21,Apple](https://github.com/smarthi/assembly-jev-router,2,assembly,,2026-09-21,apple) `📚1`
+- [snapif/snapif](https://github.com/snapif/snapif) `📚1` — Snapif scores one tool call and returns Auto, Review, or Escalate.
+- [Sofiyaan12/jev-support-routing](https://github.com/sofiyaan12/jev-support-routing) `📚1`
+- [sonson0910/jev-router,1,JavaScript,,2026-09-21,Fail-open](https://github.com/sonson0910/jev-router,1,javascript,,2026-09-21,fail-open) `📚1`
+- [sourabh-kumar2/lyra](https://github.com/sourabh-kumar2/lyra) `📚1` — Type-safe DAG task orchestration library for Go with automatic concurrency and dependency resolution
+- [soyelmismo/openproxy](https://github.com/soyelmismo/openproxy) `📚1`
+- [Span-01](https://openrouter.ai/respan/span-01) `📚1` — Respan's behavioral-monitoring decision model: describe a behavior (user frustration, tool misuse) and get present / absent / not-observable probabilities on a…
+- [specta-rs/rspc](https://github.com/specta-rs/rspc) `📚1` — A framework for building typesafe web backends in Rust
+- [srbryers/model-routing-cards](https://github.com/srbryers/model-routing-cards) `📚1` — Which model for this task, and whether to believe it. Routing cards with a trust gate that refuses to name a …
+- [SSball/NimaGPT-JevRouterCollection](https://github.com/ssball/nimagpt-jevroutercollection) `📚1` — Japanese repo: a collection of Jev "judges" (small decision routers with no LLM in the middle) plus a shared execution base — the judge definition and the Rust…
+- [sstehniy/pi-jev-route](https://github.com/sstehniy/pi-jev-route) `📚1` — Route mid-run Pi prompts with TypeSafe Jev
+- [stefanrossmeier/safeplane](https://github.com/stefanrossmeier/safeplane) `📚1` — Safeplane routing advisor · stefanrossmeier · GitHub · ⭐ 5 repo · 2026-07-22Experimental routing advisor in Safeplane, a local-first control plane for bounded…
+- [sthyagarajan/jev-openrouter-orchestrator](https://github.com/sthyagarajan/jev-openrouter-orchestrator) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [strblr/typeroute](https://github.com/strblr/typeroute) `📚1` — Type-safe React router that just works - simple setup, full autocomplete, 4kB gzipped
+- [sud0su/rencong-router](https://github.com/sud0su/rencong-router) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [summeredge/JevRouter](https://github.com/summeredge/jevrouter) `📚1`
+- [supriya-s-naik/case-ownership-routing](https://github.com/supriya-s-naik/case-ownership-routing) `📚1` — This repository benchmarks Jev, Claude Haiku, and Claude Sonnet on a synthetic three-way support-case ownership decision.
+- [Suryals/jev-router-lab,0,Python,,2026-09-23,Shadow-mode](https://github.com/suryals/jev-router-lab,0,python,,2026-09-23,shadow-mode) `📚1`
+- [sushilduseja/jev-gateway](https://github.com/sushilduseja/jev-gateway) `📚1` — OpenAI-compatible LLM gateway for the Groq API with pre-generation guardrail + complexity
+- [sxeptical/larp-detector](https://github.com/sxeptical/larp-detector) `📚1` — Real-time LinkedIn LARP detector — names the persona being performed as you scroll. Chrome MV3 exten
+- [system-one-router](https://npmjs.com/package/system-one-router) `📚1`
+- [systemgroupnet/openwebui-ask-jev](https://github.com/systemgroupnet/openwebui-ask-jev) `📚1` — an Open WebUI Tool for TypeSafe's System One model
+- [takeshiue/jevtri](https://github.com/takeshiue/jevtri) `📚1` — Fast log triage for Linux incidents using Jev
+- [talal-tahir-do/jev-ticket-triage](https://github.com/talal-tahir-do/jev-ticket-triage) `📚1`
+- [tauri-apps/tauri-bindgen](https://github.com/tauri-apps/tauri-bindgen) `📚1` — Typesafe language bindings generator for the Tauri IPC bridge
+- [tellsiddh/jev](https://github.com/tellsiddh/jev) `📚1`
+- [Teyik0/furin](https://github.com/teyik0/furin) `📚1` — Web meta-framework powered by Bun and Elysia with file-based routing, SSR/SSG/ISR modes, and full Ty
+- [The Practical Value of Machine-Checked Proofs](https://gerryburde.com/articles/the-practical-value-of-machine-checked-proofs.html) `📚1` — 📐 Formal Verification & Machine-Checked Proofs: The Practical Value of Machine-Checked Proofs &middot; Lean 4 verification pipelines in production.
+- [theagentrouter/agent-router](https://github.com/theagentrouter/agent-router) `📚1` — Agent Router · TypeSafe · 2.1K stars — Agent Router provides a native TypeSafe System One translator in its Envoy-based gateway. Source
+- [TheBous/lodgify-listener](https://github.com/thebous/lodgify-listener) `📚1` — Webhook server that triages Lodgify guest messages with Jev using property notes and thread history, notifying the owner on Telegram when needed. no license ·…
+- [TheEleventhAvatar/triage-bot,1,TypeScript](https://github.com/theeleventhavatar/triage-bot,1,typescript) `📚1`
+- [theopenco/llmgateway](https://github.com/theopenco/llmgateway) `📚1` — LLMGateway · System One · 1.7K stars — LLMGateway implements a native System One route with typed schemas and provider mappings. Source
+- [thinganother675-lab/jev-agent-router](https://github.com/thinganother675-lab/jev-agent-router) `📚1` — Local TypeSafe Jev sidecar and agent decision research toolkit
+- [thinganother675-lab/jev-agent-router,0,Python,,2026-09-25,Local](https://github.com/thinganother675-lab/jev-agent-router,0,python,,2026-09-25,local) `📚1`
+- [thu-nics/R2R](https://github.com/thu-nics/r2r) `📚1`
+- [ThyFriendlyFox/jev-triage,0,Python](https://github.com/thyfriendlyfox/jev-triage,0,python) `📚1`
+- [tibor-src/jev-site](https://github.com/tibor-src/jev-site) `📚1` — Classify a message with Jev: boolean, choice, or score, with a probability. Live site:
+- [timroman234/jev-st-jude-bio-triage](https://github.com/timroman234/jev-st-jude-bio-triage) `📚1` — Other related projects
+- [tinzbo/xtasy-director](https://github.com/tinzbo/xtasy-director) `📚1` — AI director workspace: editable storyboards, Jev template routing and real MP4/content pac
+- [tomfln/rapid](https://github.com/tomfln/rapid) `📚1` — Rapidly create typesafe routes for express, with built-in validation using zod
+- [tomhar92/typesafe-claude-router](https://github.com/tomhar92/typesafe-claude-router) `📚1`
+- [tomoikey/typesafe_builder](https://github.com/tomoikey/typesafe_builder) `📚1` — 🚀 The Ultimate Builder Pattern Implementation Powered by Rust's Type System. Type safety is not a lu
+- [tonbiattack/jev-test-failure-triager](https://github.com/tonbiattack/jev-test-failure-triager) `📚1`
+- [Top 5 JEV Gateway Platforms & Best Providers (2026 Benchmark)](https://jevproxy.com/blog/top-jev-gateway-platforms-best-providers-2026) `📚1` — Benchmark comparing JevProxy, Portkey, LiteLLM, Cloudflare AI Gateway, and Helicone.
+- [TranBaVinhSon/jev-auto-routing](https://github.com/tranbavinhson/jev-auto-routing) `📚1`
+- [Treg](https://treg.to/jev) `📚1` — Open-source trigger routing & webhook orchestrator pairing with Jev for sub-25ms fraud screening, buying signal triage & viral monitoring
+- [triage.mrong.me](https://triage.mrong.me) `📚1` — TypeScript app (workers + web UI); optional hosted demo at triage.mrong.me.
+- [TrueFetch/jev-job-filter](https://github.com/truefetch/jev-job-filter) `📚1` — Turn a jobs JSON file into a shortlist with TypeSafe Jev: explicit relevance criteria, source links
+- [ts-76/jev-pocs](https://github.com/ts-76/jev-pocs) `📚1` — Jev-powered Gmail and GitHub issue triage proof-of-concepts
+- [tuhinmitra888/ai-jev-ticket-triage](https://github.com/tuhinmitra888/ai-jev-ticket-triage) `📚1` — Support ticket triage using TypeSafe (Jev) typed AI judgments + plain TypeScript routing rules
+- [twilso24/jev_router,0,Python,,2026-09-23,Standalone](https://github.com/twilso24/jev_router,0,python,,2026-09-23,standalone) `📚1`
+- [ueagohbbcd/jev-gateway](https://github.com/ueagohbbcd/jev-gateway) `📚1`
+- [unarbos/arbos](https://github.com/unarbos/arbos) `📚1` — Arbos Jev router · unarbos · GitHub · ⭐ 30 repo · 2026-03-18Structured router in the Arbos file-system-native agent coordinator where Jev picks the next…
+- [vadirn/muxmuxmux](https://github.com/vadirn/muxmuxmux) `📚1` — Typesafe state machines with minimal boilerplate. For React, Svelte and more.
+- [valehasadli/emitrix](https://github.com/valehasadli/emitrix) `📚1` — Emitrix — async-first, type-safe in-process event bus for Node.js backends: awaited handlers, error
+- [valendra-tech/jevall](https://github.com/valendra-tech/jevall) `📚1` — A small Jev-compatible typed-decision gateway for local and OpenAI-compatible LLMs
+- [valtyr/teds](https://github.com/valtyr/teds) `📚1` — 🚉 A typesafe event dispatch system inspired by TRPC
+- [vela91/jev-router](https://github.com/vela91/jev-router) `📚1` — Claude Code hook that asks Jev which model (Haiku/Sonnet/Opus) fits each subagent task. Author's one-run comparison (self-reported, not an independent…
+- [velusgautam/gmail-jev-triage](https://github.com/velusgautam/gmail-jev-triage) `📚1` — Reads a Gmail inbox, asks the Jev API which category each email belongs in, and labels it; dry-run by default (only applies with --apply, never deletes…
+- [Vercel AI Gateway](https://vercel.com) `📚1` — model ID typesafe-ai/jev, via AI SDK 7's evaluate
+- [Vercel AI Gateway dashboard](https://vercel.com/dashboard/ai-gateway) `📚1` — Vercel AI Gateway key: from the Vercel AI Gateway dashboard, with access to typesafe-ai/jev and credits.
+- [vflores-io/jev-agent-router,1,JavaScript,,2026-09-23,A](https://github.com/vflores-io/jev-agent-router,1,javascript,,2026-09-23,a) `📚1`
+- [villagertim/neonhop-3d](https://github.com/villagertim/neonhop-3d) `📚1` — NeonHop 3D: Empirical Research Testbed for System 1 Decision Models (TypeSafe Jev vs. Sole LLM Relia
+- [vinaychawla-ops/jev-adk-model-router](https://github.com/vinaychawla-ops/jev-adk-model-router) `📚1` — Jev (TypeSafe decision model) as a per-request model router for Google ADK agents (before_
+- [viniciusfinger/jev-intent-routing](https://github.com/viniciusfinger/jev-intent-routing) `📚1`
+- [vipulshetty/jev-triage-app](https://github.com/vipulshetty/jev-triage-app) `📚1`
+- [vkatkade/agent-gateway-jev-authz](https://github.com/vkatkade/agent-gateway-jev-authz) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [vorobjevdn/phar](https://github.com/vorobjevdn/phar) `📚1`
+- [vpr1995/jev-router](https://github.com/vpr1995/jev-router) `📚1` — Multi-provider LLM router in Go: classifies each prompt, then routes it through…
+- [vukasin-stanojevic/boosttrack](https://github.com/vukasin-stanojevic/boosttrack) `📚1`
+- [vvedantb/eva](https://github.com/vvedantb/eva) `📚1` — Eva Jev features · vvedantb · GitHub · ⭐ 101 repo · 2026-01-11Cloud-sandbox coding agent orchestrator that uses Jev for task tags, findings triage, draft…
+- [vyacheslav-startsev/jev-support-router](https://github.com/vyacheslav-startsev/jev-support-router) `📚1` — Minimal Python example: Jev classifies support requests, Python applies rules and calls handlers.
+- [vyacheslav-startsev/jev-support-router,2,Python,,2026-09-19](https://github.com/vyacheslav-startsev/jev-support-router,2,python,,2026-09-19) `📚1`
+- [Vybavnag/jev-triage-race,0,Python,,2026-09-22](https://github.com/vybavnag/jev-triage-race,0,python,,2026-09-22) `📚1`
+- [wacereboot/-](https://github.com/wacereboot/-) `📚1`
+- [wallfacers/jev-pi-router](https://github.com/wallfacers/jev-pi-router) `📚1`
+- [waLLxAck/mailroom](https://github.com/wallxack/mailroom) `📚1` — Free, open-source Gmail classifier powered by TypeSafe Jev. Bring your own OpenRouter key.
+- [wendyeq/dsh-jev-router,0,TypeScript,,2026-09-24,Optional](https://github.com/wendyeq/dsh-jev-router,0,typescript,,2026-09-24,optional) `📚1`
+- [wendyeq/pi-jev-router](https://github.com/wendyeq/pi-jev-router) `📚1` — Fork of pi-jev-router: adaptiveThinking for gpt-6-luna/sol.
+- [whiletrueee/router](https://github.com/whiletrueee/router) `📚1` — (notable) - OpenAI-compatible LLM router where Jev scores each request on 8 dimensions and a plain-code policy picks the cheapest capable model. no license ·…
+- [Why Cursor Freezes on Tool Calls: System 1 Reflexes with JEV Gateway](https://jevproxy.com/blog/why-cursor-freezes-tool-calls-system-one-jev-gateway) `📚1` — Why 200B+ autoregressive models bottleneck agent loops and how non-autoregressive decision heads eliminate the 1,420ms latency cliff.
+- [wimaniac/adaptive-rag-router-typesafe-jev](https://github.com/wimaniac/adaptive-rag-router-typesafe-jev) `📚1` — Adaptive RAG Router using TypeSafe Jev, with budget constrained evaluation against rule based and LL
+- [win4r/pi-jev-router,12,TypeScript,,2026-09-20](https://github.com/win4r/pi-jev-router,12,typescript,,2026-09-20) `📚1`
+- [workszop/jev-dev](https://github.com/workszop/jev-dev) `📚1` — Jev Router demo: TypeSafe Jev signals route prompts to a local or frontier model (Cloudflare Worker
+- [wowthatsfair/jev-hospitality-router](https://github.com/wowthatsfair/jev-hospitality-router) `📚1` — Second project with Jev. This time the goal was to test out cost efficiency in a realistic
+- [writeitai/remember-stack](https://github.com/writeitai/remember-stack) `📚1` — RememberStack TypeSafe adapter · writeitai · GitHub · ⭐ 8 repo · 2026-06-11Open memory infrastructure for AI agents that tracks claims, current beliefs and…
+- [wsoule/dispatch](https://github.com/wsoule/dispatch) `📚1`
+- [xafold/jev-router,3,Rust,,2026-09-25,jev-router](https://github.com/xafold/jev-router,3,rust,,2026-09-25,jev-router) `📚1`
+- [XDeviation/pi-jev-router,0,TypeScript,,2026-09-23,Adaptive](https://github.com/xdeviation/pi-jev-router,0,typescript,,2026-09-23,adaptive) `📚1`
+- [xee999/beatprompter](https://github.com/xee999/beatprompter) `📚1` — The Intelligent, Off-Script AI Teleprompter powered by TypeSafe Jev and Local Voice Tracking
+- [yatharth1706/inbox-triage](https://github.com/yatharth1706/inbox-triage) `📚1` — No description provided.
+- [yesitsfebreeze/pearde](https://github.com/yesitsfebreeze/pearde) `📚1` — pearde — a PRD board worked by one orchestrator session: specs ahead, dispatches implementers, asks when it m…
+- [yjsplay2002/jev-router-dashboard](https://github.com/yjsplay2002/jev-router-dashboard) `📚1` — Local, privacy-first dashboard for Jev Router classification and model-routing history
+- [yoans/jev-lab](https://github.com/yoans/jev-lab) `📚1` — Sandbox for TypeSafe Jev: typed judgments over inbound messages
+- [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) `📚1` — AI-Native Open-Source Next.js commerce. Powered by Stripe. Ultra fast with typesafe Commerce SDK. Bu
+- [yusukebe/my-jev-router-app](https://github.com/yusukebe/my-jev-router-app) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [yw2598/Selfish_Jev](https://github.com/yw2598/selfish_jev) `📚1` — Jev-like Model Reinforced Learning on Survival Tasks
+- [Zafer-Liu/jev-demo-router](https://github.com/zafer-liu/jev-demo-router) `📚1` — Support-ticket routing MVP adapted for TypeSafe Jev - 100/100 classification with confidence-gated d
+- [zeuzmakessoftware/jever](https://github.com/zeuzmakessoftware/jever) `📚1` — A desktop home for TypeSafe Jev.
+- [zhangzhangco/dsh-tier-router](https://github.com/zhangzhangco/dsh-tier-router) `📚1`
+- [zongzack/dsh-jev-router](https://github.com/zongzack/dsh-jev-router) `📚1` — DSH plugin that uses the JEV model to score task complexity and switch to the appropriate model for each dispatch request.
+- [实时追逐对手](https://openrouter.ai/labs/jev/game) `📚1` — Live chase opponent · OpenRouter · AppOpenRouter Labs game where you run and Jev chases, choosing each chaser move with one request two to three times a…
+- [收录页](https://madewithjev.com/categories/triage-and-routing) `📚1`
+- [网站](https://jev-pilot-proxy.vercel.app) `📚1`
+- [网站中的同一项目 / Same project on JevForAgents](https://jevforagents.com/builds/jev-router) `📚1`
+
+</details>

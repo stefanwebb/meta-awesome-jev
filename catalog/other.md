@@ -1,0 +1,2305 @@
+# Everything Else
+
+> Entries the classifier could not place confidently.
+>
+> **2,282 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 34
+
+- [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) `★4,615 · 📚63` — Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
+- [wfzyx/von](https://github.com/wfzyx/von) `★794 · 📚48` — The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.
+- [trungdq88/youtube-sponsor-detection](https://github.com/trungdq88/youtube-sponsor-detection) `★109 · 📚29` — Detect youtube sponsor segment with live audio and transcript powered by Jev
+- [markjaquith/typesafe-ai-playground](https://github.com/markjaquith/typesafe-ai-playground) `★4 · 📚26` — A playground for experiments around Jev, TypeSafe's System One model.
+- [RafalWilinski/vibecheck](https://github.com/rafalwilinski/vibecheck) `★48 · 📚24` — Chrome extension: vibe-check your X posts with TypeSafe's Jev before you hit Post
+- [AlbionaHoti/refgarden](https://github.com/albionahoti/refgarden) `★33 · 📚22` — A spatial reference explorer for creators. Local Jev query choices, metadata highlights and source-linked collections.
+- [GeekLinkDev/jev-subtitle-translator](https://github.com/geeklinkdev/jev-subtitle-translator) `★6 · 📚17` — Translate SRT subtitles with structured LLM output and check every translation with Jev.
+- [第三方深度解读补充大量可操作实测](https://flaviocopes.com/jev) `📚17` — A deep dive into Jev, TypeSafe's System One model - Flavio Copes. Probably the best single long-form introduction.
+- [githubnext/localjev](https://github.com/githubnext/localjev) `★803 · 📚16` — LocalJev - Local Jev-compatible /v1/systemone server for Bun that asks DiffusionGemma for probabilities, from GitHub Next.
+- [Vicente-MD/jev-resilience](https://github.com/vicente-md/jev-resilience) `★2 · 📚16` — Non-blocking Spring Boot Starter for Spring WebFlux that implements a Semantic Circuit Breaker to detect silent HTTP 200 failures using TypeSafe Jev.
+- [opaielsheikh/ai-elo-ranker](https://github.com/opaielsheikh/ai-elo-ranker) `★7 · 📚15` — High-speed recursive AI Elo tournament engine powered by Jev and Swiss matchmaking
+- [0xtrou/rubikjev](https://github.com/0xtrou/rubikjev) `★5 · 📚15` — Challenge the Jev's intelligence in Rubik Cube puzzles
+- [buluoray/JevOnly](https://github.com/buluoray/jevonly) `★5 · 📚15` — Pure Jev that can "type" and drive towards task completion.
+- [kesku/jev-freeform](https://github.com/kesku/jev-freeform) `★3 · 📚15` — An observable raw-character chat experiment powered entirely by TypeSafe Jev Choice
+- [reycn/smart-switch](https://github.com/reycn/smart-switch) `★3 · 📚15` — Reimagined window switcher for macOS using frontier artificial intelligence. Predicted by TypeSafe's Jev model
+- [pekth/draftpulse](https://github.com/pekth/draftpulse) `★1 · 📚15` — Experimental: live X draft viral scorer powered by TypeSafe Jev
+- [awun8191/jev-resume-analyzer](https://github.com/awun8191/jev-resume-analyzer) `★0 · 📚14` — CV diagnostics and job alignment with TypeSafe Jev, React and FastAPI
+- [ShupingR/scam-shield](https://github.com/shupingr/scam-shield) `★0 · 📚14` — Scam text message filter powered by TypeSafe's Jev model
+- [ctaxnagomi/instruct-jev](https://github.com/ctaxnagomi/instruct-jev) `★1 · 📚13` — INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace.
+- [heiwa4126/jev-bun1](https://github.com/heiwa4126/jev-bun1) `★0 · 📚13` — TypeSafe の Jev を TypeScript SDK で使ってみる最初の 1 歩.
+- [lab-dados/jev-anotacao-sentencas](https://github.com/lab-dados/jev-anotacao-sentencas) `★0 · 📚13` — Jev (TypeSafe) vs. Gemini 3.8 Flash vs. GPT-5.6 Luna na anotação estruturada de sentenças do TJSP: qualidade, tempo e custo
+- [mayank953/Jev](https://github.com/mayank953/jev) `★18 · 📚12` — Jev (mayank953) — No description provided by the repository (auto-discovered, description not yet written) (site) (site)
+- [waynesutton/ask-jev-ai](https://github.com/waynesutton/ask-jev-ai) `★4 · 📚12` — A public wall where anyone asks a question in three to fifteen words and Jev, TypeSafe's judgment model, answers yes, no, or it depends in about 100 milliseconds. Every judged ask lands on the wall in realtime, with a running count toward…
+- [Ayush0054/metis](https://github.com/ayush0054/metis) `★1 · 📚12` — Metis: automatic GitHub issue triage powered by TypeSafe AI Jev. A reusable GitHub Action.
+- [ndolinschi/hiresignal](https://github.com/ndolinschi/hiresignal) `★0 · 📚12` — HireSignal — resume first-pass fit+interview via TypeSafe Jev
+- [ndolinschi/trustgate](https://github.com/ndolinschi/trustgate) `★0 · 📚12` — TrustGate — indie media T&S gate via TypeSafe Jev.
+- [TypeLLM/pijev](https://github.com/typellm/pijev) `★34 · 📚11` — Permutation Invariant Jev.
+- [jjd-lab/jev-synthetic-survey](https://github.com/jjd-lab/jev-synthetic-survey) `★2 · 📚11` — Jev vs GPT-4.1 as synthetic survey respondents on Twin-2K-500. How you ask mattered more than which model you used.
+- [4rays/profanity-checker](https://github.com/4rays/profanity-checker) `★1 · 📚11` — Cloudflare Worker to check for profanity using TypeSafe Jev
+- [copyleftdev/jev-labs](https://github.com/copyleftdev/jev-labs) `★1 · 📚11` — Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.
+- [mossyfield/ST-jeved](https://github.com/mossyfield/st-jeved) `★32 · 📚10` — SillyTavern extension that measures each reply and instructs the narrator only when a rule matches.
+- [cheeaun/jevmoji](https://github.com/cheeaun/jevmoji) `★6 · 📚10` — Type anything. Get related emojis scored 0–3 with Jev.
+- [ishantanu/jevmetrics](https://github.com/ishantanu/jevmetrics) `★4 · 📚10` — Jev inference for metric assessment and retention in OpenTelemetry.
+- [AiPersonacademy/jev-resume-disqualifier](https://github.com/aipersonacademy/jev-resume-disqualifier) `★3 · 📚10` — Jev Resume Disqualifier: Sub-25ms automated resume knockout engine powered by TypeSafe Jev System One decision intelligence. Eliminates 80% of unqualified applicants with deterministic date math & EEOC-safe rejection notices.
+
+## Established (cited by 5–9 lists) — 41
+
+- [stas4000/jev-linkmap](https://github.com/stas4000/jev-linkmap) `★22 · 📚9` — Rebuild a site's internal link map in seconds with Jev, race Claude Opus 5 on the same queue, and let a deep model rewrite the rubric from the disagreements.
+- [Parthkomalwad/jevbrief](https://github.com/parthkomalwad/jevbrief) `★4 · 📚9` — Clean, traceable state briefings for TypeSafe's Jev model
+- [RileyCarney/JevTools](https://github.com/rileycarney/jevtools) `★4 · 📚9` — A lightweight collection of developer utilities and scripts designed to streamline Jev development process.
+- [ZeroGold/call-coach-ai](https://github.com/zerogold/call-coach-ai) `★43 · 📚8` — Jev powered call coach.
+- [guanxuyu-sv/Visual-Jev](https://github.com/guanxuyu-sv/visual-jev) `★34 · 📚8` — Visual-Jev — No description provided by the repository (auto-discovered, description not yet written) ❔
+- [sensahin/transcript-lens](https://github.com/sensahin/transcript-lens) `★18 · 📚8` — YouTube transkriptlerini anlamına göre keşfedin. Türkçe arayüz, Jev analizi, altyazı dışa aktarma ve Vercel kurulum rehberi.
+- [religa/jfind](https://github.com/religa/jfind) `★2 · 📚8` — Find files by describing them in plain English: find(1) with a semantic --like predicate, answered by TypeSafe.ai's jev model
+- [0xShin0221/openpoke-meets-jev](https://github.com/0xshin0221/openpoke-meets-jev) `★1 · 📚8` — Open source implementation of Poke .
+- [kylehovance-ai/jev-the-janitor](https://github.com/kylehovance-ai/jev-the-janitor) `★1 · 📚8` — A brain scan for your Obsidian or markdown vault. Redacts each note on your machine, asks TypeSafe's Jev typed questions about it, and lets plain code decide. Shows the bill first, meters spend against a ceiling, never deletes a note.
+- [Jev: System One models for Prod, not God](https://latent.space/p/jev) `📚8` — Jev, with Diogo Almeida - Latent Space interviews TypeSafe's founder about System One models and what Jev is for.
+- [Obrais-cloud/typesafe-translate](https://github.com/obrais-cloud/typesafe-translate) `★0 · 📚8` — Escribe lenguaje natural y un LLM local lo compila a variables de TypeSafe (state + questions) y las ejecuta (Jev / System One)
+- [j1s4nn/duomind](https://github.com/j1s4nn/duomind) `★16 · 📚7` — When Jev meets LLM -- Pair a small local LLM (System 2) with Jev model (System 1) to make small model more faster and accurate — OpenAI-compatible, private, and almost free to run in Kilo code and Cline.
+- [endomorphosis/JevOps](https://github.com/endomorphosis/jevops) `★8 · 📚7` — JevOps — Jev is a \\gate\\, not a generator. This package does \\not\\ write Lean. Lake (or another oracle) lives in the implementation that \uses\ the kernel.
+- [rcarmo/go-system-one](https://github.com/rcarmo/go-system-one) `★5 · 📚7` — when a gopher met Jev.
+- [andrueandersoncs/visual-jev](https://github.com/andrueandersoncs/visual-jev) `★3 · 📚7` — Image-native typed decisions with shared visual encoding and Qwen3-VL
+- [craigh33/adk-go-typesafe](https://github.com/craigh33/adk-go-typesafe) `★2 · 📚7` — TypeSafe AI System One integration and utilities for adk-go
+- [Kaos599/jev-writer](https://github.com/kaos599/jev-writer) `★2 · 📚7` — Find out which qualities of your writing actually predict engagement. Rates every post you have published against a pre-registered rubric using Jev's calibrated judgments, then tests those ratings against your real engagement numbers.…
+- [mychaelangelo/tempo-jev-demo](https://github.com/mychaelangelo/tempo-jev-demo) `★2 · 📚7` — A natural-language task workspace comparing performance across AI models (TypeSafe's Jev, GPT-5.6 Luna, and Gemini 3.8 Flash)
+- [brickfrog/moongate](https://github.com/brickfrog/moongate) `★0 · 📚7` — moonbit CI gate with jev.
+- [yakubmurcek/should-i-jev](https://github.com/yakubmurcek/should-i-jev) `★0 · 📚7` — Describe a feature, get a verdict on what should actually power it: plain code, Jev, an LLM, Jev + LLM, or classical ML. An executable reading of TypeSafe's own jaggedness list.
+- [Zogrus/jev-technical-term](https://github.com/zogrus/jev-technical-term) `★0 · 📚7` — YouTubeの解説動画やZoomのセミナーを聞きながら、出てきた技術用語のひとこと解説をリアルタイム表示するローカルツール(判定AIは TypeSafe AI の Jev)
+- [xyzzzh/GroundingJev](https://github.com/xyzzzh/groundingjev) `★8 · 📚6` — Jev-inspired non-autoregressive visual grounding with Qwen3.5-0.8B and continuous box regression.
+- [imMamdouhaboammar/get-fable](https://github.com/immamdouhaboammar/get-fable) `★7 · 📚6` — Make the model you already use work more like a frontier model with better planning, persistent context, skills, hooks, failure handling, and verification.. Orchestrated Multi-Specialist Agentic Lifecycle Harness
+- [daniel4x/JevEmon](https://github.com/daniel4x/jevemon) `★4 · 📚6` — Jev walks a real Pokémon FireRed ROM.
+- [LabGuy94/jevtok](https://github.com/labguy94/jevtok) `★4 · 📚6` — Exact token counting and request-cost prediction for TypeSafe's Jev (tiktoken-style)
+- [andyhorn/jev](https://github.com/andyhorn/jev) `★1 · 📚6` — jev - jev: TypeSafe Jev ecosystem repository. · Dart
+- [Cab14bacc/jev-sheets](https://github.com/cab14bacc/jev-sheets) `★1 · 📚6` — Jev for Google Sheets.
+- [microchipgnu/jev-hooks](https://github.com/microchipgnu/jev-hooks) `★1 · 📚6` — Compose typed Jev judgments as reactive semantic state in React and backend programs
+- [sawzhang/jev-demo](https://github.com/sawzhang/jev-demo) `★1 · 📚6` — Jev (TypeSafe System One) 学习与实测：概念文档 + 5 个可运行 demo + 可复现压测。实测 jev-1.13.0：扇出几乎免费，40 问与 1 问等延迟。
+- [amithkk/jev-experiments](https://github.com/amithkk/jev-experiments) `★0 · 📚6` — Experiments with Typesafe's Jev.
+- [isHeSatoshi/smalljev](https://github.com/ishesatoshi/smalljev) `★0 · 📚6` — the open TypeSafe Jev that runs on your mama's phone. 2.5B params, one forward pass, zero generated tokens.
+- [Jev-Omni (Gemma)](https://huggingface.co/akhilaaa3/jev-omni) `📚6` — Primary source · (All evidence)(evidence.md#jev-omni)
+- [jevable.com](https://jevable.com) `📚6` — Curated gallery of Jev demos with per-project X view counts and category filters (spotted 2026-09-21 via @choi.openai).
+- [SemanticSpace](https://semanticspace.dev) `📚6` — Semantic mapping: places phrases in two dimensions by using their Jev relationship scores to two user-selected concepts as coordinates.
+- [frontierlabai/JevHub](https://github.com/frontierlabai/jevhub) `★6 · 📚5` — JevHub · Jev 生态热榜.
+- [duckegg0623-create/jev-wechat-live](https://github.com/duckegg0623-create/jev-wechat-live) `★5 · 📚5` — 用 TypeSafe Jev 实时解读微信消息的桌面浮层 —— 未完成的实验项目，判定准确率不达标，附完整踩坑记录
+- [Aitejiu/jev-harness-lab](https://github.com/aitejiu/jev-harness-lab) `★2 · 📚5` — jev in:name created:2026-09-18..2026-09-19
+- [suidouble/let-jev-speak](https://github.com/suidouble/let-jev-speak) `★2 · 📚5` — Experiment to trick Typesafe’s Jev, aka “the language model that won’t talk” into actually talking.  - GitHub - suidouble/let-jev-speak: Experiment to trick Typesafe’s Jev, aka “the language model that won’t talk” into actually talking.
+- [xuan7zhang/jev-toolspace](https://github.com/xuan7zhang/jev-toolspace) `★1 · 📚5` — jev in:name created:2026-09-20..2026-09-21
+- [nautahakk/aphasia-word-finder](https://github.com/nautahakk/aphasia-word-finder) `★0 · 📚5` — For people with aphasia: describe the word you can't find, tap the right guess, hear it said. It only picks from a fixed word list plus your own names, using Jev by TypeSafe.
+- [xinian5216/chat-signal-analyzer](https://github.com/xinian5216/chat-signal-analyzer) `★0 · 📚5` — Privacy-conscious Jev-powered chat signal analyzer for observable emotion, intent, engagement, and relationship signals.
+
+## Emerging (cited by 3–4 lists) — 115
+
+- [altinburak/Jev.DotNet](https://github.com/altinburak/jev.dotnet) `📚4` — Jev.DotNet - Jev.DotNet: TypeSafe Jev ecosystem repository. · C#
+- [basmilius/homey-jev](https://github.com/basmilius/homey-jev) `📚4` — jevlang OR jev.ai in:name,description created:
+- [BillNDD/jev-bug-hunter](https://github.com/billndd/jev-bug-hunter) `📚4` — Fast, low-cost first-pass bug hunting for source files, powered by TypeSafe Jev. A quick sanity chec
+- [blck-snwmn/playground-jev](https://github.com/blck-snwmn/playground-jev) `📚4` — playground-jev - blck-snwmn/playground-jev - Small apps for experimenting with Jev.
+- [bvicsay/adaptmypage](https://github.com/bvicsay/adaptmypage) `📚4` — IntentFlags — semantic feature flags for websites, powered by Jev. Infers what a visitor is trying to do and …
+- [davyjones7321/jev-state-engine](https://github.com/davyjones7321/jev-state-engine) `📚4` — jev in:name created:2026-09-24..2026-09-25
+- [dbredesen/jev-sheets](https://github.com/dbredesen/jev-sheets) `📚4` — jev-sheets - jev-sheets: TypeSafe Jev ecosystem repository. · JavaScript
+- [engyoujiguti/Jev-Csharp](https://github.com/engyoujiguti/jev-csharp) `📚4` — Jev-Csharp - Jev-Csharp: TypeSafe Jev ecosystem repository. · C#
+- [fblissjr/jev-experiments](https://github.com/fblissjr/jev-experiments) `📚4` — tinkering and experiments with jev and typesafe ai
+- [frederickrohn/jev-harness](https://github.com/frederickrohn/jev-harness) `📚4` — jev-harness - frederickrohn/jev-harness - experimenting with Jev.
+- [Hol1kgmg/jev-trpg](https://github.com/hol1kgmg/jev-trpg) `📚4` — jevlang OR jev.ai in:name,description created:
+- [inematds/jev-curso](https://github.com/inematds/jev-curso) `📚4` — Plano pedagógico do curso Jev: três trilhas, doze módulos e trinta e seis aulas
+- [jihnma/lab-jev-interview](https://github.com/jihnma/lab-jev-interview) `📚4` — jev in:name created:2026-09-24..2026-09-25
+- [JohnCari/rossrecall](https://github.com/johncari/rossrecall) `📚4` — RossRecall: an AI litigation associate that quotes a real case file, checks every sentence against its source…
+- [luisferrassini/jev-check](https://github.com/luisferrassini/jev-check) `📚4` — jev-check - jev-check: TypeSafe Jev ecosystem repository. · Go
+- [midorisawa/Shirakawa](https://github.com/midorisawa/shirakawa) `📚4`
+- [munirad7s/jev-escape](https://github.com/munirad7s/jev-escape) `📚4` — Escape Room mit Freitext-Eingabe: TypeSafes Jev urteilt als Schiedsrichter uber jeden geti
+- [Nitish-kumar30/jev](https://github.com/nitish-kumar30/jev) `📚4` — jev - jev: TypeSafe Jev ecosystem repository. · JavaScript
+- [owainlewis/jev-examples](https://github.com/owainlewis/jev-examples) `📚4` — jevlang OR jev.ai in:name,description created:
+- [shuenrui/jev-godfather](https://github.com/shuenrui/jev-godfather) `📚4` — jev-godfather - jev-godfather: TypeSafe Jev ecosystem repository. · JavaScript
+- [TheWebDevel/jev-fanout](https://github.com/thewebdevel/jev-fanout) `📚4` — Does asking Jev more questions in one call change its answers? 250 calls measuring TypeSafe's speculative fan-out pattern and whether Jev is deterministic.
+- [tomohiro-owada/jev-mem](https://github.com/tomohiro-owada/jev-mem) `📚4` — jev-mem - jev-mem: TypeSafe Jev ecosystem repository. · Go
+- [valsecchi75/squint](https://github.com/valsecchi75/squint) `📚4` — Claude reads the part of a large file that answers your question, not the whole file. A PreToolUse hook. Meas…
+- [Wing9897/jev.tg](https://github.com/wing9897/jev.tg) `📚4` — jev.tg — Local Telegram filter stores channel messages locally and sends them in batches to Jev or a local model to keep only messages matching natural-language conditions.
+- [Ztrura/Jev-MedQA](https://github.com/ztrura/jev-medqa) `📚4` — jev in:name created:2026-09-24..2026-09-25
+- [1104480426-hash/jev-qq-assist](https://github.com/1104480426-hash/jev-qq-assist) `📚3` — inferred / other — ⭐1
+- [adagora/jev-experiments](https://github.com/adagora/jev-experiments) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [ady95/ragas-jev](https://github.com/ady95/ragas-jev) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [Araiseimitsu/jev-use](https://github.com/araiseimitsu/jev-use) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [arnodjiang/Vision-JEV](https://github.com/arnodjiang/vision-jev) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [baggiiiie/pi-stuff](https://github.com/baggiiiie/pi-stuff) `📚3` — Jev-backed approval package for Pi. packages/approve-for-me ★ 38
+- [bonsai/furui](https://github.com/bonsai/furui) `📚3` — Other related projects
+- [BrickerP/tg-crush](https://github.com/brickerp/tg-crush) `📚3` — Real-time Telegram conversation analysis with Jev (TypeSafe System One). You write the draft, Jev ju
+- [brunopivetta88/jev-claude](https://github.com/brunopivetta88/jev-claude) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [budityw23/fhir_jev](https://github.com/budityw23/fhir_jev) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [ChenReuven/jev-slide](https://github.com/chenreuven/jev-slide) `📚3` — jev-slide - jev-slide: TypeSafe Jev ecosystem repository. · JavaScript
+- [D3v0ps/jev](https://github.com/d3v0ps/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [danielwipert/jev.sorter](https://github.com/danielwipert/jev.sorter) `📚3` — Building Message Sorter with Jev vs Traditional LLMs.
+- [DarlingGoose/typesafe-ai-go](https://github.com/darlinggoose/typesafe-ai-go) `📚3` — typesafe-ai-go - typesafe-ai-go: TypeSafe Jev ecosystem repository. · Go
+- [datamonsterr/jev_auto_select_skills](https://github.com/datamonsterr/jev_auto_select_skills) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [dleess/jev](https://github.com/dleess/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [doitrous/hx](https://github.com/doitrous/hx) `📚3` — The clinical record that fills itself in while you write. A self-ticking checklist for histories, ex
+- [DumoeDss/jev-demos](https://github.com/dumoedss/jev-demos) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [enrigle/jev-gmail](https://github.com/enrigle/jev-gmail) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [Ewen2015/should-i](https://github.com/ewen2015/should-i) `📚3` — all thinkers in human history answer your questions
+- [frimoldi/jev-palette](https://github.com/frimoldi/jev-palette) `📚3` — A palette generator using Jev
+- [gitcloned/pisa-experiment-with-jev](https://github.com/gitcloned/pisa-experiment-with-jev) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [greghavens/jev-graph-builder](https://github.com/greghavens/jev-graph-builder) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [Guilhermeb-Ferrarezi/quiz-jev](https://github.com/guilhermeb-ferrarezi/quiz-jev) `📚3` — Extensão de navegador que responde a questão de múltipla escolha selecionada na tela, com um modelo rápido e escalonamento para um LLM ...
+- [himanshu231204/jev_model](https://github.com/himanshu231204/jev_model) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [Hinstein/jev-vip](https://github.com/hinstein/jev-vip) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [Hulupeep/Specflow](https://github.com/hulupeep/specflow) `📚3` — Specs that enforce themselves. Turn specs into contracts that can't be broken by helpful LLMs.
+- [ibedwi/ai-jev-chat-playground](https://github.com/ibedwi/ai-jev-chat-playground) `📚3` — jevlang OR jev.ai in:name,description created:
+- [imom39a/minesweeper-thinking-lab](https://github.com/imom39a/minesweeper-thinking-lab) `📚3` — Minesweeper experiments comparing Jev, LLMs, hybrid policies, and deterministic solvers, w
+- [jackma5477001/dsh-jev-auto](https://github.com/jackma5477001/dsh-jev-auto) `📚3` — dsh-jev-auto - dsh-jev-auto: TypeSafe Jev ecosystem repository. · JavaScript
+- [jacobjerryarackal/Jev-vs-Human-Deep-Space-Interceptor](https://github.com/jacobjerryarackal/jev-vs-human-deep-space-interceptor) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [Jev means structured output is interesting again](https://seangoedecke.com/jev-means-structured-output-is-interesting-again) `📚3` — Sean Goedecke：Jev means structured output is interesting again
+- [jorgemdnt/jev-flow](https://github.com/jorgemdnt/jev-flow) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [JoshJancula/jevkit](https://github.com/joshjancula/jevkit) `📚3` — jevkit - jevkit: TypeSafe Jev ecosystem repository. · Go
+- [jpol34/jev-live-transcription](https://github.com/jpol34/jev-live-transcription) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [jpollard-cs/jev-observatory](https://github.com/jpollard-cs/jev-observatory) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [kai-feinberg/jev-theme-designer](https://github.com/kai-feinberg/jev-theme-designer) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [kmtshn/jev](https://github.com/kmtshn/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [kurousa/jev](https://github.com/kurousa/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [lawzhougc/jev-openclash](https://github.com/lawzhougc/jev-openclash) `📚3` — SDKs and integrations
+- [LFM2.5-2.6B-RLCD](https://huggingface.co/monotykamary/lfm2.5-2.6b-rlcd) `📚3` — Add: larger Liquid-based model variant; custom/base-model license terms apply.
+- [LFM2.5-350M-RLCD](https://huggingface.co/notnotsamuel/lfm2.5-350m-rlcd) `📚3` — Add: smaller Liquid-based model variant; custom/base-model license terms apply.
+- [LIUFelix2004/jev-mas](https://github.com/liufelix2004/jev-mas) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [madousho-ai/decidophobia](https://github.com/madousho-ai/decidophobia) `📚3` — topic:jev created:2026-09-20..2026-09-21
+- [mashharuki/jev-sample](https://github.com/mashharuki/jev-sample) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [miaopj0325-collab/jev_mcp](https://github.com/miaopj0325-collab/jev_mcp) `📚3` — jev_mcp - miaopj0325-collab/jev_mcp - No description provided.
+- [Milluna/jev-cloth](https://github.com/milluna/jev-cloth) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [minkhant1996/system-one-playground](https://github.com/minkhant1996/system-one-playground) `📚3` — topic:jev created:2026-09-01..2026-09-30 creat
+- [narwhalishus/jev-swarm-framework](https://github.com/narwhalishus/jev-swarm-framework) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [naz3eh/raycast-jev](https://github.com/naz3eh/raycast-jev) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [ngpool/jev-divin](https://github.com/ngpool/jev-divin) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [nullspace1/jev-graph](https://github.com/nullspace1/jev-graph) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [nurf-ai/ai](https://github.com/nurf-ai/ai) `📚3` — Multimodal Go AI module with realistic cost tracking, not just tokens.
+- [Nuu-maan/pastewise](https://github.com/nuu-maan/pastewise) `📚3` — Paste anything, get the right tool. JSON, JWTs, cron, stack traces and more. Powered by Jev.
+- [octkmr/jev-demo](https://github.com/octkmr/jev-demo) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [oguressive/sample-jev](https://github.com/oguressive/sample-jev) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [org/repo](https://github.com/org/repo) `📚3` — Project Name - One sentence: what it does and how it uses Jev.
+- [owlet914/jev-objnav](https://github.com/owlet914/jev-objnav) `📚3` — jev in:name created:2026-09-22..2026-09-23
+- [pyshine-labs/jev-gym](https://github.com/pyshine-labs/jev-gym) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [quantum-box/jev_lab](https://github.com/quantum-box/jev_lab) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [rahiseko-alt/Jev-write](https://github.com/rahiseko-alt/jev-write) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [Rajatgdev/Jev_Scrapper](https://github.com/rajatgdev/jev_scrapper) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [rakshabharvada/cantrefuse.deck](https://github.com/rakshabharvada/cantrefuse.deck) `📚3` — ♠️ 76 questions for the AI that can't refuse — Jev (TypeSafe) answers everything, live. Gu
+- [s-hiraoku/jev-checkkit](https://github.com/s-hiraoku/jev-checkkit) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [Samge0/jev-arena](https://github.com/samge0/jev-arena) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [SergeiGolos/ask-jev](https://github.com/sergeigolos/ask-jev) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [shapor/jev-sentinel](https://github.com/shapor/jev-sentinel) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [shashwatc12/watermelon](https://github.com/shashwatc12/watermelon) `📚3` — Green on the outside, red on the inside. Jev checks whether a weekly program status update's claimed status m…
+- [shev-pro/dama-jev](https://github.com/shev-pro/dama-jev) `📚3` — dama-jev - dama-jev: TypeSafe Jev ecosystem repository. · JavaScript
+- [Shrishkd/JEV-MODEL](https://github.com/shrishkd/jev-model) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [sk8metalme/jev-practice](https://github.com/sk8metalme/jev-practice) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [SunnyKikiHK/jev-replacement](https://github.com/sunnykikihk/jev-replacement) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [System One Mini](https://huggingface.co/davidhatley/system-one-mini) `📚3` — system-one-mini, DistilBERT-sized System One shape, a floor for how small the idea can go.
+- [TakuM-M/hellow-jev](https://github.com/takum-m/hellow-jev) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [TentacleCat/JevDice](https://github.com/tentaclecat/jevdice) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [tgallice/jev-go](https://github.com/tgallice/jev-go) `📚3` — jev-go - jev-go: TypeSafe Jev ecosystem repository. · Go
+- [timnikolov/jev-system-one-ai-engine](https://github.com/timnikolov/jev-system-one-ai-engine) `📚3` — jevlang OR jev.ai in:name,description created:
+- [tpaulshippy/syft-listening](https://github.com/tpaulshippy/syft-listening) `📚3` — syft-listening - Real time speech analysis · JavaScript
+- [uist1idrju3i/study-jev](https://github.com/uist1idrju3i/study-jev) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [umaidashi/jev-speakfill](https://github.com/umaidashi/jev-speakfill) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [wakamenod/jev.el](https://github.com/wakamenod/jev.el) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [william-ragnarsson/jev-events](https://github.com/william-ragnarsson/jev-events) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [windymelt/ddskk-jev](https://github.com/windymelt/ddskk-jev) `📚3` — Emacs minor mode that reorders ddskk Japanese kana-kanji conversion candidates by Jev Choice probabilities from surrounding text. GPL-3.0 · Emacs Lisp
+- [xiaohu0x/jevhunt](https://github.com/xiaohu0x/jevhunt) `📚3` — jevhunt project
+- [XingQiPan/rwkv-jev](https://github.com/xingqipan/rwkv-jev) `📚3`
+- [xzyozi/jev-localsystem](https://github.com/xzyozi/jev-localsystem) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [Y91R/jev-box](https://github.com/y91r/jev-box) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [yaohongbinsdu/jev](https://github.com/yaohongbinsdu/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [yongqixue99-hue/ai-style-score](https://github.com/yongqixue99-hue/ai-style-score) `📚3`
+- [yurenju/jev-playground](https://github.com/yurenju/jev-playground) `📚3` — jev in:name created:2026-09-18..2026-09-19
+
+## Long tail (cited by 1–2 lists) — 2,092
+
+<details><summary>Show 2,092 long-tail entries</summary>
+
+- [007M7/jev-chat](https://github.com/007m7/jev-chat) `📚2`
+- [0xjba/BennyFit](https://github.com/0xjba/bennyfit) `📚2` — BennyFit - BennyFit: TypeSafe Jev ecosystem repository. · HTML
+- [1cyberlangke1/minicpm-jev-like](https://github.com/1cyberlangke1/minicpm-jev-like) `📚2`
+- [224096-cmd/jev-lab](https://github.com/224096-cmd/jev-lab) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [2fanDEV/jev-use](https://github.com/2fandev/jev-use) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [ab39912/JEV_Engine](https://github.com/ab39912/jev_engine) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [AbnormalPilot/jev-playground](https://github.com/abnormalpilot/jev-playground) `📚2` — jev-playground - jev-playground: TypeSafe Jev ecosystem repository. · JavaScript
+- [adams100111/typesafe-laravel](https://github.com/adams100111/typesafe-laravel) `📚2` — typesafe-laravel - Laravel integration for typesafe-php — config, facade, and Http::fake\(\)-friendly transport. Unofficial; not affiliated with TypeSafe. · PHP
+- [ado11231/jevqa](https://github.com/ado11231/jevqa) `📚2` — topic:jev created:2026-09-24..2026-09-30
+- [aeluyo8-blip/jev-swarm](https://github.com/aeluyo8-blip/jev-swarm) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [aibotjock/JEV-ECC](https://github.com/aibotjock/jev-ecc) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [aijnek/jev_rag](https://github.com/aijnek/jev_rag) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [Air1455/my-jev](https://github.com/air1455/my-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [ajr-khll/fuck-around-w-jev](https://github.com/ajr-khll/fuck-around-w-jev) `📚2` — fuck-around-w-jev - ajr-khll/fuck-around-w-jev - No description provided.
+- [akanthed/jev-watch](https://github.com/akanthed/jev-watch) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [Akk525/jev_eval](https://github.com/akk525/jev_eval) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [aksharahegde/should-we-meet](https://github.com/aksharahegde/should-we-meet) `📚2` — should-we-meet - should-we-meet: TypeSafe Jev ecosystem repository. · Vue
+- [Akshat-Rai0/COMP_USE_X_JEV](https://github.com/akshat-rai0/comp_use_x_jev) `📚2` — Other related projects
+- [akshrathod/jev-vs-llm-smarthome](https://github.com/akshrathod/jev-vs-llm-smarthome) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [aktersnurra/jev.ex](https://github.com/aktersnurra/jev.ex) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [alecstein/rceb-repair-form](https://github.com/alecstein/rceb-repair-form) `📚2`
+- [alektebel/jev-mindustry](https://github.com/alektebel/jev-mindustry) `📚2`
+- [AlexanderJiazx/AutoJev](https://github.com/alexanderjiazx/autojev) `📚2`
+- [alliansimoveis/jev](https://github.com/alliansimoveis/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [amansoory/JEV2048](https://github.com/amansoory/jev2048) `📚2`
+- [andesdevroot/rasante](https://github.com/andesdevroot/rasante) `📚2` — Motor determinista de normas urbanisticas chilenas (OGUC + PRC) para revisores independientes y DOM. El LLM clasifica y redacta; nunca calcula ni ...
+- [Andrew-2120042/sky.jev](https://github.com/andrew-2120042/sky.jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [andrizre/contoh-jev](https://github.com/andrizre/contoh-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [angeloseby/jev-trace](https://github.com/angeloseby/jev-trace) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [anishthite/jev-experiments](https://github.com/anishthite/jev-experiments) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [anonymze/jev](https://github.com/anonymze/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [AnthusAI/Few-Shot-Jev](https://github.com/anthusai/few-shot-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [anurg/jev-starter](https://github.com/anurg/jev-starter) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [anyran/jev-swot](https://github.com/anyran/jev-swot) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Archelephant/Jev_experiment](https://github.com/archelephant/jev_experiment) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [arunnaudiyal786/rocket-jev](https://github.com/arunnaudiyal786/rocket-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [atharvap1209/jev-buildathon-atharva](https://github.com/atharvap1209/jev-buildathon-atharva) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [austinheaton/jev](https://github.com/austinheaton/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [aviz85/jev-lab](https://github.com/aviz85/jev-lab) `📚2` — jev in:name created:2026-09-16..2026-09-17
+- [aymaanshahzad23/jev-buildathon-team-aymaan](https://github.com/aymaanshahzad23/jev-buildathon-team-aymaan) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [AyushArtesian/jev_ai_poc](https://github.com/ayushartesian/jev_ai_poc) `📚2` — jevlang OR jev.ai in:name,description created:
+- [B0und/jev_content_filter](https://github.com/b0und/jev_content_filter) `📚2`
+- [babanomania/linkedin-bullshit-filter](https://github.com/babanomania/linkedin-bullshit-filter) `📚2` — Your LinkedIn feed, measured. Typed bullshit detection with Jev, commentary by Grok.
+- [bahramzada/jev-canvas](https://github.com/bahramzada/jev-canvas) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [bbinwang/llm-jev](https://github.com/bbinwang/llm-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [bestony/bestony-userscripts](https://github.com/bestony/bestony-userscripts) `📚2` — Personal userscripts
+- [bfalkowski/jev-experiments](https://github.com/bfalkowski/jev-experiments) `📚2` — Demos and playgrounds
+- [bharat1704/jev](https://github.com/bharat1704/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [bobostudio/cabinet](https://github.com/bobostudio/cabinet) `📚2` — topic:jev created:2026-09-20..2026-09-21
+- [BR-Tavares/jev_yolo](https://github.com/br-tavares/jev_yolo) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [brokensbone/media-collection-manager](https://github.com/brokensbone/media-collection-manager) `📚2`
+- [BubbatheVTOG/pi-jev-redact](https://github.com/bubbathevtog/pi-jev-redact) `📚2`
+- [ByteSliceHQ/looms](https://github.com/byteslicehq/looms) `📚2` — Jev as a first-class run kind. #5 open ★ 11
+- [c85/jev-smb](https://github.com/c85/jev-smb) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [calvingit/jev-demo](https://github.com/calvingit/jev-demo) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [caramellumm/jev-crap](https://github.com/caramellumm/jev-crap) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [catsonkeyboard/sgs](https://github.com/catsonkeyboard/sgs) `📚2`
+- [cdrimy/jev](https://github.com/cdrimy/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [cfuentea/jev](https://github.com/cfuentea/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [chanwata/jev-bassist](https://github.com/chanwata/jev-bassist) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [ChasLui/ds2jev](https://github.com/chaslui/ds2jev) `📚2`
+- [chaspy/jev-playground](https://github.com/chaspy/jev-playground) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [chellappanrajan/typesafe-ai-demo](https://github.com/chellappanrajan/typesafe-ai-demo) `📚2` — typesafe-ai in:name,description created:2026-0
+- [chenhg5/jev-3d-world](https://github.com/chenhg5/jev-3d-world) `📚2`
+- [chimsedibui/jev](https://github.com/chimsedibui/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [chinesepowered/hack-jev](https://github.com/chinesepowered/hack-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [chocopc123/jev-ai-ppon-grand-prix](https://github.com/chocopc123/jev-ai-ppon-grand-prix) `📚2` — jevlang OR jev.ai in:name,description created:
+- [chujianyun/jev-demo](https://github.com/chujianyun/jev-demo) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [ciaran-slow/jev-basics](https://github.com/ciaran-slow/jev-basics) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [claudiuthree/dualtron-jev-parts-finder](https://github.com/claudiuthree/dualtron-jev-parts-finder) `📚2`
+- [clearoy/jev-experiment](https://github.com/clearoy/jev-experiment) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [CloudwaysbyDO/jev-nodejs](https://github.com/cloudwaysbydo/jev-nodejs) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [contents-engineer/jev-practice](https://github.com/contents-engineer/jev-practice) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [danielmriley/hip-jev](https://github.com/danielmriley/hip-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [dastru/jevtrick](https://github.com/dastru/jevtrick) `📚2` — Is Jev an instrument? Use Jev to finally answer the ultimate question of life: What is an
+- [DavidAlexKelly/bgws-jev](https://github.com/davidalexkelly/bgws-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [deesatzed/JevEdge0](https://github.com/deesatzed/jevedge0) `📚2`
+- [devinrobinson1/dstack](https://github.com/devinrobinson1/dstack) `📚2` — Dstack: nine stages, one command, and readable evidence at every gate. A delivery process built for an owner …
+- [dhirajkkasar/ticketing-flow-using-jev](https://github.com/dhirajkkasar/ticketing-flow-using-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [dungle03/dsh-jev-gate](https://github.com/dungle03/dsh-jev-gate) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [dwroy/wow-jev](https://github.com/dwroy/wow-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [dxd-dechao/jev-playground](https://github.com/dxd-dechao/jev-playground) `📚2`
+- [dxx1958693250-ops/jev-experiment](https://github.com/dxx1958693250-ops/jev-experiment) `📚2` — jevlang OR jev.ai in:name,description created:
+- [Dyrean/jev-recommendation](https://github.com/dyrean/jev-recommendation) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [EdwardHong0627/jev-poc](https://github.com/edwardhong0627/jev-poc) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [EthanAlgoX/LocalJev](https://github.com/ethanalgox/localjev) `📚2` — topic:jev created:2026-09-01..2026-09-30 creat
+- [Faishalbhitex/jev-usecase](https://github.com/faishalbhitex/jev-usecase) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [felipemillar/jev-ai](https://github.com/felipemillar/jev-ai) `📚2` — jevlang OR jev.ai in:name,description created:
+- [felvasquez/poc_jev](https://github.com/felvasquez/poc_jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [fengliner/jev-tank-battle](https://github.com/fengliner/jev-tank-battle) `📚2`
+- [Finn-Fengming/fast-jev](https://github.com/finn-fengming/fast-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [firtoz/jev-rubik-solver](https://github.com/firtoz/jev-rubik-solver) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Fr0zenCrane/jev-spatial](https://github.com/fr0zencrane/jev-spatial) `📚2` — Primary source · (All evidence)(evidence.md#jev-spatial)
+- [FranprzDev/Jev-To-Hackathon](https://github.com/franprzdev/jev-to-hackathon) `📚2`
+- [freddyfel1/jev-loop](https://github.com/freddyfel1/jev-loop) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [fredppm/jev-wf](https://github.com/fredppm/jev-wf) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [frty2-ai/apply-jev](https://github.com/frty2-ai/apply-jev) `📚2` — jevlang OR jev.ai in:name,description created:
+- [gabepauli/jev-bookmarker](https://github.com/gabepauli/jev-bookmarker) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [Garonix/jev-playground](https://github.com/garonix/jev-playground) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [gatewen/modudock-trend-cast](https://github.com/gatewen/modudock-trend-cast) `📚2` — Other related projects
+- [gauravjain14/kernel-lens-jev](https://github.com/gauravjain14/kernel-lens-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [gbesse/matchgraph](https://github.com/gbesse/matchgraph) `📚2` — Build evidence-backed, scoped product-equivalence graphs without inferring unverified comp
+- [getaskclaw/amber](https://github.com/getaskclaw/amber) `📚2`
+- [ginguhere/trying_JEV](https://github.com/ginguhere/trying_jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [gishi-yama/jev-demo](https://github.com/gishi-yama/jev-demo) `📚2` — jev in:name created:2026-09-16..2026-09-17
+- [gnkm/jev-prompts](https://github.com/gnkm/jev-prompts) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [GoddyB/ask-jevs](https://github.com/goddyb/ask-jevs) `📚2` — Zero-dep abstractions to ask Jev
+- [GopiKWork/jev-experiments](https://github.com/gopikwork/jev-experiments) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [gotree94/Jev](https://github.com/gotree94/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [GracieZGC/jev-chat-analyzer](https://github.com/graciezgc/jev-chat-analyzer) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [grappange/jev](https://github.com/grappange/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Growth-Kinetics/jev-context](https://github.com/growth-kinetics/jev-context) `📚2`
+- [GuGuGuGun/battle_jev](https://github.com/gugugugun/battle_jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [gujiachun-rainbow/jev](https://github.com/gujiachun-rainbow/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [GuSheng107/helpme-Jev](https://github.com/gusheng107/helpme-jev) `📚2`
+- [Hacke2367/JEV_MODEL](https://github.com/hacke2367/jev_model) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [HarcoChen/dsh-jev-integration](https://github.com/harcochen/dsh-jev-integration) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [harsha-mangena/JEV-BA](https://github.com/harsha-mangena/jev-ba) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Harshitnehra/jev](https://github.com/harshitnehra/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Helongzhou/Jev-hypit](https://github.com/helongzhou/jev-hypit) `📚2` — jevlang OR jev.ai in:name,description created:
+- [hemloeth/jev-todo](https://github.com/hemloeth/jev-todo) `📚2`
+- [HenkDz/butterfly-jev](https://github.com/henkdz/butterfly-jev) `📚2`
+- [hhdfh782/Jev-MiniMax-H3](https://github.com/hhdfh782/jev-minimax-h3) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [HiddenFox/jev-kit](https://github.com/hiddenfox/jev-kit) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [himanshu-thakur-7/Jev-Double-Checker](https://github.com/himanshu-thakur-7/jev-double-checker) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [holiq/jevlaya](https://github.com/holiq/jevlaya) `📚2`
+- [huaizuo2022/jev-ultrafast](https://github.com/huaizuo2022/jev-ultrafast) `📚2`
+- [huncijr/Gambler-Jev](https://github.com/huncijr/gambler-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [hyeoki0831-stack/jev_disaster_tweets](https://github.com/hyeoki0831-stack/jev_disaster_tweets) `📚2`
+- [hyhkjiy/twitter-viewer](https://github.com/hyhkjiy/twitter-viewer) `📚2`
+- [hyper186/jev-pirate-sorter](https://github.com/hyper186/jev-pirate-sorter) `📚2` — A hands-on Jev demo: sorting Pirate Nation PFPs into trait-aware piles with Venice AI.
+- [i-priyanshuverma/laravel-jev-demo](https://github.com/i-priyanshuverma/laravel-jev-demo) `📚2`
+- [iago-leal/jev-study](https://github.com/iago-leal/jev-study) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [iamnigellee/JEV](https://github.com/iamnigellee/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [ianrtracey/www](https://github.com/ianrtracey/www) `📚2`
+- [IlhamKassim/jev-sandbox](https://github.com/ilhamkassim/jev-sandbox) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [imaimai17468/jev-stg](https://github.com/imaimai17468/jev-stg) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [imranrkhan13/jevscope](https://github.com/imranrkhan13/jevscope) `📚2` — Other related projects
+- [Isaac0424/Jev_experiment](https://github.com/isaac0424/jev_experiment) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [itsArnavPrasad/jev-folder-sort](https://github.com/itsarnavprasad/jev-folder-sort) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [itsatgupta/Jev](https://github.com/itsatgupta/jev) `📚2` — JevDemo to compare which llm can do the job better
+- [itsvishalpat/jev-demo](https://github.com/itsvishalpat/jev-demo) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [iwish-ved-prakash/jev-proto](https://github.com/iwish-ved-prakash/jev-proto) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [j12003lpz/davinci](https://github.com/j12003lpz/davinci) `📚2`
+- [jackson-heylion/jev-gomoku](https://github.com/jackson-heylion/jev-gomoku) `📚2` — SDKs and integrations
+- [jacoblincool/weave-in](https://github.com/jacoblincool/weave-in) `📚2` — eep the thread. Weave everyone in.
+- [jadentripp/jev-keyboard](https://github.com/jadentripp/jev-keyboard) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Jaimejourney/mbti-jev-explorer](https://github.com/jaimejourney/mbti-jev-explorer) `📚2`
+- [jamesward/hello-zio-bedrock](https://github.com/jamesward/hello-zio-bedrock) `📚2` — Typed tool selection in a ZIO + Bedrock sample. better-tools branch ★ 3
+- [jasonaw98/scam-check-jev](https://github.com/jasonaw98/scam-check-jev) `📚2` — Using System One modal Jev built by TypeSafe to check for scam related messages
+- [jeanniejoshi/jev](https://github.com/jeanniejoshi/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Jev](https://nerdy.dev/jev) `📚2` — Adam Argyle's notes.
+- [Jev on AI Wiki](https://aiwiki.ai/wiki/jev) `📚2` — Jev on AI Wiki - Community-maintained reference page.
+- [jev-ai/system-one-jev](https://github.com/jev-ai/system-one-jev) `📚2` — jevlang OR jev.ai in:name,description created:
+- [jev-ai/typesafe-ai](https://github.com/jev-ai/typesafe-ai) `📚2` — typesafe-ai in:name,description created:2026-0
+- [jev-ai/typesafe-ai-jev](https://github.com/jev-ai/typesafe-ai-jev) `📚2` — typesafe-ai in:name,description created:2026-0
+- [jev-ai/typesafe-jev](https://github.com/jev-ai/typesafe-jev) `📚2` — typesafe-ai in:name,description created:2026-0
+- [jevslop.pages.dev](https://jevslop.pages.dev) `📚2` — Web: jevslop.pages.dev; local npm run dev (Pages Functions-compatible).
+- [jevusers.com](https://jevusers.com) `📚2` — The projects most independently listed by community curators, with copy from the jevusers.com Top 100.
+- [jingfang-635/jev-ultrafast](https://github.com/jingfang-635/jev-ultrafast) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Jncch/jev-loop-gate](https://github.com/jncch/jev-loop-gate) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [jonascheng/jev-lab](https://github.com/jonascheng/jev-lab) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [jorgeguberte/jev-cogsec](https://github.com/jorgeguberte/jev-cogsec) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [joseluissaorin/prosper-jev](https://github.com/joseluissaorin/prosper-jev) `📚2`
+- [JOYUNHO-cmd/JEV](https://github.com/joyunho-cmd/jev) `📚2` — jev in:name created:2026-08-01..2026-08-31
+- [jpXproject/jev-mt5-hft-framework](https://github.com/jpxproject/jev-mt5-hft-framework) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [juhiechandra/jev-cyber](https://github.com/juhiechandra/jev-cyber) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [julianarchila/jev-experiments](https://github.com/julianarchila/jev-experiments) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [JunkaiWang-TheoPhy/JevOS](https://github.com/junkaiwang-theophy/jevos) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [JurijZ/jev](https://github.com/jurijz/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Jurmean/jev-longrca](https://github.com/jurmean/jev-longrca) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [kbhatnagar1506/facemash](https://github.com/kbhatnagar1506/facemash) `📚2` — Giving people the power to build community and bring the world closer together!
+- [keith-manville/jev-in-secops](https://github.com/keith-manville/jev-in-secops) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Kemsekov/custom-jev](https://github.com/kemsekov/custom-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [kevinaaaquil/jev-rubix](https://github.com/kevinaaaquil/jev-rubix) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [kgouthamk/JEV-Prototype](https://github.com/kgouthamk/jev-prototype) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [kingdsa/jev-chinese-grader](https://github.com/kingdsa/jev-chinese-grader) `📚2`
+- [Kmassidik/Everything-with-jev-ai](https://github.com/kmassidik/everything-with-jev-ai) `📚2` — jevlang OR jev.ai in:name,description created:
+- [KNambiarDJsc/Jev-Reactor](https://github.com/knambiardjsc/jev-reactor) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [kongbai006/jev-wekit-mimo](https://github.com/kongbai006/jev-wekit-mimo) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Kourin1996/jev-playground](https://github.com/kourin1996/jev-playground) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [KrxGu/jev-bois](https://github.com/krxgu/jev-bois) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [KsanaDock/jev-go](https://github.com/ksanadock/jev-go) `📚2`
+- [kshadow07/jev-editor](https://github.com/kshadow07/jev-editor) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [ksin751119/jev-cases](https://github.com/ksin751119/jev-cases) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [laddhaad-arch/jev-ai](https://github.com/laddhaad-arch/jev-ai) `📚2` — jevlang OR jev.ai in:name,description created:
+- [landfill/anton](https://github.com/landfill/anton) `📚2` — anton - anton: TypeSafe Jev ecosystem repository. · JavaScript
+- [Lanternko/jev-hearthstone](https://github.com/lanternko/jev-hearthstone) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [lauyeehow1986-hub/slm_jev](https://github.com/lauyeehow1986-hub/slm_jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [lbbbboom/jev-chat](https://github.com/lbbbboom/jev-chat) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [Leenaa-patil/jev-MORPH](https://github.com/leenaa-patil/jev-morph) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [leojacinto/my-name-jev](https://github.com/leojacinto/my-name-jev) `📚2`
+- [lezgoverci/jev-docs](https://github.com/lezgoverci/jev-docs) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [LINUX DO](https://linux.do) `📚2` — Special thanks to LINUX DO.
+- [lioensky/vcpchat](https://github.com/lioensky/vcpchat) `📚2`
+- [lioensky/vcptoolbox](https://github.com/lioensky/vcptoolbox) `📚2`
+- [llaplace-dev/jev-overcome-cartpole](https://github.com/llaplace-dev/jev-overcome-cartpole) `📚2`
+- [Lockingdong/jev-demo](https://github.com/lockingdong/jev-demo) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [LoTwT/uno-jev](https://github.com/lotwt/uno-jev) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [lucarizzo03/raised](https://github.com/lucarizzo03/raised) `📚2` — topic:jev created:2026-09-22..2026-09-23
+- [lucascanna/jev-hackaton](https://github.com/lucascanna/jev-hackaton) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [lucasfth/config](https://github.com/lucasfth/config) `📚2` — Relevant config files for meee
+- [LukasCaha/jev-theme](https://github.com/lukascaha/jev-theme) `📚2` — Maps a typed phrase onto a 42-color palette with one Jev Choice and draws color bands sized by probability. no license · JavaScript
+- [luukmuu/jev-follow-along](https://github.com/luukmuu/jev-follow-along) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [lvzhaobo/bluff-royale](https://github.com/lvzhaobo/bluff-royale) `📚2` — bluff-royale - bluff-royale: TypeSafe Jev ecosystem repository. · JavaScript
+- [lyjw131/lyjwpage](https://github.com/lyjw131/lyjwpage) `📚2`
+- [lynellf/pi-conductor](https://github.com/lynellf/pi-conductor) `📚2`
+- [machaomc/jev-checkpoint](https://github.com/machaomc/jev-checkpoint) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [makefunstuff/clank](https://github.com/makefunstuff/clank) `📚2` — topic:jev created:2026-09-16..2026-09-19
+- [manifoldfrs/dotfiles](https://github.com/manifoldfrs/dotfiles) `📚2` — dotfiles - Config files.
+- [manutej/jev](https://github.com/manutej/jev) `📚2` — JEV — applied double operadic type system (Libkind–Myers, arXiv:2505.18329). Colored operads, masked-language…
+- [marcelmichau/fake-survey-generator](https://github.com/marcelmichau/fake-survey-generator) `📚2` — A slightly more-than-trivial full-stack application built with DDD & CQRS concepts
+- [marlonthynk/jev-playground](https://github.com/marlonthynk/jev-playground) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [matmanna/yinzone](https://github.com/matmanna/yinzone) `📚2` — Operating System powering the burgh's build chain. Made for AI Horizons 2026 Hackathon
+- [matyo91/flow-jev](https://github.com/matyo91/flow-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [maxanstey-meridian/waduno-atomiser](https://github.com/maxanstey-meridian/waduno-atomiser) `📚2` — Turn source text into standalone, evidence-backed claims with integrity checks, bounded re
+- [mayonaka-ratori/60s-magic](https://github.com/mayonaka-ratori/60s-magic) `📚2`
+- [MI-1222/local-jev](https://github.com/mi-1222/local-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [mikekelly/ex_jev](https://github.com/mikekelly/ex_jev) `📚2`
+- [miqui/jev-airline-ops-cancel-flights](https://github.com/miqui/jev-airline-ops-cancel-flights) `📚2` — Airline crew flight cancelation determination using Jev LLM
+- [mohammadraufzahed/pi-jev](https://github.com/mohammadraufzahed/pi-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [mr04vv/jev-playground](https://github.com/mr04vv/jev-playground) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [mrrasmussendk/jev.net](https://github.com/mrrasmussendk/jev.net) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [muffedd/jev-virality-predictor](https://github.com/muffedd/jev-virality-predictor) `📚2` — jev-virality-predictor - jev-virality-predictor: TypeSafe Jev ecosystem repository. · JavaScript
+- [mushfiqk47/lms-jev](https://github.com/mushfiqk47/lms-jev) `📚2` — Semantic ifs from open models, on a 3090 at home — or through LM Studio
+- [mwatkins03-netizen/AI-Grading-Dilemmas-](https://github.com/mwatkins03-netizen/ai-grading-dilemmas-) `📚2` — AI-Grading-Dilemmas- - AI-Grading-Dilemmas-: TypeSafe Jev ecosystem repository. · HTML
+- [nagmudit/jev-primitives](https://github.com/nagmudit/jev-primitives) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [natrajexplore/clm_vs_jev_models](https://github.com/natrajexplore/clm_vs_jev_models) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [nayeemrahman13/dMel-Jev](https://github.com/nayeemrahman13/dmel-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [NB3025/hello-jev](https://github.com/nb3025/hello-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [newuser7171/jev-ndr](https://github.com/newuser7171/jev-ndr) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [Nilesh1404/jev](https://github.com/nilesh1404/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [nine-minds/alga-psa](https://github.com/nine-minds/alga-psa) `📚2` — An open source MSP PSA from Nine Minds
+- [NLPark-Cran/jev-tangpu](https://github.com/nlpark-cran/jev-tangpu) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [nomarcus/foodsim](https://github.com/nomarcus/foodsim) `📚2`
+- [NOPLAB/jev_navigation](https://github.com/noplab/jev_navigation) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [ocknamo/sandbox](https://github.com/ocknamo/sandbox) `📚2` — sandbox - sandbox: TypeSafe Jev ecosystem repository. · Go
+- [OliverMao/TeleJev](https://github.com/olivermao/telejev) `📚2`
+- [olympiorenno/yes-or-no-jev](https://github.com/olympiorenno/yes-or-no-jev) `📚2` — Other related projects
+- [OpenNekoPaw/JevFlow](https://github.com/opennekopaw/jevflow) `📚2`
+- [Orcaset/jev-revenue-forecaset](https://github.com/orcaset/jev-revenue-forecaset) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [orvn/jev-jigs](https://github.com/orvn/jev-jigs) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [orvn/typesafe-tidbits](https://github.com/orvn/typesafe-tidbits) `📚2`
+- [OsirianLegacy/JevTactics](https://github.com/osirianlegacy/jevtactics) `📚2`
+- [ossianravn/jev-9000](https://github.com/ossianravn/jev-9000) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [otokunaga2/jev-go](https://github.com/otokunaga2/jev-go) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [owner/name](https://github.com/owner/name) `📚2` — name - One sentence, uppercase start, period end.
+- [padmanabhan-r/Tangent-JEV](https://github.com/padmanabhan-r/tangent-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [pakkio/jev-biblio](https://github.com/pakkio/jev-biblio) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [palladiumailab-collabmAILab/jev-guided-minimax-h3-sparse-attention](https://github.com/palladiumailab-collabmailab/jev-guided-minimax-h3-sparse-attention) `📚2` — jev in:name created:2026-09-16..2026-09-17
+- [PanikParty/jev-launch-week-dossier](https://github.com/panikparty/jev-launch-week-dossier) `📚2` — A memorial record of the 10 wildest community builds from TypeSafe Jev launch week, and the 21 design patterns they reveal.
+- [PaoPao1021/mahjong-jev-advisor](https://github.com/paopao1021/mahjong-jev-advisor) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Parthee-Vijaya/SHIELD](https://github.com/parthee-vijaya/shield) `📚2` — ommunalt arbejdsrum til dokumentation, konsekvensanalyser og risikovurderinger af AI-løsninger med kildebelæg, JEV-kontrol og menneskelig godkendelse.
+- [patrol-jev/patrol-jev](https://github.com/patrol-jev/patrol-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [perrydunnit/strudel-jev-jam](https://github.com/perrydunnit/strudel-jev-jam) `📚2`
+- [peskycipher/jevBMAD](https://github.com/peskycipher/jevbmad) `📚2`
+- [PeterNg2333/jev-nlp](https://github.com/peterng2333/jev-nlp) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [philosophyAIEDU/260921jev](https://github.com/philosophyaiedu/260921jev) `📚2`
+- [PiPyL/jev-zenfeed](https://github.com/pipyl/jev-zenfeed) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Pnawei/Jev-chat](https://github.com/pnawei/jev-chat) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Prateek1771/jev_lab](https://github.com/prateek1771/jev_lab) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [QingHua27/WeChat-Jev](https://github.com/qinghua27/wechat-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [qishiyexu/jev-traffic](https://github.com/qishiyexu/jev-traffic) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [RajKKapadia/youtube-typesafe-ai-demo](https://github.com/rajkkapadia/youtube-typesafe-ai-demo) `📚2` — typesafe-ai in:name,description created:2026-0
+- [rakeshcheekatimala/jev-getting-started](https://github.com/rakeshcheekatimala/jev-getting-started) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Ranjith1717-CPU/Jev](https://github.com/ranjith1717-cpu/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [rcerucci/hl-jev](https://github.com/rcerucci/hl-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [rdk16/jevudio](https://github.com/rdk16/jevudio) `📚2` — jevudio - Editor de codigo open source. · Vue
+- [redamoon/jev-work](https://github.com/redamoon/jev-work) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [renatobardi/jev-o-matic](https://github.com/renatobardi/jev-o-matic) `📚2`
+- [rhithesh/youtube-focus](https://github.com/rhithesh/youtube-focus) `📚2` — youtube-focus - youtube-focus: TypeSafe Jev ecosystem repository. · JavaScript
+- [rickyweb1029/jev-local-manufacturing](https://github.com/rickyweb1029/jev-local-manufacturing) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Riddle1001/my_madeup_jev_terms](https://github.com/riddle1001/my_madeup_jev_terms) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [rlorenzo/jev-or-not](https://github.com/rlorenzo/jev-or-not) `📚2`
+- [Rodert/JevPlayer](https://github.com/rodert/jevplayer) `📚2` — topic:jev created:2026-09-20..2026-09-21
+- [Ronny011/jev-playground](https://github.com/ronny011/jev-playground) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [royam0820/Jev-Emojis](https://github.com/royam0820/jev-emojis) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [rscottstevens-byte/jev](https://github.com/rscottstevens-byte/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [ruikairen72-svg/Jev_model](https://github.com/ruikairen72-svg/jev_model) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [runapi-ai/typesafe-php](https://github.com/runapi-ai/typesafe-php) `📚2` — RunAPI TypeSafe Composer package for PHP applications
+- [s-hiraoku/jev-page-checker](https://github.com/s-hiraoku/jev-page-checker) `📚2`
+- [saahityaedams/factorio-jev](https://github.com/saahityaedams/factorio-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [sagarmainkar/jev-wall](https://github.com/sagarmainkar/jev-wall) `📚2`
+- [saikawaniania/jev_visualnovel](https://github.com/saikawaniania/jev_visualnovel) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [sakhadib/JEV_math](https://github.com/sakhadib/jev_math) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [samchon/typia](https://github.com/samchon/typia) `📚2` — Super-fast/easy runtime validators and serializers via transformation
+- [SaremS/jevscan](https://github.com/sarems/jevscan) `📚2` — jevscan - TypeSafe / Jev community project: SaremS/jevscan. · Go
+- [sb-saksham/hinglish-jev-noul](https://github.com/sb-saksham/hinglish-jev-noul) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [SeanPlusPlus/hellojev](https://github.com/seanplusplus/hellojev) `📚2` — Demos and playgrounds
+- [sechan9999/jev](https://github.com/sechan9999/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Senzo41/typesafe-ai-usecases](https://github.com/senzo41/typesafe-ai-usecases) `📚2` — typesafe-ai in:name,description created:2026-0
+- [serpent7776/jevsh](https://github.com/serpent7776/jevsh) `📚2` — topic:jev created:2026-09-22..2026-09-23
+- [shadyvb/pi-ask-jev-question](https://github.com/shadyvb/pi-ask-jev-question) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [shantanugoel/yolo-jev](https://github.com/shantanugoel/yolo-jev) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [sharma6503/jev](https://github.com/sharma6503/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [sheepice/Jev-WBC](https://github.com/sheepice/jev-wbc) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [shikakufy/ipa-jev-quiz](https://github.com/shikakufy/ipa-jev-quiz) `📚2` — ipa-jev-quiz - ipa-jev-quiz: TypeSafe Jev ecosystem repository. · JavaScript
+- [shiomi-toru/jev-dojo](https://github.com/shiomi-toru/jev-dojo) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [shirenchuang/jingliu](https://github.com/shirenchuang/jingliu) `📚2`
+- [Shivp1413/real-JEV](https://github.com/shivp1413/real-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [shm11C3/jev-checkup](https://github.com/shm11c3/jev-checkup) `📚2`
+- [shreytalreja25/jev-vs-the-world](https://github.com/shreytalreja25/jev-vs-the-world) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [shubham10divakar/CyberJev](https://github.com/shubham10divakar/cyberjev) `📚2` — Jev-family model/tooling repo: CyberJev
+- [Shyamchandar03/TypeSafe_Jev_Sample](https://github.com/shyamchandar03/typesafe_jev_sample) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [silvaan/nav-jev](https://github.com/silvaan/nav-jev) `📚2`
+- [silverzzzzz/jev-binaryoption](https://github.com/silverzzzzz/jev-binaryoption) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [simonholm/jev-lab](https://github.com/simonholm/jev-lab) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [singerbj/no-drama-llama](https://github.com/singerbj/no-drama-llama) `📚2` — Turn your Windows gaming PC into an always-on local LLM server that gets out of the way wh
+- [siren2345/jev-apple-fm](https://github.com/siren2345/jev-apple-fm) `📚2`
+- [Skara99/jev-chat-all](https://github.com/skara99/jev-chat-all) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [skyblueearthjapan/JEV-PCUse](https://github.com/skyblueearthjapan/jev-pcuse) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [skytodmoon/jev-p](https://github.com/skytodmoon/jev-p) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [sljeff/jev-llm](https://github.com/sljeff/jev-llm) `📚2` — Makes Jev output its replies one word at a time.
+- [smanx/llm2jev](https://github.com/smanx/llm2jev) `📚2` — llm2jev - llm2jev: TypeSafe Jev ecosystem repository. · HTML
+- [sneldao/stoppage](https://github.com/sneldao/stoppage) `📚2` — stoppage.sportwarren.com
+- [Sodelin/Luna-Jev-ADK-Resesrch-Integration](https://github.com/sodelin/luna-jev-adk-resesrch-integration) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [somarc/da-jev](https://github.com/somarc/da-jev) `📚2` — jev in:name created:2026-09-16..2026-09-17
+- [soyezequiel/filtro-inteligente-jev](https://github.com/soyezequiel/filtro-inteligente-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [specialsouth2004/autogpt](https://github.com/specialsouth2004/autogpt) `📚2`
+- [SportTanec/jev-tool](https://github.com/sporttanec/jev-tool) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [sqhh99/personal-site](https://github.com/sqhh99/personal-site) `📚2` — this is my personal website.
+- [sridharkidambi/JEV_FinaTunedModel_comparator](https://github.com/sridharkidambi/jev_finatunedmodel_comparator) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [stefafafan/jev-fzf](https://github.com/stefafafan/jev-fzf) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [StephenChan-1/Jev-usecases](https://github.com/stephenchan-1/jev-usecases) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [SunnyBagal/Jev](https://github.com/sunnybagal/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [surajkushvaha/tic-tac-toe-with-jev](https://github.com/surajkushvaha/tic-tac-toe-with-jev) `📚2`
+- [sureshmanem/jev_vs_llm_compare](https://github.com/sureshmanem/jev_vs_llm_compare) `📚2` — Other related projects
+- [sureshmanem/typesafe_jev_poc](https://github.com/sureshmanem/typesafe_jev_poc) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [sushantvema/jev-usecases](https://github.com/sushantvema/jev-usecases) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Synxneuos/jevbrain](https://github.com/synxneuos/jevbrain) `📚2` — Other related projects
+- [syy706/x-reply-shield](https://github.com/syy706/x-reply-shield) `📚2`
+- [Takashi-Matsumura/jev-demo](https://github.com/takashi-matsumura/jev-demo) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [tandava-1/shivank-failproof-jev-buildathon](https://github.com/tandava-1/shivank-failproof-jev-buildathon) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [telusko-aliens/Jev---TypeSafe-AI](https://github.com/telusko-aliens/jev---typesafe-ai) `📚2` — typesafe-ai in:name,description created:2026-0
+- [tenkoh/jev-maze](https://github.com/tenkoh/jev-maze) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [thecirocks/jev](https://github.com/thecirocks/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [therealtinhtute/vietfont](https://github.com/therealtinhtute/vietfont) `📚2` — Việt hoá font pixel/bitmap — kèm bản Departure Mono Viet 134/134 ký tự
+- [TJurijs/jev_sandbox](https://github.com/tjurijs/jev_sandbox) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [tobegit3hub/systemone-open-service](https://github.com/tobegit3hub/systemone-open-service) `📚2` — The open service for system one models.
+- [tobwil/resonanzradar_JEV](https://github.com/tobwil/resonanzradar_jev) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [topqaz/vision-jev](https://github.com/topqaz/vision-jev) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [TS-KSato/jev-race-demo](https://github.com/ts-ksato/jev-race-demo) `📚2` — jev-race-demo - jev-race-demo: TypeSafe Jev ecosystem repository. · JavaScript
+- [tushar-im/rx-jev](https://github.com/tushar-im/rx-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [umarshahzad0001/jev-sorter](https://github.com/umarshahzad0001/jev-sorter) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [UMEBOSHIISAN/bonsai-jev-completion-evidence](https://github.com/umeboshiisan/bonsai-jev-completion-evidence) `📚2` — Mac mini Bonsai + Jev integration case study, with runnable offline completion checks
+- [vanhiep99w/jev-idea](https://github.com/vanhiep99w/jev-idea) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [veighnsche/can-lang](https://github.com/veighnsche/can-lang) `📚2`
+- [venim1103/embedded-jev](https://github.com/venim1103/embedded-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [Victor-vrg/jev-connector](https://github.com/victor-vrg/jev-connector) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [vipulls-69/jev-rental](https://github.com/vipulls-69/jev-rental) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [vishwas-11/Jev_Harness](https://github.com/vishwas-11/jev_harness) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [voidning/probflow](https://github.com/voidning/probflow) `📚2` — topic:jev created:2026-09-16..2026-09-19
+- [vysh1234vyshnav1223/jev-landing-lab](https://github.com/vysh1234vyshnav1223/jev-landing-lab) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Wandersport/WS-Jev](https://github.com/wandersport/ws-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [warjiang/jev-examples](https://github.com/warjiang/jev-examples) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [WayneCui/jev-rules](https://github.com/waynecui/jev-rules) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [waynegault/oilwatch](https://github.com/waynegault/oilwatch) `📚2` — Domestic heating oil price tracker for Aberdeenshire, Scotland
+- [webmatze/jev-demo](https://github.com/webmatze/jev-demo) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [weizq7/detective_jev](https://github.com/weizq7/detective_jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [who/naming-things](https://github.com/who/naming-things) `📚2` — Use Jev combined with an LLM, and your own rules/taste to make better names for things.
+- [windy/dsk-jev](https://github.com/windy/dsk-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [work4life2/jev-fc-buddy](https://github.com/work4life2/jev-fc-buddy) `📚2`
+- [xmarshall41/jev](https://github.com/xmarshall41/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [xtolol/Porygon-Jev](https://github.com/xtolol/porygon-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [Xubqpanda/everything2jev](https://github.com/xubqpanda/everything2jev) `📚2`
+- [xuehangai/jevhttp](https://github.com/xuehangai/jevhttp) `📚2` — topic:jev created:2026-09-20..2026-09-21
+- [xvin-zr/jev-texas](https://github.com/xvin-zr/jev-texas) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [yasu0903/jev-poc](https://github.com/yasu0903/jev-poc) `📚2` — jev-poc - yasu0903/jev-poc - No description provided.
+- [yeqin4814/jev](https://github.com/yeqin4814/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [ykitaa/jev_playground](https://github.com/ykitaa/jev_playground) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [ykzeng-yale/JEV-CoT-Reward](https://github.com/ykzeng-yale/jev-cot-reward) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [ynachiket/cs-sentiment-jev](https://github.com/ynachiket/cs-sentiment-jev) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [yodablocks/jobbyjev](https://github.com/yodablocks/jobbyjev) `📚2` — Ranks companies by how likely a candidate is to get an interview, with a confidence on eac
+- [yongkyu4803/gqai-jev](https://github.com/yongkyu4803/gqai-jev) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [youseiushida/jev-center](https://github.com/youseiushida/jev-center) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [YutaOkkotsu712/JevMon](https://github.com/yutaokkotsu712/jevmon) `📚2`
+- [YuTaoV5/Jev-slide](https://github.com/yutaov5/jev-slide) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [yzyialy/crush-monitor](https://github.com/yzyialy/crush-monitor) `📚2`
+- [ZackLiang/fin-jev](https://github.com/zackliang/fin-jev) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [ZackLucas/Jev-studio](https://github.com/zacklucas/jev-studio) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [zahere-dev/sentiment-analysis-with-jev](https://github.com/zahere-dev/sentiment-analysis-with-jev) `📚2`
+- [zbryikt/fbjev](https://github.com/zbryikt/fbjev) `📚2` — fbjev - fbjev: TypeSafe Jev ecosystem repository. · LiveScript
+- [zhentong98/jev-mahjong](https://github.com/zhentong98/jev-mahjong) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [zhou-xingxing/chat-relationship-analyzer](https://github.com/zhou-xingxing/chat-relationship-analyzer) `📚2` — topic:jev created:2026-09-24..2026-09-30
+- [ziwon/jev-actor](https://github.com/ziwon/jev-actor) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [zixiang0623/Jev](https://github.com/zixiang0623/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [网站](https://seeapi.com) `📚2`
+- [网站](https://textured.fyi) `📚2`
+- [网站](https://cohub.live/ncyg191125/jev-chat/w/jev-chat) `📚2`
+- [0-AI-UG/jev-nodge](https://github.com/0-ai-ug/jev-nodge) `📚1` — jevlang OR jev.ai in:name,description created:
+- [01burark-oss/systemcel](https://github.com/01burark-oss/systemcel) `📚1`
+- [0Handyman/Jev-the-wizard](https://github.com/0handyman/jev-the-wizard) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [0x15f/is-jodd](https://github.com/0x15f/is-jodd) `📚1`
+- [0xMaxMa/jev-loop](https://github.com/0xmaxma/jev-loop) `📚1`
+- [1-true-prod/hobson](https://github.com/1-true-prod/hobson) `📚1`
+- [121212165/jev-ecosystem-analysis](https://github.com/121212165/jev-ecosystem-analysis) `📚1`
+- [1wu-davy-2/jev-chat-windows](https://github.com/1wu-davy-2/jev-chat-windows) `📚1`
+- [202620325-spec/Jev-LLM](https://github.com/202620325-spec/jev-llm) `📚1`
+- [202wh/loving-artist-practice](https://github.com/202wh/loving-artist-practice) `📚1`
+- [2050juyia/jev_feedback](https://github.com/2050juyia/jev_feedback) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [207studio/jev-aside-tools,0,,,2026-09-21,Opt-in](https://github.com/207studio/jev-aside-tools,0,,,2026-09-21,opt-in) `📚1`
+- [2686521696/panwatch-Jev](https://github.com/2686521696/panwatch-jev) `📚1`
+- [2af86848](https://huggingface.co/harshatheg/qwen-2.5-1b-rlcd/tree/2af86848be75847ccb3553b0941cc51d6ef7e4e9) `📚1`
+- [33psilon/JEV-E](https://github.com/33psilon/jev-e) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [36氪](https://m.36kr.com/p/3988716815242885) `📚1`
+- [36氪](https://m.36kr.com/p/3988164509711361) `📚1`
+- [4RSIM3R/jev-jdd](https://github.com/4rsim3r/jev-jdd) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [674019130/674019130.github.io](https://github.com/674019130/674019130.github.io) `📚1`
+- [7datumba/jev-tower](https://github.com/7datumba/jev-tower) `📚1` — Other related projects
+- [7Zenox/gemma-jev](https://github.com/7zenox/gemma-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [A](https://post.smzdm.com/p/ad798m6x) `📚1` — part from the first lead from an older repository record, titles and index dates came from SMZDM reference lists A, B, and C. They were used only to discover…
+- [a/one\](https://github.com/a/one\) `📚1`
+- [a1exxd0/my-jev](https://github.com/a1exxd0/my-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [a2751338876-wq/jev-assist](https://github.com/a2751338876-wq/jev-assist) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [a3s-lab/apofasi](https://github.com/a3s-lab/apofasi) `📚1`
+- [AAA611/stardew-jev](https://github.com/aaa611/stardew-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [aadithya1996/enterprise-jev](https://github.com/aadithya1996/enterprise-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [aadityansha06/jev-demo](https://github.com/aadityansha06/jev-demo) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [aarora79/my-ai-assets](https://github.com/aarora79/my-ai-assets) `📚1`
+- [abdair-coca/JevCharacter](https://github.com/abdair-coca/jevcharacter) `📚1`
+- [abdelrahmanmagdii/jevci](https://github.com/abdelrahmanmagdii/jevci) `📚1`
+- [abenojardev/laravel-jev-ai](https://github.com/abenojardev/laravel-jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [AbhinayAmbati/jev-pilot](https://github.com/abhinayambati/jev-pilot) `📚1`
+- [Abhishekfm/JevCheck](https://github.com/abhishekfm/jevcheck) `📚1`
+- [abhishekmanikandan/jev](https://github.com/abhishekmanikandan/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [AbstractFruitFactory/loremaster](https://github.com/abstractfruitfactory/loremaster) `📚1`
+- [adamnroman/slop-filter,22,JavaScript,,2026-09-20](https://github.com/adamnroman/slop-filter,22,javascript,,2026-09-20) `📚1`
+- [adamtopaz/jevselector](https://github.com/adamtopaz/jevselector) `📚1`
+- [AdamTovatt/easy-reasy](https://github.com/adamtovatt/easy-reasy) `📚1` — Easy resource management in C# that allows statically typed and startup validated embedded
+- [adihex/typesafeai-fafo](https://github.com/adihex/typesafeai-fafo) `📚1` — Jev-as-merge-adjudicator fafo: selector-not-generator harness
+- [adishchowdhury/jev_adished](https://github.com/adishchowdhury/jev_adished) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [aditya201551/jevs-home](https://github.com/aditya201551/jevs-home) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [adityahimaone/switchyard](https://github.com/adityahimaone/switchyard) `📚1`
+- [adityamukherjee42/jev-topic-identification](https://github.com/adityamukherjee42/jev-topic-identification) `📚1`
+- [adityasudhakar/Jev](https://github.com/adityasudhakar/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [admiller007/twitter-bookmark](https://github.com/admiller007/twitter-bookmark) `📚1`
+- [AdnanQuazi/jev-dreaming](https://github.com/adnanquazi/jev-dreaming) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [AdoCbl/JEV-SONARQUBE](https://github.com/adocbl/jev-sonarqube) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [adon68/jev-xhs-emoji-demo](https://github.com/adon68/jev-xhs-emoji-demo) `📚1`
+- [Adrian-Ernesto/jevsort](https://github.com/adrian-ernesto/jevsort) `📚1` — Rank things with Jev, a judgment model that is not a consistent comparator. Measures where
+- [adrianhaj/lotto-jev](https://github.com/adrianhaj/lotto-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [adtureven/JevRecall](https://github.com/adtureven/jevrecall) `📚1`
+- [advision-development/jevicle](https://github.com/advision-development/jevicle) `📚1`
+- [aehsan275/jev-monopoly](https://github.com/aehsan275/jev-monopoly) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [aemilivs/drama](https://github.com/aemilivs/drama) `📚1`
+- [aesaganda/jev](https://github.com/aesaganda/jev) `📚1` — jev - aesaganda/jev - No description provided.
+- [agharsallah/jev-examples](https://github.com/agharsallah/jev-examples) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Agnuxo1/Universal-Cognitive-Architecture-JEV-v2,2,HTML,,2026-09-22](https://github.com/agnuxo1/universal-cognitive-architecture-jev-v2,2,html,,2026-09-22) `📚1`
+- [agostynah/lulu-harness](https://github.com/agostynah/lulu-harness) `📚1`
+- [ahaydarli/jevrail](https://github.com/ahaydarli/jevrail) `📚1`
+- [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works) `📚1`
+- [aias/red-cliff-record](https://github.com/aias/red-cliff-record) `📚1`
+- [aibangjuxin/knowledge](https://github.com/aibangjuxin/knowledge) `📚1`
+- [AIJev](https://aijev.net) `📚1` — An independent third-party playground currently included as one community example. Listing it does not imply endorsement, and its behavior is not evidence of…
+- [ajaffer/mock-interview-signals](https://github.com/ajaffer/mock-interview-signals) `📚1`
+- [akakaule/nimbus](https://github.com/akakaule/nimbus) `📚1`
+- [akashpriyadarshii/akashpriyadarshii](https://github.com/akashpriyadarshii/akashpriyadarshii) `📚1`
+- [AkashPriyadarshii/jev-superpowers,27,HTML,,2026-09-18,Systematic](https://github.com/akashpriyadarshii/jev-superpowers,27,html,,2026-09-18,systematic) `📚1`
+- [akhilaaa3](https://huggingface.co/akhilaaa3) `📚1`
+- [akinov/cloudflare-jev](https://github.com/akinov/cloudflare-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [akollegger/zebra-space](https://github.com/akollegger/zebra-space) `📚1`
+- [akriot/open-jev-website](https://github.com/akriot/open-jev-website) `📚1`
+- [AkshayTripathiAI/jev-physics-lab](https://github.com/akshaytripathiai/jev-physics-lab) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [akshith2k4/jev](https://github.com/akshith2k4/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [alaithuy385-byte/jev](https://github.com/alaithuy385-byte/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [aleksvega/aleksvega](https://github.com/aleksvega/aleksvega) `📚1`
+- [Aleskyy/Jevsona](https://github.com/aleskyy/jevsona) `📚1`
+- [alexdenkk/jev-go](https://github.com/alexdenkk/jev-go) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [alexmy21/bonsai-ewm](https://github.com/alexmy21/bonsai-ewm) `📚1`
+- [alexmy21/ewm-state-machine](https://github.com/alexmy21/ewm-state-machine) `📚1`
+- [alexnodeland/stretto](https://github.com/alexnodeland/stretto) `📚1`
+- [AlexSanin/jev-playground](https://github.com/alexsanin/jev-playground) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [aley3567/awsome-jev-sight](https://github.com/aley3567/awsome-jev-sight) `📚1`
+- [AliyuYahaya/ritza-typesafe-trial](https://github.com/aliyuyahaya/ritza-typesafe-trial) `📚1`
+- [allan-nava.github.io/hookgate](https://allan-nava.github.io/hookgate) `📚1`
+- [almogtavor/jev-consistency](https://github.com/almogtavor/jev-consistency) `📚1` — Spend compute selectively while reasoning still runs
+- [alsrl8/owo](https://github.com/alsrl8/owo) `📚1` — Interactive Jev reaction scenario POC
+- [alulema/trip-planner](https://github.com/alulema/trip-planner) `📚1`
+- [alveshelio/dsh-jev-governor](https://github.com/alveshelio/dsh-jev-governor) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [amaljithkuttamath/amaljithkuttamath.github.io](https://github.com/amaljithkuttamath/amaljithkuttamath.github.io) `📚1`
+- [amaljithkuttamath/amaljithkuttamathhub.io](https://github.com/amaljithkuttamath/amaljithkuttamathhub.io) `📚1`
+- [Ameyanagi/ds4-jev](https://github.com/ameyanagi/ds4-jev) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [aminmesbahi/jev-demo](https://github.com/aminmesbahi/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [amoreX/jevvy](https://github.com/amorex/jevvy) `📚1` — Some cool experiments with jev jevvy
+- [amroset/Jev-Alarm-Flood](https://github.com/amroset/jev-alarm-flood) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [andixonksuvet/JEV-US-Risk-Assessment](https://github.com/andixonksuvet/jev-us-risk-assessment) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [andrew-monroe/twenty-questions](https://github.com/andrew-monroe/twenty-questions) `📚1` — twenty-questions - Twenty Questions played by two AI models: gpt-oss-120b guesses, TypeSafe's Jev answers. Cloudflare Worker, zero dependencies. · JavaScript
+- [andrueandersoncs/lion](https://github.com/andrueandersoncs/lion) `📚1`
+- [angadjosan/Jevplayground](https://github.com/angadjosan/jevplayground) `📚1`
+- [angelathomas291/jev-bod](https://github.com/angelathomas291/jev-bod) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [angelespinoza/vera](https://github.com/angelespinoza/vera) `📚1`
+- [AngusDujw/jev-RSI](https://github.com/angusdujw/jev-rsi) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [anhvth/jev-audio](https://github.com/anhvth/jev-audio) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [aninibread/jev-3s](https://github.com/aninibread/jev-3s) `📚1`
+- [aninibread/jev-dino](https://github.com/aninibread/jev-dino) `📚1`
+- [aniruddhabagal/failsafe-jev-buildathon](https://github.com/aniruddhabagal/failsafe-jev-buildathon) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [AniruddhaK07/jev-airlock](https://github.com/aniruddhak07/jev-airlock) `📚1`
+- [anish-inf/jev-llm](https://github.com/anish-inf/jev-llm) `📚1`
+- [aniyababy/jev_private](https://github.com/aniyababy/jev_private) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ankitaa20tr/Jev](https://github.com/ankitaa20tr/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [ankitsamriwal/typesafe-ai-behavior](https://github.com/ankitsamriwal/typesafe-ai-behavior) `📚1` — Behavior pattern intelligence demo for multi-channel lead engagement
+- [ankojh/jev-exp](https://github.com/ankojh/jev-exp) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [ankojh/yy](https://github.com/ankojh/yy) `📚1`
+- [anlen123/my_nonebot2](https://github.com/anlen123/my_nonebot2) `📚1`
+- [AnmolSaini16/jev-sentinel](https://github.com/anmolsaini16/jev-sentinel) `📚1`
+- [annadmin-cyber/jevvvvvvvvvvvvvvvvv](https://github.com/annadmin-cyber/jevvvvvvvvvvvvvvvvv) `📚1`
+- [anomalyco/models.dev](https://github.com/anomalyco/models.dev) `📚1`
+- [anqorithm/jev-alert-poc](https://github.com/anqorithm/jev-alert-poc) `📚1` — A local Prometheus and Alertmanager experiment using Jev for structured reliability recomm
+- [answer9/jev-gomoku](https://github.com/answer9/jev-gomoku) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [anthonyprosser/spotify-to-mp3](https://github.com/anthonyprosser/spotify-to-mp3) `📚1`
+- [antiboren123-bit/jev](https://github.com/antiboren123-bit/jev) `📚1` — jev in:name created:2026-05-01..2026-05-31
+- [antodiazcano/jev](https://github.com/antodiazcano/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [anubis44197/kit_hub](https://github.com/anubis44197/kit_hub) `📚1`
+- [anyfilter/anyfilter](https://github.com/anyfilter/anyfilter) `📚1` — Hide anything you don't want to see on any site. X for now, more to come.
+- [apache/airflow](https://github.com/apache/airflow) `📚1`
+- [apeltheory/bjorn](https://github.com/apeltheory/bjorn) `📚1`
+- [apidance/JEVX](https://github.com/apidance/jevx) `📚1`
+- [ar077685-beep/jevansrot](https://github.com/ar077685-beep/jevansrot) `📚1`
+- [arapat/jev-algo](https://github.com/arapat/jev-algo) `📚1`
+- [arashrasoulzadeh/jevhub_ir](https://github.com/arashrasoulzadeh/jevhub_ir) `📚1` — Other related projects
+- [Arby2026/PolyJev](https://github.com/arby2026/polyjev) `📚1`
+- [ardjo-s/jev-calorie-tracker](https://github.com/ardjo-s/jev-calorie-tracker) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ardnew/topic](https://github.com/ardnew/topic) `📚1` — Efficient in-process publish-subscribe broker for Go in which types are the topics
+- [are-one/siakad_jev](https://github.com/are-one/siakad_jev) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [arieprasetyo-ecomindo/scorer_cli](https://github.com/arieprasetyo-ecomindo/scorer_cli) `📚1` — deterministic and system-one model tools to determine the quality of a project
+- [Arihant0008/Jev-demo](https://github.com/arihant0008/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Arindam200/fr](https://github.com/arindam200/fr) `📚1`
+- [arkamfahry/typeid-go](https://github.com/arkamfahry/typeid-go) `📚1` — topic:typesafe created:2024-01-01..2024-12-31
+- [ArkDataShaw/jev-loop](https://github.com/arkdatashaw/jev-loop) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [arnobroekhof/jev](https://github.com/arnobroekhof/jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [aronvsr/KoAlign-jev](https://github.com/aronvsr/koalign-jev) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [aroungit/Jev_handson](https://github.com/aroungit/jev_handson) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [Arpit-Khandelwal/jev-linkedin-slop-filter,5,JavaScript,,2026-09-22](https://github.com/arpit-khandelwal/jev-linkedin-slop-filter,5,javascript,,2026-09-22) `📚1`
+- [arthurkatcher/jev-realm-of-iron,1,JavaScript,,2026-09-26](https://github.com/arthurkatcher/jev-realm-of-iron,1,javascript,,2026-09-26) `📚1`
+- [artistpro/sanantes-hub](https://github.com/artistpro/sanantes-hub) `📚1`
+- [ARYAN-04/jevify](https://github.com/aryan-04/jevify) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Aryan2624/Aryan2624](https://github.com/aryan2624/aryan2624) `📚1` — # Hi, I'm Aryan Dubey 👋 ## B.Tech AI & ML Student Building Intelligent Systems, One Model at a Time
+- [arzkr/jevify-demo](https://github.com/arzkr/jevify-demo) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [Ashad001/jev-runner](https://github.com/ashad001/jev-runner) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [ashwin-aggarwal/buildwJev](https://github.com/ashwin-aggarwal/buildwjev) `📚1`
+- [asimog/cancerjev](https://github.com/asimog/cancerjev) `📚1`
+- [ASpooky/jev-kata](https://github.com/aspooky/jev-kata) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [atanasster/electionsbg](https://github.com/atanasster/electionsbg) `📚1` — Data statistics for Bulgaria
+- [atharvadomale/daily-huggingface-ai-papers](https://github.com/atharvadomale/daily-huggingface-ai-papers) `📚1`
+- [atomic14/manic-miner-jev](https://github.com/atomic14/manic-miner-jev) `📚1` — Other related projects
+- [atozuser0224/JevIs](https://github.com/atozuser0224/jevis) `📚1`
+- [atr0phy/jev-sandbox](https://github.com/atr0phy/jev-sandbox) `📚1`
+- [AttackJev/AttackJev](https://github.com/attackjev/attackjev) `📚1`
+- [audiodude/evil-genius](https://github.com/audiodude/evil-genius) `📚1` — Typed Jev-to-Ableton Live Suite 12.4.6 interaction engine with a 64-track fixture
+- [Augustzero/Jev-Lab](https://github.com/augustzero/jev-lab) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Austin-TB/wikiJev](https://github.com/austin-tb/wikijev) `📚1`
+- [Auth.js](https://authjs.dev) `📚1` — Authentication for user accounts and sessions.
+- [autonull/senars12](https://github.com/autonull/senars12) `📚1`
+- [avgon/jev-tr](https://github.com/avgon/jev-tr) `📚1` — Turkce Jev arac kiti — duygu analizi, siniflandirma, icerik skoru, e-ticaret, moderasyon,
+- [avik-kumar/jev-sandbox](https://github.com/avik-kumar/jev-sandbox) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [AvixoSec/jev-harness](https://github.com/avixosec/jev-harness) `📚1`
+- [awesamarth/jev-experiments](https://github.com/awesamarth/jev-experiments) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [AY Automate](https://ayautomate.com) `📚1` — Sponsored by AY Automate, an AI-native engineering company. This list stays free and open source.
+- [ayush-patel-29/neon-dash-jev](https://github.com/ayush-patel-29/neon-dash-jev) `📚1` — Other related projects
+- [ayushworks/Jev](https://github.com/ayushworks/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [B](https://post.smzdm.com/p/a5ro30p3) `📚1`
+- [babybear-labs/system-one](https://github.com/babybear-labs/system-one) `📚1`
+- [backant-io/jevlery](https://github.com/backant-io/jevlery) `📚1`
+- [backmeupplz/plainwallet](https://github.com/backmeupplz/plainwallet) `📚1`
+- [bacoco/Omni-JEV](https://github.com/bacoco/omni-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [baekenough/jev-study](https://github.com/baekenough/jev-study) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [bamideletewogbade/gods-eye-view,0,,,2026-09-23](https://github.com/bamideletewogbade/gods-eye-view,0,,,2026-09-23) `📚1`
+- [baremetaldevx86/jev-harness](https://github.com/baremetaldevx86/jev-harness) `📚1`
+- [bautt-s/jev-presentation](https://github.com/bautt-s/jev-presentation) `📚1` — Una presentación que hice en Sheriff sobre Jev: un modelo que funciona distinto al resto d
+- [bcuivision/love_jev](https://github.com/bcuivision/love_jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [bdecrem/hilma](https://github.com/bdecrem/hilma) `📚1`
+- [BeanyZoldyck/jevsweeper](https://github.com/beanyzoldyck/jevsweeper) `📚1` — minesweeper w jev, it kinda sux
+- [bebe0307mz/jev-colosseum](https://github.com/bebe0307mz/jev-colosseum) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [benevalterjr/branch.dev](https://github.com/benevalterjr/branch.dev) `📚1`
+- [beniyasan/word-wolf-jev](https://github.com/beniyasan/word-wolf-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [benjamincanac/avelune](https://github.com/benjamincanac/avelune) `📚1`
+- [benjamta/jev_rainbrid_experiment](https://github.com/benjamta/jev_rainbrid_experiment) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [bennettamy4008/jevs](https://github.com/bennettamy4008/jevs) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [benomahony/zig-typesafe-ai](https://github.com/benomahony/zig-typesafe-ai) `📚1` — typesafe-ai in:name,description created:2026-0
+- [bensonlove1986-sys/jev-rebuild](https://github.com/bensonlove1986-sys/jev-rebuild) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [bentrd/Beam](https://github.com/bentrd/beam) `📚1`
+- [BerriAI/litellm-docs](https://github.com/berriai/litellm-docs) `📚1`
+- [berryhill/doer](https://github.com/berryhill/doer) `📚1`
+- [besanson/jev](https://github.com/besanson/jev) `📚1` — Other related projects
+- [beso1225/jev-jotworthy](https://github.com/beso1225/jev-jotworthy) `📚1`
+- [bgzolab/make-vxna-great-again](https://github.com/bgzolab/make-vxna-great-again) `📚1`
+- [BharanitharanKR/Jev-Docs](https://github.com/bharanitharankr/jev-docs) `📚1`
+- [bifulcma/jev-43-eventi](https://github.com/bifulcma/jev-43-eventi) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [bilaluygurai/jev-dashboard](https://github.com/bilaluygurai/jev-dashboard) `📚1`
+- [bilaluygurai/jev-dashboard-prompt](https://github.com/bilaluygurai/jev-dashboard-prompt) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [binbin2002/RoboJev](https://github.com/binbin2002/robojev) `📚1`
+- [birdhalfbaked/not-jev](https://github.com/birdhalfbaked/not-jev) `📚1`
+- [Bizuayeu/GenericJevMCP-via-DiffusionGemma](https://github.com/bizuayeu/genericjevmcp-via-diffusiongemma) `📚1`
+- [bjaysingh/claudewhisperer](https://github.com/bjaysingh/claudewhisperer) `📚1`
+- [bjornaron/jev-demo](https://github.com/bjornaron/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [BlockConnoisseur/jev](https://github.com/blockconnoisseur/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [bloome-alex/mi-tienda-ya](https://github.com/bloome-alex/mi-tienda-ya) `📚1`
+- [blu59204/careercraftsai](https://github.com/blu59204/careercraftsai) `📚1`
+- [BlueLvRen/lvren-jev](https://github.com/bluelvren/lvren-jev) `📚1`
+- [bluewakame/donguriko-live](https://github.com/bluewakame/donguriko-live) `📚1`
+- [bobbywzl/unitos](https://github.com/bobbywzl/unitos) `📚1`
+- [bochen2029-pixel/isobar](https://github.com/bochen2029-pixel/isobar) `📚1`
+- [Bodila51/grok-b](https://github.com/bodila51/grok-b) `📚1`
+- [BoltDoggy/typesafe-docs-zh,0,JavaScript,,2026-09-22,本目录是](https://github.com/boltdoggy/typesafe-docs-zh,0,javascript,,2026-09-22,本目录是) `📚1`
+- [bonsai/janken](https://github.com/bonsai/janken) `📚1` — Other related projects
+- [bonsai/jeva](https://github.com/bonsai/jeva) `📚1`
+- [Border Beam](https://magicui.design/docs/components/border-beam) `📚1`
+- [Boredem125/jev-os](https://github.com/boredem125/jev-os) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [boyninja1555/jnch](https://github.com/boyninja1555/jnch) `📚1` — topic:typesafe created:2026-02-01..2026-02-28
+- [brainwagon/ai-brief](https://github.com/brainwagon/ai-brief) `📚1`
+- [BrantWladichuk/jev-stealth-demo](https://github.com/brantwladichuk/jev-stealth-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [braposo/bernardo-fit](https://github.com/braposo/bernardo-fit) `📚1`
+- [BraveRam/jev-slop-detector](https://github.com/braveram/jev-slop-detector) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [bravoricdev/scrocco-llm](https://github.com/bravoricdev/scrocco-llm) `📚1`
+- [brightshore/jev-net,3,C](https://github.com/brightshore/jev-net,3,c) `📚1`
+- [Brownsey/jev](https://github.com/brownsey/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [BSHaidar/JevRepo](https://github.com/bshaidar/jevrepo) `📚1`
+- [Bun](https://bun.sh) `📚1` — for local; optional TYPESAFE_API_KEY (server-only) and JEV_MODEL.
+- [BusinessWire](https://businesswire.com) `📚1` — Sept 16, 2026) — $40M DCVC funding round
+- [bvolpato.github.io/kevala](https://bvolpato.github.io/kevala) `📚1` — Or pnpm add kevala. Pin tip 6e1754e1a3e73999e2f265fae939d2d06994fa6c. Live site: bvolpato.github.io/kevala.
+- [bykof/peekaboolean](https://github.com/bykof/peekaboolean) `📚1`
+- [C](https://post.smzdm.com/p/aggqvg7m) `📚1`
+- [c0llety/jevo](https://github.com/c0llety/jevo) `📚1` — jevo — content _(★0)_
+- [cakeisalie89/Quantum-Thermal-](https://github.com/cakeisalie89/quantum-thermal-) `📚1`
+- [calebvergene/jev-control-mac](https://github.com/calebvergene/jev-control-mac) `📚1`
+- [cao8011158/imdb-sentiment-analysis](https://github.com/cao8011158/imdb-sentiment-analysis) `📚1` — Sentiment analysis on the Stanford IMDb dataset with a comparison between conventional NLP models and Jev. For DLBAIPNLP01 – Project: NLP
+- [Carl-Lee91/Jev-VoC](https://github.com/carl-lee91/jev-voc) `📚1`
+- [carloshs92/model-ai-jev-demos](https://github.com/carloshs92/model-ai-jev-demos) `📚1` — jevlang OR jev.ai in:name,description created:
+- [casualattitude0/jev-ai-module](https://github.com/casualattitude0/jev-ai-module) `📚1` — jevlang OR jev.ai in:name,description created:
+- [cavack/neww-terfallh](https://github.com/cavack/neww-terfallh) `📚1`
+- [cavack/waterfallhunter](https://github.com/cavack/waterfallhunter) `📚1`
+- [ccozad/jev-experiments](https://github.com/ccozad/jev-experiments) `📚1`
+- [cfcosta/vs1](https://github.com/cfcosta/vs1) `📚1`
+- [ch33nchan/jev-av](https://github.com/ch33nchan/jev-av) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [chalk/ansi-regex](https://github.com/chalk/ansi-regex) `📚1`
+- [chalk/ansi-styles](https://github.com/chalk/ansi-styles) `📚1`
+- [chalk/chalk](https://github.com/chalk/chalk) `📚1`
+- [chalk/strip-ansi](https://github.com/chalk/strip-ansi) `📚1`
+- [chalk/wrap-ansi](https://github.com/chalk/wrap-ansi) `📚1`
+- [ChamaOMister/jev-use-case-enterprise-proof-of-concept-b2b](https://github.com/chamaomister/jev-use-case-enterprise-proof-of-concept-b2b) `📚1` — A jev proof concept for Enterprise use case.
+- [Charan-2004/Flying-Jev,0,JavaScript,,2026-09-26,Realistic](https://github.com/charan-2004/flying-jev,0,javascript,,2026-09-26,realistic) `📚1`
+- [charlypoly/jev-fetch-webpage](https://github.com/charlypoly/jev-fetch-webpage) `📚1`
+- [cheeriojs/dom-serializer](https://github.com/cheeriojs/dom-serializer) `📚1`
+- [ChenhuiZhao820/jev_hackathon](https://github.com/chenhuizhao820/jev_hackathon) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [chenxianfu1378817/jev-shortcuts-config](https://github.com/chenxianfu1378817/jev-shortcuts-config) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [chilligerchief/simple-jev](https://github.com/chilligerchief/simple-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [chl-5g/QuantLLM](https://github.com/chl-5g/quantllm) `📚1`
+- [chocopc123/jev-oogiri-grand-prix](https://github.com/chocopc123/jev-oogiri-grand-prix) `📚1`
+- [chongchong59699/isaac-jev](https://github.com/chongchong59699/isaac-jev) `📚1`
+- [choyiny/jev-vs-tev](https://github.com/choyiny/jev-vs-tev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [chrisstarr7/jev-kit](https://github.com/chrisstarr7/jev-kit) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [christczp-a11y/JevDev](https://github.com/christczp-a11y/jevdev) `📚1`
+- [chuongtran-wego/jev_plays_dino](https://github.com/chuongtran-wego/jev_plays_dino) `📚1`
+- [church-of-lane/lane](https://github.com/church-of-lane/lane) `📚1`
+- [cipherTing/sael,0,Go,,2026-09-21](https://github.com/cipherting/sael,0,go,,2026-09-21) `📚1`
+- [circuit-overtime/circuit-overtime](https://github.com/circuit-overtime/circuit-overtime) `📚1`
+- [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) `📚1`
+- [CJ-Matthew/jevgo](https://github.com/cj-matthew/jevgo) `📚1` — Other related projects
+- [ckcat/feed](https://github.com/ckcat/feed) `📚1`
+- [ckirchhoff2021/knowledge-base](https://github.com/ckirchhoff2021/knowledge-base) `📚1`
+- [cktang88/jev-playground](https://github.com/cktang88/jev-playground) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [claudialu0720/jevaiworks](https://github.com/claudialu0720/jevaiworks) `📚1`
+- [ClockworkIdeasOrg/jev-examples](https://github.com/clockworkideasorg/jev-examples) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Cloudflare Pages](https://jev-songwriter.pages.dev) `📚1`
+- [Clue Me](https://yorohan.com/clue-me) `📚1`
+- [clueless-creations/brigade](https://github.com/clueless-creations/brigade) `📚1`
+- [cognitive-fab/polyx](https://github.com/cognitive-fab/polyx) `📚1`
+- [congbk92/voz-j4f](https://github.com/congbk92/voz-j4f) `📚1`
+- [conradipui-glitch/jev-gates](https://github.com/conradipui-glitch/jev-gates) `📚1`
+- [const-ahmed/unschema](https://github.com/const-ahmed/unschema) `📚1` — Jev-powered form validation
+- [contacto939/kit-jev-landing](https://github.com/contacto939/kit-jev-landing) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Contributor Covenant](https://contributor-covenant.org) `📚1`
+- [cpaczek/things-vs-stuff](https://github.com/cpaczek/things-vs-stuff) `📚1`
+- [crackercat/feed](https://github.com/crackercat/feed) `📚1`
+- [craigh33/adk-go-jev](https://github.com/craigh33/adk-go-jev) `📚1`
+- [crashlabsai/jev](https://github.com/crashlabsai/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [crizpy7-sketch/extreme-motion-demo](https://github.com/crizpy7-sketch/extreme-motion-demo) `📚1` — Cinematic extreme-motion landing demo paced by Jev (System One) intensity choices
+- [croit/aiplane](https://github.com/croit/aiplane) `📚1`
+- [Cua 官网及用量定价](https://cua.ai) `📚1`
+- [cuba1511/jev-engineering](https://github.com/cuba1511/jev-engineering) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [cubinh2005/jev-demo](https://github.com/cubinh2005/jev-demo) `📚1`
+- [cuipengfei/agc](https://github.com/cuipengfei/agc) `📚1`
+- [cvsgireesh/jevusher](https://github.com/cvsgireesh/jevusher) `📚1`
+- [cxyfreedom/website-hot-hub](https://github.com/cxyfreedom/website-hot-hub) `📚1`
+- [cyber-jev/cyber-jev](https://github.com/cyber-jev/cyber-jev) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [Cyberesia/jev-traps](https://github.com/cyberesia/jev-traps) `📚1`
+- [cybereun/jev-work](https://github.com/cybereun/jev-work) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [cyberumut/jev-bonsai-2-27B](https://github.com/cyberumut/jev-bonsai-2-27b) `📚1`
+- [cyriusweng/omp-jev-gate](https://github.com/cyriusweng/omp-jev-gate) `📚1`
+- [cyrus-xy0/jev-lab](https://github.com/cyrus-xy0/jev-lab) `📚1`
+- [daanser/trans_helper_prism](https://github.com/daanser/trans_helper_prism) `📚1`
+- [daffirds/jev-pg](https://github.com/daffirds/jev-pg) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [dagote/JevBlock](https://github.com/dagote/jevblock) `📚1`
+- [dagucloud/dagu](https://github.com/dagucloud/dagu) `📚1`
+- [daimatz/native-check-jev](https://github.com/daimatz/native-check-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [DAIR.AI Academy: "Built with Jev"](https://academy.dair.ai/resources/jev-field-notes) `📚1` — Community gallery of Jev demos, experiments and build ideas curated by DAIR.AI Academy (Elvis Saravia's community).
+- [dakires/tft-openoverlay](https://github.com/dakires/tft-openoverlay) `📚1`
+- [damashiai/mini-fm](https://github.com/damashiai/mini-fm) `📚1` — Describe a mood, get a mix — or just browse. Audio streaming with lyrics, queues, and char
+- [damoneward38/NEURAL-JEV](https://github.com/damoneward38/neural-jev) `📚1` — Finds Fixes and record's ID's to each job,High/critical ,fixes need approval
+- [daniel-dia/jev-anime-stats](https://github.com/daniel-dia/jev-anime-stats) `📚1`
+- [DanielKillenberger/telperion](https://github.com/danielkillenberger/telperion) `📚1` — A procedural tree generator. Authored silhouette, space colonization, conserved thickness, one continuous pla…
+- [danielmulec/jevpaste](https://github.com/danielmulec/jevpaste) `📚1`
+- [danielscoffee/nixos](https://github.com/danielscoffee/nixos) `📚1`
+- [dannyliv/scam-signal-lens](https://github.com/dannyliv/scam-signal-lens) `📚1`
+- [DansiDanutz/fake-real-jev,0,JavaScript,,2026-09-26,How](https://github.com/dansidanutz/fake-real-jev,0,javascript,,2026-09-26,how) `📚1`
+- [DansiDanutz/JEV-MAC](https://github.com/dansidanutz/jev-mac) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [darvat/jevvy](https://github.com/darvat/jevvy) `📚1` — Other related projects
+- [darwintechlab.com](https://darwintechlab.com) `📚1`
+- [datafibers/jev_traffic](https://github.com/datafibers/jev_traffic) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [dauganz09/jev-jaro](https://github.com/dauganz09/jev-jaro) `📚1` — jev in:name created:2026-05-01..2026-05-31
+- [davide-desio-eleva/kirograph](https://github.com/davide-desio-eleva/kirograph) `📚1`
+- [davidmasp/url-jev](https://github.com/davidmasp/url-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [ddesmond/explore-jev](https://github.com/ddesmond/explore-jev) `📚1`
+- [ddsotos/ata2](https://github.com/ddsotos/ata2) `📚1`
+- [deb-cod/transcription-jev](https://github.com/deb-cod/transcription-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [deb589d8](https://huggingface.co/notnotsamuel/lfm2.5-350m-rlcd/tree/deb589d803d141cabd158ef55f6617b128529f36) `📚1`
+- [debamitro/yc-or-not-checker](https://github.com/debamitro/yc-or-not-checker) `📚1` — See if your idea can qualify for YC - powered by Jev
+- [deepankarkotnala/jev-use-cases](https://github.com/deepankarkotnala/jev-use-cases) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) `📚1`
+- [dehls-onix/gemini-jev](https://github.com/dehls-onix/gemini-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dej-h/jevseek](https://github.com/dej-h/jevseek) `📚1`
+- [DejaAI2/MiniJev](https://github.com/dejaai2/minijev) `📚1`
+- [delight0517/homebrew-jev](https://github.com/delight0517/homebrew-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [deltaparticle/granica-submission](https://github.com/deltaparticle/granica-submission) `📚1`
+- [demo.mkdirs.com](https://demo.mkdirs.com) `📚1` — Demo — Explore a live directory website built with Mkdirs.
+- [denizak/simple_harness](https://github.com/denizak/simple_harness) `📚1`
+- [derekshiii/DriveJev](https://github.com/derekshiii/drivejev) `📚1`
+- [desalago/jev.github.io](https://github.com/desalago/jev.github.io) `📚1` — jev in:name created:2026-08-01..2026-08-31
+- [desalago/jevs.github.io](https://github.com/desalago/jevs.github.io) `📚1` — jev in:name created:2026-08-01..2026-08-31
+- [desplega-ai/pi-mono-typesafe](https://github.com/desplega-ai/pi-mono-typesafe) `📚1` — typesafe-ai in:name,description created:2026-0
+- [dested/alt-tv-rewind](https://github.com/dested/alt-tv-rewind) `📚1`
+- [devapro/omp-auto-typesafe](https://github.com/devapro/omp-auto-typesafe) `📚1`
+- [DevArthurM/YesOrNoJev](https://github.com/devarthurm/yesornojev) `📚1`
+- [devAwfuul/JevEngine](https://github.com/devawfuul/jevengine) `📚1`
+- [devbackend/jevgo,7,Go,,2026-09-21](https://github.com/devbackend/jevgo,7,go,,2026-09-21) `📚1`
+- [developerinlondon/assay](https://github.com/developerinlondon/assay) `📚1`
+- [devjerry0/watchdoggy](https://github.com/devjerry0/watchdoggy) `📚1`
+- [devjonasmax/cheater-or-not](https://github.com/devjonasmax/cheater-or-not) `📚1`
+- [devjonasmax/resume-ai](https://github.com/devjonasmax/resume-ai) `📚1`
+- [devjtv/jev-gate](https://github.com/devjtv/jev-gate) `📚1`
+- [devos-ing/jevbrain](https://github.com/devos-ing/jevbrain) `📚1`
+- [devsoniclk/jev-hyperliquid](https://github.com/devsoniclk/jev-hyperliquid) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dewaken/xy-problem](https://github.com/dewaken/xy-problem) `📚1`
+- [df-yamashitamasashi/jevnoid](https://github.com/df-yamashitamasashi/jevnoid) `📚1` — A Tierra-inspired digital organism ecosystem driven by Jev (System One)
+- [dfox97/jev-explore](https://github.com/dfox97/jev-explore) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [dgawlik/JavaParsec](https://github.com/dgawlik/javaparsec) `📚1` — topic:typesafe created:2025-01-01..2025-12-31
+- [dgdecorso/BLJ02024_TR_Die_Gin_Jev_Lyn](https://github.com/dgdecorso/blj02024_tr_die_gin_jev_lyn) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [dgithinjibit/Jev-Claw](https://github.com/dgithinjibit/jev-claw) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dhanushnehru/dhanushnehru](https://github.com/dhanushnehru/dhanushnehru) `📚1`
+- [dhhieu113pro/open-jev](https://github.com/dhhieu113pro/open-jev) `📚1`
+- [Dhruv123-123/jevvingaround](https://github.com/dhruv123-123/jevvingaround) `📚1` — Other related projects
+- [dhruva-nu/cylist](https://github.com/dhruva-nu/cylist) `📚1`
+- [dicklesworthstone/dicklesworthstone](https://github.com/dicklesworthstone/dicklesworthstone) `📚1`
+- [diegoami/jev_template](https://github.com/diegoami/jev_template) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [dimitrichakma/habit-tracker](https://github.com/dimitrichakma/habit-tracker) `📚1`
+- [dineshcharyb/jev](https://github.com/dineshcharyb/jev) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [Diogenesoftoronto/keating](https://github.com/diogenesoftoronto/keating) `📚1` — The hyperteacher, autoteaching in a metaharness.
+- [Diogo Almeida](https://aiwiki.ai/wiki/diogo_almeida) `📚1` — Founder background and funding
+- [diptihumraskar/jev_demo](https://github.com/diptihumraskar/jev_demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [DiscoveryH2/zhixian-wechat](https://github.com/discoveryh2/zhixian-wechat) `📚1`
+- [divejikan-yuvarajah/JevFlow](https://github.com/divejikan-yuvarajah/jevflow) `📚1`
+- [djancyp/oido-systemone](https://github.com/djancyp/oido-systemone) `📚1`
+- [djtang-404/ai-turtle-soup](https://github.com/djtang-404/ai-turtle-soup) `📚1`
+- [dm8000/omicscalpel](https://github.com/dm8000/omicscalpel) `📚1`
+- [dmnovb/jev](https://github.com/dmnovb/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [dongjune8931/JevOps-Lab](https://github.com/dongjune8931/jevops-lab) `📚1`
+- [dongzhaohe321418-lab/jev-hamiltonian](https://github.com/dongzhaohe321418-lab/jev-hamiltonian) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dooreelko/jeb](https://github.com/dooreelko/jeb) `📚1` — The adopted but dear brother of jev
+- [doufuchuan/jev](https://github.com/doufuchuan/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [doufuchuan/jev-local](https://github.com/doufuchuan/jev-local) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dpvinh30092005/jev-1000-com-tam](https://github.com/dpvinh30092005/jev-1000-com-tam) `📚1`
+- [dpy22/go-jev](https://github.com/dpy22/go-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [dracoyan-111/gstars](https://github.com/dracoyan-111/gstars) `📚1`
+- [drakosfire/dungeonmindbuddy](https://github.com/drakosfire/dungeonmindbuddy) `📚1`
+- [drbree82/typeJev](https://github.com/drbree82/typejev) `📚1`
+- [dre-pin/jev-treasure-hunt](https://github.com/dre-pin/jev-treasure-hunt) `📚1`
+- [drewsmash/roboscoutai](https://github.com/drewsmash/roboscoutai) `📚1`
+- [drillan/6916b16e8ea31a8ec36c8f59d6483150](https://github.com/drillan/6916b16e8ea31a8ec36c8f59d6483150) `📚1`
+- [drillan/jevapan](https://github.com/drillan/jevapan) `📚1`
+- [DrNbnonono/jev-model](https://github.com/drnbnonono/jev-model) `📚1` — Other related projects
+- [dromara/liteflow](https://github.com/dromara/liteflow) `📚1`
+- [Dropday](https://dropday.ai) `📚1`
+- [DrReMain/cyber-ecosystem](https://github.com/drremain/cyber-ecosystem) `📚1` — A contract-first full-stack monorepo for networked applications — Go (Kratos v3) backend,
+- [dsk003/LinkedInNoiseFilterWithJev](https://github.com/dsk003/linkedinnoisefilterwithjev) `📚1`
+- [dushyantzz/ghosthand](https://github.com/dushyantzz/ghosthand) `📚1`
+- [dylanydai/krillion-clone](https://github.com/dylanydai/krillion-clone) `📚1`
+- [dyusuf/BinfoCheck](https://github.com/dyusuf/binfocheck) `📚1`
+- [e-vega-ws/jev-grapejs-demo](https://github.com/e-vega-ws/jev-grapejs-demo) `📚1`
+- [earendil-works/pi](https://github.com/earendil-works/pi) `📚1`
+- [early-effect/hexis,0,Scala,,2026-09-21,ZIO](https://github.com/early-effect/hexis,0,scala,,2026-09-21,zio) `📚1`
+- [eas4ai/sudus](https://github.com/eas4ai/sudus) `📚1`
+- [eddiemessiah/ai-native-company](https://github.com/eddiemessiah/ai-native-company) `📚1`
+- [edlontech/sycophant](https://github.com/edlontech/sycophant) `📚1`
+- [edom18/jev-playground](https://github.com/edom18/jev-playground) `📚1`
+- [edrache/jevworms](https://github.com/edrache/jevworms) `📚1`
+- [edsphinx/PropertyRent](https://github.com/edsphinx/propertyrent) `📚1` — topic:typesafe created:2023-01-01..2023-12-31
+- [edudevcol/jev-form-lab](https://github.com/edudevcol/jev-form-lab) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [eldhoabe/-analyzepost](https://github.com/eldhoabe/-analyzepost) `📚1`
+- [elmata2/lavega](https://github.com/elmata2/lavega) `📚1`
+- [elsejj/mtools](https://github.com/elsejj/mtools) `📚1` — Intelligently process the content you copy.
+- [ElSnacko/Open-JEV-VLA](https://github.com/elsnacko/open-jev-vla) `📚1`
+- [ElsonNg/semcull](https://github.com/elsonng/semcull) `📚1`
+- [Emanon4/tonight-cinema](https://github.com/emanon4/tonight-cinema) `📚1`
+- [en/actions](https://github.com/en/actions) `📚1`
+- [en/billing](https://github.com/en/billing) `📚1`
+- [en/rest](https://github.com/en/rest) `📚1`
+- [EndeavorYen/JevPilot-Vision](https://github.com/endeavoryen/jevpilot-vision) `📚1`
+- [endlessbaum/JevWex](https://github.com/endlessbaum/jevwex) `📚1`
+- [endymion/Few-Shot-Jev](https://github.com/endymion/few-shot-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [engineunseen/pathfinder-jev](https://github.com/engineunseen/pathfinder-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [enovikov11/tigor-ai](https://github.com/enovikov11/tigor-ai) `📚1` — Personal AI monorepo
+- [enterpilot/gomodel](https://github.com/enterpilot/gomodel) `📚1`
+- [enuminous/JEV-EFMW-Syncretic-Layer](https://github.com/enuminous/jev-efmw-syncretic-layer) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [envoy1084/turbo-starter](https://github.com/envoy1084/turbo-starter) `📚1` — Starter kit for bootstrapping full-stack applications with Turborepo.
+- [EpiDoctor/JEV-Waterbirds](https://github.com/epidoctor/jev-waterbirds) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [equationalapplications/expo-llm-wiki](https://github.com/equationalapplications/expo-llm-wiki) `📚1`
+- [equinoxfintech/ai-detector](https://github.com/equinoxfintech/ai-detector) `📚1`
+- [erezk-pontera/JevUI](https://github.com/erezk-pontera/jevui) `📚1`
+- [erhuve/call-jev](https://github.com/erhuve/call-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [eric-chen-igs/jev-260921-demo](https://github.com/eric-chen-igs/jev-260921-demo) `📚1`
+- [EricLott/jev-power-platform-detector](https://github.com/ericlott/jev-power-platform-detector) `📚1`
+- [ernesto2108/jev](https://github.com/ernesto2108/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [esinecan/jev-ouija](https://github.com/esinecan/jev-ouija) `📚1` — Chain Jev choice questions into character-by-character text. Now Jev too can hallucinate?
+- [esturban/esturban](https://github.com/esturban/esturban) `📚1`
+- [Eswaran-Hariharan/llm-vs-jev](https://github.com/eswaran-hariharan/llm-vs-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [EthanThatOneKid/zocomputer-jev,0,,A](https://github.com/ethanthatonekid/zocomputer-jev,0,,a) `📚1`
+- [evangit2/ambient-pi](https://github.com/evangit2/ambient-pi) `📚1`
+- [evanzyang91/jevis](https://github.com/evanzyang91/jevis) `📚1`
+- [Everettjoe18/JEV-Repo](https://github.com/everettjoe18/jev-repo) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [evoworkAI/jev-playground](https://github.com/evoworkai/jev-playground) `📚1`
+- [examples index](https://micdrop.dev/docs/examples) `📚1`
+- [Excalibur9527/dsh-jev,1,JavaScript,,2026-09-22,DSH](https://github.com/excalibur9527/dsh-jev,1,javascript,,2026-09-22,dsh) `📚1`
+- [f4r6d/Vienna-Housing-Finder](https://github.com/f4r6d/vienna-housing-finder) `📚1`
+- [facetomyself/typesafe-console-protocol](https://github.com/facetomyself/typesafe-console-protocol) `📚1`
+- [facilestudio/kori](https://github.com/facilestudio/kori) `📚1`
+- [FacileStudio/typesafe-ai-go](https://github.com/facilestudio/typesafe-ai-go) `📚1` — typesafe-ai in:name,description created:2026-0
+- [falconiere/toolu](https://github.com/falconiere/toolu) `📚1`
+- [fand/jev-vj](https://github.com/fand/jev-vj) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [fanweiya/gomoku-jev](https://github.com/fanweiya/gomoku-jev) `📚1` — Five-in-a-row vs a Jev AI: Three.js 3D board, orbit camera, stone bowls, win effects.
+- [farnamjhn/Telegnize](https://github.com/farnamjhn/telegnize) `📚1` — topic:jev created:2026-08-01..2026-08-31
+- [fastygo/lex](https://github.com/fastygo/lex) `📚1`
+- [fatelei/jev-resume](https://github.com/fatelei/jev-resume) `📚1`
+- [faulker/myphin](https://github.com/faulker/myphin) `📚1`
+- [fb55/domhandler](https://github.com/fb55/domhandler) `📚1`
+- [fb55/domutils](https://github.com/fb55/domutils) `📚1`
+- [fb55/entities](https://github.com/fb55/entities) `📚1`
+- [fb55/nth-check](https://github.com/fb55/nth-check) `📚1`
+- [FBddcz/Beat-Jev](https://github.com/fbddcz/beat-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [feezzz/2048_jev](https://github.com/feezzz/2048_jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [felipeadeildo/pi-ask-permission](https://github.com/felipeadeildo/pi-ask-permission) `📚1`
+- [FelixWaweru/jev-8-ball](https://github.com/felixwaweru/jev-8-ball) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [fellowship-dev/jev-second-brain@0fd1bba7b733efb38e586cf47fbccaa2d3c2b3ae](https://github.com/fellowship-dev/jev-second-brain@0fd1bba7b733efb38e586cf47fbccaa2d3c2b3ae) `📚1`
+- [fellowship-dev/navvi](https://github.com/fellowship-dev/navvi) `📚1`
+- [fenrevnik/jev_qoq6](https://github.com/fenrevnik/jev_qoq6) `📚1` — Though the process of growth is difficult, every effort will forge the cornerstone of achi
+- [fereshteh-dev/joblens](https://github.com/fereshteh-dev/joblens) `📚1`
+- [ffazecaldy/elysiumharness](https://github.com/ffazecaldy/elysiumharness) `📚1`
+- [fffej/jev-sort](https://github.com/fffej/jev-sort) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [florianhirson/jev-demo](https://github.com/florianhirson/jev-demo) `📚1`
+- [fly.rahmanyoonus.com](https://fly.rahmanyoonus.com) `📚1`
+- [flymywife/jev-n](https://github.com/flymywife/jev-n) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Forbes](https://forbes.com) `📚1` — founder profile & valuation
+- [fordnox/e592d0f68b543fd044be8e6d040863a0](https://github.com/fordnox/e592d0f68b543fd044be8e6d040863a0) `📚1`
+- [fp101fs/jev-moon](https://github.com/fp101fs/jev-moon) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [fr4j4/system-one-arena](https://github.com/fr4j4/system-one-arena) `📚1`
+- [franciscojunqueira/jev-tiss](https://github.com/franciscojunqueira/jev-tiss) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [FrancyJGLisboa/action-vocabulary-forge](https://github.com/francyjglisboa/action-vocabulary-forge) `📚1`
+- [frankchu91/jev-duo](https://github.com/frankchu91/jev-duo) `📚1`
+- [Fred-el-Jolo/jev-kit](https://github.com/fred-el-jolo/jev-kit) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [frodi-karlsson/onesie,0,Go,,2026-09-20,Possibly](https://github.com/frodi-karlsson/onesie,0,go,,2026-09-20,possibly) `📚1`
+- [fronttribe/grain](https://github.com/fronttribe/grain) `📚1`
+- [fstandhartinger/who-is-right](https://github.com/fstandhartinger/who-is-right) `📚1` — Comic realtime argument fact-check party demo using Gemini Live and Jev
+- [fukayatti/jev-japanese-judgment](https://github.com/fukayatti/jev-japanese-judgment) `📚1` — Other related projects
+- [gaborishka/jev-canvas,8,JavaScript,,2026-09-19](https://github.com/gaborishka/jev-canvas,8,javascript,,2026-09-19) `📚1`
+- [Gackson/jev-olympics](https://github.com/gackson/jev-olympics) `📚1` — Let Jev do math, chat, and draw things—in a probabilistic way.
+- [Gackson/Jevron-the-Oracle](https://github.com/gackson/jevron-the-oracle) `📚1` — Other related projects
+- [gacktomo/quiz-jev](https://github.com/gacktomo/quiz-jev) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [gadc047-sudo/online-backgammon](https://github.com/gadc047-sudo/online-backgammon) `📚1`
+- [gagar1/enterprise-jev-poc](https://github.com/gagar1/enterprise-jev-poc) `📚1`
+- [galgoczy/JEVsniper](https://github.com/galgoczy/jevsniper) `📚1` — Other related projects
+- [garrytan/gbrain](https://github.com/garrytan/gbrain) `📚1`
+- [gaspardglacos/jev](https://github.com/gaspardglacos/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [GaTheLy/jev-trial](https://github.com/gathely/jev-trial) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [gauravahuja7/careerradar](https://github.com/gauravahuja7/careerradar) `📚1`
+- [gbesse/jev-aides-territoires-fit](https://github.com/gbesse/jev-aides-territoires-fit) `📚1`
+- [gbesse/jev-anr-overlap](https://github.com/gbesse/jev-anr-overlap) `📚1` — Repère les recouvrements thématiques possibles entre projets de recherche…
+- [gbesse/jev-bodacc-reprise](https://github.com/gbesse/jev-bodacc-reprise) `📚1` — Trie les annonces BODACC utiles à l.
+- [gbesse/jev-cuivre-transition](https://github.com/gbesse/jev-cuivre-transition) `📚1` — Qualifie les situations locales à traiter avant la fermeture du réseau cuivre.
+- [gbesse/jev-dotation-locale-proof](https://github.com/gbesse/jev-dotation-locale-proof) `📚1` — Évalue si un dossier de dotation locale contient des preuves suffisamment…
+- [gbesse/jev-dpe-travaux-map](https://github.com/gbesse/jev-dpe-travaux-map) `📚1` — Regroupe des recommandations DPE en scénarios de travaux lisibles et…
+- [gbesse/jev-essms-proof](https://github.com/gbesse/jev-essms-proof) `📚1` — Évalue la solidité des preuves associées aux résultats d.
+- [gbesse/jev-fibre-readiness](https://github.com/gbesse/jev-fibre-readiness) `📚1` — Qualifie la préparation d.
+- [gbesse/jev-gare-access](https://github.com/gbesse/jev-gare-access) `📚1` — Prépare une revue d.
+- [gbesse/jev-insersup-claim-check](https://github.com/gbesse/jev-insersup-claim-check) `📚1` — Vérifie si une affirmation d.
+- [gbesse/jev-parcoursup-expectations](https://github.com/gbesse/jev-parcoursup-expectations) `📚1` — Compare un profil candidat aux attendus publiés d.
+- [gbesse/jev-qualiscope-action](https://github.com/gbesse/jev-qualiscope-action) `📚1` — Transforme un signal Qualiscope en niveau d.
+- [gbesse/jev-subvention-croisee](https://github.com/gbesse/jev-subvention-croisee) `📚1` — Détecte les recouvrements possibles entre subventions attribuées à un même…
+- [gbesse/mariadb-jev,0,C++,,2026-09-26,Semantic](https://github.com/gbesse/mariadb-jev,0,c++,,2026-09-26,semantic) `📚1`
+- [generative-computing/mellea](https://github.com/generative-computing/mellea) `📚1`
+- [gentaron/genesisvault](https://github.com/gentaron/genesisvault) `📚1`
+- [gentaron/ideaz](https://github.com/gentaron/ideaz) `📚1`
+- [geofffranks/polytoken-quota](https://github.com/geofffranks/polytoken-quota) `📚1`
+- [Georgakopoulos-Soares-lab/biosafe_jev](https://github.com/georgakopoulos-soares-lab/biosafe_jev) `📚1`
+- [Getting Started With Jev](https://daily.dev/posts/getting-started-with-jev-cecuqgob5) `📚1`
+- [ghlists/new-huggingface-models](https://github.com/ghlists/new-huggingface-models) `📚1`
+- [gilinachum/jev-chat](https://github.com/gilinachum/jev-chat) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [gilmarTelles/celonis-jev](https://github.com/gilmartelles/celonis-jev) `📚1`
+- [gimsansan/jev_10plt](https://github.com/gimsansan/jev_10plt) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [gist-rs/riir-reflex](https://github.com/gist-rs/riir-reflex) `📚1`
+- [GitHub Pages](https://beingcognitive.github.io/jev-songwriter) `📚1`
+- [GitHub 的仓库许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) `📚1`
+- [githubgir/veggie](https://github.com/githubgir/veggie) `📚1` — Other related projects
+- [GitSujal/duck-jev](https://github.com/gitsujal/duck-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [GlenCashen/Glen-Jevs-wedding-site](https://github.com/glencashen/glen-jevs-wedding-site) `📚1` — jev in:name created:2026-06-01..2026-06-30
+- [gmassello/jev](https://github.com/gmassello/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [gmoreva/jev-scripts](https://github.com/gmoreva/jev-scripts) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [goals index](https://refix.ai/goals) `📚1`
+- [goinghamm9/synforma](https://github.com/goinghamm9/synforma) `📚1`
+- [goldfisheep/jev-data-guideline](https://github.com/goldfisheep/jev-data-guideline) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [golgor/pi-extensions](https://github.com/golgor/pi-extensions) `📚1`
+- [gon9/jev-football](https://github.com/gon9/jev-football) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [gongor7/ejemplo-JEV](https://github.com/gongor7/ejemplo-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [goooooooooody/pith](https://github.com/goooooooooody/pith) `📚1`
+- [goverkms/JEV](https://github.com/goverkms/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [govinda777/typesafe-ai-design-system](https://github.com/govinda777/typesafe-ai-design-system) `📚1` — typesafe-ai in:name,description created:2026-0
+- [gpayo/jev-thunderbird-filter](https://github.com/gpayo/jev-thunderbird-filter) `📚1`
+- [GPTchatly/Forma](https://github.com/gptchatly/forma) `📚1` — No description provided.
+- [Grant-Visser/magic-8-ball-v2,0,JavaScript,,2026-09-26](https://github.com/grant-visser/magic-8-ball-v2,0,javascript,,2026-09-26) `📚1`
+- [GreenKeewi/jev-x-scanner](https://github.com/greenkeewi/jev-x-scanner) `📚1` — Other related projects
+- [grgy078033/grill-jev](https://github.com/grgy078033/grill-jev) `📚1`
+- [grizzlypeaksoftware/kodiak](https://github.com/grizzlypeaksoftware/kodiak) `📚1`
+- [grunte12/graphmory](https://github.com/grunte12/graphmory) `📚1`
+- [gsacco15/JevDemo1](https://github.com/gsacco15/jevdemo1) `📚1` — Demos and playgrounds
+- [guddu-debasis/JEV](https://github.com/guddu-debasis/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [gunzero5158/zenith-quant](https://github.com/gunzero5158/zenith-quant) `📚1`
+- [guoqihan342-svg/wechat-kev-watcher](https://github.com/guoqihan342-svg/wechat-kev-watcher) `📚1`
+- [guoriyue/RoboJev](https://github.com/guoriyue/robojev) `📚1`
+- [gwxcsny53/jev-watchtower](https://github.com/gwxcsny53/jev-watchtower) `📚1`
+- [HakanKeskinoglu/fastapi-event-bus](https://github.com/hakankeskinoglu/fastapi-event-bus) `📚1` — In-process async event bus for FastAPI with wildcard event patterns, typed handlers and li
+- [HamzaShaikh17/jev-experiments](https://github.com/hamzashaikh17/jev-experiments) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [hanakoairep/jev-engineering](https://github.com/hanakoairep/jev-engineering) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [HaoyuJiangdasak/jev-wechat-native](https://github.com/haoyujiangdasak/jev-wechat-native) `📚1`
+- [HariharanS/jevpoc](https://github.com/hariharans/jevpoc) `📚1` — Other related projects
+- [HARISUNDARRAJENDRAN/2048-jev](https://github.com/harisundarrajendran/2048-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [harodggg/jev-x-filter,0,JavaScript,,2026-09-24](https://github.com/harodggg/jev-x-filter,0,javascript,,2026-09-24) `📚1`
+- [harperreed/harperreed](https://github.com/harperreed/harperreed) `📚1`
+- [hasso5703/dgx-spark-qwen38](https://github.com/hasso5703/dgx-spark-qwen38) `📚1`
+- [hatif03/sniff](https://github.com/hatif03/sniff) `📚1`
+- [hazem-soussi-HA/jev-vibes](https://github.com/hazem-soussi-ha/jev-vibes) `📚1` — JEV Vibes - happiness & euphoria frequencies with sea and techno
+- [hberardi/ettore](https://github.com/hberardi/ettore) `📚1`
+- [HCTDIP/jev-ledger](https://github.com/hctdip/jev-ledger) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [hebertdev/jev-playground](https://github.com/hebertdev/jev-playground) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [hedronite/hedrondb](https://github.com/hedronite/hedrondb) `📚1`
+- [hello-wy/sub2api](https://github.com/hello-wy/sub2api) `📚1`
+- [hemanth.github.io/jevql](https://hemanth.github.io/jevql) `📚1` — jevql templates compile relational filters plus Jev noul/choice/score primitives with pushdown-style planning (per README). Docs site: hemanth.github.io/jevql.
+- [hemanth090/jev-sheets](https://github.com/hemanth090/jev-sheets) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [henrykbrzoska/bebok-jev](https://github.com/henrykbrzoska/bebok-jev) `📚1` — Other related projects
+- [HermeticOrmus/jev-claim-verify](https://github.com/hermeticormus/jev-claim-verify) `📚1` — jev-claim-verify - HermeticOrmus/jev-claim-verify - Jev claim verify.
+- [het2576/jev-wordle](https://github.com/het2576/jev-wordle) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [hexuria/allowly](https://github.com/hexuria/allowly) `📚1`
+- [heyits-nick/jevathon-sf-2026](https://github.com/heyits-nick/jevathon-sf-2026) `📚1` — Team project for JEVATHON SF 2026
+- [hhdfh782/jev-patch-pam](https://github.com/hhdfh782/jev-patch-pam) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [himanshu-thakur-7/jev_buildathon_submission](https://github.com/himanshu-thakur-7/jev_buildathon_submission) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Hinstein/jevhub](https://github.com/hinstein/jevhub) `📚1`
+- [Hiragi0w0/jev-sample](https://github.com/hiragi0w0/jev-sample) `📚1`
+- [HiroRittsu/jev-mujoco](https://github.com/hirorittsu/jev-mujoco) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [histmeisah/Jev_Star](https://github.com/histmeisah/jev_star) `📚1`
+- [holokat/blender-fast](https://github.com/holokat/blender-fast) `📚1`
+- [hosamsh/jev-mind2web](https://github.com/hosamsh/jev-mind2web) `📚1`
+- [How Jev works（Victor Dibia）](https://victordibia.com/explainers/jev) `📚1`
+- [howtimeschange/listingfy](https://github.com/howtimeschange/listingfy) `📚1`
+- [hpiahtcthocw/sharedos-verify](https://github.com/hpiahtcthocw/sharedos-verify) `📚1`
+- [HRNest-Dev/jev-tech](https://github.com/hrnest-dev/jev-tech) `📚1` — jev in:name created:2026-04-01..2026-04-30
+- [Hrushikesh-karthik/Jev](https://github.com/hrushikesh-karthik/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [https://jjd-lab.github.io/jev-browsecomp/](https://jjd-lab.github.io/jev-browsecomp) `📚1`
+- [https://neurono-ml.github.io/typed-lm/](https://neurono-ml.github.io/typed-lm) `📚1`
+- [HuanLi0311/jev](https://github.com/huanli0311/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [hudsonrj/nino](https://github.com/hudsonrj/nino) `📚1`
+- [Hugging Face Space](https://huggingface.co/spaces/omnijev/playjev) `📚1`
+- [huggingface.co/monotykamary/lfm2.5-2.6b-rlcd/tree/31455458983bdbdc41b69ebbcedabd0d5de299c9](https://huggingface.co/monotykamary/lfm2.5-2.6b-rlcd/tree/31455458983bdbdc41b69ebbcedabd0d5de299c9) `📚1`
+- [hughesbrayden/sightline](https://github.com/hughesbrayden/sightline) `📚1`
+- [HugoPliez/jev](https://github.com/hugopliez/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [human-cosmos/JevPick](https://github.com/human-cosmos/jevpick) `📚1`
+- [humanoid-jev/humanoid-jevhub.io](https://github.com/humanoid-jev/humanoid-jevhub.io) `📚1`
+- [humengna/jev_message](https://github.com/humengna/jev_message) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [huonanwholovecomputer/h_n-printer](https://github.com/huonanwholovecomputer/h_n-printer) `📚1`
+- [hwwobbe/wiphww](https://github.com/hwwobbe/wiphww) `📚1`
+- [hyperspaceai/jevcache,73,,,2026-09-18](https://github.com/hyperspaceai/jevcache,73,,,2026-09-18) `📚1`
+- [HyunjunJeon/jev-context](https://github.com/hyunjunjeon/jev-context) `📚1`
+- [hzqwe/pvz-jev](https://github.com/hzqwe/pvz-jev) `📚1`
+- [i1mT/jev-perf](https://github.com/i1mt/jev-perf) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [ialex32x/layabase](https://github.com/ialex32x/layabase) `📚1`
+- [iamachilles/jev-prospection](https://github.com/iamachilles/jev-prospection) `📚1`
+- [iamnakul133/fuzzy_ai](https://github.com/iamnakul133/fuzzy_ai) `📚1`
+- [iamrajjoshi/jevrons](https://github.com/iamrajjoshi/jevrons) `📚1`
+- [IboBalely/jev](https://github.com/ibobalely/jev) `📚1` — jev in:name created:2026-01-01..2026-01-31
+- [iceleap/jev](https://github.com/iceleap/jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [idss-mesa/mesa-anyjev](https://github.com/idss-mesa/mesa-anyjev) `📚1`
+- [IfReasonable/any-jev](https://github.com/ifreasonable/any-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [ihazratummar/CarStore](https://github.com/ihazratummar/carstore) `📚1` — topic:typesafe created:2024-01-01..2024-12-31
+- [iliasChymas/jev-filter-selector](https://github.com/iliaschymas/jev-filter-selector) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [iLuzionsX/jev-arb](https://github.com/iluzionsx/jev-arb) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [imasavior/jev-system-one-notes](https://github.com/imasavior/jev-system-one-notes) `📚1`
+- [imrozkh/jev-poc](https://github.com/imrozkh/jev-poc) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ingbyr/lzmodels](https://github.com/ingbyr/lzmodels) `📚1`
+- [insession-space/claude-ship](https://github.com/insession-space/claude-ship) `📚1`
+- [insightsmastry-gif/insightsmastery-academy](https://github.com/insightsmastry-gif/insightsmastery-academy) `📚1`
+- [INV-0998421/Payment-jev82cr6](https://github.com/inv-0998421/payment-jev82cr6) `📚1`
+- [INV-45745120/billing-message-jev1lo4v](https://github.com/inv-45745120/billing-message-jev1lo4v) `📚1`
+- [INV64165496596/order-confirm-poxl9jev](https://github.com/inv64165496596/order-confirm-poxl9jev) `📚1`
+- [Inxo/duck-jev](https://github.com/inxo/duck-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ipaulsmith/e5c3ae3a492a455435d5bfc161404312](https://github.com/ipaulsmith/e5c3ae3a492a455435d5bfc161404312) `📚1`
+- [ismaelcamara072005-cmd/JEV-](https://github.com/ismaelcamara072005-cmd/jev-) `📚1` — jev in:name created:2026-08-01..2026-08-31
+- [ismaildasci/claude-referee](https://github.com/ismaildasci/claude-referee) `📚1`
+- [ispoet/jev-npc](https://github.com/ispoet/jev-npc) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [isthatdebbiej/jevgap](https://github.com/isthatdebbiej/jevgap) `📚1`
+- [italoalmeida0/julia-system-one](https://github.com/italoalmeida0/julia-system-one) `📚1`
+- [itiscuthnotcup/adcopier](https://github.com/itiscuthnotcup/adcopier) `📚1`
+- [its-panzer/skilltree,0,JavaScript](https://github.com/its-panzer/skilltree,0,javascript) `📚1`
+- [itsNairr/JevTerm](https://github.com/itsnairr/jevterm) `📚1`
+- [itsurvone18/jev](https://github.com/itsurvone18/jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [itsurvone18/jev-activity-5](https://github.com/itsurvone18/jev-activity-5) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [JabbaKadabra/SystemOneDotNet,4,C](https://github.com/jabbakadabra/systemonedotnet,4,c) `📚1`
+- [jaceyang97/figgie-on-jev](https://github.com/jaceyang97/figgie-on-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jackbrand900/jev-world](https://github.com/jackbrand900/jev-world) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [JackLais/SahilRunner-JEV](https://github.com/jacklais/sahilrunner-jev) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [JacobLinCool/lookline](https://github.com/jacoblincool/lookline) `📚1` — LookLine, a complete fashion experience that connects acquisition and creation in one continuous loop. Find t…
+- [jacopo-bd/mappa-jev](https://github.com/jacopo-bd/mappa-jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [Jadon-Hale/Jev_Political_Article_Analysis](https://github.com/jadon-hale/jev_political_article_analysis) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [jamesward/hello-zio-typesafe-ai](https://github.com/jamesward/hello-zio-typesafe-ai) `📚1` — typesafe-ai in:name,description created:2026-0
+- [jasonduncan/libtypesafe,0,C++,,2026-09-25,Unofficial](https://github.com/jasonduncan/libtypesafe,0,c++,,2026-09-25,unofficial) `📚1`
+- [javakishore-veleti/jev-solutions](https://github.com/javakishore-veleti/jev-solutions) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [javeskupal/Jevs-Matthew-Personal-Website](https://github.com/javeskupal/jevs-matthew-personal-website) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [jawauntb/lattice-animal](https://github.com/jawauntb/lattice-animal) `📚1`
+- [jaylfc/taOS](https://github.com/jaylfc/taos) `📚1`
+- [jaymandava/jay-pi](https://github.com/jaymandava/jay-pi) `📚1`
+- [jb-akp/jev-avatar,1,HTML,,2026-09-24](https://github.com/jb-akp/jev-avatar,1,html,,2026-09-24) `📚1`
+- [jcdavis131/dottie](https://github.com/jcdavis131/dottie) `📚1`
+- [jclumingkit/jev-poc](https://github.com/jclumingkit/jev-poc) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jclumingkit/jev-poc-nextjs](https://github.com/jclumingkit/jev-poc-nextjs) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [JCR](https://mrjev.com/projects/niazmorshed2007-jcr) `📚1` — We ran the resolver against a local server of ours
+- [JDanica15/jev-portfolio](https://github.com/jdanica15/jev-portfolio) `📚1` — jev in:name created:2026-05-01..2026-05-31
+- [jeff-hykin/jev_experiment](https://github.com/jeff-hykin/jev_experiment) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [JeremyEltho/jev-comparison](https://github.com/jeremyeltho/jev-comparison) `📚1`
+- [JeremyEltho/jev-vision](https://github.com/jeremyeltho/jev-vision) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [JerryZhuInnovation/jev-lean](https://github.com/jerryzhuinnovation/jev-lean) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Jessie-jzn/jev-ai-organizer](https://github.com/jessie-jzn/jev-ai-organizer) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Jev predicting your life choices](https://quiz.seek.ws) `📚1`
+- [Jev skips token generation](https://daily.dev/posts/jev-skips-token-generation-entirely-and-the-speed-numbers-are-hard-to-ignore-nv8tizgl7) `📚1`
+- [Jev System Model vs LLM for Developers — Injoys](https://injoys.com/en/articles/jev-system-one-model-llm-comparison) `📚1`
+- [Jev vs auto-regressive LLMs vs MDLM](https://lilting.ch/en/articles/typesafe-ai-jev-system-one-model) `📚1` — Technical comparison of Jev's single-pass sampler with token-by-token decoding and masked diffusion.
+- [jev-16/jev-16](https://github.com/jev-16/jev-16) `📚1` — Personal repository to add customiztaion to my github profile
+- [jev-ai/jev-ai](https://github.com/jev-ai/jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [jev-ai/jev-ai-llm](https://github.com/jev-ai/jev-ai-llm) `📚1` — jevlang OR jev.ai in:name,description created:
+- [jev-ai/jev-ai-model](https://github.com/jev-ai/jev-ai-model) `📚1` — jevlang OR jev.ai in:name,description created:
+- [jev-ai/jev-llm](https://github.com/jev-ai/jev-llm) `📚1` — jevlang OR jev.ai in:name,description created:
+- [jev-ai/jev-new-ai](https://github.com/jev-ai/jev-new-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [jev-chat/jev-chat.github.io](https://github.com/jev-chat/jev-chat.github.io) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [jev-chat/jev-chathub.io](https://github.com/jev-chat/jev-chathub.io) `📚1`
+- [Jev-Development/Jev.OpenIddict](https://github.com/jev-development/jev.openiddict) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [jev-ids/jev-ids.github.io](https://github.com/jev-ids/jev-ids.github.io) `📚1` — Jev IDS website: one flow. one request. one verdict.
+- [JEV-RV/jev-rv.github.io](https://github.com/jev-rv/jev-rv.github.io) `📚1` — jev in:name created:2026-04-01..2026-04-30
+- [Jev-S/Jev-S](https://github.com/jev-s/jev-s) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [Jev-Smith/Jev-Smith](https://github.com/jev-smith/jev-smith) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [jev-use](https://mrjev.com/projects/shitianfang-jev-use) `📚1` — Yes — TYPESAFE_BASE_URL, and JEV_BACKEND=mock for a keyless dry run
+- [jev.chat](https://jev.chat) `📚1`
+- [jev.kiang.website](https://jev.kiang.website) `📚1`
+- [jev.page](https://jev.page/updates) `📚1`
+- [jev.store](https://jev.store) `📚1` — Community store for Jev apps, extensions, and tools: a distribution surface with a submit flow, distinct from the firehose directories.
+- [jev88/Jev](https://github.com/jev88/jev) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [jeva/jev-portfolio](https://github.com/jeva/jev-portfolio) `📚1` — jev in:name created:2026-07-01..2026-07-31
+- [Jevan006/jev-demo-project](https://github.com/jevan006/jev-demo-project) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [jevanyasembiring09-cell/jev-pratama-project](https://github.com/jevanyasembiring09-cell/jev-pratama-project) `📚1` — jev in:name created:2026-03-01..2026-03-31
+- [jevanyasembiring09-cell/jev-pratama-project2](https://github.com/jevanyasembiring09-cell/jev-pratama-project2) `📚1` — jev in:name created:2026-03-01..2026-03-31
+- [jevanyasembiring09-cell/jev-pratama-project3](https://github.com/jevanyasembiring09-cell/jev-pratama-project3) `📚1` — jev in:name created:2026-03-01..2026-03-31
+- [jevcomp/jevcomp](https://github.com/jevcomp/jevcomp) `📚1`
+- [Jevdit](https://jevdit.com) `📚1`
+- [jevinjeremy/jev](https://github.com/jevinjeremy/jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [JevinLeon/24001085-km6-jev-bcr-ch2-1](https://github.com/jevinleon/24001085-km6-jev-bcr-ch2-1) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [JevinLeon/24001085-km6-jev-bcr-ch2-2](https://github.com/jevinleon/24001085-km6-jev-bcr-ch2-2) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [JevinLeon/24001085-km6-jev-bcr-ch3](https://github.com/jevinleon/24001085-km6-jev-bcr-ch3) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [JevinLeon/24001085-km6-jev-bcr-ch4](https://github.com/jevinleon/24001085-km6-jev-bcr-ch4) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [JevinLeon/24001085-km6-jev-bcr-ch5](https://github.com/jevinleon/24001085-km6-jev-bcr-ch5) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [JevinLeon/24001085-km6-jev-bcr-ch6](https://github.com/jevinleon/24001085-km6-jev-bcr-ch6) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [jevinskie/jev-imx-utils](https://github.com/jevinskie/jev-imx-utils) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [jevinskie/llvm-project-jev-embedded](https://github.com/jevinskie/llvm-project-jev-embedded) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [Jevisman/Jev](https://github.com/jevisman/jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [jevmade.com](https://jevmade.com) `📚1`
+- [jevmaquinas/jev-maquinas.com](https://github.com/jevmaquinas/jev-maquinas.com) `📚1` — Site oficial J&V Máquinas atualizado 05/08/2025
+- [jevois/jevois](https://github.com/jevois/jevois) `📚1` — jevois — JeVois smart machine vision framework _(★164, C)_
+- [jevois/jevoisbase](https://github.com/jevois/jevoisbase) `📚1` — jevoisbase — JeVois base collection of algorithms and modules _(★48, C)_
+- [JevolUkraine/jevol-website](https://github.com/jevolukraine/jevol-website) `📚1`
+- [jevrl/jevrl.github.io](https://github.com/jevrl/jevrl.github.io) `📚1`
+- [jevs-odoo/SH-Challenge-jevs](https://github.com/jevs-odoo/sh-challenge-jevs) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [Jevs2025/JEV-S](https://github.com/jevs2025/jev-s) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [Jevs2025/JEV-S-2025](https://github.com/jevs2025/jev-s-2025) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [jevscan-evm](https://mrjev.com/projects/devtooligan-jevscan-evm) `📚1` — No — endpoint constant, no override
+- [jevshyl/uek295-b-jev-shy](https://github.com/jevshyl/uek295-b-jev-shy) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [jevusers.com](https://jevusers.com/apps) `📚1` — Merged from 31 community lists. Rank on All Apps is the number of these that independently picked a project.
+- [jeyakkumar/autoinsight-ai](https://github.com/jeyakkumar/autoinsight-ai) `📚1` — JEV + CLM Data Analysis
+- [JGalego/PolyJev](https://github.com/jgalego/polyjev) `📚1` — Jevs all the way down
+- [jiangyi15/llama-jev](https://github.com/jiangyi15/llama-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [jihnma/lab-jev-adaptive-interview](https://github.com/jihnma/lab-jev-adaptive-interview) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [jihnma/lab-jev-adaptive-interview-example](https://github.com/jihnma/lab-jev-adaptive-interview-example) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [jihnma/lab-jev-adaptive-interview-example-1](https://github.com/jihnma/lab-jev-adaptive-interview-example-1) `📚1` — Other related projects
+- [jihnma/lab-jev-interview-example](https://github.com/jihnma/lab-jev-interview-example) `📚1` — The data repository for an adaptive interview — one brief, one approved plan, fifty synthe
+- [jijaraba/jijaraba](https://github.com/jijaraba/jijaraba) `📚1`
+- [jikime/jev-experiment](https://github.com/jikime/jev-experiment) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jinwon-int/ccc-node](https://github.com/jinwon-int/ccc-node) `📚1`
+- [jkup/jevprint](https://github.com/jkup/jevprint) `📚1`
+- [jmanhype/jevmax](https://github.com/jmanhype/jevmax) `📚1` — Other related projects
+- [jnhzzzk/flux-jev-microgrid](https://github.com/jnhzzzk/flux-jev-microgrid) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Joaov41/Cua_jev](https://github.com/joaov41/cua_jev) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [joasasantos/neurosploit](https://github.com/joasasantos/neurosploit) `📚1`
+- [Jocy-Santul/trabajo-historia-JEV](https://github.com/jocy-santul/trabajo-historia-jev) `📚1` — jev in:name created:2026-05-01..2026-05-31
+- [jogosescolares/pre-jevs](https://github.com/jogosescolares/pre-jevs) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [john222333/martin-lab](https://github.com/john222333/martin-lab) `📚1`
+- [johnnymakhoul/semantic-jev](https://github.com/johnnymakhoul/semantic-jev) `📚1` — Natural Language to Semantic Layer Bridge powered by Jev
+- [johnymoo/Jev-Study](https://github.com/johnymoo/jev-study) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [johnyoonh/jev-ground](https://github.com/johnyoonh/jev-ground) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [jonathanhhenson/open-cricket](https://github.com/jonathanhhenson/open-cricket) `📚1`
+- [jose-salcedo-sp/recall](https://github.com/jose-salcedo-sp/recall) `📚1`
+- [JoseBarriaSantos/Jev_Negreanu](https://github.com/josebarriasantos/jev_negreanu) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [JoseEmilio8/JEV](https://github.com/joseemilio8/jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [joseluissaorin/sociolinguistica](https://github.com/joseluissaorin/sociolinguistica) `📚1` — La -d- intervocálica en el corpus PRESEEA: detección de casos, tiempos con Whisper, recortes, categorización con Jev y un estudio para decidirlos ...
+- [jovinus302/Jev](https://github.com/jovinus302/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [joyfoxai/jev-inference](https://github.com/joyfoxai/jev-inference) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jsede/JEV_2022](https://github.com/jsede/jev_2022) `📚1` — Data and scripts related to the manuscript describing the Australian JEV outbreak in 2021
+- [jsherman999/claude_jev_experiment](https://github.com/jsherman999/claude_jev_experiment) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jstdlee/jev-spaceshooter-demo](https://github.com/jstdlee/jev-spaceshooter-demo) `📚1` — Space shooter demo of bounded Jev movement choices, swept collision prediction, stale-response rejection, and…
+- [jtayped/rungs](https://github.com/jtayped/rungs) `📚1`
+- [jtiemann/tense-circle](https://github.com/jtiemann/tense-circle) `📚1` — tense-circle - tense-circle: TypeSafe Jev ecosystem repository. · JavaScript
+- [Judgment under Uncertainty: Heuristics and Biases](https://science.org/doi/10.1126/science.185.4157.1124) `📚1` — Tversky & Kahneman (1974). Heuristic judgment under uncertainty.
+- [jugenbernt/jev_s_calculator](https://github.com/jugenbernt/jev_s_calculator) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [julianhintermann-cmd/JevControl](https://github.com/julianhintermann-cmd/jevcontrol) `📚1`
+- [jumboly/pkmn-shdwn-jev](https://github.com/jumboly/pkmn-shdwn-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [jumpseat-inc/pi-council](https://github.com/jumpseat-inc/pi-council) `📚1`
+- [jun-wu05/buy-or-wait](https://github.com/jun-wu05/buy-or-wait) `📚1`
+- [justindumascarr/jev](https://github.com/justindumascarr/jev) `📚1`
+- [jvsteiner/jev-mailspring](https://github.com/jvsteiner/jev-mailspring) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [jxxfdgd/jev-ai-slop-detector,1,JavaScript,,2026-09-22](https://github.com/jxxfdgd/jev-ai-slop-detector,1,javascript,,2026-09-22) `📚1`
+- [Jyonn/RecJev](https://github.com/jyonn/recjev) `📚1`
+- [jyothivelpula/jev-ai-article](https://github.com/jyothivelpula/jev-ai-article) `📚1` — jevlang OR jev.ai in:name,description created:
+- [ka10ryu1/smart-leger](https://github.com/ka10ryu1/smart-leger) `📚1`
+- [KadePrice123/jev-state-tracking](https://github.com/kadeprice123/jev-state-tracking) `📚1` — Jev parses and tracks states of AI models so only actions available to the AI model are ch
+- [kaerez/JevUI](https://github.com/kaerez/jevui) `📚1`
+- [kagurazakayashi/dsh-jev](https://github.com/kagurazakayashi/dsh-jev) `📚1`
+- [kallurayaankit/jev-signal-scorer](https://github.com/kallurayaankit/jev-signal-scorer) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Kamio-Misuzu/Jev-as-a-Reward-Model](https://github.com/kamio-misuzu/jev-as-a-reward-model) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kane201x/ai](https://github.com/kane201x/ai) `📚1`
+- [kang9307/lotto-generator](https://github.com/kang9307/lotto-generator) `📚1` — BrainDetox Utility Box
+- [kap-il/gater](https://github.com/kap-il/gater) `📚1`
+- [karl-michaud/jevpire](https://github.com/karl-michaud/jevpire) `📚1`
+- [karstencolincampo-hue/jev](https://github.com/karstencolincampo-hue/jev) `📚1` — jev in:name created:2026-01-01..2026-01-31
+- [karthika-u07/jev-starter](https://github.com/karthika-u07/jev-starter) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kartik-modi/jev-sudo](https://github.com/kartik-modi/jev-sudo) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [kashyapmadhavapeddy/jev-understanding](https://github.com/kashyapmadhavapeddy/jev-understanding) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kataras/jev,3,Go,,2026-09-21](https://github.com/kataras/jev,3,go,,2026-09-21) `📚1`
+- [kataras/kataras](https://github.com/kataras/kataras) `📚1`
+- [kaustav1996/kaustav1996](https://github.com/kaustav1996/kaustav1996) `📚1`
+- [kavbad/potion](https://github.com/kavbad/potion) `📚1`
+- [kavish-agarwal-tech/jev-playground](https://github.com/kavish-agarwal-tech/jev-playground) `📚1` — Demos and playgrounds
+- [kazukiminemura/local_jev](https://github.com/kazukiminemura/local_jev) `📚1` — Other related projects
+- [kchaisor/jev](https://github.com/kchaisor/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [kedamitch/open-spec-mesh](https://github.com/kedamitch/open-spec-mesh) `📚1`
+- [KeeganFargher/auto-jev](https://github.com/keeganfargher/auto-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Keitark/jev-cats-and-dogs](https://github.com/keitark/jev-cats-and-dogs) `📚1`
+- [Keitark/jev-rogue](https://github.com/keitark/jev-rogue) `📚1`
+- [kejun/jev-engineering-handbook](https://github.com/kejun/jev-engineering-handbook) `📚1`
+- [KellerWang2003/jev-playground](https://github.com/kellerwang2003/jev-playground) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [KEN3pei/jev-tools](https://github.com/ken3pei/jev-tools) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kenmori/jev-dojo](https://github.com/kenmori/jev-dojo) `📚1`
+- [kenz1117/dsh-engram](https://github.com/kenz1117/dsh-engram) `📚1`
+- [kevivois/JEVS_SYND_website](https://github.com/kevivois/jevs_synd_website) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [khadkechetan/typesafe-AI](https://github.com/khadkechetan/typesafe-ai) `📚1` — typesafe-ai in:name,description created:2026-0
+- [KhaiStimpson/JevGen](https://github.com/khaistimpson/jevgen) `📚1`
+- [khanhnd61-vr/simplest-jev](https://github.com/khanhnd61-vr/simplest-jev) `📚1`
+- [KhawLiang/jev-browse](https://github.com/khawliang/jev-browse) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [khvavuong/jev-probe](https://github.com/khvavuong/jev-probe) `📚1`
+- [kidow/lingo](https://github.com/kidow/lingo) `📚1`
+- [kidzik/jiffy](https://github.com/kidzik/jiffy) `📚1`
+- [kijung4290/maeum-on-attendance-care,0,JavaScript,어르신](https://github.com/kijung4290/maeum-on-attendance-care,0,javascript,어르신) `📚1`
+- [kimgh06/jev](https://github.com/kimgh06/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [kinfey/jevonnx](https://github.com/kinfey/jevonnx) `📚1`
+- [kirkchen/devbox](https://github.com/kirkchen/devbox) `📚1`
+- [kisshan13/typesafe-ai-go,5,Go,,2026-09-20](https://github.com/kisshan13/typesafe-ai-go,5,go,,2026-09-20) `📚1`
+- [kitecosmic/synsema](https://github.com/kitecosmic/synsema) `📚1`
+- [kiwi0719/jev-edge,36,Lua,,2026-09-21](https://github.com/kiwi0719/jev-edge,36,lua,,2026-09-21) `📚1`
+- [kixixixixi/jev-text-assert](https://github.com/kixixixixi/jev-text-assert) `📚1`
+- [kiyorasu/chat-analyse](https://github.com/kiyorasu/chat-analyse) `📚1`
+- [KJeziorek/arxiv-jev-scan](https://github.com/kjeziorek/arxiv-jev-scan) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kjman678/typesafe-jev-challenge](https://github.com/kjman678/typesafe-jev-challenge) `📚1`
+- [kkandregula-AI/jev](https://github.com/kkandregula-ai/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [KKiJJ1024/crush-monitor2](https://github.com/kkijj1024/crush-monitor2) `📚1`
+- [klappy/ma8ic8all-jev,0,JavaScript,,2026-09-25](https://github.com/klappy/ma8ic8all-jev,0,javascript,,2026-09-25) `📚1`
+- [knoxmcken/jev-projects](https://github.com/knoxmcken/jev-projects) `📚1`
+- [kobetNerguidima/jev](https://github.com/kobetnerguidima/jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [kodai305/nba-akinator](https://github.com/kodai305/nba-akinator) `📚1`
+- [kodawarimax/jev-ultrafast](https://github.com/kodawarimax/jev-ultrafast) `📚1`
+- [Koelaquillage/jev-demo](https://github.com/koelaquillage/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [koenae/jev-demo](https://github.com/koenae/jev-demo) `📚1` — Demos and playgrounds
+- [Kokko-Niwa/PlayLand](https://github.com/kokko-niwa/playland) `📚1` — AI-driven cognitive assistance sandbox with EarthLight model prototypes. Language-first de
+- [kongbai006/jev-wa-mimo](https://github.com/kongbai006/jev-wa-mimo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [korallis/korwf-pi](https://github.com/korallis/korwf-pi) `📚1`
+- [korjavin/idkcraft](https://github.com/korjavin/idkcraft) `📚1`
+- [KranzL/Jevflake,13,HCL,,2026-09-20,Ask](https://github.com/kranzl/jevflake,13,hcl,,2026-09-20,ask) `📚1`
+- [kranzl/omni-example](https://github.com/kranzl/omni-example) `📚1`
+- [krlmrr/dotfiles](https://github.com/krlmrr/dotfiles) `📚1`
+- [KsanaDock/verdict-lab](https://github.com/ksanadock/verdict-lab) `📚1` — An experiment comparing the capabilities and costs of the JEV model and LLM models in the field of content mo…
+- [ktsu2i/jevgate-action](https://github.com/ktsu2i/jevgate-action) `📚1`
+- [kuitai77/coin](https://github.com/kuitai77/coin) `📚1`
+- [kunal-shetty/shade](https://github.com/kunal-shetty/shade) `📚1`
+- [kunal52/plants_vs_zombies_jev](https://github.com/kunal52/plants_vs_zombies_jev) `📚1`
+- [kunalquantum/jev](https://github.com/kunalquantum/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [kuri-leo/yet-another-jev](https://github.com/kuri-leo/yet-another-jev) `📚1`
+- [Kushagr142/jev-filter](https://github.com/kushagr142/jev-filter) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [kushalpatil07/jevify](https://github.com/kushalpatil07/jevify) `📚1` — A repository for jevify
+- [kutluege/factor_investing_jev](https://github.com/kutluege/factor_investing_jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [kxvinfqvk/jev](https://github.com/kxvinfqvk/jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [kyleeasterly/OpenRAFormer2](https://github.com/kyleeasterly/openraformer2) `📚1`
+- [kylemclaren/jevql,13,Go](https://github.com/kylemclaren/jevql,13,go) `📚1`
+- [LabeebHameed/jev-comp](https://github.com/labeebhameed/jev-comp) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Laksiri/jev_showcase](https://github.com/laksiri/jev_showcase) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [lambdasakura/local-jev](https://github.com/lambdasakura/local-jev) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [lambertsj/beatjevv](https://github.com/lambertsj/beatjevv) `📚1`
+- [lasimeri/intel-phi-avx512](https://github.com/lasimeri/intel-phi-avx512) `📚1`
+- [lastsign/urban-qemu-omarchy-jev-pearl](https://github.com/lastsign/urban-qemu-omarchy-jev-pearl) `📚1` — Omarchy Linux QA inside qemu on remote machine doing by Jev
+- [LauraPezzi/JEV-imported-in-France-2024](https://github.com/laurapezzi/jev-imported-in-france-2024) `📚1` — Supplementary data of the article "Report of Two Severe Cases of Japanese Encephalitis Vir
+- [lautaroalejo02/Jev-Playground](https://github.com/lautaroalejo02/jev-playground) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [lavenir7/jev2048](https://github.com/lavenir7/jev2048) `📚1`
+- [lazymarcus005-maker/jev-toolkit](https://github.com/lazymarcus005-maker/jev-toolkit) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [lbp97541135/repomesh_go_ver](https://github.com/lbp97541135/repomesh_go_ver) `📚1`
+- [leeyang1990/jev-auto-part](https://github.com/leeyang1990/jev-auto-part) `📚1`
+- [leftmike/gjevt](https://github.com/leftmike/gjevt) `📚1` — Demos and playgrounds
+- [leitongda/jev-minesweeper-driver](https://github.com/leitongda/jev-minesweeper-driver) `📚1`
+- [lemon5227/computer-use-ultra](https://github.com/lemon5227/computer-use-ultra) `📚1`
+- [lemonhall/jev-showcase](https://github.com/lemonhall/jev-showcase) `📚1`
+- [lennon-li/hma](https://github.com/lennon-li/hma) `📚1`
+- [leobitz/jev-berta](https://github.com/leobitz/jev-berta) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [leoprodz/ask.omarchy](https://github.com/leoprodz/ask.omarchy) `📚1`
+- [leotu2008-ux/hosty](https://github.com/leotu2008-ux/hosty) `📚1`
+- [Leowang980/JevSoup](https://github.com/leowang980/jevsoup) `📚1` — Other related projects
+- [lesleygyc-ops/jev-connector](https://github.com/lesleygyc-ops/jev-connector) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [letecom/jev-blacksite](https://github.com/letecom/jev-blacksite) `📚1` — Experimental JEV capability lab for edge cases, emergent behavior, adversarial probing and
+- [lezgoverci/jev2api](https://github.com/lezgoverci/jev2api) `📚1`
+- [liatrio/jev-demo-jburns24](https://github.com/liatrio/jev-demo-jburns24) `📚1`
+- [lihu-001/jevapihub](https://github.com/lihu-001/jevapihub) `📚1` — Other related projects
+- [LiNan1984/typesafe-curl,0,,,2026-09-21](https://github.com/linan1984/typesafe-curl,0,,,2026-09-21) `📚1`
+- [Ling1304/jev-bezos](https://github.com/ling1304/jev-bezos) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [lingarajsankaravelu/jev-architecture](https://github.com/lingarajsankaravelu/jev-architecture) `📚1` — How Jev reads probabilities directly instead of generating confidence as text
+- [lingszb/jev-intent](https://github.com/lingszb/jev-intent) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [LINUX DO / QianCheng](https://linux.do/t/topic/2919004) `📚1` — LINUX DO original by @QianCheng was read;
+- [linux.do 转贴](https://linux.do/t/topic/2916166) `📚1`
+- [liq22/PT01-jev-phm](https://github.com/liq22/pt01-jev-phm) `📚1`
+- [listepo/cox](https://github.com/listepo/cox) `📚1`
+- [live](https://tpateeq.github.io/tocsin) `📚1`
+- [live](https://millionsend.com) `📚1`
+- [live](https://quantskills.ai) `📚1`
+- [live](https://worth-replying.aisa.one) `📚1`
+- [live](https://safer-with-jev.com) `📚1`
+- [live](https://yggdrasight.com) `📚1`
+- [live](https://jajat.godieboy.com) `📚1`
+- [live](https://jevchat.kt3k.deno.net) `📚1`
+- [live](https://jevons.fly.dev) `📚1`
+- [live](https://theonlyartz.github.io) `📚1`
+- [live](https://lab.rokogrga.com/btc-jev) `📚1`
+- [live](https://arunavgupta.com/jev-8-ball) `📚1`
+- [live](https://emoji-jev.whop.site) `📚1`
+- [live](https://galigutta.github.io/jev-use-cases) `📚1`
+- [live](https://kortexa-ai.github.io/mappity) `📚1`
+- [live](https://forma-experiment.zammitpaul.com) `📚1`
+- [live](https://801939cb.pinme.dev) `📚1`
+- [live](https://seefood-6wov.onrender.com) `📚1`
+- [live](https://the-little-ai-company.github.io/callout) `📚1`
+- [live](https://wiktorb2004.github.io/llama-index-jev) `📚1`
+- [live](https://octomind.run/product/octolib) `📚1`
+- [liveaidream/jev-repos](https://github.com/liveaidream/jev-repos) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Liyucheng1997/332_lab-jev-chat\](https://github.com/liyucheng1997/332_lab-jev-chat\) `📚1`
+- [ljbuturovic/jevgram](https://github.com/ljbuturovic/jevgram) `📚1`
+- [llms.txt](https://shipwithjev.com/llms.txt) `📚1`
+- [lm-sys/FastChat](https://github.com/lm-sys/fastchat) `📚1`
+- [lnyo-cly/ai4j](https://github.com/lnyo-cly/ai4j) `📚1`
+- [LongNguyen1984/use-jev](https://github.com/longnguyen1984/use-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [longyunbegin/meridian](https://github.com/longyunbegin/meridian) `📚1`
+- [louloulin/upup](https://github.com/louloulin/upup) `📚1`
+- [lsz05/arena_jev](https://github.com/lsz05/arena_jev) `📚1` — Other related projects
+- [Lu1sR/jev-forms](https://github.com/lu1sr/jev-forms) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [luantak/mosaik](https://github.com/luantak/mosaik) `📚1`
+- [lucasbaruj4/jev-context-gate](https://github.com/lucasbaruj4/jev-context-gate) `📚1`
+- [lucasezelopcur13-hash/jev-ai](https://github.com/lucasezelopcur13-hash/jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [lucasxu666666/x-bookmarks-extension](https://github.com/lucasxu666666/x-bookmarks-extension) `📚1`
+- [luisrayas3/jev](https://github.com/luisrayas3/jev) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [Lushangtu123/CS-166-Final-Project](https://github.com/lushangtu123/cs-166-final-project) `📚1`
+- [lutr0/chain-analyst](https://github.com/lutr0/chain-analyst) `📚1`
+- [lvzhaobo/jev-assayer](https://github.com/lvzhaobo/jev-assayer) `📚1`
+- [lvzhaobo/jev-loop](https://github.com/lvzhaobo/jev-loop) `📚1`
+- [lw24-1936/study-work](https://github.com/lw24-1936/study-work) `📚1`
+- [lwyakob/JEV](https://github.com/lwyakob/jev) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [lyjw131/mactelemetryhub](https://github.com/lyjw131/mactelemetryhub) `📚1`
+- [m-iibuchi/jev-forward](https://github.com/m-iibuchi/jev-forward) `📚1`
+- [m1ng112/jev-ime-ja](https://github.com/m1ng112/jev-ime-ja) `📚1`
+- [madep182/made-jev-v2-VM](https://github.com/madep182/made-jev-v2-vm) `📚1` — jev in:name created:2026-08-01..2026-08-31
+- [madmax983/thales](https://github.com/madmax983/thales) `📚1`
+- [mahirmlk/mahirmalik](https://github.com/mahirmlk/mahirmalik) `📚1` — sharing about myself, and my work through this personal website.
+- [mahmoudimus/feed](https://github.com/mahmoudimus/feed) `📚1`
+- [Maigic-AI/jev-playground](https://github.com/maigic-ai/jev-playground) `📚1`
+- [mainhusharm/jevvybotte](https://github.com/mainhusharm/jevvybotte) `📚1` — Other related projects
+- [Majamato/typesafe-ai-dart](https://github.com/majamato/typesafe-ai-dart) `📚1` — typesafe-ai in:name,description created:2026-0
+- [majiayu000/spellbook](https://github.com/majiayu000/spellbook) `📚1`
+- [MakonnenMak/jev-smart-retry-lab](https://github.com/makonnenmak/jev-smart-retry-lab) `📚1`
+- [Mallowsss/jet-and-jev-wedding](https://github.com/mallowsss/jet-and-jev-wedding) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [Mallowsss/jet-and-jev-wedding-render](https://github.com/mallowsss/jet-and-jev-wedding-render) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [Mallowsss/jet-and-jev-wedding-render-SENDGRID](https://github.com/mallowsss/jet-and-jev-wedding-render-sendgrid) `📚1` — jev in:name created:2026-02-01..2026-02-28
+- [Mallowsss/Jet_Jev_Wedding_Invitation](https://github.com/mallowsss/jet_jev_wedding_invitation) `📚1` — jev in:name created:2026-06-01..2026-06-30
+- [MananaFX/jev-landscape](https://github.com/mananafx/jev-landscape) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [MANI8148/the-daily-byte](https://github.com/mani8148/the-daily-byte) `📚1`
+- [manish-anchan/noulgate](https://github.com/manish-anchan/noulgate) `📚1`
+- [mantariksh/jev-editor](https://github.com/mantariksh/jev-editor) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [manutej/jev-tape](https://github.com/manutej/jev-tape) `📚1` — Durable execution: TypeSafe qualifies, Temporal records. Run locally. Put TYPESAFE_API_KEY in .env only.
+- [Maps of Bounded Rationality (Kahneman Nobel lecture)](https://nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture) `📚1` — ahneman's two-system account, intuition returning an answer directly while reasoning deliberates, the split Jev's design copies.
+- [marceloatoledo/jevMcp](https://github.com/marceloatoledo/jevmcp) `📚1`
+- [marcemarin/marcemarin](https://github.com/marcemarin/marcemarin) `📚1`
+- [marcoschmidl/jev-planung](https://github.com/marcoschmidl/jev-planung) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [marcusglowe/jev-sort](https://github.com/marcusglowe/jev-sort) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [maruel/genai](https://github.com/maruel/genai) `📚1` — The opinionated high performance professional-grade AI package for Go
+- [marwan404/Jev-gate](https://github.com/marwan404/jev-gate) `📚1` — uses Jev to identify potentially destructive commands.
+- [mas2194/maybe-jev-bySol](https://github.com/mas2194/maybe-jev-bysol) `📚1`
+- [MasatoraAtarashi/jev-playground](https://github.com/masatoraatarashi/jev-playground) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [MashiroKai/jev-playground](https://github.com/mashirokai/jev-playground) `📚1`
+- [mashmalol/JSON-jev-schema](https://github.com/mashmalol/json-jev-schema) `📚1` — jev in:name created:2026-08-01..2026-08-31
+- [mashmalol/Vis-Jev-vibe](https://github.com/mashmalol/vis-jev-vibe) `📚1`
+- [masterfissite/jev](https://github.com/masterfissite/jev) `📚1` — jev in:name created:2026-06-01..2026-06-30
+- [matt-cochran/jevitate](https://github.com/matt-cochran/jevitate) `📚1`
+- [matt-riley/pi-extensions](https://github.com/matt-riley/pi-extensions) `📚1`
+- [mattijn/avenger-sedona-pointcloud](https://github.com/mattijn/avenger-sedona-pointcloud) `📚1`
+- [MattiTynka/JEV-RTS,1,JavaScript,,2026-09-23,Web](https://github.com/mattitynka/jev-rts,1,javascript,,2026-09-23,web) `📚1`
+- [mattn/go-jev,30,Go,,2026-09-23](https://github.com/mattn/go-jev,30,go,,2026-09-23) `📚1`
+- [MattSerra06/jev_spring_ai](https://github.com/mattserra06/jev_spring_ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Mauro-AGalvezT/Jev-demo](https://github.com/mauro-agalvezt/jev-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [maxcorrads/hivemind](https://github.com/maxcorrads/hivemind) `📚1`
+- [maximebrmd/relanmo](https://github.com/maximebrmd/relanmo) `📚1`
+- [mayank953ai/Jev](https://github.com/mayank953ai/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [MDGChamomile/pi-jev,0,JavaScript,,2026-09-21,Experimental](https://github.com/mdgchamomile/pi-jev,0,javascript,,2026-09-21,experimental) `📚1`
+- [mekashef/paideia-genesis](https://github.com/mekashef/paideia-genesis) `📚1`
+- [merefield/clai](https://github.com/merefield/clai) `📚1` — A command line ai helper
+- [merijjeyn/jive](https://github.com/merijjeyn/jive) `📚1`
+- [meta-llama/PurpleLlama](https://github.com/meta-llama/purplellama) `📚1`
+- [metrox-eth/moss-jev,0,JavaScript,MOSS](https://github.com/metrox-eth/moss-jev,0,javascript,moss) `📚1`
+- [mfreeze77/oil](https://github.com/mfreeze77/oil) `📚1`
+- [MI-1222/sokuto](https://github.com/mi-1222/sokuto) `📚1`
+- [miaciviteb1971/gen-alpha-lib-random-jev](https://github.com/miaciviteb1971/gen-alpha-lib-random-jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [micahchoo/qualitative-query](https://github.com/micahchoo/qualitative-query) `📚1` — Saved questions that select source passages with Jev scoring and connect them through native Obsidian block e…
+- [micdrop.dev](https://micdrop.dev) `📚1` — docs and package guides.
+- [michael-han-dev/jev-copy-paste](https://github.com/michael-han-dev/jev-copy-paste) `📚1`
+- [michaelhitzker/JevKit](https://github.com/michaelhitzker/jevkit) `📚1`
+- [michaelwave369/phios](https://github.com/michaelwave369/phios) `📚1`
+- [midknight247/jev-money-project](https://github.com/midknight247/jev-money-project) `📚1` — Other related projects
+- [miguel-vila/jev-experiments](https://github.com/miguel-vila/jev-experiments) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [mihado/inference](https://github.com/mihado/inference) `📚1`
+- [mik-pe/knut](https://github.com/mik-pe/knut) `📚1`
+- [mikekelly/s1m](https://github.com/mikekelly/s1m) `📚1`
+- [miles990/jev-newbie,0,HTML,,2026-09-19](https://github.com/miles990/jev-newbie,0,html,,2026-09-19) `📚1`
+- [milvus-io/milvus-model@a5c59e849db2875cfe91d0e59438958f5ec9d54e](https://github.com/milvus-io/milvus-model@a5c59e849db2875cfe91d0e59438958f5ec9d54e) `📚1`
+- [minato-gif/local-llm-wikipedia](https://github.com/minato-gif/local-llm-wikipedia) `📚1`
+- [minorcell/jev-2048](https://github.com/minorcell/jev-2048) `📚1`
+- [mintopia/jev-ai-detection](https://github.com/mintopia/jev-ai-detection) `📚1` — jevlang OR jev.ai in:name,description created:
+- [mintystress/jev-tools](https://github.com/mintystress/jev-tools) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [mishakgg/jev-governor](https://github.com/mishakgg/jev-governor) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [mishakgg/livestream-jev](https://github.com/mishakgg/livestream-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [misokina/aslan](https://github.com/misokina/aslan) `📚1`
+- [MIT 原文](https://opensource.org/license/mit) `📚1`
+- [mitch-olson/jev-buddy](https://github.com/mitch-olson/jev-buddy) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [mithun-s14/fantasy-basketball-companion](https://github.com/mithun-s14/fantasy-basketball-companion) `📚1`
+- [Mitravasu/jevu](https://github.com/mitravasu/jevu) `📚1`
+- [MitsuharuNakamura/ivr-with-jev-twilio](https://github.com/mitsuharunakamura/ivr-with-jev-twilio) `📚1` — Other related projects
+- [miyabiver39/VisionLocalJev](https://github.com/miyabiver39/visionlocaljev) `📚1`
+- [mizzlr/whisper-typer](https://github.com/mizzlr/whisper-typer) `📚1`
+- [Mkdirs](https://mkdirs.com) `📚1` — Launch AI-powered directory in 30 minutes.
+- [MkDollar](https://mkdollar.com) `📚1` — The all-in-one platform to help you make first dollar online.
+- [MkSaaS](https://mksaas.com) `📚1` — Make Your AI SaaS Product in a Weekend.
+- [ML-GSAI/LLaDA](https://github.com/ml-gsai/llada) `📚1`
+- [MO7YW4NG/JEVPapers](https://github.com/mo7yw4ng/jevpapers) `📚1`
+- [modal-projects/goodhart](https://github.com/modal-projects/goodhart) `📚1` — Jev for preventing reward hacking.
+- [Moe03/suparisma](https://github.com/moe03/suparisma) `📚1` — Supabase + Prisma + React! Auto-generate strongly typed React hooks for CRUD and realtime
+- [MohamedEmirHajji/lunarlander-typesafe-ai-demo](https://github.com/mohamedemirhajji/lunarlander-typesafe-ai-demo) `📚1` — typesafe-ai in:name,description created:2026-0
+- [mohammedfarhan14/APEX-JEV](https://github.com/mohammedfarhan14/apex-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [mojila/kaloriku](https://github.com/mojila/kaloriku) `📚1` — Pencatat kalori makanan Indonesia dengan input suara bahasa Indonesia — aplikasi HP + Wear
+- [mokie24/handy-jev-postprocessing](https://github.com/mokie24/handy-jev-postprocessing) `📚1`
+- [mokuichi147/polynarrator](https://github.com/mokuichi147/polynarrator) `📚1`
+- [molime/aivena-jornada40](https://github.com/molime/aivena-jornada40) `📚1`
+- [monet88/chang-store](https://github.com/monet88/chang-store) `📚1`
+- [monishramj/flyby](https://github.com/monishramj/flyby) `📚1`
+- [monster000777/jev-playground](https://github.com/monster000777/jev-playground) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [monsur-hub/jev-extensions](https://github.com/monsur-hub/jev-extensions) `📚1`
+- [montaguegabe/answerfit](https://github.com/montaguegabe/answerfit) `📚1` — One AI answer, fitted to what each reader already knows — a personalization overlay that re-renders Claude Co…
+- [moocstudent/JEV_BOOK](https://github.com/moocstudent/jev_book) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [MoonStruckHorrors/jev-playground](https://github.com/moonstruckhorrors/jev-playground) `📚1` — An open-ended visual playground for building and running Jev requests
+- [mori-go5/jev-ranks](https://github.com/mori-go5/jev-ranks) `📚1` — Other related projects
+- [morohn/stack4that](https://github.com/morohn/stack4that) `📚1`
+- [mpatrone/jev-chat](https://github.com/mpatrone/jev-chat) `📚1`
+- [Mr-heka/jev-helper](https://github.com/mr-heka/jev-helper) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [mravagna/magic-jev-ball](https://github.com/mravagna/magic-jev-ball) `📚1`
+- [mrciphersmith/keryx](https://github.com/mrciphersmith/keryx) `📚1`
+- [mrkhachaturov/ipranges](https://github.com/mrkhachaturov/ipranges) `📚1`
+- [MrQuartz99/Qwansh](https://github.com/mrquartz99/qwansh) `📚1`
+- [mrt150683-lgtm/Atlas---Jev](https://github.com/mrt150683-lgtm/atlas---jev) `📚1` — A fork of Atlas-CMS that integrates Jev in to the design.
+- [Mrun2525/JEV-ASO-Prioritization-Framework](https://github.com/mrun2525/jev-aso-prioritization-framework) `📚1` — An Integrated Bioinformatics Framework for Host Selenoprotein-Guided Prioritization of Ant
+- [msaad53407/ibm-bob-2.0-hackathon](https://github.com/msaad53407/ibm-bob-2.0-hackathon) `📚1`
+- [msharafh/jev-lab](https://github.com/msharafh/jev-lab) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [msilvalcs/alinha-curriculo](https://github.com/msilvalcs/alinha-curriculo) `📚1`
+- [mukiwu/vault-tag-system](https://github.com/mukiwu/vault-tag-system) `📚1`
+- [MuleSoft-Forge/mule4-jev-connector](https://github.com/mulesoft-forge/mule4-jev-connector) `📚1`
+- [mundulabs/gradula](https://github.com/mundulabs/gradula) `📚1`
+- [muneeb-pulsegen/JEV-ARENA](https://github.com/muneeb-pulsegen/jev-arena) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [muniv24/ai_jev_practice](https://github.com/muniv24/ai_jev_practice) `📚1` — Other related projects
+- [muratbaturay/jevvy](https://github.com/muratbaturay/jevvy) `📚1` — Other related projects
+- [muresanroland/orqadence](https://github.com/muresanroland/orqadence) `📚1`
+- [musman550/musfira-ai-made-the-horizontal-open-source-model-for-jev-with-rlcd-and,0,HTML,,2](https://github.com/musman550/musfira-ai-made-the-horizontal-open-source-model-for-jev-with-rlcd-and,0,html,,2026-09-18) `📚1`
+- [mustapha-rashiduddin/jev-nixos-setup,0,,,2026-09-26](https://github.com/mustapha-rashiduddin/jev-nixos-setup,0,,,2026-09-26) `📚1`
+- [myhusky-stack/jev-compliance-demo](https://github.com/myhusky-stack/jev-compliance-demo) `📚1`
+- [n0thingNoob/dataflow-architecture-jev-mapper](https://github.com/n0thingnoob/dataflow-architecture-jev-mapper) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [NachoLLMJS/jev-btc-arena](https://github.com/nachollmjs/jev-btc-arena) `📚1`
+- [nadeemcite/nadeemcite](https://github.com/nadeemcite/nadeemcite) `📚1`
+- [namanbountyhunter/jev-calculator](https://github.com/namanbountyhunter/jev-calculator) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [nambatomohiro/swarm-llm-vs-jev](https://github.com/nambatomohiro/swarm-llm-vs-jev) `📚1`
+- [Name](https://url) `📚1` — What it does, in a sentence.
+- [Name](https://link) `📚1` — One factual sentence, under ~25 words.
+- [nanako0129/nanako0129](https://github.com/nanako0129/nanako0129) `📚1`
+- [natbrian/natbrian](https://github.com/natbrian/natbrian) `📚1`
+- [nateecho32-stack/mefi-studio](https://github.com/nateecho32-stack/mefi-studio) `📚1`
+- [natenberenstein/systemone](https://github.com/natenberenstein/systemone) `📚1` — Everything related to system one models.
+- [nautahakk/jev-discovery](https://github.com/nautahakk/jev-discovery) `📚1`
+- [navya-sinha-dot/google_solution_challenge](https://github.com/navya-sinha-dot/google_solution_challenge) `📚1`
+- [nawwwal/seriph](https://github.com/nawwwal/seriph) `📚1`
+- [ncsound919/og-glass](https://github.com/ncsound919/og-glass) `📚1`
+- [NearCai/JevLight](https://github.com/nearcai/jevlight) `📚1`
+- [neco75/jev-demo](https://github.com/neco75/jev-demo) `📚1`
+- [neddes/sloppy-jevs-extension,1,JavaScript,,2026-09-17,Open-source](https://github.com/neddes/sloppy-jevs-extension,1,javascript,,2026-09-17,open-source) `📚1`
+- [neilmc81/qwen-omarchy-control](https://github.com/neilmc81/qwen-omarchy-control) `📚1`
+- [nek1912/Jev-Harness](https://github.com/nek1912/jev-harness) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [nemanjamanic/heart-disease-prediction](https://github.com/nemanjamanic/heart-disease-prediction) `📚1`
+- [neurogabo/jev-arena](https://github.com/neurogabo/jev-arena) `📚1` — Run a Pokémon Champions battle arena locally with Jev, TypeSafe, and Pokémon Showdown.
+- [neuron-core/neuron-ai](https://github.com/neuron-core/neuron-ai) `📚1`
+- [NevaMind-AI/jev-town](https://github.com/nevamind-ai/jev-town) `📚1`
+- [NewRudy/Jev_paper](https://github.com/newrudy/jev_paper) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [newuser7171/jev-vpn](https://github.com/newuser7171/jev-vpn) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [Next.js](https://nextjs.org) `📚1` — Full-stack React framework.
+- [ngouard5/jeveuxaider-design](https://github.com/ngouard5/jeveuxaider-design) `📚1`
+- [nguyenhuuluan434/l_jev](https://github.com/nguyenhuuluan434/l_jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [nhandsome-new/jev-agenda-signal](https://github.com/nhandsome-new/jev-agenda-signal) `📚1` — Track meeting agendas in real time with Jev
+- [nhatlong28/jevmatch](https://github.com/nhatlong28/jevmatch) `📚1`
+- [nibzard/jevditor](https://github.com/nibzard/jevditor) `📚1` — Other related projects
+- [nibzard/measuretwice](https://github.com/nibzard/measuretwice) `📚1`
+- [nicobailon/jev-tree](https://github.com/nicobailon/jev-tree) `📚1`
+- [NicolasMahn/VotingAid](https://github.com/nicolasmahn/votingaid) `📚1` — Vergleich deine Meinung mit den Wahlprogrammen zur Bundestagswahl 2025, beurteilt von Jev
+- [Nik-1019/jev-geo-audit](https://github.com/nik-1019/jev-geo-audit) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [nik1tsyganov/conclave](https://github.com/nik1tsyganov/conclave) `📚1`
+- [nikhil-pagote/jev](https://github.com/nikhil-pagote/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [nipundavid/ai-experiments](https://github.com/nipundavid/ai-experiments) `📚1`
+- [NischalGautam8/Jev-StepPilot](https://github.com/nischalgautam8/jev-steppilot) `📚1` — uses new Jev AI model to get tasks done in your computer ,
+- [nishilfaldu/jev-demo](https://github.com/nishilfaldu/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [nishtahir/build-your-own-jev](https://github.com/nishtahir/build-your-own-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [nlxxtw/jev-wechat](https://github.com/nlxxtw/jev-wechat) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [nobody/x\](https://github.com/nobody/x\) `📚1`
+- [Nofuture123/qonnwolfbuddy](https://github.com/nofuture123/qonnwolfbuddy) `📚1`
+- [nomekogenkah/qualitycheck](https://github.com/nomekogenkah/qualitycheck) `📚1`
+- [NoSugarForKids](https://nosugarforkids.com) `📚1`
+- [notCorwin/SurfWax](https://github.com/notcorwin/surfwax) `📚1`
+- [notnaskar/jev-demo](https://github.com/notnaskar/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Nplace-su/jev-father](https://github.com/nplace-su/jev-father) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [nweii/tag-match](https://github.com/nweii/tag-match) `📚1`
+- [nyu-dl/dl4marco-bert](https://github.com/nyu-dl/dl4marco-bert) `📚1`
+- [oat431/oralita_md](https://github.com/oat431/oralita_md) `📚1`
+- [ochotzas/jev-park](https://github.com/ochotzas/jev-park) `📚1` — A car that parks itself by scoring a fixed menu of seven text actions, no generation, no J
+- [OguroGen/simple-jev](https://github.com/ogurogen/simple-jev) `📚1` — jevlang OR jev.ai in:name,description created:
+- [oh-jinsu/typesafe-dynamo](https://github.com/oh-jinsu/typesafe-dynamo) `📚1` — Provide type-safe query operations for AWS DynamoDB.
+- [OhMyKing/JevTuringMachine](https://github.com/ohmyking/jevturingmachine) `📚1`
+- [olie0512/goal-run](https://github.com/olie0512/goal-run) `📚1`
+- [ollaya.dev](https://ollaya.dev) `📚1`
+- [olxxx/jev-playground](https://github.com/olxxx/jev-playground) `📚1`
+- [Omkar5848/jev](https://github.com/omkar5848/jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [omni-jev/omni-jevhub.io](https://github.com/omni-jev/omni-jevhub.io) `📚1`
+- [ONLY-yours/Jev-Components](https://github.com/only-yours/jev-components) `📚1` — a front end components powered by Jew model
+- [ONLY-yours/Jev-Texas-Hold-em](https://github.com/only-yours/jev-texas-hold-em) `📚1` — Playing Texas Hold'em with Jev Components
+- [Open Jev Playground](https://beam.cloud/playground) `📚1`
+- [openai/following-instructions-human-feedback](https://github.com/openai/following-instructions-human-feedback) `📚1`
+- [OpenFox](https://mksaas.link/fox-x) `📚1` — is an independent developer building products and developer tools. His products include:
+- [openteams-ai/artifacts](https://github.com/openteams-ai/artifacts) `📚1`
+- [oracle0703/xyai](https://github.com/oracle0703/xyai) `📚1`
+- [orgward/jev-demo](https://github.com/orgward/jev-demo) `📚1`
+- [orlenko/lifeproj](https://github.com/orlenko/lifeproj) `📚1`
+- [orneryd/NornicDB](https://github.com/orneryd/nornicdb) `📚1`
+- [oscabriel/nouveau](https://github.com/oscabriel/nouveau) `📚1` — Never forget your favorite cup or miss the next big drop.
+- [oscarvasquezroncal/cuanta](https://github.com/oscarvasquezroncal/cuanta) `📚1`
+- [OVRLab/jev-guided-decoding](https://github.com/ovrlab/jev-guided-decoding) `📚1`
+- [owenqwenstarsky/jevts](https://github.com/owenqwenstarsky/jevts) `📚1` — Other related projects
+- [oxford-mgh-2526/JEV-thesis](https://github.com/oxford-mgh-2526/jev-thesis) `📚1` — jev in:name created:2026-08-01..2026-08-31
+- [OxFrancesco/BeeGreat](https://github.com/oxfrancesco/beegreat) `📚1`
+- [oXyut/jev-youtube-comment](https://github.com/oxyut/jev-youtube-comment) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ozekimasaki/cutline](https://github.com/ozekimasaki/cutline) `📚1`
+- [ozzy2438/apply-os,0](https://github.com/ozzy2438/apply-os,0) `📚1`
+- [pablotz/jobhunt](https://github.com/pablotz/jobhunt) `📚1`
+- [Packagist](https://packagist.org/packages/laravel/ai) `📚1`
+- [panalexeu/jev-demo](https://github.com/panalexeu/jev-demo) `📚1` — Demos and playgrounds
+- [pangwenfeng/Jev-Blackjack](https://github.com/pangwenfeng/jev-blackjack) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [Parreirao2/Jev-vs-Deepseek-Ticket-Handling](https://github.com/parreirao2/jev-vs-deepseek-ticket-handling) `📚1` — Other related projects
+- [ParthPujare/Jev_Demo](https://github.com/parthpujare/jev_demo) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [ParvejAliDev/Drizzle](https://github.com/parvejalidev/drizzle) `📚1` — topic:typesafe created:2025-01-01..2025-12-31
+- [PasinduSuraweera/jevflow](https://github.com/pasindusuraweera/jevflow) `📚1`
+- [pasta99/RewardingDoubt](https://github.com/pasta99/rewardingdoubt) `📚1`
+- [patryckalves/jev-no-en](https://github.com/patryckalves/jev-no-en) `📚1`
+- [Patty2007-AIML/Jev-AI-Model](https://github.com/patty2007-aiml/jev-ai-model) `📚1` — jevlang OR jev.ai in:name,description created:
+- [paulsmith/computer-use-jev,6,Go,,2026-09-16,macOS](https://github.com/paulsmith/computer-use-jev,6,go,,2026-09-16,macos) `📚1`
+- [pawarbi/jev-bias-audit,0,HTML,,2026-09-23](https://github.com/pawarbi/jev-bias-audit,0,html,,2026-09-23) `📚1`
+- [pax-k/markov-pax](https://github.com/pax-k/markov-pax) `📚1`
+- [pax-k/OpenAIRT-300](https://github.com/pax-k/openairt-300) `📚1`
+- [pax-k/p-ax](https://github.com/pax-k/p-ax) `📚1`
+- [payalkanyan/jev-kev](https://github.com/payalkanyan/jev-kev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [payphonest/jev](https://github.com/payphonest/jev) `📚1` — jev in:name created:2026-03-01..2026-03-31
+- [pcworm/answerr](https://github.com/pcworm/answerr) `📚1`
+- [pedro-labsabs/opjev](https://github.com/pedro-labsabs/opjev) `📚1`
+- [pedroborgesdev/awsbuildertool](https://github.com/pedroborgesdev/awsbuildertool) `📚1`
+- [penouc/x-lens](https://github.com/penouc/x-lens) `📚1`
+- [perlicajs/perlica](https://github.com/perlicajs/perlica) `📚1` — topic:typesafe created:2024-01-01..2024-12-31
+- [perpetualsoftware/pad](https://github.com/perpetualsoftware/pad) `📚1`
+- [phareim/sfl](https://github.com/phareim/sfl) `📚1`
+- [philosophyAIEDU/260928jev2](https://github.com/philosophyaiedu/260928jev2) `📚1` — Other related projects
+- [phurley/daily-brief](https://github.com/phurley/daily-brief) `📚1` — A sourced southeast Michigan daily brief generated by AI Overwatch
+- [pickuperast/jev-aligner](https://github.com/pickuperast/jev-aligner) `📚1`
+- [pikkonmg/uoterm](https://github.com/pikkonmg/uoterm) `📚1`
+- [piperendervt-glitch/jev-visual-refinement](https://github.com/piperendervt-glitch/jev-visual-refinement) `📚1`
+- [pithings/advo](https://github.com/pithings/advo) `📚1`
+- [Piyushyadav0417/jev-demo](https://github.com/piyushyadav0417/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [pjt3591oo/jev-lab](https://github.com/pjt3591oo/jev-lab) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [pku-yuangroup/openai4s](https://github.com/pku-yuangroup/openai4s) `📚1`
+- [PlutoniaX/jev-demo](https://github.com/plutoniax/jev-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Pociot 插件详解](https://163.com/dy/article/l73i8b8t055627ns.html) `📚1`
+- [pojianbing/tetri-jev](https://github.com/pojianbing/tetri-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [polidog/jev-sift](https://github.com/polidog/jev-sift) `📚1` — Find files whose content matches a query in meaning, scored by Jev
+- [polvivek77/Jev](https://github.com/polvivek77/jev) `📚1` — Other related projects
+- [polyvariant/jev4s](https://github.com/polyvariant/jev4s) `📚1` — Other related projects
+- [ponyo877/jev-2048](https://github.com/ponyo877/jev-2048) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [powerset-co/powerpacks](https://github.com/powerset-co/powerpacks) `📚1`
+- [pragyan-satapathy/JevChat](https://github.com/pragyan-satapathy/jevchat) `📚1` — Who says Jev doesn't chat? I gave it a choice of characters to choose from and make a comp
+- [pranay-tecnomi/jev-2048,0,JavaScript,,2026-09-25,Watch](https://github.com/pranay-tecnomi/jev-2048,0,javascript,,2026-09-25,watch) `📚1`
+- [Pranesh-2005/jev-llm](https://github.com/pranesh-2005/jev-llm) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [prarolab/jev-migration-harness](https://github.com/prarolab/jev-migration-harness) `📚1`
+- [Prash-oss/Jev](https://github.com/prash-oss/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [precisit/one-pass-specialists](https://github.com/precisit/one-pass-specialists) `📚1`
+- [prettier/prettier](https://github.com/prettier/prettier) `📚1`
+- [prithvianilk/jev-playground](https://github.com/prithvianilk/jev-playground) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [privatenumber/get-tsconfig](https://github.com/privatenumber/get-tsconfig) `📚1`
+- [privatenumber/resolve-pkg-maps](https://github.com/privatenumber/resolve-pkg-maps) `📚1`
+- [Priyansh1401/DevCost_CLI_Using_JEV](https://github.com/priyansh1401/devcost_cli_using_jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Probably](https://probably-lang.southpolesteve.workers.dev) `📚1`
+- [probir-sarkar/ai-tic-tac-toe](https://github.com/probir-sarkar/ai-tic-tac-toe) `📚1`
+- [professionaltarun2004/Jev-Control-Plane](https://github.com/professionaltarun2004/jev-control-plane) `📚1` — Other related projects
+- [Project page](https://typesafe-jev.com/en/projects) `📚1`
+- [Project weights](https://huggingface.co/andeytait/jevforge-0.8b) `📚1`
+- [Project weights](https://huggingface.co/fr0zencr4ne/jev-spatial) `📚1`
+- [Project weights](https://huggingface.co/xyzzzh/groundingjev) `📚1`
+- [propensive/villainy](https://github.com/propensive/villainy) `📚1` — topic:typesafe created:2023-01-01..2023-12-31
+- [proshano/KCRU-website](https://github.com/proshano/kcru-website) `📚1`
+- [pruthvinathsudini/sudoku-jev](https://github.com/pruthvinathsudini/sudoku-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [psathi9988-max/-jev-chatbox](https://github.com/psathi9988-max/-jev-chatbox) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [psychaos/ai-team-harness](https://github.com/psychaos/ai-team-harness) `📚1`
+- [punitarani/jeve](https://github.com/punitarani/jeve) `📚1`
+- [pycodinglec/jev-csat-math-probe](https://github.com/pycodinglec/jev-csat-math-probe) `📚1` — Three Korean CSAT math problems marking where Jev stops working as a reasoner. n=3
+- [pydantic/pydantic-ai-harness](https://github.com/pydantic/pydantic-ai-harness) `📚1`
+- [pyhgoshift/AI_JEV](https://github.com/pyhgoshift/ai_jev) `📚1` — jevlang OR jev.ai in:name,description created:
+- [pyoclaw/ragdoll-jev](https://github.com/pyoclaw/ragdoll-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [pythagoras-yamamoto/openqda](https://github.com/pythagoras-yamamoto/openqda) `📚1`
+- [pyTony/Jev-scan](https://github.com/pytony/jev-scan) `📚1`
+- [Qingbolan/jev2rec](https://github.com/qingbolan/jev2rec) `📚1`
+- [qpdbcoocdbqp/Geki-teikokukagekidan-kai](https://github.com/qpdbcoocdbqp/geki-teikokukagekidan-kai) `📚1`
+- [qtopie/rezrov](https://github.com/qtopie/rezrov) `📚1` — topic:jev created:2026-09-24..2026-09-30
+- [quick start](https://mengdi.dev/semantic-assert/getting-started.html) `📚1` — Follow upstream quick start. From this repo (offline):
+- [qunxiang-xinghuo/chill-emochaichai](https://github.com/qunxiang-xinghuo/chill-emochaichai) `📚1`
+- [quoctuancqt/cc-harness](https://github.com/quoctuancqt/cc-harness) `📚1`
+- [quolu/jev-bookmarks](https://github.com/quolu/jev-bookmarks) `📚1`
+- [r582228zjn-del/JEV-MOMO](https://github.com/r582228zjn-del/jev-momo) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [rachit-atlan/jevskill](https://github.com/rachit-atlan/jevskill) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [radhika-singh-10/JEV-AS-LLM](https://github.com/radhika-singh-10/jev-as-llm) `📚1`
+- [radicalgeek/rembr](https://github.com/radicalgeek/rembr) `📚1`
+- [rafael-paucar-ai/jev-casos-de-uso](https://github.com/rafael-paucar-ai/jev-casos-de-uso) `📚1` — jevlang OR jev.ai in:name,description created:
+- [RafalWilinski/vibecheck,47,JavaScript,,2026-09-20,2026-09-26](https://github.com/rafalwilinski/vibecheck,47,javascript,,2026-09-20,2026-09-26) `📚1`
+- [raghavg27/jev-cheatsheet](https://github.com/raghavg27/jev-cheatsheet) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [rahulkhandelwal145/jev-demo](https://github.com/rahulkhandelwal145/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [rahulpawar-31/jev-job-scorer](https://github.com/rahulpawar-31/jev-job-scorer) `📚1`
+- [randilt/jev-policies,0,Go,,2026-09-22](https://github.com/randilt/jev-policies,0,go,,2026-09-22) `📚1`
+- [ranjanydv/jev-mission-compiler](https://github.com/ranjanydv/jev-mission-compiler) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [rashedInt32/watchglass](https://github.com/rashedint32/watchglass) `📚1` — Everything running in your tmux, in one window, with Jev telling you what needs you first.
+- [Rau1CS/jevswarm](https://github.com/rau1cs/jevswarm) `📚1` — Other related projects
+- [raveuk/Fuel_Price_JevAI](https://github.com/raveuk/fuel_price_jevai) `📚1`
+- [ravinarayanan89/JevForce](https://github.com/ravinarayanan89/jevforce) `📚1`
+- [rayyanarchy/wdc-quali](https://github.com/rayyanarchy/wdc-quali) `📚1` — Formula 1 Quali, but for the World Drivers' Championship (WDC) built on Jev.
+- [RazanGurung/jevproject](https://github.com/razangurung/jevproject) `📚1` — Other related projects
+- [rbourdon/jevanced](https://github.com/rbourdon/jevanced) `📚1` — Other related projects
+- [rchovatiya88/cyber-breach-jev,1,JavaScript,Cyber-Breach](https://github.com/rchovatiya88/cyber-breach-jev,1,javascript,cyber-breach) `📚1`
+- [rdb420/groundwork](https://github.com/rdb420/groundwork) `📚1`
+- [rdtiv/chatprob](https://github.com/rdtiv/chatprob) `📚1`
+- [Read](https://mrjev.com/projects/coldteadotai-abide) `📚1` — The README promised zero data retention on every call; on the direct-key path it was never requested, as we confirmed on the wire. README fixed.
+- [Read](https://mrjev.com/projects/alurith-jeff) `📚1` — jeff check . sent a .pem private key and a config file with a password, whole. Fixed in v0.1.0; we re-ran the harness to confirm.
+- [Real-Yash/jev-vis](https://github.com/real-yash/jev-vis) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [realahsanshah/jev-action-firewall](https://github.com/realahsanshah/jev-action-firewall) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ReallyArtificial/jev-by-example,2,JavaScript](https://github.com/reallyartificial/jev-by-example,2,javascript) `📚1`
+- [ReallyArtificial/stuntdouble,2,JavaScript,Shadow](https://github.com/reallyartificial/stuntdouble,2,javascript,shadow) `📚1`
+- [realxhabib/signal](https://github.com/realxhabib/signal) `📚1`
+- [Reasoning the Fast and Frugal Way](https://pubmed.ncbi.nlm.nih.gov/8888650) `📚1` — Gigerenzer & Goldstein (1996). Simple heuristics that work with incomplete information.
+- [rectangle-run/vortex](https://github.com/rectangle-run/vortex) `📚1` — topic:typesafe created:2025-01-01..2025-12-31
+- [Recurso original](https://chooseto.ai/watch/o1cogatwdbk) `📚1`
+- [refurx/gekker](https://github.com/refurx/gekker) `📚1` — topic:typesafe created:2026-05-01..2026-05-31
+- [reiseru256/Jev---](https://github.com/reiseru256/jev---) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [renkouzuki/jev-ai](https://github.com/renkouzuki/jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [repos/typesafe-ai](https://github.com/repos/typesafe-ai) `📚1`
+- [RevocGG/typesafe-jev-bridge,3,JavaScript,,2026-09-20](https://github.com/revocgg/typesafe-jev-bridge,3,javascript,,2026-09-20) `📚1`
+- [revsmoke/leisurelarry](https://github.com/revsmoke/leisurelarry) `📚1`
+- [rf-camillo/jev-aplausometro](https://github.com/rf-camillo/jev-aplausometro) `📚1` — Cole seu post e veja uma plateia de leitores reagir em tempo real, com as…
+- [rguo12/CUA-Jev](https://github.com/rguo12/cua-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [ria-ahyoung/medium-trends-daily](https://github.com/ria-ahyoung/medium-trends-daily) `📚1`
+- [rick97julho/do-i-have-the-vram](https://github.com/rick97julho/do-i-have-the-vram) `📚1` — 🔍 Estimate your VRAM needs for Hugging Face models in seconds without downloading, using o
+- [ricou12/CV-jev](https://github.com/ricou12/cv-jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [RidiculousBuffal/jev_perf_try](https://github.com/ridiculousbuffal/jev_perf_try) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [rileydrakedesign/jev-surfer](https://github.com/rileydrakedesign/jev-surfer) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [rishvaiyer/jevmap](https://github.com/rishvaiyer/jevmap) `📚1`
+- [rkendel1/open-jev](https://github.com/rkendel1/open-jev) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [rkendel1/simple-jev](https://github.com/rkendel1/simple-jev) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [rlrs/alx-jev](https://github.com/rlrs/alx-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [robinroy03/tinderjev](https://github.com/robinroy03/tinderjev) `📚1`
+- [robs87/starred-index](https://github.com/robs87/starred-index) `📚1`
+- [rodericklm1/determify](https://github.com/rodericklm1/determify) `📚1`
+- [rodolphomarinho-dev/regulatory-ai](https://github.com/rodolphomarinho-dev/regulatory-ai) `📚1`
+- [rodolphomarinho-dev/rodolphomarinho-dev](https://github.com/rodolphomarinho-dev/rodolphomarinho-dev) `📚1`
+- [Rodrigo-Pacosillo/PRUEBA-DE-USO-JEV](https://github.com/rodrigo-pacosillo/prueba-de-uso-jev) `📚1` — Probar el modelo jev en uno de sus casos de uso
+- [Rodry555/prueba_jev](https://github.com/rodry555/prueba_jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [rohit-burman/linkedin-slop](https://github.com/rohit-burman/linkedin-slop) `📚1` — System 1 model based project
+- [rohithgoud30/personal_job_scrapper](https://github.com/rohithgoud30/personal_job_scrapper) `📚1`
+- [roisol144/before-you-send](https://github.com/roisol144/before-you-send) `📚1`
+- [rokopt/geb](https://github.com/rokopt/geb) `📚1`
+- [rokopt/geb-mathlib](https://github.com/rokopt/geb-mathlib) `📚1`
+- [rolznz/infinite-dashboard](https://github.com/rolznz/infinite-dashboard) `📚1` — Add fun widgets to an infinite dashboard. Powered by Cerebras, Jev, and TaskFuel
+- [romanpert/sancho](https://github.com/romanpert/sancho) `📚1`
+- [romeucampos/analise-licitacao-jev](https://github.com/romeucampos/analise-licitacao-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ronaldtebrake/drupal_site_architect](https://github.com/ronaldtebrake/drupal_site_architect) `📚1`
+- [rosemary1812/miniflow](https://github.com/rosemary1812/miniflow) `📚1`
+- [Roshan-Kumar-Sharma/explore-jev](https://github.com/roshan-kumar-sharma/explore-jev) `📚1`
+- [Roylaffman/jevGIS](https://github.com/roylaffman/jevgis) `📚1`
+- [RubixOwl/Jev_Model_Selector](https://github.com/rubixowl/jev_model_selector) `📚1`
+- [rudrakshSoni-dev/resume-analyzer-using-jev-based-engine](https://github.com/rudrakshsoni-dev/resume-analyzer-using-jev-based-engine) `📚1` — This is the restructuring of my pre-existing project where I built resume-analyzer and use
+- [rudransh2004/carve-jev](https://github.com/rudransh2004/carve-jev) `📚1`
+- [RuipuCui/jev-harness](https://github.com/ruipucui/jev-harness) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [ruivalim/exu-base](https://github.com/ruivalim/exu-base) `📚1`
+- [runsenwu/jev-demo](https://github.com/runsenwu/jev-demo) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [russfranky/jev-crawlers,1,JavaScript](https://github.com/russfranky/jev-crawlers,1,javascript) `📚1`
+- [rust4ai/spice](https://github.com/rust4ai/spice) `📚1`
+- [ruthvik-01/web-scrapper](https://github.com/ruthvik-01/web-scrapper) `📚1`
+- [rvshankar45-jpg/rvshankar45-jpghub.io](https://github.com/rvshankar45-jpg/rvshankar45-jpghub.io) `📚1`
+- [RYANFFY/crush-monitor-pack](https://github.com/ryanffy/crush-monitor-pack) `📚1`
+- [ryansmithdds1/dentalmachine](https://github.com/ryansmithdds1/dentalmachine) `📚1`
+- [ryanwaits/buoy](https://github.com/ryanwaits/buoy) `📚1`
+- [ryoseiimai/shibuya-machimachi](https://github.com/ryoseiimai/shibuya-machimachi) `📚1`
+- [s-horna/jev-model](https://github.com/s-horna/jev-model) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [s3m3y4z4/jevsec](https://github.com/s3m3y4z4/jevsec) `📚1`
+- [saapai/jev,0,JavaScript,,2026-09-23](https://github.com/saapai/jev,0,javascript,,2026-09-23) `📚1`
+- [sabrinaaquino/jev-examples](https://github.com/sabrinaaquino/jev-examples) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [sacrisphere/jev_front](https://github.com/sacrisphere/jev_front) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [sacrtap/webchat-jev-analysis](https://github.com/sacrtap/webchat-jev-analysis) `📚1`
+- [SaddamTufail/JEV-AI](https://github.com/saddamtufail/jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [SaifAlYounan/cercle-montesquieu-jev](https://github.com/saifalyounan/cercle-montesquieu-jev) `📚1` — Atelier Jev — recherche de clauses dans 50 contrats fictifs, oui/non + citation mot pour m
+- [saitojo1106/gakusai-jev-vs-human](https://github.com/saitojo1106/gakusai-jev-vs-human) `📚1`
+- [Saksham-garg2008/Jev_AI_Cost_Forecast](https://github.com/saksham-garg2008/jev_ai_cost_forecast) `📚1` — jevlang OR jev.ai in:name,description created:
+- [salmancz/jev-fight-coach](https://github.com/salmancz/jev-fight-coach) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [SalomonOli/arxiv-for-chat-users](https://github.com/salomonoli/arxiv-for-chat-users) `📚1`
+- [samimcloud2020/jevai](https://github.com/samimcloud2020/jevai) `📚1`
+- [SamsadSajid/Harness-with-jev](https://github.com/samsadsajid/harness-with-jev) `📚1`
+- [samtay32/jev-system-architect,3](https://github.com/samtay32/jev-system-architect,3) `📚1`
+- [samuelbagin1/doc-ai-assistent](https://github.com/samuelbagin1/doc-ai-assistent) `📚1`
+- [samula2/jeff](https://github.com/samula2/jeff) `📚1`
+- [sanjayr-12/jev-gen](https://github.com/sanjayr-12/jev-gen) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [sanjeev23oct/jev-demo](https://github.com/sanjeev23oct/jev-demo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [sankett/jev](https://github.com/sankett/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [sankett/jev-nextjs](https://github.com/sankett/jev-nextjs) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [sanohiro/jev-opt](https://github.com/sanohiro/jev-opt) `📚1`
+- [santiagopagano95/jev-launcher](https://github.com/santiagopagano95/jev-launcher) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [sapereaude2014/groupconnect](https://github.com/sapereaude2014/groupconnect) `📚1`
+- [sarayutbit58/JevEngineer](https://github.com/sarayutbit58/jevengineer) `📚1` — Other related projects
+- [sarthakagrawal927/meme-lab](https://github.com/sarthakagrawal927/meme-lab) `📚1`
+- [sarthakischauhan/symphony](https://github.com/sarthakischauhan/symphony) `📚1`
+- [sarveshsantoshmhatre/jev](https://github.com/sarveshsantoshmhatre/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [sashakaletsky/jev-language-model](https://github.com/sashakaletsky/jev-language-model) `📚1` — A language model, built entirely with Jev.
+- [saski/arnesto](https://github.com/saski/arnesto) `📚1`
+- [sathish1945-dotcom/-jev-chatbox](https://github.com/sathish1945-dotcom/-jev-chatbox) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [SaturnAura/QwenJev-Lite](https://github.com/saturnaura/qwenjev-lite) `📚1`
+- [SatyendraBanjare/explore-jev](https://github.com/satyendrabanjare/explore-jev) `📚1`
+- [saugataroyarghya/nlp-serving](https://github.com/saugataroyarghya/nlp-serving) `📚1`
+- [sava-top/jev](https://github.com/sava-top/jev) `📚1` — jev in:name created:2023-01-01..2023-12-31
+- [scd-24/truthcv](https://github.com/scd-24/truthcv) `📚1`
+- [schuettc/pi-extensions](https://github.com/schuettc/pi-extensions) `📚1`
+- [scifisatan/dump](https://github.com/scifisatan/dump) `📚1`
+- [scottgal/stylomail](https://github.com/scottgal/stylomail) `📚1`
+- [screfy/clever-env](https://github.com/screfy/clever-env) `📚1` — Strongly typed environment variables with validation and sanitization.
+- [sd109/typesafe-go,3,Go,,2026-09-19,A](https://github.com/sd109/typesafe-go,3,go,,2026-09-19,a) `📚1`
+- [sebastianbugal/jev,0,JavaScript](https://github.com/sebastianbugal/jev,0,javascript) `📚1`
+- [seekerzz/myrsssync](https://github.com/seekerzz/myrsssync) `📚1`
+- [seethinajayadileep/jev-desk](https://github.com/seethinajayadileep/jev-desk) `📚1`
+- [selmakcby/jev-canli-yargic](https://github.com/selmakcby/jev-canli-yargic) `📚1` — onuşurken seni canlı yargılayan Jev: mikrofon → whisper → Jev → etiket
+- [semenovdv/jev_maze](https://github.com/semenovdv/jev_maze) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [Senpawaii/Jev-demo](https://github.com/senpawaii/jev-demo) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [serene-interactive/Seagreen](https://github.com/serene-interactive/seagreen) `📚1`
+- [sergio2526/jev-colombia-locator](https://github.com/sergio2526/jev-colombia-locator) `📚1`
+- [shangshuo/gentlemans-gentleman](https://github.com/shangshuo/gentlemans-gentleman) `📚1`
+- [shaoqisama/jev-ableton-operator](https://github.com/shaoqisama/jev-ableton-operator) `📚1`
+- [Shawny-W/ProjectJEV](https://github.com/shawny-w/projectjev) `📚1`
+- [shengzing/local-jev](https://github.com/shengzing/local-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shengzing/local-vl-jev](https://github.com/shengzing/local-vl-jev) `📚1`
+- [Sheshiyer/urania-137](https://github.com/sheshiyer/urania-137) `📚1` — Graph-first stellar console over the Selemene engine — chat is the threshold, the Folio is the durable readin…
+- [shi3z/deepseekv4.1-a100-custom](https://github.com/shi3z/deepseekv4.1-a100-custom) `📚1`
+- [shijianjian/RoboJEV](https://github.com/shijianjian/robojev) `📚1`
+- [shiunko/jev-demo](https://github.com/shiunko/jev-demo) `📚1`
+- [shiv-ko/jev_playground](https://github.com/shiv-ko/jev_playground) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [ShotsOnTarget/jev-abc](https://github.com/shotsontarget/jev-abc) `📚1`
+- [shravankrishna-sudo/jev-botpostcallscript](https://github.com/shravankrishna-sudo/jev-botpostcallscript) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [shreytalreja25/exploring-jev](https://github.com/shreytalreja25/exploring-jev) `📚1` — Other related projects
+- [shrivardhan232006/jev-dynamic-web](https://github.com/shrivardhan232006/jev-dynamic-web) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [shubham10divakar/AlertJev](https://github.com/shubham10divakar/alertjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/AuthJev](https://github.com/shubham10divakar/authjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/BioJev](https://github.com/shubham10divakar/biojev) `📚1`
+- [shubham10divakar/BotJev](https://github.com/shubham10divakar/botjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/BugJev](https://github.com/shubham10divakar/bugjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/BuildJev](https://github.com/shubham10divakar/buildjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/ChunkJev](https://github.com/shubham10divakar/chunkjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/CleanJev](https://github.com/shubham10divakar/cleanjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/CloudJev](https://github.com/shubham10divakar/cloudjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/DarkJev](https://github.com/shubham10divakar/darkjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/DataJev](https://github.com/shubham10divakar/datajev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/DevJev](https://github.com/shubham10divakar/devjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/EntityJev](https://github.com/shubham10divakar/entityjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/FirewallJev](https://github.com/shubham10divakar/firewalljev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/FlakyJev](https://github.com/shubham10divakar/flakyjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/GitJev](https://github.com/shubham10divakar/gitjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/HallucJev](https://github.com/shubham10divakar/hallucjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/HarnessJev](https://github.com/shubham10divakar/harnessjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/IncidentJev](https://github.com/shubham10divakar/incidentjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/InfraJev](https://github.com/shubham10divakar/infrajev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/IssueJev](https://github.com/shubham10divakar/issuejev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/JiraJev](https://github.com/shubham10divakar/jirajev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/LeakJev](https://github.com/shubham10divakar/leakjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/LinkJev](https://github.com/shubham10divakar/linkjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/MalJev](https://github.com/shubham10divakar/maljev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/MatchJev](https://github.com/shubham10divakar/matchjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/OpsJev](https://github.com/shubham10divakar/opsjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/ParseJev](https://github.com/shubham10divakar/parsejev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/PlanJev](https://github.com/shubham10divakar/planjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/PlantJev](https://github.com/shubham10divakar/plantjev) `📚1`
+- [shubham10divakar/PrivacyJev](https://github.com/shubham10divakar/privacyjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/PromptJev](https://github.com/shubham10divakar/promptjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/RansomJev](https://github.com/shubham10divakar/ransomjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/RedactJev](https://github.com/shubham10divakar/redactjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/RegexJev](https://github.com/shubham10divakar/regexjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/RewardJev](https://github.com/shubham10divakar/rewardjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/SchemaJev](https://github.com/shubham10divakar/schemajev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/SecJev](https://github.com/shubham10divakar/secjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/StackJev](https://github.com/shubham10divakar/stackjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/TagJev](https://github.com/shubham10divakar/tagjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/TerraJev](https://github.com/shubham10divakar/terrajev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/ThreatJev](https://github.com/shubham10divakar/threatjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/ToolJev](https://github.com/shubham10divakar/tooljev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubhamjoshipromail-svg/opspilot-ai](https://github.com/shubhamjoshipromail-svg/opspilot-ai) `📚1`
+- [ShunsukeTamura06/jev-local](https://github.com/shunsuketamura06/jev-local) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [shunta-furukawa/jev-ad-match](https://github.com/shunta-furukawa/jev-ad-match) `📚1`
+- [Shzzzy/-jev](https://github.com/shzzzy/-jev) `📚1`
+- [Shzzzy/mummy-maze-jev-lab](https://github.com/shzzzy/mummy-maze-jev-lab) `📚1`
+- [sid19arya/jev](https://github.com/sid19arya/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [siddiki8/cc-jev-analyzer](https://github.com/siddiki8/cc-jev-analyzer) `📚1` — Other related projects
+- [sidney-tio/jev-ued](https://github.com/sidney-tio/jev-ued) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [silicon-sbt/pkmn-brain](https://github.com/silicon-sbt/pkmn-brain) `📚1`
+- [simics-ja/jev-mail-demo](https://github.com/simics-ja/jev-mail-demo) `📚1`
+- [simonw/simonw](https://github.com/simonw/simonw) `📚1`
+- [simple-f/jev-fyj](https://github.com/simple-f/jev-fyj) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [simplyajay/dwd-jev](https://github.com/simplyajay/dwd-jev) `📚1` — jev in:name created:2026-09-01..2026-09-15
+- [sindresorhus/execa](https://github.com/sindresorhus/execa) `📚1`
+- [sindresorhus/got](https://github.com/sindresorhus/got) `📚1`
+- [sindresorhus/is](https://github.com/sindresorhus/is) `📚1`
+- [singhdevhub-lovepreet/firstlight](https://github.com/singhdevhub-lovepreet/firstlight) `📚1`
+- [Siuver/omp-ask-jev](https://github.com/siuver/omp-ask-jev) `📚1`
+- [sivvish/ship-no-ship](https://github.com/sivvish/ship-no-ship) `📚1`
+- [sixeight/karu](https://github.com/sixeight/karu) `📚1`
+- [sk-ent/rakitsu](https://github.com/sk-ent/rakitsu) `📚1`
+- [skastr0/pulsar](https://github.com/skastr0/pulsar) `📚1`
+- [skastr0/yakjev](https://github.com/skastr0/yakjev) `📚1`
+- [sktime303/orjev,0,,,2026-09-26,Validated](https://github.com/sktime303/orjev,0,,,2026-09-26,validated) `📚1`
+- [skuong/nextjs-starter-template](https://github.com/skuong/nextjs-starter-template) `📚1` — topic:typesafe created:2024-01-01..2024-12-31
+- [slatinwine/jev-cua](https://github.com/slatinwine/jev-cua) `📚1`
+- [slysik/ten-levels-of-jev](https://github.com/slysik/ten-levels-of-jev) `📚1`
+- [Sm0k367/epic-jev](https://github.com/sm0k367/epic-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [SMC17/jevy](https://github.com/smc17/jevy) `📚1` — Other related projects
+- [smellship/jev-autoui-backend](https://github.com/smellship/jev-autoui-backend) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [smilior/jev-book-samples](https://github.com/smilior/jev-book-samples) `📚1`
+- [Smit417263/Gridiron-Jev](https://github.com/smit417263/gridiron-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [Smotherer007/pi-jev](https://github.com/smotherer007/pi-jev) `📚1`
+- [smtdfc/dix](https://github.com/smtdfc/dix) `📚1` — topic:typesafe created:2025-01-01..2025-12-31
+- [snow-leosanches/banco-f-demo](https://github.com/snow-leosanches/banco-f-demo) `📚1`
+- [softmaxxer101/jev_clone](https://github.com/softmaxxer101/jev_clone) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [sohaib-khan-me/jev](https://github.com/sohaib-khan-me/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [sohe918/jev](https://github.com/sohe918/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Solviren77/jev-lab](https://github.com/solviren77/jev-lab) `📚1`
+- [somaaaa1121/jev](https://github.com/somaaaa1121/jev) `📚1` — jev in:name created:2026-07-01..2026-07-31
+- [songjie19892027-boop/-JEV-](https://github.com/songjie19892027-boop/-jev-) `📚1`
+- [sophiadrew/JEV-mapping](https://github.com/sophiadrew/jev-mapping) `📚1` — jev in:name created:2022-01-01..2022-12-31
+- [sorensencc-dotcom/cic-jev](https://github.com/sorensencc-dotcom/cic-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [soter.frolleks.site](https://soter.frolleks.site) `📚1` — also hosted invite (early; not 24/7).
+- [sovereign-communication/harness](https://github.com/sovereign-communication/harness) `📚1`
+- [spirit1616/jev-playground](https://github.com/spirit1616/jev-playground) `📚1` — Just some playground scripts to find out what I can do with jev.
+- [sprah/jev-monid-poc,1,JavaScript,,2026-09-25,Proof-of-concept](https://github.com/sprah/jev-monid-poc,1,javascript,,2026-09-25,proof-of-concept) `📚1`
+- [sri-vijay-kalki/jev-first-impressions](https://github.com/sri-vijay-kalki/jev-first-impressions) `📚1`
+- [srinidhi621/jev](https://github.com/srinidhi621/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [srishtysingh098-png/JEV-AI-Model](https://github.com/srishtysingh098-png/jev-ai-model) `📚1` — jevlang OR jev.ai in:name,description created:
+- [srivastavnik97-lgtm/jev-ai](https://github.com/srivastavnik97-lgtm/jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [SRodriguezBottero/jev-oraculo](https://github.com/srodriguezbottero/jev-oraculo) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [srodriguezbottero/qa-ai-harness](https://github.com/srodriguezbottero/qa-ai-harness) `📚1`
+- [st1ne/jev-gem-scan,2,HTML,,2026-09-21](https://github.com/st1ne/jev-gem-scan,2,html,,2026-09-21) `📚1`
+- [stakwork/aws-advisor](https://github.com/stakwork/aws-advisor) `📚1`
+- [sterlingdigitalp/jevtweet](https://github.com/sterlingdigitalp/jevtweet) `📚1`
+- [stevenke1981/Jev-ocu](https://github.com/stevenke1981/jev-ocu) `📚1`
+- [STiFLeR7/Jev-LLM-Playground,0,JavaScript,,2026-09-21](https://github.com/stifler7/jev-llm-playground,0,javascript,,2026-09-21) `📚1`
+- [Stripe](https://stripe.com) `📚1` — Payments for paid and sponsored submissions.
+- [Stripe Press](https://press.stripe.com) `📚1`
+- [strombolini/armada](https://github.com/strombolini/armada) `📚1`
+- [Stumble/jev-go,5,Go,Community](https://github.com/stumble/jev-go,5,go,community) `📚1`
+- [suekou/jev-generate](https://github.com/suekou/jev-generate) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [suetaketakaya/System_one](https://github.com/suetaketakaya/system_one) `📚1`
+- [sumit-narang/jev-playground](https://github.com/sumit-narang/jev-playground) `📚1`
+- [sunnydesale1111-maker/fintech-jev-ai](https://github.com/sunnydesale1111-maker/fintech-jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [sunnyspot114514/jevnet-runtime](https://github.com/sunnyspot114514/jevnet-runtime) `📚1` — JevNet Runtime: model-agnostic State-Aware Runtime with capability manifests, durable authorization, fenced e…
+- [sunziqin/millennium-jev](https://github.com/sunziqin/millennium-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [SuperHyperInstantFutureTime/SpotifyAPI](https://github.com/superhyperinstantfuturetime/spotifyapi) `📚1` — topic:typesafe created:2023-01-01..2023-12-31
+- [superinstance/quilt-cortex](https://github.com/superinstance/quilt-cortex) `📚1`
+- [superinstance/quilt-loom](https://github.com/superinstance/quilt-loom) `📚1`
+- [supermonk/gemma-jev](https://github.com/supermonk/gemma-jev) `📚1`
+- [supernovae-st/nika](https://github.com/supernovae-st/nika) `📚1`
+- [swappysh/setup](https://github.com/swappysh/setup) `📚1`
+- [swarooppatilx/oxox](https://github.com/swarooppatilx/oxox) `📚1` — Probably the least useful thing you can build with Jev
+- [sweet-butters/youth-benefit-finder](https://github.com/sweet-butters/youth-benefit-finder) `📚1`
+- [SwekeR-463/Jev-Like](https://github.com/sweker-463/jev-like) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [sxoni/typesafe-ai-clone](https://github.com/sxoni/typesafe-ai-clone) `📚1`
+- [syedabbasshaheer-art/jev-atlas](https://github.com/syedabbasshaheer-art/jev-atlas) `📚1`
+- [SyedZawwarAhmed/jev-slop-border](https://github.com/syedzawwarahmed/jev-slop-border) `📚1` — Detect AI generated slop instantly on LinkedIn with Jev.
+- [symfony/ai](https://github.com/symfony/ai) `📚1`
+- [Systembugg/jev-](https://github.com/systembugg/jev-) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [systemfsoftware/systemfsoftware](https://github.com/systemfsoftware/systemfsoftware) `📚1`
+- [t-klug/t-klughub.io](https://github.com/t-klug/t-klughub.io) `📚1`
+- [tackaaaada/jev-langfuse-trial](https://github.com/tackaaaada/jev-langfuse-trial) `📚1`
+- [Tailwind CSS](https://tailwindcss.com) `📚1` — Utility-first CSS framework.
+- [taiwan-hackathon-collection/scanner](https://github.com/taiwan-hackathon-collection/scanner) `📚1`
+- [takavor/jev-grid-chase](https://github.com/takavor/jev-grid-chase) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [taketetsu1982/copyeditor](https://github.com/taketetsu1982/copyeditor) `📚1`
+- [takitake/mizukure](https://github.com/takitake/mizukure) `📚1`
+- [TakSeBiegam/jevode](https://github.com/taksebiegam/jevode) `📚1`
+- [tanghaojin/x-smart-tags](https://github.com/tanghaojin/x-smart-tags) `📚1`
+- [TangVarie/JevforCoentent](https://github.com/tangvarie/jevforcoentent) `📚1` — Other related projects
+- [TanStarter](https://tanstarter.dev) `📚1` — Ship Faster with TanStack, Cost Less with Cloudflare.
+- [tantantan-lab/lifeos](https://github.com/tantantan-lab/lifeos) `📚1`
+- [Tarang-Vadodaria/JEV-Demos](https://github.com/tarang-vadodaria/jev-demos) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [tarasyarema/hackspain](https://github.com/tarasyarema/hackspain) `📚1` — CINTA — Class-agnostic INline Transport Analyzer
+- [Tarusharma1/happyidex-analysis-jev-model](https://github.com/tarusharma1/happyidex-analysis-jev-model) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [taylorbayouth/jev-long](https://github.com/taylorbayouth/jev-long) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [TechCrunch](https://techcrunch.com) `📚1` — Sept 18, 2026) — launch coverage
+- [technoetic/harness50](https://github.com/technoetic/harness50) `📚1`
+- [TechSpot](https://techspot.com) `📚1`
+- [tenkochan/6-Sol_Danmaku](https://github.com/tenkochan/6-sol_danmaku) `📚1`
+- [tenkoh/jev-playground](https://github.com/tenkoh/jev-playground) `📚1`
+- [tensorfish/jrisc](https://github.com/tensorfish/jrisc) `📚1` — Jev's Reduced Instruction Set
+- [terry4025/jev-design-matcher](https://github.com/terry4025/jev-design-matcher) `📚1` — Other related projects
+- [terry623/jev-demo](https://github.com/terry623/jev-demo) `📚1`
+- [The Bitter Lesson](https://incompleteideas.net/incideas/bitterlesson.html) `📚1` — The essay TypeSafe's own Bitterest Lesson argues against, named in TypeSafe's materials as its starting point.
+- [the-wbs-project/aec-integrations](https://github.com/the-wbs-project/aec-integrations) `📚1`
+- [theanimatedmonk/experiments-with-jev](https://github.com/theanimatedmonk/experiments-with-jev) `📚1`
+- [thecnfor/shizurak](https://github.com/thecnfor/shizurak) `📚1`
+- [theishanpathak/jev-verify-retry](https://github.com/theishanpathak/jev-verify-retry) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [TheJackFace/jev-automaton](https://github.com/thejackface/jev-automaton) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [theosunny/jev_life_skills](https://github.com/theosunny/jev_life_skills) `📚1`
+- [therealnaveenkamal/plumber](https://github.com/therealnaveenkamal/plumber) `📚1` — serving plumb system one models
+- [therocksss/therocksss](https://github.com/therocksss/therocksss) `📚1`
+- [theseriousprogrammer/qwenjev](https://github.com/theseriousprogrammer/qwenjev) `📚1`
+- [thesnug/color-picker](https://github.com/thesnug/color-picker) `📚1`
+- [this-Mike-guy/jev-compare](https://github.com/this-mike-guy/jev-compare) `📚1`
+- [thuanlt/jev](https://github.com/thuanlt/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [tidusvn05/hungjury](https://github.com/tidusvn05/hungjury) `📚1`
+- [Tiger-zzZ/jev-gold](https://github.com/tiger-zzz/jev-gold) `📚1`
+- [timlevett/ask-jev](https://github.com/timlevett/ask-jev) `📚1`
+- [tixplop/forge-flows-with-jev](https://github.com/tixplop/forge-flows-with-jev) `📚1`
+- [tk0miya/rubocop-rspec-structure](https://github.com/tk0miya/rubocop-rspec-structure) `📚1`
+- [tkuhemiya/jeveve](https://github.com/tkuhemiya/jeveve) `📚1`
+- [TMTMPST/jev-minesweeper](https://github.com/tmtmpst/jev-minesweeper) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [tomerab1/zombie-survivor](https://github.com/tomerab1/zombie-survivor) `📚1`
+- [tomtimlt/Jev-mecontentometre](https://github.com/tomtimlt/jev-mecontentometre) `📚1` — Other related projects
+- [toniprada/ride-hailing-jev-demo](https://github.com/toniprada/ride-hailing-jev-demo) `📚1`
+- [tonone-ai/tonone](https://github.com/tonone-ai/tonone) `📚1` — One session. Two commands. Full team. Zero meetings.
+- [tonyj-dev/jevcaster](https://github.com/tonyj-dev/jevcaster) `📚1` — Other related projects
+- [Tonyrj3268/jev-pilot](https://github.com/tonyrj3268/jev-pilot) `📚1`
+- [toolution/jev-explained](https://github.com/toolution/jev-explained) `📚1` — jevlang OR jev.ai in:name,description created:
+- [toyin5/reflex](https://github.com/toyin5/reflex) `📚1`
+- [tpellet/grevi](https://github.com/tpellet/grevi) `📚1`
+- [treble-maker123/jev-playground](https://github.com/treble-maker123/jev-playground) `📚1` — A playground for Jev, or a playground playing jev??
+- [trebuchetdynamics/pi-toolset](https://github.com/trebuchetdynamics/pi-toolset) `📚1`
+- [tripathiarpan20/openarm-jev-lab](https://github.com/tripathiarpan20/openarm-jev-lab) `📚1`
+- [tripodxu/jev-piano](https://github.com/tripodxu/jev-piano) `📚1`
+- [tripodxu/jevtown](https://github.com/tripodxu/jevtown) `📚1` — Other related projects
+- [troy-ll/openreach](https://github.com/troy-ll/openreach) `📚1`
+- [tseitz/tunewrangler](https://github.com/tseitz/tunewrangler) `📚1`
+- [tsukhani/jclaw](https://github.com/tsukhani/jclaw) `📚1`
+- [TTANF1/Edgewise](https://github.com/ttanf1/edgewise) `📚1` — topic:typesafe created:2026-09-01..2026-09-30
+- [TurboGuo/jev-dating](https://github.com/turboguo/jev-dating) `📚1` — Jev vs chat models on dating: Red Flag Detector and Is She/He Interested? Live at jevdatin
+- [TurboGuo/jev-fedspeech](https://github.com/turboguo/jev-fedspeech) `📚1`
+- [tusharkkp/JevFlow](https://github.com/tusharkkp/jevflow) `📚1`
+- [tutan123/jev-piano](https://github.com/tutan123/jev-piano) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [tyakovenko/jevHack](https://github.com/tyakovenko/jevhack) `📚1`
+- [tychota/tjev](https://github.com/tychota/tjev) `📚1`
+- [type5afe/jeveora-scout](https://github.com/type5afe/jeveora-scout) `📚1` — Other related projects
+- [TypeSafe AI Emerges From Stealth With $40M — HPCwire/AIwire](https://hpcwire.com/aiwire/2026/09/16/typesafe-ai-emerges-from-stealth-with-40m-in-funding-with-new-model-for-composable-ai) `📚1`
+- [TypeSafe AI emerges from stealth with $40M — Tech Startups](https://techstartups.com/2026/09/16/typesafe-ai-an-ai-startup-founded-by-chatgpt-co-inventor-emerges-from-stealth-with-40m-to-build-ai-thats-100x-faster-and-cheaper) `📚1`
+- [typesafe integration](https://micdrop.dev/docs/ai-integration/provided-integrations/typesafe) `📚1` — Package and site docs: typesafe integration, examples index.
+- [u7chan/pi-lab](https://github.com/u7chan/pi-lab) `📚1`
+- [UESTC1010/SecJev](https://github.com/uestc1010/secjev) `📚1` — Other related projects
+- [ugin-man/jev-bridge](https://github.com/ugin-man/jev-bridge) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [ujjwalbsoni/jevzilla](https://github.com/ujjwalbsoni/jevzilla) `📚1`
+- [umatter/jevtools](https://github.com/umatter/jevtools) `📚1` — Other related projects
+- [umiiii/jev-hackthon-demo](https://github.com/umiiii/jev-hackthon-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [underactive/jev-shim](https://github.com/underactive/jev-shim) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [up1/demo-jev-bug-serverity-assignment](https://github.com/up1/demo-jev-bug-serverity-assignment) `📚1`
+- [Upendhar111/jev](https://github.com/upendhar111/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [Upstream weights](https://huggingface.co/nvidia/diffusiongemma-26b-a4b-it-nvfp4) `📚1`
+- [ur001/Jevix](https://github.com/ur001/jevix) `📚1`
+- [Usoroh/jev-sitebuilder](https://github.com/usoroh/jev-sitebuilder) `📚1` — Point at a blank page, say what belongs there. Jev picks the block and the page places it.
+- [UtakataKyosui/my-jev](https://github.com/utakatakyosui/my-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [vakeel-labs/jev-basic](https://github.com/vakeel-labs/jev-basic) `📚1` — Other related projects
+- [vamsi80/jev-vs-llm](https://github.com/vamsi80/jev-vs-llm) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [vansh-844/jev-ad-blocker](https://github.com/vansh-844/jev-ad-blocker) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [variableland/env](https://github.com/variableland/env) `📚1` — 🌱 Contract-first environment configuration with typed schemas
+- [vbs2004/semloop](https://github.com/vbs2004/semloop) `📚1`
+- [venkateshv1266/my-pi-setup](https://github.com/venkateshv1266/my-pi-setup) `📚1`
+- [Verseforge/jev-pocket](https://github.com/verseforge/jev-pocket) `📚1`
+- [victorarias/kass](https://github.com/victorarias/kass) `📚1`
+- [vidya-hub/nandcalc](https://github.com/vidya-hub/nandcalc) `📚1`
+- [vignesd/hello-jev](https://github.com/vignesd/hello-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [vignesh865/doc-jev](https://github.com/vignesh865/doc-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [viguru24/youtube](https://github.com/viguru24/youtube) `📚1`
+- [vikrantkalyan23/jev](https://github.com/vikrantkalyan23/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [vilamiu/jev](https://github.com/vilamiu/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [vinceajello/local-jevs](https://github.com/vinceajello/local-jevs) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [vincent-lxc/pulse-on-monad](https://github.com/vincent-lxc/pulse-on-monad) `📚1`
+- [vincenth19/are-they-into-you](https://github.com/vincenth19/are-they-into-you) `📚1`
+- [vincepanik/mon-llm](https://github.com/vincepanik/mon-llm) `📚1`
+- [vinilana/live-jev,19,JavaScript](https://github.com/vinilana/live-jev,19,javascript) `📚1`
+- [vinkjoshua/jev-experiment](https://github.com/vinkjoshua/jev-experiment) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [vinodkandibilla/jev-ai-001](https://github.com/vinodkandibilla/jev-ai-001) `📚1` — jevlang OR jev.ai in:name,description created:
+- [vipi-n/jev](https://github.com/vipi-n/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [VirtualMachinist/bezel](https://github.com/virtualmachinist/bezel) `📚1` — Bezel is a harness agnostic supplemental overlay. Jev integration, bend2 planned. current status prototype, w…
+- [visheshb1207/jev-demo](https://github.com/visheshb1207/jev-demo) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [VisheshKumar99/JEV-Assistent](https://github.com/visheshkumar99/jev-assistent) `📚1`
+- [vishnuanalytics/supply_chain_digital_twin](https://github.com/vishnuanalytics/supply_chain_digital_twin) `📚1`
+- [Visorian/TidyUp](https://github.com/visorian/tidyup) `📚1` — Experimental Jev based Ad Blocker
+- [vitejs/vite](https://github.com/vitejs/vite) `📚1`
+- [vito8916/tenders-hn](https://github.com/vito8916/tenders-hn) `📚1`
+- [vivanrajath/jr-arch](https://github.com/vivanrajath/jr-arch) `📚1`
+- [vivekyarla/x-zeitgeist](https://github.com/vivekyarla/x-zeitgeist) `📚1`
+- [vjonaseloy-collab/VETGEST_V1.2_JEV](https://github.com/vjonaseloy-collab/vetgest_v1.2_jev) `📚1` — jev in:name created:2026-05-01..2026-05-31
+- [vladzima/jev-x,2,JavaScript,,2026-09-20](https://github.com/vladzima/jev-x,2,javascript,,2026-09-20) `📚1`
+- [Vles0123/ai-junshi-jev](https://github.com/vles0123/ai-junshi-jev) `📚1`
+- [vmeyet/slack-tui](https://github.com/vmeyet/slack-tui) `📚1`
+- [voidning/design-chat](https://github.com/voidning/design-chat) `📚1`
+- [vsonti23/jev-analyzer](https://github.com/vsonti23/jev-analyzer) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [vvinayakkk/skyview-ai](https://github.com/vvinayakkk/skyview-ai) `📚1`
+- [w3ziqv/focus-flow](https://github.com/w3ziqv/focus-flow) `📚1`
+- [wahahjiahao/emojev](https://github.com/wahahjiahao/emojev) `📚1`
+- [wakamenod/jev-first-error.el](https://github.com/wakamenod/jev-first-error.el) `📚1`
+- [wakamenori/jev-sim](https://github.com/wakamenori/jev-sim) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [wandering-beans/JevTex](https://github.com/wandering-beans/jevtex) `📚1`
+- [waqarwld/Jev-ai](https://github.com/waqarwld/jev-ai) `📚1` — jevlang OR jev.ai in:name,description created:
+- [waynesutton/ask-je](https://github.com/waynesutton/ask-je) `📚1`
+- [wayshard/wayshard](https://github.com/wayshard/wayshard) `📚1`
+- [wbyhome/jev](https://github.com/wbyhome/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [web-pacotes/foundation-types](https://github.com/web-pacotes/foundation-types) `📚1` — Curated package with types I believe all packages and apps need to promote safeness and re
+- [web3w/promosift-extension,0,JavaScript,,2026-09-22,PromoSift](https://github.com/web3w/promosift-extension,0,javascript,,2026-09-22,promosift) `📚1`
+- [weights](https://huggingface.co/omnijev/playjev-0.8b) `📚1`
+- [weights: CC BY-NC-SA 4.0](https://huggingface.co/psiace/dohnuts-0.1.0-0.8b/blob/main/license) `📚1`
+- [WeiS49/jev-send-check](https://github.com/weis49/jev-send-check) `📚1`
+- [wenhui1015/jev-geo](https://github.com/wenhui1015/jev-geo) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [WEP-56/IF_JEV](https://github.com/wep-56/if_jev) `📚1`
+- [wescld/jevIf](https://github.com/wescld/jevif) `📚1` — One-file JS helper that turns a natural-language condition into a Jev Noul with threshold, plus a single-request jevSwitch for multiple conditions. MIT ·…
+- [who-is-cola/ai-weather-model](https://github.com/who-is-cola/ai-weather-model) `📚1`
+- [willcassell/jev_retail_html](https://github.com/willcassell/jev_retail_html) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [willgriffin/pi-fusion-matrix](https://github.com/willgriffin/pi-fusion-matrix) `📚1`
+- [William Stanley Jevons](https://en.wikipedia.org/wiki/william_stanley_jevons) `📚1` — It is named after the economist William Stanley Jevons.
+- [williswee/google-fluid](https://github.com/williswee/google-fluid) `📚1` — A Jev-powered experiment in interfaces that follow your intent.
+- [wiltonn/jevParser](https://github.com/wiltonn/jevparser) `📚1`
+- [winniw111/jev-ultrafast-portfolio](https://github.com/winniw111/jev-ultrafast-portfolio) `📚1`
+- [wisent-ai/brama](https://github.com/wisent-ai/brama) `📚1`
+- [wojiaoysy/Jev-as-self-evolve-selector](https://github.com/wojiaoysy/jev-as-self-evolve-selector) `📚1` — Other related projects
+- [woodbarber/jev](https://github.com/woodbarber/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [workglow-dev/libs](https://github.com/workglow-dev/libs) `📚1`
+- [workszop/jev-dev,1,HTML,,2026-09-20,Jev](https://github.com/workszop/jev-dev,1,html,,2026-09-20,jev) `📚1`
+- [writersrinivasan/JEV](https://github.com/writersrinivasan/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [wssab314/jev-appium](https://github.com/wssab314/jev-appium) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [WXK-AI/jev-ex](https://github.com/wxk-ai/jev-ex) `📚1` — jevlang OR jev.ai in:name,description created:
+- [wyattjoh/demur](https://github.com/wyattjoh/demur) `📚1`
+- [wyattjoh/zen-bookmarks](https://github.com/wyattjoh/zen-bookmarks) `📚1`
+- [x0lg0n/Hostel-Room-Allocation-System](https://github.com/x0lg0n/hostel-room-allocation-system) `📚1` — A modern, full-featured Single Page Application (SPA) for managing hostel room inventory a
+- [x812033727/travel_scanner](https://github.com/x812033727/travel_scanner) `📚1`
+- [xatuke/herobrine](https://github.com/xatuke/herobrine) `📚1`
+- [xawt/prism](https://github.com/xawt/prism) `📚1`
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) `📚1`
+- [XGenic/jev-filings](https://github.com/xgenic/jev-filings) `📚1` — Local SEC filing comparisons with scope-aware alignment and Jev semantic analysis
+- [xiaobai1017/ai-town](https://github.com/xiaobai1017/ai-town) `📚1`
+- [xiaoguangzi/aichat](https://github.com/xiaoguangzi/aichat) `📚1`
+- [xiaohu0x/jevaimodel](https://github.com/xiaohu0x/jevaimodel) `📚1`
+- [xienda/dsh-jev-verify,2,JavaScript,,2026-09-21](https://github.com/xienda/dsh-jev-verify,2,javascript,,2026-09-21) `📚1`
+- [Xin7937-lang/jev-life](https://github.com/xin7937-lang/jev-life) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [XiWenRen/JevTodo](https://github.com/xiwenren/jevtodo) `📚1` — Other related projects
+- [xsploit/audrey-jev](https://github.com/xsploit/audrey-jev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [xuanseus/JevChat-DeepSeek](https://github.com/xuanseus/jevchat-deepseek) `📚1`
+- [xujiongx/jev2048](https://github.com/xujiongx/jev2048) `📚1`
+- [yagocanton21/jev-extension](https://github.com/yagocanton21/jev-extension) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [yahyashareef48/jev-shooter](https://github.com/yahyashareef48/jev-shooter) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [yamatoya/textbook-jev](https://github.com/yamatoya/textbook-jev) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [Yana-jev/Yana-jev](https://github.com/yana-jev/yana-jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [yashas-13/jev-developer](https://github.com/yashas-13/jev-developer) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [yashraghav25/canary](https://github.com/yashraghav25/canary) `📚1`
+- [yask.dev/dj](https://yask.dev/dj) `📚1`
+- [ybagheri/jev-fm-indicator](https://github.com/ybagheri/jev-fm-indicator) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [YemuYu-AI/00-Jev-Hackathon](https://github.com/yemuyu-ai/00-jev-hackathon) `📚1` — jevlang OR jev.ai in:name,description created:
+- [yeoman/stringify-object](https://github.com/yeoman/stringify-object) `📚1`
+- [Yii-Jing/Jev-Cowork](https://github.com/yii-jing/jev-cowork) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [yinlu01/interview-coach](https://github.com/yinlu01/interview-coach) `📚1`
+- [ylobodzynskyi-ship-it/threadsignal](https://github.com/ylobodzynskyi-ship-it/threadsignal) `📚1`
+- [Ylr9933/JevOS](https://github.com/ylr9933/jevos) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [yn01/jev-intent](https://github.com/yn01/jev-intent) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [ynitto/sandbox](https://github.com/ynitto/sandbox) `📚1`
+- [ynqa/maqi](https://github.com/ynqa/maqi) `📚1` — topic:jev created:2026-09-24..2026-09-30
+- [yodablocks/leanvault](https://github.com/yodablocks/leanvault) `📚1`
+- [yogi-miraje/jev-lab](https://github.com/yogi-miraje/jev-lab) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [yorhachq/jev-explorer](https://github.com/yorhachq/jev-explorer) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [youwenjiujiu/jev-cv](https://github.com/youwenjiujiu/jev-cv) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [YoyuDev/JevFlow](https://github.com/yoyudev/jevflow) `📚1`
+- [yt3000/myjev](https://github.com/yt3000/myjev) `📚1`
+- [yuan-phd/jevmark](https://github.com/yuan-phd/jevmark) `📚1` — Other related projects
+- [yuanying/natsumi](https://github.com/yuanying/natsumi) `📚1`
+- [yuanzheyanggg/dreamdm](https://github.com/yuanzheyanggg/dreamdm) `📚1`
+- [yucel-gumus/devcontrol-ai](https://github.com/yucel-gumus/devcontrol-ai) `📚1`
+- [yueyuhoshizora/trackradar](https://github.com/yueyuhoshizora/trackradar) `📚1`
+- [yufeiyufei888/jev-quant](https://github.com/yufeiyufei888/jev-quant) `📚1`
+- [yung-chih-lo/open-everyday-bike](https://github.com/yung-chih-lo/open-everyday-bike) `📚1`
+- [yunoshev/world-of-jevs](https://github.com/yunoshev/world-of-jevs) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [yuquan-chen/edgelore](https://github.com/yuquan-chen/edgelore) `📚1`
+- [YuraDunaev/JevAiProject](https://github.com/yuradunaev/jevaiproject) `📚1`
+- [YuSa0-6/jeviews](https://github.com/yusa0-6/jeviews) `📚1`
+- [yushui2022/Jev-VLA-Astra](https://github.com/yushui2022/jev-vla-astra) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [yuuki-nishino/restaurant-insight-verifier](https://github.com/yuuki-nishino/restaurant-insight-verifier) `📚1` — Other related projects
+- [zakkie/jev-dns-filter](https://github.com/zakkie/jev-dns-filter) `📚1`
+- [zanuka/nocciolo](https://github.com/zanuka/nocciolo) `📚1`
+- [Zapaia/que-modelo-uso](https://github.com/zapaia/que-modelo-uso) `📚1` — Type what you want to build; Jev picks the AI models that fit, from a 3D pile of 186. Webflow × Nerdearla ...
+- [Zayleth/Transportes-JEV-2025](https://github.com/zayleth/transportes-jev-2025) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [zenitsu0509/jev-if-statement](https://github.com/zenitsu0509/jev-if-statement) `📚1`
+- [zeuslawyer/jev-and-cartesia-experiment](https://github.com/zeuslawyer/jev-and-cartesia-experiment) `📚1`
+- [zgt47/jev-chat-windows-47](https://github.com/zgt47/jev-chat-windows-47) `📚1`
+- [zhangp365/jev-minesweeper](https://github.com/zhangp365/jev-minesweeper) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [zhangyang-crazy-one/jev-cm](https://github.com/zhangyang-crazy-one/jev-cm) `📚1`
+- [zhizunbao-studio/between-chat-insight](https://github.com/zhizunbao-studio/between-chat-insight) `📚1`
+- [zhz1667/Jev-wexin](https://github.com/zhz1667/jev-wexin) `📚1`
+- [zie1ony/jev-talks](https://github.com/zie1ony/jev-talks) `📚1`
+- [ziwon/jev-iab-explorer](https://github.com/ziwon/jev-iab-explorer) `📚1`
+- [zixiang0623/jev-mail_cloudflare](https://github.com/zixiang0623/jev-mail_cloudflare) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [zjgulai/Jev-dsh](https://github.com/zjgulai/jev-dsh) `📚1`
+- [zk-hypersolid/doc-drift-check](https://github.com/zk-hypersolid/doc-drift-check) `📚1`
+- [zlw212481725-beep/jev-reflex](https://github.com/zlw212481725-beep/jev-reflex) `📚1`
+- [zong09/cane](https://github.com/zong09/cane) `📚1`
+- [zox2m/JevFace](https://github.com/zox2m/jevface) `📚1`
+- [zuabua/jev-airport-demo](https://github.com/zuabua/jev-airport-demo) `📚1` — jevlang OR jev.ai in:name,description created:
+- [zuoliangyu/jev_puke](https://github.com/zuoliangyu/jev_puke) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [zuraanasashvili/simple_nps](https://github.com/zuraanasashvili/simple_nps) `📚1`
+- [zwh20081/hoi4-jevai](https://github.com/zwh20081/hoi4-jevai) `📚1` — JevAI: model-guided Hearts of Iron IV AI strategy
+- [zzyong24/moonlit-topic-engine](https://github.com/zzyong24/moonlit-topic-engine) `📚1`
+- [人人都是产品经理](https://woshipm.com/share/6465624.html) `📚1`
+- [公众号原帖](https://mp.weixin.qq.com/s) `📚1`
+- [公司介绍](https://cua.ai/about) `📚1`
+- [发布文](https://lobste.rs/s/ebbixx/introducing_system_one_models_jev) `📚1`
+- [在线 playground](https://getsupers.com/demos/context-engine) `📚1`
+- [在线版](https://zhenninglang.github.io/jev-cases) `📚1`
+- [智能 if 语句实测](https://juejin.cn/post/7686780705863417862) `📚1`
+- [网站](https://mrjev.com) `📚1`
+- [网站](https://youshinh.github.io/md-memo) `📚1`
+- [网站案例库](https://typesafe-jev.com/use-cases) `📚1`
+- [网站项目页](https://typesafe-jev.com/projects) `📚1`
+
+</details>

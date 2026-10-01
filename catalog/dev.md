@@ -1,0 +1,1215 @@
+# Developer Tools & Coding Workflows
+
+> Code review, commit/CI gates, CLIs, editor integrations and devops tooling.
+>
+> **1,192 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 105
+
+- [devagrawal09/jev-review](https://github.com/devagrawal09/jev-review) `★646 · 📚74` — A staged code-review workflow and local dashboard built with TypeSafe Jev.
+- [NiazMorshed2007/jev-review](https://github.com/niazmorshed2007/jev-review) `★230 · 📚48` — Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by Jev.
+- [mrnugget/jev-shell-history](https://github.com/mrnugget/jev-shell-history) `★115 · 📚43` — Fish-style zsh history autosuggestions ranked by Jev (TypeSafe)
+- [valentynkit/jev-belay](https://github.com/valentynkit/jev-belay) `★19 · 📚41` — Claude Code Stop hook that blocks an unverified done: reads the transcript for evidence, asks Jev once, fails open on everything else
+- [supercorp-ai/supercov](https://github.com/supercorp-ai/supercov) `★141 · 📚39` — Coverage, security and code quality for coding agents
+- [valentynkit/jev-commit](https://github.com/valentynkit/jev-commit) `★12 · 📚39` — pre-commit hook: one Jev call judges whether your commit message matches the diff, plus debug leftovers, scope creep, and a secret belt
+- [valentynkit/jev.nvim](https://github.com/valentynkit/jev.nvim) `★8 · 📚39` — Neovim: ask the buffer a question, get a quickfix list. Treesitter splits functions, Jev scores each one, probabilities land as virtual text
+- [devagrawal09/stanley-code](https://github.com/devagrawal09/stanley-code) `★118 · 📚37` — Bounded TypeSafe Jev workflows for coding agents.
+- [tumf/jev-cli](https://github.com/tumf/jev-cli) `★13 · 📚32` — Small dependency-free CLI for TypeSafe Jev.
+- [doeixd/jev-pref](https://github.com/doeixd/jev-pref) `★10 · 📚32` — Turn your AGENTS.md preferences into a fast, Jev-powered AI linter.
+- [sufianetaouil/every](https://github.com/sufianetaouil/every) `★7 · 📚32` — Ask a yes/no question of every function in a codebase. Ranked answers in seconds, for cents. Grep whose pattern is a question, powered by TypeSafe Jev.
+- [devanshbatham/commit-miner](https://github.com/devanshbatham/commit-miner) `★35 · 📚31` — Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.
+- [lakeday-org/perch](https://github.com/lakeday-org/perch) `★316 · 📚29` — Semantic code linting with Decision Models.
+- [raihankhan-rk/diffjury](https://github.com/raihankhan-rk/diffjury) `★7 · 📚29` — DiffJury — TypeSafe Jev PR risk router + code review coach
+- [DanRWilloughby/snifftest](https://github.com/danrwilloughby/snifftest) `★33 · 📚27` — A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.
+- [feder-cr/jev](https://github.com/feder-cr/jev) `★1,133 · 📚26` — jevos is an open-source alternative to Jev for yes/no decisions that runs on your laptop.
+- [lukstei/slop-grader](https://github.com/lukstei/slop-grader) `★31 · 📚26` — Jev-powered, rule-based grader for text files. Runs every rule against every line in parallel. No skimming, no missed lines.
+- [xinyao27/jevonian](https://github.com/xinyao27/jevonian) `★15 · 📚26` — One local endpoint. The right model for every turn — enforced in code, not prompts.
+- [frostney/clean-code-review](https://github.com/frostney/clean-code-review) `★11 · 📚26` — Every code file in a pull request, judged against Uncle Bob's Clean Code by TypeSafe's Jev, then reviewed by Luna. Built on eve and Next.js.
+- [iamtoomas/JevLint](https://github.com/iamtoomas/JevLint) `★11 · 📚26` — Configurable semantic linting powered by Jev, with file-level NOUL judgments and a magic-strings plugin.
+- [Nasrallah-AL/jev-cli](https://github.com/nasrallah-al/jev-cli) `★22 · 📚25` — Command-line tool for TypeSafe's Jev AI model.
+- [vercel-labs/ai-cli](https://github.com/vercel-labs/ai-cli) `★817 · 📚23` — Generate anything from your terminal.
+- [mizchi/jev-lint](https://github.com/mizchi/jev-lint) `★113 · 📚23` — lint text in code by jev scorerer.
+- [AkashPriyadarshii/jev-git](https://github.com/akashpriyadarshii/jev-git) `★4 · 📚23` — Sub-second Git pre-commit & pre-push semantic reflex gate powered by TypeSafe AI Jev
+- [RINNECODER/jev-behavior-study](https://github.com/rinnecoder/jev-behavior-study) `★3 · 📚23` — Independent Jev 1.13.0 behavior study: report, controlled prompt experiments, raw results, and offline verification.
+- [samtay32/jev-system-architect](https://github.com/samtay32/jev-system-architect) `★2 · 📚23` — System-architecture skill for TypeSafe AI Jev/System One — find fuzzy semantic judgment and turn it into small Choice/Score/Noul primitives.
+- [choxos/jev-reviewer](https://github.com/choxos/jev-reviewer) `★37 · 📚22` — Data extraction for systematic reviews, quoted from the papers. Ask a trial report and its supplements your extraction form or a RoB 2, ROBINS-I, QUADAS-2 or TIDieR template; Jev points at the lines, every answer is a verbatim quote with…
+- [y0usaf/typesafe-cli](https://github.com/y0usaf/typesafe-cli) `★4 · 📚22` — Ask Jev typed questions from the shell: noul, choice, and score answers as numbers, not prose
+- [ariel-frischer/jevkit](https://github.com/ariel-frischer/jevkit) `★3 · 📚22` — Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay
+- [shaharia-lab/jev-cli](https://github.com/shaharia-lab/jev-cli) `★33 · 📚21` — Command-line tool for TypeSafe AI's Jev model. Ask yes/no, multiple-choice and rubric questions about any text and get calibrated probabilities back. Answers become exit codes for shells and CI, JSON for scripts, and MCP tools for AI…
+- [jtsang4/jev-cli](https://github.com/jtsang4/jev-cli) `★3 · 📚21` — CLI for TypeSafe AI's Jev evaluation model — typed questions in, structured JSON answers out
+- [andududu/jeview](https://github.com/andududu/jeview) `★61 · 📚20` — An unofficial local visualizer for Jev (TypeSafe): a live view of every call your code makes. Not affiliated with TypeSafe AI.
+- [haseeb-heaven/jev-system-one](https://github.com/haseeb-heaven/jev-system-one) `★5 · 📚20` — A polished OpenAI + TypeSafe Jev terminal interface for answers with transparent decision reports
+- [wustep/jev-playground](https://github.com/wustep/jev-playground) `★2 · 📚20` — Can a System One model steer music? Jev picks the plan (enums only); code renders sheet, audio and MIDI.
+- [buchmark/claude-jev](https://github.com/buchmark/claude-jev) `★7 · 📚19` — Claude Code plugin that scores review findings, debug hypotheses and design options with TypeSafe's Jev — calibrated probabilities instead of one more opinion.
+- [fatwang2/jev-review-action](https://github.com/fatwang2/jev-review-action) `★2 · 📚19` — Configurable GitHub submission review and PR classification with TypeSafe Jev. No text-generation model.
+- [Avinash-jetwani/jevmem](https://github.com/avinash-jetwani/jevmem) `★103 · 📚18` — Automatic project memory for Claude Code. Also works with Cursor and Codex. Now in Anthropic's Claude plugin directory.
+- [wobsoriano/oxlint-plugin-jev](https://github.com/wobsoriano/oxlint-plugin-jev) `★64 · 📚18` — Lint rules written in plain English. Oxlint finds the code, TypeSafe Jev answers the question. ★ 14 · endpoint · TypeScript
+- [FrancoisChastel/jev-code](https://github.com/francoischastel/jev-code) `★33 · 📚18` — Jev, TypeSafe's System One classifier, as a tool inside Claude Code, Codex, Pi, and OpenCode: typed classify, check, score, rank, and ask, plus one-command setup.
+- [mizchi/jev-test-filter](https://github.com/mizchi/jev-test-filter) `★30 · 📚18` — Score every test against a git diff with Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand
+- [ShuhanSun/jev-oas-sentinel](https://github.com/shuhansun/jev-oas-sentinel) `★5 · 📚18` — Catch breaking API behavior hidden in OpenAPI prose with deterministic checks and TypeSafe JEV System One semantic review.
+- [allebee/pytest-jev](https://github.com/allebee/pytest-jev) `★2 · 📚18` — Pytest plugin for semantic assertions on LLM output using Jev's calibrated probabilities.
+- [rhighs/jev-code](https://github.com/rhighs/jev-code) `★20 · 📚17` — Interactive TypeScript coding CLI powered by Jev typed decisions and constrained AST generation.
+- [nozomi-koborinai/jev-spec](https://github.com/nozomi-koborinai/jev-spec) `★10 · 📚17` — ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model.
+- [mblode/taste-lint](https://github.com/mblode/taste-lint) `★7 · 📚17` — Catch AI slop before you ship.
+- [suraj-phanindra/wellposed](https://github.com/suraj-phanindra/wellposed) `★2 · 📚17` — Lints Jev requests before they are sent: offline checks for missing none-of-the-above options and broken state paths, then Jev itself for what structure cannot decide.
+- [Bud-ro/jev-demos](https://github.com/bud-ro/jev-demos) `★0 · 📚17` — Demos to test the effectiveness of TypeSafe's "Jev" System One Model
+- [TypeSafeAI/jev-harness](https://github.com/typesafeai/jev-harness) `★26 · 📚16` — A custom coding harness for TypeSafe AI's Jev: an LLM proposes, Jev answers narrow questions, code decides, every step leaves a receipt.
+- [Nisaka520/JevBystander](https://github.com/nisaka520/jevbystander) `★15 · 📚16` — 安卓无障碍版微信判读：只读屏、只弹 3 条 Toast（意图 / 情绪 / 着急 / 建议），不生成回复文案、不发送 · 零第三方依赖，APK 861 KB
+- [okooo5km/jev](https://github.com/okooo5km/jev) `★11 · 📚16` — Typed decisions from the shell: an unofficial stdlib-Python CLI and Agent Skill for TypeSafe's Jev model, via the TypeSafe API (default) or OpenRouter. Yes/no, choice and ordinal scores with calibrated probabilities, semantic grep and…
+- [geilt/typesafe-cli](https://github.com/geilt/typesafe-cli) `★3 · 📚16` — CLI and agent skill for TypeSafe System One (Jev): typed Choice, Score, and Noul judgments.
+- [ibrahemid/git-jev-stage](https://github.com/ibrahemid/git-jev-stage) `★2 · 📚16` — Select Git changes for staging with a plain-language description.
+- [CorieW/JevTest](https://github.com/coriew/jevtest) `★0 · 📚16` — Bounded exploratory browser testing with Jev, deterministic assertions, and replayable evidence.
+- [NanmiCoder/jev-arena](https://github.com/nanmicoder/jev-arena) `★112 · 📚15` — Jev 模型介绍与实测：通过 Choice / Score / Noul 将自然语言转为带类型的判断与概率，用于分类、评分和路由；支持与 DeepSeek 等模型对比评论打标、速度与结果，含 CSV/Excel 导入、原速回放与离线报告。
+- [jonathanavis96/jev-kit](https://github.com/jonathanavis96/jev-kit) `★54 · 📚15` — Everything you need to run TypeSafe's Jev with Claude Code: a tool-call guard, tier guard, file search, browser agent, review, belay, compaction and installers.
+- [syumai/jevyoumean](https://github.com/syumai/jevyoumean) `★16 · 📚15` — Semantic "Did you mean?" for any CLI — wraps commands and uses TypeSafe's Jev to match subcommand typos by intent, not edit distance.
+- [rbalch/typesafeai-review](https://github.com/rbalch/typesafeai-review) `★0 · 📚15` — Using Typesafe.AI to generate diff reviews.
+- [tyler-dot-earth/patdown](https://github.com/tyler-dot-earth/patdown) `★14 · 📚14` — Block, steer, and "fuzzy lint" with Jev to make agents follow your rules and conventions. CLI, github action, pi package, claude extension, and more. Built with Effect + TypeScript.
+- [jesset/pi-verdict](https://github.com/jesset/pi-verdict) `★10 · 📚14` — A minimal  permission gate for Pi in the style of Claude Code's auto mode
+- [Tech-Byte-Frontier/jevgate](https://github.com/tech-byte-frontier/jevgate) `★9 · 📚14` — Code-review gate for CI and coding agents: asks TypeSafe Jev small typed questions about functions, files, tests and docs, and reports findings with locations and probabilities
+- [ntedvs/commentcop](https://github.com/ntedvs/commentcop) `★1 · 📚14` — Put your code comments on trial. Powered by Jev.
+- [KamilPostrozny/pi-jev-code](https://github.com/kamilpostrozny/pi-jev-code) `★0 · 📚14` — Single-agent Pi coding coprocessor with Jev semantic gates, baseline-to-current diff review, and append-only observability telemetry.
+- [moezubair/check-risk](https://github.com/moezubair/check-risk) `★0 · 📚14` — A CLI and GitHub Action that assesses code-change risk using deterministic rules and TypeSafe Jev, recommending checks and reviewers before merge.
+- [thiago-ss/jev-review](https://github.com/thiago-ss/jev-review) `★0 · 📚14` — Autonomous Jev pull-request review with typed decisions, calibrated approval gates, and trusted-owner escalation
+- [Zahrannnn/zcode-jev](https://github.com/zahrannnn/zcode-jev) `★0 · 📚14` — Typed judgment layer for coding agents — gates from PRD to ship. Jev-ready, provider-agnostic.
+- [klauswg/jev-suite](https://github.com/klauswg/jev-suite) `★33 · 📚13` — Four decision-quality tools on Jev (TypeSafe System One): Jev answers structured questions, deterministic code keeps the final say.
+- [ansidium/jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge) `★6 · 📚13` — Jev model and reasoning-effort routing for Codex Desktop and CLI
+- [Kushwho/jev-codes](https://github.com/kushwho/jev-codes) `★5 · 📚13` — Audit your git diff against YAML coding-standards packs using TypeSafe's Jev model, from a CLI or your AI agent's command/skill.
+- [jxucoder/mimicry](https://github.com/jxucoder/mimicry) `★0 · 📚13` — Rewrite AI drafts in your own voice with a bounded TypeSafe feedback loop.
+- [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) `★32,230 · 📚12` — CLI tool for configuring and monitoring Claude Code
+- [f/jev-leftpad](https://github.com/f/jev-leftpad) `★84 · 📚12` — Left-pad strings with TypeSafe AI's Jev. For reasons.
+- [baronunread/leanest](https://github.com/baronunread/leanest) `★5 · 📚12` — Local-first test selector using Jev judgments to determine which tests are affected by a code change
+- [ckorhonen/jev-lint](https://github.com/ckorhonen/jev-lint) `★5 · 📚12` — A fuzzy linter for coding agents. It checks the code your agent writes against your team's best practices while the agent is still working, not at code review.
+- [mingleiw/jev-oncall](https://github.com/mingleiw/jev-oncall) `★3 · 📚12` — On-call with TypeSafe Jev: the model judges, plain code decides. Root-cause analysis with no LLM in the loop, and alert triage.
+- [realZachi/jevtest](https://github.com/realzachi/jevtest) `★3 · 📚12` — Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get calibrated probabilities back.
+- [miounet11/jevcode](https://github.com/miounet11/jevcode) `★1 · 📚12` — JevCode — Jev (TypeSafe System One) 技术解决方案与最佳实践 · https://www.jevcode.ai
+- [smasato/jev-jp-address](https://github.com/smasato/jev-jp-address) `★1 · 📚12` — Jev (TypeSafe) 性能評価プロジェクト — 日本郵便 KEN_ALL をマスタに、AI SDK 経由の Jev が住所のあいまい一致にどこまで使えるかを検証
+- [WeSecureYou/Jev-test](https://github.com/wesecureyou/jev-test) `★0 · 📚12` — Job Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to AI-driven layoffs and its resilience.
+- [liaoyuhua/jev-trip](https://github.com/liaoyuhua/jev-trip) `★26 · 📚11` — Two Minds, One Trip.
+- [virolea/lintus](https://github.com/virolea/lintus) `★12 · 📚11` — A linter whose rules are written in plain language.
+- [emirbartu/jev-for-all](https://github.com/emirbartu/jev-for-all) `★7 · 📚11` — Jev for every agentic development workflow — the System One decision model wired into whatever harness an agent codes in: OpenCode today, Claude Code and Hermes adapters next.
+- [joshhu/jevtest](https://github.com/joshhu/jevtest) `★7 · 📚11` — 情緒測謊器：嘴上說「好」，心裡真的好嗎？用 TypeSafe Jev（System One 模型）透過 OpenRouter 即時判斷，並與一般 LLM 對照
+- [nrdz-labs/fast-jev-opencode](https://github.com/nrdz-labs/fast-jev-opencode) `★7 · 📚11` — Jev-scored context pruning for OpenCode: drops stale tool calls and truncates bulky results on the outgoing request — fail-open, cache-backed, configurable live. Port of fast-jev-compaction to the V2 context hook.
+- [gemanor/jev-code-review-benchmark](https://github.com/gemanor/jev-code-review-benchmark) `★5 · 📚11` — Comparing Jev, Gemini Flash, and Claude Fable on Python code review rules: cost, speed, accuracy, and consistency. Includes results, charts, and reproducible experiments.
+- [WXK-AI/jev-opus](https://github.com/wxk-ai/jev-opus) `★5 · 📚11` — Claude Opus 5.5 with the effort level re-decided every step by the TypeSafe Jev reflex — without breaking the prompt cache. CLI + Claude Code plugin.
+- [RahulBalakavi/claude-code-jev](https://github.com/rahulbalakavi/claude-code-jev) `★4 · 📚11` — Experimental Jev permission gate for Claude Code via OpenRouter, with reproducible latency and cost benchmarks
+- [juanlentino/jev-connector](https://github.com/juanlentino/jev-connector) `★2 · 📚11` — WordPress connector for TypeSafe Jev: typed, confidence-scored answers your code can branch on.
+- [kindintelligence/jev-rust-review](https://github.com/kindintelligence/jev-rust-review) `★2 · 📚11` — Rust-aware code review for Claude Code and coding agents, powered by TypeSafe Jev
+- [maddygoround/typesafeai-cli](https://github.com/maddygoround/typesafeai-cli) `★2 · 📚11` — Give your AI agent a CLI companion who has access to TypeSafe AI's Jev.
+- [gmaxxxie/jev-cli](https://github.com/gmaxxxie/jev-cli) `★1 · 📚11` — jev-cli — No description provided by the repository (auto-discovered, description not yet written)
+- [TheBous/jev-flash-review](https://github.com/thebous/jev-flash-review) `★1 · 📚11` — jev-flash-review - An MCP review engine that evaluates Agent-supplied diffs against explicit rules.
+- [dtduc-git/jev-packs](https://github.com/dtduc-git/jev-packs) `★0 · 📚11` — Evidence-gated registry of Jev question packs — curated questions, golden cases and measured evidence for Jev-compatible decision endpoints
+- [human-compiler.asfarlab.fun](https://human-compiler.asfarlab.fun) `📚11` — The list says: Paste corporate prose; Jev scores passive-aggression, urgency, and information density, then code emits rustc-style diagnostics. Live: human-compiler.asfarlab.fun. Rows in this section are usually a…
+- [lhotwll217/jev-cli](https://github.com/lhotwll217/jev-cli) `★0 · 📚11` — JSON-in, typed-decisions-out CLI for the TypeSafe System One API
+- [Yes / No](https://yesno.coderai.dev) `📚11` — Free no-signup Noul demo. Ask a question, get yes / no / maybe, with web search when needed. Best first click if you've never seen Jev.
+- [egma-ai/jev-code-reviewer](https://github.com/egma-ai/jev-code-reviewer) `★108 · 📚10` — Review behavior, not just diffs. Jev prioritizes human attention; OpenAI explains the changes. Local CLI + agent skill + GitHub extension.
+- [Alurith/jeff](https://github.com/alurith/jeff) `★38 · 📚10` — Catch code issues before they catch you.
+- [ZJU-REAL/CUA-JEV](https://github.com/zju-real/cua-jev) `★11 · 📚10` — Jev for Computer Use.
+- [KiritoKing/midscene-jev-runner](https://github.com/kiritoking/midscene-jev-runner) `★10 · 📚10` — Community-maintained JEV runner integration for Midscene Test
+- [Thanh-Mathieu95/jev-model-tokengate](https://github.com/thanh-mathieu95/jev-model-tokengate) `★4 · 📚10` — An OpenAI-compatible proxy that sits between your LLM and your users. It evaluates each sliding window of tokens while the response is still streaming and cuts the stream before a violating token can reach the screen.
+- [Selmar/typesafe-jev-calibrate-for-code-review](https://github.com/selmar/typesafe-jev-calibrate-for-code-review) `★3 · 📚10` — About calibrating Jev for code reviews.
+- [hiroki-abe-58/sokudan](https://github.com/hiroki-abe-58/sokudan) `★2 · 📚10` — Japanese System One decision model (Jev-style): typed answers and probabilities in one forward pass, no text generation. Includes bench_ja/bench_en and a Laya position-bias repro.
+- [juanegido/jev-pr-judge](https://github.com/juanegido/jev-pr-judge) `★2 · 📚10` — Typed verdicts on pull requests with TypeSafe System One (Jev): one parallel call, policy in code, usable as a GitHub Action
+- [Dujaydis/JevSysUno](https://github.com/dujaydis/jevsysuno) `★0 · 📚10` — JevSysUno - Applications (7): jev.nvim, github-star-organizer-jev, jev, JevSysUno, jev-trader, newsscore, trading-bot-jev.
+- [jeiel85/jevscope](https://github.com/jeiel85/jevscope) `★0 · 📚10` — Local-first visual decision debugger and regression testbench for TypeSafe AI Jev
+
+## Established (cited by 5–9 lists) — 146
+
+- [CelestoAI/celesto](https://github.com/celestoai/celesto) `★991 · 📚9` — Secure and persistent computer for AI agents.
+- [pinecone-io/cultivar](https://github.com/pinecone-io/cultivar) `★41 · 📚9` — Use cultivar to test your Agent Skills and Docs by running them in sandboxes, and across different agents.  - GitHub - pinecone-io/cultivar: Use cultivar to test your Agent Skills and Docs by running them in sandboxes, and across different…
+- [dfinke/Jev](https://github.com/dfinke/jev) `★8 · 📚9` — PowerShell decisions with TypeSafe AI's Jev model: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+- [bartlomein/oko](https://github.com/bartlomein/oko) `★7 · 📚9` — Oko - Code-search CLI and MCP server with local candidate retrieval and optional hosted Jev ranking.
+- [acharyaanusha/magic-jev](https://github.com/acharyaanusha/magic-jev) `★2 · 📚9` — A Magic Jev (8) Ball for pull requests. .
+- [AlexBabescu/ActionJev](https://github.com/alexbabescu/actionjev) `★2 · 📚9` — Structured code review for GitHub and Gitea Actions, powered by TypeSafe Jev and written in Rust.
+- [aoprisan/jev-ts-repl](https://github.com/aoprisan/jev-ts-repl) `★2 · 📚9` — jev-repl - Terminal REPL for shaping System One requests before writing code. Simulates answers when no API key is set.
+- [gpazo/jev-vphone-cli](https://github.com/gpazo/jev-vphone-cli) `★1 · 📚9` — Jev from Typesafe.ai + vphone-cli.
+- [haibt163/jev](https://github.com/haibt163/jev) `★1 · 📚9` — Jev Playground 2.0.
+- [Jackalope-Dev/jackalope](https://github.com/jackalope-dev/jackalope) `★1 · 📚9` — A desktop workspace for coding agents, parallel Git worktrees, and code review.
+- [sable-inc/jev-linter-action](https://github.com/sable-inc/jev-linter-action) `★1 · 📚9` — Configurable semantic CI checks for repository files using TypeSafe Jev
+- [TomRichner/can-jev-bayes](https://github.com/tomrichner/can-jev-bayes) `★1 · 📚9` — Jev Bayes, No? Testing TypeSafe AI's Jev against Bayesian-optimal strategies, and testing if Jev can effectivly use Bayesian priors.
+- [Umbylicus/umby-jev-stack](https://github.com/umbylicus/umby-jev-stack) `★1 · 📚9` — Portable agent skill: TypeSafe Jev as a cheap code-review classifier (HTTP + optional jev-review MCP)
+- [codejunkie99/keel](https://github.com/codejunkie99/keel) `★317 · 📚8` — Local-first macOS coding workspace with local Laya and optional Jev decision selection
+- [bhaiG-de/jev-design-test](https://github.com/bhaig-de/jev-design-test) `★30 · 📚8` — Jev shadcn-block generator.
+- [Eriskii/ErisLint](https://github.com/eriskii/erislint) `★20 · 📚8` — Rust linter powered by configurable Jev rules, with a VS Code extension.
+- [CommandCodeAI/cmd-mod-jev-nudge](https://github.com/commandcodeai/cmd-mod-jev-nudge) `★14 · 📚8` — Command Code mod: nudges the agent to keep going when it stops with work left, judged by Jev
+- [robertn702/opencode-jev-router](https://github.com/robertn702/opencode-jev-router) `★7 · 📚8` — Adaptive reasoning effort for OpenCode via Jev, with an in-process plugin and Responses API proxy
+- [Akramovic1/jev-pilot](https://github.com/akramovic1/jev-pilot) `★6 · 📚8` — Let Jev steer Claude Code: the right reasoning effort, subagent model and skill for every prompt. A Claude Code plugin powered by TypeSafe's Jev (OpenRouter / TypeSafe).
+- [DataGobes/jev-demos](https://github.com/datagobes/jev-demos) `★4 · 📚8` — Small, honest demos of TypeSafe's Jev inside tools data engineers already use
+- [mondaychen/semantic-assert](https://github.com/mondaychen/semantic-assert) `★4 · 📚8` — Testing lib for asserting the real requirement.
+- [hazlema/jev-riffs](https://github.com/hazlema/jev-riffs) `★3 · 📚8` — Music pattern ripper: MIDI → interval tokens → code mines candidate motifs → Jev (TypeSafe System One) grades their significance. Web UI with piano roll, click-to-play, WAV export.
+- [YanfLIZi56/jev-starter](https://github.com/yanflizi56/jev-starter) `★3 · 📚8` — Visually configure Jev questions, test them live, export ready-to-use code.
+- [clduab11/jev-test](https://github.com/clduab11/jev-test) `★1 · 📚8` — Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms including open…
+- [DonaldMurillo/system-one-playground](https://github.com/donaldmurillo/system-one-playground) `★1 · 📚8` — Readable scripting, semantic code checks, a Go System One client, and Studio.
+- [thesammykins/jev_ampcode](https://github.com/thesammykins/jev_ampcode) `★1 · 📚8` — jev\_ampcode — An Amp plugin for comparing supplied alternatives against supplied evidence and priorities.
+- [dtduc-git/jevassert](https://github.com/dtduc-git/jevassert) `★0 · 📚8` — Record/replay regression tests for Jev (TypeSafe System One) question packs — accuracy, calibration and cost gates in CI
+- [garygentry/jev-poc](https://github.com/garygentry/jev-poc) `★0 · 📚8` — A hands-on tour of Jev, TypeSafe's decisions model: twenty demos across seven shapes, with a cost-and-agreement assessment against a chat-model baseline
+- [whyashthakker/beam-cli](https://github.com/whyashthakker/beam-cli) `★12 · 📚7` — Monitoring & Safety layer for all your agents. Open Source CLI & Skills for Claude Code, Codex, Cursor, Jev and your preferred agents.
+- [Code-Forge-AU/jev-llm](https://github.com/code-forge-au/jev-llm) `★7 · 📚7` — TypeSafe's Jev is a decision model: it takes state and typed questions and returns calibrated ★ 2 · endpoint · Python
+- [DarioFontanel/jev-claude-code](https://github.com/dariofontanel/jev-claude-code) `★7 · 📚7` — Prompt Claude Code: tre sistemi costruiti su Jev di TypeSafe — routing del modello, compattazione del contesto e code review
+- [tiandee/codex-jev-router](https://github.com/tiandee/codex-jev-router) `★5 · 📚7` — Reviewed on 2026-09-21 at commit 23e1de8: MIT; AI-assisted source review of README, LICENSE, src/, and offline tests. No live TypeSafe/Codex session.
+- [andrueandersoncs/jev-semantic-linter](https://github.com/andrueandersoncs/jev-semantic-linter) `★3 · 📚7` — A CLI that checks natural-language engineering rules against the current Git ★ 2 · sdk · TypeScript
+- [dtduc-git/jevnav](https://github.com/dtduc-git/jevnav) `★2 · 📚7` — Page truth for browser agents — and decisions that replay, test and audit. Jev picks the element, risky actions are gated, every run replays offline in CI.
+- [guilhem/jev-ci-selector](https://github.com/guilhem/jev-ci-selector) `★2 · 📚7` — Conservative CI task selection for GitHub Actions with Jev, a pure policy engine, and shadow mode by default.
+- [halfspin-qc/jev-reviews](https://github.com/halfspin-qc/jev-reviews) `★2 · 📚7` — TypeSafe AI - Jev - first look and experiment with its API + Google reviews experiments
+- [saembit/jeff-cli](https://github.com/saembit/jeff-cli) `★2 · 📚7` — jeff-cli — jeff, a Go CLI for Jev: from a shell script, give it state and a question with fixed answers and get calibrated probabilities back, with a rank command and meaningful exit codes.
+- [zdenham/jev-lint](https://github.com/zdenham/jev-lint) `★2 · 📚7` — Lint JavaScript and TypeScript against plain-English project conventions with Jev.
+- [abhibansal60/tidy](https://github.com/abhibansal60/tidy) `★1 · 📚7` — Clean up Gmail and YouTube with AI, safely: Jev judges each email or channel, plain code sets the limits, you approve. pipx install tidy-ai
+- [ArkadyBuryakov/jev-preview](https://github.com/arkadyburyakov/jev-preview) `★1 · 📚7` — TUI Sandbox for Typesafe Jev API.
+- [fiale-plus/jev-cli](https://github.com/fiale-plus/jev-cli) `★1 · 📚7` — Unofficial CLI for the TypeSafe System One API (Jev) — designed for AI agents and anything that can execute a process. ★ 1 · endpoint · TypeScript
+- [Thestral12/pr-sieve](https://github.com/thestral12/pr-sieve) `★1 · 📚7` — Semantic PR gate: .jev.yml rules as TypeSafe Jev questions. Not a review bot.
+- [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) `📚7` — DeepSeek Harness permission preset whose end-prompt step has Jev answer the open questions an agent leaves in its final message.
+- [jflam/jev1](https://github.com/jflam/jev1) `★0 · 📚7` — Jev (TypeSafe System One) proof of concept: smart-home assistant demo
+- [JustinRoderick/jev-test](https://github.com/justinroderick/jev-test) `★0 · 📚7` — Testing typesafe.ai new model Jev.
+- [model-clis/jev](https://github.com/model-clis/jev) `★0 · 📚7` — Typed judgment CLI for the Jev model (TypeSafe System One): state + questions in, calibrated answers and exit codes out
+- [nsillik/jevvin-off](https://github.com/nsillik/jevvin-off) `★0 · 📚7` — Prototyping against TypeSafe's Jev System One API: a one-ticket quickstart and a Bluesky Jetstream firehose demo.
+- [oceanByte/tsai-cli](https://github.com/oceanbyte/tsai-cli) `★0 · 📚7` — Unofficial CLI for the TypeSafe AI System One API.
+- [schalkneethling/jev-lint](https://github.com/schalkneethling/jev-lint) `★0 · 📚7` — An experiment with semantic code linting using Jev from TypeSafe AI
+- [souvikr/jev-test](https://github.com/souvikr/jev-test) `★0 · 📚7` — Test harness + benchmark for TypeSafe's Jev decision model (noul/choice/score) via OpenRouter's Decisions API
+- [stillmarcus24/jev-verify](https://github.com/stillmarcus24/jev-verify) `★0 · 📚7` — Check whether a published Jev output was actually produced by Jev. Implements the Yurin confidence identity; flags published fixtures that violate it.
+- [vayungodara/jev-lint](https://github.com/vayungodara/jev-lint) `★0 · 📚7` — Lint a Markdown knowledge base (Obsidian vault or LLM wiki) for contradictions, stale claims, unresolved markers and missing pages, using TypeSafe Jev
+- [qiz029/dscode](https://github.com/qiz029/dscode) `★1,009 · 📚6` — A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry
+- [QuentinCody/interlinked-cli](https://github.com/quentincody/interlinked-cli) `★177 · 📚6` — The harness for your harness. Local hooks, taste enforcement, and developer observability for AI coding agents (Claude Code, Codex, Cursor, Copilot CLI).
+- [codejunkie99/jev-engineering](https://github.com/codejunkie99/jev-engineering) `★10 · 📚6` — Jev Engineering: Typed Decision Systems for Reliable Agent Workflows. Paper, diagrams, and companion examples by Av1dlive.
+- [hotdata-dev/datafusion-jev](https://github.com/hotdata-dev/datafusion-jev) `★7 · 📚6` — Typed Jev decisions in DataFusion SQL.
+- [zurk/hekajev](https://github.com/zurk/hekajev) `★6 · 📚6` — A hundred hands through Git history — reproducible commit analytics powered by Jev.
+- [Dj-Shortcut/rekordbox-jev](https://github.com/dj-shortcut/rekordbox-jev) `★3 · 📚6` — Experimental macOS Rekordbox bridge and Jev decision widget
+- [VBS2004/jevcut](https://github.com/vbs2004/jevcut) `★3 · 📚6` — Auto-clipper that turns long videos (podcasts, talks, essays, comedy) into short standalone clips for Shorts, Reels and TikTok. Code lists every possible cut; an AI judge picks where each clip starts and ends. Benchmarked on 38…
+- [waddle-zoo/signal-weave](https://github.com/waddle-zoo/signal-weave) `★3 · 📚6` — Typed decisions for operational signals in BI. Powered by TypeSafeAI Jev
+- [Fox-Islam/jevlint](https://github.com/fox-islam/jevlint) `★2 · 📚6` — A linting tool combining static analysis and Jev queries to help improve... Jev queries
+- [itscloud0/effortlane](https://github.com/itscloud0/effortlane) `★2 · 📚6` — Jev-powered model and reasoning-effort routing for coding agents. Native Codex auth, Shadow evaluation, and cache-aware policy. Codex/macOS today.
+- [Mawfyy/jev-router.nvim](https://github.com/mawfyy/jev-router.nvim) `★2 · 📚6` — An intent router for Neovim that classifies AI commands with Jev (TypeSafe's System One model) via the OpenRouter Decisions API, then routes execution to the matching handler.
+- [pinkroosterai/SystemOneSharp](https://github.com/pinkroosterai/systemonesharp) `★2 · 📚6` — A .NET client for the System One API used by Jev and compatible Laya servers
+- [ttlequals0/MinusPodJev](https://github.com/ttlequals0/minuspodjev) `★2 · 📚6` — MinusPod Jev Proxy.
+- [0xjba/jev-swap](https://github.com/0xjba/jev-swap) `★1 · 📚6` — Find the LLM calls in your codebase that are really decisions, see what they'd save on TypeSafe Jev, and prove it on live traffic before you swap. TypeScript, JavaScript, Python.
+- [Alexandre-Borghi/jev-ncr-demo](https://github.com/alexandre-borghi/jev-ncr-demo) `★1 · 📚6` — AI defect code suggestions for Non-Conformance Reports, powered by TypeSafe AI's Jev model
+- [cephalization/jev-oxlint](https://github.com/cephalization/jev-oxlint) `★1 · 📚6` — Digest your skills into oxlint rules powered by jev
+- [jpowersdev/neuralint](https://github.com/jpowersdev/neuralint) `★1 · 📚6` — AI code review against your repository's rules, powered by TypeSafe AI's Jev.
+- [manojlds/jev-review](https://github.com/manojlds/jev-review) `★1 · 📚6` — Standalone TypeSafe Jev code-review CLI: typed decisions over a local git diff.
+- [NemanjaManic/ci-gatekeeper-bot-jev](https://github.com/nemanjamanic/ci-gatekeeper-bot-jev) `★1 · 📚6` — GitHub Action that uses Jev (TypeSafe AI via Vercel AI Gateway) to cheaply triage pull requests before expensive LLM/human review
+- [rashedInt32/jev-lens.nvim](https://github.com/rashedint32/jev-lens.nvim) `★1 · 📚6` — Neovim popup for jev-lens verdicts: do I need to look, which files, strip the debris
+- [rashedInt32/jury.nvim](https://github.com/rashedint32/jury.nvim) `★1 · 📚6` — Calibrated picks for Neovim, judged by TypeSafe Jev. First source: effect-error-pretty.nvim
+- [sperictao/dsh-auto-review-jev](https://github.com/sperictao/dsh-auto-review-jev) `★1 · 📚6` — DeepSeek Harness plugin: per-tool-call Auto-permission review powered by TypeSafe Jev, with account usage and API-key management inline on its settings page
+- [tincke10/Jevest](https://github.com/tincke10/jevest) `★1 · 📚6` — Automated PR review pipeline using Jev (TypeSafe AI) as a millisecond decision layer over an LLM reviewer
+- [Victor-Casado/if-ai](https://github.com/victor-casado/if-ai) `★1 · 📚6` — Plain-English pull request checks powered by Jev. One condition, a minimum confidence, one check.
+- [7hemas7er/jev-hooks](https://github.com/7hemas7er/jev-hooks) `★0 · 📚6` — Claude Code commit reviewer driven by Jev-style typed decisions, with a measured question bench (self-hosted rizzo-flow or TypeSafe Jev)
+- [Blink](https://blink.review) `📚6` — Code review: gives coding agents a CLI that runs a Jev diff check after changes instead of invoking a text-model reviewer.
+- [criguex/jev-ci-triage](https://github.com/criguex/jev-ci-triage) `★0 · 📚6` — Classify every failing CI test as regression, flaky, environment, test-data or unknown. Rules first, Jev (TypeSafe) for the ambiguous ones. Never reruns, never masks.
+- [jackchen13755/dsh-jev-kit](https://github.com/jackchen13755/dsh-jev-kit) `★0 · 📚6` — Jev decision toolkit for DeepSeek Harness: 22 named typed judgments (privacy scan, change-scope, memory triage, batch triage) on one hardened, budgeted, ledger-backed transport. Advisory only.
+- [lu-zero/systemone](https://github.com/lu-zero/systemone) `★0 · 📚6` — Rust client for the TypeSafe AI systemone API.
+- [NaluKicks-808/jev-field-trial](https://github.com/nalukicks-808/jev-field-trial) `★0 · 📚6` — A pre-registered field trial of Jev (TypeSafe's judgment model) on a second brain and Claude Code history: 20 tests, bars written first, failures included, and the tools to repeat it.
+- [polaminggkub-debug/jev-watch](https://github.com/polaminggkub-debug/jev-watch) `★0 · 📚6` — Watchdog for AI coding agents: stops Codex/OpenCode when they loop, stall or drift off task, then resumes the same session with a correction. Built for Claude Code orchestrators. Uses Jev via OpenRouter.
+- [site](https://docs.rs/typesafe-rs/latest/typesafe_rs) `📚6`
+- [delexw/claude-code-trace](https://github.com/delexw/claude-code-trace) `★373 · 📚5` — Claude Code session log viewer for JSONL files in ~/.claude/projects. Browse conversations, tool calls, tokens, and live tail sessions on desktop, web, and TUI.
+- [muratmirgun/owncode](https://github.com/muratmirgun/owncode) `★8 · 📚5` — An experimental terminal coding agent with configurable models, Witch orchestration, and multiple context compaction methods.
+- [daltonrpj/jev-flow](https://github.com/daltonrpj/jev-flow) `★7 · 📚5` — Standalone open-source studio for typed Jev workflows
+- [ILuce/deqio](https://github.com/iluce/deqio) `★6 · 📚5` — Run fast, typed AI decision models behind one API. Choice, score and yes/no decisions with multiple engines and hardware backends.
+- [SoMarkAI/mJev](https://github.com/somarkai/mjev) `★6 · 📚5` — Jev, with senses.
+- [STEERIX-home/robo-jev](https://github.com/steerix-home/robo-jev) `★6 · 📚5` — robo-jev (STEERIX-home) — No description provided by the repository (auto-discovered, description not yet written)
+- [newfull5/malkuth](https://github.com/newfull5/malkuth) `★5 · 📚5` — Jev like System One decision models for multilingual
+- [TheCoder30ec4/model_router_python](https://github.com/thecoder30ec4/model_router_python) `★5 · 📚5` — Route every LLM call to the cheapest model that can actually do the job. Filters by context window, output limit and cost budget using live prices, then lets Jev pick the best model across OpenAI, Anthropic, Google and more. Zero…
+- [artalis-io/jev-bush](https://github.com/artalis-io/jev-bush) `★4 · 📚5` — Jev Bush is a CPU-first probabilistic decision engine for bounded DiffusionGemma decisions. Please clap.
+- [lorenzejay/convo-flow-example-jev](https://github.com/lorenzejay/convo-flow-example-jev) `★4 · 📚5` — convo-flow-example-jev — No description provided by the repository (auto-discovered, description not yet written)
+- [almcc/slop-linter](https://github.com/almcc/slop-linter) `★3 · 📚5` — Lints AI-generated code for slop using Jev, a System One model that makes fast structured decisions instead of generating text.
+- [greghavens/jev-no-bullshit](https://github.com/greghavens/jev-no-bullshit) `★3 · 📚5` — A code harness plugin that uses jev to detect and redirect AI bullshit
+- [joshLong145/jev-cli](https://github.com/joshlong145/jev-cli) `★3 · 📚5` — A CLI wrapper written in python for Jev.
+- [LXBWOW/dsh-teacher-consult](https://github.com/lxbwow/dsh-teacher-consult) `★3 · 📚5` — GPT teacher consults for DSH: stateless one-shot codex teachers behind a hard per-task consult budget, a read-only sandbox and a deterministic prefilter.
+- [rusharlabs/house-party-protocol](https://github.com/rusharlabs/house-party-protocol) `★3 · 📚5` — A local harness for agent teams on Claude Code and Codex CLI: only what they prove counts as done. Waves and lanes split the work, reviewers from another model family judge it, councils keep the dissent that lost, typed decisions with Jev…
+- [bmccarn/tracecheck](https://github.com/bmccarn/tracecheck) `★2 · 📚5` — Evidence-backed code review for AI coding agents, powered by Jev.
+- [Eliran-Turgeman/reaper](https://github.com/eliran-turgeman/reaper) `★2 · 📚5` — Semantic linter for AI coding agents and CI code review. Detects silent failures, weakened tests, scope creep, unnecessary abstractions, and other semantic code smells.
+- [equationalapplications/system-one-reviewer](https://github.com/equationalapplications/system-one-reviewer) `★2 · 📚5` — Local PR reviewer: deterministic code + TypeSafe Jev (System One) judgments, with a built-in precision/recall evaluation harness. Built in public.
+- [ericwanderlust/jev-codex-router](https://github.com/ericwanderlust/jev-codex-router) `★2 · 📚5` — Auto (Jev) model routing designed for Codex GPT-6 Luna, Sol, and Astra
+- [frodi-karlsson/onesie](https://github.com/frodi-karlsson/onesie) `★2 · 📚5` — An expressive Unix-pipeable CLI for System One models like Jev
+- [holasoymalva/jev-test-impact](https://github.com/holasoymalva/jev-test-impact) `★2 · 📚5` — Ultra-fast test impact analysis powered by Jev. Run only the tests that matter.
+- [lenML/deep-jev-seek](https://github.com/lenml/deep-jev-seek) `★2 · 📚5` — Use DeepSeek/llamacpp like Jev.
+- [portlandhodl/jev-cli](https://github.com/portlandhodl/jev-cli) `★2 · 📚5` — jev-cli - portlandhodl/jev-cli - No description provided.
+- [andretestanalyst/brasileirao-jev](https://github.com/andretestanalyst/brasileirao-jev) `★1 · 📚5` — Plugin para Claude Cowork que usa o modelo Jev (TypeSafe AI) via Vercel AI Gateway para análises probabilísticas do Brasileirão Série A
+- [bhcbhc/Jev-Rubik-Cube-Restoration](https://github.com/bhcbhc/jev-rubik-cube-restoration) `★1 · 📚5` — Rubik’s cube restoration with TypeSafe AI’s Jev.
+- [Bulato597-data/codex-jev-router](https://github.com/bulato597-data/codex-jev-router) `★1 · 📚5` — Jev-assisted model and reasoning-effort routing for local Codex Desktop and CLI
+- [CMaintz/jev-sort](https://github.com/cmaintz/jev-sort) `★1 · 📚5` — jev-sort — No description provided by the repository (auto-discovered, description not yet written)
+- [coasty-ai/JevCode](https://github.com/coasty-ai/jevcode) `★1 · 📚5` — JevCode - Jev can code. We want to dogfood JevCode
+- [codesoda/systemone](https://github.com/codesoda/systemone) `★1 · 📚5` — One CLI and Jev-compatible API for local and hosted typed-decision backends (planning)
+- [FlyPig23/Codex_ChatGPT_JEV_Switch](https://github.com/flypig23/codex_chatgpt_jev_switch) `★1 · 📚5` — Fork of codex-with-chatgpt: TypeSafe Jev + deterministic rules decide when Codex hands work to ChatGPT web (plan, debug, review) and when it switches back. 用 Jev 自动决定 Codex 与网页版 ChatGPT 何时切换。
+- [gentslava/pr-scout](https://github.com/gentslava/pr-scout) `★1 · 📚5` — Self-hosted triage for GitHub pull requests, issues and forks: which PRs to take into your build, what conflicts, what it costs to maintain. Scores thousands of items with Jev in minutes, for cents.
+- [JanDalhuysen/jev-clash-royale-test](https://github.com/jandalhuysen/jev-clash-royale-test) `★1 · 📚5` — jev-clash-royale-test - A Clash Royale-style sandbox whose Jev bot decides play-or-hold, card, lane, and depth in one System One call.
+- [nomper/codex-jev](https://github.com/nomper/codex-jev) `★1 · 📚5` — Jev-powered selective context handoffs for Codex, with a GitHub Copilot portability plan.
+- [ohernandezdev/jev-pr-review](https://github.com/ohernandezdev/jev-pr-review) `★1 · 📚5` — Score every file in a pull request with Jev (TypeSafe System One) and decide in code whether it can merge itself. Shadow mode: comments, never merges.
+- [pavy23/jev_typesafeai_test](https://github.com/pavy23/jev_typesafeai_test) `★1 · 📚5` — jev\_typesafeai\_test - jev\_typesafeai\_test: TypeSafe Jev ecosystem repository. · Python
+- [pjdurden/jevkit-js](https://github.com/pjdurden/jevkit-js) `★1 · 📚5` — jevkit for JavaScript/TypeScript: static linter and shared record format for building on TypeSafe's Jev (System One) model. Unofficial.
+- [pur4v/jeveloper](https://github.com/pur4v/jeveloper) `★1 · 📚5` — A System-1 reflex layer for Claude Code, powered by TypeSafe AI's Jev — route/gate tool calls, verify output, judge completion, and compose decision trees.
+- [SupratimSircar05/jev-zig-cli](https://github.com/supratimsircar05/jev-zig-cli) `★1 · 📚5` — Unofficial Jev-powered Zig terminal agent with deterministic policy gates and encrypted audit trails.
+- [yzbcs/Should-I-Jev](https://github.com/yzbcs/should-i-jev) `★1 · 📚5` — Find the LLM calls you should move to JEV — scan logs & code for decision-shaped calls, price the migration, calibrate decision models, generate the migration PR. Zero deps, fully local.
+- [ankitkapooor/autocode](https://github.com/ankitkapooor/autocode) `★0 · 📚5` — OrthoCode AI is an evidence-first orthopedic medical-coding platform. Its runtime is constrained to a normalized, versioned codebook release and retains page-level evidence for every proposed coding line.
+- [AppitStudio/testimonial-miner](https://github.com/appitstudio/testimonial-miner) `★0 · 📚5` — Mine quotable user praise from Gmail with TypeSafe's Jev: one typed request per email, verbatim quotes, thresholds in code
+- [bensheridan/tdd-gate](https://github.com/bensheridan/tdd-gate) `★0 · 📚5` — Keeps a test-writing agent and a code-writing agent on the same plan, using TypeSafe (Jev) judgments: requirement coverage and failing-test blame routing.
+- [calelamb/jevskillz](https://github.com/calelamb/jevskillz) `★0 · 📚5` — Stop coding agents from overclaiming. Claude Code plugin + Agent Skills that verify 'tests pass' / 'fixed' / 'done' claims with calibrated TypeSafe Jev confidence scores. Works with Codex, Cursor, Gemini CLI.
+- [catorch/jev-domain-auctions](https://github.com/catorch/jev-domain-auctions) `★0 · 📚5` — Find underpriced GoDaddy expiry domains with deterministic market signals and TypeSafe JEV judgments.
+- [chepyle/jev-test](https://github.com/chepyle/jev-test) `★0 · 📚5` — Reproducible zero-shot Jev benchmark on all seven LexGLUE tasks
+- [clean-code-review.vercel.app](https://clean-code-review.vercel.app) `📚5` — Hosted: open clean-code-review.vercel.app and paste a public GitHub PR URL (subject to operator budgets).
+- [davidrydberg/git-judge-jev](https://github.com/davidrydberg/git-judge-jev) `★0 · 📚5` — GitHub Action for agent-written PRs: one comment that says what the PR really does, which hunks need a human, why, and what to verify. About a cent per PR, on TypeSafe Jev.
+- [deemkeen/jevgeni](https://github.com/deemkeen/jevgeni) `★0 · 📚5` — JevGeni — a fly brain at the claw machine. Tech demo for Jev (typesafe.ai) + Whisper v3 Turbo (Groq). Voice only.
+- [Dillettant/jev-test](https://github.com/dillettant/jev-test) `★0 · 📚5` — Playground for TypeSafe's Jev System One model (Next.js)
+- [distributedlabs/magic-8-ball](https://github.com/distributedlabs/magic-8-ball) `★0 · 📚5` — A TypeSafe Jev-powered Magic 8 Ball.
+- [dopeCape/typesafe-ai-test](https://github.com/dopecape/typesafe-ai-test) `★0 · 📚5` — Stress test of TypeSafe AI's jev-1.13 System One model: limits, vagueness, calibration, adversarial, new patterns, LLM bake-off
+- [drowzeys/keys-MiniMax-Code-CLI-Browser-Scroll-Context-Enhancement-Pack-with-Jev-Ultrafast-](https://github.com/drowzeys/keys-minimax-code-cli-browser-scroll-context-enhancement-pack-with-jev-ultrafast-integration) `📚5` — Validated enhancement pack for MiniMax Code CLI on arm64 DGX Spark + local GLM-5.3-EXL3: TUI scrollbar + context-meter patches, compaction repair for local vLLM, Jev Ultrafast + Playwright MCP browser integration, real…
+- [gordan-code/dsh-jev-advisor](https://github.com/gordan-code/dsh-jev-advisor) `★0 · 📚5` — Jev (TypeSafe System One) gives the human a second opinion, not the agent. When DSH's model asks you a multiple-choice question, dsh-jev-advisor builds a structured Jev request and floats the recommendation, probability spread and…
+- [louis-szeto/open-jev-bridge](https://github.com/louis-szeto/open-jev-bridge) `★0 · 📚5` — MCP plugin to connect jev-like system one API (local hosted or typesafe jev) to codex and claude code for decision tasks like compaction, verification judgement, etc.
+- [lwf225-source/jev-codex-router](https://github.com/lwf225-source/jev-codex-router) `★0 · 📚5` — Experimental TypeSafe Jev model routing for Codex Desktop: per-task model and reasoning selection, complex-task planning, subagent dispatch, and fallback.
+- [mrjev.com](https://mrjev.com/best-jev-tools) `📚5` — All 143 reviews, with what each tool sends and where: mrjev.com/best-jev-tools.
+- [plurp911/jev-cli](https://github.com/plurp911/jev-cli) `★0 · 📚5` — Independent, unofficial CLI for TypeSafe AI's System One API
+- [shivamnarkar47/Jev-testcase](https://github.com/shivamnarkar47/jev-testcase) `★0 · 📚5` — Validate execution plans with TypeSafe Jev (raw curl, tunable thresholds, JSON mode)
+- [Shoaib-Asghar/jev-probe](https://github.com/shoaib-asghar/jev-probe) `★0 · 📚5` — Testing environment for TypeSafe's Jev model. It applies controlled perturbations (typos, adversarial text, reordering) to test cases, executes real API calls, and logs the raw JSON responses to DuckDB. Includes a web dashboard to track…
+- [site](https://jev-test.vercel.app) `📚5`
+- [steelwalrus/jev-needs-review](https://github.com/steelwalrus/jev-needs-review) `★0 · 📚5` — Classifies PRs as "merge candidate" or "human review" required using Jev's typed decision making.
+- [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) `★0 · 📚5` — Calibrated PR review gates powered by TypeSafe Jev: a GitHub Action, a local CLI, and an OpenCode plugin
+
+## Emerging (cited by 3–4 lists) — 227
+
+- [0xlau/jev-rps](https://github.com/0xlau/jev-rps) `📚4` — Pedra, papel e tesoura com commit-reveal: Jev avalia o jogador, prevê a próxima jogada e escolhe a própria antes da ação humana.
+- [1jehuang/jcode](https://github.com/1jehuang/jcode) `📚4` — jcode - Agent runtimes: RAM-efficient autonomous agent harness implemented in Rust with native TypeSafe Jev typed decision transport for memory pruning, browser navigation, and voice interaction routing.
+- [54Lynnn/graphify-jev](https://github.com/54lynnn/graphify-jev) `📚4` — Next-gen Codebase Knowledge Graph with TypeSafe JEV Semantic Navigation & Zero Vector DB. Accurate t
+- [AbdelStark/reachy-jev](https://github.com/abdelstark/reachy-jev) `📚4` — Typed Jev decision primitives for Reachy Mini applications.
+- [abhaybhargav/juardrails](https://github.com/abhaybhargav/juardrails) `📚4` — Reviewed on 2026-09-23 at commit 8c03b04. AI-assisted source review. License gap recorded. No live Juardrails/Jev run.
+- [acidkill/JevCompass](https://github.com/acidkill/jevcompass) `📚4` — acidkill/jevcompass -- Tool and skill suggestions for Codex Desktop and CLI, with local-first privacy and optional Jev ranking
+- [acoyfellow/edit](https://github.com/acoyfellow/edit) `📚4` — A small, approval-first Pi tool for safe, checked code changes. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [AditiSonawane96/jev-model-test](https://github.com/aditisonawane96/jev-model-test) `📚4` — Testing Jev, the System One model from TypeSafe AI, to check whether a resume and a job description align before applying.
+- [Adrian-lzr/jev-spire-brain](https://github.com/adrian-lzr/jev-spire-brain) `📚4` — jev-spire-brain — No description provided by the repository (auto-discovered, description not yet written)
+- [ai-cli](https://ai-cli.dev) `📚4` — Vercel Labs · AppTerminal CLI for the AI SDK whose evaluate command pipes text into typed boolean, choice, and score questions and returns probabilities for use in shell scripts.
+- [Ajasra/jev-hooks](https://github.com/ajasra/jev-hooks) `📚4` — jev in:name created:2026-09-24..2026-09-25
+- [alessandromaddaloni98/traffic-light-review](https://github.com/alessandromaddaloni98/traffic-light-review) `📚4` — 🚦 Plugin per Claude Code: a fine turno Jev (TypeSafe AI) giudica il codice cambiato e, se serve, propone una code review ...
+- [alexykn/jevscan](https://github.com/alexykn/jevscan) `📚4` — custom linter with treesitter + jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [andrueandersoncs/jev-cli](https://github.com/andrueandersoncs/jev-cli) `📚4` — Ask TypeSafe AI typed questions about JSON state from the command line
+- [ashishakkumar/Jev-Checkpoint](https://github.com/ashishakkumar/jev-checkpoint) `📚4` — Reviewed on 2026-09-21 at commit e655e30: MIT; AI-assisted source review of README, LICENSE, src/, build, and offline tests. No live TypeSafe call.
+- [ba2slk/jev-command-gate](https://github.com/ba2slk/jev-command-gate) `📚4` — A demo for Jev (Typesafe AI)
+- [blazejkustra/softlint](https://github.com/blazejkustra/softlint) `📚4` — Enforce rules a linter can't. A GitHub Action that reviews PRs against plain-English rules, judged by Jev.
+- [boozedog/pi-codemode](https://github.com/boozedog/pi-codemode) `📚4` — The jev.ask runtime global lets sandboxed TypeScript programs request calibrated Jev Noul, Choice, and Score answers.
+- [CatCatUncle/openworkbuddy](https://github.com/catcatuncle/openworkbuddy) `📚4` — Local-first AI office agent. Jev checks each acceptance criterion as a yes/no question in goal mode (README in Chinese). ⭐ 215
+- [cgbarlow/jev-test](https://github.com/cgbarlow/jev-test) `📚4` — Prototype: AI-assisted NZQA marking from rubric criteria alone, using TypeSafe Jev for guardrails, c
+- [charlesdove977/claude-x-jev](https://github.com/charlesdove977/claude-x-jev) `📚4` — Fast, cheap, typed decisions for Claude Code. Jev (TypeSafe's decision model on OpenRouter) sorts, c
+- [chigwell/typesafe.pro](https://github.com/chigwell/typesafe.pro) `📚4` — typesafe.pro — No description provided by the repository (auto-discovered, description not yet written)
+- [craxrev/jevgate](https://github.com/craxrev/jevgate) `📚4` — Reviewed 2026-09-23 at commit e361fca (MIT). AI-assisted source review. No live TypeSafe spend.
+- [d3d0n/omp-statify](https://github.com/d3d0n/omp-statify) `📚4` — omp-statify — Jev-guided, recoverable tool-output filtering for Oh-my-pi (auto-discovered, description not yet written)
+- [darrenli6/jev-demo](https://github.com/darrenli6/jev-demo) `📚4` — JEV Studio is a small Next.js evaluation lab for turning natural-language input into structured signals with the Typesafe SystemOne API.
+- [diffpal/lintpal](https://github.com/diffpal/lintpal) `📚4` — lintpal — Turn plain-English engineering rules into pull-request checks (auto-discovered, description not yet written)
+- [dtsuka/jev-review](https://github.com/dtsuka/jev-review) `📚4` — CLI that screens every source file for bug, security, performance and other review flags with Jev and writes a JSON triage report. no license · TypeScript
+- [eaisdevelopment/jevmcp](https://github.com/eaisdevelopment/jevmcp) `📚4` — jevmcp - TypeSafe AI JEV MCP Server - Tooling, Code Audit, CI/CD chain analysis, other SDLC related tools · Python
+- [EmiRoberti77/jev-py-integration](https://github.com/emiroberti77/jev-py-integration) `📚4` — Jev System one AI model, very fast decision making engine. Jev AI will use input tokens but no output tokens
+- [EnesYilmazcode/JevMinesweeper](https://github.com/enesyilmazcode/jevminesweeper) `📚4` — JevMinesweeper - Jev Plays Minesweeper · Python
+- [EpicEric/safe-sh](https://github.com/epiceric/safe-sh) `📚4` — Static shell script analysis with Jev. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [eralabs-ai/jev-dom](https://github.com/eralabs-ai/jev-dom) `📚4` — Reviewed on 2026-09-23 at commit 04e84b6 (0.1.0, Apache-2.0). AI-assisted review of README and LICENSE. No live TypeSafe spend.
+- [fly2abhishek/jev-field-tests](https://github.com/fly2abhishek/jev-field-tests) `📚4` — Twelve field tests for TypeSafe's Jev model: calibration, guardrails, résumé screening, interview ru
+- [freakymustard67/jev-rover](https://github.com/freakymustard67/jev-rover) `📚4` — Fixed-camera rover: vision to scene to Jev (TypeSafe) judgments, on to an ESP32. Includes a triggered semantic layer (M1) and sim-validated ToF-sweep ...
+- [fredrsat/stil-lint](https://github.com/fredrsat/stil-lint) `📚4` — stil-lint - Style and quality linter for Norwegian and English text - MCP server for agents, with TypeSafe's Jev as the judgment layer. Reports findings, never authorship verdicts. · Python
+- [gbesse/jev-codebook](https://github.com/gbesse/jev-codebook) `📚4` — Qualitative coding at scale with Jev: apply a codebook to open-ended text, review uncertain items, measure ag…
+- [gordan-code/jev-entropy-gate](https://github.com/gordan-code/jev-entropy-gate) `📚4` — Decide which code-migration sites can be safely auto-rewritten, using Jev's calibrated probability entropy.
+- [hraness/sys1](https://github.com/hraness/sys1) `📚4` — sys1 - Sys1 gives coding agents tools to review code, check completion claims, and get structured answers from Jev or a local model. · TypeScript
+- [huncijr/ClearJev](https://github.com/huncijr/clearjev) `📚4` — (ClearJev)(../cases/clearjev.md)
+- [ianlintner/auth-audit-jev](https://github.com/ianlintner/auth-audit-jev) `📚4` — src/auth_audit_jev/ implements AuditPlugin: allowlisted kinds → async Jev assessment → optional alert callback with redacted {event_kind, outcome, assessment} only.
+- [Ice-Hazymoon/jevlint](https://github.com/ice-hazymoon/jevlint) `📚4` — jevlint — Semantic lint rules for the code-review questions a deterministic linter can't express
+- [Jackalope](https://jackalope.dev) `📚4` — Jackalope · App · 2026-09-06Desktop workspace for running Codex, Claude Code, OpenCode, and other coding agents in parallel on Git worktrees, where Jev picks an agent per task, runs basic review checks, and supplies context.
+- [JevForge/jev-ci-pathfinder](https://github.com/jevforge/jev-ci-pathfinder) `📚4` — Select which allowlisted CI jobs to run after a change. Jev decides; your workflow stays in control.
+- [JohnRSandoval/meaning-assert](https://github.com/johnrsandoval/meaning-assert) `📚4` — meaning-assert - Test what an AI output means. Natural-language assertions powered by Jev, with pass, fail, and inconclusive results. · JavaScript
+- [jorgefspereira/opencode-auto-jev](https://github.com/jorgefspereira/opencode-auto-jev) `📚4` — OpenCode plugin that adds an Auto (Jev) virtual model which routes each prompt to a configured real model using TypeSafe AI (Jev).
+- [justintout/systemone](https://github.com/justintout/systemone) `📚4` — Reviewed 2026-09-24 (Europe/Sofia) at commit 0279872. AI-assisted README/LICENSE/client inspection. No live TypeSafe spend.
+- [kiroclawai/system-one-blueprint](https://github.com/kiroclawai/system-one-blueprint) `📚4` — Jev-class System One model blueprint — built from open components (50M encoder + parallel decision heads, Needle3 distillation, RLCD path)
+- [Madikhan33/jev_codex](https://github.com/madikhan33/jev_codex) `📚4` — jev_codex — Context-aware routing for Codex: classify prompts, choose agent profiles, coordinate subagents, and verify results (auto-discovered, description not yet written)
+- [mahavirn/mnjev-cli](https://github.com/mahavirn/mnjev-cli) `📚4` — CLI for JEV Model Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [mohannadize/jev-ielts-test](https://github.com/mohannadize/jev-ielts-test) `📚4` — IELTS Writing Task 2 practice app that bands an essay with four Jev Score questions over the official descriptors plus three Noul checks. no license · TypeScript
+- [mohsen1/llm-debugger-vscode-extension](https://github.com/mohsen1/llm-debugger-vscode-extension) `📚4` — At each debugger pause, Jev chooses the next debugging action from the stack, locals, nearby source, output, and prior attempts.
+- [moisesfilho/typesafe-jev-opencode](https://github.com/moisesfilho/typesafe-jev-opencode) `📚4` — jev in:name created:2026-09-20..2026-09-21
+- [morganlinton/Albatross](https://github.com/morganlinton/albatross) `📚4` — Open source, terminal-first AI coding agent with fully transparent multi-model routing. Local (Ollama, LM Stu…
+- [nicobailon/surf-cli](https://github.com/nicobailon/surf-cli) `📚4` — Optional Jev commands find, filter, and verify browser elements, then select bounded actions subject to confidence and write-authority checks.
+- [Njengah/jev-cheatsheet](https://github.com/njengah/jev-cheatsheet) `📚4` — jev-cheatsheet — Quick resources to getting started with JEV AI (auto-discovered, description not yet written)
+- [NourEldinShobier/claude-tuning](https://github.com/noureldinshobier/claude-tuning) `📚4` — One-command setup that makes Claude Code use fewer tokens: rtk shell compression, stash search index, web-search, codebase-memory, fast-jev-compaction, ponytail, plus Jev skill ...
+- [novaleolin/jev-evolve](https://github.com/novaleolin/jev-evolve) `📚4` — Reviewed on 2026-09-21 at commit 3a937d4: MIT; AI-assisted source review of README, LICENSE, package layout and tests; pytest 30 pass. No live TypeSafe call.
+- [nshcr/jevs](https://github.com/nshcr/jevs) `📚4` — Reviewed on 2026-09-22 at commit a253210: 0.1.0, MIT. AI-assisted review of README, LICENSE, src/server.ts / provider.ts / tests. bun test: 42 passed. No live TypeSafe.
+- [pankona/japanese-jev-lint](https://github.com/pankona/japanese-jev-lint) `📚4` — japanese-jev-lint - Japanese text linter powered by jev \(TypeSafe System One\) · Go
+- [Pikaryu729/deslopify](https://github.com/pikaryu729/deslopify) `📚4` — deslopify - Chrome/Firefox extension that grades every LinkedIn feed post as a golden nugget, useful, or slop with TypeSafe's jev model · JavaScript
+- [polaminggkub-debug/jev-ai-coding-pulse](https://github.com/polaminggkub-debug/jev-ai-coding-pulse) `📚4` — Daily Reddit sentiment on AI coding models, judged by Jev
+- [powerpuff-kitty/agentic-harness-cli](https://github.com/powerpuff-kitty/agentic-harness-cli) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [roshan-shaik-ml/fast-jev-opencode](https://github.com/roshan-shaik-ml/fast-jev-opencode) `📚4` — Reviewed 2026-09-27 (Europe/Sofia) at commit 7359df2. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [rxova/jev-planner](https://github.com/rxova/jev-planner) `📚4` — jev-planner — With \\N\\ agents, \--mode ultra\ makes \\2N + 1\\ agent calls: drafts, reviews, and final synthesis, plus \\N\\ if Jev requests another review. The default \balanced\ makes as few as \\N + 1\\ and never…
+- [RyanNg1403/jev-cli](https://github.com/ryanng1403/jev-cli) `📚4` — High-performance Unix semantic reflex CLI powered by TypeSafe Jev for agent progressive discovery & pipelines
+- [sanjuacodez/siteclarity](https://github.com/sanjuacodez/siteclarity) `📚4` — src/provider/systemone.ts, src/semantic/ — typed System One questions; findings assembled from templates + verified substrings.
+- [site](https://jevreviewer.xera.ac) `📚4`
+- [site](https://jevtest.dev) `📚4`
+- [smixs/code-quality](https://github.com/smixs/code-quality) `📚4` — Deterministic code quality gate for AI coding agents (Claude Code, Codex, pi): git hooks that block test tampering, hold the CRAP bar ...
+- [SomebooksIT/jev-codex](https://github.com/somebooksit/jev-codex) `📚4` — jev-codex - Delegation-first Jev routing, deterministic code review, and preventive checkpoints for Codex Desktop. · Python
+- [sonnylazuardi/superterminal](https://github.com/sonnylazuardi/superterminal) `📚4` — Jev ranks command-palette entries against a plain-language query so the intended terminal action appears first.
+- [SREGym/SREGym](https://github.com/sregym/sregym) `📚4` — When enabled for Codex runs, Jev reviews diagnostic tests and incident-resolution submissions from the supplied evidence.
+- [statico/jev-nethack](https://github.com/statico/jev-nethack) `📚4` — jev-nethack - TypeSafe's Jev model plays NetHack 5.0: code lists the legal moves, Jev picks one, no LLM in the loop · Python
+- [Sweet-Butters/korea-ai-contest-tracker](https://github.com/sweet-butters/korea-ai-contest-tracker) `📚4` — Self-updating directory of AI competitions & hackathons in South Korea — with TypeSafe Jev as a clas
+- [TareqAlhashash/jev-claude-codereviewer](https://github.com/tareqalhashash/jev-claude-codereviewer) `📚4` — AI code reviewer demo pairing Jev (typesafe.ai) instant triage with an optional Claude deep-dive review. React + Spring Boot.
+- [Teagar/jev-project-fit-review](https://github.com/teagar/jev-project-fit-review) `📚4` — teagar/jev-project-fit-review -- Review independente sobre a adequação do Jev a produtos e desenvolvimento multiagente
+- [thecoderpanda/shipit-gate](https://github.com/thecoderpanda/shipit-gate) `📚4` — shipit-gate - The AI deploy gate. Ask Jev if it's safe to ship — before you push. Blocks scary Friday deploys. · TypeScript
+- [thehumanworks/jev-cli](https://github.com/thehumanworks/jev-cli) `📚4` — jev-cli - jev-cli: TypeSafe Jev ecosystem repository. · Rust
+- [thejoeejoee/git-judge-commits](https://github.com/thejoeejoee/git-judge-commits) `📚4` — ⚖️ Judge git commits with Jev: is it breaking, does it deserve attention, and does its message tell the truth?
+- [thenoahhein/jev-temporal-demo](https://github.com/thenoahhein/jev-temporal-demo) `📚4` — Temporal workflow demo of an incident-response loop where Jev picks the next action as an Activity and the run survives retries and worker crashes. no license · TypeScript
+- [TypeSafe Jev vs Claude Code: 4 models, 2 real jobs](https://primeline.cc/blog/typesafe-jev-pre-registered-test) `📚4` — Pre-registered test of about 9,750 calls: calibration error by question type, Jev ahead on commit classification and behind on knowledge-base filing, abstention closing the gap.
+- [valuecodes/jev-on-air](https://github.com/valuecodes/jev-on-air) `📚4` — JevOnAir monitors livestreams in real time, transcribes speech, detects market-moving statements wit
+- [VennIntelligence/jev-drive](https://github.com/vennintelligence/jev-drive) `📚4` — jev-drive — No description provided by the repository (auto-discovered, description not yet written) ❔
+- [weiping/jev-claude-code](https://github.com/weiping/jev-claude-code) `📚4` — Claude Code plugin that puts TypeSafe Jev in the agent loop: permission gate, output ladder, subagent routing
+- [WesleySmits/codex-triage](https://github.com/wesleysmits/codex-triage) `📚4` — Local Codex task triage with human-reviewed archiving and optional Jev analysis
+- [wrapped.ivanhabor.com](https://wrapped.ivanhabor.com) `📚4` — Jev Wrapped — Live X-ray of a public Telegram channel: code reads up to 1,500 posts of the last twelve months from Telegram's public web preview, sampled evenly across the months when there are more, Jev answers a…
+- [yottayoshida/jev-intent-review](https://github.com/yottayoshida/jev-intent-review) `📚4` — Verify a pull request against the intent that caused it, across the whole repository, with small typed judgments from Jev
+- [YugabyteDB-Samples/meko-jev-code-review-agent](https://github.com/yugabytedb-samples/meko-jev-code-review-agent) `📚4` — A code review check that learns from reviewer rulings without fine-tuning. Jev (TypeSafe AI) judges
+- [yuki-dev26/jev-test](https://github.com/yuki-dev26/jev-test) `📚4` — jev in:name created:2026-09-18..2026-09-19
+- [ZeroTang05/Situation-Puzzle](https://github.com/zerotang05/situation-puzzle) `📚4` — Other related projects
+- [ZhengSJCode/jev-dsh](https://github.com/zhengsjcode/jev-dsh) `📚4` — System One (TypeSafe Jev) decision tool for DeepSeek Harness -- bounded choice / noul / score judgments as an agent tool + skill.
+- [网站](https://jevcode.ai) `📚4`
+- [404priyanshu/zsh-jev-suggest](https://github.com/404priyanshu/zsh-jev-suggest) `📚3` — zsh-jev-suggest - 404priyanshu/zsh-jev-suggest - zsh history autosuggestions ranked by Jev (TypeSafe System One).
+- [AbsoluteGeist/code-geist](https://github.com/absolutegeist/code-geist) `📚3` — An experimental local coding-agent workbench using Jev for model routing, with tool execution and verificatio…
+- [acoyfellow/jev-code-mode](https://github.com/acoyfellow/jev-code-mode) `📚3` — jev-code-mode - Typed Jev judgments behind two MCP tools: search and execute. (Project guide)(community/projects/tools/jev-code-mode.md).
+- [akynte/boundedcode](https://github.com/akynte/boundedcode) `📚3` — A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision plane, and ...
+- [Alberto-Codes/judgevet](https://github.com/alberto-codes/judgevet) `📚3` — Typed client, CLI and MCP server for TypeSafe's Jev (System One) judgment model
+- [Allan-Nava/hookgate](https://github.com/allan-nava/hookgate) `📚3` — Reviewed on 2026-09-22 at commit e05c983: 0.0.2, MIT. AI-assisted review of README, LICENSE, bin/lib/jev.mjs, handlers, tests. npm test: 44 passed. No live TypeSafe.
+- [AndreuVM/jev-reasoning-navigator](https://github.com/andreuvm/jev-reasoning-navigator) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit db378ac. AI-assisted README and source inspection; live provider calls not run on the review host.
+- [anthony-maio/hn-oracle](https://github.com/anthony-maio/hn-oracle) `📚3` — Screens historical Hacker News comments for checkable predictions with Jev; includes a preregistered pilot, calling code and author-published results, but not a completed full-archive run.
+- [ariasnico/jevtest](https://github.com/ariasnico/jevtest) `📚3` — Un laboratorio para construir algo creativo, divertido y útil con Jev de TypeSafe AI.
+- [Armur-Ai/Pentest-Swarm-AI](https://github.com/armur-ai/pentest-swarm-ai) `📚3` — Pentest Swarm AI - Autonomous penetration-testing swarm with optional Jev filtering and adaptive attack-path scoring.
+- [aruniyer/jevcoder](https://github.com/aruniyer/jevcoder) `📚3` — Jev-routed Pi coding agent with cache-stable execution and SWE-bench Verified experiments
+- [Ash20pk/beat-the-reviewer](https://github.com/ash20pk/beat-the-reviewer) `📚3` — Ten things you need approved, and a reviewer you have to convince. Every verdict is a typed judgemen
+- [av/naiou](https://github.com/av/naiou) `📚3` — Terminal yes/no oracle with a 3D visualization that can answer by sending the input to Jev as a single Noul question. MIT · TypeScript
+- [balazsorban44/nvim-jev-plugin](https://github.com/balazsorban44/nvim-jev-plugin) `📚3` — nvim-jev-plugin - nvim-jev-plugin: TypeSafe Jev ecosystem repository. · Lua
+- [baldpanda/jev-sandbox](https://github.com/baldpanda/jev-sandbox) `📚3` — Repo for playing around with Jev
+- [Begumcaliphate5/jev-reviewer](https://github.com/begumcaliphate5/jev-reviewer) `📚3` — Extract systematic review data from trial reports with verbatim quotes, highlighting sourc
+- [BestNathan/system-one-code-explore](https://github.com/bestnathan/system-one-code-explore) `📚3` — Research runtime for System One models to explore and localize code through progressively disclosed state and action spaces.
+- [brainstormity/Jev-Network-Packet-Analyzer](https://github.com/brainstormity/jev-network-packet-analyzer) `📚3` — jev in:name created:2026-09-28..2026-09-30
+- [brianluby/momus-review](https://github.com/brianluby/momus-review) `📚3` — momus-review — Code review on rust and javascript (+languages soon) applications. Following lenses correctness, security, reliability, compatibility and testGap.
+- [bspiritxp/jev-cli](https://github.com/bspiritxp/jev-cli) `📚3` — CLI client for TypeSafe Jev (System One) structured decisions: noul / choice / score / classify
+- [ByteBell/jev-filter](https://github.com/bytebell/jev-filter) `📚3` — Reviewed 2026-09-29 (Europe/Sofia) at commit 71b8d3c. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [Cadman021/jev-terminal-doctor](https://github.com/cadman021/jev-terminal-doctor) `📚3` — A self-healing terminal daemon that watches your build/test output live, detects errors, and suggest
+- [caras-new-voices/jev-test-1](https://github.com/caras-new-voices/jev-test-1) `📚3` — jev-test-1 - jev-test-1: TypeSafe Jev ecosystem repository. · TypeScript
+- [chuloontop4-code/jev-instance-review](https://github.com/chuloontop4-code/jev-instance-review) `📚3` — Best Roblox Studio Instance Reviewer 2026: Typed Jev Criteria and Exact Citations
+- [cmungall/jevotron](https://github.com/cmungall/jevotron) `📚3` — jevotron - CLI-first field-level anomaly detection for structured files and text, powered by Jev · Python
+- [codepawl/tacet](https://github.com/codepawl/tacet) `📚3` — tacet - Typed decisions from one encoder pass. Open weights, Apache 2.0. · Python
+- [cog-pr/jev-hackathon](https://github.com/cog-pr/jev-hackathon) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [CondorCommodore/jev-git-graph](https://github.com/condorcommodore/jev-git-graph) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit efa912c. AI-assisted README inspection; live Jev not run.
+- [criguex/jev-test-impact](https://github.com/criguex/jev-test-impact) `📚3` — Run only the tests your change touched: import graph + ownership rules first, Jev decides the ambigu
+- [CristianAlCubo/FindmeAJob](https://github.com/cristianalcubo/findmeajob) `📚3` — FindmeAJob - App de escritorio y CLI que puntúa la idoneidad de ofertas de empleo con tu perfil, con análisis y mapa de calor. Electron + Jev. · TypeScript
+- [cwywing/ZCode-Jev](https://github.com/cwywing/zcode-jev) `📚3` — inferred / agent-tooling — ⭐0
+- [cyberspace-cs/jev-harness-integration](https://github.com/cyberspace-cs/jev-harness-integration) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [d0nj/opencode-smart-reasoning](https://github.com/d0nj/opencode-smart-reasoning) `📚3` — OpenCode plugin that routes per-request reasoning effort for agents via Jev (TypeSafe SystemOne) — c
+- [dariozfold6-wez2/JEV-CHAT](https://github.com/dariozfold6-wez2/jev-chat) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 2f2889f. AI-assisted README + lib/jev.ts inspection. No measured live eval budget.
+- [davidzha712/ha-jev-autopilot](https://github.com/davidzha712/ha-jev-autopilot) `📚3` — HACS custom repository or copy custom_components/jev_autopilot from commit 732f5d5, then restart HA and configure.
+- [dbadea-heits/jev-claude-code-hooks](https://github.com/dbadea-heits/jev-claude-code-hooks) `📚3` — jev-claude-code-hooks - Claude Code hooks: TypeSafe Jev guards destructive Bash commands and grades prompts · JavaScript
+- [diffpal/lintpal-demo](https://github.com/diffpal/lintpal-demo) `📚3` — Demo repository for LintPal: PR review checks and inline findings on committed code
+- [DimisCodes/tavli](https://github.com/dimiscodes/tavli) `📚3` — Tavli (Greek backgammon) played against Jev, TypeSafe's System One decision model. Includes a tutorial on building with typed decision models.
+- [DM010727/jev-superpowers-review](https://github.com/dm010727/jev-superpowers-review) `📚3` — jev-superpowers-review - DM010727/jev-superpowers-review - Cross-agent parallel code review skill powered by Superpowers workflows and Shengsuanyun Jev Decisions.
+- [ElMehdiBen/Jev-It](https://github.com/elmehdiben/jev-it) `📚3` — Jev-It Studio for building classifiers at the speed of conversation.
+- [exponen-agi/jev-playground](https://github.com/exponen-agi/jev-playground) `📚3` — jev-playground — a simulated playground along with actual code samples scenario-based examples (auto-discovered, description not yet written)
+- [Ezbaze/jevies](https://github.com/ezbaze/jevies) `📚3` — Python helpers that use Jev to review Jev setups: question type, instruction wording, option overlap, score rubric order and test coverage. MIT · Python
+- [fajarnuha/klassify](https://github.com/fajarnuha/klassify) `📚3` — Reviewed on 2026-09-23 at commit 6e8bfcf (Apache-2.0, tag v0.1.1). AI-assisted review of README, LICENSE, TypeSafeClient.kt. No live TypeSafe spend.
+- [fewhnhouse/jev-review-action](https://github.com/fewhnhouse/jev-review-action) `📚3` — A Github Action for a Code Review Classifier built with the System One model Jev
+- [fini/warped-sys1-lab](https://github.com/fini/warped-sys1-lab) `📚3` — Jev (TypeSafe System One) experiment lab: SvelteKit workbench and CLI
+- [Fox-Islam/jev-graph](https://github.com/fox-islam/jev-graph) `📚3` — jev-graph — Semantic computation engine?? (auto-discovered, description not yet written)
+- [frontend-army/jev-test](https://github.com/frontend-army/jev-test) `📚3` — jev-test - Pruebita usando Jev: AI slop detector en Twitter · JavaScript
+- [fullcolorcoder/reflex-jev](https://github.com/fullcolorcoder/reflex-jev) `📚3` — reflex-jev - Training demonstration of Jev in a dispatch services command center scenario. · TypeScript
+- [gbesse/figma-jev-review](https://github.com/gbesse/figma-jev-review) `📚3` — figma-jev-review - Review selected Figma copy with typed Jev criteria and exact TextNode citations. · TypeScript
+- [gdchaochao/lunar-terminal](https://github.com/gdchaochao/lunar-terminal) `📚3` — Robocode decisions: action choice near random (r = -0.10) while yes/no judgments on atomic questions score 0.94 to 0.96. n=327 decisions
+- [gordan-code/jev-metrics](https://github.com/gordan-code/jev-metrics) `📚3` — inferred / community-sdk — ⭐0
+- [gowthamgts/pi-stuff](https://github.com/gowthamgts/pi-stuff) `📚3` — Reviewed on 2026-09-20 at monorepo commit 58ca43d (extensions/typesafe-bash-guard): 0.1.0, MIT. AI-assisted source review of README, LICENSE, index.ts, and tests. Ran npm install and npm test (8 pass). No live TypeSafe calls.
+- [gzd2032/typesafe-ai-test](https://github.com/gzd2032/typesafe-ai-test) `📚3` — a test repo for typesafe.ai
+- [hamzaahmadaslam/commit-changelog](https://github.com/hamzaahmadaslam/commit-changelog) `📚3` — Turns free-form git commits into a Keep a Changelog section: each commit's own first line, placed by
+- [harodggg/jev-x-filter](https://github.com/harodggg/jev-x-filter) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 9e17bc8. AI-assisted README inspection; live X/Jev not run.
+- [heaven-hm/jev-system-one](https://github.com/heaven-hm/jev-system-one) `📚3` — jev-system-one - A polished OpenAI + TypeSafe Jev terminal interface for answers with transparent decision reports.
+- [heliowap/diff-risk-sentinel](https://github.com/heliowap/diff-risk-sentinel) `📚3` — Risk triage for large git diffs (CRAP + TypeSafe Jev) and a repository-wide dead-code scan for Pytho
+- [hemanth/jevql](https://github.com/hemanth/jevql) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 64bfad8. AI-assisted README inspection; live Jev not run.
+- [Hiper-nexus/ai-launcher](https://github.com/hiper-nexus/ai-launcher) `📚3` — Interactive launcher for AI coding CLIs (Claude, Codex, Gemini) Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [hiro1202/jev-review-gate-poc](https://github.com/hiro1202/jev-review-gate-poc) `📚3` — jev-review-gate-poc - jev-review-gate-poc: TypeSafe Jev ecosystem repository. · Python
+- [hoshinodis/opencode-intent-gate](https://github.com/hoshinodis/opencode-intent-gate) `📚3` — TypeSafe Jev-powered intent gate for OpenCode: confirm intent before the agent dives into underspeci
+- [HsiangNianian/jev-turtle-soup](https://github.com/hsiangnianian/jev-turtle-soup) `📚3` — jev-turtle-soup — No description provided by the repository (auto-discovered, description not yet written)
+- [ibrahimcesar/jevdev](https://github.com/ibrahimcesar/jevdev) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 33cadde. AI-assisted README/LICENSE/src/jev/http.rs inspection. No live TypeSafe spend.
+- [ifoster01/jev-effort](https://github.com/ifoster01/jev-effort) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 19944ca. AI-assisted README/LICENSE/src/jev.mjs inspection. No live Claude Code or provider spend.
+- [IPECTER/jev-runway](https://github.com/ipecter/jev-runway) `📚3` — A Jev-powered proxy for Codex that saves tokens by trimming stale tool output. Fewer tokens. More ru
+- [Jev's Sprint Planning](https://jevs-sprint-planning.vercel.app) `📚3` — notque · AppSimulation in which four Jev-driven developers in a 3D office claim tickets, code, review, deploy and fight fires, with live probability bars, latency and cost per decision.
+- [JevForge/jev-pr-profiler](https://github.com/jevforge/jev-pr-profiler) `📚3` — Evaluate pull request risk with Jev and expose review depth plus recommended checks to CI.
+- [joaomloureiro-daredata/jev-typesafeai-test](https://github.com/joaomloureiro-daredata/jev-typesafeai-test) `📚3` — jev-typesafeai-test - Testing TypesafeAI's "Jev" model using System One API · Python
+- [JohnRSandoval/meaning-aware-diff](https://github.com/johnrsandoval/meaning-aware-diff) `📚3` — meaning-aware-diff - See the consequences hidden in a code diff. Jev-powered semantic reviews, a CLI, and an interactive demo. · JavaScript
+- [k4its1t/jevlens](https://github.com/k4its1t/jevlens) `📚3` — Reviewed on 2026-09-21 at commit cd21fce: MIT; AI-assisted source review of README, LICENSE, runner/metrics/cli; pytest 10 pass. No live TypeSafe call.
+- [kevin9327/jev-code](https://github.com/kevin9327/jev-code) `📚3` — JevCode: TypeSafe Jev diff merge gate. merge / comment / block in code.
+- [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes) `📚3` — git push no-mistakes
+- [lautaroalejo02/TypeSafe-Test-Project](https://github.com/lautaroalejo02/typesafe-test-project) `📚3` — This is just for testing
+- [leonardjke/go-jev](https://github.com/leonardjke/go-jev) `📚3` — go-jev - Go client for the Jev judgement API - ask structured questions about a piece of text and get typed answers back · Go
+- [LMDHQ-0420/Vision-Jev](https://github.com/lmdhq-0420/vision-jev) `📚3` — Vision-Jev — No description provided by the repository (auto-discovered, description not yet written) ❔
+- [LukasCaha/jev-profanity](https://github.com/lukascaha/jev-profanity) `📚3` — Jev based detector and rewrite engine to censor profanity, rudeness and hate speech.
+- [MA22DE/git-star-list-sort](https://github.com/ma22de/git-star-list-sort) `📚3` — Sort your GitHub stars into your existing GitHub Lists with TypeSafe Jev. One command: refresh List
+- [Madhumasa84/jrx](https://github.com/madhumasa84/jrx) `📚3` — CLI gate for coding agents that combines local hard rules with Jev risk signals and a deterministic policy returning allow, review or hold. Apache-2.0 · Python
+- [maguro777R/jev-test](https://github.com/maguro777r/jev-test) `📚3` — jev in:name created:2026-09-20..2026-09-21
+- [Mangaba-ai/brier](https://github.com/mangaba-ai/brier) `📚3` — Reviewed 2026-09-29 (Europe/Sofia) at commit e951b85. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [marshallsfolly/jevbar](https://github.com/marshallsfolly/jevbar) `📚3` — Upstream README: one Jev call (~110–290 ms in the demo) picks parts/layout; exact phrases (dates, IDs) are settled by code first.
+- [MaxIvanyshen/jev-review](https://github.com/maxivanyshen/jev-review) `📚3` — Code review filter for AI Agents using TypeSafe Jev model
+- [mihir-s-05/jev-reward-model](https://github.com/mihir-s-05/jev-reward-model) `📚3` — PPO experiment setup testing Jev as terminal and shaping reward for a Qwen3.5-4B actor on dependency-workflow tasks; code and CPU tests only so far. no license · Python
+- [misael-cs/opencode-jev](https://github.com/misael-cs/opencode-jev) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [mohit-singh-13/Testing-Jev](https://github.com/mohit-singh-13/testing-jev) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [monstercode2/jev-local](https://github.com/monstercode2/jev-local) `📚3` — inferred / routing-guardrails — ⭐0
+- [moonshot-partners/jev-qa](https://github.com/moonshot-partners/jev-qa) `📚3` — Jev-driven parallel browser QA: acceptance, adversarial and smoke verification of web changes
+- [MorenoLand/Moreno.Jev](https://github.com/morenoland/moreno.jev) `📚3` — Cross-platform MCP server and agent skill for TypeSafe Jev code review and debugging.
+- [MorganOnCode/jev-gram](https://github.com/morganoncode/jev-gram) `📚3` — N-gram NSFW detection + AI-prose heatmaps judged by TypeSafe Jev (JEVATHON 2026)
+- [mura012/jev-test](https://github.com/mura012/jev-test) `📚3` — jev-test - jev-test: TypeSafe Jev ecosystem repository. · HTML
+- [naufalhilmiaji/sooth](https://github.com/naufalhilmiaji/sooth) `📚3` — Claim-by-claim fact-checking for AI output, designed for CI. PASS/FAIL/REVIEW with calibra
+- [netcode001/jev](https://github.com/netcode001/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [nola-lang/nola-typesafe-test](https://github.com/nola-lang/nola-typesafe-test) `📚3` — Example ticket-triage project for the Nola language's typesafe() provider, mapping literal unions and booleans to Jev choice and yes/no questions. no license · TypeScript
+- [Partysun/jigor](https://github.com/partysun/jigor) `📚3` — topic:jev created:2026-09-01..2026-09-30 creat
+- [pauloportella/codex-dots](https://github.com/pauloportella/codex-dots) `📚3` — Reusable Codex bundles. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [pome-sh/digital-twins](https://github.com/pome-sh/digital-twins) `📚3` — digital-twins — Test mode for your integrations, built for the way agents build (auto-discovered, description not yet written) ❔
+- [prantikmedhi/anchorlint](https://github.com/prantikmedhi/anchorlint) `📚3` — Evidence-first internal-link auditing for SEO. Deterministic checks plus optional TypeSafe Jev judgm
+- [Rajeev-SG/jev-tests](https://github.com/rajeev-sg/jev-tests) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [RemiCarbonne/jev-code-context-router](https://github.com/remicarbonne/jev-code-context-router) `📚3` — Indexes a repository, asks Jev to select relevant symbols and injects bounded source context into Claude Code, Hermes or MCP clients. MIT · Python
+- [RickDevopsSecure/the-verification-gate](https://github.com/rickdevopssecure/the-verification-gate) `📚3` — A typed, calibrated gate for agent actions — evaluating TypeSafe AI's Jev as a case study, with a minimal runnable pattern (EN/ES).
+- [romannekrasovaillm/qwen-code-jev-gate](https://github.com/romannekrasovaillm/qwen-code-jev-gate) `📚3` — Jev-class decision model as stage-0 gate in the Qwen Code permission flow: ADRs, architecture spine, delta spec, pilot results
+- [RoyWiggins/jevlang](https://github.com/roywiggins/jevlang) `📚3` — Reviewed 2026-09-26 (Europe/Sofia) at commit c2b0934. AI-assisted README and license inspection; install/live paths not executed.
+- [Salv4d/jev-cli](https://github.com/salv4d/jev-cli) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [SayamAlt/Smartphone-Reviews-Analysis-using-Jev-AI](https://github.com/sayamalt/smartphone-reviews-analysis-using-jev-ai) `📚3` — Turns raw smartphone reviews into per-topic star ratings (Camera, Battery, Display, etc.) using Jev LLM analysis.
+- [scuilla/jev-testing](https://github.com/scuilla/jev-testing) `📚3` — jev-testing - jev-testing: TypeSafe Jev ecosystem repository. · TypeScript
+- [seanebones-lang/evidencelens](https://github.com/seanebones-lang/evidencelens) `📚3` — An open-source research build testing Jev for bounded semantic evidence review and human-review triage.
+- [serejkaaa512/jev-investment-forecast](https://github.com/serejkaaa512/jev-investment-forecast) `📚3` — background.js posts typed questions to with model jev-latest (27 noul categories + 2 choice questions). Pin the reviewed commit below for the live blob.
+- [shellneko/minigrid-jev](https://github.com/shellneko/minigrid-jev) `📚3` — Benchmark running Jev on 18 MiniGrid tasks by sending the JSON state and a Choice over actions each step, with parallel episodes and JSON results. no license · Python
+- [site](https://npmjs.com/package/jevtest) `📚3`
+- [skylence-org/claudecode-jev-marketplace](https://github.com/skylence-org/claudecode-jev-marketplace) `📚3` — TypeSafe Jev (System One) wired into Claude Code: a decision primitive for hooks, and the Skylence h
+- [Spirounkempt95/snifftest](https://github.com/spirounkempt95/snifftest) `📚3` — Sniff your Markdown drafts against house rules with local regex checks and optional AI judgment calls.
+- [stefafafan/setup-jev](https://github.com/stefafafan/setup-jev) `📚3` — Unofficial GitHub Action that installs stefafafan/jev
+- [SuparvaCode/naturalcodz](https://github.com/suparvacode/naturalcodz) `📚3` — Natural logic utilities powered by Jev AI — classify, guard, route, score, and check with
+- [suprkco/jev-serp-opportunity-lab](https://github.com/suprkco/jev-serp-opportunity-lab) `📚3` — jev-serp-opportunity-lab - Terminal-based Jev intent triage with typed decisions, explicit simulation mode, review policy and JSON exports. · Python
+- [syjlovecyf/jev-codex-benchmark](https://github.com/syjlovecyf/jev-codex-benchmark) `📚3` — task exploratory Jev routing benchmark with paired Codex Luna/Astra answers, Docker scoring, per
+- [ThyFriendlyFox/jev-curate](https://github.com/thyfriendlyfox/jev-curate) `📚3` — Corpus curation with TypeSafe Jev — pass/fail gates, curated vs rejected JSONL
+- [TinyFrontier/wince](https://github.com/tinyfrontier/wince) `📚3` — Routes human review attention: green/yellow/red for a diff and who should look. It doesn't review the code. Built on TypeSafe. ★ 2 · sdk · Python
+- [uberto/jev-test](https://github.com/uberto/jev-test) `📚3` — Review Kotlin files against From Objects to Functions principles using Jev ★ 1 · sdk · Python
+- [ujiuji1259/jev-abr-geocoder](https://github.com/ujiuji1259/jev-abr-geocoder) `📚3` — jev in:name created:2026-09-24..2026-09-25
+- [undeemed/Jcyber](https://github.com/undeemed/jcyber) `📚3` — Agent-driven bug bounty / pentest framework: one gated chain over five systems (Caido, HexStrike, Jev, Memgra…
+- [VaidikV/baton](https://github.com/vaidikv/baton) `📚3` — now when to hand a Claude Code session to a fresh one. A Stop hook that times the handoff with Jev or ...
+- [VyetGokyra/jev-codex-factory](https://github.com/vyetgokyra/jev-codex-factory) `📚3` — jev-codex-factory — Route smarter. Code in parallel. Resume what breaks. A Jev-powered multi-agent factory for Codex (auto-discovered, description not yet written)
+- [wlstmd/jev-demo-code](https://github.com/wlstmd/jev-demo-code) `📚3` — Demos and playgrounds
+- [Wujiaowang/plain-language-gate](https://github.com/wujiaowang/plain-language-gate) `📚3` — One Jev call runs six parallel judgments; code maps to pass/review/rewrite with optional rewrite loops. See gate.py and checks.py.
+- [XiaoRui114514/jev-chat-windows-custom-jev](https://github.com/xiaorui114514/jev-chat-windows-custom-jev) `📚3` — score 12.6 · 0 stars
+- [xlennart/dsh-auto-review-jev](https://github.com/xlennart/dsh-auto-review-jev) `📚3` — inferred / agent-tooling — ⭐0
+- [xnuonux/jev-reflex](https://github.com/xnuonux/jev-reflex) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 3c49e28. AI-assisted README + package layout inspection. No live TypeSafe spend.
+- [Yeachan-Heo/oh-my-claudecode](https://github.com/yeachan-heo/oh-my-claudecode) `📚3` — oh-my-claudecode {agent: claude-code, type: plugin} - Coding agents: multi-agent team orchestration for Claude Code featuring opt-in Jev hooks for sub-millisecond judgment points, decision caching, and per-point egress controls.
+- [yirbz/tell](https://github.com/yirbz/tell) `📚3` — tell - tell: TypeSafe Jev ecosystem repository. · TypeScript
+- [yodablocks/jevq](https://github.com/yodablocks/jevq) `📚3` — Four linters in this ecosystem are powered by Jev. None lints the Jev questions themselves
+- [ypotier/Jev](https://github.com/ypotier/jev) `📚3` — jev in:name created:2026-09-01..2026-09-30 cre
+- [zachlandes/jevzf](https://github.com/zachlandes/jevzf) `📚3` — jevzf - Meaning search for fzf: rank piped lines by TypeSafe Jev relevance (CLI filter or stock fzf Ctrl-R binding); unofficial. (Project guide)(community/projects/tools/jevzf.md).
+- [ZephyrDeng/pi-review](https://github.com/zephyrdeng/pi-review) `📚3` — Jev screens likely defects, arbitrates ambiguous findings, classifies scope, and supports cross-round review memory.
+- [网站](https://npmjs.com/package/snifftest) `📚3`
+- [网站](https://jevsome.ozersubasi.com) `📚3` — Open-source projects that provably call Jev, TypeSafe AI's System One model. Every entry links to the line of code that proves it. Browse: jevsome.ozersubasi.com
+
+## Long tail (cited by 1–2 lists) — 714
+
+<details><summary>Show 714 long-tail entries</summary>
+
+- [a-m-0099/marquand](https://github.com/a-m-0099/marquand) `📚2` — marquand — local drop in for Jev, with 𝓯𝓮𝓪𝓽𝓾𝓻𝓮 𝓹𝓪𝓻𝓲𝓽𝔂 (auto-discovered, description not yet written)
+- [abchatterjee7/jev-spring-boot-starter-demo](https://github.com/abchatterjee7/jev-spring-boot-starter-demo) `📚2` — score 15.4 · 0 stars
+- [aftely1337/typesafe-ai-opencode-free](https://github.com/aftely1337/typesafe-ai-opencode-free) `📚2`
+- [AlekseiUL/jev-broker](https://github.com/alekseiul/jev-broker) `📚2` — Reviewed 2026-09-28 (Europe/Sofia) at commit 972a2ce. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [altslate-labs/jevable-code](https://github.com/altslate-labs/jevable-code) `📚2` — Find code whose semantic decisions map to Jev Choice, Score, or Noul — an agent skill for Claude Cod
+- [AnaOnTram/JBCA](https://github.com/anaontram/jbca) `📚2` — Jev-Based Collision Avoidance
+- [AndresCarreonDiaz/jevvium](https://github.com/andrescarreondiaz/jevvium) `📚2` — jevvium — Turn acceptance criteria into Appium tests. A decision model (Jev) explores the app once, then jevvium writes a plain, deterministic WebdriverIO test…
+- [andresguc1/hal-test](https://github.com/andresguc1/hal-test) `📚2` — HAL-TEST is an Open Source visual automation framework for Playwright that lets developers design and orchest…
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) `📚2` — OpenCode Zen: Jev resale — A coding agent whose hosted gateway resells Jev, including a free tier model id.
+- [anthropics/claude-code](https://github.com/anthropics/claude-code) `📚2` — Upstream's statement that nothing leaves the machine without a key should not be treated as a local-only guarantee: that path calls $.model.classify, which…
+- [anuran-de/tripwire](https://github.com/anuran-de/tripwire) `📚2` — Reviewed on 2026-09-21 at commit 4fa5282: MIT; AI-assisted source review of README, LICENSE, src/tripwire/, offline demo, and pytest. No live TypeSafe call.
+- [ari-becker/commentlint](https://github.com/ari-becker/commentlint) `📚2` — Rust linter that extracts code comments with tree-sitter and fails those that miss Jev yes/no rules such as active voice, configurable per directory. MIT · Rust
+- [AronAxe/Token-Terminator](https://github.com/aronaxe/token-terminator) `📚2` — Agent-agnostic JEV-enabled token reduction with exact recovery and fail-open guarantees. First-party Hermes Agent Context Engine; RTK terminal rewriting…
+- [arrmlet/dehydrator](https://github.com/arrmlet/dehydrator) `📚2` — JevReranker and JevIndex now call TypeSafe's API directly (api.typesafe.ai/v1/systemone, jev-latest) when TYPESAFE_API_KEY is set, falling back to Vercel AI…
+- [AutoPasha/jevcode](https://github.com/autopasha/jevcode) `📚2` — jevcode - AutoPasha/jevcode - Coding agent driven by a model that cannot write text.
+- [Beginner-666/JevCodex](https://github.com/beginner-666/jevcodex) `📚2` — Unofficial experimental branch of the OpenAI Codex CLI (Chinese README): before every new user turn, Jev (via OpenRouter Decisions API, ~typesafe/jev-latest)…
+- [bensheridan/semantic-lint](https://github.com/bensheridan/semantic-lint) `📚2` — semantic-lint - semantic-lint: TypeSafe Jev ecosystem repository. · TypeScript
+- [betalyra/effect-uai](https://github.com/betalyra/effect-uai) `📚2`
+- [bhubbard/zev-rs](https://github.com/bhubbard/zev-rs) `📚2` — Advanced zero-token LLM decision engine in Rust synthesizing architectural breakthroughs from open-source Jev alternatives.
+- [bloudhood/jevpilot](https://github.com/bloudhood/jevpilot) `📚2` — Reviewed 2026-09-30 (Europe/Sofia) at commit 293d01b. AI-assisted README and license inspection; install/live paths not executed.
+- [buex007/b2b-web-test](https://github.com/buex007/b2b-web-test) `📚2`
+- [campusx-official/jev-demo](https://github.com/campusx-official/jev-demo) `📚2` — A simple demo using jev
+- [ccai40359-wq/jev-kit](https://github.com/ccai40359-wq/jev-kit) `📚2` — jev-kit: Jev-powered triage across the dev loop (test/build/error) - RETRY/FIX_CODE/FIX_ENV on real
+- [cesarhdz/jev-test](https://github.com/cesarhdz/jev-test) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [codegirl-007/jevlint](https://github.com/codegirl-007/jevlint) `📚2` — A linter to codify code taste using Jev
+- [codegirl-007/typesafe-lua](https://github.com/codegirl-007/typesafe-lua) `📚2` — typesafe-lua - codegirl-007/typesafe-lua - A port of the Typesafe Jev SDK from typescript to Lua.
+- [Codercise/jev-in-practice](https://github.com/codercise/jev-in-practice) `📚2` — jev-in-practice - A practical Jev playground for typed, probabilistic decisions across fraud, sales, and patent screening. · TypeScript
+- [colazeta/criminal_infiltration_in_legal_economy_review](https://github.com/colazeta/criminal_infiltration_in_legal_economy_review) `📚2` — This repository is meant to store a systematic review on the topic of criminal infiltration in the legal econ…
+- [ConfusedSky/jev-tests](https://github.com/confusedsky/jev-tests) `📚2` — Ask a shelf of PDF rulebooks questions. jev, a decision model that returns only probabilities, finds the page that answers and reads ...
+- [ctrimm/jev-wcag-auditor](https://github.com/ctrimm/jev-wcag-auditor) `📚2` — Reviewed on 2026-09-23 at commit e6e0b11 (0.1.0, MIT). AI-assisted source review. No live Chromium/Jev run.
+- [curajorge/judgment-map](https://github.com/curajorge/judgment-map) `📚2` — judgment-map - A typed, reviewable AI judgment map for contract analysis with TypeSafe. · JavaScript
+- [czinegeroland/review-gate](https://github.com/czinegeroland/review-gate) `📚2` — review-gate - review-gate: TypeSafe Jev ecosystem repository. · Rust
+- [d-callan/bionym](https://github.com/d-callan/bionym) `📚2` — bionym — gene identifiers to confidence aware knowledge graphs with jev (auto-discovered, description not yet written)
+- [DanielJD1216/magic-computer-use](https://github.com/danieljd1216/magic-computer-use) `📚2` — Meet Jev, Fastest Computer Use Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [dejager/Maybe](https://github.com/dejager/maybe) `📚2` — Your code can finally say: I'm not sure. ★ 1
+- [delineas/jev-review](https://github.com/delineas/jev-review) `📚2` — jev-review - · TypeScript
+- [deviprasadshetty-dev/jev-independent-test-report](https://github.com/deviprasadshetty-dev/jev-independent-test-report) `📚2`
+- [dex-community/fast-jev-compaction-opencode](https://github.com/dex-community/fast-jev-compaction-opencode) `📚2` — MIT. Upstream Claude Code path uses TypeSafe Jev; this fork defaults to local judge.
+- [dharmeshgurnani/CodeOtter](https://github.com/dharmeshgurnani/codeotter) `📚2` — Autonomous, self-hosted AI code reviews, calibrated scoring gauges, and merge gates from any open model.
+- [diamitani/jev-backend-qa](https://github.com/diamitani/jev-backend-qa) `📚2` — Reviewed 2026-09-24 (Europe/Sofia) at commit 3fd47ba (MIT). AI-assisted source review. No live TypeSafe spend.
+- [dipendra-sharma/jev-cli](https://github.com/dipendra-sharma/jev-cli) `📚2` — Command-line tool for the TypeSafe Jev decision model, through the official API or OpenRouter: typed
+- [domini-code/jev-explicado](https://github.com/domini-code/jev-explicado) `📚2` — Deja de parsear JSON: Jev responde decisiones, no párrafos
+- [ebagos/lolipop-jev-test](https://github.com/ebagos/lolipop-jev-test) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [echozyr2001/ariadne](https://github.com/echozyr2001/ariadne) `📚2` — AI terminal assistant for Git commit messages, code reviews, shell commands, and chat. Uses Jev (Typ
+- [egrm07/jev_bitcoin_backtest](https://github.com/egrm07/jev_bitcoin_backtest) `📚2` — A reproducible backtest of whether TypeSafe Jev can forecast BTC/USD and produce a tradable edge aft
+- [EnesYilmazcode/FlyJev2048](https://github.com/enesyilmazcode/flyjev2048) `📚2` — Fly vs Jev play 2048 Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [EricsenSemedo/t3code-jev](https://github.com/ericsensemedo/t3code-jev) `📚2` — Personal T3 Code fork with an opt-in Jev model-routing trial. Based on pingdotgg/t3code.
+- [ErlendFax/nl-lint](https://github.com/erlendfax/nl-lint) `📚2` — nl-lint - Near-instant natural-language lint for your code. · JavaScript
+- [f-lombardo/jev-php](https://github.com/f-lombardo/jev-php) `📚2` — A PHP library to connect to TypeSafe JEV APIs
+- [fengyiqicoder/jevfeed](https://github.com/fengyiqicoder/jevfeed) `📚2` — An infinite feed built from your own browser history, ranked in real time by TypeSafe's Jev. No likes, no fol…
+- [florianbuetow/strands-system-one](https://github.com/florianbuetow/strands-system-one) `📚2` — Strands agents that make small local LLMs (Qwen3 0.6B, MiniCPM5 2B, Qwen3.5 4B) answer like Jev, a System 1 model: typed yes/no, ...
+- [furukawa3152/jev_test](https://github.com/furukawa3152/jev_test) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [gbesse/meaning-diff](https://github.com/gbesse/meaning-diff) `📚2` — Review document meaning changes with source provenance, parser plugins and optional Jev classificati
+- [genaforvena/mishe-tauftauf](https://github.com/genaforvena/mishe-tauftauf) `📚2` — mishe-tauftauf — An observability-driven text-only core for coordinating ephemeral LLM agents (auto-discovered, description not yet written)
+- [gi-dellav/jevdo](https://github.com/gi-dellav/jevdo) `📚2` — Connects Jev to your shell (auto-discovered, description not yet written)
+- [Gilbert09/jev-cli](https://github.com/gilbert09/jev-cli) `📚2` — A Jev-powered judgement layer for Claude Code: semantic permission gating, prompt-injection screening, comple…
+- [GoSpinUp/jev-reviews](https://github.com/gospinup/jev-reviews) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [hamza-paracha/proof-jev](https://github.com/hamza-paracha/proof-jev) `📚2` — An open-source project using Jev for structured code review, backed by mutation tests and
+- [HarleyCoops/Math-To-Manim](https://github.com/harleycoops/math-to-manim) `📚2` — Math-To-Manim - Math and physics animation pipeline that uses TypeSafe Jev to review staged explanation, equation, and code checkpoints.
+- [hassaneddrissi962-commits/jev-and-ai-sdk](https://github.com/hassaneddrissi962-commits/jev-and-ai-sdk) `📚2` — jevlang OR jev.ai in:name,description created:
+- [HcodeQ/Langchain-Jev](https://github.com/hcodeq/langchain-jev) `📚2` — Create a customer support reliable AI Agent
+- [heliowap/delegador](https://github.com/heliowap/delegador) `📚2` — Delega tarefa de codigo ao modelo escolhido pela tarefa, com permissao deterministica, verificacao por teste …
+- [hosted preview](https://jev-curator.vercel.app) `📚2`
+- [Ice-Hazymoon/jevci](https://github.com/ice-hazymoon/jevci) `📚2` — Selective CI for GitHub Actions and GitLab CI: compares a commit range and runs only the jobs the change can affect. Deterministic rules (paths, comment-only…
+- [imaddde867/jev-position-test](https://github.com/imaddde867/jev-position-test) `📚2` — Reorder the enum options: a Jev clone changes its answer, Jev doesn't. n=6, raw data included.
+- [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner) `📚2` — opencode-jev-pruner - indiejoseph/opencode-jev-pruner - OpenCode plugin: trim long Bash output with TypeSafe Jev before the model sees it.
+- [inversionkinescope38/t58-quant-algo-backtester-public](https://github.com/inversionkinescope38/t58-quant-algo-backtester-public) `📚2` — Transform trading ideas into statistically validated, prop-firm-ready strategies with prof
+- [ishaangupta-YB/JEV-tests](https://github.com/ishaangupta-yb/jev-tests) `📚2`
+- [ivanblagdan/jev-cli](https://github.com/ivanblagdan/jev-cli) `📚2` — Composable CLI for TypeSafe.
+- [j341nono/jev-test](https://github.com/j341nono/jev-test) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [Jev After Eight Days of Independent Tests — DEV](https://dev.to/gde/jev-after-eight-days-of-independent-tests-level-with-mid-price-llms-behind-the-frontier-1kln) `📚2` — dev.to (gde): "Jev After Eight Days of Independent Tests: Level With Mid-Price LLMs, Behind the Frontier" (2026-09-24) — Meta-review of the independent…
+- [Jev vs Fable on 520 real social posts](https://seenpaid.com/blog/jev-review-tested-against-fable) `📚2` — Social media: compares Jev’s advisory caption checks with Fable labels over 520 posts and reports agreement, latency, and cost without using Jev as a…
+- [Jevable](https://theregister.com/devops/2026/09/23/shut-up-and-calculate-jevs-new-ai-primitives-for-coders/5298431) `📚2` — FPV Ventures' Nikunj Kothari's gallery of prototype Jev apps posted on X (described in The Register's Jev writeup): "Urgency" spreadsheet columns,…
+- [jevajs/Jeva](https://github.com/jevajs/jeva) `📚2` — jeva — A monorepo for code used in videos/tutorials for Jeva. Created and maintained by @thatziv _(★226, Lua)_
+- [jevbooks: 16 Jev design patterns](https://jevbooks.com/en/patterns) `📚2` — Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read…
+- [jevforge/jev-model-navigator](https://github.com/jevforge/jev-model-navigator) `📚2` — Route Issues and PRs to the best AI model using typed TypeSafe Jev decisions in GitHub Actions.
+- [jevforge/jev-reviewer-navigator](https://github.com/jevforge/jev-reviewer-navigator) `📚2` — Suggest PR reviewers from CODEOWNERS, history, paths, labels, and teams. Jev decides; assignment sta
+- [jevforge/jev-test-intelligence](https://github.com/jevforge/jev-test-intelligence) `📚2` — Select which allowlisted test groups to run after a change. Jev decides; your workflow stays in cont
+- [jevlint.com](https://jevlint.com) `📚2` — Live runs send selected source files to TypeSafe. This listing did not call the API. Site: jevlint.com.
+- [JunhyeokJang1006/jev_test](https://github.com/junhyeokjang1006/jev_test) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [Just-Betr/jevtest](https://github.com/just-betr/jevtest) `📚2` — Plain-English end-to-end tests for Android and iOS apps, driven by TypeSafe's Jev. Deterministic, strict, CI-ready.
+- [justrach/folio](https://github.com/justrach/folio) `📚2` — Architecture for Folio, a Next.js workspace for site readiness, SEO context, and agent evidence reviews.
+- [JustSuperHuman/bro-cli](https://github.com/justsuperhuman/bro-cli) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [jwgwalton/jev-calibration-testing](https://github.com/jwgwalton/jev-calibration-testing) `📚2` — Testing the validity of the probabilities emitted by JEV
+- [kazhs/jev-cli](https://github.com/kazhs/jev-cli) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [kellengary/jev-lint](https://github.com/kellengary/jev-lint) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [kevnk/jev-claude-statusline](https://github.com/kevnk/jev-claude-statusline) `📚2` — jev-claude-statusline - Claude Code hooks that estimate task progress with Jev and cache it for a status-line display.
+- [klostest/diy-jev](https://github.com/klostest/diy-jev) `📚2` — Probing TypeSafe AI's Jev against synthetic emails with exact, known probabilities, and building a small Jev-like model from scratch. Companion to the ...
+- [kobashi/jev-playground](https://github.com/kobashi/jev-playground) `📚2` — Encoding of the same musical phrase moves cadence detection from 63% to 97%; near chance (64%) on a subjective question. jev-1.13.0 · n=126 requests
+- [kparashar/jev-alert-intelligence](https://github.com/kparashar/jev-alert-intelligence) `📚2` — score 11.4 · 0 stars
+- [kuldeeepy/jev-food](https://github.com/kuldeeepy/jev-food) `📚2` — Pick a meal by rummaging through a heap of them. Matching runs on Jev.
+- [lara1435/jev-with-claude-code](https://github.com/lara1435/jev-with-claude-code) `📚2` — jev in:name created:2026-09-26..2026-09-27
+- [Launch post on X — @CompleteSkeptic](https://x.com) `📚2` — the launch thread (39M+ views per case study)
+- [lbildzinkas/quiet-review-axi](https://github.com/lbildzinkas/quiet-review-axi) `📚2` — Agent-first CLI that scores AI code-review comments with Jev typed decisions to separate real issues from noise
+- [Le0C/jev-mechanic](https://github.com/le0c/jev-mechanic) `📚2` — Car workshop triage demo where Jev reads free-text answers, code walks a diagnostic flowchart, and tokens, cost and time are logged; 90 tests. no license ·…
+- [lehorhe/radio-wnet-test-jev](https://github.com/lehorhe/radio-wnet-test-jev) `📚2` — inferred / other — ⭐0
+- [letr007/letcode](https://github.com/letr007/letcode) `📚2` — letcode · letr007 · GitHub · ⭐ 6 · 2026-06-10Opencode-style terminal coding agent in Rust with a Ratatui TUI whose experimental auto permission mode can ask…
+- [lionseasky/JEV-Practice](https://github.com/lionseasky/jev-practice) `📚2`
+- [Lokeessshhh/jev](https://github.com/lokeessshhh/jev) `📚2` — jev in:name created:2026-09-01..2026-09-30 cre
+- [lovstudio/jis](https://github.com/lovstudio/jis) `📚2` — Reviewed 2026-09-23 at commit d0c693e (Apache-2.0). AI-assisted source review. No live TypeSafe/OpenRouter spend.
+- [LuisResendiz/okayish](https://github.com/luisresendiz/okayish) `📚2` — Fuzzy data-quality checks with typed values and confidence scores, using Jev as decision model
+- [lukasikgrzegorz/jev-ai-test](https://github.com/lukasikgrzegorz/jev-ai-test) `📚2` — jevlang OR jev.ai in:name,description created:
+- [Macasacker/design-review](https://github.com/macasacker/design-review) `📚2` — design review tool for use by a systemone model.
+- [MagicBeansAI/jev-audit](https://github.com/magicbeansai/jev-audit) `📚2` — Audits a codebase to find which existing LLM calls could be replaced by Jev.
+- [marcelormendes/diffninja](https://github.com/marcelormendes/diffninja) `📚2` — Focused local PR reviews with calldiff and Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [marvikomo/code-lens-ai](https://github.com/marvikomo/code-lens-ai) `📚2`
+- [math-zhuxy/JevWithoutJev](https://github.com/math-zhuxy/jevwithoutjev) `📚2` — JevWithoutJev is a lightweight Jev-style structured output framework that uses a standard
+- [Maxi91f/jev_testing](https://github.com/maxi91f/jev_testing) `📚2` — Runnable counterexamples collected 17 to 18 September 2026, selected because they failed; a methodology report, not a representative benchmark. jev-1.13.0
+- [maxsumrall/jev4j](https://github.com/maxsumrall/jev4j) `📚2` — Add Maven Central io.github.maxsumrall.jev4j:jev4j-core:0.1.0 (see upstream README). Pin review source at commit 98bdb52.
+- [mcheniki/jev-review](https://github.com/mcheniki/jev-review) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [mhingston/jev-cli](https://github.com/mhingston/jev-cli) `📚2` — A small, provider-agnostic CLI for Jev.
+- [MIbrahim-Nasir/Jev-Coder](https://github.com/mibrahim-nasir/jev-coder) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [MichitoSugawara/jev-lint](https://github.com/michitosugawara/jev-lint) `📚2` — Semantic lint CLI powered by TypeSafe Jev
+- [mizchi/jev-lexer](https://github.com/mizchi/jev-lexer) `📚2` — Language-agnostic syntax highlighter: split like gpu-lexer, classify every part with Jev, render Shi
+- [MobAI-App/mobai-ci](https://github.com/mobai-app/mobai-ci) `📚2` — examples/github-actions-workflows.yml — .mobflow on a macOS simulator (needs MOBAI_TYPESAFE_KEY).
+- [MrBrooks-code/jev-1.0](https://github.com/mrbrooks-code/jev-1.0) `📚2` — Jev decision skill and hello-world demo
+- [MrDesjardins/jevrealtimecodecheck](https://github.com/mrdesjardins/jevrealtimecodecheck) `📚2` — VS Code and Cursor extension that checks your git diff against Markdown rule files with one Jev question per rule, then rates severity and locates lines. no…
+- [neilbauman21-hub/verdict](https://github.com/neilbauman21-hub/verdict) `📚2` — Typed decisions with abstention over any causal LM: one forward pass, no autoregressive generation (created 2026-09-22).
+- [nekomaho/jev-test-project](https://github.com/nekomaho/jev-test-project) `📚2` — Demos and playgrounds
+- [neolakseri-commits/jev-router](https://github.com/neolakseri-commits/jev-router) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [nico-martin/open-jev-demo](https://github.com/nico-martin/open-jev-demo) `📚2` — score 15 · 0 stars
+- [nicobailon/pi-interactive-shell](https://github.com/nicobailon/pi-interactive-shell) `📚2` — Pi coding agent extension that allows Pi to autonomously control interactive CLIs in an observable overlay. F…
+- [Nik-1019/Jev-Creator-Decoder-NextWork](https://github.com/nik-1019/jev-creator-decoder-nextwork) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [nizki-kasaph/ClaudeCode](https://github.com/nizki-kasaph/claudecode) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [ogose-sho3/jev-test](https://github.com/ogose-sho3/jev-test) `📚2` — jev in:name created:2026-09-28..2026-09-30
+- [oiiDawn/jev-linter](https://github.com/oiidawn/jev-linter) `📚2` — Fuzzy linter for Claude Code: judges each edit against plain-language rules with Jev
+- [ops120/jev-grader](https://github.com/ops120/jev-grader) `📚2`
+- [orthogonal-sh/cli](https://github.com/orthogonal-sh/cli) `📚2`
+- [osuki-dev/opencode-osuki-agent](https://github.com/osuki-dev/opencode-osuki-agent) `📚2` — Effect-native OpenCode coordinator with Jev routing and persistent goals
+- [peterbb148/typesafe-cli](https://github.com/peterbb148/typesafe-cli) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [pfoundation/ocAdvisorTool](https://github.com/pfoundation/ocadvisortool) `📚2` — OpenCode Advanced Model Advisor Tool Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [PiyushAnand2006/Jevora-IDE](https://github.com/piyushanand2006/jevora-ide) `📚2` — A verification-driven multi-agent AI IDE powered by Jev, LangChain, and LangGraph.A multi
+- [pjdurden/jevkit-py](https://github.com/pjdurden/jevkit-py) `📚2` — jevkit for Python: static linter and shared record format for building on TypeSafe's Jev (System One
+- [pksorensen/alp-pr-review](https://github.com/pksorensen/alp-pr-review) `📚2` — ALP-linje: PR-review med Jev-routing (TypeSafe System One) og automerge bag port
+- [poupar-ai/musaranho-cli](https://github.com/poupar-ai/musaranho-cli) `📚2` — Typed System 1 decision engine in development. Designed for multilingual, non-autoregressi
+- [ppxu/codex-adaptive-effort](https://github.com/ppxu/codex-adaptive-effort) `📚2` — Experimental fixed-model reasoning-effort control for Codex CLI and a validated desktop instance, with opt-in Jev evaluation.
+- [pst2154/Typesafe_Testing](https://github.com/pst2154/typesafe_testing) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [PushkarDesai-06/jevcode](https://github.com/pushkardesai-06/jevcode) `📚2` — Route each Claude Code / Codex prompt to the cheapest model that can handle it, using Jev.
+- [pyck-ai/jev-cli](https://github.com/pyck-ai/jev-cli) `📚2` — Jev's TypeSafe judgment model, exposed via OpenRouter, as MCP tools
+- [qjy0128/Jevtest](https://github.com/qjy0128/jevtest) `📚2` — Web test bench that runs labeled text samples through five Jev questions to evaluate sensitive-data detection, thresholds and consistency. no license ·…
+- [qzqdz/jevforest](https://github.com/qzqdz/jevforest) `📚2` — Bagged IG forest that votes on the next budgeted AFA question
+- [rahiseko-alt/jev-test1](https://github.com/rahiseko-alt/jev-test1) `📚2`
+- [RahulKumarsingh2001/Jev-systemOne-model](https://github.com/rahulkumarsingh2001/jev-systemone-model) `📚2` — Jev-systemOne-model — No description provided by the repository (auto-discovered, description not yet written) ❔
+- [ratimon/openquok-monorepo](https://github.com/ratimon/openquok-monorepo) `📚2` — An agentic social media scheduling workspace engine/tool (CLI + Dashboard)
+- [rawtreedb/jev-pr-quality](https://github.com/rawtreedb/jev-pr-quality) `📚2` — jev-pr-quality — Jev-assisted pull request quality reviews and a multi-repository RawTree dashboard _(★0, TypeScript)_
+- [riku1128-tong/jev_test_action](https://github.com/riku1128-tong/jev_test_action) `📚2` — Side-scroller whose next platform is chosen in real time by TypeSafe Jev (System One) from the playe
+- [rioliu/pi-jev-extension](https://github.com/rioliu/pi-jev-extension) `📚2` — Reviewed 2026-09-29 (Europe/Sofia) at commit 54db8bf. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [riz007/yolo-shell](https://github.com/riz007/yolo-shell) `📚2` — Intercepts destructive shell commands before they run. ~2ms local fast-path, context-aware risk scor
+- [RomanXSad/jev-review-gate](https://github.com/romanxsad/jev-review-gate) `📚2` — Jev review gate - GitHub Actions gate: local rules + TypeSafe Jev questions on the diff; exits 0/1 (does not merge). (Project…
+- [RuntimeWire](https://runtimewire.com/article/typesafe-jev-system-one-ai-model-early-access) `📚2` — Notes the largest claims remain internally tested
+- [rupeshs/flappybird-jev-test](https://github.com/rupeshs/flappybird-jev-test) `📚2` — Testing flappy bird with SystemOne Jev like model locally
+- [RzMY/BiliBili-Filter](https://github.com/rzmy/bilibili-filter) `📚2`
+- [sarthakxv/jev-hud](https://github.com/sarthakxv/jev-hud) `📚2` — local hud for testing jev input/output
+- [sed-ndi/test-jev](https://github.com/sed-ndi/test-jev) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [sglenon/jev-semantic-reviewer](https://github.com/sglenon/jev-semantic-reviewer) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [shaheersystems/jev-test](https://github.com/shaheersystems/jev-test) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [ShingoHiroki/jev-test](https://github.com/shingohiroki/jev-test) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [shubhangi013/prune-review](https://github.com/shubhangi013/prune-review) `📚2` — Cost-aware PR review using TypeSafe Jev decisions before a generative reviewer. ★ 1 · endpoint · TypeScript
+- [sionex-code/bx](https://github.com/sionex-code/bx) `📚2` — bx - bx: TypeSafe Jev ecosystem repository. · JavaScript
+- [site](https://pypi.org/project/jfind-cli) `📚2`
+- [site](https://taste-lint.blode.md) `📚2`
+- [site](https://supratimsircar05.github.io/jev-zig-cli) `📚2`
+- [site](https://pypi.org/project/pytest-jev) `📚2`
+- [site](https://npx@kushwho/jev-codes) `📚2`
+- [smallshellctw/whichrepo](https://github.com/smallshellctw/whichrepo) `📚2` — Local-first task router for microservices, polyrepos, monorepos, and coding agents.
+- [smatyi111/hl-ladder](https://github.com/smatyi111/hl-ladder) `📚2` — Hyperliquid liquidation ladder in your terminal, with ladder-aware order placement
+- [SolidifiedPlayDoh/fruitfly-roblox](https://github.com/solidifiedplaydoh/fruitfly-roblox) `📚2` — A fruit fly connectome and TypeSafe Jev race a Roblox maze.
+- [SportTanec/jev-cli](https://github.com/sporttanec/jev-cli) `📚2` — use jev model from terminal
+- [ssimarplaha/jev_test](https://github.com/ssimarplaha/jev_test) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [sube-py/jgent](https://github.com/sube-py/jgent) `📚2` — Pi extension that routes extra tools through Jev so the model keeps built-ins plus need until it ask
+- [takeshiue/jevsh](https://github.com/takeshiue/jevsh) `📚2` — jevsh - Bash wrapper: TypeSafe Jev scores shell command risk (LOW–CRITICAL) before you confirm run. (Project guide)(community/projects/tools/jevsh.md).
+- [tanchongmin/explanable-jev](https://github.com/tanchongmin/explanable-jev) `📚2` — explanable-jev — Jev with explanations (auto-discovered, description not yet written)
+- [tanmoy162111/aix](https://github.com/tanmoy162111/aix) `📚2` — Universal AI Agent Control Plane: LLM agents (Claude Code, Codex, Gemini, OpenCode) do the work, Jev
+- [tentacode/jevendsdestrucs](https://github.com/tentacode/jevendsdestrucs) `📚2` — monteduro/killmyidea · DeepBlueDynamics/typesafe-arena · amithkk/jev-experiments · Bud-ro/jev-demos · dnellis74/doctrine · cardotrejos/jev-user-jury ·…
+- [ThatLinuxGuyYouKnow/jev-hold-em](https://github.com/thatlinuxguyyouknow/jev-hold-em) `📚2` — score 9.1 · 0 stars
+- [TiagoSantos16/jev-code-reviewer](https://github.com/tiagosantos16/jev-code-reviewer) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [tibuchivn/jev-complete.nvim](https://github.com/tibuchivn/jev-complete.nvim) `📚2` — Semantic code completion for Neovim using Jev (TypeSafe AI) as a ranking oracle. Fuzzy candidates ap
+- [tinystruct/tinystruct](https://github.com/tinystruct/tinystruct) `📚2` — tinystruct — A lightweight, modular Java application framework for web and CLI development, designed for AI integration and plugin-based architecture. Enabling…
+- [Titanium-Devops/jde](https://github.com/titanium-devops/jde) `📚2` — JDE, the Jev Decision Engine: one place where an agent's judgments are asked, thresholded and recorded
+- [toastmod/gen-if](https://github.com/toastmod/gen-if) `📚2` — LLM-driven Generative If Statement... like how JEV works afaik but much worse...
+- [trytotest13/Jev-AnityG-Mode-Antigravity-Custom-Model](https://github.com/trytotest13/jev-anityg-mode-antigravity-custom-model) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [tvdavies/jev-review-lab](https://github.com/tvdavies/jev-review-lab) `📚2` — Read-only Jev review scouting and shared-state fan-out experiments. Shadow hints, not approval decis
+- [ty-machine/jev-pr-risk-evaluator](https://github.com/ty-machine/jev-pr-risk-evaluator) `📚2` — Team-aware pull-request risk triage powered by TypeSafe Jev
+- [Upstream demonstration](https://eliaalberti.github.io/jev-rules) `📚2` — and capture materials show a Claude Code session; these are upstream evidence, not a session reproduced in this review.
+- [ValenCassa/jev-test](https://github.com/valencassa/jev-test) `📚2` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [vb2250158/dsh-jev-context-gate](https://github.com/vb2250158/dsh-jev-context-gate) `📚2` — Reviewed 2026-09-24 (Europe/Sofia) at commit a4dc35a. AI-assisted README inspection.
+- [vidux/iso-jevdit](https://github.com/vidux/iso-jevdit) `📚2` — An npm CLI that audits a codebase against ISO/IEC 27001:2022 Annex A and writes a detailed
+- [vilaca/jev-tic-tac-toe](https://github.com/vilaca/jev-tic-tac-toe) `📚2` — score 17.7 · 0 stars
+- [vinsonws/jev-page-tester](https://github.com/vinsonws/jev-page-tester) `📚2`
+- [viralcodex/jelight](https://github.com/viralcodex/jelight) `📚2` — topic:jev created:2026-09-01..2026-09-30 creat
+- [What Is Jev? TypeSafe AI's New "Decision Model" Explained — Codecaf](https://codecaf.com/what-is-jev-typesafe-ais-new-decision-model-explained) `📚2` — Codecaf: "What Is Jev? TypeSafe AI's New 'Decision Model' Explained" (2026-09-24) — Dev-oriented explainer with verified curl/JS/Python samples; keeps the…
+- [wuxianliang/pgembed](https://github.com/wuxianliang/pgembed) `📚2` — customed pgembed vibe code only Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [XelaNull/JevLander](https://github.com/xelanull/jevlander) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [xuebai2812/jev-travel-packing](https://github.com/xuebai2812/jev-travel-packing) `📚2` — Jev-powered travel packing with emoji physics, backend APIs, tests, and deployment source
+- [yandong2023/jev-test](https://github.com/yandong2023/jev-test) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [yolonir/pi-codemcp](https://github.com/yolonir/pi-codemcp) `📚2` — Typed, sandboxed Code Mode access to configured MCP servers for Pi Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [zadescoxp/kadeconsole](https://github.com/zadescoxp/kadeconsole) `📚2` — ade console is a bloomberg terminal type of analytical tool.
+- [zhengge6/crush-monitor-with-jev](https://github.com/zhengge6/crush-monitor-with-jev) `📚2` — Reviewed 2026-09-24 (Europe/Sofia) at commit 3f46f92. AI-assisted README + provider/affinity inspection. No live TypeSafe spend.
+- [zhuobichen/weflow-cli](https://github.com/zhuobichen/weflow-cli) `📚2` — Cuando está habilitado, Jev clasifica los temas de los artículos y su relevancia para los resúmenes diarios de WeChat.
+- [zjply4000/zcode-approval](https://github.com/zjply4000/zcode-approval) `📚2` — ZCode PreToolUse guardrail built on the shared jev-evaluator core, combining deterministic rules and
+- [zun-tools/jev-demo](https://github.com/zun-tools/jev-demo) `📚2` — score 11.6 · 0 stars
+- [0451-software/ts-semantic-lint](https://github.com/0451-software/ts-semantic-lint) `📚1` — Configurable TypeScript linter where Jev judges code meaning (swallowed errors, misleading names) and user rules map judgments to warnings or errors. MIT ·…
+- [0mis/astra-jev-left4dead2](https://github.com/0mis/astra-jev-left4dead2) `📚1` — Original Astra + Jev controller, telemetry addon, capture tools and regression tests from
+- [3l4l5/jev_test](https://github.com/3l4l5/jev_test) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [3ssiri/sev-arabic-preview](https://github.com/3ssiri/sev-arabic-preview) `📚1` — Sev Arabic Preview v0.1 — Arabic-first typed decision engine (research preview). Runtime c
+- [7hemas7er/jev-hooks-action-test](https://github.com/7hemas7er/jev-hooks-action-test) `📚1` — inferred / agent-tooling — ⭐0
+- [@99hud (Hudson Brendon): 27-question ChatGPT vs Jev terminal demo (Instagram reel, 2026-09](https://instagram.com/reel/ddw2aq0curj) `📚1` — Same 27 questions through both: ChatGPT (GPT-5.6) $0.013880 / 8.566s vs Jev $0.000081 / 0.114s, terminal screenshot extrapolated to 1,000 queries ($13.88 vs…
+- [@andrueandersoncs/jev-cli](https://npmjs.com/package/@andrueandersoncs/jev-cli) `📚1` — score 10 · 0 stars
+- [@elyracode/jev-tools](https://npmjs.com/package/@elyracode/jev-tools) `📚1` — Knut W. Horne · Package · ⬇ 405 · 2026-09-18Elyra coding-agent extension that adds a decide tool for Jev yes/no, choice and score questions, plus an opt-in…
+- [aaronshaf/opencode-jev-model-router](https://github.com/aaronshaf/opencode-jev-model-router) `📚1` — OpenCode plugin on npm where Jev picks a fast, balanced, strong or long tier each turn and the plugin switches to the first eligible model in that tier. MIT ·…
+- [aarontaycheehsien/jev-systematicreview](https://github.com/aarontaycheehsien/jev-systematicreview) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [abdallahshaban557/jev_test](https://github.com/abdallahshaban557/jev_test) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [abhaybhargav.github.io/juardrails](https://abhaybhargav.github.io/juardrails) `📚1` — Unspecified — no repository root LICENSE / SPDX license metadata on the reviewed tip. Do not treat the source as a granted open-source license until upstream…
+- [AbhiVarde/tryeve](https://github.com/abhivarde/tryeve) `📚1` — Agent Builder for eve, tested against a live eve runtime, then deployed as a live app to your own GitHub and Vercel. Automatically matched explicit Jev and…
+- [ActionBox: "TypeSafe AI Jev Review: Tested vs LLMs, API & Benchmarks"](https://actionbox.cloud/blog/typesafe-ai-jev-review) `📚1` — Independent hands-on review: early-access test verified the Playground, real jev-1.13.0 API responses and the official Python/TS SDK patterns (snippet…
+- [actions-marketplace-validations/dakdevs_lintrules](https://github.com/actions-marketplace-validations/dakdevs_lintrules) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [actions-marketplace-validations/juanegido_jev-pr-judge](https://github.com/actions-marketplace-validations/juanegido_jev-pr-judge) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Adapter/head](https://huggingface.co/valen-team/valen-preview-0923) `📚1`
+- [Adibrill1/jev-factorio](https://github.com/adibrill1/jev-factorio) `📚1` — jev-factorio - Adibrill1/jev-factorio - Jev picks what, code owns how - a System One Factorio agent driven by TypeSafe's Jev on FLE.
+- [adiun/jev-clinical-trial-prototype,0,TypeScript,,2026-09-18,Testing](https://github.com/adiun/jev-clinical-trial-prototype,0,typescript,,2026-09-18,testing) `📚1`
+- [advillalba/jev-system-one-demo,0,Python,,2026-09-24,Shell](https://github.com/advillalba/jev-system-one-demo,0,python,,2026-09-24,shell) `📚1`
+- [afcodehub/Jev-AutoPilot-3D](https://github.com/afcodehub/jev-autopilot-3d) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [afcodehub/jev-dev-kit](https://github.com/afcodehub/jev-dev-kit) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [agaches/jev-test](https://github.com/agaches/jev-test) `📚1` — Hook PreToolUse Claude Code adossé à Jev : décision de sécurité typée, pré-filtre anti-exfiltration local, re…
+- [ai-ecoverse.github.io/jev-omni.js](https://ai-ecoverse.github.io/jev-omni.js) `📚1` — Pin review tip: 58aa8d3caadba7b973655b33ab07b910cdf1544f. Demo: ai-ecoverse.github.io/jev-omni.js.
+- [ajaysurya1221/agent-reliability-ci](https://github.com/ajaysurya1221/agent-reliability-ci) `📚1` — Regression testing for stochastic AI agents: frozen experiments, exact verdicts with honest INCONCLU
+- [AkashPriyadarshii/jev-git,5,Rust,Sub-second](https://github.com/akashpriyadarshii/jev-git,5,rust,sub-second) `📚1`
+- [Akicou/system-one-270m](https://github.com/akicou/system-one-270m) `📚1` — score 17.4 · 0 stars
+- [AleksaZCodes/fiducial](https://github.com/aleksazcodes/fiducial) `📚1` — Declare each fact once. Derive every artifact from it.
+- [alexandreLamarre/ro](https://github.com/alexandrelamarre/ro) `📚1` — 😎 A generic iterator Go library based on Go 1.23+ rangefunc, built for composability and readability
+- [AlkaidSTART/coderelay](https://github.com/alkaidstart/coderelay) `📚1` — coderelay · AlkaidSTART · GitHub · ⭐ 5 · 2026-09-12Router that scans the coding-agent CLIs installed on a machine (Claude Code, Codex, pi, omp) and dispatches…
+- [All about Jev](https://hanxiao.io/all-about-jev) `📚1` — This was a bounded discovery and source-review pass, not an exhaustive inventory of the internet. Leads came from All about Jev, Ship with Jev, jev.page,…
+- [all-contributors/cli](https://github.com/all-contributors/cli) `📚1` — Thanks to everyone who has improved the list. The portraits below are generated from All Contributors; contribution types reflect work in this repository.
+- [AltSlate-Labs/jevable-code,0,Python,,2026-09-21](https://github.com/altslate-labs/jevable-code,0,python,,2026-09-21) `📚1`
+- [alzca1/jev-test](https://github.com/alzca1/jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [am-kul/jev-runtime-shield](https://github.com/am-kul/jev-runtime-shield) `📚1` — A reference app for real-time behavioral threat detection where Jev makes the typed call and deterministic code enforces it.
+- [amansoory/JEV-TESTING](https://github.com/amansoory/jev-testing) `📚1` — jevlang OR jev.ai in:name,description created:
+- [amartyakumar11/pr-sentinel](https://github.com/amartyakumar11/pr-sentinel) `📚1`
+- [amcgiluma/jev-supabase-juanma-test](https://github.com/amcgiluma/jev-supabase-juanma-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [aminesayagh/orbitrows-cli](https://github.com/aminesayagh/orbitrows-cli) `📚1` — Reconcile a store CSV with an incoming update CSV using Jev and deterministic matching, reviewed in a Textual TUI
+- [anchorshell/relay](https://github.com/anchorshell/relay) `📚1`
+- [and-rs/dotfiles](https://github.com/and-rs/dotfiles) `📚1` — &jev test-file classifier · and-rs · GitHub · ⭐ 26 repo · 2023-11-13Nushell script in a personal dotfiles repo that sends each source file to Jev and returns…
+- [andrueandersoncs/jev-cli,1,HTML,,2026-09-21,Ask](https://github.com/andrueandersoncs/jev-cli,1,html,,2026-09-21,ask) `📚1`
+- [AngelDIvanov/laptop-qa-lab](https://github.com/angeldivanov/laptop-qa-lab) `📚1` — Laptop-based CI and planned Jev-guided browser QA for local-first testing. SRE documentation preview; implementation pending.
+- [annenpolka/qlint](https://github.com/annenpolka/qlint) `📚1` — Linter for suites of natural-language judgment questions: checks references, leakage, gates and bindings, builds execution plans and replays recorded runs. MIT…
+- [antonio-ivanovski/spliit-cloud](https://github.com/antonio-ivanovski/spliit-cloud) `📚1` — Spliit Cloud - Optional expense-category suggestions where Jev picks a category after local dictionary and history matching miss.
+- [arena.codewithnk.com](https://arena.codewithnk.com) `📚1`
+- [armmosikyan66/zappi-cli](https://github.com/armmosikyan66/zappi-cli) `📚1`
+- [arnavm-codes/jevfence](https://github.com/arnavm-codes/jevfence) `📚1`
+- [asaxt/jev-categorization-test](https://github.com/asaxt/jev-categorization-test) `📚1` — Compare local Ollama transaction categorization with TypeSafe Jev on a synthetic dataset.
+- [Astonchoi/jev-math-test](https://github.com/astonchoi/jev-math-test) `📚1` — A parallel Python eval harness testing the jev model on the 2025 HKDSE math multiple-choice paper.
+- [austindixson/planalyzer](https://github.com/austindixson/planalyzer) `📚1` — Jev plan/PRD analyzer — diversified System One panel, code-owned pass\
+- [AymanKhan9/Jev-Code](https://github.com/aymankhan9/jev-code) `📚1`
+- [AyushChauhan9389/codex-jev](https://github.com/ayushchauhan9389/codex-jev) `📚1` — OpenAI Codex with Jev-guided verbatim compaction for ChatGPT-subscription sessions: Jev decides what survives compaction so context compression stays verbatim;…
+- [ayushgml/greenwash-oss](https://github.com/ayushgml/greenwash-oss) `📚1` — GitHub App that asks Jev yes/no questions about each changed PR hunk to flag weakened assertions, skipped tests, hard-coded answers and disabled CI steps.…
+- [Azri-Muhsin/jev-sintam-review](https://github.com/azri-muhsin/jev-sintam-review) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [b423016/jev_test](https://github.com/b423016/jev_test) `📚1` — Screen an offer, NDA, lease, or checkout terms before you sign.
+- [Beam blog](https://agentbeam.com/blog/beam-cli-jev-action-judging) `📚1` — Read the Beam integration walkthrough, inspect the implementation, and review the bundled agent skill.
+- [benjaminjackson/sloplint](https://github.com/benjaminjackson/sloplint) `📚1`
+- [bethqzak/jev-testing](https://github.com/bethqzak/jev-testing) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [Bite Code: "What's all this noise about Jev?" (2026-09-22)](https://bitecode.dev/p/whats-all-this-noise-about-jev) `📚1` — Hands-on walkthrough with a real Python script: Jev classifies the author's own last-10 blog posts' tags, 8/10 out of the box → 9/10 after prompt tweaks, with…
+- [blode.co/taste-lint](https://blode.co/taste-lint) `📚1`
+- [bloudhood/codex-jev-approval-hook](https://github.com/bloudhood/codex-jev-approval-hook) `📚1` — A configurable Jev-compatible approval reviewer hook for Codex Bash permission requests.
+- [bo7/jev_test](https://github.com/bo7/jev_test) `📚1` — Compare TypeSafe Jev vs Codex/Claude Code for inbox triage — tokens, latency, and label agreement.
+- [boredrhino/Jevston](https://github.com/boredrhino/jevston) `📚1` — Jevston's code (Partially) + CA: 0xaE9CB22e1cd73eC92D00903F2C2c41cC805b9C52
+- [brendenehlers/syntax-highlighting](https://github.com/brendenehlers/syntax-highlighting) `📚1` — Rust web app that highlights any code with no grammar: splits it into BPE tokens and asks one Choice per token in a single request, capped at 440 tokens. no…
+- [bridge-codes/bridge](https://github.com/bridge-codes/bridge) `📚1` — Bridge is a Typescript Node.js framework that provides an easy and scalable way to create REST APIs
+- [BrunoAccorsi/reflex-lab](https://github.com/brunoaccorsi/reflex-lab) `📚1` — Jev playground and testing env
+- [bspiritxp/jev-cli,0,Python,,2026-09-23,CLI](https://github.com/bspiritxp/jev-cli,0,python,,2026-09-23,cli) `📚1`
+- [BucketOnHead/java-my-first-selenium-testing](https://github.com/bucketonhead/java-my-first-selenium-testing) `📚1` — topic:typesafe created:2023-01-01..2023-12-31
+- [bufo-picker.fly.dev](https://bufo-picker.fly.dev) `📚1`
+- [BuilderIO/jev-computer-use-tests](https://github.com/builderio/jev-computer-use-tests) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [c127654e586e05b2e9b75b3aaef075ddcf57a286](https://huggingface.co/akhilaaa3/jev-omni/tree/c127654e586e05b2e9b75b3aaef075ddcf57a286) `📚1`
+- [cablehead/jev.nu,8,Nushell,,2026-09-18,Nushell](https://github.com/cablehead/jev.nu,8,nushell,,2026-09-18,nushell) `📚1`
+- [cahaseler/jevlint](https://github.com/cahaseler/jevlint) `📚1` — Lint code comments for the rules a regex can't express, using the Jev decision model
+- [cahaseler/jevlint,1,TypeScript,,2026-09-22](https://github.com/cahaseler/jevlint,1,typescript,,2026-09-22) `📚1`
+- [cairodavila/tisco](https://github.com/cairodavila/tisco) `📚1` — tisco - Video-transcript search with previews of proposed clip moves and renames for approval.
+- [calliopeai/calliope-cli](https://github.com/calliopeai/calliope-cli) `📚1` — Calliope CLI · calliopeai · GitHub · ⭐ 8 · 2026-01-09Multi-backend terminal coding agent with a judgments feature that asks typed questions and returns…
+- [camodeny/new_dnd_testing_lol](https://github.com/camodeny/new_dnd_testing_lol) `📚1`
+- [capt-pyro/jevtest](https://github.com/capt-pyro/jevtest) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [chaitanyatakmoge-maker/Jev-test](https://github.com/chaitanyatakmoge-maker/jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [CharlesHYF/jev-test](https://github.com/charleshyf/jev-test) `📚1`
+- [chy4pro/chat-nojev](https://github.com/chy4pro/chat-nojev) `📚1`
+- [Claude Code's hook reference](https://code.claude.com/docs/en/hooks) `📚1` — Use separate evidence for stopping. A green test exit code does not establish that every acceptance criterion is met. A Jev answer only judges the state…
+- [CLI reference](https://supercov.com/docs/cli) `📚1` — quality scope lists which files would be sent and why the others were excluded, so check it before the first live run on proprietary code. Full options are in…
+- [cli-ck/cli-ck](https://github.com/cli-ck/cli-ck) `📚1` — cli-ck Jev task router · cli-ck · GitHub · ⭐ 5 repo · 2026-06-25Task router in cli-ck, an AI-native terminal and dev workspace built on Tauri, that asks Jev to…
+- [Code-Hex/synchro](https://github.com/code-hex/synchro) `📚1` — 🕰️ Synchro: Timezone-typesafe date and time framework for Go. 🌟 Star to support our work!
+- [Code2qing/jevk5-typesafe-server](https://github.com/code2qing/jevk5-typesafe-server) `📚1`
+- [codealitle/jev-agents,0,,,2026-09-24](https://github.com/codealitle/jev-agents,0,,,2026-09-24) `📚1`
+- [codebooker/NotchPilot](https://github.com/codebooker/notchpilot) `📚1` — A compact voice-first macOS assistant with local speech recognition, visible desktop actions, and a tiny notc…
+- [codebuffdev/jev-with-java](https://github.com/codebuffdev/jev-with-java) `📚1`
+- [codeluosiyu/toa](https://github.com/codeluosiyu/toa) `📚1`
+- [codemers/Mack](https://github.com/codemers/mack) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [codencoffeeio/jev](https://github.com/codencoffeeio/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [coderayzhang/ai-daily-digest](https://github.com/coderayzhang/ai-daily-digest) `📚1`
+- [CodesInTheShell/dertek](https://github.com/codesintheshell/dertek) `📚1` — Dertek AI - A fast, cost-efficient AI agent for coding and knowledge work. Agentic cli with TypeSafe
+- [CodeVoyager21932/jev-wechat-helper](https://github.com/codevoyager21932/jev-wechat-helper) `📚1`
+- [codewitheugene/nextstep-hacks-2026](https://github.com/codewitheugene/nextstep-hacks-2026) `📚1`
+- [CodeWithGionatha-Labs/simple-ui](https://github.com/codewithgionatha-labs/simple-ui) `📚1` — A basic typesafe UI Library built on top of React, Typescript, TailwindCSS and Storybook
+- [codicate/pi-grail](https://github.com/codicate/pi-grail) `📚1` — Minimal production Pi extension bootstrap for TypeSafe Jev and future Grail reviews
+- [CodyAMaughan/sts2-jev-runner](https://github.com/codyamaughan/sts2-jev-runner) `📚1` — AI-playtest harness for Slay the Spire 2 mods: a Jev/Bifrost-driven controller, an HTTP de
+- [cog-pr/jev-hackathon-demo](https://github.com/cog-pr/jev-hackathon-demo) `📚1`
+- [Command Code](https://commandcode.ai) `📚1` — mod that asks TypeSafe Jev at agent stop whether unfinished work warrants a nudge to continue (and skips nudging when waiting on the user or when the last…
+- [CompleteDotTech/jev-factorio-mission-control](https://github.com/completedottech/jev-factorio-mission-control) `📚1` — JEV AI Factorio stream: Mission Control OBS overlay as deployed, traced to source, with ge
+- [Contributor Covenant, version 2.1](https://contributor-covenant.org/version/2/1/code_of_conduct) `📚1` — This project follows the Contributor Covenant, version 2.1.
+- [cornelflorea/jev-test](https://github.com/cornelflorea/jev-test) `📚1`
+- [CraigFreedomCom/Va_gov_Data_Jev_Test](https://github.com/craigfreedomcom/va_gov_data_jev_test) `📚1` — Gathering Data and Testing Jev's use of dialogue skills using Code of Virginia
+- [crittermike/bufo-picker](https://github.com/crittermike/bufo-picker) `📚1` — Emoji picker: type a message, Jev scores every bufo filename for semantic relevance to the whole message, click to copy the :slack-code:; public deployment at…
+- [d0nj/opencode-smart-reasoning,1,TypeScript,,2026-09-22](https://github.com/d0nj/opencode-smart-reasoning,1,typescript,,2026-09-22) `📚1`
+- [daimatz/kyotsu-test-jev](https://github.com/daimatz/kyotsu-test-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [damiangilgonzalez1995/jev-test](https://github.com/damiangilgonzalez1995/jev-test) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [DanePete/wanigan](https://github.com/danepete/wanigan) `📚1` — Local-first Electron control surface for coding agents — starts real CLI sessions, records their operational …
+- [daraskme/darask-code](https://github.com/daraskme/darask-code) `📚1` — Terminal coding-agent harness: append-only session log, evidence-gated completion controller, optional Jev re…
+- [darkmatter/adhere](https://github.com/darkmatter/adhere) `📚1` — adhere — A linter for rules a normal linter can't check. (powered by Typesafe) (auto-discovered, description not yet written)
+- [deb-cod/test-jev](https://github.com/deb-cod/test-jev) `📚1`
+- [deepansh-saxena/jevcode](https://github.com/deepansh-saxena/jevcode) `📚1` — A TypeScript coding harness with Jev routing, skills, specialists, and Copilot or ChatGPT
+- [deepansh-saxena/jevcode,1,TypeScript,,2026-09-22](https://github.com/deepansh-saxena/jevcode,1,typescript,,2026-09-22) `📚1`
+- [dev-amanydv/jev-speedtest](https://github.com/dev-amanydv/jev-speedtest) `📚1`
+- [dev.to](https://dev.to/jomatsu/jev-pi-a-probability-gate-for-my-coding-agents-shell-commands-95d) `📚1`
+- [devagrawal09/jev-review,621,TypeScript,MIT,2026-09-17,2026-09-26](https://github.com/devagrawal09/jev-review,621,typescript,mit,2026-09-17,2026-09-26) `📚1`
+- [DiegoHerreraDaSilva/claudex](https://github.com/diegoherreradasilva/claudex) `📚1` — claudex — Intelligent orchestration of coding agents: Jev decides, Sonnet do or Claude plans, and Codex and Sonnet execute in parallel (auto-discovered,…
+- [dingw530/mint-llm-wiki](https://github.com/dingw530/mint-llm-wiki) `📚1`
+- [dipendra-sharma/jev-cli,0,Go,,2026-09-21](https://github.com/dipendra-sharma/jev-cli,0,go,,2026-09-21) `📚1`
+- [disambiguation Parquet](https://huggingface.co/datasets/lukaemon/bbh/resolve/982bb89fd79532a8ac676a61fc42eb1aeec63f99/disambiguation_qa/test-00000-of-00001.parquet) `📚1`
+- [Discovery entry](https://shipwithjev.com/builds/oko-code-search) `📚1`
+- [divejikan-yuvarajah/JevFlow-TestRepo](https://github.com/divejikan-yuvarajah/jevflow-testrepo) `📚1`
+- [doctor-ew/nightshift-community](https://github.com/doctor-ew/nightshift-community) `📚1` — Nightshift community pilot for the GSU Girls Who Code Hack-her-thon; publication audit in progress
+- [dohv/model-advisor-tester](https://github.com/dohv/model-advisor-tester) `📚1`
+- [domini-code/-demo-jev-youtube](https://github.com/domini-code/-demo-jev-youtube) `📚1` — Demos en Python con llamadas reales a Jev 1.13.0: comparación de clasificación de tickets
+- [dragongCode/jevmodel](https://github.com/dragongcode/jevmodel) `📚1` — Jev Model API playground and credits site for jevmodel.io
+- [drasticstatic/jev-ops-public-preview](https://github.com/drasticstatic/jev-ops-public-preview) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [drevantonder/jevlint](https://github.com/drevantonder/jevlint) `📚1` — JS/TS linter where Oxc finds candidates and Jev scores each rule as a probability; review/audit modes, JSON and GitHub annotation output, cached judgments. MIT…
+- [drevantonder/rangerjev](https://github.com/drevantonder/rangerjev) `📚1` — CLI that splits a codebase by file, function or call tree and asks Jev typed questions per unit, with dry-run cost preview and an agent skill. MIT · TypeScript
+- [dtduc-git/jevassert,0,Python,,2026-09-19](https://github.com/dtduc-git/jevassert,0,python,,2026-09-19) `📚1`
+- [ebskinner/JEV-spillover-risk](https://github.com/ebskinner/jev-spillover-risk) `📚1` — GEE code to generate two predictive risk metrics for the transmission of JEV in Australia
+- [eddydong/JevTest,0,HTML,,2026-09-21](https://github.com/eddydong/jevtest,0,html,,2026-09-21) `📚1`
+- [EffNine/CodeBro](https://github.com/effnine/codebro) `📚1` — Persistent engineering context and memory for AI coding agents, exposed through MCP.
+- [Enucatl/docker-airflow](https://github.com/enucatl/docker-airflow) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [eren23/attocode](https://github.com/eren23/attocode) `📚1` — Attocode Intelligence Jev scorer · eren23 · GitHub · ⭐ 16 repo · 2026-01-21Confidence scorer in Attocode Intelligence, a codebase-understanding MCP server,…
+- [esketcher.faiz-ai.dev](https://esketcher.faiz-ai.dev) `📚1` — Demo: esketcher.faiz-ai.dev. When the server is down or not deployed, the site runs in (demo mode)(#demo-mode-server-down). Everything works except Jev:…
+- [ETHNHUNT/jev-test](https://github.com/ethnhunt/jev-test) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [etShaw-zh/zotero-evidence](https://github.com/etshaw-zh/zotero-evidence) `📚1` — zotero-evidence — AI-assisted systematic literature reviews with traceable evidence (auto-discovered, description not yet written) ❔
+- [eullm/eullm](https://github.com/eullm/eullm) `📚1` — eullm — Open-source platform for creating, distributing and running sovereign EU-compliant LLMs. Verticalize any model for your domain, language and brand. AI…
+- [everyinfra.com/docs](https://everyinfra.com/docs) `📚1`
+- [fayazara/pocketbase-nuxt](https://github.com/fayazara/pocketbase-nuxt) `📚1` — A typesafe Nuxt Module for Pocketbase
+- [FB reel](https://facebook.com/reel/1798833288234349) `📚1`
+- [Filipe Motta (ITNEXT): "Your LLM Is Overqualified for Half Its Job: Jev for Cloud, DevOps](https://itnext.io/your-llm-is-overqualified-for-half-its-job-jev-for-cloud-devops-and-sre-pipelines-06ae80c77652) `📚1` — Long-form mapping of where a decision model fits in cloud/SRE work: ten pipeline slots (incident triage, CI/CD failures, agent action gating, Terraform plan…
+- [Fizzyhex/great-chef](https://github.com/fizzyhex/great-chef) `📚1`
+- [FlowConAi/meta-jev](https://github.com/flowconai/meta-jev) `📚1` — "Meta Jev": open-source question-design CLI for System One work — a host LLM or person proposes typed questions, Meta Jev validates the request, asks narrow…
+- [francis-du/wcode](https://github.com/francis-du/wcode) `📚1` — wcode Jev agent-context decisions · francis-du · GitHub · ⭐ 6 repo · 2026-08-22Optional Jev decision provider in wcode, an MCP control plane for coding agents,…
+- [frederico-kluser/jev-sheets](https://github.com/frederico-kluser/jev-sheets) `📚1`
+- [frstycodes/typesafe-query-keys](https://github.com/frstycodes/typesafe-query-keys) `📚1` — A typesafe way to use query keys for Tanstack Query.
+- [fstandhartinger/chat-seek-vscode](https://github.com/fstandhartinger/chat-seek-vscode) `📚1` — A VS Code extension for local search across Claude Code/Codex/OpenCode chat history, reranked with Laya.
+- [fstandhartinger/jev-cpu-models-deploy](https://github.com/fstandhartinger/jev-cpu-models-deploy) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [gbesse/blender-jev-review](https://github.com/gbesse/blender-jev-review) `📚1` — Review selected Blender object metadata and focus exact cited objects.
+- [gbesse/jev-icpe-followup](https://github.com/gbesse/jev-icpe-followup) `📚1` — Turns public French ICPE environmental-inspection findings into sourced, reviewable control follow-up candidates: Jev maps one finding to one internal control…
+- [gbesse/jev-vscode-review](https://github.com/gbesse/jev-vscode-review) `📚1` — Typed Jev review diagnostics anchored to exact selected VS Code lines.
+- [geilt/typesafe-cli,4,Python,,2026-09-17](https://github.com/geilt/typesafe-cli,4,python,,2026-09-17) `📚1`
+- [genlayerlabs/unhardcoded-engine](https://github.com/genlayerlabs/unhardcoded-engine) `📚1` — unhardcoded-engine decision protocol · genlayerlabs · GitHub · ⭐ 6 repo · 2026-05-19Decision-model routing in unhardcoded-engine, a pure-Lua policy algebra for…
+- [getsentry/pr-risk-action](https://github.com/getsentry/pr-risk-action) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [getvoicify/jev-reviewer](https://github.com/getvoicify/jev-reviewer) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [Gilbert09/jev-cli,1,TypeScript,,2026-09-19](https://github.com/gilbert09/jev-cli,1,typescript,,2026-09-19) `📚1`
+- [git-sanbu/jev-explained](https://github.com/git-sanbu/jev-explained) `📚1` — jevlang OR jev.ai in:name,description created:
+- [GitHub billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions) `📚1` — The workflow keeps contents: read; actions: read is for restoring verified checkpoint Artifacts. It never writes catalog data or merges PRs. Standard…
+- [GitHub CLI `repo edit](https://cli.github.com/manual/gh_repo_edit) `📚1` — Reference: GitHub CLI repo edit. Do not put credentials in this repository or its workflow files. Do not grant a scheduled discovery job administration…
+- [GitHub search API](https://docs.github.com/en/rest/search/search) `📚1` — Discovery receipts retain the reviewed commit, model, timestamp, typed scores and evidence hash. Code-match evidence also records pinned file links and…
+- [GitHub's secure use guidance](https://docs.github.com/en/actions/reference/security/secure-use) `📚1` — Start with a nonessential, expensive job and historical or synthetic pull-request changes. Record the all-jobs baseline, the exact proposed skip list,…
+- [githubgotest001/jev-robot](https://github.com/githubgotest001/jev-robot) `📚1`
+- [glubiz/zirv-cli](https://github.com/glubiz/zirv-cli) `📚1`
+- [godhiraj-code/waitless](https://github.com/godhiraj-code/waitless) `📚1`
+- [google/fonts](https://github.com/google/fonts) `📚1` — The card exporter uses Inter and Space Mono from Google Fonts at commit e44c4b011a820c2cbe2fd2cfa8052037d7edb571. Both are licensed under the SIL Open Font…
+- [gordan-code/dsh-jev-advisor,0,JavaScript,,2026-09-22](https://github.com/gordan-code/dsh-jev-advisor,0,javascript,,2026-09-22) `📚1`
+- [GreyssonEnterprises/s1-graphify-indexer](https://github.com/greyssonenterprises/s1-graphify-indexer) `📚1` — System-1 codebase indexer: semantic code graphs from small zero-shot models (GLiNER default; Jev/Needle-compa…
+- [gtlab2023/opencode-jev](https://github.com/gtlab2023/opencode-jev) `📚1` — jev help judge skills
+- [gtnao/jev-lint](https://github.com/gtnao/jev-lint) `📚1`
+- [gulucaptain/Chinese-Jev](https://github.com/gulucaptain/chinese-jev) `📚1` — Chinese-Jev — Chinese-Jev (auto-discovered, description not yet written)
+- [halfspin-qc/jev-reviews,2,Astro,,2026-09-22,TypeSafe](https://github.com/halfspin-qc/jev-reviews,2,astro,,2026-09-22,typesafe) `📚1`
+- [HalxDocs/dlq_inspector](https://github.com/halxdocs/dlq_inspector) `📚1` — DLQ Inspector · HalxDocs · GitHub · ⭐ 5 · 2026-08-08Local-first CLI for inspecting and safely recovering dead-letter queue messages from RabbitMQ and Redis…
+- [hanpf2391/jev4bili](https://github.com/hanpf2391/jev4bili) `📚1`
+- [HAR5HA-7663/graphify-starter](https://github.com/har5ha-7663/graphify-starter) `📚1` — graphify-starter — Portable Claude Code second brain: markdown wiki (Obsidian-ready) + ChromaDB vectors, auto-embedding watcher, fast query daemon, optional…
+- [hasura/jev-test-datasets](https://github.com/hasura/jev-test-datasets) `📚1` — Public repo containing generated synthetic data to test jev from typesafe
+- [Herdr](https://herdr.dev) `📚1`
+- [Hey Jev, should I deploy?](https://heyjev.ai/shouldideploy) `📚1` — heyjev.ai · AppDeployment vibe check: describe your deploy in plain English and Jev answers 18 typed questions in one pass, which the site turns into a…
+- [HF Spaces demo](https://huggingface.co/spaces/yuhangzang/valen-preview-0923) `📚1`
+- [Highlighter](https://lab.saeed.sh/highlight) `📚1` — Saeed (stringsaeed) · AppSyntax highlighter where code is split into tokens and Jev decides the language, what every token means, and which of nine lint rules…
+- [hightowerbuilds/tiny-axe](https://github.com/hightowerbuilds/tiny-axe) `📚1` — A BEAM terminal UI that helps small local models handle code, text and file tasks, with a Jev-style decision layer and crash-safe ...
+- [HiQS-Labs/Jev-unofficial-toolkit](https://github.com/hiqs-labs/jev-unofficial-toolkit) `📚1` — HiQS' unofficial starter code for Jev model with examples and toolkit based on our testing
+- [holasoymalva/jev-ultracoder](https://github.com/holasoymalva/jev-ultracoder) `📚1` — A coding agent with a dynamically indexed action space.
+- [hongyuetianxiang/jev-junshi](https://github.com/hongyuetianxiang/jev-junshi) `📚1`
+- [howdeploy/LocalForgeLLM](https://github.com/howdeploy/localforgellm) `📚1` — A framework that lets AI agents build and optimize your local AI stack, choosing MoE models, inference engines, quantization, and runtime settings to get the…
+- [HrishabhCodes/geo-citation-diagnostic](https://github.com/hrishabhcodes/geo-citation-diagnostic) `📚1` — GEO (generative engine optimization) diagnostics: compare your page with the pages AI answ
+- [https://ianlintner.github.io/auth-audit-jev/](https://ianlintner.github.io/auth-audit-jev) `📚1`
+- [https://juanfabrega.github.io/jev-quiz-pilot/demo/](https://juanfabrega.github.io/jev-quiz-pilot/demo) `📚1` — Demo page: Upstream README at the pinned commit. No live quiz run on the review host.
+- [https://readycode.ai/reader](https://readycode.ai/reader) `📚1`
+- [husnain381a/JevRouter-for-OpenCode](https://github.com/husnain381a/jevrouter-for-opencode) `📚1` — System 1 decision layer for OpenCode: a small fast classifier (Laya open source or Jev proprietary) reads each incoming prompt and picks which downstream LLM…
+- [hx.semicoded.com](https://hx.semicoded.com) `📚1` — public demo; rate- and spend-limited)
+- [imprfct-code/jevdokku](https://github.com/imprfct-code/jevdokku) `📚1`
+- [imyousuf/codeeagle](https://github.com/imyousuf/codeeagle) `📚1`
+- [infoharshitksingh-afk/typesafe-jev-live-test](https://github.com/infoharshitksingh-afk/typesafe-jev-live-test) `📚1` — Live cost/latency/quality comparison of TypeSafe's Jev against Claude Haiku 4.5 and GPT-5.6 Terra (all via OpenRouter) on six finance/ops decision workloads,…
+- [iqoption537-coder/jev](https://github.com/iqoption537-coder/jev) `📚1` — jev in:name created:2026-07-01..2026-07-31
+- [iresharma/codeloom.engine](https://github.com/iresharma/codeloom.engine) `📚1`
+- [iriepixel/jev-codes-next](https://github.com/iriepixel/jev-codes-next) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [ishanjainn/superopen](https://github.com/ishanjainn/superopen) `📚1` — Make every coding agent faster, cheaper, and more accurate with a persistent local code gr
+- [ishibashi-futos/fm-jev](https://github.com/ishibashi-futos/fm-jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [ItIsCuthNotCup/SameThing](https://github.com/itiscuthnotcup/samething) `📚1` — SameThing test with Jev
+- [Jac0bJ/jev-worker](https://github.com/jac0bj/jev-worker) `📚1` — A safe, cacheable TypeSafe Jev decision API on Cloudflare Workers.
+- [JACK-COM/augur](https://github.com/jack-com/augur) `📚1` — score 9.7 · 0 stars
+- [jaehunshin-git/typesafe-jev-lab](https://github.com/jaehunshin-git/typesafe-jev-lab) `📚1`
+- [jaison/maestro-billy](https://github.com/jaison/maestro-billy) `📚1` — score 10 · 0 stars
+- [jangtrinh/design-os-system-one](https://github.com/jangtrinh/design-os-system-one) `📚1` — design-os-system-one — No description provided by the repository (auto-discovered, description not yet written)
+- [jashshah999/gtsam-jev](https://github.com/jashshah999/gtsam-jev) `📚1` — Turns Jev's typed answers with probabilities into GTSAM discrete factors, so a factor graph can use common-sense/text evidence next to its measurements…
+- [jasondotsetHacked/jev-test-1](https://github.com/jasondotsethacked/jev-test-1) `📚1` — jev in:name created:2026-09-16..2026-09-17
+- [jasonvarga/dotfiles](https://github.com/jasonvarga/dotfiles) `📚1` — jev-review-model · jasonvarga · GitHub · ⭐ 12 repo · 2020-11-22Dotfiles script that reads a PR diff on stdin and asks Jev whether Opus, Sonnet or either model…
+- [javimp2003/claude-code-jev-guardrails](https://github.com/javimp2003/claude-code-jev-guardrails) `📚1` — Real-time reflex layer for Claude Code guarded by TypeSafe's Jev System One model: calibrated probab
+- [javimp21/jev-voice](https://github.com/javimp21/jev-voice) `📚1` — Experimental low-latency Windows computer-use agent using Jev for bounded decision-making.
+- [jcosta33/sourdaw](https://github.com/jcosta33/sourdaw) `📚1` — Sourdaw review-stances check · jcosta33 · GitHub · ⭐ 5 repo · 2026-03-16Review-process script in the Sourdaw open-source DAW that asks Jev, for each stance in…
+- [jdubpark/jevcode](https://github.com/jdubpark/jevcode) `📚1`
+- [jenniesuz/JEV_VectorHostChoiceModel](https://github.com/jenniesuz/jev_vectorhostchoicemodel) `📚1` — This is the R code used to produce the analyses and figures in 'The impacts of host commun
+- [Jenny0932/jev-test](https://github.com/jenny0932/jev-test) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [jevable-code](https://altslate-labs.github.io/jevable-code) `📚1`
+- [jevakallio/vscode-hacker-typer](https://github.com/jevakallio/vscode-hacker-typer) `📚1` — Great for live coding presentations, impressing your friends, or just trying to look busy at work.
+- [jevbook/jevbook-cli,0,JavaScript,,2026-09-19](https://github.com/jevbook/jevbook-cli,0,javascript,,2026-09-19) `📚1`
+- [jevbrooks2023-coder/oopGroupProject-jev](https://github.com/jevbrooks2023-coder/oopgroupproject-jev) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [jevlint.dev](https://jevlint.dev) `📚1` — AI-assisted catalog review; no affiliation with the maintainer. Listing is not an endorsement. Source inspected; live provider paths not run on the review…
+- [jevlite 数据集](https://huggingface.co/datasets/vagmi/jevlite_dataset) `📚1` — jevlite dataset · vagmi · Hugging Face · ♥ 1 · 2026-09-20Synthetic set of 5,866 typed questions about 978 program states (tickets, SIEM alerts, invoices, agent…
+- [jevmod.us](https://jevmod.us) `📚1` — Hosted site jevmod.us and dashboard screenshots in-repo. Live moderation not run on the review host.
+- [JEVS-CODE/JEVS](https://github.com/jevs-code/jevs) `📚1` — En Esta Pagina Encontraran Mis Pequeños Proyectos Sobre Codigo
+- [JEVS-CODE/JEVS-CODE.github.io](https://github.com/jevs-code/jevs-code.github.io) `📚1` — jev in:name created:2026-01-01..2026-01-31
+- [jhamit01/JevScout](https://github.com/jhamit01/jevscout) `📚1` — Browser-based QA agent: give a natural-language testing goal, Jev chooses the browser actions, a separate text model fills fields, deterministic code decides…
+- [JiaweiZhang1997/plainly](https://github.com/jiaweizhang1997/plainly) `📚1`
+- [JiayiCheung/Jev-for-llm](https://github.com/jiayicheung/jev-for-llm) `📚1`
+- [jjyr/any-auto](https://github.com/jjyr/any-auto) `📚1` — any-auto · jjyr · GitHub · ⭐ 7 · 2026-08-20Auto-approve daemon for the Pi and Antigravity coding agents that lets local rules pass read-only tools and block…
+- [jon-devlapaz/burrito-frontier](https://github.com/jon-devlapaz/burrito-frontier) `📚1` — Pareto-optimal menu picks on cost, macros, deliciousness, and reviews — with TypeSafe/Jev scoring and a fixed output schema. ★ 1 · resource
+- [JordiParraCrespo/typesafe-go-review](https://github.com/jordiparracrespo/typesafe-go-review) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [joshLong145/jev-cli,3,Python,,2026-09-21,A](https://github.com/joshlong145/jev-cli,3,python,,2026-09-21,a) `📚1`
+- [jswysnemc/sai](https://github.com/jswysnemc/sai) `📚1` — sai jev-audit plugin · jswysnemc · GitHub · ⭐ 11 repo · 2026-07-20Lua plugin for the sai terminal AI assistant that reviews pending tool actions with a Jev…
+- [jtsang4/jev-cli,4,TypeScript,,2026-09-17](https://github.com/jtsang4/jev-cli,4,typescript,,2026-09-17) `📚1`
+- [juan294/sutura](https://github.com/juan294/sutura) `📚1` — AI agents make CI pass. Sutura verifies the fix, filters flaky failures, rejects unsafe shortcuts, and opens …
+- [juanbermudez/konsitent-jev](https://github.com/juanbermudez/konsitent-jev) `📚1` — onsistent conventions with typed Jev reviews and runnable behavioral examples.
+- [juancruzrossi/jev-code-review](https://github.com/juancruzrossi/jev-code-review) `📚1` — Agent tools and workflow control
+- [jverhoeks/g-commander](https://github.com/jverhoeks/g-commander) `📚1` — Two-pane file manager (Norton Commander spirit): preview, bulk rename, compare, rsync sync
+- [JWE24-code/dsh-jev-loop](https://github.com/jwe24-code/dsh-jev-loop) `📚1` — Jev (TypeSafe System One) judgments at the DeepSeek Harness agent-loop gates.
+- [JWE24-code/moqi-jev-loop](https://github.com/jwe24-code/moqi-jev-loop) `📚1` — The /JevLoop control panel for moqi, on top of dsh-jev-loop.
+- [kashandarash/test_jev_module](https://github.com/kashandarash/test_jev_module) `📚1` — Test module to try JEV in Drupal
+- [ke-suke0215/contract-review-demo](https://github.com/ke-suke0215/contract-review-demo) `📚1` — Bun + Hono + TypeScript contract review demo with GPT-5.6 Luna and Jev
+- [ke97440/jev-rifiemonattestation.com](https://github.com/ke97440/jev-rifiemonattestation.com) `📚1` — jev in:name created:2025-01-01..2025-12-31
+- [KEN3pei/jevgen](https://github.com/ken3pei/jevgen) `📚1` — Japanese Go package + CLI: treats a JEV Question Set as the contract and generates typed Go question definitions and typed answers from it — validation rules…
+- [knoxchat/knoxcoder](https://github.com/knoxchat/knoxcoder) `📚1` — noxCoder Jev layer · knoxchat · GitHub · ⭐ 36 repo · 2026-07-17Jev module in the built-in coding agent of KnoxCoder, a VS Code-based editor: it judges each…
+- [krisitown/jev-quality-gate](https://github.com/krisitown/jev-quality-gate) `📚1` — Jev CI: evaluates committed source-branch changes against a protected target with bounded YAML policies — resolves refs to commits, chunks the patch, asks…
+- [ksaveljev/codeforces-edu](https://github.com/ksaveljev/codeforces-edu) `📚1`
+- [kube-dojo/kube-dojo.github.io](https://github.com/kube-dojo/kube-dojo.github.io) `📚1` — ubeDojo Jev epic triage · kube-dojo · GitHub · ⭐ 11 repo · 2025-12-02Pre-dispatch triage script for the AI agent fleet that builds a free Kubernetes course:…
+- [kyzoeth/siftrcode](https://github.com/kyzoeth/siftrcode) `📚1`
+- [lalithdabilpuram01/Jev_model_demo](https://github.com/lalithdabilpuram01/jev_model_demo) `📚1` — Testing the the new Jev model
+- [Lancer59/SystemOneModels](https://github.com/lancer59/systemonemodels) `📚1` — Testing out System One Models
+- [Laratypes/Laratype](https://github.com/laratypes/laratype) `📚1` — The Next-generation TypeSafe RESTFul API
+- [LCW0NJUPT/KevANE](https://github.com/lcw0njupt/kevane) `📚1`
+- [leofurio/AutoTestJev](https://github.com/leofurio/autotestjev) `📚1` — AUTONOMOUS TESTING with JEV
+- [lhotwll217/jev-cli,1,TypeScript,,2026-09-18](https://github.com/lhotwll217/jev-cli,1,typescript,,2026-09-18) `📚1`
+- [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) `📚1` — OpenCodex - Codex and Claude Code provider proxy with an optional Jev route for selecting a model and reasoning effort.
+- [LilyLiu0719/jev-test](https://github.com/lilyliu0719/jev-test) `📚1` — lite demo with Jev API
+- [LingyeNBird/codesafe,3,Go,,2026-09-20,Fast](https://github.com/lingyenbird/codesafe,3,go,,2026-09-20,fast) `📚1`
+- [liuqihonggit/JoinCode](https://github.com/liuqihonggit/joincode) `📚1` — This is Coding Agent
+- [live](https://jevlint.vayun.net) `📚1`
+- [live](https://qjy0128.github.io/jevtest) `📚1`
+- [live](https://orthocode.ankitkapoor.me) `📚1`
+- [live](https://ai-cli.dev/docs/evaluate) `📚1` — no license · TypeScript · live
+- [longlicode/longlicode](https://github.com/longlicode/longlicode) `📚1` — Personal profile README for longlicode Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [LOTUSSSB/jev-character-flow](https://github.com/lotusssb/jev-character-flow) `📚1`
+- [LTplus-AG/ifc-lite](https://github.com/ltplus-ag/ifc-lite) `📚1` — IFClite review lane Jev client · LTplus-AG · GitHub · ⭐ 382 repo · 2026-01-10AI code-review lane of an open-source IFC toolkit that uses Jev to match review…
+- [luan-sabino/teste-jev](https://github.com/luan-sabino/teste-jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [Lucenx9/codexbar-plasma](https://github.com/lucenx9/codexbar-plasma) `📚1` — CodexBar Plasma todo gate · Lucenx9 · GitHub · ⭐ 5 repo · 2026-06-25Repository check for the CodexBar KDE Plasma widget that asks Jev, via OpenRouter…
+- [LuisTellezSirocco/commit-jev-resumen](https://github.com/luistellezsirocco/commit-jev-resumen) `📚1`
+- [luoxiaoxin123/zcode-gatekeeper](https://github.com/luoxiaoxin123/zcode-gatekeeper) `📚1` — zcode-gatekeeper · luoxiaoxin123 · GitHub · ⭐ 7 · 2026-09-13External tool-call approver for the ZCode coding agent, modeled on Claude Code auto mode:…
+- [magna56/ai-commit-2026-09-22-how-jev-answers-five-questions-in-one-round-trip](https://github.com/magna56/ai-commit-2026-09-22-how-jev-answers-five-questions-in-one-round-trip) `📚1` — The AI Commit — How Jev Answers Five Questions in One Round Trip
+- [manutej/jev-tape-wiki-review](https://github.com/manutej/jev-tape-wiki-review) `📚1` — Complete review site for jev-tape wiki (30 pages). Not a live TypeSafe qualifier.
+- [maple-kit/maple](https://github.com/maple-kit/maple) `📚1` — Open-source visual UX review comments on deployed previews, with a CI merge gate and an agent loop
+- [marcorisi/jevalcode](https://github.com/marcorisi/jevalcode) `📚1` — Code quality scoring on a fixed rubric, powered by jev.
+- [masa-whitestone/jev-find](https://github.com/masa-whitestone/jev-find) `📚1` — AI-native find: search files in natural language, powered by Jev
+- [MASAKIOKUDA-eng/jev-testapp](https://github.com/masakiokuda-eng/jev-testapp) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [MashiroKai/jev-test](https://github.com/mashirokai/jev-test) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [matiassemelman/conviction](https://github.com/matiassemelman/conviction) `📚1` — A source-linked venture diligence workspace powered by TypeSafe Jev
+- [Mawfyy/jev-router.nvim,2,Lua,,2026-09-20](https://github.com/mawfyy/jev-router.nvim,2,lua,,2026-09-20) `📚1`
+- [mealplannr lists](https://mealplannr.io/lists) `📚1` — The author reports a useful categorization feature. This pass reached the app shell but did not verify its implementation or timing comparison. HN comment.
+- [meetr1912/jev-opencode-toolkit](https://github.com/meetr1912/jev-opencode-toolkit) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [memorax-ai/memorax-code](https://github.com/memorax-ai/memorax-code) `📚1` — MemoraX Code - MemoraX Code can ask Jev whether a coding agent should retrieve stored engineering knowledge for a request.
+- [mertcicekci0/S1Code](https://github.com/mertcicekci0/s1code) `📚1` — S1Code · mertcicekci0 · GitHub · ⭐ 5 · 2026-09-18Rust terminal coding agent where Claude or OpenAI plans and writes code while optional Jev integration selects…
+- [mhingston/jev-cli,0,TypeScript,,2026-09-20](https://github.com/mhingston/jev-cli,0,typescript,,2026-09-20) `📚1`
+- [miiiladiii244/jev-test](https://github.com/miiiladiii244/jev-test) `📚1`
+- [miljan-code/next-kickstart](https://github.com/miljan-code/next-kickstart) `📚1` — All-in-one toolkit for full-stack, typesafe applications
+- [miounet11/jevcode,1,TypeScript,,2026-09-18](https://github.com/miounet11/jevcode,1,typescript,,2026-09-18) `📚1`
+- [miso-taku/Jev_Requirements_Reviewer](https://github.com/miso-taku/jev_requirements_reviewer) `📚1`
+- [mity-prodgen/jev-test](https://github.com/mity-prodgen/jev-test) `📚1` — Stress-Testing Jev's Confidence
+- [mizchi/jevlint](https://github.com/mizchi/jevlint) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [MohammadAminDHM/Jev-coder](https://github.com/mohammadamindhm/jev-coder) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [mohanvarmaa22/jev-testing](https://github.com/mohanvarmaa22/jev-testing) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [mohitraj3697/jev_usage_demo](https://github.com/mohitraj3697/jev_usage_demo) `📚1` — Demo of how to use JEV — includes an example iPhone 16 review dataset for testing/practice
+- [MohtashamMurshid/jev-pr-fingerprint](https://github.com/mohtashammurshid/jev-pr-fingerprint) `📚1` — Experimental code-only PR author family classifier using Jev through OpenRouter
+- [MohtashamMurshid/jev-speed-test](https://github.com/mohtashammurshid/jev-speed-test) `📚1` — Reproducible Jev vs fast LLM experiment: BANKING77 data, raw responses, confidence evaluation, and analysis
+- [MominaButt24/jev-real-estate-test-demo](https://github.com/mominabutt24/jev-real-estate-test-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [morethancoder/ideacheck](https://github.com/morethancoder/ideacheck) `📚1`
+- [mozbz/jev-review-hook](https://github.com/mozbz/jev-review-hook) `📚1` — Jev powered code review hook for agents ★ 1 · endpoint · Python
+- [mpsuesser/effect-claudecode](https://github.com/mpsuesser/effect-claudecode) `📚1` — Effect v4 bindings for Claude Code's plugin primitives — hooks, skills, settings, MCP servers, front
+- [mrnugget/jev-shell-history,112,TypeScript,,2026-09-18,2026-09-26](https://github.com/mrnugget/jev-shell-history,112,typescript,,2026-09-18,2026-09-26) `📚1`
+- [mroxso/laya-docker](https://github.com/mroxso/laya-docker) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [mrseanryan/system-one-serve](https://github.com/mrseanryan/system-one-serve) `📚1` — score 12.7 · 0 stars
+- [MrWaradana/jev-test](https://github.com/mrwaradana/jev-test) `📚1`
+- [ms-codehorizon/forkery-case-study](https://github.com/ms-codehorizon/forkery-case-study) `📚1` — Product case study: Forkery turns hundreds of recipe comments into one score from people who cooked
+- [ms-codehorizon/forkery-case-study,0,,,2026-09-26](https://github.com/ms-codehorizon/forkery-case-study,0,,,2026-09-26) `📚1`
+- [mshantiranjan/jev-test](https://github.com/mshantiranjan/jev-test) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [muhandis525/jev-code-reviewer](https://github.com/muhandis525/jev-code-reviewer) `📚1` — Experimental token-efficient Jev triage over local static-analysis findings
+- [muthuishere/herdr-jev](https://github.com/muthuishere/herdr-jev) `📚1` — Prompt gate for Herdr agents, backed by the openjev NLI cross-encoder Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [myselfyzd/jev-cli](https://github.com/myselfyzd/jev-cli) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [nafiurrahmanniloy/jev-guard](https://github.com/nafiurrahmanniloy/jev-guard) `📚1` — Rule check for Claude Code: before Claude runs a risky shell command (commit, push, PR, merge, DB writes), TypeSafe's Jev yes/no-checks it against your rules…
+- [nagisanzenin/nagi](https://github.com/nagisanzenin/nagi) `📚1` — score 9.3 · 13 stars
+- [nail00749/opencode-agent](https://github.com/nail00749/opencode-agent) `📚1` — A globally configured, permission-aware agent team for OpenCode V2 Automatically matched explicit Jev and TypeSafe/System One references. Category and claims…
+- [NAlexPear/codes](https://github.com/nalexpear/codes) `📚1` — Convert medical dictations into billing codes Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [Name](https:) `📚1` — Use regular expressions from the standard library to inspect Markdown bullet entries. Treat bullets matching - Name — Description. as resources; report likely…
+- [narayann08/Jev.ai-Phone-Review-Analyzer](https://github.com/narayann08/jev.ai-phone-review-analyzer) `📚1` — jevlang OR jev.ai in:name,description created:
+- [Nasrallah-AL/jev-cli,22,TypeScript,,2026-09-18,Command-line](https://github.com/nasrallah-al/jev-cli,22,typescript,,2026-09-18,command-line) `📚1`
+- [Ngineer101/turbodiff](https://github.com/ngineer101/turbodiff) `📚1` — Turbodiff Jev complexity classifier · Ngineer101 · GitHub · ⭐ 18 repo · 2026-08-02Task-complexity classifier in Turbodiff, an open-source software factory that…
+- [Nicholas-Westby/nudgement](https://github.com/nicholas-westby/nudgement) `📚1` — nudgement — Jev-based concept linting to nudge your LLM to improve its judgement (auto-discovered, description not yet written)
+- [NIHAD779/jev-test](https://github.com/nihad779/jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [no-complect/atlas](https://github.com/no-complect/atlas) `📚1` — Jev-guided exact finite systems modeler
+- [nocoo/signoff.now](https://github.com/nocoo/signoff.now) `📚1` — ✍️ Developer and Git activity analytics
+- [norbert-debug/jev](https://github.com/norbert-debug/jev) `📚1` — jev in:name created:2026-09-01..2026-09-30 cre
+- [notAshif/jev-testing](https://github.com/notashif/jev-testing) `📚1` — This is new model. So i have to check!!!!!!!!!!
+- [Nsilswal/opencode-toolrouter](https://github.com/nsilswal/opencode-toolrouter) `📚1` — opencode plugin: send the model only the MCP tools each request needs, picked by TypeSafe's Jev
+- [nuroctane/nur-cli](https://github.com/nuroctane/nur-cli) `📚1`
+- [oat-fufong/JevTest](https://github.com/oat-fufong/jevtest) `📚1` — Evaluating Jev as a drop-in replacement for the LLM-based query classifier in the ragsha-agent router: ships golden_queries.json (135 labeled queries copied…
+- [omkar273/typespun](https://github.com/omkar273/typespun) `📚1` — Declare typed configuration once; generate a validated Node.js/Bun loader with explicit pr
+- [OogaBoogaX/entropylab](https://github.com/oogaboogax/entropylab) `📚1` — EntropyLab Jev adversarial tests · OogaBoogaX · GitHub · ⭐ 58 repo · 2026-08-25Scheduled CI job for an offline Bitcoin wallet calculator that explores the…
+- [op7418/CodePilot](https://github.com/op7418/codepilot) `📚1` — A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your …
+- [OpenAgentsInc/bendcoder](https://github.com/openagentsinc/bendcoder) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [orcawhisperer/lathe](https://github.com/orcawhisperer/lathe) `📚1` — Lathe — Non-Generative A2UI v0.9 Compiler & Runtime (shadcn/ui × AG-UI × TypeSafe System One)
+- [osuki-dev/opencode-osuki-agent,1,TypeScript,,2026-09-20,Effect-native](https://github.com/osuki-dev/opencode-osuki-agent,1,typescript,,2026-09-20,effect-native) `📚1`
+- [OurCoders](https://ourcoders.com/tech/show/tech-20260916-001-07) `📚1`
+- [Pankajpadekar/review_analyzer_jev](https://github.com/pankajpadekar/review_analyzer_jev) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [PaperWeekly 中文盘点，09-23](https://mp.weixin.qq.com/s/kk3du8zji4fa_9chnbl7dw) `📚1` — Organizes the September 19–22 arXiv wave into “first applications / Jev-Anything / open alternatives and stress tests”; treat the papers themselves as the…
+- [papunoko/hypothesis-quest](https://github.com/papunoko/hypothesis-quest) `📚1`
+- [pedropalvareez/JevTown](https://github.com/pedropalvareez/jevtown) `📚1` — "Jev Town": a deterministic 40×40 tile town with 50 named NPCs — you broadcast an announcement and the server sends town state to Jev as one batch of 50…
+- [Pep3M/zsh-nlcmd](https://github.com/pep3m/zsh-nlcmd) `📚1` — Type what you want in plain English after # — get the shell command as ghost text. Tab accepts, nothing ever auto-runs. Automatically matched explicit Jev and…
+- [pertrai1/my-opencode](https://github.com/pertrai1/my-opencode) `📚1`
+- [peterldowns/testy](https://github.com/peterldowns/testy) `📚1` — typesafe (generics) helpers for better golang tests
+- [petrzpav/jev-review](https://github.com/petrzpav/jev-review) `📚1` — Chrome extension: Jev (TypeSafe AI) grades your Gmail replies as you write them.
+- [plurp911/jev-cli,0,Rust,,2026-09-24](https://github.com/plurp911/jev-cli,0,rust,,2026-09-24) `📚1`
+- [Prakshal-Jain/ufa-jev-cold-test](https://github.com/prakshal-jain/ufa-jev-cold-test) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [pranavchandran/JEV_Test](https://github.com/pranavchandran/jev_test) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [PraveenAShukla/polyjev](https://github.com/praveenashukla/polyjev) `📚1` — Reviewed 2026-09-28 (Europe/Sofia) at commit 76c3bda. AI-assisted README and LICENSE inspection; install/live paths not executed.
+- [Product homepage](https://siteclarity.sanjay-shankar.workers.dev) `📚1` — Access: use the hosted demo (appears free; limits unchecked) or self-host the MIT source with your own System One / Workers AI keys. Source inspected; live…
+- [project](https://obstudio.org/tools/vibe-domain) `📚1` — Vibe Domain - Domain-name ranking with a no-key heuristic mode and an optional hosted Jev mode.
+- [PromtEngineer/system1-vs-system2](https://github.com/promtengineer/system1-vs-system2) `📚1` — System 1 vs System 2 AI models, measured: a chain test comparing one-pass Jev with Qwen 3.
+- [pulumi/devx-geodeploy](https://github.com/pulumi/devx-geodeploy) `📚1` — Cost-optimized, latency-aware multi-cloud Kubernetes placement with Pulumi and TypeSafe Jev
+- [purplenoodlesoop/typed-preferences](https://github.com/purplenoodlesoop/typed-preferences) `📚1` — 💾 Expressive and type-safe wrapper around Shared Preferences with additional features like Observers
+- [qiu-jinhui/jev-test](https://github.com/qiu-jinhui/jev-test) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [qiulingzhu809-sudo/jev-draft-advisor](https://github.com/qiulingzhu809-sudo/jev-draft-advisor) `📚1` — Experimental macOS menu-bar assistant using TypeSafe Jev to recommend Codex models from drafts.
+- [Raushankumar035/Smartphone--Review--Analyzer--using-JEV](https://github.com/raushankumar035/smartphone--review--analyzer--using-jev) `📚1` — Other related projects
+- [rautsaurabh9-sketch/Claude-Jev-Test](https://github.com/rautsaurabh9-sketch/claude-jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [rc-code-jp/jev-playground](https://github.com/rc-code-jp/jev-playground) `📚1`
+- [rchandnaWUSTL/jev-test-fantasy-football](https://github.com/rchandnawustl/jev-test-fantasy-football) `📚1`
+- [ReadycodeAI/readycode-reader](https://github.com/readycodeai/readycode-reader) `📚1` — Apache-2.0. TypeSafe/provider usage may incur charges.
+- [realZachi/pg-jev,364,Shell,NOASSERTION,2026-09-18,2026-09-26](https://github.com/realzachi/pg-jev,364,shell,noassertion,2026-09-18,2026-09-26) `📚1`
+- [redhat-plumbers-in-action/testing-farm](https://github.com/redhat-plumbers-in-action/testing-farm) `📚1` — 🚜 A NodeJS module to access Testing Farm instances through the REST API.
+- [remotehostai/jg](https://github.com/remotehostai/jg) `📚1` — MIT-licensed semantic code search CLI for coding agents, powered by Jev.
+- [review queue](https://awesome-jev.xyz/review) `📚1` — Every repository here was collected from GitHub, then judged by Jev in a single call: is it genuinely about Jev, which category, which decision pattern, and…
+- [Rika-Labs/proof](https://github.com/rika-labs/proof) `📚1` — Code review linter where plain-English rules in a TypeScript file are judged by Jev against changed hunks or whole files, with thresholds and a cache. MIT ·…
+- [RileyCarney/RC-Papers](https://github.com/rileycarney/rc-papers) `📚1` — ~~RC-Papers~~ — carried by 0 list(s)
+- [rjwalters/loom](https://github.com/rjwalters/loom) `📚1` — Loom Jev merge-risk score · rjwalters · GitHub · ⭐ 14 repo · 2025-10-11Shadow-mode pre-score for automatic PR merging in an agent orchestration daemon: Jev…
+- [rojim666/SztuCode](https://github.com/rojim666/sztucode) `📚1` — SztuCode LLM + Jev agent mode · rojim666 · GitHub · ⭐ 71 repo · 2026-07-24Local-first coding and office agent for universities whose experimental mode keeps…
+- [RooCodeInc/Roomote](https://github.com/roocodeinc/roomote) `📚1` — Roomote judgment backend · RooCodeInc · GitHub · ⭐ 253 repo · 2026-07-07Self-hostable cloud coding agent with an optional Jev judgment backend for bounded…
+- [roshan-shaik-ml/fast-jev-opencode,0,JavaScript,,2026-09-26](https://github.com/roshan-shaik-ml/fast-jev-opencode,0,javascript,,2026-09-26) `📚1`
+- [Rote Code Fraktion: "Jev Put to the Test: A Model That Decides Instead of Writing" (2026-0](https://rotecodefraktion.de/en/blog/jev-typesafe-im-test) `📚1` — Independent German dev-blog test, full article verified: 200 Banking77 queries (10 deliberately confusing categories) — Jev 1.13 matched Haiku 4.5 and Sonnet 5…
+- [rowanhill/jevcode](https://github.com/rowanhill/jevcode) `📚1` — Novelty, explicitly not a practical code model: coerces the classifier into "writing" TypeScript one AST node at a time — at every grammar production it asks…
+- [rvanraamsdonk/jev](https://github.com/rvanraamsdonk/jev) `📚1` — Jev use-case experimentation playground: small Python project (src + tests) for trying Jev decision patterns; terse README, code-first repo. (0★, Python, no…
+- [RyanNg1403/jev-cli,0,TypeScript,,2026-09-21,High-performance](https://github.com/ryanng1403/jev-cli,0,typescript,,2026-09-21,high-performance) `📚1`
+- [saipy10/Jev-Test](https://github.com/saipy10/jev-test) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [salik702/JEV-Demo](https://github.com/salik702/jev-demo) `📚1` — I built this project to test JEV, the new model recently launched by TypeSafe, by using it
+- [saltyvive/jev-luna-test](https://github.com/saltyvive/jev-luna-test) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [samarvscode/agentaegis_v2.0---universal-cognitive-interceptor-and-vetting-harness](https://github.com/samarvscode/agentaegis_v2.0---universal-cognitive-interceptor-and-vetting-harness) `📚1`
+- [samiyasaifcode/jev-and-ai-sdk](https://github.com/samiyasaifcode/jev-and-ai-sdk) `📚1` — jevlang OR jev.ai in:name,description created:
+- [sapair-og/cognicode](https://github.com/sapair-og/cognicode) `📚1`
+- [Saviskar/test-typesafe-ai](https://github.com/saviskar/test-typesafe-ai) `📚1` — typesafe-ai in:name,description created:2026-0
+- [SawanaLabs/jev-showcase](https://github.com/sawanalabs/jev-showcase) `📚1`
+- [saya-ch/sayacode](https://github.com/saya-ch/sayacode) `📚1` — SAYACODE · saya-ch · GitHub · ⭐ 6 · 2026-04-30Local terminal coding agent built on LangChain and LangGraph whose jev trust level auto-approves low-risk tool…
+- [sebdallais-git/pharmait_chat_and_digest](https://github.com/sebdallais-git/pharmait_chat_and_digest) `📚1`
+- [serejkaaa512/jev-projects-review](https://github.com/serejkaaa512/jev-projects-review) `📚1`
+- [SergeAx/scrutus](https://github.com/sergeax/scrutus) `📚1` — Linter for source-code comments: grades accuracy and usefulness with TypeSafe Jev and deletes the us
+- [sertonix/typed-regexp](https://github.com/sertonix/typed-regexp) `📚1` — (Moved to Codeberg) Adds type checking for regular expressions.
+- [seshuthota/opencode-jev](https://github.com/seshuthota/opencode-jev) `📚1`
+- [shadow400x/claude-sh](https://github.com/shadow400x/claude-sh) `📚1` — Run Claude Code in bash with no npm deps, real-time streaming, tool use, permissions, and
+- [Shadowsweep/testing_arena_jev_vs_laya](https://github.com/shadowsweep/testing_arena_jev_vs_laya) `📚1` — Other related projects
+- [shaharia-lab/jev-cli,29,Rust,,2026-09-19](https://github.com/shaharia-lab/jev-cli,29,rust,,2026-09-19) `📚1`
+- [Shahrukh-cyber/jev-pr-reviewer](https://github.com/shahrukh-cyber/jev-pr-reviewer) `📚1` — An automated GitHub PR reviewer that uses Jev to classify pull requests, assess risk, and trigger th
+- [sharpninja/jev-codex-blazor](https://github.com/sharpninja/jev-codex-blazor) `📚1` — Jev emulation layer over Codex CLI using Microsoft Agent Framework and a Blazor chat harness
+- [shashisp/testedok](https://github.com/shashisp/testedok) `📚1`
+- [shelajev/agy-sbx-kit](https://github.com/shelajev/agy-sbx-kit) `📚1` — Docker Sandboxes kit for running Google's Antigravity CLI (agy) in an isolated sandbox
+- [shelajev/muse-code-sbx-kit](https://github.com/shelajev/muse-code-sbx-kit) `📚1` — Docker Sandboxes kit for running Meta's Muse Code CLI in an isolated sandbox
+- [shetautnetjer/jev-cli](https://github.com/shetautnetjer/jev-cli) `📚1` — Clean-room CLI for TypeSafe System One / Jev Decision Contracts, search, and benchmarks.
+- [shetautnetjer/jev-cli,0,Python,,2026-09-22](https://github.com/shetautnetjer/jev-cli,0,python,,2026-09-22) `📚1`
+- [shinjiyu/jev-debug](https://github.com/shinjiyu/jev-debug) `📚1` — Locate a bug file, or flag a diff, by cross-checking small source batches with JEV.
+- [Shoaib175/Jev-test](https://github.com/shoaib175/jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [shreya0204/jev-test](https://github.com/shreya0204/jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [shubham10divakar/CodeJev](https://github.com/shubham10divakar/codejev) `📚1`
+- [shubham10divakar/CommitJev](https://github.com/shubham10divakar/commitjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/DockerJev](https://github.com/shubham10divakar/dockerjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/PentestJev](https://github.com/shubham10divakar/pentestjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/TestJev](https://github.com/shubham10divakar/testjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [ShunsukeTamura06/claude-code-jev-setup](https://github.com/shunsuketamura06/claude-code-jev-setup) `📚1`
+- [Sidiora-Labs/Paxeer-X-Network](https://github.com/sidiora-labs/paxeer-x-network) `📚1` — Paxeer X Jev checks · Sidiora-Labs · GitHub · ⭐ 371 repo · 2026-08-14CI advisory tool inside an agent execution network that uses Jev to check pull request and…
+- [sifrious/molly](https://github.com/sifrious/molly) `📚1` — Local AI coding tasks for Laravel, with Pest verification and visible complexity review.
+- [Silthus/jev-pr-dashboard](https://github.com/silthus/jev-pr-dashboard) `📚1`
+- [Simon Willison’s LLM](https://llm.datasette.io) `📚1` — plugin that exposes TypeSafe Jev (typesafe/jev-latest, alias jev) for noul, choice, and score evaluations from the CLI.
+- [sindresorhus/awesome-lint](https://github.com/sindresorhus/awesome-lint) `📚1` — This pins the directly invoked linter version and disables package lifecycle scripts; npm still resolves its declared transitive dependencies. No package…
+- [sinsniwal/hey-cli](https://github.com/sinsniwal/hey-cli) `📚1`
+- [siren2345/jev-single-decode](https://github.com/siren2345/jev-single-decode) `📚1` — Jev-compatible choice inference using prefill plus exactly one decode step
+- [sjefvanleeuwen/camunda-dmn-tester](https://github.com/sjefvanleeuwen/camunda-dmn-tester) `📚1` — Tests camunda decision models hosted in the camunda engine by passing data from .MD files
+- [skydiving94/klint](https://github.com/skydiving94/klint) `📚1` — inferred / research-models — ⭐4
+- [slashdaemon/jev-expert,0,Shell,,2026-09-22](https://github.com/slashdaemon/jev-expert,0,shell,,2026-09-22) `📚1`
+- [slay22/agenttest](https://github.com/slay22/agenttest) `📚1`
+- [Smartitect/retail-review-knowledge-mining](https://github.com/smartitect/retail-review-knowledge-mining) `📚1` — A demo of various techniques for mining insights from semi structured data. Automatically matched explicit Jev and TypeSafe/System One references. Category and…
+- [smixs/code-quality,13,TypeScript,,2026-09-21](https://github.com/smixs/code-quality,13,typescript,,2026-09-21) `📚1`
+- [snemesh/codegraph-jev](https://github.com/snemesh/codegraph-jev) `📚1` — codegraph-jev - Research log: can a code graph plus TypeSafe Jev match a coding agent at finding and ordering functions? (Project…
+- [sofiiamatsyhin/spotify-jev-test](https://github.com/sofiiamatsyhin/spotify-jev-test) `📚1` — jev in:name created:2026-09-28..2026-09-30
+- [sonervergon/typethon](https://github.com/sonervergon/typethon) `📚1` — A boilerplate pnpm monorepo with a Python backend and React frontend.
+- [Sophal24/demele_jev_code_2026](https://github.com/sophal24/demele_jev_code_2026) `📚1` — jev in:name created:2026-05-01..2026-05-31
+- [souhoc/hunch](https://github.com/souhoc/hunch) `📚1` — Go CLI that sends a GitHub PR's diff, body and project guidelines to Jev and prints a typed review rubric with probability bars. no license · Go
+- [soumyacodes007/jev-experiments](https://github.com/soumyacodes007/jev-experiments) `📚1`
+- [Source 2](https://huggingface.co/akhilaaa3/jev-omni/commit/6028e1fde1604c3442f5394e7d0eb3b534a7afe9) `📚1` — classifier_head, unified_bf16, native_audio_components, packaging_correction
+- [souvikr/jev-test,0,Python,Test](https://github.com/souvikr/jev-test,0,python,test) `📚1`
+- [spacegiyou/charter-firewall](https://github.com/spacegiyou/charter-firewall) `📚1` — Constitutional firewall for coding agents. The LLM writes. Code enforces. Judgment is a syscall. Automatically matched explicit Jev and TypeSafe/System One…
+- [SportTanec/jev-cli,0,,,2026-09-22,use](https://github.com/sporttanec/jev-cli,0,,,2026-09-22,use) `📚1`
+- [spprashaant/jevtryout](https://github.com/spprashaant/jevtryout) `📚1`
+- [spring-ai-community.github.io/spring-ai-typesafe](https://spring-ai-community.github.io/spring-ai-typesafe/latest-snapshot) `📚1` — Reference docs: spring-ai-community.github.io/spring-ai-typesafe.
+- [SShadowS/DevOpsWorker](https://github.com/sshadows/devopsworker) `📚1` — DevOpsWorker port classifier · SShadowS · GitHub · ⭐ 8 repo · 2026-06-21Multi-agent Azure DevOps pipeline that asks Jev whether a pull request is a port of…
+- [stainless-code/react-custom-events](https://github.com/stainless-code/react-custom-events) `📚1` — topic:typesafe created:2024-01-01..2024-12-31
+- [stainless-code/react-memo](https://github.com/stainless-code/react-memo) `📚1` — Elegantly handle component memoization in React
+- [state-machine trace](https://stacktoheap.com/demos/jev-deployment-state-machine) `📚1` — For rollout decisions, Rosen links a state-machine trace and a Temporal rollback demo. They illustrate Jev choosing among bounded actions while orchestration…
+- [StatsMaster/jev-testing](https://github.com/statsmaster/jev-testing) `📚1` — Follows the Real Python Jev tutorial with fixes noted where the tutorial text didn't match the current SDK: jev_noul.py (flexible yes/no vs rigid Y/N),…
+- [Stedi-Public-Archive/ts2asl](https://github.com/stedi-public-archive/ts2asl) `📚1`
+- [steez-ml/jev-vampire-survivor](https://github.com/steez-ml/jev-vampire-survivor) `📚1` — AI pilot for Vampire Survivors (Steam): a read-only C# DLL publishes a 3×8 occupancy grid (enemies, XP, walls), inner-ring enemies with velocity, bosses,…
+- [strangeloopcanon/dynajev](https://github.com/strangeloopcanon/dynajev) `📚1` — score 9.5 · 5 stars
+- [submit on jevusers.com](https://jevusers.com/submit) `📚1` — Open a pull request or submit on jevusers.com. See (CONTRIBUTING.md)(CONTRIBUTING.md).
+- [sunchojack/jev-cli](https://github.com/sunchojack/jev-cli) `📚1` — Other related projects
+- [SuperInstance/quilt-jev-toolkit-push](https://github.com/superinstance/quilt-jev-toolkit-push) `📚1` — Quilt fleet member — auto-swept from local commit. Mavis × Casey session line 2026-09-24.
+- [SuperInstance/quilt-readme-expansions](https://github.com/superinstance/quilt-readme-expansions) `📚1` — Batch PR-ready README expansions for the quilt- fleet, brewed from Z.ai + DeepSeek. Compa
+- [superx-ai/tweet-tester](https://superx.so/tweet-tester) `📚1` — SuperX on Viral Copy Scoring -- Evaluated 10,000 combinatorial copy iterations for $0.08 with Jev vs $12.50 on GPT-4o Mini or $45.00 on Claude 3.5 Haiku.
+- [Sweet-Butters/korea-ai-contest-tracker,0,HTML,,2026-09-22](https://github.com/sweet-butters/korea-ai-contest-tracker,0,html,,2026-09-22) `📚1`
+- [swipswaps/opencode-deepseek-jev](https://github.com/swipswaps/opencode-deepseek-jev) `📚1`
+- [System One (zeroshot)](https://huggingface.co/shreyanbr/system-one-zeroshot) `📚1` — shreyanbr · Hugging Face · ⬇ 15 · 2026-09-19Unsupervised baseline of a 70.8M DeBERTa-v3-xsmall cross-encoder implementing the Jev /v1/systemone schema,…
+- [System One：只编码一次，并行决策](https://huggingface.co/spaces/jasonkneen/open-jev) `📚1` — System One: encode once, decide in parallel · jasonkneen · App · ♥ 1 · 2026-09-18Space showing the inference path that makes pngwn's System One scorer cheap,…
+- [t-klug/t-klug.github.io](https://github.com/t-klug/t-klug.github.io) `📚1` — t-klug: "Code Enumerates, Jev Judges" (2026-09-17) — First-person engineering write-up of slopcheck, a CI tool that reads every pull request and judges AI slop…
+- [Tanimal19/jev-test](https://github.com/tanimal19/jev-test) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [TanStack Evaluate](https://tanstack.com/ai/latest/docs/evaluate/evaluate) `📚1` — TypeSafe jev-latest；Vercel typesafe-ai/jev；Cloudflare typesafe/jev；OpenRouter ~typesafe/jev-latest
+- [taupirho/jev-test](https://github.com/taupirho/jev-test) `📚1` — Python CLI for classifying ASCII text with Jev and returning sensitivity probabilities
+- [Tech-Byte-Frontier/jevgate-action](https://github.com/tech-byte-frontier/jevgate-action) `📚1` — GitHub Action for JevGate: a code-review gate that annotates pull requests with maintainability, test, security and documentation findings
+- [TeoSlayer/shell.online](https://github.com/teoslayer/shell.online) `📚1` — shell.online Jev assessments · TeoSlayer · GitHub · ⭐ 99 repo · 2026-08-22Service that shares any terminal process as an encrypted browser link, adding opt-in…
+- [Terms & Privacy](https://vicaura.com/terms-privacy) `📚1` — Proprietary hosted service. Access governed by Terms & Privacy. No public open-source license; github.com/VicAura showed 0 public repositories on review.
+- [Tester Army](https://tester.army/e2e) `📚1`
+- [Testomat.io: "Deterministic AI in Testing: What It Is & Why It Matters"](https://testomat.io/blog/deterministic-ai) `📚1` — Testomat's open-source Explorbot browser-testing agent now uses Jev for closed decisions (which element matches the intent, is the run healthy, is a result…
+- [tettou771/tcxJev](https://github.com/tettou771/tcxjev) `📚1` — TrussC addon: a C++ client for TypeSafe's Jev (send a state + named typed questions, get one calibrated answer per question). Ships src + tests, CMake build.…
+- [ThaboMoore/JEV-Host-Review](https://github.com/thabomoore/jev-host-review) `📚1` — jev in:name created:2024-01-01..2024-12-31
+- [The-Best-Codes/jev-mean-girls](https://github.com/the-best-codes/jev-mean-girls) `📚1` — Other related projects
+- [theaileverage/jevscript](https://github.com/theaileverage/jevscript) `📚1` — Jevscript language, runtime, SDKs, and CLI for agent control loops
+- [thestrabusiness/typesafe-8ball](https://github.com/thestrabusiness/typesafe-8ball) `📚1` — Magic 8-Ball CLI and web UI that maps a Jev Noul and Score to the 20 classic answers, with rate limiting and tests using a fake client. no license · TypeScript
+- [thomas-chong/agy-cli-jev-auto-mode](https://github.com/thomas-chong/agy-cli-jev-auto-mode) `📚1`
+- [thrun-11/investment-committee](https://github.com/thrun-11/investment-committee) `📚1`
+- [tibor-src/jev-laravel-test](https://github.com/tibor-src/jev-laravel-test) `📚1`
+- [Timileyin-Agbaje/Nem](https://github.com/timileyin-agbaje/nem) `📚1` — Fail-closed Node/TypeScript guardrail CLI that evaluates a proposed agent action with Jev Nouls and returns ALLOW, REVIEW or BLOCK without executing it. no…
+- [timlevett/jev-tool-opencode](https://github.com/timlevett/jev-tool-opencode) `📚1`
+- [TJ Klug](https://tjklug.com/posts/typesafe-jev-slopcheck) `📚1` — Design write-up of slopcheck, a CI check for AI slop in pull requests: code enumerates candidates, Jev judges them
+- [tkymx/jev-review](https://github.com/tkymx/jev-review) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [toganio/jev-word-lab](https://github.com/toganio/jev-word-lab) `📚1`
+- [tomdacatto/pollinations-jev-assembler](https://github.com/tomdacatto/pollinations-jev-assembler) `📚1` — "Jev Assembler": describe a page in one sentence, Jev makes 16 small decisions in one POST /alpha/decisions call, and plain code assembles a real styled web…
+- [tomharris/engineer-agent](https://github.com/tomharris/engineer-agent) `📚1` — A Claude Code plugin that automates senior software engineer work — PR reviews, Slack answers, ticket impleme…
+- [ts2.tech: "TypeSafe AI Raises $40 Million for Jev, but Its 445× Cost Claim Is Still Self-T](https://ts2.tech/en/typesafe-ai-raises-40-million-for-jev-but-its-445x-cost-claim-is-still-self-tested) `📚1` — . ts2.tech: "TypeSafe AI Raises $40 Million for Jev, but Its 445× Cost Claim Is Still Self-Tested": The skeptical audit of self-tested benchmarks, plus funding…
+- [tugrulguner/lifepot](https://github.com/tugrulguner/lifepot) `📚1` — A bounded, replayable artificial-life laboratory where Jev proposes ecosystem rules and deterministic code runs every organism.
+- [tylerfloyd/spec-drift](https://github.com/tylerfloyd/spec-drift) `📚1` — Jev-backed spec-drift review bot for Pi
+- [TyrellD1/typesafe-ai_smoke-test,0,HTML](https://github.com/tyrelld1/typesafe-ai_smoke-test,0,html) `📚1`
+- [tyudosen/effect-ts](https://github.com/tyudosen/effect-ts) `📚1` — Effect TS study repository: Hands-on code exploring functional programming concepts with E
+- [u007/ocode](https://github.com/u007/ocode) `📚1`
+- [uniplanck/jev-harness](https://github.com/uniplanck/jev-harness) `📚1` — Reviewed release mirror for harness-neutral Jev intelligence; no release published yet
+- [usage docs](https://blode.co/taste-lint/docs/usage) `📚1`
+- [uv](https://docs.astral.sh/uv/getting-started/installation) `📚1` — Use a Mac with macOS 14+, Git, Python 3.12+, and uv. No API account or desktop permissions are needed for the mocked tests. Clone into your own projects…
+- [velvetchief/jev-airbag](https://github.com/velvetchief/jev-airbag) `📚1` — Claude Code hook: Jev reads every shell command and blocks the ones that would delete some
+- [venetanji/jev-cli](https://github.com/venetanji/jev-cli) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [vikas53953/Ages](https://github.com/vikas53953/ages) `📚1` — Aegis harness: owned coding CLI with Jev spend/danger lock and a first delivery loop.
+- [viniciosrab/opencode-jev-router](https://github.com/viniciosrab/opencode-jev-router) `📚1` — OpenCode plugin that has Jev rank relevant tools before each request, logging in shadow mode and narrowing the tool catalog only in opt-in active mode. MIT ·…
+- [vishalcs05/jev-testing](https://github.com/vishalcs05/jev-testing) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [VitaDAO/open-jev-tinfoil](https://github.com/vitadao/open-jev-tinfoil) `📚1` — Attested CPU serving for the open Jev DeBERTa typed-decision model
+- [VitePress](https://vitepress.dev) `📚1` — The site is a VitePress app under docs/ (Node 20+ required):
+- [VKirill/claude-lane-stack](https://github.com/vkirill/claude-lane-stack) `📚1` — Claude Lane Stack Jev skills · VKirill · GitHub · ⭐ 116 repo · 2026-07-11One-person multi-agent coding factory for Claude Code with Jev skills that review git…
+- [waschbaerwerkstatt-tech/jev-review-vorschau](https://github.com/waschbaerwerkstatt-tech/jev-review-vorschau) `📚1` — Passwortgeschützte Jev-Review-Auswertung; ausschließlich verschlüsselte HTML-Datei
+- [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) `📚1` — A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google,
+- [watermelon.shashwatchavan.com](https://watermelon.shashwatchavan.com) `📚1` — Access: public demo at watermelon.shashwatchavan.com or clone the MIT source with TYPESAFE_API_KEY. No app purchase fee; TypeSafe usage is separate. Offline…
+- [WhiteRobe/jev-test](https://github.com/whiterobe/jev-test) `📚1` — jev in:name created:2026-09-26..2026-09-27
+- [willyclayton/Jev-testing](https://github.com/willyclayton/jev-testing) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [wjjiuci/WeChat-monitors-messages-and-replies](https://github.com/wjjiuci/wechat-monitors-messages-and-replies) `📚1`
+- [wk42worldworld/cybercode](https://github.com/wk42worldworld/cybercode) `📚1`
+- [xsrtyq/jev-test](https://github.com/xsrtyq/jev-test) `📚1` — jev in:name created:2026-09-20..2026-09-21
+- [yamcodes/arkenv](https://github.com/yamcodes/arkenv) `📚1` — ⛯ Typesafe environment variables with ArkType, Zod, or Valibot.
+- [ybentlili/JevTest](https://github.com/ybentlili/jevtest) `📚1` — Minimal customer-mail bot demo comparing a run with and without Jev: Jev classifies and verifies refunds, code applies thresholds, Claude writes. no license ·…
+- [yehia67/jev-scan](https://github.com/yehia67/jev-scan) `📚1` — Scan an agent’s git diff against the original request. Flags edits you didn’t ask for
+- [yodablocks/commitjev](https://github.com/yodablocks/commitjev) `📚1` — Reads a commit before a reviewer has to: whether the message matches the diff, whether the edits belong in on…
+- [yodhcn/simple-jev-docker](https://github.com/yodhcn/simple-jev-docker) `📚1`
+- [yzxoi/lime-jev](https://github.com/yzxoi/lime-jev) `📚1`
+- [zamax14/System-One-Playground](https://github.com/zamax14/system-one-playground) `📚1` — System-One-Playground — No description provided by the repository (auto-discovered, description not yet written)
+- [zazencodes/zazencodes-season-3](https://github.com/zazencodes/zazencodes-season-3) `📚1`
+- [zceeeeee/jev-web-decesion-test](https://github.com/zceeeeee/jev-web-decesion-test) `📚1`
+- [zhangyang-crazy-one/Jev_TUITEST](https://github.com/zhangyang-crazy-one/jev_tuitest) `📚1` — Automated TUI Plugins, HUD, PTY, and recorded-session regression suite for DeepSeek Harnes
+- [zhengsjcode/jev-lint](https://github.com/zhengsjcode/jev-lint) `📚1`
+- [zhiyaoli0221/fin-one](https://github.com/zhiyaoli0221/fin-one) `📚1` — score 13.1 · 1 stars
+- [zjuneverknow/test_jev](https://github.com/zjuneverknow/test_jev) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [官网](https://quorumtech.ch/attest) `📚1`
+- [给Codex配上Jev，真不想回去了](https://xiaohongshu.com/explore/6aace869000000002a024546) `📚1` — “Jev with Codex” (Chinese)
+- [网站](https://npmjs.com/package/@toddzheng024/dscode) `📚1`
+
+</details>

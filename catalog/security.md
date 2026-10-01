@@ -1,0 +1,438 @@
+# Guardrails, Safety & Moderation
+
+> Guardrails, tool-call gates, moderation, spam/phishing/fraud detection and robustness work.
+>
+> **415 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+
+**Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
+
+## Consensus (cited by 10+ lists) — 60
+
+- [thruwire/foreman](https://github.com/thruwire/foreman) `★618 · 📚61` — An agent supervisor and software factory foreman powered by TypeSafe’s Jev model
+- [DevMortimer/pi-warden](https://github.com/devmortimer/pi-warden) `★153 · 📚50` — Guardrails for Pi that steer instead of interrupt: enforces your project rules on every write, holds only hard-to-undo actions (3 per 1,000 calls, measured on real sessions), catches unverified "done" claims and stuck loops, and trims tool…
+- [realZachi/typesafe-adblock](https://github.com/realzachi/typesafe-adblock) `★87 · 📚46` — 🧹 Fun project: a Chrome extension that asks a tiny AI decision model (TypeSafe Jev) "is this DOM element an ad?" and pops it off the page. BYOK, no backend, not a real ad blocker.
+- [ellipsis-dev/blink](https://github.com/ellipsis-dev/blink) `★92 · 📚45` — Codebase search powered by Jev from @typesafe-ai.
+- [shiftynick/jev-axi](https://github.com/shiftynick/jev-axi) `★25 · 📚39` — Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard) from the shell
+- [leepokai/jev-guard](https://github.com/leepokai/jev-guard) `★48 · 📚38` — Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode,…
+- [jomatsu/pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) `★30 · 📚38` — Jev (TypeSafe System One) backed auto mode for the Pi coding agent: semantically auto-approves bash, write, and edit tool calls and fails closed when a decision cannot be made.
+- [brainstormity/Jev-Moderation-Bot](https://github.com/brainstormity/jev-moderation-bot) `★47 · 📚36` — Jev-Moderation-Bot — A Discord moderation bot using Jev to check spam and scam links, with local warning and timeout rules.
+- [bitnovus/jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) `★2 · 📚34` — Zero-shot spam filtering with TypeSafe Jev Noul questions, compared with TF-IDF baselines
+- [luantak/is-malicious](https://github.com/luantak/is-malicious) `★32 · 📚27` — A codebase scanner that helps you not run malicous code
+- [anpicasso/hermes-jev-approvals](https://github.com/anpicasso/hermes-jev-approvals) `★19 · 📚27` — TypeSafe Jev as the reviewer for Hermes Agent smart command approvals. 8.7x faster, 4.4x fewer prompts, measured on 153 real commands. Approvals only.
+- [teyhouse/jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) `★2 · 📚27` — Measures how well TypeSafe's RLCD-Jev model spots real secret credentials in file snippets
+- [openlayer-ai/jevals](https://github.com/openlayer-ai/jevals) `★98 · 📚26` — Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya.
+- [iamvatsalpatel/tiershift](https://github.com/iamvatsalpatel/tiershift) `★3 · 📚23` — Shift every LLM call to the cheapest model that can handle it. Routing decided by TypeSafe Jev in ~180 ms. No training data. Policy in plain YAML. TypeScript and Python.
+- [hamakyo/jev-starter](https://github.com/hamakyo/jev-starter) `★2 · 📚21` — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps.
+- [backmeupplz/jev_antispam_bot](https://github.com/backmeupplz/jev_antispam_bot) `★13 · 📚20` — Minimal grammY Telegram anti-spam bot powered by TypeSafe Jev
+- [ranjan2829/AskJev](https://github.com/ranjan2829/askjev) `★8 · 📚20` — AskJev — Jev autopilot for any website + guard on irreversible clicks (TypeSafe System One, not Claude)
+- [opaielsheikh/typesafe-migration-guard](https://github.com/opaielsheikh/typesafe-migration-guard) `★2 · 📚20` — Automated database migration safety reviewer powered by TypeSafe AI (Jev System One model)
+- [coldteadotai/abide](https://github.com/coldteadotai/abide) `★469 · 📚19` — Make your coding agent abide by all your project rules  - GitHub - coldteadotai/abide: Make your coding agent abide by all your project rules
+- [harshwasan/jev-sentinel](https://github.com/harshwasan/jev-sentinel) `★12 · 📚19` — Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection, approvals, secret scrubbing, task pinning)
+- [eugeniughelbur/jev-engineering](https://github.com/eugeniughelbur/jev-engineering) `★5 · 📚19` — Coding-agent tools on TypeSafe's Jev, measured in public. review-router: caught 13 of 13 CVE fixes a filename rule sent to a quick review. jev-gate: a strict second lock, 0 of 12 dangerous test commands ran where Claude Code's auto mode…
+- [CodeAlive-AI/mastra-jev-moderation](https://github.com/codealive-ai/mastra-jev-moderation) `★6 · 📚18` — Input moderation for Mastra agents on TypeSafe Jev — one file
+- [ilyamk/jev-gmail-ai-spam-filter-and-labeling](https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling) `★21 · 📚17` — JevMail - Self-hosted AI email classifier for Gmail powered by Jev. Create custom labels, organize your inbox, and filter spam with confidence and cost controls.
+- [doronp/jevc](https://github.com/doronp/jevc) `★8 · 📚17` — Compile agent policy prose into deterministic verdict programs: narrow evidence questions for the model, the verdict computed in code. Install: npm i -g jev-compiler
+- [bestagentkits/jev-skillful](https://github.com/bestagentkits/jev-skillful) `★5 · 📚17` — Per-prompt capability router for coding agents: resolves installed skills, MCP servers, agents and commands against your prompt via TypeSafe Jev, and measures whether the injection actually helps.
+- [rashedInt32/jev-gates](https://github.com/rashedint32/jev-gates) `★0 · 📚17` — Six calibrated gates for Claude Code, judged by TypeSafe Jev: rules, scope, intent, done, claims, and commit honesty. Each one escalates, none ever approves.
+- [kiwi0719/jev-edge](https://github.com/kiwi0719/jev-edge) `★41 · 📚16` — Typed-judgment admission control at the traffic edge: three-layer prompt-injection and abuse filter for nginx/OpenResty, powered by TypeSafe Jev. Fail-open, cached, hot-reloadable.
+- [hemanth/pkg-gate](https://github.com/hemanth/pkg-gate) `★0 · 📚16` — Pre-install security gate for npm lifecycle scripts using TypeSafe System One.
+- [klauswg/jev-guard](https://github.com/klauswg/jev-guard) `★36 · 📚15` — Real-time risk triage gateway for exchange deposits and withdrawals — Jev (TypeSafe System One) handles triage only; adjudication stays in deterministic code.
+- [coo-quack/jev-pii-checker](https://github.com/coo-quack/jev-pii-checker) `★2 · 📚15` — CLI that finds PII in text with TypeSafe Jev: presence, sensitivity, and located spans
+- [omkarghugarkar007/actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev) `★2 · 📚15` — Open-source Jev tool-calling authorization gateway for AI agents: deterministic policy, exact-action single-use permits, MCP and HTTP enforcement.
+- [getexcited/stepwarden](https://github.com/getexcited/stepwarden) `★1 · 📚15` — Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
+- [NorbertBodziony/guard-jev](https://github.com/norbertbodziony/guard-jev) `★1 · 📚15` — guard-jev — Comment-moderation playground: paste a comment, Jev decides what to do with it. _TypeScript; ★ 1._
+- [ItisShikhar/gg-friggin-ez](https://github.com/itisshikhar/gg-friggin-ez) `★7 · 📚14` — Fast, drop-in multilingual profanity and toxicity screener for Node.js, powered by System 1 models like TypeSafe AI Jev and Laya. Catches leetspeak, character spacing, and romanized profanity across languages including Kannada, Telugu,…
+- [0xArx/jevegis](https://github.com/0xarx/jevegis) `★2 · 📚14` — Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT.
+- [Red5d/jev-cvss](https://github.com/red5d/jev-cvss) `★2 · 📚14` — Fast CVSS scoring from vulnerability descriptions using Typesafe Jev
+- [ohernandezdev/jevmod](https://github.com/ohernandezdev/jevmod) `★1 · 📚14` — Moderation for communities and apps, powered by Jev (TypeSafe): probabilities per category, thresholds you own. Discord/Telegram/Reddit bots, CLI, Python, npm, HTTP API, MCP.
+- [0x963D/last-exit](https://github.com/0x963d/last-exit) `★0 · 📚14` — A cyberpunk border encounter powered by TypeSafe Jev. Bluff the guard. Inspect the receipts.
+- [tpaulshippy/shady-town](https://github.com/tpaulshippy/shady-town) `★0 · 📚14` — Shady Town: social-deduction party game for the living room TV, moderated by TypeSafe Jev
+- [24601/rh-guard](https://github.com/24601/rh-guard) `★4 · 📚13` — Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks
+- [ClemensSchartmueller/jev-guard](https://github.com/clemensschartmueller/jev-guard) `★3 · 📚13` — jev-guard (ClemensSchartmueller) — No description provided by the repository (auto-discovered, description not yet written)
+- [ndolinschi/cartshield](https://github.com/ndolinschi/cartshield) `★0 · 📚13` — CartShield — SMB checkout fraud disposition via TypeSafe Jev
+- [shivam2003-dev/typesafe-triage-guard](https://github.com/shivam2003-dev/typesafe-triage-guard) `★0 · 📚13` — Three composable judgment pipelines on TypeSafe's Jev: support-ticket triage, observability alert triage, and a deploy-risk gate.
+- [qs-lll/twitter-jev-guard](https://github.com/qs-lll/twitter-jev-guard) `★9 · 📚12` — 使用 TypeSafe Jev 在 X/Twitter 时间线上识别低质量、垃圾和广告帖子，并在文字区域显示醒目的半透明水印。
+- [muratcakmak/jev-guard](https://github.com/muratcakmak/jev-guard) `★7 · 📚12` — Probability-scored guardrails for Claude Code: deny rule-breaking edits and unasked-for deploys, route your docs into each prompt, and check the final answer against the turn's own evidence.
+- [godspede/construct-auto-classifier](https://github.com/godspede/construct-auto-classifier) `★4 · 📚12` — Effect-based safety gate for AI coding agents' shell commands (OpenCode, Antigravity): fast structural rules, then TypeSafe's Jev or a chat model judges what a command does. Certified with Jev at zero dangerous commands allowed.
+- [davertor/jev-slop-guard](https://github.com/davertor/jev-slop-guard) `★3 · 📚12` — Jev Slop Guard — a Chrome extension that scores and stamps AI slop on your X and LinkedIn feeds as you scroll
+- [lambertsj/beatjev](https://github.com/lambertsj/beatjev) `★0 · 📚12` — try to beat jev.
+- [YuanKJing/Jev-as-Policy](https://github.com/yuankjing/jev-as-policy) `★47 · 📚11` — The highly anticipated open-source repository for JEV as Policy enables one-click setup of the simulation environment. Evaluations of Astra + JEV on benchmarks such as RoboTwin will also be released soon.
+- [AskTheWay/dsh-jev-interceptor](https://github.com/asktheway/dsh-jev-interceptor) `★22 · 📚11` — ⚡ Millisecond System-1 judgement for every tool call in DeepSeek Harness — Jev-powered risk classification & evidence-gated auto-approval. Fail-closed by construction. dsh 生态第一个 System-1 决策插件
+- [win4r/jev-security-scan](https://github.com/win4r/jev-security-scan) `★12 · 📚11` — 使用 TypeSafe Jev 审查 Skill 与 MCP 可疑行为 \| Review Agent Skills and MCP code with Jev, static evidence, and explicit coverage gaps
+- [TannerMidd/specpi-jev-guard](https://github.com/tannermidd/specpi-jev-guard) `★9 · 📚11` — specpi-jev-guard - Checks risky shell and file commands with Jev before your agent runs them. #guardrails #coding-agents
+- [jkrup/jeveryword](https://github.com/jkrup/jeveryword) `★5 · 📚11` — Text extraction with Jev: field extraction, PII detection and exact quotes, built on TypeSafe's Jev.
+- [Reindeer-AI/pi-jev-guard](https://github.com/reindeer-ai/pi-jev-guard) `★5 · 📚11` — Check Pi code edits against repository Markdown rules with TypeSafe Jev
+- [Jev Guard](https://guard-jev.vercel.app) `📚11` — Jev Guard - Comment-moderation playground.
+- [Bodila51/muse-jev-playbook](https://github.com/bodila51/muse-jev-playbook) `★22 · 📚10` — Jev decision layer for Muse: a fast, cheap TypeSafe AI gate before expensive agent work — confidence policy, recipes, reference router, honest measurement.
+- [sunil-sadasivan/jevernetes](https://github.com/sunil-sadasivan/jevernetes) `★14 · 📚10` — Live Kubernetes log analysis, contextual investigation, and agent handoff powered by Jev.
+- [antTing/jev-accounts-hub](https://github.com/antting/jev-accounts-hub) `★3 · 📚10` — A multi-account manager and API gateway for TypeSafe / Jev. 一个用于 TypeSafe / Jev 的多账户管理器和 API 网关。交流群：1102910606
+- [CogFlux/opencode-jev-guard](https://github.com/cogflux/opencode-jev-guard) `★2 · 📚10` — OpenCode 2 plugin that sends every shell command (local or via FarHand) to TypeSafe's Jev and asks you first when it leaves files outside the project, installs software globally, changes global settings, is harmful or exposes private data
+- [numerous-com/dgp](https://github.com/numerous-com/dgp) `★0 · 📚10` — Decision Graph Protocol (DGP) by Numerous ApS: open-source contracts for decision-based AI agents, TypeSafe Jev orchestration, guarded actions, and assessment batching.
+
+## Established (cited by 5–9 lists) — 66
+
+- [BerriAI/litellm](https://github.com/berriai/litellm) `★59,945 · 📚9` — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging (Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM)
+- [dark-hxx/jev-safety-gateway](https://github.com/dark-hxx/jev-safety-gateway) `★13 · 📚9` — 位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行
+- [deepansh-saxena/jev-guardrails](https://github.com/deepansh-saxena/jev-guardrails) `★3 · 📚9` — Comparing LLM-as-judge vs TypeSafe Jev for agent guardrails: same rules, same agent, measured on cost, latency, calibration and coverage.
+- [Jhonnyr97/JevGuard](https://github.com/jhonnyr97/jevguard) `★1 · 📚9` — Claude Code + Codex CLI plugin that verifies the agent follows project rules through a System One (Jev) model
+- [phuthuycoding/jev-audit](https://github.com/phuthuycoding/jev-audit) `★1 · 📚9` — AI-powered pre-commit auditor backed by TypeSafe System One (Jev) — blocks secrets, vulns & low-quality code in ~300ms. 79-case test corpus at 100% accuracy.
+- [CaptainCore/captaincore](https://github.com/captaincore/captaincore) `★71 · 📚8` — 👨🏽‍💻 CaptainCore is a command line application for automating WordPress maintenance.
+- [ringzerosec/jev-runtime-security](https://github.com/ringzerosec/jev-runtime-security) `★10 · 📚8` — jev-runtime-security — No description provided by the repository (auto-discovered, description not yet written)
+- [jackie-cqz/dsh-jev-plugin](https://github.com/jackie-cqz/dsh-jev-plugin) `★8 · 📚8` — DeepSeek Harness plugin for TypeSafe Jev: typed decisions, configurable guardrails, and Web UI result cards.
+- [fazlerocks/jev-adblock](https://github.com/fazlerocks/jev-adblock) `★6 · 📚8` — Open-source AI ad blocker for Chrome. No filter lists: TypeSafe AI's Jev model decides what is an ad. Bring your own key.
+- [ursuciprian/reflex](https://github.com/ursuciprian/reflex) `★3 · 📚8` — Pre-execution risk gate for AI coding agents (Claude Code, Codex, opencode, pi, Hermes). Blocks or asks on risky shell commands, guards against prompt injection in what agents read, escalates to System 2 and a human queue. Optional…
+- [jms-dcksn/jev-pii-guardrail](https://github.com/jms-dcksn/jev-pii-guardrail) `★2 · 📚8` — A UiPath coded agent with a custom PII detection guardrail on the LLM boundary, built on the TypeSafe Jev model as a LangChain awrap_model_call middleware.
+- [CMaintz/jev-guard](https://github.com/cmaintz/jev-guard) `★1 · 📚8` — Vets an LLM agent's tool calls through TypeSafe AI's Jev before they run — allow, block, or hold, failing safe on uncertainty.
+- [connectedGraph/claude-jev-warden](https://github.com/connectedgraph/claude-jev-warden) `★1 · 📚8` — Real-time quality gate and Art Director Warden for Claude Code powered by TypeSafe Jev 1.13 non-autoregressive decision model
+- [hraness/algal](https://github.com/hraness/algal) `★19 · 📚7` — ALGAL is a programming language and VM for AI agent programs that wait for approval and leave receipts you can replay.
+- [vynnlee/jev-mail](https://github.com/vynnlee/jev-mail) `★10 · 📚7` — Autonomous 24/7 Zero-Inbox triage for Gmail powered by TypeSafe Jev System One
+- [metalbear-co/jev-auto-approve](https://github.com/metalbear-co/jev-auto-approve) `★9 · 📚7` — Jev PR auto approver.
+- [h0j5bz0adh0-stack/jev-pilot](https://github.com/h0j5bz0adh0-stack/jev-pilot) `★5 · 📚7` — Fast System-1 Decision, Arbitration & Safety Engine for Autonomous AI Agents (Powered by TypeSafe Jev)
+- [0xwhrari/grok-jev-guard](https://github.com/0xwhrari/grok-jev-guard) `★2 · 📚7` — Reviewed on 2026-09-23 at commit 6083fb0 (0.1.0, MIT). AI-assisted source review. No live TypeSafe spend.
+- [liu-x27/XavierJev](https://github.com/liu-x27/xavierjev) `★2 · 📚7` — A decision layer for agent control flow — yes/no, choice and rubric questions answered from one token's probabilities, measured against labelled sets — with a Claude Code permission hook and a trainable local judge
+- [LXBWOW/dsh-completion-supervisor](https://github.com/lxbwow/dsh-completion-supervisor) `★2 · 📚7` — Checks whether a coding agent completion claim is actually true: deterministic evidence gathered in code, one batched Jev assessment, and a pure policy. DSH plugin.
+- [alsoleg89/jev-bouncer](https://github.com/alsoleg89/jev-bouncer) `★1 · 📚7` — Claude Code plugin: a 3-cent bouncer for your agent's shell. Jev typed probabilities auto-allow routine commands, deny destructive ones, and flag prompt injection in tool results.
+- [Robertzu43/system-one-security-triage](https://github.com/robertzu43/system-one-security-triage) `★1 · 📚7` — Recorded comparison of Jev, Terra, and Opus on 100 synthetic security-triage cases, five passes each, with a static inspectable dashboard
+- [Sanoy24/jevpolicy](https://github.com/sanoy24/jevpolicy) `★1 · 📚7` — JevPolicy is an open-source TypeScript decision runtime that turns probabilistic judgments from Jev, accessed through Vercel AI Gateway, into versioned, deterministic, replayable, observable application decisions.
+- [taman-spirit/guardrail-chatbot-jev](https://github.com/taman-spirit/guardrail-chatbot-jev) `★1 · 📚7` — Vietnam - Content safety guardrails for AI chatbots: input, output and conversation checks over one policy file with Jev  - GitHub - taman-spirit/guardrail-chatbot-jev: Vietnam - Content safety guardrails for AI chatbots: input, output and…
+- [celolopes/jev-dev-harness](https://github.com/celolopes/jev-dev-harness) `★0 · 📚7` — Open-source developer harness and runtime safety toolkit for AI coding agents powered by TypeSafe AI / Jev
+- [amanadhav/traderai](https://github.com/amanadhav/traderai) `★4 · 📚6` — Self-hosted AI trading intelligence platform - scoring engine, two-model AI analyst (Claude + TypeSafe Jev), risk engine, discipline guardian, backtester, React dashboard
+- [JoasASantos/Raze](https://github.com/joasasantos/raze) `★3 · 📚6` — Offensive-security agent built on Raze, a System One model in the Jev family — turns target state into typed, calibrated judgments (exploitability, impact, novelty, next action) gated by deterministic validators.
+- [Chorylee7/JEV](https://github.com/chorylee7/jev) `★2 · 📚6` — JEV 调研报告：TypeSafe System One 决策模型与开源对标（含原始核实记录）.
+- [bismawy/pi-jev-eye](https://github.com/bismawy/pi-jev-eye) `★1 · 📚6` — Ultra-lean supervisor for Pi: zero-token regex guardrails, test verification tracking, and TypeSafe Jev semantic slop gate.
+- [7starsseeker/dsh-jev-guard](https://github.com/7starsseeker/dsh-jev-guard) `★0 · 📚6` — DeepSeek Harness (DSH) 执行前安全阀门:bash/pwsh 真正执行前先经静态规则 + TypeSafe Jev 语义判定,破坏性操作按 允许/修正/拦截/上报人工 四态处置,含额度降级与审计日志。
+- [doublerobust/rjif](https://github.com/doublerobust/rjif) `★0 · 📚6` — jif: calibrated if-statements in R via TypeSafe Jev — judgment-based control flow with reliability curves for biostatistics
+- [JakeTheRabbit/HA-Crop-Steering-Jev](https://github.com/jaketherabbit/ha-crop-steering-jev) `★0 · 📚6` — Crop Steering, Jev edition: the HA crop-steering engine with TypeSafe Jev judging every decision across P0-P3, probes, shots, salt and alerts, inside a deterministic safety envelope.
+- [JoaoClemer/jev-lab](https://github.com/joaoclemer/jev-lab) `★0 · 📚6` — O Jev (TypeSafe AI) como guardrail em tempo real e como pré-avaliador de agentes conversacionais de negócio. Next.js + LangChain via Vercel AI Gateway, com estudo de calibração em português.
+- [seb4ez/jevguard](https://github.com/seb4ez/jevguard) `★0 · 📚6` — Deterministic decision runtime, zero-token caching, and certainty calibrator for TypeSafe AI (Jev).
+- [seb4ez/jevguard-mcp](https://github.com/seb4ez/jevguard-mcp) `★0 · 📚6` — Official Model Context Protocol (MCP) server for JevGuard and TypeSafe AI
+- [latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm) `★4,696 · 📚5` — Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify the fix against real traces.
+- [devtooligan/jevscan-evm](https://github.com/devtooligan/jevscan-evm) `★28 · 📚5` — jevscan-evm - Produces a heat map of likely bugs in EVM code. The author's own warning: a proof of concept whose code they did not read.
+- [Nutlope/jev-fraud](https://github.com/nutlope/jev-fraud) `★7 · 📚5` — Use Jev with Kimi K3 for hard classification.
+- [ljedrz/nachalnik](https://github.com/ljedrz/nachalnik) `★5 · 📚5` — A transparent agent runtime in Rust: context, tools, permissions and requests as explicit state. Plus an MCP bridge and a terminal agent.
+- [SamanPandey-in/jevrail](https://github.com/samanpandey-in/jevrail) `★3 · 📚5` — Jev powered pre-execution guard for terminal coding agents
+- [soderlind/jev-comment-triage](https://github.com/soderlind/jev-comment-triage) `★2 · 📚5` — Async Jev-powered WordPress comment triage: background spam, scam/phishing, and toxicity moderation that keeps comment submission fast.
+- [Tomvox444/jev-zk-guard](https://github.com/tomvox444/jev-zk-guard) `★2 · 📚5` — Jev-ZK Guard: Agent → Jev → Policy → ZK fleet control plane
+- [xianggelila177/VideoAdGuard-Jev](https://github.com/xianggelila177/videoadguard-jev) `★2 · 📚5` — Bilibili sponsored-segment detection powered by TypeSafe Jev
+- [codaaiteam/jev-loop-detector](https://github.com/codaaiteam/jev-loop-detector) `★1 · 📚5` — Catch an AI agent stuck in a loop — Jev grades each step progress/repeating/stuck/escalate. Single-file, no build. Use free: jevtypesafeai.com/tools/agent-loop-detector
+- [rudra72r/jev-guard](https://github.com/rudra72r/jev-guard) `★1 · 📚5` — Fast, cheap guardrails for LLM apps, powered by TypeSafe's Jev model
+- [vkpdeveloper/mrsecret](https://github.com/vkpdeveloper/mrsecret) `★1 · 📚5` — Mr. Secret — blurs secrets & PII on any page using TypeSafe AI Jev
+- [yelkhanyergali-sys/jev-guard](https://github.com/yelkhanyergali-sys/jev-guard) `★1 · 📚5` — PI Mono extension for Jev (TypeSafe AI): in-flight terminal pruning (prompt-cache safe) and surgical diff guard
+- [abyakod/JEV_ADK](https://github.com/abyakod/jev_adk) `★0 · 📚5` — Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestrator powered by TypeSafe AI's Jev
+- [BasmaAbouzied0/jev-auto-approve](https://github.com/basmaabouzied0/jev-auto-approve) `★0 · 📚5` — Claude Code hook: Jev (TypeSafe) auto-approves read-only shell commands in milliseconds. Everything else still asks you.
+- [blacksinisterx/jev-guard](https://github.com/blacksinisterx/jev-guard) `★0 · 📚5` — a security decision layer sitting between an AI agent and tool execution
+- [bornakapusta/slop-guard](https://github.com/bornakapusta/slop-guard) `★0 · 📚5` — Guideline-driven code review bot for Ruby: code finds what to inspect, TypeSafe Jev judges it, explicit rules decide what to report
+- [danmana/jev-paints](https://github.com/danmana/jev-paints) `★0 · 📚5` — Tell Jev what to paint and watch it happen, one gesture at a time. TypeSafe's Jev + p5.brush.
+- [dansya-arsana/jev-harness](https://github.com/dansya-arsana/jev-harness) `★0 · 📚5` — Jev (TypeSafe) as the decision layer for Claude Code: permission gate, skill routing, conditional instructions, effort-tiered subagents, context packs. Tested PoC with evals.
+- [FahadArfin/Jev_Unreal](https://github.com/fahadarfin/jev_unreal) `★0 · 📚5` — Typed Jev decisions and a guarded MCP workflow for Unreal Engine editor development.
+- [juanlentino/jev-comment-analysis](https://github.com/juanlentino/jev-comment-analysis) `★0 · 📚5` — Backs the WordPress AI plugin's Comment Moderation with TypeSafe Jev, through Connector for TypeSafe Jev
+- [JularDepick/Jev-Examiner](https://github.com/julardepick/jev-examiner) `★0 · 📚5` — An AI content moderation workflow powered by the (TypeSafe/Jev model)(https://typesafe.ai).
+- [raiharsh88/jev-product-compliance](https://github.com/raiharsh88/jev-product-compliance) `★0 · 📚5` — Screen store products for illegal or policy-risky goods per country with TypeSafe AI's Jev via Vercel AI Gateway. 1M products ≈ $59.
+- [rioriost/rspamd-jev](https://github.com/rioriost/rspamd-jev) `★0 · 📚5` — TypeSafe Jev shadow-evaluation plugin for Rspamd with optional GPT provider comparison
+- [site](https://hemanth.github.io/pkg-gate) `📚5`
+- [site](https://s1s.iar.dev) `📚5`
+- [SupremeDreamZ/jev-fastloop](https://github.com/supremedreamz/jev-fastloop) `★0 · 📚5` — Cheap fail-open semantic edge layer for Jev (TypeSafe System One): decision service + confidence policy + decision logging + blind eval harness + skill router over 1,000+ skills. Stdlib-only Python.
+- [TickerDev/jevfanity](https://github.com/tickerdev/jevfanity) `★0 · 📚5` — Monorepo for jevfanity, a profanity detector using Jev by TypeSafe AI
+- [tx-smitht/jev-focus-guard](https://github.com/tx-smitht/jev-focus-guard) `★0 · 📚5` — Jev Focus Guard: a local Chrome extension that asks Jev (System One) whether page elements are ads or distractions, then hides them.
+- [undeemed/jev-mod](https://github.com/undeemed/jev-mod) `★0 · 📚5` — Jev-powered Discord moderation bot. Configure TypeSafe Jev rules, bring your own API key, and self-host on Cloudflare or Docker.
+- [YuyaForest/JEV-Dual-Spectrum-Phishing-Guardian](https://github.com/yuyaforest/jev-dual-spectrum-phishing-guardian) `★0 · 📚5` — Powered by TypeSafe AI (JEV System One) High-Speed Inference Engine, Fraud and Targeted Phishing Detection / Dual-Spectrum Analysis Platform for Conventional Social Engineering (V-Triad) and Generative AI Spoofing Risks
+- [Zumka1991/jev-telegram-admin](https://github.com/zumka1991/jev-telegram-admin) `★0 · 📚5` — AI moderator for Telegram groups powered by the Jev (TypeSafe System One) decision model
+
+## Emerging (cited by 3–4 lists) — 85
+
+- [AfnanHussain10/Memworthy](https://github.com/afnanhussain10/memworthy) `📚4` — Memworthy - Decide what an AI system should remember: policy-driven memory gating with typed judgments. · Python
+- [BasmaAbouzied0/jev-secret-guard](https://github.com/basmaabouzied0/jev-secret-guard) `📚4` — Claude Code hook that stops your agent from writing, committing or sending secrets. Known keys blocked locally; unknown ones judged by Jev ...
+- [BhavinM/jev-policy-engine](https://github.com/bhavinm/jev-policy-engine) `📚4` — Jev Policy Engine is the first universal Policy-as-Code SDK built for TypeSafe AI's Jev System One model. It allows RevOps, DevOps, and ...
+- [carter1111/jevcore](https://github.com/carter1111/jevcore) `📚4` — jevcore - JevCore Agent — local coding harness \(Jev decisions, Guard hard policy, MCP + CLI\) · JavaScript
+- [codebam/jev-guardrails](https://github.com/codebam/jev-guardrails) `📚4` — Jev-backed guardrails for agent tool calls: library, native OpenCode/Hermes/DeepSeek Harness hooks, and a hosted eval-credit service.
+- [cwjechw98-lang/jev-gates](https://github.com/cwjechw98-lang/jev-gates) `📚4` — Three gates for any coding agent: a deterministic approval gate before irreversible actions, a compl
+- [darrenli6/jev-block-ad](https://github.com/darrenli6/jev-block-ad) `📚4` — An open-source AI ad blocker for Chrome, built on TypeSafe AI's Jev model. No filter lists. Jev looks at each suspicious element ...
+- [david-engelmann/peira](https://github.com/david-engelmann/peira) `📚4` — Benchmarking decision models under attack, starting with Jev, Shieldstral, Prompt Guard 2 and SemIf.
+- [DelvisorLabs/Pyro](https://github.com/delvisorlabs/pyro) `📚4` — Pyro — Self-hosted prompt monitoring with System One Models (auto-discovered, description not yet written)
+- [dgr8akki/intent-guard](https://github.com/dgr8akki/intent-guard) `📚4` — intent-guard - Say what you're working on; get a gentle nudge when you drift to pages that aren't part of it. Chrome extension powered by Jev. · JavaScript
+- [finrod21/jev-transaction-guard](https://github.com/finrod21/jev-transaction-guard) `📚4` — Injection bait inside a transaction memo trips the circuit breaker at 0.99; verdicts and token counts identical across five repeats. jev-latest
+- [Foshowithit/jev-rcos-study](https://github.com/foshowithit/jev-rcos-study) `📚4` — Falsification-first: confidence gating AUC 0.44 (inverted, falsified); 13 of 13 adversarial near-duplicate candidates resisted. jev-1.13.0
+- [frankied003/fraud-jev](https://github.com/frankied003/fraud-jev) `📚4` — Next.js fraud control room demo that scores a stream of fictional payments with Jev and races the same batch against a Claude prompt. no license · TypeScript
+- [frolleks/soter](https://github.com/frolleks/soter) `📚4` — soter — An automated Discord moderation bot, powered by Jev (auto-discovered, description not yet written) ❔
+- [gbesse/jev-brandsafety](https://github.com/gbesse/jev-brandsafety) `📚4` — jev-brandsafety - jev-brandsafety: TypeSafe Jev ecosystem repository. · JavaScript
+- [hemanth/traffic-guard](https://github.com/hemanth/traffic-guard) `📚4` — Node and Python request gate for bot mitigation (header order, HMAC velocity tokens, PoW, honeypots) that optionally escalates to five Jev questions. no license · Python
+- [HiveScaleSystems/jev-guard](https://github.com/hivescalesystems/jev-guard) `📚4` — AI chat moderation for Minecraft (Paper/Folia) and Hytale servers, powered by TypeSafe's Jev model.
+- [Infrawrench/Jeeves](https://github.com/infrawrench/jeeves) `📚4` — Twitch/Discord moderation rules in plain English, powered by Jev and Gemini ★ 1 · endpoint · Rust
+- [JevForge/jev-security-sentinel](https://github.com/jevforge/jev-security-sentinel) `📚4` — Gate SAST, SCA, IaC, secrets, and container findings with Jev. Returns PASS, WARN, BLOCK, or REVIEW
+- [kallurayaankit/jev-safety-gate](https://github.com/kallurayaankit/jev-safety-gate) `📚4` — Safety layer that gates AI agent actions using Jev (TypeSafe AI)
+- [lamhotsiagian/jev-model-labs](https://github.com/lamhotsiagian/jev-model-labs) `📚4` — Companion code for Engineering Decision Systems with JEV (AI Engineering Insider). A production-style toolkit (jevkit) plus eleven hands-on labs, one per chapter, ...
+- [loicrg/jev-spam-lab](https://github.com/loicrg/jev-spam-lab) `📚4` — jev-spam-lab - loicrg/jev-spam-lab - CLI for evaluating Microsoft Outlook email with TypeSafe AI’s Jev model.
+- [Mazukriez/Jev-AI-Model-Security-protection-tool](https://github.com/mazukriez/jev-ai-model-security-protection-tool) `📚4` — Jev AI Model (Typesafe.ai) security protection and vulnerability scanner tools
+- [meksof/spam-detector](https://github.com/meksof/spam-detector) `📚4` — spam-detector - A spam classifier - using system-one -&gt; system-two architecture. · Python
+- [Milo318/mailordinal](https://github.com/milo318/mailordinal) `📚4` — Decision-native enterprise inbox: typed AI signals, deterministic priority policy, confidence-aware routing.
+- [MrDesjardins/jev-send-guard](https://github.com/mrdesjardins/jev-send-guard) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [navidkashani/jev-guard](https://github.com/navidkashani/jev-guard) `📚4` — Spam protection for WordPress comments, reviews and Contact Form 7 using the Jev decision model (independent, unaffiliated)
+- [NieXi/agent-guard](https://github.com/niexi/agent-guard) `📚4` — TypeSafe AI driven agent tool execution guard for Claude Code hooks
+- [pablozr/JevGuard](https://github.com/pablozr/jevguard) `📚4` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [phin-tech/pi-jev-approver](https://github.com/phin-tech/pi-jev-approver) `📚4` — Shell command safety gate for the Pi coding agent, backed by TypeSafe's Jev judgment model
+- [ppradyoth/jev-guard](https://github.com/ppradyoth/jev-guard) `📚4` — Static code scanner (SAST linter) that finds insecure usage of Jev / TypeSafe guardrails in Python.
+- [serejkaaa512/jev-content-guard-ext](https://github.com/serejkaaa512/jev-content-guard-ext) `📚4` — background.js proxies analysis to with model jev-latest. Seven typed noul questions per text block.
+- [site](https://coo-quack.github.io/jev-pii-checker) `📚4` — Documentation site (getting started, categories, limitations).
+- [site](https://jevbest.com) `📚4` — Subscribe it to checkout.session.completed and checkout.session.async_payment_succeeded, then save its signing secret as STRIPE_WEBHOOK_SECRET. The production site is served at jevbest.com.
+- [slateeho/jevlet](https://github.com/slateeho/jevlet) `📚4` — Jev-powered System One operator for Kubernetes: observable, typed, policy-gated cluster decisions and automated remediation.
+- [suffro/decguard](https://github.com/suffro/decguard) `📚4` — Reliability testing for probabilistic AI decisions in system-one-models.
+- [syabdulr/responsible-ai-harness](https://github.com/syabdulr/responsible-ai-harness) `📚4` — A model-agnostic, Jev-first Responsible AI harness for assessing AI systems for prompt injection, se
+- [tsnAnh/pikachu](https://github.com/tsnanh/pikachu) `📚4` — Curated Pi coding agent configuration with Jev compaction, LSP, subagents, plan mode, safety tools, and autom…
+- [weiping/jev-pi](https://github.com/weiping/jev-pi) `📚4` — Jev for pi: TypeSafe System One judgments in the agent loop — permission gate, output ladder, condit
+- [Yasir-Khan-7/jev-sentinel](https://github.com/yasir-khan-7/jev-sentinel) `📚4` — Prompt injection protection & tool-call guardrails for LangChain / LangGraph AI agents. Screens tool outputs, gates risky tool calls (allow / human review / block), powered by TypeSafe Jev.
+- [979569650/dsh-typesafe](https://github.com/979569650/dsh-typesafe) `📚3` — TypeSafe Jev (System One decision model) as a decision layer for DeepSeek Harness: typed decisions,
+- [abinashray008/fraud-classifier](https://github.com/abinashray008/fraud-classifier) `📚3` — Real-time card-transaction fraud classifier: Jev (System One) with an optional LLM investigation tier.
+- [akanksha-rajhans-ai/diffguard](https://github.com/akanksha-rajhans-ai/diffguard) `📚3` — diffguard - Probabilistic pull-request risk triage using Jev and deterministic review policy. · TypeScript
+- [ashp15205/decision-guard](https://github.com/ashp15205/decision-guard) `📚3` — Security & calibration middleware for System 1 AI models like jev & laya
+- [benpchandler/drift-guard](https://github.com/benpchandler/drift-guard) `📚3` — drift-guard - Use Jev \(TypeSafe AI\) with Claude Code and Codex: hooks that warn when you or your agent drift off task · Python
+- [bhanuprakashk90-tech/jev-agent-guardrail](https://github.com/bhanuprakashk90-tech/jev-agent-guardrail) `📚3` — jev-agent-guardrail — A real-time safety guardrail and interactive monitoring dashboard for AI agent tool calls powered by TypeSafe AI's Jev model." (auto-discovered, description not yet written)
+- [catpotd/agy-jevgate](https://github.com/catpotd/agy-jevgate) `📚3` — Fail-closed PreToolUse safety hook for Antigravity shell commands using TypeSafe Jev.
+- [DhanushNehru/jev-sec-audit](https://github.com/dhanushnehru/jev-sec-audit) `📚3` — Lightning-fast AI supply chain security auditor using Jev (System 1 models). Catch typosquatting and
+- [dubinc/dub](https://github.com/dubinc/dub) `📚3` — Dub Jev Malicious Link Check - Link attribution platform that screens destination URLs with Jev when links are created.
+- [gbesse/jev-pii](https://github.com/gbesse/jev-pii) `📚3` — Inventory personal data with local checks first and optional column-level semantic classification.
+- [hcl-z/jev-guard](https://github.com/hcl-z/jev-guard) `📚3` — Blocks agent file changes that violate your repo's own docs/constraints.md, before they la
+- [Helicon1968/tb-spam-guard](https://github.com/helicon1968/tb-spam-guard) `📚3` — Thunderbird add-on that flags phishing mail impersonating Japanese organizations. Optional TypeSafe Jev support.
+- [JevForge/jev-cloud-cost-guardian](https://github.com/jevforge/jev-cloud-cost-guardian) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit 6b599c3. AI-assisted README + Action/src/core/jev inspection. Offline tests not re-run here.
+- [jimbobbennett/typesafe-guardrails](https://github.com/jimbobbennett/typesafe-guardrails) `📚3` — Rebuilding the $1 Chevy Tahoe jailbreak, then stopping it: TypeSafe System One as a guardrail in an
+- [jms-dcksn/uipath-jev-guardrail-connector](https://github.com/jms-dcksn/uipath-jev-guardrail-connector) `📚3` — UiPath bring-your-own-guardrail connector backed by the TypeSafe Jev System One model: plain-languag
+- [jonny5isalive5/jev-fraud-shield](https://github.com/jonny5isalive5/jev-fraud-shield) `📚3` — Explainable, real-time card-fraud triage built on TypeSafe's Jev API -- self-hosted, per-factor deci
+- [justinfrevert/jev-agent-safety](https://github.com/justinfrevert/jev-agent-safety) `📚3` — jev-agent-safety - jev-agent-safety: TypeSafe Jev ecosystem repository. · Python
+- [Kelp710/moderation-jev](https://github.com/kelp710/moderation-jev) `📚3` — Next.js pre-send chat checker that asks Jev four questions per keystroke pause and blocks or flags the message by thresholds in code. no license · TypeScript
+- [knowlet/JevGuard-NSFA](https://github.com/knowlet/jevguard-nsfa) `📚3` — Experimental System One implementation of the SingGuard-NSFA agent-security taxonom.
+- [koppert/opencode-security-guard](https://github.com/koppert/opencode-security-guard) `📚3` — Reviewed 2026-09-24 (Europe/Sofia) at commit ee9df2f (MIT). AI-assisted source review. No live TypeSafe spend.
+- [kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness) `📚3` — Tame your AI coding agents with natural language. Generate enforced guardrails (CLAUDE.md, hooks, settings) from a single command.
+- [maxvaega/gmail-jev-guard](https://github.com/maxvaega/gmail-jev-guard) `📚3` — JevGuard — estensione Chrome MV3 che mostra nella lista di Gmail la probabilita' che un messaggio si
+- [Muriel-Gasparini/ban4life](https://github.com/muriel-gasparini/ban4life) `📚3` — Autonomous anti-spam and moderation engine for WhatsApp groups powered by TypeSafe Jev System-1 judg
+- [namazso/windows-privacy-by-jev](https://github.com/namazso/windows-privacy-by-jev) `📚3` — Windows 11 privacy and security settings as graded by Jev.
+- [Octapull/jev-guardrail](https://github.com/octapull/jev-guardrail) `📚3` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [oiupoyt/jev-8ball](https://github.com/oiupoyt/jev-8ball) `📚3` — inferred / routing-guardrails — ⭐0
+- [ordepas/system1-fraud-interceptor-demo](https://github.com/ordepas/system1-fraud-interceptor-demo) `📚3` — Demo de un interceptor de fraude simulado que compara en paralelo un modelo Sistema 1 (Jev, TypeSafe AI) con un LLM (Gemini) ...
+- [paschyz/jev-ticket-moderator](https://github.com/paschyz/jev-ticket-moderator) `📚3` — AI-powered ticket decision system using Jev via OpenRouter to classify tickets…
+- [paulgoodchild/SkillsCheck](https://github.com/paulgoodchild/skillscheck) `📚3` — Check AI agent skills for malicious or unsafe instructions using System One classifiers such as Jev
+- [prakash7474/Jev_guard](https://github.com/prakash7474/jev_guard) `📚3` — Jev Guard is a real-time Windows process monitoring application powered by TypeSafe's Jev AI model.
+- [prestonkakukdev/Jev-Defense](https://github.com/prestonkakukdev/jev-defense) `📚3` — A Jev-powered security guard for AI agents: blocks dangerous tool calls, strips prompt injection, sc
+- [randilt/jev-policies](https://github.com/randilt/jev-policies) `📚3` — PoC: an AI Gateway guardrail policy for WSO2 API Platform, backed by TypeSafe AI's Jev model
+- [raniellimontagna/jev-guard-mcp](https://github.com/raniellimontagna/jev-guard-mcp) `📚3` — A guarded MCP layer for Jev-powered browser decisions with isolated Playwright execution and explicit human approval.
+- [RavenRepo/jevengineeringgate](https://github.com/ravenrepo/jevengineeringgate) `📚3` — Calibrated decision layer and risk gate for AI coding agents. Routes yes/no, routing and scoring jud
+- [san3ncrypt3d/jev-security-prioritization](https://github.com/san3ncrypt3d/jev-security-prioritization) `📚3` — Reproducible experiment: can TypeSafe's Jev decision model prioritize SCA and SAST findings from con
+- [sheshisheri-hi/jev-vs-llm-stock-policy](https://github.com/sheshisheri-hi/jev-vs-llm-stock-policy) `📚3` — jev-vs-llm-stock-policy - Side-by-side showcase: traditional LLM vs TypeSafe Jev \(System One\) on stock order policy decisions · Python
+- [site](https://24601.github.io/rh-guard) `📚3`
+- [taruo/jev-adblocker](https://github.com/taruo/jev-adblocker) `📚3` — jev in:name created:2026-09-18..2026-09-19
+- [tfolkman/jev-village](https://github.com/tfolkman/jev-village) `📚3` — simulated villagers: wording of the criteria alone flipped correct behaviour to incorrect across the whole population. jev-1.13.0
+- [uilhamello/jev-sanitizer](https://github.com/uilhamello/jev-sanitizer) `📚3` — jev in:name created:2026-09-26..2026-09-27
+- [vinaychawla-ops/jev-adk-guardrail-example](https://github.com/vinaychawla-ops/jev-adk-guardrail-example) `📚3` — Jev (TypeSafe decision model) as a risk guardrail inside a Google ADK agent's before_tool_callback.
+- [vstrofago/vigia](https://github.com/vstrofago/vigia) `📚3` — Moderating live-stream chat in real time (ES/EN)
+- [xAndreiLi/pi-jev-wiki](https://github.com/xandreili/pi-jev-wiki) `📚3` — Agent managed wiki for a project's conceptual space, utilizing Jev to ensure legitmate, relevant, and robust …
+- [yousan/openclaw-jev-leakguard](https://github.com/yousan/openclaw-jev-leakguard) `📚3` — Jev × OpenClaw: stop your agent from posting client names, credentials and internal details to the wrong channel. Judged by Jev — or by Kev on your own machine.
+- [YuyaForest/JEV-Prompt-Injection-Guardian](https://github.com/yuyaforest/jev-prompt-injection-guardian) `📚3` — JEV Prompt Injection Guardian is a prompt injection quarantine and risk-scoring system for LLMs powe
+
+## Long tail (cited by 1–2 lists) — 204
+
+<details><summary>Show 204 long-tail entries</summary>
+
+- [abdulnazeer-ai/gmail-ai-spam](https://github.com/abdulnazeer-ai/gmail-ai-spam) `📚2` — AI-powered Gmail spam detector using Jev's Structured Decision Model, Streamlit, and Gmail API.
+- [acarbone/PII-Detector](https://github.com/acarbone/pii-detector) `📚2` — PII Detector PoC using TypeSafe AI model Jev
+- [akhilkoduriak/jev-claim-processor](https://github.com/akhilkoduriak/jev-claim-processor) `📚2` — Insurance claim triage console using TypeSafe AI's Jev model, with rule-based fallback, policy rules
+- [akras14/jevbro](https://github.com/akras14/jevbro) `📚2` — Command-line browser agent: Jev picks every action, a small LLM only writes text.
+- [alebgl77/openspanguard](https://github.com/alebgl77/openspanguard) `📚2` — Make AI quality observable. OpenTelemetry trace enrichment, Jev evaluation, streaming dedu
+- [Alisson-P/vulnerability-management-jev](https://github.com/alisson-p/vulnerability-management-jev) `📚2` — Public preview of the typed-decision variant (Jev) of my vulnerability management project: three pri
+- [alsoleg89/jev-guard](https://github.com/alsoleg89/jev-guard) `📚2` — Claude Code plugin: a 3-cent bouncer for your agent's shell. Jev typed probabilities auto-allow routine commands, deny destructive ones, and flag prompt…
+- [altanapps/security-sandbox-jev](https://github.com/altanapps/security-sandbox-jev) `📚2` — security-sandbox-jev - security-sandbox-jev: TypeSafe Jev ecosystem repository. · Python
+- [apuravmanhas/chronos](https://github.com/apuravmanhas/chronos) `📚2` — A TypeScript decision runtime that wraps Jev's probabilistic AI outputs with strict deterministic guardrails and tamper-evident audit logs
+- [arturobermejo/semcheck](https://github.com/arturobermejo/semcheck) `📚2` — Semantic linter for Go. Write rules as questions in plain English; the AST decides where to look, a model decides if the ...
+- [aseemprasad/jevguard](https://github.com/aseemprasad/jevguard) `📚2` — JevGuard : Deterministic Runtime Governance, Reliability & Evaluation Engine for Structured AI Systems
+- [ashrafumair111-lab/JEV-AI-QUIKSTART](https://github.com/ashrafumair111-lab/jev-ai-quikstart) `📚2` — jevlang OR jev.ai in:name,description created:
+- [barretts/sf-pi-jev-like-rlcd-guardrails](https://github.com/barretts/sf-pi-jev-like-rlcd-guardrails) `📚2`
+- [bharath-ramaprasad/infra-guardian](https://github.com/bharath-ramaprasad/infra-guardian) `📚2` — infra-guardian - Infra guardian to protect downstream resources and gracefully handle system degradation at scale · TypeScript
+- [bhavinm/jev-policy-studio](https://github.com/bhavinm/jev-policy-studio) `📚2` — jev-policy-studio - jev-policy-studio: TypeSafe Jev ecosystem repository. · Python
+- [bitsocialnet/ai-moderation-challenge](https://github.com/bitsocialnet/ai-moderation-challenge) `📚2` — Automatic PKC challenge that moderates Bitsocial comments with an OpenAI-compatible model endpoint. Automatically matched explicit Jev and TypeSafe/System One…
+- [blackbuck/paste-guard](https://github.com/blackbuck/paste-guard) `📚2` — Warns when a password, API key, access token or private key is about to leave your machine
+- [braustin20/pi-jev-guard](https://github.com/braustin20/pi-jev-guard) `📚2` — A Jev-powered safety gate for Pi tool and shell calls Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [coo-quack/sensitive-canary](https://github.com/coo-quack/sensitive-canary) `📚2` — Use it to gate text you were already sending to a model or pipeline for PII categories and sensitivity before export. Prefer a local-only guard when data must…
+- [coopdloop/jev-vulnops](https://github.com/coopdloop/jev-vulnops) `📚2` — inference demo of using jev for reasoning
+- [ctsstc/typesafe-ai-uptech-bagel-policy](https://github.com/ctsstc/typesafe-ai-uptech-bagel-policy) `📚2` — Describe a bagel and TypeSafe's Jev model rules on it under the Uptech Studio Bagel Policy. Made by
+- [cyber-security-dev-dep-mitake-com-tw/jef](https://github.com/cyber-security-dev-dep-mitake-com-tw/jef) `📚2` — jev-alternatives
+- [debasishhh/jevguard](https://github.com/debasishhh/jevguard) `📚2`
+- [deepansh-saxena/jev-voice-guardrail](https://github.com/deepansh-saxena/jev-voice-guardrail) `📚2` — Relay Guardrail Lab: a local Azure Realtime voice guardrail prototype comparing TypeSafe Jev and str
+- [entscheidung-bot/jev-security-posture](https://github.com/entscheidung-bot/jev-security-posture) `📚2` — Executive Security Posture Architecture and Report Engine powered by Jev…
+- [galinauskas/jev-harness](https://github.com/galinauskas/jev-harness) `📚2` — A demo coding agent that uses TypeSafe’s Jev to route each task to an OpenRouter model
+- [gbesse/reflex-godot](https://github.com/gbesse/reflex-godot) `📚2` — Godot 4.7 addon for guarded finite NPC decisions, a playable market and replay checks.
+- [goulinkh/omp-semantic-policy](https://github.com/goulinkh/omp-semantic-policy) `📚2` — oh-my-pi plugin that compiles project instructions into policy rules and checks each agent action against them, using Jev for semantic evaluation. no license ·…
+- [gurkirat309/JEV_COMMAND_GUARD](https://github.com/gurkirat309/jev_command_guard) `📚2` — JEV\_COMMAND\_GUARD - JEV\_COMMAND\_GUARD: TypeSafe Jev ecosystem repository. · JavaScript
+- [hfnissum-byte/jevmerge](https://github.com/hfnissum-byte/jevmerge) `📚2` — observed / routing-guardrails — ⭐0
+- [hteariH/stopspam-jev-bot](https://github.com/htearih/stopspam-jev-bot) `📚2` — StopSpam - Telegram bot that removes spam and scam messages from group chats on calibrated-confidence classification.
+- [igrosny/choola](https://github.com/igrosny/choola) `📚2` — choola - Python framework for building automations with AI coding agents — single-file nodes, JSON payloads, built-in LLM cost guardrails. · Python
+- [jeremymungai/jev-security-playground](https://github.com/jeremymungai/jev-security-playground) `📚2` — Jev experiments for SOC triage, phishing, BEC, and prompt-injection defense.
+- [Jev and AI agent security — Product with Attitude](https://karozieminski.substack.com/p/jev-ai-agent-security) `📚2` — . Jev and AI agent security — Product with Attitude — How to separate Jev's risk judgments from permissions, policy enforcement, and human review in AI agent…
+- [jev-ai/jev-model](https://github.com/jev-ai/jev-model) `📚2` — jevlang OR jev.ai in:name,description created:
+- [JoelGeyerWork/jev-guard](https://github.com/joelgeyerwork/jev-guard) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [JosephOIbrahim/Synapse](https://github.com/josephoibrahim/synapse) `📚2` — Synapse Jev guard seam · JosephOIbrahim · GitHub · ⭐ 10 repo · 2026-02-06Build-time guard nodes in the development harness of a Houdini AI assistant: Jev…
+- [Luv1881/jev-guardrails](https://github.com/luv1881/jev-guardrails) `📚2` — jev in:name created:2026-09-22..2026-09-23
+- [mooshee/typesafe-jev-keys](https://github.com/mooshee/typesafe-jev-keys) `📚2` — Create and manage TypeSafe Jev API keys from your terminal.
+- [mttcnnng/jev-tsla-demo](https://github.com/mttcnnng/jev-tsla-demo) `📚2` — Vanilla JS demo that puts Jev judgments between a TSLA moving-average rule and an explicit position policy, showing request and answers on screen. MIT ·…
+- [neostryder/mercury](https://github.com/neostryder/mercury) `📚2` — Semantic email filtering for rpgm.tools - Loremaster-reviewed spam/phishing triage via ForwardEmail webhooks
+- [notdogus/ai-adblocker](https://github.com/notdogus/ai-adblocker) `📚2`
+- [onehopeA10/jev-x-spam-filter](https://github.com/onehopea10/jev-x-spam-filter) `📚2` — Chrome extension that hides crypto-shill and porn spam replies under X posts using local rules first, then Jev via Vercel AI Gateway for unclear cases. no…
+- [plenoai/pleno-anonymize](https://github.com/plenoai/pleno-anonymize) `📚2` — Small Language Model(SLM) for PII Detect and Anonymize
+- [prakashkagitha/djev](https://github.com/prakashkagitha/djev) `📚2` — Deterministic Jev: Jev-compatible System One decisions that repeat bit for bit (SGLang + patches), with replay tests and a guardrail suite
+- [Project Name](https://github.com) `📚2` — Short description.
+- [psyb0t/vibecheck](https://github.com/psyb0t/vibecheck) `📚2` — Turn messy state into typed, auditable classifications, scores, and policy decisions over
+- [raulahumada/security-jev](https://github.com/raulahumada/security-jev) `📚2` — Reusable GitHub workflow combining Gitleaks and npm audit with Jev security and quality questions to comment on and block PR merges. no license · TypeScript
+- [rchandnaWUSTL/auto-guard](https://github.com/rchandnawustl/auto-guard) `📚2` — Asks for human approval, with a larger model's one-line reasoning, whenever Jev isn't confident in an agent's next action.
+- [Reverie0123/crush-monitor-universal](https://github.com/reverie0123/crush-monitor-universal) `📚2`
+- [riz007/jev-guard](https://github.com/riz007/jev-guard) `📚2` — jev in:name created:2026-09-18..2026-09-19
+- [sapoepsilon/wazuh-security-analyst](https://github.com/sapoepsilon/wazuh-security-analyst) `📚2` — Always-on Wazuh alert analyst: local-model triage via Pi, optional Jev gating, Telegram approvals, bounded timed firewall response
+- [sathariels/jev-guard](https://github.com/sathariels/jev-guard) `📚2` — inferred / routing-guardrails — ⭐0
+- [scott-the-programmer/system1-guard](https://github.com/scott-the-programmer/system1-guard) `📚2` — Guardrails based on Jev, Typescript.AI's System One model
+- [shibammitra24/jev-guard](https://github.com/shibammitra24/jev-guard) `📚2` — jev in:name created:2026-09-24..2026-09-25
+- [shubs5758/jev-guard](https://github.com/shubs5758/jev-guard) `📚2` — jev in:name created:2026-09-20..2026-09-21
+- [site](https://system-one-security-triage.rzuniga-9b4.workers.dev) `📚2`
+- [SoniaMehta14/paved-gate](https://github.com/soniamehta14/paved-gate) `📚2` — Fast System 1 ingestion gate for AI agent architectures: typed safety, routing, and necessity checks before anything reaches a frontier model.
+- [suryanshu-singh/capbroker](https://github.com/suryanshu-singh/capbroker) `📚2`
+- [tannermidd.github.io/specpi-jev-guard](https://tannermidd.github.io/specpi-jev-guard) `📚2` — Docs site: tannermidd.github.io/specpi-jev-guard (devious/red-team pages).
+- [tea1013/jev-guard](https://github.com/tea1013/jev-guard) `📚2` — Go CLI that asks Jev whether a shell command risks data loss or secret leaks and prompts for confirmation before running it. no license · Go
+- [Tlkh201313/fusion-jev](https://github.com/tlkh201313/fusion-jev) `📚2` — Local coding evidence and optional guarded TypeSafe Jev choices for MCP hosts.
+- [tomita-anri/jev-ad-blocker](https://github.com/tomita-anri/jev-ad-blocker) `📚2` — A Chrome extension that uses Jev to identify and remove only ads from a page.
+- [trifleen/jev-vs-luna-phishing](https://github.com/trifleen/jev-vs-luna-phishing) `📚2` — Phishing email triage: TypeSafe Jev 1.13 vs GPT-5.6 Luna on 100 labelled emails, accuracy, speed and
+- [TryJevAI](https://tryjevai.com) `📚2` — Scheduling: distinguishes a mentioned time from an agreed meeting time with a Choice that includes Unresolved, prompting for clarification when the agreement…
+- [veronalabs/spamlens](https://github.com/veronalabs/spamlens) `📚2` — Spam protection for WordPress comments, reviews and Contact Form 7 using the Jev decision model (independent, unaffiliated)
+- [vlados/laravel-spam-guard](https://github.com/vlados/laravel-spam-guard) `📚2` — Content-based spam detection and review decisions for Laravel, powered by TypeSafe Jev.
+- [Wei-Shaw/sub2api](https://github.com/wei-shaw/sub2api) `📚2` — Sub2API · JEV Moderation · 42.4K stars — A subscription-to-API gateway with a native TypeSafe client for content moderation. Source
+- [yinjf2005/econpaper-architect-jev-v1.0.1](https://github.com/yinjf2005/econpaper-architect-jev-v1.0.1) `📚2` — EconPaper Architect is an architect skill tailored for economic academic papers (journal submissions, dissertations, working papers, and policy research).
+- [abishakkodi/jev-moderation](https://github.com/abishakkodi/jev-moderation) `📚1` — TypeScript and Python SDKs for Jev message moderation with custom policies and evaluation
+- [actions-marketplace-validations/JevForge_jev-cloud-cost-guardian](https://github.com/actions-marketplace-validations/jevforge_jev-cloud-cost-guardian) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [actions-marketplace-validations/JevForge_jev-security-sentinel](https://github.com/actions-marketplace-validations/jevforge_jev-security-sentinel) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [AI-assisted article policy](https://dev.to/guidelines-for-ai-assisted-articles-on-dev) `📚1` — DEV: the existing DEVTO_DRAFT.md is unpublished and AI-assisted. DEV's AI-assisted article policy requires disclosure and factual review and rejects…
+- [alexmarqs/zod-config](https://github.com/alexmarqs/zod-config) `📚1` — Load configuration variables from multiple sources with flexible adapters, ensuring type safety with
+- [amhoba/channelify](https://github.com/amhoba/channelify) `📚1` — A Go-style channel implementation for TypeScript, designed for type safety and seamless in
+- [anessbelbati/prompt-injection-vs-keyword-stuffing-ai-seo](https://github.com/anessbelbati/prompt-injection-vs-keyword-stuffing-ai-seo) `📚1` — Does prompt injection or keyword stuffing push a wrong page up AI search rankings? One add
+- [AngaBlue/express-zod-safe](https://github.com/angablue/express-zod-safe) `📚1` — Typesafe middleware designed for Node.js applications, leveraging the robustness of Zod schemas to v
+- [Anjali-Kedia/gatehouse](https://github.com/anjali-kedia/gatehouse) `📚1` — A Jev-powered policy gateway that checks an AI agent's proposed actions before executing t
+- [aquental/jev-guardrail](https://github.com/aquental/jev-guardrail) `📚1` — A safety guardrail that screens a user message against an assistant's policy before the as
+- [arnavprabhu/Model-Guard](https://github.com/arnavprabhu/model-guard) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [arvid-berndtsson/typesecure](https://github.com/arvid-berndtsson/typesecure) `📚1` — Data classification, redaction, and runtime policies for handling secrets and personal dat
+- [AWS fraud detection patterns](https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-frauddetector.html) `📚1` — risk scores feeding explicit review rules. The Jev example is not a replacement for trained fraud detection.
+- [Back Not Prop: "Jev Jailbreak Benchmark" (2026-09-20)](https://backnotprop.com/blog/jev-guardrails) `📚1` — Jev (jev-1.13.0, one Noul question per item, wording fixed before the first run) vs four open prompt-injection classifiers (PIGuard, Prompt Guard 2, ProtectAI…
+- [BubbatheVTOG/pi-jev-tool-guard](https://github.com/bubbathevtog/pi-jev-tool-guard) `📚1`
+- [canyuda/agent-guard](https://github.com/canyuda/agent-guard) `📚1`
+- [Captain-Sangam/bonk](https://github.com/captain-sangam/bonk) `📚1` — A Jev-powered character reaction engine wrapped around a playful macOS input guard.
+- [Card](https://huggingface.co/datasets/deepset/prompt-injections/tree/4f61ecb038e9c3fb77e21034b22511b523772cdd) `📚1` — ; conflicting nestedCC-BY4.0/topApache2.0
+- [centerforaisafety/HarmBench](https://github.com/centerforaisafety/harmbench) `📚1` — Separate test generation, target completion and scoring
+- [Cloudflare's privacy explanation](https://developers.cloudflare.com/web-analytics/data-metrics/privacy) `📚1` — The beacon is third-party code that Cloudflare can update. A strict allowlist limits its source but cannot remove that supply-chain trust. The loader fails…
+- [CryptoOda/typesafe-guard](https://github.com/cryptooda/typesafe-guard) `📚1` — Python guardrail library and ASGI middleware checking prompt injection, jailbreak, PII and secrets in one Jev request, with a 50-sample benchmark. MIT · Python
+- [cwhy/decision-injection-bench](https://github.com/cwhy/decision-injection-bench) `📚1` — injection attacks on four classifiers: Jev flipped on 1 (0.09%), the others on 3.0% to 62.6%. jev-1.13.0 · n=1,056 attacks
+- [cydevo202020/dsh-jev-warden](https://github.com/cydevo202020/dsh-jev-warden) `📚1` — DeepSeek Harness plugin: enforces agent-constraint skills (grill-me / find-simplifications) by judging tool c…
+- [DevMortimer/pi-warden,146,TypeScript,MIT,2026-09-26,2026-09-26](https://github.com/devmortimer/pi-warden,146,typescript,mit,2026-09-26,2026-09-26) `📚1`
+- [dys-org/pi-jev-gate](https://github.com/dys-org/pi-jev-gate) `📚1` — A fail-closed Jev permission gate for Pi
+- [eijiaraki/toxic-filter](https://github.com/eijiaraki/toxic-filter) `📚1`
+- [fallow-rs/fallow-verdict](https://github.com/fallow-rs/fallow-verdict) `📚1` — Structured triage for fallow security candidates using Jev
+- [fdemir/toolgate](https://github.com/fdemir/toolgate) `📚1` — Experimental TypeScript guardrails for agent tool calls, powered by Jev. Execution control
+- [felipeduartea/agent-guard](https://github.com/felipeduartea/agent-guard) `📚1` — PreToolUse guard for Codex, Claude Code and Devin CLI that runs fixed emergency checks, then has Jev judge commands against plain-language policy rules. no…
+- [fffffiii/jev-policylite](https://github.com/fffffiii/jev-policylite) `📚1` — Lightweight multimodal content moderation with multi-head prediction and fast policy-head DPO
+- [fgcoelho/fatima](https://github.com/fgcoelho/fatima) `📚1` — safe secrets from anywhere
+- [Fox-Islam/jev-secrets](https://github.com/fox-islam/jev-secrets) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [furkandrms/jev-rag-guard](https://github.com/furkandrms/jev-rag-guard) `📚1` — A typed-decision accuracy layer for RAG pipelines: rlevance filtering, a pre-generation sufficiency gate and post-generation grounding checks.
+- [Georgakopoulos-Soares-lab/biosafety_knowledge_jev](https://github.com/georgakopoulos-soares-lab/biosafety_knowledge_jev) `📚1`
+- [ggilestro/jevguard-wp](https://github.com/ggilestro/jevguard-wp) `📚1` — WordPress comment spam filter using the jev decisions model on OpenRouter. 120/120 spam caught with
+- [ggilestro/jevguard-wp,0,PHP,,2026-09-22](https://github.com/ggilestro/jevguard-wp,0,php,,2026-09-22) `📚1`
+- [GPU Studio harness](https://gpu.studio/jev) `📚1` — A public comparison UI, but a single reported prompt-injection example is not enough to recommend it as a security filter. No source repository was verified.…
+- [gulbaki/jev-llm-guard](https://github.com/gulbaki/jev-llm-guard) `📚1` — Contextual OWASP LLM guardrail powered by Jev, with a Turkish interactive demo.
+- [hhhapz/typesafe-go](https://github.com/hhhapz/typesafe-go) `📚1` — Go client for the System One endpoint with typed question structs, configurable retry policy and per-attempt timeouts. MIT · Go
+- [hiiamtrong/pi-guardrails](https://github.com/hiiamtrong/pi-guardrails) `📚1` — pi-guardrails - pi-guardrails: TypeSafe Jev ecosystem repository. · TypeScript
+- [HiveScaleSystems/jev-guard,0,Java,,2026-09-26](https://github.com/hivescalesystems/jev-guard,0,java,,2026-09-26) `📚1`
+- [icecodenew/anti-fwd-spam](https://github.com/icecodenew/anti-fwd-spam) `📚1`
+- [imbilawork/jev-demo](https://github.com/imbilawork/jev-demo) `📚1` — Demonstrator for Jev, the typed-decision model: dashboard, CLI and Cloudflare Worker proxy
+- [jahurier/northstar-soc-lab](https://github.com/jahurier/northstar-soc-lab) `📚1` — Free local SOC workbench for reviewing security alerts with typed decisions: import your own alert records, replay saved Jev-style answers, inspect the…
+- [Jalil-g/Immune-Harness](https://github.com/jalil-g/immune-harness) `📚1` — Immune-Harness — Can we stop AI agents from going rogue before they take over the world? Immune Harness is a security layer for AI agents. It checks every tool…
+- [Jeanback1/jevguard-siem](https://github.com/jeanback1/jevguard-siem) `📚1` — Open-source defensive Linux SIEM with deterministic correlation and bounded Jev-assisted triage
+- [jev-guard-demo.onrender.com](https://jev-guard-demo.onrender.com) `📚1` — Demo app under src/jev_guard/demo/; README mentions jev-guard-demo.onrender.com (availability not re-verified).
+- [jevaa-kharthik/cctv-vulnerability-checker](https://github.com/jevaa-kharthik/cctv-vulnerability-checker) `📚1`
+- [JevBench · phishing vs Haiku 4.5](https://jevbench.xyz/benchmarks/phishing-email-detection) `📚1`
+- [jxspam/slop-detector](https://github.com/jxspam/slop-detector) `📚1` — Real-time AI slop detector for your feed, built by AdaL with TypeSafe Jev
+- [KazutoMakino/oniwa](https://github.com/kazutomakino/oniwa) `📚1` — ONIWA: Organic Non-datacenter Intelligence Without Abuse Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need…
+- [khaledhikmat/security-events-analyzer](https://github.com/khaledhikmat/security-events-analyzer) `📚1` — Security Events Analyzer using Jev
+- [kirylka/flue-guard](https://github.com/kirylka/flue-guard) `📚1`
+- [klauswg/jev-guard,37,Java,,2026-09-22](https://github.com/klauswg/jev-guard,37,java,,2026-09-22) `📚1`
+- [kodr-pro/AiWrangler](https://github.com/kodr-pro/aiwrangler) `📚1` — coding guardrail system powered by Jev Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial review.
+- [LightningK0ala/jev-marshal](https://github.com/lightningk0ala/jev-marshal) `📚1` — Semantic PR policy checks powered by Jev.
+- [lukebward/typesafe-aws-policies](https://github.com/lukebward/typesafe-aws-policies) `📚1` — Pulumi CrossGuard policy pack where Python checks AWS resource config and Jev judges whether it exceeds the stated intent, flagging at p >= 0.8. no license ·…
+- [Manacost-Labs/AntiSpamBee](https://github.com/manacost-labs/antispambee) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Mawfyy/guardjev](https://github.com/mawfyy/guardjev) `📚1` — See the linked source for implementation details. Automatically matched explicit Jev and TypeSafe/System One references. Category and claims need editorial…
+- [Mazukriez/Jev-AI-Security-Architecture-](https://github.com/mazukriez/jev-ai-security-architecture-) `📚1` — jevlang OR jev.ai in:name,description created:
+- [midorin-Linux/Jevcord](https://github.com/midorin-linux/jevcord) `📚1` — A spam detector running on Discord using Jev.
+- [miqui/jev-openhands-react-policy-gate](https://github.com/miqui/jev-openhands-react-policy-gate) `📚1` — OpenHands SDK ReAct agent with an enforced Jev policy gate on every tool call: typesafe/jev-1.13 is invoked once per call to answer a go/no-go question plus a…
+- [mjyoke1111/jev-agent-safety-arena](https://github.com/mjyoke1111/jev-agent-safety-arena) `📚1` — Real browser-agent safety evaluation: Jev versus a baseline on benign and injected tasks Automatically matched explicit Jev and TypeSafe/System One references.…
+- [MoonTory/claude-jev-guard](https://github.com/moontory/claude-jev-guard) `📚1` — Claude Code PreToolUse hook that asks Jev five questions about each Bash or edit call and returns allow, ask or deny. no license · TypeScript
+- [nifrajs/nifra-link-safety](https://github.com/nifrajs/nifra-link-safety) `📚1`
+- [NISH1001/reflex-guard](https://github.com/nish1001/reflex-guard) `📚1` — Guardrails built with jev-like models (jev, laya, etc.)
+- [NitrogenT7/kimi-code-security](https://github.com/nitrogent7/kimi-code-security) `📚1` — imi Code JevTriage · NitrogenT7 · GitHub · ⭐ 17 repo · 2026-07-09JevTriage tool in an unofficial security-research variant of the Kimi Code CLI coding agent…
+- [omataak/jev-guardrail-demo](https://github.com/omataak/jev-guardrail-demo) `📚1` — jev in:name created:2026-09-24..2026-09-25
+- [open-sdlc/typesafe-security-review](https://github.com/open-sdlc/typesafe-security-review) `📚1` — Python classifiers, one per OWASP cheat sheet, that score source text with Noul questions, plus a runner that fans a file out to all of them. no license ·…
+- [ozerohax/omp-bash-security](https://github.com/ozerohax/omp-bash-security) `📚1`
+- [pallets/flask](https://github.com/pallets/flask) `📚1` — Collects teardown errors so remaining callbacks and cleanup still run; adds regression coverage.
+- [pateti-hub/laya-browser-guard](https://github.com/pateti-hub/laya-browser-guard) `📚1` — laya-browser-guard — A passive, privacy-first Chrome security copilot that combines deterministic browser-visible checks with local Laya and official Jev typed…
+- [patrickrchao/JailbreakingLLMs](https://github.com/patrickrchao/jailbreakingllms) `📚1` — Authorized iterative red-team methodology, not a Jev app
+- [pawarbi/jev-bias-audit](https://github.com/pawarbi/jev-bias-audit) `📚1` — On a value-laden binary question the first-listed option gains 0.37, which explained most of a 67% preference; on 1,012 BBQ items 98.7% on ambiguous contexts,…
+- [pedroguarderas/mau](https://github.com/pedroguarderas/mau) `📚1` — Decision models with R
+- [perfect7613/sentinel-jev](https://github.com/perfect7613/sentinel-jev) `📚1` — Jev policy gating, bounded activation steering on Modal H100, and FailproofAI traces with
+- [pi](https://pi.dev) `📚1` — Pi; OpenRouter login or OPENROUTER_API_KEY for Jev judgments.
+- [pi.dev 包页](https://pi.dev/packages/pi-warden) `📚1`
+- [prabhatpankaj/typesafe-POC](https://github.com/prabhatpankaj/typesafe-poc) `📚1` — No description provided.
+- [Privacy Policy](https://refix.ai/privacy) `📚1` — Closed source: backend prompts, Jev questions, and scoring were not inspected. The product is a hosted service, so workspace and product data are processed by…
+- [Project](https://xzx34.github.io/jevout) `📚1`
+- [Prompt injection can influence the verdict (VentureBeat)](https://venturebeat.com/security/companies-are-putting-jev-in-charge-of-ai-age) `📚1` — An agent action gate: block probability for rm -rf ~/.ssh fell from 0.76 to 0.48 after a fake pre-approval was injected into tool output.
+- [ProtectAI prompt-injection DeBERTa v2](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2) `📚1` — M DeBERTa returning a binary injection probability, the BERT-style encoder guardrail HN engineers mapped Jev onto.
+- [protectai/llm-guard](https://github.com/protectai/llm-guard) `📚1`
+- [purseclab/kernelcveanalysis](https://github.com/purseclab/kernelcveanalysis) `📚1` — patch Jev filter · purseclab · GitHub · ⭐ 16 repo · 2025-03-01Commit filter in Purdue PurSec Lab's kernel CVE analysis tools that asks Jev security-relevant…
+- [qasimhammad1/applyguard](https://github.com/qasimhammad1/applyguard) `📚1` — Safety-first job application automation with TypeSafe Jev and Browser Use
+- [Ractorrr/Jailbreak-Jev](https://github.com/ractorrr/jailbreak-jev) `📚1` — jev in:name created:2026-09-18..2026-09-19
+- [Ractorrr/Jailbreak_Jev](https://github.com/ractorrr/jailbreak_jev) `📚1` — Experimental project: I am want to test how well Jev can defend Jailbreak attempts on LLMs
+- [Ray0907/security-scan](https://github.com/ray0907/security-scan) `📚1` — Security scanning skill for AI coding agents. CVE vulnerability detection, OWASP Top 10 code analysis, and dependency audits. Follows agentskills.io…
+- [rdrgio/eslint-plugin-nestjs-pii](https://github.com/rdrgio/eslint-plugin-nestjs-pii) `📚1` — No description provided.
+- [Read](https://mrjev.com/projects/devmortimer-pi-warden) `📚1` — Redaction missed the password in a postgres:// URL, and the holds database failed on a fresh machine. Fixed by the maintainer the same day.
+- [Read](https://mrjev.com/projects/sac-y-jev-cu) `📚1` — The policy gate matches a label already truncated to 120 characters, so a long label can hide the word 'delete'.
+- [realZachi/typesafe-adblock,81,JavaScript,MIT,2026-09-17,2026-09-26](https://github.com/realzachi/typesafe-adblock,81,javascript,mit,2026-09-17,2026-09-26) `📚1`
+- [rubichandrap/system-one-guard](https://github.com/rubichandrap/system-one-guard) `📚1` — Calibrated-decision guard for coding agents: Jev (System One) gates state-changing tool calls and do
+- [SakshiKumari271/JevGuard](https://github.com/sakshikumari271/jevguard) `📚1`
+- [san3ncrypt3d/jev-security-prioritization,0,Python,,2026-09-24](https://github.com/san3ncrypt3d/jev-security-prioritization,0,python,,2026-09-24) `📚1`
+- [seb4ez/jevguard-mcp,0,Python,,2026-09-20,Official](https://github.com/seb4ez/jevguard-mcp,0,python,,2026-09-20,official) `📚1`
+- [SecurityMindedSolutions/ai-skills](https://github.com/securitymindedsolutions/ai-skills) `📚1` — Skills that let a coding agent do real work on a codebase: auditing, vulnerability remediation, and unattende…
+- [semanticpolicy/semantic-policy](https://github.com/semanticpolicy/semantic-policy) `📚1` — SemanticPolicy — Alpha .NET 10 library (Apache-2.0) that writes application and agent decisions as Boolean, Choice or Score rules Jev answers, turns the…
+- [seoheejung/spendguard-agent](https://github.com/seoheejung/spendguard-agent) `📚1`
+- [shashnkvats/BYOC](https://github.com/shashnkvats/byoc) `📚1` — Build Your Own Classifier - describe a classification need in plain English and get a hosted, Jev-backed API endpoint for guardrails, agent/skill ...
+- [shricodev/jev-youtube-discord-moderator](https://github.com/shricodev/jev-youtube-discord-moderator) `📚1` — jev ai model used to moderate discord/youtube chat in real time
+- [shubham10divakar/GuardJev](https://github.com/shubham10divakar/guardjev) `📚1` — Jev-family model/tooling repo: GuardJev
+- [shubham10divakar/JailbreakJev](https://github.com/shubham10divakar/jailbreakjev) `📚1` — Jev-family model/tooling repo: JailbreakJev
+- [shubham10divakar/SafetyJev](https://github.com/shubham10divakar/safetyjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/SecretJev](https://github.com/shubham10divakar/secretjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/SpamJev](https://github.com/shubham10divakar/spamjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham10divakar/VulnJev](https://github.com/shubham10divakar/vulnjev) `📚1` — jev in:name created:2026-09-22..2026-09-23
+- [shubham5027/Jev_Guardtrails](https://github.com/shubham5027/jev_guardtrails) `📚1` — Security moderation and policy
+- [sk9911/JEV-CreditFraud](https://github.com/sk9911/jev-creditfraud) `📚1`
+- [Skyvern-AI/destroy-email-spam](https://github.com/skyvern-ai/destroy-email-spam) `📚1` — Gmail triage with Jev: flag urgent mail and archive cold pitches using Google Apps Script.
+- [smilior/kiru-hai-coach](https://github.com/smilior/kiru-hai-coach) `📚1` — iru Hai Coach · smilior · GitHub · 2026-09-19Japanese single-player mahjong coach where Jev picks which tile to discard from a 14-tile hand and explains it by…
+- [taman-spirit/guardrail-chatbot-jev@python](https://github.com/taman-spirit/guardrail-chatbot-jev@python) `📚1`
+- [taman-spirit/guardrail-rag-jev](https://github.com/taman-spirit/guardrail-rag-jev) `📚1` — inferred / routing-guardrails — ⭐0
+- [tecanmol/JevGaurd](https://github.com/tecanmol/jevgaurd) `📚1` — JevGuard uses AI-powered semantic detection to identify and remove advertisements from web
+- [temoncher/dikon](https://github.com/temoncher/dikon) `📚1` — dikon is a tiny TypeScript dependency injection helper for building typed service containers from or
+- [Terms](https://refix.ai/privacy/terms) `📚1` — Paid plans and provider/hosting costs apply. Do not submit confidential material until you have reviewed the Terms and Privacy Policy.
+- [themacdonald/BiasGuard](https://github.com/themacdonald/biasguard) `📚1` — Framework for Model Bias Detection & Mitigation
+- [theruansilva/mcdonalds-jev-guardrail](https://github.com/theruansilva/mcdonalds-jev-guardrail) `📚1` — McDonald's-meme-inspired goal-hijacking guardrail (Portuguese README): Jev gate defends a McDonald's support bot against prompt injection — the meme's "Chicken…
+- [ToyokoLabs/PaperJev](https://github.com/toyokolabs/paperjev) `📚1` — inferred / routing-guardrails — ⭐1
+- [umputun/tg-spam](https://github.com/umputun/tg-spam) `📚1`
+- [vdimarco/rouge-warden](https://github.com/vdimarco/rouge-warden) `📚1`
+- [veronalabs/jev-guard](https://github.com/veronalabs/jev-guard) `📚1` — Spam protection for WordPress comments, reviews and Contact Form 7 using the Jev decision model (independent, unaffiliated)
+- [veronalabs/spamlens,1,PHP,,2026-09-21](https://github.com/veronalabs/spamlens,1,php,,2026-09-21) `📚1`
+- [vkpdeveloper/mrsecret,1,TypeScript](https://github.com/vkpdeveloper/mrsecret,1,typescript) `📚1`
+- [vstrofago/jev-chat-moderator](https://github.com/vstrofago/jev-chat-moderator) `📚1` — Moderating live-stream chat in real time (ES/EN)
+- [What Secure AI Development Looks Like in Practice](https://gerryburde.com/articles/what-secure-ai-development-looks-like-in-practice.html) `📚1` — 🛡️ DevSecOps & Practical AI Safety: What Secure AI Development Looks Like in Practice
+- [WingManJJH/continuum-core](https://github.com/wingmanjjh/continuum-core) `📚1` — Continuum Core — an event-sourced process-to-agent governance model: editable guardrails enforced as a real g…
+- [wzf1997/delivery-harness](https://github.com/wzf1997/delivery-harness) `📚1` — DeliveryGuard · wzf1997 · GitHub · ⭐ 10 · 2026-08-22Evidence-driven delivery gates for coding agents covering specs, acceptance, repairs and releases, with an…
+- [ycs77/omp-jev-auto-approve](https://github.com/ycs77/omp-jev-auto-approve) `📚1` — Use Jev to review and approve OMP tool calls
+- [yonsakhan/x-spam-filter-typesafe](https://github.com/yonsakhan/x-spam-filter-typesafe) `📚1`
+- [YuyaForest/Dual-Spectrum-Phishing-Guardian](https://github.com/yuyaforest/dual-spectrum-phishing-guardian) `📚1`
+- [zachlandes/jev-dialect-bias](https://github.com/zachlandes/jev-dialect-bias) `📚1` — Reproduces Hofmann et al. (Nature 2024) on Jev: as a moderator it removes 17.8% of African American English posts vs 13.1% of matched standard-English ones…
+- [Zafer-Liu/jev-demo-guardrails](https://github.com/zafer-liu/jev-demo-guardrails) `📚1` — LLM input gatekeeper MVP adapted for TypeSafe Jev - jailbreak/injection blocking with calibrated esc
+- [Zafer-Liu/jev-demo-moderator](https://github.com/zafer-liu/jev-demo-moderator) `📚1` — Comment moderation console adapted for TypeSafe Jev - spam/abuse/borderline routing at ~$20 per mill
+
+</details>
