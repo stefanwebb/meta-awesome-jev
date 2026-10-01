@@ -45,13 +45,13 @@
 
 ## Jev-like models in 60 seconds
 
-A Jev-like model is **not a chat model**, and it never writes text. You send it two things in one request:
+A Jev-like, or System One, model is **not a chat model**, and it never writes text. You send it two things in one request:
 - a **state**: the evidence (a string, a JSON object, or an array of text);
 - a map of **typed questions** about that state.
 
 It answers every question **in parallel, in a single call**. Each answer is a **probability distribution** that your code can threshold.
 
-Every model in the family speaks the same `/v1/systemone` wire format. Here is a support ticket with one question of each type:
+Every System One model in the family speaks the same `/v1/systemone` wire format. Here is a support ticket with one question of each type:
 
 ```json
 POST /v1/systemone
@@ -119,15 +119,11 @@ if a["wants_refund"]["noul"] > 0.9 and a["frustration"]["score"] >= 1.5:
 | **Score** | "Where on this ordered scale?" | an `instructions` string and `criteria` as an ordered list of 2–10 levels | `score` (probability-weighted and 0-indexed, so it can fall *between* levels), `legend`, `probabilities`, `confidence` |
 | **Noul** | "Is this true?" | an `instructions` string | `noul`: the probability, from 0 to 1, that the answer is yes. There is no `confidence` field, and 0.5 means "can't tell", not "medium". |
 
-**Mental model:** the model decides, an LLM writes, and code acts. Code owns thresholds, arithmetic, dates and side effects.
-
-**Where this works:** questions are independent of each other, so batch them all into one call. Output is a typed value, so it can't fall outside your option set. Cost scales with input tokens only.
-
 → The [reference for the original model](docs/what-is-jev.md) and the [question-design guide](docs/patterns.md#question-design) go deeper.
 
 ## Quick Start: Jev-like inference for free
 
-**This is how to use a Jev-like model for free.** [Mercury Decide](https://openrouter.ai/inception/mercury-decide:free) is Inception's structured decision model, served on OpenRouter as **`inception/mercury-decide:free`**. Details from its OpenRouter page:
+**This is how to use a Jev-like (System One) model for free.** [Mercury Decide](https://openrouter.ai/inception/mercury-decide:free) is Inception's System One decision model, served on OpenRouter as **`inception/mercury-decide:free`**. Details from its OpenRouter page:
 - **$0 input and $0 output.** Free endpoints are [rate-limited](https://openrouter.ai/docs/api/reference/limits).
 - **32,768-token context.**
 - About **0.42 s p50 latency** and up to ~14 decisions per second.
@@ -192,7 +188,7 @@ print(answers["urgency"]["score"], answers["urgency"]["probabilities"])  # e.g. 
 
 The same lessons show up again and again across the lists. Most measurements were taken on Jev, the first and most-tested model, and are labelled as such. The lessons about *how to build* apply to the whole family. Numbers link to the underlying studies in [docs/evidence.md](docs/evidence.md).
 
-1. **Jev-like models are a decision layer, not a model swap.** The winning architecture is always the same: *code builds the candidates, the decision model picks or scores, code acts*. An LLM is called only for text or open reasoning. Examples:
+1. **Jev-like models are a System One decision layer, not a model swap.** The winning architecture is always the same: *code builds the candidates, the decision model picks or scores, code acts*. An LLM is called only for text or open reasoning. Examples:
    - Browser agents let the model choose the element and use an LLM only to type.
    - Games give the model the legal moves.
    - Extraction lets regex find spans and the model *select* one.
@@ -212,13 +208,13 @@ The same lessons show up again and again across the lists. Most measurements wer
 7. **It is not a security boundary.** Typed output blocks *format* attacks, not *decision* manipulation. Blunt injected commands mostly fail. **Evidence-shaped** text flips decisions: fake approvals, editor's notes and fluent context flipped 61% of correct answers in JevOut, and 65–73% on open clones. Put deterministic rules first, keep humans on irreversible actions, and track taint.
 8. **Audit what tools send.** Hands-on audits found community tools leaking secrets, sending `.pem` files and screenshots, exposing keys, and **failing open** on API errors. Check data egress and fail-closed behaviour before installing.
 9. **Coding agents are the dominant use case.** The largest clusters across all lists are context compaction, model/effort routing, tool-call gates, "done" verification, and skill/rule pruning. Compaction is the most *contested* of these: several careful evaluations (Hermes Agent, jev-use) did not adopt it.
-10. **Classical baselines are still strong.** Trained small classifiers (bge-small + LR at 93% on Banking77, TF-IDF on spam) and regex often match or beat decision models. The model family's durable edges are **zero training, cost, latency, and robustness under distribution drift**: on drifted spam, Jev held at 97.3% while TF-IDF fell to 72.5%.
+10. **Classical baselines are still strong.** Trained small classifiers (bge-small + LR at 93% on Banking77, TF-IDF on spam) and regex often match or beat decision models. The durable edges of System One models are **zero training, cost, latency, and robustness under distribution drift**: on drifted spam, Jev held at 97.3% while TF-IDF fell to 72.5%.
 11. **The family grew fast, but "compatible" ≠ "equivalent".** Within days, dozens of open models and `/v1/systemone` servers appeared (Laya, Kev, SemIf, NanoJev, Decider, Ollaya), followed by hosted alternatives (Mercury Decide, Liquid d1, Solar Decide). The shared schema makes them drop-ins for your *code*, not for each other's accuracy or calibration. Most "beats Jev" claims are in-distribution, so measure on your own data.
 12. **Most of the evidence is young.** Nearly all numbers are author-reported, small-n, and from the family's first weeks, and the ~29 arXiv papers are unreplicated preprints. The best lists label every number (vendor / author-reported / independent), and this one does too.
 
 ## Reference docs and SDKs
 
-Jev's documentation is the most complete public description of the `/v1/systemone` interface: its question types, confidence semantics, composition patterns and cookbooks. Because Jev-like models share the schema, most of it applies across the family.
+Jev's documentation is the most complete public description of the `/v1/systemone` interface: its question types, confidence semantics, composition patterns and cookbooks. Because Jev-like models share the schema, most of it applies to every System One model.
 
 **Interface docs**
 - [API reference](https://docs.typesafe.ai/api) `📚31` — `POST /v1/systemone`, with request and answer shapes for all three primitives. The full [docs index (llms.txt)](https://docs.typesafe.ai/llms.txt) `📚22` is also available.
@@ -266,30 +262,30 @@ Hand-picked from the consensus of the source lists: mostly entries cited by many
 
 ### Jev-like models: hosted, open and local
 
-The model family itself. Many members serve `/v1/systemone`, so the same client code works across them. [docs/open-models.md](docs/open-models.md) maps the landscape and its caveats.
+The System One model family itself. Many members serve `/v1/systemone`, so the same client code works across them. [docs/open-models.md](docs/open-models.md) maps the landscape and its caveats.
 
 **Hosted**
 - [Mercury Decide](https://openrouter.ai/inception/mercury-decide:free) (Inception) — A structured decision model on OpenRouter, **free**, with a 32K context and the `/v1/systemone` schema. See the [Quick Start](#quick-start-jev-like-inference-for-free).
 - [Jev](docs/what-is-jev.md) (TypeSafe) — The original and most-tested model, with a [reference](docs/what-is-jev.md).
 - [Liquid AI d1](https://docs.liquid.ai/lfm/models/decision-models) — Serves `/decisions/v1/systemone` and has a free tier. Reportedly #1 on the Jev Decision Index.
 - [Upstage Solar Decide](https://console.upstage.ai/api/systemone) — Same schema, 512K context.
-- [Respan Span-01](https://openrouter.ai/respan/span-01) — A behaviour-monitoring decision model.
+- [Respan Span-01](https://openrouter.ai/respan/span-01) — A System One model for behaviour monitoring.
 - The OpenAI Decisions API (Luna, preview).
 
 **Open and local**
 
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) `★29,237 · 📚38` — Convai's Apache-2.0 non-autoregressive encoder (421M/322M, 100+ languages, ~33 ms). Runtimes: [laya-mlx](https://github.com/mizorewww/laya-mlx) `★6,654 · 📚23` (7–14 ms on M3 Max) and [receptron/laya](https://github.com/receptron/laya) `★661 · 📚20` (Node/ONNX).
-- [jaredpalmer/kev](https://github.com/jaredpalmer/kev) `★8,057 · 📚57` — A trainable Jev-like family on Qwen3.5/3.8 with a pointer head and a `/v1/systemone` server.
+- [jaredpalmer/kev](https://github.com/jaredpalmer/kev) `★8,057 · 📚57` — A trainable family of System One models on Qwen3.5/3.8 with a pointer head and a `/v1/systemone` server.
 - [TheoLeeCJ/SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) `★4,615 · 📚63` — "Semantic ifs" from open models on a 3090, using shared-prefix logit readout.
 - [TianyuCodings/NanoJev](https://github.com/TianyuCodings/NanoJev) `★2,453 · 📚60` · [vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike) `★1,335 · 📚57` · [Mapika/decider](https://github.com/Mapika/decider) `★993 · 📚45` · [bespokelabsai/nimble](https://github.com/bespokelabsai/nimble) `★1,981 · 📚21` · [wfzyx/von](https://github.com/wfzyx/von) `★794 · 📚48` — Trained replicas and recipes (0.4B–35B), several with published limits.
 - [nokia-applied-research/AnyJev](https://github.com/nokia-applied-research/AnyJev) `★986 · 📚32` · [featherless-ai/simple-jev](https://github.com/featherless-ai/simple-jev) `★575 · 📚40` · [razorback16/openjev](https://github.com/razorback16/openjev) `★548 · 📚49` · [ekzhang/openjev-sglang](https://github.com/ekzhang/openjev-sglang) `★335 · 📚48` · [githubnext/localjev](https://github.com/githubnext/localjev) `★803 · 📚16` — Turn any open LLM into a decision endpoint, with no training. AnyJev adds option-order correction.
-- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) `★1,032 · 📚24` — "Ollama for decision models". It serves Laya, Decider, NLI and GLiClass behind a `/v1/systemone`-compatible API.
+- [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) `★1,032 · 📚24` — "Ollama for decision models": it runs open System One models locally. It serves Laya, Decider, NLI and GLiClass behind a `/v1/systemone`-compatible API.
 - Trackers: [HF Jev Reproductions Tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker) · [Jev Decision Index](https://huggingface.co/spaces/multimodalart/jev-decision-index)
 - → [catalog/open-models.md](catalog/open-models.md)
 
 ### Framework and platform integrations
 
-Decision models landed inside mainstream frameworks within days of Jev's launch, usually as a new `evaluate` / `decide` / `classify` model type alongside `generate`. Most of these integrations target the shared `/v1/systemone` shape.
+System One decision models landed inside mainstream frameworks within days of Jev's launch, usually as a new `evaluate` / `decide` / `classify` model type alongside `generate`. Most of these integrations target the shared `/v1/systemone` shape.
 
 - [vercel/ai](https://github.com/vercel/ai) `★27,056 · 📚7` — The AI SDK's decision-model provider maps Choice, Score and Boolean onto `experimental_evaluate`.
 - [vercel/eve](https://github.com/vercel/eve) `★5,426 · 📚28` — Vercel's agent framework. A decision model (Jev by default) powers its `evaluate` path and its tool-approval policies.
@@ -373,7 +369,7 @@ Every major language had a community SDK within a week. Check the last commit da
 - [kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills) `★932 · 📚42` — The most complete decision-model-in-the-agent-loop pack: routing, memory, compaction, skill selection, and computer and browser use (Hermes, Claude Code, Codex).
 - [wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill) `★554 · source list` — Five skills, a `jev-decide` CLI, 108 agent-supervision scenarios, and honest evals, including a negative agent result.
 - [Dicklesworthstone/skillranker](https://github.com/Dicklesworthstone/skillranker) `★125 · 📚49` · [ShivamPansuriya/jev-skill-gate](https://github.com/ShivamPansuriya/jev-skill-gate) `★7 · 📚24` · [GodsBoy/jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) `★23 · 📚33` · [EliaAlberti/jev-rules](https://github.com/EliaAlberti/jev-rules) `★62 · 📚27` — Show the agent only the skills and rules the current turn needs, and allow "none". jev-skill-gate cuts the skill manifest by ~75%.
-- [shitianfang/jev-use](https://github.com/shitianfang/jev-use) `★33 · 📚34` — Hands agent steps that need no text output to a decision model (p50 ~230 ms). Its compaction and agreement evals are published.
+- [shitianfang/jev-use](https://github.com/shitianfang/jev-use) `★33 · 📚34` — Hands agent steps that need no text output to a System One model (p50 ~230 ms). Its compaction and agreement evals are published.
 - [altryne/jevify](https://github.com/altryne/jevify) `★36 · 📚30` · [samtay32/jev-system-architect](https://github.com/samtay32/jev-system-architect) `★2 · 📚23` — Audit a codebase for fuzzy judgments that could become typed decision points.
 - [aitofy-dev/jev-awesome-skills](https://github.com/aitofy-dev/jev-awesome-skills) `★2 · source list` · [Pleo2/awesome-jev-agent-skills](https://github.com/Pleo2/awesome-jev-agent-skills) `★0 · source list` — Ready-made proceed/ask/stop gates, triage, diff review and QA-evidence skills.
 - → [catalog/skills.md](catalog/skills.md)
@@ -511,7 +507,7 @@ Summarized with numbers in [docs/evidence.md](docs/evidence.md).
 
 ## Research papers
 
-~35 papers on Jev and Jev-like models appeared within two weeks, all unreplicated preprints. The full annotated list is in [docs/papers.md](docs/papers.md).
+~35 papers on Jev and other System One models appeared within two weeks, all unreplicated preprints. The full annotated list is in [docs/papers.md](docs/papers.md).
 
 - [Jev in the Wild](https://arxiv.org/abs/2609.30216) `📚18` — An ecosystem survey of 2,170 GitHub projects.
 - [JEV-as-a-Judge](https://arxiv.org/abs/2609.26550) `📚7` · [JEV vs. LLMs as Rubric Judges](https://arxiv.org/abs/2609.29769) `📚5` — Jev comes within ~3 pts of GPT-6 at ~0.36% of the cost, but LLMs repeat its confident errors, which caps cascade gains.
