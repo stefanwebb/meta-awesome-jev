@@ -1,6 +1,8 @@
 # What Jev Is: A Reconciled Reference
 
-> The facts about Jev that the 106 source lists agree on, where they disagree, and which version to trust. Snapshot as of **2026-09-30**. Official pages change fast, so treat [docs.typesafe.ai/models](https://docs.typesafe.ai/models) and [the API reference](https://docs.typesafe.ai/api) as the final word.
+> Jev was the first Jev-like model and is still the most-tested one; its docs define the `/v1/systemone` interface that the rest of the family copies. For the wider family, see [open-models.md](open-models.md).
+>
+> This page covers the facts about Jev that the 106 source lists agree on, where they disagree, and which version to trust. Snapshot as of **2026-09-30**. Official pages change fast, so treat [docs.typesafe.ai/models](https://docs.typesafe.ai/models) and [the API reference](https://docs.typesafe.ai/api) as the final word.
 
 [← back to the main list](../README.md)
 

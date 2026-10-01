@@ -1,6 +1,6 @@
-# The Evidence: What Independent Testing Says About Jev
+# The Evidence: What Independent Testing Says About Jev-like Models
 
-> A digest of the measurements scattered across the 106 source lists: benchmarks, calibration audits, robustness probes, security studies, and the negative results that most lists bury.
+> A digest of the measurements scattered across the 106 source lists. Most of them were taken on Jev, the first and most-tested Jev-like model; where open or other hosted models were measured, the page says so. The digest covers benchmarks, calibration audits, robustness probes, security studies, and the negative results that most lists bury.
 >
 > **How to read this page.**
 > - Nearly every number below is **author-reported**. It comes from a single person or team, usually with a small n, run within two weeks of launch, and almost always on `jev-1.13.0`. Very little has been replicated.

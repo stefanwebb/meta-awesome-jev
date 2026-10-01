@@ -1,6 +1,6 @@
 # Unresolved Links
 
-GitHub links cited by ≥5 source lists that returned a non-200 status on 2026-09-30 (deleted, made private, or never existed). Kept for auditability; excluded from the catalog.
+GitHub links cited by ≥5 source lists that returned a non-200 status on 2026-10-01 (deleted, made private, or never existed). Kept for auditability; excluded from the catalog.
 
 - `https://github.com/eriestra/almond-fastloop` — 📚12 — Almond-fastloop: Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), y el parámetro Browser Use Olympics se mide en.
 - `https://github.com/trophee-bot/typesafe-oracles` — 📚11 — typesafe-oracles — Evaluating TypeSafe's System One primitives (Choice/Score/Noul) — where a typed oracle beats an LLM call

@@ -1,8 +1,8 @@
-# Open Replications, Local Inference & Jev-like Models
+# Jev-like Models: Open, Local & Hosted
 
-> Open-weight re-implementations, distillations, local servers (vLLM, SGLang, MLX, llama.cpp) and Jev-style decision heads.
+> The model family: open-weight decision models, distillations, local /v1/systemone servers (vLLM, SGLang, MLX, llama.cpp) and decision heads.
 >
-> **1,118 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+> **1,118 entries** · generated 2026-10-01 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
 
 **Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
 

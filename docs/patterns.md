@@ -1,6 +1,6 @@
-# Building with Jev: Patterns, Practices and Anti-patterns
+# Building with Jev-like Models: Patterns, Practices and Anti-patterns
 
-> Design guidance that recurs across the 106 source lists, the official docs and cookbooks, and the independent studies, consolidated and de-duplicated. Where a practice is backed by a measurement, the number is given with a link.
+> Design guidance for any `/v1/systemone`-style decision model (Jev, Mercury Decide, Liquid d1, Laya, Kev, Decider and others). It recurs across the 106 source lists, the official docs and cookbooks, and the independent studies, consolidated and de-duplicated. Where a practice is backed by a measurement, the number is given with a link. Most measurements were taken on Jev, the first and most-tested model, so re-validate them on the model you use.
 
 [← back to the main list](../README.md)
 
@@ -20,7 +20,7 @@
 
 ## The core mental model
 
-> **"Jev decides, the LLM writes, code acts."**
+> **"The decision model decides, the LLM writes, code acts."**
 > Another phrasing: **"Classifier chooses, code establishes facts, writer only writes."**
 
 The lists converge on a three-way division of labour:
@@ -28,7 +28,7 @@ The lists converge on a three-way division of labour:
 | Layer | Owns | Examples |
 |---|---|---|
 | **Code** | control flow, candidate generation, arithmetic, dates, counting, thresholds, permissions, side effects, logging | legal chess moves, DOM element tables, regex candidate spans, `if p > 0.9: act()` |
-| **Jev (System One)** | bounded, repeated, latency-sensitive judgments over messy text | which tool? is this done? which department? is this relevant? how risky? |
+| **Jev-like model (System One)** | bounded, repeated, latency-sensitive judgments over messy text | which tool? is this done? which department? is this relevant? how risky? |
 | **LLM (System Two)** | open-ended reasoning, planning, writing, explanations, generating new candidates | writes the reply, plans the next subgoal, handles the escalated slice |
 
 Other phrasings from the lists:

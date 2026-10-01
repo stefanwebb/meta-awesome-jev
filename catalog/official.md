@@ -1,8 +1,8 @@
-# Official TypeSafe Resources
+# Reference Docs & SDKs (Jev)
 
-> Docs, SDKs, cookbooks, console, evals and blog posts published by TypeSafe.
+> The /v1/systemone reference: docs, SDKs, cookbooks and evals published alongside Jev, the first Jev-like model.
 >
-> **131 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+> **131 entries** · generated 2026-10-01 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
 
 **Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
 

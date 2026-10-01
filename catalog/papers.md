@@ -1,8 +1,8 @@
 # Research Papers
 
-> arXiv and other papers about Jev, System One models, and the calibration / routing literature they build on.
+> arXiv and other papers about Jev-like (System One) decision models, and the calibration / routing literature they build on.
 >
-> **232 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+> **232 entries** · generated 2026-10-01 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
 
 **Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
 

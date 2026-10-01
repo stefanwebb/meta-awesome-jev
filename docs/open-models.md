@@ -1,6 +1,6 @@
-# Open Replications, Local Runtimes and Competitors
+# Jev-like Models: Open, Local and Hosted
 
-> Jev is closed-weight and hosted-only. Within **48 hours** of launch, the community began shipping open "Jev-like" decision models and `/v1/systemone`-compatible servers. Latent Space counted 6 clones in 2 days, another count found 11 clones with 10k+ stars within 5 days, and the source lists now track 400+ repos. This page maps that landscape.
+> Jev-like (System One) decision models take a state plus typed questions and return calibrated choices, scores and yes/no probabilities. Jev, the first of them, is closed-weight and hosted-only. Within **48 hours** of its launch, the community began shipping open "Jev-like" decision models and `/v1/systemone`-compatible servers. Latent Space counted 6 clones in 2 days, another count found 11 clones with 10k+ stars within 5 days, and the source lists now track 400+ repos. This page maps that landscape.
 >
 > ★ = GitHub stars verified 2026-09-30 · 📚 = number of source lists citing it. Benchmark numbers are **self-reported by each project** unless linked to an independent study.
 
@@ -85,10 +85,12 @@ A "Jev in 25 lines" explainer ([nobodywho](https://www.nobodywho.ai/posts/jev-in
 | [chengyongru/fastjev](https://github.com/chengyongru/fastjev), [chaitin/Decis](https://github.com/chaitin/Decis), [us/jev-local](https://github.com/us/jev-local), [yzfly/edgejev](https://github.com/yzfly/edgejev) | | | Self-hosted multi-backend System One APIs; EdgeJev is CPU/ONNX INT8. Use QInt8, not QUInt8, on x86 VNNI, because dynamic int8 makes outputs batch-dependent. |
 | [mandu5/jevcompat](https://github.com/mandu5/jevcompat) | | 6 | **Conformance suite** for Jev-compatible servers: spec, runner, proxy, mock, GitHub Action |
 
-## Hosted competitors
+## Hosted Jev-like models
 
 | Model | Vendor | Notes |
 |---|---|---|
+| **[Mercury Decide](https://openrouter.ai/inception/mercury-decide:free)** | Inception (2026-09-30) | A structured decision model on OpenRouter as `inception/mercury-decide:free`. **Free** for input and output (rate-limited), 32,768-token context, ~0.42 s p50, up to ~14 decisions per second, and the same `/v1/systemone` schema. It runs on OpenRouter's Decisions API (`/api/alpha/decisions`), not chat completions. See the [free quick start](../README.md#quick-start-jev-like-inference-for-free). |
+| **Jev** | TypeSafe (2026-09-15) | The original model and the most-tested one: $0.042/1M input tokens, output free. See the [reference](what-is-jev.md). |
 | **OpenAI Decisions API** | OpenAI (DevDay 2026, limited preview) | Luna-based; text and image with a fixed answer set; ~150–230 ms; no pricing at preview ([The New Stack](https://thenewstack.io/openai-decision-api-luna/)). Beat Jev on some Every tests (76/78 vs 73/78) and lost others. |
 | **Liquid AI d1** | Liquid AI (2026-09-29) | Serves `POST /decisions/v1/systemone` and works with the TypeSafe SDKs; free tier `d1:free`; reportedly #1 on the Jev Decision Index ([docs](https://docs.liquid.ai/lfm/models/decision-models)) |
 | **Solar Decide** | Upstage | Same `/v1/systemone` schema; 512K context; Choice limited to 26 single-token letters ([console](https://console.upstage.ai/api/systemone)) |

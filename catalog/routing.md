@@ -2,7 +2,7 @@
 
 > Model routers, confidence-gated cascades, triage and dispatch layers.
 >
-> **1,053 entries** · generated 2026-09-30 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
+> **1,053 entries** · generated 2026-10-01 from 106 source lists · [← catalog index](README.md) · [← main list](../README.md)
 
 **Legend:** `📚N` = cited by N independent source lists (the consensus signal) · `★N` = GitHub stars when verified on the pull date. Entries are auto-categorized; one entry lives in exactly one category.
 
